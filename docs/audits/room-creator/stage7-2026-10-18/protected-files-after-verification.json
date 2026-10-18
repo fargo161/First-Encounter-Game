@@ -1,0 +1,17 @@
+{
+  "result": "PASS",
+  "checked_utc": "2026-10-18T16:50:37.246586+00:00",
+  "canonical_repository_files_unchanged_before_documentation": 3228,
+  "canonical_membership_unchanged": true,
+  "canonical_Room_Creator_baseline_files_unchanged": 383,
+  "canonical_Room_Creator_Git_metadata_files_unchanged": 1,
+  "canonical_Encounter_files_unchanged": 2731,
+  "original_files_checked": 6722,
+  "preservation_copies_checked": 6722,
+  "original_hashes_sizes_mtimes_match": true,
+  "excluded_original_caches_unchanged": 4,
+  "disposable_production_test_code_and_example_files_checked": 90,
+  "disposable_library_checksum_files_unchanged": 2753,
+  "unchanged_copied_independent_scripts": 13,
+  "errors": []
+}

@@ -1,0 +1,555 @@
+{
+  "schema": "first-encounter-stage7-verification@1",
+  "created_utc": "2026-10-18T16:52:32.113681+00:00",
+  "verdict": "PASS WITH HOLD PRESERVED",
+  "product_status": "HOLD_FOR_FURTHER_REMEDIATION",
+  "baseline": {
+    "source_commit": "3b9d1cfe9daff13bcb89dd6672ad58e65add7356",
+    "version": "0.14.1 held remediation candidate",
+    "files": 383,
+    "bytes": 201955025,
+    "tree_sha256": "63521f0d9068de3e4da40cd8ec4573d17b26481aa6557a908caaa8d10a4c485b",
+    "canonical_Git_only_metadata_files": 1,
+    "checkpoint_zip_sha256": "9b9cd3e9220edbdffbd836154b44d69b5527aa8b0d74300ad546f868a18da78d",
+    "html_sha256": "a4e8a14ddc4d734c036902f56b1a7d7bb8a157a77ef3911b97ea70c76f228c97"
+  },
+  "environment": {
+    "started_utc": "2026-10-18T16:33:36.409439+00:00",
+    "source_commit": "3b9d1cfe9daff13bcb89dd6672ad58e65add7356",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python_executable": "C:\\Users\\mcdon\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "python": "Python 3.12.14",
+    "node_executable": "C:\\Users\\mcdon\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\bin\\node.exe",
+    "node": "v24.19.0",
+    "python_dependency_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\rc014-audit\\python-deps",
+    "playwright": "1.56.0",
+    "Pillow": "12.3.0",
+    "chrome_executable": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+    "chrome_version": "155.0.8059.41",
+    "browser_graphics": "ANGLE SwiftShader using preserved runner adapter",
+    "canonical_source_execution": false,
+    "browser_version_observed": "155.0.8059.41",
+    "independent_browser_mode": "headed via separate adapter; supplied checks retain their documented launch settings"
+  },
+  "supplied": {
+    "runner_entries": 32,
+    "all_exit_zero": true,
+    "inherited_Node_suites": 10,
+    "inherited_assertions_passed": 297,
+    "remediation_core_cases_passed": 11,
+    "browser_regression_checks_passed": 45,
+    "asset_acceptance_checks_passed": 60,
+    "model_loads_passed": 327,
+    "demo_integration_checks_passed": 4,
+    "observational_scripts": 16
+  },
+  "independent_suites": [
+    {
+      "file": "original-prior-data-probes.json",
+      "total": 7,
+      "passed": 3,
+      "failed": 4,
+      "failure_names": [
+        "Deleting an empty intermediate story shifts 3D props with their room",
+        "Forced story deletion removes its 3D props",
+        "A story containing only 3D props is treated as occupied",
+        "Room deletion removes a 3D prop when no floor remains"
+      ],
+      "classification": "old-version negative control"
+    },
+    {
+      "file": "candidate-prior-data-probes.json",
+      "total": 7,
+      "passed": 7,
+      "failed": 0,
+      "failure_names": [],
+      "classification": "current baseline independent checks"
+    },
+    {
+      "file": "original-prior-browser-probes.json",
+      "total": 8,
+      "passed": 2,
+      "failed": 6,
+      "failure_names": [
+        "Deleting a model setup preserves placed object pose",
+        "Importing conflicting setups preserves existing model setup and pose",
+        "Tiny drag of elevated Use Point preserves its plan position",
+        "Round collision does not occlude empty corner outside the circle",
+        "Missing palette reference is visible for repair",
+        "Starting a new project releases object texture cache"
+      ],
+      "classification": "old-version negative control"
+    },
+    {
+      "file": "candidate-prior-browser-probes.json",
+      "total": 8,
+      "passed": 8,
+      "failed": 0,
+      "failure_names": [],
+      "classification": "current baseline independent checks"
+    },
+    {
+      "file": "additional-lifecycle-results.json",
+      "total": 5,
+      "passed": 5,
+      "failed": 0,
+      "failure_names": [],
+      "classification": "current baseline independent checks"
+    }
+  ],
+  "known_defect": {
+    "id": "ROOM_CREATOR_V0141_R1",
+    "scope": "18-case independent adversarial suite",
+    "passed": 16,
+    "failed": 2,
+    "failure_names": [
+      "F5 manifest-known missing palette file has explicit object repair warning",
+      "F5 manifest-known missing texture file has explicit object repair warning"
+    ],
+    "repaired_or_weakened": false,
+    "classification": "Known pre-existing product defect; not migration regression",
+    "observed": "Manifest records remain present, global file check identifies absent images, image cache marks failed loads, appearance resolver returns [], fallback embedded image renders, references/custom metadata survive reopen."
+  },
+  "examples": {
+    "full_normalized_browser_round_trips": 11,
+    "all_match_independent_Node_digests": true,
+    "full_prior_v0131_maps_byte_identical": 10,
+    "all_shipped_maps_byte_identical_after_testing": 11
+  },
+  "reproducibility": {
+    "result": "PASS",
+    "rebuilt_html_sha256": "a4e8a14ddc4d734c036902f56b1a7d7bb8a157a77ef3911b97ea70c76f228c97",
+    "rebuilt_html_bytes": 1615201,
+    "packages": [
+      {
+        "file": "outputs\\reproduced-candidate-1.zip",
+        "bytes": 202047247,
+        "sha256": "9b9cd3e9220edbdffbd836154b44d69b5527aa8b0d74300ad546f868a18da78d",
+        "matchesDelivered": true
+      },
+      {
+        "file": "outputs\\reproduced-candidate-2.zip",
+        "bytes": 202047247,
+        "sha256": "9b9cd3e9220edbdffbd836154b44d69b5527aa8b0d74300ad546f868a18da78d",
+        "matchesDelivered": true
+      }
+    ]
+  },
+  "LF_CRLF_builds": {
+    "passed": true,
+    "builds": [
+      {
+        "sourceNewlines": "LF",
+        "outputSHA256": "a4e8a14ddc4d734c036902f56b1a7d7bb8a157a77ef3911b97ea70c76f228c97",
+        "bytes": 1615201
+      },
+      {
+        "sourceNewlines": "CRLF",
+        "outputSHA256": "a4e8a14ddc4d734c036902f56b1a7d7bb8a157a77ef3911b97ea70c76f228c97",
+        "bytes": 1615201
+      }
+    ]
+  },
+  "generated_demo": {
+    "propCount": 69,
+    "points": 24,
+    "preserved": {
+      "routeNet": true,
+      "stories": true,
+      "stairs": true,
+      "floorCuts": true,
+      "pairs": true,
+      "links": true
+    },
+    "propPlacementAndMetadataEqual": true,
+    "uniqueModels": 50,
+    "generated_file_sha256": "2560b9bd0f53e03a9ea9bba239c56323fc79534d43cc725c2eca02490769bfc4",
+    "byte_identical_to_shipped_map": false,
+    "comparison_scope": "Normalized placement/collision/gameplay/point records and route/stories/stairs/floorCuts/pairs/links; generated appearance IDs and image serialization may differ."
+  },
+  "route_verification": {
+    "result": "PASS",
+    "scenario_count": 27,
+    "exact_preserved_data_equal": false,
+    "scenario_measurements_equal": true,
+    "protected_rule_counters_zero": true,
+    "counter_names": [
+      "spawnInView",
+      "despawnInView",
+      "carDespawnInView",
+      "nodeConflicts",
+      "sameDirectionOvertakes"
+    ],
+    "metadata_keys": [
+      "flicker",
+      "errors"
+    ],
+    "differences": [
+      "errors"
+    ],
+    "fresh_console_errors": [],
+    "preserved_console_errors": [
+      "Failed to load resource: the server responded with a status of 404 (File not found)"
+    ],
+    "flicker_metadata_equal": true
+  },
+  "dependency": {
+    "library_archive_sha256": "4cf39cb712d55e866a593ad12394efec891d5ae3ac14dfd35d932b32bd8b1241",
+    "extracted_files": 2754,
+    "checksums_verified_before_and_after": 2753,
+    "models": 327,
+    "surface_textures": 1043,
+    "palettes": 3,
+    "unverified_vehicle_license_flags_retained": 29,
+    "raw_library_ingested_into_Git": false
+  },
+  "integrity": {
+    "result": "PASS",
+    "checked_utc": "2026-10-18T16:50:37.246586+00:00",
+    "canonical_repository_files_unchanged_before_documentation": 3228,
+    "canonical_membership_unchanged": true,
+    "canonical_Room_Creator_baseline_files_unchanged": 383,
+    "canonical_Room_Creator_Git_metadata_files_unchanged": 1,
+    "canonical_Encounter_files_unchanged": 2731,
+    "original_files_checked": 6722,
+    "preservation_copies_checked": 6722,
+    "original_hashes_sizes_mtimes_match": true,
+    "excluded_original_caches_unchanged": 4,
+    "disposable_production_test_code_and_example_files_checked": 90,
+    "disposable_library_checksum_files_unchanged": 2753,
+    "unchanged_copied_independent_scripts": 13,
+    "errors": []
+  },
+  "findings": {
+    "migration_regressions": [],
+    "new_baseline_defects": [],
+    "known_product_defects": [
+      "ROOM_CREATOR_V0141_R1"
+    ],
+    "known_prototype_limitations": [
+      "Single/coarse collision primitive and 12-sided round approximation",
+      "Lower-story wall imagery overlaps upstairs views",
+      "Project-local setup calibration; limited look/setup conflict UX",
+      "No instancing/LOD/stacking/snapping/multi-selection",
+      "Unfinished NPC card art/facing; gameplay tags and Use Points are data-only",
+      "Long-duration cache/performance, native remembered-directory permissions, other browsers and native Linux/macOS not certified"
+    ],
+    "environment_failures": [],
+    "environment_adaptations": [
+      "Preserved historical absolute path prefixes relocated in memory by separate adapters; no stored test or production source edit or assertion change.",
+      "Preserved launch adapter selects installed Chrome/ANGLE SwiftShader; independent probes use headed defaults.",
+      "Optional prior-v0.12 comparison omitted under supported runner behavior; full v0.13.1 reference used."
+    ],
+    "console_observations": {
+      "asset_acceptance_resource_404_messages": 6,
+      "asset_acceptance_uncaught_page_errors": 0,
+      "route_fresh_console_errors": [],
+      "route_preserved_console_errors": [
+        "Failed to load resource: the server responded with a status of 404 (File not found)"
+      ],
+      "note": "Resource 404 messages are retained from missing-reference fixture exercises. Scenario measurements/flicker match; only the old route console 404 is absent."
+    }
+  },
+  "scope": {
+    "canonical_Room_Creator_changed": false,
+    "canonical_Encounter_changed": false,
+    "originals_changed": false,
+    "known_defect_repaired": false,
+    "ZANT_imported": false,
+    "stage8_started": false,
+    "integration_shared_contracts_Unity_LFS_added": false,
+    "legacy_repository_history_or_content_imported": false
+  },
+  "private_evidence_root": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-7-verification-2026-10-18",
+  "next_action": "Review this result and HOLD. Any Stage 8 scope requires explicit new authorization. Room Creator promotion needs separate versioned R1 remediation and independent re-verification.",
+  "repository_evidence": [
+    {
+      "path": "docs/audits/room-creator/stage7-2026-10-18/LF-CRLF-build-reproduction.json",
+      "bytes": 353,
+      "sha256": "218cfc1989a7f18a0550020f4e6b93ceb21c4790a5cebeb166c49d35cad05181"
+    },
+    {
+      "path": "docs/audits/room-creator/stage7-2026-10-18/adaptations/adversarial.py.json",
+      "bytes": 684,
+      "sha256": "9be27e527fe9dac7010b704f86100b3672838b9d6781b3a2374d1db638bc8de4"
+    },
+    {
+      "path": "docs/audits/room-creator/stage7-2026-10-18/adaptations/candidate-prior-browser.py.json",
+      "bytes": 696,
+      "sha256": "0ab329d8d3c7317ace25897d720db126109be4818da770ac31dff43e9ad3febf"
+    },
+    {
+      "path": "docs/audits/room-creator/stage7-2026-10-18/adaptations/candidate-prior-data.cjs.json",
+      "bytes": 663,
+      "sha256": "4cedd718f927b7b6af0e8d646478b7f07382429744534e00810ffa3efba6acbd"
+    },
+    {
+      "path": "docs/audits/room-creator/stage7-2026-10-18/adaptations/compare-generated.cjs.json",
+      "bytes": 660,
+      "sha256": "e5c08a35df92dc9e46b84be85988637060f8a0df67754ff4367433c7cbdc4207"
+    },
+    {
+      "path": "docs/audits/room-creator/stage7-2026-10-18/adaptations/lifecycle.py.json",
+      "bytes": 682,
+      "sha256": "b1c4ea3c14b1330e285984e286279548868346f09f2e4107206d26f9ce8a6a53"
+    },
+    {
+      "path": "docs/audits/room-creator/stage7-2026-10-18/adaptations/original-loader.py.json",
+      "bytes": 688,
+      "sha256": "f3fe2cf259ede381b12f65cea96e16c5ae8f63ba149641e860c8526801d256a2"
+    },
+    {
+      "path": "docs/audits/room-creator/stage7-2026-10-18/adaptations/original-prior-browser.py.json",
+      "bytes": 695,
+      "sha256": "65e7bfc2da7b2cfa17f336a90735afbf33bd0d2dea0bb2d43052acc606f59347"
+    },
+    {
+      "path": "docs/audits/room-creator/stage7-2026-10-18/adaptations/original-prior-data.cjs.json",
+      "bytes": 662,
+      "sha256": "3734813e77806408a294bd633fc314915100bc007270883fcb2a524b31f06a53"
+    },
+    {
+      "path": "docs/audits/room-creator/stage7-2026-10-18/adaptations/stage7-example-review.py.json",
+      "bytes": 694,
+      "sha256": "f962cc57b37b202647cc0d2856bad0603fa1c3a6d15ccbbaaac1091339b2e274"
+    },
+    {
+      "path": "docs/audits/room-creator/stage7-2026-10-18/additional-lifecycle-results.json",
+      "bytes": 8802,
+      "sha256": "5271ac7c7c91907afadaff98a67b3efd3bb9456d6e3597fbbdfe8dcfdb0ae461"
+    },
+    {
+      "path": "docs/audits/room-creator/stage7-2026-10-18/adversarial-results.json",
+      "bytes": 40419,
+      "sha256": "20830dfcdd39c5935d4b8f8235161528d33dd268dfa57d91e63bd2d38d9c728e"
+    },
+    {
+      "path": "docs/audits/room-creator/stage7-2026-10-18/asset-acceptance-results.json",
+      "bytes": 24133,
+      "sha256": "7dfd964e89ee09ce2bae5a936ecacbeadc1a2b1f5afb813fe858949824693b86"
+    },
+    {
+      "path": "docs/audits/room-creator/stage7-2026-10-18/baseline-map-comparisons.json",
+      "bytes": 1633,
+      "sha256": "9fd0760c30560a0a1568aa02a7dc399209ff0428a04691df4d4b211557b1c802"
+    },
+    {
+      "path": "docs/audits/room-creator/stage7-2026-10-18/candidate-prior-browser-probes.json",
+      "bytes": 7868,
+      "sha256": "53b8d859708cca5cd5a5eea719bdc1482736f183641f1aa974313dff5c7bdea2"
+    },
+    {
+      "path": "docs/audits/room-creator/stage7-2026-10-18/candidate-prior-data-probes.json",
+      "bytes": 4774,
+      "sha256": "5f1f7e9225052fddc2dbc15f9c6a619a68165ddf8a3f9e201fad1582777771de"
+    },
+    {
+      "path": "docs/audits/room-creator/stage7-2026-10-18/command-results-independent.json",
+      "bytes": 8015,
+      "sha256": "0a9a69bd15bbc8112657220e4dc8a8baeda81324d48e35251b9d67aeb5d31c6f"
+    },
+    {
+      "path": "docs/audits/room-creator/stage7-2026-10-18/command-results-supplied.json",
+      "bytes": 6130,
+      "sha256": "676e563b3ced9f8100cb0a9f02db9d70ed7df44556edd726c15cbd95e765301a"
+    },
+    {
+      "path": "docs/audits/room-creator/stage7-2026-10-18/demo-generation-run-index.json",
+      "bytes": 240,
+      "sha256": "b8d91ef3704fe09a0bf94e45f3e01a87f2563f9d8a2c809c13e59fe6e3d11d03"
+    },
+    {
+      "path": "docs/audits/room-creator/stage7-2026-10-18/demo-integration-summary.json",
+      "bytes": 439,
+      "sha256": "f51fb67dc06323eb180094bf8ca63c19362bb1e5bfd148b024dff641ec723094"
+    },
+    {
+      "path": "docs/audits/room-creator/stage7-2026-10-18/environment.json",
+      "bytes": 1031,
+      "sha256": "7f8394192063ac9f322128de17009ff262f57d17149ebd9b6107c85791e813e3"
+    },
+    {
+      "path": "docs/audits/room-creator/stage7-2026-10-18/example-expectations.json",
+      "bytes": 6710,
+      "sha256": "fbb93e74f5cf54ee14e0502223346aafdfc1c049c6a99914f91b51ba36bac45b"
+    },
+    {
+      "path": "docs/audits/room-creator/stage7-2026-10-18/generated-demo-comparison.json",
+      "bytes": 571,
+      "sha256": "410d39dc53d74ca882a35c2cca2a93116dfa82b931584b042f67cd8b6da2a36e"
+    },
+    {
+      "path": "docs/audits/room-creator/stage7-2026-10-18/independent-case-summary.json",
+      "bytes": 2035,
+      "sha256": "30e5a84f89b6fd5de5ef8d341f7e40a1ddc30e00541d8dfc685b24ed18f17850"
+    },
+    {
+      "path": "docs/audits/room-creator/stage7-2026-10-18/logs/01-independent-input-identity.log",
+      "bytes": 4664,
+      "sha256": "fe90e1a7040191a5621c95e50b8d86712de51947a03b90b87668378e5b63cd9b"
+    },
+    {
+      "path": "docs/audits/room-creator/stage7-2026-10-18/logs/02-rebuild-html.log",
+      "bytes": 41,
+      "sha256": "e9435484ad96bb13e4cc97a519bd32635d12ca8a65f2ec7c958e85d5637b9d0a"
+    },
+    {
+      "path": "docs/audits/room-creator/stage7-2026-10-18/logs/03-package-reproduction-1.log",
+      "bytes": 65,
+      "sha256": "33f3c7e2fb9fe0117e6f2868731e58df26988b7c159a4a62f841c76ebe13f2b7"
+    },
+    {
+      "path": "docs/audits/room-creator/stage7-2026-10-18/logs/03-package-reproduction-2.log",
+      "bytes": 65,
+      "sha256": "33f3c7e2fb9fe0117e6f2868731e58df26988b7c159a4a62f841c76ebe13f2b7"
+    },
+    {
+      "path": "docs/audits/room-creator/stage7-2026-10-18/logs/04-supplied-all.log",
+      "bytes": 7745,
+      "sha256": "5668e156ee2025f9eeeb503bb1e1d64cff06cacf1fbaa6d6ccd05894e5847b7c"
+    },
+    {
+      "path": "docs/audits/room-creator/stage7-2026-10-18/logs/05-demo-generation.log",
+      "bytes": 358,
+      "sha256": "1f7e0a0906dac114c78cb0a78be68d065216d64427d8f6cd3226b0d7ce6efeac"
+    },
+    {
+      "path": "docs/audits/room-creator/stage7-2026-10-18/logs/06-candidate-prior-data.cjs.log",
+      "bytes": 4775,
+      "sha256": "21666849ca25bf41c22fca8080bf145f3c42963bb9b62ab912721f1a7607089e"
+    },
+    {
+      "path": "docs/audits/room-creator/stage7-2026-10-18/logs/06-original-prior-data.cjs.log",
+      "bytes": 5502,
+      "sha256": "ba042e9e1f94c92b37068b810d73aff74f1279617361c4390414f2855c18fc52"
+    },
+    {
+      "path": "docs/audits/room-creator/stage7-2026-10-18/logs/07-adversarial.py.log",
+      "bytes": 1320,
+      "sha256": "838eeb034000cd9c05b48e459873006c48e0768d20da0ee0ed0faa1320bc8221"
+    },
+    {
+      "path": "docs/audits/room-creator/stage7-2026-10-18/logs/07-candidate-prior-browser.py.log",
+      "bytes": 3467,
+      "sha256": "ad6f736b11d955527b4eea575c68923256702d9df5333aca2a0ef4dde9fb876f"
+    },
+    {
+      "path": "docs/audits/room-creator/stage7-2026-10-18/logs/07-lifecycle.py.log",
+      "bytes": 8402,
+      "sha256": "3aea00eaafa3b8327608f85041dc4792a45bc5dfc8a22d37470f7beec877746f"
+    },
+    {
+      "path": "docs/audits/room-creator/stage7-2026-10-18/logs/07-original-loader.py.log",
+      "bytes": 289,
+      "sha256": "0806ea708aa53f14320a74a7087c5e36b6a61613244c02214a048f50005c09d0"
+    },
+    {
+      "path": "docs/audits/room-creator/stage7-2026-10-18/logs/07-original-prior-browser.py.log",
+      "bytes": 3455,
+      "sha256": "e944753a6a7956560e9cf2dceda2300bac6ac1f48ff89c62c944208bee52347c"
+    },
+    {
+      "path": "docs/audits/room-creator/stage7-2026-10-18/logs/08-browser-all-examples.log",
+      "bytes": 850,
+      "sha256": "0fdf86be55b44e22bf17bda8994321b744a250d1f8fd82a0114cf6669f8e100f"
+    },
+    {
+      "path": "docs/audits/room-creator/stage7-2026-10-18/logs/08-compare-generated.log",
+      "bytes": 224,
+      "sha256": "08416622a5f6d835692754514d26468a5d3a63deb40733cf9802c321e2716cda"
+    },
+    {
+      "path": "docs/audits/room-creator/stage7-2026-10-18/logs/independent-server.log",
+      "bytes": 36,
+      "sha256": "927de49da83d218d9abfb96fd3ebf60d225debf85cb0e101d7ee9ca5e0ef9640"
+    },
+    {
+      "path": "docs/audits/room-creator/stage7-2026-10-18/model-library-summary.json",
+      "bytes": 394,
+      "sha256": "5c407476cba3188426b148ba70261057f4f45bb67024abe41e846d9acd18edd5"
+    },
+    {
+      "path": "docs/audits/room-creator/stage7-2026-10-18/node-test-counts.json",
+      "bytes": 1880,
+      "sha256": "a54d6a4edbc1079e119caed5abdb442f158f70c88a418c2f9a04e4040a7a2c21"
+    },
+    {
+      "path": "docs/audits/room-creator/stage7-2026-10-18/original-loader-negative-control.json",
+      "bytes": 312,
+      "sha256": "5264e8d46f754158797e78d21d0326e14097de22a908193f06efc76355b4ebd2"
+    },
+    {
+      "path": "docs/audits/room-creator/stage7-2026-10-18/protected-files-after-verification.json",
+      "bytes": 698,
+      "sha256": "8b3717e63dfc8c70424ce7dbfad0c2a4ce5223d8e46afbe39eb6196f991e1624"
+    },
+    {
+      "path": "docs/audits/room-creator/stage7-2026-10-18/reproducibility.json",
+      "bytes": 583,
+      "sha256": "b6a4c19ac610bf160a5fc2984541e69c4a53f917d832604d8aab95f468bf8c07"
+    },
+    {
+      "path": "docs/audits/room-creator/stage7-2026-10-18/route-evaluation-comparison.json",
+      "bytes": 587,
+      "sha256": "700dc173c8a6e655fdd91aa2b34c4fd5ede757e0a5691e7ef988aff14fb50203"
+    },
+    {
+      "path": "docs/audits/room-creator/stage7-2026-10-18/setup.json",
+      "bytes": 1590,
+      "sha256": "66d237bb7598e4a6560d8025f1bf94242369b0fd9d4b0025eb04090f7a1acdac"
+    },
+    {
+      "path": "docs/audits/room-creator/stage7-2026-10-18/stage7-evidence-inventory.json",
+      "bytes": 76144,
+      "sha256": "90aa1b002edb2ba086e36e67c1fb329121c78698823f112e9a62e2317f764461"
+    },
+    {
+      "path": "docs/audits/room-creator/stage7-2026-10-18/stage7-example-browser-results.json",
+      "bytes": 10251,
+      "sha256": "a9938c32f4dcff8a31bfda9d08408037060d0f06ab69f197808657263d0f2abd"
+    },
+    {
+      "path": "docs/audits/room-creator/stage7-2026-10-18/stage7-result.json",
+      "bytes": 10573,
+      "sha256": "f177c702d8a8a1e1bcebab86fe86061ba871c21e86af3b0dcc8411d05da36931"
+    },
+    {
+      "path": "docs/audits/room-creator/stage7-2026-10-18/supplied-browser-regressions.json",
+      "bytes": 12800,
+      "sha256": "f7764d5810b2db4b4be3b136ad7d7763adec30b1b73032ae02b8881295d2acac"
+    },
+    {
+      "path": "docs/audits/room-creator/stage7-2026-10-18/supplied-final-workflow.json",
+      "bytes": 2772,
+      "sha256": "56d9e102fd3773d4acf5e5b1f8d80ce56d9f77e095b5e19f9f3748320211140d"
+    },
+    {
+      "path": "docs/audits/room-creator/stage7-2026-10-18/supplied-run-index.json",
+      "bytes": 7728,
+      "sha256": "e113f6d0dd87c99f929ef134d257f9ddaf1507695969d328b862d6cace51cc86"
+    },
+    {
+      "path": "docs/audits/room-creator/stage7-2026-10-18/visual-review.json",
+      "bytes": 2607,
+      "sha256": "84af7df81fae7c3643e14a2a0f9a10efb265b1536301f75b45c25df4a0992652"
+    },
+    {
+      "path": "docs/provenance/governing/FIRST_ENCOUNTER_GAME_STAGE_7_AUTHORIZATION.md",
+      "bytes": 5162,
+      "sha256": "a8218c7a24188cba8576a9971d31caf94293595196e4f0a77968c26cd2bbae5c"
+    },
+    {
+      "path": "tools/verify_stage7_evidence.py",
+      "bytes": 4872,
+      "sha256": "5ca217e3ffff0a53d9f7288221267b9e7b320f1f43e2917c911055c3328152b8"
+    }
+  ],
+  "private_evidence_inventory": {
+    "path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-7-verification-2026-10-18\\stage7-evidence-inventory.json",
+    "sha256": "90aa1b002edb2ba086e36e67c1fb329121c78698823f112e9a62e2317f764461",
+    "files": 256,
+    "bytes": 755542411,
+    "note": "Selected execution evidence; copied original delivery inputs are labelled separately. Duplicate source/library extractions are represented by fingerprints, not duplicated in the index."
+  },
+  "commit_record": "The dedicated commit containing this manifest is Stage 7 verification. Full eventual SHA and remote confirmation are in private git-completion.json and the completion response."
+}

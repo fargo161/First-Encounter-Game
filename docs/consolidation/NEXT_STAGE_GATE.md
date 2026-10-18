@@ -1,7 +1,7 @@
-# Hard stop after Stage 6
+# Hard stop after Stage 7
 
-Stage 6 imported Room Creator v0.14.1 byte-identically as a **HOLD_FOR_FURTHER_REMEDIATION development baseline**. No defect was repaired or product promoted.
+Stage 7 Room Creator migration verification is complete: **PASS WITH HOLD PRESERVED**. Product status remains **HOLD_FOR_FURTHER_REMEDIATION** because both known manifest-present/missing-image object-repair failures reproduced.
 
-**STOP. Stage 7 has not begun.** Fresh Room Creator builds, supplied/independent tests, browser checks, asset-render verification and generators require explicit new owner authorization. The known-ID/missing-image object repair defect must remain visible; do not weaken its reproductions.
+**STOP. Stage 8 has not begun.** No ZANT import, integration, shared contracts, Unity, LFS, remediation, refactoring, normalization, archive cleanup or CI is authorized.
 
-See STAGE_6_IMPORT.md and ../testing/STAGE_7_RECOMMENDED_SCOPE.md. ZANT import, integration, source normalization/refactoring, remediation, shared contracts, Unity, LFS, archive cleanup and CI remain outside scope.
+Review STAGE_7_VERIFICATION.md. Any Stage 8 scope requires explicit new owner authorization. Room Creator product promotion requires a separately versioned R1 remediation candidate and independent re-verification; the Stage 7 migration result does not promote it.

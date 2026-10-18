@@ -1,0 +1,265 @@
+{
+  "schema": "first-encounter-stage7-result@1",
+  "created_utc": "2026-10-18T16:52:32.113681+00:00",
+  "verdict": "PASS WITH HOLD PRESERVED",
+  "product_status": "HOLD_FOR_FURTHER_REMEDIATION",
+  "baseline": {
+    "source_commit": "3b9d1cfe9daff13bcb89dd6672ad58e65add7356",
+    "version": "0.14.1 held remediation candidate",
+    "files": 383,
+    "bytes": 201955025,
+    "tree_sha256": "63521f0d9068de3e4da40cd8ec4573d17b26481aa6557a908caaa8d10a4c485b",
+    "canonical_Git_only_metadata_files": 1,
+    "checkpoint_zip_sha256": "9b9cd3e9220edbdffbd836154b44d69b5527aa8b0d74300ad546f868a18da78d",
+    "html_sha256": "a4e8a14ddc4d734c036902f56b1a7d7bb8a157a77ef3911b97ea70c76f228c97"
+  },
+  "environment": {
+    "started_utc": "2026-10-18T16:33:36.409439+00:00",
+    "source_commit": "3b9d1cfe9daff13bcb89dd6672ad58e65add7356",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python_executable": "C:\\Users\\mcdon\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "python": "Python 3.12.14",
+    "node_executable": "C:\\Users\\mcdon\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\bin\\node.exe",
+    "node": "v24.19.0",
+    "python_dependency_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\rc014-audit\\python-deps",
+    "playwright": "1.56.0",
+    "Pillow": "12.3.0",
+    "chrome_executable": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+    "chrome_version": "155.0.8059.41",
+    "browser_graphics": "ANGLE SwiftShader using preserved runner adapter",
+    "canonical_source_execution": false,
+    "browser_version_observed": "155.0.8059.41",
+    "independent_browser_mode": "headed via separate adapter; supplied checks retain their documented launch settings"
+  },
+  "supplied": {
+    "runner_entries": 32,
+    "all_exit_zero": true,
+    "inherited_Node_suites": 10,
+    "inherited_assertions_passed": 297,
+    "remediation_core_cases_passed": 11,
+    "browser_regression_checks_passed": 45,
+    "asset_acceptance_checks_passed": 60,
+    "model_loads_passed": 327,
+    "demo_integration_checks_passed": 4,
+    "observational_scripts": 16
+  },
+  "independent_suites": [
+    {
+      "file": "original-prior-data-probes.json",
+      "total": 7,
+      "passed": 3,
+      "failed": 4,
+      "failure_names": [
+        "Deleting an empty intermediate story shifts 3D props with their room",
+        "Forced story deletion removes its 3D props",
+        "A story containing only 3D props is treated as occupied",
+        "Room deletion removes a 3D prop when no floor remains"
+      ],
+      "classification": "old-version negative control"
+    },
+    {
+      "file": "candidate-prior-data-probes.json",
+      "total": 7,
+      "passed": 7,
+      "failed": 0,
+      "failure_names": [],
+      "classification": "current baseline independent checks"
+    },
+    {
+      "file": "original-prior-browser-probes.json",
+      "total": 8,
+      "passed": 2,
+      "failed": 6,
+      "failure_names": [
+        "Deleting a model setup preserves placed object pose",
+        "Importing conflicting setups preserves existing model setup and pose",
+        "Tiny drag of elevated Use Point preserves its plan position",
+        "Round collision does not occlude empty corner outside the circle",
+        "Missing palette reference is visible for repair",
+        "Starting a new project releases object texture cache"
+      ],
+      "classification": "old-version negative control"
+    },
+    {
+      "file": "candidate-prior-browser-probes.json",
+      "total": 8,
+      "passed": 8,
+      "failed": 0,
+      "failure_names": [],
+      "classification": "current baseline independent checks"
+    },
+    {
+      "file": "additional-lifecycle-results.json",
+      "total": 5,
+      "passed": 5,
+      "failed": 0,
+      "failure_names": [],
+      "classification": "current baseline independent checks"
+    }
+  ],
+  "known_defect": {
+    "id": "ROOM_CREATOR_V0141_R1",
+    "scope": "18-case independent adversarial suite",
+    "passed": 16,
+    "failed": 2,
+    "failure_names": [
+      "F5 manifest-known missing palette file has explicit object repair warning",
+      "F5 manifest-known missing texture file has explicit object repair warning"
+    ],
+    "repaired_or_weakened": false,
+    "classification": "Known pre-existing product defect; not migration regression",
+    "observed": "Manifest records remain present, global file check identifies absent images, image cache marks failed loads, appearance resolver returns [], fallback embedded image renders, references/custom metadata survive reopen."
+  },
+  "examples": {
+    "full_normalized_browser_round_trips": 11,
+    "all_match_independent_Node_digests": true,
+    "full_prior_v0131_maps_byte_identical": 10,
+    "all_shipped_maps_byte_identical_after_testing": 11
+  },
+  "reproducibility": {
+    "result": "PASS",
+    "rebuilt_html_sha256": "a4e8a14ddc4d734c036902f56b1a7d7bb8a157a77ef3911b97ea70c76f228c97",
+    "rebuilt_html_bytes": 1615201,
+    "packages": [
+      {
+        "file": "outputs\\reproduced-candidate-1.zip",
+        "bytes": 202047247,
+        "sha256": "9b9cd3e9220edbdffbd836154b44d69b5527aa8b0d74300ad546f868a18da78d",
+        "matchesDelivered": true
+      },
+      {
+        "file": "outputs\\reproduced-candidate-2.zip",
+        "bytes": 202047247,
+        "sha256": "9b9cd3e9220edbdffbd836154b44d69b5527aa8b0d74300ad546f868a18da78d",
+        "matchesDelivered": true
+      }
+    ]
+  },
+  "LF_CRLF_builds": {
+    "passed": true,
+    "builds": [
+      {
+        "sourceNewlines": "LF",
+        "outputSHA256": "a4e8a14ddc4d734c036902f56b1a7d7bb8a157a77ef3911b97ea70c76f228c97",
+        "bytes": 1615201
+      },
+      {
+        "sourceNewlines": "CRLF",
+        "outputSHA256": "a4e8a14ddc4d734c036902f56b1a7d7bb8a157a77ef3911b97ea70c76f228c97",
+        "bytes": 1615201
+      }
+    ]
+  },
+  "generated_demo": {
+    "propCount": 69,
+    "points": 24,
+    "preserved": {
+      "routeNet": true,
+      "stories": true,
+      "stairs": true,
+      "floorCuts": true,
+      "pairs": true,
+      "links": true
+    },
+    "propPlacementAndMetadataEqual": true,
+    "uniqueModels": 50,
+    "generated_file_sha256": "2560b9bd0f53e03a9ea9bba239c56323fc79534d43cc725c2eca02490769bfc4",
+    "byte_identical_to_shipped_map": false,
+    "comparison_scope": "Normalized placement/collision/gameplay/point records and route/stories/stairs/floorCuts/pairs/links; generated appearance IDs and image serialization may differ."
+  },
+  "route_verification": {
+    "result": "PASS",
+    "scenario_count": 27,
+    "exact_preserved_data_equal": false,
+    "scenario_measurements_equal": true,
+    "protected_rule_counters_zero": true,
+    "counter_names": [
+      "spawnInView",
+      "despawnInView",
+      "carDespawnInView",
+      "nodeConflicts",
+      "sameDirectionOvertakes"
+    ],
+    "metadata_keys": [
+      "flicker",
+      "errors"
+    ],
+    "differences": [
+      "errors"
+    ],
+    "fresh_console_errors": [],
+    "preserved_console_errors": [
+      "Failed to load resource: the server responded with a status of 404 (File not found)"
+    ],
+    "flicker_metadata_equal": true
+  },
+  "dependency": {
+    "library_archive_sha256": "4cf39cb712d55e866a593ad12394efec891d5ae3ac14dfd35d932b32bd8b1241",
+    "extracted_files": 2754,
+    "checksums_verified_before_and_after": 2753,
+    "models": 327,
+    "surface_textures": 1043,
+    "palettes": 3,
+    "unverified_vehicle_license_flags_retained": 29,
+    "raw_library_ingested_into_Git": false
+  },
+  "integrity": {
+    "result": "PASS",
+    "checked_utc": "2026-10-18T16:50:37.246586+00:00",
+    "canonical_repository_files_unchanged_before_documentation": 3228,
+    "canonical_membership_unchanged": true,
+    "canonical_Room_Creator_baseline_files_unchanged": 383,
+    "canonical_Room_Creator_Git_metadata_files_unchanged": 1,
+    "canonical_Encounter_files_unchanged": 2731,
+    "original_files_checked": 6722,
+    "preservation_copies_checked": 6722,
+    "original_hashes_sizes_mtimes_match": true,
+    "excluded_original_caches_unchanged": 4,
+    "disposable_production_test_code_and_example_files_checked": 90,
+    "disposable_library_checksum_files_unchanged": 2753,
+    "unchanged_copied_independent_scripts": 13,
+    "errors": []
+  },
+  "findings": {
+    "migration_regressions": [],
+    "new_baseline_defects": [],
+    "known_product_defects": [
+      "ROOM_CREATOR_V0141_R1"
+    ],
+    "known_prototype_limitations": [
+      "Single/coarse collision primitive and 12-sided round approximation",
+      "Lower-story wall imagery overlaps upstairs views",
+      "Project-local setup calibration; limited look/setup conflict UX",
+      "No instancing/LOD/stacking/snapping/multi-selection",
+      "Unfinished NPC card art/facing; gameplay tags and Use Points are data-only",
+      "Long-duration cache/performance, native remembered-directory permissions, other browsers and native Linux/macOS not certified"
+    ],
+    "environment_failures": [],
+    "environment_adaptations": [
+      "Preserved historical absolute path prefixes relocated in memory by separate adapters; no stored test or production source edit or assertion change.",
+      "Preserved launch adapter selects installed Chrome/ANGLE SwiftShader; independent probes use headed defaults.",
+      "Optional prior-v0.12 comparison omitted under supported runner behavior; full v0.13.1 reference used."
+    ],
+    "console_observations": {
+      "asset_acceptance_resource_404_messages": 6,
+      "asset_acceptance_uncaught_page_errors": 0,
+      "route_fresh_console_errors": [],
+      "route_preserved_console_errors": [
+        "Failed to load resource: the server responded with a status of 404 (File not found)"
+      ],
+      "note": "Resource 404 messages are retained from missing-reference fixture exercises. Scenario measurements/flicker match; only the old route console 404 is absent."
+    }
+  },
+  "scope": {
+    "canonical_Room_Creator_changed": false,
+    "canonical_Encounter_changed": false,
+    "originals_changed": false,
+    "known_defect_repaired": false,
+    "ZANT_imported": false,
+    "stage8_started": false,
+    "integration_shared_contracts_Unity_LFS_added": false,
+    "legacy_repository_history_or_content_imported": false
+  },
+  "private_evidence_root": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-7-verification-2026-10-18",
+  "next_action": "Review this result and HOLD. Any Stage 8 scope requires explicit new authorization. Room Creator promotion needs separate versioned R1 remediation and independent re-verification."
+}

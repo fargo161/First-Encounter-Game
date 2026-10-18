@@ -1,0 +1,65 @@
+START architecture_extensions.test.js
+{"script": "architecture_extensions.test.js", "buildSHA256": "a4e8a14ddc4d734c036902f56b1a7d7bb8a157a77ef3911b97ea70c76f228c97", "kind": "assertions", "exitCode": 0, "seconds": 1.03, "log": "architecture_extensions.test.js.log"}
+START asset_demo_file.test.js
+{"script": "asset_demo_file.test.js", "buildSHA256": "a4e8a14ddc4d734c036902f56b1a7d7bb8a157a77ef3911b97ea70c76f228c97", "kind": "assertions", "exitCode": 0, "seconds": 1.44, "log": "asset_demo_file.test.js.log"}
+START construction_v10.test.js
+{"script": "construction_v10.test.js", "buildSHA256": "a4e8a14ddc4d734c036902f56b1a7d7bb8a157a77ef3911b97ea70c76f228c97", "kind": "assertions", "exitCode": 0, "seconds": 0.95, "log": "construction_v10.test.js.log"}
+START core.test.js
+{"script": "core.test.js", "buildSHA256": "a4e8a14ddc4d734c036902f56b1a7d7bb8a157a77ef3911b97ea70c76f228c97", "kind": "assertions", "exitCode": 0, "seconds": 1.0, "log": "core.test.js.log"}
+START multistory.test.js
+{"script": "multistory.test.js", "buildSHA256": "a4e8a14ddc4d734c036902f56b1a7d7bb8a157a77ef3911b97ea70c76f228c97", "kind": "assertions", "exitCode": 0, "seconds": 1.02, "log": "multistory.test.js.log"}
+START props_metadata.test.js
+{"script": "props_metadata.test.js", "buildSHA256": "a4e8a14ddc4d734c036902f56b1a7d7bb8a157a77ef3911b97ea70c76f228c97", "kind": "assertions", "exitCode": 0, "seconds": 1.05, "log": "props_metadata.test.js.log"}
+START remediation_core.test.js
+{"script": "remediation_core.test.js", "buildSHA256": "a4e8a14ddc4d734c036902f56b1a7d7bb8a157a77ef3911b97ea70c76f228c97", "kind": "assertions", "exitCode": 0, "seconds": 1.08, "log": "remediation_core.test.js.log"}
+START shared_matte.test.js
+{"script": "shared_matte.test.js", "buildSHA256": "a4e8a14ddc4d734c036902f56b1a7d7bb8a157a77ef3911b97ea70c76f228c97", "kind": "assertions", "exitCode": 0, "seconds": 1.02, "log": "shared_matte.test.js.log"}
+START style_openings.test.js
+{"script": "style_openings.test.js", "buildSHA256": "a4e8a14ddc4d734c036902f56b1a7d7bb8a157a77ef3911b97ea70c76f228c97", "kind": "assertions", "exitCode": 0, "seconds": 1.02, "log": "style_openings.test.js.log"}
+START v0_11_1_story_floor.test.js
+{"script": "v0_11_1_story_floor.test.js", "buildSHA256": "a4e8a14ddc4d734c036902f56b1a7d7bb8a157a77ef3911b97ea70c76f228c97", "kind": "assertions", "exitCode": 0, "seconds": 1.06, "log": "v0_11_1_story_floor.test.js.log"}
+START v0_12_stories_rooms.test.js
+{"script": "v0_12_stories_rooms.test.js", "buildSHA256": "a4e8a14ddc4d734c036902f56b1a7d7bb8a157a77ef3911b97ea70c76f228c97", "kind": "assertions", "exitCode": 0, "seconds": 1.14, "log": "v0_12_stories_rooms.test.js.log"}
+START build_repro.py
+{"script": "build_repro.py", "buildSHA256": "a4e8a14ddc4d734c036902f56b1a7d7bb8a157a77ef3911b97ea70c76f228c97", "kind": "assertions", "exitCode": 0, "seconds": 0.61, "log": "build_repro.py.log"}
+START remediation_browser.py
+{"script": "remediation_browser.py", "buildSHA256": "a4e8a14ddc4d734c036902f56b1a7d7bb8a157a77ef3911b97ea70c76f228c97", "kind": "assertions", "exitCode": 0, "seconds": 29.06, "log": "remediation_browser.py.log"}
+START assets_browser.py
+{"script": "assets_browser.py", "buildSHA256": "a4e8a14ddc4d734c036902f56b1a7d7bb8a157a77ef3911b97ea70c76f228c97", "kind": "assertions", "exitCode": 0, "seconds": 92.34, "log": "assets_browser.py.log"}
+START assets_all_models.py
+{"script": "assets_all_models.py", "buildSHA256": "a4e8a14ddc4d734c036902f56b1a7d7bb8a157a77ef3911b97ea70c76f228c97", "kind": "assertions", "exitCode": 0, "seconds": 29.95, "log": "assets_all_models.py.log"}
+START assets_demo_checks.py
+{"script": "assets_demo_checks.py", "buildSHA256": "a4e8a14ddc4d734c036902f56b1a7d7bb8a157a77ef3911b97ea70c76f228c97", "kind": "assertions", "exitCode": 0, "seconds": 85.47, "log": "assets_demo_checks.py.log"}
+START assets_perf.py
+{"script": "assets_perf.py", "buildSHA256": "a4e8a14ddc4d734c036902f56b1a7d7bb8a157a77ef3911b97ea70c76f228c97", "kind": "observational", "exitCode": 0, "seconds": 19.0, "log": "assets_perf.py.log"}
+START assets_vehicle_fronts.py
+{"script": "assets_vehicle_fronts.py", "buildSHA256": "a4e8a14ddc4d734c036902f56b1a7d7bb8a157a77ef3911b97ea70c76f228c97", "kind": "observational", "exitCode": 0, "seconds": 5.77, "log": "assets_vehicle_fronts.py.log"}
+START demo_screens.py
+{"script": "demo_screens.py", "buildSHA256": "a4e8a14ddc4d734c036902f56b1a7d7bb8a157a77ef3911b97ea70c76f228c97", "kind": "observational", "exitCode": 0, "seconds": 34.95, "log": "demo_screens.py.log"}
+START browser/ui_smoke.py
+{"script": "browser/ui_smoke.py", "buildSHA256": "a4e8a14ddc4d734c036902f56b1a7d7bb8a157a77ef3911b97ea70c76f228c97", "kind": "observational", "exitCode": 0, "seconds": 15.31, "log": "browser-ui_smoke.py.log"}
+START browser/fp_test.py
+{"script": "browser/fp_test.py", "buildSHA256": "a4e8a14ddc4d734c036902f56b1a7d7bb8a157a77ef3911b97ea70c76f228c97", "kind": "observational", "exitCode": 0, "seconds": 23.88, "log": "browser-fp_test.py.log"}
+START browser/fp_test2.py
+{"script": "browser/fp_test2.py", "buildSHA256": "a4e8a14ddc4d734c036902f56b1a7d7bb8a157a77ef3911b97ea70c76f228c97", "kind": "observational", "exitCode": 0, "seconds": 7.11, "log": "browser-fp_test2.py.log"}
+START browser/sky_test.py
+{"script": "browser/sky_test.py", "buildSHA256": "a4e8a14ddc4d734c036902f56b1a7d7bb8a157a77ef3911b97ea70c76f228c97", "kind": "observational", "exitCode": 0, "seconds": 17.3, "log": "browser-sky_test.py.log"}
+START browser/rails_test.py
+{"script": "browser/rails_test.py", "buildSHA256": "a4e8a14ddc4d734c036902f56b1a7d7bb8a157a77ef3911b97ea70c76f228c97", "kind": "observational", "exitCode": 0, "seconds": 87.56, "log": "browser-rails_test.py.log"}
+START browser/rails_test2.py
+{"script": "browser/rails_test2.py", "buildSHA256": "a4e8a14ddc4d734c036902f56b1a7d7bb8a157a77ef3911b97ea70c76f228c97", "kind": "observational", "exitCode": 0, "seconds": 23.75, "log": "browser-rails_test2.py.log"}
+START browser/stories_test.py
+{"script": "browser/stories_test.py", "buildSHA256": "a4e8a14ddc4d734c036902f56b1a7d7bb8a157a77ef3911b97ea70c76f228c97", "kind": "observational", "exitCode": 0, "seconds": 18.64, "log": "browser-stories_test.py.log"}
+START browser/rail_stairs_check.py
+{"script": "browser/rail_stairs_check.py", "buildSHA256": "a4e8a14ddc4d734c036902f56b1a7d7bb8a157a77ef3911b97ea70c76f228c97", "kind": "observational", "exitCode": 0, "seconds": 4.72, "log": "browser-rail_stairs_check.py.log"}
+START browser/final_test.py
+{"script": "browser/final_test.py", "buildSHA256": "a4e8a14ddc4d734c036902f56b1a7d7bb8a157a77ef3911b97ea70c76f228c97", "kind": "observational", "exitCode": 0, "seconds": 53.55, "log": "browser-final_test.py.log"}
+START route/route_smoke.py
+{"script": "route/route_smoke.py", "buildSHA256": "a4e8a14ddc4d734c036902f56b1a7d7bb8a157a77ef3911b97ea70c76f228c97", "kind": "observational", "exitCode": 0, "seconds": 28.42, "log": "route-route_smoke.py.log"}
+START route/route_keys.py
+{"script": "route/route_keys.py", "buildSHA256": "a4e8a14ddc4d734c036902f56b1a7d7bb8a157a77ef3911b97ea70c76f228c97", "kind": "observational", "exitCode": 0, "seconds": 35.42, "log": "route-route_keys.py.log"}
+START route/route_perf.py
+{"script": "route/route_perf.py", "buildSHA256": "a4e8a14ddc4d734c036902f56b1a7d7bb8a157a77ef3911b97ea70c76f228c97", "kind": "observational", "exitCode": 0, "seconds": 15.36, "log": "route-route_perf.py.log"}
+START route/route_eval.py
+{"script": "route/route_eval.py", "buildSHA256": "a4e8a14ddc4d734c036902f56b1a7d7bb8a157a77ef3911b97ea70c76f228c97", "kind": "observational", "exitCode": 0, "seconds": 98.05, "log": "route-route_eval.py.log"}
+RESULTS C:\Users\mcdon\Documents\ChatGPT\First Encounter Game Archive\stage-7-verification-2026-10-18\outputs\supplied-all

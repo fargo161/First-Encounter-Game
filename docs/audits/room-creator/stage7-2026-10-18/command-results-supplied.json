@@ -1,0 +1,113 @@
+[
+  {
+    "label": "01-independent-input-identity",
+    "command": [
+      "C:\\Users\\mcdon\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-B",
+      "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-7-verification-2026-10-18\\work\\rc0141-independent-review\\identity.py",
+      "--final"
+    ],
+    "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-7-verification-2026-10-18\\work\\rc0141-independent-review",
+    "started_utc": "2026-10-18T16:34:44.511558+00:00",
+    "finished_utc": "2026-10-18T16:34:47.344389+00:00",
+    "exit_code": 0,
+    "log": "logs\\01-independent-input-identity.log",
+    "log_sha256": "fe90e1a7040191a5621c95e50b8d86712de51947a03b90b87668378e5b63cd9b"
+  },
+  {
+    "label": "02-rebuild-html",
+    "command": [
+      "C:\\Users\\mcdon\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-B",
+      "source/build.py"
+    ],
+    "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-7-verification-2026-10-18\\work\\rc0141-independent-review\\candidate\\Room_Creator_v0_14_1_remediation_candidate",
+    "started_utc": "2026-10-18T16:34:47.351918+00:00",
+    "finished_utc": "2026-10-18T16:34:47.498609+00:00",
+    "exit_code": 0,
+    "log": "logs\\02-rebuild-html.log",
+    "log_sha256": "e9435484ad96bb13e4cc97a519bd32635d12ca8a65f2ec7c958e85d5637b9d0a"
+  },
+  {
+    "label": "03-package-reproduction-1",
+    "command": [
+      "C:\\Users\\mcdon\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-B",
+      "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-7-verification-2026-10-18\\work\\pristine\\Room_Creator_v0_14_1_remediation_candidate\\tests\\package_checkpoint.py",
+      "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-7-verification-2026-10-18\\work\\pristine\\Room_Creator_v0_14_1_remediation_candidate",
+      "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-7-verification-2026-10-18\\outputs\\reproduced-candidate-1.zip"
+    ],
+    "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-7-verification-2026-10-18\\work\\pristine\\Room_Creator_v0_14_1_remediation_candidate",
+    "started_utc": "2026-10-18T16:34:47.503616+00:00",
+    "finished_utc": "2026-10-18T16:34:48.198589+00:00",
+    "exit_code": 0,
+    "log": "logs\\03-package-reproduction-1.log",
+    "log_sha256": "33f3c7e2fb9fe0117e6f2868731e58df26988b7c159a4a62f841c76ebe13f2b7"
+  },
+  {
+    "label": "03-package-reproduction-2",
+    "command": [
+      "C:\\Users\\mcdon\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-B",
+      "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-7-verification-2026-10-18\\work\\pristine\\Room_Creator_v0_14_1_remediation_candidate\\tests\\package_checkpoint.py",
+      "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-7-verification-2026-10-18\\work\\pristine\\Room_Creator_v0_14_1_remediation_candidate",
+      "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-7-verification-2026-10-18\\outputs\\reproduced-candidate-2.zip"
+    ],
+    "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-7-verification-2026-10-18\\work\\pristine\\Room_Creator_v0_14_1_remediation_candidate",
+    "started_utc": "2026-10-18T16:34:48.423709+00:00",
+    "finished_utc": "2026-10-18T16:34:49.112848+00:00",
+    "exit_code": 0,
+    "log": "logs\\03-package-reproduction-2.log",
+    "log_sha256": "33f3c7e2fb9fe0117e6f2868731e58df26988b7c159a4a62f841c76ebe13f2b7"
+  },
+  {
+    "label": "04-supplied-all",
+    "command": [
+      "C:\\Users\\mcdon\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-B",
+      "tests/run_tests.py",
+      "--suite",
+      "all",
+      "--library",
+      "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-7-verification-2026-10-18\\work\\rc014-audit\\dependency\\Trapstar_RoomCreator_Asset_Library_v1",
+      "--browser",
+      "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+      "--port",
+      "8771",
+      "--out",
+      "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-7-verification-2026-10-18\\outputs\\supplied-all"
+    ],
+    "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-7-verification-2026-10-18\\work\\rc0141-independent-review\\candidate\\Room_Creator_v0_14_1_remediation_candidate",
+    "started_utc": "2026-10-18T16:34:49.337107+00:00",
+    "finished_utc": "2026-10-18T16:47:08.179971+00:00",
+    "exit_code": 0,
+    "log": "logs\\04-supplied-all.log",
+    "log_sha256": "5668e156ee2025f9eeeb503bb1e1d64cff06cacf1fbaa6d6ccd05894e5847b7c"
+  },
+  {
+    "label": "05-demo-generation",
+    "command": [
+      "C:\\Users\\mcdon\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-B",
+      "tests/run_tests.py",
+      "--suite",
+      "assets",
+      "--scripts",
+      "make_asset_demo.py",
+      "--library",
+      "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-7-verification-2026-10-18\\work\\rc014-audit\\dependency\\Trapstar_RoomCreator_Asset_Library_v1",
+      "--browser",
+      "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+      "--port",
+      "8771",
+      "--out",
+      "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-7-verification-2026-10-18\\outputs\\demo-generation"
+    ],
+    "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-7-verification-2026-10-18\\work\\rc0141-independent-review\\candidate\\Room_Creator_v0_14_1_remediation_candidate",
+    "started_utc": "2026-10-18T16:47:08.180972+00:00",
+    "finished_utc": "2026-10-18T16:47:36.044147+00:00",
+    "exit_code": 0,
+    "log": "logs\\05-demo-generation.log",
+    "log_sha256": "1f7e0a0906dac114c78cb0a78be68d065216d64427d8f6cd3226b0d7ce6efeac"
+  }
+]

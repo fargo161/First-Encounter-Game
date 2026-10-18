@@ -1,0 +1,11 @@
+PASS browser full normalized structure/reopen Atrium_Gallery.room.json
+PASS browser full normalized structure/reopen City_Block_Dusk.room.json
+PASS browser full normalized structure/reopen City_Block_Rail_Demo.room.json
+PASS browser full normalized structure/reopen Connected_Rooms.room.json
+PASS browser full normalized structure/reopen Empty_Start.room.json
+PASS browser full normalized structure/reopen Manual_Construction_Atrium.room.json
+PASS browser full normalized structure/reopen Partitions_and_Attached_Room.room.json
+PASS browser full normalized structure/reopen Route_Prototype_Street.room.json
+PASS browser full normalized structure/reopen Route_Prototype_Street_ASSET_DEMO.room.json
+PASS browser full normalized structure/reopen Shared_Matte_Example.room.json
+PASS browser full normalized structure/reopen Windows_Doors_Style.room.json

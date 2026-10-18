@@ -1,0 +1,18 @@
+{
+  "started_utc": "2026-10-18T16:33:36.409439+00:00",
+  "source_commit": "3b9d1cfe9daff13bcb89dd6672ad58e65add7356",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python_executable": "C:\\Users\\mcdon\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+  "python": "Python 3.12.14",
+  "node_executable": "C:\\Users\\mcdon\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\bin\\node.exe",
+  "node": "v24.19.0",
+  "python_dependency_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\rc014-audit\\python-deps",
+  "playwright": "1.56.0",
+  "Pillow": "12.3.0",
+  "chrome_executable": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+  "chrome_version": "155.0.8059.41",
+  "browser_graphics": "ANGLE SwiftShader using preserved runner adapter",
+  "canonical_source_execution": false,
+  "browser_version_observed": "155.0.8059.41",
+  "independent_browser_mode": "headed via separate adapter; supplied checks retain their documented launch settings"
+}

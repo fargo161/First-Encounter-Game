@@ -38,6 +38,19 @@
         "behavior_tests_rerun": false,
         "independent_report": "docs/audits/room-creator/AUDIT_REPORT.md",
         "import_manifest": "docs/provenance/room-creator-stage6-import.json"
+      },
+      "stage7_reproduction": {
+        "status": "HOLD_FOR_FURTHER_REMEDIATION",
+        "known_product_defect": true,
+        "migration_regression": false,
+        "adversarial_suite_passed": 16,
+        "adversarial_suite_failed": 2,
+        "sole_failures": [
+          "Manifest-known missing palette image lacks object repair warning",
+          "Manifest-known missing texture image lacks object repair warning"
+        ],
+        "source_or_assertions_repaired_or_weakened": false,
+        "evidence": "docs/audits/room-creator/stage7-2026-10-18/adversarial-results.json"
       }
     },
     {

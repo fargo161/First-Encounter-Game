@@ -1,0 +1,19 @@
+{
+  "result": "PASS",
+  "rebuilt_html_sha256": "a4e8a14ddc4d734c036902f56b1a7d7bb8a157a77ef3911b97ea70c76f228c97",
+  "rebuilt_html_bytes": 1615201,
+  "packages": [
+    {
+      "file": "outputs\\reproduced-candidate-1.zip",
+      "bytes": 202047247,
+      "sha256": "9b9cd3e9220edbdffbd836154b44d69b5527aa8b0d74300ad546f868a18da78d",
+      "matchesDelivered": true
+    },
+    {
+      "file": "outputs\\reproduced-candidate-2.zip",
+      "bytes": 202047247,
+      "sha256": "9b9cd3e9220edbdffbd836154b44d69b5527aa8b0d74300ad546f868a18da78d",
+      "matchesDelivered": true
+    }
+  ]
+}

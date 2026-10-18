@@ -1,0 +1,9 @@
+{
+  "id": "lp_furniture_chairs_mesh_chair_wood_01",
+  "path": "STANDARDIZED_LIBRARY/models/furniture/chairs/lp_furniture_chairs_mesh_chair_wood_01/model.glb",
+  "status": "error",
+  "error": "independent one-time read failure",
+  "calls": 1,
+  "waitForModelsAvailable": false,
+  "retryAvailable": false
+}

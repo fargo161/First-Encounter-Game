@@ -1,0 +1,11 @@
+{
+  "script": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-7-verification-2026-10-18\\work\\rc0141-independent-review\\candidate-prior-browser.py",
+  "source_sha256": "5936a1003bb2395f1d3780d0db13624a3111e447b72adbc36e405c94802448ae",
+  "runtime_source_sha256": "fcfab6eb385f73975f425f580895ad544de24c848c6c88212719e0b46339ecf7",
+  "historic_absolute_prefix_replacements": 1,
+  "old_prefix": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc",
+  "new_prefix": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-7-verification-2026-10-18",
+  "headed_default_only": true,
+  "assertions_modified": false,
+  "source_file_modified": false
+}

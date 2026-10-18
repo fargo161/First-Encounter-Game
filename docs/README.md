@@ -1,13 +1,14 @@
 # Project documentation
 
-Current status: provenance/source-authority.json.
-Room Creator import/HOLD: consolidation/STAGE_6_IMPORT.md.
-Exact Room Creator baseline/packaging identities: provenance/room-creator-stage6-import.json.
-Read-only current integrity: testing/STAGE_6_INTEGRITY.md.
-Proposed Stage 7 scope, not performed: testing/STAGE_7_RECOMMENDED_SCOPE.md.
-Hard stop: consolidation/NEXT_STAGE_GATE.md.
-Copied independent Room Creator findings: audits/room-creator/AUDIT_REPORT.md.
+Current authority: provenance/source-authority.json.
+Room Creator Stage 7 verification/HOLD: consolidation/STAGE_7_VERIFICATION.md.
+Verification manifest: provenance/room-creator-stage7-verification.json.
+Fresh selected records: audits/room-creator/stage7-2026-10-18/.
+Current read-only integrity: testing/STAGE_7_VERIFICATION.md.
+Hard stop before Stage 8: consolidation/NEXT_STAGE_GATE.md.
 
-Encounter Stage 5 results remain historical verification evidence and its source is unchanged. Earlier foundation/Stage 4/Stage 5 verifiers require their historical metadata states and remain unchanged. Current import integrity uses tools/verify_stage6_import.py.
+Room Creator's Stage 6 import manifest, original source, previous independent audit and copied scripts remain unchanged. Stage 7 records fresh execution separately, with the two known product failures explicit. The full external asset library and bulk evidence are not in Git.
 
-The exact Stage 6 authorization is in provenance/governing/. Historical tester/resume prompts inside imported documents do not authorize new execution. The 383-file Room Creator baseline remains held; importing it does not override independent findings.
+Earlier foundation/Stage 4/Stage 5/Stage 6 verifiers remain unchanged for their historical metadata states. Stage 7 uses tools/verify_stage7_evidence.py.
+
+The exact Stage 7 authorization is in provenance/governing/. Historical implementation/tester prompts do not authorize further work.

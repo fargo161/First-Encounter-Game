@@ -1,0 +1,20 @@
+{
+  "result": "PASS",
+  "source_commit": "3b9d1cfe9daff13bcb89dd6672ad58e65add7356",
+  "committed_baseline_files": 383,
+  "baseline_tree_sha256": "63521f0d9068de3e4da40cd8ec4573d17b26481aa6557a908caaa8d10a4c485b",
+  "Git_only_metadata_excluded_from_historical_package": [
+    "tests/.gitattributes"
+  ],
+  "library_checksum_entries_verified": 2753,
+  "library_files": 2754,
+  "old_manifest_entries": 168,
+  "full_prior_maps_match": 10,
+  "pristine": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-7-verification-2026-10-18\\work\\pristine\\Room_Creator_v0_14_1_remediation_candidate",
+  "candidate": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-7-verification-2026-10-18\\work\\rc0141-independent-review\\candidate\\Room_Creator_v0_14_1_remediation_candidate",
+  "original": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-7-verification-2026-10-18\\work\\rc0141-independent-review\\original\\Room_Creator_v0_14_asset_library",
+  "library": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-7-verification-2026-10-18\\work\\rc014-audit\\dependency\\Trapstar_RoomCreator_Asset_Library_v1",
+  "independent_root": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-7-verification-2026-10-18\\work\\rc0141-independent-review",
+  "prior_full0131": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-7-verification-2026-10-18\\work\\rc014-audit\\prior-full0131\\Room_Creator_v0_13_1_route_prototype",
+  "guarded_repository_files": 3228
+}

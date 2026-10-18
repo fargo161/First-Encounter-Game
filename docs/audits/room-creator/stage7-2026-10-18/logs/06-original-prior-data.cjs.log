@@ -1,0 +1,274 @@
+[
+  {
+    "name": "Deleting an empty intermediate story shifts 3D props with their room",
+    "passed": false,
+    "detail": {
+      "roomStory": 1,
+      "propStory": 0
+    }
+  },
+  {
+    "name": "Forced story deletion removes its 3D props",
+    "passed": false,
+    "detail": {
+      "contents": {
+        "rooms": 1,
+        "floorSections": 0,
+        "walls": 0,
+        "pillars": 0,
+        "ceilingEdits": 0,
+        "openings": 0,
+        "lights": 0,
+        "objects": 0,
+        "viewpoints": 0,
+        "stairs": 0,
+        "floorCuts": 0
+      },
+      "remainingProps": [
+        {
+          "id": "upper",
+          "story": 0,
+          "roomId": "room_mve26wj4_t0p3k0v"
+        }
+      ]
+    }
+  },
+  {
+    "name": "A story containing only 3D props is treated as occupied",
+    "passed": false,
+    "detail": {
+      "error": null,
+      "stories": 1,
+      "props": [
+        {
+          "id": "only-prop",
+          "asset": "audit_asset",
+          "x": 3,
+          "y": 3,
+          "story": 1,
+          "z": 0,
+          "rotation": 0,
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "bounds": {
+            "min": [
+              -1,
+              0,
+              -0.5
+            ],
+            "max": [
+              1,
+              1,
+              0.5
+            ]
+          },
+          "collision": {
+            "solid": true,
+            "shape": "auto"
+          },
+          "points": [],
+          "gameplay": {
+            "tags": [],
+            "props": {}
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Room deletion removes a 3D prop when no floor remains",
+    "passed": false,
+    "detail": {
+      "removed": {
+        "objects": 0,
+        "viewpoints": 0
+      },
+      "prop": {
+        "id": "orphan",
+        "asset": "audit_asset",
+        "x": 23,
+        "y": 3,
+        "story": 0,
+        "z": 0,
+        "rotation": 0,
+        "scale": [
+          1,
+          1,
+          1
+        ],
+        "bounds": {
+          "min": [
+            -1,
+            0,
+            -0.5
+          ],
+          "max": [
+            1,
+            1,
+            0.5
+          ]
+        },
+        "collision": {
+          "solid": true,
+          "shape": "auto"
+        },
+        "points": [],
+        "gameplay": {
+          "tags": [],
+          "props": {}
+        },
+        "enabled": true,
+        "locked": false,
+        "look": null,
+        "override": {},
+        "roomId": null
+      },
+      "hasFloor": false
+    }
+  },
+  {
+    "name": "Furnished demo preserves route network and structural navigation records",
+    "passed": true,
+    "detail": {
+      "routeNet": true,
+      "stories": true,
+      "stairs": true,
+      "floorCuts": true,
+      "pairs": true,
+      "links": true
+    }
+  },
+  {
+    "name": "Original viewpoints remain unchanged",
+    "passed": true,
+    "detail": [
+      {
+        "id": "view_route_start",
+        "equal": true
+      },
+      {
+        "id": "view_mvcv5kck_80mmd32",
+        "equal": true
+      },
+      {
+        "id": "view_mvcv5kcl_dwgwaii",
+        "equal": true
+      },
+      {
+        "id": "view_mvcv5kcl_h2iw3fo",
+        "equal": true
+      },
+      {
+        "id": "view_mvcv5kcl_ft6voqf",
+        "equal": true
+      },
+      {
+        "id": "view_mvcv5kcm_vrnaa6r",
+        "equal": true
+      },
+      {
+        "id": "view_mvcv5kcm_tzxk0ri",
+        "equal": true
+      },
+      {
+        "id": "view_mvcv5kcm_c743535",
+        "equal": true
+      },
+      {
+        "id": "view_mvcv5kcm_2rd5k34",
+        "equal": true
+      },
+      {
+        "id": "view_mvcv5kd2_qk72wz9",
+        "equal": true
+      }
+    ]
+  },
+  {
+    "name": "Demo replacement inventory",
+    "passed": true,
+    "detail": {
+      "baseline": {
+        "rooms": 18,
+        "pillars": 170,
+        "views": 10,
+        "assets": 87
+      },
+      "demo": {
+        "rooms": 18,
+        "pillars": 155,
+        "views": 17,
+        "assets": 89,
+        "props": 69,
+        "looks": 3,
+        "palettes": 5,
+        "setups": 9
+      },
+      "removedPillars": [
+        {
+          "id": "pillar_pallet1",
+          "name": "Pallet of boxes"
+        },
+        {
+          "id": "pillar_pallet2",
+          "name": "Box stack"
+        },
+        {
+          "id": "pillar_crates",
+          "name": "Milk crates"
+        },
+        {
+          "id": "pillar_desk",
+          "name": "Office desk"
+        },
+        {
+          "id": "pillar_can1",
+          "name": "Trash can"
+        },
+        {
+          "id": "pillar_dumpster1",
+          "name": "Dumpster"
+        },
+        {
+          "id": "pillar_dumpster2",
+          "name": "Dumpster"
+        },
+        {
+          "id": "pillar_dumpster3",
+          "name": "Dumpster"
+        },
+        {
+          "id": "pillar_crates2",
+          "name": "Crate stack"
+        },
+        {
+          "id": "pillar_parked_body",
+          "name": "Parked car · body"
+        },
+        {
+          "id": "pillar_parked_cabin",
+          "name": "Parked car · cabin"
+        },
+        {
+          "id": "pillar_parked_wheel1n",
+          "name": "Parked car · wheel"
+        },
+        {
+          "id": "pillar_parked_wheel1s",
+          "name": "Parked car · wheel"
+        },
+        {
+          "id": "pillar_parked_wheel2n",
+          "name": "Parked car · wheel"
+        },
+        {
+          "id": "pillar_parked_wheel2s",
+          "name": "Parked car · wheel"
+        }
+      ]
+    }
+  }
+]

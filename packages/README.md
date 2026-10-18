@@ -1,7 +1,9 @@
 # Subsystem packages
 
-encounter-atlas contains the complete accepted A1 snapshot imported in Stage 4, with Stage 5 migration verification complete with documented known limitations. Its source and dependency bytes remain unchanged.
+encounter-atlas contains the accepted A1 snapshot imported in Stage 4, verified in Stage 5 with documented known limitations. Its source and dependency bytes remain unchanged.
 
-room-creator contains the full v0.14.1 development baseline imported in Stage 6: 383 byte-identical baseline files and one separate Git-only attribute override. Status remains HOLD; the known missing-image appearance-repair defect is not fixed. Current status is documented outside the preserved package in ../docs/consolidation/STAGE_6_IMPORT.md.
+room-creator contains the v0.14.1 held development baseline: 383 original files and one separate Git-only attribute file, all unchanged. Stage 7 migration verification passed with HOLD preserved. Manifest-known missing-image object repair remains defective; no promotion or repair occurred.
 
-zant remains a README-only placeholder. No ZANT import or Stage 7 Room Creator behavior/build/browser verification is authorized.
+zant remains a README-only placeholder. Stage 8 and ZANT import require explicit new authorization.
+
+Current results are documented outside canonical packages in ../docs/consolidation/STAGE_7_VERIFICATION.md.

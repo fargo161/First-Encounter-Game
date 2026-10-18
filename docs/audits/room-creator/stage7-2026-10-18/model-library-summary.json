@@ -1,0 +1,17 @@
+{
+  "result": "PASS",
+  "summary": {
+    "models": 327,
+    "loaded": 327,
+    "failed": 0,
+    "with_problems": 0,
+    "load_ms_median": 31,
+    "load_ms_max": 63,
+    "triangles_total": 682586,
+    "unverified_licence": 29,
+    "thumbnails_missing": 0
+  },
+  "issues": [],
+  "page_errors": [],
+  "reference_integrity": "2753 checksums verified before use and unchanged after all execution"
+}

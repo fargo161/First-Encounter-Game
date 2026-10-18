@@ -1,0 +1,41 @@
+{
+  "result": "PASS_WITH_KNOWN_PRODUCT_DEFECT",
+  "method": "Automated real browser interaction plus direct inspection of actual generated PNGs; no claim of a human-operated session.",
+  "reviewed_screenshots": [
+    {
+      "file": "work/rc0141-independent-review/candidate/Room_Creator_v0_14_1_remediation_candidate/tests/assets_evidence/demo_map_bodega.png",
+      "sha256": "d64ce8e17c67be65248e506fe394d37dd2388e9f95511fe970059a2abd37110d",
+      "observation": "Furnished map, streets, stories and route overlay present."
+    },
+    {
+      "file": "work/rc0141-independent-review/candidate/Room_Creator_v0_14_1_remediation_candidate/tests/assets_evidence/demo_fp_shop_counter.png",
+      "sha256": "e353e37f1d3fdf1434363f93c794abeac88628bde4065704c66072b34eb5fa05",
+      "observation": "Connected-library first-person shop furniture and appearances render."
+    },
+    {
+      "file": "work/rc0141-independent-review/candidate/Room_Creator_v0_14_1_remediation_candidate/tests/assets_evidence/demo_fp_flat_dining.png",
+      "sha256": "3a48e676c0903da0139e271c555721dc57f6dcd8edf4ed0f40e762390926f351",
+      "observation": "Known lower-story stockroom-wall imagery overlap remains visible upstairs."
+    },
+    {
+      "file": "work/rc0141-independent-review/candidate/Room_Creator_v0_14_1_remediation_candidate/tests/assets_evidence/F_use_points_map.png",
+      "sha256": "6bf11d282a1a1e8086005cee9f93ddbc83d0b4beba18800cc436eb59565a6532",
+      "observation": "Use Point data/control fields and selected prop render in editor."
+    },
+    {
+      "file": "work/rc0141-independent-review/candidate/Room_Creator_v0_14_1_remediation_candidate/tests/assets_evidence/all_models_contact_sheet.png",
+      "sha256": "7bbe76cf587933a7e2751aee13b228a7a2f4fcb3756ea96d2092fa3c51f23f7f",
+      "observation": "Fresh contact sheet inspected; supplied result records 327 thumbnails, none missing. This is not individual art approval."
+    },
+    {
+      "file": "outputs/Room_Creator_v0_14_1_Independent_Audit/adversarial-missing-palette-file.png",
+      "sha256": "e9776096238ef0addb96a88962b768f8ee08a7aeeb0f798976cbdce3bc2382b6",
+      "observation": "Known palette-file failure; chair renders fallback while resolver returns no object-specific issue."
+    },
+    {
+      "file": "outputs/Room_Creator_v0_14_1_Independent_Audit/adversarial-missing-texture-file.png",
+      "sha256": "faa9777905920d46577c0135d1e850b47adbfa761c944b6123e1a7766105e9ff",
+      "observation": "Known texture-file failure; no adequate object-specific repair guidance; raw failed cache/missing-file records retained."
+    }
+  ]
+}

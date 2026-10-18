@@ -1,0 +1,921 @@
+{
+ "passed": 60,
+ "failed": 0,
+ "results": [
+  {
+   "name": "A1 library connects by web address with the documented counts (327 objects, 1043 textures, 3 palettes)",
+   "passed": true,
+   "detail": {
+    "ok": true,
+    "msg": "Library connected: 327 objects, 1043 textures, 3 palettes. Everything checks out.",
+    "c": {
+     "models": 327,
+     "textures": 1043,
+     "palettes": 3,
+     "hidden": 6,
+     "unverified": 29
+    },
+    "warn": []
+   }
+  },
+  {
+   "name": "A2 the real library passes the plain-language check with no warnings",
+   "passed": true,
+   "detail": []
+  },
+  {
+   "name": "A3 the 29 vehicles from unlicensed packs are counted as licence-unverified",
+   "passed": true,
+   "detail": {
+    "models": 327,
+    "textures": 1043,
+    "palettes": 3,
+    "hidden": 6,
+    "unverified": 29
+   }
+  },
+  {
+   "name": "A4 Library tab lists objects and search filters them",
+   "passed": true,
+   "detail": {
+    "cards": 60,
+    "dumpster": 4,
+    "names": [
+     "Dumpster Closed",
+     "Dumpster Open",
+     "Wheelie Bin Closed",
+     "Wheelie Bin Open"
+    ]
+   }
+  },
+  {
+   "name": "A5 thumbnails are rendered from the real models (not the colour-wrong package previews)",
+   "passed": true,
+   "detail": [
+    true,
+    true,
+    true,
+    true
+   ]
+  },
+  {
+   "name": "A6 vehicle cards carry the \"licence unverified\" warning mark",
+   "passed": true,
+   "detail": 29
+  },
+  {
+   "name": "A7 left panel tabs (incl. Library) fit without cut-off labels",
+   "passed": true,
+   "detail": [
+    {
+     "t": "Build",
+     "w": 33,
+     "cw": 33
+    },
+    {
+     "t": "Images",
+     "w": 42,
+     "cw": 42
+    },
+    {
+     "t": "Views",
+     "w": 36,
+     "cw": 36
+    },
+    {
+     "t": "Rails",
+     "w": 31,
+     "cw": 31
+    },
+    {
+     "t": "Sky",
+     "w": 26,
+     "cw": 26
+    },
+    {
+     "t": "Library",
+     "w": 40,
+     "cw": 40
+    }
+   ]
+  },
+  {
+   "name": "A8 a damaged manifest and a wrong folder give plain messages and keep the working library connected",
+   "passed": true,
+   "detail": {
+    "a": "ASSET_MANIFEST.json is damaged (it is not valid JSON), so the library cannot be used.",
+    "b": "ASSET_MANIFEST.json could not be read from that folder.",
+    "stillConnected": true,
+    "models": 327
+   }
+  },
+  {
+   "name": "A9 manifest problems (duplicate ID, entry without path, non-record) and a missing model file are reported in plain words",
+   "passed": true,
+   "detail": {
+    "ok": true,
+    "msg": "Library connected: 3 objects, 0 textures, 1 palettes. 3 problems found (see the list in the Library tab).",
+    "problems": [
+     "Two entries use the ID \u201clp_dumpster_bins_mesh_dumpster_closed\u201d; the second one was skipped.",
+     "\u201cDumpster Closed\u201d has no file path; it was skipped.",
+     "Entry 7 in the manifest is not an asset record; it was skipped."
+    ],
+    "models": 3,
+    "st": [
+     "error",
+     "ready"
+    ],
+    "err": "its file is missing from the library folder",
+    "fails": [
+     "\u201cChair (file deleted)\u201d (chair_file_deleted) failed after 3 attempts: its file is missing from the library folder. Check the file or retry the model."
+    ]
+   }
+  },
+  {
+   "name": "A10 the folder-picker fallback (webkitdirectory) connects the same library and loads models",
+   "passed": true,
+   "detail": {
+    "counts": {
+     "models": 327,
+     "textures": 1043,
+     "palettes": 3,
+     "hidden": 6,
+     "unverified": 29
+    },
+    "status": [
+     "ready"
+    ],
+    "seconds": 2.6
+   }
+  },
+  {
+   "name": "B1 click a library card, see a ghost under the cursor, turn it with ] and click a floor to place it",
+   "passed": true,
+   "detail": {
+    "n": 1,
+    "asset": "lp_furniture_chairs_mesh_chair_wood_01",
+    "x": 50,
+    "y": 31,
+    "rot": 30,
+    "room": "room_shop",
+    "sel": {
+     "kind": "prop",
+     "id": "prop_mve1rky4_2hc14j5"
+    },
+    "tool": "select",
+    "hist": 1,
+    "bounds": {
+     "min": [
+      -0.1869,
+      0,
+      -0.2033
+     ],
+     "max": [
+      0.1869,
+      1.0724,
+      0.2033
+     ]
+    }
+   }
+  },
+  {
+   "name": "B2 Shift+click keeps placing copies; Esc stops placing",
+   "passed": true,
+   "detail": {
+    "n": 3,
+    "placing": false,
+    "ghost": false
+   }
+  },
+  {
+   "name": "B3 placing off every floor is refused with a message (no stray objects)",
+   "passed": true,
+   "detail": [
+    3,
+    3
+   ]
+  },
+  {
+   "name": "B4 click an object on the map selects it; dragging moves it (snapped) as one undo step",
+   "passed": true,
+   "detail": {
+    "x": 50,
+    "y": 33,
+    "sel": {
+     "kind": "prop",
+     "id": "prop_mve1rky4_2hc14j5"
+    },
+    "hist": 4,
+    "room": "room_shop"
+   }
+  },
+  {
+   "name": "B5 undo puts it back; redo moves it again",
+   "passed": true,
+   "detail": {
+    "undo": [
+     50,
+     31
+    ],
+    "redo": [
+     50,
+     33
+    ]
+   }
+  },
+  {
+   "name": "B6 dragging the round handle turns the object toward the cursor in 15\u00b0 steps",
+   "passed": true,
+   "detail": {
+    "before": 30,
+    "after": 90
+   }
+  },
+  {
+   "name": "B7 keys: ] turns 15\u00b0, arrow nudges 0.1 m",
+   "passed": true,
+   "detail": [
+    105,
+    50.1
+   ]
+  },
+  {
+   "name": "B8 inspector edits: position field, size slider and name",
+   "passed": true,
+   "detail": {
+    "x": 49.5,
+    "s": [
+     1.5,
+     1.5,
+     1.5
+    ],
+    "name": "Shop chair",
+    "title": "Shop chair"
+   }
+  },
+  {
+   "name": "B9 Duplicate makes an independent copy (new IDs for it and its use points), offset and selected",
+   "passed": true,
+   "detail": {
+    "n": 4,
+    "newId": true,
+    "sel": true,
+    "ptIds": true,
+    "name": "Shop chair copy",
+    "dx": 0.4,
+    "pts": 1
+   }
+  },
+  {
+   "name": "B10 Delete removes the selected object; undo brings it back",
+   "passed": true,
+   "detail": [
+    true,
+    true
+   ]
+  },
+  {
+   "name": "B11 Replace swaps the model in place and keeps position, turn and use points",
+   "passed": true,
+   "detail": {
+    "replacement": "lp_furniture_chairs_mesh_chair_plastic_01",
+    "asset": "lp_furniture_chairs_mesh_chair_plastic_01",
+    "pts": 1,
+    "x": 49.9,
+    "rot": 105,
+    "bounds": {
+     "min": [
+      -0.2948,
+      0,
+      -0.264
+     ],
+     "max": [
+      0.2948,
+      0.84,
+      0.264
+     ]
+    }
+   }
+  },
+  {
+   "name": "B12 placing in first person drops the object on the floor point under the cursor",
+   "passed": true,
+   "detail": {
+    "asset": "lp_dumpster_bins_mesh_dumpster_closed",
+    "x": 49.889,
+    "y": 31.872,
+    "story": 0,
+    "room": "room_shop",
+    "dist": 3.56,
+    "view": {
+     "x": 47.6,
+     "y": 34.6,
+     "facing": 40,
+     "story": 0
+    }
+   }
+  },
+  {
+   "name": "B13 clicking a 3D object in first person selects it (outline + inspector)",
+   "passed": true,
+   "detail": {
+    "x": 707.3633600000001,
+    "y": 503.7302000000001,
+    "i": 0.4400000000000001,
+    "j": 0.5300000000000001
+   }
+  },
+  {
+   "name": "C1 after UI edits (nudge, add tag) the saved file keeps every unknown field byte-identical",
+   "passed": true,
+   "detail": {
+    "x": 44.6,
+    "gameplay": {
+     "tags": [
+      "cover",
+      "hide",
+      "smells-bad",
+      {
+       "id": "faction-cache",
+       "faction": "Kings"
+      },
+      "lootable"
+     ],
+     "props": {
+      "loot": {
+       "table": "alley_junk",
+       "rolls": 2
+      },
+      "noise": 0.7
+     },
+     "questHook": "Q12"
+    },
+    "lod": {
+     "far": "billboard"
+    }
+   }
+  },
+  {
+   "name": "C2 unknown fields in looks, setups and the library block are saved unchanged",
+   "passed": true,
+   "detail": {
+    "keep": true
+   }
+  },
+  {
+   "name": "C3 reopening the saved file in a fresh editor restores every object and the custom data",
+   "passed": true,
+   "detail": {
+    "n": 6,
+    "inputs": [
+     "projectFile",
+     "assetFiles",
+     "materialFile",
+     "libraryFolder",
+     "looksFile"
+    ]
+   }
+  },
+  {
+   "name": "C4 saving again with no library connected changes nothing (objects show as boxes, data intact)",
+   "passed": true,
+   "detail": {
+    "connected": false,
+    "html": true
+   }
+  },
+  {
+   "name": "D1 \"Save as look\" turns one object's appearance into a named look that other copies pick from the Look menu",
+   "passed": true,
+   "detail": {
+    "look": "look_mve1s9ce_hhccbm8",
+    "A": [
+     "#aa3322",
+     0.6,
+     null,
+     "look"
+    ],
+    "B": [
+     "#aa3322",
+     0.6,
+     null
+    ],
+    "C": [
+     "#aa3322",
+     1.6,
+     "object",
+     "look"
+    ],
+    "tags": [
+     "look",
+     "look",
+     "this object"
+    ]
+   }
+  },
+  {
+   "name": "D2 a per-object change (brightness on copy C) stays on that copy only and is labelled \"this object\"",
+   "passed": true,
+   "detail": {
+    "look": "look_mve1s9ce_hhccbm8",
+    "A": [
+     "#aa3322",
+     0.6,
+     null,
+     "look"
+    ],
+    "B": [
+     "#aa3322",
+     0.6,
+     null
+    ],
+    "C": [
+     "#aa3322",
+     1.6,
+     "object",
+     "look"
+    ],
+    "tags": [
+     "look",
+     "look",
+     "this object"
+    ]
+   }
+  },
+  {
+   "name": "D3 changing the shared look updates every object using it; copy C keeps its own brightness",
+   "passed": true,
+   "detail": [
+    [
+     "#2255aa",
+     null
+    ],
+    [
+     "#2255aa",
+     null
+    ],
+    [
+     "#2255aa",
+     1.6
+    ]
+   ]
+  },
+  {
+   "name": "D4 the 3D view rebuilds an object when its appearance changes (A and C render differently)",
+   "passed": true,
+   "detail": [
+    "[\"lp_furniture_chairs_mesh_chair_wood_01\",53,33,0,0,30,[1,1,1],true,\"room_shop\",\"ready\",1,{\"tint\":\"#2255aa\",\"tintStrength\":0.6,\"lookMissing\":false},0,\"[{\\\"brightness\\\":1.08,\\\"tint\\\":\\\"#eef8ff\\\",\\\"tintStrength\\\":0.12,\\\"exposure\\\":0,\\\"saturation\\\":1,\\\"contrast\\\":1.04},[{\\\"id\\\":\\\"light_shop1\\\",\\\"name\\\":\\\"Fluorescent \u00b7 front\\\",\\\"roomId\\\":\\\"room_shop\\\",\\\"x\\\":49.5,\\\"y\\\":32.5,\\\"color\\\":\\\"#f2fbff\\\",\\\"radius\\\":5,\\\"intensity\\\":0.42,\\\"falloff\\\":2,\\\"enabled\\\":true},{\\\"id\\\":\\\"light_shop2\\\",\\\"name\\\":\\\"Fluorescent \u00b7 middle\\\",\\\"roomId\\\":\\\"room_shop\\\",\\\"x\\\":54.5,\\\"y\\\":31.5,\\\"color\\\":\\\"#f2fbff\\\",\\\"radius\\\":5,\\\"intensity\\\":0.42,\\\"falloff\\\":2,\\\"enabled\\\":true},{\\\"id\\\":\\\"light_shop3\\\",\\\"name\\\":\\\"Fluorescent \u00b7 counter\\\",\\\"roomId\\\":\\\"room_shop\\\",\\\"x\\\":58.4,\\\"y\\\":31,\\\"color\\\":\\\"#fff8e8\\\",\\\"radius\\\":3.5,\\\"intensity\\\":0.45,\\\"falloff\\\":2,\\\"enabled\\\":true}]]\",0]",
+    "[\"lp_furniture_chairs_mesh_chair_wood_01\",55,33,0,0,30,[1,1,1],true,\"room_shop\",\"ready\",1,{\"tint\":\"#2255aa\",\"tintStrength\":0.6,\"brightness\":1.6,\"lookMissing\":false},0,\"[{\\\"brightness\\\":1.08,\\\"tint\\\":\\\"#eef8ff\\\",\\\"tintStrength\\\":0.12,\\\"exposure\\\":0,\\\"saturation\\\":1,\\\"contrast\\\":1.04},[{\\\"id\\\":\\\"light_shop1\\\",\\\"name\\\":\\\"Fluorescent \u00b7 front\\\",\\\"roomId\\\":\\\"room_shop\\\",\\\"x\\\":49.5,\\\"y\\\":32.5,\\\"color\\\":\\\"#f2fbff\\\",\\\"radius\\\":5,\\\"intensity\\\":0.42,\\\"falloff\\\":2,\\\"enabled\\\":true},{\\\"id\\\":\\\"light_shop2\\\",\\\"name\\\":\\\"Fluorescent \u00b7 middle\\\",\\\"roomId\\\":\\\"room_shop\\\",\\\"x\\\":54.5,\\\"y\\\":31.5,\\\"color\\\":\\\"#f2fbff\\\",\\\"radius\\\":5,\\\"intensity\\\":0.42,\\\"falloff\\\":2,\\\"enabled\\\":true},{\\\"id\\\":\\\"light_shop3\\\",\\\"name\\\":\\\"Fluorescent \u00b7 counter\\\",\\\"roomId\\\":\\\"room_shop\\\",\\\"x\\\":58.4,\\\"y\\\":31,\\\"color\\\":\\\"#fff8e8\\\",\\\"radius\\\":3.5,\\\"intensity\\\":0.45,\\\"falloff\\\":2,\\\"enabled\\\":true}]]\",0]"
+   ]
+  },
+  {
+   "name": "D5 the Grimy palette chip makes a project palette and applies it to this object only",
+   "passed": true,
+   "detail": {
+    "pal": "palv_mve1sbfg_m7mtrps",
+    "base": "pal_lowpoly_master_32",
+    "quick": "grimy",
+    "img": true,
+    "others": [
+     null,
+     null
+    ]
+   }
+  },
+  {
+   "name": "D5b the 3D view really draws copy B with its new palette picture, copy A still with the model's own",
+   "passed": true,
+   "detail": {
+    "b": "data:image/png;base64,",
+    "a": "canvas",
+    "bWait": false
+   }
+  },
+  {
+   "name": "D6 changing one colour swatch recolours just this object (its own palette copy); other copies unchanged",
+   "passed": true,
+   "detail": {
+    "owner": "prop_mve1s7rc_pofitmz",
+    "ownerOk": true,
+    "changedPixels": 1,
+    "aPal": null,
+    "swatches": 2
+   }
+  },
+  {
+   "name": "D7 \"Make an editable copy\" opens the palette editor; changing a colour edits the project copy (library file untouched)",
+   "passed": true,
+   "detail": {
+    "swatches": 350,
+    "id": "palv_mve1sdye_3nx8uwn",
+    "base": "pal_lowpoly_master_32",
+    "magenta": 634,
+    "w": 32
+   }
+  },
+  {
+   "name": "D8 a painted model can take a library texture as its picture (stored as a reference, per object)",
+   "passed": true,
+   "detail": {
+    "uv_model": "car_lp2_bus",
+    "tex": {
+     "library": "pix_bricks_brick_herringbone_blue_1"
+    },
+    "key": "[\"car_lp2_bus\",56,34,0,0,30,[1,1,1],true,\"room_shop\",\"ready\",1,{\"texture\":{\"library\":\"pix_bricks_brick_herringbone_blue_1\"},\"lookMissing\":false},0,\"[{\\\"brightness\\\":1.08,\\\"tint\\\":\\\"#eef8ff\\\",\\\"tintStrength\\\":0.12,\\\"exposure\\\":0,\\\"saturation\\\":1,\\\"contrast\\\":1.04},[{\\\"id\\\":\\\"light_shop1\\\",\\\"name\\\":\\\"Fluorescent \u00b7 front\\\",\\\"roomId\\\":\\\"room_shop\\\",\\\"x\\\":49.5,\\\"y\\\":32.5,\\\"color\\\":\\\"#f2fbff\\\",\\\"radius\\\":5,\\\"intensity\\\":0.42,\\\"falloff\\\":2,\\\"enabled\\\":true},{\\\"id\\\":\\\"light_shop2\\\",\\\"name\\\":\\\"Fluorescent \u00b7 middle\\\",\\\"roomId\\\":\\\"room_shop\\\",\\\"x\\\":54.5,\\\"y\\\":31.5,\\\"color\\\":\\\"#f2fbff\\\",\\\"radius\\\":5,\\\"intensity\\\":0.42,\\\"falloff\\\":2,\\\"enabled\\\":true},{\\\"id\\\":\\\"light_shop3\\\",\\\"name\\\":\\\"Fluorescent \u00b7 counter\\\",\\\"roomId\\\":\\\"room_shop\\\",\\\"x\\\":58.4,\\\"y\\\":31,\\\"color\\\":\\\"#fff8e8\\\",\\\"radius\\\":3.5,\\\"intensity\\\":0.45,\\\"falloff\\\":2,\\\"enabled\\\":true}]]\",0]"
+   }
+  },
+  {
+   "name": "D8b the 3D view draws the painted model with the chosen texture (256 px library picture)",
+   "passed": true,
+   "detail": {
+    "w": 256,
+    "wait": false
+   }
+  },
+  {
+   "name": "D9 Pixel / Smooth texture look is a per-object choice",
+   "passed": true,
+   "detail": "smooth"
+  },
+  {
+   "name": "D10 a library texture can be put on a floor from the Style panel button; it is copied into the project and set to Pixel",
+   "passed": true,
+   "detail": {
+    "target": "floor \u00b7 Bodega \u00b7 back office",
+    "surfaces": [
+     [
+      "room.floor.textureId",
+      "asset_mve1skl0_f1ollrw",
+      "pixel"
+     ],
+     [
+      "room.wall.textureId",
+      "asset_sample_wall33",
+      "pixel"
+     ]
+    ],
+    "libAssets": [
+     {
+      "id": "asset_mve1skl0_f1ollrw",
+      "lib": {
+       "asset_id": "pix_bricks_brick_herringbone_blue_1",
+       "library": "Trapstar Room Creator Asset Library v1"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "name": "D11 Export writes a looks file with the named looks, the palettes they need and object setups",
+   "passed": true,
+   "detail": {
+    "looks": [
+     "Council green",
+     "Red caf\u00e9 chair"
+    ],
+    "palettes": [
+     "Grimy \u00b7 LowPoly Master 32x32",
+     "Chair Wood 01 \u00b7 own colours",
+     "Copy of LowPoly Master 32x32"
+    ],
+    "setups": [
+     "some_future_asset"
+    ]
+   }
+  },
+  {
+   "name": "D12 Import adds the looks/palettes/setups to another project; importing again adds nothing; a clashing ID is added as a new copy",
+   "passed": true,
+   "detail": {
+    "first": {
+     "looks": [
+      "look_green",
+      "look_mve1s9ce_hhccbm8"
+     ],
+     "pals": 3,
+     "setups": [
+      "some_future_asset"
+     ]
+    },
+    "again": {
+     "looks": 2,
+     "pals": 3
+    },
+    "clash": {
+     "r": {
+      "looks": 1,
+      "palettes": 0,
+      "setups": 0,
+      "same": 0,
+      "renamed": 1,
+      "setupConflicts": []
+     },
+     "looks": [
+      [
+       "look_green",
+       "#2e6b3a"
+      ],
+      [
+       "look_mve1s9ce_hhccbm8",
+       "#2255aa"
+      ],
+      [
+       "look_mve1so62_1gu7kgh",
+       "#000000"
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "name": "D13 the canonical library palette file is byte-identical after all palette edits",
+   "passed": true,
+   "detail": [
+    "08c40a0bf53b41e9a5cb765fba08e9aac165d366c9998e416a52a4e024409853",
+    "08c40a0bf53b41e9a5cb765fba08e9aac165d366c9998e416a52a4e024409853"
+   ]
+  },
+  {
+   "name": "E1 a dumpster is solid by default: its footprint blocks first-person walking (nav grid) but the space beside it stays free",
+   "passed": true,
+   "detail": {
+    "id": "prop_mve1so7v_0nuc5lr",
+    "solid": true,
+    "cell": 0,
+    "side": 1,
+    "at": true,
+    "conf": [
+     "route:blocks",
+     "lane:blocks",
+     "lane:blocks",
+     "lane:blocks"
+    ]
+   }
+  },
+  {
+   "name": "E2 the route check reports a solid object standing on the player route",
+   "passed": true,
+   "detail": [
+    "route:blocks",
+    "lane:blocks",
+    "lane:blocks",
+    "lane:blocks"
+   ]
+  },
+  {
+   "name": "E3 the Rails/Routes panel lists objects that block routes",
+   "passed": true,
+   "detail": "f the bodega \u00b7 walking west\u201d.\nBLOCKS\nBus covers the spot \u201cBodega window\u201d.\nBLOCKS\nDumpster Closed stands on the player route \u201cHarlan Av sidewalk\u201d.\nBLOCKS\nDumpster Closed sits on the NPC lane \u201cNear side \u00b7 walking west (curb side)\u201d.\nBLOCKS\nDumpster Closed sits on the NPC lane \u201cNear side \u00b7 walking east (wall side)\u201d.\nBLOCKS\nDumpster Closed sits on the NPC lane \u201cOut of the bodega \u00b7 walking west\u201d.\nBLOCKS"
+  },
+  {
+   "name": "E4 unticking \"Solid\" makes it walk-through: nav grid opens and the route warning clears",
+   "passed": true,
+   "detail": {
+    "solid": false,
+    "cell": 1,
+    "conf": 0
+   }
+  },
+  {
+   "name": "E5 collision can be a custom box or a round footprint with a chosen size",
+   "passed": true,
+   "detail": {
+    "shape": "cylinder",
+    "size": [
+     0.6,
+     0.6,
+     1.493
+    ],
+    "n": 12,
+    "r": 0.300000000000006
+   }
+  },
+  {
+   "name": "E6 route sight lines are blocked by a solid car at eye height, clear above it, beside it, and when it is switched off",
+   "passed": true,
+   "detail": {
+    "id": "prop_mve1sqv8_kj0201f",
+    "hi": "Ford Crown Victoria",
+    "over": null,
+    "side": null,
+    "off": null
+   }
+  },
+  {
+   "name": "E7 a car blocks first-person walking at its footprint only",
+   "passed": true,
+   "detail": {
+    "z1": 1.42,
+    "blocks": true,
+    "at": true,
+    "beside": false
+   }
+  },
+  {
+   "name": "F1 use points move and turn with their object (turn 90\u00b0 and move 2 m)",
+   "passed": true,
+   "detail": {
+    "before": [
+     [
+      9.06,
+      41.06
+     ],
+     [
+      8.65,
+      44.34
+     ]
+    ],
+    "after": [
+     [
+      12.94,
+      41.06
+     ],
+     [
+      9.66,
+      40.65
+     ]
+    ],
+    "expected": [
+     [
+      12.94,
+      41.06
+     ],
+     [
+      9.66,
+      40.65
+     ]
+    ]
+   }
+  },
+  {
+   "name": "F2 a point is edited in plain terms (metres right of the front, facing); any new type name is accepted",
+   "passed": true,
+   "detail": {
+    "x": 1.2,
+    "yaw": 90,
+    "type": "driver-door",
+    "head": 30
+   }
+  },
+  {
+   "name": "F3 \"Custom\u2026\" adds a point of a brand-new type (not from a fixed list)",
+   "passed": true,
+   "detail": [
+    "driver-door",
+    "cover",
+    "stash-spot"
+   ]
+  },
+  {
+   "name": "F4 \"Which side is the front? \u2192 Other end\" is saved once for the model; copies turn so nothing moves on screen; points stay put",
+   "passed": true,
+   "detail": {
+    "after": {
+     "front": 180,
+     "rot": 300,
+     "w": [
+      [
+       12.9,
+       41.13
+      ],
+      [
+       9.66,
+       40.65
+      ],
+      [
+       14.38,
+       43.38
+      ]
+     ],
+     "yaw": -5.235987755982989
+    },
+    "before": [
+     [
+      12.9,
+      41.13
+     ],
+     [
+      9.66,
+      40.65
+     ],
+     [
+      14.38,
+      43.38
+     ]
+    ]
+   }
+  },
+  {
+   "name": "F4b \"Its left\" works for models whose front is a side: new use points start out of that side and face back at it",
+   "passed": true,
+   "detail": {
+    "turn": 90,
+    "x": 0.637,
+    "z": 0,
+    "yaw": 270,
+    "heading": 120,
+    "rot": 300
+   }
+  },
+  {
+   "name": "F5 \"Make these the defaults\" gives new copies the same use points (with fresh IDs)",
+   "passed": true,
+   "detail": {
+    "types": [
+     "driver-door",
+     "cover",
+     "stash-spot"
+    ],
+    "ids": [
+     "pt_mve1swwd_rzb4cda",
+     "pt_mve1swwd_zquoosw",
+     "pt_mve1swwd_k712ac7"
+    ]
+   }
+  },
+  {
+   "name": "G1 an object whose model is missing keeps its reference, shows a pink placeholder and a repair message",
+   "passed": true,
+   "detail": {
+    "status": "missing",
+    "warn": true,
+    "entry": true,
+    "asset": "renamed_in_v2_chair"
+   }
+  },
+  {
+   "name": "G2 objects placed upstairs sit on that story's floor and are only picked on that story",
+   "passed": true,
+   "detail": {
+    "story": 1,
+    "room": "room_mvcv5kcr_o2gt4ij",
+    "fz": 3,
+    "elev": 3,
+    "hitAt1": true,
+    "hitAt0": false
+   }
+  },
+  {
+   "name": "H1 the project still validates with rooms, views, routes, stairs and lights intact",
+   "passed": true,
+   "detail": {
+    "rooms": 18,
+    "views": 10,
+    "route": 8,
+    "stairs": 1,
+    "lights": 43,
+    "props": 16,
+    "format": "trapstar-room-creator",
+    "version": 11
+   }
+  },
+  {
+   "name": "H2 the route walk prototype still starts and runs, with solid 3D objects added to its sight boxes",
+   "passed": true,
+   "detail": {
+    "ok": true,
+    "p0": {
+     "x": 14,
+     "y": 37.85,
+     "edge": "e_harlan_w",
+     "s": 8,
+     "off": 0,
+     "body": 90,
+     "head": 0,
+     "stop": null
+    },
+    "pos": {
+     "x": 16.66,
+     "y": 37.85,
+     "edge": "e_harlan_w",
+     "s": 10.66,
+     "off": 0,
+     "body": 90,
+     "head": 0,
+     "stop": null
+    },
+    "boxes": 7
+   }
+  },
+  {
+   "name": "Z no page errors during the whole test",
+   "passed": true,
+   "detail": [
+    "Failed to load resource: the server responded with a status of 404 (File not found)",
+    "Failed to load resource: the server responded with a status of 404 (File not found)",
+    "Failed to load resource: the server responded with a status of 404 (File not found)",
+    "Failed to load resource: the server responded with a status of 404 (File not found)",
+    "Failed to load resource: the server responded with a status of 404 (File not found)",
+    "Failed to load resource: the server responded with a status of 404 (File not found)"
+   ]
+  }
+ ],
+ "console_errors": [
+  "Failed to load resource: the server responded with a status of 404 (File not found)",
+  "Failed to load resource: the server responded with a status of 404 (File not found)",
+  "Failed to load resource: the server responded with a status of 404 (File not found)",
+  "Failed to load resource: the server responded with a status of 404 (File not found)",
+  "Failed to load resource: the server responded with a status of 404 (File not found)",
+  "Failed to load resource: the server responded with a status of 404 (File not found)"
+ ]
+}

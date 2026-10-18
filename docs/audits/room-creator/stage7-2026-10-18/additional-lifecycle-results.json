@@ -1,0 +1,402 @@
+[
+  {
+    "kind": "cut",
+    "passed": true,
+    "correct": true,
+    "undo": true,
+    "redo": true,
+    "props": [],
+    "result": {
+      "objects": 0,
+      "props": 1,
+      "viewpoints": 0
+    }
+  },
+  {
+    "kind": "rehost-neighbour",
+    "passed": true,
+    "correct": true,
+    "undo": true,
+    "redo": true,
+    "props": [
+      {
+        "id": "target",
+        "asset": "missing",
+        "x": 28,
+        "y": 3,
+        "story": 0,
+        "z": 0.8,
+        "rotation": 29,
+        "scale": [
+          1.2,
+          2,
+          0.7
+        ],
+        "points": [
+          {
+            "id": "future",
+            "type": "custom",
+            "x": 0.2,
+            "y": 0.9,
+            "z": 0.4,
+            "yaw": 73,
+            "extra": {
+              "keep": 1
+            },
+            "enabled": true
+          }
+        ],
+        "collision": {
+          "solid": true,
+          "shape": "cylinder",
+          "size": [
+            2,
+            2,
+            2
+          ]
+        },
+        "extra": {
+          "keep": 2
+        },
+        "gameplay": {
+          "tags": [
+            {
+              "future": true
+            }
+          ],
+          "props": {
+            "a": [
+              1,
+              2
+            ]
+          }
+        },
+        "enabled": true,
+        "locked": false,
+        "look": null,
+        "override": {},
+        "roomId": "room_mve27mp4_cmkb4fa"
+      }
+    ],
+    "result": {
+      "objects": 0,
+      "props": 0,
+      "viewpoints": 0
+    }
+  },
+  {
+    "kind": "floor-conversion",
+    "passed": true,
+    "correct": true,
+    "undo": true,
+    "redo": true,
+    "props": [
+      {
+        "id": "target",
+        "asset": "missing",
+        "x": 23,
+        "y": 3,
+        "story": 0,
+        "z": 0.8,
+        "rotation": 29,
+        "scale": [
+          1.2,
+          2,
+          0.7
+        ],
+        "points": [
+          {
+            "id": "future",
+            "type": "custom",
+            "x": 0.2,
+            "y": 0.9,
+            "z": 0.4,
+            "yaw": 73,
+            "extra": {
+              "keep": 1
+            },
+            "enabled": true
+          }
+        ],
+        "collision": {
+          "solid": true,
+          "shape": "cylinder",
+          "size": [
+            2,
+            2,
+            2
+          ]
+        },
+        "extra": {
+          "keep": 2
+        },
+        "gameplay": {
+          "tags": [
+            {
+              "future": true
+            }
+          ],
+          "props": {
+            "a": [
+              1,
+              2
+            ]
+          }
+        },
+        "enabled": true,
+        "locked": false,
+        "look": null,
+        "override": {},
+        "roomId": "room_mve27mq8_fi53qwv"
+      }
+    ],
+    "result": {
+      "id": "room_mve27mq8_fi53qwv",
+      "name": "Floor section 1 \u00b7 room",
+      "x": 20,
+      "y": 0,
+      "width": 8,
+      "length": 6,
+      "story": 0,
+      "openAbove": false,
+      "balconySides": [],
+      "floor": {
+        "color": "#736d65",
+        "finish": "concrete",
+        "textureId": null,
+        "tileSize": 1,
+        "angle": 0,
+        "offsetX": 0,
+        "offsetY": 0,
+        "textureOpacity": 1,
+        "mapping": "repeat",
+        "tileSizeY": null,
+        "flipX": false,
+        "flipY": false,
+        "brightness": 1,
+        "contrast": 1,
+        "saturation": 1,
+        "hue": 0,
+        "tintStrength": 0,
+        "wear": 0,
+        "secondary": "#d9d3c6",
+        "jointWidth": 0.015,
+        "baseHeight": 0,
+        "baseColor": "#444951",
+        "capHeight": 0,
+        "capColor": "#ddd9cf",
+        "coordinateMode": "local",
+        "filter": "pixel"
+      },
+      "wall": {
+        "color": "#a8aaa6",
+        "finish": "paint",
+        "textureId": null,
+        "tileSize": 1,
+        "angle": 0,
+        "offsetX": 0,
+        "offsetY": 0,
+        "textureOpacity": 1,
+        "mapping": "repeat",
+        "tileSizeY": null,
+        "flipX": false,
+        "flipY": false,
+        "brightness": 1,
+        "contrast": 1,
+        "saturation": 1,
+        "hue": 0,
+        "tintStrength": 0,
+        "wear": 0,
+        "secondary": "#d9d3c6",
+        "jointWidth": 0.015,
+        "baseHeight": 0,
+        "baseColor": "#444951",
+        "capHeight": 0,
+        "capColor": "#ddd9cf",
+        "coordinateMode": "local",
+        "filter": "pixel"
+      },
+      "ceiling": {
+        "color": "#afb2b4",
+        "finish": "paint",
+        "textureId": null,
+        "tileSize": 1,
+        "angle": 0,
+        "offsetX": 0,
+        "offsetY": 0,
+        "textureOpacity": 1,
+        "mapping": "repeat",
+        "tileSizeY": null,
+        "flipX": false,
+        "flipY": false,
+        "brightness": 1,
+        "contrast": 1,
+        "saturation": 1,
+        "hue": 0,
+        "tintStrength": 0,
+        "wear": 0,
+        "secondary": "#d9d3c6",
+        "jointWidth": 0.015,
+        "baseHeight": 0,
+        "baseColor": "#444951",
+        "capHeight": 0,
+        "capColor": "#ddd9cf",
+        "coordinateMode": "local",
+        "filter": "pixel"
+      },
+      "walls": {},
+      "light": {
+        "brightness": 1,
+        "tint": "#ffffff",
+        "tintStrength": 0.18,
+        "exposure": 0,
+        "saturation": 1,
+        "contrast": 1
+      },
+      "exterior": {
+        "default": {
+          "assetId": null,
+          "fit": "cover",
+          "scale": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "alpha": 1,
+          "distance": 0
+        },
+        "sides": {}
+      }
+    }
+  },
+  {
+    "kind": "force-middle",
+    "passed": true,
+    "correct": true,
+    "undo": true,
+    "redo": true,
+    "props": [
+      {
+        "id": "ground",
+        "asset": "missing",
+        "x": 23,
+        "y": 3,
+        "story": 0,
+        "z": 0.8,
+        "rotation": 29,
+        "scale": [
+          1.2,
+          2,
+          0.7
+        ],
+        "points": [
+          {
+            "id": "future",
+            "type": "custom",
+            "x": 0.2,
+            "y": 0.9,
+            "z": 0.4,
+            "yaw": 73,
+            "extra": {
+              "keep": 1
+            },
+            "enabled": true
+          }
+        ],
+        "collision": {
+          "solid": true,
+          "shape": "cylinder",
+          "size": [
+            2,
+            2,
+            2
+          ]
+        },
+        "extra": {
+          "keep": 2
+        },
+        "gameplay": {
+          "tags": [
+            {
+              "future": true
+            }
+          ],
+          "props": {
+            "a": [
+              1,
+              2
+            ]
+          }
+        },
+        "enabled": true,
+        "locked": false,
+        "look": null,
+        "override": {},
+        "roomId": null
+      },
+      {
+        "id": "top",
+        "asset": "missing",
+        "x": 23,
+        "y": 3,
+        "story": 1,
+        "z": 0.8,
+        "rotation": 29,
+        "scale": [
+          1.2,
+          2,
+          0.7
+        ],
+        "points": [
+          {
+            "id": "future",
+            "type": "custom",
+            "x": 0.2,
+            "y": 0.9,
+            "z": 0.4,
+            "yaw": 73,
+            "extra": {
+              "keep": 1
+            },
+            "enabled": true
+          }
+        ],
+        "collision": {
+          "solid": true,
+          "shape": "cylinder",
+          "size": [
+            2,
+            2,
+            2
+          ]
+        },
+        "extra": {
+          "keep": 2
+        },
+        "gameplay": {
+          "tags": [
+            {
+              "future": true
+            }
+          ],
+          "props": {
+            "a": [
+              1,
+              2
+            ]
+          }
+        },
+        "enabled": true,
+        "locked": false,
+        "look": null,
+        "override": {},
+        "roomId": "room_mve27mr8_zpw2nru"
+      }
+    ],
+    "result": true
+  },
+  {
+    "kind": "room-dialog-count",
+    "passed": true,
+    "dialog": "Delete Delete target?\n\u00d7\n\nThis removes the room with its walls, openings, partitions, lights and ceiling edits. Its 1 3D objects, 0 image objects and 0 viewpoints are kept if they still stand on floor space, otherwise removed. Free walls are kept. Undo restores everything.\n\nCancel\nDelete section",
+    "toast": "Room deleted. Removed 1 3D objects, 0 image objects and 0 viewpoints that were no longer on floor."
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "propCount": 69,
+  "points": 24,
+  "preserved": {
+    "routeNet": true,
+    "stories": true,
+    "stairs": true,
+    "floorCuts": true,
+    "pairs": true,
+    "links": true
+  },
+  "propPlacementAndMetadataEqual": true,
+  "uniqueModels": 50,
+  "generated_file_sha256": "2560b9bd0f53e03a9ea9bba239c56323fc79534d43cc725c2eca02490769bfc4",
+  "byte_identical_to_shipped_map": false,
+  "comparison_scope": "Normalized placement/collision/gameplay/point records and route/stories/stairs/floorCuts/pairs/links; generated appearance IDs and image serialization may differ."
+}

@@ -1,0 +1,26 @@
+{
+  "result": "PASS",
+  "scenario_count": 27,
+  "exact_preserved_data_equal": false,
+  "scenario_measurements_equal": true,
+  "protected_rule_counters_zero": true,
+  "counter_names": [
+    "spawnInView",
+    "despawnInView",
+    "carDespawnInView",
+    "nodeConflicts",
+    "sameDirectionOvertakes"
+  ],
+  "metadata_keys": [
+    "flicker",
+    "errors"
+  ],
+  "differences": [
+    "errors"
+  ],
+  "fresh_console_errors": [],
+  "preserved_console_errors": [
+    "Failed to load resource: the server responded with a status of 404 (File not found)"
+  ],
+  "flicker_metadata_equal": true
+}

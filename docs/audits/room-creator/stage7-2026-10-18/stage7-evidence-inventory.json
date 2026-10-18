@@ -1,0 +1,1543 @@
+{
+  "schema": "first-encounter-stage7-evidence-index@1",
+  "root": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-7-verification-2026-10-18",
+  "selection": "Selected scripts, input guards, fresh logs/results/images/exports, rebuilt packages and regenerated data. Duplicate pristine/original/dependency source trees omitted; their identities are bound by manifests. Copied delivery inputs are labelled separately from fresh execution.",
+  "files": [
+    {
+      "path": "adaptations/adversarial.py.json",
+      "bytes": 684,
+      "sha256": "9be27e527fe9dac7010b704f86100b3672838b9d6781b3a2374d1db638bc8de4",
+      "role": "recorded runtime-only path/browser adaptation"
+    },
+    {
+      "path": "adaptations/candidate-prior-browser.py.json",
+      "bytes": 696,
+      "sha256": "0ab329d8d3c7317ace25897d720db126109be4818da770ac31dff43e9ad3febf",
+      "role": "recorded runtime-only path/browser adaptation"
+    },
+    {
+      "path": "adaptations/candidate-prior-data.cjs.json",
+      "bytes": 663,
+      "sha256": "4cedd718f927b7b6af0e8d646478b7f07382429744534e00810ffa3efba6acbd",
+      "role": "recorded runtime-only path/browser adaptation"
+    },
+    {
+      "path": "adaptations/compare-generated.cjs.json",
+      "bytes": 660,
+      "sha256": "e5c08a35df92dc9e46b84be85988637060f8a0df67754ff4367433c7cbdc4207",
+      "role": "recorded runtime-only path/browser adaptation"
+    },
+    {
+      "path": "adaptations/lifecycle.py.json",
+      "bytes": 682,
+      "sha256": "b1c4ea3c14b1330e285984e286279548868346f09f2e4107206d26f9ce8a6a53",
+      "role": "recorded runtime-only path/browser adaptation"
+    },
+    {
+      "path": "adaptations/original-loader.py.json",
+      "bytes": 688,
+      "sha256": "f3fe2cf259ede381b12f65cea96e16c5ae8f63ba149641e860c8526801d256a2",
+      "role": "recorded runtime-only path/browser adaptation"
+    },
+    {
+      "path": "adaptations/original-prior-browser.py.json",
+      "bytes": 695,
+      "sha256": "65e7bfc2da7b2cfa17f336a90735afbf33bd0d2dea0bb2d43052acc606f59347",
+      "role": "recorded runtime-only path/browser adaptation"
+    },
+    {
+      "path": "adaptations/original-prior-data.cjs.json",
+      "bytes": 662,
+      "sha256": "3734813e77806408a294bd633fc314915100bc007270883fcb2a524b31f06a53",
+      "role": "recorded runtime-only path/browser adaptation"
+    },
+    {
+      "path": "adaptations/stage7-example-review.py.json",
+      "bytes": 694,
+      "sha256": "f962cc57b37b202647cc0d2856bad0603fa1c3a6d15ccbbaaac1091339b2e274",
+      "role": "recorded runtime-only path/browser adaptation"
+    },
+    {
+      "path": "checks/LF-CRLF-build-reproduction.json",
+      "bytes": 353,
+      "sha256": "218cfc1989a7f18a0550020f4e6b93ceb21c4790a5cebeb166c49d35cad05181",
+      "role": "fresh checks and comparisons"
+    },
+    {
+      "path": "checks/baseline-map-comparisons.json",
+      "bytes": 1633,
+      "sha256": "9fd0760c30560a0a1568aa02a7dc399209ff0428a04691df4d4b211557b1c802",
+      "role": "fresh checks and comparisons"
+    },
+    {
+      "path": "checks/demo-integration-summary.json",
+      "bytes": 439,
+      "sha256": "f51fb67dc06323eb180094bf8ca63c19362bb1e5bfd148b024dff641ec723094",
+      "role": "fresh checks and comparisons"
+    },
+    {
+      "path": "checks/example-expectations.json",
+      "bytes": 6710,
+      "sha256": "fbb93e74f5cf54ee14e0502223346aafdfc1c049c6a99914f91b51ba36bac45b",
+      "role": "fresh checks and comparisons"
+    },
+    {
+      "path": "checks/generated-demo-comparison.json",
+      "bytes": 571,
+      "sha256": "410d39dc53d74ca882a35c2cca2a93116dfa82b931584b042f67cd8b6da2a36e",
+      "role": "fresh checks and comparisons"
+    },
+    {
+      "path": "checks/independent-case-summary.json",
+      "bytes": 2035,
+      "sha256": "30e5a84f89b6fd5de5ef8d341f7e40a1ddc30e00541d8dfc685b24ed18f17850",
+      "role": "fresh checks and comparisons"
+    },
+    {
+      "path": "checks/independent-intake.json",
+      "bytes": 50028,
+      "sha256": "714625788a249992daa8a72f41a98efa8d56a4084fbc1ceb5bd15189b03e852f",
+      "role": "fresh checks and comparisons"
+    },
+    {
+      "path": "checks/library-checksums.json",
+      "bytes": 540757,
+      "sha256": "5c2b451d314606bb1efd3e1b9e1bd95b0149c3ea34653e2a26fda04d6ee55995",
+      "role": "fresh checks and comparisons"
+    },
+    {
+      "path": "checks/model-library-summary.json",
+      "bytes": 394,
+      "sha256": "5c407476cba3188426b148ba70261057f4f45bb67024abe41e846d9acd18edd5",
+      "role": "fresh checks and comparisons"
+    },
+    {
+      "path": "checks/node-test-counts.json",
+      "bytes": 1880,
+      "sha256": "a54d6a4edbc1079e119caed5abdb442f158f70c88a418c2f9a04e4040a7a2c21",
+      "role": "fresh checks and comparisons"
+    },
+    {
+      "path": "checks/protected-files-after-verification.json",
+      "bytes": 698,
+      "sha256": "8b3717e63dfc8c70424ce7dbfad0c2a4ce5223d8e46afbe39eb6196f991e1624",
+      "role": "fresh checks and comparisons"
+    },
+    {
+      "path": "checks/reproducibility.json",
+      "bytes": 583,
+      "sha256": "b6a4c19ac610bf160a5fc2984541e69c4a53f917d832604d8aab95f468bf8c07",
+      "role": "fresh checks and comparisons"
+    },
+    {
+      "path": "checks/route-evaluation-comparison.json",
+      "bytes": 587,
+      "sha256": "700dc173c8a6e655fdd91aa2b34c4fd5ede757e0a5691e7ef988aff14fb50203",
+      "role": "fresh checks and comparisons"
+    },
+    {
+      "path": "checks/visual-review.json",
+      "bytes": 2607,
+      "sha256": "84af7df81fae7c3643e14a2a0f9a10efb265b1536301f75b45c25df4a0992652",
+      "role": "fresh checks and comparisons"
+    },
+    {
+      "path": "command-results-independent.json",
+      "bytes": 8015,
+      "sha256": "0a9a69bd15bbc8112657220e4dc8a8baeda81324d48e35251b9d67aeb5d31c6f",
+      "role": "Stage7 harness/result"
+    },
+    {
+      "path": "command-results-supplied.json",
+      "bytes": 6130,
+      "sha256": "676e563b3ced9f8100cb0a9f02db9d70ed7df44556edd726c15cbd95e765301a",
+      "role": "Stage7 harness/result"
+    },
+    {
+      "path": "environment.json",
+      "bytes": 1031,
+      "sha256": "7f8394192063ac9f322128de17009ff262f57d17149ebd9b6107c85791e813e3",
+      "role": "Stage7 harness/result"
+    },
+    {
+      "path": "finalize-verification.py",
+      "bytes": 12349,
+      "sha256": "b2e20f09656d938e613dfb01ffd64d7add4319d59b4a0872f3991ec0711e8c45",
+      "role": "Stage7 harness/result"
+    },
+    {
+      "path": "independent-status.json",
+      "bytes": 442,
+      "sha256": "34726c5ca54d6a44f35e6ea80200d7bb1abf62e92938e1e0808f4a9d8db7fd45",
+      "role": "Stage7 harness/result"
+    },
+    {
+      "path": "inputs/FIRST_ENCOUNTER_GAME_STAGE_7_AUTHORIZATION.md",
+      "bytes": 5162,
+      "sha256": "a8218c7a24188cba8576a9971d31caf94293595196e4f0a77968c26cd2bbae5c",
+      "role": "guarded verification inputs"
+    },
+    {
+      "path": "inputs/excluded-original-caches.json",
+      "bytes": 1380,
+      "sha256": "cc63306a6413e156208565b26b7fd80cb2140ca5be6045f87ccb76aa649cf59b",
+      "role": "guarded verification inputs"
+    },
+    {
+      "path": "inputs/repository-before.json",
+      "bytes": 777101,
+      "sha256": "7a6c9a6d46b098880d618ad5a4862958551861d89c4e025caec231485da7bd11",
+      "role": "guarded verification inputs"
+    },
+    {
+      "path": "inputs/source-authority-before.json",
+      "bytes": 27043,
+      "sha256": "b350baaa041ebbec72323b066e7704b1187673e9aa675740b5a0bcffeeaf973f",
+      "role": "guarded verification inputs"
+    },
+    {
+      "path": "inputs/stage6-import-manifest.json",
+      "bytes": 123203,
+      "sha256": "51b4e07b756af40a76a2c75c8fbd2365a0b2a2c8ac6cc5746344e57ac5249788",
+      "role": "guarded verification inputs"
+    },
+    {
+      "path": "logs/01-independent-input-identity.log",
+      "bytes": 4664,
+      "sha256": "fe90e1a7040191a5621c95e50b8d86712de51947a03b90b87668378e5b63cd9b",
+      "role": "fresh command logs"
+    },
+    {
+      "path": "logs/02-rebuild-html.log",
+      "bytes": 41,
+      "sha256": "e9435484ad96bb13e4cc97a519bd32635d12ca8a65f2ec7c958e85d5637b9d0a",
+      "role": "fresh command logs"
+    },
+    {
+      "path": "logs/03-package-reproduction-1.log",
+      "bytes": 65,
+      "sha256": "33f3c7e2fb9fe0117e6f2868731e58df26988b7c159a4a62f841c76ebe13f2b7",
+      "role": "fresh command logs"
+    },
+    {
+      "path": "logs/03-package-reproduction-2.log",
+      "bytes": 65,
+      "sha256": "33f3c7e2fb9fe0117e6f2868731e58df26988b7c159a4a62f841c76ebe13f2b7",
+      "role": "fresh command logs"
+    },
+    {
+      "path": "logs/04-supplied-all.log",
+      "bytes": 7745,
+      "sha256": "5668e156ee2025f9eeeb503bb1e1d64cff06cacf1fbaa6d6ccd05894e5847b7c",
+      "role": "fresh command logs"
+    },
+    {
+      "path": "logs/05-demo-generation.log",
+      "bytes": 358,
+      "sha256": "1f7e0a0906dac114c78cb0a78be68d065216d64427d8f6cd3226b0d7ce6efeac",
+      "role": "fresh command logs"
+    },
+    {
+      "path": "logs/06-candidate-prior-data.cjs.log",
+      "bytes": 4775,
+      "sha256": "21666849ca25bf41c22fca8080bf145f3c42963bb9b62ab912721f1a7607089e",
+      "role": "fresh command logs"
+    },
+    {
+      "path": "logs/06-original-prior-data.cjs.log",
+      "bytes": 5502,
+      "sha256": "ba042e9e1f94c92b37068b810d73aff74f1279617361c4390414f2855c18fc52",
+      "role": "fresh command logs"
+    },
+    {
+      "path": "logs/07-adversarial.py.log",
+      "bytes": 1320,
+      "sha256": "838eeb034000cd9c05b48e459873006c48e0768d20da0ee0ed0faa1320bc8221",
+      "role": "fresh command logs"
+    },
+    {
+      "path": "logs/07-candidate-prior-browser.py.log",
+      "bytes": 3467,
+      "sha256": "ad6f736b11d955527b4eea575c68923256702d9df5333aca2a0ef4dde9fb876f",
+      "role": "fresh command logs"
+    },
+    {
+      "path": "logs/07-lifecycle.py.log",
+      "bytes": 8402,
+      "sha256": "3aea00eaafa3b8327608f85041dc4792a45bc5dfc8a22d37470f7beec877746f",
+      "role": "fresh command logs"
+    },
+    {
+      "path": "logs/07-original-loader.py.log",
+      "bytes": 289,
+      "sha256": "0806ea708aa53f14320a74a7087c5e36b6a61613244c02214a048f50005c09d0",
+      "role": "fresh command logs"
+    },
+    {
+      "path": "logs/07-original-prior-browser.py.log",
+      "bytes": 3455,
+      "sha256": "e944753a6a7956560e9cf2dceda2300bac6ac1f48ff89c62c944208bee52347c",
+      "role": "fresh command logs"
+    },
+    {
+      "path": "logs/08-browser-all-examples.log",
+      "bytes": 850,
+      "sha256": "0fdf86be55b44e22bf17bda8994321b744a250d1f8fd82a0114cf6669f8e100f",
+      "role": "fresh command logs"
+    },
+    {
+      "path": "logs/08-compare-generated.log",
+      "bytes": 224,
+      "sha256": "08416622a5f6d835692754514d26468a5d3a63deb40733cf9802c321e2716cda",
+      "role": "fresh command logs"
+    },
+    {
+      "path": "logs/independent-server.log",
+      "bytes": 36,
+      "sha256": "927de49da83d218d9abfb96fd3ebf60d225debf85cb0e101d7ee9ca5e0ef9640",
+      "role": "fresh command logs"
+    },
+    {
+      "path": "make-example-expectations.cjs",
+      "bytes": 1460,
+      "sha256": "e8685ad334f93f3a7df4353a8b5b7d34f2a72d5d187cd9fdd0a05296d8080b99",
+      "role": "Stage7 harness/result"
+    },
+    {
+      "path": "outputs/Room_Creator_v0_14_1_Independent_Audit/additional-lifecycle-results.json",
+      "bytes": 8802,
+      "sha256": "5271ac7c7c91907afadaff98a67b3efd3bb9456d6e3597fbbdfe8dcfdb0ae461",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/Room_Creator_v0_14_1_Independent_Audit/adversarial-missing-palette-file.png",
+      "bytes": 714510,
+      "sha256": "e9776096238ef0addb96a88962b768f8ee08a7aeeb0f798976cbdce3bc2382b6",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/Room_Creator_v0_14_1_Independent_Audit/adversarial-missing-texture-file.png",
+      "bytes": 237640,
+      "sha256": "faa9777905920d46577c0135d1e850b47adbfa761c944b6123e1a7766105e9ff",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/Room_Creator_v0_14_1_Independent_Audit/adversarial-results.json",
+      "bytes": 40419,
+      "sha256": "20830dfcdd39c5935d4b8f8235161528d33dd268dfa57d91e63bd2d38d9c728e",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/Room_Creator_v0_14_1_Independent_Audit/candidate-prior-browser-probes.json",
+      "bytes": 7868,
+      "sha256": "53b8d859708cca5cd5a5eea719bdc1482736f183641f1aa974313dff5c7bdea2",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/Room_Creator_v0_14_1_Independent_Audit/candidate-prior-browser/setup-deletion.png",
+      "bytes": 740169,
+      "sha256": "1d8d03eb4cfb0f2618b9e82e7b1757305b9ef32b268e9044c6a8be7da1c2139e",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/Room_Creator_v0_14_1_Independent_Audit/candidate-prior-data-probes.json",
+      "bytes": 4774,
+      "sha256": "5f1f7e9225052fddc2dbc15f9c6a619a68165ddf8a3f9e201fad1582777771de",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/Room_Creator_v0_14_1_Independent_Audit/integrity-final.json",
+      "bytes": 50028,
+      "sha256": "714625788a249992daa8a72f41a98efa8d56a4084fbc1ceb5bd15189b03e852f",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/Room_Creator_v0_14_1_Independent_Audit/lifecycle-room-dialog.png",
+      "bytes": 207676,
+      "sha256": "6369ba0f96583ae59a1c44c308dd67fbf4463bf882bd966d89986f13d68536bf",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/Room_Creator_v0_14_1_Independent_Audit/original-loader-negative-control.json",
+      "bytes": 312,
+      "sha256": "5264e8d46f754158797e78d21d0326e14097de22a908193f06efc76355b4ebd2",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/Room_Creator_v0_14_1_Independent_Audit/original-prior-browser-probes.json",
+      "bytes": 7638,
+      "sha256": "2c0ac4d777e7fa0e5bb058d153962ef53b95908def9e00c52e53786ef6c00230",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/Room_Creator_v0_14_1_Independent_Audit/original-prior-browser/setup-deletion.png",
+      "bytes": 740743,
+      "sha256": "b70d76f909ee4e4d3537a28a632dd1759e57527eb2fe81716306154d9fb20fc4",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/Room_Creator_v0_14_1_Independent_Audit/original-prior-data-probes.json",
+      "bytes": 5501,
+      "sha256": "860ba992991c798b4995c4507b0e872e161b60c36dc7f71088e9a414c9496444",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/Room_Creator_v0_14_1_Independent_Audit/stage7-example-Route_Prototype_Street_ASSET_DEMO.png",
+      "bytes": 338986,
+      "sha256": "d48af8411c10e7c369313f51dba9e63914634753740f2a5e7eaf2a4e22a52861",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/Room_Creator_v0_14_1_Independent_Audit/stage7-example-browser-results.json",
+      "bytes": 10251,
+      "sha256": "a9938c32f4dcff8a31bfda9d08408037060d0f06ab69f197808657263d0f2abd",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/Room_Creator_v0_14_1_Remediation/INDEPENDENT_TESTER_HANDOFF.md",
+      "bytes": 7260,
+      "sha256": "8340ce497f0516e6fdaa4cc17330000c1d7343bb2d6ef7410ea40149b580b201",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/Room_Creator_v0_14_1_Remediation/PACKAGE_REPRODUCIBILITY.json",
+      "bytes": 1254,
+      "sha256": "a1e077c8547d3305a02c55552a5f735c6656774c601388ce082828cfd549682c",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/Room_Creator_v0_14_1_Remediation/REMEDIATION_REPORT.md",
+      "bytes": 5528,
+      "sha256": "ac7233a122b9a5dc5e974e851e3ecc7b82e7b6d99a06754db601a41854f6a0df",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/Room_Creator_v0_14_1_Remediation/Room_Creator_v0_14_1_Independent_Tester_Handoff.zip",
+      "bytes": 11404,
+      "sha256": "503a7af4aad07988e1b921aa3e9c4e0f4252acd794ac407aab6c2328b6454ba7",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/Room_Creator_v0_14_1_Remediation/Room_Creator_v0_14_1_regression_tests.zip",
+      "bytes": 81604,
+      "sha256": "d09b1235f2cef489cb451ed5c829729c4528f46febac1d30ae2b2b45d8ccdd43",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/Room_Creator_v0_14_1_Remediation/Room_Creator_v0_14_1_remediation_candidate.zip",
+      "bytes": 202047247,
+      "sha256": "9b9cd3e9220edbdffbd836154b44d69b5527aa8b0d74300ad546f868a18da78d",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/Room_Creator_v0_14_1_Remediation/Room_Creator_v0_14_1_reports.zip",
+      "bytes": 832871,
+      "sha256": "97d9afd98813b350a04cc60fa57718e861670d50be201dfb1db0c08b0055116a",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/Room_Creator_v0_14_1_Remediation/Room_Creator_v0_14_1_source.zip",
+      "bytes": 2134437,
+      "sha256": "703701fd43ee51d2092887af5d54f17e84a8c37786a09098b34729c0d5a87d6f",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/Room_Creator_v0_14_1_Remediation/SHA256SUMS.txt",
+      "bytes": 1077,
+      "sha256": "df7a20471b04fe0c24555dbbe316d058592c54efd78ebb2fc38ee48b5ff10896",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/Room_Creator_v0_14_1_Remediation/TEST_REPORT.md",
+      "bytes": 4023,
+      "sha256": "51954ccf0d065c99fa6b27eaf2f0bffca1c8fe014e407e4ddd4624e1e3eb643e",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/Room_Creator_v0_14_1_Remediation/preservation-seal.json",
+      "bytes": 1466,
+      "sha256": "526c01650c5fe9c6646d49090a0f0c4a5554a78c3dcb8125e54340e29ff1a6c9",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/Room_Creator_v0_14_1_Remediation/verification-summary.json",
+      "bytes": 1508,
+      "sha256": "f224dc724ed56934510e23498482a5d2bd28ee17b5e9002a88f214dfef62d3a6",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/Room_Creator_v0_14_Independent_Audit/AUDIT_REPORT.md",
+      "bytes": 25872,
+      "sha256": "f7ac24403305f1133828ee612fa85e289a47d7d86fa5dd01af755e78197111ea",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/Room_Creator_v0_14_Independent_Audit/Room_Creator_v0_14_Audit_Evidence.zip",
+      "bytes": 31512170,
+      "sha256": "6d31fe1d4406e11bde42f66533e850b83fd1c562e5b2cae9246b3cad6fab9d3e",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/demo-generation/make_asset_demo.py.log",
+      "bytes": 806,
+      "sha256": "ed97dac82590c3bc35c6755dd3ca2ef441f64c77b27e95385ab2dc85062ee2d5",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/demo-generation/run-index.json",
+      "bytes": 240,
+      "sha256": "b8d91ef3704fe09a0bf94e45f3e01a87f2563f9d8a2c809c13e59fe6e3d11d03",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/reproduced-candidate-1.zip",
+      "bytes": 202047247,
+      "sha256": "9b9cd3e9220edbdffbd836154b44d69b5527aa8b0d74300ad546f868a18da78d",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/reproduced-candidate-2.zip",
+      "bytes": 202047247,
+      "sha256": "9b9cd3e9220edbdffbd836154b44d69b5527aa8b0d74300ad546f868a18da78d",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/supplied-all/architecture_extensions.test.js.log",
+      "bytes": 3776,
+      "sha256": "5c0a48c0f3b5b79b6b10bb7cfad77442b9c22f5fb03e7992db043166d0fa82ed",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/supplied-all/asset_demo_file.test.js.log",
+      "bytes": 585,
+      "sha256": "dab294689394c541e86806afab17367e7aa378354db09af02957b4368c3da8db",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/supplied-all/assets_all_models.py.log",
+      "bytes": 251,
+      "sha256": "268df7081e1a2648dfc25553f7d27828916cc43134fe9bcd354257cc50429a3b",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/supplied-all/assets_browser.py.log",
+      "bytes": 5510,
+      "sha256": "367606f3939b9a7136a04b21a6ddb709ec9a193a14403df67122f91049d11b24",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/supplied-all/assets_demo_checks.py.log",
+      "bytes": 1759,
+      "sha256": "a789501e6a1ee0a1e8adc1e51f1dbe5917a9995d1718609dc37e51b17cd35227",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/supplied-all/assets_perf.py.log",
+      "bytes": 405,
+      "sha256": "2e95e32031758d193d308e966608275976ce47bf02a2ba9e6f3f2a20d241bf5f",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/supplied-all/assets_vehicle_fronts.py.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/supplied-all/browser-final_test.py.log",
+      "bytes": 2774,
+      "sha256": "73cb1a4ca437105a6ab5ff65ed20e94301e383352fb20042393428913edd309a",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/supplied-all/browser-fp_test.py.log",
+      "bytes": 1077,
+      "sha256": "671adee80ab6c9c4a796765429e0794ba29c23a4f2580893b3c6b5b9acdc88ab",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/supplied-all/browser-fp_test2.py.log",
+      "bytes": 1299,
+      "sha256": "f91dd489d2dda630d9aa51ba27fdbd850bca3842373a7b1f8db89b6fa4e6bd26",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/supplied-all/browser-rail_stairs_check.py.log",
+      "bytes": 82,
+      "sha256": "ffde674b6a711b52bc3fd0bfe3d818da0cca6faac8c07d5f7f56cee6e116867e",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/supplied-all/browser-rails_test.py.log",
+      "bytes": 585,
+      "sha256": "57b6abc4efa39eb50071eedd926685cd4a07db649c87e2f4667fddc08c03ee80",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/supplied-all/browser-rails_test2.py.log",
+      "bytes": 170,
+      "sha256": "eb355e290ef5ddea30a0fb2ffd10ea21b076f0c3991ebe38b44cc7fd4e0f387c",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/supplied-all/browser-sky_test.py.log",
+      "bytes": 359,
+      "sha256": "d25b98569797d5ce174e57c6a3a60a1fb71643525854f924b66765050f2662f4",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/supplied-all/browser-stories_test.py.log",
+      "bytes": 1548,
+      "sha256": "0e52094c33deb93a04538ab7983a128258b061fe3c7eae6c844299f2741a4885",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/supplied-all/browser-ui_smoke.py.log",
+      "bytes": 389,
+      "sha256": "19d3dcdae0a91bfe6eb5e9cf000982f80c5cfe0cf019f6b3752e235816fa58e8",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/supplied-all/build_repro.py.log",
+      "bytes": 368,
+      "sha256": "8abbddd4ca8504cca0982aff8511ce6288fd4db63a1465dd3dfb8c6e55da1e3c",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/supplied-all/construction_v10.test.js.log",
+      "bytes": 760,
+      "sha256": "449c786ad6d5ce03289dbe555f7d912295e9b37572c791ee2dab2cb367869160",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/supplied-all/core.test.js.log",
+      "bytes": 4821,
+      "sha256": "02277600838169ac1ce4248d03749a830ff377300f63f8b688d043fbc4159fbd",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/supplied-all/demo_screens.py.log",
+      "bytes": 11,
+      "sha256": "057172bc62b5734c365c425a5dad1aa0c0590c9ad4e5ddfb57f3384aa7981666",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/supplied-all/final_results.json",
+      "bytes": 2772,
+      "sha256": "56d9e102fd3773d4acf5e5b1f8d80ce56d9f77e095b5e19f9f3748320211140d",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/supplied-all/missing-reference.png",
+      "bytes": 197324,
+      "sha256": "24cf951dab3238f68633145ad4d92c4b8de87f4b70d0fb2980af2380f3444e9c",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/supplied-all/multistory.test.js.log",
+      "bytes": 1113,
+      "sha256": "954c4c4bc2870a5b36ec27b357318dc334540cdb9ba298e798df01964bdf9c82",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/supplied-all/point-drag-0-0.png",
+      "bytes": 589862,
+      "sha256": "0162a594306e82ae0a8b2bd92c504df216e114249624daa16611c14c3485c9b5",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/supplied-all/point-drag-0-37.png",
+      "bytes": 574647,
+      "sha256": "2b5cf8aedd5a560e9c5afdef0ae8cfaff88a1edd7404bcac68cd4a6dffa8fb4e",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/supplied-all/point-drag-1-128.png",
+      "bytes": 709363,
+      "sha256": "f883e9a870cada5f3d929594247efa2bc6c5c53b56f233d095fc0f14c2daa732",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/supplied-all/props_metadata.test.js.log",
+      "bytes": 827,
+      "sha256": "2cefe4b4d45b739657fb81acf7caf8e69b744eb6ed37a3ee807be332aca1889f",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/supplied-all/remediation_browser.py.log",
+      "bytes": 2083,
+      "sha256": "a92543ea09d9d672fd7f0c3e0e9365c979b952522ad1a451d23d78705eff30e8",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/supplied-all/remediation_browser_results.json",
+      "bytes": 12800,
+      "sha256": "f7764d5810b2db4b4be3b136ad7d7763adec30b1b73032ae02b8881295d2acac",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/supplied-all/remediation_core.test.js.log",
+      "bytes": 945,
+      "sha256": "bdc30eec0be2ecce474478cd2444d78b15c99c84629afd14996e26fd1b1aeae5",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/supplied-all/route-route_eval.py.log",
+      "bytes": 8374,
+      "sha256": "7975b1cdccac3e48011d625952e7b917c673ed8bff5fea4797251e79194da70e",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/supplied-all/route-route_keys.py.log",
+      "bytes": 1663,
+      "sha256": "a11c08299941977f5042c56fa21c3530b84f9f8133911bf26d1a576f46e1a091",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/supplied-all/route-route_perf.py.log",
+      "bytes": 72,
+      "sha256": "d5212c1be479b0202e0e86b0452fad69c0dd179fa904c42aeca0b7e196c2dcf6",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/supplied-all/route-route_smoke.py.log",
+      "bytes": 2297,
+      "sha256": "fc894199a69b6cae9abbab0b377dffb6e87c89eba9699d9653d7333b8738d008",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/supplied-all/run-index.json",
+      "bytes": 7728,
+      "sha256": "e113f6d0dd87c99f929ef134d257f9ddaf1507695969d328b862d6cace51cc86",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/supplied-all/shared_matte.test.js.log",
+      "bytes": 1575,
+      "sha256": "3dbff8d66350574897883d51cc1301d73a753269383a88cb4f2c1baf7ac648fa",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/supplied-all/shots/01_map.png",
+      "bytes": 210380,
+      "sha256": "b439b2176f175187e915424ea59f2329496719c90c4c7293b6ed490c0940c5c3",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/supplied-all/shots/02_zoomed.png",
+      "bytes": 118254,
+      "sha256": "e9f7613eef271aecd77db41deb74fd5f041e13ab8e1ffbce737ad1d80dc98882",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/supplied-all/shots/03_plan.png",
+      "bytes": 190595,
+      "sha256": "a3447ea1ef9b7b966bdb9ec0533ce8ca283b771cbbf394f2a11e1341da9245a8",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/supplied-all/shots/04_labels_all.png",
+      "bytes": 217684,
+      "sha256": "7645ea0c0752c4a7a6ca901ebc02b619b9018e542c7c6b5bf89f26031c7e8919",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/supplied-all/shots/05_story2.png",
+      "bytes": 247627,
+      "sha256": "ebb233efc28946824b866080335c36cdfaf85e5d7bc3fbdd1b2784215f090ae2",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/supplied-all/shots/06_fp.png",
+      "bytes": 661680,
+      "sha256": "8c2123654ed15064edc968e2a27335176a0c851a893d5b57dcc2dd8df5bb176d",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/supplied-all/shots/07_back_to_map.png",
+      "bytes": 265107,
+      "sha256": "588ed2f2d81de0d2fd86b62c83c6f0e5fa4116c81390399dbd9ea977efbf581a",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/supplied-all/shots/final_demo_ride_end.png",
+      "bytes": 555396,
+      "sha256": "215bf0b4a982570d0a9c8434d72193466132313cb40192f89d693f62d60bdb3a",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/supplied-all/shots/final_demo_ride_mid.png",
+      "bytes": 668623,
+      "sha256": "45edf23765cf81d1d2d15253ccffbd566574c3ee1f46b0fe57913cb8c6dd8183",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/supplied-all/shots/final_fallback_fp.png",
+      "bytes": 790261,
+      "sha256": "e394fb1d0022adc293ede0ccaee7fd5cb095e3894661328a4d2c84bae0f342fa",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/supplied-all/shots/fp1_after_drag.png",
+      "bytes": 654866,
+      "sha256": "1a626d756b0fc69de0e8c3925065ca2c6e24d7e7017acae4bd4d94ca3db3805b",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/supplied-all/shots/fp2_edited.png",
+      "bytes": 609588,
+      "sha256": "c2761025e970568d012f1bb28082f61359663198214cebcf916a715ec04ffc0f",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/supplied-all/shots/fp3_free_wall.png",
+      "bytes": 218655,
+      "sha256": "cb51b1fc545964d24271e66b534b3cc5d6e4ca0dcc2cb6c97640f17bb159c65d",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/supplied-all/shots/fp4_free_from_map.png",
+      "bytes": 730954,
+      "sha256": "a1ac41e5044f2c9ccf0fb79e1272f805fc4af637d096e52f08107afda4e64d2d",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/supplied-all/shots/fp5_map_marker.png",
+      "bytes": 246604,
+      "sha256": "fbb91a317cbd59337457e029f271fdd139004e7b4c5b6272996749b29010a702",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/supplied-all/shots/rail1_map.png",
+      "bytes": 573992,
+      "sha256": "423bdc5b53a782c109c944549f5de52100f38f55c4d3891614fdd452f7200002",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/supplied-all/shots/rail2_playing.png",
+      "bytes": 574557,
+      "sha256": "27b88939aec95041321ea2d7c7fd504e3cbff5bfa09bf7563dfff1b9e5c1ec50",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/supplied-all/shots/rail3_ride.png",
+      "bytes": 625378,
+      "sha256": "6c5f8ec85cc2a19d48153115c0463bda1de071a3d9e923bb1883249854d82196",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/supplied-all/shots/rail4_scrub.png",
+      "bytes": 690225,
+      "sha256": "e3b23fdeb4a8781a6e8148cc954ad84b41d8aeadd23cb1a6f376da82ab97e64f",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/supplied-all/shots/rail5_transit.png",
+      "bytes": 626113,
+      "sha256": "a6c2894838c961aede6113d9d4a998a5465a8527f6e608f8b1ba0284676c47b0",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/supplied-all/shots/rail6_test_left.png",
+      "bytes": 686244,
+      "sha256": "0ceb06974adb7744b1eb5df88a685931ca8e60dc7b04beeaeabb8d2e6138225e",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/supplied-all/shots/rail7_bend.png",
+      "bytes": 572313,
+      "sha256": "eb6f9a9e2bd3c8b53f98064a6d9a3f3247567ccc30bfd74eab33d7f82b98f4a5",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/supplied-all/shots/rail8_test_panel.png",
+      "bytes": 617854,
+      "sha256": "cae5aefe3984b3e7079a6f5652be1c615fb957a0f351efcf8fddc9aa60487d23",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/supplied-all/shots/rail9_test_ride.png",
+      "bytes": 606447,
+      "sha256": "308068440d1b4f71184b5039e202a78d1e62ca18d420a4942abda714fa2a7198",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/supplied-all/shots/sky1_pane.png",
+      "bytes": 714017,
+      "sha256": "ad6df3979dfa467d3475d58c67f699ddd6c64faf8ef98e2f4f205db7dc91a9ae",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/supplied-all/shots/sky2_sunset.png",
+      "bytes": 689636,
+      "sha256": "49e9b80d9e82f51f3830a1d2d0eac0957af6a9e7f8037b11dd1f25670fca5be1",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/supplied-all/shots/sky3_image.png",
+      "bytes": 720739,
+      "sha256": "0c11c852e0ca84772ba4ceda081c6675e71be77b419d95f43ab737c8a90b0410",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/supplied-all/shots/sky4_haze.png",
+      "bytes": 669606,
+      "sha256": "6a1ee90075ce02a756a385aec92b294c8d2423ef2b1c8e749c8e8269f098119c",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/supplied-all/shots/st1_wizard.png",
+      "bytes": 194037,
+      "sha256": "357a30bc0e6dddd19dd152665cf28c3c44e8e2ca6bf2d6a885f949d2ee0ea582",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/supplied-all/shots/st2_wizard_ring.png",
+      "bytes": 192143,
+      "sha256": "0142b86df4c383d86c731eea5b4d25efe92b05bac6f74390ea27eecdf56e5f15",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/supplied-all/shots/st3_built.png",
+      "bytes": 370035,
+      "sha256": "804493254ea0565043378360f46e1f96663b817fb1215b8b9ec868997541f143",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/supplied-all/shots/st4_stairs_selected.png",
+      "bytes": 302077,
+      "sha256": "915e36c9e626ea0bd8c2668068ff1a8672d18940ed88ebdc2e71da6aae824a27",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/supplied-all/shots/st5_stairs_fp.png",
+      "bytes": 230443,
+      "sha256": "c38e14797545e944759faac0682d427032d2370029aff5cb9302ecb4a2439dca",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/supplied-all/shots/st6_upstairs.png",
+      "bytes": 139965,
+      "sha256": "3579981b72943fa21195fcb36dc5fb90beb849eb92dc5b11902299128b725ce2",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/supplied-all/shots/st7_stairs_drag.png",
+      "bytes": 205078,
+      "sha256": "7f6109e04571cfc383b6b43514c582b55210f3cedf45479a70eb62f9d2b03690",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/supplied-all/shots/st8_hole.png",
+      "bytes": 248669,
+      "sha256": "c91f0617f902d94fb009bad228f44be37f54e0b3e3d6e14acf60b5c34dbe4312",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/supplied-all/style_openings.test.js.log",
+      "bytes": 2193,
+      "sha256": "b406352385a4020ed1373d21d0d273270c9b82100e1ac8dee09224b001e1069a",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/supplied-all/v0_11_1_story_floor.test.js.log",
+      "bytes": 1526,
+      "sha256": "2cded3eb0e11a35032ffa50cfe457c0ce132b7f4bd82fee06e4cee35ee8ecfd6",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "outputs/supplied-all/v0_12_stories_rooms.test.js.log",
+      "bytes": 968,
+      "sha256": "bfa07afdabcf47d5b24b54d26cecea7439bdb83d8b8328b3d50da1b7f52acc93",
+      "role": "execution outputs or retained delivery inputs; original delivery folder is not fresh test evidence"
+    },
+    {
+      "path": "run-independent.py",
+      "bytes": 4831,
+      "sha256": "a6240d4d9f1fd99d9edc85b70e7a97b3227834bd2524f9fa6236be92eaf5cd26",
+      "role": "Stage7 harness/result"
+    },
+    {
+      "path": "run-relocated.cjs",
+      "bytes": 1122,
+      "sha256": "9fae1000d123652c98b92fc23a8bd8a3403570fc9531d7e9ccebf8fffe3ba3cc",
+      "role": "Stage7 harness/result"
+    },
+    {
+      "path": "run-relocated.py",
+      "bytes": 1458,
+      "sha256": "dc4ae2b4accbfcaddca311efcd0109fefa34fbbb2b49986f9a1635b92450a0c4",
+      "role": "Stage7 harness/result"
+    },
+    {
+      "path": "run-supplied.py",
+      "bytes": 3815,
+      "sha256": "0f86350ed3cddfcc7cd074bb381cd56b56f6e61245b683d8d6c6e9819bda710a",
+      "role": "Stage7 harness/result"
+    },
+    {
+      "path": "setup.json",
+      "bytes": 1590,
+      "sha256": "66d237bb7598e4a6560d8025f1bf94242369b0fd9d4b0025eb04090f7a1acdac",
+      "role": "Stage7 harness/result"
+    },
+    {
+      "path": "stage7-result.json",
+      "bytes": 10573,
+      "sha256": "f177c702d8a8a1e1bcebab86fe86061ba871c21e86af3b0dcc8411d05da36931",
+      "role": "Stage7 harness/result"
+    },
+    {
+      "path": "supplied-status.json",
+      "bytes": 78,
+      "sha256": "6aac16ec8c2c80b9446cfcd44bc556204305e8195e4e7099d649e18e1520316f",
+      "role": "Stage7 harness/result"
+    },
+    {
+      "path": "verify-protected-files.py",
+      "bytes": 3976,
+      "sha256": "97bf15386294b5346c6077646e18b83c981ce6f56e7f3c4134d5158c244ebb07",
+      "role": "Stage7 harness/result"
+    },
+    {
+      "path": "verify_stage7_evidence.py",
+      "bytes": 4872,
+      "sha256": "5ca217e3ffff0a53d9f7288221267b9e7b320f1f43e2917c911055c3328152b8",
+      "role": "Stage7 harness/result"
+    },
+    {
+      "path": "work/rc0141-independent-review/adversarial.py",
+      "bytes": 10475,
+      "sha256": "91bb2a5d637b2db0038efe7c8dfa649948265c45339a0e3e0691ff9cc71f9788",
+      "role": "unchanged copied independent source or additional Stage7 example probe"
+    },
+    {
+      "path": "work/rc0141-independent-review/candidate-prior-browser.py",
+      "bytes": 5374,
+      "sha256": "5936a1003bb2395f1d3780d0db13624a3111e447b72adbc36e405c94802448ae",
+      "role": "unchanged copied independent source or additional Stage7 example probe"
+    },
+    {
+      "path": "work/rc0141-independent-review/candidate-prior-data.cjs",
+      "bytes": 4214,
+      "sha256": "a7cbc50d5c7be93bb1d68d5678e46a4e5371855340e4920aa08729f7e82a3d0a",
+      "role": "unchanged copied independent source or additional Stage7 example probe"
+    },
+    {
+      "path": "work/rc0141-independent-review/candidate/Room_Creator_v0_14_1_remediation_candidate/Room_Creator.html",
+      "bytes": 1615201,
+      "sha256": "a4e8a14ddc4d734c036902f56b1a7d7bb8a157a77ef3911b97ea70c76f228c97",
+      "role": "fresh generated disposable candidate evidence/output; bind to run-index"
+    },
+    {
+      "path": "work/rc0141-independent-review/candidate/Room_Creator_v0_14_1_remediation_candidate/generated/Route_Prototype_Street_ASSET_DEMO.room.json",
+      "bytes": 18288544,
+      "sha256": "2560b9bd0f53e03a9ea9bba239c56323fc79534d43cc725c2eca02490769bfc4",
+      "role": "fresh generated disposable candidate evidence/output; bind to run-index"
+    },
+    {
+      "path": "work/rc0141-independent-review/candidate/Room_Creator_v0_14_1_remediation_candidate/tests/architecture_extensions_core_results.json",
+      "bytes": 6522,
+      "sha256": "8fdc03553b0f671fb2f1b2f5e5712bd81313a66e0e00463687440722430376a2",
+      "role": "fresh generated disposable candidate evidence/output; bind to run-index"
+    },
+    {
+      "path": "work/rc0141-independent-review/candidate/Room_Creator_v0_14_1_remediation_candidate/tests/asset_demo_file_results.json",
+      "bytes": 829,
+      "sha256": "820b1420f83132c4327dad51e23e60df11d069a3db1a4d8df7b7f6f2e5cdcc1c",
+      "role": "fresh generated disposable candidate evidence/output; bind to run-index"
+    },
+    {
+      "path": "work/rc0141-independent-review/candidate/Room_Creator_v0_14_1_remediation_candidate/tests/assets_all_models_results.json",
+      "bytes": 229853,
+      "sha256": "a8a13fd67131c3ca3efa38cc6fa031e7b300fd89db89038fe571a68e8f389344",
+      "role": "fresh generated disposable candidate evidence/output; bind to run-index"
+    },
+    {
+      "path": "work/rc0141-independent-review/candidate/Room_Creator_v0_14_1_remediation_candidate/tests/assets_browser_results.json",
+      "bytes": 24133,
+      "sha256": "7dfd964e89ee09ce2bae5a936ecacbeadc1a2b1f5afb813fe858949824693b86",
+      "role": "fresh generated disposable candidate evidence/output; bind to run-index"
+    },
+    {
+      "path": "work/rc0141-independent-review/candidate/Room_Creator_v0_14_1_remediation_candidate/tests/assets_demo_checks_results.json",
+      "bytes": 2273,
+      "sha256": "6e4622741b0488bc80220ac76305226e738db8f35c002efc2596b1d9defc3842",
+      "role": "fresh generated disposable candidate evidence/output; bind to run-index"
+    },
+    {
+      "path": "work/rc0141-independent-review/candidate/Room_Creator_v0_14_1_remediation_candidate/tests/assets_evidence/A_library_search.png",
+      "bytes": 307930,
+      "sha256": "31fe4e7fd9284b9bb139f2f9d82ceb86dfee53083eeb637e40dd6f5197f02e76",
+      "role": "fresh generated disposable candidate evidence/output; bind to run-index"
+    },
+    {
+      "path": "work/rc0141-independent-review/candidate/Room_Creator_v0_14_1_remediation_candidate/tests/assets_evidence/B_first_person_selected.png",
+      "bytes": 623121,
+      "sha256": "0761b95b608ba5d7502758133146f2194a306f7ac47c9b6998bcb9cabf00d70b",
+      "role": "fresh generated disposable candidate evidence/output; bind to run-index"
+    },
+    {
+      "path": "work/rc0141-independent-review/candidate/Room_Creator_v0_14_1_remediation_candidate/tests/assets_evidence/B_inspector_map.png",
+      "bytes": 1016762,
+      "sha256": "559692d64f58ed9298195b4b203cd31261daeda8188c217ff38f2357e31dc099",
+      "role": "fresh generated disposable candidate evidence/output; bind to run-index"
+    },
+    {
+      "path": "work/rc0141-independent-review/candidate/Room_Creator_v0_14_1_remediation_candidate/tests/assets_evidence/C_reopened_without_library.png",
+      "bytes": 317875,
+      "sha256": "faccc252bb8b0feae5b23a804913a18a55b1248857b29057bc629a1d116273ba",
+      "role": "fresh generated disposable candidate evidence/output; bind to run-index"
+    },
+    {
+      "path": "work/rc0141-independent-review/candidate/Room_Creator_v0_14_1_remediation_candidate/tests/assets_evidence/D_floor_texture.png",
+      "bytes": 1176021,
+      "sha256": "31fdef32bd5251490b51cd47ab814380e3d75ab1ee33689c3f21cb373899af02",
+      "role": "fresh generated disposable candidate evidence/output; bind to run-index"
+    },
+    {
+      "path": "work/rc0141-independent-review/candidate/Room_Creator_v0_14_1_remediation_candidate/tests/assets_evidence/D_palette_editor.png",
+      "bytes": 402687,
+      "sha256": "ffb094e9e3966d26563608875b5b3f5456a2997c25717e2ca10712a809840e04",
+      "role": "fresh generated disposable candidate evidence/output; bind to run-index"
+    },
+    {
+      "path": "work/rc0141-independent-review/candidate/Room_Creator_v0_14_1_remediation_candidate/tests/assets_evidence/F_use_points_map.png",
+      "bytes": 1034916,
+      "sha256": "6bf11d282a1a1e8086005cee9f93ddbc83d0b4beba18800cc436eb59565a6532",
+      "role": "fresh generated disposable candidate evidence/output; bind to run-index"
+    },
+    {
+      "path": "work/rc0141-independent-review/candidate/Room_Creator_v0_14_1_remediation_candidate/tests/assets_evidence/G_upstairs_fp.png",
+      "bytes": 493939,
+      "sha256": "0095d7b9eefd076f366ccbcedf1e9b7f784ba7ec65657fb72ba4cc9040fff2a9",
+      "role": "fresh generated disposable candidate evidence/output; bind to run-index"
+    },
+    {
+      "path": "work/rc0141-independent-review/candidate/Room_Creator_v0_14_1_remediation_candidate/tests/assets_evidence/Z_end_state.png",
+      "bytes": 928209,
+      "sha256": "717025b9d2ebb28b9081293e9848aa85cfad868855e93b07bd7a8eb5a410400c",
+      "role": "fresh generated disposable candidate evidence/output; bind to run-index"
+    },
+    {
+      "path": "work/rc0141-independent-review/candidate/Room_Creator_v0_14_1_remediation_candidate/tests/assets_evidence/all_models_contact_sheet.png",
+      "bytes": 1895408,
+      "sha256": "7bbe76cf587933a7e2751aee13b228a7a2f4fcb3756ea96d2092fa3c51f23f7f",
+      "role": "fresh generated disposable candidate evidence/output; bind to run-index"
+    },
+    {
+      "path": "work/rc0141-independent-review/candidate/Room_Creator_v0_14_1_remediation_candidate/tests/assets_evidence/demo_fp_alley.png",
+      "bytes": 501445,
+      "sha256": "6fe036e3d6013a6973f5929eb74f337e1ceb2f411344c17ee96be17168039efc",
+      "role": "fresh generated disposable candidate evidence/output; bind to run-index"
+    },
+    {
+      "path": "work/rc0141-independent-review/candidate/Room_Creator_v0_14_1_remediation_candidate/tests/assets_evidence/demo_fp_bodega_front.png",
+      "bytes": 695626,
+      "sha256": "0d61042fb9d2a33e0457c52aa6a894edf58885fcf8323dfb95a0bb4f9df44d48",
+      "role": "fresh generated disposable candidate evidence/output; bind to run-index"
+    },
+    {
+      "path": "work/rc0141-independent-review/candidate/Room_Creator_v0_14_1_remediation_candidate/tests/assets_evidence/demo_fp_cover_car.png",
+      "bytes": 508586,
+      "sha256": "6b8f77a374a54065936ddcc24c4475282bc5de20300aebfc720a820f807ec525",
+      "role": "fresh generated disposable candidate evidence/output; bind to run-index"
+    },
+    {
+      "path": "work/rc0141-independent-review/candidate/Room_Creator_v0_14_1_remediation_candidate/tests/assets_evidence/demo_fp_flat_dining.png",
+      "bytes": 464391,
+      "sha256": "3a48e676c0903da0139e271c555721dc57f6dcd8edf4ed0f40e762390926f351",
+      "role": "fresh generated disposable candidate evidence/output; bind to run-index"
+    },
+    {
+      "path": "work/rc0141-independent-review/candidate/Room_Creator_v0_14_1_remediation_candidate/tests/assets_evidence/demo_fp_flat_living.png",
+      "bytes": 520078,
+      "sha256": "237c2a60b3dac0c57d1545c838ee5b3323afb972504212dcd744d6270ce5db45",
+      "role": "fresh generated disposable candidate evidence/output; bind to run-index"
+    },
+    {
+      "path": "work/rc0141-independent-review/candidate/Room_Creator_v0_14_1_remediation_candidate/tests/assets_evidence/demo_fp_flat_living2.png",
+      "bytes": 448249,
+      "sha256": "c71de47171ed3e6168eeb5159b4022704986d0f3c6b318e2441519795e5fe095",
+      "role": "fresh generated disposable candidate evidence/output; bind to run-index"
+    },
+    {
+      "path": "work/rc0141-independent-review/candidate/Room_Creator_v0_14_1_remediation_candidate/tests/assets_evidence/demo_fp_office.png",
+      "bytes": 778767,
+      "sha256": "65a8b6b896dee593e0c3656eaa6d2bf64551fc34dbaf760e98105203a1e225da",
+      "role": "fresh generated disposable candidate evidence/output; bind to run-index"
+    },
+    {
+      "path": "work/rc0141-independent-review/candidate/Room_Creator_v0_14_1_remediation_candidate/tests/assets_evidence/demo_fp_shop_counter.png",
+      "bytes": 469476,
+      "sha256": "e353e37f1d3fdf1434363f93c794abeac88628bde4065704c66072b34eb5fa05",
+      "role": "fresh generated disposable candidate evidence/output; bind to run-index"
+    },
+    {
+      "path": "work/rc0141-independent-review/candidate/Room_Creator_v0_14_1_remediation_candidate/tests/assets_evidence/demo_fp_shop_inside_door.png",
+      "bytes": 492610,
+      "sha256": "4c317cc2b0cdf5e04a15d7a2d78aae4b8b96682efa665db98174fe166027947a",
+      "role": "fresh generated disposable candidate evidence/output; bind to run-index"
+    },
+    {
+      "path": "work/rc0141-independent-review/candidate/Room_Creator_v0_14_1_remediation_candidate/tests/assets_evidence/demo_fp_stockroom.png",
+      "bytes": 427090,
+      "sha256": "abacb7d2fed94663274fe87b91919ae269755a7d34e07c620d2c567193d51ba9",
+      "role": "fresh generated disposable candidate evidence/output; bind to run-index"
+    },
+    {
+      "path": "work/rc0141-independent-review/candidate/Room_Creator_v0_14_1_remediation_candidate/tests/assets_evidence/demo_fp_taco_truck.png",
+      "bytes": 539583,
+      "sha256": "704db5280db035cbe27476a90e55dd47e9f5f67733799afe3898ee16154c8171",
+      "role": "fresh generated disposable candidate evidence/output; bind to run-index"
+    },
+    {
+      "path": "work/rc0141-independent-review/candidate/Room_Creator_v0_14_1_remediation_candidate/tests/assets_evidence/demo_fp_tunnel_van.png",
+      "bytes": 509108,
+      "sha256": "118e51b35b5f056728f6c26c53e5303abe643d497023289e95bc454cf9c19d39",
+      "role": "fresh generated disposable candidate evidence/output; bind to run-index"
+    },
+    {
+      "path": "work/rc0141-independent-review/candidate/Room_Creator_v0_14_1_remediation_candidate/tests/assets_evidence/demo_map_alley.png",
+      "bytes": 601255,
+      "sha256": "23033f94fd629f3c6e6e053ab2b004d21f65fe5e7edcbf4720b2e0cd30f65c05",
+      "role": "fresh generated disposable candidate evidence/output; bind to run-index"
+    },
+    {
+      "path": "work/rc0141-independent-review/candidate/Room_Creator_v0_14_1_remediation_candidate/tests/assets_evidence/demo_map_bodega.png",
+      "bytes": 863166,
+      "sha256": "d64ce8e17c67be65248e506fe394d37dd2388e9f95511fe970059a2abd37110d",
+      "role": "fresh generated disposable candidate evidence/output; bind to run-index"
+    },
+    {
+      "path": "work/rc0141-independent-review/candidate/Room_Creator_v0_14_1_remediation_candidate/tests/assets_evidence/demo_map_flat.png",
+      "bytes": 710388,
+      "sha256": "3c6cc3dce97d39d212c0e942e15ecdf4a0e6bdb9d9ecd56a628a5978c08c3c7e",
+      "role": "fresh generated disposable candidate evidence/output; bind to run-index"
+    },
+    {
+      "path": "work/rc0141-independent-review/candidate/Room_Creator_v0_14_1_remediation_candidate/tests/assets_evidence/demo_map_street.png",
+      "bytes": 478167,
+      "sha256": "5e3d950d8c675208a1f797f040f082dbd50b07b55f5e88dd85aaa5220f61b246",
+      "role": "fresh generated disposable candidate evidence/output; bind to run-index"
+    },
+    {
+      "path": "work/rc0141-independent-review/candidate/Room_Creator_v0_14_1_remediation_candidate/tests/assets_evidence/downloads/exported.rclooks.json",
+      "bytes": 6799,
+      "sha256": "231e35566bee132567923df5a9eae91f19ec2d196dd165874a8ab33025be25f6",
+      "role": "fresh generated disposable candidate evidence/output; bind to run-index"
+    },
+    {
+      "path": "work/rc0141-independent-review/candidate/Room_Creator_v0_14_1_remediation_candidate/tests/assets_evidence/downloads/resaved_without_library.room.json",
+      "bytes": 18197293,
+      "sha256": "846272932f06fbc016a44c0e5c92d9b9158cd6ece0047244c1fe52cde59c185f",
+      "role": "fresh generated disposable candidate evidence/output; bind to run-index"
+    },
+    {
+      "path": "work/rc0141-independent-review/candidate/Room_Creator_v0_14_1_remediation_candidate/tests/assets_evidence/downloads/saved_with_future.room.json",
+      "bytes": 18197293,
+      "sha256": "846272932f06fbc016a44c0e5c92d9b9158cd6ece0047244c1fe52cde59c185f",
+      "role": "fresh generated disposable candidate evidence/output; bind to run-index"
+    },
+    {
+      "path": "work/rc0141-independent-review/candidate/Room_Creator_v0_14_1_remediation_candidate/tests/assets_evidence/vehicle_fronts.png",
+      "bytes": 535996,
+      "sha256": "b98f06df77479990d365c573e6f3efb7fe12da7049a225285357b1f474788ff2",
+      "role": "fresh generated disposable candidate evidence/output; bind to run-index"
+    },
+    {
+      "path": "work/rc0141-independent-review/candidate/Room_Creator_v0_14_1_remediation_candidate/tests/assets_perf_results.json",
+      "bytes": 513,
+      "sha256": "fe0ed7fdcf694be8b6fdba9d5f8ce000aa73076e60aa7396aa60df3704882818",
+      "role": "fresh generated disposable candidate evidence/output; bind to run-index"
+    },
+    {
+      "path": "work/rc0141-independent-review/candidate/Room_Creator_v0_14_1_remediation_candidate/tests/core_results.json",
+      "bytes": 8734,
+      "sha256": "45483434a5a69b104d725690109906727cca260e347b6fe616ec2a74e5e1e9d5",
+      "role": "fresh generated disposable candidate evidence/output; bind to run-index"
+    },
+    {
+      "path": "work/rc0141-independent-review/candidate/Room_Creator_v0_14_1_remediation_candidate/tests/multistory_core_results.json",
+      "bytes": 2111,
+      "sha256": "49fd0552cc957766483275efef28957b5f0215880ff1c8ebcaed7c729e1faff3",
+      "role": "fresh generated disposable candidate evidence/output; bind to run-index"
+    },
+    {
+      "path": "work/rc0141-independent-review/candidate/Room_Creator_v0_14_1_remediation_candidate/tests/props_metadata_results.json",
+      "bytes": 1215,
+      "sha256": "d25f8cc46e4dd6f504a8801b777c6aa34192a7689415e66fcdc7182c28d5e06e",
+      "role": "fresh generated disposable candidate evidence/output; bind to run-index"
+    },
+    {
+      "path": "work/rc0141-independent-review/candidate/Room_Creator_v0_14_1_remediation_candidate/tests/route/out/route_eval_results.json",
+      "bytes": 180918,
+      "sha256": "266e108c6c2b15fdc763dd6f4e4883a0299333613dfcbd54142f73baa3b849d5",
+      "role": "fresh generated disposable candidate evidence/output; bind to run-index"
+    },
+    {
+      "path": "work/rc0141-independent-review/candidate/Room_Creator_v0_14_1_remediation_candidate/tests/route/out/route_eval_shots/map_route_network.png",
+      "bytes": 682582,
+      "sha256": "bcbb94de9998ff5fac22dd541e64ce1e799167494cf0a66b0e2d68cbbdbed559",
+      "role": "fresh generated disposable candidate evidence/output; bind to run-index"
+    },
+    {
+      "path": "work/rc0141-independent-review/candidate/Room_Creator_v0_14_1_remediation_candidate/tests/route/out/route_eval_shots/s1_corner_t52.png",
+      "bytes": 610532,
+      "sha256": "ff1b3cca247f8425cf613fff3db24da92a9ec4603bb9dfc8611c7988ca58c4ae",
+      "role": "fresh generated disposable candidate evidence/output; bind to run-index"
+    },
+    {
+      "path": "work/rc0141-independent-review/candidate/Room_Creator_v0_14_1_remediation_candidate/tests/route/out/route_eval_shots/s1_corner_t52_clean.png",
+      "bytes": 594051,
+      "sha256": "243d2257b453f5bc853c00520bf7d641dfe34375ba35dd08ea0df4c6aac64e07",
+      "role": "fresh generated disposable candidate evidence/output; bind to run-index"
+    },
+    {
+      "path": "work/rc0141-independent-review/candidate/Room_Creator_v0_14_1_remediation_candidate/tests/route/out/route_eval_shots/s1_sidewalk_t09.png",
+      "bytes": 443297,
+      "sha256": "b387031206343d6f2795da3b5664c6e05961ec4e48fd04e9c539aa2739556e40",
+      "role": "fresh generated disposable candidate evidence/output; bind to run-index"
+    },
+    {
+      "path": "work/rc0141-independent-review/candidate/Room_Creator_v0_14_1_remediation_candidate/tests/route/out/route_eval_shots/s1_sidewalk_t09_clean.png",
+      "bytes": 430127,
+      "sha256": "7a19a14885f1602f885a3ec3205b8449465a1d29b2511be9edc616b317363f24",
+      "role": "fresh generated disposable candidate evidence/output; bind to run-index"
+    },
+    {
+      "path": "work/rc0141-independent-review/candidate/Room_Creator_v0_14_1_remediation_candidate/tests/route/out/route_eval_shots/s1_walkerC_at_window_t23.png",
+      "bytes": 527124,
+      "sha256": "0e2fd3f7ba7ed3f5b4b8838d6fb2ff099e0a0fa6167eb266f7d345fc515d4143",
+      "role": "fresh generated disposable candidate evidence/output; bind to run-index"
+    },
+    {
+      "path": "work/rc0141-independent-review/candidate/Room_Creator_v0_14_1_remediation_candidate/tests/route/out/route_eval_shots/s1_walkerC_steps_aside_t16.png",
+      "bytes": 601076,
+      "sha256": "3f5f67969f3a49171643e3ab66ba1ead2b6bc87039a5bb07cc030705109eac28",
+      "role": "fresh generated disposable candidate evidence/output; bind to run-index"
+    },
+    {
+      "path": "work/rc0141-independent-review/candidate/Room_Creator_v0_14_1_remediation_candidate/tests/route/out/route_eval_shots/s1_walkerC_t27.png",
+      "bytes": 511833,
+      "sha256": "82846ad834b9bbb98cb555fb260f6c2b7a9f363c96903d721be48b995fd47889",
+      "role": "fresh generated disposable candidate evidence/output; bind to run-index"
+    },
+    {
+      "path": "work/rc0141-independent-review/candidate/Room_Creator_v0_14_1_remediation_candidate/tests/route/out/route_eval_shots/s2_after_shot.png",
+      "bytes": 446555,
+      "sha256": "82364da5cdda6432aeaa8f8f568a0d9d25155bc53c48503f3551f84ce50f6993",
+      "role": "fresh generated disposable candidate evidence/output; bind to run-index"
+    },
+    {
+      "path": "work/rc0141-independent-review/candidate/Room_Creator_v0_14_1_remediation_candidate/tests/route/out/route_eval_shots/s2_crouched_behind_car.png",
+      "bytes": 322142,
+      "sha256": "76a39093894007a10bc07dad6c8bc7e65b9e725fdcc0bb2a35503d76ea303135",
+      "role": "fresh generated disposable candidate evidence/output; bind to run-index"
+    },
+    {
+      "path": "work/rc0141-independent-review/candidate/Room_Creator_v0_14_1_remediation_candidate/tests/route/out/route_eval_shots/s2_crouched_clean.png",
+      "bytes": 309987,
+      "sha256": "ad004ca3d98d54cff0dd1fcfc71831c574fa1f2ab763bd55f368721f6e24fff0",
+      "role": "fresh generated disposable candidate evidence/output; bind to run-index"
+    },
+    {
+      "path": "work/rc0141-independent-review/candidate/Room_Creator_v0_14_1_remediation_candidate/tests/route/out/route_eval_shots/s2_standing_exposed.png",
+      "bytes": 469735,
+      "sha256": "e47c2cd892786366ae0c7959c44acd0638984294e196e02b71980c2bf0ccf255",
+      "role": "fresh generated disposable candidate evidence/output; bind to run-index"
+    },
+    {
+      "path": "work/rc0141-independent-review/candidate/Room_Creator_v0_14_1_remediation_candidate/tests/route/out/route_eval_shots/s3_across_t06.png",
+      "bytes": 642498,
+      "sha256": "fd0937cecd66215357b5f1ba2c98bb3841f5c7c47d8e2da629f5be60b93e5a48",
+      "role": "fresh generated disposable candidate evidence/output; bind to run-index"
+    },
+    {
+      "path": "work/rc0141-independent-review/candidate/Room_Creator_v0_14_1_remediation_candidate/tests/route/out/route_eval_shots/s3_across_t06_SIDE.png",
+      "bytes": 642783,
+      "sha256": "1d3a73244c5c6ceb093f02b4733fd69fdf3da11193204ccae2cc5892cb2447b3",
+      "role": "fresh generated disposable candidate evidence/output; bind to run-index"
+    },
+    {
+      "path": "work/rc0141-independent-review/candidate/Room_Creator_v0_14_1_remediation_candidate/tests/route/out/route_eval_shots/s3_across_t06_clean.png",
+      "bytes": 639658,
+      "sha256": "0308a229b3e35711479d052be33fcb1e1fd7dda98ec0cfaf1a6455511d51ee2c",
+      "role": "fresh generated disposable candidate evidence/output; bind to run-index"
+    },
+    {
+      "path": "work/rc0141-independent-review/candidate/Room_Creator_v0_14_1_remediation_candidate/tests/route/out/route_eval_shots/s3_across_t14.png",
+      "bytes": 485466,
+      "sha256": "04b806555ee9973f26b06680c6cfd36e4894201015d433c2c8ba72a790210956",
+      "role": "fresh generated disposable candidate evidence/output; bind to run-index"
+    },
+    {
+      "path": "work/rc0141-independent-review/candidate/Room_Creator_v0_14_1_remediation_candidate/tests/route/out/route_eval_shots/s3_across_t14_BACKQ.png",
+      "bytes": 480810,
+      "sha256": "b07b21983507e66ba2c8586d28743b14d361bf6fc510964cdbc104f925640cd4",
+      "role": "fresh generated disposable candidate evidence/output; bind to run-index"
+    },
+    {
+      "path": "work/rc0141-independent-review/candidate/Room_Creator_v0_14_1_remediation_candidate/tests/route/out/route_eval_shots/s3_across_t14_SIDE.png",
+      "bytes": 485924,
+      "sha256": "87dc1f9790cad4c62538472ce45ca9c7354ac2f9bac7e03c1c2747b916e8bd8c",
+      "role": "fresh generated disposable candidate evidence/output; bind to run-index"
+    },
+    {
+      "path": "work/rc0141-independent-review/candidate/Room_Creator_v0_14_1_remediation_candidate/tests/route/out/route_eval_shots/s4_traffic_car.png",
+      "bytes": 590105,
+      "sha256": "5b470f2cadc483109dc8ed1c965dd9efab95855808bb8e167d2c9e504dfe52a6",
+      "role": "fresh generated disposable candidate evidence/output; bind to run-index"
+    },
+    {
+      "path": "work/rc0141-independent-review/candidate/Room_Creator_v0_14_1_remediation_candidate/tests/route/out/route_eval_shots/s4_traffic_car_clean.png",
+      "bytes": 589609,
+      "sha256": "54a623707a146913c270cbe814c05c507b97b066ce2baa7049b3a14f864e2737",
+      "role": "fresh generated disposable candidate evidence/output; bind to run-index"
+    },
+    {
+      "path": "work/rc0141-independent-review/candidate/Room_Creator_v0_14_1_remediation_candidate/tests/route/out/route_eval_shots/s5_wiggle_stoop.png",
+      "bytes": 558800,
+      "sha256": "89fd9fe23b5a704e5a66dc4326b3458f6657b85a6b851faae247f20a2a14c87c",
+      "role": "fresh generated disposable candidate evidence/output; bind to run-index"
+    },
+    {
+      "path": "work/rc0141-independent-review/candidate/Room_Creator_v0_14_1_remediation_candidate/tests/route/out/route_shots/01_start.png",
+      "bytes": 740519,
+      "sha256": "47a00b2b718600c4c080ca2a78c0ab872ab40cf2523df76d4be575f89f612a9b",
+      "role": "fresh generated disposable candidate evidence/output; bind to run-index"
+    },
+    {
+      "path": "work/rc0141-independent-review/candidate/Room_Creator_v0_14_1_remediation_candidate/tests/route/out/route_shots/02_look_across.png",
+      "bytes": 788857,
+      "sha256": "116787b1aa5d93499b045e6766741202ff88d5596e06c2cef19c41e0b989581e",
+      "role": "fresh generated disposable candidate evidence/output; bind to run-index"
+    },
+    {
+      "path": "work/rc0141-independent-review/candidate/Room_Creator_v0_14_1_remediation_candidate/tests/route/out/route_shots/03_look_left.png",
+      "bytes": 486933,
+      "sha256": "3e3ea7c521b569d03d041d6ceed95461d956e824a0d5ec5654b2344131d2f869",
+      "role": "fresh generated disposable candidate evidence/output; bind to run-index"
+    },
+    {
+      "path": "work/rc0141-independent-review/candidate/Room_Creator_v0_14_1_remediation_candidate/tests/route/out/route_shots/04_walked.png",
+      "bytes": 707027,
+      "sha256": "f5b8ad69be059fb78a2a3de226ee938039e2c6f832a791ef890867d3579cfde9",
+      "role": "fresh generated disposable candidate evidence/output; bind to run-index"
+    },
+    {
+      "path": "work/rc0141-independent-review/candidate/Room_Creator_v0_14_1_remediation_candidate/tests/route/out/route_shots/05_map.png",
+      "bytes": 897969,
+      "sha256": "7971dadf6336398c840cc6a1ddc11b5d4d4dde7c41822348a1d8dc28a248f25d",
+      "role": "fresh generated disposable candidate evidence/output; bind to run-index"
+    },
+    {
+      "path": "work/rc0141-independent-review/candidate/Room_Creator_v0_14_1_remediation_candidate/tests/route/out/route_shots/10_closed_door.png",
+      "bytes": 345308,
+      "sha256": "073e3e86559a4571376793694364b305db0dc81b753de31fdaa32ec9f7956067",
+      "role": "fresh generated disposable candidate evidence/output; bind to run-index"
+    },
+    {
+      "path": "work/rc0141-independent-review/candidate/Room_Creator_v0_14_1_remediation_candidate/tests/route/out/route_shots/11_inside.png",
+      "bytes": 660101,
+      "sha256": "47a7586a7ea042e94ffca76bf6f1b9110e53e310b97cff63e033bd5dcbfb8379",
+      "role": "fresh generated disposable candidate evidence/output; bind to run-index"
+    },
+    {
+      "path": "work/rc0141-independent-review/candidate/Room_Creator_v0_14_1_remediation_candidate/tests/route/out/route_shots/12_map_centered.png",
+      "bytes": 968179,
+      "sha256": "bb82e4fb15254f94749222470fed0bf0b24b47759d3b6b97d5f8f472f25215c8",
+      "role": "fresh generated disposable candidate evidence/output; bind to run-index"
+    },
+    {
+      "path": "work/rc0141-independent-review/candidate/Room_Creator_v0_14_1_remediation_candidate/tests/shared_matte_core_results.json",
+      "bytes": 2801,
+      "sha256": "617d837ff6d6f2f71cef09f9e1d293a3008392477579539eff98b75e0fb43915",
+      "role": "fresh generated disposable candidate evidence/output; bind to run-index"
+    },
+    {
+      "path": "work/rc0141-independent-review/candidate/Room_Creator_v0_14_1_remediation_candidate/tests/style_openings_core_results.json",
+      "bytes": 3927,
+      "sha256": "601946ea18a02b5760b278cfba39b0dde0d705b0afa091f54fe4ab24a23ec7a8",
+      "role": "fresh generated disposable candidate evidence/output; bind to run-index"
+    },
+    {
+      "path": "work/rc0141-independent-review/candidate/Room_Creator_v0_14_1_remediation_candidate/tests/v0_11_1_story_floor_core_results.json",
+      "bytes": 2662,
+      "sha256": "f80174e02bfc77947c7d1cfd2c6c26d4505906da4f743d1a7738305e85124d4a",
+      "role": "fresh generated disposable candidate evidence/output; bind to run-index"
+    },
+    {
+      "path": "work/rc0141-independent-review/candidate/Room_Creator_v0_14_1_remediation_candidate/tests/v0_12_stories_rooms_core_results.json",
+      "bytes": 1736,
+      "sha256": "485d487d90b6d82c962e0ad6c1a28a3f1ed337f0224e178046bd68ae4c05954a",
+      "role": "fresh generated disposable candidate evidence/output; bind to run-index"
+    },
+    {
+      "path": "work/rc0141-independent-review/compare-generated.cjs",
+      "bytes": 1176,
+      "sha256": "649570959771b18f1f574229c88bfb096aaf168a7050a31b1691be12f560b24b",
+      "role": "unchanged copied independent source or additional Stage7 example probe"
+    },
+    {
+      "path": "work/rc0141-independent-review/finalize.py",
+      "bytes": 7547,
+      "sha256": "a07508a3fad7424966a1ab8aca2fcaed2895e798efae4e5b2e6cf746c2dee0f8",
+      "role": "unchanged copied independent source or additional Stage7 example probe"
+    },
+    {
+      "path": "work/rc0141-independent-review/identity.py",
+      "bytes": 2856,
+      "sha256": "1d888451da4939b75a55db004a62bf4b47bb5b2e939ee67c62dee08c6e7d09f3",
+      "role": "unchanged copied independent source or additional Stage7 example probe"
+    },
+    {
+      "path": "work/rc0141-independent-review/lifecycle.py",
+      "bytes": 3605,
+      "sha256": "5a577d4c1b47782c9d1b4eb2c612d1c1c646f29fa5eb8d34c30f5645cee5a053",
+      "role": "unchanged copied independent source or additional Stage7 example probe"
+    },
+    {
+      "path": "work/rc0141-independent-review/original-loader.py",
+      "bytes": 1150,
+      "sha256": "89156f4eff784123c8f1613a04ae39679c37011f37c9e9147c21664f20dbfc83",
+      "role": "unchanged copied independent source or additional Stage7 example probe"
+    },
+    {
+      "path": "work/rc0141-independent-review/original-prior-browser.py",
+      "bytes": 5371,
+      "sha256": "6b37cdaf2ea643092a26a83957da950e40364e4ae5315402a334895e7dea41ed",
+      "role": "unchanged copied independent source or additional Stage7 example probe"
+    },
+    {
+      "path": "work/rc0141-independent-review/original-prior-data.cjs",
+      "bytes": 4180,
+      "sha256": "0ef6d7c934f705736ff1746736018df027c07c58d4ea358269f69c6e417a7417",
+      "role": "unchanged copied independent source or additional Stage7 example probe"
+    },
+    {
+      "path": "work/rc0141-independent-review/prepare.py",
+      "bytes": 3805,
+      "sha256": "a2ef6ee85afd3052903f1214b38573c8508b409d5aee04e03927bec756e391ca",
+      "role": "unchanged copied independent source or additional Stage7 example probe"
+    },
+    {
+      "path": "work/rc0141-independent-review/serve.py",
+      "bytes": 880,
+      "sha256": "259b34fbfebeb64d6035e456877ebc804e825556db49a94c24778213dbc7b07f",
+      "role": "unchanged copied independent source or additional Stage7 example probe"
+    },
+    {
+      "path": "work/rc0141-independent-review/stage7-example-review.py",
+      "bytes": 3045,
+      "sha256": "9cc6e01371e7ac3f23e90843c5a27e87b2ef55ab63bdb5c3420681622e6a5b79",
+      "role": "unchanged copied independent source or additional Stage7 example probe"
+    },
+    {
+      "path": "work/rc0141-independent-review/summarize.py",
+      "bytes": 3571,
+      "sha256": "f88a34e67140edf77c93e5d6d3773070cfc9e0221ce98ff885a9550a5780b0dd",
+      "role": "unchanged copied independent source or additional Stage7 example probe"
+    }
+  ]
+}

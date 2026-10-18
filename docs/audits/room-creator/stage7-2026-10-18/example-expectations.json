@@ -1,0 +1,222 @@
+[
+  {
+    "file": "Atrium_Gallery.room.json",
+    "inputVersion": 9,
+    "normalizedVersion": 11,
+    "normalizedBundleDigest": "712c7d1480520ca3bb9929ed727615646cc641fac6baf85963fc8d07b5cd24b2",
+    "normalizedProjectDigest": "661cc186906902b7c43d7120bbf498649f81e7d30771abd338749b623d089e49",
+    "assetsDigest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "counts": {
+      "rooms": 3,
+      "viewpoints": 2,
+      "stories": 2,
+      "stairs": 0,
+      "floorCuts": 0,
+      "rails": 0,
+      "props": 0,
+      "pairs": 0,
+      "links": 1
+    },
+    "assetCount": 0
+  },
+  {
+    "file": "City_Block_Dusk.room.json",
+    "inputVersion": 11,
+    "normalizedVersion": 11,
+    "normalizedBundleDigest": "9ca47a258918b1363b8356acd97169dae471229f90d80afc6daaf6f815022c8d",
+    "normalizedProjectDigest": "2ed11ddd417973f326ce2fcea5de1ddf602b90e3961ad7bc75d6aac88e6a4958",
+    "assetsDigest": "486505930fa53b5fbe79654934db5ac477ec5ffe4142eed2c33948b8f0ccacfd",
+    "counts": {
+      "rooms": 17,
+      "viewpoints": 0,
+      "stories": 8,
+      "stairs": 0,
+      "floorCuts": 0,
+      "rails": 0,
+      "props": 0,
+      "pairs": 0,
+      "links": 0
+    },
+    "assetCount": 87
+  },
+  {
+    "file": "City_Block_Rail_Demo.room.json",
+    "inputVersion": 11,
+    "normalizedVersion": 11,
+    "normalizedBundleDigest": "2f7141535ae0ac487279486d0b17fa42723d3b7d1a47148ae99580d9833bf706",
+    "normalizedProjectDigest": "5fe33b6c083a38a3a9cfb5a3409b5b3650926f2dae90f345ae3a34ccad707945",
+    "assetsDigest": "486505930fa53b5fbe79654934db5ac477ec5ffe4142eed2c33948b8f0ccacfd",
+    "counts": {
+      "rooms": 18,
+      "viewpoints": 9,
+      "stories": 8,
+      "stairs": 1,
+      "floorCuts": 1,
+      "rails": 1,
+      "props": 0,
+      "pairs": 0,
+      "links": 3
+    },
+    "assetCount": 87
+  },
+  {
+    "file": "Connected_Rooms.room.json",
+    "inputVersion": 4,
+    "normalizedVersion": 11,
+    "normalizedBundleDigest": "d824904fafc905ca34157405fc3b6206e7515f752f30767a67dac59e594c8e4f",
+    "normalizedProjectDigest": "3802a4545cbfff7228e032e98ce76324b497c0ef6b740e3753ae98c173dd3ee0",
+    "assetsDigest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "counts": {
+      "rooms": 3,
+      "viewpoints": 5,
+      "stories": 1,
+      "stairs": 0,
+      "floorCuts": 0,
+      "rails": 0,
+      "props": 0,
+      "pairs": 1,
+      "links": 3
+    },
+    "assetCount": 0
+  },
+  {
+    "file": "Empty_Start.room.json",
+    "inputVersion": 7,
+    "normalizedVersion": 11,
+    "normalizedBundleDigest": "b0fc63548b25c3f2f48e8b2668f56c5812b4e39128f74946604e00f07245a9dc",
+    "normalizedProjectDigest": "e8eede719fa99425ec6a718dc196dbdb422b7f0e963fc1208e30884105c7819d",
+    "assetsDigest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "counts": {
+      "rooms": 1,
+      "viewpoints": 0,
+      "stories": 1,
+      "stairs": 0,
+      "floorCuts": 0,
+      "rails": 0,
+      "props": 0,
+      "pairs": 0,
+      "links": 0
+    },
+    "assetCount": 0
+  },
+  {
+    "file": "Manual_Construction_Atrium.room.json",
+    "inputVersion": 10,
+    "normalizedVersion": 11,
+    "normalizedBundleDigest": "40280e320db97d0b1902dbd0d86eedc79da9c45ee14d2375d21deb0e85d441fc",
+    "normalizedProjectDigest": "f6bd1f23a372ef8cb5ddaebb4c8f63561289ae4be4b0937cb505c141143617d8",
+    "assetsDigest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "counts": {
+      "rooms": 1,
+      "viewpoints": 2,
+      "stories": 2,
+      "stairs": 0,
+      "floorCuts": 0,
+      "rails": 0,
+      "props": 0,
+      "pairs": 0,
+      "links": 1
+    },
+    "assetCount": 0
+  },
+  {
+    "file": "Partitions_and_Attached_Room.room.json",
+    "inputVersion": 7,
+    "normalizedVersion": 11,
+    "normalizedBundleDigest": "c675555c7972d98daf29e06b1652a9245cc177bfa4b8b44e4dea9d89c25a2167",
+    "normalizedProjectDigest": "68a0731973c0d49454044d9b601593476fcb3a72c3e59bdb116226397fe933e7",
+    "assetsDigest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "counts": {
+      "rooms": 2,
+      "viewpoints": 5,
+      "stories": 1,
+      "stairs": 0,
+      "floorCuts": 0,
+      "rails": 0,
+      "props": 0,
+      "pairs": 1,
+      "links": 3
+    },
+    "assetCount": 0
+  },
+  {
+    "file": "Route_Prototype_Street.room.json",
+    "inputVersion": 11,
+    "normalizedVersion": 11,
+    "normalizedBundleDigest": "e03ca4a0859b5803ace13a83c84c2d414313e8fd6eb8b7cbcad4c00d2111f5b0",
+    "normalizedProjectDigest": "e1914c452501bf40c215d6f4544573a064042c9f800523bd7601a4aa438f8524",
+    "assetsDigest": "486505930fa53b5fbe79654934db5ac477ec5ffe4142eed2c33948b8f0ccacfd",
+    "counts": {
+      "rooms": 18,
+      "viewpoints": 10,
+      "stories": 8,
+      "stairs": 1,
+      "floorCuts": 1,
+      "rails": 1,
+      "props": 0,
+      "pairs": 0,
+      "links": 3
+    },
+    "assetCount": 87
+  },
+  {
+    "file": "Route_Prototype_Street_ASSET_DEMO.room.json",
+    "inputVersion": 11,
+    "normalizedVersion": 11,
+    "normalizedBundleDigest": "b55d6333274284c0f49b2ee4ae6f215436fbaed0202c0a53787b86cffb495a0a",
+    "normalizedProjectDigest": "b9a6942ceb63a3d8af5ca9182b2f018e3c30b1906a2fad00d50449a8d9026c71",
+    "assetsDigest": "aa68a547c388ea422c5d04b81c93d52f2283a625dfb5c9804b17f81191a49fc8",
+    "counts": {
+      "rooms": 18,
+      "viewpoints": 17,
+      "stories": 8,
+      "stairs": 1,
+      "floorCuts": 1,
+      "rails": 1,
+      "props": 69,
+      "pairs": 0,
+      "links": 3
+    },
+    "assetCount": 89
+  },
+  {
+    "file": "Shared_Matte_Example.room.json",
+    "inputVersion": 4,
+    "normalizedVersion": 11,
+    "normalizedBundleDigest": "4ebf931cb156dd483681cae3146a20abc13802600083b374b57c5d4a6cfa1664",
+    "normalizedProjectDigest": "5f96765d67f1eca4e19eb1f8dc234ac1c0bfc37f7d367f212feffcf7f63bb8b1",
+    "assetsDigest": "be8f3384b031b1eb0f72a88681b0a55edb2c6aa18f03c58769a197749eaa3a32",
+    "counts": {
+      "rooms": 1,
+      "viewpoints": 3,
+      "stories": 1,
+      "stairs": 0,
+      "floorCuts": 0,
+      "rails": 0,
+      "props": 0,
+      "pairs": 0,
+      "links": 2
+    },
+    "assetCount": 1
+  },
+  {
+    "file": "Windows_Doors_Style.room.json",
+    "inputVersion": 8,
+    "normalizedVersion": 11,
+    "normalizedBundleDigest": "22cddd0e846ab69b2806caa1585686986e95dbd0c73369fb2facdad4ef51ebd8",
+    "normalizedProjectDigest": "8063b517e3ba5c225afb3e94553856a2eda41ae7eafdfef419a65588dcd13db5",
+    "assetsDigest": "9a102a482e4944a1d36f1ae908d61733e2e6820184ecc315f80b59fed189c802",
+    "counts": {
+      "rooms": 2,
+      "viewpoints": 2,
+      "stories": 1,
+      "stairs": 0,
+      "floorCuts": 0,
+      "rails": 0,
+      "props": 0,
+      "pairs": 0,
+      "links": 0
+    },
+    "assetCount": 1
+  }
+]

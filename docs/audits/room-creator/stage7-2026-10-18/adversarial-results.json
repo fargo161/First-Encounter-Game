@@ -1,0 +1,1664 @@
+[
+  {
+    "name": "F2 deletion front 90, rotated stretched upper-story matrix/point heading/history",
+    "passed": true,
+    "detail": {
+      "before": {
+        "matrix": [
+          1.0230855393584817,
+          0,
+          -1.3576803670803979,
+          0,
+          0,
+          2.2,
+          0,
+          0,
+          0.4791813060283757,
+          0,
+          0.3610890138912288,
+          0,
+          4,
+          4,
+          3,
+          1
+        ],
+        "poly": {
+          "poly": [
+            {
+              "x": 4.511542769679241,
+              "y": 2.321159816459801
+            },
+            {
+              "x": 4.562804360171569,
+              "y": 2.502379409417304
+            },
+            {
+              "x": 4.46326297685921,
+              "y": 2.8169360377585386
+            },
+            {
+              "x": 4.239590653014188,
+              "y": 3.1805445069456146
+            },
+            {
+              "x": 3.951720207179969,
+              "y": 3.4957762212987378
+            },
+            {
+              "x": 3.6767862928426194,
+              "y": 3.6781650975283107
+            },
+            {
+              "x": 3.4884572303207593,
+              "y": 3.678840183540199
+            },
+            {
+              "x": 3.437195639828431,
+              "y": 3.497620590582696
+            },
+            {
+              "x": 3.5367370231407897,
+              "y": 3.1830639622414614
+            },
+            {
+              "x": 3.760409346985812,
+              "y": 2.8194554930543854
+            },
+            {
+              "x": 4.048279792820032,
+              "y": 2.5042237787012622
+            },
+            {
+              "x": 4.323213707157381,
+              "y": 2.3218349024716898
+            }
+          ],
+          "z0": 4,
+          "z1": 8.4,
+          "shape": "cylinder",
+          "size": [
+            1.7,
+            0.6,
+            4.4
+          ]
+        },
+        "points": [
+          {
+            "x": 4.498598184218895,
+            "y": 2.737131495432372,
+            "z": 5.76,
+            "heading": 48
+          }
+        ],
+        "pointData": [
+          {
+            "id": "one",
+            "x": 0.3,
+            "y": 0.8,
+            "z": 0.4,
+            "yaw": 79,
+            "type": "future",
+            "custom": {
+              "keep": 3
+            },
+            "enabled": true
+          }
+        ],
+        "collision": {
+          "solid": true,
+          "shape": "cylinder",
+          "size": [
+            1,
+            1,
+            2
+          ]
+        },
+        "extra": {
+          "keep": 4
+        },
+        "gameplay": {
+          "tags": [
+            {
+              "future": true
+            }
+          ],
+          "props": {}
+        }
+      },
+      "after": {
+        "matrix": [
+          1.0230855393584823,
+          0,
+          -1.3576803670803974,
+          0,
+          0,
+          2.2,
+          0,
+          0,
+          0.47918130602837555,
+          0,
+          0.3610890138912291,
+          0,
+          4,
+          4,
+          3,
+          1
+        ],
+        "poly": {
+          "poly": [
+            {
+              "x": 4.511542769679242,
+              "y": 2.3211598164598013
+            },
+            {
+              "x": 4.562804360171569,
+              "y": 2.5023794094173044
+            },
+            {
+              "x": 4.46326297685921,
+              "y": 2.8169360377585386
+            },
+            {
+              "x": 4.239590653014188,
+              "y": 3.1805445069456146
+            },
+            {
+              "x": 3.951720207179969,
+              "y": 3.4957762212987373
+            },
+            {
+              "x": 3.676786292842619,
+              "y": 3.6781650975283102
+            },
+            {
+              "x": 3.488457230320759,
+              "y": 3.6788401835401987
+            },
+            {
+              "x": 3.437195639828431,
+              "y": 3.4976205905826956
+            },
+            {
+              "x": 3.5367370231407897,
+              "y": 3.1830639622414614
+            },
+            {
+              "x": 3.760409346985812,
+              "y": 2.8194554930543854
+            },
+            {
+              "x": 4.048279792820032,
+              "y": 2.5042237787012622
+            },
+            {
+              "x": 4.323213707157381,
+              "y": 2.3218349024716898
+            }
+          ],
+          "z0": 4,
+          "z1": 8.4,
+          "shape": "cylinder",
+          "size": [
+            1.7,
+            0.6,
+            4.4
+          ]
+        },
+        "points": [
+          {
+            "x": 4.498598184218895,
+            "y": 2.737131495432372,
+            "z": 5.76,
+            "heading": 48
+          }
+        ],
+        "pointData": [
+          {
+            "id": "one",
+            "x": 0.3,
+            "y": 0.8,
+            "z": 0.4,
+            "yaw": 79,
+            "type": "future",
+            "custom": {
+              "keep": 3
+            },
+            "enabled": true
+          }
+        ],
+        "collision": {
+          "solid": true,
+          "shape": "cylinder",
+          "size": [
+            1,
+            1,
+            2
+          ]
+        },
+        "extra": {
+          "keep": 4
+        },
+        "gameplay": {
+          "tags": [
+            {
+              "future": true
+            }
+          ],
+          "props": {}
+        }
+      },
+      "reopen": {
+        "matrix": [
+          1.0230855393584823,
+          0,
+          -1.3576803670803974,
+          0,
+          0,
+          2.2,
+          0,
+          0,
+          0.47918130602837555,
+          0,
+          0.3610890138912291,
+          0,
+          4,
+          4,
+          3,
+          1
+        ],
+        "poly": {
+          "poly": [
+            {
+              "x": 4.511542769679242,
+              "y": 2.3211598164598013
+            },
+            {
+              "x": 4.562804360171569,
+              "y": 2.5023794094173044
+            },
+            {
+              "x": 4.46326297685921,
+              "y": 2.8169360377585386
+            },
+            {
+              "x": 4.239590653014188,
+              "y": 3.1805445069456146
+            },
+            {
+              "x": 3.951720207179969,
+              "y": 3.4957762212987373
+            },
+            {
+              "x": 3.676786292842619,
+              "y": 3.6781650975283102
+            },
+            {
+              "x": 3.488457230320759,
+              "y": 3.6788401835401987
+            },
+            {
+              "x": 3.437195639828431,
+              "y": 3.4976205905826956
+            },
+            {
+              "x": 3.5367370231407897,
+              "y": 3.1830639622414614
+            },
+            {
+              "x": 3.760409346985812,
+              "y": 2.8194554930543854
+            },
+            {
+              "x": 4.048279792820032,
+              "y": 2.5042237787012622
+            },
+            {
+              "x": 4.323213707157381,
+              "y": 2.3218349024716898
+            }
+          ],
+          "z0": 4,
+          "z1": 8.4,
+          "shape": "cylinder",
+          "size": [
+            1.7,
+            0.6,
+            4.4
+          ]
+        },
+        "points": [
+          {
+            "x": 4.498598184218895,
+            "y": 2.737131495432372,
+            "z": 5.76,
+            "heading": 48
+          }
+        ],
+        "pointData": [
+          {
+            "id": "one",
+            "x": 0.3,
+            "y": 0.8,
+            "z": 0.4,
+            "yaw": 79,
+            "type": "future",
+            "custom": {
+              "keep": 3
+            },
+            "enabled": true
+          }
+        ],
+        "collision": {
+          "solid": true,
+          "shape": "cylinder",
+          "size": [
+            1,
+            1,
+            2
+          ]
+        },
+        "extra": {
+          "keep": 4
+        },
+        "gameplay": {
+          "tags": [
+            {
+              "future": true
+            }
+          ],
+          "props": {}
+        }
+      }
+    }
+  },
+  {
+    "name": "F2 new setup import 90 keeps world matrix and points",
+    "passed": true,
+    "detail": {
+      "looks": 0,
+      "palettes": 0,
+      "setups": 1,
+      "same": 0,
+      "renamed": 0,
+      "setupConflicts": []
+    }
+  },
+  {
+    "name": "F2 subsequently placed copy inherits setup defaults 90",
+    "passed": true,
+    "detail": {
+      "id": "prop_mve27v4f_lv2p7et",
+      "asset": "lp_furniture_chairs_mesh_chair_wood_01",
+      "name": "",
+      "x": 5,
+      "y": 3,
+      "story": 1,
+      "z": 0,
+      "rotation": 0,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "enabled": true,
+      "locked": false,
+      "look": null,
+      "override": {},
+      "collision": {
+        "solid": false,
+        "shape": "box",
+        "size": [
+          1,
+          2,
+          3
+        ]
+      },
+      "gameplay": {
+        "tags": [
+          {
+            "fromSetup": true
+          }
+        ],
+        "props": {}
+      },
+      "points": [
+        {
+          "type": "new/default",
+          "x": 0.2,
+          "y": 0.3,
+          "z": 0.4,
+          "custom": {
+            "keep": 8
+          },
+          "id": "pt_mve27v4f_lu5z4d8",
+          "yaw": 0,
+          "enabled": true
+        }
+      ],
+      "bounds": {
+        "min": [
+          -0.1869,
+          0,
+          -0.2033
+        ],
+        "max": [
+          0.1869,
+          1.0724,
+          0.2033
+        ]
+      },
+      "roomId": "room_mve27rz9_mbeawva"
+    }
+  },
+  {
+    "name": "F2 deletion front 180, rotated stretched upper-story matrix/point heading/history",
+    "passed": true,
+    "detail": {
+      "before": {
+        "matrix": [
+          1.3576803670803979,
+          0,
+          1.0230855393584817,
+          0,
+          0,
+          2.2,
+          0,
+          0,
+          -0.3610890138912288,
+          0,
+          0.4791813060283757,
+          0,
+          4,
+          4,
+          3,
+          1
+        ],
+        "poly": {
+          "poly": [
+            {
+              "x": 4.678840183540199,
+              "y": 3.5115427696792407
+            },
+            {
+              "x": 4.497620590582696,
+              "y": 3.562804360171569
+            },
+            {
+              "x": 4.183063962241461,
+              "y": 3.46326297685921
+            },
+            {
+              "x": 3.8194554930543854,
+              "y": 3.239590653014188
+            },
+            {
+              "x": 3.5042237787012622,
+              "y": 2.951720207179969
+            },
+            {
+              "x": 3.3218349024716893,
+              "y": 2.6767862928426194
+            },
+            {
+              "x": 3.321159816459801,
+              "y": 2.4884572303207593
+            },
+            {
+              "x": 3.502379409417304,
+              "y": 2.437195639828431
+            },
+            {
+              "x": 3.8169360377585386,
+              "y": 2.5367370231407897
+            },
+            {
+              "x": 4.180544506945615,
+              "y": 2.760409346985812
+            },
+            {
+              "x": 4.495776221298738,
+              "y": 3.048279792820031
+            },
+            {
+              "x": 4.67816509752831,
+              "y": 3.3232137071573806
+            }
+          ],
+          "z0": 4,
+          "z1": 8.4,
+          "shape": "cylinder",
+          "size": [
+            1.7,
+            0.6,
+            4.4
+          ]
+        },
+        "points": [
+          {
+            "x": 4.262868504567628,
+            "y": 3.4985981842188947,
+            "z": 5.76,
+            "heading": 138
+          }
+        ],
+        "pointData": [
+          {
+            "id": "one",
+            "x": 0.3,
+            "y": 0.8,
+            "z": 0.4,
+            "yaw": 79,
+            "type": "future",
+            "custom": {
+              "keep": 3
+            },
+            "enabled": true
+          }
+        ],
+        "collision": {
+          "solid": true,
+          "shape": "cylinder",
+          "size": [
+            1,
+            1,
+            2
+          ]
+        },
+        "extra": {
+          "keep": 4
+        },
+        "gameplay": {
+          "tags": [
+            {
+              "future": true
+            }
+          ],
+          "props": {}
+        }
+      },
+      "after": {
+        "matrix": [
+          1.3576803670803979,
+          0,
+          1.0230855393584817,
+          0,
+          0,
+          2.2,
+          0,
+          0,
+          -0.3610890138912288,
+          0,
+          0.4791813060283757,
+          0,
+          4,
+          4,
+          3,
+          1
+        ],
+        "poly": {
+          "poly": [
+            {
+              "x": 4.678840183540199,
+              "y": 3.5115427696792407
+            },
+            {
+              "x": 4.497620590582696,
+              "y": 3.562804360171569
+            },
+            {
+              "x": 4.183063962241461,
+              "y": 3.46326297685921
+            },
+            {
+              "x": 3.8194554930543854,
+              "y": 3.239590653014188
+            },
+            {
+              "x": 3.5042237787012622,
+              "y": 2.951720207179969
+            },
+            {
+              "x": 3.3218349024716893,
+              "y": 2.6767862928426194
+            },
+            {
+              "x": 3.321159816459801,
+              "y": 2.4884572303207593
+            },
+            {
+              "x": 3.502379409417304,
+              "y": 2.437195639828431
+            },
+            {
+              "x": 3.8169360377585386,
+              "y": 2.5367370231407897
+            },
+            {
+              "x": 4.180544506945615,
+              "y": 2.760409346985812
+            },
+            {
+              "x": 4.495776221298738,
+              "y": 3.048279792820031
+            },
+            {
+              "x": 4.67816509752831,
+              "y": 3.3232137071573806
+            }
+          ],
+          "z0": 4,
+          "z1": 8.4,
+          "shape": "cylinder",
+          "size": [
+            1.7,
+            0.6,
+            4.4
+          ]
+        },
+        "points": [
+          {
+            "x": 4.262868504567628,
+            "y": 3.4985981842188947,
+            "z": 5.76,
+            "heading": 138
+          }
+        ],
+        "pointData": [
+          {
+            "id": "one",
+            "x": 0.3,
+            "y": 0.8,
+            "z": 0.4,
+            "yaw": 79,
+            "type": "future",
+            "custom": {
+              "keep": 3
+            },
+            "enabled": true
+          }
+        ],
+        "collision": {
+          "solid": true,
+          "shape": "cylinder",
+          "size": [
+            1,
+            1,
+            2
+          ]
+        },
+        "extra": {
+          "keep": 4
+        },
+        "gameplay": {
+          "tags": [
+            {
+              "future": true
+            }
+          ],
+          "props": {}
+        }
+      },
+      "reopen": {
+        "matrix": [
+          1.3576803670803979,
+          0,
+          1.0230855393584817,
+          0,
+          0,
+          2.2,
+          0,
+          0,
+          -0.3610890138912288,
+          0,
+          0.4791813060283757,
+          0,
+          4,
+          4,
+          3,
+          1
+        ],
+        "poly": {
+          "poly": [
+            {
+              "x": 4.678840183540199,
+              "y": 3.5115427696792407
+            },
+            {
+              "x": 4.497620590582696,
+              "y": 3.562804360171569
+            },
+            {
+              "x": 4.183063962241461,
+              "y": 3.46326297685921
+            },
+            {
+              "x": 3.8194554930543854,
+              "y": 3.239590653014188
+            },
+            {
+              "x": 3.5042237787012622,
+              "y": 2.951720207179969
+            },
+            {
+              "x": 3.3218349024716893,
+              "y": 2.6767862928426194
+            },
+            {
+              "x": 3.321159816459801,
+              "y": 2.4884572303207593
+            },
+            {
+              "x": 3.502379409417304,
+              "y": 2.437195639828431
+            },
+            {
+              "x": 3.8169360377585386,
+              "y": 2.5367370231407897
+            },
+            {
+              "x": 4.180544506945615,
+              "y": 2.760409346985812
+            },
+            {
+              "x": 4.495776221298738,
+              "y": 3.048279792820031
+            },
+            {
+              "x": 4.67816509752831,
+              "y": 3.3232137071573806
+            }
+          ],
+          "z0": 4,
+          "z1": 8.4,
+          "shape": "cylinder",
+          "size": [
+            1.7,
+            0.6,
+            4.4
+          ]
+        },
+        "points": [
+          {
+            "x": 4.262868504567628,
+            "y": 3.4985981842188947,
+            "z": 5.76,
+            "heading": 138
+          }
+        ],
+        "pointData": [
+          {
+            "id": "one",
+            "x": 0.3,
+            "y": 0.8,
+            "z": 0.4,
+            "yaw": 79,
+            "type": "future",
+            "custom": {
+              "keep": 3
+            },
+            "enabled": true
+          }
+        ],
+        "collision": {
+          "solid": true,
+          "shape": "cylinder",
+          "size": [
+            1,
+            1,
+            2
+          ]
+        },
+        "extra": {
+          "keep": 4
+        },
+        "gameplay": {
+          "tags": [
+            {
+              "future": true
+            }
+          ],
+          "props": {}
+        }
+      }
+    }
+  },
+  {
+    "name": "F2 new setup import 180 keeps world matrix and points",
+    "passed": true,
+    "detail": {
+      "looks": 0,
+      "palettes": 0,
+      "setups": 1,
+      "same": 0,
+      "renamed": 0,
+      "setupConflicts": []
+    }
+  },
+  {
+    "name": "F2 subsequently placed copy inherits setup defaults 180",
+    "passed": true,
+    "detail": {
+      "id": "prop_mve27y64_9njfuxq",
+      "asset": "lp_furniture_chairs_mesh_chair_wood_01",
+      "name": "",
+      "x": 5,
+      "y": 3,
+      "story": 1,
+      "z": 0,
+      "rotation": 0,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "enabled": true,
+      "locked": false,
+      "look": null,
+      "override": {},
+      "collision": {
+        "solid": false,
+        "shape": "box",
+        "size": [
+          1,
+          2,
+          3
+        ]
+      },
+      "gameplay": {
+        "tags": [
+          {
+            "fromSetup": true
+          }
+        ],
+        "props": {}
+      },
+      "points": [
+        {
+          "type": "new/default",
+          "x": 0.2,
+          "y": 0.3,
+          "z": 0.4,
+          "custom": {
+            "keep": 8
+          },
+          "id": "pt_mve27y64_p51p2tm",
+          "yaw": 0,
+          "enabled": true
+        }
+      ],
+      "bounds": {
+        "min": [
+          -0.1869,
+          0,
+          -0.2033
+        ],
+        "max": [
+          0.1869,
+          1.0724,
+          0.2033
+        ]
+      },
+      "roomId": "room_mve27vee_3lejqvd"
+    }
+  },
+  {
+    "name": "F2 deletion front 270, rotated stretched upper-story matrix/point heading/history",
+    "passed": true,
+    "detail": {
+      "before": {
+        "matrix": [
+          -1.0230855393584817,
+          0,
+          1.357680367080398,
+          0,
+          0,
+          2.2,
+          0,
+          0,
+          -0.47918130602837583,
+          0,
+          -0.3610890138912288,
+          0,
+          4,
+          4,
+          3,
+          1
+        ],
+        "poly": {
+          "poly": [
+            {
+              "x": 3.4884572303207593,
+              "y": 3.678840183540199
+            },
+            {
+              "x": 3.437195639828431,
+              "y": 3.497620590582696
+            },
+            {
+              "x": 3.53673702314079,
+              "y": 3.1830639622414614
+            },
+            {
+              "x": 3.760409346985812,
+              "y": 2.8194554930543854
+            },
+            {
+              "x": 4.048279792820031,
+              "y": 2.5042237787012622
+            },
+            {
+              "x": 4.323213707157381,
+              "y": 2.3218349024716893
+            },
+            {
+              "x": 4.511542769679241,
+              "y": 2.321159816459801
+            },
+            {
+              "x": 4.562804360171569,
+              "y": 2.502379409417304
+            },
+            {
+              "x": 4.46326297685921,
+              "y": 2.816936037758538
+            },
+            {
+              "x": 4.239590653014188,
+              "y": 3.1805445069456146
+            },
+            {
+              "x": 3.951720207179969,
+              "y": 3.4957762212987378
+            },
+            {
+              "x": 3.6767862928426194,
+              "y": 3.6781650975283102
+            }
+          ],
+          "z0": 4,
+          "z1": 8.4,
+          "shape": "cylinder",
+          "size": [
+            1.7,
+            0.6,
+            4.4
+          ]
+        },
+        "points": [
+          {
+            "x": 3.5014018157811053,
+            "y": 3.262868504567628,
+            "z": 5.76,
+            "heading": 228
+          }
+        ],
+        "pointData": [
+          {
+            "id": "one",
+            "x": 0.3,
+            "y": 0.8,
+            "z": 0.4,
+            "yaw": 79,
+            "type": "future",
+            "custom": {
+              "keep": 3
+            },
+            "enabled": true
+          }
+        ],
+        "collision": {
+          "solid": true,
+          "shape": "cylinder",
+          "size": [
+            1,
+            1,
+            2
+          ]
+        },
+        "extra": {
+          "keep": 4
+        },
+        "gameplay": {
+          "tags": [
+            {
+              "future": true
+            }
+          ],
+          "props": {}
+        }
+      },
+      "after": {
+        "matrix": [
+          -1.0230855393584817,
+          0,
+          1.357680367080398,
+          0,
+          0,
+          2.2,
+          0,
+          0,
+          -0.47918130602837583,
+          0,
+          -0.3610890138912288,
+          0,
+          4,
+          4,
+          3,
+          1
+        ],
+        "poly": {
+          "poly": [
+            {
+              "x": 3.4884572303207593,
+              "y": 3.678840183540199
+            },
+            {
+              "x": 3.437195639828431,
+              "y": 3.497620590582696
+            },
+            {
+              "x": 3.53673702314079,
+              "y": 3.1830639622414614
+            },
+            {
+              "x": 3.760409346985812,
+              "y": 2.8194554930543854
+            },
+            {
+              "x": 4.048279792820031,
+              "y": 2.5042237787012622
+            },
+            {
+              "x": 4.323213707157381,
+              "y": 2.3218349024716893
+            },
+            {
+              "x": 4.511542769679241,
+              "y": 2.321159816459801
+            },
+            {
+              "x": 4.562804360171569,
+              "y": 2.502379409417304
+            },
+            {
+              "x": 4.46326297685921,
+              "y": 2.816936037758538
+            },
+            {
+              "x": 4.239590653014188,
+              "y": 3.1805445069456146
+            },
+            {
+              "x": 3.951720207179969,
+              "y": 3.4957762212987378
+            },
+            {
+              "x": 3.6767862928426194,
+              "y": 3.6781650975283102
+            }
+          ],
+          "z0": 4,
+          "z1": 8.4,
+          "shape": "cylinder",
+          "size": [
+            1.7,
+            0.6,
+            4.4
+          ]
+        },
+        "points": [
+          {
+            "x": 3.5014018157811053,
+            "y": 3.262868504567628,
+            "z": 5.76,
+            "heading": 228
+          }
+        ],
+        "pointData": [
+          {
+            "id": "one",
+            "x": 0.3,
+            "y": 0.8,
+            "z": 0.4,
+            "yaw": 79,
+            "type": "future",
+            "custom": {
+              "keep": 3
+            },
+            "enabled": true
+          }
+        ],
+        "collision": {
+          "solid": true,
+          "shape": "cylinder",
+          "size": [
+            1,
+            1,
+            2
+          ]
+        },
+        "extra": {
+          "keep": 4
+        },
+        "gameplay": {
+          "tags": [
+            {
+              "future": true
+            }
+          ],
+          "props": {}
+        }
+      },
+      "reopen": {
+        "matrix": [
+          -1.0230855393584817,
+          0,
+          1.357680367080398,
+          0,
+          0,
+          2.2,
+          0,
+          0,
+          -0.47918130602837583,
+          0,
+          -0.3610890138912288,
+          0,
+          4,
+          4,
+          3,
+          1
+        ],
+        "poly": {
+          "poly": [
+            {
+              "x": 3.4884572303207593,
+              "y": 3.678840183540199
+            },
+            {
+              "x": 3.437195639828431,
+              "y": 3.497620590582696
+            },
+            {
+              "x": 3.53673702314079,
+              "y": 3.1830639622414614
+            },
+            {
+              "x": 3.760409346985812,
+              "y": 2.8194554930543854
+            },
+            {
+              "x": 4.048279792820031,
+              "y": 2.5042237787012622
+            },
+            {
+              "x": 4.323213707157381,
+              "y": 2.3218349024716893
+            },
+            {
+              "x": 4.511542769679241,
+              "y": 2.321159816459801
+            },
+            {
+              "x": 4.562804360171569,
+              "y": 2.502379409417304
+            },
+            {
+              "x": 4.46326297685921,
+              "y": 2.816936037758538
+            },
+            {
+              "x": 4.239590653014188,
+              "y": 3.1805445069456146
+            },
+            {
+              "x": 3.951720207179969,
+              "y": 3.4957762212987378
+            },
+            {
+              "x": 3.6767862928426194,
+              "y": 3.6781650975283102
+            }
+          ],
+          "z0": 4,
+          "z1": 8.4,
+          "shape": "cylinder",
+          "size": [
+            1.7,
+            0.6,
+            4.4
+          ]
+        },
+        "points": [
+          {
+            "x": 3.5014018157811053,
+            "y": 3.262868504567628,
+            "z": 5.76,
+            "heading": 228
+          }
+        ],
+        "pointData": [
+          {
+            "id": "one",
+            "x": 0.3,
+            "y": 0.8,
+            "z": 0.4,
+            "yaw": 79,
+            "type": "future",
+            "custom": {
+              "keep": 3
+            },
+            "enabled": true
+          }
+        ],
+        "collision": {
+          "solid": true,
+          "shape": "cylinder",
+          "size": [
+            1,
+            1,
+            2
+          ]
+        },
+        "extra": {
+          "keep": 4
+        },
+        "gameplay": {
+          "tags": [
+            {
+              "future": true
+            }
+          ],
+          "props": {}
+        }
+      }
+    }
+  },
+  {
+    "name": "F2 new setup import 270 keeps world matrix and points",
+    "passed": true,
+    "detail": {
+      "looks": 0,
+      "palettes": 0,
+      "setups": 1,
+      "same": 0,
+      "renamed": 0,
+      "setupConflicts": []
+    }
+  },
+  {
+    "name": "F2 subsequently placed copy inherits setup defaults 270",
+    "passed": true,
+    "detail": {
+      "id": "prop_mve27zze_bf1amdn",
+      "asset": "lp_furniture_chairs_mesh_chair_wood_01",
+      "name": "",
+      "x": 5,
+      "y": 3,
+      "story": 1,
+      "z": 0,
+      "rotation": 0,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "enabled": true,
+      "locked": false,
+      "look": null,
+      "override": {},
+      "collision": {
+        "solid": false,
+        "shape": "box",
+        "size": [
+          1,
+          2,
+          3
+        ]
+      },
+      "gameplay": {
+        "tags": [
+          {
+            "fromSetup": true
+          }
+        ],
+        "props": {}
+      },
+      "points": [
+        {
+          "type": "new/default",
+          "x": 0.2,
+          "y": 0.3,
+          "z": 0.4,
+          "custom": {
+            "keep": 8
+          },
+          "id": "pt_mve27zze_mnorbfv",
+          "yaw": 0,
+          "enabled": true
+        }
+      ],
+      "bounds": {
+        "min": [
+          -0.1869,
+          0,
+          -0.2033
+        ],
+        "max": [
+          0.1869,
+          1.0724,
+          0.2033
+        ]
+      },
+      "roomId": "room_mve27ydy_kykuclv"
+    }
+  },
+  {
+    "name": "F4 route rays: ellipses, offsets, rotations, vertical bounds, slopes, disabled/non-solid and legacy pillar",
+    "passed": true,
+    "detail": [
+      {
+        "rotation": 0,
+        "scale": [
+          1,
+          1,
+          1
+        ],
+        "corner": true,
+        "centre": true,
+        "high": true,
+        "low": true,
+        "slope": true
+      },
+      {
+        "key": "enabled",
+        "clear": true
+      },
+      {
+        "key": "solid",
+        "clear": true
+      },
+      {
+        "rotation": 0,
+        "scale": [
+          2,
+          0.7,
+          0.4
+        ],
+        "corner": true,
+        "centre": true,
+        "high": true,
+        "low": true,
+        "slope": true
+      },
+      {
+        "key": "enabled",
+        "clear": true
+      },
+      {
+        "key": "solid",
+        "clear": true
+      },
+      {
+        "rotation": 37,
+        "scale": [
+          1,
+          1,
+          1
+        ],
+        "corner": true,
+        "centre": true,
+        "high": true,
+        "low": true,
+        "slope": true
+      },
+      {
+        "key": "enabled",
+        "clear": true
+      },
+      {
+        "key": "solid",
+        "clear": true
+      },
+      {
+        "rotation": 37,
+        "scale": [
+          2,
+          0.7,
+          0.4
+        ],
+        "corner": true,
+        "centre": true,
+        "high": true,
+        "low": true,
+        "slope": true
+      },
+      {
+        "key": "enabled",
+        "clear": true
+      },
+      {
+        "key": "solid",
+        "clear": true
+      },
+      {
+        "rotation": 90,
+        "scale": [
+          1,
+          1,
+          1
+        ],
+        "corner": true,
+        "centre": true,
+        "high": true,
+        "low": true,
+        "slope": true
+      },
+      {
+        "key": "enabled",
+        "clear": true
+      },
+      {
+        "key": "solid",
+        "clear": true
+      },
+      {
+        "rotation": 90,
+        "scale": [
+          2,
+          0.7,
+          0.4
+        ],
+        "corner": true,
+        "centre": true,
+        "high": true,
+        "low": true,
+        "slope": true
+      },
+      {
+        "key": "enabled",
+        "clear": true
+      },
+      {
+        "key": "solid",
+        "clear": true
+      },
+      {
+        "rotation": 214,
+        "scale": [
+          1,
+          1,
+          1
+        ],
+        "corner": true,
+        "centre": true,
+        "high": true,
+        "low": true,
+        "slope": true
+      },
+      {
+        "key": "enabled",
+        "clear": true
+      },
+      {
+        "key": "solid",
+        "clear": true
+      },
+      {
+        "rotation": 214,
+        "scale": [
+          2,
+          0.7,
+          0.4
+        ],
+        "corner": true,
+        "centre": true,
+        "high": true,
+        "low": true,
+        "slope": true
+      },
+      {
+        "key": "enabled",
+        "clear": true
+      },
+      {
+        "key": "solid",
+        "clear": true
+      },
+      {
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "name": "F5 manifest-known missing palette file has explicit object repair warning",
+    "passed": false,
+    "detail": {
+      "panel": "3D OBJECT\nChair Wood 01\nFurniture / Chairs\nName (optional)\nDuplicate\nReplace\u2026\nDelete\nSwitched on\nLocked\nPlacement\nX (m)\nY (m)\nHeight above floor (m)\nTurn (\u00b0)\n\u27f2 15\u00b0\n\u27f3 15\u00b0\n\u27f3 90\u00b0\nReset turn, size and height\nStretch per axis\n\nStory: Floor 2 \u00b7 Upper \u00b7 size 0.64 \u00d7 0.24 \u00d7 2.36 m. Drag it on the map; drag the round handle to turn. Keys: [ ] turn, arrows nudge.\n\nAppearance\nLook\nAsset default\n\nShowing the object as it comes from the library. This object also has its own changes on top.\n\nSave as look\u2026\nClear this object\u2019s changes\nPALETTE THIS OBJECT\nDefault\nGrimy\nFaded\nNight\nWarm\n\nColours this object uses. Click one to change it on this object only:\n\nCOLOUR ADJUSTMENTS\nTint colour \nTint strength\nBrightness\nColour strength (saturation)\nMore\nTexture look\nPixel / crisp\nSmooth\nCollision \u00b7 solid\nGameplay \u00b7 Gameplay\nUse Points \u00b7 1\n\nSpots attached to this object, such as where to sit, stand to use it, or take cover. They move and turn with it. Any type name works, including your own.\n\nFuture\nfuture \u00b7 0.4 right, 0.3 forward, 0.8 up\n\u25cf\n\u00d7\nSit\nUse (customer / player)\nWork (staff / NPC)\nCustomer\nCover\nHide\nDriver side\nPassenger side\nArrival\nLook at\nStand\nSearch\nFuture\nCustom\u2026\n+ Add point\n\nSuggested: + Sit\n\nMake these the defaults for new copies\nAdd the default points\nInfo \u00b7 licence",
+      "issues": [],
+      "cache": [
+        {
+          "key": "library|pal_lowpoly_master_32|p",
+          "failed": true,
+          "hasTexture": false
+        },
+        {
+          "key": "base|lp_furniture_chairs_mesh_chair_wood_01|p",
+          "failed": false,
+          "hasTexture": true
+        }
+      ],
+      "missingFiles": [
+        {
+          "id": "pal_lowpoly_master_32",
+          "text": "Palette file missing: \u201cLowPoly Master 32x32\u201d (STANDARDIZED_LIBRARY/palettes/pal_lowpoly_master_32.png)"
+        },
+        {
+          "id": "pix_bricks_brick_herringbone_blue_1",
+          "text": "Texture file missing: \u201cBrick Herringbone Blue 1\u201d (STANDARDIZED_LIBRARY/textures/bricks/pix_bricks_brick_herringbone_blue_1.png)"
+        }
+      ]
+    }
+  },
+  {
+    "name": "F5 missing palette file reference and unknown metadata survive reopen",
+    "passed": true,
+    "detail": {
+      "custom": {
+        "keep": 9
+      },
+      "palette": "pal_lowpoly_master_32"
+    }
+  },
+  {
+    "name": "F5 manifest-known missing texture file has explicit object repair warning",
+    "passed": false,
+    "detail": {
+      "panel": "3D OBJECT\nChair Wood 01\nFurniture / Chairs\nName (optional)\nDuplicate\nReplace\u2026\nDelete\nSwitched on\nLocked\nPlacement\nX (m)\nY (m)\nHeight above floor (m)\nTurn (\u00b0)\n\u27f2 15\u00b0\n\u27f3 15\u00b0\n\u27f3 90\u00b0\nReset turn, size and height\nStretch per axis\n\nStory: Floor 2 \u00b7 Upper \u00b7 size 0.64 \u00d7 0.24 \u00d7 2.36 m. Drag it on the map; drag the round handle to turn. Keys: [ ] turn, arrows nudge.\n\nAppearance\nLook\nAsset default\n\nShowing the object as it comes from the library. This object also has its own changes on top.\n\nSave as look\u2026\nClear this object\u2019s changes\nPALETTE\nDefault\nGrimy\nFaded\nNight\nWarm\n\nColours this object uses. Click one to change it on this object only:\n\nCOLOUR ADJUSTMENTS\nTint colour \nTint strength\nBrightness\nColour strength (saturation)\nMore\nTexture look\nPixel / crisp\nSmooth\nCollision \u00b7 solid\nGameplay \u00b7 Gameplay\nUse Points \u00b7 1\n\nSpots attached to this object, such as where to sit, stand to use it, or take cover. They move and turn with it. Any type name works, including your own.\n\nFuture\nfuture \u00b7 0.4 right, 0.3 forward, 0.8 up\n\u25cf\n\u00d7\nSit\nUse (customer / player)\nWork (staff / NPC)\nCustomer\nCover\nHide\nDriver side\nPassenger side\nArrival\nLook at\nStand\nSearch\nFuture\nCustom\u2026\n+ Add point\n\nSuggested: + Sit\n\nMake these the defaults for new copies\nAdd the default points\nInfo \u00b7 licence",
+      "issues": [],
+      "cache": [
+        {
+          "key": "library|pal_lowpoly_master_32|p",
+          "failed": true,
+          "hasTexture": false
+        },
+        {
+          "key": "base|lp_furniture_chairs_mesh_chair_wood_01|p",
+          "failed": false,
+          "hasTexture": true
+        },
+        {
+          "key": "library|pix_bricks_brick_herringbone_blue_1|p",
+          "failed": true,
+          "hasTexture": false
+        }
+      ],
+      "missingFiles": [
+        {
+          "id": "pal_lowpoly_master_32",
+          "text": "Palette file missing: \u201cLowPoly Master 32x32\u201d (STANDARDIZED_LIBRARY/palettes/pal_lowpoly_master_32.png)"
+        },
+        {
+          "id": "pix_bricks_brick_herringbone_blue_1",
+          "text": "Texture file missing: \u201cBrick Herringbone Blue 1\u201d (STANDARDIZED_LIBRARY/textures/bricks/pix_bricks_brick_herringbone_blue_1.png)"
+        }
+      ]
+    }
+  },
+  {
+    "name": "F5 missing texture file reference and unknown metadata survive reopen",
+    "passed": true,
+    "detail": {
+      "custom": {
+        "keep": 9
+      },
+      "texture": {
+        "library": "pix_bricks_brick_herringbone_blue_1"
+      }
+    }
+  },
+  {
+    "name": "F7 real readiness timeouts stop at three attempts with actionable diagnostics",
+    "passed": true,
+    "detail": {
+      "calls": 3,
+      "ms": 36634.5,
+      "result": {
+        "ready": 0,
+        "total": 1,
+        "failures": [
+          {
+            "id": "lp_furniture_chairs_mesh_chair_wood_01",
+            "status": "error",
+            "error": "model load timed out after 12 seconds",
+            "attempts": 3,
+            "path": "STANDARDIZED_LIBRARY/models/furniture/chairs/lp_furniture_chairs_mesh_chair_wood_01/model.glb"
+          }
+        ],
+        "recovered": []
+      }
+    }
+  },
+  {
+    "name": "F7 late read cannot replace model after library reconnection",
+    "passed": true,
+    "detail": {
+      "different": true,
+      "current": true,
+      "status": "ready",
+      "failures": []
+    }
+  },
+  {
+    "name": "F7 real generator refuses unresolved model before changing scene",
+    "passed": true,
+    "detail": {
+      "error": "Page.evaluate: Error: Demo stopped before editing or saving. Model readiness: {\"ready\":0,\"total\":1,\"failures\":[{\"id\":\"lp_furniture_chairs_mesh_chair_wood_01\",\"status\":\"error\",\"error\":\"independent permanent demo read failure\",\"attempts\":3,\"path\":\"STANDARDIZED_LIBRARY/models/furniture/chairs/lp_furniture_chairs_mesh_chair_wood_01/model.glb\"}],\"recovered\":[]}. Check the library files, then retry generation.\n    at eval (eval at evaluate (:290:30), <anonymous>:4:34)\n    at async <anonymous>:316:30",
+      "bundleUnchanged": true
+    }
+  },
+  {
+    "name": "No uncaught page errors in independent adversarial probes",
+    "passed": true,
+    "detail": []
+  }
+]

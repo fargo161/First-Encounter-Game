@@ -1,0 +1,18 @@
+PASS F2 deletion front 90, rotated stretched upper-story matrix/point heading/history
+PASS F2 new setup import 90 keeps world matrix and points
+PASS F2 subsequently placed copy inherits setup defaults 90
+PASS F2 deletion front 180, rotated stretched upper-story matrix/point heading/history
+PASS F2 new setup import 180 keeps world matrix and points
+PASS F2 subsequently placed copy inherits setup defaults 180
+PASS F2 deletion front 270, rotated stretched upper-story matrix/point heading/history
+PASS F2 new setup import 270 keeps world matrix and points
+PASS F2 subsequently placed copy inherits setup defaults 270
+PASS F4 route rays: ellipses, offsets, rotations, vertical bounds, slopes, disabled/non-solid and legacy pillar
+FAIL F5 manifest-known missing palette file has explicit object repair warning
+PASS F5 missing palette file reference and unknown metadata survive reopen
+FAIL F5 manifest-known missing texture file has explicit object repair warning
+PASS F5 missing texture file reference and unknown metadata survive reopen
+PASS F7 real readiness timeouts stop at three attempts with actionable diagnostics
+PASS F7 late read cannot replace model after library reconnection
+PASS F7 real generator refuses unresolved model before changing scene
+PASS No uncaught page errors in independent adversarial probes

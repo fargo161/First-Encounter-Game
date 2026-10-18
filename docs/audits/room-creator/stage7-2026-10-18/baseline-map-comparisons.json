@@ -1,0 +1,52 @@
+[
+  {
+    "path": "examples/Atrium_Gallery.room.json",
+    "sha256": "3419e9667fd4174df9a6d8b49edc74c9a8fc461256e5e3f7e38b976385d592c9",
+    "equal": true
+  },
+  {
+    "path": "examples/City_Block_Dusk.room.json",
+    "sha256": "49564b99eeb6f5cfa1117b7e733b5d8ad516fdcec4e4f6ba74ae0675435af390",
+    "equal": true
+  },
+  {
+    "path": "examples/City_Block_Rail_Demo.room.json",
+    "sha256": "123b6428641d6d1caf815688e41b050a1424b08244f2e4e41ce2ee483b26c890",
+    "equal": true
+  },
+  {
+    "path": "examples/Connected_Rooms.room.json",
+    "sha256": "410f05aa70a114b0d6de72ab45f2f01bed08edefcfee2955eb69929b5724ccf4",
+    "equal": true
+  },
+  {
+    "path": "examples/Empty_Start.room.json",
+    "sha256": "dd171e0371ce251e18ac3346496b92bc3e4018e0b47d147e4692a1d1ff37a62f",
+    "equal": true
+  },
+  {
+    "path": "examples/Manual_Construction_Atrium.room.json",
+    "sha256": "60dabf47ec3d7cc0c33e3c0b618feb7d5968b36c4e23b311e4e48f751679f91f",
+    "equal": true
+  },
+  {
+    "path": "examples/Partitions_and_Attached_Room.room.json",
+    "sha256": "56c1a2fae6d3ceb892e372fdb381e6610e302150a562857a68a8f9bcf7caca7e",
+    "equal": true
+  },
+  {
+    "path": "examples/Route_Prototype_Street.room.json",
+    "sha256": "5b296703315cf9c1dec1db809faedf2d72df04b11d76e9cae0af0ff374c72d01",
+    "equal": true
+  },
+  {
+    "path": "examples/Shared_Matte_Example.room.json",
+    "sha256": "8839ec6cf69378fd39f638c9d473e84ad2a2531f65fdf02d06f670e278ddbd72",
+    "equal": true
+  },
+  {
+    "path": "examples/Windows_Doors_Style.room.json",
+    "sha256": "f7e8d1ba96dcae176672471556a8d131d506c5404f0fc6cb568f599a2b0c9c52",
+    "equal": true
+  }
+]

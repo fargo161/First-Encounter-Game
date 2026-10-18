@@ -1,0 +1,134 @@
+[
+  {
+    "label": "06-original-prior-data.cjs",
+    "command": [
+      "C:\\Users\\mcdon\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\bin\\node.exe",
+      "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-7-verification-2026-10-18\\run-relocated.cjs",
+      "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-7-verification-2026-10-18\\work\\rc0141-independent-review\\original-prior-data.cjs"
+    ],
+    "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-7-verification-2026-10-18\\work\\rc0141-independent-review",
+    "started_utc": "2026-10-18T16:47:49.202083+00:00",
+    "finished_utc": "2026-10-18T16:47:50.699476+00:00",
+    "exit_code": 0,
+    "log": "logs\\06-original-prior-data.cjs.log",
+    "log_sha256": "ba042e9e1f94c92b37068b810d73aff74f1279617361c4390414f2855c18fc52"
+  },
+  {
+    "label": "06-candidate-prior-data.cjs",
+    "command": [
+      "C:\\Users\\mcdon\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\bin\\node.exe",
+      "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-7-verification-2026-10-18\\run-relocated.cjs",
+      "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-7-verification-2026-10-18\\work\\rc0141-independent-review\\candidate-prior-data.cjs"
+    ],
+    "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-7-verification-2026-10-18\\work\\rc0141-independent-review",
+    "started_utc": "2026-10-18T16:47:50.701551+00:00",
+    "finished_utc": "2026-10-18T16:47:52.024003+00:00",
+    "exit_code": 0,
+    "log": "logs\\06-candidate-prior-data.cjs.log",
+    "log_sha256": "21666849ca25bf41c22fca8080bf145f3c42963bb9b62ab912721f1a7607089e"
+  },
+  {
+    "label": "07-original-prior-browser.py",
+    "command": [
+      "C:\\Users\\mcdon\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-B",
+      "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-7-verification-2026-10-18\\run-relocated.py",
+      "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-7-verification-2026-10-18\\work\\rc0141-independent-review\\original-prior-browser.py"
+    ],
+    "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-7-verification-2026-10-18\\work\\rc0141-independent-review",
+    "started_utc": "2026-10-18T16:47:52.026001+00:00",
+    "finished_utc": "2026-10-18T16:48:04.406025+00:00",
+    "exit_code": 0,
+    "log": "logs\\07-original-prior-browser.py.log",
+    "log_sha256": "e944753a6a7956560e9cf2dceda2300bac6ac1f48ff89c62c944208bee52347c"
+  },
+  {
+    "label": "07-candidate-prior-browser.py",
+    "command": [
+      "C:\\Users\\mcdon\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-B",
+      "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-7-verification-2026-10-18\\run-relocated.py",
+      "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-7-verification-2026-10-18\\work\\rc0141-independent-review\\candidate-prior-browser.py"
+    ],
+    "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-7-verification-2026-10-18\\work\\rc0141-independent-review",
+    "started_utc": "2026-10-18T16:48:04.408033+00:00",
+    "finished_utc": "2026-10-18T16:48:16.446845+00:00",
+    "exit_code": 0,
+    "log": "logs\\07-candidate-prior-browser.py.log",
+    "log_sha256": "ad6f736b11d955527b4eea575c68923256702d9df5333aca2a0ef4dde9fb876f"
+  },
+  {
+    "label": "07-original-loader.py",
+    "command": [
+      "C:\\Users\\mcdon\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-B",
+      "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-7-verification-2026-10-18\\run-relocated.py",
+      "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-7-verification-2026-10-18\\work\\rc0141-independent-review\\original-loader.py"
+    ],
+    "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-7-verification-2026-10-18\\work\\rc0141-independent-review",
+    "started_utc": "2026-10-18T16:48:16.447849+00:00",
+    "finished_utc": "2026-10-18T16:48:20.847399+00:00",
+    "exit_code": 0,
+    "log": "logs\\07-original-loader.py.log",
+    "log_sha256": "0806ea708aa53f14320a74a7087c5e36b6a61613244c02214a048f50005c09d0"
+  },
+  {
+    "label": "07-lifecycle.py",
+    "command": [
+      "C:\\Users\\mcdon\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-B",
+      "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-7-verification-2026-10-18\\run-relocated.py",
+      "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-7-verification-2026-10-18\\work\\rc0141-independent-review\\lifecycle.py"
+    ],
+    "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-7-verification-2026-10-18\\work\\rc0141-independent-review",
+    "started_utc": "2026-10-18T16:48:20.849722+00:00",
+    "finished_utc": "2026-10-18T16:48:27.299673+00:00",
+    "exit_code": 0,
+    "log": "logs\\07-lifecycle.py.log",
+    "log_sha256": "3aea00eaafa3b8327608f85041dc4792a45bc5dfc8a22d37470f7beec877746f"
+  },
+  {
+    "label": "07-adversarial.py",
+    "command": [
+      "C:\\Users\\mcdon\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-B",
+      "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-7-verification-2026-10-18\\run-relocated.py",
+      "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-7-verification-2026-10-18\\work\\rc0141-independent-review\\adversarial.py"
+    ],
+    "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-7-verification-2026-10-18\\work\\rc0141-independent-review",
+    "started_utc": "2026-10-18T16:48:27.300671+00:00",
+    "finished_utc": "2026-10-18T16:49:25.878020+00:00",
+    "exit_code": 0,
+    "log": "logs\\07-adversarial.py.log",
+    "log_sha256": "838eeb034000cd9c05b48e459873006c48e0768d20da0ee0ed0faa1320bc8221"
+  },
+  {
+    "label": "08-browser-all-examples",
+    "command": [
+      "C:\\Users\\mcdon\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-B",
+      "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-7-verification-2026-10-18\\run-relocated.py",
+      "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-7-verification-2026-10-18\\work\\rc0141-independent-review\\stage7-example-review.py"
+    ],
+    "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-7-verification-2026-10-18\\work\\rc0141-independent-review",
+    "started_utc": "2026-10-18T16:49:25.879294+00:00",
+    "finished_utc": "2026-10-18T16:49:53.822611+00:00",
+    "exit_code": 0,
+    "log": "logs\\08-browser-all-examples.log",
+    "log_sha256": "0fdf86be55b44e22bf17bda8994321b744a250d1f8fd82a0114cf6669f8e100f"
+  },
+  {
+    "label": "08-compare-generated",
+    "command": [
+      "C:\\Users\\mcdon\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\bin\\node.exe",
+      "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-7-verification-2026-10-18\\run-relocated.cjs",
+      "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-7-verification-2026-10-18\\work\\rc0141-independent-review\\compare-generated.cjs"
+    ],
+    "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-7-verification-2026-10-18\\work\\rc0141-independent-review",
+    "started_utc": "2026-10-18T16:49:53.824615+00:00",
+    "finished_utc": "2026-10-18T16:49:55.163523+00:00",
+    "exit_code": 0,
+    "log": "logs\\08-compare-generated.log",
+    "log_sha256": "08416622a5f6d835692754514d26468a5d3a63deb40733cf9802c321e2716cda"
+  }
+]

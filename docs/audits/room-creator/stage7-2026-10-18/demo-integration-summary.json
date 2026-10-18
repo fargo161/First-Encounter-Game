@@ -1,0 +1,12 @@
+{
+  "result": "PASS",
+  "checks": {
+    "cover spots N4/N5 stay hidden when crouched at least as often as with the placeholder boxes": true,
+    "route walk runs on the demo with solid objects in its sight boxes": true,
+    "no solid object blocks a player route, NPC lane or spot in the demo (only the known narrowing note)": true,
+    "no page errors": true
+  },
+  "demo_props": 69,
+  "route_sight_prop_boxes": 29,
+  "page_errors": []
+}

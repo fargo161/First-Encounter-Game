@@ -1,0 +1,63 @@
+{
+  "result": "PASS_WITH_KNOWN_PRODUCT_DEFECT",
+  "suites": [
+    {
+      "file": "original-prior-data-probes.json",
+      "total": 7,
+      "passed": 3,
+      "failed": 4,
+      "failure_names": [
+        "Deleting an empty intermediate story shifts 3D props with their room",
+        "Forced story deletion removes its 3D props",
+        "A story containing only 3D props is treated as occupied",
+        "Room deletion removes a 3D prop when no floor remains"
+      ],
+      "classification": "old-version negative control"
+    },
+    {
+      "file": "candidate-prior-data-probes.json",
+      "total": 7,
+      "passed": 7,
+      "failed": 0,
+      "failure_names": [],
+      "classification": "current baseline independent checks"
+    },
+    {
+      "file": "original-prior-browser-probes.json",
+      "total": 8,
+      "passed": 2,
+      "failed": 6,
+      "failure_names": [
+        "Deleting a model setup preserves placed object pose",
+        "Importing conflicting setups preserves existing model setup and pose",
+        "Tiny drag of elevated Use Point preserves its plan position",
+        "Round collision does not occlude empty corner outside the circle",
+        "Missing palette reference is visible for repair",
+        "Starting a new project releases object texture cache"
+      ],
+      "classification": "old-version negative control"
+    },
+    {
+      "file": "candidate-prior-browser-probes.json",
+      "total": 8,
+      "passed": 8,
+      "failed": 0,
+      "failure_names": [],
+      "classification": "current baseline independent checks"
+    },
+    {
+      "file": "additional-lifecycle-results.json",
+      "total": 5,
+      "passed": 5,
+      "failed": 0,
+      "failure_names": [],
+      "classification": "current baseline independent checks"
+    }
+  ],
+  "adversarial_passed": 16,
+  "adversarial_failed": 2,
+  "known_R1_failures": [
+    "F5 manifest-known missing palette file has explicit object repair warning",
+    "F5 manifest-known missing texture file has explicit object repair warning"
+  ]
+}

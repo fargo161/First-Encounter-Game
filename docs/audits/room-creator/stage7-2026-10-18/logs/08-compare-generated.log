@@ -1,0 +1,13 @@
+{
+  "propCount": 69,
+  "points": 24,
+  "preserved": {
+    "routeNet": true,
+    "stories": true,
+    "stairs": true,
+    "floorCuts": true,
+    "pairs": true,
+    "links": true
+  },
+  "propPlacementAndMetadataEqual": true
+}

@@ -8,7 +8,8 @@
     3,
     4,
     5,
-    6
+    6,
+    7
   ],
   "subsystem_source_imported": true,
   "governing_documents": {
@@ -49,6 +50,14 @@
       "sha256": "22712384616203bc12de63e041ccf66062aeef6fbd8e54244b89e04ffd949c8e",
       "archive_root": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-6-import-2026-10-18",
       "archive_path": "inputs/FIRST_ENCOUNTER_GAME_STAGE_6_AUTHORIZATION.md"
+    },
+    "FIRST_ENCOUNTER_GAME_STAGE_7_AUTHORIZATION.md": {
+      "source_path": "C:\\Users\\mcdon\\Downloads\\FIRST_ENCOUNTER_GAME_STAGE_7_AUTHORIZATION.md",
+      "repository_path": "docs/provenance/governing/FIRST_ENCOUNTER_GAME_STAGE_7_AUTHORIZATION.md",
+      "bytes": 5162,
+      "sha256": "a8218c7a24188cba8576a9971d31caf94293595196e4f0a77968c26cd2bbae5c",
+      "archive_root": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-7-verification-2026-10-18",
+      "archive_path": "inputs/FIRST_ENCOUNTER_GAME_STAGE_7_AUTHORIZATION.md"
     }
   },
   "repository": {
@@ -240,7 +249,7 @@
         "archive_path": "artifacts/room-creator-intake-packages/Trapstar_RoomCreator_Asset_Library_v1.zip"
       },
       "known_defect": "ROOM_CREATOR_V0141_R1: manifest-known palette/texture IDs with missing image files silently fall back without object-specific repair warnings/controls.",
-      "promotion": "Imported as a held development baseline in Stage 6. HOLD is unchanged; import is not acceptance or promotion. Stage 7 behavior/build/browser verification requires explicit new authorization.",
+      "promotion": "Stage 7 migration verification passed with HOLD preserved. ROOM_CREATOR_V0141_R1 reproduced for both manifest-known missing palette and texture images. No repair or product promotion. A separately versioned remediation and independent re-verification are required before promotion.",
       "dependencies": [
         "Read-only Trapstar_RoomCreator_Asset_Library_v1",
         "Bundled three.js r159 and glTF loader",
@@ -257,9 +266,10 @@
         "source_tree_sha256": "63521f0d9068de3e4da40cd8ec4573d17b26481aa6557a908caaa8d10a4c485b",
         "integrity": "BYTE_IDENTICAL_BASELINE",
         "acceptance": "HOLD_FOR_FURTHER_REMEDIATION",
-        "migration_behavior_verification": "PENDING_STAGE_7_NOT_AUTHORIZED",
+        "migration_behavior_verification": "PASS_WITH_HOLD_PRESERVED_STAGE_7",
         "manifest": "docs/provenance/room-creator-stage6-import.json",
-        "origin_snapshot_role": "editable_source remains the preserved pre-import source of authority; the current imported editable location is this repository path."
+        "origin_snapshot_role": "editable_source remains the preserved pre-import source of authority; the current imported editable location is this repository path.",
+        "stage7_verification_manifest": "docs/provenance/room-creator-stage7-verification.json"
       }
     },
     "zant": {
@@ -418,16 +428,23 @@
     }
   },
   "verification_this_execution": {
-    "stage": 6,
+    "stage": 7,
     "subsystem": "room_creator",
-    "source_builds_or_behavior_tests_executed": false,
-    "stage7_executed": false,
-    "fresh_checks": "Complete 383-file source/snapshot/ZIP hashes, 382 internal checksum entries, asset ZIP identity/CRC, copied metadata hashes, unchanged originals and Encounter, Git staging/checkout integrity.",
-    "baseline_status": "HOLD_FOR_FURTHER_REMEDIATION",
-    "manifest": "docs/provenance/room-creator-stage6-import.json"
+    "source_builds_or_behavior_tests_executed": true,
+    "disposable_only": true,
+    "verdict": "PASS WITH HOLD PRESERVED",
+    "product_status": "HOLD_FOR_FURTHER_REMEDIATION",
+    "known_product_defect_reproduced": true,
+    "known_defect_repaired": false,
+    "manifest": "docs/provenance/room-creator-stage7-verification.json",
+    "report": "docs/consolidation/STAGE_7_VERIFICATION.md",
+    "canonical_Room_Creator_unchanged": true,
+    "canonical_Encounter_unchanged": true,
+    "originals_unchanged": true,
+    "stage8_started": false
   },
-  "next_stage": "Stage 7 Room Creator verification requires explicit new owner authorization. STOP.",
-  "current_authorized_stage": 6,
+  "next_stage": "Stage 8 requires explicit new owner authorization. STOP; no ZANT import or integration is authorized.",
+  "current_authorized_stage": 7,
   "imported_subsystems": [
     "encounter_atlas",
     "room_creator"
@@ -454,5 +471,14 @@
     "canonical_imported_source_byte_identical": true,
     "originals_unchanged": true,
     "stage6_started": false
+  },
+  "verification_history_stage_6": {
+    "stage": 6,
+    "subsystem": "room_creator",
+    "source_builds_or_behavior_tests_executed": false,
+    "stage7_executed": false,
+    "fresh_checks": "Complete 383-file source/snapshot/ZIP hashes, 382 internal checksum entries, asset ZIP identity/CRC, copied metadata hashes, unchanged originals and Encounter, Git staging/checkout integrity.",
+    "baseline_status": "HOLD_FOR_FURTHER_REMEDIATION",
+    "manifest": "docs/provenance/room-creator-stage6-import.json"
   }
 }

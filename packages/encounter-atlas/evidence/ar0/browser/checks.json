@@ -1,0 +1,98 @@
+[
+  {
+    "case": "first-paperwork-and-permission-separation",
+    "passed": true
+  },
+  {
+    "case": "privacy-restriction-valid-authority-and-warning",
+    "passed": true
+  },
+  {
+    "case": "why-end-switch-and-apology-preserve-repair-and-warning",
+    "passed": true
+  },
+  {
+    "case": "substantive-repair-and-save-load-warning-continuity",
+    "passed": true
+  },
+  {
+    "case": "comparison-yes-and-exact-zero-payment-handover",
+    "passed": true
+  },
+  {
+    "case": "post-recovery-protection",
+    "passed": true
+  },
+  {
+    "case": "response-replay-is-non-mutating",
+    "passed": true
+  },
+  {
+    "case": "render-normal",
+    "passed": true,
+    "serviceOpen": false,
+    "closeResults": 1,
+    "defects": [],
+    "displayed": true,
+    "delivery": "Collection service is now closed for this visit following the previously warned, previewed renewed protected-scope demand.\nSocial framing is measured."
+  },
+  {
+    "case": "closed-save-load-equality",
+    "passed": true
+  },
+  {
+    "case": "render-collapse",
+    "passed": true,
+    "serviceOpen": true,
+    "closeResults": 0,
+    "defects": [
+      "MISSING_CLOSURE_PREVIEW"
+    ],
+    "displayed": false,
+    "delivery": "I decline that unrelated or protected scope. The case-only route remains the relevant collection route while service is open.\nSocial framing is measured."
+  },
+  {
+    "case": "render-missing",
+    "passed": true,
+    "serviceOpen": true,
+    "closeResults": 0,
+    "defects": [
+      "MISSING_CLOSURE_PREVIEW"
+    ],
+    "displayed": false,
+    "delivery": "I decline that unrelated or protected scope. The case-only route remains the relevant collection route while service is open.\nSocial framing is measured."
+  },
+  {
+    "case": "render-opacity",
+    "passed": true,
+    "serviceOpen": true,
+    "closeResults": 0,
+    "defects": [
+      "MISSING_CLOSURE_PREVIEW"
+    ],
+    "displayed": false,
+    "delivery": "I decline that unrelated or protected scope. The case-only route remains the relevant collection route while service is open.\nSocial framing is measured."
+  },
+  {
+    "case": "render-ancestor",
+    "passed": true,
+    "serviceOpen": true,
+    "closeResults": 0,
+    "defects": [
+      "MISSING_CLOSURE_PREVIEW"
+    ],
+    "displayed": false,
+    "delivery": "I decline that unrelated or protected scope. The case-only route remains the relevant collection route while service is open.\nSocial framing is measured."
+  },
+  {
+    "case": "render-horizontal",
+    "passed": true,
+    "serviceOpen": true,
+    "closeResults": 0,
+    "defects": [
+      "MISSING_CLOSURE_PREVIEW"
+    ],
+    "displayed": false,
+    "delivery": "I decline that unrelated or protected scope. The case-only route remains the relevant collection route while service is open.\nSocial framing is measured."
+  }
+]

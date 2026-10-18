@@ -1,0 +1,723 @@
+{
+  "schema": "encounter-atlas-projection@1",
+  "projectionAudience": "player",
+  "context": {
+    "catalogId": "catalog_0001",
+    "catalogRevision": 1,
+    "catalogDigest": "46fa89e1ff1831614eca1ad63d030427c258a8debd849b054c375fbc96033e42",
+    "packageRef": {
+      "digest": "2ce9f61b996f17392a39c56f4005d8203b7940aa4974564fafa54d110e35ae8f",
+      "id": "package_0003",
+      "revision": 1
+    },
+    "runId": "run_0003",
+    "revision": 0,
+    "sinceRevision": 0
+  },
+  "cards": [
+    {
+      "id": "event_0001",
+      "kind": "event",
+      "displayName": "Referenced historical occurrence",
+      "description": "Only the received fragments citing this occurrence are shown; unseen details remain unavailable.",
+      "tags": [],
+      "scenarioRefs": [
+        "scenario_0001"
+      ],
+      "sourceRefs": [
+        {
+          "id": "event_0001",
+          "kind": "historical_event"
+        }
+      ],
+      "linkRefs": [
+        "link:thing:event_0001:subject_0001",
+        "link:thing:event_0001:subject_0002",
+        "link:thing:event_0001:subject_0003",
+        "link:thing:event_0001:subject_000d",
+        "link:observation:observation_0001",
+        "link:scenario:scenario_0001:event_0001"
+      ],
+      "state": {
+        "eventClass": "authored_history",
+        "order": 1,
+        "epistemic": "observation",
+        "sourceRefs": [
+          {
+            "kind": "event",
+            "id": "event_0001"
+          }
+        ],
+        "cause": null,
+        "participantRefs": [],
+        "observerRefs": [],
+        "thingRefs": [
+          "subject_0001",
+          "subject_0002",
+          "subject_0003",
+          "subject_000d"
+        ],
+        "placeRef": null,
+        "details": {
+          "receivedFragments": [
+            {
+              "observationId": "observation_0001",
+              "channel": "initial",
+              "details": {
+                "collection": {
+                  "entry": "collected",
+                  "itemId": "subject_0001",
+                  "recordId": "subject_0003",
+                  "ticketId": "subject_0002"
+                },
+                "participants": [
+                  {
+                    "id": "actor_0001",
+                    "kind": "human",
+                    "label": "Collector"
+                  },
+                  {
+                    "id": "actor_0002",
+                    "kind": "npc",
+                    "label": "Tamsin"
+                  },
+                  {
+                    "id": "actor_0003",
+                    "kind": "absent",
+                    "label": "Nera Vale"
+                  },
+                  {
+                    "id": "actor_0004",
+                    "kind": "npc",
+                    "label": "Orrin"
+                  }
+                ],
+                "references": [
+                  {
+                    "id": "subject_0001",
+                    "label": "Nera’s green instrument case"
+                  },
+                  {
+                    "id": "subject_0002",
+                    "label": "Collection ticket"
+                  },
+                  {
+                    "id": "subject_0003",
+                    "label": "Collection record"
+                  },
+                  {
+                    "id": "subject_0009",
+                    "label": "Nera Vale"
+                  },
+                  {
+                    "id": "subject_000d",
+                    "label": "Coins"
+                  }
+                ]
+              },
+              "roots": [
+                {
+                  "id": "event_0001",
+                  "kind": "event"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "actor_0001",
+      "kind": "person",
+      "displayName": "Collector",
+      "description": "The collecting participant. Information here records receipt and factual state, not private psychology.",
+      "tags": [],
+      "scenarioRefs": [
+        "scenario_0001"
+      ],
+      "sourceRefs": [
+        {
+          "id": "actor_0001",
+          "kind": "actor"
+        }
+      ],
+      "linkRefs": [
+        "link:observation:observation_0001",
+        "link:scenario:scenario_0001:actor_0001"
+      ],
+      "state": {
+        "actorKind": "human",
+        "observations": [
+          {
+            "channel": "initial",
+            "id": "observation_0001",
+            "observerId": "actor_0001",
+            "receivedDetails": {
+              "collection": {
+                "entry": "collected",
+                "itemId": "subject_0001",
+                "recordId": "subject_0003",
+                "ticketId": "subject_0002"
+              },
+              "participants": [
+                {
+                  "id": "actor_0001",
+                  "kind": "human",
+                  "label": "Collector"
+                },
+                {
+                  "id": "actor_0002",
+                  "kind": "npc",
+                  "label": "Tamsin"
+                },
+                {
+                  "id": "actor_0003",
+                  "kind": "absent",
+                  "label": "Nera Vale"
+                },
+                {
+                  "id": "actor_0004",
+                  "kind": "npc",
+                  "label": "Orrin"
+                }
+              ],
+              "references": [
+                {
+                  "id": "subject_0001",
+                  "label": "Nera’s green instrument case"
+                },
+                {
+                  "id": "subject_0002",
+                  "label": "Collection ticket"
+                },
+                {
+                  "id": "subject_0003",
+                  "label": "Collection record"
+                },
+                {
+                  "id": "subject_0009",
+                  "label": "Nera Vale"
+                },
+                {
+                  "id": "subject_000d",
+                  "label": "Coins"
+                }
+              ]
+            },
+            "roots": [
+              {
+                "id": "event_0001",
+                "kind": "event"
+              }
+            ],
+            "schema": "encounter-observation@2",
+            "sequence": 1,
+            "source": {
+              "id": "event_0001",
+              "kind": "event"
+            }
+          }
+        ],
+        "receivedClaims": [],
+        "beliefs": [],
+        "hypotheses": [],
+        "permissions": [
+          {
+            "actionId": "action_0001",
+            "granteeId": "actor_0001",
+            "grantorId": "actor_0002",
+            "id": "permission_0001",
+            "source": {
+              "id": "event_0001",
+              "kind": "event"
+            },
+            "status": "allowed",
+            "targetId": "subject_0002"
+          }
+        ],
+        "visit": null
+      }
+    },
+    {
+      "id": "actor_0002",
+      "kind": "person",
+      "displayName": "Tamsin",
+      "description": "A participant in the collection visit. Knowledge and interpretations remain actor-local.",
+      "tags": [],
+      "scenarioRefs": [
+        "scenario_0001"
+      ],
+      "sourceRefs": [
+        {
+          "id": "actor_0002",
+          "kind": "actor"
+        }
+      ],
+      "linkRefs": [
+        "link:scenario:scenario_0001:actor_0002"
+      ],
+      "state": {}
+    },
+    {
+      "id": "actor_0003",
+      "kind": "person",
+      "displayName": "Nera Vale",
+      "description": "The absent owner. Absence does not grant receipt of the visit’s communications.",
+      "tags": [],
+      "scenarioRefs": [
+        "scenario_0001"
+      ],
+      "sourceRefs": [
+        {
+          "id": "actor_0003",
+          "kind": "actor"
+        }
+      ],
+      "linkRefs": [
+        "link:scenario:scenario_0001:actor_0003"
+      ],
+      "state": {}
+    },
+    {
+      "id": "actor_0004",
+      "kind": "person",
+      "displayName": "Orrin",
+      "description": "A participant in the collection visit. Knowledge and interpretations remain actor-local.",
+      "tags": [],
+      "scenarioRefs": [
+        "scenario_0001"
+      ],
+      "sourceRefs": [
+        {
+          "id": "actor_0004",
+          "kind": "actor"
+        }
+      ],
+      "linkRefs": [
+        "link:scenario:scenario_0001:actor_0004"
+      ],
+      "state": {}
+    },
+    {
+      "id": "place_0001",
+      "kind": "place",
+      "displayName": "Transport Office",
+      "description": "The small transport office in which the collection visit takes place (Master §1.4).",
+      "tags": [],
+      "scenarioRefs": [
+        "scenario_0001"
+      ],
+      "sourceRefs": [
+        {
+          "id": "place_0001",
+          "kind": "authored"
+        }
+      ],
+      "linkRefs": [
+        "link:scenario:scenario_0001:place_0001"
+      ],
+      "state": {}
+    },
+    {
+      "id": "scenario_0001",
+      "kind": "scenario",
+      "displayName": "Last Collection · The Protective Shortcut",
+      "description": "Recover the owner’s instrument case; money, privacy and record correction remain separate outcomes.",
+      "tags": [],
+      "scenarioRefs": [],
+      "sourceRefs": [
+        {
+          "id": "package_0003",
+          "kind": "package"
+        }
+      ],
+      "linkRefs": [
+        "link:scenario:scenario_0001:actor_0001",
+        "link:scenario:scenario_0001:actor_0002",
+        "link:scenario:scenario_0001:actor_0003",
+        "link:scenario:scenario_0001:actor_0004",
+        "link:scenario:scenario_0001:subject_0001",
+        "link:scenario:scenario_0001:subject_0002",
+        "link:scenario:scenario_0001:subject_0003",
+        "link:scenario:scenario_0001:subject_000d",
+        "link:scenario:scenario_0001:place_0001",
+        "link:scenario:scenario_0001:event_0001"
+      ],
+      "state": {
+        "status": {
+          "recovered": false,
+          "serviceClosed": false,
+          "comparisonComplete": false,
+          "recordCorrected": false
+        },
+        "pendingOffer": null
+      }
+    },
+    {
+      "id": "subject_0001",
+      "kind": "thing",
+      "displayName": "Nera’s green instrument case",
+      "description": "An existing object or resource reference. Ownership, custody and evidence come from Encounter records.",
+      "tags": [],
+      "scenarioRefs": [
+        "scenario_0001"
+      ],
+      "sourceRefs": [
+        {
+          "id": "subject_0001",
+          "kind": "subject"
+        }
+      ],
+      "linkRefs": [
+        "link:thing:event_0001:subject_0001",
+        "link:scenario:scenario_0001:subject_0001"
+      ],
+      "state": {}
+    },
+    {
+      "id": "subject_0002",
+      "kind": "thing",
+      "displayName": "Collection ticket",
+      "description": "An existing object or resource reference. Ownership, custody and evidence come from Encounter records.",
+      "tags": [],
+      "scenarioRefs": [
+        "scenario_0001"
+      ],
+      "sourceRefs": [
+        {
+          "id": "subject_0002",
+          "kind": "subject"
+        }
+      ],
+      "linkRefs": [
+        "link:thing:event_0001:subject_0002",
+        "link:scenario:scenario_0001:subject_0002"
+      ],
+      "state": {}
+    },
+    {
+      "id": "subject_0003",
+      "kind": "thing",
+      "displayName": "Collection record",
+      "description": "An existing object or resource reference. Ownership, custody and evidence come from Encounter records.",
+      "tags": [],
+      "scenarioRefs": [
+        "scenario_0001"
+      ],
+      "sourceRefs": [
+        {
+          "id": "subject_0003",
+          "kind": "subject"
+        }
+      ],
+      "linkRefs": [
+        "link:thing:event_0001:subject_0003",
+        "link:scenario:scenario_0001:subject_0003"
+      ],
+      "state": {}
+    },
+    {
+      "id": "subject_000d",
+      "kind": "thing",
+      "displayName": "Coins",
+      "description": "An existing object or resource reference. Ownership, custody and evidence come from Encounter records.",
+      "tags": [],
+      "scenarioRefs": [
+        "scenario_0001"
+      ],
+      "sourceRefs": [
+        {
+          "id": "subject_000d",
+          "kind": "subject"
+        }
+      ],
+      "linkRefs": [
+        "link:thing:event_0001:subject_000d",
+        "link:scenario:scenario_0001:subject_000d"
+      ],
+      "state": {}
+    }
+  ],
+  "links": [
+    {
+      "id": "link:observation:observation_0001",
+      "relationKind": "received_observation",
+      "fromRef": "actor_0001",
+      "toRef": "event_0001",
+      "epistemic": "observation",
+      "provenance": {
+        "observationIds": [
+          "observation_0001"
+        ],
+        "observerId": "actor_0001",
+        "roots": [
+          {
+            "id": "event_0001",
+            "kind": "event"
+          }
+        ],
+        "sourceRefs": [
+          {
+            "id": "event_0001",
+            "kind": "event"
+          }
+        ]
+      },
+      "details": {
+        "channel": "initial",
+        "details": {
+          "collection": {
+            "entry": "collected",
+            "itemId": "subject_0001",
+            "recordId": "subject_0003",
+            "ticketId": "subject_0002"
+          },
+          "participants": [
+            {
+              "id": "actor_0001",
+              "kind": "human",
+              "label": "Collector"
+            },
+            {
+              "id": "actor_0002",
+              "kind": "npc",
+              "label": "Tamsin"
+            },
+            {
+              "id": "actor_0003",
+              "kind": "absent",
+              "label": "Nera Vale"
+            },
+            {
+              "id": "actor_0004",
+              "kind": "npc",
+              "label": "Orrin"
+            }
+          ],
+          "references": [
+            {
+              "id": "subject_0001",
+              "label": "Nera’s green instrument case"
+            },
+            {
+              "id": "subject_0002",
+              "label": "Collection ticket"
+            },
+            {
+              "id": "subject_0003",
+              "label": "Collection record"
+            },
+            {
+              "id": "subject_0009",
+              "label": "Nera Vale"
+            },
+            {
+              "id": "subject_000d",
+              "label": "Coins"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "link:scenario:scenario_0001:actor_0001",
+      "relationKind": "relevant_to",
+      "fromRef": "actor_0001",
+      "toRef": "scenario_0001",
+      "epistemic": "authored_context",
+      "provenance": {
+        "catalogId": "catalog_0001"
+      },
+      "details": {}
+    },
+    {
+      "id": "link:scenario:scenario_0001:actor_0002",
+      "relationKind": "relevant_to",
+      "fromRef": "actor_0002",
+      "toRef": "scenario_0001",
+      "epistemic": "authored_context",
+      "provenance": {
+        "catalogId": "catalog_0001"
+      },
+      "details": {}
+    },
+    {
+      "id": "link:scenario:scenario_0001:actor_0003",
+      "relationKind": "relevant_to",
+      "fromRef": "actor_0003",
+      "toRef": "scenario_0001",
+      "epistemic": "authored_context",
+      "provenance": {
+        "catalogId": "catalog_0001"
+      },
+      "details": {}
+    },
+    {
+      "id": "link:scenario:scenario_0001:actor_0004",
+      "relationKind": "relevant_to",
+      "fromRef": "actor_0004",
+      "toRef": "scenario_0001",
+      "epistemic": "authored_context",
+      "provenance": {
+        "catalogId": "catalog_0001"
+      },
+      "details": {}
+    },
+    {
+      "id": "link:scenario:scenario_0001:event_0001",
+      "relationKind": "relevant_to",
+      "fromRef": "event_0001",
+      "toRef": "scenario_0001",
+      "epistemic": "authored_context",
+      "provenance": {
+        "catalogId": "catalog_0001"
+      },
+      "details": {}
+    },
+    {
+      "id": "link:scenario:scenario_0001:place_0001",
+      "relationKind": "relevant_to",
+      "fromRef": "place_0001",
+      "toRef": "scenario_0001",
+      "epistemic": "authored_context",
+      "provenance": {
+        "catalogId": "catalog_0001"
+      },
+      "details": {}
+    },
+    {
+      "id": "link:scenario:scenario_0001:subject_0001",
+      "relationKind": "relevant_to",
+      "fromRef": "subject_0001",
+      "toRef": "scenario_0001",
+      "epistemic": "authored_context",
+      "provenance": {
+        "catalogId": "catalog_0001"
+      },
+      "details": {}
+    },
+    {
+      "id": "link:scenario:scenario_0001:subject_0002",
+      "relationKind": "relevant_to",
+      "fromRef": "subject_0002",
+      "toRef": "scenario_0001",
+      "epistemic": "authored_context",
+      "provenance": {
+        "catalogId": "catalog_0001"
+      },
+      "details": {}
+    },
+    {
+      "id": "link:scenario:scenario_0001:subject_0003",
+      "relationKind": "relevant_to",
+      "fromRef": "subject_0003",
+      "toRef": "scenario_0001",
+      "epistemic": "authored_context",
+      "provenance": {
+        "catalogId": "catalog_0001"
+      },
+      "details": {}
+    },
+    {
+      "id": "link:scenario:scenario_0001:subject_000d",
+      "relationKind": "relevant_to",
+      "fromRef": "subject_000d",
+      "toRef": "scenario_0001",
+      "epistemic": "authored_context",
+      "provenance": {
+        "catalogId": "catalog_0001"
+      },
+      "details": {}
+    },
+    {
+      "id": "link:thing:event_0001:subject_0001",
+      "relationKind": "references_thing",
+      "fromRef": "event_0001",
+      "toRef": "subject_0001",
+      "epistemic": "observation",
+      "provenance": {
+        "sourceRefs": [
+          {
+            "id": "event_0001",
+            "kind": "event"
+          }
+        ]
+      },
+      "details": {}
+    },
+    {
+      "id": "link:thing:event_0001:subject_0002",
+      "relationKind": "references_thing",
+      "fromRef": "event_0001",
+      "toRef": "subject_0002",
+      "epistemic": "observation",
+      "provenance": {
+        "sourceRefs": [
+          {
+            "id": "event_0001",
+            "kind": "event"
+          }
+        ]
+      },
+      "details": {}
+    },
+    {
+      "id": "link:thing:event_0001:subject_0003",
+      "relationKind": "references_thing",
+      "fromRef": "event_0001",
+      "toRef": "subject_0003",
+      "epistemic": "observation",
+      "provenance": {
+        "sourceRefs": [
+          {
+            "id": "event_0001",
+            "kind": "event"
+          }
+        ]
+      },
+      "details": {}
+    },
+    {
+      "id": "link:thing:event_0001:subject_000d",
+      "relationKind": "references_thing",
+      "fromRef": "event_0001",
+      "toRef": "subject_000d",
+      "epistemic": "observation",
+      "provenance": {
+        "sourceRefs": [
+          {
+            "id": "event_0001",
+            "kind": "event"
+          }
+        ]
+      },
+      "details": {}
+    }
+  ],
+  "scenarioIndex": [
+    {
+      "scenarioRef": "scenario_0001",
+      "cardRefs": [
+        "actor_0001",
+        "actor_0002",
+        "actor_0003",
+        "actor_0004",
+        "event_0001",
+        "place_0001",
+        "subject_0001",
+        "subject_0002",
+        "subject_0003",
+        "subject_000d"
+      ]
+    }
+  ],
+  "recentChanges": [],
+  "playerState": {
+    "recovered": false,
+    "serviceClosed": false,
+    "comparisonComplete": false,
+    "recordCorrected": false,
+    "balanceMinor": 1200,
+    "warningMessageId": null
+  }
+}

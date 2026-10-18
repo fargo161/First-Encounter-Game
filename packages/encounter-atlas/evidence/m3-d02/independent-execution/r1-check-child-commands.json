@@ -1,0 +1,71 @@
+[
+  {
+    "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\m3-r1-independent-review\\tooling-clone",
+    "executable": "C:\\Users\\mcdon\\AppData\\Local\\Programs\\Python\\Python312\\python.EXE",
+    "args": [
+      "scripts/check-m3.py"
+    ],
+    "environmentBinding": {
+      "M3_CHECKPOINT": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\m3-r1-independent-review\\tooling-clone"
+    },
+    "exitCode": 0,
+    "stdout": "{\"log\": \"fresh-build.txt\", \"exitCode\": 0, \"tail\": [\"{\\\"build\\\":\\\"dist-m3/index.html\\\",\\\"bytes\\\":133457,\\\"modules\\\":11,\\\"packageRef\\\":{\\\"id\\\":\\\"package_0003\\\",\\\"revision\\\":1,\\\"digest\\\":\\\"2ce9f61b996f17392a39c56f4005d8203b7940aa4974564fafa54d110e35ae8f\\\"}}\"]}\n{\"log\": \"fresh-source-identity.txt\", \"exitCode\": 0, \"tail\": [\"{\\\"sourceRevision\\\": \\\"M3-runtime-v1-R1-D01\\\", \\\"sourceDigest\\\": \\\"35fa58990b19a08933fefb7e2f37ba1d5c5edc5807390354eae238e531588711\\\", \\\"files\\\": 54}\"]}\n{\"log\": \"fresh-preservation.txt\", \"exitCode\": 0, \"tail\": [\"{\\\"result\\\": \\\"PASS\\\", \\\"baselineMembers\\\": 73, \\\"unchangedCopyMembers\\\": 70, \\\"intentionalChanges\\\": [\\\"package.json\\\", \\\"README.md\\\", \\\"Test_Results_and_Scope.md\\\"]}\"]}\n{\"log\": \"fresh-m0-audit.txt\", \"exitCode\": 0, \"tail\": [\"{\", \"  \\\"milestone\\\": \\\"M0\\\",\", \"  \\\"baselineSHA256\\\": \\\"c9b50efed0ead41d0faa69757969feff8ced1fbc22187c11989aa9ff2dd21eb9\\\",\", \"  \\\"checksPassed\\\": 7,\", \"  \\\"checksFailed\\\": 0,\", \"  \\\"browserExecuted\\\": false,\", \"  \\\"historicalSuiteRecovered\\\": false\", \"}\"]}\n{\"log\": \"fresh-builder-tests.tap\", \"exitCode\": 0, \"tail\": [\"# tests 117\", \"# suites 0\", \"# pass 117\", \"# fail 0\", \"# cancelled 0\", \"# skipped 0\", \"# todo 0\", \"# duration_ms 31575.4588\"]}\n{\"log\": \"fresh-independent-m1.tap\", \"exitCode\": 0, \"tail\": [\"# tests 22\", \"# suites 0\", \"# pass 22\", \"# fail 0\", \"# cancelled 0\", \"# skipped 0\", \"# todo 0\", \"# duration_ms 1220.4189\"]}\n{\"log\": \"fresh-independent-m2.tap\", \"exitCode\": 0, \"tail\": [\"# tests 18\", \"# suites 0\", \"# pass 18\", \"# fail 0\", \"# cancelled 0\", \"# skipped 0\", \"# todo 0\", \"# duration_ms 2091.5672\"]}\n{\"log\": \"fresh-generated-evidence.txt\", \"exitCode\": 0, \"tail\": [\"{\\\"sourceRevision\\\":\\\"M3-runtime-v1-R1-D01\\\",\\\"sourceDigest\\\":\\\"35fa58990b19a08933fefb7e2f37ba1d5c5edc5807390354eae238e531588711\\\",\\\"packageRef\\\":{\\\"id\\\":\\\"package_0003\\\",\\\"revision\\\":1,\\\"digest\\\":\\\"2ce9f61b996f17392a39c56f4005d8203b7940aa4974564fafa54d110e35ae8f\\\"},\\\"validatedBrowserRuns\\\":11,\\\"rawBrowserInspectorsMatch\\\":true,\\\"missingNoticeServiceOpen\\\":true,\\\"neutralRecoveryAndClosure\\\":true}\"]}\n",
+    "stderr": ""
+  },
+  {
+    "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\m3-r1-independent-review\\tooling-clone",
+    "executable": "C:\\Program Files\\nodejs\\node.EXE",
+    "args": [
+      "--test",
+      "--test-reporter=tap",
+      "scripts/run-independent-m3-r1.mjs"
+    ],
+    "environmentBinding": {
+      "M3_CHECKPOINT": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\m3-r1-independent-review\\tooling-clone"
+    },
+    "exitCode": 0,
+    "stdout": "TAP version 13\n# {\"identityBinding\":\"35fa58990b19a08933fefb7e2f37ba1d5c5edc5807390354eae238e531588711\",\"originalTestFileUnmodified\":true,\"changes\":\"Exact expected source digest and output directory only; every behavioral assertion retained\"}\n# Subtest: I3-01 exact source digest, baseline test/kernel preservation and absence of skip shims\nok 1 - I3-01 exact source digest, baseline test/kernel preservation and absence of skip shims\n  ---\n  duration_ms: 42.2258\n  type: 'test'\n  ...\n# Subtest: I3-02 first paperwork stays protected across framing and earlier owner inquiry\nok 2 - I3-02 first paperwork stays protected across framing and earlier owner inquiry\n  ---\n  duration_ms: 587.4439\n  type: 'test'\n  ...\n# Subtest: I3-03 equal performed paths ignore private selectors throughout restriction and closure\nok 3 - I3-03 equal performed paths ignore private selectors throughout restriction and closure\n  ---\n  duration_ms: 261.1641\n  type: 'test'\n  ...\n# Subtest: I3-04 concealed truth and unsent edits cannot change unreceived privacy decisions\nok 4 - I3-04 concealed truth and unsent edits cannot change unreceived privacy decisions\n  ---\n  duration_ms: 259.1086\n  type: 'test'\n  ...\n# Subtest: I3-05 unheard owner inquiry to witness cannot supply custodian privacy support\nok 5 - I3-05 unheard owner inquiry to witness cannot supply custodian privacy support\n  ---\n  duration_ms: 111.8065\n  type: 'test'\n  ...\n# Subtest: I3-06 inspect conduct, opaque roots, limited witness and absent owner remain distinct\nok 6 - I3-06 inspect conduct, opaque roots, limited witness and absent owner remain distinct\n  ---\n  duration_ms: 161.0659\n  type: 'test'\n  ...\n# Subtest: I3-07 non-substantive activities, rejected commands and save reload preserve repair and authority\nok 7 - I3-07 non-substantive activities, rejected commands and save reload preserve repair and authority\n  ---\n  duration_ms: 1781.482\n  type: 'test'\n  ...\n# Subtest: I3-08 full closure matrix: no warning, missing display, stale, edited and current receipts\nok 8 - I3-08 full closure matrix: no warning, missing display, stale, edited and current receipts\n  ---\n  duration_ms: 711.1988\n  type: 'test'\n  ...\n# Subtest: I3-09 completed recovery retains custody and success after warned broad request\nok 9 - I3-09 completed recovery retains custody and success after warned broad request\n  ---\n  duration_ms: 660.5859\n  type: 'test'\n  ...\n# Subtest: I3-10 money offer is actual communication; bypass has distinct outward meaning\nok 10 - I3-10 money offer is actual communication; bypass has distinct outward meaning\n  ---\n  duration_ms: 97.526\n  type: 'test'\n  ...\n# Subtest: I3-11 acknowledgment and offer discussion do not transfer; confirmations bind every term\nok 11 - I3-11 acknowledgment and offer discussion do not transfer; confirmations bind every term\n  ---\n  duration_ms: 1256.7329\n  type: 'test'\n  ...\n# Subtest: I3-12 stale proposal and changed current custody or balance fail atomically\nok 12 - I3-12 stale proposal and changed current custody or balance fail atomically\n  ---\n  duration_ms: 541.4829\n  type: 'test'\n  ...\n# Subtest: I3-13 all meaningful save stages retain complete state and no result redelivery effects\nok 13 - I3-13 all meaningful save stages retain complete state and no result redelivery effects\n  ---\n  duration_ms: 3912.3666\n  type: 'test'\n  ...\n# Subtest: I3-14 tamper journal, receipt, warning, repair, world and package reject without changing current run\nok 14 - I3-14 tamper journal, receipt, warning, repair, world and package reject without changing current run\n  ---\n  duration_ms: 1222.0934\n  type: 'test'\n  ...\n# Subtest: I3-15 preview/inspector/episode/export purity compares complete exported saves\nok 15 - I3-15 preview/inspector/episode/export purity compares complete exported saves\n  ---\n  duration_ms: 456.1645\n  type: 'test'\n  ...\n# Subtest: I3-16 independent simultaneous neutral identity and prose renaming preserves recovery and closure\nok 16 - I3-16 independent simultaneous neutral identity and prose renaming preserves recovery and closure\n  ---\n  duration_ms: 927.7224\n  type: 'test'\n  ...\n# Subtest: I3-17 core hardcode and host spatial boundary audit\nok 17 - I3-17 core hardcode and host spatial boundary audit\n  ---\n  duration_ms: 7.2115\n  type: 'test'\n  ...\n# Subtest: I3-18 fresh visible-browser saves replay and match their actual UI traces\nok 18 - I3-18 fresh visible-browser saves replay and match their actual UI traces\n  ---\n  duration_ms: 2484.5165\n  type: 'test'\n  ...\n1..18\n# tests 18\n# suites 0\n# pass 18\n# fail 0\n# cancelled 0\n# skipped 0\n# todo 0\n# duration_ms 16827.6116\n",
+    "stderr": ""
+  },
+  {
+    "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\m3-r1-independent-review\\tooling-clone",
+    "executable": "C:\\Program Files\\nodejs\\node.EXE",
+    "args": [
+      "--test",
+      "--test-reporter=tap",
+      "independent/m3-review/notice-display-defect.test.mjs"
+    ],
+    "environmentBinding": {
+      "M3_CHECKPOINT": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\m3-r1-independent-review\\tooling-clone"
+    },
+    "exitCode": 0,
+    "stdout": "TAP version 13\n# Subtest: M3-D01 no fully transparent notice may be acknowledged as displayed\nok 1 - M3-D01 no fully transparent notice may be acknowledged as displayed\n  ---\n  duration_ms: 5.3881\n  type: 'test'\n  ...\n1..1\n# tests 1\n# suites 0\n# pass 1\n# fail 0\n# cancelled 0\n# skipped 0\n# todo 0\n# duration_ms 1034.0495\n",
+    "stderr": ""
+  },
+  {
+    "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\m3-r1-independent-review\\tooling-clone",
+    "executable": "C:\\Program Files\\nodejs\\node.EXE",
+    "args": [
+      "scripts/generate-m3-d01-evidence.mjs"
+    ],
+    "environmentBinding": {
+      "M3_CHECKPOINT": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\m3-r1-independent-review\\tooling-clone"
+    },
+    "exitCode": 0,
+    "stdout": "{\"result\":\"PASS\",\"sourceRevision\":\"M3-runtime-v1-R1-D01\",\"sourceDigest\":\"35fa58990b19a08933fefb7e2f37ba1d5c5edc5807390354eae238e531588711\",\"buildSHA256\":\"11393dde2ae110d3b04aac03c1044e000be6b410e4bffacb16216829c9050052\",\"packageRef\":{\"id\":\"package_0003\",\"revision\":1,\"digest\":\"2ce9f61b996f17392a39c56f4005d8203b7940aa4974564fafa54d110e35ae8f\"},\"validatedBrowserExports\":10,\"beforeDefectReproduced\":true,\"afterTransparentFallbackPass\":true,\"offscreenFallbackPass\":true,\"visibleClosurePass\":true,\"exactSaveLoadEquality\":true,\"recoveryAndPostRecoveryPass\":true,\"browserChecks\":8}\n",
+    "stderr": ""
+  },
+  {
+    "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\m3-r1-independent-review\\tooling-clone",
+    "executable": "C:\\Users\\mcdon\\AppData\\Local\\Programs\\Python\\Python312\\python.EXE",
+    "args": [
+      "scripts/preserve-m3-r1.py"
+    ],
+    "environmentBinding": {
+      "M3_CHECKPOINT": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\m3-r1-independent-review\\tooling-clone"
+    },
+    "exitCode": 0,
+    "stdout": "{\"result\": \"PASS\", \"failedCheckpointSHA256\": \"de808fbdbf6929c5c9cf7915ea982086d5796c7c004b16ec0a882e58170f3b64\", \"failedIdentitySHA256\": \"d025fe33a6a2773e88e249ce3c624280fca70921c8f541617ec8e92d4302abf4\", \"verifiedHistoricalMembers\": 189, \"onlyProductionSourceChange\": \"src/m3/ui.mjs\", \"enginePolicyKnowledgeMeaningTypesAndAuthoredContentUnchanged\": true, \"allInheritedTestSourcesUnchanged\": true}\n",
+    "stderr": ""
+  }
+]

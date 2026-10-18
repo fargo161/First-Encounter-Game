@@ -1,0 +1,44 @@
+{
+  "act": "limited_account",
+  "content": {
+    "amountMinor": 0,
+    "evidence": [
+      {
+        "form": "report",
+        "label": "A wrapped green case moved toward the partition; its exact identity was not established by that sighting",
+        "markId": null,
+        "predicate": "movement_direction",
+        "roots": [
+          {
+            "id": "event_0002",
+            "kind": "event"
+          }
+        ],
+        "subjectId": "subject_0011",
+        "value": "subject_000a"
+      }
+    ],
+    "kind": "response",
+    "operation": "limited_account",
+    "purpose": "response",
+    "text": "A wrapped green case moved toward the partition; its exact identity was not established by that sighting\nIt may have been an exception. I did not see the damp seam, final cupboard, or purpose; that interpretation is not a witnessed fact.\nThis report does not prove a completed collection."
+  },
+  "family": "Remark",
+  "framing": [],
+  "prominence": "measured",
+  "recipientIds": [
+    "actor_0001"
+  ],
+  "scope": {
+    "kind": "subject",
+    "subjectId": "subject_0001"
+  },
+  "senderId": "actor_0004",
+  "subjectIds": [
+    "subject_0001",
+    "subject_0011",
+    "subject_000a"
+  ],
+  "targetId": "subject_0001",
+  "terms": null
+}

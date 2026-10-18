@@ -1,0 +1,26 @@
+--- 
++++ 
+@@ -8,13 +8,13 @@
+ const source=await fs.readFile(new URL('../src/m3/ui.mjs',import.meta.url),'utf8');
+ const guard=source.slice(source.indexOf('function acknowledgeVisibleNotice(){'),source.indexOf('\nfunction preview(){'));
+ assert.ok(guard.startsWith('function acknowledgeVisibleNotice(){'));
+-const invoke=new Function('pending','$','getComputedStyle','innerHeight','markNoticeDisplayed',guard+'\nacknowledgeVisibleNotice();return pending;');
++const invoke=new Function('pending','$','getComputedStyle','innerHeight','innerWidth','markNoticeDisplayed',guard+'\nacknowledgeVisibleNotice();return pending;');
+ const start=await restricted();
+ const command=()=>E.prepareSend(start,pkg,draft('request_access',{targetId:rule.recordId,scopeId:rule.wholeScopeId}));
+ function acknowledge(c,{opacity='1',ancestorOpacity='1',hidden=false,display='block',visibility='visible',top=316.0500183105469,bottom=403.7000198364258,height=87.6500015258789,viewport=720}={}){
+  const parent={parentElement:null,style:{opacity:ancestorOpacity,display:'block',visibility:'visible'}};
+- const el={hidden,parentElement:parent,style:{opacity,display,visibility},getBoundingClientRect:()=>({top,bottom,height})};
+- return invoke(c,()=>el,node=>node.style,viewport,markNoticeDisplayed);
++ const el={hidden,parentElement:parent,style:{opacity,display,visibility},getBoundingClientRect:()=>({top,bottom,height,left:100,right:400,width:300})};
++ return invoke(c,()=>el,node=>node.style,viewport,1280,markNoticeDisplayed);
+ }
+ function expectMissing(c){
+  assert.equal(c.payload.preview.notice.displayed,false);
+@@ -44,5 +44,5 @@
+  const c=command(),before=structuredClone(c),runBefore=structuredClone(start);
+  const marked=acknowledge(c,{opacity:'0.6',ancestorOpacity:'0.8'});assert.equal(marked.payload.preview.notice.displayed,true);
+  assert.deepEqual(c,before);assert.deepEqual(start,runBefore);
+- assert.equal(invoke(null,()=>{throw Error('No notice to inspect');},()=>{},720,markNoticeDisplayed),null);
++ assert.equal(invoke(null,()=>{throw Error('No notice to inspect');},()=>{},720,1280,markNoticeDisplayed),null);
+ });

@@ -1,0 +1,17 @@
+{
+  "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\atlas-a1-inherited-gates\\encounter-r3-regression-y38dntfq",
+  "executable": "C:\\Users\\mcdon\\AppData\\Local\\Programs\\Python\\Python312\\python.EXE",
+  "args": [
+    "scripts/source-identity-m3.py"
+  ],
+  "environmentBinding": {
+    "ENCOUNTER_CHECKPOINT": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\atlas-a1-inherited-gates\\encounter-r3-regression-y38dntfq",
+    "M2_BROWSER_EVIDENCE": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\atlas-a1-inherited-gates\\encounter-r3-regression-y38dntfq\\independent\\m2-browser-evidence"
+  },
+  "exitCode": 0
+}
+
+STDOUT
+{"sourceRevision": "M3-runtime-v1-R3-D03", "sourceDigest": "8df8db981955a28900e0e49b52c56ea4dfb9242e722d6f767417396ae4b65e5a", "files": 87}
+
+STDERR

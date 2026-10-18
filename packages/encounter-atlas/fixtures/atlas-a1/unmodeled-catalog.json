@@ -1,0 +1,336 @@
+{
+  "schema": "encounter-atlas-catalog@1",
+  "id": "catalog_0001",
+  "revision": 1,
+  "packageRef": {
+    "id": "package_0003",
+    "revision": 1,
+    "digest": "2ce9f61b996f17392a39c56f4005d8203b7940aa4974564fafa54d110e35ae8f"
+  },
+  "activeScenarioId": "scenario_0001",
+  "runtimePlaceRef": "place_0001",
+  "entities": [
+    {
+      "id": "actor_0001",
+      "kind": "person",
+      "source": {
+        "kind": "actor",
+        "id": "actor_0001"
+      },
+      "aliases": [],
+      "displayName": null,
+      "description": "The collecting participant. Information here records receipt and factual state, not private psychology.",
+      "scenarioRefs": [
+        "scenario_0001"
+      ],
+      "disclosure": "known_reference",
+      "tags": []
+    },
+    {
+      "id": "actor_0002",
+      "kind": "person",
+      "source": {
+        "kind": "actor",
+        "id": "actor_0002"
+      },
+      "aliases": [],
+      "displayName": null,
+      "description": "A participant in the collection visit. Knowledge and interpretations remain actor-local.",
+      "scenarioRefs": [
+        "scenario_0001"
+      ],
+      "disclosure": "known_reference",
+      "tags": []
+    },
+    {
+      "id": "actor_0003",
+      "kind": "person",
+      "source": {
+        "kind": "actor",
+        "id": "actor_0003"
+      },
+      "aliases": [
+        {
+          "kind": "subject",
+          "id": "subject_0009"
+        }
+      ],
+      "displayName": null,
+      "description": "The absent owner. Absence does not grant receipt of the visit’s communications.",
+      "scenarioRefs": [
+        "scenario_0001"
+      ],
+      "disclosure": "known_reference",
+      "tags": []
+    },
+    {
+      "id": "actor_0004",
+      "kind": "person",
+      "source": {
+        "kind": "actor",
+        "id": "actor_0004"
+      },
+      "aliases": [],
+      "displayName": null,
+      "description": "A participant in the collection visit. Knowledge and interpretations remain actor-local.",
+      "scenarioRefs": [
+        "scenario_0001"
+      ],
+      "disclosure": "known_reference",
+      "tags": []
+    },
+    {
+      "id": "subject_0007",
+      "kind": "place",
+      "source": {
+        "kind": "subject",
+        "id": "subject_0007"
+      },
+      "aliases": [],
+      "displayName": null,
+      "description": "A semantic place or storage reference. This card contains no geometry or navigation data.",
+      "scenarioRefs": [
+        "scenario_0001"
+      ],
+      "disclosure": "known_reference",
+      "tags": []
+    },
+    {
+      "id": "subject_000a",
+      "kind": "place",
+      "source": {
+        "kind": "subject",
+        "id": "subject_000a"
+      },
+      "aliases": [],
+      "displayName": null,
+      "description": "A semantic place or storage reference. This card contains no geometry or navigation data.",
+      "scenarioRefs": [
+        "scenario_0001"
+      ],
+      "disclosure": "known_reference",
+      "tags": []
+    },
+    {
+      "id": "subject_000f",
+      "kind": "place",
+      "source": {
+        "kind": "subject",
+        "id": "subject_000f"
+      },
+      "aliases": [],
+      "displayName": null,
+      "description": "A semantic place or storage reference. This card contains no geometry or navigation data.",
+      "scenarioRefs": [
+        "scenario_0001"
+      ],
+      "disclosure": "known_reference",
+      "tags": []
+    },
+    {
+      "id": "subject_0001",
+      "kind": "thing",
+      "source": {
+        "kind": "subject",
+        "id": "subject_0001"
+      },
+      "aliases": [],
+      "displayName": null,
+      "description": "An existing object or resource reference. Ownership, custody and evidence come from Encounter records.",
+      "scenarioRefs": [
+        "scenario_0001"
+      ],
+      "disclosure": "known_reference",
+      "tags": []
+    },
+    {
+      "id": "subject_0002",
+      "kind": "thing",
+      "source": {
+        "kind": "subject",
+        "id": "subject_0002"
+      },
+      "aliases": [],
+      "displayName": null,
+      "description": "An existing object or resource reference. Ownership, custody and evidence come from Encounter records.",
+      "scenarioRefs": [
+        "scenario_0001"
+      ],
+      "disclosure": "known_reference",
+      "tags": []
+    },
+    {
+      "id": "subject_0003",
+      "kind": "thing",
+      "source": {
+        "kind": "subject",
+        "id": "subject_0003"
+      },
+      "aliases": [],
+      "displayName": null,
+      "description": "An existing object or resource reference. Ownership, custody and evidence come from Encounter records.",
+      "scenarioRefs": [
+        "scenario_0001"
+      ],
+      "disclosure": "known_reference",
+      "tags": []
+    },
+    {
+      "id": "subject_0004",
+      "kind": "thing",
+      "source": {
+        "kind": "subject",
+        "id": "subject_0004"
+      },
+      "aliases": [],
+      "displayName": null,
+      "description": "An existing object or resource reference. Ownership, custody and evidence come from Encounter records.",
+      "scenarioRefs": [
+        "scenario_0001"
+      ],
+      "disclosure": "known_reference",
+      "tags": []
+    },
+    {
+      "id": "subject_000b",
+      "kind": "thing",
+      "source": {
+        "kind": "subject",
+        "id": "subject_000b"
+      },
+      "aliases": [],
+      "displayName": null,
+      "description": "An existing object or resource reference. Ownership, custody and evidence come from Encounter records.",
+      "scenarioRefs": [
+        "scenario_0001"
+      ],
+      "disclosure": "known_reference",
+      "tags": []
+    },
+    {
+      "id": "subject_000c",
+      "kind": "thing",
+      "source": {
+        "kind": "subject",
+        "id": "subject_000c"
+      },
+      "aliases": [],
+      "displayName": null,
+      "description": "An existing object or resource reference. Ownership, custody and evidence come from Encounter records.",
+      "scenarioRefs": [
+        "scenario_0001"
+      ],
+      "disclosure": "known_reference",
+      "tags": []
+    },
+    {
+      "id": "subject_000d",
+      "kind": "thing",
+      "source": {
+        "kind": "subject",
+        "id": "subject_000d"
+      },
+      "aliases": [],
+      "displayName": null,
+      "description": "An existing object or resource reference. Ownership, custody and evidence come from Encounter records.",
+      "scenarioRefs": [
+        "scenario_0001"
+      ],
+      "disclosure": "known_reference",
+      "tags": []
+    },
+    {
+      "id": "subject_0011",
+      "kind": "thing",
+      "source": {
+        "kind": "subject",
+        "id": "subject_0011"
+      },
+      "aliases": [],
+      "displayName": null,
+      "description": "An unidentified wrapped-case reference in a limited observation/report; it is not identified as the collection item.",
+      "scenarioRefs": [
+        "scenario_0001"
+      ],
+      "disclosure": "known_reference",
+      "tags": []
+    },
+    {
+      "id": "place_0001",
+      "kind": "place",
+      "source": {
+        "kind": "authored",
+        "id": "place_0001"
+      },
+      "aliases": [],
+      "displayName": "Transport Office",
+      "description": "The small transport office in which the collection visit takes place (Master §1.4).",
+      "scenarioRefs": [
+        "scenario_0001"
+      ],
+      "disclosure": "public",
+      "tags": []
+    },
+    {
+      "id": "scenario_0001",
+      "kind": "scenario",
+      "source": {
+        "kind": "package",
+        "id": "package_0003"
+      },
+      "aliases": [],
+      "displayName": null,
+      "description": "Recover the owner’s instrument case; money, privacy and record correction remain separate outcomes.",
+      "scenarioRefs": [],
+      "disclosure": "public",
+      "tags": []
+    },
+    {
+      "id": "event_0001",
+      "kind": "event",
+      "source": {
+        "kind": "historical_event",
+        "id": "event_0001"
+      },
+      "aliases": [],
+      "displayName": "Collection record origin",
+      "description": "The original collection-record entry and its authored provenance. Later communications are separate occurrences.",
+      "scenarioRefs": [
+        "scenario_0001"
+      ],
+      "disclosure": "known_reference",
+      "tags": []
+    },
+    {
+      "id": "event_0002",
+      "kind": "event",
+      "source": {
+        "kind": "historical_event",
+        "id": "event_0002"
+      },
+      "aliases": [],
+      "displayName": "Earlier handling movement",
+      "description": "The authored prior handling occurrence. Each observer received only the declared fragment.",
+      "scenarioRefs": [
+        "scenario_0001"
+      ],
+      "disclosure": "known_reference",
+      "tags": []
+    },
+    {
+      "id": "neutral_person",
+      "kind": "person",
+      "source": {
+        "kind": "authored",
+        "id": "neutral_description"
+      },
+      "aliases": [],
+      "displayName": "Unmodeled Person fixture",
+      "description": "Neutral presentation test only; no new Last Collection story fact.",
+      "scenarioRefs": [],
+      "disclosure": "public",
+      "tags": []
+    }
+  ],
+  "links": []
+}

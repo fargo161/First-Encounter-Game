@@ -1,0 +1,12 @@
+PERSON INSPECTION
+
+Unmodeled Person fixture
+
+Descriptive Person
+
+READ-ONLY
+Identity
+
+This person has no modeled local state
+
+Encounter details

@@ -1,0 +1,1 @@
+{"validatedFreshBrowserSaves":17,"recoveryHandoverCount":1,"normalClosureCount":1,"missingReceiptFallback":"PASS","transparentNoticeFallback":"FAIL: closed twice in two independent restores","productionFilesEdited":false}

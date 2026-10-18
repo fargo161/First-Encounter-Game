@@ -1,0 +1,271 @@
+TAP version 13
+# Subtest: M3-D02-01 visible positive rectangle fully contained on both axes closes exactly once
+ok 1 - M3-D02-01 visible positive rectangle fully contained on both axes closes exactly once
+  ---
+  duration_ms: 69.4421
+  type: 'test'
+  ...
+# Subtest: M3-D02-02 own opacity zero cannot earn a receipt or close service
+ok 2 - M3-D02-02 own opacity zero cannot earn a receipt or close service
+  ---
+  duration_ms: 53.3036
+  type: 'test'
+  ...
+# Subtest: M3-D02-03 ancestor opacity zero cannot earn a receipt or close service
+ok 3 - M3-D02-03 ancestor opacity zero cannot earn a receipt or close service
+  ---
+  duration_ms: 58.3736
+  type: 'test'
+  ...
+# Subtest: M3-D02-04 vertically above viewport cannot earn a receipt or close service
+ok 4 - M3-D02-04 vertically above viewport cannot earn a receipt or close service
+  ---
+  duration_ms: 55.4668
+  type: 'test'
+  ...
+# Subtest: M3-D02-05 vertically below viewport cannot earn a receipt or close service
+ok 5 - M3-D02-05 vertically below viewport cannot earn a receipt or close service
+  ---
+  duration_ms: 66.4511
+  type: 'test'
+  ...
+# Subtest: M3-D02-06 horizontally outside left cannot earn a receipt or close service
+not ok 6 - M3-D02-06 horizontally outside left cannot earn a receipt or close service
+  ---
+  duration_ms: 5.6489
+  type: 'test'
+  location: 'C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\Encounter_M3_R2\\tests\\m3-notice-geometry.test.mjs:46:34'
+  failureType: 'testCodeFailure'
+  error: |-
+    Expected values to be strictly equal:
+    
+    true !== false
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: false
+  actual: true
+  operator: 'strictEqual'
+  stack: |-
+    invalid (file:///C:/Users/mcdon/Documents/ChatGPT/encounter%20and%20rc/work/Encounter_M3_R2/tests/m3-notice-geometry.test.mjs:19:9)
+    TestContext.<anonymous> (file:///C:/Users/mcdon/Documents/ChatGPT/encounter%20and%20rc/work/Encounter_M3_R2/tests/m3-notice-geometry.test.mjs:46:100)
+    Test.runInAsyncScope (node:async_hooks:227:14)
+    Test.run (node:internal/test_runner/test:1325:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+    Test.postRun (node:internal/test_runner/test:1465:19)
+    Test.run (node:internal/test_runner/test:1390:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:911:7)
+  ...
+# Subtest: M3-D02-07 horizontally outside right cannot earn a receipt or close service
+not ok 7 - M3-D02-07 horizontally outside right cannot earn a receipt or close service
+  ---
+  duration_ms: 6.0404
+  type: 'test'
+  location: 'C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\Encounter_M3_R2\\tests\\m3-notice-geometry.test.mjs:46:34'
+  failureType: 'testCodeFailure'
+  error: |-
+    Expected values to be strictly equal:
+    
+    true !== false
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: false
+  actual: true
+  operator: 'strictEqual'
+  stack: |-
+    invalid (file:///C:/Users/mcdon/Documents/ChatGPT/encounter%20and%20rc/work/Encounter_M3_R2/tests/m3-notice-geometry.test.mjs:19:9)
+    TestContext.<anonymous> (file:///C:/Users/mcdon/Documents/ChatGPT/encounter%20and%20rc/work/Encounter_M3_R2/tests/m3-notice-geometry.test.mjs:46:100)
+    Test.runInAsyncScope (node:async_hooks:227:14)
+    Test.run (node:internal/test_runner/test:1325:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+    Test.postRun (node:internal/test_runner/test:1465:19)
+    Test.run (node:internal/test_runner/test:1390:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:911:7)
+  ...
+# Subtest: M3-D02-08 partially outside left cannot earn a receipt or close service
+not ok 8 - M3-D02-08 partially outside left cannot earn a receipt or close service
+  ---
+  duration_ms: 4.5686
+  type: 'test'
+  location: 'C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\Encounter_M3_R2\\tests\\m3-notice-geometry.test.mjs:46:34'
+  failureType: 'testCodeFailure'
+  error: |-
+    Expected values to be strictly equal:
+    
+    true !== false
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: false
+  actual: true
+  operator: 'strictEqual'
+  stack: |-
+    invalid (file:///C:/Users/mcdon/Documents/ChatGPT/encounter%20and%20rc/work/Encounter_M3_R2/tests/m3-notice-geometry.test.mjs:19:9)
+    TestContext.<anonymous> (file:///C:/Users/mcdon/Documents/ChatGPT/encounter%20and%20rc/work/Encounter_M3_R2/tests/m3-notice-geometry.test.mjs:46:100)
+    Test.runInAsyncScope (node:async_hooks:227:14)
+    Test.run (node:internal/test_runner/test:1325:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+    Test.postRun (node:internal/test_runner/test:1465:19)
+    Test.run (node:internal/test_runner/test:1390:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:911:7)
+  ...
+# Subtest: M3-D02-09 partially outside right cannot earn a receipt or close service
+not ok 9 - M3-D02-09 partially outside right cannot earn a receipt or close service
+  ---
+  duration_ms: 4.5122
+  type: 'test'
+  location: 'C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\Encounter_M3_R2\\tests\\m3-notice-geometry.test.mjs:46:34'
+  failureType: 'testCodeFailure'
+  error: |-
+    Expected values to be strictly equal:
+    
+    true !== false
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: false
+  actual: true
+  operator: 'strictEqual'
+  stack: |-
+    invalid (file:///C:/Users/mcdon/Documents/ChatGPT/encounter%20and%20rc/work/Encounter_M3_R2/tests/m3-notice-geometry.test.mjs:19:9)
+    TestContext.<anonymous> (file:///C:/Users/mcdon/Documents/ChatGPT/encounter%20and%20rc/work/Encounter_M3_R2/tests/m3-notice-geometry.test.mjs:46:100)
+    Test.runInAsyncScope (node:async_hooks:227:14)
+    Test.run (node:internal/test_runner/test:1325:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+    Test.postRun (node:internal/test_runner/test:1465:19)
+    Test.run (node:internal/test_runner/test:1390:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:911:7)
+  ...
+# Subtest: M3-D02-10 zero width cannot earn a receipt or close service
+not ok 10 - M3-D02-10 zero width cannot earn a receipt or close service
+  ---
+  duration_ms: 4.1207
+  type: 'test'
+  location: 'C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\Encounter_M3_R2\\tests\\m3-notice-geometry.test.mjs:46:34'
+  failureType: 'testCodeFailure'
+  error: |-
+    Expected values to be strictly equal:
+    
+    true !== false
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: false
+  actual: true
+  operator: 'strictEqual'
+  stack: |-
+    invalid (file:///C:/Users/mcdon/Documents/ChatGPT/encounter%20and%20rc/work/Encounter_M3_R2/tests/m3-notice-geometry.test.mjs:19:9)
+    TestContext.<anonymous> (file:///C:/Users/mcdon/Documents/ChatGPT/encounter%20and%20rc/work/Encounter_M3_R2/tests/m3-notice-geometry.test.mjs:46:100)
+    Test.runInAsyncScope (node:async_hooks:227:14)
+    Test.run (node:internal/test_runner/test:1325:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+    Test.postRun (node:internal/test_runner/test:1465:19)
+    Test.run (node:internal/test_runner/test:1390:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:911:7)
+  ...
+# Subtest: M3-D02-11 zero height cannot earn a receipt or close service
+ok 11 - M3-D02-11 zero height cannot earn a receipt or close service
+  ---
+  duration_ms: 51.8488
+  type: 'test'
+  ...
+# Subtest: M3-D02-12 hidden attribute cannot earn a receipt or close service
+ok 12 - M3-D02-12 hidden attribute cannot earn a receipt or close service
+  ---
+  duration_ms: 50.2579
+  type: 'test'
+  ...
+# Subtest: M3-D02-13 display none cannot earn a receipt or close service
+ok 13 - M3-D02-13 display none cannot earn a receipt or close service
+  ---
+  duration_ms: 65.1088
+  type: 'test'
+  ...
+# Subtest: M3-D02-14 visibility hidden cannot earn a receipt or close service
+ok 14 - M3-D02-14 visibility hidden cannot earn a receipt or close service
+  ---
+  duration_ms: 45.3871
+  type: 'test'
+  ...
+# Subtest: M3-D02-15 invalid and non-finite geometry or viewport cannot earn a receipt
+not ok 15 - M3-D02-15 invalid and non-finite geometry or viewport cannot earn a receipt
+  ---
+  duration_ms: 65.8334
+  type: 'test'
+  location: 'C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\Encounter_M3_R2\\tests\\m3-notice-geometry.test.mjs:47:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    Expected values to be strictly equal:
+    
+    true !== false
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: false
+  actual: true
+  operator: 'strictEqual'
+  stack: |-
+    invalid (file:///C:/Users/mcdon/Documents/ChatGPT/encounter%20and%20rc/work/Encounter_M3_R2/tests/m3-notice-geometry.test.mjs:19:9)
+    TestContext.<anonymous> (file:///C:/Users/mcdon/Documents/ChatGPT/encounter%20and%20rc/work/Encounter_M3_R2/tests/m3-notice-geometry.test.mjs:48:114)
+    Test.runInAsyncScope (node:async_hooks:227:14)
+    Test.run (node:internal/test_runner/test:1325:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+    Test.postRun (node:internal/test_runner/test:1465:19)
+    Test.run (node:internal/test_runner/test:1390:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:911:7)
+  ...
+# Subtest: M3-D02-16 negative or inverted rectangle cannot earn a receipt
+not ok 16 - M3-D02-16 negative or inverted rectangle cannot earn a receipt
+  ---
+  duration_ms: 5.6149
+  type: 'test'
+  location: 'C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\Encounter_M3_R2\\tests\\m3-notice-geometry.test.mjs:51:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    Expected values to be strictly equal:
+    
+    true !== false
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: false
+  actual: true
+  operator: 'strictEqual'
+  stack: |-
+    invalid (file:///C:/Users/mcdon/Documents/ChatGPT/encounter%20and%20rc/work/Encounter_M3_R2/tests/m3-notice-geometry.test.mjs:19:9)
+    TestContext.<anonymous> (file:///C:/Users/mcdon/Documents/ChatGPT/encounter%20and%20rc/work/Encounter_M3_R2/tests/m3-notice-geometry.test.mjs:52:87)
+    Test.runInAsyncScope (node:async_hooks:227:14)
+    Test.run (node:internal/test_runner/test:1325:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+    Test.postRun (node:internal/test_runner/test:1465:19)
+    Test.run (node:internal/test_runner/test:1390:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:911:7)
+  ...
+# Subtest: M3-D02-17 truthful receipt survives later scrolling of the same unedited notice
+ok 17 - M3-D02-17 truthful receipt survives later scrolling of the same unedited notice
+  ---
+  duration_ms: 61.5917
+  type: 'test'
+  ...
+# Subtest: M3-D02-18 edited or stale draft cannot reuse an earned receipt
+ok 18 - M3-D02-18 edited or stale draft cannot reuse an earned receipt
+  ---
+  duration_ms: 69.7111
+  type: 'test'
+  ...
+# Subtest: M3-D02-19 completed recovery remains protected from later warned demands
+ok 19 - M3-D02-19 completed recovery remains protected from later warned demands
+  ---
+  duration_ms: 638.1745
+  type: 'test'
+  ...
+1..19
+# tests 19
+# suites 0
+# pass 12
+# fail 7
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 2673.7077

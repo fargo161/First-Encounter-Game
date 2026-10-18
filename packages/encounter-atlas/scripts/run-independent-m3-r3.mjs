@@ -1,0 +1,12 @@
+import {registerHooks} from 'node:module';
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import assert from 'node:assert/strict';
+import {fileURLToPath,pathToFileURL} from 'node:url';
+const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..'),home=path.join(root,'independent/m3-r3-review'),dest=path.join(root,'evidence/ar0/independent-r3-execution');
+await fs.mkdir(dest,{recursive:true});for(const n of ['r3-fresh-warned.json','display-collapse-geometry.json'])await fs.copyFile(path.join(home,'evidence',n),path.join(dest,n));
+process.env.M3_CHECKPOINT=root;process.env.AR0_INDEPENDENT_R3_OUTPUT=dest;
+const target=pathToFileURL(path.join(home,'independent-r3-display.test.mjs')).href;
+registerHooks({load(url,context,next){const result=next(url,context);if(url!==target)return result;let s=Buffer.isBuffer(result.source)?result.source.toString('utf8'):String(result.source);const old="ev=path.join(home,'evidence')";assert.equal(s.split(old).length,2);s=s.replace(old,'ev=process.env.AR0_INDEPENDENT_R3_OUTPUT');return {...result,source:s};}});
+console.log('Unmodified independent R3 assertions; evidence output redirected only. IR3-25 remains an expected non-blocking failure, not skipped or changed.');
+await import(target);

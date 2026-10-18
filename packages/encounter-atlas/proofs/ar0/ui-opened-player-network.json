@@ -1,0 +1,823 @@
+{
+  "nodes": [
+    {
+      "id": "event_0001",
+      "kind": "event",
+      "label": "Referenced historical occurrence"
+    },
+    {
+      "id": "runtime:package_0003:run_0003:command_05cb025634924700b6c4db1489db0977:event_0003",
+      "kind": "event",
+      "label": "Observed physical result"
+    },
+    {
+      "id": "runtime:package_0003:run_0003:command_29be9f2e254f4bf09ffb8b3a5c672351:event_0004",
+      "kind": "event",
+      "label": "request access"
+    },
+    {
+      "id": "runtime:package_0003:run_0003:command_29be9f2e254f4bf09ffb8b3a5c672351:event_0005",
+      "kind": "event",
+      "label": "explain access"
+    },
+    {
+      "id": "actor_0001",
+      "kind": "person",
+      "label": "Collector"
+    },
+    {
+      "id": "actor_0002",
+      "kind": "person",
+      "label": "Tamsin"
+    },
+    {
+      "id": "actor_0003",
+      "kind": "person",
+      "label": "Nera Vale"
+    },
+    {
+      "id": "actor_0004",
+      "kind": "person",
+      "label": "Orrin"
+    },
+    {
+      "id": "place_0001",
+      "kind": "place",
+      "label": "Transport Office"
+    },
+    {
+      "id": "scenario_0001",
+      "kind": "scenario",
+      "label": "Last Collection · The Protective Shortcut"
+    },
+    {
+      "id": "subject_0001",
+      "kind": "thing",
+      "label": "Nera’s green instrument case"
+    },
+    {
+      "id": "subject_0002",
+      "kind": "thing",
+      "label": "Collection ticket"
+    },
+    {
+      "id": "subject_0003",
+      "kind": "thing",
+      "label": "Collection record"
+    },
+    {
+      "id": "subject_0004",
+      "kind": "thing",
+      "label": "Customer file"
+    },
+    {
+      "id": "subject_000b",
+      "kind": "thing",
+      "label": "Handling tray"
+    },
+    {
+      "id": "subject_000d",
+      "kind": "thing",
+      "label": "Coins"
+    }
+  ],
+  "links": [
+    {
+      "details": {
+        "channel": "initial",
+        "details": {
+          "collection": {
+            "entry": "collected",
+            "itemId": "subject_0001",
+            "recordId": "subject_0003",
+            "ticketId": "subject_0002"
+          },
+          "participants": [
+            {
+              "id": "actor_0001",
+              "kind": "human",
+              "label": "Collector"
+            },
+            {
+              "id": "actor_0002",
+              "kind": "npc",
+              "label": "Tamsin"
+            },
+            {
+              "id": "actor_0003",
+              "kind": "absent",
+              "label": "Nera Vale"
+            },
+            {
+              "id": "actor_0004",
+              "kind": "npc",
+              "label": "Orrin"
+            }
+          ],
+          "references": [
+            {
+              "id": "subject_0001",
+              "label": "Nera’s green instrument case"
+            },
+            {
+              "id": "subject_0002",
+              "label": "Collection ticket"
+            },
+            {
+              "id": "subject_0003",
+              "label": "Collection record"
+            },
+            {
+              "id": "subject_0009",
+              "label": "Nera Vale"
+            },
+            {
+              "id": "subject_000d",
+              "label": "Coins"
+            }
+          ]
+        }
+      },
+      "epistemic": "observation",
+      "fromRef": "actor_0001",
+      "id": "link:observation:observation_0001",
+      "provenance": {
+        "observationIds": [
+          "observation_0001"
+        ],
+        "observerId": "actor_0001",
+        "roots": [
+          {
+            "id": "event_0001",
+            "kind": "event"
+          }
+        ],
+        "sourceRefs": [
+          {
+            "id": "event_0001",
+            "kind": "event"
+          }
+        ]
+      },
+      "relationKind": "received_observation",
+      "toRef": "event_0001"
+    },
+    {
+      "details": {
+        "channel": "sight",
+        "details": {
+          "authority": {
+            "collectorId": "actor_0001",
+            "itemId": "subject_0001",
+            "ownerId": "actor_0003",
+            "ticketId": "subject_0002",
+            "verified": true
+          },
+          "conduct": "The valid collection ticket is shown and verified."
+        }
+      },
+      "epistemic": "observation",
+      "fromRef": "actor_0001",
+      "id": "link:observation:observation_0006",
+      "provenance": {
+        "observationIds": [
+          "observation_0006"
+        ],
+        "observerId": "actor_0001",
+        "roots": [
+          {
+            "id": "result_0001",
+            "kind": "action_result"
+          }
+        ],
+        "sourceRefs": [
+          {
+            "id": "result_0001",
+            "kind": "action_result"
+          }
+        ]
+      },
+      "relationKind": "received_observation",
+      "toRef": "runtime:package_0003:run_0003:command_05cb025634924700b6c4db1489db0977:event_0003"
+    },
+    {
+      "details": {
+        "channel": "hearing",
+        "details": {
+          "communication": {
+            "act": "explain_access",
+            "content": {
+              "amountMinor": 0,
+              "evidence": [],
+              "kind": "response",
+              "operation": "explain_access",
+              "purpose": "response",
+              "text": "The customer file contains case-handling material and unrelated private contact information. The relevant extract and permitted handling tray are available. Private contact values remain covered."
+            },
+            "family": "Remark",
+            "framing": [],
+            "prominence": "measured",
+            "recipientIds": [
+              "actor_0001"
+            ],
+            "scope": {
+              "kind": "subject",
+              "subjectId": "subject_0001"
+            },
+            "senderId": "actor_0002",
+            "subjectIds": [
+              "subject_0001"
+            ],
+            "targetId": "subject_0001",
+            "terms": null
+          }
+        }
+      },
+      "epistemic": "observation",
+      "fromRef": "actor_0001",
+      "id": "link:observation:observation_0009",
+      "provenance": {
+        "observationIds": [
+          "observation_0009"
+        ],
+        "observerId": "actor_0001",
+        "roots": [
+          {
+            "id": "message_0002",
+            "kind": "message"
+          }
+        ],
+        "sourceRefs": [
+          {
+            "id": "message_0002",
+            "kind": "message"
+          }
+        ]
+      },
+      "relationKind": "received_observation",
+      "toRef": "runtime:package_0003:run_0003:command_29be9f2e254f4bf09ffb8b3a5c672351:event_0005"
+    },
+    {
+      "details": {
+        "channel": "hearing",
+        "details": {
+          "publicRule": {
+            "custodianId": "actor_0002",
+            "fileId": "subject_0004",
+            "itemId": "subject_0001",
+            "ownerTopicId": "subject_0009",
+            "protectedScopeIds": [
+              "subject_0006",
+              "subject_0008"
+            ],
+            "recordId": "subject_0003",
+            "relevantScopeId": "subject_0005",
+            "serviceId": "service_0001",
+            "wholeScopeId": "subject_0008",
+            "witnessId": "actor_0004"
+          },
+          "references": [
+            {
+              "id": "subject_0004",
+              "label": "Customer file"
+            },
+            {
+              "id": "subject_0005",
+              "label": "Case-handling scope"
+            },
+            {
+              "id": "subject_0006",
+              "label": "Private contact scope"
+            },
+            {
+              "id": "subject_0008",
+              "label": "Whole customer file"
+            },
+            {
+              "id": "subject_000b",
+              "label": "Handling tray"
+            },
+            {
+              "id": "subject_000e",
+              "label": "Supervised comparison"
+            }
+          ]
+        }
+      },
+      "epistemic": "observation",
+      "fromRef": "actor_0001",
+      "id": "link:observation:observation_000b",
+      "provenance": {
+        "observationIds": [
+          "observation_000b"
+        ],
+        "observerId": "actor_0001",
+        "roots": [
+          {
+            "id": "message_0002",
+            "kind": "message"
+          }
+        ],
+        "sourceRefs": [
+          {
+            "id": "message_0002",
+            "kind": "message"
+          }
+        ]
+      },
+      "relationKind": "received_observation",
+      "toRef": "runtime:package_0003:run_0003:command_29be9f2e254f4bf09ffb8b3a5c672351:event_0005"
+    },
+    {
+      "details": {},
+      "epistemic": "observation",
+      "fromRef": "actor_0003",
+      "id": "link:owner:subject_0001",
+      "provenance": {
+        "observationIds": [
+          "observation_0006"
+        ],
+        "sourceRefs": [
+          {
+            "id": "result_0001",
+            "kind": "action_result"
+          }
+        ]
+      },
+      "relationKind": "owns",
+      "toRef": "subject_0001"
+    },
+    {
+      "details": {},
+      "epistemic": "observation",
+      "fromRef": "actor_0001",
+      "id": "link:participant:runtime%3Apackage_0003%3Arun_0003%3Acommand_05cb025634924700b6c4db1489db0977%3Aevent_0003:actor_0001",
+      "provenance": {
+        "sourceRefs": [
+          {
+            "id": "event_0003",
+            "kind": "event"
+          },
+          {
+            "id": "result_0001",
+            "kind": "action_result"
+          }
+        ]
+      },
+      "relationKind": "performed_in",
+      "toRef": "runtime:package_0003:run_0003:command_05cb025634924700b6c4db1489db0977:event_0003"
+    },
+    {
+      "details": {},
+      "epistemic": "communication",
+      "fromRef": "actor_0001",
+      "id": "link:participant:runtime%3Apackage_0003%3Arun_0003%3Acommand_29be9f2e254f4bf09ffb8b3a5c672351%3Aevent_0004:actor_0001",
+      "provenance": {
+        "sourceRefs": [
+          {
+            "id": "event_0004",
+            "kind": "event"
+          },
+          {
+            "id": "message_0001",
+            "kind": "message"
+          }
+        ]
+      },
+      "relationKind": "communicated_in",
+      "toRef": "runtime:package_0003:run_0003:command_29be9f2e254f4bf09ffb8b3a5c672351:event_0004"
+    },
+    {
+      "details": {},
+      "epistemic": "communication",
+      "fromRef": "actor_0002",
+      "id": "link:participant:runtime%3Apackage_0003%3Arun_0003%3Acommand_29be9f2e254f4bf09ffb8b3a5c672351%3Aevent_0004:actor_0002",
+      "provenance": {
+        "sourceRefs": [
+          {
+            "id": "event_0004",
+            "kind": "event"
+          },
+          {
+            "id": "message_0001",
+            "kind": "message"
+          }
+        ]
+      },
+      "relationKind": "communicated_in",
+      "toRef": "runtime:package_0003:run_0003:command_29be9f2e254f4bf09ffb8b3a5c672351:event_0004"
+    },
+    {
+      "details": {},
+      "epistemic": "communication",
+      "fromRef": "actor_0001",
+      "id": "link:participant:runtime%3Apackage_0003%3Arun_0003%3Acommand_29be9f2e254f4bf09ffb8b3a5c672351%3Aevent_0005:actor_0001",
+      "provenance": {
+        "sourceRefs": [
+          {
+            "id": "event_0005",
+            "kind": "event"
+          },
+          {
+            "id": "message_0002",
+            "kind": "message"
+          }
+        ]
+      },
+      "relationKind": "communicated_in",
+      "toRef": "runtime:package_0003:run_0003:command_29be9f2e254f4bf09ffb8b3a5c672351:event_0005"
+    },
+    {
+      "details": {},
+      "epistemic": "communication",
+      "fromRef": "actor_0002",
+      "id": "link:participant:runtime%3Apackage_0003%3Arun_0003%3Acommand_29be9f2e254f4bf09ffb8b3a5c672351%3Aevent_0005:actor_0002",
+      "provenance": {
+        "sourceRefs": [
+          {
+            "id": "event_0005",
+            "kind": "event"
+          },
+          {
+            "id": "message_0002",
+            "kind": "message"
+          }
+        ]
+      },
+      "relationKind": "communicated_in",
+      "toRef": "runtime:package_0003:run_0003:command_29be9f2e254f4bf09ffb8b3a5c672351:event_0005"
+    },
+    {
+      "details": {},
+      "epistemic": "authored_context",
+      "fromRef": "runtime:package_0003:run_0003:command_05cb025634924700b6c4db1489db0977:event_0003",
+      "id": "link:place:runtime%3Apackage_0003%3Arun_0003%3Acommand_05cb025634924700b6c4db1489db0977%3Aevent_0003",
+      "provenance": {
+        "catalogId": "catalog_0001",
+        "sourceRefs": [
+          {
+            "id": "event_0003",
+            "kind": "event"
+          },
+          {
+            "id": "result_0001",
+            "kind": "action_result"
+          }
+        ]
+      },
+      "relationKind": "happened_at",
+      "toRef": "place_0001"
+    },
+    {
+      "details": {},
+      "epistemic": "authored_context",
+      "fromRef": "runtime:package_0003:run_0003:command_29be9f2e254f4bf09ffb8b3a5c672351:event_0004",
+      "id": "link:place:runtime%3Apackage_0003%3Arun_0003%3Acommand_29be9f2e254f4bf09ffb8b3a5c672351%3Aevent_0004",
+      "provenance": {
+        "catalogId": "catalog_0001",
+        "sourceRefs": [
+          {
+            "id": "event_0004",
+            "kind": "event"
+          },
+          {
+            "id": "message_0001",
+            "kind": "message"
+          }
+        ]
+      },
+      "relationKind": "happened_at",
+      "toRef": "place_0001"
+    },
+    {
+      "details": {},
+      "epistemic": "authored_context",
+      "fromRef": "runtime:package_0003:run_0003:command_29be9f2e254f4bf09ffb8b3a5c672351:event_0005",
+      "id": "link:place:runtime%3Apackage_0003%3Arun_0003%3Acommand_29be9f2e254f4bf09ffb8b3a5c672351%3Aevent_0005",
+      "provenance": {
+        "catalogId": "catalog_0001",
+        "sourceRefs": [
+          {
+            "id": "event_0005",
+            "kind": "event"
+          },
+          {
+            "id": "message_0002",
+            "kind": "message"
+          }
+        ]
+      },
+      "relationKind": "happened_at",
+      "toRef": "place_0001"
+    },
+    {
+      "details": {},
+      "epistemic": "authored_context",
+      "fromRef": "actor_0001",
+      "id": "link:scenario:scenario_0001:actor_0001",
+      "provenance": {
+        "catalogId": "catalog_0001"
+      },
+      "relationKind": "relevant_to",
+      "toRef": "scenario_0001"
+    },
+    {
+      "details": {},
+      "epistemic": "authored_context",
+      "fromRef": "actor_0002",
+      "id": "link:scenario:scenario_0001:actor_0002",
+      "provenance": {
+        "catalogId": "catalog_0001"
+      },
+      "relationKind": "relevant_to",
+      "toRef": "scenario_0001"
+    },
+    {
+      "details": {},
+      "epistemic": "authored_context",
+      "fromRef": "actor_0003",
+      "id": "link:scenario:scenario_0001:actor_0003",
+      "provenance": {
+        "catalogId": "catalog_0001"
+      },
+      "relationKind": "relevant_to",
+      "toRef": "scenario_0001"
+    },
+    {
+      "details": {},
+      "epistemic": "authored_context",
+      "fromRef": "actor_0004",
+      "id": "link:scenario:scenario_0001:actor_0004",
+      "provenance": {
+        "catalogId": "catalog_0001"
+      },
+      "relationKind": "relevant_to",
+      "toRef": "scenario_0001"
+    },
+    {
+      "details": {},
+      "epistemic": "authored_context",
+      "fromRef": "event_0001",
+      "id": "link:scenario:scenario_0001:event_0001",
+      "provenance": {
+        "catalogId": "catalog_0001"
+      },
+      "relationKind": "relevant_to",
+      "toRef": "scenario_0001"
+    },
+    {
+      "details": {},
+      "epistemic": "authored_context",
+      "fromRef": "place_0001",
+      "id": "link:scenario:scenario_0001:place_0001",
+      "provenance": {
+        "catalogId": "catalog_0001"
+      },
+      "relationKind": "relevant_to",
+      "toRef": "scenario_0001"
+    },
+    {
+      "details": {},
+      "epistemic": "authored_context",
+      "fromRef": "runtime:package_0003:run_0003:command_05cb025634924700b6c4db1489db0977:event_0003",
+      "id": "link:scenario:scenario_0001:runtime%3Apackage_0003%3Arun_0003%3Acommand_05cb025634924700b6c4db1489db0977%3Aevent_0003",
+      "provenance": {
+        "catalogId": "catalog_0001"
+      },
+      "relationKind": "relevant_to",
+      "toRef": "scenario_0001"
+    },
+    {
+      "details": {},
+      "epistemic": "authored_context",
+      "fromRef": "runtime:package_0003:run_0003:command_29be9f2e254f4bf09ffb8b3a5c672351:event_0004",
+      "id": "link:scenario:scenario_0001:runtime%3Apackage_0003%3Arun_0003%3Acommand_29be9f2e254f4bf09ffb8b3a5c672351%3Aevent_0004",
+      "provenance": {
+        "catalogId": "catalog_0001"
+      },
+      "relationKind": "relevant_to",
+      "toRef": "scenario_0001"
+    },
+    {
+      "details": {},
+      "epistemic": "authored_context",
+      "fromRef": "runtime:package_0003:run_0003:command_29be9f2e254f4bf09ffb8b3a5c672351:event_0005",
+      "id": "link:scenario:scenario_0001:runtime%3Apackage_0003%3Arun_0003%3Acommand_29be9f2e254f4bf09ffb8b3a5c672351%3Aevent_0005",
+      "provenance": {
+        "catalogId": "catalog_0001"
+      },
+      "relationKind": "relevant_to",
+      "toRef": "scenario_0001"
+    },
+    {
+      "details": {},
+      "epistemic": "authored_context",
+      "fromRef": "subject_0001",
+      "id": "link:scenario:scenario_0001:subject_0001",
+      "provenance": {
+        "catalogId": "catalog_0001"
+      },
+      "relationKind": "relevant_to",
+      "toRef": "scenario_0001"
+    },
+    {
+      "details": {},
+      "epistemic": "authored_context",
+      "fromRef": "subject_0002",
+      "id": "link:scenario:scenario_0001:subject_0002",
+      "provenance": {
+        "catalogId": "catalog_0001"
+      },
+      "relationKind": "relevant_to",
+      "toRef": "scenario_0001"
+    },
+    {
+      "details": {},
+      "epistemic": "authored_context",
+      "fromRef": "subject_0003",
+      "id": "link:scenario:scenario_0001:subject_0003",
+      "provenance": {
+        "catalogId": "catalog_0001"
+      },
+      "relationKind": "relevant_to",
+      "toRef": "scenario_0001"
+    },
+    {
+      "details": {},
+      "epistemic": "authored_context",
+      "fromRef": "subject_0004",
+      "id": "link:scenario:scenario_0001:subject_0004",
+      "provenance": {
+        "catalogId": "catalog_0001"
+      },
+      "relationKind": "relevant_to",
+      "toRef": "scenario_0001"
+    },
+    {
+      "details": {},
+      "epistemic": "authored_context",
+      "fromRef": "subject_000b",
+      "id": "link:scenario:scenario_0001:subject_000b",
+      "provenance": {
+        "catalogId": "catalog_0001"
+      },
+      "relationKind": "relevant_to",
+      "toRef": "scenario_0001"
+    },
+    {
+      "details": {},
+      "epistemic": "authored_context",
+      "fromRef": "subject_000d",
+      "id": "link:scenario:scenario_0001:subject_000d",
+      "provenance": {
+        "catalogId": "catalog_0001"
+      },
+      "relationKind": "relevant_to",
+      "toRef": "scenario_0001"
+    },
+    {
+      "details": {},
+      "epistemic": "observation",
+      "fromRef": "event_0001",
+      "id": "link:thing:event_0001:subject_0001",
+      "provenance": {
+        "sourceRefs": [
+          {
+            "id": "event_0001",
+            "kind": "event"
+          }
+        ]
+      },
+      "relationKind": "references_thing",
+      "toRef": "subject_0001"
+    },
+    {
+      "details": {},
+      "epistemic": "observation",
+      "fromRef": "event_0001",
+      "id": "link:thing:event_0001:subject_0002",
+      "provenance": {
+        "sourceRefs": [
+          {
+            "id": "event_0001",
+            "kind": "event"
+          }
+        ]
+      },
+      "relationKind": "references_thing",
+      "toRef": "subject_0002"
+    },
+    {
+      "details": {},
+      "epistemic": "observation",
+      "fromRef": "event_0001",
+      "id": "link:thing:event_0001:subject_0003",
+      "provenance": {
+        "sourceRefs": [
+          {
+            "id": "event_0001",
+            "kind": "event"
+          }
+        ]
+      },
+      "relationKind": "references_thing",
+      "toRef": "subject_0003"
+    },
+    {
+      "details": {},
+      "epistemic": "observation",
+      "fromRef": "event_0001",
+      "id": "link:thing:event_0001:subject_000d",
+      "provenance": {
+        "sourceRefs": [
+          {
+            "id": "event_0001",
+            "kind": "event"
+          }
+        ]
+      },
+      "relationKind": "references_thing",
+      "toRef": "subject_000d"
+    },
+    {
+      "details": {},
+      "epistemic": "observation",
+      "fromRef": "runtime:package_0003:run_0003:command_05cb025634924700b6c4db1489db0977:event_0003",
+      "id": "link:thing:runtime%3Apackage_0003%3Arun_0003%3Acommand_05cb025634924700b6c4db1489db0977%3Aevent_0003:subject_0001",
+      "provenance": {
+        "sourceRefs": [
+          {
+            "id": "event_0003",
+            "kind": "event"
+          },
+          {
+            "id": "result_0001",
+            "kind": "action_result"
+          }
+        ]
+      },
+      "relationKind": "references_thing",
+      "toRef": "subject_0001"
+    },
+    {
+      "details": {},
+      "epistemic": "observation",
+      "fromRef": "runtime:package_0003:run_0003:command_05cb025634924700b6c4db1489db0977:event_0003",
+      "id": "link:thing:runtime%3Apackage_0003%3Arun_0003%3Acommand_05cb025634924700b6c4db1489db0977%3Aevent_0003:subject_0002",
+      "provenance": {
+        "sourceRefs": [
+          {
+            "id": "event_0003",
+            "kind": "event"
+          },
+          {
+            "id": "result_0001",
+            "kind": "action_result"
+          }
+        ]
+      },
+      "relationKind": "references_thing",
+      "toRef": "subject_0002"
+    },
+    {
+      "details": {},
+      "epistemic": "communication",
+      "fromRef": "runtime:package_0003:run_0003:command_29be9f2e254f4bf09ffb8b3a5c672351:event_0004",
+      "id": "link:thing:runtime%3Apackage_0003%3Arun_0003%3Acommand_29be9f2e254f4bf09ffb8b3a5c672351%3Aevent_0004:subject_0003",
+      "provenance": {
+        "sourceRefs": [
+          {
+            "id": "event_0004",
+            "kind": "event"
+          },
+          {
+            "id": "message_0001",
+            "kind": "message"
+          }
+        ]
+      },
+      "relationKind": "references_thing",
+      "toRef": "subject_0003"
+    },
+    {
+      "details": {},
+      "epistemic": "communication",
+      "fromRef": "runtime:package_0003:run_0003:command_29be9f2e254f4bf09ffb8b3a5c672351:event_0005",
+      "id": "link:thing:runtime%3Apackage_0003%3Arun_0003%3Acommand_29be9f2e254f4bf09ffb8b3a5c672351%3Aevent_0005:subject_0001",
+      "provenance": {
+        "sourceRefs": [
+          {
+            "id": "event_0005",
+            "kind": "event"
+          },
+          {
+            "id": "message_0002",
+            "kind": "message"
+          }
+        ]
+      },
+      "relationKind": "references_thing",
+      "toRef": "subject_0001"
+    }
+  ]
+}

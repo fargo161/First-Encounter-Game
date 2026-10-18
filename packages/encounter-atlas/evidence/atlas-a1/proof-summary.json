@@ -1,0 +1,925 @@
+{
+  "result": "PASS",
+  "models": 12,
+  "validatedActualSaves": 6,
+  "repeatedReadAndRenderPure": true,
+  "repeatOpenDeterministic": true,
+  "records": [
+    {
+      "name": "initial",
+      "audience": "author",
+      "revision": 0,
+      "inputDigest": "6edc2be9c477ac098ed702f39019ab3bcecc73727c8f0d8a076c278ee540920a",
+      "catalogDigest": "46fa89e1ff1831614eca1ad63d030427c258a8debd849b054c375fbc96033e42",
+      "modelSHA256": "c7a06f10391d0e0c15c40cdc5b44351f69b9f454e3c279b089c22b5797971048",
+      "people": [
+        {
+          "id": "actor_0001",
+          "name": "Collector",
+          "mode": "modeled",
+          "status": "Information received in this run",
+          "sections": [
+            {
+              "name": "Received information",
+              "records": 3
+            }
+          ]
+        },
+        {
+          "id": "actor_0002",
+          "name": "Tamsin",
+          "mode": "modeled",
+          "status": "Information received in this run",
+          "sections": [
+            {
+              "name": "Received information",
+              "records": 6
+            },
+            {
+              "name": "Beliefs",
+              "records": 4
+            }
+          ]
+        },
+        {
+          "id": "actor_0003",
+          "name": "Nera Vale",
+          "mode": "modeled",
+          "status": "No received information recorded in this run",
+          "sections": [
+            {
+              "name": "Owns",
+              "records": 1
+            }
+          ]
+        },
+        {
+          "id": "actor_0004",
+          "name": "Orrin",
+          "mode": "modeled",
+          "status": "Information received in this run",
+          "sections": [
+            {
+              "name": "Received information",
+              "records": 4
+            },
+            {
+              "name": "Beliefs",
+              "records": 1
+            }
+          ]
+        }
+      ],
+      "readOnlyCheck": {
+        "unchanged": true,
+        "snapshotDigest": "6edc2be9c477ac098ed702f39019ab3bcecc73727c8f0d8a076c278ee540920a",
+        "catalogDigest": "46fa89e1ff1831614eca1ad63d030427c258a8debd849b054c375fbc96033e42",
+        "revision": 0,
+        "journalEntries": 0,
+        "packageDigest": "2ce9f61b996f17392a39c56f4005d8203b7940aa4974564fafa54d110e35ae8f"
+      }
+    },
+    {
+      "name": "initial",
+      "audience": "player",
+      "revision": 0,
+      "inputDigest": "6edc2be9c477ac098ed702f39019ab3bcecc73727c8f0d8a076c278ee540920a",
+      "catalogDigest": "46fa89e1ff1831614eca1ad63d030427c258a8debd849b054c375fbc96033e42",
+      "modelSHA256": "09b2cecc578331c34242eaedc9e1435d9b91b619f686a9a5547bfdbc22b51aa5",
+      "people": [
+        {
+          "id": "actor_0001",
+          "name": "Collector",
+          "mode": "modeled",
+          "status": "Information received in this run",
+          "sections": [
+            {
+              "name": "Received information",
+              "records": 3
+            }
+          ]
+        },
+        {
+          "id": "actor_0002",
+          "name": "Tamsin",
+          "mode": "hidden",
+          "status": "Not shown in this view",
+          "sections": []
+        },
+        {
+          "id": "actor_0003",
+          "name": "Nera Vale",
+          "mode": "hidden",
+          "status": "Not shown in this view",
+          "sections": []
+        },
+        {
+          "id": "actor_0004",
+          "name": "Orrin",
+          "mode": "hidden",
+          "status": "Not shown in this view",
+          "sections": []
+        }
+      ],
+      "readOnlyCheck": {
+        "unchanged": true,
+        "snapshotDigest": "6edc2be9c477ac098ed702f39019ab3bcecc73727c8f0d8a076c278ee540920a",
+        "catalogDigest": "46fa89e1ff1831614eca1ad63d030427c258a8debd849b054c375fbc96033e42",
+        "revision": 0,
+        "journalEntries": 0,
+        "packageDigest": "2ce9f61b996f17392a39c56f4005d8203b7940aa4974564fafa54d110e35ae8f"
+      }
+    },
+    {
+      "name": "warned",
+      "audience": "author",
+      "revision": 11,
+      "inputDigest": "3f34a44b72430f6d50e732755e16338e48cc3081bc86d50990a7f4baf1c253ed",
+      "catalogDigest": "46fa89e1ff1831614eca1ad63d030427c258a8debd849b054c375fbc96033e42",
+      "modelSHA256": "e61f72f74167be1b3b3f774a307ef032bf6d387ab9b19aed1e5155723fdf6143",
+      "people": [
+        {
+          "id": "actor_0001",
+          "name": "Collector",
+          "mode": "modeled",
+          "status": "Information received in this run",
+          "sections": [
+            {
+              "name": "Received information",
+              "records": 22
+            },
+            {
+              "name": "Reports received",
+              "records": 1
+            }
+          ]
+        },
+        {
+          "id": "actor_0002",
+          "name": "Tamsin",
+          "mode": "modeled",
+          "status": "Information received in this run",
+          "sections": [
+            {
+              "name": "Received information",
+              "records": 15
+            },
+            {
+              "name": "Beliefs",
+              "records": 4
+            },
+            {
+              "name": "Concerns",
+              "records": 1
+            },
+            {
+              "name": "Communications",
+              "records": 5
+            }
+          ]
+        },
+        {
+          "id": "actor_0003",
+          "name": "Nera Vale",
+          "mode": "modeled",
+          "status": "No received information recorded in this run",
+          "sections": [
+            {
+              "name": "Owns",
+              "records": 1
+            }
+          ]
+        },
+        {
+          "id": "actor_0004",
+          "name": "Orrin",
+          "mode": "modeled",
+          "status": "Information received in this run",
+          "sections": [
+            {
+              "name": "Received information",
+              "records": 7
+            },
+            {
+              "name": "Reports and evidence shared",
+              "records": 1
+            },
+            {
+              "name": "Beliefs",
+              "records": 1
+            }
+          ]
+        }
+      ],
+      "readOnlyCheck": {
+        "unchanged": true,
+        "snapshotDigest": "3f34a44b72430f6d50e732755e16338e48cc3081bc86d50990a7f4baf1c253ed",
+        "catalogDigest": "46fa89e1ff1831614eca1ad63d030427c258a8debd849b054c375fbc96033e42",
+        "revision": 11,
+        "journalEntries": 11,
+        "packageDigest": "2ce9f61b996f17392a39c56f4005d8203b7940aa4974564fafa54d110e35ae8f"
+      }
+    },
+    {
+      "name": "warned",
+      "audience": "player",
+      "revision": 11,
+      "inputDigest": "3f34a44b72430f6d50e732755e16338e48cc3081bc86d50990a7f4baf1c253ed",
+      "catalogDigest": "46fa89e1ff1831614eca1ad63d030427c258a8debd849b054c375fbc96033e42",
+      "modelSHA256": "9dd0b87734e76209028771a083a61567e5b8684cb73c1ef9d3b309eb9f5fe4c6",
+      "people": [
+        {
+          "id": "actor_0001",
+          "name": "Collector",
+          "mode": "modeled",
+          "status": "Information received in this run",
+          "sections": [
+            {
+              "name": "Received information",
+              "records": 22
+            },
+            {
+              "name": "Reports received",
+              "records": 1
+            }
+          ]
+        },
+        {
+          "id": "actor_0002",
+          "name": "Tamsin",
+          "mode": "hidden",
+          "status": "Not shown in this view",
+          "sections": []
+        },
+        {
+          "id": "actor_0003",
+          "name": "Nera Vale",
+          "mode": "hidden",
+          "status": "Not shown in this view",
+          "sections": [
+            {
+              "name": "Owns",
+              "records": 1
+            }
+          ]
+        },
+        {
+          "id": "actor_0004",
+          "name": "Orrin",
+          "mode": "hidden",
+          "status": "Not shown in this view",
+          "sections": [
+            {
+              "name": "Reports and evidence shared",
+              "records": 1
+            }
+          ]
+        }
+      ],
+      "readOnlyCheck": {
+        "unchanged": true,
+        "snapshotDigest": "3f34a44b72430f6d50e732755e16338e48cc3081bc86d50990a7f4baf1c253ed",
+        "catalogDigest": "46fa89e1ff1831614eca1ad63d030427c258a8debd849b054c375fbc96033e42",
+        "revision": 11,
+        "journalEntries": 11,
+        "packageDigest": "2ce9f61b996f17392a39c56f4005d8203b7940aa4974564fafa54d110e35ae8f"
+      }
+    },
+    {
+      "name": "repaired",
+      "audience": "author",
+      "revision": 17,
+      "inputDigest": "a16e5c7908b7bee614e1e2692c5b3ee5164001bb01c0e1ff90a28bfccf977718",
+      "catalogDigest": "46fa89e1ff1831614eca1ad63d030427c258a8debd849b054c375fbc96033e42",
+      "modelSHA256": "a11613569d3f25a9e0463fb3800c21c851bd4baaa0c421549bc4f28290cd8585",
+      "people": [
+        {
+          "id": "actor_0001",
+          "name": "Collector",
+          "mode": "modeled",
+          "status": "Information received in this run",
+          "sections": [
+            {
+              "name": "Received information",
+              "records": 27
+            },
+            {
+              "name": "Reports received",
+              "records": 1
+            }
+          ]
+        },
+        {
+          "id": "actor_0002",
+          "name": "Tamsin",
+          "mode": "modeled",
+          "status": "Information received in this run",
+          "sections": [
+            {
+              "name": "Received information",
+              "records": 18
+            },
+            {
+              "name": "Beliefs",
+              "records": 4
+            },
+            {
+              "name": "Concerns",
+              "records": 1
+            },
+            {
+              "name": "Communications",
+              "records": 8
+            }
+          ]
+        },
+        {
+          "id": "actor_0003",
+          "name": "Nera Vale",
+          "mode": "modeled",
+          "status": "No received information recorded in this run",
+          "sections": [
+            {
+              "name": "Owns",
+              "records": 1
+            }
+          ]
+        },
+        {
+          "id": "actor_0004",
+          "name": "Orrin",
+          "mode": "modeled",
+          "status": "Information received in this run",
+          "sections": [
+            {
+              "name": "Received information",
+              "records": 7
+            },
+            {
+              "name": "Reports and evidence shared",
+              "records": 1
+            },
+            {
+              "name": "Beliefs",
+              "records": 1
+            }
+          ]
+        }
+      ],
+      "readOnlyCheck": {
+        "unchanged": true,
+        "snapshotDigest": "a16e5c7908b7bee614e1e2692c5b3ee5164001bb01c0e1ff90a28bfccf977718",
+        "catalogDigest": "46fa89e1ff1831614eca1ad63d030427c258a8debd849b054c375fbc96033e42",
+        "revision": 17,
+        "journalEntries": 17,
+        "packageDigest": "2ce9f61b996f17392a39c56f4005d8203b7940aa4974564fafa54d110e35ae8f"
+      }
+    },
+    {
+      "name": "repaired",
+      "audience": "player",
+      "revision": 17,
+      "inputDigest": "a16e5c7908b7bee614e1e2692c5b3ee5164001bb01c0e1ff90a28bfccf977718",
+      "catalogDigest": "46fa89e1ff1831614eca1ad63d030427c258a8debd849b054c375fbc96033e42",
+      "modelSHA256": "28b968ddee084e5d9be72673e792ad0aef21b8cde2384122ab79eeaae45c9ae8",
+      "people": [
+        {
+          "id": "actor_0001",
+          "name": "Collector",
+          "mode": "modeled",
+          "status": "Information received in this run",
+          "sections": [
+            {
+              "name": "Received information",
+              "records": 27
+            },
+            {
+              "name": "Reports received",
+              "records": 1
+            }
+          ]
+        },
+        {
+          "id": "actor_0002",
+          "name": "Tamsin",
+          "mode": "hidden",
+          "status": "Not shown in this view",
+          "sections": []
+        },
+        {
+          "id": "actor_0003",
+          "name": "Nera Vale",
+          "mode": "hidden",
+          "status": "Not shown in this view",
+          "sections": [
+            {
+              "name": "Owns",
+              "records": 1
+            }
+          ]
+        },
+        {
+          "id": "actor_0004",
+          "name": "Orrin",
+          "mode": "hidden",
+          "status": "Not shown in this view",
+          "sections": [
+            {
+              "name": "Reports and evidence shared",
+              "records": 1
+            }
+          ]
+        }
+      ],
+      "readOnlyCheck": {
+        "unchanged": true,
+        "snapshotDigest": "a16e5c7908b7bee614e1e2692c5b3ee5164001bb01c0e1ff90a28bfccf977718",
+        "catalogDigest": "46fa89e1ff1831614eca1ad63d030427c258a8debd849b054c375fbc96033e42",
+        "revision": 17,
+        "journalEntries": 17,
+        "packageDigest": "2ce9f61b996f17392a39c56f4005d8203b7940aa4974564fafa54d110e35ae8f"
+      }
+    },
+    {
+      "name": "pending",
+      "audience": "author",
+      "revision": 18,
+      "inputDigest": "5b8906bb88c95165372e79546a12245c6cd42d4f9f9eb68dff54c4e9ac8ab283",
+      "catalogDigest": "46fa89e1ff1831614eca1ad63d030427c258a8debd849b054c375fbc96033e42",
+      "modelSHA256": "189deb08b5601d6b6c6607c4d4323fe9a1cc96a208511750e9b08e9403dbbf6c",
+      "people": [
+        {
+          "id": "actor_0001",
+          "name": "Collector",
+          "mode": "modeled",
+          "status": "Information received in this run",
+          "sections": [
+            {
+              "name": "Received information",
+              "records": 38
+            },
+            {
+              "name": "Reports received",
+              "records": 1
+            }
+          ]
+        },
+        {
+          "id": "actor_0002",
+          "name": "Tamsin",
+          "mode": "modeled",
+          "status": "Information received in this run",
+          "sections": [
+            {
+              "name": "Received information",
+              "records": 27
+            },
+            {
+              "name": "Reports received",
+              "records": 1
+            },
+            {
+              "name": "Beliefs",
+              "records": 7
+            },
+            {
+              "name": "Concerns",
+              "records": 1
+            },
+            {
+              "name": "Communications",
+              "records": 9
+            }
+          ]
+        },
+        {
+          "id": "actor_0003",
+          "name": "Nera Vale",
+          "mode": "modeled",
+          "status": "No received information recorded in this run",
+          "sections": [
+            {
+              "name": "Owns",
+              "records": 1
+            }
+          ]
+        },
+        {
+          "id": "actor_0004",
+          "name": "Orrin",
+          "mode": "modeled",
+          "status": "Information received in this run",
+          "sections": [
+            {
+              "name": "Received information",
+              "records": 7
+            },
+            {
+              "name": "Reports and evidence shared",
+              "records": 1
+            },
+            {
+              "name": "Beliefs",
+              "records": 1
+            }
+          ]
+        }
+      ],
+      "readOnlyCheck": {
+        "unchanged": true,
+        "snapshotDigest": "5b8906bb88c95165372e79546a12245c6cd42d4f9f9eb68dff54c4e9ac8ab283",
+        "catalogDigest": "46fa89e1ff1831614eca1ad63d030427c258a8debd849b054c375fbc96033e42",
+        "revision": 18,
+        "journalEntries": 18,
+        "packageDigest": "2ce9f61b996f17392a39c56f4005d8203b7940aa4974564fafa54d110e35ae8f"
+      }
+    },
+    {
+      "name": "pending",
+      "audience": "player",
+      "revision": 18,
+      "inputDigest": "5b8906bb88c95165372e79546a12245c6cd42d4f9f9eb68dff54c4e9ac8ab283",
+      "catalogDigest": "46fa89e1ff1831614eca1ad63d030427c258a8debd849b054c375fbc96033e42",
+      "modelSHA256": "76e62c3f0f840c30823f919b8894be768e64e573824ed45537e66ce64d51fa25",
+      "people": [
+        {
+          "id": "actor_0001",
+          "name": "Collector",
+          "mode": "modeled",
+          "status": "Information received in this run",
+          "sections": [
+            {
+              "name": "Received information",
+              "records": 38
+            },
+            {
+              "name": "Reports received",
+              "records": 1
+            }
+          ]
+        },
+        {
+          "id": "actor_0002",
+          "name": "Tamsin",
+          "mode": "hidden",
+          "status": "Not shown in this view",
+          "sections": []
+        },
+        {
+          "id": "actor_0003",
+          "name": "Nera Vale",
+          "mode": "hidden",
+          "status": "Not shown in this view",
+          "sections": [
+            {
+              "name": "Owns",
+              "records": 1
+            }
+          ]
+        },
+        {
+          "id": "actor_0004",
+          "name": "Orrin",
+          "mode": "hidden",
+          "status": "Not shown in this view",
+          "sections": [
+            {
+              "name": "Reports and evidence shared",
+              "records": 1
+            }
+          ]
+        }
+      ],
+      "readOnlyCheck": {
+        "unchanged": true,
+        "snapshotDigest": "5b8906bb88c95165372e79546a12245c6cd42d4f9f9eb68dff54c4e9ac8ab283",
+        "catalogDigest": "46fa89e1ff1831614eca1ad63d030427c258a8debd849b054c375fbc96033e42",
+        "revision": 18,
+        "journalEntries": 18,
+        "packageDigest": "2ce9f61b996f17392a39c56f4005d8203b7940aa4974564fafa54d110e35ae8f"
+      }
+    },
+    {
+      "name": "recovery",
+      "audience": "author",
+      "revision": 20,
+      "inputDigest": "70cbbce818505831eaf1afb62e3cfbc01c8051b36d4a442556bdb0e1db417978",
+      "catalogDigest": "46fa89e1ff1831614eca1ad63d030427c258a8debd849b054c375fbc96033e42",
+      "modelSHA256": "4d4f79100328c6b81caa150230ba7d4f9ecb65ab078dc7008ac04bbb0ae1d9f0",
+      "people": [
+        {
+          "id": "actor_0001",
+          "name": "Collector",
+          "mode": "modeled",
+          "status": "Information received in this run",
+          "sections": [
+            {
+              "name": "Received information",
+              "records": 41
+            },
+            {
+              "name": "Reports received",
+              "records": 1
+            },
+            {
+              "name": "Currently holds",
+              "records": 1
+            }
+          ]
+        },
+        {
+          "id": "actor_0002",
+          "name": "Tamsin",
+          "mode": "modeled",
+          "status": "Information received in this run",
+          "sections": [
+            {
+              "name": "Received information",
+              "records": 30
+            },
+            {
+              "name": "Reports received",
+              "records": 1
+            },
+            {
+              "name": "Beliefs",
+              "records": 7
+            },
+            {
+              "name": "Concerns",
+              "records": 1
+            },
+            {
+              "name": "Communications",
+              "records": 10
+            }
+          ]
+        },
+        {
+          "id": "actor_0003",
+          "name": "Nera Vale",
+          "mode": "modeled",
+          "status": "No received information recorded in this run",
+          "sections": [
+            {
+              "name": "Owns",
+              "records": 1
+            }
+          ]
+        },
+        {
+          "id": "actor_0004",
+          "name": "Orrin",
+          "mode": "modeled",
+          "status": "Information received in this run",
+          "sections": [
+            {
+              "name": "Received information",
+              "records": 7
+            },
+            {
+              "name": "Reports and evidence shared",
+              "records": 1
+            },
+            {
+              "name": "Beliefs",
+              "records": 1
+            }
+          ]
+        }
+      ],
+      "readOnlyCheck": {
+        "unchanged": true,
+        "snapshotDigest": "70cbbce818505831eaf1afb62e3cfbc01c8051b36d4a442556bdb0e1db417978",
+        "catalogDigest": "46fa89e1ff1831614eca1ad63d030427c258a8debd849b054c375fbc96033e42",
+        "revision": 20,
+        "journalEntries": 20,
+        "packageDigest": "2ce9f61b996f17392a39c56f4005d8203b7940aa4974564fafa54d110e35ae8f"
+      }
+    },
+    {
+      "name": "recovery",
+      "audience": "player",
+      "revision": 20,
+      "inputDigest": "70cbbce818505831eaf1afb62e3cfbc01c8051b36d4a442556bdb0e1db417978",
+      "catalogDigest": "46fa89e1ff1831614eca1ad63d030427c258a8debd849b054c375fbc96033e42",
+      "modelSHA256": "3e7f04c5ab5ad1172ab70b65db00a7646466e2793d444bfe87a729eaed5864f9",
+      "people": [
+        {
+          "id": "actor_0001",
+          "name": "Collector",
+          "mode": "modeled",
+          "status": "Information received in this run",
+          "sections": [
+            {
+              "name": "Received information",
+              "records": 41
+            },
+            {
+              "name": "Reports received",
+              "records": 1
+            },
+            {
+              "name": "Currently holds",
+              "records": 1
+            }
+          ]
+        },
+        {
+          "id": "actor_0002",
+          "name": "Tamsin",
+          "mode": "hidden",
+          "status": "Not shown in this view",
+          "sections": []
+        },
+        {
+          "id": "actor_0003",
+          "name": "Nera Vale",
+          "mode": "hidden",
+          "status": "Not shown in this view",
+          "sections": [
+            {
+              "name": "Owns",
+              "records": 1
+            }
+          ]
+        },
+        {
+          "id": "actor_0004",
+          "name": "Orrin",
+          "mode": "hidden",
+          "status": "Not shown in this view",
+          "sections": [
+            {
+              "name": "Reports and evidence shared",
+              "records": 1
+            }
+          ]
+        }
+      ],
+      "readOnlyCheck": {
+        "unchanged": true,
+        "snapshotDigest": "70cbbce818505831eaf1afb62e3cfbc01c8051b36d4a442556bdb0e1db417978",
+        "catalogDigest": "46fa89e1ff1831614eca1ad63d030427c258a8debd849b054c375fbc96033e42",
+        "revision": 20,
+        "journalEntries": 20,
+        "packageDigest": "2ce9f61b996f17392a39c56f4005d8203b7940aa4974564fafa54d110e35ae8f"
+      }
+    },
+    {
+      "name": "collapse",
+      "audience": "author",
+      "revision": 12,
+      "inputDigest": "e8cf8d73d2a664bd8e6cad50a825cc2845dee3ec364e7ba2df0b70f692dc6576",
+      "catalogDigest": "46fa89e1ff1831614eca1ad63d030427c258a8debd849b054c375fbc96033e42",
+      "modelSHA256": "727dd99043d01944684a61cdd7fd9e98837dc7d0a1e1a596519df7f9b043c38f",
+      "people": [
+        {
+          "id": "actor_0001",
+          "name": "Collector",
+          "mode": "modeled",
+          "status": "Information received in this run",
+          "sections": [
+            {
+              "name": "Received information",
+              "records": 23
+            },
+            {
+              "name": "Reports received",
+              "records": 1
+            }
+          ]
+        },
+        {
+          "id": "actor_0002",
+          "name": "Tamsin",
+          "mode": "modeled",
+          "status": "Information received in this run",
+          "sections": [
+            {
+              "name": "Received information",
+              "records": 16
+            },
+            {
+              "name": "Beliefs",
+              "records": 4
+            },
+            {
+              "name": "Concerns",
+              "records": 1
+            },
+            {
+              "name": "Communications",
+              "records": 6
+            }
+          ]
+        },
+        {
+          "id": "actor_0003",
+          "name": "Nera Vale",
+          "mode": "modeled",
+          "status": "No received information recorded in this run",
+          "sections": [
+            {
+              "name": "Owns",
+              "records": 1
+            }
+          ]
+        },
+        {
+          "id": "actor_0004",
+          "name": "Orrin",
+          "mode": "modeled",
+          "status": "Information received in this run",
+          "sections": [
+            {
+              "name": "Received information",
+              "records": 7
+            },
+            {
+              "name": "Reports and evidence shared",
+              "records": 1
+            },
+            {
+              "name": "Beliefs",
+              "records": 1
+            }
+          ]
+        }
+      ],
+      "readOnlyCheck": {
+        "unchanged": true,
+        "snapshotDigest": "e8cf8d73d2a664bd8e6cad50a825cc2845dee3ec364e7ba2df0b70f692dc6576",
+        "catalogDigest": "46fa89e1ff1831614eca1ad63d030427c258a8debd849b054c375fbc96033e42",
+        "revision": 12,
+        "journalEntries": 12,
+        "packageDigest": "2ce9f61b996f17392a39c56f4005d8203b7940aa4974564fafa54d110e35ae8f"
+      }
+    },
+    {
+      "name": "collapse",
+      "audience": "player",
+      "revision": 12,
+      "inputDigest": "e8cf8d73d2a664bd8e6cad50a825cc2845dee3ec364e7ba2df0b70f692dc6576",
+      "catalogDigest": "46fa89e1ff1831614eca1ad63d030427c258a8debd849b054c375fbc96033e42",
+      "modelSHA256": "dbaa7ed574add8f2f17b7ce7aadb215ae1715a1fa54e97354d0901c439108f17",
+      "people": [
+        {
+          "id": "actor_0001",
+          "name": "Collector",
+          "mode": "modeled",
+          "status": "Information received in this run",
+          "sections": [
+            {
+              "name": "Received information",
+              "records": 23
+            },
+            {
+              "name": "Reports received",
+              "records": 1
+            }
+          ]
+        },
+        {
+          "id": "actor_0002",
+          "name": "Tamsin",
+          "mode": "hidden",
+          "status": "Not shown in this view",
+          "sections": []
+        },
+        {
+          "id": "actor_0003",
+          "name": "Nera Vale",
+          "mode": "hidden",
+          "status": "Not shown in this view",
+          "sections": [
+            {
+              "name": "Owns",
+              "records": 1
+            }
+          ]
+        },
+        {
+          "id": "actor_0004",
+          "name": "Orrin",
+          "mode": "hidden",
+          "status": "Not shown in this view",
+          "sections": [
+            {
+              "name": "Reports and evidence shared",
+              "records": 1
+            }
+          ]
+        }
+      ],
+      "readOnlyCheck": {
+        "unchanged": true,
+        "snapshotDigest": "e8cf8d73d2a664bd8e6cad50a825cc2845dee3ec364e7ba2df0b70f692dc6576",
+        "catalogDigest": "46fa89e1ff1831614eca1ad63d030427c258a8debd849b054c375fbc96033e42",
+        "revision": 12,
+        "journalEntries": 12,
+        "packageDigest": "2ce9f61b996f17392a39c56f4005d8203b7940aa4974564fafa54d110e35ae8f"
+      }
+    }
+  ]
+}

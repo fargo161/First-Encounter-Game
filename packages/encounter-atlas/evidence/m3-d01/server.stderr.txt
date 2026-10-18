@@ -1,0 +1,8 @@
+127.0.0.1 - - [18/Oct/2026 00:04:50] "GET /before/ HTTP/1.1" 200 -
+127.0.0.1 - - [18/Oct/2026 00:04:50] code 404, message Not Found
+127.0.0.1 - - [18/Oct/2026 00:04:50] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [18/Oct/2026 00:05:30] "GET /transparent/ HTTP/1.1" 200 -
+127.0.0.1 - - [18/Oct/2026 00:06:10] "GET /normal/ HTTP/1.1" 200 -
+127.0.0.1 - - [18/Oct/2026 00:07:43] "GET /offscreen/ HTTP/1.1" 200 -
+127.0.0.1 - - [18/Oct/2026 00:08:08] "GET /normal/ HTTP/1.1" 200 -
+127.0.0.1 - - [18/Oct/2026 00:12:32] "GET /transparent/ HTTP/1.1" 200 -

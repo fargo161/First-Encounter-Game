@@ -1,0 +1,14 @@
+{
+  "phase": "--all",
+  "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\encounter-r3-regression-hpwz7_xz",
+  "executable": "C:\\Users\\mcdon\\AppData\\Local\\Programs\\Python\\Python312\\python.EXE",
+  "args": [
+    "scripts/preserve-m3-r2.py"
+  ],
+  "environmentBinding": {
+    "M3_CHECKPOINT": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\encounter-r3-regression-hpwz7_xz"
+  },
+  "exitCode": 0,
+  "stdout": "{\"result\": \"PASS\", \"preservedR1SHA256\": \"f7afae2bfa1b75a4a8ec3e2ded09a7845671dbfb0ca9fc5ad487c655c6a68ed4\", \"preservedR1IdentitySHA256\": \"14ec8df2a70645cb0e955e1a626b951254050c95a2bf875f0c694b2ae3cf6c17\", \"verifiedR1Members\": 592, \"onlyProductionSourceChange\": \"src/m3/ui.mjs\", \"enginePolicyContractsKnowledgeMeaningContentUnchanged\": true, \"inheritedR1AssertionsUnchangedOnlyDOMFixtureCompleted\": true, \"allOtherInheritedTestsByteIdentical\": true}\n",
+  "stderr": ""
+}

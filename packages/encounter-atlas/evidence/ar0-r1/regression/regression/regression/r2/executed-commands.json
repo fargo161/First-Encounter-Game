@@ -1,0 +1,60 @@
+[
+  {
+    "phase": "--all",
+    "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\encounter-r3-regression-nvh5ha7n",
+    "executable": "C:\\Users\\mcdon\\AppData\\Local\\Programs\\Python\\Python312\\python.EXE",
+    "args": [
+      "scripts/check-m3-r1.py"
+    ],
+    "environmentBinding": {
+      "M3_CHECKPOINT": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\encounter-r3-regression-nvh5ha7n"
+    },
+    "exitCode": 0,
+    "stdout": "{\"command\": \"regression\", \"exitCode\": 0, \"tail\": [\"{\\\"log\\\": \\\"fresh-build.txt\\\", \\\"exitCode\\\": 0, \\\"tail\\\": [\\\"{\\\\\\\"build\\\\\\\":\\\\\\\"dist-m3/index.html\\\\\\\",\\\\\\\"bytes\\\\\\\":133751,\\\\\\\"modules\\\\\\\":11,\\\\\\\"packageRef\\\\\\\":{\\\\\\\"id\\\\\\\":\\\\\\\"package_0003\\\\\\\",\\\\\\\"revision\\\\\\\":1,\\\\\\\"digest\\\\\\\":\\\\\\\"2ce9f61b996f17392a39c56f4005d8203b7940aa4974564fafa54d110e35ae8f\\\\\\\"}}\\\"]}\", \"{\\\"log\\\": \\\"fresh-source-identity.txt\\\", \\\"exitCode\\\": 0, \\\"tail\\\": [\\\"{\\\\\\\"sourceRevision\\\\\\\": \\\\\\\"M3-runtime-v1-R3-D03\\\\\\\", \\\\\\\"sourceDigest\\\\\\\": \\\\\\\"8df8db981955a28900e0e49b52c56ea4dfb9242e722d6f767417396ae4b65e5a\\\\\\\", \\\\\\\"files\\\\\\\": 87}\\\"]}\", \"{\\\"log\\\": \\\"fresh-preservation.txt\\\", \\\"exitCode\\\": 0, \\\"tail\\\": [\\\"{\\\\\\\"result\\\\\\\": \\\\\\\"PASS\\\\\\\", \\\\\\\"baselineMembers\\\\\\\": 73, \\\\\\\"unchangedCopyMembers\\\\\\\": 70, \\\\\\\"intentionalChanges\\\\\\\": [\\\\\\\"package.json\\\\\\\", \\\\\\\"README.md\\\\\\\", \\\\\\\"Test_Results_and_Scope.md\\\\\\\"]}\\\"]}\", \"{\\\"log\\\": \\\"fresh-m0-audit.txt\\\", \\\"exitCode\\\": 0, \\\"tail\\\": [\\\"{\\\", \\\"  \\\\\\\"milestone\\\\\\\": \\\\\\\"M0\\\\\\\",\\\", \\\"  \\\\\\\"baselineSHA256\\\\\\\": \\\\\\\"c9b50efed0ead41d0faa69757969feff8ced1fbc22187c11989aa9ff2dd21eb9\\\\\\\",\\\", \\\"  \\\\\\\"checksPassed\\\\\\\": 7,\\\", \\\"  \\\\\\\"checksFailed\\\\\\\": 0,\\\", \\\"  \\\\\\\"browserExecuted\\\\\\\": false,\\\", \\\"  \\\\\\\"historicalSuiteRecovered\\\\\\\": false\\\", \\\"}\\\"]}\", \"{\\\"log\\\": \\\"fresh-builder-tests.tap\\\", \\\"exitCode\\\": 0, \\\"tail\\\": [\\\"# tests 194\\\", \\\"# suites 0\\\", \\\"# pass 194\\\", \\\"# fail 0\\\", \\\"# cancelled 0\\\", \\\"# skipped 0\\\", \\\"# todo 0\\\", \\\"# duration_ms 54857.2192\\\"]}\", \"{\\\"log\\\": \\\"fresh-independent-m1.tap\\\", \\\"exitCode\\\": 0, \\\"tail\\\": [\\\"# tests 22\\\", \\\"# suites 0\\\", \\\"# pass 22\\\", \\\"# fail 0\\\", \\\"# cancelled 0\\\", \\\"# skipped 0\\\", \\\"# todo 0\\\", \\\"# duration_ms 1677.5607\\\"]}\", \"{\\\"log\\\": \\\"fresh-independent-m2.tap\\\", \\\"exitCode\\\": 0, \\\"tail\\\": [\\\"# tests 18\\\", \\\"# suites 0\\\", \\\"# pass 18\\\", \\\"# fail 0\\\", \\\"# cancelled 0\\\", \\\"# skipped 0\\\", \\\"# todo 0\\\", \\\"# duration_ms 3592.5591\\\"]}\", \"{\\\"log\\\": \\\"fresh-generated-evidence.txt\\\", \\\"exitCode\\\": 0, \\\"tail\\\": [\\\"{\\\\\\\"sourceRevision\\\\\\\":\\\\\\\"M3-runtime-v1-R3-D03\\\\\\\",\\\\\\\"sourceDigest\\\\\\\":\\\\\\\"8df8db981955a28900e0e49b52c56ea4dfb9242e722d6f767417396ae4b65e5a\\\\\\\",\\\\\\\"packageRef\\\\\\\":{\\\\\\\"id\\\\\\\":\\\\\\\"package_0003\\\\\\\",\\\\\\\"revision\\\\\\\":1,\\\\\\\"digest\\\\\\\":\\\\\\\"2ce9f61b996f17392a39c56f4005d8203b7940aa4974564fafa54d110e35ae8f\\\\\\\"},\\\\\\\"validatedBrowserRuns\\\\\\\":11,\\\\\\\"rawBrowserInspectorsMatch\\\\\\\":true,\\\\\\\"missingNoticeServiceOpen\\\\\\\":true,\\\\\\\"neutralRecoveryAndClosure\\\\\\\":true}\\\"]}\"]}\n{\"command\": \"independent-m3\", \"exitCode\": 0, \"tail\": [\"1..18\", \"# tests 18\", \"# suites 0\", \"# pass 18\", \"# fail 0\", \"# cancelled 0\", \"# skipped 0\", \"# todo 0\", \"# duration_ms 19896.2828\"]}\n{\"command\": \"independent-d01\", \"exitCode\": 0, \"tail\": [\"1..1\", \"# tests 1\", \"# suites 0\", \"# pass 1\", \"# fail 0\", \"# cancelled 0\", \"# skipped 0\", \"# todo 0\", \"# duration_ms 1213.8137\"]}\n{\"command\": \"browser-evidence\", \"exitCode\": 0, \"tail\": [\"{\\\"result\\\":\\\"PASS\\\",\\\"sourceRevision\\\":\\\"M3-runtime-v1-R3-D03\\\",\\\"sourceDigest\\\":\\\"8df8db981955a28900e0e49b52c56ea4dfb9242e722d6f767417396ae4b65e5a\\\",\\\"buildSHA256\\\":\\\"8e1c14e25a515b92188703927344e97b744921ec9b033ee2b1d8cc0b63f517cb\\\",\\\"packageRef\\\":{\\\"id\\\":\\\"package_0003\\\",\\\"revision\\\":1,\\\"digest\\\":\\\"2ce9f61b996f17392a39c56f4005d8203b7940aa4974564fafa54d110e35ae8f\\\"},\\\"validatedBrowserExports\\\":10,\\\"beforeDefectReproduced\\\":true,\\\"afterTransparentFallbackPass\\\":true,\\\"offscreenFallbackPass\\\":true,\\\"visibleClosurePass\\\":true,\\\"exactSaveLoadEquality\\\":true,\\\"recoveryAndPostRecoveryPass\\\":true,\\\"browserChecks\\\":8}\"]}\n{\"command\": \"preservation\", \"exitCode\": 0, \"tail\": [\"{\\\"result\\\": \\\"PASS\\\", \\\"failedCheckpointSHA256\\\": \\\"de808fbdbf6929c5c9cf7915ea982086d5796c7c004b16ec0a882e58170f3b64\\\", \\\"failedIdentitySHA256\\\": \\\"d025fe33a6a2773e88e249ce3c624280fca70921c8f541617ec8e92d4302abf4\\\", \\\"verifiedHistoricalMembers\\\": 189, \\\"onlyProductionSourceChange\\\": \\\"src/m3/ui.mjs\\\", \\\"enginePolicyKnowledgeMeaningTypesAndAuthoredContentUnchanged\\\": true, \\\"allInheritedTestSourcesUnchanged\\\": true}\"]}\n",
+    "stderr": ""
+  },
+  {
+    "phase": "--all",
+    "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\encounter-r3-regression-nvh5ha7n",
+    "executable": "C:\\Program Files\\nodejs\\node.EXE",
+    "args": [
+      "--test",
+      "--test-reporter=tap",
+      "scripts/run-independent-m3-d02.mjs"
+    ],
+    "environmentBinding": {
+      "M3_CHECKPOINT": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\encounter-r3-regression-nvh5ha7n"
+    },
+    "exitCode": 0,
+    "stdout": "TAP version 13\n# {\"originalTestSourceUnchanged\":true,\"behavioralAssertionsChanged\":false,\"adaptation\":\"Add measured viewport width to the DOM stub and isolate evidence output only\"}\n# Subtest: IR1-01 production guard rejects fully transparent own opacity with correct fallback\nok 1 - IR1-01 production guard rejects fully transparent own opacity with correct fallback\n  ---\n  duration_ms: 91.0465\n  type: 'test'\n  ...\n# Subtest: IR1-02 production guard rejects fully transparent ancestor with correct fallback\nok 2 - IR1-02 production guard rejects fully transparent ancestor with correct fallback\n  ---\n  duration_ms: 85.2568\n  type: 'test'\n  ...\n# Subtest: IR1-03 vertical offscreen, hidden, display-none and zero-height remain invalid\nok 3 - IR1-03 vertical offscreen, hidden, display-none and zero-height remain invalid\n  ---\n  duration_ms: 401.9395\n  type: 'test'\n  ...\n# Subtest: IR1-04 M3-D02 horizontally offscreen notice must not close service\nok 4 - IR1-04 M3-D02 horizontally offscreen notice must not close service\n  ---\n  duration_ms: 91.8196\n  type: 'test'\n  ...\n# Subtest: IR1-05 M3-D02 zero-width notice must not close service\nok 5 - IR1-05 M3-D02 zero-width notice must not close service\n  ---\n  duration_ms: 85.593\n  type: 'test'\n  ...\n# Subtest: IR1-06 actual visible current notice closes exactly once and retries reuse result\nok 6 - IR1-06 actual visible current notice closes exactly once and retries reuse result\n  ---\n  duration_ms: 82.0508\n  type: 'test'\n  ...\n# Subtest: IR1-07 truthful display receipt survives subsequent real offscreen scroll\nok 7 - IR1-07 truthful display receipt survives subsequent real offscreen scroll\n  ---\n  duration_ms: 9.2524\n  type: 'test'\n  ...\n# Subtest: IR1-08 marked stale or edited draft cannot reuse its receipt for another command\nok 8 - IR1-08 marked stale or edited draft cannot reuse its receipt for another command\n  ---\n  duration_ms: 127.0583\n  type: 'test'\n  ...\n# Subtest: IR1-09 fresh browser results replay and equal actual inspector exports\nok 9 - IR1-09 fresh browser results replay and equal actual inspector exports\n  ---\n  duration_ms: 5383.9335\n  type: 'test'\n  ...\n1..9\n# tests 9\n# suites 0\n# pass 9\n# fail 0\n# cancelled 0\n# skipped 0\n# todo 0\n# duration_ms 8094.5969\n",
+    "stderr": ""
+  },
+  {
+    "phase": "--all",
+    "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\encounter-r3-regression-nvh5ha7n",
+    "executable": "C:\\Program Files\\nodejs\\node.EXE",
+    "args": [
+      "scripts/generate-m3-d02-evidence.mjs"
+    ],
+    "environmentBinding": {
+      "M3_CHECKPOINT": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\encounter-r3-regression-nvh5ha7n"
+    },
+    "exitCode": 0,
+    "stdout": "{\"result\":\"PASS\",\"sourceRevision\":\"M3-runtime-v1-R3-D03\",\"sourceDigest\":\"8df8db981955a28900e0e49b52c56ea4dfb9242e722d6f767417396ae4b65e5a\",\"buildSHA256\":\"8e1c14e25a515b92188703927344e97b744921ec9b033ee2b1d8cc0b63f517cb\",\"packageRef\":{\"id\":\"package_0003\",\"revision\":1,\"digest\":\"2ce9f61b996f17392a39c56f4005d8203b7940aa4974564fafa54d110e35ae8f\"},\"browserExports\":14,\"rawInspectorsCompared\":4,\"beforeDefectsReproduced\":true,\"allInvalidDisplaysKeepServiceOpen\":true,\"visibleAndScrolledClosurePass\":true,\"recoveryAndPostRecoveryPass\":true,\"saveLoadEquality\":true,\"browserRecords\":13}\n",
+    "stderr": ""
+  },
+  {
+    "phase": "--all",
+    "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\encounter-r3-regression-nvh5ha7n",
+    "executable": "C:\\Users\\mcdon\\AppData\\Local\\Programs\\Python\\Python312\\python.EXE",
+    "args": [
+      "scripts/preserve-m3-r2.py"
+    ],
+    "environmentBinding": {
+      "M3_CHECKPOINT": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\encounter-r3-regression-nvh5ha7n"
+    },
+    "exitCode": 0,
+    "stdout": "{\"result\": \"PASS\", \"preservedR1SHA256\": \"f7afae2bfa1b75a4a8ec3e2ded09a7845671dbfb0ca9fc5ad487c655c6a68ed4\", \"preservedR1IdentitySHA256\": \"14ec8df2a70645cb0e955e1a626b951254050c95a2bf875f0c694b2ae3cf6c17\", \"verifiedR1Members\": 592, \"onlyProductionSourceChange\": \"src/m3/ui.mjs\", \"enginePolicyContractsKnowledgeMeaningContentUnchanged\": true, \"inheritedR1AssertionsUnchangedOnlyDOMFixtureCompleted\": true, \"allOtherInheritedTestsByteIdentical\": true}\n",
+    "stderr": ""
+  }
+]

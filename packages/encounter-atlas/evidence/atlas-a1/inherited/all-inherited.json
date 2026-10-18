@@ -1,0 +1,11 @@
+{
+  "name": "all-inherited",
+  "args": [
+    "python",
+    "scripts/check-ar0-r1.py"
+  ],
+  "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\atlas-a1-inherited-gates\\checkpoint",
+  "exitCode": 0,
+  "stdout": "{\"name\": \"identity\", \"exitCode\": 0, \"stdoutLog\": \"fresh-identity.json\"}\n{\"name\": \"all-inherited-ar0\", \"exitCode\": 0, \"stdoutLog\": \"fresh-all-inherited-ar0.json\"}\n{\"name\": \"independent-ar0\", \"exitCode\": 0, \"stdoutLog\": \"fresh-independent-ar0.json\"}\n{\"name\": \"conflicting-cli-author\", \"exitCode\": 1, \"stdoutLog\": \"fresh-conflicting-cli-author.json\"}\n{\"name\": \"conflicting-cli-player\", \"exitCode\": 1, \"stdoutLog\": \"fresh-conflicting-cli-player.json\"}\n{\"name\": \"preservation\", \"exitCode\": 0, \"stdoutLog\": \"fresh-preservation.json\"}\n",
+  "stderr": ""
+}

@@ -1,0 +1,31 @@
+{
+  "schema": "encounter-package@2",
+  "id": "package_0002",
+  "revision": 1,
+  "title": "Last Collection",
+  "contentRevision": "M2-paperwork-v1",
+  "actors": [
+    {"id":"actor_0001","label":"Collector","kind":"human","profile":null},
+    {"id":"actor_0002","label":"Tamsin","kind":"npc","profile":{"roles":["record_custodian"],"priorities":{"relevantService":10,"privacy":10,"verification":9}}},
+    {"id":"actor_0003","label":"Nera Vale","kind":"absent","profile":null}
+  ],
+  "subjects": [
+    {"id":"subject_0001","label":"Nera's green instrument case"},
+    {"id":"subject_0002","label":"Verified collection ticket"},
+    {"id":"subject_0003","label":"Collection record"},
+    {"id":"subject_0004","label":"Customer file"},
+    {"id":"subject_0005","label":"Handling extract"},
+    {"id":"subject_0006","label":"Private contact information"},
+    {"id":"subject_0007","label":"Office storage"}
+  ],
+  "bindings":{"humanId":"actor_0001","serviceId":"actor_0002","ownerId":"actor_0003","itemId":"subject_0001","ticketId":"subject_0002","recordId":"subject_0003","fileId":"subject_0004","handlingId":"subject_0005","contactId":"subject_0006","holderId":"subject_0007"},
+  "initial":{"entry":"collected","signature":"unfilled","protectedContact":"PRIVATE-FIXTURE-641: 17 Cedar Lane","balanceMinor":1200,"minorUnitsPerCoin":100,"softAllowance":24},
+  "communication": {
+    "expressions": [
+      {"vibe":"EA","templateId":"template_0011","cues":[{"kind":"scope_limit","text":"Limits the communication to the case record and the relevant next step."}]},
+      {"vibe":"SE","templateId":"template_0012","cues":[{"kind":"displayed_concern","text":"Acknowledges the clerk's work in keeping a defensible handover and approaches the issue with supportive concern."}]},
+      {"vibe":"AB","templateId":"template_0013","cues":[{"kind":"direct_demand","text":"Makes a direct demand for attention to the case record."},{"kind":"possible_consequence","text":"Raises a possible procedural complaint about the unresolved collected entry; no complaint is filed or promised."}]}
+    ]
+  },
+  "presentation":{"intake":null,"delivery":null,"art":null}
+}

@@ -1,0 +1,4 @@
+{
+  "automationTimeout": "A CDP click timed out while opening recovery; subsequent actual UI state showed After recovery / Step 20 and the remaining assertions passed.",
+  "productFailureObserved": false
+}

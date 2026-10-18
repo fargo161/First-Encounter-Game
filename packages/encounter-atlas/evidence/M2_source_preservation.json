@@ -1,0 +1,100 @@
+{
+  "priorCheckpoints": [
+    {
+      "archive": "Encounter_M0_Checkpoint.zip",
+      "sha256": "688f3e02414002574a43353ea1f8171a5ef9e11ddaa6e2dac25de93f7e828930",
+      "identitySHA256": "2bf1751709ebb905e6ddddd062faddbd31bec7c44464950fd18a1e590f1e73e7",
+      "membersVerified": 8,
+      "expandedMembersUnchanged": null
+    },
+    {
+      "archive": "Encounter_M0_M1_Checkpoint.zip",
+      "sha256": "e42900345ee3c1aba1956d6212577683321bc5c5f42ab3e1d6f12eb45fceb3bf",
+      "identitySHA256": "0a468470e3c76906a88a192c4898df12cff2d58fb77e64aeb51c49f94a4029e0",
+      "membersVerified": 24,
+      "expandedMembersUnchanged": 24
+    },
+    {
+      "archive": "Encounter_M0_M1_Checkpoint_R2.zip",
+      "sha256": "47a879c74ac7f684ff5d3d7d1de742d800d8d5cd801fe833234707ec66be555d",
+      "identitySHA256": "32c4ba2e84fe0e522a8376a6ff8d20a46162f15d49446a32c16576a7f4823164",
+      "membersVerified": 35,
+      "expandedMembersUnchanged": 35
+    }
+  ],
+  "originalReferences": [
+    {
+      "original": "C:\\Users\\mcdon\\Downloads\\Encounter_Codex_Lead_Builder_M0-M2_Prompt.md",
+      "copy": "reference/Encounter_Codex_Lead_Builder_M0-M2_Prompt.md",
+      "sha256": "e3942a672d064969c2629ae4c878445f0ca82b258297c2598cee74eaba7305e4",
+      "unchanged": true
+    },
+    {
+      "original": "C:\\Users\\mcdon\\Downloads\\Encounter_System_Master_v2.1 (1).md",
+      "copy": "reference/Encounter_System_Master_v2.1.md",
+      "sha256": "6ded5dea91b4189b3901eb16beff244e3f3094ed220380314dd07cecc6e7ef37",
+      "unchanged": true
+    },
+    {
+      "original": "C:\\Users\\mcdon\\Downloads\\Encounter_Approval_Record_2026-10-17 (1).md",
+      "copy": "reference/Encounter_Approval_Record_2026-10-17.md",
+      "sha256": "552b8eb6c5ee7c16a6f4ddf17a9b407cb46698e5e252e79e88c1a6dcefb8e778",
+      "unchanged": true
+    },
+    {
+      "original": "C:\\Users\\mcdon\\Downloads\\Encounter_Core (1).html",
+      "copy": "reference/Encounter_Core.html",
+      "sha256": "c9b50efed0ead41d0faa69757969feff8ced1fbc22187c11989aa9ff2dd21eb9",
+      "unchanged": true
+    }
+  ],
+  "unchangedR2SourcesAndAudit": [
+    {
+      "path": "src/runtime.mjs",
+      "sha256": "657d97f16704c973a7696c712a53e9afe55cecd40a4dfdfbbb5e331ef9eecf89"
+    },
+    {
+      "path": "src/action-boundary.mjs",
+      "sha256": "9e8b88efd9dd303fc2b0c5ac7f12a164a84a70c340cb7efe5e19c0727082f641"
+    },
+    {
+      "path": "src/contracts.mjs",
+      "sha256": "db7de91d1e53c687b4f0469238d51a9c95e8944ecbfb1388c975536aa4c96b78"
+    },
+    {
+      "path": "src/views.mjs",
+      "sha256": "be8138af95f8a3b5758d08013dd171b581c41db7448c9efa880645b8014b0ab9"
+    },
+    {
+      "path": "tests/fixtures.mjs",
+      "sha256": "f4ddba46ab2804f0358d78c07d30c9c26adca42ea825b2744fee780ddb8b85e4"
+    },
+    {
+      "path": "tests/runtime.test.mjs",
+      "sha256": "0b6da3c6f02565c02f0ed461fa63da0f4295514dce47967b727f17a63bf1e2a5"
+    },
+    {
+      "path": "tests/views.test.mjs",
+      "sha256": "159b1767ce62d9c4796e5a5c66ced265d9bdbd17ef0242516c8ccc548b047358"
+    },
+    {
+      "path": "tests/identity-regressions.test.mjs",
+      "sha256": "1aa8fa0650ea91c303519dac32966f10604a3552e76281444bb5ec6e4c787d00"
+    },
+    {
+      "path": "M0_Baseline_Inventory_and_Reuse_Plan.md",
+      "sha256": "98ed23033d019d167f9c552c303442973d0a303a353237a862c64cc723afbaf1"
+    },
+    {
+      "path": "independent/M1_Independent_Contract_Tests.test.mjs",
+      "sha256": "c591b4366097e77da7d21b4ddb861161a6ee3e71e9bc2af15acf5f1393ba4651"
+    }
+  ],
+  "independentR2Evidence": {
+    "archiveSHA256": "f758045250da945cb521ae22277c289a8e52055eaa5a347ff5f40f626002f46a",
+    "zipMembers": 30,
+    "manifestMembersVerified": 29,
+    "verdict": "READY FOR M2"
+  },
+  "result": "PASS"
+}

@@ -1,0 +1,71 @@
+{
+  "ancestors": [
+    {
+      "className": "preview",
+      "id": "",
+      "opacity": "1",
+      "tag": "DIV"
+    },
+    {
+      "className": "composer-body",
+      "id": "",
+      "opacity": "1",
+      "tag": "DIV"
+    },
+    {
+      "className": "panel",
+      "id": "composer",
+      "opacity": "1",
+      "tag": "SECTION"
+    },
+    {
+      "className": "tools-column",
+      "id": "",
+      "opacity": "1",
+      "tag": "DIV"
+    },
+    {
+      "className": "workspace",
+      "id": "",
+      "opacity": "1",
+      "tag": "MAIN"
+    },
+    {
+      "className": "shell",
+      "id": "",
+      "opacity": "1",
+      "tag": "DIV"
+    },
+    {
+      "className": "",
+      "id": "",
+      "opacity": "1",
+      "tag": "BODY"
+    },
+    {
+      "className": "",
+      "id": "",
+      "opacity": "1",
+      "tag": "HTML"
+    }
+  ],
+  "hidden": false,
+  "rect": {
+    "bottom": 544.2000122070312,
+    "height": 0,
+    "left": 57.20000076293945,
+    "right": 405.5999946594238,
+    "top": 544.2000122070312,
+    "width": 348.3999938964844
+  },
+  "style": {
+    "display": "block",
+    "opacity": "1",
+    "visibility": "visible"
+  },
+  "text": "The clerk warned that renewing this protected/full-file demand will end collection service for this visit. Send anyway or edit the draft.",
+  "viewport": {
+    "height": 764,
+    "width": 920
+  }
+}

@@ -1,0 +1,141 @@
+COMMAND: "C:\Program Files\nodejs\node.EXE" --test --test-reporter=tap tests/identity-regressions.test.mjs
+CWD: C:\Users\mcdon\Documents\Codex\2026-10-17\execute-encounter-codex-lead-builder-m0\outputs\Encounter_M0_M1_R2
+ENCOUNTER_CHECKPOINT: C:\Users\mcdon\Documents\Codex\2026-10-17\execute-encounter-codex-lead-builder-m0\outputs\Encounter_M0_M1_R2
+EXIT: 1
+
+TAP version 13
+# Subtest: D01-A regression: caller aliases cannot change the command resolved, receipted or journaled
+not ok 1 - D01-A regression: caller aliases cannot change the command resolved, receipted or journaled
+  ---
+  duration_ms: 7.9733
+  type: 'test'
+  location: 'C:\\Users\\mcdon\\Documents\\Codex\\2026-10-17\\execute-encounter-codex-lead-builder-m0\\outputs\\Encounter_M0_M1_R2\\tests\\identity-regressions.test.mjs:8:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    validateNew
+    + actual - expected
+    
+    + 'rejected'
+    - 'committed'
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: 'committed'
+  actual: 'rejected'
+  operator: 'strictEqual'
+  stack: |-
+    TestContext.<anonymous> (file:///C:/Users/mcdon/Documents/Codex/2026-10-17/execute-encounter-codex-lead-builder-m0/outputs/Encounter_M0_M1_R2/tests/identity-regressions.test.mjs:28:12)
+    Test.runInAsyncScope (node:async_hooks:227:14)
+    Test.run (node:internal/test_runner/test:1325:25)
+    Test.start (node:internal/test_runner/test:1191:17)
+    startSubtestAfterBootstrap (node:internal/test_runner/harness:385:17)
+  ...
+# Subtest: D01-B regression: caller request/result alias mutation cannot disguise an applied result
+not ok 2 - D01-B regression: caller request/result alias mutation cannot disguise an applied result
+  ---
+  duration_ms: 3.2739
+  type: 'test'
+  location: 'C:\\Users\\mcdon\\Documents\\Codex\\2026-10-17\\execute-encounter-codex-lead-builder-m0\\outputs\\Encounter_M0_M1_R2\\tests\\identity-regressions.test.mjs:45:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    Expected values to be strictly deep-equal:
+    + actual - expected
+    ... Skipped lines
+    
+      [
+        {
+          effects: [
+            {
+              payload: {
+    ...
+          ],
+    +     id: 'result_00ff',
+    -     id: 'result_0001',
+          observerDetails: [
+            {
+              details: {
+                printedDetail: 'Unfilled recipient field.'
+              },
+    ...
+            actorId: 'actor_0001',
+    +       commandId: 'command_00ff',
+    -       commandId: 'command_0002',
+            expectedRevision: 1,
+            permissionId: 'permission_0001',
+            targetId: 'subject_0001'
+          }
+        }
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected:
+    0:
+      effects:
+        0:
+          payload:
+            amount: 1
+          type: 'neutral_increment'
+      id: 'result_0001'
+      observerDetails:
+        0:
+          details:
+            printedDetail: 'Unfilled recipient field.'
+          observerId: 'actor_0001'
+        1:
+          details:
+            conduct: 'Inspects the permitted extract.'
+          observerId: 'actor_0002'
+      outcome: 'performed'
+      request:
+        actionType: 'inspect_records'
+        actorId: 'actor_0001'
+        commandId: 'command_0002'
+        expectedRevision: 1
+        permissionId: 'permission_0001'
+        targetId: 'subject_0001'
+  actual:
+    0:
+      effects:
+        0:
+          payload:
+            amount: 1
+          type: 'neutral_increment'
+      id: 'result_00ff'
+      observerDetails:
+        0:
+          details:
+            printedDetail: 'Unfilled recipient field.'
+          observerId: 'actor_0001'
+        1:
+          details:
+            conduct: 'Inspects the permitted extract.'
+          observerId: 'actor_0002'
+      outcome: 'performed'
+      request:
+        actionType: 'inspect_records'
+        actorId: 'actor_0001'
+        commandId: 'command_00ff'
+        expectedRevision: 1
+        permissionId: 'permission_0001'
+        targetId: 'subject_0001'
+  operator: 'deepStrictEqual'
+  stack: |-
+    TestContext.<anonymous> (file:///C:/Users/mcdon/Documents/Codex/2026-10-17/execute-encounter-codex-lead-builder-m0/outputs/Encounter_M0_M1_R2/tests/identity-regressions.test.mjs:56:10)
+    Test.runInAsyncScope (node:async_hooks:227:14)
+    Test.run (node:internal/test_runner/test:1325:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+    Test.postRun (node:internal/test_runner/test:1465:19)
+    Test.run (node:internal/test_runner/test:1390:12)
+    async startSubtestAfterBootstrap (node:internal/test_runner/harness:385:3)
+  ...
+1..2
+# tests 2
+# suites 0
+# pass 0
+# fail 2
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 1075.0817
+
+STDERR:

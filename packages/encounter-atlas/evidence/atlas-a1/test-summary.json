@@ -1,0 +1,91 @@
+{
+  "result": "PASS",
+  "sourceRevision": "Atlas-A1-person-source-v1",
+  "sourceDigest": "1a8558b3654e52881a288d2a5ab99e574878531f7a9d5fca86223e511146f085",
+  "atlasBuildSHA256": "b9612d61f41bcf2bee5085902ff65c5e418b226de3dd5c8af6490ccd15e4ae9f",
+  "M0Audit": {
+    "pass": 7,
+    "fail": 0
+  },
+  "suites": [
+    {
+      "suite": "Builder M1/M2/M3 + AR0/D01 + Atlas A1",
+      "pass": 224,
+      "fail": 0,
+      "skipped": 0,
+      "log": "evidence/atlas-a1/fresh-builder-tests.json"
+    },
+    {
+      "suite": "Independent M1",
+      "log": "evidence/atlas-a1/inherited/fresh-r1/regression/regression/regression/m0-m3/fresh-independent-m1.tap",
+      "pass": 22,
+      "fail": 0,
+      "skipped": 0
+    },
+    {
+      "suite": "Independent M2",
+      "log": "evidence/atlas-a1/inherited/fresh-r1/regression/regression/regression/m0-m3/fresh-independent-m2.tap",
+      "pass": 18,
+      "fail": 0,
+      "skipped": 0
+    },
+    {
+      "suite": "Prior independent M3",
+      "log": "evidence/atlas-a1/inherited/fresh-r1/regression/regression/regression/prior-m3/fresh-independent-m3.txt",
+      "pass": 18,
+      "fail": 0,
+      "skipped": 0
+    },
+    {
+      "suite": "Original M3-D01",
+      "log": "evidence/atlas-a1/inherited/fresh-r1/regression/regression/regression/prior-m3/fresh-independent-d01.txt",
+      "pass": 1,
+      "fail": 0,
+      "skipped": 0
+    },
+    {
+      "suite": "Independent R1/D02",
+      "log": "evidence/atlas-a1/inherited/fresh-r1/regression/regression/regression/r2/fresh-independent-d02.json",
+      "pass": 9,
+      "fail": 0,
+      "skipped": 0
+    },
+    {
+      "suite": "Independent R2/D03",
+      "log": "evidence/atlas-a1/inherited/fresh-r1/regression/regression/fresh-independent-r2.json",
+      "pass": 20,
+      "fail": 0,
+      "skipped": 0
+    },
+    {
+      "suite": "Independent R3",
+      "log": "evidence/atlas-a1/inherited/fresh-r1/regression/fresh-independent-r3.json",
+      "pass": 24,
+      "fail": 1,
+      "skipped": 0
+    },
+    {
+      "suite": "Retained independent AR0",
+      "log": "evidence/atlas-a1/inherited/fresh-r1/fresh-independent-ar0.json",
+      "pass": 22,
+      "fail": 0,
+      "skipped": 0
+    },
+    {
+      "suite": "Independent R1 adversarial",
+      "log": "evidence/atlas-a1/inherited/independent-r1.json",
+      "pass": 15,
+      "fail": 0,
+      "skipped": 0
+    }
+  ],
+  "overlappingSuitePasses": 373,
+  "acceptedUnchangedIR3_25Failures": 1,
+  "newBlockers": 0,
+  "skipped": 0,
+  "newA1UnitTests": 30,
+  "functionalBrowserChecks": 17,
+  "finalBuildTargetedBrowserChecks": 7,
+  "browserConsoleErrors": 0,
+  "deterministicProofModels": 12
+}

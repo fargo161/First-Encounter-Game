@@ -4,7 +4,7 @@ Archive root: C:\Users\mcdon\Documents\ChatGPT\First Encounter Game Archive\pre-
 
 Preserved files: 6722. Preserved bytes: 4836603257.
 
-All selected originals and copies were rehashed; file sizes/mtimes and source membership remain unchanged. This is a private local checkpoint on the same drive, not off-device disaster recovery. No archive payload is in Git.
+All selected originals and copies were rehashed; file sizes/mtimes and source membership remain unchanged. This is a private local checkpoint on the same drive, not off-device disaster recovery. Large archive payloads remain outside Git; Stage 4 specifically selects eight bounded package verification ZIP fixtures.
 
 Full inventory: archive-inventory.json; SHA-256 d562db876c46a79ba584f9ee1e60093637adf114c52486b692a3bde42bbf3138.
 
@@ -34,3 +34,8 @@ Selected package/file identities are in ../docs/provenance/artifact-catalog.json
 Recovery: restore a snapshot by copying it to a NEW directory, then compare relative membership, sizes and SHA-256 against its tree manifest. Historical ZIPs retain their exact bytes. Verify safe paths before extracting an archive. Do not overwrite the originals for a recovery test.
 
 No archive cleanup, deletion, source import or legacy-history recovery is authorized.
+
+
+## Stage 4 bounded fixture selection
+
+Eight unchanged ZIPs inside the accepted Encounter/Atlas package are deliberately tracked because the existing 2310-member preservation contract requires them. See ../docs/consolidation/STAGE_4_IMPORT.md and the per-file import manifest. No other large checkpoint/evidence bundle or restricted source collection is imported. All original archive copies remain unchanged.

@@ -1,0 +1,43 @@
+[
+  {
+    "name": "Preserved failed build reproduces false display receipt under CSS-only transparency",
+    "stage": "before",
+    "expectedDefectReproduced": true,
+    "productionSourceEdited": false
+  },
+  {
+    "name": "Fixed transparent notice: received/refused, open service, no closure and MISSING_CLOSURE_PREVIEW",
+    "stage": "after",
+    "passed": true
+  },
+  {
+    "name": "Visible onscreen notice and deliberate Send retain normal closure",
+    "stage": "after",
+    "passed": true
+  },
+  {
+    "name": "Closed state save/load is completely equal",
+    "stage": "after",
+    "passed": true
+  },
+  {
+    "name": "Offscreen notice cannot authorize closure; normal refusal and one missing-preview defect",
+    "stage": "after",
+    "passed": true
+  },
+  {
+    "name": "Fresh protected request and evidence route reaches restriction, substantive repair and exact continuing save/load",
+    "stage": "after",
+    "passed": true
+  },
+  {
+    "name": "Clean-start repaired recovery completes separate exact zero-payment custody transfer with owner unchanged",
+    "stage": "after",
+    "passed": true
+  },
+  {
+    "name": "Later warned protected demand cannot revoke completed recovery, transfer custody or change money",
+    "stage": "after",
+    "passed": true
+  }
+]

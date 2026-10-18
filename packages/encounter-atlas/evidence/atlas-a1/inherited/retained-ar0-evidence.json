@@ -1,0 +1,11 @@
+{
+  "name": "retained-ar0-evidence",
+  "args": [
+    "node",
+    "scripts/generate-ar0-evidence.mjs"
+  ],
+  "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\atlas-a1-inherited-gates\\checkpoint",
+  "exitCode": 0,
+  "stdout": "{\"result\":\"PASS\",\"sourceRevision\":\"AR0-projection-v1\",\"sourceDigest\":\"4589645177076d67067270df6d6020618b8fb200236fef584807a1921d0768ca\",\"unchangedM3BuildSHA256\":\"8e1c14e25a515b92188703927344e97b744921ec9b033ee2b1d8cc0b63f517cb\",\"browserRuns\":18,\"rawInspectorsCompared\":3,\"proofProjections\":36,\"allProjectionsDeterministicPureAndSaveLoadStable\":true,\"allBrowserJournalsReplayedAndEveryExactCommandRetryValidated\":true,\"playerPrivateValueLeak\":false,\"allRenderingFaultsProtected\":true,\"visibleClosureExactlyOnce\":true,\"recoveryProtected\":true,\"saveLoadAndUIReplayEquality\":true,\"checks\":14}\n",
+  "stderr": ""
+}

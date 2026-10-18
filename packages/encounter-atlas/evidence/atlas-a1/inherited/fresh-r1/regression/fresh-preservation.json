@@ -1,0 +1,13 @@
+{
+  "name": "preservation",
+  "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\atlas-a1-inherited-gates\\encounter-ar0-r1-regression-2ut4a8bt",
+  "executable": "C:\\Users\\mcdon\\AppData\\Local\\Programs\\Python\\Python312\\python.EXE",
+  "args": [
+    "scripts/preserve-ar0.py"
+  ],
+  "M3_CHECKPOINT": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\atlas-a1-inherited-gates\\encounter-ar0-r1-regression-2ut4a8bt",
+  "exitCode": 0,
+  "expectedExitCode": 0,
+  "stdout": "{\"result\": \"PASS\", \"baselineR3SHA256\": \"615ddc79e0f7bd8d903411401360fc321b7b916abcc69dc974e9673fd0e74c87\", \"baselineMembers\": 1430, \"allBaselineMembersByteIdentical\": true, \"modifiedBaselineFiles\": [], \"removedBaselineFiles\": [], \"M3BuildSHA256\": \"8e1c14e25a515b92188703927344e97b744921ec9b033ee2b1d8cc0b63f517cb\", \"productionAdditions\": [\"content/ar0/last-collection.json\", \"src/ar0/atlas.mjs\"]}\n",
+  "stderr": ""
+}

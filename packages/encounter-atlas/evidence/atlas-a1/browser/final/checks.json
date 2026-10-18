@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Frozen-candidate build: author Person summary retains bounded report and belief",
+    "passed": true
+  },
+  {
+    "name": "Frozen-candidate build: input fingerprint matches the actual canonical saved run",
+    "passed": true
+  },
+  {
+    "name": "Frozen-candidate build: player immediate source is the actual during-run communication; earlier citation stays opaque",
+    "passed": true
+  },
+  {
+    "name": "Frozen-candidate build: public witness report retains speaker attribution while private local state stays hidden",
+    "passed": true
+  },
+  {
+    "name": "Frozen-candidate build: repeated source, identity and audience inspection changes no authoritative input",
+    "passed": true
+  },
+  {
+    "name": "Frozen-candidate build: conflicting catalog still rejects before Person output",
+    "passed": true
+  },
+  {
+    "name": "Frozen-candidate build: exact reopen recreates the same unchanged input",
+    "passed": true
+  }
+]

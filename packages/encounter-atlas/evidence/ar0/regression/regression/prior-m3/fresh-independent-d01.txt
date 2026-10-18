@@ -1,0 +1,15 @@
+{
+  "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\encounter-r3-regression-hpwz7_xz",
+  "executable": "C:\\Program Files\\nodejs\\node.EXE",
+  "args": [
+    "--test",
+    "--test-reporter=tap",
+    "independent/m3-review/notice-display-defect.test.mjs"
+  ],
+  "environmentBinding": {
+    "M3_CHECKPOINT": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\encounter-r3-regression-hpwz7_xz"
+  },
+  "exitCode": 0,
+  "stdout": "TAP version 13\n# Subtest: M3-D01 no fully transparent notice may be acknowledged as displayed\nok 1 - M3-D01 no fully transparent notice may be acknowledged as displayed\n  ---\n  duration_ms: 6.0502\n  type: 'test'\n  ...\n1..1\n# tests 1\n# suites 0\n# pass 1\n# fail 0\n# cancelled 0\n# skipped 0\n# todo 0\n# duration_ms 1027.1965\n",
+  "stderr": ""
+}

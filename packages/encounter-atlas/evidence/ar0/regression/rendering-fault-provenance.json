@@ -1,0 +1,74 @@
+{
+  "normal": {
+    "sourceBuildSHA256": "8e1c14e25a515b92188703927344e97b744921ec9b033ee2b1d8cc0b63f517cb",
+    "servedHTMLSHA256": "8e1c14e25a515b92188703927344e97b744921ec9b033ee2b1d8cc0b63f517cb",
+    "cssInjection": "",
+    "executableBytesUnchanged": true
+  },
+  "before-collapse": {
+    "sourceBuildSHA256": "7cbc1251a627631cf352e8a0cd8c5c78b93b76fedd1205a1e84676bfcecfbbe8",
+    "servedHTMLSHA256": "eb880d2c3af17ec1294deba68f7259512af3f79ecc8fc95153949e5f91b08936",
+    "cssInjection": "#closure-notice{visibility:collapse!important}",
+    "executableBytesUnchanged": true
+  },
+  "collapse": {
+    "sourceBuildSHA256": "8e1c14e25a515b92188703927344e97b744921ec9b033ee2b1d8cc0b63f517cb",
+    "servedHTMLSHA256": "10e0bf3f7b61ae913c292e8f5ead020cb99b9f542a53703f2f8b6d8ccabddaf2",
+    "cssInjection": "#closure-notice{visibility:collapse!important}",
+    "executableBytesUnchanged": true
+  },
+  "hidden": {
+    "sourceBuildSHA256": "8e1c14e25a515b92188703927344e97b744921ec9b033ee2b1d8cc0b63f517cb",
+    "servedHTMLSHA256": "71e1c12a1d32ebe582aea6f0af2ec3f26876abc8d130ae525fc53f4415921058",
+    "cssInjection": "#closure-notice{visibility:hidden!important}",
+    "executableBytesUnchanged": true
+  },
+  "display-none": {
+    "sourceBuildSHA256": "8e1c14e25a515b92188703927344e97b744921ec9b033ee2b1d8cc0b63f517cb",
+    "servedHTMLSHA256": "384ee9b564808a5ba3fcd4b4d929b950d34aaf0e625bdf1e28ef2b64ffdbd1b8",
+    "cssInjection": "#closure-notice{display:none!important}",
+    "executableBytesUnchanged": true
+  },
+  "opacity": {
+    "sourceBuildSHA256": "8e1c14e25a515b92188703927344e97b744921ec9b033ee2b1d8cc0b63f517cb",
+    "servedHTMLSHA256": "2fdf277f249274edb444ee362af9ed20a44fbdfd519ef3f834fce7cfb1b6d807",
+    "cssInjection": "#closure-notice{opacity:0!important}",
+    "executableBytesUnchanged": true
+  },
+  "ancestor": {
+    "sourceBuildSHA256": "8e1c14e25a515b92188703927344e97b744921ec9b033ee2b1d8cc0b63f517cb",
+    "servedHTMLSHA256": "27f6fe04d28f40fdd0a879bcbe034d728b186e5acd4764580992d3341b63fa0a",
+    "cssInjection": ".preview{opacity:0!important}",
+    "executableBytesUnchanged": true
+  },
+  "vertical": {
+    "sourceBuildSHA256": "8e1c14e25a515b92188703927344e97b744921ec9b033ee2b1d8cc0b63f517cb",
+    "servedHTMLSHA256": "7c591d2e3c4ac308195775c1e3ebbec7822a2aeafbd7973de8ad4b272c28f979",
+    "cssInjection": "#closure-notice{position:fixed!important;top:-1000px!important}",
+    "executableBytesUnchanged": true
+  },
+  "horizontal": {
+    "sourceBuildSHA256": "8e1c14e25a515b92188703927344e97b744921ec9b033ee2b1d8cc0b63f517cb",
+    "servedHTMLSHA256": "3fa0d6d58d1769feeb56165e0ac3271c67c09a75b63ad77190192824c38d7f01",
+    "cssInjection": "#closure-notice{position:fixed!important;left:-10000px!important;top:100px!important;width:300px!important}",
+    "executableBytesUnchanged": true
+  },
+  "zero-width": {
+    "sourceBuildSHA256": "8e1c14e25a515b92188703927344e97b744921ec9b033ee2b1d8cc0b63f517cb",
+    "servedHTMLSHA256": "01873bda2a107c23bc4a64d4d426813f9803fc3a35397c285371ce23f3f93fc3",
+    "cssInjection": "#closure-notice{position:fixed!important;top:100px!important;left:100px!important;width:0!important;min-width:0!important;max-width:0!important;height:100px!important;padding:0!important;border:0!important;overflow:hidden!important;box-sizing:border-box!important}",
+    "executableBytesUnchanged": true
+  },
+  "zero-height": {
+    "sourceBuildSHA256": "8e1c14e25a515b92188703927344e97b744921ec9b033ee2b1d8cc0b63f517cb",
+    "servedHTMLSHA256": "ae82b43325803b1c099d382fba8344a509aa0274074554ca0e2a070482ac7408",
+    "cssInjection": "#closure-notice{height:0!important;max-height:0!important;padding:0!important;border:0!important;overflow:hidden!important}",
+    "executableBytesUnchanged": true
+  },
+  "partial-left": {
+    "sourceBuildSHA256": "8e1c14e25a515b92188703927344e97b744921ec9b033ee2b1d8cc0b63f517cb",
+    "servedHTMLSHA256": "b8bb8aa9741165479029c7c437f757e94774ea18e726ceaaae04483d6a61ecae",
+    "cssInjection": "#closure-notice{position:fixed!important;left:-1px!important;top:100px!important;width:300px!important}",
+    "executableBytesUnchanged": true
+  }
+}

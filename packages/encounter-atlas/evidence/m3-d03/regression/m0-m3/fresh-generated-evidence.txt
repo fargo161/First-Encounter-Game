@@ -1,0 +1,17 @@
+{
+  "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\encounter-r3-regression-xpwtpuo1",
+  "executable": "C:\\Program Files\\nodejs\\node.EXE",
+  "args": [
+    "scripts/generate-m3-evidence.mjs"
+  ],
+  "environmentBinding": {
+    "ENCOUNTER_CHECKPOINT": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\encounter-r3-regression-xpwtpuo1",
+    "M2_BROWSER_EVIDENCE": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\encounter-r3-regression-xpwtpuo1\\independent\\m2-browser-evidence"
+  },
+  "exitCode": 0
+}
+
+STDOUT
+{"sourceRevision":"M3-runtime-v1-R3-D03","sourceDigest":"a609f63c56ed1e047f44e8f3ef28b21f91adec9e40e35d08eb988d0e78de9362","packageRef":{"id":"package_0003","revision":1,"digest":"2ce9f61b996f17392a39c56f4005d8203b7940aa4974564fafa54d110e35ae8f"},"validatedBrowserRuns":11,"rawBrowserInspectorsMatch":true,"missingNoticeServiceOpen":true,"neutralRecoveryAndClosure":true}
+
+STDERR

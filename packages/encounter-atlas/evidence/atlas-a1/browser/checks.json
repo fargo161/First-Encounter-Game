@@ -1,0 +1,70 @@
+[
+  {
+    "name": "Final build: bounded report, belief distinction and visible repeated-source qualification",
+    "passed": true
+  },
+  {
+    "name": "Final build: Source shows actual reporter and earlier handling occurrence",
+    "passed": true
+  },
+  {
+    "name": "Final build: exact outward message identifies witness speaker",
+    "passed": true
+  },
+  {
+    "name": "Final build: absent Nera owns the item without witness records or current holding",
+    "passed": true
+  },
+  {
+    "name": "Final build: Tamsin evidence belief and concern remain separate",
+    "passed": true
+  },
+  {
+    "name": "Final build: human received report without invented psychology",
+    "passed": true
+  },
+  {
+    "name": "Final build: browser inspection and repeated detail expansion preserve exact full input fingerprints",
+    "passed": true
+  },
+  {
+    "name": "Final build: hidden local state and opaque source privacy in player-received view",
+    "passed": true
+  },
+  {
+    "name": "Final build: same-name Person identities and reporter stay distinct",
+    "passed": true
+  },
+  {
+    "name": "Final build: unmodeled descriptive Person is distinct from hidden or empty state",
+    "passed": true
+  },
+  {
+    "name": "Final build: exact AR0-D01 conflicting catalog rejects with no stale Person data",
+    "passed": true
+  },
+  {
+    "name": "Final build: switching view after rejection cannot resurrect old data",
+    "passed": true
+  },
+  {
+    "name": "Final build: edited snapshot fails actual replay validation",
+    "passed": true
+  },
+  {
+    "name": "Final build: incompatible content/catalog is rejected",
+    "passed": true
+  },
+  {
+    "name": "Final build: completed recovery keeps owner and current holder separate",
+    "passed": true
+  },
+  {
+    "name": "Final build: existing missing-preview defect is displayed without a repair path",
+    "passed": true
+  },
+  {
+    "name": "Final build: reloading the workbench preserves the same validated input and creates no persistent state",
+    "passed": true
+  }
+]

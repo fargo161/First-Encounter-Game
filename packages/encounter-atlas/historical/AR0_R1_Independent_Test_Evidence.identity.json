@@ -1,0 +1,13 @@
+{
+  "artifact": "AR0_R1_Independent_Test_Evidence.zip",
+  "bytes": 220200822,
+  "sha256": "97e4640d6dc3ef8c47174ecb74ba60b2a29f7b5efdbada8e32fbe5fcf5667295",
+  "members": 502,
+  "allMembersVerified": true,
+  "reviewedCheckpointSHA256": "f5566fdcfa82dc8aaee9378d7a0e894f10a4a2342100b7665cbd1c23e26e72da",
+  "verdict": "READY FOR ATLAS v0.1",
+  "blockingDefects": [],
+  "AR0_D01IndependentlyVerifiedFixed": true,
+  "knownIR3_25UnchangedNonBlocking": true,
+  "productionSourceModified": false
+}

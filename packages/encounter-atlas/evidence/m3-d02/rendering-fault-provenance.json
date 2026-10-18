@@ -1,0 +1,50 @@
+{
+  "normal": {
+    "sourceBuildSHA256": "7cbc1251a627631cf352e8a0cd8c5c78b93b76fedd1205a1e84676bfcecfbbe8",
+    "servedHTMLSHA256": "7cbc1251a627631cf352e8a0cd8c5c78b93b76fedd1205a1e84676bfcecfbbe8",
+    "cssInjection": "",
+    "executableBytesUnchanged": true
+  },
+  "before-horizontal": {
+    "sourceBuildSHA256": "11393dde2ae110d3b04aac03c1044e000be6b410e4bffacb16216829c9050052",
+    "servedHTMLSHA256": "b3070453af4f85f0e2975ebfea3893d1013929d914b2fe592b2945b9d181d476",
+    "cssInjection": "#closure-notice{position:fixed!important;left:-10000px!important;top:100px!important;width:300px!important}",
+    "executableBytesUnchanged": true
+  },
+  "before-zero-width": {
+    "sourceBuildSHA256": "11393dde2ae110d3b04aac03c1044e000be6b410e4bffacb16216829c9050052",
+    "servedHTMLSHA256": "eaaa0062205e29e833717f971a8352167d476b26565d230147a22a924e3c7e57",
+    "cssInjection": "#closure-notice{position:fixed!important;top:100px!important;left:100px!important;width:0!important;min-width:0!important;max-width:0!important;height:100px!important;padding:0!important;border:0!important;overflow:hidden!important;box-sizing:border-box!important}",
+    "executableBytesUnchanged": true
+  },
+  "horizontal": {
+    "sourceBuildSHA256": "7cbc1251a627631cf352e8a0cd8c5c78b93b76fedd1205a1e84676bfcecfbbe8",
+    "servedHTMLSHA256": "003609c8922733522adacd3aa392a6797200a860bac8df27532f118d55805ca4",
+    "cssInjection": "#closure-notice{position:fixed!important;left:-10000px!important;top:100px!important;width:300px!important}",
+    "executableBytesUnchanged": true
+  },
+  "zero-width": {
+    "sourceBuildSHA256": "7cbc1251a627631cf352e8a0cd8c5c78b93b76fedd1205a1e84676bfcecfbbe8",
+    "servedHTMLSHA256": "b285893b61178ec81b0f601497c9c7aa65ea0d4272af6724260d0d588569cc75",
+    "cssInjection": "#closure-notice{position:fixed!important;top:100px!important;left:100px!important;width:0!important;min-width:0!important;max-width:0!important;height:100px!important;padding:0!important;border:0!important;overflow:hidden!important;box-sizing:border-box!important}",
+    "executableBytesUnchanged": true
+  },
+  "opacity": {
+    "sourceBuildSHA256": "7cbc1251a627631cf352e8a0cd8c5c78b93b76fedd1205a1e84676bfcecfbbe8",
+    "servedHTMLSHA256": "4b1f74179b4c3f536aa0cdd7f295f2b8073cdf48be8fcd1d5cb5f95ad7ae0cd6",
+    "cssInjection": "#closure-notice{opacity:0!important}",
+    "executableBytesUnchanged": true
+  },
+  "ancestor": {
+    "sourceBuildSHA256": "7cbc1251a627631cf352e8a0cd8c5c78b93b76fedd1205a1e84676bfcecfbbe8",
+    "servedHTMLSHA256": "7e9c478b4a3cd67a5f9c943de1e55bf773b5f54bc631ebd8efd0f13b6eb1f1d3",
+    "cssInjection": ".preview{opacity:0!important}",
+    "executableBytesUnchanged": true
+  },
+  "vertical": {
+    "sourceBuildSHA256": "7cbc1251a627631cf352e8a0cd8c5c78b93b76fedd1205a1e84676bfcecfbbe8",
+    "servedHTMLSHA256": "4aac024442abb73f0254cd0c8e9e23024221198b8e58d532ab94016c4a7b907a",
+    "cssInjection": "#closure-notice{position:fixed!important;top:-1000px!important}",
+    "executableBytesUnchanged": true
+  }
+}

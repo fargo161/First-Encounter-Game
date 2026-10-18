@@ -1,9 +1,9 @@
-# Hard stop after Stage 3
+# Hard stop after Stage 4
 
-Stop after the private foundation is committed, pushed and verified.
+Stage 4 authorizes the Encounter/Atlas import and basic integrity checks only. Stop after committing, pushing and confirming local/remote main agreement.
 
-The recommended next action is review of the foundation and preservation manifest, followed by explicit authorization for Stage 4 Encounter/Atlas import only.
+The next proposed step is Stage 5 Encounter/Atlas verification. It requires explicit new user authorization. Do not run builds, supplied/independent tests, evidence generators, launchers or visible-browser review now.
 
-Stage 4 is not authorized by this foundation. Neither are Room Creator/ZANT migration, source normalization, refactoring, Room Creator remediation, ZANT repair, shared-contract implementation, Unity setup, Git LFS conversion, archive deletion or source-dependent CI.
+Room Creator/ZANT import, source normalization, refactoring, remediation, art repair, shared-contract implementation, Unity, LFS, archive deletion and CI remain outside this scope.
 
-During a later authorized Encounter/Atlas import, preserve the accepted A1 byte identities and required saved runs imported from evidence/ar0-r1/browser/. Keep inherited IR3-25 disclosed. Reproduce the existing independent acceptance before changing the layout or trimming package material.
+See STAGE_4_IMPORT.md and ../testing/STAGE_5_RECOMMENDED_SCOPE.md.

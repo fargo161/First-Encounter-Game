@@ -1,0 +1,184 @@
+- link "Skip to composer":
+  - /url: "#composer"
+- banner:
+  - text: ENCOUNTER / M3 REVIEW BUILD
+  - heading "Last Collection" [level=1]
+  - paragraph: The Protective Shortcut · recover the case, keep the causes clear.
+  - navigation "Run controls":
+    - button "New run"
+    - button "Save run"
+    - button "Open run"
+    - button "Author inspector" [active]
+- status: The deliberate operation committed once.
+- generic: COLLECTION TICKET / VERIFIED
+- paragraph: You carry collection authority for Nera’s green instrument case. The entry reads “collected”. Show the ticket, then investigate through the relevant records and people.
+- generic: 12 coins remaining
+- generic: CASE RECOVERED · Spent 0 coins · Remaining 12 · Ownership remains with Nera Vale · Private contact information not disclosed · Record corrected with original retained
+- paragraph: "Public visit-long warning: renewed protected/full-file demands can end collection service after an explicit preview notice. The case-only route remains available while service is open; clarification and End do not reset this warning."
+- main:
+  - text: AT THE COUNTER
+  - heading "Tamsin" [level=2]
+  - generic: Your move
+  - text: COLLECTION
+  - text: RECORD
+  - paragraph: Keeps the selected material in view and states the bounded response with a composed face.
+  - paragraph: Your acknowledgment does not execute the proposal. Use the separate exact handover confirmation if you accept the current terms. Social framing is measured.
+  - button "Replay latest response"
+  - generic: Conversation partner
+  - combobox "Conversation partner":
+    - option "Tamsin" [selected]
+    - option "Orrin"
+  - button "Approach selected partner" [disabled]
+  - button "End conversation"
+  - heading "Conversation & actions" [level=2]
+  - generic: Revision 21 · 15 opportunities
+  - log:
+    - article:
+      - paragraph: Physical result
+      - paragraph: The valid collection ticket is shown and verified.
+    - article:
+      - paragraph: Collector · Request · Compassionate
+      - paragraph: Requests access to Collection record concerning Collection record.
+    - article:
+      - paragraph: Tamsin · Remark
+      - paragraph: The customer file contains case-handling material and unrelated private contact information. The relevant extract and permitted handling tray are available. Private contact values remain covered.
+    - article:
+      - paragraph: Physical result
+      - paragraph: "Performs the permitted inspect action. Recipient signature: unfilled"
+    - article:
+      - paragraph: Physical result
+      - paragraph: Performs the permitted search action. Drying tag 041 matches the case reference Drying tag records internal drying, not recipient collection
+    - article:
+      - paragraph: Collector · Request · Compassionate
+      - paragraph: Asks where Nera’s green instrument case is. This is a request for location information, not a physical search.
+    - article:
+      - paragraph: Tamsin · Remark
+      - paragraph: I refer you to the recorded entry and the relevant inspection route rather than explaining the earlier movement.
+    - article:
+      - paragraph: Collector · Request · Compassionate
+      - paragraph: Asks where Nera’s green instrument case is. This is a request for location information, not a physical search.
+    - article:
+      - paragraph: Orrin · Remark
+      - paragraph: A wrapped green case moved toward the partition; its exact identity was not established by that sighting It may have been an exception. I did not see the damp seam, final cupboard, or purpose; that interpretation is not a witnessed fact. This report does not prove a completed collection.
+    - article:
+      - paragraph: Collector · Offer · Compassionate
+      - paragraph: Offers 100 minor money units for ordinary collection; no fee or debt is asserted.
+    - article:
+      - paragraph: Tamsin · Remark
+      - paragraph: No extra collection charge is due. I decline the ordinary payment offer as unnecessary. No money moves and no new debt or bribery judgment is created.
+    - article:
+      - paragraph: Collector · Request · Compassionate
+      - paragraph: Asks where Nera Vale is. This is a request for location information, not a physical search.
+    - article:
+      - paragraph: Tamsin · Remark
+      - paragraph: I decline that unrelated or protected scope. The case-only route remains the relevant collection route while service is open.
+    - article:
+      - paragraph: Collector · Request · Compassionate
+      - paragraph: Requests access to Whole customer file concerning Collection record.
+    - article:
+      - paragraph: Tamsin · Remark
+      - paragraph: Further relevant-file access is limited to a supervised comparison. That case-only comparison remains available to complete collection. Renewing a demand for protected/full-file information, or asking me to bypass that boundary, will end collection service for this visit. This warning still applies after clarification or repair.
+    - article:
+      - paragraph: Collector · Remark · Compassionate
+      - paragraph: Asks Why about the recorded restriction and warning. This is clarification, not a renewed demand.
+    - article:
+      - paragraph: Tamsin · Remark
+      - paragraph: The concern comes from the earlier location inquiry followed by the broader protected-scope request after the file split and case-only alternative were explained. This is a fallible concern, not proof of your intent. The supervised case-only route remains available; clarification does not use the repair episode.
+    - article:
+      - paragraph: Collector · Remark · Compassionate
+      - paragraph: Acknowledges the stated privacy concern with an apology. Does not accept the comparison or narrow the present request.
+    - article:
+      - paragraph: Tamsin · Remark
+      - paragraph: Your acknowledgment was heard. A vague apology alone does not narrow the request or accept the supervised comparison; the substantive repair opportunity remains.
+    - article:
+      - paragraph: Collector · Request · Compassionate
+      - paragraph: Accepts the offered supervised comparison, limited to Case-handling scope.
+    - article:
+      - paragraph: Tamsin · Remark
+      - paragraph: Your substantive case-only narrowing or acceptance addresses the concern. The appropriate relevant route is restored. The private contact value remains unavailable, and the visit-long warning remains in force.
+    - article:
+      - paragraph: Physical result
+      - paragraph: "Performs the permitted compare action. Recipient signature: unfilled Drying tag 041 matches the case reference Drying tag records internal drying, not recipient collection Case is in dry storage Original collected entry meant removed from the rack Separate hauling obligation: already paid"
+    - article:
+      - paragraph: Tamsin · Remark
+      - paragraph: The actual supervised comparison supports the authorized release. Review the exact current handover terms and confirm deliberately. Permission or saying Yes does not hand over the item.
+    - article:
+      - paragraph: Collector · Remark · Boundaried
+      - paragraph: Acknowledges handover proposal offer_0001, version 1. This does not confirm or execute its material terms.
+    - article:
+      - paragraph: Tamsin · Remark
+      - paragraph: Your acknowledgment does not execute the proposal. Use the separate exact handover confirmation if you accept the current terms.
+    - article:
+      - paragraph: Physical result
+      - paragraph: The correction is recorded as a new revision; the original shorthand remains.
+    - article:
+      - paragraph: Physical result
+      - paragraph: The exact confirmed handover occurs. The collector receives custody; ownership is unchanged.
+  - text: YOUR COMMUNICATION
+  - heading "Compose a message" [level=2]
+  - group "Communication family":
+    - button "Offer"
+    - button "Request"
+    - button "Remark" [pressed]
+  - generic: Meaning
+  - combobox "Meaning":
+    - option "Present the evidence in your notebook" [selected]
+    - option "Challenge the entry using learned evidence"
+    - option "Why about the restriction and warning"
+    - option "Acknowledge the concern with an apology"
+  - generic: BASED
+  - combobox "BASED":
+    - option "Boundaried" [selected]
+    - option "Compassionate"
+    - option "Menacing"
+  - generic: Salience
+  - combobox "Salience":
+    - option "Subtle"
+    - option "Nuanced" [selected]
+    - option "Overt"
+  - text: PREVIEW / WHAT YOU WILL COMMUNICATE
+  - paragraph: "Shows only the selected evidence below, concerning Case-handling scope. Showing it does not transfer the object. Recipient signature: unfilled Drying tag 041 matches the case reference Drying tag records internal drying, not recipient collection A wrapped green case moved toward the partition; its exact identity was not established by that sighting Case is in dry storage Original collected entry meant removed from the rack Separate hauling obligation: already paid States the selected scope firmly and without adding unrelated demands. Social framing is measured."
+  - button "Send message"
+  - paragraph: Reading, drafting, clarification, End and partner switching do not spend the substantive repair episode.
+  - heading "Your notebook & actions" [level=2]
+  - generic: Nera’s green instrument case
+  - generic: Collection ticket
+  - generic: Collection record
+  - generic: Nera Vale
+  - generic: Coins
+  - generic: Customer file
+  - generic: Case-handling scope
+  - generic: Private contact scope
+  - generic: Whole customer file
+  - generic: Handling tray
+  - generic: Supervised comparison
+  - generic: Numbered drying tag
+  - generic: Observed wrapped green case — identity not established
+  - generic: Partition
+  - generic: Dry storage
+  - generic: Office storage
+  - paragraph:
+    - text: "Recipient signature: unfilled"
+    - text: Inspected/shown document
+  - paragraph:
+    - text: Drying tag 041 matches the case reference
+    - text: Inspected/shown document
+  - paragraph:
+    - text: Drying tag records internal drying, not recipient collection
+    - text: Inspected/shown document
+  - paragraph:
+    - text: A wrapped green case moved toward the partition; its exact identity was not established by that sighting
+    - text: Received report
+  - paragraph:
+    - text: Case is in dry storage
+    - text: Inspected/shown document
+  - paragraph:
+    - text: Original collected entry meant removed from the rack
+    - text: Inspected/shown document
+  - paragraph:
+    - text: "Separate hauling obligation: already paid"
+    - text: Inspected/shown document
+  - paragraph
+- contentinfo:
+  - generic: Recovery completed
+  - generic: Local · manual saves · descriptive performances · M3 only

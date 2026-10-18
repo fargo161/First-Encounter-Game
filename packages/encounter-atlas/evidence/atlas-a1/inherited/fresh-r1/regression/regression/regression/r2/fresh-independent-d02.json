@@ -1,0 +1,16 @@
+{
+  "phase": "--all",
+  "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\atlas-a1-inherited-gates\\encounter-r3-regression-y38dntfq",
+  "executable": "C:\\Program Files\\nodejs\\node.EXE",
+  "args": [
+    "--test",
+    "--test-reporter=tap",
+    "scripts/run-independent-m3-d02.mjs"
+  ],
+  "environmentBinding": {
+    "M3_CHECKPOINT": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\atlas-a1-inherited-gates\\encounter-r3-regression-y38dntfq"
+  },
+  "exitCode": 0,
+  "stdout": "TAP version 13\n# {\"originalTestSourceUnchanged\":true,\"behavioralAssertionsChanged\":false,\"adaptation\":\"Add measured viewport width to the DOM stub and isolate evidence output only\"}\n# Subtest: IR1-01 production guard rejects fully transparent own opacity with correct fallback\nok 1 - IR1-01 production guard rejects fully transparent own opacity with correct fallback\n  ---\n  duration_ms: 141.1552\n  type: 'test'\n  ...\n# Subtest: IR1-02 production guard rejects fully transparent ancestor with correct fallback\nok 2 - IR1-02 production guard rejects fully transparent ancestor with correct fallback\n  ---\n  duration_ms: 133.2089\n  type: 'test'\n  ...\n# Subtest: IR1-03 vertical offscreen, hidden, display-none and zero-height remain invalid\nok 3 - IR1-03 vertical offscreen, hidden, display-none and zero-height remain invalid\n  ---\n  duration_ms: 516.394\n  type: 'test'\n  ...\n# Subtest: IR1-04 M3-D02 horizontally offscreen notice must not close service\nok 4 - IR1-04 M3-D02 horizontally offscreen notice must not close service\n  ---\n  duration_ms: 179.9968\n  type: 'test'\n  ...\n# Subtest: IR1-05 M3-D02 zero-width notice must not close service\nok 5 - IR1-05 M3-D02 zero-width notice must not close service\n  ---\n  duration_ms: 174.706\n  type: 'test'\n  ...\n# Subtest: IR1-06 actual visible current notice closes exactly once and retries reuse result\nok 6 - IR1-06 actual visible current notice closes exactly once and retries reuse result\n  ---\n  duration_ms: 161.2652\n  type: 'test'\n  ...\n# Subtest: IR1-07 truthful display receipt survives subsequent real offscreen scroll\nok 7 - IR1-07 truthful display receipt survives subsequent real offscreen scroll\n  ---\n  duration_ms: 16.1692\n  type: 'test'\n  ...\n# Subtest: IR1-08 marked stale or edited draft cannot reuse its receipt for another command\nok 8 - IR1-08 marked stale or edited draft cannot reuse its receipt for another command\n  ---\n  duration_ms: 204.9347\n  type: 'test'\n  ...\n# Subtest: IR1-09 fresh browser results replay and equal actual inspector exports\nok 9 - IR1-09 fresh browser results replay and equal actual inspector exports\n  ---\n  duration_ms: 5276.4235\n  type: 'test'\n  ...\n1..9\n# tests 9\n# suites 0\n# pass 9\n# fail 0\n# cancelled 0\n# skipped 0\n# todo 0\n# duration_ms 9262.5266\n",
+  "stderr": ""
+}

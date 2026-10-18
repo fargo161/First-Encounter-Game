@@ -1,0 +1,10 @@
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import {fileURLToPath,pathToFileURL} from 'node:url';
+const home=path.dirname(fileURLToPath(import.meta.url)),root=path.join(home,'checkpoint'),out=path.join(home,'evidence');
+const A=await import(pathToFileURL(path.join(root,'src/ar0/atlas.mjs'))),E=await import(pathToFileURL(path.join(root,'src/m3/engine.mjs')));
+const saved=JSON.parse(await fs.readFile(path.join(out,'ui-warned.json'),'utf8')),run=await E.importRun(saved,saved.package),catalog=JSON.parse(await fs.readFile(path.join(root,'content/ar0/last-collection.json'),'utf8')),r=saved.package.content.initial.rule;
+const altered=structuredClone(catalog);altered.entities=altered.entities.filter(e=>e.id!==r.witnessId);altered.entities.find(e=>e.id===r.ownerId).aliases.push({kind:'actor',id:r.witnessId});
+const validation=A.validateCatalog(altered,saved.package,run),author=await A.projectAtlas(run,saved.package,altered,{audience:'author'}),player=await A.projectAtlas(run,saved.package,altered,{audience:'player'}),owner=author.cards.find(c=>c.id===r.ownerId),claims=player.links.filter(l=>l.relationKind==='reported_about');
+const actual={catalogAccepted:validation,ownerId:r.ownerId,witnessId:r.witnessId,ownerDisplayName:owner.displayName,ownerSourceRefs:owner.sourceRefs,ownerActorKind:owner.state.actorKind,ownerObservationObservers:[...new Set(owner.state.observations.map(o=>o.observerId))],ownerBeliefHolders:[...new Set(owner.state.beliefs.map(b=>b.holderId))],playerReportLinks:claims,canonicalOwnerObservations:run.data.observations.filter(o=>o.observerId===r.ownerId).length};
+await fs.writeFile(path.join(out,'alias-trust-probe.json'),JSON.stringify(actual,null,2)+'\n');await fs.writeFile(path.join(out,'alias-trust-catalog.json'),JSON.stringify(altered,null,2)+'\n');await fs.writeFile(path.join(out,'alias-trust-author.json'),JSON.stringify(author,null,2)+'\n');await fs.writeFile(path.join(out,'alias-trust-player.json'),JSON.stringify(player,null,2)+'\n');console.log(JSON.stringify(actual));

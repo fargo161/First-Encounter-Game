@@ -1,0 +1,14 @@
+{
+  "buildSHA256": "b9612d61f41bcf2bee5085902ff65c5e418b226de3dd5c8af6490ccd15e4ae9f",
+  "servedURL": "http://127.0.0.1:57548/",
+  "checks": 7,
+  "allPassed": true,
+  "console": [],
+  "inspectionOnly": true,
+  "sourceLabelCorrection": "Immediate received communications use During this run, with speaker from the already-filtered AR0 message. Earlier payload remains opaque in player-received view.",
+  "fileProtocolCheck": "Not performed: browser policy rejects file:// navigation. All runtime QA uses the constrained localhost HTTP server.",
+  "screenshotsVisuallyInspected": [
+    "atlas-person-reader.png"
+  ],
+  "priorFunctionalBuildSHA256": "4fee909e4ca708e471cea08e5f860fc99f05be9c9efae3cc90c98afd05fc8f1d"
+}

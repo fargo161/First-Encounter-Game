@@ -1,0 +1,17 @@
+{
+  "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\atlas-a1-inherited-gates\\encounter-r3-regression-y38dntfq",
+  "executable": "C:\\Program Files\\nodejs\\node.EXE",
+  "args": [
+    "scripts/generate-m3-evidence.mjs"
+  ],
+  "environmentBinding": {
+    "ENCOUNTER_CHECKPOINT": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\atlas-a1-inherited-gates\\encounter-r3-regression-y38dntfq",
+    "M2_BROWSER_EVIDENCE": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\atlas-a1-inherited-gates\\encounter-r3-regression-y38dntfq\\independent\\m2-browser-evidence"
+  },
+  "exitCode": 0
+}
+
+STDOUT
+{"sourceRevision":"M3-runtime-v1-R3-D03","sourceDigest":"8df8db981955a28900e0e49b52c56ea4dfb9242e722d6f767417396ae4b65e5a","packageRef":{"id":"package_0003","revision":1,"digest":"2ce9f61b996f17392a39c56f4005d8203b7940aa4974564fafa54d110e35ae8f"},"validatedBrowserRuns":11,"rawBrowserInspectorsMatch":true,"missingNoticeServiceOpen":true,"neutralRecoveryAndClosure":true}
+
+STDERR

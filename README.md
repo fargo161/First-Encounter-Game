@@ -1,25 +1,25 @@
 # First Encounter Game
 
-Private canonical repository foundation for a fresh monorepo with independent Git history.
+Private canonical monorepo with independent Git history. Encounter governs gameplay grammar and interaction contracts; preserve independent subsystem boundaries.
 
-Encounter governs the gameplay grammar and interaction contracts. Atlas provides authoring/inspection surfaces; Room Creator authors space; ZANT authors character presentation. Preserve strong subsystem boundaries.
+## Current consolidation state
 
-## Current consolidation stage
+Stage 4 Encounter/Atlas import is complete at the file-integrity level. Stage 5 behavior/build/browser verification has not been authorized or performed.
 
-Only Stages 0-3 are authorized. This foundation contains documentation, provenance, status records, asset-dependency metadata, and a read-only foundation verifier. No subsystem source has been imported.
-
-| Lane | Preserved current state |
+| Lane | Repository state |
 | --- | --- |
-| Encounter / Atlas | Atlas A1 independently passed and owner-accepted; Encounter dependencies preserved; accepted non-blocking IR3-25 limitation retained. |
-| Room Creator | v0.14.1 development candidate remains HOLD for incomplete missing-image repair handling. |
-| ZANT | R4 candidate 02 neutral interfaces accepted; R5 G-sleeve pilot failed; G interface provisional; Gate A incomplete. |
+| Encounter / Atlas | Complete Atlas-A1-person-source-v1 snapshot imported byte-identically under packages/encounter-atlas. Prior independent A1 acceptance is preserved; migration behavior verification awaits Stage 5. |
+| Room Creator | README placeholder only. External v0.14.1 baseline remains HOLD. |
+| ZANT | README placeholder only. External accepted R4 candidate02 remains distinct from failed/provisional R5 work. |
 
-Start with [source authority](docs/provenance/source-authority.json), [approved decisions](docs/consolidation/APPROVED_STAGE_0_DECISIONS.md), [preservation checkpoint](docs/provenance/preservation-checkpoint.json), and [verification instructions](docs/testing/FOUNDATION_VERIFICATION.md).
+See [Stage 4 import record](docs/consolidation/STAGE_4_IMPORT.md), [authority manifest](docs/provenance/source-authority.json), [file-level import manifest](docs/provenance/encounter-atlas-stage4-import.json), and [basic integrity instructions](docs/testing/STAGE_4_INTEGRITY.md).
 
-Historical ZIPs, evidence bundles, restricted assets, and large immutable source collections remain in a separate private local archive. Git LFS and Unity are not enabled. No legacy Trapstar repository history or content was used.
+The imported package's original README and default package scripts retain historical M3 wording. The A1-specific entry guide is packages/encounter-atlas/START_HERE_ATLAS_A1.md. Its commands are preserved for later authorized verification; none were executed during Stage 4.
 
-## Stop point
+The complete accepted package retains eight explicitly selected small ZIP verification fixtures required by unchanged preservation checks. Large checkpoint/evidence bundles and restricted/immutable asset collections remain in the private archive. No LFS, Unity, shared executable contracts or CI workflows were added.
 
-Stage 3 is the hard stop. Explicit new user authorization is required before Stage 4 Encounter/Atlas import or any other subsystem migration.
+## Hard stop
+
+Stop before Stage 5. Review the import, then explicitly authorize the recommended [Stage 5 scope](docs/testing/STAGE_5_RECOMMENDED_SCOPE.md). Do not import another subsystem or alter imported behavior.
 
 Preserve first. Normalize second. Connect third. Refactor later.

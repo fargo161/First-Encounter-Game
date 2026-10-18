@@ -1,0 +1,78 @@
+[
+  {
+    "step": "browser-initial",
+    "utc": "2026-10-18T03:39:36.144Z"
+  },
+  {
+    "step": "browser-ticket",
+    "utc": "2026-10-18T03:39:37.667Z"
+  },
+  {
+    "step": "browser-first-intake",
+    "utc": "2026-10-18T03:39:41.923Z"
+  },
+  {
+    "step": "browser-first-delivery",
+    "utc": "2026-10-18T03:39:42.271Z"
+  },
+  {
+    "step": "browser-orrin-approach",
+    "utc": "2026-10-18T03:39:52.469Z"
+  },
+  {
+    "step": "browser-orrin-account",
+    "utc": "2026-10-18T03:39:59.056Z"
+  },
+  {
+    "step": "browser-offer-draft",
+    "utc": "2026-10-18T03:40:01.066Z"
+  },
+  {
+    "step": "browser-money-refused",
+    "utc": "2026-10-18T03:40:06.274Z"
+  },
+  {
+    "step": "browser-comparison-permission",
+    "utc": "2026-10-18T03:40:10.995Z"
+  },
+  {
+    "step": "browser-pending-terms",
+    "utc": "2026-10-18T03:40:22.824Z"
+  },
+  {
+    "step": "browser-clean-recovery",
+    "utc": "2026-10-18T03:40:37.710Z"
+  },
+  {
+    "step": "browser-fresh-restriction-warning",
+    "utc": "2026-10-18T03:41:10.588Z"
+  },
+  {
+    "step": "browser-repair-preserved",
+    "utc": "2026-10-18T03:41:32.086Z"
+  },
+  {
+    "step": "browser-repaired-not-recovered",
+    "utc": "2026-10-18T03:41:38.121Z"
+  },
+  {
+    "step": "browser-repaired-recovery",
+    "utc": "2026-10-18T03:41:59.551Z"
+  },
+  {
+    "step": "browser-closure-preview-before-send",
+    "utc": "2026-10-18T03:42:07.120Z"
+  },
+  {
+    "step": "browser-warned-closure",
+    "utc": "2026-10-18T03:42:12.867Z"
+  },
+  {
+    "step": "browser-missing-display-receipt",
+    "utc": "2026-10-18T03:42:42.286Z"
+  },
+  {
+    "step": "browser-recovery-not-revoked",
+    "utc": "2026-10-18T03:46:23.464Z"
+  }
+]

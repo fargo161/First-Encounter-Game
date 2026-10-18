@@ -1,0 +1,62 @@
+{
+  "handoff": "Encounter_M3_Independent_Tester_Handoff_v1",
+  "purpose": "Independent M3 review only; no implementation and no M4.",
+  "checkpoint": {
+    "path": "inputs/Encounter_M3_Checkpoint.zip",
+    "sha256": "de808fbdbf6929c5c9cf7915ea982086d5796c7c004b16ec0a882e58170f3b64",
+    "bytes": 7534657,
+    "members": 189
+  },
+  "files": [
+    {
+      "path": "Encounter_M3_Independent_Tester_Prompt.md",
+      "bytes": 18728,
+      "sha256": "320c595155a7763407ecf41078ea34591f956151d4b3054cb5748be99d50bed3"
+    },
+    {
+      "path": "HANDOFF_PROVENANCE.txt",
+      "bytes": 786,
+      "sha256": "51a68550f66e9db90ee5856d394723d6c6b3870f78dece1b26c8b1ffda1bc29a"
+    },
+    {
+      "path": "M3_Independent_Review_Checklist.md",
+      "bytes": 2600,
+      "sha256": "bcd648554f0778beaef6a5157a697e47501acef81c3db6b075f6f912ceecb6b0"
+    },
+    {
+      "path": "START_HERE.md",
+      "bytes": 2213,
+      "sha256": "8bd9ddf9f898bb80c79ce87f8710a197df4e8057f398d34d5f7a22fec392ef68"
+    },
+    {
+      "path": "inputs/Builder_Frozen_Verification.json",
+      "bytes": 7925,
+      "sha256": "d7ce5a698558d39ccf4dacb2363005d75a5d04f0eeb62bb272822c54d8a7c2bc"
+    },
+    {
+      "path": "inputs/Builder_M3_Implementation_Report.md",
+      "bytes": 8374,
+      "sha256": "95830ff763b611ed538c13f462ea1459d7ef2ecae0c48fbf92fdb071bd6078dc"
+    },
+    {
+      "path": "inputs/Builder_README.md",
+      "bytes": 7891,
+      "sha256": "3bd858c8b1f2c3e4a4c814c7473ea8e0378f6976ed86f05334a4401ac7326d57"
+    },
+    {
+      "path": "inputs/Builder_Test_Results_and_Scope.md",
+      "bytes": 8444,
+      "sha256": "72c75bdb4b54598edef5db03448300662ee8c7755983bd7645fc9d850975090f"
+    },
+    {
+      "path": "inputs/Encounter_M3_Checkpoint.identity.json",
+      "bytes": 33250,
+      "sha256": "d025fe33a6a2773e88e249ce3c624280fca70921c8f541617ec8e92d4302abf4"
+    },
+    {
+      "path": "inputs/Encounter_M3_Checkpoint.zip",
+      "bytes": 7534657,
+      "sha256": "de808fbdbf6929c5c9cf7915ea982086d5796c7c004b16ec0a882e58170f3b64"
+    }
+  ]
+}

@@ -1,0 +1,523 @@
+{
+  "result": "PASS",
+  "sourceRevision": "M3-runtime-v1-R2-D02",
+  "sourceDigest": "7bbf91958abfb963830f412136baab95601da19cebc6673bf6d72207d18766d0",
+  "buildSHA256": "7cbc1251a627631cf352e8a0cd8c5c78b93b76fedd1205a1e84676bfcecfbbe8",
+  "packageRef": {
+    "id": "package_0003",
+    "revision": 1,
+    "digest": "2ce9f61b996f17392a39c56f4005d8203b7940aa4974564fafa54d110e35ae8f"
+  },
+  "browserExports": 14,
+  "rawInspectorsCompared": 4,
+  "beforeDefectsReproduced": true,
+  "allInvalidDisplaysKeepServiceOpen": true,
+  "visibleAndScrolledClosurePass": true,
+  "recoveryAndPostRecoveryPass": true,
+  "saveLoadEquality": true,
+  "browserRecords": 13,
+  "runs": [
+    {
+      "origin": "Actual M3-D02 remediation browser UI export",
+      "name": "browser-ancestor.json",
+      "runSHA256": "1d61299e35732fd14ef1c00dae1817196cf73f86a07bd82f98ecfb3497bc83c4",
+      "sourceRevision": "M3-runtime-v1-R2-D02",
+      "sourceDigest": "7bbf91958abfb963830f412136baab95601da19cebc6673bf6d72207d18766d0",
+      "buildSHA256": "7cbc1251a627631cf352e8a0cd8c5c78b93b76fedd1205a1e84676bfcecfbbe8",
+      "packageRef": {
+        "id": "package_0003",
+        "revision": 1,
+        "digest": "2ce9f61b996f17392a39c56f4005d8203b7940aa4974564fafa54d110e35ae8f"
+      },
+      "revision": 12,
+      "historicalDefectReproduction": false,
+      "rawInspectorCompared": false,
+      "outcomes": {
+        "recovered": false,
+        "serviceOpen": true,
+        "ownerId": "actor_0003",
+        "holderId": "subject_0007",
+        "quantity": 1,
+        "balances": {
+          "actor_0001": 1200,
+          "actor_0002": 0,
+          "actor_0004": 0
+        },
+        "recordCorrected": false,
+        "privateDisclosed": false
+      },
+      "defects": [
+        {
+          "id": "defect_0001",
+          "commandId": "command_4bb5b55f14364937b4ae9f3dc4bef264",
+          "type": "MISSING_CLOSURE_PREVIEW",
+          "warningMessageId": "message_000c",
+          "serviceRemainsOpen": true
+        }
+      ],
+      "closeResults": 0,
+      "handoverResults": 0
+    },
+    {
+      "origin": "Actual M3-D02 remediation browser UI export",
+      "name": "browser-before-horizontal.json",
+      "runSHA256": "d4e784a6ab789c15aace5944531c0c0a32bc2903ecb481654ad0e3cad203884b",
+      "sourceRevision": "M3-runtime-v1-R1-D01",
+      "sourceDigest": "35fa58990b19a08933fefb7e2f37ba1d5c5edc5807390354eae238e531588711",
+      "buildSHA256": "11393dde2ae110d3b04aac03c1044e000be6b410e4bffacb16216829c9050052",
+      "packageRef": {
+        "id": "package_0003",
+        "revision": 1,
+        "digest": "2ce9f61b996f17392a39c56f4005d8203b7940aa4974564fafa54d110e35ae8f"
+      },
+      "revision": 12,
+      "historicalDefectReproduction": true,
+      "rawInspectorCompared": false,
+      "outcomes": {
+        "recovered": false,
+        "serviceOpen": false,
+        "ownerId": "actor_0003",
+        "holderId": "subject_0007",
+        "quantity": 1,
+        "balances": {
+          "actor_0001": 1200,
+          "actor_0002": 0,
+          "actor_0004": 0
+        },
+        "recordCorrected": false,
+        "privateDisclosed": false
+      },
+      "defects": [],
+      "closeResults": 1,
+      "handoverResults": 0
+    },
+    {
+      "origin": "Actual M3-D02 remediation browser UI export",
+      "name": "browser-before-zero-width.json",
+      "runSHA256": "f89aa76357e22b5e8e50431760c07f271cdb6bc6536764dc189f1ff5ae36947f",
+      "sourceRevision": "M3-runtime-v1-R1-D01",
+      "sourceDigest": "35fa58990b19a08933fefb7e2f37ba1d5c5edc5807390354eae238e531588711",
+      "buildSHA256": "11393dde2ae110d3b04aac03c1044e000be6b410e4bffacb16216829c9050052",
+      "packageRef": {
+        "id": "package_0003",
+        "revision": 1,
+        "digest": "2ce9f61b996f17392a39c56f4005d8203b7940aa4974564fafa54d110e35ae8f"
+      },
+      "revision": 12,
+      "historicalDefectReproduction": true,
+      "rawInspectorCompared": false,
+      "outcomes": {
+        "recovered": false,
+        "serviceOpen": false,
+        "ownerId": "actor_0003",
+        "holderId": "subject_0007",
+        "quantity": 1,
+        "balances": {
+          "actor_0001": 1200,
+          "actor_0002": 0,
+          "actor_0004": 0
+        },
+        "recordCorrected": false,
+        "privateDisclosed": false
+      },
+      "defects": [],
+      "closeResults": 1,
+      "handoverResults": 0
+    },
+    {
+      "origin": "Actual M3-D02 remediation browser UI export",
+      "name": "browser-horizontal.json",
+      "runSHA256": "f64bdc0e107e2f316a2cd31dd02fac0214d5b38ebc9cd6277f448170cf5fb720",
+      "sourceRevision": "M3-runtime-v1-R2-D02",
+      "sourceDigest": "7bbf91958abfb963830f412136baab95601da19cebc6673bf6d72207d18766d0",
+      "buildSHA256": "7cbc1251a627631cf352e8a0cd8c5c78b93b76fedd1205a1e84676bfcecfbbe8",
+      "packageRef": {
+        "id": "package_0003",
+        "revision": 1,
+        "digest": "2ce9f61b996f17392a39c56f4005d8203b7940aa4974564fafa54d110e35ae8f"
+      },
+      "revision": 12,
+      "historicalDefectReproduction": false,
+      "rawInspectorCompared": true,
+      "outcomes": {
+        "recovered": false,
+        "serviceOpen": true,
+        "ownerId": "actor_0003",
+        "holderId": "subject_0007",
+        "quantity": 1,
+        "balances": {
+          "actor_0001": 1200,
+          "actor_0002": 0,
+          "actor_0004": 0
+        },
+        "recordCorrected": false,
+        "privateDisclosed": false
+      },
+      "defects": [
+        {
+          "id": "defect_0001",
+          "commandId": "command_0a289daec8264771a7d3a5f8b9e96982",
+          "type": "MISSING_CLOSURE_PREVIEW",
+          "warningMessageId": "message_000c",
+          "serviceRemainsOpen": true
+        }
+      ],
+      "closeResults": 0,
+      "handoverResults": 0
+    },
+    {
+      "origin": "Actual M3-D02 remediation browser UI export",
+      "name": "browser-normal-after-load.json",
+      "runSHA256": "66e3b59351ffd112ff87177a5905695e34c586ac4f99de0ec8f162dbb65cf23a",
+      "sourceRevision": "M3-runtime-v1-R2-D02",
+      "sourceDigest": "7bbf91958abfb963830f412136baab95601da19cebc6673bf6d72207d18766d0",
+      "buildSHA256": "7cbc1251a627631cf352e8a0cd8c5c78b93b76fedd1205a1e84676bfcecfbbe8",
+      "packageRef": {
+        "id": "package_0003",
+        "revision": 1,
+        "digest": "2ce9f61b996f17392a39c56f4005d8203b7940aa4974564fafa54d110e35ae8f"
+      },
+      "revision": 12,
+      "historicalDefectReproduction": false,
+      "rawInspectorCompared": false,
+      "outcomes": {
+        "recovered": false,
+        "serviceOpen": false,
+        "ownerId": "actor_0003",
+        "holderId": "subject_0007",
+        "quantity": 1,
+        "balances": {
+          "actor_0001": 1200,
+          "actor_0002": 0,
+          "actor_0004": 0
+        },
+        "recordCorrected": false,
+        "privateDisclosed": false
+      },
+      "defects": [],
+      "closeResults": 1,
+      "handoverResults": 0
+    },
+    {
+      "origin": "Actual M3-D02 remediation browser UI export",
+      "name": "browser-normal.json",
+      "runSHA256": "66e3b59351ffd112ff87177a5905695e34c586ac4f99de0ec8f162dbb65cf23a",
+      "sourceRevision": "M3-runtime-v1-R2-D02",
+      "sourceDigest": "7bbf91958abfb963830f412136baab95601da19cebc6673bf6d72207d18766d0",
+      "buildSHA256": "7cbc1251a627631cf352e8a0cd8c5c78b93b76fedd1205a1e84676bfcecfbbe8",
+      "packageRef": {
+        "id": "package_0003",
+        "revision": 1,
+        "digest": "2ce9f61b996f17392a39c56f4005d8203b7940aa4974564fafa54d110e35ae8f"
+      },
+      "revision": 12,
+      "historicalDefectReproduction": false,
+      "rawInspectorCompared": true,
+      "outcomes": {
+        "recovered": false,
+        "serviceOpen": false,
+        "ownerId": "actor_0003",
+        "holderId": "subject_0007",
+        "quantity": 1,
+        "balances": {
+          "actor_0001": 1200,
+          "actor_0002": 0,
+          "actor_0004": 0
+        },
+        "recordCorrected": false,
+        "privateDisclosed": false
+      },
+      "defects": [],
+      "closeResults": 1,
+      "handoverResults": 0
+    },
+    {
+      "origin": "Actual M3-D02 remediation browser UI export",
+      "name": "browser-opacity.json",
+      "runSHA256": "ed68e704d4aa3785d45aaff9e682157414f18f8af14072c86e5e8c33f22415eb",
+      "sourceRevision": "M3-runtime-v1-R2-D02",
+      "sourceDigest": "7bbf91958abfb963830f412136baab95601da19cebc6673bf6d72207d18766d0",
+      "buildSHA256": "7cbc1251a627631cf352e8a0cd8c5c78b93b76fedd1205a1e84676bfcecfbbe8",
+      "packageRef": {
+        "id": "package_0003",
+        "revision": 1,
+        "digest": "2ce9f61b996f17392a39c56f4005d8203b7940aa4974564fafa54d110e35ae8f"
+      },
+      "revision": 12,
+      "historicalDefectReproduction": false,
+      "rawInspectorCompared": false,
+      "outcomes": {
+        "recovered": false,
+        "serviceOpen": true,
+        "ownerId": "actor_0003",
+        "holderId": "subject_0007",
+        "quantity": 1,
+        "balances": {
+          "actor_0001": 1200,
+          "actor_0002": 0,
+          "actor_0004": 0
+        },
+        "recordCorrected": false,
+        "privateDisclosed": false
+      },
+      "defects": [
+        {
+          "id": "defect_0001",
+          "commandId": "command_194509c0f3ce431cb759ed07281662e3",
+          "type": "MISSING_CLOSURE_PREVIEW",
+          "warningMessageId": "message_000c",
+          "serviceRemainsOpen": true
+        }
+      ],
+      "closeResults": 0,
+      "handoverResults": 0
+    },
+    {
+      "origin": "Actual M3-D02 remediation browser UI export",
+      "name": "browser-post-recovery.json",
+      "runSHA256": "b9e9615ae9d1f27f757dc32a1d5d7e7347c4c69fda28e982ff5b397a07c3a4e2",
+      "sourceRevision": "M3-runtime-v1-R2-D02",
+      "sourceDigest": "7bbf91958abfb963830f412136baab95601da19cebc6673bf6d72207d18766d0",
+      "buildSHA256": "7cbc1251a627631cf352e8a0cd8c5c78b93b76fedd1205a1e84676bfcecfbbe8",
+      "packageRef": {
+        "id": "package_0003",
+        "revision": 1,
+        "digest": "2ce9f61b996f17392a39c56f4005d8203b7940aa4974564fafa54d110e35ae8f"
+      },
+      "revision": 16,
+      "historicalDefectReproduction": false,
+      "rawInspectorCompared": false,
+      "outcomes": {
+        "recovered": true,
+        "serviceOpen": true,
+        "ownerId": "actor_0003",
+        "holderId": "actor_0001",
+        "quantity": 1,
+        "balances": {
+          "actor_0001": 1200,
+          "actor_0002": 0,
+          "actor_0004": 0
+        },
+        "recordCorrected": false,
+        "privateDisclosed": false
+      },
+      "defects": [],
+      "closeResults": 0,
+      "handoverResults": 1
+    },
+    {
+      "origin": "Actual M3-D02 remediation browser UI export",
+      "name": "browser-recovery.json",
+      "runSHA256": "8bea7dd17c66ed9d56807230540fba4f5d12fdd1dc8be547e7462cc587da9180",
+      "sourceRevision": "M3-runtime-v1-R2-D02",
+      "sourceDigest": "7bbf91958abfb963830f412136baab95601da19cebc6673bf6d72207d18766d0",
+      "buildSHA256": "7cbc1251a627631cf352e8a0cd8c5c78b93b76fedd1205a1e84676bfcecfbbe8",
+      "packageRef": {
+        "id": "package_0003",
+        "revision": 1,
+        "digest": "2ce9f61b996f17392a39c56f4005d8203b7940aa4974564fafa54d110e35ae8f"
+      },
+      "revision": 15,
+      "historicalDefectReproduction": false,
+      "rawInspectorCompared": true,
+      "outcomes": {
+        "recovered": true,
+        "serviceOpen": true,
+        "ownerId": "actor_0003",
+        "holderId": "actor_0001",
+        "quantity": 1,
+        "balances": {
+          "actor_0001": 1200,
+          "actor_0002": 0,
+          "actor_0004": 0
+        },
+        "recordCorrected": false,
+        "privateDisclosed": false
+      },
+      "defects": [],
+      "closeResults": 0,
+      "handoverResults": 1
+    },
+    {
+      "origin": "Actual M3-D02 remediation browser UI export",
+      "name": "browser-repaired-after-load.json",
+      "runSHA256": "cbdf63668719f5df3f7d9296ad13dbeca370dd2d423b2cff5d1ab1c38c6738e8",
+      "sourceRevision": "M3-runtime-v1-R2-D02",
+      "sourceDigest": "7bbf91958abfb963830f412136baab95601da19cebc6673bf6d72207d18766d0",
+      "buildSHA256": "7cbc1251a627631cf352e8a0cd8c5c78b93b76fedd1205a1e84676bfcecfbbe8",
+      "packageRef": {
+        "id": "package_0003",
+        "revision": 1,
+        "digest": "2ce9f61b996f17392a39c56f4005d8203b7940aa4974564fafa54d110e35ae8f"
+      },
+      "revision": 13,
+      "historicalDefectReproduction": false,
+      "rawInspectorCompared": false,
+      "outcomes": {
+        "recovered": false,
+        "serviceOpen": true,
+        "ownerId": "actor_0003",
+        "holderId": "subject_0007",
+        "quantity": 1,
+        "balances": {
+          "actor_0001": 1200,
+          "actor_0002": 0,
+          "actor_0004": 0
+        },
+        "recordCorrected": false,
+        "privateDisclosed": false
+      },
+      "defects": [],
+      "closeResults": 0,
+      "handoverResults": 0
+    },
+    {
+      "origin": "Actual M3-D02 remediation browser UI export",
+      "name": "browser-repaired.json",
+      "runSHA256": "cbdf63668719f5df3f7d9296ad13dbeca370dd2d423b2cff5d1ab1c38c6738e8",
+      "sourceRevision": "M3-runtime-v1-R2-D02",
+      "sourceDigest": "7bbf91958abfb963830f412136baab95601da19cebc6673bf6d72207d18766d0",
+      "buildSHA256": "7cbc1251a627631cf352e8a0cd8c5c78b93b76fedd1205a1e84676bfcecfbbe8",
+      "packageRef": {
+        "id": "package_0003",
+        "revision": 1,
+        "digest": "2ce9f61b996f17392a39c56f4005d8203b7940aa4974564fafa54d110e35ae8f"
+      },
+      "revision": 13,
+      "historicalDefectReproduction": false,
+      "rawInspectorCompared": false,
+      "outcomes": {
+        "recovered": false,
+        "serviceOpen": true,
+        "ownerId": "actor_0003",
+        "holderId": "subject_0007",
+        "quantity": 1,
+        "balances": {
+          "actor_0001": 1200,
+          "actor_0002": 0,
+          "actor_0004": 0
+        },
+        "recordCorrected": false,
+        "privateDisclosed": false
+      },
+      "defects": [],
+      "closeResults": 0,
+      "handoverResults": 0
+    },
+    {
+      "origin": "Actual M3-D02 remediation browser UI export",
+      "name": "browser-scroll.json",
+      "runSHA256": "44bbe7a9e50a8ae0a1514c40af74e98b87b8e0f034a08ed66a4f8d317b2ad61c",
+      "sourceRevision": "M3-runtime-v1-R2-D02",
+      "sourceDigest": "7bbf91958abfb963830f412136baab95601da19cebc6673bf6d72207d18766d0",
+      "buildSHA256": "7cbc1251a627631cf352e8a0cd8c5c78b93b76fedd1205a1e84676bfcecfbbe8",
+      "packageRef": {
+        "id": "package_0003",
+        "revision": 1,
+        "digest": "2ce9f61b996f17392a39c56f4005d8203b7940aa4974564fafa54d110e35ae8f"
+      },
+      "revision": 12,
+      "historicalDefectReproduction": false,
+      "rawInspectorCompared": false,
+      "outcomes": {
+        "recovered": false,
+        "serviceOpen": false,
+        "ownerId": "actor_0003",
+        "holderId": "subject_0007",
+        "quantity": 1,
+        "balances": {
+          "actor_0001": 1200,
+          "actor_0002": 0,
+          "actor_0004": 0
+        },
+        "recordCorrected": false,
+        "privateDisclosed": false
+      },
+      "defects": [],
+      "closeResults": 1,
+      "handoverResults": 0
+    },
+    {
+      "origin": "Actual M3-D02 remediation browser UI export",
+      "name": "browser-vertical.json",
+      "runSHA256": "efe11d108cc635af022bf88ef08a83b8f5f5efd48a01572edb703b477b201461",
+      "sourceRevision": "M3-runtime-v1-R2-D02",
+      "sourceDigest": "7bbf91958abfb963830f412136baab95601da19cebc6673bf6d72207d18766d0",
+      "buildSHA256": "7cbc1251a627631cf352e8a0cd8c5c78b93b76fedd1205a1e84676bfcecfbbe8",
+      "packageRef": {
+        "id": "package_0003",
+        "revision": 1,
+        "digest": "2ce9f61b996f17392a39c56f4005d8203b7940aa4974564fafa54d110e35ae8f"
+      },
+      "revision": 12,
+      "historicalDefectReproduction": false,
+      "rawInspectorCompared": false,
+      "outcomes": {
+        "recovered": false,
+        "serviceOpen": true,
+        "ownerId": "actor_0003",
+        "holderId": "subject_0007",
+        "quantity": 1,
+        "balances": {
+          "actor_0001": 1200,
+          "actor_0002": 0,
+          "actor_0004": 0
+        },
+        "recordCorrected": false,
+        "privateDisclosed": false
+      },
+      "defects": [
+        {
+          "id": "defect_0001",
+          "commandId": "command_d232a60d44944ffd8e48356a20fe1475",
+          "type": "MISSING_CLOSURE_PREVIEW",
+          "warningMessageId": "message_000c",
+          "serviceRemainsOpen": true
+        }
+      ],
+      "closeResults": 0,
+      "handoverResults": 0
+    },
+    {
+      "origin": "Actual M3-D02 remediation browser UI export",
+      "name": "browser-zero-width.json",
+      "runSHA256": "bd14e5b0412921f0d84c2a9e9428a2b53b7c73bc0469d24c9f0b665b367298d3",
+      "sourceRevision": "M3-runtime-v1-R2-D02",
+      "sourceDigest": "7bbf91958abfb963830f412136baab95601da19cebc6673bf6d72207d18766d0",
+      "buildSHA256": "7cbc1251a627631cf352e8a0cd8c5c78b93b76fedd1205a1e84676bfcecfbbe8",
+      "packageRef": {
+        "id": "package_0003",
+        "revision": 1,
+        "digest": "2ce9f61b996f17392a39c56f4005d8203b7940aa4974564fafa54d110e35ae8f"
+      },
+      "revision": 12,
+      "historicalDefectReproduction": false,
+      "rawInspectorCompared": true,
+      "outcomes": {
+        "recovered": false,
+        "serviceOpen": true,
+        "ownerId": "actor_0003",
+        "holderId": "subject_0007",
+        "quantity": 1,
+        "balances": {
+          "actor_0001": 1200,
+          "actor_0002": 0,
+          "actor_0004": 0
+        },
+        "recordCorrected": false,
+        "privateDisclosed": false
+      },
+      "defects": [
+        {
+          "id": "defect_0001",
+          "commandId": "command_9a9c43106cc64c29abdf1bad54fbb78d",
+          "type": "MISSING_CLOSURE_PREVIEW",
+          "warningMessageId": "message_000c",
+          "serviceRemainsOpen": true
+        }
+      ],
+      "closeResults": 0,
+      "handoverResults": 0
+    }
+  ]
+}

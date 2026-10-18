@@ -1,0 +1,830 @@
+[
+  {
+    "case": "before",
+    "receipt": true,
+    "serviceOpen": false,
+    "closeResults": 1,
+    "defects": [],
+    "geometry": {
+      "ancestors": [
+        {
+          "className": "preview",
+          "id": "",
+          "opacity": "1",
+          "tag": "DIV"
+        },
+        {
+          "className": "composer-body",
+          "id": "",
+          "opacity": "1",
+          "tag": "DIV"
+        },
+        {
+          "className": "panel",
+          "id": "composer",
+          "opacity": "1",
+          "tag": "SECTION"
+        },
+        {
+          "className": "tools-column",
+          "id": "",
+          "opacity": "1",
+          "tag": "DIV"
+        },
+        {
+          "className": "workspace",
+          "id": "",
+          "opacity": "1",
+          "tag": "MAIN"
+        },
+        {
+          "className": "shell",
+          "id": "",
+          "opacity": "1",
+          "tag": "DIV"
+        },
+        {
+          "className": "",
+          "id": "",
+          "opacity": "1",
+          "tag": "BODY"
+        },
+        {
+          "className": "",
+          "id": "",
+          "opacity": "1",
+          "tag": "HTML"
+        }
+      ],
+      "hidden": false,
+      "rect": {
+        "bottom": 543.8500137329102,
+        "height": 87.6500015258789,
+        "left": 57.20000076293945,
+        "right": 405.5999946594238,
+        "top": 456.2000122070313,
+        "width": 348.3999938964844
+      },
+      "style": {
+        "display": "block",
+        "opacity": "0",
+        "visibility": "visible"
+      },
+      "text": "The clerk warned that renewing this protected/full-file demand will end collection service for this visit. Send anyway or edit the draft.",
+      "viewport": {
+        "height": 764,
+        "width": 920
+      }
+    }
+  },
+  {
+    "case": "opacity",
+    "receipt": false,
+    "serviceOpen": true,
+    "closeResults": 0,
+    "defects": [
+      {
+        "commandId": "command_c446325e125c4acfa593cbafb77f977c",
+        "id": "defect_0001",
+        "serviceRemainsOpen": true,
+        "type": "MISSING_CLOSURE_PREVIEW",
+        "warningMessageId": "message_000c"
+      }
+    ],
+    "geometry": {
+      "ancestors": [
+        {
+          "className": "preview",
+          "id": "",
+          "opacity": "1",
+          "tag": "DIV"
+        },
+        {
+          "className": "composer-body",
+          "id": "",
+          "opacity": "1",
+          "tag": "DIV"
+        },
+        {
+          "className": "panel",
+          "id": "composer",
+          "opacity": "1",
+          "tag": "SECTION"
+        },
+        {
+          "className": "tools-column",
+          "id": "",
+          "opacity": "1",
+          "tag": "DIV"
+        },
+        {
+          "className": "workspace",
+          "id": "",
+          "opacity": "1",
+          "tag": "MAIN"
+        },
+        {
+          "className": "shell",
+          "id": "",
+          "opacity": "1",
+          "tag": "DIV"
+        },
+        {
+          "className": "",
+          "id": "",
+          "opacity": "1",
+          "tag": "BODY"
+        },
+        {
+          "className": "",
+          "id": "",
+          "opacity": "1",
+          "tag": "HTML"
+        }
+      ],
+      "hidden": false,
+      "rect": {
+        "bottom": 543.8500137329102,
+        "height": 87.6500015258789,
+        "left": 57.20000076293945,
+        "right": 405.5999946594238,
+        "top": 456.2000122070313,
+        "width": 348.3999938964844
+      },
+      "style": {
+        "display": "block",
+        "opacity": "0",
+        "visibility": "visible"
+      },
+      "text": "The clerk warned that renewing this protected/full-file demand will end collection service for this visit. Send anyway or edit the draft.",
+      "viewport": {
+        "height": 764,
+        "width": 920
+      }
+    }
+  },
+  {
+    "case": "ancestor",
+    "receipt": false,
+    "serviceOpen": true,
+    "closeResults": 0,
+    "defects": [
+      {
+        "commandId": "command_cc3769154a4544c7ba6d56e311054df6",
+        "id": "defect_0001",
+        "serviceRemainsOpen": true,
+        "type": "MISSING_CLOSURE_PREVIEW",
+        "warningMessageId": "message_000c"
+      }
+    ],
+    "geometry": {
+      "ancestors": [
+        {
+          "className": "preview",
+          "id": "",
+          "opacity": "0",
+          "tag": "DIV"
+        },
+        {
+          "className": "composer-body",
+          "id": "",
+          "opacity": "1",
+          "tag": "DIV"
+        },
+        {
+          "className": "panel",
+          "id": "composer",
+          "opacity": "1",
+          "tag": "SECTION"
+        },
+        {
+          "className": "tools-column",
+          "id": "",
+          "opacity": "1",
+          "tag": "DIV"
+        },
+        {
+          "className": "workspace",
+          "id": "",
+          "opacity": "1",
+          "tag": "MAIN"
+        },
+        {
+          "className": "shell",
+          "id": "",
+          "opacity": "1",
+          "tag": "DIV"
+        },
+        {
+          "className": "",
+          "id": "",
+          "opacity": "1",
+          "tag": "BODY"
+        },
+        {
+          "className": "",
+          "id": "",
+          "opacity": "1",
+          "tag": "HTML"
+        }
+      ],
+      "hidden": false,
+      "rect": {
+        "bottom": 543.8500137329102,
+        "height": 87.6500015258789,
+        "left": 57.20000076293945,
+        "right": 405.5999946594238,
+        "top": 456.2000122070313,
+        "width": 348.3999938964844
+      },
+      "style": {
+        "display": "block",
+        "opacity": "1",
+        "visibility": "visible"
+      },
+      "text": "The clerk warned that renewing this protected/full-file demand will end collection service for this visit. Send anyway or edit the draft.",
+      "viewport": {
+        "height": 764,
+        "width": 920
+      }
+    }
+  },
+  {
+    "case": "vertical",
+    "receipt": false,
+    "serviceOpen": true,
+    "closeResults": 0,
+    "defects": [
+      {
+        "commandId": "command_17cf7b8861bc409da74aed9c851406f5",
+        "id": "defect_0001",
+        "serviceRemainsOpen": true,
+        "type": "MISSING_CLOSURE_PREVIEW",
+        "warningMessageId": "message_000c"
+      }
+    ],
+    "geometry": {
+      "ancestors": [
+        {
+          "className": "preview",
+          "id": "",
+          "opacity": "1",
+          "tag": "DIV"
+        },
+        {
+          "className": "composer-body",
+          "id": "",
+          "opacity": "1",
+          "tag": "DIV"
+        },
+        {
+          "className": "panel",
+          "id": "composer",
+          "opacity": "1",
+          "tag": "SECTION"
+        },
+        {
+          "className": "tools-column",
+          "id": "",
+          "opacity": "1",
+          "tag": "DIV"
+        },
+        {
+          "className": "workspace",
+          "id": "",
+          "opacity": "1",
+          "tag": "MAIN"
+        },
+        {
+          "className": "shell",
+          "id": "",
+          "opacity": "1",
+          "tag": "DIV"
+        },
+        {
+          "className": "",
+          "id": "",
+          "opacity": "1",
+          "tag": "BODY"
+        },
+        {
+          "className": "",
+          "id": "",
+          "opacity": "1",
+          "tag": "HTML"
+        }
+      ],
+      "hidden": false,
+      "rect": {
+        "bottom": -945.6499977111816,
+        "height": 47.35000228881836,
+        "left": 57.20000076293945,
+        "right": 900.6249885559082,
+        "top": -993,
+        "width": 843.4249877929688
+      },
+      "style": {
+        "display": "block",
+        "opacity": "1",
+        "visibility": "visible"
+      },
+      "text": "The clerk warned that renewing this protected/full-file demand will end collection service for this visit. Send anyway or edit the draft.",
+      "viewport": {
+        "height": 764,
+        "width": 920
+      }
+    }
+  },
+  {
+    "case": "hidden",
+    "receipt": false,
+    "serviceOpen": true,
+    "closeResults": 0,
+    "defects": [
+      {
+        "commandId": "command_5daac85b0a574cb8970bdf8f6055c826",
+        "id": "defect_0001",
+        "serviceRemainsOpen": true,
+        "type": "MISSING_CLOSURE_PREVIEW",
+        "warningMessageId": "message_000c"
+      }
+    ],
+    "geometry": {
+      "ancestors": [
+        {
+          "className": "preview",
+          "id": "",
+          "opacity": "1",
+          "tag": "DIV"
+        },
+        {
+          "className": "composer-body",
+          "id": "",
+          "opacity": "1",
+          "tag": "DIV"
+        },
+        {
+          "className": "panel",
+          "id": "composer",
+          "opacity": "1",
+          "tag": "SECTION"
+        },
+        {
+          "className": "tools-column",
+          "id": "",
+          "opacity": "1",
+          "tag": "DIV"
+        },
+        {
+          "className": "workspace",
+          "id": "",
+          "opacity": "1",
+          "tag": "MAIN"
+        },
+        {
+          "className": "shell",
+          "id": "",
+          "opacity": "1",
+          "tag": "DIV"
+        },
+        {
+          "className": "",
+          "id": "",
+          "opacity": "1",
+          "tag": "BODY"
+        },
+        {
+          "className": "",
+          "id": "",
+          "opacity": "1",
+          "tag": "HTML"
+        }
+      ],
+      "hidden": false,
+      "rect": {
+        "bottom": 543.8500137329102,
+        "height": 87.6500015258789,
+        "left": 57.20000076293945,
+        "right": 405.5999946594238,
+        "top": 456.2000122070313,
+        "width": 348.3999938964844
+      },
+      "style": {
+        "display": "block",
+        "opacity": "1",
+        "visibility": "hidden"
+      },
+      "text": "The clerk warned that renewing this protected/full-file demand will end collection service for this visit. Send anyway or edit the draft.",
+      "viewport": {
+        "height": 764,
+        "width": 920
+      }
+    }
+  },
+  {
+    "case": "display-none",
+    "receipt": false,
+    "serviceOpen": true,
+    "closeResults": 0,
+    "defects": [
+      {
+        "commandId": "command_626db59b82934d17a5056835257c9081",
+        "id": "defect_0001",
+        "serviceRemainsOpen": true,
+        "type": "MISSING_CLOSURE_PREVIEW",
+        "warningMessageId": "message_000c"
+      }
+    ],
+    "geometry": {
+      "ancestors": [
+        {
+          "className": "preview",
+          "id": "",
+          "opacity": "1",
+          "tag": "DIV"
+        },
+        {
+          "className": "composer-body",
+          "id": "",
+          "opacity": "1",
+          "tag": "DIV"
+        },
+        {
+          "className": "panel",
+          "id": "composer",
+          "opacity": "1",
+          "tag": "SECTION"
+        },
+        {
+          "className": "tools-column",
+          "id": "",
+          "opacity": "1",
+          "tag": "DIV"
+        },
+        {
+          "className": "workspace",
+          "id": "",
+          "opacity": "1",
+          "tag": "MAIN"
+        },
+        {
+          "className": "shell",
+          "id": "",
+          "opacity": "1",
+          "tag": "DIV"
+        },
+        {
+          "className": "",
+          "id": "",
+          "opacity": "1",
+          "tag": "BODY"
+        },
+        {
+          "className": "",
+          "id": "",
+          "opacity": "1",
+          "tag": "HTML"
+        }
+      ],
+      "hidden": false,
+      "rect": {
+        "bottom": 0,
+        "height": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0,
+        "width": 0
+      },
+      "style": {
+        "display": "none",
+        "opacity": "1",
+        "visibility": "visible"
+      },
+      "text": "The clerk warned that renewing this protected/full-file demand will end collection service for this visit. Send anyway or edit the draft.",
+      "viewport": {
+        "height": 764,
+        "width": 920
+      }
+    }
+  },
+  {
+    "case": "zero-height",
+    "receipt": false,
+    "serviceOpen": true,
+    "closeResults": 0,
+    "defects": [
+      {
+        "commandId": "command_6fc794f64b104fbcbeec7b0149af2a15",
+        "id": "defect_0001",
+        "serviceRemainsOpen": true,
+        "type": "MISSING_CLOSURE_PREVIEW",
+        "warningMessageId": "message_000c"
+      }
+    ],
+    "geometry": {
+      "ancestors": [
+        {
+          "className": "preview",
+          "id": "",
+          "opacity": "1",
+          "tag": "DIV"
+        },
+        {
+          "className": "composer-body",
+          "id": "",
+          "opacity": "1",
+          "tag": "DIV"
+        },
+        {
+          "className": "panel",
+          "id": "composer",
+          "opacity": "1",
+          "tag": "SECTION"
+        },
+        {
+          "className": "tools-column",
+          "id": "",
+          "opacity": "1",
+          "tag": "DIV"
+        },
+        {
+          "className": "workspace",
+          "id": "",
+          "opacity": "1",
+          "tag": "MAIN"
+        },
+        {
+          "className": "shell",
+          "id": "",
+          "opacity": "1",
+          "tag": "DIV"
+        },
+        {
+          "className": "",
+          "id": "",
+          "opacity": "1",
+          "tag": "BODY"
+        },
+        {
+          "className": "",
+          "id": "",
+          "opacity": "1",
+          "tag": "HTML"
+        }
+      ],
+      "hidden": false,
+      "rect": {
+        "bottom": 544.2000122070312,
+        "height": 0,
+        "left": 57.20000076293945,
+        "right": 405.5999946594238,
+        "top": 544.2000122070312,
+        "width": 348.3999938964844
+      },
+      "style": {
+        "display": "block",
+        "opacity": "1",
+        "visibility": "visible"
+      },
+      "text": "The clerk warned that renewing this protected/full-file demand will end collection service for this visit. Send anyway or edit the draft.",
+      "viewport": {
+        "height": 764,
+        "width": 920
+      }
+    }
+  },
+  {
+    "case": "horizontal",
+    "receipt": true,
+    "serviceOpen": false,
+    "closeResults": 1,
+    "defects": [],
+    "geometry": {
+      "ancestors": [
+        {
+          "className": "preview",
+          "id": "",
+          "opacity": "1",
+          "tag": "DIV"
+        },
+        {
+          "className": "composer-body",
+          "id": "",
+          "opacity": "1",
+          "tag": "DIV"
+        },
+        {
+          "className": "panel",
+          "id": "composer",
+          "opacity": "1",
+          "tag": "SECTION"
+        },
+        {
+          "className": "tools-column",
+          "id": "",
+          "opacity": "1",
+          "tag": "DIV"
+        },
+        {
+          "className": "workspace",
+          "id": "",
+          "opacity": "1",
+          "tag": "MAIN"
+        },
+        {
+          "className": "shell",
+          "id": "",
+          "opacity": "1",
+          "tag": "DIV"
+        },
+        {
+          "className": "",
+          "id": "",
+          "opacity": "1",
+          "tag": "BODY"
+        },
+        {
+          "className": "",
+          "id": "",
+          "opacity": "1",
+          "tag": "HTML"
+        }
+      ],
+      "hidden": false,
+      "rect": {
+        "bottom": 214.8000030517578,
+        "height": 107.8000030517578,
+        "left": -10000,
+        "right": -9700,
+        "top": 107,
+        "width": 300
+      },
+      "style": {
+        "display": "block",
+        "opacity": "1",
+        "visibility": "visible"
+      },
+      "text": "The clerk warned that renewing this protected/full-file demand will end collection service for this visit. Send anyway or edit the draft.",
+      "viewport": {
+        "height": 764,
+        "width": 920
+      }
+    }
+  },
+  {
+    "case": "zero-width",
+    "receipt": true,
+    "serviceOpen": false,
+    "closeResults": 1,
+    "defects": [],
+    "geometry": {
+      "ancestors": [
+        {
+          "className": "preview",
+          "id": "",
+          "opacity": "1",
+          "tag": "DIV"
+        },
+        {
+          "className": "composer-body",
+          "id": "",
+          "opacity": "1",
+          "tag": "DIV"
+        },
+        {
+          "className": "panel",
+          "id": "composer",
+          "opacity": "1",
+          "tag": "SECTION"
+        },
+        {
+          "className": "tools-column",
+          "id": "",
+          "opacity": "1",
+          "tag": "DIV"
+        },
+        {
+          "className": "workspace",
+          "id": "",
+          "opacity": "1",
+          "tag": "MAIN"
+        },
+        {
+          "className": "shell",
+          "id": "",
+          "opacity": "1",
+          "tag": "DIV"
+        },
+        {
+          "className": "",
+          "id": "",
+          "opacity": "1",
+          "tag": "BODY"
+        },
+        {
+          "className": "",
+          "id": "",
+          "opacity": "1",
+          "tag": "HTML"
+        }
+      ],
+      "hidden": false,
+      "rect": {
+        "bottom": 207,
+        "height": 100,
+        "left": 100,
+        "right": 100,
+        "top": 107,
+        "width": 0
+      },
+      "style": {
+        "display": "block",
+        "opacity": "1",
+        "visibility": "visible"
+      },
+      "text": "The clerk warned that renewing this protected/full-file demand will end collection service for this visit. Send anyway or edit the draft.",
+      "viewport": {
+        "height": 764,
+        "width": 920
+      }
+    }
+  },
+  {
+    "case": "normal",
+    "receipt": true,
+    "serviceOpen": false,
+    "closeResults": 1,
+    "defects": [],
+    "geometry": {
+      "ancestors": [
+        {
+          "className": "preview",
+          "id": "",
+          "opacity": "1",
+          "tag": "DIV"
+        },
+        {
+          "className": "composer-body",
+          "id": "",
+          "opacity": "1",
+          "tag": "DIV"
+        },
+        {
+          "className": "panel",
+          "id": "composer",
+          "opacity": "1",
+          "tag": "SECTION"
+        },
+        {
+          "className": "tools-column",
+          "id": "",
+          "opacity": "1",
+          "tag": "DIV"
+        },
+        {
+          "className": "workspace",
+          "id": "",
+          "opacity": "1",
+          "tag": "MAIN"
+        },
+        {
+          "className": "shell",
+          "id": "",
+          "opacity": "1",
+          "tag": "DIV"
+        },
+        {
+          "className": "",
+          "id": "",
+          "opacity": "1",
+          "tag": "BODY"
+        },
+        {
+          "className": "",
+          "id": "",
+          "opacity": "1",
+          "tag": "HTML"
+        }
+      ],
+      "hidden": false,
+      "rect": {
+        "bottom": 543.8500137329102,
+        "height": 87.6500015258789,
+        "left": 57.20000076293945,
+        "right": 405.5999946594238,
+        "top": 456.2000122070313,
+        "width": 348.3999938964844
+      },
+      "style": {
+        "display": "block",
+        "opacity": "1",
+        "visibility": "visible"
+      },
+      "text": "The clerk warned that renewing this protected/full-file demand will end collection service for this visit. Send anyway or edit the draft.",
+      "viewport": {
+        "height": 764,
+        "width": 920
+      }
+    }
+  }
+]

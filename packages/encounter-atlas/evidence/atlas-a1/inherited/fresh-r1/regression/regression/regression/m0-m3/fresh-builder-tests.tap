@@ -1,0 +1,1192 @@
+{
+  "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\atlas-a1-inherited-gates\\encounter-r3-regression-y38dntfq",
+  "executable": "C:\\Program Files\\nodejs\\node.EXE",
+  "args": [
+    "--test",
+    "--test-reporter=tap",
+    "tests/*.test.mjs"
+  ],
+  "environmentBinding": {
+    "ENCOUNTER_CHECKPOINT": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\atlas-a1-inherited-gates\\encounter-r3-regression-y38dntfq",
+    "M2_BROWSER_EVIDENCE": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\atlas-a1-inherited-gates\\encounter-r3-regression-y38dntfq\\independent\\m2-browser-evidence"
+  },
+  "exitCode": 0
+}
+
+STDOUT
+TAP version 13
+# Subtest: AR0-D01-01 actor A cannot alias actor B Person, regardless of entity order
+ok 1 - AR0-D01-01 actor A cannot alias actor B Person, regardless of entity order
+  ---
+  duration_ms: 18.5756
+  type: 'test'
+  ...
+# Subtest: AR0-D01-02 two different actor aliases cannot bind an authored Person
+ok 2 - AR0-D01-02 two different actor aliases cannot bind an authored Person
+  ---
+  duration_ms: 1.1922
+  type: 'test'
+  ...
+# Subtest: AR0-D01-03 exact independent conflicting catalog rejects before either audience projects
+ok 3 - AR0-D01-03 exact independent conflicting catalog rejects before either audience projects
+  ---
+  duration_ms: 26.2549
+  type: 'test'
+  ...
+# Subtest: AR0-D01-04 missing actor binding and duplicate actor cards reject
+ok 4 - AR0-D01-04 missing actor binding and duplicate actor cards reject
+  ---
+  duration_ms: 3.4926
+  type: 'test'
+  ...
+# Subtest: AR0-D01-05 witness observations and beliefs never install under absent owner
+ok 5 - AR0-D01-05 witness observations and beliefs never install under absent owner
+  ---
+  duration_ms: 192.7411
+  type: 'test'
+  ...
+# Subtest: AR0-D01-06 witness report remains attributed to canonical speaker for both audiences
+ok 6 - AR0-D01-06 witness report remains attributed to canonical speaker for both audiences
+  ---
+  duration_ms: 301.3681
+  type: 'test'
+  ...
+# Subtest: AR0-D01-07 owner topic alias and additional non-actor aliases remain supported
+ok 7 - AR0-D01-07 owner topic alias and additional non-actor aliases remain supported
+  ---
+  duration_ms: 147.3571
+  type: 'test'
+  ...
+# Subtest: AR0-D01-08 one actor can have multiple non-actor references and memberships
+ok 8 - AR0-D01-08 one actor can have multiple non-actor references and memberships
+  ---
+  duration_ms: 157.3582
+  type: 'test'
+  ...
+# Subtest: AR0-D01-09 defensive production registry refuses ambiguous or mismatched actor identity
+ok 9 - AR0-D01-09 defensive production registry refuses ambiguous or mismatched actor identity
+  ---
+  duration_ms: 4.9068
+  type: 'test'
+  ...
+# Subtest: AR0-D01-10 valid actor alias with non-actor primary remains a single canonical Person
+ok 10 - AR0-D01-10 valid actor alias with non-actor primary remains a single canonical Person
+  ---
+  duration_ms: 175.8475
+  type: 'test'
+  ...
+# Subtest: AR0-01 catalog declares all six supported kinds and Last Collection has no invented group
+ok 11 - AR0-01 catalog declares all six supported kinds and Last Collection has no invented group
+  ---
+  duration_ms: 8.2936
+  type: 'test'
+  ...
+# Subtest: AR0-02 exact duplicate card identity rejects
+ok 12 - AR0-02 exact duplicate card identity rejects
+  ---
+  duration_ms: 3.096
+  type: 'test'
+  ...
+# Subtest: AR0-03 case-colliding card identities reject
+ok 13 - AR0-03 case-colliding card identities reject
+  ---
+  duration_ms: 2.0862
+  type: 'test'
+  ...
+# Subtest: AR0-04 missing or invalid explicit card kind rejects rather than inferring from ID
+ok 14 - AR0-04 missing or invalid explicit card kind rejects rather than inferring from ID
+  ---
+  duration_ms: 56.7858
+  type: 'test'
+  ...
+# Subtest: AR0-05 broken canonical actor/subject/historical-event references reject
+ok 15 - AR0-05 broken canonical actor/subject/historical-event references reject
+  ---
+  duration_ms: 4.2202
+  type: 'test'
+  ...
+# Subtest: AR0-06 duplicate canonical source cannot create a second version of the same person
+ok 16 - AR0-06 duplicate canonical source cannot create a second version of the same person
+  ---
+  duration_ms: 2.1454
+  type: 'test'
+  ...
+# Subtest: AR0-07 owner topic aliases the existing owner person, never a duplicated person card
+ok 17 - AR0-07 owner topic aliases the existing owner person, never a duplicated person card
+  ---
+  duration_ms: 0.6892
+  type: 'test'
+  ...
+# Subtest: AR0-08 missing scenario, non-scenario membership, duplicate membership reject
+ok 18 - AR0-08 missing scenario, non-scenario membership, duplicate membership reject
+  ---
+  duration_ms: 16.5441
+  type: 'test'
+  ...
+# Subtest: AR0-09 invalid relationship endpoints and duplicate link identity reject
+ok 19 - AR0-09 invalid relationship endpoints and duplicate link identity reject
+  ---
+  duration_ms: 3.4716
+  type: 'test'
+  ...
+# Subtest: AR0-10 authored metadata cannot become a parallel mutable owner/holder/location/knowledge store
+ok 20 - AR0-10 authored metadata cannot become a parallel mutable owner/holder/location/knowledge store
+  ---
+  duration_ms: 11.9942
+  type: 'test'
+  ...
+# Subtest: AR0-11 missing descriptive names and unsupported public canonical metadata reject
+ok 21 - AR0-11 missing descriptive names and unsupported public canonical metadata reject
+  ---
+  duration_ms: 2.8453
+  type: 'test'
+  ...
+# Subtest: AR0-12 catalog is pinned to the exact package revision/digest
+ok 22 - AR0-12 catalog is pinned to the exact package revision/digest
+  ---
+  duration_ms: 1.3128
+  type: 'test'
+  ...
+# Subtest: AR0-13 card and link identities survive exact save/load
+ok 23 - AR0-13 card and link identities survive exact save/load
+  ---
+  duration_ms: 1134.3059
+  type: 'test'
+  ...
+# Subtest: AR0-14 display renaming changes readable wording without changing card or link identity
+ok 24 - AR0-14 display renaming changes readable wording without changing card or link identity
+  ---
+  duration_ms: 32.1633
+  type: 'test'
+  ...
+# Subtest: AR0-15 one canonical person belongs to two scenarios without duplicated state
+ok 25 - AR0-15 one canonical person belongs to two scenarios without duplicated state
+  ---
+  duration_ms: 21.9266
+  type: 'test'
+  ...
+# Subtest: AR0-16 Group support and a global entity require no invented Last Collection group
+ok 26 - AR0-16 Group support and a global entity require no invented Last Collection group
+  ---
+  duration_ms: 23.2633
+  type: 'test'
+  ...
+# Subtest: AR0-17 hidden scenario membership does not expose its ID to the player
+ok 27 - AR0-17 hidden scenario membership does not expose its ID to the player
+  ---
+  duration_ms: 20.2354
+  type: 'test'
+  ...
+# Subtest: AR0-18 article proof and network use exactly the same normalized links
+ok 28 - AR0-18 article proof and network use exactly the same normalized links
+  ---
+  duration_ms: 19.3071
+  type: 'test'
+  ...
+# Subtest: AR0-19 authored historical events retain their canonical identity and are distinct from runtime events
+ok 29 - AR0-19 authored historical events retain their canonical identity and are distinct from runtime events
+  ---
+  duration_ms: 0.2819
+  type: 'test'
+  ...
+# Subtest: AR0-20 drafts/previews/inspector/phase reads produce no Event or change
+ok 30 - AR0-20 drafts/previews/inspector/phase reads produce no Event or change
+  ---
+  duration_ms: 636.6135
+  type: 'test'
+  ...
+# Subtest: AR0-21 End and partner context changes are not fabricated Atlas world events
+ok 31 - AR0-21 End and partner context changes are not fabricated Atlas world events
+  ---
+  duration_ms: 352.4913
+  type: 'test'
+  ...
+# Subtest: AR0-22 every runtime Event is anchored to an actual committed command and source occurrence
+ok 32 - AR0-22 every runtime Event is anchored to an actual committed command and source occurrence
+  ---
+  duration_ms: 1.4041
+  type: 'test'
+  ...
+# Subtest: AR0-23 exact retry creates no duplicate Event/change and no new state
+ok 33 - AR0-23 exact retry creates no duplicate Event/change and no new state
+  ---
+  duration_ms: 470.0157
+  type: 'test'
+  ...
+# Subtest: AR0-24 custody and ownership are distinct before and after handover
+ok 34 - AR0-24 custody and ownership are distinct before and after handover
+  ---
+  duration_ms: 0.4884
+  type: 'test'
+  ...
+# Subtest: AR0-25 author truth, reports, observations, beliefs and hypotheses retain separate types
+ok 35 - AR0-25 author truth, reports, observations, beliefs and hypotheses retain separate types
+  ---
+  duration_ms: 332.7139
+  type: 'test'
+  ...
+# Subtest: AR0-26 each NPC has only its own received fragments and fallible beliefs; absent owner has none
+ok 36 - AR0-26 each NPC has only its own received fragments and fallible beliefs; absent owner has none
+  ---
+  duration_ms: 0.4486
+  type: 'test'
+  ...
+# Subtest: AR0-27 player initial projection hides concealed places, split-file subjects and canonical world truth
+ok 37 - AR0-27 player initial projection hides concealed places, split-file subjects and canonical world truth
+  ---
+  duration_ms: 1.4546
+  type: 'test'
+  ...
+# Subtest: AR0-28 player reported movement stays attributed and does not reveal destination/purpose
+ok 38 - AR0-28 player reported movement stays attributed and does not reveal destination/purpose
+  ---
+  duration_ms: 10.3164
+  type: 'test'
+  ...
+# Subtest: AR0-29 author hidden truth is available only to author, NPC beliefs remain absent in player projection
+ok 39 - AR0-29 author hidden truth is available only to author, NPC beliefs remain absent in player projection
+  ---
+  duration_ms: 326.6141
+  type: 'test'
+  ...
+# Subtest: AR0-30 historical metadata cannot leak concealed labels/descriptions/tags through player event cards
+ok 40 - AR0-30 historical metadata cannot leak concealed labels/descriptions/tags through player event cards
+  ---
+  duration_ms: 186.5333
+  type: 'test'
+  ...
+# Subtest: AR0-31 player receipt of authority and handover supplies only legitimately observed owner/custody links
+ok 41 - AR0-31 player receipt of authority and handover supplies only legitimately observed owner/custody links
+  ---
+  duration_ms: 420.9783
+  type: 'test'
+  ...
+# Subtest: AR0-32 human factual card contains received information but no simulated beliefs/hypotheses
+ok 42 - AR0-32 human factual card contains received information but no simulated beliefs/hypotheses
+  ---
+  duration_ms: 0.4145
+  type: 'test'
+  ...
+# Subtest: AR0-33 recent changes are pure deterministic detached data
+ok 43 - AR0-33 recent changes are pure deterministic detached data
+  ---
+  duration_ms: 467.8139
+  type: 'test'
+  ...
+# Subtest: AR0-34 handover feed identifies one custody transfer with retained owner and zero payment
+ok 44 - AR0-34 handover feed identifies one custody transfer with retained owner and zero payment
+  ---
+  duration_ms: 0.6411
+  type: 'test'
+  ...
+# Subtest: AR0-35 recent-change cursor is bounded and cannot create future/uncommitted changes
+ok 45 - AR0-35 recent-change cursor is bounded and cannot create future/uncommitted changes
+  ---
+  duration_ms: 510.0898
+  type: 'test'
+  ...
+# Subtest: AR0-36 permission and accepted terms are separate from performed comparison/handover
+ok 46 - AR0-36 permission and accepted terms are separate from performed comparison/handover
+  ---
+  duration_ms: 1073.4552
+  type: 'test'
+  ...
+# Subtest: AR0-37 stale/rejected commands cannot add Atlas history
+ok 47 - AR0-37 stale/rejected commands cannot add Atlas history
+  ---
+  duration_ms: 744.3886
+  type: 'test'
+  ...
+# Subtest: AR0-38 tampered/unreplayed state and wrong audience reject read-only
+ok 48 - AR0-38 tampered/unreplayed state and wrong audience reject read-only
+  ---
+  duration_ms: 31.8028
+  type: 'test'
+  ...
+# Subtest: AR0-39 projection validation rejects broken exported endpoints/card links
+ok 49 - AR0-39 projection validation rejects broken exported endpoints/card links
+  ---
+  duration_ms: 35.2626
+  type: 'test'
+  ...
+# Subtest: AR0-40 complete neutral ID/prose renaming uses the same projection machinery
+ok 50 - AR0-40 complete neutral ID/prose renaming uses the same projection machinery
+  ---
+  duration_ms: 995.3339
+  type: 'test'
+  ...
+# Subtest: AR0-41 core projection contains no story-name/keyword or host-rendering branch
+ok 51 - AR0-41 core projection contains no story-name/keyword or host-rendering branch
+  ---
+  duration_ms: 6.8699
+  type: 'test'
+  ...
+# Subtest: AR0-42 accepted M3 source/content/build and inherited tests remain byte-identical
+ok 52 - AR0-42 accepted M3 source/content/build and inherited tests remain byte-identical
+  ---
+  duration_ms: 164.1573
+  type: 'test'
+  ...
+# Subtest: AR0-43 player display names come from received references rather than author-only metadata overrides
+ok 53 - AR0-43 player display names come from received references rather than author-only metadata overrides
+  ---
+  duration_ms: 272.8236
+  type: 'test'
+  ...
+# Subtest: AR0-44 meaningful events link only to legitimate visible things, with stable typed endpoints
+ok 54 - AR0-44 meaningful events link only to legitimate visible things, with stable typed endpoints
+  ---
+  duration_ms: 0.8256
+  type: 'test'
+  ...
+# Subtest: AR0-45 distinct committed occurrences cannot collide when default run labels and event counters repeat
+ok 55 - AR0-45 distinct committed occurrences cannot collide when default run labels and event counters repeat
+  ---
+  duration_ms: 197.8122
+  type: 'test'
+  ...
+# Subtest: AR0-46 descriptive metadata cannot fabricate an Event without an actual authored occurrence
+ok 56 - AR0-46 descriptive metadata cannot fabricate an Event without an actual authored occurrence
+  ---
+  duration_ms: 1.8977
+  type: 'test'
+  ...
+# Subtest: AR0-47 references, physical performers and observers retain distinct meanings
+ok 57 - AR0-47 references, physical performers and observers retain distinct meanings
+  ---
+  duration_ms: 1050.4353
+  type: 'test'
+  ...
+# Subtest: D01-A regression: caller aliases cannot change the command resolved, receipted or journaled
+ok 58 - D01-A regression: caller aliases cannot change the command resolved, receipted or journaled
+  ---
+  duration_ms: 16.4055
+  type: 'test'
+  ...
+# Subtest: D01-B regression: caller request/result alias mutation cannot disguise an applied result
+ok 59 - D01-B regression: caller request/result alias mutation cannot disguise an applied result
+  ---
+  duration_ms: 3.747
+  type: 'test'
+  ...
+# Subtest: M2-01 complete connected interaction commits once per deliberate action and returns two phases
+ok 60 - M2-01 complete connected interaction commits once per deliberate action and returns two phases
+  ---
+  duration_ms: 261.7537
+  type: 'test'
+  ...
+# Subtest: M2-02 repeated preview edits and abandonment do not mutate any run/NPC/event state
+ok 61 - M2-02 repeated preview edits and abandonment do not mutate any run/NPC/event state
+  ---
+  duration_ms: 28.4569
+  type: 'test'
+  ...
+# Subtest: M2-03 semantic BASED changes outward meaning, not just a reaction multiplier
+ok 62 - M2-03 semantic BASED changes outward meaning, not just a reaction multiplier
+  ---
+  duration_ms: 15.3402
+  type: 'test'
+  ...
+# Subtest: M2-04 all salience settings preserve content, framing, people, targets and terms across both acts
+ok 63 - M2-04 all salience settings preserve content, framing, people, targets and terms across both acts
+  ---
+  duration_ms: 103.2349
+  type: 'test'
+  ...
+# Subtest: M2-05 all nine ordinary first-request expressions receive protection and limited access
+ok 64 - M2-05 all nine ordinary first-request expressions receive protection and limited access
+  ---
+  duration_ms: 128.2713
+  type: 'test'
+  ...
+# Subtest: M2-06 initial menu/reference projection reveals no hidden file split or contact value
+ok 65 - M2-06 initial menu/reference projection reveals no hidden file split or contact value
+  ---
+  duration_ms: 5.6899
+  type: 'test'
+  ...
+# Subtest: M2-07 permission without inspection discloses vocabulary only; printing requires an action
+ok 66 - M2-07 permission without inspection discloses vocabulary only; printing requires an action
+  ---
+  duration_ms: 14.43
+  type: 'test'
+  ...
+# Subtest: M2-08 performed inspection discloses print only to the player; the clerk observes conduct
+ok 67 - M2-08 performed inspection discloses print only to the player; the clerk observes conduct
+  ---
+  duration_ms: 25.1045
+  type: 'test'
+  ...
+# Subtest: M2-09 follow-up teaches the report as a claim, not as firsthand reading or a canonical rewrite
+ok 68 - M2-09 follow-up teaches the report as a claim, not as firsthand reading or a canonical rewrite
+  ---
+  duration_ms: 47.7383
+  type: 'test'
+  ...
+# Subtest: M2-10 real source-event pointers cannot reveal concealed contact fields
+ok 69 - M2-10 real source-event pointers cannot reveal concealed contact fields
+  ---
+  duration_ms: 46.9767
+  type: 'test'
+  ...
+# Subtest: M2-11 actual result redelivery is a no-op at the application boundary
+ok 70 - M2-11 actual result redelivery is a no-op at the application boundary
+  ---
+  duration_ms: 44.2276
+  type: 'test'
+  ...
+# Subtest: M2-12 exact retry after follow-up reuses receipt; collision and new stale command have no effects
+ok 71 - M2-12 exact retry after follow-up reuses receipt; collision and new stale command have no effects
+  ---
+  duration_ms: 45.1077
+  type: 'test'
+  ...
+# Subtest: M2-13 full connected paths with equal outward content and different private selections have equal listener results
+ok 72 - M2-13 full connected paths with equal outward content and different private selections have equal listener results
+  ---
+  duration_ms: 82.8559
+  type: 'test'
+  ...
+# Subtest: M2-14 unlearned contact-world perturbation leaves actual policy and later reply unchanged
+ok 73 - M2-14 unlearned contact-world perturbation leaves actual policy and later reply unchanged
+  ---
+  duration_ms: 77.6647
+  type: 'test'
+  ...
+# Subtest: M2-15 inspector refresh and Intake/Delivery replay/skip reads do not mutate a run
+ok 74 - M2-15 inspector refresh and Intake/Delivery replay/skip reads do not mutate a run
+  ---
+  duration_ms: 88.352
+  type: 'test'
+  ...
+# Subtest: M2-16 missing final wording/art uses complete fallback phases without changing mechanics
+ok 75 - M2-16 missing final wording/art uses complete fallback phases without changing mechanics
+  ---
+  duration_ms: 81.2419
+  type: 'test'
+  ...
+# Subtest: M2-17 tampered preview and missing permission are technical failures without fictional action
+ok 76 - M2-17 tampered preview and missing permission are technical failures without fictional action
+  ---
+  duration_ms: 8.1965
+  type: 'test'
+  ...
+# Subtest: M2-18 a valid social refusal still records hearing and changes no material state
+ok 77 - M2-18 a valid social refusal still records hearing and changes no material state
+  ---
+  duration_ms: 19.4137
+  type: 'test'
+  ...
+# Subtest: M2-19 neutral renamed actors/items and arbitrary IDs run the same reusable policy end to end
+ok 78 - M2-19 neutral renamed actors/items and arbitrary IDs run the same reusable policy end to end
+  ---
+  duration_ms: 46.9146
+  type: 'test'
+  ...
+# Subtest: M2-20 save/load validates exact package and replays journal without duplicating effects
+ok 79 - M2-20 save/load validates exact package and replays journal without duplicating effects
+  ---
+  duration_ms: 144.9576
+  type: 'test'
+  ...
+# Subtest: M2-21 changed package bytes cannot silently replace a pinned package
+ok 80 - M2-21 changed package bytes cannot silently replace a pinned package
+  ---
+  duration_ms: 50.8813
+  type: 'test'
+  ...
+# Subtest: M2-22 soft opportunity reminder never closes service or depends on playback time
+ok 81 - M2-22 soft opportunity reminder never closes service or depends on playback time
+  ---
+  duration_ms: 1652.7453
+  type: 'test'
+  ...
+# Subtest: M2-23 reviewed R2 production modules remain byte-identical
+ok 82 - M2-23 reviewed R2 production modules remain byte-identical
+  ---
+  duration_ms: 5.8387
+  type: 'test'
+  ...
+# Subtest: M2-24 compiler can accept an additional catalog entry without a three-vibe branch
+ok 83 - M2-24 compiler can accept an additional catalog entry without a three-vibe branch
+  ---
+  duration_ms: 15.2988
+  type: 'test'
+  ...
+# Subtest: M2-25 unsupported exchange is explicit and creates no transfer
+ok 84 - M2-25 unsupported exchange is explicit and creates no transfer
+  ---
+  duration_ms: 7.3186
+  type: 'test'
+  ...
+# Subtest: M2-26 selector/provenance/cache data never enters actual policy inputs or decision features
+ok 85 - M2-26 selector/provenance/cache data never enters actual policy inputs or decision features
+  ---
+  duration_ms: 49.6765
+  type: 'test'
+  ...
+# Subtest: M3-D03 collapsed current notice cannot authorize closure; refusal and defect remain idempotent
+ok 86 - M3-D03 collapsed current notice cannot authorize closure; refusal and defect remain idempotent
+  ---
+  duration_ms: 252.9772
+  type: 'test'
+  ...
+# Subtest: M3-D01-01 fully transparent production notice cannot authorize closure
+ok 87 - M3-D01-01 fully transparent production notice cannot authorize closure
+  ---
+  duration_ms: 83.3605
+  type: 'test'
+  ...
+# Subtest: M3-D01-02 fully transparent ancestor cannot authorize closure
+ok 88 - M3-D01-02 fully transparent ancestor cannot authorize closure
+  ---
+  duration_ms: 78.2182
+  type: 'test'
+  ...
+# Subtest: M3-D01-03 genuinely visible current notice authorizes exactly one closure
+ok 89 - M3-D01-03 genuinely visible current notice authorizes exactly one closure
+  ---
+  duration_ms: 95.3789
+  type: 'test'
+  ...
+# Subtest: M3-D01-04 offscreen/hidden/empty display receipts remain invalid
+ok 90 - M3-D01-04 offscreen/hidden/empty display receipts remain invalid
+  ---
+  duration_ms: 502.0928
+  type: 'test'
+  ...
+# Subtest: M3-D01-05 acknowledgment stays non-mutating and accepts nonzero opacity
+ok 91 - M3-D01-05 acknowledgment stays non-mutating and accepts nonzero opacity
+  ---
+  duration_ms: 9.752
+  type: 'test'
+  ...
+# Subtest: M3-D02-01 visible positive rectangle fully contained on both axes closes exactly once
+ok 92 - M3-D02-01 visible positive rectangle fully contained on both axes closes exactly once
+  ---
+  duration_ms: 78.667
+  type: 'test'
+  ...
+# Subtest: M3-D02-02 own opacity zero cannot earn a receipt or close service
+ok 93 - M3-D02-02 own opacity zero cannot earn a receipt or close service
+  ---
+  duration_ms: 55.4149
+  type: 'test'
+  ...
+# Subtest: M3-D02-03 ancestor opacity zero cannot earn a receipt or close service
+ok 94 - M3-D02-03 ancestor opacity zero cannot earn a receipt or close service
+  ---
+  duration_ms: 57.5244
+  type: 'test'
+  ...
+# Subtest: M3-D02-04 vertically above viewport cannot earn a receipt or close service
+ok 95 - M3-D02-04 vertically above viewport cannot earn a receipt or close service
+  ---
+  duration_ms: 55.7369
+  type: 'test'
+  ...
+# Subtest: M3-D02-05 vertically below viewport cannot earn a receipt or close service
+ok 96 - M3-D02-05 vertically below viewport cannot earn a receipt or close service
+  ---
+  duration_ms: 55
+  type: 'test'
+  ...
+# Subtest: M3-D02-06 horizontally outside left cannot earn a receipt or close service
+ok 97 - M3-D02-06 horizontally outside left cannot earn a receipt or close service
+  ---
+  duration_ms: 52.8762
+  type: 'test'
+  ...
+# Subtest: M3-D02-07 horizontally outside right cannot earn a receipt or close service
+ok 98 - M3-D02-07 horizontally outside right cannot earn a receipt or close service
+  ---
+  duration_ms: 49.9504
+  type: 'test'
+  ...
+# Subtest: M3-D02-08 partially outside left cannot earn a receipt or close service
+ok 99 - M3-D02-08 partially outside left cannot earn a receipt or close service
+  ---
+  duration_ms: 47.2853
+  type: 'test'
+  ...
+# Subtest: M3-D02-09 partially outside right cannot earn a receipt or close service
+ok 100 - M3-D02-09 partially outside right cannot earn a receipt or close service
+  ---
+  duration_ms: 48.295
+  type: 'test'
+  ...
+# Subtest: M3-D02-10 zero width cannot earn a receipt or close service
+ok 101 - M3-D02-10 zero width cannot earn a receipt or close service
+  ---
+  duration_ms: 47.9365
+  type: 'test'
+  ...
+# Subtest: M3-D02-11 zero height cannot earn a receipt or close service
+ok 102 - M3-D02-11 zero height cannot earn a receipt or close service
+  ---
+  duration_ms: 48.641
+  type: 'test'
+  ...
+# Subtest: M3-D02-12 hidden attribute cannot earn a receipt or close service
+ok 103 - M3-D02-12 hidden attribute cannot earn a receipt or close service
+  ---
+  duration_ms: 54.4622
+  type: 'test'
+  ...
+# Subtest: M3-D02-13 display none cannot earn a receipt or close service
+ok 104 - M3-D02-13 display none cannot earn a receipt or close service
+  ---
+  duration_ms: 60.4625
+  type: 'test'
+  ...
+# Subtest: M3-D02-14 visibility hidden cannot earn a receipt or close service
+ok 105 - M3-D02-14 visibility hidden cannot earn a receipt or close service
+  ---
+  duration_ms: 65.3446
+  type: 'test'
+  ...
+# Subtest: M3-D02-15 invalid and non-finite geometry or viewport cannot earn a receipt
+ok 106 - M3-D02-15 invalid and non-finite geometry or viewport cannot earn a receipt
+  ---
+  duration_ms: 1748.3984
+  type: 'test'
+  ...
+# Subtest: M3-D02-16 negative or inverted rectangle cannot earn a receipt
+ok 107 - M3-D02-16 negative or inverted rectangle cannot earn a receipt
+  ---
+  duration_ms: 267.6916
+  type: 'test'
+  ...
+# Subtest: M3-D02-17 truthful receipt survives later scrolling of the same unedited notice
+ok 108 - M3-D02-17 truthful receipt survives later scrolling of the same unedited notice
+  ---
+  duration_ms: 61.2301
+  type: 'test'
+  ...
+# Subtest: M3-D02-18 edited or stale draft cannot reuse an earned receipt
+ok 109 - M3-D02-18 edited or stale draft cannot reuse an earned receipt
+  ---
+  duration_ms: 101.6691
+  type: 'test'
+  ...
+# Subtest: M3-D02-19 completed recovery remains protected from later warned demands
+ok 110 - M3-D02-19 completed recovery remains protected from later warned demands
+  ---
+  duration_ms: 528.3348
+  type: 'test'
+  ...
+# Subtest: M3-01 LC-T21/25/30/31: full evidence/comparison/correction/zero-payment recovery changes custody once
+ok 111 - M3-01 LC-T21/25/30/31: full evidence/comparison/correction/zero-payment recovery changes custody once
+  ---
+  duration_ms: 537.6616
+  type: 'test'
+  ...
+# Subtest: M3-02 explicit ticket action establishes retained authority; mere permission does not
+ok 112 - M3-02 explicit ticket action establishes retained authority; mere permission does not
+  ---
+  duration_ms: 70.7947
+  type: 'test'
+  ...
+# Subtest: M3-03 LC-T42: all nine ordinary paperwork variants remain protected
+ok 113 - M3-03 LC-T42: all nine ordinary paperwork variants remain protected
+  ---
+  duration_ms: 420.6733
+  type: 'test'
+  ...
+# Subtest: M3-04 initial menu projection has no file split, missing signature or hidden values
+ok 114 - M3-04 initial menu projection has no file split, missing signature or hidden values
+  ---
+  duration_ms: 10.2705
+  type: 'test'
+  ...
+# Subtest: M3-05 private draft/preview edits do not trigger privacy, consume repair or advance clocks
+ok 115 - M3-05 private draft/preview edits do not trigger privacy, consume repair or advance clocks
+  ---
+  duration_ms: 436.2708
+  type: 'test'
+  ...
+# Subtest: M3-06 permission is not inspection, comparison, search, or handover
+ok 116 - M3-06 permission is not inspection, comparison, search, or handover
+  ---
+  duration_ms: 49.4769
+  type: 'test'
+  ...
+# Subtest: M3-07 performed inspection and search give the reader detail; witnesses receive conduct only
+ok 117 - M3-07 performed inspection and search give the reader detail; witnesses receive conduct only
+  ---
+  duration_ms: 118.0819
+  type: 'test'
+  ...
+# Subtest: M3-08 Orrin limited account has an unidentified description and no damp seam, destination or purpose fact
+ok 118 - M3-08 Orrin limited account has an unidentified description and no damp seam, destination or purpose fact
+  ---
+  duration_ms: 192.9881
+  type: 'test'
+  ...
+# Subtest: M3-09 other NPC unheard location inquiry cannot trigger custodian restriction
+ok 119 - M3-09 other NPC unheard location inquiry cannot trigger custodian restriction
+  ---
+  duration_ms: 182.0294
+  type: 'test'
+  ...
+# Subtest: M3-10 LC-T17: restriction needs all same-observer pattern parts and a later broad demand
+ok 120 - M3-10 LC-T17: restriction needs all same-observer pattern parts and a later broad demand
+  ---
+  duration_ms: 201.5883
+  type: 'test'
+  ...
+# Subtest: M3-11 LC-T20: verified collection authority survives restriction, End and partner switch
+ok 121 - M3-11 LC-T20: verified collection authority survives restriction, End and partner switch
+  ---
+  duration_ms: 415.8672
+  type: 'test'
+  ...
+# Subtest: M3-12 LC-T18/62: Why, End/switch and rejected commands cannot use repair or advance opportunities
+ok 122 - M3-12 LC-T18/62: Why, End/switch and rejected commands cannot use repair or advance opportunities
+  ---
+  duration_ms: 830.792
+  type: 'test'
+  ...
+# Subtest: M3-13 vague apology is heard but not substantive repair
+ok 123 - M3-13 vague apology is heard but not substantive repair
+  ---
+  duration_ms: 504.4744
+  type: 'test'
+  ...
+# Subtest: M3-14 genuine comparison acceptance repairs once and preserves the visit-long warning
+ok 124 - M3-14 genuine comparison acceptance repairs once and preserves the visit-long warning
+  ---
+  duration_ms: 458.9047
+  type: 'test'
+  ...
+# Subtest: M3-15 relevant evidence-backed narrowing also repairs without a promise or contact disclosure
+ok 125 - M3-15 relevant evidence-backed narrowing also repairs without a promise or contact disclosure
+  ---
+  duration_ms: 515.1157
+  type: 'test'
+  ...
+# Subtest: M3-16 repaired route remains playable through actual comparison and exact handover
+ok 126 - M3-16 repaired route remains playable through actual comparison and exact handover
+  ---
+  duration_ms: 739.3954
+  type: 'test'
+  ...
+# Subtest: M3-17 incomplete physical comparison is an actual inconclusive result, never a privacy breach
+ok 127 - M3-17 incomplete physical comparison is an actual inconclusive result, never a privacy breach
+  ---
+  duration_ms: 242.318
+  type: 'test'
+  ...
+# Subtest: M3-18 no warning means no closure notice or collection closure
+ok 128 - M3-18 no warning means no closure notice or collection closure
+  ---
+  duration_ms: 81.8802
+  type: 'test'
+  ...
+# Subtest: M3-19 LC-T69: warning produces notice only for renewed protected/bypass meaning
+ok 129 - M3-19 LC-T69: warning produces notice only for renewed protected/bypass meaning
+  ---
+  duration_ms: 311.8114
+  type: 'test'
+  ...
+# Subtest: M3-20 notice contains public warning/draft only; editing or abandonment costs nothing
+ok 130 - M3-20 notice contains public warning/draft only; editing or abandonment costs nothing
+  ---
+  duration_ms: 378.9973
+  type: 'test'
+  ...
+# Subtest: M3-21 approved missing-notice fallback receives/refuses, leaves service open, logs one technical defect
+ok 131 - M3-21 approved missing-notice fallback receives/refuses, leaves service open, logs one technical defect
+  ---
+  duration_ms: 432.844
+  type: 'test'
+  ...
+# Subtest: M3-22 LC-T19: displayed current notice closes through one explicit physical service result
+ok 132 - M3-22 LC-T19: displayed current notice closes through one explicit physical service result
+  ---
+  duration_ms: 476.0661
+  type: 'test'
+  ...
+# Subtest: M3-23 successful repair does not reset warning; later renewed demand can close after a new notice
+ok 133 - M3-23 successful repair does not reset warning; later renewed demand can close after a new notice
+  ---
+  duration_ms: 510.5313
+  type: 'test'
+  ...
+# Subtest: M3-24 completed recovery can never be retroactively converted to failure or confiscation
+ok 134 - M3-24 completed recovery can never be retroactively converted to failure or confiscation
+  ---
+  duration_ms: 697.1834
+  type: 'test'
+  ...
+# Subtest: M3-25 LC-T44/25: ordinary payment is received and declined, creates no money, debt or bribery judgment
+ok 135 - M3-25 LC-T44/25: ordinary payment is received and declined, creates no money, debt or bribery judgment
+  ---
+  duration_ms: 77.2932
+  type: 'test'
+  ...
+# Subtest: M3-26 payment to bypass a boundary previews a different meaning from ordinary payment
+ok 136 - M3-26 payment to bypass a boundary previews a different meaning from ordinary payment
+  ---
+  duration_ms: 83.1303
+  type: 'test'
+  ...
+# Subtest: M3-27 conversational Yes and rendering terms do not confirm the handover
+ok 137 - M3-27 conversational Yes and rendering terms do not confirm the handover
+  ---
+  duration_ms: 456.1332
+  type: 'test'
+  ...
+# Subtest: M3-28 LC-T26: stale/altered confirmation fails with no partial money, custody or completion
+ok 138 - M3-28 LC-T26: stale/altered confirmation fails with no partial money, custody or completion
+  ---
+  duration_ms: 344.4504
+  type: 'test'
+  ...
+# Subtest: M3-29 End/switch invalidate uncompleted terms; continuing save/load does not
+ok 139 - M3-29 End/switch invalidate uncompleted terms; continuing save/load does not
+  ---
+  duration_ms: 1026.6789
+  type: 'test'
+  ...
+# Subtest: M3-30 LC-T28: every command kind supports exact retry, conflict and genuinely new stale rejection
+ok 140 - M3-30 LC-T28: every command kind supports exact retry, conflict and genuinely new stale rejection
+  ---
+  duration_ms: 817.5562
+  type: 'test'
+  ...
+# Subtest: M3-31 physical result redelivery is a no-op; altered result and undeclared observer leak reject
+ok 141 - M3-31 physical result redelivery is a no-op; altered result and undeclared observer leak reject
+  ---
+  duration_ms: 57.4314
+  type: 'test'
+  ...
+# Subtest: M3-32 all required save phases preserve complete state and exact retry history without new effects
+ok 142 - M3-32 all required save phases preserve complete state and exact retry history without new effects
+  ---
+  duration_ms: 3449.9963
+  type: 'test'
+  ...
+# Subtest: M3-33 invalid, altered, package-mismatched and legacy saves reject without mutation
+ok 143 - M3-33 invalid, altered, package-mismatched and legacy saves reject without mutation
+  ---
+  duration_ms: 1090.0221
+  type: 'test'
+  ...
+# Subtest: M3-34 LC-T32/35: absent owner stays uninformed and inspector/phase reads are pure
+ok 144 - M3-34 LC-T32/35: absent owner stays uninformed and inspector/phase reads are pure
+  ---
+  duration_ms: 515.4177
+  type: 'test'
+  ...
+# Subtest: M3-35 LC-T55: original shorthand and later evasive response retain distinct causes
+ok 145 - M3-35 LC-T55: original shorthand and later evasive response retain distinct causes
+  ---
+  duration_ms: 65.8427
+  type: 'test'
+  ...
+# Subtest: M3-36 equal complete outward paths with different private selectors/provenance have equal future listener input
+ok 146 - M3-36 equal complete outward paths with different private selectors/provenance have equal future listener input
+  ---
+  duration_ms: 73.5915
+  type: 'test'
+  ...
+# Subtest: M3-37 hidden contact/signature truth perturbation cannot alter an unreceived first-response inference
+ok 147 - M3-37 hidden contact/signature truth perturbation cannot alter an unreceived first-response inference
+  ---
+  duration_ms: 76.519
+  type: 'test'
+  ...
+# Subtest: M3-38 source pointers cannot dereference concealed fields and no selector/asset proxy enters decisions
+ok 148 - M3-38 source pointers cannot dereference concealed fields and no selector/asset proxy enters decisions
+  ---
+  duration_ms: 265.1742
+  type: 'test'
+  ...
+# Subtest: M3-39 renamed actors/subjects/actions/package and neutral text use the same recovery and closure machinery
+ok 149 - M3-39 renamed actors/subjects/actions/package and neutral text use the same recovery and closure machinery
+  ---
+  duration_ms: 847.3129
+  type: 'test'
+  ...
+# Subtest: M3-40 new core has no scenario/name/keyword policy branch; original M2 kernel bytes remain unchanged
+ok 150 - M3-40 new core has no scenario/name/keyword policy branch; original M2 kernel bytes remain unchanged
+  ---
+  duration_ms: 8.7031
+  type: 'test'
+  ...
+# Subtest: M3-41 salience changes prominence only, including money and protected scope
+ok 151 - M3-41 salience changes prominence only, including money and protected scope
+  ---
+  duration_ms: 62.2303
+  type: 'test'
+  ...
+# Subtest: M3-42 recovery, money, privacy, social concern and record correction are independent outcomes
+ok 152 - M3-42 recovery, money, privacy, social concern and record correction are independent outcomes
+  ---
+  duration_ms: 552.4872
+  type: 'test'
+  ...
+# Subtest: M3-43 human knowledge is received information, never a simulated accepted belief or psychology
+ok 153 - M3-43 human knowledge is received information, never a simulated accepted belief or psychology
+  ---
+  duration_ms: 424.0375
+  type: 'test'
+  ...
+# Subtest: M3-44 no-charge refusal is derived from the authored service price, not a universal free-collection branch
+ok 154 - M3-44 no-charge refusal is derived from the authored service price, not a universal free-collection branch
+  ---
+  duration_ms: 69.5821
+  type: 'test'
+  ...
+# Subtest: M3-45 closed domain schemas reject invented human psychology or unsupported world fields
+ok 155 - M3-45 closed domain schemas reject invented human psychology or unsupported world fields
+  ---
+  duration_ms: 41.8619
+  type: 'test'
+  ...
+# Subtest: M3-46 physical inspection reads current authoritative facts without teaching an unobserving NPC
+ok 156 - M3-46 physical inspection reads current authoritative facts without teaching an unobserving NPC
+  ---
+  duration_ms: 40.9417
+  type: 'test'
+  ...
+# Subtest: M3-47 soft opportunity reminder is not a hidden state-size deadline; references reconstruct exact inputs
+ok 157 - M3-47 soft opportunity reminder is not a hidden state-size deadline; references reconstruct exact inputs
+  ---
+  duration_ms: 12064.0553
+  type: 'test'
+  ...
+# Subtest: M3-48 exact confirmation rechecks current custody and balances atomically in a neutral priced fixture
+ok 158 - M3-48 exact confirmation rechecks current custody and balances atomically in a neutral priced fixture
+  ---
+  duration_ms: 408.7536
+  type: 'test'
+  ...
+# Subtest: new valid command stages once; caller state remains unchanged
+ok 159 - new valid command stages once; caller state remains unchanged
+  ---
+  duration_ms: 8.5564
+  type: 'test'
+  ...
+# Subtest: REQUIRED: identical committed retry returns saved receipt before stale revision check
+ok 160 - REQUIRED: identical committed retry returns saved receipt before stale revision check
+  ---
+  duration_ms: 2.5529
+  type: 'test'
+  ...
+# Subtest: REQUIRED: same identity and changed payload rejects as conflict even when stale
+ok 161 - REQUIRED: same identity and changed payload rejects as conflict even when stale
+  ---
+  duration_ms: 2.9942
+  type: 'test'
+  ...
+# Subtest: REQUIRED: a new identity with obsolete revision rejects without any effect
+ok 162 - REQUIRED: a new identity with obsolete revision rejects without any effect
+  ---
+  duration_ms: 2.7031
+  type: 'test'
+  ...
+# Subtest: identity conflict is resolved before new-envelope support validation
+ok 163 - identity conflict is resolved before new-envelope support validation
+  ---
+  duration_ms: 2.0425
+  type: 'test'
+  ...
+# Subtest: object field ordering is irrelevant; arrays retain their order
+ok 164 - object field ordering is irrelevant; arrays retain their order
+  ---
+  duration_ms: 3.0699
+  type: 'test'
+  ...
+# Subtest: a deliberate repeat with current revision and new identity is a new command
+ok 165 - a deliberate repeat with current revision and new identity is a new command
+  ---
+  duration_ms: 3.6215
+  type: 'test'
+  ...
+# Subtest: staged failure rolls back all events and exposes no hidden exception text
+ok 166 - staged failure rolls back all events and exposes no hidden exception text
+  ---
+  duration_ms: 1.931
+  type: 'test'
+  ...
+# Subtest: invariant failure after staging also leaves original session untouched
+ok 167 - invariant failure after staging also leaves original session untouched
+  ---
+  duration_ms: 2.266
+  type: 'test'
+  ...
+# Subtest: preflight rejection creates no fictional initiating occurrence
+ok 168 - preflight rejection creates no fictional initiating occurrence
+  ---
+  duration_ms: 1.003
+  type: 'test'
+  ...
+# Subtest: valid social refusal can commit receipt and hearing without executing an exchange
+ok 169 - valid social refusal can commit receipt and hearing without executing an exchange
+  ---
+  duration_ms: 1.0539
+  type: 'test'
+  ...
+# Subtest: journal JSON round trip preserves committed retry protection
+ok 170 - journal JSON round trip preserves committed retry protection
+  ---
+  duration_ms: 1.628
+  type: 'test'
+  ...
+# Subtest: new wrong package and wrong session fail safely
+ok 171 - new wrong package and wrong session fail safely
+  ---
+  duration_ms: 1.3312
+  type: 'test'
+  ...
+# Subtest: unsupported confirmation and asynchronous resolver are not implicit implementations
+ok 172 - unsupported confirmation and asynchronous resolver are not implicit implementations
+  ---
+  duration_ms: 1.3824
+  type: 'test'
+  ...
+# Subtest: commands and returned receipts cannot be mutated through callback aliases
+ok 173 - commands and returned receipts cannot be mutated through callback aliases
+  ---
+  duration_ms: 1.3091
+  type: 'test'
+  ...
+# Subtest: catalog preserves twenty ordered pairs, six actions, and three settings
+ok 174 - catalog preserves twenty ordered pairs, six actions, and three settings
+  ---
+  duration_ms: 2.2072
+  type: 'test'
+  ...
+# Subtest: strict outward schema rejects selected labels, asset/cache keys and provenance fields
+ok 175 - strict outward schema rejects selected labels, asset/cache keys and provenance fields
+  ---
+  duration_ms: 4.9913
+  type: 'test'
+  ...
+# Subtest: private selector perturbation with fixed outward payload produces identical complete listener input
+ok 176 - private selector perturbation with fixed outward payload produces identical complete listener input
+  ---
+  duration_ms: 7.4551
+  type: 'test'
+  ...
+# Subtest: schema accepts a legitimately performed distinctive cue without a hidden vibe key
+ok 177 - schema accepts a legitimately performed distinctive cue without a hidden vibe key
+  ---
+  duration_ms: 2.0782
+  type: 'test'
+  ...
+# Subtest: preview/recipient history/author inspection are independent frozen read-only copies
+ok 178 - preview/recipient history/author inspection are independent frozen read-only copies
+  ---
+  duration_ms: 5.5098
+  type: 'test'
+  ...
+# Subtest: REQUIRED: a known source ID retrieves only received conduct, never hidden source fields
+ok 179 - REQUIRED: a known source ID retrieves only received conduct, never hidden source fields
+  ---
+  duration_ms: 2.7839
+  type: 'test'
+  ...
+# Subtest: changing unreceived authoritative details leaves the entire listener view unchanged
+ok 180 - changing unreceived authoritative details leaves the entire listener view unchanged
+  ---
+  duration_ms: 3.8208
+  type: 'test'
+  ...
+# Subtest: an observed historical event ID grants no access to its concealed destination or purpose
+ok 181 - an observed historical event ID grants no access to its concealed destination or purpose
+  ---
+  duration_ms: 2.7453
+  type: 'test'
+  ...
+# Subtest: no receiving path and another actor observation cannot become local knowledge
+ok 182 - no receiving path and another actor observation cannot become local knowledge
+  ---
+  duration_ms: 2.5996
+  type: 'test'
+  ...
+# Subtest: projection rejects unknown detail grants; missing fields are not negated beliefs
+ok 183 - projection rejects unknown detail grants; missing fields are not negated beliefs
+  ---
+  duration_ms: 0.8298
+  type: 'test'
+  ...
+# Subtest: hearing an assertion produces a received claim, not firsthand perception or world truth
+ok 184 - hearing an assertion produces a received claim, not firsthand perception or world truth
+  ---
+  duration_ms: 4.8336
+  type: 'test'
+  ...
+# Subtest: a permission record alone has no inspection result or observation effects
+ok 185 - a permission record alone has no inspection result or observation effects
+  ---
+  duration_ms: 0.8905
+  type: 'test'
+  ...
+# Subtest: matched neutral result stages once; visible observer gets conduct while reader gets print
+ok 186 - matched neutral result stages once; visible observer gets conduct while reader gets print
+  ---
+  duration_ms: 3.5286
+  type: 'test'
+  ...
+# Subtest: result/request mismatch, changed result identity and second result for one request reject
+ok 187 - result/request mismatch, changed result identity and second result for one request reject
+  ---
+  duration_ms: 2.2541
+  type: 'test'
+  ...
+# Subtest: unsupported future physical effects fail clearly
+ok 188 - unsupported future physical effects fail clearly
+  ---
+  duration_ms: 1.3401
+  type: 'test'
+  ...
+# Subtest: JSON validation rejects silent loss, accessors, cycles, NaN and sparse arrays
+ok 189 - JSON validation rejects silent loss, accessors, cycles, NaN and sparse arrays
+  ---
+  duration_ms: 1.1986
+  type: 'test'
+  ...
+# Subtest: IDs cannot embed story names or selected labels
+ok 190 - IDs cannot embed story names or selected labels
+  ---
+  duration_ms: 1.2718
+  type: 'test'
+  ...
+# Subtest: nested private metadata cannot hide in a scalar substantive value
+ok 191 - nested private metadata cannot hide in a scalar substantive value
+  ---
+  duration_ms: 0.4561
+  type: 'test'
+  ...
+# Subtest: duplicate observation identity rejects rather than supplying two competing received records
+ok 192 - duplicate observation identity rejects rather than supplying two competing received records
+  ---
+  duration_ms: 1.1384
+  type: 'test'
+  ...
+# Subtest: neutral renamed participants and an absent actor work without fixed seats
+ok 193 - neutral renamed participants and an absent actor work without fixed seats
+  ---
+  duration_ms: 3.9134
+  type: 'test'
+  ...
+# Subtest: NPC outward replies use the same canonical message envelope and hide their own private expression
+ok 194 - NPC outward replies use the same canonical message envelope and hide their own private expression
+  ---
+  duration_ms: 1.3156
+  type: 'test'
+  ...
+1..194
+# tests 194
+# suites 0
+# pass 194
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 40738.4654
+
+STDERR

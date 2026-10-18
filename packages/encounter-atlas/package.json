@@ -1,0 +1,19 @@
+{
+  "name": "encounter-m3-seed-a-checkpoint",
+  "version": "0.3.0-m3",
+  "private": true,
+  "type": "module",
+  "description": "M3 Seed A interaction on the independently verified M2 baseline",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "audit:baseline": "node scripts/audit-baseline.cjs",
+    "test:independent": "node --test independent/M1_Independent_Contract_Tests.test.mjs",
+    "build": "node scripts/build-m3.mjs",
+    "evidence": "node scripts/generate-m3-evidence.mjs",
+    "build:m2": "node scripts/build.mjs",
+    "test:m3": "node --test tests/m3.test.mjs"
+  }
+}

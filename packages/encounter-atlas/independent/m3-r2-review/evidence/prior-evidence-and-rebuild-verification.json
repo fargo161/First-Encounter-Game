@@ -1,0 +1,13 @@
+{
+  "priorEvidence": [
+    {
+      "preservedReview": "m3-review",
+      "membersIndependentlyVerified": 167
+    },
+    {
+      "preservedReview": "m3-r1-review",
+      "membersIndependentlyVerified": 235
+    }
+  ],
+  "freshBuildEqualsVerifiedFrozenBuild": true
+}

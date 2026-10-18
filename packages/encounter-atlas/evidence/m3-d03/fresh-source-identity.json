@@ -1,0 +1,13 @@
+{
+  "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\Encounter_M3_R3",
+  "executable": "C:\\Users\\mcdon\\AppData\\Local\\Programs\\Python\\Python312\\python.EXE",
+  "args": [
+    "scripts/source-identity-m3.py"
+  ],
+  "environmentBinding": {
+    "M3_CHECKPOINT": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\Encounter_M3_R3"
+  },
+  "exitCode": 0,
+  "stdout": "{\"sourceRevision\": \"M3-runtime-v1-R3-D03\", \"sourceDigest\": \"a609f63c56ed1e047f44e8f3ef28b21f91adec9e40e35d08eb988d0e78de9362\", \"files\": 68}\n",
+  "stderr": ""
+}

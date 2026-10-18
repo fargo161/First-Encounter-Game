@@ -1,0 +1,17 @@
+{
+  "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\encounter-r3-regression-hpwz7_xz",
+  "executable": "C:\\Users\\mcdon\\AppData\\Local\\Programs\\Python\\Python312\\python.EXE",
+  "args": [
+    "scripts/preserve-m3.py"
+  ],
+  "environmentBinding": {
+    "ENCOUNTER_CHECKPOINT": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\encounter-r3-regression-hpwz7_xz",
+    "M2_BROWSER_EVIDENCE": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\encounter-r3-regression-hpwz7_xz\\independent\\m2-browser-evidence"
+  },
+  "exitCode": 0
+}
+
+STDOUT
+{"result": "PASS", "baselineMembers": 73, "unchangedCopyMembers": 70, "intentionalChanges": ["package.json", "README.md", "Test_Results_and_Scope.md"]}
+
+STDERR

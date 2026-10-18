@@ -1,0 +1,13 @@
+--- R1/src/m3/ui.mjs
++++ R2/src/m3/ui.mjs
+@@ -33,7 +33,9 @@
+   const opacity=Number(getComputedStyle(node).opacity);
+   if(!Number.isFinite(opacity)||opacity<=0)return;
+  }
+- if(!el.hidden&&style.visibility!=='hidden'&&style.display!=='none'&&rect.height>0&&rect.top>=0&&rect.bottom<=innerHeight)pending=markNoticeDisplayed(pending);
++ const geometry=[rect.left,rect.right,rect.top,rect.bottom,rect.width,rect.height,innerWidth,innerHeight];
++ const contained=geometry.every(Number.isFinite)&&innerWidth>0&&innerHeight>0&&rect.width>0&&rect.height>0&&rect.right>rect.left&&rect.bottom>rect.top&&rect.left>=0&&rect.right<=innerWidth&&rect.top>=0&&rect.bottom<=innerHeight;
++ if(!el.hidden&&style.visibility!=='hidden'&&style.display!=='none'&&contained)pending=markNoticeDisplayed(pending);
+ }
+ function preview(){
+  const v=playerView(run),choice=choices(v).find(x=>x.id===intent);$('closure-notice').hidden=true;

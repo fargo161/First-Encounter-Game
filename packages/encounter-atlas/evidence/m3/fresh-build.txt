@@ -1,0 +1,17 @@
+{
+  "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\Encounter_M3_R2",
+  "executable": "C:\\Program Files\\nodejs\\node.EXE",
+  "args": [
+    "scripts/build-m3.mjs"
+  ],
+  "environmentBinding": {
+    "ENCOUNTER_CHECKPOINT": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\Encounter_M3_R2",
+    "M2_BROWSER_EVIDENCE": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\Encounter_M3_R2\\independent\\m2-browser-evidence"
+  },
+  "exitCode": 0
+}
+
+STDOUT
+{"build":"dist-m3/index.html","bytes":133750,"modules":11,"packageRef":{"id":"package_0003","revision":1,"digest":"2ce9f61b996f17392a39c56f4005d8203b7940aa4974564fafa54d110e35ae8f"}}
+
+STDERR

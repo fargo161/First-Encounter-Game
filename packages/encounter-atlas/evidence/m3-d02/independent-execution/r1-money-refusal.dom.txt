@@ -1,0 +1,123 @@
+- link "Skip to composer":
+  - /url: "#composer"
+- banner:
+  - text: ENCOUNTER / M3 REVIEW BUILD
+  - heading "Last Collection" [level=1]
+  - paragraph: The Protective Shortcut · recover the case, keep the causes clear.
+  - navigation "Run controls":
+    - button "New run"
+    - button "Save run"
+    - button "Open run"
+    - button "Author inspector"
+- status: The communication/action committed once. Read Intake and Delivery.
+- generic: COLLECTION TICKET / VERIFIED
+- paragraph: You carry collection authority for Nera’s green instrument case. The entry reads “collected”. Show the ticket, then investigate through the relevant records and people.
+- generic: 12 coins remaining
+- main:
+  - text: AT THE COUNTER
+  - heading "Tamsin" [level=2]
+  - generic: Your move
+  - text: COLLECTION
+  - text: RECORD
+  - paragraph: Keeps the selected material in view and states the bounded response with a composed face.
+  - paragraph: No extra collection charge is due. I decline the ordinary payment offer as unnecessary. No money moves and no new debt or bribery judgment is created. Social framing is measured.
+  - button "Replay latest response"
+  - generic: Conversation partner
+  - combobox "Conversation partner":
+    - option "Tamsin" [selected]
+    - option "Orrin"
+  - button "Approach selected partner" [disabled]
+  - button "End conversation"
+  - heading "Conversation & actions" [level=2]
+  - generic: Revision 9 · 7 opportunities
+  - log:
+    - article:
+      - paragraph: Physical result
+      - paragraph: The valid collection ticket is shown and verified.
+    - article:
+      - paragraph: Collector · Request · Compassionate
+      - paragraph: Requests access to Collection record concerning Collection record.
+    - article:
+      - paragraph: Tamsin · Remark
+      - paragraph: The customer file contains case-handling material and unrelated private contact information. The relevant extract and permitted handling tray are available. Private contact values remain covered.
+    - article:
+      - paragraph: Physical result
+      - paragraph: "Performs the permitted inspect action. Recipient signature: unfilled"
+    - article:
+      - paragraph: Physical result
+      - paragraph: Performs the permitted search action. Drying tag 041 matches the case reference Drying tag records internal drying, not recipient collection
+    - article:
+      - paragraph: Collector · Request · Compassionate
+      - paragraph: Asks where Nera’s green instrument case is. This is a request for location information, not a physical search.
+    - article:
+      - paragraph: Tamsin · Remark
+      - paragraph: I refer you to the recorded entry and the relevant inspection route rather than explaining the earlier movement.
+    - article:
+      - paragraph: Collector · Request · Compassionate
+      - paragraph: Asks where Nera’s green instrument case is. This is a request for location information, not a physical search.
+    - article:
+      - paragraph: Orrin · Remark
+      - paragraph: A wrapped green case moved toward the partition; its exact identity was not established by that sighting It may have been an exception. I did not see the damp seam, final cupboard, or purpose; that interpretation is not a witnessed fact. This report does not prove a completed collection.
+    - article:
+      - paragraph: Collector · Offer · Compassionate
+      - paragraph: Offers 100 minor money units for ordinary collection; no fee or debt is asserted.
+    - article:
+      - paragraph: Tamsin · Remark
+      - paragraph: No extra collection charge is due. I decline the ordinary payment offer as unnecessary. No money moves and no new debt or bribery judgment is created.
+  - text: YOUR COMMUNICATION
+  - heading "Compose a message" [level=2]
+  - group "Communication family":
+    - button "Offer" [pressed]
+    - button "Request"
+    - button "Remark"
+  - generic: Meaning
+  - combobox "Meaning":
+    - option "Offer ordinary collection payment" [selected]
+    - option "Offer money to bypass the private-file boundary"
+  - generic: Ordinary payment offer (coins)
+  - spinbutton "Ordinary payment offer (coins)": "1"
+  - generic: BASED
+  - combobox "BASED":
+    - option "Boundaried"
+    - option "Compassionate" [selected]
+    - option "Menacing"
+  - generic: Salience
+  - combobox "Salience":
+    - option "Subtle"
+    - option "Nuanced"
+    - option "Overt" [selected]
+  - text: PREVIEW / WHAT YOU WILL COMMUNICATE
+  - paragraph: Offers 100 minor money units for ordinary collection; no fee or debt is asserted. Acknowledges the clerk’s work and communicates supportive concern about a defensible handover. Social framing is emphatic.
+  - button "Send message"
+  - paragraph: Reading, drafting, clarification, End and partner switching do not spend the substantive repair episode.
+  - heading "Your notebook & actions" [level=2]
+  - generic: Nera’s green instrument case
+  - generic: Collection ticket
+  - generic: Collection record
+  - generic: Nera Vale
+  - generic: Coins
+  - generic: Customer file
+  - generic: Case-handling scope
+  - generic: Private contact scope
+  - generic: Whole customer file
+  - generic: Handling tray
+  - generic: Supervised comparison
+  - generic: Numbered drying tag
+  - generic: Observed wrapped green case — identity not established
+  - generic: Partition
+  - paragraph:
+    - text: "Recipient signature: unfilled"
+    - text: Inspected/shown document
+  - paragraph:
+    - text: Drying tag 041 matches the case reference
+    - text: Inspected/shown document
+  - paragraph:
+    - text: Drying tag records internal drying, not recipient collection
+    - text: Inspected/shown document
+  - paragraph:
+    - text: A wrapped green case moved toward the partition; its exact identity was not established by that sighting
+    - text: Received report
+  - paragraph
+- contentinfo:
+  - generic: Evidence learned · share relevant fragments deliberately
+  - generic: Local · manual saves · descriptive performances · M3 only

@@ -1,5 +1,7 @@
-# Foundation tools
+# Repository verification tools
 
-verify_foundation.py is a read-only verifier for the authorized Stages 0-3 foundation. It verifies the exact text/metadata payload, truthful subsystem states, placeholder-only package directories, absence of Unity/LFS/workflows, governing-document hashes, optional private archive/original hashes, and optional Git history/worktree checks.
+verify_stage4_import.py performs current Stage 4 membership/hash/source-fingerprint/Git checks only. It never executes subsystem source, builds, tests, evidence generation or browser verification.
 
-It does not run subsystem source or certify product behavior. Run Python with -B to avoid bytecode output. It exits nonzero on an assertion failure.
+verify_foundation.py is retained unchanged for the historical 33-file Stage 0-3 commit. Its pre-import assertions intentionally do not apply to the current checkout.
+
+encounter-atlas-independent preserves the original accepted A1 review test source byte-for-byte. It is not a runnable in-place harness; its checkpoint/evidence sibling layout must be created in a disposable directory during a separately authorized Stage 5.

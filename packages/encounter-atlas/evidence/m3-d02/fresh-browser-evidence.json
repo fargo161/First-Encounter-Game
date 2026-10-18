@@ -1,0 +1,14 @@
+{
+  "phase": "--evidence",
+  "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\Encounter_M3_R2",
+  "executable": "C:\\Program Files\\nodejs\\node.EXE",
+  "args": [
+    "scripts/generate-m3-d02-evidence.mjs"
+  ],
+  "environmentBinding": {
+    "M3_CHECKPOINT": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\Encounter_M3_R2"
+  },
+  "exitCode": 0,
+  "stdout": "{\"result\":\"PASS\",\"sourceRevision\":\"M3-runtime-v1-R2-D02\",\"sourceDigest\":\"7bbf91958abfb963830f412136baab95601da19cebc6673bf6d72207d18766d0\",\"buildSHA256\":\"7cbc1251a627631cf352e8a0cd8c5c78b93b76fedd1205a1e84676bfcecfbbe8\",\"packageRef\":{\"id\":\"package_0003\",\"revision\":1,\"digest\":\"2ce9f61b996f17392a39c56f4005d8203b7940aa4974564fafa54d110e35ae8f\"},\"browserExports\":14,\"rawInspectorsCompared\":4,\"beforeDefectsReproduced\":true,\"allInvalidDisplaysKeepServiceOpen\":true,\"visibleAndScrolledClosurePass\":true,\"recoveryAndPostRecoveryPass\":true,\"saveLoadEquality\":true,\"browserRecords\":13}\n",
+  "stderr": ""
+}

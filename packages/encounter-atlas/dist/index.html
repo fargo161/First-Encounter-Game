@@ -1,0 +1,978 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="An offline paperwork encounter: request access, inspect deliberately, and report what you found."><title>Last Collection · Encounter</title><style>:root{font:15px/1.55 'Segoe UI',system-ui,sans-serif;color:#23332c;background:#e8e6dc;--ink:#23332c;--paper:#fbfaf3;--green:#244c3e;--line:#c8cec0;--muted:#627169;--gold:#a77832}*{box-sizing:border-box}body{margin:0}button,select,textarea{font:inherit}button,.button{border:1px solid #a9b5a6;border-radius:5px;padding:9px 13px;background:#f4f4ec;color:var(--ink);cursor:pointer;min-height:42px;text-decoration:none;display:inline-block}button:hover:enabled,.button:hover{border-color:var(--green);background:#e2e9de}button:disabled{opacity:.45;cursor:not-allowed}button.primary,.button.primary{background:var(--green);border-color:var(--green);color:#fff}button[aria-pressed=true]{background:#dbe6d8;border-color:var(--green);font-weight:650}button:focus-visible,select:focus-visible,textarea:focus-visible,a:focus-visible{outline:3px solid #b07c33;outline-offset:3px}.shell{max-width:1330px;margin:auto;padding:35px 30px 0}header{display:flex;justify-content:space-between;gap:22px;align-items:center;padding-bottom:26px;border-bottom:2px solid var(--green)}h1,h2,p{margin:0}h1{font:600 40px/1.15 Georgia,serif;letter-spacing:-1px;margin:6px 0 9px}h2{font:600 21px/1.25 Georgia,serif}header p{color:var(--muted)}nav{display:flex;gap:7px;flex-wrap:wrap;justify-content:flex-end;max-width:470px}nav button{font-size:13px}.eyebrow{font:10px/1.5 Consolas,monospace;letter-spacing:1.3px;color:var(--muted)}.brief{display:flex;gap:20px;align-items:center;padding:19px 0;margin-bottom:8px;flex-wrap:wrap}.brief p{flex:1;min-width:260px;font-size:14px}.stamp{font:10px/1.3 Consolas,monospace;letter-spacing:.8px;padding:9px 10px;border:1px solid #779081;color:var(--green);transform:rotate(-1deg)}#balance{font:13px Consolas,monospace;color:var(--muted)}.workspace{display:grid;grid-template-columns:minmax(0,1.45fr) minmax(345px,1fr);gap:22px;align-items:start}.conversation-column,.tools-column{display:flex;flex-direction:column;gap:20px;min-width:0}.panel{background:var(--paper);border:1px solid var(--line);border-radius:8px;overflow:hidden;box-shadow:0 3px 10px #28372b05}.panel-heading{padding:18px 22px;display:flex;align-items:center;justify-content:space-between;gap:15px;border-bottom:1px solid var(--line)}.phase{font:11px Consolas,monospace;color:var(--green);border:1px solid #a6baa5;background:#e6eee0;padding:5px 9px;border-radius:3px}.performance{display:grid;grid-template-columns:100px 1fr;gap:25px;padding:30px 25px;min-height:220px;align-items:start;background:linear-gradient(130deg,#f3f2e6,#fbfaf3)}.file-illustration{width:89px;height:112px;border:1px solid #a4b09d;border-top:12px solid #c3cbb4;border-radius:2px;background:#e7e8d7;padding:14px 11px;transform:rotate(-4deg);box-shadow:4px 5px 0 #d3d6c7}.file-illustration span{font:8px/1.4 Consolas,monospace;letter-spacing:1px;color:#576b55}.file-illustration i{display:block;height:1px;background:#b1bbaa;margin-top:10px}#pose{font-size:14px;color:#5a695f;font-style:italic}.delivery{white-space:pre-wrap;font-size:16px;margin-top:16px}.stage-actions{display:flex;gap:8px;flex-wrap:wrap;padding:0 22px 20px}.stage-actions button{font-size:13px}.composer-body,.notebook-body{padding:20px 22px}.family-tabs{display:grid;grid-template-columns:repeat(3,1fr);gap:7px;margin-bottom:18px}label{display:block;font-size:12px;font-weight:650;margin:14px 0 6px}select,textarea{width:100%;border:1px solid #a9b7a4;border-radius:4px;background:white;color:var(--ink);padding:9px;min-height:42px}.pair{display:grid;grid-template-columns:1fr 1fr;gap:13px}.small{font-size:12px}.muted{color:var(--muted)}#act-help{margin-top:7px}.preview{background:#edf1e7;border-left:3px solid var(--green);padding:13px 14px;margin:20px 0 16px}.preview p{white-space:pre-wrap;font-size:13px;margin-top:7px}.wide{width:100%}.composer-body>.small{margin-top:10px}.history #history{max-height:460px;overflow:auto}.history-entry{padding:17px 22px;border-bottom:1px solid #d7ddcf}.history-entry:last-child{border:0}.history-entry .label{font:10px Consolas,monospace;color:var(--muted);text-transform:uppercase;letter-spacing:.6px;margin-bottom:6px}.history-entry p{font-size:13px;white-space:pre-wrap}.history-entry.action{border-left:3px solid var(--gold);background:#f4f0e3}.empty{padding:26px 22px;color:var(--muted);font-size:14px}#revision{font:10px Consolas,monospace;color:var(--muted)}.chip{display:inline-block;border:1px solid #c9d1c0;background:#f0f3e9;border-radius:20px;font-size:11px;padding:3px 9px;margin:0 4px 7px 0}#learned{margin:8px 0 15px;border-left:2px solid var(--gold);padding-left:12px}#learned:empty{display:none}#learned p,#permission{font-size:13px}#permission{margin:12px 0}#reminder{margin-top:12px}#notice{padding:13px 18px;margin:17px 0 0;background:#e4eddd;border:1px solid #9caf92;border-radius:5px}#notice.error{background:#f5e5da;border-color:#c29177}.inspector{margin-top:23px}.inspector .panel-heading{flex-wrap:wrap}.inspector button{font-size:12px;margin:3px}.inspector-body{padding:20px 22px;font-size:13px}.inspector-body p{margin-bottom:12px}pre{white-space:pre-wrap;overflow-wrap:anywhere;background:#172b23;color:#d9eadb;padding:20px;font:11px/1.5 Consolas,monospace;max-height:650px;overflow:auto;border-radius:5px}footer{display:flex;justify-content:space-between;gap:20px;border-top:1px solid #bdc6b5;margin-top:30px;padding:19px 0;color:var(--muted);font:10px Consolas,monospace}dialog{border:1px solid #8c9d83;border-radius:8px;max-width:calc(100vw - 30px);width:850px;background:var(--paper);padding:0;color:var(--ink)}dialog::backdrop{background:#172c2399}.dialog-body{padding:25px}dialog p{font-size:13px;margin-top:12px}textarea{height:340px;resize:vertical;font:11px/1.4 Consolas,monospace}.dialog-actions{display:flex;gap:10px;flex-wrap:wrap;justify-content:flex-end;margin-top:16px}#file-error{color:#8a3f2c}.skip{position:absolute;left:20px;top:-80px;background:var(--paper);padding:15px}.skip:focus{top:0}[hidden]{display:none!important}@media(max-width:950px){.workspace{grid-template-columns:1fr}.shell{padding:24px 18px 0}header{align-items:flex-start;flex-direction:column}nav{max-width:none;justify-content:flex-start}.performance{min-height:160px}.tools-column{display:grid;grid-template-columns:1fr 1fr;align-items:start}}@media(max-width:650px){.tools-column{display:flex}.shell{padding:19px 12px 0}h1{font-size:34px}.brief{gap:12px}.brief p{min-width:220px}.performance{grid-template-columns:1fr;gap:15px;padding:22px}.file-illustration{display:none}.panel-heading,.composer-body,.notebook-body{padding:17px}.pair{gap:8px}.delivery{font-size:15px}footer{flex-direction:column;gap:8px}nav button{font-size:12px;padding:8px 10px}.dialog-body{padding:18px}}
+</style></head>
+<body><a class="skip" href="#composer">Skip to composer</a><div class="shell">
+<header><div><span class="eyebrow">ENCOUNTER / REVIEW BUILD</span><h1>Last Collection</h1><p>One case. An incomplete record. Start with the paperwork.</p></div><nav aria-label="Run controls"><button id="restart">New run</button><button id="save">Save run</button><button id="open">Open run</button><button id="inspector-toggle" aria-expanded="false">Author inspector</button></nav></header>
+<div id="notice" role="status" aria-live="polite" hidden></div>
+<section class="brief"><span class="stamp">COLLECTION TICKET / VERIFIED</span><p id="brief"></p><span id="balance"></span></section>
+<main class="workspace"><div class="conversation-column">
+<section class="stage panel" aria-labelledby="partner"><div class="panel-heading"><div><span class="eyebrow">AT THE COUNTER</span><h2 id="partner"></h2></div><span id="phase" class="phase">Your move</span></div>
+<div class="performance"><div class="file-illustration" aria-hidden="true"><span>COLLECTION<br>RECORD</span><i></i><i></i><i></i></div><div><p id="pose"></p><p id="delivery" class="delivery"></p></div></div>
+<div class="stage-actions"><button id="advance" class="primary" hidden>Continue to Delivery</button><button id="skip" hidden>Skip to composer</button><button id="replay" disabled>Replay latest response</button></div></section>
+<section class="panel history"><div class="panel-heading"><h2>Conversation &amp; actions</h2><span id="revision"></span></div><div id="history" role="log" aria-live="polite"></div></section>
+</div><div class="tools-column">
+<section id="composer" class="panel" aria-labelledby="compose-title"><div class="panel-heading"><div><span class="eyebrow">YOUR COMMUNICATION</span><h2 id="compose-title">Compose a message</h2></div></div><div class="composer-body">
+<div class="family-tabs" role="group" aria-label="Communication family"><button id="family-offer" disabled title="Exchange proposals are outside this paperwork slice.">Offer</button><button id="family-request" aria-pressed="true">Request</button><button id="family-remark" aria-pressed="false">Remark</button></div>
+<label for="act">Act</label><select id="act"></select><p id="act-help" class="small muted"></p>
+<div class="pair"><div><label for="vibe">BASED</label><select id="vibe"></select></div><div><label for="salience">Salience</label><select id="salience"><option value="SUBTLE">Subtle</option><option value="NUANCED" selected>Nuanced</option><option value="OVERT">Overt</option></select></div></div>
+<div class="preview"><span class="eyebrow">PREVIEW / WHAT YOU WILL COMMUNICATE</span><p id="preview"></p></div>
+<button id="send" class="primary wide">Send message</button><p class="small muted">Drafting and reading do not advance the encounter.</p>
+</div></section>
+<section class="panel notebook"><div class="panel-heading"><h2>Your notebook</h2></div><div class="notebook-body"><div id="references"></div><div id="learned"></div><div id="permission"></div><button id="inspect" class="primary wide" hidden>Inspect handling extract</button><p id="reminder" class="small muted"></p></div></section>
+</div></main>
+<section id="inspector" class="panel inspector" hidden><div class="panel-heading"><div><span class="eyebrow">AUTHOR VIEW / READ ONLY</span><h2>Causal trace</h2></div><div><button id="refresh-inspector">Refresh inspector</button><button id="export-trace">Export trace</button><button id="export-package">Export package</button></div></div><div class="inspector-body"><p id="trace-summary"></p><p>Inspection conduct is not readable small print. A later spoken detail is a received claim. No player motive or hypothesis is invented.</p><pre id="trace"></pre></div></section>
+<footer><span id="progress">Request → inspection → report</span><span>Offline · manual saves · descriptive performances</span></footer></div>
+<dialog id="file-dialog"><div class="dialog-body"><h2 id="file-title">Save run</h2><p id="file-help"></p><label for="file-json">JSON data</label><textarea id="file-json" spellcheck="false"></textarea><div class="dialog-actions"><button id="load-json" hidden>Load this run</button><a id="download-json" class="button primary" download="Encounter_M2_Run.json">Download JSON</a><button id="close-file">Close</button></div><p id="file-error" role="alert"></p></div></dialog>
+<script>(()=>{'use strict';const __modules=Object.create(null);
+__modules["content/last-collection.mjs"] = (()=>{
+// Generated by scripts/build.mjs from authored JSON.
+const fixture = {
+  "content": {
+    "actors": [
+      {
+        "id": "actor_0001",
+        "kind": "human",
+        "label": "Collector",
+        "profile": null
+      },
+      {
+        "id": "actor_0002",
+        "kind": "npc",
+        "label": "Tamsin",
+        "profile": {
+          "priorities": {
+            "privacy": 10,
+            "relevantService": 10,
+            "verification": 9
+          },
+          "roles": [
+            "record_custodian"
+          ]
+        }
+      },
+      {
+        "id": "actor_0003",
+        "kind": "absent",
+        "label": "Nera Vale",
+        "profile": null
+      }
+    ],
+    "bindings": {
+      "contactId": "subject_0006",
+      "fileId": "subject_0004",
+      "handlingId": "subject_0005",
+      "holderId": "subject_0007",
+      "humanId": "actor_0001",
+      "itemId": "subject_0001",
+      "ownerId": "actor_0003",
+      "recordId": "subject_0003",
+      "serviceId": "actor_0002",
+      "ticketId": "subject_0002"
+    },
+    "communication": {
+      "expressions": [
+        {
+          "cues": [
+            {
+              "kind": "scope_limit",
+              "text": "Limits the communication to the case record and the relevant next step."
+            }
+          ],
+          "templateId": "template_0011",
+          "vibe": "EA"
+        },
+        {
+          "cues": [
+            {
+              "kind": "displayed_concern",
+              "text": "Acknowledges the clerk's work in keeping a defensible handover and approaches the issue with supportive concern."
+            }
+          ],
+          "templateId": "template_0012",
+          "vibe": "SE"
+        },
+        {
+          "cues": [
+            {
+              "kind": "direct_demand",
+              "text": "Makes a direct demand for attention to the case record."
+            },
+            {
+              "kind": "possible_consequence",
+              "text": "Raises a possible procedural complaint about the unresolved collected entry; no complaint is filed or promised."
+            }
+          ],
+          "templateId": "template_0013",
+          "vibe": "AB"
+        }
+      ]
+    },
+    "contentRevision": "M2-paperwork-v1",
+    "id": "package_0002",
+    "initial": {
+      "balanceMinor": 1200,
+      "entry": "collected",
+      "minorUnitsPerCoin": 100,
+      "protectedContact": "PRIVATE-FIXTURE-641: 17 Cedar Lane",
+      "signature": "unfilled",
+      "softAllowance": 24
+    },
+    "presentation": {
+      "art": null,
+      "delivery": null,
+      "intake": null
+    },
+    "revision": 1,
+    "schema": "encounter-package@2",
+    "subjects": [
+      {
+        "id": "subject_0001",
+        "label": "Nera's green instrument case"
+      },
+      {
+        "id": "subject_0002",
+        "label": "Verified collection ticket"
+      },
+      {
+        "id": "subject_0003",
+        "label": "Collection record"
+      },
+      {
+        "id": "subject_0004",
+        "label": "Customer file"
+      },
+      {
+        "id": "subject_0005",
+        "label": "Handling extract"
+      },
+      {
+        "id": "subject_0006",
+        "label": "Private contact information"
+      },
+      {
+        "id": "subject_0007",
+        "label": "Office storage"
+      }
+    ],
+    "title": "Last Collection"
+  },
+  "ref": {
+    "id": "package_0002",
+    "revision": 1,
+    "digest": "6dde071b2d6e6b280ca9ba6ce929bbdd1b42f4f128deba818fc1c32dd2b8e115"
+  }
+};
+
+return {fixture};
+})();
+__modules["src/contracts.mjs"] = (()=>{
+/** M1 records only. No scenario, semantic compiler or gameplay resolver. */
+class ContractError extends Error {
+  constructor(code) { super(code); this.code = code; }
+}
+function requireThat(condition, code = 'INVALID_RECORD') {
+  if (!condition) throw new ContractError(code);
+}
+const isRecord = value => value !== null && typeof value === 'object' &&
+  !Array.isArray(value) && [Object.prototype, null].includes(Object.getPrototypeOf(value));
+
+/** Reject values JSON would silently discard or transform, and accessor code. */
+function validateJson(value, depth = 0, ancestors = new Set()) {
+  requireThat(depth <= 32, 'INVALID_JSON');
+  if (value === null || typeof value === 'string' || typeof value === 'boolean') return;
+  if (typeof value === 'number') { requireThat(Number.isFinite(value), 'INVALID_JSON'); return; }
+  requireThat(typeof value === 'object' && !ancestors.has(value), 'INVALID_JSON');
+  requireThat(Array.isArray(value) || isRecord(value), 'INVALID_JSON');
+  requireThat(Object.getOwnPropertySymbols(value).length === 0, 'INVALID_JSON');
+  const descriptors = Object.getOwnPropertyDescriptors(value);
+  for (const [key, descriptor] of Object.entries(descriptors)) {
+    if (Array.isArray(value) && key === 'length') continue;
+    requireThat('value' in descriptor && descriptor.enumerable, 'INVALID_JSON');
+    if (Array.isArray(value)) requireThat(/^(0|[1-9]\d*)$/.test(key) && Number(key) < value.length, 'INVALID_JSON');
+  }
+  if (Array.isArray(value)) requireThat(Object.keys(value).length === value.length, 'INVALID_JSON');
+  const next = new Set(ancestors); next.add(value);
+  for (const descriptor of Object.values(descriptors)) {
+    if (Array.isArray(value) && descriptor === descriptors.length) continue;
+    validateJson(descriptor.value, depth + 1, next);
+  }
+}
+function canonicalJson(value) {
+  validateJson(value);
+  const encode = node => {
+    if (Array.isArray(node)) return `[${node.map(encode).join(',')}]`;
+    if (isRecord(node)) return `{${Object.keys(node).sort().map(k => `${JSON.stringify(k)}:${encode(node[k])}`).join(',')}}`;
+    return JSON.stringify(node);
+  };
+  const result = encode(value);
+  requireThat(result.length <= 1024 * 1024, 'JSON_LIMIT');
+  return result;
+}
+const copy = value => JSON.parse(canonicalJson(value));
+function freeze(value) {
+  if (value && typeof value === 'object') { Object.values(value).forEach(freeze); Object.freeze(value); }
+  return value;
+}
+function fields(value, required, optional = []) {
+  requireThat(isRecord(value));
+  requireThat(required.every(k => Object.hasOwn(value, k)));
+  requireThat(Object.keys(value).every(k => [...required, ...optional].includes(k)));
+}
+function text(value, limit = 4000) { requireThat(typeof value === 'string' && value.trim().length > 0 && value.length <= limit); }
+function integer(value) { requireThat(Number.isSafeInteger(value) && value >= 0); }
+function scalar(value) { requireThat(value === null || ['string', 'number', 'boolean'].includes(typeof value)); }
+function id(value, type) { requireThat(typeof value === 'string' && new RegExp(`^${type}_[0-9a-f]{4,32}$`).test(value)); }
+function ids(values, type) {
+  requireThat(Array.isArray(values) && new Set(values).size === values.length);
+  values.forEach(v => id(v, type));
+}
+function packageRef(ref) {
+  fields(ref, ['id', 'revision', 'digest']); id(ref.id, 'package'); integer(ref.revision);
+  requireThat(typeof ref.digest === 'string' && /^[0-9a-f]{64}$/.test(ref.digest));
+}
+
+// Verified legacy catalog names/order; reaction deltas and 1/2/4 ranks are absent.
+const BASED_CATALOG = freeze({
+  BA: 'Reckless', BS: 'Instigating', BE: 'Condemning', BD: 'Extortive',
+  AB: 'Menacing', AS: 'Commanding', AE: 'Urgent', AD: 'Hustled',
+  SB: 'Irreverent', SA: 'Charismatic', SE: 'Compassionate', SD: 'Coaxing',
+  EB: 'Steadfast', EA: 'Boundaried', ES: 'Communal', ED: 'Deflecting',
+  DB: 'Bluffing', DA: 'Predatory', DS: 'Insinuating', DE: 'Feigning'
+});
+const ACT_FAMILIES = freeze({
+  ask_whereabouts: 'Request', challenge_record: 'Remark', present_evidence: 'Remark',
+  acknowledge_grievance: 'Remark', request_access: 'Request', propose_exchange: 'Offer'
+});
+// Reply shapes share the same canonical envelope; no reply policy is built here.
+const RESPONSE_FAMILIES = freeze({ explain_access: 'Remark', acknowledge_report: 'Remark', decline_scope: 'Remark' });
+const SALIENCE = freeze(['SUBTLE', 'NUANCED', 'OVERT']);
+const sourceTypes = { message: 'message', event: 'event', action_result: 'result' };
+function validateSource(source) {
+  fields(source, ['kind', 'id']); requireThat(Object.hasOwn(sourceTypes, source.kind)); id(source.id, sourceTypes[source.kind]);
+}
+function validateOutward(outward) {
+  canonicalJson(outward);
+  fields(outward, ['family', 'act', 'senderId', 'recipientIds', 'subjectIds', 'targetId', 'scope', 'content', 'framing', 'prominence', 'terms']);
+  const family = Object.hasOwn(ACT_FAMILIES, outward.act) ? ACT_FAMILIES[outward.act] :
+    Object.hasOwn(RESPONSE_FAMILIES, outward.act) ? RESPONSE_FAMILIES[outward.act] : null;
+  requireThat(family !== null && family === outward.family);
+  id(outward.senderId, 'actor'); ids(outward.recipientIds, 'actor'); requireThat(outward.recipientIds.length > 0);
+  ids(outward.subjectIds, 'subject'); id(outward.targetId, 'subject');
+  requireThat(outward.subjectIds.includes(outward.targetId));
+  fields(outward.scope, ['subjectId', 'kind']); id(outward.scope.subjectId, 'subject'); text(outward.scope.kind, 100);
+  requireThat(outward.subjectIds.includes(outward.scope.subjectId));
+  fields(outward.content, ['kind', 'predicate', 'value', 'timeScope']);
+  requireThat(['request', 'question', 'assertion', 'proposal', 'acknowledgment'].includes(outward.content.kind)); text(outward.content.predicate, 100); text(outward.content.timeScope, 100);
+  scalar(outward.content.value);
+  requireThat(Array.isArray(outward.framing) && outward.framing.length <= 12);
+  for (const cue of outward.framing) {
+    fields(cue, ['kind', 'text', 'subjectIds']); text(cue.kind, 100); text(cue.text); ids(cue.subjectIds, 'subject');
+    requireThat(cue.subjectIds.every(subject => outward.subjectIds.includes(subject)));
+  }
+  requireThat(['understated', 'measured', 'emphatic'].includes(outward.prominence));
+  // M1 has no exchange implementation. A non-null terms record must fail clearly.
+  requireThat(outward.terms === null, 'UNIMPLEMENTED_TERMS');
+  requireThat(outward.act !== 'propose_exchange', 'UNIMPLEMENTED_ACT');
+  return true;
+}
+function validateMessage(message) {
+  canonicalJson(message);
+  fields(message, ['schema', 'id', 'commandId', 'sequence', 'contextMessageId', 'privateComposition', 'outward']);
+  requireThat(message.schema === 'encounter-message@2'); id(message.id, 'message'); id(message.commandId, 'command'); integer(message.sequence);
+  if (message.contextMessageId !== null) id(message.contextMessageId, 'message');
+  const privatePart = message.privateComposition;
+  fields(privatePart, ['selectedVibe', 'selectedSalience', 'authorId', 'templateId', 'intendedFraming']);
+  requireThat(Object.hasOwn(BASED_CATALOG, privatePart.selectedVibe)); requireThat(SALIENCE.includes(privatePart.selectedSalience));
+  id(privatePart.authorId, 'author'); id(privatePart.templateId, 'template'); text(privatePart.intendedFraming);
+  validateOutward(message.outward); return true;
+}
+function validateObservation(observation) {
+  canonicalJson(observation);
+  fields(observation, ['schema', 'id', 'observerId', 'source', 'sequence', 'channel', 'receivedDetails', 'roots']);
+  requireThat(observation.schema === 'encounter-observation@2'); id(observation.id, 'observation'); id(observation.observerId, 'actor');
+  validateSource(observation.source); integer(observation.sequence);
+  requireThat(['hearing', 'sight', 'reading', 'initial'].includes(observation.channel));
+  requireThat(isRecord(observation.receivedDetails));
+  requireThat(Array.isArray(observation.roots) && observation.roots.length > 0);
+  observation.roots.forEach(validateSource);
+  requireThat(new Set(observation.roots.map(canonicalJson)).size === observation.roots.length);
+  return true;
+}
+function validateClaim(claim) {
+  canonicalJson(claim);
+  fields(claim, ['id', 'speakerId', 'recipientIds', 'messageId', 'proposition', 'observationIds', 'roots']);
+  id(claim.id, 'claim'); id(claim.speakerId, 'actor'); ids(claim.recipientIds, 'actor'); id(claim.messageId, 'message');
+  fields(claim.proposition, ['subjectId', 'predicate', 'value', 'timeScope']);
+  id(claim.proposition.subjectId, 'subject'); text(claim.proposition.predicate, 100); text(claim.proposition.timeScope, 100);
+  scalar(claim.proposition.value);
+  ids(claim.observationIds, 'observation'); requireThat(claim.observationIds.length > 0);
+  requireThat(Array.isArray(claim.roots) && claim.roots.length > 0); claim.roots.forEach(validateSource);
+  return true;
+}
+function validatePermission(permission) {
+  canonicalJson(permission);
+  fields(permission, ['id', 'granteeId', 'grantorId', 'actionType', 'targetId', 'scope', 'status', 'sourceMessageId']);
+  id(permission.id, 'permission'); id(permission.granteeId, 'actor'); id(permission.grantorId, 'actor');
+  text(permission.actionType, 100); id(permission.targetId, 'subject'); text(permission.scope, 100);
+  requireThat(['allowed', 'unset', 'forbidden'].includes(permission.status)); id(permission.sourceMessageId, 'message'); return true;
+}
+function validateActionRequest(request) {
+  canonicalJson(request);
+  fields(request, ['commandId', 'actorId', 'actionType', 'targetId', 'permissionId', 'expectedRevision']);
+  id(request.commandId, 'command'); id(request.actorId, 'actor'); text(request.actionType, 100); id(request.targetId, 'subject');
+  id(request.permissionId, 'permission'); integer(request.expectedRevision); return true;
+}
+function validateMatchedResult(request, result, supportedEffectTypes) {
+  validateActionRequest(request); canonicalJson(result);
+  fields(result, ['id', 'request', 'outcome', 'effects', 'observerDetails']); id(result.id, 'result');
+  requireThat(canonicalJson(result.request) === canonicalJson(request), 'RESULT_MISMATCH');
+  requireThat(['performed', 'no_discovery', 'refused'].includes(result.outcome));
+  requireThat(Array.isArray(result.effects) && Array.isArray(result.observerDetails));
+  for (const effect of result.effects) {
+    fields(effect, ['type', 'payload']); requireThat(supportedEffectTypes.includes(effect.type), 'UNSUPPORTED_EFFECT');
+  }
+  for (const recipient of result.observerDetails) {
+    fields(recipient, ['observerId', 'details']); id(recipient.observerId, 'actor'); requireThat(isRecord(recipient.details));
+  }
+  requireThat(new Set(result.observerDetails.map(r => r.observerId)).size === result.observerDetails.length);
+  return true;
+}
+
+return {ContractError,requireThat,isRecord,validateJson,canonicalJson,copy,freeze,fields,text,integer,scalar,id,ids,packageRef,BASED_CATALOG,ACT_FAMILIES,RESPONSE_FAMILIES,SALIENCE,validateSource,validateOutward,validateMessage,validateObservation,validateClaim,validatePermission,validateActionRequest,validateMatchedResult};
+})();
+__modules["src/runtime.mjs"] = (()=>{
+const { ContractError, canonicalJson, copy, freeze, fields, id, integer, isRecord, packageRef, requireThat } = __modules["src/contracts.mjs"];
+
+function validateCommand(command) {
+  fields(command, ['schema', 'id', 'sessionId', 'packageRef', 'expectedRevision', 'kind', 'payload']);
+  requireThat(command.schema === 'encounter-command@2'); id(command.id, 'command'); id(command.sessionId, 'run');
+  packageRef(command.packageRef); integer(command.expectedRevision);
+  requireThat(['send_message', 'perform_action'].includes(command.kind), 'UNSUPPORTED_COMMAND');
+  requireThat(isRecord(command.payload));
+}
+function validateRun(run) {
+  canonicalJson(run);
+  fields(run, ['schema', 'id', 'packageRef', 'revision', 'data', 'journal']);
+  requireThat(run.schema === 'encounter-run@2'); id(run.id, 'run'); packageRef(run.packageRef); integer(run.revision);
+  requireThat(isRecord(run.data) && Array.isArray(run.journal) && run.journal.length === run.revision);
+  const used = new Set();
+  for (const [index, entry] of run.journal.entries()) {
+    fields(entry, ['command', 'receipt']); validateCommand(entry.command);
+    fields(entry.receipt, ['commandId', 'committedRevision', 'result']);
+    requireThat(!used.has(entry.command.id)); used.add(entry.command.id);
+    requireThat(entry.command.sessionId === run.id && canonicalJson(entry.command.packageRef) === canonicalJson(run.packageRef));
+    requireThat(entry.command.expectedRevision === index && entry.receipt.committedRevision === index + 1 && entry.receipt.commandId === entry.command.id);
+  }
+  return true;
+}
+function createRun({ id: sessionId, packageRef: ref, data }) {
+  const run = copy({ schema: 'encounter-run@2', id: sessionId, packageRef: ref, revision: 0, data, journal: [] });
+  validateRun(run); return freeze(run);
+}
+
+/**
+ * One synchronous local commit owner. Hooks receive copies, never live state.
+ * M2 supplies domain resolution in the documented staged order; M1 tests use
+ * neutral processors. The caller installs `run` only when status is committed.
+ */
+function executeCommand(run, command, handlers) {
+  const rejected = code => ({ status: 'rejected', code, run });
+  try {
+    validateRun(run);
+    // One submitted snapshot owns identity before any callback can mutate aliases.
+    const immutableCommand = freeze(copy(command));
+    const serialized = canonicalJson(immutableCommand);
+    id(immutableCommand.id, 'command'); id(immutableCommand.sessionId, 'run');
+    requireThat(immutableCommand.sessionId === run.id, 'WRONG_SESSION');
+    const prior = run.journal.find(entry => entry.command.id === immutableCommand.id);
+    if (prior) {
+      if (canonicalJson(prior.command) !== serialized) return rejected('IDENTITY_CONFLICT');
+      return { status: 'replayed', run, receipt: freeze(copy(prior.receipt)) };
+    }
+    validateCommand(immutableCommand);
+    requireThat(canonicalJson(immutableCommand.packageRef) === canonicalJson(run.packageRef), 'PACKAGE_MISMATCH');
+    requireThat(immutableCommand.expectedRevision === run.revision, 'STALE_COMMAND');
+    requireThat(isRecord(handlers) && ['validateNew', 'resolve', 'validateStaged'].every(key =>
+      typeof handlers[key] === 'function' && handlers[key].constructor.name !== 'AsyncFunction'), 'INVALID_HANDLERS');
+    requireThat(handlers.validateNew(freeze(copy(run.data)), immutableCommand) === true, 'INVALID_COMMAND');
+    const staged = copy(run.data);
+    const result = handlers.resolve(staged, immutableCommand);
+    // JSON-only result excludes asynchronous resolution or opaque handles.
+    canonicalJson(result); canonicalJson(staged);
+    requireThat(handlers.validateStaged(freeze(copy(staged)), freeze(copy(result)), immutableCommand) === true, 'INVALID_COMMAND');
+    const receipt = { commandId: immutableCommand.id, committedRevision: run.revision + 1, result: copy(result) };
+    const next = { schema: run.schema, id: run.id, packageRef: copy(run.packageRef), revision: run.revision + 1,
+      data: staged, journal: [...copy(run.journal), { command: immutableCommand, receipt }] };
+    validateRun(next);
+    return { status: 'committed', run: freeze(next), receipt: freeze(copy(receipt)) };
+  } catch (error) {
+    // Never turn an author exception/hidden source value into player feedback.
+    const safeCodes = new Set(['WRONG_SESSION', 'PACKAGE_MISMATCH', 'STALE_COMMAND', 'UNSUPPORTED_COMMAND', 'INVALID_HANDLERS', 'INVALID_COMMAND']);
+    return rejected(error instanceof ContractError && safeCodes.has(error.code) ? error.code : 'TECHNICAL_REJECTION');
+  }
+}
+
+return {validateRun,createRun,executeCommand};
+})();
+__modules["src/views.mjs"] = (()=>{
+const { canonicalJson, copy, freeze, fields, id, integer, isRecord, requireThat, text, validateSource, validateObservation, validateMessage, validateOutward, validateClaim } = __modules["src/contracts.mjs"];
+
+/** Authoritative routing adapter only: the caller supplies a declared detail grant. */
+function projectObservation(source, grant) {
+  canonicalJson(source); canonicalJson(grant);
+  fields(source, ['kind', 'id', 'sequence', 'details']); validateSource({ kind: source.kind, id: source.id }); integer(source.sequence);
+  requireThat(isRecord(source.details));
+  fields(grant, ['id', 'observerId', 'channel', 'receivedKeys', 'roots']);
+  requireThat(Array.isArray(grant.receivedKeys) && new Set(grant.receivedKeys).size === grant.receivedKeys.length);
+  const received = Object.create(null);
+  for (const key of grant.receivedKeys) {
+    text(key, 100); requireThat(Object.hasOwn(source.details, key), 'INVALID_DETAIL_GRANT');
+    received[key] = copy(source.details[key]);
+  }
+  const observation = { schema: 'encounter-observation@2', id: grant.id, observerId: grant.observerId,
+    source: { kind: source.kind, id: source.id }, sequence: source.sequence, channel: grant.channel,
+    receivedDetails: received, roots: copy(grant.roots) };
+  validateObservation(observation); return freeze(copy(observation));
+}
+function observeMessage(message, { id: observationId, observerId }) {
+  validateMessage(message); id(observerId, 'actor');
+  requireThat(message.outward.recipientIds.includes(observerId), 'NO_RECEIVING_PATH');
+  return projectObservation({ kind: 'message', id: message.id, sequence: message.sequence, details: { communication: message.outward } },
+    { id: observationId, observerId, channel: 'hearing', receivedKeys: ['communication'], roots: [{ kind: 'message', id: message.id }] });
+}
+function previewView(compiledCandidate) {
+  validateMessage(compiledCandidate);
+  return freeze(copy({ privateComposition: compiledCandidate.privateComposition, outward: compiledCandidate.outward, contextMessageId: compiledCandidate.contextMessageId }));
+}
+function recipientHistory(observations, actorId) {
+  id(actorId, 'actor'); observations.forEach(validateObservation);
+  requireThat(new Set(observations.map(o => o.id)).size === observations.length, 'DUPLICATE_OBSERVATION');
+  return freeze(copy(observations.filter(o => o.observerId === actorId)));
+}
+
+/** No source-event store, canonical messages, assets or package data enter this API. */
+function listenerView({ actorId, currentMessageId, observations, claims, profile }) {
+  id(actorId, 'actor'); id(currentMessageId, 'message');
+  const local = recipientHistory(observations, actorId);
+  const delivery = local.find(o => o.source.kind === 'message' && o.source.id === currentMessageId && Object.hasOwn(o.receivedDetails, 'communication'));
+  requireThat(Boolean(delivery), 'NO_RECEIVING_PATH'); validateOutward(delivery.receivedDetails.communication);
+  requireThat(delivery.receivedDetails.communication.recipientIds.includes(actorId), 'NO_RECEIVING_PATH');
+  canonicalJson(profile); fields(profile, ['roles', 'priorities']);
+  requireThat(Array.isArray(profile.roles)); profile.roles.forEach(role => text(role, 100));
+  fields(profile.priorities, ['relevantService', 'privacy', 'verification']);
+  Object.values(profile.priorities).forEach(weight => { integer(weight); requireThat(weight <= 100); });
+  claims.forEach(validateClaim);
+  const localIds = new Set(local.map(o => o.id));
+  const localClaims = claims.filter(claim => claim.recipientIds.includes(actorId) && claim.observationIds.every(ref => localIds.has(ref)) &&
+    local.some(o => {
+      if (!claim.observationIds.includes(o.id) || o.source.kind !== 'message' || o.source.id !== claim.messageId) return false;
+      const spoken = o.receivedDetails.communication;
+      if (!spoken || spoken.content.kind !== 'assertion') return false;
+      return spoken.senderId === claim.speakerId && spoken.recipientIds.includes(actorId) && spoken.targetId === claim.proposition.subjectId &&
+        spoken.content.predicate === claim.proposition.predicate && spoken.content.timeScope === claim.proposition.timeScope &&
+        canonicalJson(spoken.content.value) === canonicalJson(claim.proposition.value);
+    }));
+  return freeze(copy({ actorId, currentMessageId, incoming: delivery.receivedDetails.communication, observations: local, claims: localClaims, profile }));
+}
+/** Opaque source citation can retrieve only already received fragments. */
+function readObservedSource(boundListenerView, source) {
+  validateSource(source);
+  return freeze(copy(boundListenerView.observations.filter(o => o.source.kind === source.kind && o.source.id === source.id)
+    .map(o => ({ observationId: o.id, receivedDetails: o.receivedDetails }))));
+}
+/** Explicit author-only read. Never supplied to listener/presentation adapters. */
+function authorInspector(record) { return freeze(copy(record)); }
+
+return {projectObservation,observeMessage,previewView,recipientHistory,listenerView,readObservedSource,authorInspector};
+})();
+__modules["src/action-boundary.mjs"] = (()=>{
+const { canonicalJson, copy, freeze, requireThat, validateMatchedResult } = __modules["src/contracts.mjs"];
+
+/**
+ * Pure staging helper, never installs state. Adapter is local/synchronous and
+ * applies supported effects to a copy. Runtime owns the eventual whole commit.
+ * No physical action resolver or scenario action exists at M1.
+ */
+function stageMatchedResult(data, request, result, supportedEffectTypes, apply) {
+  const { request: immutableRequest, result: immutableResult } = freeze(copy({ request, result }));
+  validateMatchedResult(immutableRequest, immutableResult, supportedEffectTypes);
+  const next = copy(data);
+  requireThat(Array.isArray(next.actionResults), 'INVALID_RESULT_STORE');
+  const prior = next.actionResults.find(r => r.id === immutableResult.id || r.request.commandId === immutableRequest.commandId);
+  if (prior) {
+    requireThat(canonicalJson(prior) === canonicalJson(immutableResult), 'RESULT_IDENTITY_CONFLICT');
+    return { data: next, replayed: true };
+  }
+  requireThat(typeof apply === 'function' && apply.constructor.name !== 'AsyncFunction');
+  requireThat(apply(next, copy(immutableResult.effects), copy(immutableResult.observerDetails)) === true);
+  next.actionResults.push(immutableResult);
+  canonicalJson(next);
+  return { data: next, replayed: false };
+}
+
+return {stageMatchedResult};
+})();
+__modules["src/package.mjs"] = (()=>{
+const { canonicalJson, copy, freeze, fields, id, ids, integer, isRecord, requireThat, text, BASED_CATALOG } = __modules["src/contracts.mjs"];
+
+async function sha256(value) {
+  const bytes = new TextEncoder().encode(canonicalJson(value));
+  return [...new Uint8Array(await globalThis.crypto.subtle.digest('SHA-256', bytes))].map(x => x.toString(16).padStart(2, '0')).join('');
+}
+function validatePackage(pkg) {
+  canonicalJson(pkg);
+  fields(pkg, ['schema','id','revision','title','contentRevision','actors','subjects','bindings','initial','communication','presentation']);
+  requireThat(pkg.schema === 'encounter-package@2', 'UNSUPPORTED_PACKAGE'); id(pkg.id,'package'); integer(pkg.revision); text(pkg.title,120); text(pkg.contentRevision,100);
+  requireThat(Array.isArray(pkg.actors) && Array.isArray(pkg.subjects));
+  ids(pkg.actors.map(a=>a.id),'actor'); ids(pkg.subjects.map(s=>s.id),'subject');
+  for (const a of pkg.actors) {
+    fields(a,['id','label','kind','profile']); text(a.label,120); requireThat(['human','npc','absent'].includes(a.kind));
+    if (a.kind==='npc') {
+      fields(a.profile,['roles','priorities']); requireThat(Array.isArray(a.profile.roles)); a.profile.roles.forEach(x=>text(x,100));
+      fields(a.profile.priorities,['relevantService','privacy','verification']); Object.values(a.profile.priorities).forEach(x=>{integer(x); requireThat(x<=100);});
+    } else requireThat(a.profile===null);
+  }
+  for (const s of pkg.subjects) { fields(s,['id','label']); text(s.label,120); }
+  const b=pkg.bindings;
+  fields(b,['humanId','serviceId','ownerId','itemId','ticketId','recordId','fileId','handlingId','contactId','holderId']);
+  for (const key of ['humanId','serviceId','ownerId']) requireThat(pkg.actors.some(a=>a.id===b[key]));
+  for (const key of ['itemId','ticketId','recordId','fileId','handlingId','contactId','holderId']) requireThat(pkg.subjects.some(s=>s.id===b[key]));
+  requireThat(new Set(Object.values(b)).size===Object.keys(b).length);
+  requireThat(pkg.actors.find(a=>a.id===b.humanId).kind==='human' && pkg.actors.find(a=>a.id===b.serviceId).kind==='npc' && pkg.actors.find(a=>a.id===b.ownerId).kind==='absent');
+  fields(pkg.initial,['entry','signature','protectedContact','balanceMinor','minorUnitsPerCoin','softAllowance']);
+  text(pkg.initial.entry,100); requireThat(['unfilled','filled'].includes(pkg.initial.signature)); text(pkg.initial.protectedContact,400);
+  integer(pkg.initial.balanceMinor); integer(pkg.initial.minorUnitsPerCoin); requireThat(pkg.initial.minorUnitsPerCoin>0); integer(pkg.initial.softAllowance); requireThat(pkg.initial.softAllowance>0);
+  fields(pkg.communication,['expressions']); requireThat(Array.isArray(pkg.communication.expressions) && pkg.communication.expressions.length>0);
+  requireThat(new Set(pkg.communication.expressions.map(x=>x.vibe)).size===pkg.communication.expressions.length);
+  for (const e of pkg.communication.expressions) {
+    fields(e,['vibe','templateId','cues']); requireThat(Object.hasOwn(BASED_CATALOG,e.vibe)); id(e.templateId,'template'); requireThat(Array.isArray(e.cues) && e.cues.length>0 && e.cues.length<=8);
+    for (const cue of e.cues) { fields(cue,['kind','text']); requireThat(['scope_limit','displayed_concern','direct_demand','possible_consequence'].includes(cue.kind)); text(cue.text); }
+  }
+  fields(pkg.presentation,['intake','delivery','art']);
+  for (const key of ['intake','delivery','art']) requireThat(pkg.presentation[key]===null || typeof pkg.presentation[key]==='string');
+  return true;
+}
+async function sealPackage(authored) {
+  const content=copy(authored); validatePackage(content);
+  return freeze({content,ref:{id:content.id,revision:content.revision,digest:await sha256(content)}});
+}
+async function verifyPackage(sealed) {
+  fields(sealed,['content','ref']); const checked=await sealPackage(sealed.content);
+  requireThat(canonicalJson(checked.ref)===canonicalJson(sealed.ref),'PACKAGE_MISMATCH'); return checked;
+}
+
+return {sha256,validatePackage,sealPackage,verifyPackage};
+})();
+__modules["src/compiler.mjs"] = (()=>{
+const { ACT_FAMILIES, SALIENCE, copy, freeze, fields, requireThat, validateMessage } = __modules["src/contracts.mjs"];
+
+/** Receives only authored communication definitions and the player's received view. */
+function compileMessage(definitions, player, draft, identity) {
+  fields(draft,['act','vibe','salience']);
+  requireThat(['request_access','challenge_record'].includes(draft.act),'UNSUPPORTED_ACT');
+  requireThat(SALIENCE.includes(draft.salience),'INVALID_DRAFT');
+  const expression=definitions.expressions.find(e=>e.vibe===draft.vibe);
+  requireThat(Boolean(expression),'UNAVAILABLE_EXPRESSION');
+  const record=player.record;
+  requireThat(Boolean(record),'INVALID_DRAFT');
+  if (draft.act==='challenge_record') requireThat(Boolean(player.inspectedDetail),'INSPECTION_REQUIRED');
+  const isChallenge=draft.act==='challenge_record';
+  const outward={family:ACT_FAMILIES[draft.act],act:draft.act,senderId:player.actorId,recipientIds:[player.partnerId],
+    subjectIds:[player.item.id,record.id],targetId:record.id,scope:{subjectId:record.id,kind:'relevant_records'},
+    content:isChallenge ? {kind:'assertion',predicate:player.inspectedDetail.predicate,value:player.inspectedDetail.value,timeScope:'current_entry'} :
+      {kind:'request',predicate:'inspect_relevant_entry',value:null,timeScope:'current_entry'},
+    framing:expression.cues.map(c=>({...copy(c),subjectIds:[record.id]})),
+    prominence:{SUBTLE:'understated',NUANCED:'measured',OVERT:'emphatic'}[draft.salience],terms:null};
+  const message={schema:'encounter-message@2',...identity,privateComposition:{selectedVibe:draft.vibe,selectedSalience:draft.salience,authorId:'author_0001',templateId:expression.templateId,intendedFraming:expression.cues.map(c=>c.text).join(' ')},outward};
+  validateMessage(message); return freeze(message);
+}
+
+function describeOutward(outward) {
+  let primary;
+  if (outward.act==='request_access') primary='Requests the case paperwork and permission to inspect the relevant collection entry.';
+  else if (outward.act==='challenge_record') primary=`Reports the inspected recipient-signature field as ${outward.content.value}; challenges whether the collected entry establishes a completed handover.`;
+  else if (outward.act==='explain_access') primary='Explains that the customer file contains case-handling records and unrelated private contact details. Offers inspection of the handling extract only; private contact details remain unavailable.';
+  else if (outward.act==='acknowledge_report') primary=`Acknowledges your report that the recipient-signature field is ${outward.content.value}. Offers a supervised comparison with the verified ticket as the next verification step. The report is not yet an independently verified finding by the clerk.`;
+  else primary='Declines the requested scope under the current verified authority. No information or material resource is transferred.';
+  return [primary,...outward.framing.map(c=>c.text),`Social framing is ${outward.prominence}.`].join('\n');
+}
+
+return {compileMessage,describeOutward};
+})();
+__modules["src/policy.mjs"] = (()=>{
+const { copy, freeze } = __modules["src/contracts.mjs"];
+
+/** Deliberately has no package, canonical message, world store or callback input. */
+function selectResponse(view) {
+  const ruleObservation=view.observations.find(o=>o.receivedDetails.accessRule);
+  const authorityObservation=view.observations.find(o=>o.receivedDetails.collectionAuthority?.collectorId===view.incoming.senderId);
+  const rule=ruleObservation?.receivedDetails.accessRule;
+  const authority=authorityObservation?.receivedDetails.collectionAuthority;
+  const role=view.profile.roles.includes('record_custodian');
+  const relevant=Boolean(rule && view.incoming.targetId===rule.recordId && view.incoming.scope.kind==='relevant_records');
+  const authorized=Boolean(authority && authority.verified && authority.itemId===rule?.itemId);
+  const heardClaim=view.claims.find(c=>c.messageId===view.currentMessageId && c.proposition.subjectId===rule?.recordId && c.proposition.predicate==='recipient_signature');
+  const bounded=view.incoming.framing.some(c=>c.kind==='scope_limit');
+  const candidates=[
+    {act:'explain_access',eligible:role && relevant && authorized && view.incoming.act==='request_access',score:view.profile.priorities.relevantService+view.profile.priorities.privacy+(bounded?1:0),ordinal:0,
+      reason:'A received relevant-record request, a known access rule and verified collection authority permit limited inspection.'},
+    {act:'acknowledge_report',eligible:role && relevant && authorized && view.incoming.act==='challenge_record' && Boolean(heardClaim),score:view.profile.priorities.verification+view.profile.priorities.relevantService,ordinal:1,
+      reason:'A matching assertion was actually heard. Acknowledge it as a report and offer verification; do not treat seeing conduct as reading the record.'},
+    {act:'decline_scope',eligible:true,score:0,ordinal:2,reason:'A bounded public refusal is available when relevant scope or authority is insufficient.'}
+  ];
+  const winner=candidates.filter(c=>c.eligible).sort((a,b)=>b.score-a.score || a.ordinal-b.ordinal)[0];
+  return freeze({selected:winner.act,candidates,evidenceObservationIds:[ruleObservation?.id,authorityObservation?.id,...(heardClaim?.observationIds || [])].filter(Boolean),
+    rule:rule?copy(rule):null,reportedValue:heardClaim?.proposition.value ?? null,
+    intakeDescription:view.incoming.framing.some(c=>c.kind==='possible_consequence')?
+      'Sets both hands beside the record, squares the file on the counter, and meets the collector’s gaze with a steady expression.':
+      'Looks from the verified ticket to the record, brings the file within reach, and holds a composed expression.'});
+}
+
+return {selectResponse};
+})();
+__modules["src/encounter.mjs"] = (()=>{
+const { canonicalJson, copy, freeze, fields, id, ids, integer, requireThat, validateMessage, validateObservation, validateClaim, validatePermission } = __modules["src/contracts.mjs"];
+const { createRun, executeCommand, validateRun } = __modules["src/runtime.mjs"];
+const { observeMessage, projectObservation, listenerView, authorInspector } = __modules["src/views.mjs"];
+const { stageMatchedResult } = __modules["src/action-boundary.mjs"];
+const { verifyPackage } = __modules["src/package.mjs"];
+const { compileMessage, describeOutward } = __modules["src/compiler.mjs"];
+const { selectResponse } = __modules["src/policy.mjs"];
+
+const token=(kind,n)=>`${kind}_${n.toString(16).padStart(4,'0')}`;
+const nextId=(data,kind)=>token(kind,++data.counters[kind]);
+const subjectRef=(pkg,key)=>copy(pkg.subjects.find(s=>s.id===pkg.bindings[key]));
+const profileFor=(pkg,actorId)=>pkg.actors.find(a=>a.id===actorId).profile;
+const addEvent=(data,type,details)=>{
+  const event={id:nextId(data,'event'),sequence:++data.sequence,type,details:copy(details)}; data.events.push(event); return event;
+};
+const addObservation=(data,source,observerId,channel,keys)=>{
+  const observation=projectObservation(source,{id:nextId(data,'observation'),observerId,channel,receivedKeys:keys,roots:[{kind:source.kind,id:source.id}]});
+  data.observations.push(observation); return observation;
+};
+const routeMessage=(data,message)=>{
+  const received=[];
+  for (const recipient of message.outward.recipientIds) {
+    const observation=observeMessage(message,{id:nextId(data,'observation'),observerId:recipient}); data.observations.push(observation); received.push(observation);
+  }
+  return received;
+};
+
+async function startEncounter(sealed,{runId='run_0002',noPressure=false}={}) {
+  const pkg=await verifyPackage(sealed); id(runId,'run');
+  const p=pkg.content,b=p.bindings;
+  const data={schema:'encounter-domain@2',humanId:b.humanId,serviceId:b.serviceId,sequence:0,
+    world:{itemId:b.itemId,ownerId:b.ownerId,holderId:b.holderId,quantity:1,balanceMinor:p.initial.balanceMinor,
+      document:{recordId:b.recordId,handlingId:b.handlingId,entry:p.initial.entry,signature:p.initial.signature,contactId:b.contactId,protectedContact:p.initial.protectedContact}},
+    counters:{event:0,message:0,result:0,observation:0,claim:0,permission:0,decision:0},
+    events:[],messages:[],observations:[],claims:[],permissions:[],actionResults:[],decisions:[],episodes:[],
+    opportunities:{used:0,allowance:p.initial.softAllowance,noPressure}};
+  const authority={collectorId:b.humanId,itemId:b.itemId,ownerId:b.ownerId,ticketId:b.ticketId,verified:true};
+  const publicRefs=['itemId','ticketId','recordId'].map(key=>subjectRef(p,key));
+  const ticket=addEvent(data,'initial_ticket_check',{collectionAuthority:authority,references:publicRefs,participants:p.actors.map(a=>({id:a.id,label:a.label})),
+    collection:{itemId:b.itemId,recordId:b.recordId,ticketId:b.ticketId,entry:p.initial.entry}});
+  const ticketSource={kind:'event',id:ticket.id,sequence:ticket.sequence,details:ticket.details};
+  addObservation(data,ticketSource,b.humanId,'initial',['references','participants','collection','collectionAuthority']);
+  addObservation(data,ticketSource,b.serviceId,'initial',['collectionAuthority']);
+  const accessRule={itemId:b.itemId,recordId:b.recordId,fileId:b.fileId,handlingId:b.handlingId,contactId:b.contactId,
+    scope:'relevant_records',actionType:'inspect_records',references:['itemId','recordId','fileId','handlingId','contactId'].map(key=>subjectRef(p,key))};
+  const file=addEvent(data,'initial_file_read',{accessRule,protectedContact:p.initial.protectedContact});
+  addObservation(data,{kind:'event',id:file.id,sequence:file.sequence,details:file.details},b.serviceId,'initial',['accessRule']);
+  validateDomain(data,p); return createRun({id:runId,packageRef:pkg.ref,data});
+}
+
+/** Projection has no package/world lookup. Vocabulary comes from received references. */
+function playerView(run) {
+  const d=run.data,local=d.observations.filter(o=>o.observerId===d.humanId);
+  const references=new Map(),participants=new Map(); let collection=null,detail=null;
+  for (const o of local) {
+    for (const ref of o.receivedDetails.references || []) references.set(ref.id,copy(ref));
+    for (const actor of o.receivedDetails.participants || []) participants.set(actor.id,copy(actor));
+    if (o.receivedDetails.collection) collection=o.receivedDetails.collection;
+    if (o.receivedDetails.recordDetail) detail=o.receivedDetails.recordDetail;
+  }
+  const heardIds=new Set(local.filter(o=>o.source.kind==='message').map(o=>o.source.id));
+  const messages=d.messages.filter(m=>m.outward.senderId===d.humanId || heardIds.has(m.id)).map(m=>({id:m.id,sequence:m.sequence,senderId:m.outward.senderId,
+    outward:copy(m.outward),ownComposition:m.outward.senderId===d.humanId?copy(m.privateComposition):null}));
+  const permissions=d.permissions.filter(p=>p.granteeId===d.humanId && heardIds.has(p.sourceMessageId)).map(copy);
+  return freeze({actorId:d.humanId,partnerId:d.serviceId,participants:[...participants.values()],references:[...references.values()],
+    item:collection?references.get(collection.itemId):null,record:collection?references.get(collection.recordId):null,entry:collection?.entry??null,
+    inspectedDetail:detail?copy(detail):null,messages,permissions,
+    actionAvailable:permissions.some(p=>p.status==='allowed') && !detail,
+    opportunities:copy(d.opportunities),balanceMinor:d.world.balanceMinor});
+}
+
+function previewForData(data,pkg,draft,commandId,revision) {
+  const message=compileMessage(pkg.communication,playerView({data}),draft,{id:token('message',data.counters.message+1),commandId,sequence:data.sequence+1,
+    contextMessageId:data.messages.filter(m=>m.outward.senderId===data.serviceId).at(-1)?.id ?? null});
+  return freeze({revision,message,text:describeOutward(message.outward)});
+}
+function prepareSend(run,sealed,draft,commandId=token('command',run.revision+1)) {
+  validateRun(run); requireThat(canonicalJson(run.packageRef)===canonicalJson(sealed.ref),'PACKAGE_MISMATCH'); id(commandId,'command');
+  return freeze({schema:'encounter-command@2',id:commandId,sessionId:run.id,packageRef:copy(run.packageRef),expectedRevision:run.revision,kind:'send_message',
+    payload:{draft:copy(draft),preview:previewForData(run.data,sealed.content,draft,commandId,run.revision)}});
+}
+function prepareInspection(run,sealed,commandId=token('command',run.revision+1)) {
+  requireThat(canonicalJson(run.packageRef)===canonicalJson(sealed.ref),'PACKAGE_MISMATCH');
+  const permission=playerView(run).permissions.find(p=>p.status==='allowed'); requireThat(Boolean(permission),'PERMISSION_REQUIRED');
+  return freeze({schema:'encounter-command@2',id:commandId,sessionId:run.id,packageRef:copy(run.packageRef),expectedRevision:run.revision,kind:'perform_action',
+    payload:{request:{commandId,actorId:run.data.humanId,actionType:permission.actionType,targetId:permission.targetId,permissionId:permission.id,expectedRevision:run.revision}}});
+}
+
+function decisionInput(data,pkg,messageId,observationIds=null) {
+  const observations=observationIds?data.observations.filter(o=>observationIds.includes(o.id)):data.observations;
+  return listenerView({actorId:data.serviceId,currentMessageId:messageId,observations,claims:data.claims,profile:profileFor(pkg,data.serviceId)});
+}
+function makeReply(data,command,plan) {
+  const rule=plan.rule;
+  const subjectIds=rule?[...new Set([rule.itemId,rule.recordId,...(plan.selected==='explain_access'?[rule.fileId,rule.handlingId,rule.contactId]:[])])]:copy(command.payload.preview.message.outward.subjectIds);
+  const targetId=rule?.recordId ?? command.payload.preview.message.outward.targetId;
+  const outward={family:'Remark',act:plan.selected,senderId:data.serviceId,recipientIds:[data.humanId],subjectIds,targetId,
+    scope:{subjectId:targetId,kind:'relevant_records'},content:{kind:'assertion',predicate:plan.selected==='acknowledge_report'?'recipient_signature_report':'access_scope',
+      value:plan.selected==='acknowledge_report'?plan.reportedValue:'relevant_records_only',timeScope:'current_visit'},framing:[],prominence:'measured',terms:null};
+  const message={schema:'encounter-message@2',id:nextId(data,'message'),commandId:command.id,sequence:data.sequence+1,
+    contextMessageId:command.payload.preview.message.id,
+    privateComposition:{selectedVibe:'EA',selectedSalience:'NUANCED',authorId:'author_0001',templateId:'template_0020',intendedFraming:'Explain the applicable procedure and bounded next step.'},outward};
+  validateMessage(message); return message;
+}
+function commitMessage(data,pkg,command) {
+  const incoming=copy(command.payload.preview.message); nextId(data,'message');
+  data.messages.push(incoming); addEvent(data,'message_sent',{messageId:incoming.id});
+  const received=routeMessage(data,incoming);
+  if (incoming.outward.content.kind==='assertion') {
+    data.claims.push({id:nextId(data,'claim'),speakerId:incoming.outward.senderId,recipientIds:copy(incoming.outward.recipientIds),messageId:incoming.id,
+      proposition:{subjectId:incoming.outward.targetId,predicate:incoming.outward.content.predicate,value:incoming.outward.content.value,timeScope:incoming.outward.content.timeScope},
+      observationIds:received.map(o=>o.id),roots:[{kind:'message',id:incoming.id}]});
+  }
+  const input=decisionInput(data,pkg,incoming.id),plan=selectResponse(input);
+  const decision={id:nextId(data,'decision'),messageId:incoming.id,actorId:data.serviceId,inputObservationIds:input.observations.map(o=>o.id),
+    candidates:copy(plan.candidates),selected:plan.selected,evidenceObservationIds:copy(plan.evidenceObservationIds)};
+  data.decisions.push(decision);
+  const reply=makeReply(data,command,plan); data.messages.push(reply); const responseEvent=addEvent(data,'response_delivered',{messageId:reply.id,decisionId:decision.id});
+  routeMessage(data,reply);
+  const changes=[];
+  if (plan.selected==='explain_access') {
+    const rule=plan.rule;
+    addObservation(data,{kind:'message',id:reply.id,sequence:reply.sequence,details:{references:rule.references}},data.humanId,'hearing',['references']);
+    if (!data.permissions.some(p=>p.granteeId===data.humanId && p.targetId===rule.handlingId && p.status==='allowed')) {
+      const permission={id:nextId(data,'permission'),granteeId:data.humanId,grantorId:data.serviceId,actionType:rule.actionType,targetId:rule.handlingId,scope:rule.scope,status:'allowed',sourceMessageId:reply.id};
+      data.permissions.push(permission); changes.push({type:'permission_granted',id:permission.id});
+    }
+    changes.push({type:'references_disclosed',ids:rule.references.map(r=>r.id)});
+  }
+  const episode={id:responseEvent.id,commandId:command.id,incomingMessageId:incoming.id,replyMessageId:reply.id,decisionId:decision.id,
+    intake:{description:plan.intakeDescription},delivery:{description:'Opens the relevant edge of the file, keeps the rest covered, and addresses the collector with a composed face.'},changes};
+  data.episodes.push(episode); data.opportunities.used++;
+  return {episodeId:episode.id,messageId:incoming.id,replyMessageId:reply.id,decisionId:decision.id,changes};
+}
+
+function requirePermission(data,request) {
+  const permission=data.permissions.find(p=>p.id===request.permissionId);
+  requireThat(Boolean(permission) && permission.status==='allowed' && permission.granteeId===request.actorId && permission.actionType===request.actionType &&
+    permission.targetId===request.targetId && permission.scope==='relevant_records' && request.actorId===data.humanId,'INVALID_COMMAND');
+  requireThat(!data.actionResults.some(r=>r.request.commandId!==request.commandId && r.request.targetId===request.targetId),'INVALID_COMMAND');
+}
+/** Local physical resolver determines an outcome but never changes its input. */
+function resolveInspection(data,request) {
+  requirePermission(data,request);
+  return freeze({id:token('result',data.counters.result+1),request:copy(request),outcome:'performed',effects:[],observerDetails:[
+    {observerId:data.humanId,details:{conduct:'Inspects the permitted handling extract.',recordDetail:{subjectId:data.world.document.recordId,predicate:'recipient_signature',value:data.world.document.signature}}},
+    {observerId:data.serviceId,details:{conduct:'Sees the collector inspect the permitted extract; cannot read the small print from here.'}}
+  ]});
+}
+/** R2 matched-result helper is the sole application route for receiving details. */
+function stageInspectionResult(data,request,result) {
+  requireThat(result.effects.length===0,'INVALID_COMMAND');
+  const staged=stageMatchedResult(data,request,result,[],(next,_,recipients)=>{
+    requireThat(result.id===token('result',next.counters.result+1),'INVALID_COMMAND'); next.counters.result++;
+    requireThat(recipients.length===2 && recipients.some(r=>r.observerId===next.humanId) && recipients.some(r=>r.observerId===next.serviceId),'INVALID_COMMAND');
+    const event=addEvent(next,'inspection_performed',{resultId:result.id,request:copy(request)});
+    for (const recipient of recipients) {
+      if (recipient.observerId===next.humanId) fields(recipient.details,['conduct','recordDetail']); else fields(recipient.details,['conduct']);
+      addObservation(next,{kind:'action_result',id:result.id,sequence:event.sequence,details:recipient.details},recipient.observerId,
+        recipient.observerId===next.humanId?'reading':'sight',Object.keys(recipient.details));
+    }
+    return true;
+  });
+  return staged;
+}
+function commitInspection(data,command) {
+  const request=command.payload.request,result=resolveInspection(data,request);
+  const staged=stageInspectionResult(data,request,result); Object.assign(data,staged.data); data.opportunities.used++;
+  return {resultId:result.id,changes:[{type:'inspection_performed',resultId:result.id},{type:'detail_disclosed',to:data.humanId},{type:'conduct_observed',to:data.serviceId}]};
+}
+
+function dispatch(run,sealed,command) {
+  requireThat(canonicalJson(run.packageRef)===canonicalJson(sealed.ref),'PACKAGE_MISMATCH');
+  const pkg=sealed.content;
+  return executeCommand(run,command,{
+    validateNew:(data,cmd)=>{
+      validateDomain(data,pkg);
+      if (cmd.kind==='send_message') {
+        fields(cmd.payload,['draft','preview']);
+        const expected=previewForData(data,pkg,cmd.payload.draft,cmd.id,cmd.expectedRevision);
+        requireThat(canonicalJson(expected)===canonicalJson(cmd.payload.preview),'INVALID_COMMAND');
+        requireThat(!data.messages.some(m=>m.id===expected.message.id),'INVALID_COMMAND');
+      } else {
+        fields(cmd.payload,['request']);
+        const r=cmd.payload.request; fields(r,['commandId','actorId','actionType','targetId','permissionId','expectedRevision']);
+        requireThat(r.commandId===cmd.id && r.expectedRevision===cmd.expectedRevision,'INVALID_COMMAND'); requirePermission(data,r);
+      }
+      return true;
+    },
+    resolve:(data,cmd)=>cmd.kind==='send_message'?commitMessage(data,pkg,cmd):commitInspection(data,cmd),
+    validateStaged:(data)=>validateDomain(data,pkg)
+  });
+}
+
+function validateDomain(data,pkg) {
+  canonicalJson(data);
+  fields(data,['schema','humanId','serviceId','sequence','world','counters','events','messages','observations','claims','permissions','actionResults','decisions','episodes','opportunities']);
+  requireThat(data.schema==='encounter-domain@2' && data.humanId===pkg.bindings.humanId && data.serviceId===pkg.bindings.serviceId); integer(data.sequence);
+  fields(data.world,['itemId','ownerId','holderId','quantity','balanceMinor','document']);
+  requireThat(data.world.itemId===pkg.bindings.itemId && data.world.ownerId===pkg.bindings.ownerId && data.world.holderId===pkg.bindings.holderId && data.world.quantity===1);
+  requireThat(data.world.balanceMinor===pkg.initial.balanceMinor); fields(data.world.document,['recordId','handlingId','entry','signature','contactId','protectedContact']);
+  requireThat(data.world.document.recordId===pkg.bindings.recordId && data.world.document.handlingId===pkg.bindings.handlingId && data.world.document.contactId===pkg.bindings.contactId);
+  requireThat(data.world.document.entry===pkg.initial.entry && ['filled','unfilled'].includes(data.world.document.signature));
+  fields(data.counters,['event','message','result','observation','claim','permission','decision']); Object.values(data.counters).forEach(integer);
+  for (const [key,type] of [['events','event'],['messages','message'],['observations','observation'],['claims','claim'],['permissions','permission'],['actionResults','result'],['decisions','decision']]) {
+    requireThat(Array.isArray(data[key])); ids(data[key].map(x=>x.id),type); requireThat(data.counters[type]===data[key].length);
+  }
+  data.messages.forEach(validateMessage); data.observations.forEach(validateObservation); data.claims.forEach(validateClaim); data.permissions.forEach(validatePermission);
+  const actors=new Set(pkg.actors.map(a=>a.id));
+  const sourceExists=s=>({event:data.events,message:data.messages,action_result:data.actionResults}[s.kind] || []).some(x=>x.id===s.id);
+  for (const o of data.observations) { requireThat(actors.has(o.observerId) && sourceExists(o.source)); o.roots.forEach(s=>requireThat(sourceExists(s))); }
+  for (const m of data.messages) requireThat(actors.has(m.outward.senderId) && m.outward.recipientIds.every(x=>actors.has(x)) && (m.contextMessageId===null || data.messages.some(x=>x.id===m.contextMessageId)));
+  for (const p of data.permissions) requireThat(data.messages.some(m=>m.id===p.sourceMessageId && m.outward.act==='explain_access') && p.targetId===pkg.bindings.handlingId && p.scope==='relevant_records');
+  for (const c of data.claims) requireThat(data.messages.some(m=>m.id===c.messageId) && c.observationIds.every(x=>data.observations.some(o=>o.id===x)));
+  for (const r of data.actionResults) requireThat(r.request.actorId===data.humanId && r.request.targetId===pkg.bindings.handlingId && r.effects.length===0);
+  requireThat(data.events.every((e,index)=>e.sequence===index+1) && data.sequence===data.events.length);
+  fields(data.opportunities,['used','allowance','noPressure']); integer(data.opportunities.used); requireThat(data.opportunities.allowance===pkg.initial.softAllowance && typeof data.opportunities.noPressure==='boolean');
+  requireThat(data.opportunities.used===data.episodes.length+data.actionResults.length);
+  requireThat(data.decisions.length===data.episodes.length && data.messages.length===data.episodes.length*2);
+  for (const e of data.episodes) requireThat(data.decisions.some(d=>d.id===e.decisionId) && data.messages.some(m=>m.id===e.incomingMessageId) && data.messages.some(m=>m.id===e.replyMessageId));
+  return true;
+}
+
+function renderEpisode(run,episodeId) {
+  const episode=run.data.episodes.find(e=>e.id===episodeId); requireThat(Boolean(episode));
+  const reply=run.data.messages.find(m=>m.id===episode.replyMessageId);
+  return freeze({episodeId,intake:copy(episode.intake),delivery:{description:episode.delivery.description,text:describeOutward(reply.outward)},control:'player'});
+}
+function inspectRun(run,sealed) {
+  return authorInspector({sessionId:run.id,revision:run.revision,packageRef:run.packageRef,
+    initialOccurrences:run.data.events.filter(e=>e.type.startsWith('initial_')).map(e=>({id:e.id,type:e.type,sequence:e.sequence})),
+    canonicalMessages:run.data.messages,permissions:run.data.permissions,actionResults:run.data.actionResults,observations:run.data.observations,claims:run.data.claims,
+    decisions:run.data.decisions.map(d=>({...copy(d),actualListenerInput:decisionInput(run.data,sealed.content,d.messageId,d.inputObservationIds)})),
+    episodes:run.data.episodes,commits:run.journal.map(j=>({commandId:j.command.id,revision:j.receipt.committedRevision,changes:j.receipt.result.changes})),
+    materialState:{ownerId:run.data.world.ownerId,holderId:run.data.world.holderId,quantity:run.data.world.quantity,balanceMinor:run.data.world.balanceMinor},
+    withheld:[{subjectId:sealed.content.bindings.contactId,detail:'Protected contact value',receivedByPlayer:false,reason:'No supported disclosure grants this value.'}],
+    hypotheses:[],beliefs:[],note:'The clerk acknowledges a heard report without asserting firsthand reading or a private player motive.'});
+}
+function exportRun(run,sealed) { validateRun(run); validateDomain(run.data,sealed.content); return copy({schema:'encounter-save@2',package:sealed,run}); }
+async function importRun(input,expectedPackage) {
+  canonicalJson(input); fields(input,['schema','package','run']); requireThat(input.schema==='encounter-save@2','UNSUPPORTED_SAVE');
+  const pkg=await verifyPackage(input.package); requireThat(canonicalJson(pkg.ref)===canonicalJson(expectedPackage.ref),'PACKAGE_MISMATCH');
+  validateRun(input.run); requireThat(canonicalJson(input.run.packageRef)===canonicalJson(pkg.ref),'PACKAGE_MISMATCH'); validateDomain(input.run.data,pkg.content);
+  let replay=await startEncounter(pkg,{runId:input.run.id,noPressure:input.run.data.opportunities.noPressure});
+  for (const entry of input.run.journal) { const result=dispatch(replay,pkg,entry.command); requireThat(result.status==='committed','INVALID_SAVE'); replay=result.run; }
+  requireThat(canonicalJson(replay)===canonicalJson(input.run),'INVALID_SAVE'); return replay;
+}
+
+return {startEncounter,playerView,prepareSend,prepareInspection,decisionInput,resolveInspection,stageInspectionResult,dispatch,validateDomain,renderEpisode,inspectRun,exportRun,importRun};
+})();
+__modules["src/ui.mjs"] = (()=>{
+const { fixture } = __modules["content/last-collection.mjs"];
+const { BASED_CATALOG, copy } = __modules["src/contracts.mjs"];
+const { startEncounter, prepareSend, prepareInspection, dispatch, playerView, renderEpisode, inspectRun, exportRun, importRun } = __modules["src/encounter.mjs"];
+const { describeOutward } = __modules["src/compiler.mjs"];
+
+const $=id=>document.getElementById(id);
+const esc=value=>String(value).replace(/[&<>"']/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
+let run=null,draft={act:'request_access',vibe:'EA',salience:'NUANCED'},pending=null,lastCommand=null,episodeId=null,phase='ready',downloadUrl=null;
+const newCommandId=()=>`command_${crypto.randomUUID().replaceAll('-','')}`;
+const nameOf=(view,id)=>view.participants.find(x=>x.id===id)?.label || 'Participant';
+function notice(text,error=false) {$('notice').textContent=text; $('notice').hidden=!text; $('notice').classList.toggle('error',error);}
+function preview() {
+  try {pending=prepareSend(run,fixture,draft,newCommandId()); $('preview').textContent=pending.payload.preview.text; $('send').disabled=phase!=='ready';}
+  catch(error){pending=null; $('preview').textContent=error.code==='INSPECTION_REQUIRED'?'Inspect a permitted record before using its detail.':'This expression is unavailable in the current context.'; $('send').disabled=true;}
+}
+function render() {
+  const view=playerView(run),busy=phase!=='ready';
+  $('brief').textContent=`You are authorized to collect ${view.item.label}. Your ticket has been checked. The entry reads “${view.entry}”.`;
+  $('balance').textContent=`${(view.balanceMinor/fixture.content.initial.minorUnitsPerCoin).toFixed(0)} coins`;
+  $('partner').textContent=nameOf(view,view.partnerId);
+  $('family-request').setAttribute('aria-pressed',String(draft.act==='request_access')); $('family-remark').setAttribute('aria-pressed',String(draft.act==='challenge_record'));
+  $('family-request').disabled=busy; $('family-remark').disabled=busy;
+  $('act').innerHTML=`<option value="request_access">Request case paperwork</option><option value="challenge_record" ${view.inspectedDetail?'':'disabled'}>${view.inspectedDetail?'Report the inspected signature detail':'Remark about an inspected detail — inspect first'}</option>`;
+  $('act').value=draft.act; $('act').disabled=busy; $('vibe').disabled=busy; $('salience').disabled=busy;
+  $('act-help').textContent=draft.act==='request_access'?'Ask for the relevant collection record.':'Use the specific detail you actually inspected.';
+  $('references').innerHTML=view.references.map(x=>`<span class="chip">${esc(x.label)}</span>`).join('');
+  $('learned').innerHTML=view.inspectedDetail?`<p><strong>Inspected detail</strong><br>Recipient signature: ${esc(view.inspectedDetail.value)}.</p>`:'';
+  $('permission').textContent=view.permissions.length?'Permission: inspect the handling extract only. The rest of the file stays covered.':'No inspection permission has been offered yet.';
+  $('inspect').hidden=!view.actionAvailable; $('inspect').disabled=busy;
+  $('reminder').textContent=!view.opportunities.noPressure && view.opportunities.used>=view.opportunities.allowance?'Closing-time reminder: time is passing. Collection service remains available.':'';
+  $('revision').textContent=`Revision ${run.revision} · ${view.opportunities.used} actions`;
+  const entries=[];
+  for(const message of view.messages) entries.push({sequence:message.sequence,html:`<article class="history-entry"><p class="label">${esc(nameOf(view,message.senderId))} · ${esc(message.outward.family)}${message.ownComposition?' · '+esc(BASED_CATALOG[message.ownComposition.selectedVibe]):''}</p><p>${esc(describeOutward(message.outward))}</p></article>`});
+  for(const o of run.data.observations.filter(o=>o.observerId===view.actorId && o.source.kind==='action_result')) entries.push({sequence:o.sequence,html:`<article class="history-entry action"><p class="label">Physical action · inspection</p><p>${esc(o.receivedDetails.conduct)}\nRecipient signature: ${esc(o.receivedDetails.recordDetail.value)}.</p></article>`});
+  $('history').innerHTML=entries.length?entries.sort((a,b)=>a.sequence-b.sequence).map(x=>x.html).join(''):'<p class="empty">Review your request, then send it. Permission and inspection are separate steps.</p>';
+  $('progress').textContent=view.inspectedDetail && run.data.claims.length?'Paperwork interaction complete · next verification step identified':view.inspectedDetail?'Detail inspected · choose Remark to report it':view.permissions.length?'Limited inspection offered · choose when to perform it':'Request → deliberate inspection → report';
+  renderPerformance(); preview(); if(!$('inspector').hidden) refreshInspector();
+}
+function renderPerformance() {
+  const latest=episodeId?renderEpisode(run,episodeId):null;
+  $('phase').textContent=phase==='intake'?'Intake':phase==='delivery'?'Delivery':'Your move';
+  $('pose').textContent=!latest?'The duty clerk waits at the counter, with the record beside the checked ticket.':phase==='intake'?latest.intake.description:latest.delivery.description;
+  $('delivery').textContent=latest && phase!=='intake'?latest.delivery.text:'';
+  $('advance').hidden=phase==='ready'; $('skip').hidden=phase==='ready'; $('advance').textContent=phase==='intake'?'Continue to Delivery':'Return to composer'; $('replay').disabled=!episodeId || phase!=='ready';
+}
+function submit(command) {
+  const result=dispatch(run,fixture,command);
+  if(result.status==='rejected'){notice(`The command was not committed (${result.code}). Review the current preview.`,true);render();return;}
+  run=result.run; lastCommand=command;
+  if(result.receipt.result.episodeId){episodeId=result.receipt.result.episodeId;phase='intake';notice('Message sent. The clerk received its outward communication.');}
+  else {phase='ready';notice('Inspection performed. Your notebook now contains only the permitted detail.');}
+  render();
+}
+function refreshInspector() {
+  const trace=inspectRun(run,fixture);
+  $('trace-summary').textContent=`${run.data.messages.length} messages · ${run.data.permissions.length} permissions · ${run.data.actionResults.length} performed inspections · ${run.data.decisions.length} recorded decisions. Protected contact value withheld.`;
+  $('trace').textContent=JSON.stringify(trace,null,2);
+}
+function showJson(title,help,value,filename,importing=false) {
+  $('file-title').textContent=title; $('file-help').textContent=help; $('file-json').value=importing?'':JSON.stringify(value,null,2); $('file-json').readOnly=!importing; $('file-error').textContent='';
+  $('load-json').hidden=!importing; $('download-json').hidden=importing;
+  if(downloadUrl)URL.revokeObjectURL(downloadUrl);
+  if(!importing){downloadUrl=URL.createObjectURL(new Blob([JSON.stringify(value,null,2)+'\n'],{type:'application/json'})); $('download-json').href=downloadUrl; $('download-json').download=filename;}
+  $('file-dialog').showModal();
+}
+$('family-request').addEventListener('click',()=>{draft.act='request_access';render();});
+$('family-remark').addEventListener('click',()=>{draft.act='challenge_record';render();});
+$('act').addEventListener('change',e=>{draft.act=e.target.value;render();});
+$('vibe').addEventListener('change',e=>{draft.vibe=e.target.value;preview();});
+$('salience').addEventListener('change',e=>{draft.salience=e.target.value;preview();});
+$('send').addEventListener('click',()=>{if(pending)submit(pending);});
+$('inspect').addEventListener('click',()=>{try{submit(prepareInspection(run,fixture,newCommandId()));}catch{notice('A current inspection permission is required.',true);}});
+$('advance').addEventListener('click',()=>{phase=phase==='intake'?'delivery':'ready';render();});
+$('skip').addEventListener('click',()=>{phase='ready';render();});
+$('replay').addEventListener('click',()=>{phase='intake';render();});
+$('inspector-toggle').addEventListener('click',()=>{$('inspector').hidden=!$('inspector').hidden; $('inspector-toggle').setAttribute('aria-expanded',String(!$('inspector').hidden)); if(!$('inspector').hidden){refreshInspector();$('inspector').scrollIntoView({behavior:'smooth'});}});
+$('refresh-inspector').addEventListener('click',refreshInspector);
+$('save').addEventListener('click',()=>showJson('Save run','Download this JSON file, or copy the complete text as a backup. Saving never commits another action.',exportRun(run,fixture),'Encounter_M2_Run.json'));
+$('open').addEventListener('click',()=>showJson('Open run','Paste a complete M2 run JSON export. Only a matching, validated package and command history can replace this run. Old saves remain untouched.',null,'',true));
+$('load-json').addEventListener('click',async()=>{try{const restored=await importRun(JSON.parse($('file-json').value),fixture);run=restored;episodeId=run.data.episodes.at(-1)?.id??null;phase='ready';$('file-dialog').close();notice('Run restored without replaying effects or confirming an action.');render();}catch{$('file-error').textContent='This is not a compatible, validated M2 save. The current run and legacy files are unchanged.';}});
+$('export-trace').addEventListener('click',()=>showJson('Author inspector trace','Read-only trace of this exact run. Private player composition appears only in this author view.',inspectRun(run,fixture),'Encounter_M2_Inspector_Trace.json'));
+$('export-package').addEventListener('click',()=>showJson('Author package','Authored configuration is separate from a running session. This author export includes fixture secrets; it does not disclose them to any actor.',fixture,'Encounter_M2_Package.json'));
+$('close-file').addEventListener('click',()=>$('file-dialog').close());
+$('restart').addEventListener('click',async()=>{run=await startEncounter(fixture);draft={act:'request_access',vibe:'EA',salience:'NUANCED'};episodeId=null;lastCommand=null;phase='ready';$('vibe').value='EA';$('salience').value='NUANCED';notice('New run started from the authored package. Use Save run to keep a backup.');render();});
+
+async function main(){
+  $('vibe').innerHTML=fixture.content.communication.expressions.map(e=>`<option value="${e.vibe}">${esc(BASED_CATALOG[e.vibe])}</option>`).join('');
+  run=await startEncounter(fixture);render();
+}
+main().catch(()=>notice('The package could not be verified. Rebuild from the supplied source or open the verified offline build.',true));
+
+return {};
+})();
+})();</script></body></html>

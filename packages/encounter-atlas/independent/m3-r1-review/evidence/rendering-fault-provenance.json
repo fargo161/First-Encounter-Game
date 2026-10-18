@@ -1,0 +1,62 @@
+{
+  "normal": {
+    "sourceBuildSha256": "11393dde2ae110d3b04aac03c1044e000be6b410e4bffacb16216829c9050052",
+    "servedSha256": "11393dde2ae110d3b04aac03c1044e000be6b410e4bffacb16216829c9050052",
+    "cssInjection": "",
+    "executableBytesUnchanged": true
+  },
+  "before": {
+    "sourceBuildSha256": "4fa1f60a1ec6a561375bdc38799693943b0910886d2f7ea838099d9303469e58",
+    "servedSha256": "e5333f8643615e6020b72c9ddf6115cde6950477039a9a3cbc05080818df92a2",
+    "cssInjection": "#closure-notice{opacity:0!important}",
+    "executableBytesUnchanged": true
+  },
+  "opacity": {
+    "sourceBuildSha256": "11393dde2ae110d3b04aac03c1044e000be6b410e4bffacb16216829c9050052",
+    "servedSha256": "2db0314bd9c936a53b8eb181dc8c33c03c3175060b23caf3ff243aea0af4b3fa",
+    "cssInjection": "#closure-notice{opacity:0!important}",
+    "executableBytesUnchanged": true
+  },
+  "ancestor": {
+    "sourceBuildSha256": "11393dde2ae110d3b04aac03c1044e000be6b410e4bffacb16216829c9050052",
+    "servedSha256": "7e7098105106bb678ffd0accbff62ae739c9d23368d35f4028861225e2f5246d",
+    "cssInjection": ".preview{opacity:0!important}",
+    "executableBytesUnchanged": true
+  },
+  "vertical": {
+    "sourceBuildSha256": "11393dde2ae110d3b04aac03c1044e000be6b410e4bffacb16216829c9050052",
+    "servedSha256": "d9b5ebb76ea6cad8d3528027a73d1b701b5948be250032c33e50dc1c19f9b579",
+    "cssInjection": "#closure-notice{position:fixed!important;top:-1000px!important}",
+    "executableBytesUnchanged": true
+  },
+  "horizontal": {
+    "sourceBuildSha256": "11393dde2ae110d3b04aac03c1044e000be6b410e4bffacb16216829c9050052",
+    "servedSha256": "980f6ea2d932454d32a7338d7bb6e9ff0473f0a392f65e7c61d3b920c1a1309b",
+    "cssInjection": "#closure-notice{position:fixed!important;left:-10000px!important;top:100px!important;width:300px!important}",
+    "executableBytesUnchanged": true
+  },
+  "hidden": {
+    "sourceBuildSha256": "11393dde2ae110d3b04aac03c1044e000be6b410e4bffacb16216829c9050052",
+    "servedSha256": "dd699cbd3ad6947e9f9b331f6b593c88dc2b90edab3d61d88205fd1af095dd26",
+    "cssInjection": "#closure-notice{visibility:hidden!important}",
+    "executableBytesUnchanged": true
+  },
+  "display-none": {
+    "sourceBuildSha256": "11393dde2ae110d3b04aac03c1044e000be6b410e4bffacb16216829c9050052",
+    "servedSha256": "95c0adf9d096096af97bcb192df3c6ceb0fedebcf2447dcc61b6f6667e2862b1",
+    "cssInjection": "#closure-notice{display:none!important}",
+    "executableBytesUnchanged": true
+  },
+  "zero-height": {
+    "sourceBuildSha256": "11393dde2ae110d3b04aac03c1044e000be6b410e4bffacb16216829c9050052",
+    "servedSha256": "6b19c84c78470acfb4dcb1fd6f53a3eda193776170dba055a6e9ba2084eb619b",
+    "cssInjection": "#closure-notice{height:0!important;max-height:0!important;padding:0!important;border:0!important;overflow:hidden!important}",
+    "executableBytesUnchanged": true
+  },
+  "zero-width": {
+    "sourceBuildSha256": "11393dde2ae110d3b04aac03c1044e000be6b410e4bffacb16216829c9050052",
+    "servedSha256": "c1e2861c860ca70b9e4a7e345ca73947de3e849e000e70f556de37b3781077ec",
+    "cssInjection": "#closure-notice{position:fixed!important;top:100px!important;left:100px!important;width:0!important;min-width:0!important;max-width:0!important;height:100px!important;padding:0!important;border:0!important;overflow:hidden!important;box-sizing:border-box!important}",
+    "executableBytesUnchanged": true
+  }
+}

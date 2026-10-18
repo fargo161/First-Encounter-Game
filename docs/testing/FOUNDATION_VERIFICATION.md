@@ -1,24 +1,7 @@
-# Foundation verification
+# Historical Stage 0-3 foundation verification
 
-From the repository root, run:
+The unchanged tools/verify_foundation.py certifies the 33-file pre-import foundation at commit 37d8b4a371d99f3e3cf2f4ebf769f9ca3c3ac340. Its exact inventory and pre-import assertions are intentionally not applicable to the current Stage 4 checkout. Do not run it here expecting a current-tree pass.
 
-    python -B tools/verify_foundation.py --require-git
+For the current Stage 4 file-integrity check use STAGE_4_INTEGRITY.md. This does not execute Stage 5.
 
-To recheck all preserved files and unchanged originals as well, run:
-
-    python -B tools/verify_foundation.py --require-git --verify-originals --archive-root "C:\Users\mcdon\Documents\ChatGPT\First Encounter Game Archive\pre-migration-2026-10-18-stages-0-3"
-
-The full check is read-only and hashes 6722 archive files plus their originals. The foundation inventory excludes itself to avoid a self-referential hash.
-
-Independent Git checks:
-
-    git status --short
-    git branch --show-current
-    git rev-list --count HEAD
-    git rev-list --max-parents=0 HEAD
-    git cat-file -p HEAD
-    git ls-remote origin refs/heads/main
-
-The initial foundation has a single root commit with no parent, on main. Confirm the private repository metadata and compare the remote branch SHA with local HEAD. The external FOUNDATION_COMPLETION_REPORT.json records the observed completion evidence.
-
-No subsystem functional/build suite was rerun. Prior independent reports and known failures remain explicitly distinguished from fresh preservation checks. Source-dependent CI is intentionally absent.
+The private pre-migration archive retains foundation-final-verification.json, github-foundation-verification.json and FOUNDATION_COMPLETION_REPORT.json from the completed Stage 0-3 work. The original foundation-file-inventory.json remains unchanged as historical evidence.

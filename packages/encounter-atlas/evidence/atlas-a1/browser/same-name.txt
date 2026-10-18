@@ -1,0 +1,53 @@
+PERSON INSPECTION
+
+Shared name
+
+Modeled character
+
+READ-ONLY
+Identity
+
+Information received in this run
+
+This name is shared. Selected identity: actor_0004
+
+Encounter details
+Received information
+7 records
+
+The same information may be received more than once. Repeated entries do not mean independent sources.
+
+Recorded interpretation
+
+It may have been an exception. I did not see the damp seam, final cupboard, or purpose; that interpretation is not a witnessed fact.
+
+Source How this information arrived
+Direct evidence
+
+A wrapped green case moved toward the partition; its exact identity was not established by that sighting
+
+Starting information
+
+Source How this information arrived
+Other received context and communications 5 records
+Reports and evidence shared
+1 record
+
+The same information may be received more than once. Repeated entries do not mean independent sources.
+
+Report shared
+
+Reported to Shared name (identity actor_0001): A wrapped green case moved toward the partition; its exact identity was not established by that sighting
+
+This is the evidence communicated, not proof that a recipient believed it.
+
+Source How this information arrived
+Beliefs
+1 record
+Believes
+
+Shared name believes: A wrapped green case moved toward the partition; its exact identity was not established by that sighting
+
+An NPC conclusion from received evidence; not an assertion of objective world truth. Earlier location evidence is separate from current holding.
+
+Source How this information arrived

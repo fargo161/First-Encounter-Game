@@ -1,0 +1,13 @@
+{
+  "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\atlas-a1-inherited-gates\\encounter-ar0-regression-o3ki_78j",
+  "executable": "C:\\Users\\mcdon\\AppData\\Local\\Programs\\Python\\Python312\\python.EXE",
+  "args": [
+    "scripts/preserve-m3-r3.py"
+  ],
+  "environmentBinding": {
+    "M3_CHECKPOINT": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\atlas-a1-inherited-gates\\encounter-ar0-regression-o3ki_78j"
+  },
+  "exitCode": 0,
+  "stdout": "{\"result\": \"PASS\", \"verifiedR2BaselineSHA256\": \"c3c866834b64aebc573b42e2839e173bed486cdc8125a0287ddcd952f43a1a10\", \"R2IdentitySHA256\": \"4172728753ef8cc04c693ee1f7d9533015f3d073fc72c8136fd05c34eac9e844\", \"baselineMembersCompared\": 1152, \"onlyProductionChange\": \"src/m3/ui.mjs: computed visibility must equal visible\", \"exactOnePredicateProductionDiffEnforced\": true, \"allOtherProductionContentAndInheritedTestBytesUnchanged\": true}\n",
+  "stderr": ""
+}

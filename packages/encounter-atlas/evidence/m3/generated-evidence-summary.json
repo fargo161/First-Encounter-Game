@@ -1,0 +1,640 @@
+{
+  "source": {
+    "sourceRevision": "M3-runtime-v1-R2-D02",
+    "sourceDigest": "7bbf91958abfb963830f412136baab95601da19cebc6673bf6d72207d18766d0",
+    "files": [
+      {
+        "path": "content/last-collection.json",
+        "sha256": "91d94786392e148e34ac18d27c6e9a1fb8d76a7abbd2c4ffd6fbb4d12dc8ef34"
+      },
+      {
+        "path": "content/last-collection.mjs",
+        "sha256": "19388e27fe5a770354cd8279b684d659e5952d8e150bbaf8fa9f0d4bb72496e8"
+      },
+      {
+        "path": "content/m3/seed.json",
+        "sha256": "c67252d1927abf7f81d834693100e55a9d0356d8266ed8bc7f073f048858030b"
+      },
+      {
+        "path": "content/m3/seed.mjs",
+        "sha256": "b4fd57ab97b52d22359da7b3cc8e107014c1cc934bd76b891316d0c7109d7ffc"
+      },
+      {
+        "path": "independent/M1_Independent_Contract_Tests.test.mjs",
+        "sha256": "c591b4366097e77da7d21b4ddb861161a6ee3e71e9bc2af15acf5f1393ba4651"
+      },
+      {
+        "path": "independent/M2_Independent_Contract_Tests.test.mjs",
+        "sha256": "858171387e7edbcfe105a39cfe3d1a6f1dd58bf505a5dc65dbbd83df24ccc0de"
+      },
+      {
+        "path": "package.json",
+        "sha256": "1b2e57f98324a67ce4910db2c6761f13f5cc5a9725c9b148d4ead3c03a9e7b17"
+      },
+      {
+        "path": "scripts/audit-baseline.cjs",
+        "sha256": "de46809ac6b84a7d25c5af45bd7932fb9bf54f9c776e172950612e80975eede9"
+      },
+      {
+        "path": "scripts/build-m3.mjs",
+        "sha256": "e30e11f04f32dc3af76b541466d67ed733a74561d629f4ca39924f8da77242b0"
+      },
+      {
+        "path": "scripts/build.mjs",
+        "sha256": "3e490cd88fcdf50193f9806c0d4281f7459eec7daf76ea8e5c24b41f3587f80e"
+      },
+      {
+        "path": "scripts/check-m3-r1.py",
+        "sha256": "f564611a470280694ece380e883572610e26a27ae3821d86f78a5e8ec0f4b644"
+      },
+      {
+        "path": "scripts/check-m3-r2.py",
+        "sha256": "df3b446b4a5f389faeb99923c6b58423f2120c0c5be165c9e55d90c597ffb08f"
+      },
+      {
+        "path": "scripts/check-m3.py",
+        "sha256": "9ee0753bb1282b7c85edc96f341cb2142567d200b3aa05792d48f7fe32a081dd"
+      },
+      {
+        "path": "scripts/export-m3-r1.py",
+        "sha256": "4ec882853ceb758225ebcf4c566cfc14f36505cca64ffbb75c202575cc248812"
+      },
+      {
+        "path": "scripts/export-m3-r2.py",
+        "sha256": "b22217c62a5446ff79ce3cabafd5b44251a689414b7147d85b10dfac73581227"
+      },
+      {
+        "path": "scripts/export-m3.py",
+        "sha256": "710c0e5989f26f99f47f99a2736d7198738a5d8ad63afeea0782ab63739d93cf"
+      },
+      {
+        "path": "scripts/generate-evidence.mjs",
+        "sha256": "ffe56027af1ba1bf42b7848708f159ad64948940e6d8951a0b410b78dc4c67a8"
+      },
+      {
+        "path": "scripts/generate-m3-d01-evidence.mjs",
+        "sha256": "206472e7969824feedbad125f45eccf56abe8a81694ad07a327a0641fab75004"
+      },
+      {
+        "path": "scripts/generate-m3-d02-evidence.mjs",
+        "sha256": "dc2b8d743df4edf13fcbbb489022411b079296fac6e595982c08a4e8a9aaabfd"
+      },
+      {
+        "path": "scripts/generate-m3-evidence.mjs",
+        "sha256": "028358b14291b7fbecda5b5afe037bb143aa2b251a2d931b9fdfe32d8d5f4cde"
+      },
+      {
+        "path": "scripts/preserve-m3-r1.py",
+        "sha256": "a366a265e85380b247f82eaebb1d965fde9499c9c7a7466a1dba91edb1550616"
+      },
+      {
+        "path": "scripts/preserve-m3-r2.py",
+        "sha256": "6dc8d622dc9989dcdc28bb20495e86496a2f7149111b082f9bca32e2d752fe7f"
+      },
+      {
+        "path": "scripts/preserve-m3.py",
+        "sha256": "4a0a8fb34ad74405b6b54639856e752d9d6fe4ea29242d0b48a3b3d4dbf6770a"
+      },
+      {
+        "path": "scripts/run-independent-m3-d02.mjs",
+        "sha256": "09cddb052f3aca2b44fc226272930b0258088549853262ca31207ceb4e9d779c"
+      },
+      {
+        "path": "scripts/run-independent-m3-r1.mjs",
+        "sha256": "afc7b090175c360df4f195308cbcde31d958ca9e90cb81614874348fcfe14b03"
+      },
+      {
+        "path": "scripts/serve-m3-d01.py",
+        "sha256": "6dee17c5ec0042b92098278fd34865102fa242ac16d4baa0bba18ad5350e000d"
+      },
+      {
+        "path": "scripts/serve-m3-d02.py",
+        "sha256": "9a2e79dbde84c0f71a0f82c55f3f515da03dc38caed45147cf122763973293bd"
+      },
+      {
+        "path": "scripts/serve-m3.py",
+        "sha256": "82dee966381fd9a9cac09ac851c3af874f2b5742a67f4416da4b218915a7a9ff"
+      },
+      {
+        "path": "scripts/serve.py",
+        "sha256": "74c658fcf772c756ca071dfec03ca221e02e672a9eabd3b29a76b0d83abac825"
+      },
+      {
+        "path": "scripts/snapshot.py",
+        "sha256": "1e4482165a7c0fe1bc5e2390a1d53ece04a03191a9384a5369990ce55afdfd74"
+      },
+      {
+        "path": "scripts/source-identity-m3.py",
+        "sha256": "95b9280488eab7ce4d8f0e0871feb53f200d90e1558aa92ae01c1327f85bba6c"
+      },
+      {
+        "path": "scripts/source-identity.py",
+        "sha256": "a180ba9ac5a82b3ecd00bf58f5d9dfa6de7ad55cf5fa369a93f01ca769364224"
+      },
+      {
+        "path": "scripts/verify-checkpoint.py",
+        "sha256": "9c4d0defcdae566646556046500564a868f984de68c44bbd01f860a1b705d35d"
+      },
+      {
+        "path": "src/action-boundary.mjs",
+        "sha256": "9e8b88efd9dd303fc2b0c5ac7f12a164a84a70c340cb7efe5e19c0727082f641"
+      },
+      {
+        "path": "src/compiler.mjs",
+        "sha256": "a6ad8e50e96b735642e1bf3092d1547ca8f8b5ba3e6ab45bf9fda0a0c80c20ed"
+      },
+      {
+        "path": "src/contracts.mjs",
+        "sha256": "db7de91d1e53c687b4f0469238d51a9c95e8944ecbfb1388c975536aa4c96b78"
+      },
+      {
+        "path": "src/encounter.mjs",
+        "sha256": "5fbccbd537ba0bab84b9dcabaa71970aa4e629ee0421ab81cb8ca33425737617"
+      },
+      {
+        "path": "src/m3/engine.mjs",
+        "sha256": "69e109f29bec9b74faec18f48d55c77f613059b585b34e98b493355e6cb0f64a"
+      },
+      {
+        "path": "src/m3/knowledge.mjs",
+        "sha256": "f0067c5bcbfc253fa4a9c4c5e46902cefe4ba876b611451436b34e66f09b1112"
+      },
+      {
+        "path": "src/m3/meaning.mjs",
+        "sha256": "46ba76d03b99dc12a133d7e8e060aabb5eadbbdf79147967e28793805b8b23c0"
+      },
+      {
+        "path": "src/m3/policy.mjs",
+        "sha256": "1b5cd14a9c10c591df2660a66daca5f3beed7c848e6fb5fdeac243fdc68c4a3d"
+      },
+      {
+        "path": "src/m3/shell.html",
+        "sha256": "2f4b30c91fdcdc6fecc67aa430dd65f1614562f16e3ff1116803c172f717088f"
+      },
+      {
+        "path": "src/m3/types.mjs",
+        "sha256": "2bab449d5c498873bb20879e9aea3c4002177f7699ba6ebc4ea1c171c7d49ce3"
+      },
+      {
+        "path": "src/m3/ui.mjs",
+        "sha256": "d920db08df38aed0988be4e9bd50a8a40d514c773e465c4d3bed3e3f0bf62772"
+      },
+      {
+        "path": "src/package.mjs",
+        "sha256": "9ef3de0ce6b061b1c26ecee6007f6605ac4228d8e7c058aa7843018f0908b9c2"
+      },
+      {
+        "path": "src/policy.mjs",
+        "sha256": "53674ae58a95036614410841be6cd322bd30366a100d0ee8c0367131fa58f9b3"
+      },
+      {
+        "path": "src/runtime.mjs",
+        "sha256": "657d97f16704c973a7696c712a53e9afe55cecd40a4dfdfbbb5e331ef9eecf89"
+      },
+      {
+        "path": "src/shell.html",
+        "sha256": "b4032ddb411955fcd781c087f98dc2ca21b64d3568cf8ed2006c513b51018697"
+      },
+      {
+        "path": "src/ui.css",
+        "sha256": "67d7171af0f99dcd1cd18fbe20528bc144be9aa9831fdea6646ba4dfd0a6b0b7"
+      },
+      {
+        "path": "src/ui.mjs",
+        "sha256": "a3c096d062fc723b1b1d6f51f9f086c97c764ac70b6208c7989937af826fea5c"
+      },
+      {
+        "path": "src/views.mjs",
+        "sha256": "be8138af95f8a3b5758d08013dd171b581c41db7448c9efa880645b8014b0ab9"
+      },
+      {
+        "path": "tests/fixtures.mjs",
+        "sha256": "f4ddba46ab2804f0358d78c07d30c9c26adca42ea825b2744fee780ddb8b85e4"
+      },
+      {
+        "path": "tests/identity-regressions.test.mjs",
+        "sha256": "1aa8fa0650ea91c303519dac32966f10604a3552e76281444bb5ec6e4c787d00"
+      },
+      {
+        "path": "tests/m2-fixture.mjs",
+        "sha256": "93de3e2414cec93b5017291b2f42461ecadae48036c812a74659e74df55f4cd0"
+      },
+      {
+        "path": "tests/m2.test.mjs",
+        "sha256": "3b09d2bd398502cf3cdf1fdb1676d9eef1d7283e0061143a7ec06cecbf8282dc"
+      },
+      {
+        "path": "tests/m3-fixtures.mjs",
+        "sha256": "1d7d6e5fd1265e135c9f3f764b175253aab755aac5f900888592952bd93fff5e"
+      },
+      {
+        "path": "tests/m3-notice-display.test.mjs",
+        "sha256": "75280749c1f3c704fb9fab58a09f5045978626496d42bbe34bb2dafde28ac121"
+      },
+      {
+        "path": "tests/m3-notice-geometry.test.mjs",
+        "sha256": "b443a86e4293153504c458126ed9a7e1ce77199e16397095606717276bafa169"
+      },
+      {
+        "path": "tests/m3.test.mjs",
+        "sha256": "5c4094089d8a12d249a9acac84a857c02b6a383390d02dd971e061e80606565a"
+      },
+      {
+        "path": "tests/runtime.test.mjs",
+        "sha256": "0b6da3c6f02565c02f0ed461fa63da0f4295514dce47967b727f17a63bf1e2a5"
+      },
+      {
+        "path": "tests/views.test.mjs",
+        "sha256": "159b1767ce62d9c4796e5a5c66ced265d9bdbd17ef0242516c8ccc548b047358"
+      }
+    ]
+  },
+  "packageRef": {
+    "id": "package_0003",
+    "revision": 1,
+    "digest": "2ce9f61b996f17392a39c56f4005d8203b7940aa4974564fafa54d110e35ae8f"
+  },
+  "runs": [
+    {
+      "origin": "Actual browser UI Save run export",
+      "runFile": "runs/browser-before-repair.json",
+      "runSHA256": "052b0bbe0c77821974f4aa6ed1eb9f8f19bee414c540e26c11051f1615645c22",
+      "sessionId": "run_0003",
+      "revision": 16,
+      "sourceRevision": "M3-runtime-v1-R2-D02",
+      "sourceDigest": "7bbf91958abfb963830f412136baab95601da19cebc6673bf6d72207d18766d0",
+      "contentRevision": "M3-protective-shortcut-v1",
+      "packageRef": {
+        "id": "package_0003",
+        "revision": 1,
+        "digest": "2ce9f61b996f17392a39c56f4005d8203b7940aa4974564fafa54d110e35ae8f"
+      },
+      "outcomes": {
+        "recovered": false,
+        "serviceOpen": true,
+        "ownerId": "actor_0003",
+        "holderId": "subject_0007",
+        "quantity": 1,
+        "balances": {
+          "actor_0001": 1200,
+          "actor_0002": 0,
+          "actor_0004": 0
+        },
+        "recordCorrected": false,
+        "privateDisclosed": false
+      },
+      "commands": 16,
+      "messages": 16,
+      "observations": 38,
+      "validatedReplay": true
+    },
+    {
+      "origin": "Actual browser UI Save run export",
+      "runFile": "runs/browser-closure.json",
+      "runSHA256": "d05248f6542b2557497d72e29793bfd67635d1d7716489e7d5787411b1ec8689",
+      "sessionId": "run_0003",
+      "revision": 12,
+      "sourceRevision": "M3-runtime-v1-R2-D02",
+      "sourceDigest": "7bbf91958abfb963830f412136baab95601da19cebc6673bf6d72207d18766d0",
+      "contentRevision": "M3-protective-shortcut-v1",
+      "packageRef": {
+        "id": "package_0003",
+        "revision": 1,
+        "digest": "2ce9f61b996f17392a39c56f4005d8203b7940aa4974564fafa54d110e35ae8f"
+      },
+      "outcomes": {
+        "recovered": false,
+        "serviceOpen": false,
+        "ownerId": "actor_0003",
+        "holderId": "subject_0007",
+        "quantity": 1,
+        "balances": {
+          "actor_0001": 1200,
+          "actor_0002": 0,
+          "actor_0004": 0
+        },
+        "recordCorrected": false,
+        "privateDisclosed": false
+      },
+      "commands": 12,
+      "messages": 14,
+      "observations": 38,
+      "validatedReplay": true
+    },
+    {
+      "origin": "Actual browser UI Save run export",
+      "runFile": "runs/browser-evidence-ready.json",
+      "runSHA256": "2e2aec5652e9a863897e0e16d1f7c004a619293c8067d10a9cf9786d5fa23930",
+      "sessionId": "run_0003",
+      "revision": 9,
+      "sourceRevision": "M3-runtime-v1-R2-D02",
+      "sourceDigest": "7bbf91958abfb963830f412136baab95601da19cebc6673bf6d72207d18766d0",
+      "contentRevision": "M3-protective-shortcut-v1",
+      "packageRef": {
+        "id": "package_0003",
+        "revision": 1,
+        "digest": "2ce9f61b996f17392a39c56f4005d8203b7940aa4974564fafa54d110e35ae8f"
+      },
+      "outcomes": {
+        "recovered": false,
+        "serviceOpen": true,
+        "ownerId": "actor_0003",
+        "holderId": "subject_0007",
+        "quantity": 1,
+        "balances": {
+          "actor_0001": 1200,
+          "actor_0002": 0,
+          "actor_0004": 0
+        },
+        "recordCorrected": false,
+        "privateDisclosed": false
+      },
+      "commands": 9,
+      "messages": 8,
+      "observations": 25,
+      "validatedReplay": true
+    },
+    {
+      "origin": "Actual browser UI Save run export",
+      "runFile": "runs/browser-partial-evidence.json",
+      "runSHA256": "c4476ffb82e3247b38aa8f1ca6da837aaf1ecfa972b4dc0efeaf2253f8c4cdda",
+      "sessionId": "run_0003",
+      "revision": 6,
+      "sourceRevision": "M3-runtime-v1-R2-D02",
+      "sourceDigest": "7bbf91958abfb963830f412136baab95601da19cebc6673bf6d72207d18766d0",
+      "contentRevision": "M3-protective-shortcut-v1",
+      "packageRef": {
+        "id": "package_0003",
+        "revision": 1,
+        "digest": "2ce9f61b996f17392a39c56f4005d8203b7940aa4974564fafa54d110e35ae8f"
+      },
+      "outcomes": {
+        "recovered": false,
+        "serviceOpen": true,
+        "ownerId": "actor_0003",
+        "holderId": "subject_0007",
+        "quantity": 1,
+        "balances": {
+          "actor_0001": 1200,
+          "actor_0002": 0,
+          "actor_0004": 0
+        },
+        "recordCorrected": false,
+        "privateDisclosed": false
+      },
+      "commands": 6,
+      "messages": 6,
+      "observations": 21,
+      "validatedReplay": true
+    },
+    {
+      "origin": "Actual browser UI Save run export",
+      "runFile": "runs/browser-pending-handover.json",
+      "runSHA256": "1755b27b71d31477f2313a863aa05100004dc2c536ba0cb590d4365fda8492f3",
+      "sessionId": "run_0003",
+      "revision": 11,
+      "sourceRevision": "M3-runtime-v1-R2-D02",
+      "sourceDigest": "7bbf91958abfb963830f412136baab95601da19cebc6673bf6d72207d18766d0",
+      "contentRevision": "M3-protective-shortcut-v1",
+      "packageRef": {
+        "id": "package_0003",
+        "revision": 1,
+        "digest": "2ce9f61b996f17392a39c56f4005d8203b7940aa4974564fafa54d110e35ae8f"
+      },
+      "outcomes": {
+        "recovered": false,
+        "serviceOpen": true,
+        "ownerId": "actor_0003",
+        "holderId": "subject_0007",
+        "quantity": 1,
+        "balances": {
+          "actor_0001": 1200,
+          "actor_0002": 0,
+          "actor_0004": 0
+        },
+        "recordCorrected": false,
+        "privateDisclosed": false
+      },
+      "commands": 11,
+      "messages": 11,
+      "observations": 35,
+      "validatedReplay": true
+    },
+    {
+      "origin": "Actual browser UI Save run export",
+      "runFile": "runs/browser-permission-only.json",
+      "runSHA256": "e5cf17f8477800bae8f585e831e403d5120c9a1388c31ab79308cd6b311f6d1a",
+      "sessionId": "run_0003",
+      "revision": 2,
+      "sourceRevision": "M3-runtime-v1-R2-D02",
+      "sourceDigest": "7bbf91958abfb963830f412136baab95601da19cebc6673bf6d72207d18766d0",
+      "contentRevision": "M3-protective-shortcut-v1",
+      "packageRef": {
+        "id": "package_0003",
+        "revision": 1,
+        "digest": "2ce9f61b996f17392a39c56f4005d8203b7940aa4974564fafa54d110e35ae8f"
+      },
+      "outcomes": {
+        "recovered": false,
+        "serviceOpen": true,
+        "ownerId": "actor_0003",
+        "holderId": "subject_0007",
+        "quantity": 1,
+        "balances": {
+          "actor_0001": 1200,
+          "actor_0002": 0,
+          "actor_0004": 0
+        },
+        "recordCorrected": false,
+        "privateDisclosed": false
+      },
+      "commands": 2,
+      "messages": 2,
+      "observations": 11,
+      "validatedReplay": true
+    },
+    {
+      "origin": "Actual browser UI Save run export",
+      "runFile": "runs/browser-post-recovery.json",
+      "runSHA256": "d57a016e39a32fd0d1a00d231cdef4b3404d9d2a4e5ebc1e9d9969aaf5980b46",
+      "sessionId": "run_0003",
+      "revision": 21,
+      "sourceRevision": "M3-runtime-v1-R2-D02",
+      "sourceDigest": "7bbf91958abfb963830f412136baab95601da19cebc6673bf6d72207d18766d0",
+      "contentRevision": "M3-protective-shortcut-v1",
+      "packageRef": {
+        "id": "package_0003",
+        "revision": 1,
+        "digest": "2ce9f61b996f17392a39c56f4005d8203b7940aa4974564fafa54d110e35ae8f"
+      },
+      "outcomes": {
+        "recovered": true,
+        "serviceOpen": true,
+        "ownerId": "actor_0003",
+        "holderId": "actor_0001",
+        "quantity": 1,
+        "balances": {
+          "actor_0001": 1200,
+          "actor_0002": 0,
+          "actor_0004": 0
+        },
+        "recordCorrected": true,
+        "privateDisclosed": false
+      },
+      "commands": 21,
+      "messages": 21,
+      "observations": 55,
+      "validatedReplay": true
+    },
+    {
+      "origin": "Actual browser UI Save run export",
+      "runFile": "runs/browser-recovery.json",
+      "runSHA256": "ec77d094458177ea633a54ceb3160118ab21f81a5e21189f956934d7c0668e38",
+      "sessionId": "run_0003",
+      "revision": 14,
+      "sourceRevision": "M3-runtime-v1-R2-D02",
+      "sourceDigest": "7bbf91958abfb963830f412136baab95601da19cebc6673bf6d72207d18766d0",
+      "contentRevision": "M3-protective-shortcut-v1",
+      "packageRef": {
+        "id": "package_0003",
+        "revision": 1,
+        "digest": "2ce9f61b996f17392a39c56f4005d8203b7940aa4974564fafa54d110e35ae8f"
+      },
+      "outcomes": {
+        "recovered": true,
+        "serviceOpen": true,
+        "ownerId": "actor_0003",
+        "holderId": "actor_0001",
+        "quantity": 1,
+        "balances": {
+          "actor_0001": 1200,
+          "actor_0002": 0,
+          "actor_0004": 0
+        },
+        "recordCorrected": true,
+        "privateDisclosed": false
+      },
+      "commands": 14,
+      "messages": 13,
+      "observations": 42,
+      "validatedReplay": true
+    },
+    {
+      "origin": "Actual browser UI Save run export",
+      "runFile": "runs/browser-repaired-recovery.json",
+      "runSHA256": "0821c1c500ffe8826c02347261b2bb228af4a1f843cac447f1a60ce935d0e43a",
+      "sessionId": "run_0003",
+      "revision": 20,
+      "sourceRevision": "M3-runtime-v1-R2-D02",
+      "sourceDigest": "7bbf91958abfb963830f412136baab95601da19cebc6673bf6d72207d18766d0",
+      "contentRevision": "M3-protective-shortcut-v1",
+      "packageRef": {
+        "id": "package_0003",
+        "revision": 1,
+        "digest": "2ce9f61b996f17392a39c56f4005d8203b7940aa4974564fafa54d110e35ae8f"
+      },
+      "outcomes": {
+        "recovered": true,
+        "serviceOpen": true,
+        "ownerId": "actor_0003",
+        "holderId": "actor_0001",
+        "quantity": 1,
+        "balances": {
+          "actor_0001": 1200,
+          "actor_0002": 0,
+          "actor_0004": 0
+        },
+        "recordCorrected": true,
+        "privateDisclosed": false
+      },
+      "commands": 20,
+      "messages": 19,
+      "observations": 51,
+      "validatedReplay": true
+    },
+    {
+      "origin": "Actual browser UI Save run export",
+      "runFile": "runs/browser-repaired.json",
+      "runSHA256": "387bbe5c84b38bb64e0dc562ad0c55327657acf80e7c9d2bfdd1dc90e62d4c5a",
+      "sessionId": "run_0003",
+      "revision": 17,
+      "sourceRevision": "M3-runtime-v1-R2-D02",
+      "sourceDigest": "7bbf91958abfb963830f412136baab95601da19cebc6673bf6d72207d18766d0",
+      "contentRevision": "M3-protective-shortcut-v1",
+      "packageRef": {
+        "id": "package_0003",
+        "revision": 1,
+        "digest": "2ce9f61b996f17392a39c56f4005d8203b7940aa4974564fafa54d110e35ae8f"
+      },
+      "outcomes": {
+        "recovered": false,
+        "serviceOpen": true,
+        "ownerId": "actor_0003",
+        "holderId": "subject_0007",
+        "quantity": 1,
+        "balances": {
+          "actor_0001": 1200,
+          "actor_0002": 0,
+          "actor_0004": 0
+        },
+        "recordCorrected": false,
+        "privateDisclosed": false
+      },
+      "commands": 17,
+      "messages": 18,
+      "observations": 42,
+      "validatedReplay": true
+    },
+    {
+      "origin": "Actual browser UI Save run export",
+      "runFile": "runs/browser-restricted.json",
+      "runSHA256": "161538143627277aa089d2cb7b70f5ac8efdb1c23d8de2ad618df30f0d6371ee",
+      "sessionId": "run_0003",
+      "revision": 11,
+      "sourceRevision": "M3-runtime-v1-R2-D02",
+      "sourceDigest": "7bbf91958abfb963830f412136baab95601da19cebc6673bf6d72207d18766d0",
+      "contentRevision": "M3-protective-shortcut-v1",
+      "packageRef": {
+        "id": "package_0003",
+        "revision": 1,
+        "digest": "2ce9f61b996f17392a39c56f4005d8203b7940aa4974564fafa54d110e35ae8f"
+      },
+      "outcomes": {
+        "recovered": false,
+        "serviceOpen": true,
+        "ownerId": "actor_0003",
+        "holderId": "subject_0007",
+        "quantity": 1,
+        "balances": {
+          "actor_0001": 1200,
+          "actor_0002": 0,
+          "actor_0004": 0
+        },
+        "recordCorrected": false,
+        "privateDisclosed": false
+      },
+      "commands": 11,
+      "messages": 12,
+      "observations": 32,
+      "validatedReplay": true
+    }
+  ],
+  "rawBrowserInspectorsMatch": true,
+  "saveLoadAndReadEquality": true,
+  "missingNotice": {
+    "status": "committed",
+    "serviceOpen": true,
+    "defects": 1
+  },
+  "portability": {
+    "recovered": true,
+    "closed": true,
+    "packageRef": {
+      "id": "package_0203",
+      "revision": 1,
+      "digest": "1becee51d49c7a7b7860beb6cb9a8b31618f6cb02ab0e6f6ad6dbfb12f848533"
+    }
+  },
+  "browserRecords": 19,
+  "browserGroups": 18
+}

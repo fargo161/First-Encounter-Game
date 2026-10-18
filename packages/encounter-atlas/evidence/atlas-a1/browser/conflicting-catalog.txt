@@ -1,0 +1,9 @@
+INPUT NOT ACCEPTED
+
+Unable to open this saved run
+
+Conflicting Person identity. This input cannot be inspected.
+
+Choose a supported saved run and its matching catalog, or open a bundled example.
+
+Encounter details

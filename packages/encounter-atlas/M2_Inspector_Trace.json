@@ -1,0 +1,1359 @@
+{
+  "metadata": {
+    "generator": "scripts/generate-evidence.mjs",
+    "origin": "Actual browser UI run exported through Save run",
+    "runFile": "M2_Interaction_Run.json",
+    "runFileSHA256": "68c24d368d797787666aa892d41c6edf54f0363e597a00b39a7bb6464e3ceb4f",
+    "sourceRevision": "M2-runtime-v1",
+    "sourceDigest": "907e4ec682172e90f2c3b0b0d78ec43ade848d8bcace1fbe6775301aefc43731",
+    "contentRevision": "M2-paperwork-v1",
+    "sessionId": "run_0002",
+    "revision": 3,
+    "packageRef": {
+      "id": "package_0002",
+      "revision": 1,
+      "digest": "6dde071b2d6e6b280ca9ba6ce929bbdd1b42f4f128deba818fc1c32dd2b8e115"
+    }
+  },
+  "trace": {
+    "actionResults": [
+      {
+        "effects": [],
+        "id": "result_0001",
+        "observerDetails": [
+          {
+            "details": {
+              "conduct": "Inspects the permitted handling extract.",
+              "recordDetail": {
+                "predicate": "recipient_signature",
+                "subjectId": "subject_0003",
+                "value": "unfilled"
+              }
+            },
+            "observerId": "actor_0001"
+          },
+          {
+            "details": {
+              "conduct": "Sees the collector inspect the permitted extract; cannot read the small print from here."
+            },
+            "observerId": "actor_0002"
+          }
+        ],
+        "outcome": "performed",
+        "request": {
+          "actionType": "inspect_records",
+          "actorId": "actor_0001",
+          "commandId": "command_51b804776f7246a7a8d7a8c6b74bed5c",
+          "expectedRevision": 1,
+          "permissionId": "permission_0001",
+          "targetId": "subject_0005"
+        }
+      }
+    ],
+    "beliefs": [],
+    "canonicalMessages": [
+      {
+        "commandId": "command_d62d850d76d149dcb486edc286657934",
+        "contextMessageId": null,
+        "id": "message_0001",
+        "outward": {
+          "act": "request_access",
+          "content": {
+            "kind": "request",
+            "predicate": "inspect_relevant_entry",
+            "timeScope": "current_entry",
+            "value": null
+          },
+          "family": "Request",
+          "framing": [
+            {
+              "kind": "displayed_concern",
+              "subjectIds": [
+                "subject_0003"
+              ],
+              "text": "Acknowledges the clerk's work in keeping a defensible handover and approaches the issue with supportive concern."
+            }
+          ],
+          "prominence": "emphatic",
+          "recipientIds": [
+            "actor_0002"
+          ],
+          "scope": {
+            "kind": "relevant_records",
+            "subjectId": "subject_0003"
+          },
+          "senderId": "actor_0001",
+          "subjectIds": [
+            "subject_0001",
+            "subject_0003"
+          ],
+          "targetId": "subject_0003",
+          "terms": null
+        },
+        "privateComposition": {
+          "authorId": "author_0001",
+          "intendedFraming": "Acknowledges the clerk's work in keeping a defensible handover and approaches the issue with supportive concern.",
+          "selectedSalience": "OVERT",
+          "selectedVibe": "SE",
+          "templateId": "template_0012"
+        },
+        "schema": "encounter-message@2",
+        "sequence": 3
+      },
+      {
+        "commandId": "command_d62d850d76d149dcb486edc286657934",
+        "contextMessageId": "message_0001",
+        "id": "message_0002",
+        "outward": {
+          "act": "explain_access",
+          "content": {
+            "kind": "assertion",
+            "predicate": "access_scope",
+            "timeScope": "current_visit",
+            "value": "relevant_records_only"
+          },
+          "family": "Remark",
+          "framing": [],
+          "prominence": "measured",
+          "recipientIds": [
+            "actor_0001"
+          ],
+          "scope": {
+            "kind": "relevant_records",
+            "subjectId": "subject_0003"
+          },
+          "senderId": "actor_0002",
+          "subjectIds": [
+            "subject_0001",
+            "subject_0003",
+            "subject_0004",
+            "subject_0005",
+            "subject_0006"
+          ],
+          "targetId": "subject_0003",
+          "terms": null
+        },
+        "privateComposition": {
+          "authorId": "author_0001",
+          "intendedFraming": "Explain the applicable procedure and bounded next step.",
+          "selectedSalience": "NUANCED",
+          "selectedVibe": "EA",
+          "templateId": "template_0020"
+        },
+        "schema": "encounter-message@2",
+        "sequence": 4
+      },
+      {
+        "commandId": "command_b4ae2cd3f1ad4643997feb4ffd24e4cd",
+        "contextMessageId": "message_0002",
+        "id": "message_0003",
+        "outward": {
+          "act": "challenge_record",
+          "content": {
+            "kind": "assertion",
+            "predicate": "recipient_signature",
+            "timeScope": "current_entry",
+            "value": "unfilled"
+          },
+          "family": "Remark",
+          "framing": [
+            {
+              "kind": "displayed_concern",
+              "subjectIds": [
+                "subject_0003"
+              ],
+              "text": "Acknowledges the clerk's work in keeping a defensible handover and approaches the issue with supportive concern."
+            }
+          ],
+          "prominence": "emphatic",
+          "recipientIds": [
+            "actor_0002"
+          ],
+          "scope": {
+            "kind": "relevant_records",
+            "subjectId": "subject_0003"
+          },
+          "senderId": "actor_0001",
+          "subjectIds": [
+            "subject_0001",
+            "subject_0003"
+          ],
+          "targetId": "subject_0003",
+          "terms": null
+        },
+        "privateComposition": {
+          "authorId": "author_0001",
+          "intendedFraming": "Acknowledges the clerk's work in keeping a defensible handover and approaches the issue with supportive concern.",
+          "selectedSalience": "OVERT",
+          "selectedVibe": "SE",
+          "templateId": "template_0012"
+        },
+        "schema": "encounter-message@2",
+        "sequence": 6
+      },
+      {
+        "commandId": "command_b4ae2cd3f1ad4643997feb4ffd24e4cd",
+        "contextMessageId": "message_0003",
+        "id": "message_0004",
+        "outward": {
+          "act": "acknowledge_report",
+          "content": {
+            "kind": "assertion",
+            "predicate": "recipient_signature_report",
+            "timeScope": "current_visit",
+            "value": "unfilled"
+          },
+          "family": "Remark",
+          "framing": [],
+          "prominence": "measured",
+          "recipientIds": [
+            "actor_0001"
+          ],
+          "scope": {
+            "kind": "relevant_records",
+            "subjectId": "subject_0003"
+          },
+          "senderId": "actor_0002",
+          "subjectIds": [
+            "subject_0001",
+            "subject_0003"
+          ],
+          "targetId": "subject_0003",
+          "terms": null
+        },
+        "privateComposition": {
+          "authorId": "author_0001",
+          "intendedFraming": "Explain the applicable procedure and bounded next step.",
+          "selectedSalience": "NUANCED",
+          "selectedVibe": "EA",
+          "templateId": "template_0020"
+        },
+        "schema": "encounter-message@2",
+        "sequence": 7
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim_0001",
+        "messageId": "message_0003",
+        "observationIds": [
+          "observation_0009"
+        ],
+        "proposition": {
+          "predicate": "recipient_signature",
+          "subjectId": "subject_0003",
+          "timeScope": "current_entry",
+          "value": "unfilled"
+        },
+        "recipientIds": [
+          "actor_0002"
+        ],
+        "roots": [
+          {
+            "id": "message_0003",
+            "kind": "message"
+          }
+        ],
+        "speakerId": "actor_0001"
+      }
+    ],
+    "commits": [
+      {
+        "changes": [
+          {
+            "id": "permission_0001",
+            "type": "permission_granted"
+          },
+          {
+            "ids": [
+              "subject_0001",
+              "subject_0003",
+              "subject_0004",
+              "subject_0005",
+              "subject_0006"
+            ],
+            "type": "references_disclosed"
+          }
+        ],
+        "commandId": "command_d62d850d76d149dcb486edc286657934",
+        "revision": 1
+      },
+      {
+        "changes": [
+          {
+            "resultId": "result_0001",
+            "type": "inspection_performed"
+          },
+          {
+            "to": "actor_0001",
+            "type": "detail_disclosed"
+          },
+          {
+            "to": "actor_0002",
+            "type": "conduct_observed"
+          }
+        ],
+        "commandId": "command_51b804776f7246a7a8d7a8c6b74bed5c",
+        "revision": 2
+      },
+      {
+        "changes": [],
+        "commandId": "command_b4ae2cd3f1ad4643997feb4ffd24e4cd",
+        "revision": 3
+      }
+    ],
+    "decisions": [
+      {
+        "actorId": "actor_0002",
+        "actualListenerInput": {
+          "actorId": "actor_0002",
+          "claims": [],
+          "currentMessageId": "message_0001",
+          "incoming": {
+            "act": "request_access",
+            "content": {
+              "kind": "request",
+              "predicate": "inspect_relevant_entry",
+              "timeScope": "current_entry",
+              "value": null
+            },
+            "family": "Request",
+            "framing": [
+              {
+                "kind": "displayed_concern",
+                "subjectIds": [
+                  "subject_0003"
+                ],
+                "text": "Acknowledges the clerk's work in keeping a defensible handover and approaches the issue with supportive concern."
+              }
+            ],
+            "prominence": "emphatic",
+            "recipientIds": [
+              "actor_0002"
+            ],
+            "scope": {
+              "kind": "relevant_records",
+              "subjectId": "subject_0003"
+            },
+            "senderId": "actor_0001",
+            "subjectIds": [
+              "subject_0001",
+              "subject_0003"
+            ],
+            "targetId": "subject_0003",
+            "terms": null
+          },
+          "observations": [
+            {
+              "channel": "initial",
+              "id": "observation_0002",
+              "observerId": "actor_0002",
+              "receivedDetails": {
+                "collectionAuthority": {
+                  "collectorId": "actor_0001",
+                  "itemId": "subject_0001",
+                  "ownerId": "actor_0003",
+                  "ticketId": "subject_0002",
+                  "verified": true
+                }
+              },
+              "roots": [
+                {
+                  "id": "event_0001",
+                  "kind": "event"
+                }
+              ],
+              "schema": "encounter-observation@2",
+              "sequence": 1,
+              "source": {
+                "id": "event_0001",
+                "kind": "event"
+              }
+            },
+            {
+              "channel": "initial",
+              "id": "observation_0003",
+              "observerId": "actor_0002",
+              "receivedDetails": {
+                "accessRule": {
+                  "actionType": "inspect_records",
+                  "contactId": "subject_0006",
+                  "fileId": "subject_0004",
+                  "handlingId": "subject_0005",
+                  "itemId": "subject_0001",
+                  "recordId": "subject_0003",
+                  "references": [
+                    {
+                      "id": "subject_0001",
+                      "label": "Nera's green instrument case"
+                    },
+                    {
+                      "id": "subject_0003",
+                      "label": "Collection record"
+                    },
+                    {
+                      "id": "subject_0004",
+                      "label": "Customer file"
+                    },
+                    {
+                      "id": "subject_0005",
+                      "label": "Handling extract"
+                    },
+                    {
+                      "id": "subject_0006",
+                      "label": "Private contact information"
+                    }
+                  ],
+                  "scope": "relevant_records"
+                }
+              },
+              "roots": [
+                {
+                  "id": "event_0002",
+                  "kind": "event"
+                }
+              ],
+              "schema": "encounter-observation@2",
+              "sequence": 2,
+              "source": {
+                "id": "event_0002",
+                "kind": "event"
+              }
+            },
+            {
+              "channel": "hearing",
+              "id": "observation_0004",
+              "observerId": "actor_0002",
+              "receivedDetails": {
+                "communication": {
+                  "act": "request_access",
+                  "content": {
+                    "kind": "request",
+                    "predicate": "inspect_relevant_entry",
+                    "timeScope": "current_entry",
+                    "value": null
+                  },
+                  "family": "Request",
+                  "framing": [
+                    {
+                      "kind": "displayed_concern",
+                      "subjectIds": [
+                        "subject_0003"
+                      ],
+                      "text": "Acknowledges the clerk's work in keeping a defensible handover and approaches the issue with supportive concern."
+                    }
+                  ],
+                  "prominence": "emphatic",
+                  "recipientIds": [
+                    "actor_0002"
+                  ],
+                  "scope": {
+                    "kind": "relevant_records",
+                    "subjectId": "subject_0003"
+                  },
+                  "senderId": "actor_0001",
+                  "subjectIds": [
+                    "subject_0001",
+                    "subject_0003"
+                  ],
+                  "targetId": "subject_0003",
+                  "terms": null
+                }
+              },
+              "roots": [
+                {
+                  "id": "message_0001",
+                  "kind": "message"
+                }
+              ],
+              "schema": "encounter-observation@2",
+              "sequence": 3,
+              "source": {
+                "id": "message_0001",
+                "kind": "message"
+              }
+            }
+          ],
+          "profile": {
+            "priorities": {
+              "privacy": 10,
+              "relevantService": 10,
+              "verification": 9
+            },
+            "roles": [
+              "record_custodian"
+            ]
+          }
+        },
+        "candidates": [
+          {
+            "act": "explain_access",
+            "eligible": true,
+            "ordinal": 0,
+            "reason": "A received relevant-record request, a known access rule and verified collection authority permit limited inspection.",
+            "score": 20
+          },
+          {
+            "act": "acknowledge_report",
+            "eligible": false,
+            "ordinal": 1,
+            "reason": "A matching assertion was actually heard. Acknowledge it as a report and offer verification; do not treat seeing conduct as reading the record.",
+            "score": 19
+          },
+          {
+            "act": "decline_scope",
+            "eligible": true,
+            "ordinal": 2,
+            "reason": "A bounded public refusal is available when relevant scope or authority is insufficient.",
+            "score": 0
+          }
+        ],
+        "evidenceObservationIds": [
+          "observation_0003",
+          "observation_0002"
+        ],
+        "id": "decision_0001",
+        "inputObservationIds": [
+          "observation_0002",
+          "observation_0003",
+          "observation_0004"
+        ],
+        "messageId": "message_0001",
+        "selected": "explain_access"
+      },
+      {
+        "actorId": "actor_0002",
+        "actualListenerInput": {
+          "actorId": "actor_0002",
+          "claims": [
+            {
+              "id": "claim_0001",
+              "messageId": "message_0003",
+              "observationIds": [
+                "observation_0009"
+              ],
+              "proposition": {
+                "predicate": "recipient_signature",
+                "subjectId": "subject_0003",
+                "timeScope": "current_entry",
+                "value": "unfilled"
+              },
+              "recipientIds": [
+                "actor_0002"
+              ],
+              "roots": [
+                {
+                  "id": "message_0003",
+                  "kind": "message"
+                }
+              ],
+              "speakerId": "actor_0001"
+            }
+          ],
+          "currentMessageId": "message_0003",
+          "incoming": {
+            "act": "challenge_record",
+            "content": {
+              "kind": "assertion",
+              "predicate": "recipient_signature",
+              "timeScope": "current_entry",
+              "value": "unfilled"
+            },
+            "family": "Remark",
+            "framing": [
+              {
+                "kind": "displayed_concern",
+                "subjectIds": [
+                  "subject_0003"
+                ],
+                "text": "Acknowledges the clerk's work in keeping a defensible handover and approaches the issue with supportive concern."
+              }
+            ],
+            "prominence": "emphatic",
+            "recipientIds": [
+              "actor_0002"
+            ],
+            "scope": {
+              "kind": "relevant_records",
+              "subjectId": "subject_0003"
+            },
+            "senderId": "actor_0001",
+            "subjectIds": [
+              "subject_0001",
+              "subject_0003"
+            ],
+            "targetId": "subject_0003",
+            "terms": null
+          },
+          "observations": [
+            {
+              "channel": "initial",
+              "id": "observation_0002",
+              "observerId": "actor_0002",
+              "receivedDetails": {
+                "collectionAuthority": {
+                  "collectorId": "actor_0001",
+                  "itemId": "subject_0001",
+                  "ownerId": "actor_0003",
+                  "ticketId": "subject_0002",
+                  "verified": true
+                }
+              },
+              "roots": [
+                {
+                  "id": "event_0001",
+                  "kind": "event"
+                }
+              ],
+              "schema": "encounter-observation@2",
+              "sequence": 1,
+              "source": {
+                "id": "event_0001",
+                "kind": "event"
+              }
+            },
+            {
+              "channel": "initial",
+              "id": "observation_0003",
+              "observerId": "actor_0002",
+              "receivedDetails": {
+                "accessRule": {
+                  "actionType": "inspect_records",
+                  "contactId": "subject_0006",
+                  "fileId": "subject_0004",
+                  "handlingId": "subject_0005",
+                  "itemId": "subject_0001",
+                  "recordId": "subject_0003",
+                  "references": [
+                    {
+                      "id": "subject_0001",
+                      "label": "Nera's green instrument case"
+                    },
+                    {
+                      "id": "subject_0003",
+                      "label": "Collection record"
+                    },
+                    {
+                      "id": "subject_0004",
+                      "label": "Customer file"
+                    },
+                    {
+                      "id": "subject_0005",
+                      "label": "Handling extract"
+                    },
+                    {
+                      "id": "subject_0006",
+                      "label": "Private contact information"
+                    }
+                  ],
+                  "scope": "relevant_records"
+                }
+              },
+              "roots": [
+                {
+                  "id": "event_0002",
+                  "kind": "event"
+                }
+              ],
+              "schema": "encounter-observation@2",
+              "sequence": 2,
+              "source": {
+                "id": "event_0002",
+                "kind": "event"
+              }
+            },
+            {
+              "channel": "hearing",
+              "id": "observation_0004",
+              "observerId": "actor_0002",
+              "receivedDetails": {
+                "communication": {
+                  "act": "request_access",
+                  "content": {
+                    "kind": "request",
+                    "predicate": "inspect_relevant_entry",
+                    "timeScope": "current_entry",
+                    "value": null
+                  },
+                  "family": "Request",
+                  "framing": [
+                    {
+                      "kind": "displayed_concern",
+                      "subjectIds": [
+                        "subject_0003"
+                      ],
+                      "text": "Acknowledges the clerk's work in keeping a defensible handover and approaches the issue with supportive concern."
+                    }
+                  ],
+                  "prominence": "emphatic",
+                  "recipientIds": [
+                    "actor_0002"
+                  ],
+                  "scope": {
+                    "kind": "relevant_records",
+                    "subjectId": "subject_0003"
+                  },
+                  "senderId": "actor_0001",
+                  "subjectIds": [
+                    "subject_0001",
+                    "subject_0003"
+                  ],
+                  "targetId": "subject_0003",
+                  "terms": null
+                }
+              },
+              "roots": [
+                {
+                  "id": "message_0001",
+                  "kind": "message"
+                }
+              ],
+              "schema": "encounter-observation@2",
+              "sequence": 3,
+              "source": {
+                "id": "message_0001",
+                "kind": "message"
+              }
+            },
+            {
+              "channel": "sight",
+              "id": "observation_0008",
+              "observerId": "actor_0002",
+              "receivedDetails": {
+                "conduct": "Sees the collector inspect the permitted extract; cannot read the small print from here."
+              },
+              "roots": [
+                {
+                  "id": "result_0001",
+                  "kind": "action_result"
+                }
+              ],
+              "schema": "encounter-observation@2",
+              "sequence": 5,
+              "source": {
+                "id": "result_0001",
+                "kind": "action_result"
+              }
+            },
+            {
+              "channel": "hearing",
+              "id": "observation_0009",
+              "observerId": "actor_0002",
+              "receivedDetails": {
+                "communication": {
+                  "act": "challenge_record",
+                  "content": {
+                    "kind": "assertion",
+                    "predicate": "recipient_signature",
+                    "timeScope": "current_entry",
+                    "value": "unfilled"
+                  },
+                  "family": "Remark",
+                  "framing": [
+                    {
+                      "kind": "displayed_concern",
+                      "subjectIds": [
+                        "subject_0003"
+                      ],
+                      "text": "Acknowledges the clerk's work in keeping a defensible handover and approaches the issue with supportive concern."
+                    }
+                  ],
+                  "prominence": "emphatic",
+                  "recipientIds": [
+                    "actor_0002"
+                  ],
+                  "scope": {
+                    "kind": "relevant_records",
+                    "subjectId": "subject_0003"
+                  },
+                  "senderId": "actor_0001",
+                  "subjectIds": [
+                    "subject_0001",
+                    "subject_0003"
+                  ],
+                  "targetId": "subject_0003",
+                  "terms": null
+                }
+              },
+              "roots": [
+                {
+                  "id": "message_0003",
+                  "kind": "message"
+                }
+              ],
+              "schema": "encounter-observation@2",
+              "sequence": 6,
+              "source": {
+                "id": "message_0003",
+                "kind": "message"
+              }
+            }
+          ],
+          "profile": {
+            "priorities": {
+              "privacy": 10,
+              "relevantService": 10,
+              "verification": 9
+            },
+            "roles": [
+              "record_custodian"
+            ]
+          }
+        },
+        "candidates": [
+          {
+            "act": "explain_access",
+            "eligible": false,
+            "ordinal": 0,
+            "reason": "A received relevant-record request, a known access rule and verified collection authority permit limited inspection.",
+            "score": 20
+          },
+          {
+            "act": "acknowledge_report",
+            "eligible": true,
+            "ordinal": 1,
+            "reason": "A matching assertion was actually heard. Acknowledge it as a report and offer verification; do not treat seeing conduct as reading the record.",
+            "score": 19
+          },
+          {
+            "act": "decline_scope",
+            "eligible": true,
+            "ordinal": 2,
+            "reason": "A bounded public refusal is available when relevant scope or authority is insufficient.",
+            "score": 0
+          }
+        ],
+        "evidenceObservationIds": [
+          "observation_0003",
+          "observation_0002",
+          "observation_0009"
+        ],
+        "id": "decision_0002",
+        "inputObservationIds": [
+          "observation_0002",
+          "observation_0003",
+          "observation_0004",
+          "observation_0008",
+          "observation_0009"
+        ],
+        "messageId": "message_0003",
+        "selected": "acknowledge_report"
+      }
+    ],
+    "episodes": [
+      {
+        "changes": [
+          {
+            "id": "permission_0001",
+            "type": "permission_granted"
+          },
+          {
+            "ids": [
+              "subject_0001",
+              "subject_0003",
+              "subject_0004",
+              "subject_0005",
+              "subject_0006"
+            ],
+            "type": "references_disclosed"
+          }
+        ],
+        "commandId": "command_d62d850d76d149dcb486edc286657934",
+        "decisionId": "decision_0001",
+        "delivery": {
+          "description": "Opens the relevant edge of the file, keeps the rest covered, and addresses the collector with a composed face."
+        },
+        "id": "event_0004",
+        "incomingMessageId": "message_0001",
+        "intake": {
+          "description": "Looks from the verified ticket to the record, brings the file within reach, and holds a composed expression."
+        },
+        "replyMessageId": "message_0002"
+      },
+      {
+        "changes": [],
+        "commandId": "command_b4ae2cd3f1ad4643997feb4ffd24e4cd",
+        "decisionId": "decision_0002",
+        "delivery": {
+          "description": "Opens the relevant edge of the file, keeps the rest covered, and addresses the collector with a composed face."
+        },
+        "id": "event_0007",
+        "incomingMessageId": "message_0003",
+        "intake": {
+          "description": "Looks from the verified ticket to the record, brings the file within reach, and holds a composed expression."
+        },
+        "replyMessageId": "message_0004"
+      }
+    ],
+    "hypotheses": [],
+    "initialOccurrences": [
+      {
+        "id": "event_0001",
+        "sequence": 1,
+        "type": "initial_ticket_check"
+      },
+      {
+        "id": "event_0002",
+        "sequence": 2,
+        "type": "initial_file_read"
+      }
+    ],
+    "materialState": {
+      "balanceMinor": 1200,
+      "holderId": "subject_0007",
+      "ownerId": "actor_0003",
+      "quantity": 1
+    },
+    "note": "The clerk acknowledges a heard report without asserting firsthand reading or a private player motive.",
+    "observations": [
+      {
+        "channel": "initial",
+        "id": "observation_0001",
+        "observerId": "actor_0001",
+        "receivedDetails": {
+          "collection": {
+            "entry": "collected",
+            "itemId": "subject_0001",
+            "recordId": "subject_0003",
+            "ticketId": "subject_0002"
+          },
+          "collectionAuthority": {
+            "collectorId": "actor_0001",
+            "itemId": "subject_0001",
+            "ownerId": "actor_0003",
+            "ticketId": "subject_0002",
+            "verified": true
+          },
+          "participants": [
+            {
+              "id": "actor_0001",
+              "label": "Collector"
+            },
+            {
+              "id": "actor_0002",
+              "label": "Tamsin"
+            },
+            {
+              "id": "actor_0003",
+              "label": "Nera Vale"
+            }
+          ],
+          "references": [
+            {
+              "id": "subject_0001",
+              "label": "Nera's green instrument case"
+            },
+            {
+              "id": "subject_0002",
+              "label": "Verified collection ticket"
+            },
+            {
+              "id": "subject_0003",
+              "label": "Collection record"
+            }
+          ]
+        },
+        "roots": [
+          {
+            "id": "event_0001",
+            "kind": "event"
+          }
+        ],
+        "schema": "encounter-observation@2",
+        "sequence": 1,
+        "source": {
+          "id": "event_0001",
+          "kind": "event"
+        }
+      },
+      {
+        "channel": "initial",
+        "id": "observation_0002",
+        "observerId": "actor_0002",
+        "receivedDetails": {
+          "collectionAuthority": {
+            "collectorId": "actor_0001",
+            "itemId": "subject_0001",
+            "ownerId": "actor_0003",
+            "ticketId": "subject_0002",
+            "verified": true
+          }
+        },
+        "roots": [
+          {
+            "id": "event_0001",
+            "kind": "event"
+          }
+        ],
+        "schema": "encounter-observation@2",
+        "sequence": 1,
+        "source": {
+          "id": "event_0001",
+          "kind": "event"
+        }
+      },
+      {
+        "channel": "initial",
+        "id": "observation_0003",
+        "observerId": "actor_0002",
+        "receivedDetails": {
+          "accessRule": {
+            "actionType": "inspect_records",
+            "contactId": "subject_0006",
+            "fileId": "subject_0004",
+            "handlingId": "subject_0005",
+            "itemId": "subject_0001",
+            "recordId": "subject_0003",
+            "references": [
+              {
+                "id": "subject_0001",
+                "label": "Nera's green instrument case"
+              },
+              {
+                "id": "subject_0003",
+                "label": "Collection record"
+              },
+              {
+                "id": "subject_0004",
+                "label": "Customer file"
+              },
+              {
+                "id": "subject_0005",
+                "label": "Handling extract"
+              },
+              {
+                "id": "subject_0006",
+                "label": "Private contact information"
+              }
+            ],
+            "scope": "relevant_records"
+          }
+        },
+        "roots": [
+          {
+            "id": "event_0002",
+            "kind": "event"
+          }
+        ],
+        "schema": "encounter-observation@2",
+        "sequence": 2,
+        "source": {
+          "id": "event_0002",
+          "kind": "event"
+        }
+      },
+      {
+        "channel": "hearing",
+        "id": "observation_0004",
+        "observerId": "actor_0002",
+        "receivedDetails": {
+          "communication": {
+            "act": "request_access",
+            "content": {
+              "kind": "request",
+              "predicate": "inspect_relevant_entry",
+              "timeScope": "current_entry",
+              "value": null
+            },
+            "family": "Request",
+            "framing": [
+              {
+                "kind": "displayed_concern",
+                "subjectIds": [
+                  "subject_0003"
+                ],
+                "text": "Acknowledges the clerk's work in keeping a defensible handover and approaches the issue with supportive concern."
+              }
+            ],
+            "prominence": "emphatic",
+            "recipientIds": [
+              "actor_0002"
+            ],
+            "scope": {
+              "kind": "relevant_records",
+              "subjectId": "subject_0003"
+            },
+            "senderId": "actor_0001",
+            "subjectIds": [
+              "subject_0001",
+              "subject_0003"
+            ],
+            "targetId": "subject_0003",
+            "terms": null
+          }
+        },
+        "roots": [
+          {
+            "id": "message_0001",
+            "kind": "message"
+          }
+        ],
+        "schema": "encounter-observation@2",
+        "sequence": 3,
+        "source": {
+          "id": "message_0001",
+          "kind": "message"
+        }
+      },
+      {
+        "channel": "hearing",
+        "id": "observation_0005",
+        "observerId": "actor_0001",
+        "receivedDetails": {
+          "communication": {
+            "act": "explain_access",
+            "content": {
+              "kind": "assertion",
+              "predicate": "access_scope",
+              "timeScope": "current_visit",
+              "value": "relevant_records_only"
+            },
+            "family": "Remark",
+            "framing": [],
+            "prominence": "measured",
+            "recipientIds": [
+              "actor_0001"
+            ],
+            "scope": {
+              "kind": "relevant_records",
+              "subjectId": "subject_0003"
+            },
+            "senderId": "actor_0002",
+            "subjectIds": [
+              "subject_0001",
+              "subject_0003",
+              "subject_0004",
+              "subject_0005",
+              "subject_0006"
+            ],
+            "targetId": "subject_0003",
+            "terms": null
+          }
+        },
+        "roots": [
+          {
+            "id": "message_0002",
+            "kind": "message"
+          }
+        ],
+        "schema": "encounter-observation@2",
+        "sequence": 4,
+        "source": {
+          "id": "message_0002",
+          "kind": "message"
+        }
+      },
+      {
+        "channel": "hearing",
+        "id": "observation_0006",
+        "observerId": "actor_0001",
+        "receivedDetails": {
+          "references": [
+            {
+              "id": "subject_0001",
+              "label": "Nera's green instrument case"
+            },
+            {
+              "id": "subject_0003",
+              "label": "Collection record"
+            },
+            {
+              "id": "subject_0004",
+              "label": "Customer file"
+            },
+            {
+              "id": "subject_0005",
+              "label": "Handling extract"
+            },
+            {
+              "id": "subject_0006",
+              "label": "Private contact information"
+            }
+          ]
+        },
+        "roots": [
+          {
+            "id": "message_0002",
+            "kind": "message"
+          }
+        ],
+        "schema": "encounter-observation@2",
+        "sequence": 4,
+        "source": {
+          "id": "message_0002",
+          "kind": "message"
+        }
+      },
+      {
+        "channel": "reading",
+        "id": "observation_0007",
+        "observerId": "actor_0001",
+        "receivedDetails": {
+          "conduct": "Inspects the permitted handling extract.",
+          "recordDetail": {
+            "predicate": "recipient_signature",
+            "subjectId": "subject_0003",
+            "value": "unfilled"
+          }
+        },
+        "roots": [
+          {
+            "id": "result_0001",
+            "kind": "action_result"
+          }
+        ],
+        "schema": "encounter-observation@2",
+        "sequence": 5,
+        "source": {
+          "id": "result_0001",
+          "kind": "action_result"
+        }
+      },
+      {
+        "channel": "sight",
+        "id": "observation_0008",
+        "observerId": "actor_0002",
+        "receivedDetails": {
+          "conduct": "Sees the collector inspect the permitted extract; cannot read the small print from here."
+        },
+        "roots": [
+          {
+            "id": "result_0001",
+            "kind": "action_result"
+          }
+        ],
+        "schema": "encounter-observation@2",
+        "sequence": 5,
+        "source": {
+          "id": "result_0001",
+          "kind": "action_result"
+        }
+      },
+      {
+        "channel": "hearing",
+        "id": "observation_0009",
+        "observerId": "actor_0002",
+        "receivedDetails": {
+          "communication": {
+            "act": "challenge_record",
+            "content": {
+              "kind": "assertion",
+              "predicate": "recipient_signature",
+              "timeScope": "current_entry",
+              "value": "unfilled"
+            },
+            "family": "Remark",
+            "framing": [
+              {
+                "kind": "displayed_concern",
+                "subjectIds": [
+                  "subject_0003"
+                ],
+                "text": "Acknowledges the clerk's work in keeping a defensible handover and approaches the issue with supportive concern."
+              }
+            ],
+            "prominence": "emphatic",
+            "recipientIds": [
+              "actor_0002"
+            ],
+            "scope": {
+              "kind": "relevant_records",
+              "subjectId": "subject_0003"
+            },
+            "senderId": "actor_0001",
+            "subjectIds": [
+              "subject_0001",
+              "subject_0003"
+            ],
+            "targetId": "subject_0003",
+            "terms": null
+          }
+        },
+        "roots": [
+          {
+            "id": "message_0003",
+            "kind": "message"
+          }
+        ],
+        "schema": "encounter-observation@2",
+        "sequence": 6,
+        "source": {
+          "id": "message_0003",
+          "kind": "message"
+        }
+      },
+      {
+        "channel": "hearing",
+        "id": "observation_000a",
+        "observerId": "actor_0001",
+        "receivedDetails": {
+          "communication": {
+            "act": "acknowledge_report",
+            "content": {
+              "kind": "assertion",
+              "predicate": "recipient_signature_report",
+              "timeScope": "current_visit",
+              "value": "unfilled"
+            },
+            "family": "Remark",
+            "framing": [],
+            "prominence": "measured",
+            "recipientIds": [
+              "actor_0001"
+            ],
+            "scope": {
+              "kind": "relevant_records",
+              "subjectId": "subject_0003"
+            },
+            "senderId": "actor_0002",
+            "subjectIds": [
+              "subject_0001",
+              "subject_0003"
+            ],
+            "targetId": "subject_0003",
+            "terms": null
+          }
+        },
+        "roots": [
+          {
+            "id": "message_0004",
+            "kind": "message"
+          }
+        ],
+        "schema": "encounter-observation@2",
+        "sequence": 7,
+        "source": {
+          "id": "message_0004",
+          "kind": "message"
+        }
+      }
+    ],
+    "packageRef": {
+      "digest": "6dde071b2d6e6b280ca9ba6ce929bbdd1b42f4f128deba818fc1c32dd2b8e115",
+      "id": "package_0002",
+      "revision": 1
+    },
+    "permissions": [
+      {
+        "actionType": "inspect_records",
+        "granteeId": "actor_0001",
+        "grantorId": "actor_0002",
+        "id": "permission_0001",
+        "scope": "relevant_records",
+        "sourceMessageId": "message_0002",
+        "status": "allowed",
+        "targetId": "subject_0005"
+      }
+    ],
+    "revision": 3,
+    "sessionId": "run_0002",
+    "withheld": [
+      {
+        "detail": "Protected contact value",
+        "reason": "No supported disclosure grants this value.",
+        "receivedByPlayer": false,
+        "subjectId": "subject_0006"
+      }
+    ]
+  }
+}

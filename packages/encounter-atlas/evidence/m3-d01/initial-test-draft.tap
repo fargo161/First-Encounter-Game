@@ -1,0 +1,102 @@
+TAP version 13
+# Subtest: M3-D01-01 fully transparent production notice cannot authorize closure
+not ok 1 - M3-D01-01 fully transparent production notice cannot authorize closure
+  ---
+  duration_ms: 6.6576
+  type: 'test'
+  location: 'C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\Encounter_M3_R1\\tests\\m3-notice-display.test.mjs:28:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    Expected values to be strictly equal:
+    
+    true !== false
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: false
+  actual: true
+  operator: 'strictEqual'
+  stack: |-
+    expectMissing (file:///C:/Users/mcdon/Documents/ChatGPT/encounter%20and%20rc/work/Encounter_M3_R1/tests/m3-notice-display.test.mjs:20:9)
+    TestContext.<anonymous> (file:///C:/Users/mcdon/Documents/ChatGPT/encounter%20and%20rc/work/Encounter_M3_R1/tests/m3-notice-display.test.mjs:29:2)
+    Test.runInAsyncScope (node:async_hooks:227:14)
+    Test.run (node:internal/test_runner/test:1325:25)
+    Test.start (node:internal/test_runner/test:1191:17)
+    startSubtestAfterBootstrap (node:internal/test_runner/harness:385:17)
+  ...
+# Subtest: M3-D01-02 fully transparent ancestor cannot authorize closure
+not ok 2 - M3-D01-02 fully transparent ancestor cannot authorize closure
+  ---
+  duration_ms: 4.9447
+  type: 'test'
+  location: 'C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\Encounter_M3_R1\\tests\\m3-notice-display.test.mjs:31:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    Expected values to be strictly equal:
+    
+    true !== false
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: false
+  actual: true
+  operator: 'strictEqual'
+  stack: |-
+    expectMissing (file:///C:/Users/mcdon/Documents/ChatGPT/encounter%20and%20rc/work/Encounter_M3_R1/tests/m3-notice-display.test.mjs:20:9)
+    TestContext.<anonymous> (file:///C:/Users/mcdon/Documents/ChatGPT/encounter%20and%20rc/work/Encounter_M3_R1/tests/m3-notice-display.test.mjs:32:2)
+    Test.runInAsyncScope (node:async_hooks:227:14)
+    Test.run (node:internal/test_runner/test:1325:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+    Test.postRun (node:internal/test_runner/test:1465:19)
+    Test.run (node:internal/test_runner/test:1390:12)
+    async startSubtestAfterBootstrap (node:internal/test_runner/harness:385:3)
+  ...
+# Subtest: M3-D01-03 genuinely visible current notice authorizes exactly one closure
+ok 3 - M3-D01-03 genuinely visible current notice authorizes exactly one closure
+  ---
+  duration_ms: 63.2084
+  type: 'test'
+  ...
+# Subtest: M3-D01-04 offscreen/hidden/empty display receipts remain invalid
+not ok 4 - M3-D01-04 offscreen/hidden/empty display receipts remain invalid
+  ---
+  duration_ms: 46.4663
+  type: 'test'
+  location: 'C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\Encounter_M3_R1\\tests\\m3-notice-display.test.mjs:40:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    Expected values to be strictly equal:
+    + actual - expected
+    
+    + undefined
+    - 'MISSING_CLOSURE_PREVIEW'
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: 'MISSING_CLOSURE_PREVIEW'
+  operator: 'strictEqual'
+  stack: |-
+    expectMissing (file:///C:/Users/mcdon/Documents/ChatGPT/encounter%20and%20rc/work/Encounter_M3_R1/tests/m3-notice-display.test.mjs:25:56)
+    TestContext.<anonymous> (file:///C:/Users/mcdon/Documents/ChatGPT/encounter%20and%20rc/work/Encounter_M3_R1/tests/m3-notice-display.test.mjs:41:129)
+    Test.runInAsyncScope (node:async_hooks:227:14)
+    Test.run (node:internal/test_runner/test:1325:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+    Test.postRun (node:internal/test_runner/test:1465:19)
+    Test.run (node:internal/test_runner/test:1390:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:911:7)
+  ...
+# Subtest: M3-D01-05 acknowledgment stays non-mutating and accepts nonzero opacity
+ok 5 - M3-D01-05 acknowledgment stays non-mutating and accepts nonzero opacity
+  ---
+  duration_ms: 7.8949
+  type: 'test'
+  ...
+1..5
+# tests 5
+# suites 0
+# pass 2
+# fail 3
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 1469.1769

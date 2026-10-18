@@ -1,0 +1,70 @@
+COMMAND: "C:\Program Files\nodejs\node.EXE" --test --test-name-pattern=D01- --test-reporter=tap C:\Users\mcdon\Documents\Codex\2026-10-17\execute-encounter-codex-lead-builder-m0\work\m1-tester-evidence\M1_Independent_Contract_Tests.test.mjs
+CWD: C:\Users\mcdon\Documents\Codex\2026-10-17\execute-encounter-codex-lead-builder-m0\outputs\Encounter_M0_M1_R2
+ENCOUNTER_CHECKPOINT: C:\Users\mcdon\Documents\Codex\2026-10-17\execute-encounter-codex-lead-builder-m0\outputs\Encounter_M0_M1_R2
+EXIT: 1
+
+TAP version 13
+# Subtest: D01-A: journaling must preserve the frozen command actually resolved despite a mutable caller alias
+not ok 1 - D01-A: journaling must preserve the frozen command actually resolved despite a mutable caller alias
+  ---
+  duration_ms: 6.7457
+  type: 'test'
+  location: 'C:\\Users\\mcdon\\Documents\\Codex\\2026-10-17\\execute-encounter-codex-lead-builder-m0\\work\\m1-tester-evidence\\M1_Independent_Contract_Tests.test.mjs:250:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    Original exact retry became rejected/IDENTITY_CONFLICT; journal now contains DE
+    + actual - expected
+    
+    + 'rejected'
+    - 'replayed'
+         ^
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: 'replayed'
+  actual: 'rejected'
+  operator: 'strictEqual'
+  stack: |-
+    TestContext.<anonymous> (file:///C:/Users/mcdon/Documents/Codex/2026-10-17/execute-encounter-codex-lead-builder-m0/work/m1-tester-evidence/M1_Independent_Contract_Tests.test.mjs:257:10)
+    Test.runInAsyncScope (node:async_hooks:227:14)
+    Test.run (node:internal/test_runner/test:1325:25)
+    Test.start (node:internal/test_runner/test:1191:17)
+    startSubtestAfterBootstrap (node:internal/test_runner/harness:385:17)
+  ...
+# Subtest: D01-B: effect callback aliases must not rewrite stored result identity and enable duplicate application
+not ok 2 - D01-B: effect callback aliases must not rewrite stored result identity and enable duplicate application
+  ---
+  duration_ms: 1.3637
+  type: 'test'
+  location: 'C:\\Users\\mcdon\\Documents\\Codex\\2026-10-17\\execute-encounter-codex-lead-builder-m0\\work\\m1-tester-evidence\\M1_Independent_Contract_Tests.test.mjs:259:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    Original result redelivery applied 2 effects; first result was stored as result_00ff/command_00ff
+    
+    2 !== 1
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: 1
+  actual: 2
+  operator: 'strictEqual'
+  stack: |-
+    TestContext.<anonymous> (file:///C:/Users/mcdon/Documents/Codex/2026-10-17/execute-encounter-codex-lead-builder-m0/work/m1-tester-evidence/M1_Independent_Contract_Tests.test.mjs:268:10)
+    Test.runInAsyncScope (node:async_hooks:227:14)
+    Test.run (node:internal/test_runner/test:1325:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+    Test.postRun (node:internal/test_runner/test:1465:19)
+    Test.run (node:internal/test_runner/test:1390:12)
+    async startSubtestAfterBootstrap (node:internal/test_runner/harness:385:3)
+  ...
+1..2
+# tests 2
+# suites 0
+# pass 0
+# fail 2
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 1075.7828
+
+STDERR:

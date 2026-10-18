@@ -1,0 +1,13 @@
+{
+  "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\encounter-r3-regression-nvh5ha7n",
+  "executable": "C:\\Users\\mcdon\\AppData\\Local\\Programs\\Python\\Python312\\python.EXE",
+  "args": [
+    "scripts/preserve-m3-r1.py"
+  ],
+  "environmentBinding": {
+    "M3_CHECKPOINT": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\encounter-r3-regression-nvh5ha7n"
+  },
+  "exitCode": 0,
+  "stdout": "{\"result\": \"PASS\", \"failedCheckpointSHA256\": \"de808fbdbf6929c5c9cf7915ea982086d5796c7c004b16ec0a882e58170f3b64\", \"failedIdentitySHA256\": \"d025fe33a6a2773e88e249ce3c624280fca70921c8f541617ec8e92d4302abf4\", \"verifiedHistoricalMembers\": 189, \"onlyProductionSourceChange\": \"src/m3/ui.mjs\", \"enginePolicyKnowledgeMeaningTypesAndAuthoredContentUnchanged\": true, \"allInheritedTestSourcesUnchanged\": true}\n",
+  "stderr": ""
+}

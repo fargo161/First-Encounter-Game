@@ -1,0 +1,181 @@
+{
+  "snapshot": "Encounter_M0_M1_Checkpoint_R2.zip",
+  "sha256": "47a879c74ac7f684ff5d3d7d1de742d800d8d5cd801fe833234707ec66be555d",
+  "files": [
+    {
+      "path": "evidence/D01_builder_before_fix.txt",
+      "bytes": 4827,
+      "sha256": "922869b659c1f487e14df4d6c039c860b7efb54718f11c6aa6272323263bcdde"
+    },
+    {
+      "path": "evidence/D01_tester_before_fix.txt",
+      "bytes": 3194,
+      "sha256": "5ea5bfa204a29335016efa786177e4db47ee5ef32d6bbf773ac985a1c372ba87"
+    },
+    {
+      "path": "evidence/M0_baseline_checks.txt",
+      "bytes": 1015,
+      "sha256": "4de1a31122cd3984994cc0e3e390b772162112faeefcfa564f2cdfe7c16cd617"
+    },
+    {
+      "path": "evidence/M1_contract_tests.txt",
+      "bytes": 4081,
+      "sha256": "4d449ee5293ada8195db8d16c87990e71e917d43f62f2fab2d213a715a638e9e"
+    },
+    {
+      "path": "evidence/M1_source_identity.json",
+      "bytes": 1958,
+      "sha256": "31dc710395fe26b921ab652b5b379c8f04aada5cc9b0015fbaed8d8ca96587b0"
+    },
+    {
+      "path": "evidence/M1_tester_supplied_tests.txt",
+      "bytes": 5985,
+      "sha256": "7f56b704a035ee3081f01036d273f3fb452e9926ce7176cd20b652195d52e152"
+    },
+    {
+      "path": "evidence/R2_environment.json",
+      "bytes": 469,
+      "sha256": "6f959f41d38627e610649967295d35ba07883b7afdbd0005138723a10eafe864"
+    },
+    {
+      "path": "evidence/R2_executed_commands.json",
+      "bytes": 1065,
+      "sha256": "41eaa2a7848ab54cbedbd108431753582e42035fd42e88829bee65bdd7c8b7e9"
+    },
+    {
+      "path": "evidence/source_preservation.json",
+      "bytes": 1803,
+      "sha256": "c276a0df09dbe2dd87cad024a78e733cc9fb09e9e17da54ab320564533a5fd3e"
+    },
+    {
+      "path": "independent/M1_Independent_Contract_Tests.test.mjs",
+      "bytes": 18469,
+      "sha256": "c591b4366097e77da7d21b4ddb861161a6ee3e71e9bc2af15acf5f1393ba4651"
+    },
+    {
+      "path": "independent/M1_Independent_Tester_Evidence.zip",
+      "bytes": 375777,
+      "sha256": "30e0f7937339958ac49980a410df74c044a8ceac8b79d5ac70587d4dee878932"
+    },
+    {
+      "path": "independent/M1_Independent_Tester_Review.md",
+      "bytes": 20460,
+      "sha256": "9eb82f368f336dea8db17cfc4347ccebb729d1988995c17a9d227267ab36c5a6"
+    },
+    {
+      "path": "M0_Baseline_Inventory_and_Reuse_Plan.md",
+      "bytes": 10324,
+      "sha256": "98ed23033d019d167f9c552c303442973d0a303a353237a862c64cc723afbaf1"
+    },
+    {
+      "path": "M1_Defect_Remediation_Report.md",
+      "bytes": 5778,
+      "sha256": "cbdd000ff5810621e1366773f1203514eac4a8521059eb8dd53868619ec3f74e"
+    },
+    {
+      "path": "M1_M2_Contract_Note.md",
+      "bytes": 25917,
+      "sha256": "d25e983c8e5f6fd1ab40a852876cecf4283353f392d2f907e0e2ab8eaa7fed11"
+    },
+    {
+      "path": "package.json",
+      "bytes": 324,
+      "sha256": "5b4fb83fc160c701da73b47edb68d7d7befd12fab23ee42063c1cf7329e09f5d"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1919,
+      "sha256": "9b8b2f10288ddb8cf3c0b71c48b24aeecdcef687593f64291b967c5169932523"
+    },
+    {
+      "path": "reference/Encounter_Approval_Record_2026-10-17.md",
+      "bytes": 3645,
+      "sha256": "552b8eb6c5ee7c16a6f4ddf17a9b407cb46698e5e252e79e88c1a6dcefb8e778"
+    },
+    {
+      "path": "reference/Encounter_Codex_Lead_Builder_M0-M2_Prompt.md",
+      "bytes": 27485,
+      "sha256": "e3942a672d064969c2629ae4c878445f0ca82b258297c2598cee74eaba7305e4"
+    },
+    {
+      "path": "reference/Encounter_Codex_M1_Defect_Remediation_Prompt.md",
+      "bytes": 11406,
+      "sha256": "0f7aa7a8adbc1134cf901fa2659665a86c6e44eee34ec38ee7b6f5b0390e53c6"
+    },
+    {
+      "path": "reference/Encounter_Core.html",
+      "bytes": 102613,
+      "sha256": "c9b50efed0ead41d0faa69757969feff8ced1fbc22187c11989aa9ff2dd21eb9"
+    },
+    {
+      "path": "reference/Encounter_System_Master_v2.1.md",
+      "bytes": 280489,
+      "sha256": "6ded5dea91b4189b3901eb16beff244e3f3094ed220380314dd07cecc6e7ef37"
+    },
+    {
+      "path": "scripts/audit-baseline.cjs",
+      "bytes": 3989,
+      "sha256": "de46809ac6b84a7d25c5af45bd7932fb9bf54f9c776e172950612e80975eede9"
+    },
+    {
+      "path": "scripts/snapshot.py",
+      "bytes": 1450,
+      "sha256": "d09da945e4b85612ed6742fc63c9b69dd4c6e7003408bc696535950e12e90732"
+    },
+    {
+      "path": "scripts/source-identity.py",
+      "bytes": 945,
+      "sha256": "dab2f0cdb7a8931d0fb483bfdcd727ae7b49a693960e75bb4dd72cecc7dc7d8b"
+    },
+    {
+      "path": "scripts/verify-checkpoint.py",
+      "bytes": 1209,
+      "sha256": "9c4d0defcdae566646556046500564a868f984de68c44bbd01f860a1b705d35d"
+    },
+    {
+      "path": "src/action-boundary.mjs",
+      "bytes": 1304,
+      "sha256": "9e8b88efd9dd303fc2b0c5ac7f12a164a84a70c340cb7efe5e19c0727082f641"
+    },
+    {
+      "path": "src/contracts.mjs",
+      "bytes": 10930,
+      "sha256": "db7de91d1e53c687b4f0469238d51a9c95e8944ecbfb1388c975536aa4c96b78"
+    },
+    {
+      "path": "src/runtime.mjs",
+      "bytes": 4545,
+      "sha256": "657d97f16704c973a7696c712a53e9afe55cecd40a4dfdfbbb5e331ef9eecf89"
+    },
+    {
+      "path": "src/views.mjs",
+      "bytes": 4955,
+      "sha256": "be8138af95f8a3b5758d08013dd171b581c41db7448c9efa880645b8014b0ab9"
+    },
+    {
+      "path": "Test_Results_and_Scope.md",
+      "bytes": 7052,
+      "sha256": "8100e531c792993a73bc2fee9176bbfef75c32a22d079427f4d1d29b24522154"
+    },
+    {
+      "path": "tests/fixtures.mjs",
+      "bytes": 2294,
+      "sha256": "f4ddba46ab2804f0358d78c07d30c9c26adca42ea825b2744fee780ddb8b85e4"
+    },
+    {
+      "path": "tests/identity-regressions.test.mjs",
+      "bytes": 4523,
+      "sha256": "1aa8fa0650ea91c303519dac32966f10604a3552e76281444bb5ec6e4c787d00"
+    },
+    {
+      "path": "tests/runtime.test.mjs",
+      "bytes": 6980,
+      "sha256": "0b6da3c6f02565c02f0ed461fa63da0f4295514dce47967b727f17a63bf1e2a5"
+    },
+    {
+      "path": "tests/views.test.mjs",
+      "bytes": 12503,
+      "sha256": "159b1767ce62d9c4796e5a5c66ced265d9bdbd17ef0242516c8ccc548b047358"
+    }
+  ]
+}

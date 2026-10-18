@@ -1,0 +1,13 @@
+{
+  "os": "Microsoft Windows NT 10.0.26200.0",
+  "powerShell": "7.6.5",
+  "nodeExecutable": "C:\\Program Files\\nodejs\\node.exe",
+  "nodeVersion": "v24.18.0",
+  "pythonExecutable": "C:\\Users\\mcdon\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+  "pythonVersion": "Python 3.12.0",
+  "npmVersion": "11.16.0",
+  "gitVersion": "git version 2.55.0.windows.3",
+  "timezone": "Eastern Standard Time",
+  "browser": "Desktop in-app browser; exact engine version unavailable",
+  "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc"
+}

@@ -1,3 +1,3 @@
 # Shared contracts area
 
-Documentation placeholder only. Existing executable schemas/contracts remain in the external source snapshots and retain subsystem ownership. No universal actor/state model, gameplay engine or shared schema has been implemented. Introduce only contracts required by an explicitly authorized real integration.
+No shared executable contracts are implemented. Encounter contracts remain owned by the imported packages/encounter-atlas source, including separate M1/M2 and M3 versions. Room Creator and ZANT contracts remain in external snapshots. Introduce only agreements required by a separately authorized integration.

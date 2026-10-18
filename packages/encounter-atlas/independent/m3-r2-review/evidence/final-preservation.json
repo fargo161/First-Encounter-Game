@@ -1,0 +1,27 @@
+{
+  "utc": "2026-10-18T05:29:18.701743+00:00",
+  "extractions": [
+    {
+      "extraction": "checkpoint",
+      "members": 1152,
+      "allMembersUnchanged": true,
+      "noMissingExtraFiles": true
+    },
+    {
+      "extraction": "r1-checkpoint",
+      "members": 592,
+      "allMembersUnchanged": true,
+      "noMissingExtraFiles": true
+    },
+    {
+      "extraction": "original-checkpoint",
+      "members": 189,
+      "allMembersUnchanged": true,
+      "noMissingExtraFiles": true
+    }
+  ],
+  "originalOuterHandoffAndAllSevenInputsUnchanged": true,
+  "remediationReportMatchesCheckpoint": true,
+  "frozenZipSha256": "c3c866834b64aebc573b42e2839e173bed486cdc8125a0287ddcd952f43a1a10",
+  "noProductionModificationOrRemediation": true
+}

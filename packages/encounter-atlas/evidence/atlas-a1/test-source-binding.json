@@ -1,0 +1,14 @@
+{
+  "sourceRevision": "Atlas-A1-person-source-v1",
+  "sourceDigest": "1a8558b3654e52881a288d2a5ab99e574878531f7a9d5fca86223e511146f085",
+  "compiledRuntimeInputsMatchFinalSource": true,
+  "assertionFileSHA256": "827e6caffdbc84e76055d912ed4675f583c39dd53b55c04fde47ccb016902781",
+  "AtlasBuildSHA256": "b9612d61f41bcf2bee5085902ff65c5e418b226de3dd5c8af6490ccd15e4ae9f",
+  "all2310DependencyMembersVerifiedByPreservationGate": true,
+  "browserFunctionalBuild": "4fee909e4ca708e471cea08e5f860fc99f05be9c9efae3cc90c98afd05fc8f1d",
+  "finalBrowserBuild": "b9612d61f41bcf2bee5085902ff65c5e418b226de3dd5c8af6490ccd15e4ae9f",
+  "finalBrowserChecks": 7,
+  "priorFunctionalChecks": 17,
+  "previewServerStopped": true,
+  "previewTabClosed": true
+}

@@ -5,9 +5,10 @@
     0,
     1,
     2,
-    3
+    3,
+    4
   ],
-  "subsystem_source_imported": false,
+  "subsystem_source_imported": true,
   "governing_documents": {
     "FIRST_ENCOUNTER_GAME_AUTHORIZE_STAGES_0_TO_3.md": {
       "source_path": "C:\\Users\\mcdon\\Downloads\\FIRST_ENCOUNTER_GAME_AUTHORIZE_STAGES_0_TO_3.md",
@@ -22,6 +23,14 @@
       "sha256": "cae388e3f659a42c0539ed7d57e5dd606e277d1797e4d0e6d7d592dce9ca41c7",
       "archive_path": "artifacts/external-intake/GITHUB_CONSOLIDATION_AUDIT_LAUNCH.md",
       "repository_path": "docs/provenance/governing/GITHUB_CONSOLIDATION_AUDIT_LAUNCH.md"
+    },
+    "FIRST_ENCOUNTER_GAME_STAGE_4_AUTHORIZATION.md": {
+      "source_path": "C:\\Users\\mcdon\\Downloads\\FIRST_ENCOUNTER_GAME_STAGE_4_AUTHORIZATION.md",
+      "repository_path": "docs/provenance/governing/FIRST_ENCOUNTER_GAME_STAGE_4_AUTHORIZATION.md",
+      "bytes": 2151,
+      "sha256": "fcabb0599cced3c96a93006c752b691f4539b9b67e11a0fc80012f498df06a3d",
+      "archive_root": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-4-import-2026-10-18",
+      "archive_path": "authorization/FIRST_ENCOUNTER_GAME_STAGE_4_AUTHORIZATION.md"
     }
   },
   "repository": {
@@ -136,7 +145,19 @@
         "Root README/package metadata retain older M3 wording and commands."
       ],
       "builder_vs_independent": "Builder verification is preserved separately. Independent report records 224 supplied and 21 new independent adversarial tests passing; inherited IR3-25 is disclosed.",
-      "working_checkpoint_alignment": "2731 regular checkpoint members matched during this preservation pass."
+      "working_checkpoint_alignment": "2731 regular checkpoint members matched during this preservation pass.",
+      "repository_import": {
+        "stage": 4,
+        "path": "packages/encounter-atlas",
+        "baseline_files": 2731,
+        "bytes": 422798195,
+        "source_digest": "1a8558b3654e52881a288d2a5ab99e574878531f7a9d5fca86223e511146f085",
+        "tree_sha256": "01d90c554b2dc00bf169d98d8d4b36691f93311b3c0a81dc4d18da764008e76d",
+        "integrity": "BYTE_IDENTICAL",
+        "migration_behavior_verification": "PENDING_STAGE_5_NOT_AUTHORIZED",
+        "manifest": "docs/provenance/encounter-atlas-stage4-import.json",
+        "origin_snapshot_role": "The existing editable_source entry identifies the immutable pre-import source of authority. Current imported editable location is this repository path."
+      }
     },
     "room_creator": {
       "acceptance": "HOLD_FOR_FURTHER_REMEDIATION",
@@ -365,9 +386,19 @@
     }
   },
   "verification_this_execution": {
+    "stage": 4,
+    "source_builds_or_behavior_tests_executed": false,
+    "fresh_checks": "Complete imported tree membership and byte hashes, independent 132-input digest, preserved origin alignment, required saved-run presence, unchanged originals and Git byte integrity.",
+    "stage5_executed": false
+  },
+  "next_stage": "Stage 5 Encounter/Atlas verification requires explicit new user authorization.",
+  "current_authorized_stage": 4,
+  "imported_subsystems": [
+    "encounter_atlas"
+  ],
+  "verification_history_stage_0_to_3": {
     "source_builds_or_behavior_tests_executed": false,
     "fresh_checks": "Copy hashes, original hashes/sizes/mtimes, directory membership, principal ZIP hashes/CRC/member alignment, all 20 neutral-lock files.",
     "prior_independent_reports": "Preserved evidence, not newly rerun results."
-  },
-  "next_stage": "Stage 4 Encounter/Atlas import requires explicit new user authorization."
+  }
 }

@@ -1,0 +1,136 @@
+{
+  "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\encounter-r3-regression-nvh5ha7n",
+  "executable": "C:\\Program Files\\nodejs\\node.EXE",
+  "args": [
+    "--test",
+    "--test-reporter=tap",
+    "independent/M2_Independent_Contract_Tests.test.mjs"
+  ],
+  "environmentBinding": {
+    "ENCOUNTER_CHECKPOINT": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\encounter-r3-regression-nvh5ha7n",
+    "M2_BROWSER_EVIDENCE": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\encounter-r3-regression-nvh5ha7n\\independent\\m2-browser-evidence"
+  },
+  "exitCode": 0
+}
+
+STDOUT
+TAP version 13
+# Subtest: IM2-01: repeated edits/abandoned drafts do not teach, spend or advance a run
+ok 1 - IM2-01: repeated edits/abandoned drafts do not teach, spend or advance a run
+  ---
+  duration_ms: 48.2369
+  type: 'test'
+  ...
+# Subtest: IM2-02: all nine first requests preserve canonical meaning and the protected ordinary path
+ok 2 - IM2-02: all nine first requests preserve canonical meaning and the protected ordinary path
+  ---
+  duration_ms: 221.1664
+  type: 'test'
+  ...
+# Subtest: IM2-03: salience changes only prominence for both acts under each contrasting vibe
+ok 3 - IM2-03: salience changes only prominence for both acts under each contrasting vibe
+  ---
+  duration_ms: 119.9241
+  type: 'test'
+  ...
+# Subtest: IM2-04: vocabulary discloses the file split only after explanation, never the private value
+ok 4 - IM2-04: vocabulary discloses the file split only after explanation, never the private value
+  ---
+  duration_ms: 61.1279
+  type: 'test'
+  ...
+# Subtest: IM2-05: complete three-command path has two responses and no material transfer or invented mind
+ok 5 - IM2-05: complete three-command path has two responses and no material transfer or invented mind
+  ---
+  duration_ms: 66.4771
+  type: 'test'
+  ...
+# Subtest: IM2-06: equal complete outward paths with different private selectors/provenance have equal future listener traces
+ok 6 - IM2-06: equal complete outward paths with different private selectors/provenance have equal future listener traces
+  ---
+  duration_ms: 203.4896
+  type: 'test'
+  ...
+# Subtest: IM2-07: hidden-world changes do not become NPC evidence before receipt
+ok 7 - IM2-07: hidden-world changes do not become NPC evidence before receipt
+  ---
+  duration_ms: 160.5691
+  type: 'test'
+  ...
+# Subtest: IM2-08: permission is not inspection; performed detail is readable only by the declared reader
+ok 8 - IM2-08: permission is not inspection; performed detail is readable only by the declared reader
+  ---
+  duration_ms: 52.9315
+  type: 'test'
+  ...
+# Subtest: IM2-09: every actual NPC source/root read path returns received fragments without hidden canaries
+ok 9 - IM2-09: every actual NPC source/root read path returns received fragments without hidden canaries
+  ---
+  duration_ms: 54.4377
+  type: 'test'
+  ...
+# Subtest: IM2-10: actual policy inputs exclude hidden proxies, while performed cues are retained
+ok 10 - IM2-10: actual policy inputs exclude hidden proxies, while performed cues are retained
+  ---
+  duration_ms: 61.7457
+  type: 'test'
+  ...
+# Subtest: IM2-11: the later received assertion is a report, not retroactive observation or a rewritten request
+ok 11 - IM2-11: the later received assertion is a report, not retroactive observation or a rewritten request
+  ---
+  duration_ms: 46.4096
+  type: 'test'
+  ...
+# Subtest: IM2-12: all committed command kinds preserve exact retry, collision and new-stale safety
+ok 12 - IM2-12: all committed command kinds preserve exact retry, collision and new-stale safety
+  ---
+  duration_ms: 73.3926
+  type: 'test'
+  ...
+# Subtest: IM2-13: technical rejection and failed staged result produce no fictional partial action
+ok 13 - IM2-13: technical rejection and failed staged result produce no fictional partial action
+  ---
+  duration_ms: 84.3113
+  type: 'test'
+  ...
+# Subtest: IM2-14: physical result redelivery cannot add observations, opportunities or effects
+ok 14 - IM2-14: physical result redelivery cannot add observations, opportunities or effects
+  ---
+  duration_ms: 54.7717
+  type: 'test'
+  ...
+# Subtest: IM2-15: repeated inspector and performance reads remain detached and mechanically neutral
+ok 15 - IM2-15: repeated inspector and performance reads remain detached and mechanically neutral
+  ---
+  duration_ms: 215.8971
+  type: 'test'
+  ...
+# Subtest: IM2-16: a fully renamed neutral fixture and missing optional assets preserve the connected mechanics
+ok 16 - IM2-16: a fully renamed neutral fixture and missing optional assets preserve the connected mechanics
+  ---
+  duration_ms: 67.6423
+  type: 'test'
+  ...
+# Subtest: IM2-17: exact save/package import preserves retry history and rejects altered or legacy saves
+ok 17 - IM2-17: exact save/package import preserves retry history and rejects altered or legacy saves
+  ---
+  duration_ms: 185.5511
+  type: 'test'
+  ...
+# Subtest: IM2-18: delivered and independently generated browser runs replay exactly and match their inspector traces
+ok 18 - IM2-18: delivered and independently generated browser runs replay exactly and match their inspector traces
+  ---
+  duration_ms: 135.3624
+  type: 'test'
+  ...
+1..18
+# tests 18
+# suites 0
+# pass 18
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 3592.5591
+
+STDERR

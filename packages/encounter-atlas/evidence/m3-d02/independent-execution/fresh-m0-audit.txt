@@ -1,0 +1,31 @@
+{
+  "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\m3-r1-independent-review\\tooling-clone",
+  "executable": "C:\\Program Files\\nodejs\\node.EXE",
+  "args": [
+    "scripts/audit-baseline.cjs"
+  ],
+  "environmentBinding": {
+    "ENCOUNTER_CHECKPOINT": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\m3-r1-independent-review\\tooling-clone",
+    "M2_BROWSER_EVIDENCE": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\m3-r1-independent-review\\tooling-clone\\independent\\m2-browser-evidence"
+  },
+  "exitCode": 0
+}
+
+STDOUT
+PASS catalog: twenty distinct ordered pairs and three settings
+PASS sample world and new session validate
+PASS preview leaves baseline state byte-equivalent
+PASS spoken claim reaches legacy NPC as hearsay
+PASS proposal transfers nothing; exact confirmation transfers once; stale retry fails
+PASS new stale send is rejected without mutating its input
+PASS legacy public view demonstrably includes all topics and NPC good quantities
+{
+  "milestone": "M0",
+  "baselineSHA256": "c9b50efed0ead41d0faa69757969feff8ced1fbc22187c11989aa9ff2dd21eb9",
+  "checksPassed": 7,
+  "checksFailed": 0,
+  "browserExecuted": false,
+  "historicalSuiteRecovered": false
+}
+
+STDERR

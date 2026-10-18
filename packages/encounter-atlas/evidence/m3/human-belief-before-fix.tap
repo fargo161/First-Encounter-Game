@@ -1,0 +1,32 @@
+TAP version 13
+# Subtest: M3-43 human knowledge is received information, never a simulated accepted belief or psychology
+not ok 1 - M3-43 human knowledge is received information, never a simulated accepted belief or psychology
+  ---
+  duration_ms: 445.9054
+  type: 'test'
+  location: 'C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\Encounter_M3\\tests\\m3.test.mjs:152:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    Expected values to be strictly equal:
+    
+    7 !== 0
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: 0
+  actual: 7
+  operator: 'strictEqual'
+  stack: |-
+    TestContext.<anonymous> (file:///C:/Users/mcdon/Documents/ChatGPT/encounter%20and%20rc/work/Encounter_M3/tests/m3.test.mjs:153:84)
+    async Test.run (node:internal/test_runner/test:1332:7)
+    async startSubtestAfterBootstrap (node:internal/test_runner/harness:385:3)
+  ...
+1..1
+# tests 1
+# suites 0
+# pass 0
+# fail 1
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 1715.7283

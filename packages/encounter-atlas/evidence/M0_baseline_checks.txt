@@ -1,0 +1,23 @@
+CWD: C:\Users\mcdon\Documents\Codex\2026-10-17\execute-encounter-codex-lead-builder-m0\outputs\Encounter_M0_M1_R2
+ENCOUNTER_CHECKPOINT: C:\Users\mcdon\Documents\Codex\2026-10-17\execute-encounter-codex-lead-builder-m0\outputs\Encounter_M0_M1_R2
+COMMAND: "C:\Program Files\nodejs\node.EXE" scripts/audit-baseline.cjs
+EXIT: 0
+
+STDOUT:
+PASS catalog: twenty distinct ordered pairs and three settings
+PASS sample world and new session validate
+PASS preview leaves baseline state byte-equivalent
+PASS spoken claim reaches legacy NPC as hearsay
+PASS proposal transfers nothing; exact confirmation transfers once; stale retry fails
+PASS new stale send is rejected without mutating its input
+PASS legacy public view demonstrably includes all topics and NPC good quantities
+{
+  "milestone": "M0",
+  "baselineSHA256": "c9b50efed0ead41d0faa69757969feff8ced1fbc22187c11989aa9ff2dd21eb9",
+  "checksPassed": 7,
+  "checksFailed": 0,
+  "browserExecuted": false,
+  "historicalSuiteRecovered": false
+}
+
+STDERR:

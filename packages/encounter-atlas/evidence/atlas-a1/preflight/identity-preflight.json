@@ -1,0 +1,30 @@
+{
+  "baseline": "Encounter_AR0_Atlas_Readiness_Checkpoint_R1.zip",
+  "ZIPsha256": "f5566fdcfa82dc8aaee9378d7a0e894f10a4a2342100b7665cbd1c23e26e72da",
+  "sourceRevision": "AR0-projection-v1-R1-D01",
+  "sourceDigest": "8dd542efed9f74573bcb1913d367f7c791d63c3830d65b7f35f68abdcb92f09c",
+  "all2310MembersMatchDeliveredTree": true,
+  "all112ListedSourceInputsVerified": true,
+  "all1430AcceptedM3R3MembersUnchanged": true,
+  "independentAcceptanceEvidenceZIPsha256": "97e4640d6dc3ef8c47174ecb74ba60b2a29f7b5efdbada8e32fbe5fcf5667295",
+  "independentEvidenceMembersVerified": 501,
+  "independentVerdict": "READY FOR ATLAS v0.1",
+  "auditInputs": [
+    {
+      "path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\ATLAS_PLAIN_LANGUAGE_VOCABULARY.md",
+      "sha256": "e375a2f7c6711dd887d107f372b5ddb8f18ec3a6585d40b0c0230d6c3f72669d",
+      "bytes": 49129
+    },
+    {
+      "path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\ATLAS_FIRST_WORKFLOWS.md",
+      "sha256": "f99f0525759d736a7ac4065477669b429dd72428050c9c2ed95ac24f725e46dc",
+      "bytes": 21359
+    },
+    {
+      "path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\ATLAS_AUDIT_REPORT.md",
+      "sha256": "111a89855e9f0f31fe9bde35432685b8227fc30288aa44c0bb5786ab27541f6c",
+      "bytes": 17689
+    }
+  ],
+  "implementationStarted": false
+}

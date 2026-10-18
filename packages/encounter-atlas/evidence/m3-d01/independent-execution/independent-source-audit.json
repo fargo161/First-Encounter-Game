@@ -1,0 +1,22 @@
+[
+  {
+    "file": "engine.mjs",
+    "bytes": 39620
+  },
+  {
+    "file": "knowledge.mjs",
+    "bytes": 5394
+  },
+  {
+    "file": "meaning.mjs",
+    "bytes": 6467
+  },
+  {
+    "file": "policy.mjs",
+    "bytes": 5521
+  },
+  {
+    "file": "types.mjs",
+    "bytes": 10100
+  }
+]

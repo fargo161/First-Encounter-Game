@@ -1,0 +1,40 @@
+{
+  "result": "PASS",
+  "original_references": [
+    {
+      "source": "C:\\Users\\mcdon\\Downloads\\Encounter_Codex_Lead_Builder_M0-M2_Prompt.md",
+      "member": "reference/Encounter_Codex_Lead_Builder_M0-M2_Prompt.md",
+      "sha256": "e3942a672d064969c2629ae4c878445f0ca82b258297c2598cee74eaba7305e4",
+      "match": true
+    },
+    {
+      "source": "C:\\Users\\mcdon\\Downloads\\Encounter_System_Master_v2.1 (1).md",
+      "member": "reference/Encounter_System_Master_v2.1.md",
+      "sha256": "6ded5dea91b4189b3901eb16beff244e3f3094ed220380314dd07cecc6e7ef37",
+      "match": true
+    },
+    {
+      "source": "C:\\Users\\mcdon\\Downloads\\Encounter_Approval_Record_2026-10-17 (1).md",
+      "member": "reference/Encounter_Approval_Record_2026-10-17.md",
+      "sha256": "552b8eb6c5ee7c16a6f4ddf17a9b407cb46698e5e252e79e88c1a6dcefb8e778",
+      "match": true
+    },
+    {
+      "source": "C:\\Users\\mcdon\\Downloads\\Encounter_Core (1).html",
+      "member": "reference/Encounter_Core.html",
+      "sha256": "c9b50efed0ead41d0faa69757969feff8ced1fbc22187c11989aa9ff2dd21eb9",
+      "match": true
+    }
+  ],
+  "old_checkpoint_sha256": "e42900345ee3c1aba1956d6212577683321bc5c5f42ab3e1d6f12eb45fceb3bf",
+  "old_identity_sha256": "0a468470e3c76906a88a192c4898df12cff2d58fb77e64aeb51c49f94a4029e0",
+  "old_expanded_members_unchanged": 24,
+  "tester_bundle_sha256": "30e0f7937339958ac49980a410df74c044a8ceac8b79d5ac70587d4dee878932",
+  "tester_test_sha256": "c591b4366097e77da7d21b4ddb861161a6ee3e71e9bc2af15acf5f1393ba4651",
+  "tester_report_sha256": "9eb82f368f336dea8db17cfc4347ccebb729d1988995c17a9d227267ab36c5a6",
+  "changed_production_files": [
+    "src/action-boundary.mjs",
+    "src/runtime.mjs"
+  ],
+  "original_builder_test_files_unchanged": true
+}

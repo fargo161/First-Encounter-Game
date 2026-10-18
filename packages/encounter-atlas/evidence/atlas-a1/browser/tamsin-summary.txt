@@ -1,0 +1,117 @@
+PERSON INSPECTION
+
+Tamsin
+
+Modeled character
+
+READ-ONLY
+Identity
+
+Information received in this run
+
+Encounter details
+Received information
+15 records
+
+The same information may be received more than once. Repeated entries do not mean independent sources.
+
+Direct evidence
+
+A wrapped green case moved toward the partition; its exact identity was not established by that sighting
+
+Starting information
+
+Source How this information arrived
+Direct evidence
+
+Case is in dry storage
+
+Starting information · Received evidence at this saved point; this does not establish current custody.
+
+Source How this information arrived
+Direct evidence
+
+Moved after a spill to protect it from damp
+
+Starting information
+
+Source How this information arrived
+Direct evidence
+
+Original collected entry meant removed from the rack
+
+Starting information
+
+Source How this information arrived
+Received by sight
+
+Collection authority verified.
+
+Source How this information arrived
+Other received context and communications 10 records
+Beliefs
+4 records
+Believes
+
+Tamsin believes: A wrapped green case moved toward the partition; its exact identity was not established by that sighting
+
+An NPC conclusion from received evidence; not an assertion of objective world truth. Earlier location evidence is separate from current holding.
+
+Source How this information arrived
+Believes
+
+Tamsin believes: Case is in dry storage
+
+An NPC conclusion from received evidence; not an assertion of objective world truth. Earlier location evidence is separate from current holding.
+
+Source How this information arrived
+Believes
+
+Tamsin believes: Moved after a spill to protect it from damp
+
+An NPC conclusion from received evidence; not an assertion of objective world truth. Earlier location evidence is separate from current holding.
+
+Source How this information arrived
+Believes
+
+Tamsin believes: Original collected entry meant removed from the rack
+
+An NPC conclusion from received evidence; not an assertion of objective world truth. Earlier location evidence is separate from current holding.
+
+Source How this information arrived
+Concerns
+1 record
+Concern
+
+Tamsin has a concern that Collector is seeking unrelated private information.
+
+An interpretation of received conduct, not proof of motive. Addressing a concern does not erase its recorded history or warning.
+
+Source How this information arrived
+Communications
+5 records
+Sent communication
+
+Communicated to Collector: The customer file contains case-handling material and unrelated private contact information. The relevant extract and permitted handling tray are available. Private contact values remain covered.
+
+Source How this information arrived
+Sent communication
+
+Communicated to Collector: I refer you to the recorded entry and the relevant inspection route rather than explaining the earlier movement.
+
+Source How this information arrived
+Sent communication
+
+Communicated to Collector: No extra collection charge is due. I decline the ordinary payment offer as unnecessary. No money moves and no new debt or bribery judgment is created.
+
+Source How this information arrived
+Sent communication
+
+Communicated to Collector: I decline that unrelated or protected scope. The case-only route remains the relevant collection route while service is open.
+
+Source How this information arrived
+Sent communication
+
+Communicated to Collector: Further relevant-file access is limited to a supervised comparison. That case-only comparison remains available to complete collection. Renewing a demand for protected/full-file information, or asking me to bypass that boundary, will end collection service for this visit. This warning still applies after clarification or repair.
+
+Source How this information arrived

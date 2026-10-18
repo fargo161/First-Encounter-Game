@@ -1,0 +1,37 @@
+[
+  {
+    "label": "M0_baseline_checks",
+    "cwd": "C:\\Users\\mcdon\\Documents\\Codex\\2026-10-17\\execute-encounter-codex-lead-builder-m0\\outputs\\Encounter_M0_M1_R2",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.EXE",
+      "scripts/audit-baseline.cjs"
+    ],
+    "exit": 0,
+    "passed": 7,
+    "failed": 0
+  },
+  {
+    "label": "M1_contract_tests",
+    "cwd": "C:\\Users\\mcdon\\Documents\\Codex\\2026-10-17\\execute-encounter-codex-lead-builder-m0\\outputs\\Encounter_M0_M1_R2",
+    "argv": [
+      "C:\\Program Files\\nodejs\\npm.cmd",
+      "test"
+    ],
+    "exit": 0,
+    "passed": 38,
+    "failed": 0
+  },
+  {
+    "label": "M1_tester_supplied_tests",
+    "cwd": "C:\\Users\\mcdon\\Documents\\Codex\\2026-10-17\\execute-encounter-codex-lead-builder-m0\\outputs\\Encounter_M0_M1_R2",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.EXE",
+      "--test",
+      "--test-reporter=tap",
+      "independent/M1_Independent_Contract_Tests.test.mjs"
+    ],
+    "exit": 0,
+    "passed": 22,
+    "failed": 0
+  }
+]

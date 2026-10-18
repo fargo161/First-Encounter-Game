@@ -1,0 +1,600 @@
+{
+  "validatedSaves": 17,
+  "packageRef": {
+    "id": "package_0003",
+    "revision": 1,
+    "digest": "2ce9f61b996f17392a39c56f4005d8203b7940aa4974564fafa54d110e35ae8f"
+  },
+  "runs": [
+    {
+      "name": "browser-initial-run",
+      "origin": "Fresh visible UI on exact frozen build",
+      "revision": 0,
+      "sha256": "233e5d1241d126cbc66e3c5d58f1e450c310ec4fd35e9e6d8fba5e8e466d5204",
+      "outcomes": {
+        "recovered": false,
+        "serviceOpen": true,
+        "ownerId": "actor_0003",
+        "holderId": "subject_0007",
+        "quantity": 1,
+        "balances": {
+          "actor_0001": 1200,
+          "actor_0002": 0,
+          "actor_0004": 0
+        },
+        "recordCorrected": false,
+        "privateDisclosed": false
+      },
+      "visits": [
+        {
+          "holderId": "actor_0002",
+          "repairUsed": false,
+          "restricted": false,
+          "restrictedOrRepaired": false,
+          "restrictionMessageId": null,
+          "serviceId": "service_0001",
+          "warningMessageId": null
+        }
+      ],
+      "technicalDefects": [],
+      "closureResults": 0,
+      "handoverResults": 0
+    },
+    {
+      "name": "browser-permission-only",
+      "origin": "Fresh visible UI on exact frozen build",
+      "revision": 2,
+      "sha256": "3ce53e87b06cdaeab19e0600c6d6d38bf5c542907759c1ec2d8a1e4381631bca",
+      "outcomes": {
+        "recovered": false,
+        "serviceOpen": true,
+        "ownerId": "actor_0003",
+        "holderId": "subject_0007",
+        "quantity": 1,
+        "balances": {
+          "actor_0001": 1200,
+          "actor_0002": 0,
+          "actor_0004": 0
+        },
+        "recordCorrected": false,
+        "privateDisclosed": false
+      },
+      "visits": [
+        {
+          "holderId": "actor_0002",
+          "repairUsed": false,
+          "restricted": false,
+          "restrictedOrRepaired": false,
+          "restrictionMessageId": null,
+          "serviceId": "service_0001",
+          "warningMessageId": null
+        }
+      ],
+      "technicalDefects": [],
+      "closureResults": 0,
+      "handoverResults": 0
+    },
+    {
+      "name": "browser-partial-evidence",
+      "origin": "Fresh visible UI on exact frozen build",
+      "revision": 3,
+      "sha256": "d72140af7002330ccd49933732a85ce1fd5929b7000b0484329c9b89d4e8cc29",
+      "outcomes": {
+        "recovered": false,
+        "serviceOpen": true,
+        "ownerId": "actor_0003",
+        "holderId": "subject_0007",
+        "quantity": 1,
+        "balances": {
+          "actor_0001": 1200,
+          "actor_0002": 0,
+          "actor_0004": 0
+        },
+        "recordCorrected": false,
+        "privateDisclosed": false
+      },
+      "visits": [
+        {
+          "holderId": "actor_0002",
+          "repairUsed": false,
+          "restricted": false,
+          "restrictedOrRepaired": false,
+          "restrictionMessageId": null,
+          "serviceId": "service_0001",
+          "warningMessageId": null
+        }
+      ],
+      "technicalDefects": [],
+      "closureResults": 0,
+      "handoverResults": 0
+    },
+    {
+      "name": "browser-pending-handover",
+      "origin": "Fresh visible UI on exact frozen build",
+      "revision": 11,
+      "sha256": "2d0e94430b2981d4e8029b5070079c7d2778b45797e2f2de050c88c603290cda",
+      "outcomes": {
+        "recovered": false,
+        "serviceOpen": true,
+        "ownerId": "actor_0003",
+        "holderId": "subject_0007",
+        "quantity": 1,
+        "balances": {
+          "actor_0001": 1200,
+          "actor_0002": 0,
+          "actor_0004": 0
+        },
+        "recordCorrected": false,
+        "privateDisclosed": false
+      },
+      "visits": [
+        {
+          "holderId": "actor_0002",
+          "repairUsed": false,
+          "restricted": false,
+          "restrictedOrRepaired": false,
+          "restrictionMessageId": null,
+          "serviceId": "service_0001",
+          "warningMessageId": null
+        }
+      ],
+      "technicalDefects": [],
+      "closureResults": 0,
+      "handoverResults": 0
+    },
+    {
+      "name": "browser-after-conversational-yes",
+      "origin": "Fresh visible UI on exact frozen build",
+      "revision": 12,
+      "sha256": "33b3fa6a019f1f99d42dac8be90d1274ddc4f3d3c07e8e8a5336cec5a92ba2b0",
+      "outcomes": {
+        "recovered": false,
+        "serviceOpen": true,
+        "ownerId": "actor_0003",
+        "holderId": "subject_0007",
+        "quantity": 1,
+        "balances": {
+          "actor_0001": 1200,
+          "actor_0002": 0,
+          "actor_0004": 0
+        },
+        "recordCorrected": false,
+        "privateDisclosed": false
+      },
+      "visits": [
+        {
+          "holderId": "actor_0002",
+          "repairUsed": false,
+          "restricted": false,
+          "restrictedOrRepaired": false,
+          "restrictionMessageId": null,
+          "serviceId": "service_0001",
+          "warningMessageId": null
+        }
+      ],
+      "technicalDefects": [],
+      "closureResults": 0,
+      "handoverResults": 0
+    },
+    {
+      "name": "browser-clean-recovery",
+      "origin": "Fresh visible UI on exact frozen build",
+      "revision": 14,
+      "sha256": "86e0804cd16dcf91934033874b95a6f5bf75a9143a6c96cb36b19df18579e9c9",
+      "outcomes": {
+        "recovered": true,
+        "serviceOpen": true,
+        "ownerId": "actor_0003",
+        "holderId": "actor_0001",
+        "quantity": 1,
+        "balances": {
+          "actor_0001": 1200,
+          "actor_0002": 0,
+          "actor_0004": 0
+        },
+        "recordCorrected": true,
+        "privateDisclosed": false
+      },
+      "visits": [
+        {
+          "holderId": "actor_0002",
+          "repairUsed": false,
+          "restricted": false,
+          "restrictedOrRepaired": false,
+          "restrictionMessageId": null,
+          "serviceId": "service_0001",
+          "warningMessageId": null
+        }
+      ],
+      "technicalDefects": [],
+      "closureResults": 0,
+      "handoverResults": 1
+    },
+    {
+      "name": "browser-fresh-restricted",
+      "origin": "Fresh visible UI on exact frozen build",
+      "revision": 9,
+      "sha256": "205de1fae9fd97748c45d4e965a4a7562a77619e8b670aab4574cb34630f8d01",
+      "outcomes": {
+        "recovered": false,
+        "serviceOpen": true,
+        "ownerId": "actor_0003",
+        "holderId": "subject_0007",
+        "quantity": 1,
+        "balances": {
+          "actor_0001": 1200,
+          "actor_0002": 0,
+          "actor_0004": 0
+        },
+        "recordCorrected": false,
+        "privateDisclosed": false
+      },
+      "visits": [
+        {
+          "holderId": "actor_0002",
+          "repairUsed": false,
+          "restricted": true,
+          "restrictedOrRepaired": true,
+          "restrictionMessageId": "message_0008",
+          "serviceId": "service_0001",
+          "warningMessageId": "message_0008"
+        }
+      ],
+      "technicalDefects": [],
+      "closureResults": 0,
+      "handoverResults": 0
+    },
+    {
+      "name": "browser-before-substantive-repair",
+      "origin": "Fresh visible UI on exact frozen build",
+      "revision": 14,
+      "sha256": "c18d5f2f71aa5f68c494db698bba6e243b8282f1cd3f3ccd9cac2b911f3cdc39",
+      "outcomes": {
+        "recovered": false,
+        "serviceOpen": true,
+        "ownerId": "actor_0003",
+        "holderId": "subject_0007",
+        "quantity": 1,
+        "balances": {
+          "actor_0001": 1200,
+          "actor_0002": 0,
+          "actor_0004": 0
+        },
+        "recordCorrected": false,
+        "privateDisclosed": false
+      },
+      "visits": [
+        {
+          "holderId": "actor_0002",
+          "repairUsed": false,
+          "restricted": true,
+          "restrictedOrRepaired": true,
+          "restrictionMessageId": "message_0008",
+          "serviceId": "service_0001",
+          "warningMessageId": "message_0008"
+        }
+      ],
+      "technicalDefects": [],
+      "closureResults": 0,
+      "handoverResults": 0
+    },
+    {
+      "name": "browser-repaired-not-recovered",
+      "origin": "Fresh visible UI on exact frozen build",
+      "revision": 15,
+      "sha256": "cd002b5c468f864ae811ce149b86797aaa4819869635e7755da6dc8dbc7b58aa",
+      "outcomes": {
+        "recovered": false,
+        "serviceOpen": true,
+        "ownerId": "actor_0003",
+        "holderId": "subject_0007",
+        "quantity": 1,
+        "balances": {
+          "actor_0001": 1200,
+          "actor_0002": 0,
+          "actor_0004": 0
+        },
+        "recordCorrected": false,
+        "privateDisclosed": false
+      },
+      "visits": [
+        {
+          "holderId": "actor_0002",
+          "repairUsed": true,
+          "restricted": false,
+          "restrictedOrRepaired": true,
+          "restrictionMessageId": "message_0008",
+          "serviceId": "service_0001",
+          "warningMessageId": "message_0008"
+        }
+      ],
+      "technicalDefects": [],
+      "closureResults": 0,
+      "handoverResults": 0
+    },
+    {
+      "name": "browser-repaired-reloaded",
+      "origin": "Fresh visible UI on exact frozen build",
+      "revision": 15,
+      "sha256": "cd002b5c468f864ae811ce149b86797aaa4819869635e7755da6dc8dbc7b58aa",
+      "outcomes": {
+        "recovered": false,
+        "serviceOpen": true,
+        "ownerId": "actor_0003",
+        "holderId": "subject_0007",
+        "quantity": 1,
+        "balances": {
+          "actor_0001": 1200,
+          "actor_0002": 0,
+          "actor_0004": 0
+        },
+        "recordCorrected": false,
+        "privateDisclosed": false
+      },
+      "visits": [
+        {
+          "holderId": "actor_0002",
+          "repairUsed": true,
+          "restricted": false,
+          "restrictedOrRepaired": true,
+          "restrictionMessageId": "message_0008",
+          "serviceId": "service_0001",
+          "warningMessageId": "message_0008"
+        }
+      ],
+      "technicalDefects": [],
+      "closureResults": 0,
+      "handoverResults": 0
+    },
+    {
+      "name": "browser-repaired-recovery",
+      "origin": "Fresh visible UI on exact frozen build",
+      "revision": 17,
+      "sha256": "6855391141d907eb3750de333f0f11dc0134080f7c4d80d77ff9b2616334e8d0",
+      "outcomes": {
+        "recovered": true,
+        "serviceOpen": true,
+        "ownerId": "actor_0003",
+        "holderId": "actor_0001",
+        "quantity": 1,
+        "balances": {
+          "actor_0001": 1200,
+          "actor_0002": 0,
+          "actor_0004": 0
+        },
+        "recordCorrected": false,
+        "privateDisclosed": false
+      },
+      "visits": [
+        {
+          "holderId": "actor_0002",
+          "repairUsed": true,
+          "restricted": false,
+          "restrictedOrRepaired": true,
+          "restrictionMessageId": "message_0008",
+          "serviceId": "service_0001",
+          "warningMessageId": "message_0008"
+        }
+      ],
+      "technicalDefects": [],
+      "closureResults": 0,
+      "handoverResults": 1
+    },
+    {
+      "name": "browser-warned-closure",
+      "origin": "Fresh visible UI on exact frozen build",
+      "revision": 10,
+      "sha256": "e88c227297beeda48e6bab33390edce36ca082e1eaba59e809db21918690eeaf",
+      "outcomes": {
+        "recovered": false,
+        "serviceOpen": false,
+        "ownerId": "actor_0003",
+        "holderId": "subject_0007",
+        "quantity": 1,
+        "balances": {
+          "actor_0001": 1200,
+          "actor_0002": 0,
+          "actor_0004": 0
+        },
+        "recordCorrected": false,
+        "privateDisclosed": false
+      },
+      "visits": [
+        {
+          "holderId": "actor_0002",
+          "repairUsed": false,
+          "restricted": true,
+          "restrictedOrRepaired": true,
+          "restrictionMessageId": "message_0008",
+          "serviceId": "service_0001",
+          "warningMessageId": "message_0008"
+        }
+      ],
+      "technicalDefects": [],
+      "closureResults": 1,
+      "handoverResults": 0
+    },
+    {
+      "name": "browser-closed-reloaded",
+      "origin": "Fresh visible UI on exact frozen build",
+      "revision": 10,
+      "sha256": "e88c227297beeda48e6bab33390edce36ca082e1eaba59e809db21918690eeaf",
+      "outcomes": {
+        "recovered": false,
+        "serviceOpen": false,
+        "ownerId": "actor_0003",
+        "holderId": "subject_0007",
+        "quantity": 1,
+        "balances": {
+          "actor_0001": 1200,
+          "actor_0002": 0,
+          "actor_0004": 0
+        },
+        "recordCorrected": false,
+        "privateDisclosed": false
+      },
+      "visits": [
+        {
+          "holderId": "actor_0002",
+          "repairUsed": false,
+          "restricted": true,
+          "restrictedOrRepaired": true,
+          "restrictionMessageId": "message_0008",
+          "serviceId": "service_0001",
+          "warningMessageId": "message_0008"
+        }
+      ],
+      "technicalDefects": [],
+      "closureResults": 1,
+      "handoverResults": 0
+    },
+    {
+      "name": "browser-missing-display-receipt",
+      "origin": "Fresh visible UI on exact frozen build",
+      "revision": 10,
+      "sha256": "868d1c40f788f5111015c5ebb91a67de4970c18fb0e760ac0a70cd464db3785a",
+      "outcomes": {
+        "recovered": false,
+        "serviceOpen": true,
+        "ownerId": "actor_0003",
+        "holderId": "subject_0007",
+        "quantity": 1,
+        "balances": {
+          "actor_0001": 1200,
+          "actor_0002": 0,
+          "actor_0004": 0
+        },
+        "recordCorrected": false,
+        "privateDisclosed": false
+      },
+      "visits": [
+        {
+          "holderId": "actor_0002",
+          "repairUsed": false,
+          "restricted": true,
+          "restrictedOrRepaired": true,
+          "restrictionMessageId": "message_0008",
+          "serviceId": "service_0001",
+          "warningMessageId": "message_0008"
+        }
+      ],
+      "technicalDefects": [
+        {
+          "id": "defect_0001",
+          "commandId": "command_727b44e97f27470f9240b69d55421895",
+          "type": "MISSING_CLOSURE_PREVIEW",
+          "warningMessageId": "message_0008",
+          "serviceRemainsOpen": true
+        }
+      ],
+      "closureResults": 0,
+      "handoverResults": 0
+    },
+    {
+      "name": "browser-after-recovery-demand",
+      "origin": "Fresh visible UI on exact frozen build",
+      "revision": 18,
+      "sha256": "9f427b495a5816a87375d922413748362ddd5301694c3fe6d0d622c9a288cb41",
+      "outcomes": {
+        "recovered": true,
+        "serviceOpen": true,
+        "ownerId": "actor_0003",
+        "holderId": "actor_0001",
+        "quantity": 1,
+        "balances": {
+          "actor_0001": 1200,
+          "actor_0002": 0,
+          "actor_0004": 0
+        },
+        "recordCorrected": false,
+        "privateDisclosed": false
+      },
+      "visits": [
+        {
+          "holderId": "actor_0002",
+          "repairUsed": true,
+          "restricted": false,
+          "restrictedOrRepaired": true,
+          "restrictionMessageId": "message_0008",
+          "serviceId": "service_0001",
+          "warningMessageId": "message_0008"
+        }
+      ],
+      "technicalDefects": [],
+      "closureResults": 0,
+      "handoverResults": 1
+    },
+    {
+      "name": "browser-transparent-notice-result",
+      "origin": "Fresh visible UI on external CSS-only rendering-fault harness",
+      "revision": 10,
+      "sha256": "f3a6a6a7cbbe3742306a33b3c05a1eba7fa534c50bdeea02ddb7b8da34788089",
+      "outcomes": {
+        "recovered": false,
+        "serviceOpen": false,
+        "ownerId": "actor_0003",
+        "holderId": "subject_0007",
+        "quantity": 1,
+        "balances": {
+          "actor_0001": 1200,
+          "actor_0002": 0,
+          "actor_0004": 0
+        },
+        "recordCorrected": false,
+        "privateDisclosed": false
+      },
+      "visits": [
+        {
+          "holderId": "actor_0002",
+          "repairUsed": false,
+          "restricted": true,
+          "restrictedOrRepaired": true,
+          "restrictionMessageId": "message_0008",
+          "serviceId": "service_0001",
+          "warningMessageId": "message_0008"
+        }
+      ],
+      "technicalDefects": [],
+      "closureResults": 1,
+      "handoverResults": 0
+    },
+    {
+      "name": "browser-transparent-notice-repeat",
+      "origin": "Fresh visible UI on external CSS-only rendering-fault harness",
+      "revision": 10,
+      "sha256": "9e9fce832f91903f3a59e249d5c9bdfc1bf3029e5f603b154baad2666508f03e",
+      "outcomes": {
+        "recovered": false,
+        "serviceOpen": false,
+        "ownerId": "actor_0003",
+        "holderId": "subject_0007",
+        "quantity": 1,
+        "balances": {
+          "actor_0001": 1200,
+          "actor_0002": 0,
+          "actor_0004": 0
+        },
+        "recordCorrected": false,
+        "privateDisclosed": false
+      },
+      "visits": [
+        {
+          "holderId": "actor_0002",
+          "repairUsed": false,
+          "restricted": true,
+          "restrictedOrRepaired": true,
+          "restrictionMessageId": "message_0008",
+          "serviceId": "service_0001",
+          "warningMessageId": "message_0008"
+        }
+      ],
+      "technicalDefects": [],
+      "closureResults": 1,
+      "handoverResults": 0
+    }
+  ],
+  "blockingDefects": [
+    "M3-D01: fully transparent notice falsely acknowledged and collection service closed"
+  ],
+  "builderEvidenceUsedAsProof": false
+}

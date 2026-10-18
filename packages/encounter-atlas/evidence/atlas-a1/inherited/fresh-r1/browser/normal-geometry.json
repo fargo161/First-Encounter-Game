@@ -1,0 +1,76 @@
+{
+  "ancestors": [
+    {
+      "display": "block",
+      "id": "",
+      "opacity": "1",
+      "tag": "DIV",
+      "visibility": "visible"
+    },
+    {
+      "display": "block",
+      "id": "",
+      "opacity": "1",
+      "tag": "DIV",
+      "visibility": "visible"
+    },
+    {
+      "display": "block",
+      "id": "composer",
+      "opacity": "1",
+      "tag": "SECTION",
+      "visibility": "visible"
+    },
+    {
+      "display": "grid",
+      "id": "",
+      "opacity": "1",
+      "tag": "DIV",
+      "visibility": "visible"
+    },
+    {
+      "display": "grid",
+      "id": "",
+      "opacity": "1",
+      "tag": "MAIN",
+      "visibility": "visible"
+    },
+    {
+      "display": "block",
+      "id": "",
+      "opacity": "1",
+      "tag": "DIV",
+      "visibility": "visible"
+    },
+    {
+      "display": "block",
+      "id": "",
+      "opacity": "1",
+      "tag": "BODY",
+      "visibility": "visible"
+    },
+    {
+      "display": "block",
+      "id": "",
+      "opacity": "1",
+      "tag": "HTML",
+      "visibility": "visible"
+    }
+  ],
+  "display": "block",
+  "hidden": false,
+  "opacity": "1",
+  "rect": {
+    "bottom": 543.8500137329102,
+    "height": 87.6500015258789,
+    "left": 57.20000076293945,
+    "right": 405.5999946594238,
+    "top": 456.2000122070313,
+    "width": 348.3999938964844
+  },
+  "viewport": {
+    "height": 764,
+    "width": 920
+  },
+  "visibility": "visible"
+}

@@ -1,0 +1,55 @@
+{
+  "browser": "Codex In-app Browser",
+  "url": "http://127.0.0.1:8765/",
+  "checks": [
+    {
+      "name": "Draft edits preserve revision and initial notebook secrecy",
+      "passed": true
+    },
+    {
+      "name": "Send commits once and enters distinct Intake",
+      "passed": true
+    },
+    {
+      "name": "Delivery explains split and permission reveals no inspected detail",
+      "passed": true
+    },
+    {
+      "name": "Deliberate inspection reveals only permitted handling detail",
+      "passed": true
+    },
+    {
+      "name": "Follow-up is a new message and Delivery acknowledges a received report",
+      "passed": true
+    },
+    {
+      "name": "Manual save JSON download completes",
+      "passed": true
+    },
+    {
+      "name": "Replay and skip preserve the complete saved run byte-for-byte",
+      "passed": true
+    },
+    {
+      "name": "Inspector has two actual listener inputs, one claim, and no protected value",
+      "passed": true
+    },
+    {
+      "name": "Valid manual run import restores revision 3 without duplicate effects",
+      "passed": true
+    },
+    {
+      "name": "Legacy save rejected with explicit compatibility notice",
+      "passed": true
+    },
+    {
+      "name": "Inspector refresh and valid/invalid import preserve the exact authoritative run",
+      "passed": true
+    },
+    {
+      "name": "Downloaded run JSON matches the browser export",
+      "passed": true
+    }
+  ],
+  "console": []
+}

@@ -1,0 +1,14 @@
+{
+  "artifact": "AR0_Independent_Test_Evidence.zip",
+  "bytes": 110396074,
+  "sha256": "88a8484fff91c7464e4a69362d5b794bd9ad8a14485f2f71c91a4042118f61e7",
+  "members": 522,
+  "allMembersVerified": true,
+  "reviewedCheckpointSHA256": "d028b50107d639ade1ab31a1a68f5e70eaf8ebdc3a401f0abac9b9c2caa51828",
+  "verdict": "NOT READY FOR ATLAS v0.1",
+  "blockingDefects": [
+    "AR0-D01"
+  ],
+  "M3RegressionPreserved": true,
+  "knownIR3_25UnchangedNonBlocking": true
+}

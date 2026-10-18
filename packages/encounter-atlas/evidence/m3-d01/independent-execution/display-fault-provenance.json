@@ -1,0 +1,7 @@
+{
+  "originalBuildSha256": "4fa1f60a1ec6a561375bdc38799693943b0910886d2f7ea838099d9303469e58",
+  "harnessSha256": "0547a6659eceea8d6a175ee4955d52362d5cfa75203b956bbc8248ee581b1f36",
+  "injection": "<style id=\"independent-display-fault\">#closure-notice { opacity: 0 !important; }</style>",
+  "executableScriptBytesUnchanged": true,
+  "purpose": "Inject a rendering failure: notice has normal geometry but is fully transparent. Test no displayed notice = no closure."
+}

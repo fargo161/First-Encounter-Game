@@ -1,0 +1,33 @@
+{
+  "results": [
+    {
+      "operation": "validate",
+      "rejected": true,
+      "code": "CONFLICTING_ACTOR_CARD_BINDING"
+    },
+    {
+      "operation": "author",
+      "rejected": true,
+      "code": "CONFLICTING_ACTOR_CARD_BINDING"
+    },
+    {
+      "operation": "player",
+      "rejected": true,
+      "code": "CONFLICTING_ACTOR_CARD_BINDING"
+    }
+  ],
+  "runUnchanged": true,
+  "normalOwnerActorKind": "absent",
+  "normalOwnerObservationCount": 0,
+  "normalOwnerBeliefCount": 0,
+  "witnessObserverIds": [
+    "actor_0004"
+  ],
+  "witnessBeliefHolderIds": [
+    "actor_0004"
+  ],
+  "reportSpeakerRefs": [
+    "actor_0004"
+  ],
+  "ownerTopicAliasRetained": true
+}

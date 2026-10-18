@@ -1,0 +1,44 @@
+{
+  "exactDependencySourceRevision": "AR0-projection-v1-R1-D01",
+  "exactDependencySourceDigest": "8dd542efed9f74573bcb1913d367f7c791d63c3830d65b7f35f68abdcb92f09c",
+  "all112SourceInputsMatch": true,
+  "unchangedDependencyFilesAreAlsoVerifiedAgainstA1Tree": true,
+  "executionCopy": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\atlas-a1-inherited-gates\\checkpoint",
+  "legacyIdentityLabelsAreHistorical": true,
+  "commands": [
+    {
+      "name": "all-inherited",
+      "args": [
+        "python",
+        "scripts/check-ar0-r1.py"
+      ],
+      "exitCode": 0
+    },
+    {
+      "name": "independent-r1",
+      "args": [
+        "node",
+        "--test",
+        "--test-reporter=tap",
+        "independent-r1.test.mjs"
+      ],
+      "exitCode": 0
+    },
+    {
+      "name": "retained-ar0-evidence",
+      "args": [
+        "node",
+        "scripts/generate-ar0-evidence.mjs"
+      ],
+      "exitCode": 0
+    },
+    {
+      "name": "r1-proof-evidence",
+      "args": [
+        "node",
+        "scripts/generate-ar0-r1-evidence.mjs"
+      ],
+      "exitCode": 0
+    }
+  ]
+}

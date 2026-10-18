@@ -1,0 +1,66 @@
+{
+  "ancestors": [
+    {
+      "id": "closure-notice",
+      "opacity": "1",
+      "tag": "P"
+    },
+    {
+      "id": "",
+      "opacity": "1",
+      "tag": "DIV"
+    },
+    {
+      "id": "",
+      "opacity": "1",
+      "tag": "DIV"
+    },
+    {
+      "id": "composer",
+      "opacity": "1",
+      "tag": "SECTION"
+    },
+    {
+      "id": "",
+      "opacity": "1",
+      "tag": "DIV"
+    },
+    {
+      "id": "",
+      "opacity": "1",
+      "tag": "MAIN"
+    },
+    {
+      "id": "",
+      "opacity": "1",
+      "tag": "DIV"
+    },
+    {
+      "id": "",
+      "opacity": "1",
+      "tag": "BODY"
+    },
+    {
+      "id": "",
+      "opacity": "1",
+      "tag": "HTML"
+    }
+  ],
+  "display": "block",
+  "hidden": false,
+  "opacity": "1",
+  "rect": {
+    "bottom": 214.8000030517578,
+    "height": 107.8000030517578,
+    "left": -1,
+    "right": 299,
+    "top": 107,
+    "width": 300
+  },
+  "text": "The clerk warned that renewing this protected/full-file demand will end collection service for this visit. Send anyway or edit the draft.",
+  "viewport": {
+    "height": 764,
+    "width": 920
+  },
+  "visibility": "visible"
+}

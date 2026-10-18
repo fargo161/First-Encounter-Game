@@ -1,0 +1,53 @@
+{
+  "ancestors": [
+    {
+      "opacity": "0",
+      "tag": "DIV"
+    },
+    {
+      "opacity": "1",
+      "tag": "DIV"
+    },
+    {
+      "opacity": "1",
+      "tag": "SECTION"
+    },
+    {
+      "opacity": "1",
+      "tag": "DIV"
+    },
+    {
+      "opacity": "1",
+      "tag": "MAIN"
+    },
+    {
+      "opacity": "1",
+      "tag": "DIV"
+    },
+    {
+      "opacity": "1",
+      "tag": "BODY"
+    },
+    {
+      "opacity": "1",
+      "tag": "HTML"
+    }
+  ],
+  "display": "block",
+  "hidden": false,
+  "opacity": "1",
+  "rect": {
+    "bottom": 543.8500137329102,
+    "height": 87.6500015258789,
+    "left": 57.20000076293945,
+    "right": 405.5999946594238,
+    "top": 456.2000122070313,
+    "width": 348.3999938964844
+  },
+  "text": "The clerk warned that renewing this protected/full-file demand will end collection service for this visit. Send anyway or edit the draft.",
+  "viewport": {
+    "height": 764,
+    "width": 920
+  },
+  "visibility": "visible"
+}

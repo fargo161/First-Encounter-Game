@@ -16,3 +16,7 @@
 /packages/encounter-atlas/README.md text eol=lf
 /packages/room-creator/README.md text eol=lf
 /packages/zant/README.md text eol=lf
+# Stage 4: the complete accepted package and copied reviewer artifacts retain exact bytes.
+/packages/encounter-atlas/** -text
+/docs/audits/encounter-atlas/** -text
+/tools/encounter-atlas-independent/** -text

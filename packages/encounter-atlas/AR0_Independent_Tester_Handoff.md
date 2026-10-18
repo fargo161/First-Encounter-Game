@@ -1,0 +1,19 @@
+# Independent tester handoff — Encounter AR0
+
+Builder status: READY FOR INDEPENDENT AR0 REVIEW. Independently determine readiness; builder counts are claims to verify. Do not edit production source, begin Atlas v0.1 or begin M4.
+
+Read `START_HERE_AR0.md`, the preflight/plan/report/test results and the complete governing handoff in `reference/Encounter_Atlas_Concept_and_Readiness_Pass_v0.1.md`, especially §§18–20 and 25. Governing Master/approval and the final independent R3 report are also retained under `reference/`.
+
+First verify the external AR0 identity, ZIP hash/size, exact members/CRCs, duplicate/case-colliding names, safe paths, regular files and fresh extraction. Independently recompute the AR0 source/catalog identities and sealed M3 package identity. The runnable M3 HTML must still be `8e1c14e25a515b92188703927344e97b744921ec9b033ee2b1d8cc0b63f517cb`. Compare all 1,430 baseline members with the included exact R3 identity and original accepted ZIP (`615ddc79e0f7bd8d903411401360fc321b7b916abcc69dc974e9673fd0e74c87`), which remains preserved at its original output path. No baseline file may differ.
+
+Inspect the two production additions, complete additions patch and classification. Confirm there is no alternate mutable Atlas world, gameplay refactor, UI, M4/Seed B, faction AI or host geometry. Challenge catalog/source validation and its trust boundary rather than treating proof wording as authority.
+
+Create your own adversarial tests for duplicate/case-colliding IDs and bindings; broken endpoints and scenario references; label/prose/full-ID renaming; one shared Person across multiple scenarios; global unindexed entities; Group support with zero Last Collection groups; owner versus holder; direct observation versus attributed report versus local fallible belief; source citations without hidden dereference; absent owner/human asymmetry; meaningful Event causes/order/save-load/retry and distinct occurrences with repeated run labels; no invented authored Events; no draft/preview/read/UI events; recent-change purity/cursors/duplication; and article/network consistency from one link set. Compare initial, warned, pending, recovery and post-recovery author/player outputs for hidden truth or alias leakage.
+
+Run the full inherited/AR0 gates and inspect actual exits. The retained independent R3 source must still report 24 pass/one IR3-25 synthetic failure/zero skips under the accepted non-blocking classification. Do not change that expectation to green or reopen it without a realistic production/browser path. Any additional failure requires investigation.
+
+Perform fresh browser checks through controls, using the CSS-only host if helpful: protected first paperwork, local evidence, substantive repair continuity/save-load, actual comparison, Yes versus exact confirmation, zero-payment recovery retaining Nera ownership and one custody transfer, post-recovery protection, visible warned closure, missing notice, opacity/ancestor, offscreen geometry and collapse. Validate the actual exported saves, exact retries and matching inspector traces. Do not treat supplied screenshots or replayed old captures as your fresh browser proof.
+
+Proof entry points: `proofs/ar0/ui-initial-player.json`, `ui-warned-author.json`, `ui-warned-player.json`, `ui-pending-player.json`, `ui-recovery-author.json`, `ui-recovery-player.json`, their Markdown/network siblings and `AR0_Proof_Export_Index.md`. The corresponding actual UI saves/transcripts/raw/generated traces are under `evidence/ar0/browser/`.
+
+Produce an independent report/evidence bundle, distinguish blocking correctness/privacy/regression issues from future hardening/usability, and explicitly state whether Atlas v0.1 may safely begin. If independently sound, use READY FOR ATLAS v0.1; otherwise NOT READY FOR ATLAS v0.1 with exact blockers. The builder has not awarded that verdict. Then stop; do not implement the next scope.

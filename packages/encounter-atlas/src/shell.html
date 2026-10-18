@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="An offline paperwork encounter: request access, inspect deliberately, and report what you found."><title>Last Collection · Encounter</title><style>/*APP_CSS*/</style></head>
+<body><a class="skip" href="#composer">Skip to composer</a><div class="shell">
+<header><div><span class="eyebrow">ENCOUNTER / REVIEW BUILD</span><h1>Last Collection</h1><p>One case. An incomplete record. Start with the paperwork.</p></div><nav aria-label="Run controls"><button id="restart">New run</button><button id="save">Save run</button><button id="open">Open run</button><button id="inspector-toggle" aria-expanded="false">Author inspector</button></nav></header>
+<div id="notice" role="status" aria-live="polite" hidden></div>
+<section class="brief"><span class="stamp">COLLECTION TICKET / VERIFIED</span><p id="brief"></p><span id="balance"></span></section>
+<main class="workspace"><div class="conversation-column">
+<section class="stage panel" aria-labelledby="partner"><div class="panel-heading"><div><span class="eyebrow">AT THE COUNTER</span><h2 id="partner"></h2></div><span id="phase" class="phase">Your move</span></div>
+<div class="performance"><div class="file-illustration" aria-hidden="true"><span>COLLECTION<br>RECORD</span><i></i><i></i><i></i></div><div><p id="pose"></p><p id="delivery" class="delivery"></p></div></div>
+<div class="stage-actions"><button id="advance" class="primary" hidden>Continue to Delivery</button><button id="skip" hidden>Skip to composer</button><button id="replay" disabled>Replay latest response</button></div></section>
+<section class="panel history"><div class="panel-heading"><h2>Conversation &amp; actions</h2><span id="revision"></span></div><div id="history" role="log" aria-live="polite"></div></section>
+</div><div class="tools-column">
+<section id="composer" class="panel" aria-labelledby="compose-title"><div class="panel-heading"><div><span class="eyebrow">YOUR COMMUNICATION</span><h2 id="compose-title">Compose a message</h2></div></div><div class="composer-body">
+<div class="family-tabs" role="group" aria-label="Communication family"><button id="family-offer" disabled title="Exchange proposals are outside this paperwork slice.">Offer</button><button id="family-request" aria-pressed="true">Request</button><button id="family-remark" aria-pressed="false">Remark</button></div>
+<label for="act">Act</label><select id="act"></select><p id="act-help" class="small muted"></p>
+<div class="pair"><div><label for="vibe">BASED</label><select id="vibe"></select></div><div><label for="salience">Salience</label><select id="salience"><option value="SUBTLE">Subtle</option><option value="NUANCED" selected>Nuanced</option><option value="OVERT">Overt</option></select></div></div>
+<div class="preview"><span class="eyebrow">PREVIEW / WHAT YOU WILL COMMUNICATE</span><p id="preview"></p></div>
+<button id="send" class="primary wide">Send message</button><p class="small muted">Drafting and reading do not advance the encounter.</p>
+</div></section>
+<section class="panel notebook"><div class="panel-heading"><h2>Your notebook</h2></div><div class="notebook-body"><div id="references"></div><div id="learned"></div><div id="permission"></div><button id="inspect" class="primary wide" hidden>Inspect handling extract</button><p id="reminder" class="small muted"></p></div></section>
+</div></main>
+<section id="inspector" class="panel inspector" hidden><div class="panel-heading"><div><span class="eyebrow">AUTHOR VIEW / READ ONLY</span><h2>Causal trace</h2></div><div><button id="refresh-inspector">Refresh inspector</button><button id="export-trace">Export trace</button><button id="export-package">Export package</button></div></div><div class="inspector-body"><p id="trace-summary"></p><p>Inspection conduct is not readable small print. A later spoken detail is a received claim. No player motive or hypothesis is invented.</p><pre id="trace"></pre></div></section>
+<footer><span id="progress">Request → inspection → report</span><span>Offline · manual saves · descriptive performances</span></footer></div>
+<dialog id="file-dialog"><div class="dialog-body"><h2 id="file-title">Save run</h2><p id="file-help"></p><label for="file-json">JSON data</label><textarea id="file-json" spellcheck="false"></textarea><div class="dialog-actions"><button id="load-json" hidden>Load this run</button><a id="download-json" class="button primary" download="Encounter_M2_Run.json">Download JSON</a><button id="close-file">Close</button></div><p id="file-error" role="alert"></p></div></dialog>
+<!--APP_SCRIPT--></body></html>

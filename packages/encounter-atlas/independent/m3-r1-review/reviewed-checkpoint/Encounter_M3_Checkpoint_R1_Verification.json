@@ -1,0 +1,118 @@
+{
+  "result": "PASS",
+  "verifiedAtUTC": "2026-10-18T04:16:54.643371+00:00",
+  "archive": "Encounter_M3_Checkpoint_R1.zip",
+  "sha256": "f7afae2bfa1b75a4a8ec3e2ded09a7845671dbfb0ca9fc5ad487c655c6a68ed4",
+  "bytes": 28146000,
+  "members": 592,
+  "everyMemberHashSizeAndSafePathVerified": true,
+  "pristineReexportZIPAndExternalIdentityByteIdentical": true,
+  "newCheckpointAndOldLabelOverwriteRefused": true,
+  "freshExtractedTests": {
+    "M0": 7,
+    "builder": 117,
+    "independentM1": 22,
+    "independentM2": 18,
+    "independentM3": 18,
+    "independentD01": 1,
+    "failures": 0,
+    "skips": 0
+  },
+  "deterministicGeneratedArtifactsCompared": [
+    "dist-m3/index.html",
+    "content/m3/seed.mjs",
+    "evidence/m3/source-identity.json",
+    "evidence/m3/generated-evidence-summary.json",
+    "evidence/m3-d01/generated-evidence-summary.json",
+    "evidence/m3-d01/browser-after-transparent-generated-trace.json",
+    "evidence/m3-d01/browser-after-transparent-transcript.md",
+    "evidence/m3-d01/browser-before-transparent-generated-trace.json",
+    "evidence/m3-d01/browser-before-transparent-transcript.md",
+    "evidence/m3-d01/browser-fresh-restricted-generated-trace.json",
+    "evidence/m3-d01/browser-fresh-restricted-transcript.md",
+    "evidence/m3-d01/browser-offscreen-generated-trace.json",
+    "evidence/m3-d01/browser-offscreen-transcript.md",
+    "evidence/m3-d01/browser-post-recovery-generated-trace.json",
+    "evidence/m3-d01/browser-post-recovery-transcript.md",
+    "evidence/m3-d01/browser-recovery-generated-trace.json",
+    "evidence/m3-d01/browser-recovery-transcript.md",
+    "evidence/m3-d01/browser-repaired-after-load-generated-trace.json",
+    "evidence/m3-d01/browser-repaired-after-load-transcript.md",
+    "evidence/m3-d01/browser-repaired-generated-trace.json",
+    "evidence/m3-d01/browser-repaired-transcript.md",
+    "evidence/m3-d01/browser-visible-closure-after-load-generated-trace.json",
+    "evidence/m3-d01/browser-visible-closure-after-load-transcript.md",
+    "evidence/m3-d01/browser-visible-closure-generated-trace.json",
+    "evidence/m3-d01/browser-visible-closure-transcript.md"
+  ],
+  "sourceRevision": "M3-runtime-v1-R1-D01",
+  "sourceDigest": "35fa58990b19a08933fefb7e2f37ba1d5c5edc5807390354eae238e531588711",
+  "buildSHA256": "11393dde2ae110d3b04aac03c1044e000be6b410e4bffacb16216829c9050052",
+  "packageRef": {
+    "id": "package_0003",
+    "revision": 1,
+    "digest": "2ce9f61b996f17392a39c56f4005d8203b7940aa4974564fafa54d110e35ae8f"
+  },
+  "failedM3CheckpointUnchanged": true,
+  "commands": [
+    {
+      "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\m3-r1-frozen-verification\\Encounter_M3_R1",
+      "executable": "C:\\Users\\mcdon\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "args": [
+        "scripts/verify-checkpoint.py",
+        "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\outputs\\Encounter_M3_Checkpoint_R1.identity.json"
+      ],
+      "expectedExitCode": 0,
+      "exitCode": 0,
+      "stdout": "{\"verified\": \"Encounter_M3_Checkpoint_R1.zip\", \"sha256\": \"f7afae2bfa1b75a4a8ec3e2ded09a7845671dbfb0ca9fc5ad487c655c6a68ed4\", \"files\": 592}\n",
+      "stderr": ""
+    },
+    {
+      "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\m3-r1-frozen-verification\\Encounter_M3_R1",
+      "executable": "C:\\Users\\mcdon\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "args": [
+        "scripts/export-m3-r1.py",
+        "Encounter_M3_Checkpoint_R1"
+      ],
+      "expectedExitCode": 0,
+      "exitCode": 0,
+      "stdout": "{\"snapshot\": \"Encounter_M3_Checkpoint_R1.zip\", \"sha256\": \"f7afae2bfa1b75a4a8ec3e2ded09a7845671dbfb0ca9fc5ad487c655c6a68ed4\", \"bytes\": 28146000, \"sourceRevision\": \"M3-runtime-v1-R1-D01\", \"sourceDigest\": \"35fa58990b19a08933fefb7e2f37ba1d5c5edc5807390354eae238e531588711\", \"contentRevision\": \"M3-protective-shortcut-v1\", \"packageRef\": {\"id\": \"package_0003\", \"revision\": 1, \"digest\": \"2ce9f61b996f17392a39c56f4005d8203b7940aa4974564fafa54d110e35ae8f\"}, \"buildSHA256\": \"11393dde2ae110d3b04aac03c1044e000be6b410e4bffacb16216829c9050052\", \"previousM3SHA256\": \"de808fbdbf6929c5c9cf7915ea982086d5796c7c004b16ec0a882e58170f3b64\", \"baselineM2SHA256\": \"940a0bfaed6e45861d425a899afcb29cd518f25a25ed2d877b5c1524a1421bd7\", \"remediatedDefects\": [\"M3-D01\"]}\n",
+      "stderr": ""
+    },
+    {
+      "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\m3-r1-frozen-verification\\Encounter_M3_R1",
+      "executable": "C:\\Users\\mcdon\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "args": [
+        "scripts/export-m3-r1.py",
+        "Encounter_M3_Checkpoint_R1"
+      ],
+      "expectedExitCode": 1,
+      "exitCode": 1,
+      "stdout": "",
+      "stderr": "Refusing to overwrite an existing frozen artifact\n"
+    },
+    {
+      "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\m3-r1-frozen-verification\\Encounter_M3_R1",
+      "executable": "C:\\Users\\mcdon\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "args": [
+        "scripts/export-m3-r1.py",
+        "Encounter_M3_Checkpoint"
+      ],
+      "expectedExitCode": 1,
+      "exitCode": 1,
+      "stdout": "",
+      "stderr": "Only the new M3 R1 identity is allowed\n"
+    },
+    {
+      "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\m3-r1-frozen-verification\\Encounter_M3_R1",
+      "executable": "C:\\Users\\mcdon\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "args": [
+        "scripts/check-m3-r1.py"
+      ],
+      "expectedExitCode": 0,
+      "exitCode": 0,
+      "stdout": "{\"command\": \"regression\", \"exitCode\": 0, \"tail\": [\"{\\\"log\\\": \\\"fresh-build.txt\\\", \\\"exitCode\\\": 0, \\\"tail\\\": [\\\"{\\\\\\\"build\\\\\\\":\\\\\\\"dist-m3/index.html\\\\\\\",\\\\\\\"bytes\\\\\\\":133457,\\\\\\\"modules\\\\\\\":11,\\\\\\\"packageRef\\\\\\\":{\\\\\\\"id\\\\\\\":\\\\\\\"package_0003\\\\\\\",\\\\\\\"revision\\\\\\\":1,\\\\\\\"digest\\\\\\\":\\\\\\\"2ce9f61b996f17392a39c56f4005d8203b7940aa4974564fafa54d110e35ae8f\\\\\\\"}}\\\"]}\", \"{\\\"log\\\": \\\"fresh-source-identity.txt\\\", \\\"exitCode\\\": 0, \\\"tail\\\": [\\\"{\\\\\\\"sourceRevision\\\\\\\": \\\\\\\"M3-runtime-v1-R1-D01\\\\\\\", \\\\\\\"sourceDigest\\\\\\\": \\\\\\\"35fa58990b19a08933fefb7e2f37ba1d5c5edc5807390354eae238e531588711\\\\\\\", \\\\\\\"files\\\\\\\": 54}\\\"]}\", \"{\\\"log\\\": \\\"fresh-preservation.txt\\\", \\\"exitCode\\\": 0, \\\"tail\\\": [\\\"{\\\\\\\"result\\\\\\\": \\\\\\\"PASS\\\\\\\", \\\\\\\"baselineMembers\\\\\\\": 73, \\\\\\\"unchangedCopyMembers\\\\\\\": 70, \\\\\\\"intentionalChanges\\\\\\\": [\\\\\\\"package.json\\\\\\\", \\\\\\\"README.md\\\\\\\", \\\\\\\"Test_Results_and_Scope.md\\\\\\\"]}\\\"]}\", \"{\\\"log\\\": \\\"fresh-m0-audit.txt\\\", \\\"exitCode\\\": 0, \\\"tail\\\": [\\\"{\\\", \\\"  \\\\\\\"milestone\\\\\\\": \\\\\\\"M0\\\\\\\",\\\", \\\"  \\\\\\\"baselineSHA256\\\\\\\": \\\\\\\"c9b50efed0ead41d0faa69757969feff8ced1fbc22187c11989aa9ff2dd21eb9\\\\\\\",\\\", \\\"  \\\\\\\"checksPassed\\\\\\\": 7,\\\", \\\"  \\\\\\\"checksFailed\\\\\\\": 0,\\\", \\\"  \\\\\\\"browserExecuted\\\\\\\": false,\\\", \\\"  \\\\\\\"historicalSuiteRecovered\\\\\\\": false\\\", \\\"}\\\"]}\", \"{\\\"log\\\": \\\"fresh-builder-tests.tap\\\", \\\"exitCode\\\": 0, \\\"tail\\\": [\\\"# tests 117\\\", \\\"# suites 0\\\", \\\"# pass 117\\\", \\\"# fail 0\\\", \\\"# cancelled 0\\\", \\\"# skipped 0\\\", \\\"# todo 0\\\", \\\"# duration_ms 30169.5733\\\"]}\", \"{\\\"log\\\": \\\"fresh-independent-m1.tap\\\", \\\"exitCode\\\": 0, \\\"tail\\\": [\\\"# tests 22\\\", \\\"# suites 0\\\", \\\"# pass 22\\\", \\\"# fail 0\\\", \\\"# cancelled 0\\\", \\\"# skipped 0\\\", \\\"# todo 0\\\", \\\"# duration_ms 1143.4312\\\"]}\", \"{\\\"log\\\": \\\"fresh-independent-m2.tap\\\", \\\"exitCode\\\": 0, \\\"tail\\\": [\\\"# tests 18\\\", \\\"# suites 0\\\", \\\"# pass 18\\\", \\\"# fail 0\\\", \\\"# cancelled 0\\\", \\\"# skipped 0\\\", \\\"# todo 0\\\", \\\"# duration_ms 1981.133\\\"]}\", \"{\\\"log\\\": \\\"fresh-generated-evidence.txt\\\", \\\"exitCode\\\": 0, \\\"tail\\\": [\\\"{\\\\\\\"sourceRevision\\\\\\\":\\\\\\\"M3-runtime-v1-R1-D01\\\\\\\",\\\\\\\"sourceDigest\\\\\\\":\\\\\\\"35fa58990b19a08933fefb7e2f37ba1d5c5edc5807390354eae238e531588711\\\\\\\",\\\\\\\"packageRef\\\\\\\":{\\\\\\\"id\\\\\\\":\\\\\\\"package_0003\\\\\\\",\\\\\\\"revision\\\\\\\":1,\\\\\\\"digest\\\\\\\":\\\\\\\"2ce9f61b996f17392a39c56f4005d8203b7940aa4974564fafa54d110e35ae8f\\\\\\\"},\\\\\\\"validatedBrowserRuns\\\\\\\":11,\\\\\\\"rawBrowserInspectorsMatch\\\\\\\":true,\\\\\\\"missingNoticeServiceOpen\\\\\\\":true,\\\\\\\"neutralRecoveryAndClosure\\\\\\\":true}\\\"]}\"]}\n{\"command\": \"independent-m3\", \"exitCode\": 0, \"tail\": [\"1..18\", \"# tests 18\", \"# suites 0\", \"# pass 18\", \"# fail 0\", \"# cancelled 0\", \"# skipped 0\", \"# todo 0\", \"# duration_ms 19022.484\"]}\n{\"command\": \"independent-d01\", \"exitCode\": 0, \"tail\": [\"1..1\", \"# tests 1\", \"# suites 0\", \"# pass 1\", \"# fail 0\", \"# cancelled 0\", \"# skipped 0\", \"# todo 0\", \"# duration_ms 1096.3345\"]}\n{\"command\": \"browser-evidence\", \"exitCode\": 0, \"tail\": [\"{\\\"result\\\":\\\"PASS\\\",\\\"sourceRevision\\\":\\\"M3-runtime-v1-R1-D01\\\",\\\"sourceDigest\\\":\\\"35fa58990b19a08933fefb7e2f37ba1d5c5edc5807390354eae238e531588711\\\",\\\"buildSHA256\\\":\\\"11393dde2ae110d3b04aac03c1044e000be6b410e4bffacb16216829c9050052\\\",\\\"packageRef\\\":{\\\"id\\\":\\\"package_0003\\\",\\\"revision\\\":1,\\\"digest\\\":\\\"2ce9f61b996f17392a39c56f4005d8203b7940aa4974564fafa54d110e35ae8f\\\"},\\\"validatedBrowserExports\\\":10,\\\"beforeDefectReproduced\\\":true,\\\"afterTransparentFallbackPass\\\":true,\\\"offscreenFallbackPass\\\":true,\\\"visibleClosurePass\\\":true,\\\"exactSaveLoadEquality\\\":true,\\\"recoveryAndPostRecoveryPass\\\":true,\\\"browserChecks\\\":8}\"]}\n{\"command\": \"preservation\", \"exitCode\": 0, \"tail\": [\"{\\\"result\\\": \\\"PASS\\\", \\\"failedCheckpointSHA256\\\": \\\"de808fbdbf6929c5c9cf7915ea982086d5796c7c004b16ec0a882e58170f3b64\\\", \\\"failedIdentitySHA256\\\": \\\"d025fe33a6a2773e88e249ce3c624280fca70921c8f541617ec8e92d4302abf4\\\", \\\"verifiedHistoricalMembers\\\": 189, \\\"onlyProductionSourceChange\\\": \\\"src/m3/ui.mjs\\\", \\\"enginePolicyKnowledgeMeaningTypesAndAuthoredContentUnchanged\\\": true, \\\"allInheritedTestSourcesUnchanged\\\": true}\"]}\n",
+      "stderr": ""
+    }
+  ]
+}

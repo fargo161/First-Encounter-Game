@@ -1,0 +1,34 @@
+[
+  {
+    "archive": "Encounter_M3_R2_Independent_Rereview_Handoff.zip",
+    "members": 7,
+    "regularOrDOSFileTypes": {
+      "32768": 7
+    },
+    "allWindowsForbiddenCharactersRejected": true
+  },
+  {
+    "archive": "Encounter_M3_Checkpoint_R2.zip",
+    "members": 1152,
+    "regularOrDOSFileTypes": {
+      "32768": 1152
+    },
+    "allWindowsForbiddenCharactersRejected": true
+  },
+  {
+    "archive": "Encounter_M3_Checkpoint_R1.zip",
+    "members": 592,
+    "regularOrDOSFileTypes": {
+      "32768": 592
+    },
+    "allWindowsForbiddenCharactersRejected": true
+  },
+  {
+    "archive": "Encounter_M3_Checkpoint.zip",
+    "members": 189,
+    "regularOrDOSFileTypes": {
+      "32768": 189
+    },
+    "allWindowsForbiddenCharactersRejected": true
+  }
+]

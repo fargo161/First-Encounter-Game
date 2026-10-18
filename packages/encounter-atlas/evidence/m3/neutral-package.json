@@ -1,0 +1,488 @@
+{
+  "content": {
+    "actions": [
+      {
+        "disclosures": [],
+        "id": "action_0201",
+        "kind": "verify_authority",
+        "label": "Show and verify collection ticket",
+        "requiresAuthority": false,
+        "requiresComparison": false,
+        "targetId": "subject_0202"
+      },
+      {
+        "disclosures": [
+          {
+            "actorId": "actor_0201",
+            "conduct": null,
+            "factIds": [
+              "fact_0201"
+            ],
+            "form": "document",
+            "markId": "subject_0210"
+          },
+          {
+            "actorId": "actor_0202",
+            "conduct": "Sees the collector inspect the permitted extract; the small print is unreadable from here.",
+            "factIds": [],
+            "form": "direct",
+            "markId": null
+          }
+        ],
+        "id": "action_0202",
+        "kind": "inspect",
+        "label": "Inspect handling extract",
+        "requiresAuthority": true,
+        "requiresComparison": false,
+        "targetId": "subject_0203"
+      },
+      {
+        "disclosures": [
+          {
+            "actorId": "actor_0201",
+            "conduct": null,
+            "factIds": [
+              "fact_0205",
+              "fact_0206"
+            ],
+            "form": "document",
+            "markId": "subject_0210"
+          },
+          {
+            "actorId": "actor_0204",
+            "conduct": "Sees the collector search the permitted handling tray; does not read the tag.",
+            "factIds": [],
+            "form": "direct",
+            "markId": null
+          }
+        ],
+        "id": "action_0203",
+        "kind": "search",
+        "label": "Search permitted handling tray",
+        "requiresAuthority": true,
+        "requiresComparison": false,
+        "targetId": "subject_020b"
+      },
+      {
+        "disclosures": [
+          {
+            "actorId": "actor_0201",
+            "conduct": null,
+            "factIds": [
+              "fact_0201",
+              "fact_0205",
+              "fact_0206",
+              "fact_0203",
+              "fact_0207",
+              "fact_0208"
+            ],
+            "form": "document",
+            "markId": "subject_0210"
+          },
+          {
+            "actorId": "actor_0202",
+            "conduct": "Reads the selected case-handling evidence in the supervised comparison.",
+            "factIds": [
+              "fact_0201",
+              "fact_0205",
+              "fact_0206"
+            ],
+            "form": "document",
+            "markId": "subject_0210"
+          }
+        ],
+        "id": "action_0204",
+        "kind": "compare",
+        "label": "Perform supervised case-only comparison",
+        "requiresAuthority": true,
+        "requiresComparison": false,
+        "targetId": "subject_020e"
+      },
+      {
+        "disclosures": [],
+        "id": "action_0205",
+        "kind": "correct_record",
+        "label": "Record correction to the original entry",
+        "requiresAuthority": true,
+        "requiresComparison": true,
+        "targetId": "subject_0203"
+      },
+      {
+        "disclosures": [],
+        "id": "action_0206",
+        "kind": "handover",
+        "label": "Complete confirmed case handover",
+        "requiresAuthority": true,
+        "requiresComparison": true,
+        "targetId": "subject_0201"
+      },
+      {
+        "disclosures": [],
+        "id": "action_0207",
+        "kind": "close_service",
+        "label": "Close collection service for this visit",
+        "requiresAuthority": false,
+        "requiresComparison": false,
+        "targetId": "subject_0204"
+      }
+    ],
+    "actors": [
+      {
+        "id": "actor_0201",
+        "kind": "human",
+        "label": "Participant 0",
+        "profile": null
+      },
+      {
+        "id": "actor_0202",
+        "kind": "npc",
+        "label": "Participant 1",
+        "profile": {
+          "acceptanceThreshold": 3,
+          "priorities": {
+            "privacy": 10,
+            "service": 10,
+            "verification": 9
+          },
+          "roles": [
+            "record_custodian"
+          ]
+        }
+      },
+      {
+        "id": "actor_0203",
+        "kind": "absent",
+        "label": "Participant 2",
+        "profile": null
+      },
+      {
+        "id": "actor_0204",
+        "kind": "npc",
+        "label": "Participant 3",
+        "profile": {
+          "acceptanceThreshold": 3,
+          "priorities": {
+            "privacy": 10,
+            "service": 10,
+            "verification": 9
+          },
+          "roles": [
+            "handling_witness"
+          ]
+        }
+      }
+    ],
+    "communication": {
+      "expressions": [
+        {
+          "cues": [
+            {
+              "kind": "scope_limit",
+              "text": "States the selected scope firmly and without adding unrelated demands."
+            }
+          ],
+          "templateId": "template_0011",
+          "vibe": "EA"
+        },
+        {
+          "cues": [
+            {
+              "kind": "displayed_concern",
+              "text": "Acknowledges the clerk’s work and communicates supportive concern about a defensible handover."
+            }
+          ],
+          "templateId": "template_0012",
+          "vibe": "SE"
+        },
+        {
+          "cues": [
+            {
+              "kind": "direct_demand",
+              "text": "Makes a direct demand for attention to the selected matter."
+            },
+            {
+              "kind": "possible_consequence",
+              "text": "Raises the possibility of a procedural complaint; no complaint is filed or promised."
+            }
+          ],
+          "templateId": "template_0013",
+          "vibe": "AB"
+        }
+      ]
+    },
+    "contentRevision": "M3-neutral-portability-v1",
+    "facts": [
+      {
+        "id": "fact_0201",
+        "label": "Observed fragment 0",
+        "predicate": "recipient_signature",
+        "subjectId": "subject_0203",
+        "value": "unfilled"
+      },
+      {
+        "id": "fact_0202",
+        "label": "Observed fragment 1",
+        "predicate": "movement_direction",
+        "subjectId": "subject_0211",
+        "value": "subject_020a"
+      },
+      {
+        "id": "fact_0203",
+        "label": "Observed fragment 2",
+        "predicate": "storage_location",
+        "subjectId": "subject_0201",
+        "value": "subject_020f"
+      },
+      {
+        "id": "fact_0204",
+        "label": "Observed fragment 3",
+        "predicate": "movement_reason",
+        "subjectId": "subject_0201",
+        "value": "spill_protection"
+      },
+      {
+        "id": "fact_0205",
+        "label": "Observed fragment 4",
+        "predicate": "item_reference",
+        "subjectId": "subject_020c",
+        "value": "subject_0201"
+      },
+      {
+        "id": "fact_0206",
+        "label": "Observed fragment 5",
+        "predicate": "handling_type",
+        "subjectId": "subject_020c",
+        "value": "internal_drying"
+      },
+      {
+        "id": "fact_0207",
+        "label": "Observed fragment 6",
+        "predicate": "original_entry_meaning",
+        "subjectId": "subject_0203",
+        "value": "removed_from_rack"
+      },
+      {
+        "id": "fact_0208",
+        "label": "Observed fragment 7",
+        "predicate": "hauling_obligation_status",
+        "subjectId": "subject_0201",
+        "value": "already_paid"
+      },
+      {
+        "id": "fact_0209",
+        "label": "Observed fragment 8",
+        "predicate": "protected_contact",
+        "subjectId": "subject_0206",
+        "value": "PRIVATE-M3-FIXTURE: 17 Cedar Lane"
+      }
+    ],
+    "humanId": "actor_0201",
+    "id": "package_0203",
+    "initial": {
+      "balances": {
+        "actor_0201": 1200,
+        "actor_0202": 0,
+        "actor_0204": 0
+      },
+      "entry": "collected",
+      "historicalMovement": {
+        "actorReceipts": [
+          {
+            "actorId": "actor_0202",
+            "conduct": null,
+            "factIds": [
+              "fact_0202",
+              "fact_0203",
+              "fact_0204",
+              "fact_0207"
+            ],
+            "form": "direct",
+            "markId": null
+          },
+          {
+            "actorId": "actor_0204",
+            "conduct": null,
+            "factIds": [
+              "fact_0202"
+            ],
+            "form": "direct",
+            "markId": null
+          }
+        ],
+        "allFactIds": [
+          "fact_0202",
+          "fact_0203",
+          "fact_0204",
+          "fact_0207"
+        ]
+      },
+      "holderId": "subject_0207",
+      "initialReferenceIds": [
+        "subject_0201",
+        "subject_0202",
+        "subject_0203",
+        "subject_0209",
+        "subject_020d"
+      ],
+      "itemId": "subject_0201",
+      "minorUnitsPerCoin": 100,
+      "ownerId": "actor_0203",
+      "quantity": 1,
+      "rule": {
+        "closeActionId": "action_0207",
+        "comparisonActionId": "action_0204",
+        "correctionActionId": "action_0205",
+        "custodianId": "actor_0202",
+        "explainReferenceIds": [
+          "subject_0204",
+          "subject_0205",
+          "subject_0206",
+          "subject_0208",
+          "subject_020b",
+          "subject_020e"
+        ],
+        "fileId": "subject_0204",
+        "handoverActionId": "action_0206",
+        "handoverPriceMinor": 0,
+        "inspectionActionIds": [
+          "action_0202",
+          "action_0203"
+        ],
+        "itemId": "subject_0201",
+        "moneyId": "subject_020d",
+        "ownerId": "actor_0203",
+        "ownerTopicId": "subject_0209",
+        "protectedScopeIds": [
+          "subject_0206",
+          "subject_0208"
+        ],
+        "recordCorrection": "Original “collected” meant removal from the rack for internal drying; recipient handover is recorded separately.",
+        "recordId": "subject_0203",
+        "relevantScopeId": "subject_0205",
+        "requiredEvidence": [
+          {
+            "forms": [
+              "document"
+            ],
+            "predicate": "recipient_signature",
+            "subjectId": "subject_0203"
+          },
+          {
+            "forms": [
+              "report"
+            ],
+            "predicate": "movement_direction",
+            "subjectId": "subject_0211"
+          },
+          {
+            "forms": [
+              "document"
+            ],
+            "predicate": "item_reference",
+            "subjectId": "subject_020c"
+          }
+        ],
+        "serviceId": "service_0201",
+        "ticketId": "subject_0202",
+        "verifyActionId": "action_0201",
+        "wholeScopeId": "subject_0208",
+        "witnessId": "actor_0204"
+      },
+      "softAllowance": 24,
+      "witnessAccount": {
+        "actorId": "actor_0204",
+        "factIds": [
+          "fact_0202"
+        ],
+        "interpretation": "A limited report about an unidentified object, without destination or purpose."
+      }
+    },
+    "initialPartnerId": "actor_0202",
+    "presentation": {
+      "art": null,
+      "delivery": null,
+      "intake": null
+    },
+    "protectedFactIds": [
+      "fact_0209"
+    ],
+    "revision": 1,
+    "schema": "encounter-package@3",
+    "subjects": [
+      {
+        "id": "subject_0201",
+        "label": "Reference 0"
+      },
+      {
+        "id": "subject_0202",
+        "label": "Reference 1"
+      },
+      {
+        "id": "subject_0203",
+        "label": "Reference 2"
+      },
+      {
+        "id": "subject_0204",
+        "label": "Reference 3"
+      },
+      {
+        "id": "subject_0205",
+        "label": "Reference 4"
+      },
+      {
+        "id": "subject_0206",
+        "label": "Reference 5"
+      },
+      {
+        "id": "subject_0207",
+        "label": "Reference 6"
+      },
+      {
+        "id": "subject_0208",
+        "label": "Reference 7"
+      },
+      {
+        "id": "subject_0209",
+        "label": "Reference 8"
+      },
+      {
+        "id": "subject_020a",
+        "label": "Reference 9"
+      },
+      {
+        "id": "subject_020b",
+        "label": "Reference 10"
+      },
+      {
+        "id": "subject_020c",
+        "label": "Reference 11"
+      },
+      {
+        "id": "subject_020d",
+        "label": "Reference 12"
+      },
+      {
+        "id": "subject_020e",
+        "label": "Reference 13"
+      },
+      {
+        "id": "subject_020f",
+        "label": "Reference 14"
+      },
+      {
+        "id": "subject_0210",
+        "label": "Reference 15"
+      },
+      {
+        "id": "subject_0211",
+        "label": "Reference 16"
+      }
+    ],
+    "title": "Neutral archive portability fixture"
+  },
+  "ref": {
+    "id": "package_0203",
+    "revision": 1,
+    "digest": "1becee51d49c7a7b7860beb6cb9a8b31618f6cb02ab0e6f6ad6dbfb12f848533"
+  }
+}

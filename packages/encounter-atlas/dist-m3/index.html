@@ -1,0 +1,1460 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="A local Encounter review build: investigate a handling discrepancy and recover the case."><title>Last Collection · M3</title><style>:root{font:15px/1.55 'Segoe UI',system-ui,sans-serif;color:#23332c;background:#e8e6dc;--ink:#23332c;--paper:#fbfaf3;--green:#244c3e;--line:#c8cec0;--muted:#627169;--gold:#a77832}*{box-sizing:border-box}body{margin:0}button,select,textarea{font:inherit}button,.button{border:1px solid #a9b5a6;border-radius:5px;padding:9px 13px;background:#f4f4ec;color:var(--ink);cursor:pointer;min-height:42px;text-decoration:none;display:inline-block}button:hover:enabled,.button:hover{border-color:var(--green);background:#e2e9de}button:disabled{opacity:.45;cursor:not-allowed}button.primary,.button.primary{background:var(--green);border-color:var(--green);color:#fff}button[aria-pressed=true]{background:#dbe6d8;border-color:var(--green);font-weight:650}button:focus-visible,select:focus-visible,textarea:focus-visible,a:focus-visible{outline:3px solid #b07c33;outline-offset:3px}.shell{max-width:1330px;margin:auto;padding:35px 30px 0}header{display:flex;justify-content:space-between;gap:22px;align-items:center;padding-bottom:26px;border-bottom:2px solid var(--green)}h1,h2,p{margin:0}h1{font:600 40px/1.15 Georgia,serif;letter-spacing:-1px;margin:6px 0 9px}h2{font:600 21px/1.25 Georgia,serif}header p{color:var(--muted)}nav{display:flex;gap:7px;flex-wrap:wrap;justify-content:flex-end;max-width:470px}nav button{font-size:13px}.eyebrow{font:10px/1.5 Consolas,monospace;letter-spacing:1.3px;color:var(--muted)}.brief{display:flex;gap:20px;align-items:center;padding:19px 0;margin-bottom:8px;flex-wrap:wrap}.brief p{flex:1;min-width:260px;font-size:14px}.stamp{font:10px/1.3 Consolas,monospace;letter-spacing:.8px;padding:9px 10px;border:1px solid #779081;color:var(--green);transform:rotate(-1deg)}#balance{font:13px Consolas,monospace;color:var(--muted)}.workspace{display:grid;grid-template-columns:minmax(0,1.45fr) minmax(345px,1fr);gap:22px;align-items:start}.conversation-column,.tools-column{display:flex;flex-direction:column;gap:20px;min-width:0}.panel{background:var(--paper);border:1px solid var(--line);border-radius:8px;overflow:hidden;box-shadow:0 3px 10px #28372b05}.panel-heading{padding:18px 22px;display:flex;align-items:center;justify-content:space-between;gap:15px;border-bottom:1px solid var(--line)}.phase{font:11px Consolas,monospace;color:var(--green);border:1px solid #a6baa5;background:#e6eee0;padding:5px 9px;border-radius:3px}.performance{display:grid;grid-template-columns:100px 1fr;gap:25px;padding:30px 25px;min-height:220px;align-items:start;background:linear-gradient(130deg,#f3f2e6,#fbfaf3)}.file-illustration{width:89px;height:112px;border:1px solid #a4b09d;border-top:12px solid #c3cbb4;border-radius:2px;background:#e7e8d7;padding:14px 11px;transform:rotate(-4deg);box-shadow:4px 5px 0 #d3d6c7}.file-illustration span{font:8px/1.4 Consolas,monospace;letter-spacing:1px;color:#576b55}.file-illustration i{display:block;height:1px;background:#b1bbaa;margin-top:10px}#pose{font-size:14px;color:#5a695f;font-style:italic}.delivery{white-space:pre-wrap;font-size:16px;margin-top:16px}.stage-actions{display:flex;gap:8px;flex-wrap:wrap;padding:0 22px 20px}.stage-actions button{font-size:13px}.composer-body,.notebook-body{padding:20px 22px}.family-tabs{display:grid;grid-template-columns:repeat(3,1fr);gap:7px;margin-bottom:18px}label{display:block;font-size:12px;font-weight:650;margin:14px 0 6px}select,textarea{width:100%;border:1px solid #a9b7a4;border-radius:4px;background:white;color:var(--ink);padding:9px;min-height:42px}.pair{display:grid;grid-template-columns:1fr 1fr;gap:13px}.small{font-size:12px}.muted{color:var(--muted)}#act-help{margin-top:7px}.preview{background:#edf1e7;border-left:3px solid var(--green);padding:13px 14px;margin:20px 0 16px}.preview p{white-space:pre-wrap;font-size:13px;margin-top:7px}.wide{width:100%}.composer-body>.small{margin-top:10px}.history #history{max-height:460px;overflow:auto}.history-entry{padding:17px 22px;border-bottom:1px solid #d7ddcf}.history-entry:last-child{border:0}.history-entry .label{font:10px Consolas,monospace;color:var(--muted);text-transform:uppercase;letter-spacing:.6px;margin-bottom:6px}.history-entry p{font-size:13px;white-space:pre-wrap}.history-entry.action{border-left:3px solid var(--gold);background:#f4f0e3}.empty{padding:26px 22px;color:var(--muted);font-size:14px}#revision{font:10px Consolas,monospace;color:var(--muted)}.chip{display:inline-block;border:1px solid #c9d1c0;background:#f0f3e9;border-radius:20px;font-size:11px;padding:3px 9px;margin:0 4px 7px 0}#learned{margin:8px 0 15px;border-left:2px solid var(--gold);padding-left:12px}#learned:empty{display:none}#learned p,#permission{font-size:13px}#permission{margin:12px 0}#reminder{margin-top:12px}#notice{padding:13px 18px;margin:17px 0 0;background:#e4eddd;border:1px solid #9caf92;border-radius:5px}#notice.error{background:#f5e5da;border-color:#c29177}.inspector{margin-top:23px}.inspector .panel-heading{flex-wrap:wrap}.inspector button{font-size:12px;margin:3px}.inspector-body{padding:20px 22px;font-size:13px}.inspector-body p{margin-bottom:12px}pre{white-space:pre-wrap;overflow-wrap:anywhere;background:#172b23;color:#d9eadb;padding:20px;font:11px/1.5 Consolas,monospace;max-height:650px;overflow:auto;border-radius:5px}footer{display:flex;justify-content:space-between;gap:20px;border-top:1px solid #bdc6b5;margin-top:30px;padding:19px 0;color:var(--muted);font:10px Consolas,monospace}dialog{border:1px solid #8c9d83;border-radius:8px;max-width:calc(100vw - 30px);width:850px;background:var(--paper);padding:0;color:var(--ink)}dialog::backdrop{background:#172c2399}.dialog-body{padding:25px}dialog p{font-size:13px;margin-top:12px}textarea{height:340px;resize:vertical;font:11px/1.4 Consolas,monospace}.dialog-actions{display:flex;gap:10px;flex-wrap:wrap;justify-content:flex-end;margin-top:16px}#file-error{color:#8a3f2c}.skip{position:absolute;left:20px;top:-80px;background:var(--paper);padding:15px}.skip:focus{top:0}[hidden]{display:none!important}@media(max-width:950px){.workspace{grid-template-columns:1fr}.shell{padding:24px 18px 0}header{align-items:flex-start;flex-direction:column}nav{max-width:none;justify-content:flex-start}.performance{min-height:160px}.tools-column{display:grid;grid-template-columns:1fr 1fr;align-items:start}}@media(max-width:650px){.tools-column{display:flex}.shell{padding:19px 12px 0}h1{font-size:34px}.brief{gap:12px}.brief p{min-width:220px}.performance{grid-template-columns:1fr;gap:15px;padding:22px}.file-illustration{display:none}.panel-heading,.composer-body,.notebook-body{padding:17px}.pair{gap:8px}.delivery{font-size:15px}footer{flex-direction:column;gap:8px}nav button{font-size:12px;padding:8px 10px}.dialog-body{padding:18px}}
+.partner-controls{padding:0 22px 20px;display:flex;align-items:end;gap:8px;flex-wrap:wrap}.partner-controls label{width:100%;margin:0}.partner-controls select{flex:1;min-width:130px}.physical-action{margin-top:9px}.closure-notice,.public-warning{background:#fff0d8;border:2px solid #9b5b19;border-radius:5px;padding:12px;color:#613a15}.closure-notice{font-weight:700}.public-warning{margin:12px 0;font-size:13px}.outcome{padding:20px;background:#dcebd8;border:2px solid #53794a;border-radius:7px;margin:12px 0;font-weight:600}.outcome.closed{background:#f3dfd4;border-color:#8f5438}#offer-terms p{margin-bottom:7px}input{width:100%;min-height:42px;border:1px solid #a9b7a4;border-radius:4px;padding:9px;font:inherit}</style></head><body>
+<a class="skip" href="#composer">Skip to composer</a><div class="shell">
+<header><div><span class="eyebrow">ENCOUNTER / M3 REVIEW BUILD</span><h1>Last Collection</h1><p>The Protective Shortcut · recover the case, keep the causes clear.</p></div><nav aria-label="Run controls"><button id="restart">New run</button><button id="save">Save run</button><button id="open">Open run</button><button id="inspector-toggle" aria-expanded="false">Author inspector</button></nav></header>
+<div id="notice" role="status" aria-live="polite" hidden></div>
+<section class="brief"><span id="ticket-status" class="stamp">COLLECTION TICKET / IN YOUR POSSESSION</span><p id="brief"></p><span id="balance"></span></section>
+<section id="outcome" class="outcome" hidden aria-live="polite"></section><p id="warning-reminder" class="public-warning" hidden></p>
+<main class="workspace"><div class="conversation-column"><section class="panel stage"><div class="panel-heading"><div><span class="eyebrow">AT THE COUNTER</span><h2 id="partner"></h2></div><span id="phase" class="phase">Your move</span></div>
+<div class="performance"><div class="file-illustration" aria-hidden="true"><span>COLLECTION<br>RECORD</span><i></i><i></i><i></i></div><div><p id="pose"></p><p id="delivery" class="delivery"></p></div></div>
+<div class="stage-actions"><button id="advance" class="primary" hidden>Continue to Delivery</button><button id="skip" hidden>Skip to composer</button><button id="replay" disabled>Replay latest response</button></div>
+<div class="partner-controls"><label for="partner-select">Conversation partner</label><select id="partner-select"></select><button id="switch-partner">Approach selected partner</button><button id="end">End conversation</button></div></section>
+<section class="panel history"><div class="panel-heading"><h2>Conversation &amp; actions</h2><span id="revision"></span></div><div id="history" role="log" aria-live="polite"></div></section>
+<section id="offer-panel" class="panel" hidden><div class="panel-heading"><h2>Exact handover terms</h2><span id="offer-id" class="eyebrow"></span></div><div class="notebook-body"><div id="offer-terms"></div><p class="small muted">A proposal and permission are separate from the actual handover. Confirmation checks the current accepted version and world state.</p><button id="confirm" class="primary wide">Confirm these exact handover terms</button></div></section></div>
+<div class="tools-column"><section id="composer" class="panel"><div class="panel-heading"><div><span class="eyebrow">YOUR COMMUNICATION</span><h2>Compose a message</h2></div></div><div class="composer-body"><div class="family-tabs" role="group" aria-label="Communication family"><button id="family-offer">Offer</button><button id="family-request" aria-pressed="true">Request</button><button id="family-remark">Remark</button></div>
+<label for="intent">Meaning</label><select id="intent"></select><div id="amount-wrap" hidden><label for="amount">Ordinary payment offer (coins)</label><input id="amount" type="number" min="0" step="1" value="1"></div>
+<div class="pair"><div><label for="vibe">BASED</label><select id="vibe"></select></div><div><label for="salience">Salience</label><select id="salience"><option value="SUBTLE">Subtle</option><option value="NUANCED" selected>Nuanced</option><option value="OVERT">Overt</option></select></div></div>
+<div class="preview"><span class="eyebrow">PREVIEW / WHAT YOU WILL COMMUNICATE</span><p id="preview"></p><p id="closure-notice" class="closure-notice" hidden></p></div><button id="send" class="primary wide">Send message</button><p class="small muted">Reading, drafting, clarification, End and partner switching do not spend the substantive repair episode.</p></div></section>
+<section class="panel notebook"><div class="panel-heading"><h2>Your notebook &amp; actions</h2></div><div class="notebook-body"><div id="references"></div><div id="learned"></div><div id="actions"></div><p id="reminder" class="small muted"></p></div></section></div></main>
+<section id="inspector" class="panel inspector" hidden><div class="panel-heading"><div><span class="eyebrow">AUTHOR VIEW / READ ONLY</span><h2>Causal trace</h2></div><div><button id="refresh-inspector">Refresh inspector</button><button id="export-trace">Export trace</button><button id="export-package">Export package</button></div></div><div class="inspector-body"><p id="trace-summary"></p><p>World truth, received fragments, beliefs, fallible hypotheses, reported claims and physical results remain separate. Refreshing never commits.</p><pre id="trace"></pre></div></section>
+<footer><span id="progress"></span><span>Local · manual saves · descriptive performances · M3 only</span></footer></div>
+<dialog id="file-dialog"><div class="dialog-body"><h2 id="file-title"></h2><p id="file-help"></p><label for="file-json">JSON data</label><textarea id="file-json" spellcheck="false"></textarea><div class="dialog-actions"><button id="load-json" hidden>Load this run</button><a id="download-json" class="button primary">Download JSON</a><button id="close-file">Close</button></div><p id="file-error" role="alert"></p></div></dialog>
+<script>(()=>{'use strict';const __modules=Object.create(null);
+__modules["content/m3/seed.mjs"]=(()=>{
+// Generated from authored M3 JSON by scripts/build-m3.mjs.
+const fixture = {
+  "content": {
+    "actions": [
+      {
+        "disclosures": [],
+        "id": "action_0001",
+        "kind": "verify_authority",
+        "label": "Show and verify collection ticket",
+        "requiresAuthority": false,
+        "requiresComparison": false,
+        "targetId": "subject_0002"
+      },
+      {
+        "disclosures": [
+          {
+            "actorId": "actor_0001",
+            "conduct": null,
+            "factIds": [
+              "fact_0001"
+            ],
+            "form": "document",
+            "markId": "subject_0010"
+          },
+          {
+            "actorId": "actor_0002",
+            "conduct": "Sees the collector inspect the permitted extract; the small print is unreadable from here.",
+            "factIds": [],
+            "form": "direct",
+            "markId": null
+          }
+        ],
+        "id": "action_0002",
+        "kind": "inspect",
+        "label": "Inspect handling extract",
+        "requiresAuthority": true,
+        "requiresComparison": false,
+        "targetId": "subject_0003"
+      },
+      {
+        "disclosures": [
+          {
+            "actorId": "actor_0001",
+            "conduct": null,
+            "factIds": [
+              "fact_0005",
+              "fact_0006"
+            ],
+            "form": "document",
+            "markId": "subject_0010"
+          },
+          {
+            "actorId": "actor_0004",
+            "conduct": "Sees the collector search the permitted handling tray; does not read the tag.",
+            "factIds": [],
+            "form": "direct",
+            "markId": null
+          }
+        ],
+        "id": "action_0003",
+        "kind": "search",
+        "label": "Search permitted handling tray",
+        "requiresAuthority": true,
+        "requiresComparison": false,
+        "targetId": "subject_000b"
+      },
+      {
+        "disclosures": [
+          {
+            "actorId": "actor_0001",
+            "conduct": null,
+            "factIds": [
+              "fact_0001",
+              "fact_0005",
+              "fact_0006",
+              "fact_0003",
+              "fact_0007",
+              "fact_0008"
+            ],
+            "form": "document",
+            "markId": "subject_0010"
+          },
+          {
+            "actorId": "actor_0002",
+            "conduct": "Reads the selected case-handling evidence in the supervised comparison.",
+            "factIds": [
+              "fact_0001",
+              "fact_0005",
+              "fact_0006"
+            ],
+            "form": "document",
+            "markId": "subject_0010"
+          }
+        ],
+        "id": "action_0004",
+        "kind": "compare",
+        "label": "Perform supervised case-only comparison",
+        "requiresAuthority": true,
+        "requiresComparison": false,
+        "targetId": "subject_000e"
+      },
+      {
+        "disclosures": [],
+        "id": "action_0005",
+        "kind": "correct_record",
+        "label": "Record correction to the original entry",
+        "requiresAuthority": true,
+        "requiresComparison": true,
+        "targetId": "subject_0003"
+      },
+      {
+        "disclosures": [],
+        "id": "action_0006",
+        "kind": "handover",
+        "label": "Complete confirmed case handover",
+        "requiresAuthority": true,
+        "requiresComparison": true,
+        "targetId": "subject_0001"
+      },
+      {
+        "disclosures": [],
+        "id": "action_0007",
+        "kind": "close_service",
+        "label": "Close collection service for this visit",
+        "requiresAuthority": false,
+        "requiresComparison": false,
+        "targetId": "subject_0004"
+      }
+    ],
+    "actors": [
+      {
+        "id": "actor_0001",
+        "kind": "human",
+        "label": "Collector",
+        "profile": null
+      },
+      {
+        "id": "actor_0002",
+        "kind": "npc",
+        "label": "Tamsin",
+        "profile": {
+          "acceptanceThreshold": 3,
+          "priorities": {
+            "privacy": 10,
+            "service": 10,
+            "verification": 9
+          },
+          "roles": [
+            "record_custodian"
+          ]
+        }
+      },
+      {
+        "id": "actor_0003",
+        "kind": "absent",
+        "label": "Nera Vale",
+        "profile": null
+      },
+      {
+        "id": "actor_0004",
+        "kind": "npc",
+        "label": "Orrin",
+        "profile": {
+          "acceptanceThreshold": 3,
+          "priorities": {
+            "privacy": 10,
+            "service": 10,
+            "verification": 9
+          },
+          "roles": [
+            "handling_witness"
+          ]
+        }
+      }
+    ],
+    "communication": {
+      "expressions": [
+        {
+          "cues": [
+            {
+              "kind": "scope_limit",
+              "text": "States the selected scope firmly and without adding unrelated demands."
+            }
+          ],
+          "templateId": "template_0011",
+          "vibe": "EA"
+        },
+        {
+          "cues": [
+            {
+              "kind": "displayed_concern",
+              "text": "Acknowledges the clerk’s work and communicates supportive concern about a defensible handover."
+            }
+          ],
+          "templateId": "template_0012",
+          "vibe": "SE"
+        },
+        {
+          "cues": [
+            {
+              "kind": "direct_demand",
+              "text": "Makes a direct demand for attention to the selected matter."
+            },
+            {
+              "kind": "possible_consequence",
+              "text": "Raises the possibility of a procedural complaint; no complaint is filed or promised."
+            }
+          ],
+          "templateId": "template_0013",
+          "vibe": "AB"
+        }
+      ]
+    },
+    "contentRevision": "M3-protective-shortcut-v1",
+    "facts": [
+      {
+        "id": "fact_0001",
+        "label": "Recipient signature: unfilled",
+        "predicate": "recipient_signature",
+        "subjectId": "subject_0003",
+        "value": "unfilled"
+      },
+      {
+        "id": "fact_0002",
+        "label": "A wrapped green case moved toward the partition; its exact identity was not established by that sighting",
+        "predicate": "movement_direction",
+        "subjectId": "subject_0011",
+        "value": "subject_000a"
+      },
+      {
+        "id": "fact_0003",
+        "label": "Case is in dry storage",
+        "predicate": "storage_location",
+        "subjectId": "subject_0001",
+        "value": "subject_000f"
+      },
+      {
+        "id": "fact_0004",
+        "label": "Moved after a spill to protect it from damp",
+        "predicate": "movement_reason",
+        "subjectId": "subject_0001",
+        "value": "spill_protection"
+      },
+      {
+        "id": "fact_0005",
+        "label": "Drying tag 041 matches the case reference",
+        "predicate": "item_reference",
+        "subjectId": "subject_000c",
+        "value": "subject_0001"
+      },
+      {
+        "id": "fact_0006",
+        "label": "Drying tag records internal drying, not recipient collection",
+        "predicate": "handling_type",
+        "subjectId": "subject_000c",
+        "value": "internal_drying"
+      },
+      {
+        "id": "fact_0007",
+        "label": "Original collected entry meant removed from the rack",
+        "predicate": "original_entry_meaning",
+        "subjectId": "subject_0003",
+        "value": "removed_from_rack"
+      },
+      {
+        "id": "fact_0008",
+        "label": "Separate hauling obligation: already paid",
+        "predicate": "hauling_obligation_status",
+        "subjectId": "subject_0001",
+        "value": "already_paid"
+      },
+      {
+        "id": "fact_0009",
+        "label": "Private contact value",
+        "predicate": "protected_contact",
+        "subjectId": "subject_0006",
+        "value": "PRIVATE-M3-FIXTURE: 17 Cedar Lane"
+      }
+    ],
+    "humanId": "actor_0001",
+    "id": "package_0003",
+    "initial": {
+      "balances": {
+        "actor_0001": 1200,
+        "actor_0002": 0,
+        "actor_0004": 0
+      },
+      "entry": "collected",
+      "historicalMovement": {
+        "actorReceipts": [
+          {
+            "actorId": "actor_0002",
+            "conduct": null,
+            "factIds": [
+              "fact_0002",
+              "fact_0003",
+              "fact_0004",
+              "fact_0007"
+            ],
+            "form": "direct",
+            "markId": null
+          },
+          {
+            "actorId": "actor_0004",
+            "conduct": null,
+            "factIds": [
+              "fact_0002"
+            ],
+            "form": "direct",
+            "markId": null
+          }
+        ],
+        "allFactIds": [
+          "fact_0002",
+          "fact_0003",
+          "fact_0004",
+          "fact_0007"
+        ]
+      },
+      "holderId": "subject_0007",
+      "initialReferenceIds": [
+        "subject_0001",
+        "subject_0002",
+        "subject_0003",
+        "subject_0009",
+        "subject_000d"
+      ],
+      "itemId": "subject_0001",
+      "minorUnitsPerCoin": 100,
+      "ownerId": "actor_0003",
+      "quantity": 1,
+      "rule": {
+        "closeActionId": "action_0007",
+        "comparisonActionId": "action_0004",
+        "correctionActionId": "action_0005",
+        "custodianId": "actor_0002",
+        "explainReferenceIds": [
+          "subject_0004",
+          "subject_0005",
+          "subject_0006",
+          "subject_0008",
+          "subject_000b",
+          "subject_000e"
+        ],
+        "fileId": "subject_0004",
+        "handoverActionId": "action_0006",
+        "handoverPriceMinor": 0,
+        "inspectionActionIds": [
+          "action_0002",
+          "action_0003"
+        ],
+        "itemId": "subject_0001",
+        "moneyId": "subject_000d",
+        "ownerId": "actor_0003",
+        "ownerTopicId": "subject_0009",
+        "protectedScopeIds": [
+          "subject_0006",
+          "subject_0008"
+        ],
+        "recordCorrection": "Original “collected” meant removal from the rack for internal drying; recipient handover is recorded separately.",
+        "recordId": "subject_0003",
+        "relevantScopeId": "subject_0005",
+        "requiredEvidence": [
+          {
+            "forms": [
+              "document"
+            ],
+            "predicate": "recipient_signature",
+            "subjectId": "subject_0003"
+          },
+          {
+            "forms": [
+              "report"
+            ],
+            "predicate": "movement_direction",
+            "subjectId": "subject_0011"
+          },
+          {
+            "forms": [
+              "document"
+            ],
+            "predicate": "item_reference",
+            "subjectId": "subject_000c"
+          }
+        ],
+        "serviceId": "service_0001",
+        "ticketId": "subject_0002",
+        "verifyActionId": "action_0001",
+        "wholeScopeId": "subject_0008",
+        "witnessId": "actor_0004"
+      },
+      "softAllowance": 24,
+      "witnessAccount": {
+        "actorId": "actor_0004",
+        "factIds": [
+          "fact_0002"
+        ],
+        "interpretation": "It may have been an exception. I did not see the damp seam, final cupboard, or purpose; that interpretation is not a witnessed fact."
+      }
+    },
+    "initialPartnerId": "actor_0002",
+    "presentation": {
+      "art": null,
+      "delivery": null,
+      "intake": null
+    },
+    "protectedFactIds": [
+      "fact_0009"
+    ],
+    "revision": 1,
+    "schema": "encounter-package@3",
+    "subjects": [
+      {
+        "id": "subject_0001",
+        "label": "Nera’s green instrument case"
+      },
+      {
+        "id": "subject_0002",
+        "label": "Collection ticket"
+      },
+      {
+        "id": "subject_0003",
+        "label": "Collection record"
+      },
+      {
+        "id": "subject_0004",
+        "label": "Customer file"
+      },
+      {
+        "id": "subject_0005",
+        "label": "Case-handling scope"
+      },
+      {
+        "id": "subject_0006",
+        "label": "Private contact scope"
+      },
+      {
+        "id": "subject_0007",
+        "label": "Office storage"
+      },
+      {
+        "id": "subject_0008",
+        "label": "Whole customer file"
+      },
+      {
+        "id": "subject_0009",
+        "label": "Nera Vale"
+      },
+      {
+        "id": "subject_000a",
+        "label": "Partition"
+      },
+      {
+        "id": "subject_000b",
+        "label": "Handling tray"
+      },
+      {
+        "id": "subject_000c",
+        "label": "Numbered drying tag"
+      },
+      {
+        "id": "subject_000d",
+        "label": "Coins"
+      },
+      {
+        "id": "subject_000e",
+        "label": "Supervised comparison"
+      },
+      {
+        "id": "subject_000f",
+        "label": "Dry storage"
+      },
+      {
+        "id": "subject_0010",
+        "label": "Office record mark"
+      },
+      {
+        "id": "subject_0011",
+        "label": "Observed wrapped green case — identity not established"
+      }
+    ],
+    "title": "Last Collection · The Protective Shortcut"
+  },
+  "ref": {
+    "id": "package_0003",
+    "revision": 1,
+    "digest": "2ce9f61b996f17392a39c56f4005d8203b7940aa4974564fafa54d110e35ae8f"
+  }
+};
+
+return {fixture};
+})();
+__modules["src/contracts.mjs"]=(()=>{
+/** M1 records only. No scenario, semantic compiler or gameplay resolver. */
+class ContractError extends Error {
+  constructor(code) { super(code); this.code = code; }
+}
+function requireThat(condition, code = 'INVALID_RECORD') {
+  if (!condition) throw new ContractError(code);
+}
+const isRecord = value => value !== null && typeof value === 'object' &&
+  !Array.isArray(value) && [Object.prototype, null].includes(Object.getPrototypeOf(value));
+
+/** Reject values JSON would silently discard or transform, and accessor code. */
+function validateJson(value, depth = 0, ancestors = new Set()) {
+  requireThat(depth <= 32, 'INVALID_JSON');
+  if (value === null || typeof value === 'string' || typeof value === 'boolean') return;
+  if (typeof value === 'number') { requireThat(Number.isFinite(value), 'INVALID_JSON'); return; }
+  requireThat(typeof value === 'object' && !ancestors.has(value), 'INVALID_JSON');
+  requireThat(Array.isArray(value) || isRecord(value), 'INVALID_JSON');
+  requireThat(Object.getOwnPropertySymbols(value).length === 0, 'INVALID_JSON');
+  const descriptors = Object.getOwnPropertyDescriptors(value);
+  for (const [key, descriptor] of Object.entries(descriptors)) {
+    if (Array.isArray(value) && key === 'length') continue;
+    requireThat('value' in descriptor && descriptor.enumerable, 'INVALID_JSON');
+    if (Array.isArray(value)) requireThat(/^(0|[1-9]\d*)$/.test(key) && Number(key) < value.length, 'INVALID_JSON');
+  }
+  if (Array.isArray(value)) requireThat(Object.keys(value).length === value.length, 'INVALID_JSON');
+  const next = new Set(ancestors); next.add(value);
+  for (const descriptor of Object.values(descriptors)) {
+    if (Array.isArray(value) && descriptor === descriptors.length) continue;
+    validateJson(descriptor.value, depth + 1, next);
+  }
+}
+function canonicalJson(value) {
+  validateJson(value);
+  const encode = node => {
+    if (Array.isArray(node)) return `[${node.map(encode).join(',')}]`;
+    if (isRecord(node)) return `{${Object.keys(node).sort().map(k => `${JSON.stringify(k)}:${encode(node[k])}`).join(',')}}`;
+    return JSON.stringify(node);
+  };
+  const result = encode(value);
+  requireThat(result.length <= 1024 * 1024, 'JSON_LIMIT');
+  return result;
+}
+const copy = value => JSON.parse(canonicalJson(value));
+function freeze(value) {
+  if (value && typeof value === 'object') { Object.values(value).forEach(freeze); Object.freeze(value); }
+  return value;
+}
+function fields(value, required, optional = []) {
+  requireThat(isRecord(value));
+  requireThat(required.every(k => Object.hasOwn(value, k)));
+  requireThat(Object.keys(value).every(k => [...required, ...optional].includes(k)));
+}
+function text(value, limit = 4000) { requireThat(typeof value === 'string' && value.trim().length > 0 && value.length <= limit); }
+function integer(value) { requireThat(Number.isSafeInteger(value) && value >= 0); }
+function scalar(value) { requireThat(value === null || ['string', 'number', 'boolean'].includes(typeof value)); }
+function id(value, type) { requireThat(typeof value === 'string' && new RegExp(`^${type}_[0-9a-f]{4,32}$`).test(value)); }
+function ids(values, type) {
+  requireThat(Array.isArray(values) && new Set(values).size === values.length);
+  values.forEach(v => id(v, type));
+}
+function packageRef(ref) {
+  fields(ref, ['id', 'revision', 'digest']); id(ref.id, 'package'); integer(ref.revision);
+  requireThat(typeof ref.digest === 'string' && /^[0-9a-f]{64}$/.test(ref.digest));
+}
+
+// Verified legacy catalog names/order; reaction deltas and 1/2/4 ranks are absent.
+const BASED_CATALOG = freeze({
+  BA: 'Reckless', BS: 'Instigating', BE: 'Condemning', BD: 'Extortive',
+  AB: 'Menacing', AS: 'Commanding', AE: 'Urgent', AD: 'Hustled',
+  SB: 'Irreverent', SA: 'Charismatic', SE: 'Compassionate', SD: 'Coaxing',
+  EB: 'Steadfast', EA: 'Boundaried', ES: 'Communal', ED: 'Deflecting',
+  DB: 'Bluffing', DA: 'Predatory', DS: 'Insinuating', DE: 'Feigning'
+});
+const ACT_FAMILIES = freeze({
+  ask_whereabouts: 'Request', challenge_record: 'Remark', present_evidence: 'Remark',
+  acknowledge_grievance: 'Remark', request_access: 'Request', propose_exchange: 'Offer'
+});
+// Reply shapes share the same canonical envelope; no reply policy is built here.
+const RESPONSE_FAMILIES = freeze({ explain_access: 'Remark', acknowledge_report: 'Remark', decline_scope: 'Remark' });
+const SALIENCE = freeze(['SUBTLE', 'NUANCED', 'OVERT']);
+const sourceTypes = { message: 'message', event: 'event', action_result: 'result' };
+function validateSource(source) {
+  fields(source, ['kind', 'id']); requireThat(Object.hasOwn(sourceTypes, source.kind)); id(source.id, sourceTypes[source.kind]);
+}
+function validateOutward(outward) {
+  canonicalJson(outward);
+  fields(outward, ['family', 'act', 'senderId', 'recipientIds', 'subjectIds', 'targetId', 'scope', 'content', 'framing', 'prominence', 'terms']);
+  const family = Object.hasOwn(ACT_FAMILIES, outward.act) ? ACT_FAMILIES[outward.act] :
+    Object.hasOwn(RESPONSE_FAMILIES, outward.act) ? RESPONSE_FAMILIES[outward.act] : null;
+  requireThat(family !== null && family === outward.family);
+  id(outward.senderId, 'actor'); ids(outward.recipientIds, 'actor'); requireThat(outward.recipientIds.length > 0);
+  ids(outward.subjectIds, 'subject'); id(outward.targetId, 'subject');
+  requireThat(outward.subjectIds.includes(outward.targetId));
+  fields(outward.scope, ['subjectId', 'kind']); id(outward.scope.subjectId, 'subject'); text(outward.scope.kind, 100);
+  requireThat(outward.subjectIds.includes(outward.scope.subjectId));
+  fields(outward.content, ['kind', 'predicate', 'value', 'timeScope']);
+  requireThat(['request', 'question', 'assertion', 'proposal', 'acknowledgment'].includes(outward.content.kind)); text(outward.content.predicate, 100); text(outward.content.timeScope, 100);
+  scalar(outward.content.value);
+  requireThat(Array.isArray(outward.framing) && outward.framing.length <= 12);
+  for (const cue of outward.framing) {
+    fields(cue, ['kind', 'text', 'subjectIds']); text(cue.kind, 100); text(cue.text); ids(cue.subjectIds, 'subject');
+    requireThat(cue.subjectIds.every(subject => outward.subjectIds.includes(subject)));
+  }
+  requireThat(['understated', 'measured', 'emphatic'].includes(outward.prominence));
+  // M1 has no exchange implementation. A non-null terms record must fail clearly.
+  requireThat(outward.terms === null, 'UNIMPLEMENTED_TERMS');
+  requireThat(outward.act !== 'propose_exchange', 'UNIMPLEMENTED_ACT');
+  return true;
+}
+function validateMessage(message) {
+  canonicalJson(message);
+  fields(message, ['schema', 'id', 'commandId', 'sequence', 'contextMessageId', 'privateComposition', 'outward']);
+  requireThat(message.schema === 'encounter-message@2'); id(message.id, 'message'); id(message.commandId, 'command'); integer(message.sequence);
+  if (message.contextMessageId !== null) id(message.contextMessageId, 'message');
+  const privatePart = message.privateComposition;
+  fields(privatePart, ['selectedVibe', 'selectedSalience', 'authorId', 'templateId', 'intendedFraming']);
+  requireThat(Object.hasOwn(BASED_CATALOG, privatePart.selectedVibe)); requireThat(SALIENCE.includes(privatePart.selectedSalience));
+  id(privatePart.authorId, 'author'); id(privatePart.templateId, 'template'); text(privatePart.intendedFraming);
+  validateOutward(message.outward); return true;
+}
+function validateObservation(observation) {
+  canonicalJson(observation);
+  fields(observation, ['schema', 'id', 'observerId', 'source', 'sequence', 'channel', 'receivedDetails', 'roots']);
+  requireThat(observation.schema === 'encounter-observation@2'); id(observation.id, 'observation'); id(observation.observerId, 'actor');
+  validateSource(observation.source); integer(observation.sequence);
+  requireThat(['hearing', 'sight', 'reading', 'initial'].includes(observation.channel));
+  requireThat(isRecord(observation.receivedDetails));
+  requireThat(Array.isArray(observation.roots) && observation.roots.length > 0);
+  observation.roots.forEach(validateSource);
+  requireThat(new Set(observation.roots.map(canonicalJson)).size === observation.roots.length);
+  return true;
+}
+function validateClaim(claim) {
+  canonicalJson(claim);
+  fields(claim, ['id', 'speakerId', 'recipientIds', 'messageId', 'proposition', 'observationIds', 'roots']);
+  id(claim.id, 'claim'); id(claim.speakerId, 'actor'); ids(claim.recipientIds, 'actor'); id(claim.messageId, 'message');
+  fields(claim.proposition, ['subjectId', 'predicate', 'value', 'timeScope']);
+  id(claim.proposition.subjectId, 'subject'); text(claim.proposition.predicate, 100); text(claim.proposition.timeScope, 100);
+  scalar(claim.proposition.value);
+  ids(claim.observationIds, 'observation'); requireThat(claim.observationIds.length > 0);
+  requireThat(Array.isArray(claim.roots) && claim.roots.length > 0); claim.roots.forEach(validateSource);
+  return true;
+}
+function validatePermission(permission) {
+  canonicalJson(permission);
+  fields(permission, ['id', 'granteeId', 'grantorId', 'actionType', 'targetId', 'scope', 'status', 'sourceMessageId']);
+  id(permission.id, 'permission'); id(permission.granteeId, 'actor'); id(permission.grantorId, 'actor');
+  text(permission.actionType, 100); id(permission.targetId, 'subject'); text(permission.scope, 100);
+  requireThat(['allowed', 'unset', 'forbidden'].includes(permission.status)); id(permission.sourceMessageId, 'message'); return true;
+}
+function validateActionRequest(request) {
+  canonicalJson(request);
+  fields(request, ['commandId', 'actorId', 'actionType', 'targetId', 'permissionId', 'expectedRevision']);
+  id(request.commandId, 'command'); id(request.actorId, 'actor'); text(request.actionType, 100); id(request.targetId, 'subject');
+  id(request.permissionId, 'permission'); integer(request.expectedRevision); return true;
+}
+function validateMatchedResult(request, result, supportedEffectTypes) {
+  validateActionRequest(request); canonicalJson(result);
+  fields(result, ['id', 'request', 'outcome', 'effects', 'observerDetails']); id(result.id, 'result');
+  requireThat(canonicalJson(result.request) === canonicalJson(request), 'RESULT_MISMATCH');
+  requireThat(['performed', 'no_discovery', 'refused'].includes(result.outcome));
+  requireThat(Array.isArray(result.effects) && Array.isArray(result.observerDetails));
+  for (const effect of result.effects) {
+    fields(effect, ['type', 'payload']); requireThat(supportedEffectTypes.includes(effect.type), 'UNSUPPORTED_EFFECT');
+  }
+  for (const recipient of result.observerDetails) {
+    fields(recipient, ['observerId', 'details']); id(recipient.observerId, 'actor'); requireThat(isRecord(recipient.details));
+  }
+  requireThat(new Set(result.observerDetails.map(r => r.observerId)).size === result.observerDetails.length);
+  return true;
+}
+
+return {ContractError,requireThat,isRecord,validateJson,canonicalJson,copy,freeze,fields,text,integer,scalar,id,ids,packageRef,BASED_CATALOG,ACT_FAMILIES,RESPONSE_FAMILIES,SALIENCE,validateSource,validateOutward,validateMessage,validateObservation,validateClaim,validatePermission,validateActionRequest,validateMatchedResult};
+})();
+__modules["src/m3/types.mjs"]=(()=>{
+const { canonicalJson, copy, freeze, fields, id, ids, integer, text, requireThat, isRecord, scalar, BASED_CATALOG, SALIENCE, validateSource }=__modules["src/contracts.mjs"];
+
+const ACTS=freeze({request_access:'Request',ask_whereabouts:'Request',challenge_record:'Remark',present_evidence:'Remark',acknowledge_grievance:'Remark',propose_exchange:'Offer',why:'Remark',yes:'Remark'});
+const REPLIES=['explain_access','verify_first','limited_account','defer_location','acknowledge_report','comparison_offer','restriction_warning','explain_warning','scope_repaired','boundary_refusal','ordinary_payment_refusal','payment_boundary_refusal','handover_offer','confirm_reminder','service_closure','already_recovered','unavailable','concern_acknowledged'];
+function evidenceRecord(e){
+ fields(e,['subjectId','predicate','value','label','form','markId','roots']);id(e.subjectId,'subject');text(e.predicate,100);scalar(e.value);text(e.label,600);
+ requireThat(['document','report','direct','inference'].includes(e.form));if(e.markId!==null)id(e.markId,'subject');requireThat(Array.isArray(e.roots)&&e.roots.length>0);e.roots.forEach(validateSource);
+ return true;
+}
+function termsRecord(t){
+ fields(t,['parties','itemId','fromId','toId','ownerId','moneyId','amountMinor','privateDisclosures','settlements']);ids(t.parties,'actor');requireThat(t.parties.length===2);
+ id(t.itemId,'subject');id(t.fromId,'subject');id(t.toId,'actor');id(t.ownerId,'actor');id(t.moneyId,'subject');integer(t.amountMinor);
+ requireThat(Array.isArray(t.privateDisclosures)&&t.privateDisclosures.length===0 && Array.isArray(t.settlements)&&t.settlements.length===0,'UNSUPPORTED_TERMS');return true;
+}
+function outwardRecord(o){
+ fields(o,['family','act','senderId','recipientIds','subjectIds','targetId','scope','content','framing','prominence','terms']);
+ requireThat(ACTS[o.act]===o.family || REPLIES.includes(o.act)&&o.family==='Remark');id(o.senderId,'actor');ids(o.recipientIds,'actor');requireThat(o.recipientIds.length>0);ids(o.subjectIds,'subject');id(o.targetId,'subject');requireThat(o.subjectIds.includes(o.targetId));
+ fields(o.scope,['subjectId','kind']);id(o.scope.subjectId,'subject');requireThat(o.subjectIds.includes(o.scope.subjectId));requireThat(['relevant','protected','whole','subject','none'].includes(o.scope.kind));
+ fields(o.content,['kind','operation','evidence','amountMinor','purpose','text']);requireThat(['request','question','assertion','acknowledgment','proposal','response'].includes(o.content.kind));text(o.content.operation,100);text(o.content.purpose,100);text(o.content.text);integer(o.content.amountMinor);requireThat(Array.isArray(o.content.evidence));o.content.evidence.forEach(evidenceRecord);
+ requireThat(Array.isArray(o.framing));for(const c of o.framing){fields(c,['kind','text']);text(c.kind,100);text(c.text);}
+ requireThat(['understated','measured','emphatic'].includes(o.prominence));if(o.terms!==null)termsRecord(o.terms);return true;
+}
+function messageRecord(m){
+ canonicalJson(m);fields(m,['schema','id','commandId','sequence','contextMessageId','privateComposition','outward']);requireThat(m.schema==='encounter-message@3');id(m.id,'message');id(m.commandId,'command');integer(m.sequence);if(m.contextMessageId!==null)id(m.contextMessageId,'message');
+ fields(m.privateComposition,['selectedVibe','selectedSalience','authorId','templateId','intendedFraming']);requireThat(Object.hasOwn(BASED_CATALOG,m.privateComposition.selectedVibe)&&SALIENCE.includes(m.privateComposition.selectedSalience));id(m.privateComposition.authorId,'author');id(m.privateComposition.templateId,'template');text(m.privateComposition.intendedFraming);outwardRecord(m.outward);return true;
+}
+function packageRecord(p){
+ canonicalJson(p);fields(p,['schema','id','revision','contentRevision','title','actors','subjects','humanId','initialPartnerId','facts','protectedFactIds','initial','actions','communication','presentation']);requireThat(p.schema==='encounter-package@3');id(p.id,'package');integer(p.revision);text(p.contentRevision,100);text(p.title,160);
+ ids(p.actors.map(a=>a.id),'actor');ids(p.subjects.map(s=>s.id),'subject');const actors=new Set(p.actors.map(a=>a.id)),subjects=new Set(p.subjects.map(s=>s.id));
+ for(const a of p.actors){fields(a,['id','label','kind','profile']);text(a.label,120);requireThat(['human','npc','absent'].includes(a.kind));if(a.kind==='npc'){fields(a.profile,['roles','priorities','acceptanceThreshold']);requireThat(Array.isArray(a.profile.roles));a.profile.roles.forEach(x=>text(x,100));fields(a.profile.priorities,['service','privacy','verification']);Object.values(a.profile.priorities).forEach(integer);integer(a.profile.acceptanceThreshold);requireThat(a.profile.acceptanceThreshold>=1&&a.profile.acceptanceThreshold<=5);}else requireThat(a.profile===null);}
+ p.subjects.forEach(s=>{fields(s,['id','label']);text(s.label,160);});requireThat(actors.has(p.humanId)&&p.actors.find(a=>a.id===p.humanId).kind==='human');requireThat(p.actors.some(a=>a.id===p.initialPartnerId&&a.kind==='npc'));
+ ids(p.facts.map(f=>f.id),'fact');const facts=new Set(p.facts.map(f=>f.id));for(const f of p.facts){fields(f,['id','subjectId','predicate','value','label']);requireThat(subjects.has(f.subjectId));text(f.predicate,100);scalar(f.value);text(f.label,600);}ids(p.protectedFactIds,'fact');requireThat(p.protectedFactIds.every(x=>facts.has(x)));
+ fields(p.initial,['itemId','ownerId','holderId','quantity','balances','minorUnitsPerCoin','softAllowance','entry','rule','initialReferenceIds','historicalMovement','witnessAccount']);requireThat(subjects.has(p.initial.itemId)&&subjects.has(p.initial.holderId)&&actors.has(p.initial.ownerId)&&p.initial.quantity===1);requireThat(isRecord(p.initial.balances)&&Object.keys(p.initial.balances).every(x=>actors.has(x)));Object.values(p.initial.balances).forEach(integer);integer(p.initial.minorUnitsPerCoin);requireThat(p.initial.minorUnitsPerCoin>0);integer(p.initial.softAllowance);requireThat(p.initial.softAllowance>0);text(p.initial.entry,100);requireThat(p.initial.initialReferenceIds.every(x=>subjects.has(x)));
+ const r=p.initial.rule;fields(r,['serviceId','custodianId','witnessId','itemId','ownerId','ownerTopicId','ticketId','recordId','fileId','relevantScopeId','protectedScopeIds','wholeScopeId','moneyId','verifyActionId','inspectionActionIds','comparisonActionId','correctionActionId','handoverActionId','closeActionId','explainReferenceIds','requiredEvidence','handoverPriceMinor','recordCorrection']);id(r.serviceId,'service');requireThat(actors.has(r.custodianId)&&actors.has(r.witnessId)&&actors.has(r.ownerId));
+ for(const key of ['itemId','ownerTopicId','ticketId','recordId','fileId','relevantScopeId','wholeScopeId','moneyId'])requireThat(subjects.has(r[key]));requireThat(r.protectedScopeIds.every(x=>subjects.has(x))&&!r.protectedScopeIds.includes(r.relevantScopeId));requireThat(r.explainReferenceIds.every(x=>subjects.has(x)));integer(r.handoverPriceMinor);text(r.recordCorrection);requireThat(Array.isArray(r.requiredEvidence)&&r.requiredEvidence.length>0);for(const e of r.requiredEvidence){fields(e,['subjectId','predicate','forms']);requireThat(subjects.has(e.subjectId));text(e.predicate,100);requireThat(e.forms.every(x=>['document','report','direct'].includes(x)));}
+ ids(p.actions.map(a=>a.id),'action');const actionIds=new Set(p.actions.map(a=>a.id));for(const key of ['verifyActionId','comparisonActionId','correctionActionId','handoverActionId','closeActionId'])requireThat(actionIds.has(r[key]));requireThat(r.inspectionActionIds.every(x=>actionIds.has(x)));
+ const checkDisclosure=d=>{fields(d,['actorId','factIds','form','markId','conduct']);requireThat(actors.has(d.actorId)&&d.factIds.every(x=>facts.has(x)));requireThat(['document','report','direct'].includes(d.form));if(d.markId!==null)requireThat(subjects.has(d.markId));if(d.conduct!==null)text(d.conduct);requireThat(!d.factIds.some(x=>p.protectedFactIds.includes(x)&&d.actorId===p.humanId),'PROTECTED_DISCLOSURE');};
+ for(const a of p.actions){fields(a,['id','kind','targetId','label','requiresAuthority','requiresComparison','disclosures']);requireThat(['verify_authority','inspect','search','compare','correct_record','handover','close_service'].includes(a.kind)&&subjects.has(a.targetId));text(a.label,160);requireThat(typeof a.requiresAuthority==='boolean'&&typeof a.requiresComparison==='boolean');a.disclosures.forEach(checkDisclosure);}
+ fields(p.initial.historicalMovement,['allFactIds','actorReceipts']);requireThat(p.initial.historicalMovement.allFactIds.every(x=>facts.has(x)));p.initial.historicalMovement.actorReceipts.forEach(checkDisclosure);fields(p.initial.witnessAccount,['actorId','factIds','interpretation']);requireThat(actors.has(p.initial.witnessAccount.actorId)&&p.initial.witnessAccount.factIds.every(x=>facts.has(x)));text(p.initial.witnessAccount.interpretation);
+ fields(p.communication,['expressions']);requireThat(Array.isArray(p.communication.expressions)&&p.communication.expressions.length>0);requireThat(new Set(p.communication.expressions.map(e=>e.vibe)).size===p.communication.expressions.length);for(const e of p.communication.expressions){fields(e,['vibe','templateId','cues']);requireThat(Object.hasOwn(BASED_CATALOG,e.vibe));id(e.templateId,'template');for(const c of e.cues){fields(c,['kind','text']);text(c.kind,100);text(c.text);}}
+ fields(p.presentation,['art','intake','delivery']);return true;
+}
+async function sealPackage(content){const p=copy(content);packageRecord(p);const bytes=new TextEncoder().encode(canonicalJson(p));const digest=[...new Uint8Array(await crypto.subtle.digest('SHA-256',bytes))].map(v=>v.toString(16).padStart(2,'0')).join('');return freeze({content:p,ref:{id:p.id,revision:p.revision,digest}});}
+async function verifyPackage(pkg){fields(pkg,['content','ref']);const sealed=await sealPackage(pkg.content);requireThat(canonicalJson(sealed.ref)===canonicalJson(pkg.ref),'PACKAGE_MISMATCH');return sealed;}
+
+return {ACTS,REPLIES,evidenceRecord,termsRecord,outwardRecord,messageRecord,packageRecord,sealPackage,verifyPackage,canonicalJson,copy,freeze,fields,id,integer,text,requireThat,BASED_CATALOG,SALIENCE};
+})();
+__modules["src/m3/meaning.mjs"]=(()=>{
+const { ACTS, copy, freeze, fields, id, integer, requireThat, SALIENCE, messageRecord }=__modules["src/m3/types.mjs"];
+
+const draft=(act='request_access',extra={})=>({act,operation:'inspect',targetId:null,scopeId:null,evidenceKeys:[],amountMinor:0,purpose:'ordinary_collection',contextMessageId:null,vibe:'EA',salience:'NUANCED',...extra});
+const evidenceKey=e=>[e.subjectId,e.predicate,JSON.stringify(e.value)].join('|');
+function describe(o){
+ return [o.content.text,...o.framing.map(c=>c.text),`Social framing is ${o.prominence}.`].join('\n');
+}
+function compile(definitions,view,input,identity){
+ fields(input,['act','operation','targetId','scopeId','evidenceKeys','amountMinor','purpose','contextMessageId','vibe','salience']);requireThat(Object.hasOwn(ACTS,input.act),'UNSUPPORTED_ACT');requireThat(SALIENCE.includes(input.salience));
+ const expression=definitions.expressions.find(e=>e.vibe===input.vibe);requireThat(Boolean(expression),'UNAVAILABLE_EXPRESSION');integer(input.amountMinor);
+ const targetId=input.targetId??view.itemId,scopeId=input.scopeId??view.rule?.relevantScopeId??targetId;
+ requireThat(view.references.some(r=>r.id===targetId)&&view.references.some(r=>r.id===scopeId),'UNKNOWN_REFERENCE');
+ requireThat(Array.isArray(input.evidenceKeys)&&new Set(input.evidenceKeys).size===input.evidenceKeys.length);
+ const evidence=input.evidenceKeys.map(k=>{const e=view.evidence.find(e=>evidenceKey(e)===k);requireThat(Boolean(e),'UNLEARNED_EVIDENCE');return copy(e);});
+ if(['present_evidence','challenge_record'].includes(input.act))requireThat(evidence.length>0,'EVIDENCE_REQUIRED');
+ const knownRule=view.rule,protectedScope=Boolean(knownRule?.protectedScopeIds.includes(scopeId));
+ if(input.contextMessageId!==null)requireThat(view.messages.some(m=>m.id===input.contextMessageId&&m.outward.senderId===view.partnerId),'CONTEXT_REQUIRED');
+ const scope={subjectId:scopeId,kind:protectedScope?(scopeId===knownRule.wholeScopeId?'whole':'protected'):knownRule&&scopeId===knownRule.relevantScopeId?'relevant':'subject'};
+ const label=ref=>view.references.find(r=>r.id===ref)?.label??'the selected subject';
+ let text,kind='request';
+ if(input.act==='request_access'){
+  requireThat(['inspect','compare','collect','bypass'].includes(input.operation));
+  if(input.operation==='collect')requireThat(targetId===view.itemId&&scopeId===view.itemId,'AMBIGUOUS_SCOPE');
+  if(input.operation==='compare')requireThat(Boolean(knownRule)&&targetId===view.recordId&&scopeId===knownRule.relevantScopeId,'AMBIGUOUS_SCOPE');
+  if(input.operation==='bypass')requireThat(protectedScope,'AMBIGUOUS_SCOPE');
+  text=input.operation==='collect'?`Requests authorized collection of ${label(targetId)}.`:input.operation==='compare'?`Accepts the offered supervised comparison, limited to ${label(scopeId)}.`:input.operation==='bypass'?`Asks the clerk to bypass the stated boundary and disclose ${label(scopeId)}.`:`Requests access to ${label(scopeId)} concerning ${label(targetId)}.`;
+ }else if(input.act==='ask_whereabouts'){requireThat(input.operation==='ask');kind='question';text=`Asks where ${label(targetId)} is. This is a request for location information, not a physical search.`;}
+ else if(input.act==='challenge_record'){kind='assertion';text=`Challenges the collection entry using the inspected/reported evidence below, limiting the present request to ${label(scopeId)}.`;}
+ else if(input.act==='present_evidence'){kind='assertion';text=`Shows only the selected evidence below, concerning ${label(scopeId)}. Showing it does not transfer the object.`;}
+ else if(input.act==='acknowledge_grievance'){kind='acknowledgment';text='Acknowledges the stated privacy concern with an apology. Does not accept the comparison or narrow the present request.';}
+ else if(input.act==='why'){kind='question';requireThat(Boolean(view.warningMessageId)&&input.contextMessageId===view.warningMessageId&&view.partnerId===knownRule?.custodianId,'CONTEXT_REQUIRED');text='Asks Why about the recorded restriction and warning. This is clarification, not a renewed demand.';}
+ else if(input.act==='yes'){kind='acknowledgment';requireThat(Boolean(view.activeOffer),'NO_ACTIVE_OFFER');identity={...identity,contextMessageId:view.activeOffer.sourceMessageId};text=`Acknowledges handover proposal ${view.activeOffer.id}, version ${view.activeOffer.revision}. This does not confirm or execute its material terms.`;}
+ else {kind='proposal';requireThat(['ordinary_collection','boundary_exception'].includes(input.purpose));text=`Offers ${input.amountMinor} minor money units ${input.purpose==='ordinary_collection'?'for ordinary collection; no fee or debt is asserted.':`in return for bypassing the privacy boundary for ${label(scopeId)}.`}`;}
+ if(evidence.length)text+='\n'+evidence.map(e=>e.label).join('\n');
+ const m={schema:'encounter-message@3',...identity,privateComposition:{selectedVibe:input.vibe,selectedSalience:input.salience,authorId:'author_0001',templateId:expression.templateId,intendedFraming:expression.cues.map(c=>c.text).join(' ')},outward:{family:ACTS[input.act],act:input.act,senderId:view.actorId,recipientIds:[view.partnerId],subjectIds:[...new Set([targetId,scopeId,...evidence.map(e=>e.subjectId)])],targetId,scope,content:{kind,operation:input.operation,evidence,amountMinor:input.amountMinor,purpose:input.purpose,text},framing:copy(expression.cues),prominence:{SUBTLE:'understated',NUANCED:'measured',OVERT:'emphatic'}[input.salience],terms:null}};
+ messageRecord(m);return freeze(m);
+}
+
+/** The sole predicted consequence uses public warning, draft and known success. */
+function closureNotice(view,outward){
+ if(!view.warningMessageId||view.recovered||view.serviceClosed||outward.recipientIds[0]!==view.rule?.custodianId)return null;
+ const demand=view.rule.protectedScopeIds.includes(outward.scope.subjectId)&&((outward.act==='request_access'&&['inspect','bypass'].includes(outward.content.operation))||(outward.act==='propose_exchange'&&outward.content.purpose==='boundary_exception'));
+ return demand?{warningMessageId:view.warningMessageId,text:'The clerk warned that renewing this protected/full-file demand will end collection service for this visit. Send anyway or edit the draft.',displayed:false}:null;
+}
+function markNoticeDisplayed(command){
+ const next=copy(command);requireThat(next.kind==='send_message'&&Boolean(next.payload.preview.notice),'NO_NOTICE');next.payload.preview.notice.displayed=true;return freeze(next);
+}
+
+return {draft,evidenceKey,describe,compile,closureNotice,markNoticeDisplayed};
+})();
+__modules["src/runtime.mjs"]=(()=>{
+const { ContractError, canonicalJson, copy, freeze, fields, id, integer, isRecord, packageRef, requireThat }=__modules["src/contracts.mjs"];
+
+function validateCommand(command) {
+  fields(command, ['schema', 'id', 'sessionId', 'packageRef', 'expectedRevision', 'kind', 'payload']);
+  requireThat(command.schema === 'encounter-command@2'); id(command.id, 'command'); id(command.sessionId, 'run');
+  packageRef(command.packageRef); integer(command.expectedRevision);
+  requireThat(['send_message', 'perform_action'].includes(command.kind), 'UNSUPPORTED_COMMAND');
+  requireThat(isRecord(command.payload));
+}
+function validateRun(run) {
+  canonicalJson(run);
+  fields(run, ['schema', 'id', 'packageRef', 'revision', 'data', 'journal']);
+  requireThat(run.schema === 'encounter-run@2'); id(run.id, 'run'); packageRef(run.packageRef); integer(run.revision);
+  requireThat(isRecord(run.data) && Array.isArray(run.journal) && run.journal.length === run.revision);
+  const used = new Set();
+  for (const [index, entry] of run.journal.entries()) {
+    fields(entry, ['command', 'receipt']); validateCommand(entry.command);
+    fields(entry.receipt, ['commandId', 'committedRevision', 'result']);
+    requireThat(!used.has(entry.command.id)); used.add(entry.command.id);
+    requireThat(entry.command.sessionId === run.id && canonicalJson(entry.command.packageRef) === canonicalJson(run.packageRef));
+    requireThat(entry.command.expectedRevision === index && entry.receipt.committedRevision === index + 1 && entry.receipt.commandId === entry.command.id);
+  }
+  return true;
+}
+function createRun({ id: sessionId, packageRef: ref, data }) {
+  const run = copy({ schema: 'encounter-run@2', id: sessionId, packageRef: ref, revision: 0, data, journal: [] });
+  validateRun(run); return freeze(run);
+}
+
+/**
+ * One synchronous local commit owner. Hooks receive copies, never live state.
+ * M2 supplies domain resolution in the documented staged order; M1 tests use
+ * neutral processors. The caller installs `run` only when status is committed.
+ */
+function executeCommand(run, command, handlers) {
+  const rejected = code => ({ status: 'rejected', code, run });
+  try {
+    validateRun(run);
+    // One submitted snapshot owns identity before any callback can mutate aliases.
+    const immutableCommand = freeze(copy(command));
+    const serialized = canonicalJson(immutableCommand);
+    id(immutableCommand.id, 'command'); id(immutableCommand.sessionId, 'run');
+    requireThat(immutableCommand.sessionId === run.id, 'WRONG_SESSION');
+    const prior = run.journal.find(entry => entry.command.id === immutableCommand.id);
+    if (prior) {
+      if (canonicalJson(prior.command) !== serialized) return rejected('IDENTITY_CONFLICT');
+      return { status: 'replayed', run, receipt: freeze(copy(prior.receipt)) };
+    }
+    validateCommand(immutableCommand);
+    requireThat(canonicalJson(immutableCommand.packageRef) === canonicalJson(run.packageRef), 'PACKAGE_MISMATCH');
+    requireThat(immutableCommand.expectedRevision === run.revision, 'STALE_COMMAND');
+    requireThat(isRecord(handlers) && ['validateNew', 'resolve', 'validateStaged'].every(key =>
+      typeof handlers[key] === 'function' && handlers[key].constructor.name !== 'AsyncFunction'), 'INVALID_HANDLERS');
+    requireThat(handlers.validateNew(freeze(copy(run.data)), immutableCommand) === true, 'INVALID_COMMAND');
+    const staged = copy(run.data);
+    const result = handlers.resolve(staged, immutableCommand);
+    // JSON-only result excludes asynchronous resolution or opaque handles.
+    canonicalJson(result); canonicalJson(staged);
+    requireThat(handlers.validateStaged(freeze(copy(staged)), freeze(copy(result)), immutableCommand) === true, 'INVALID_COMMAND');
+    const receipt = { commandId: immutableCommand.id, committedRevision: run.revision + 1, result: copy(result) };
+    const next = { schema: run.schema, id: run.id, packageRef: copy(run.packageRef), revision: run.revision + 1,
+      data: staged, journal: [...copy(run.journal), { command: immutableCommand, receipt }] };
+    validateRun(next);
+    return { status: 'committed', run: freeze(next), receipt: freeze(copy(receipt)) };
+  } catch (error) {
+    // Never turn an author exception/hidden source value into player feedback.
+    const safeCodes = new Set(['WRONG_SESSION', 'PACKAGE_MISMATCH', 'STALE_COMMAND', 'UNSUPPORTED_COMMAND', 'INVALID_HANDLERS', 'INVALID_COMMAND']);
+    return rejected(error instanceof ContractError && safeCodes.has(error.code) ? error.code : 'TECHNICAL_REJECTION');
+  }
+}
+
+return {validateRun,createRun,executeCommand};
+})();
+__modules["src/views.mjs"]=(()=>{
+const { canonicalJson, copy, freeze, fields, id, integer, isRecord, requireThat, text, validateSource, validateObservation, validateMessage, validateOutward, validateClaim }=__modules["src/contracts.mjs"];
+
+/** Authoritative routing adapter only: the caller supplies a declared detail grant. */
+function projectObservation(source, grant) {
+  canonicalJson(source); canonicalJson(grant);
+  fields(source, ['kind', 'id', 'sequence', 'details']); validateSource({ kind: source.kind, id: source.id }); integer(source.sequence);
+  requireThat(isRecord(source.details));
+  fields(grant, ['id', 'observerId', 'channel', 'receivedKeys', 'roots']);
+  requireThat(Array.isArray(grant.receivedKeys) && new Set(grant.receivedKeys).size === grant.receivedKeys.length);
+  const received = Object.create(null);
+  for (const key of grant.receivedKeys) {
+    text(key, 100); requireThat(Object.hasOwn(source.details, key), 'INVALID_DETAIL_GRANT');
+    received[key] = copy(source.details[key]);
+  }
+  const observation = { schema: 'encounter-observation@2', id: grant.id, observerId: grant.observerId,
+    source: { kind: source.kind, id: source.id }, sequence: source.sequence, channel: grant.channel,
+    receivedDetails: received, roots: copy(grant.roots) };
+  validateObservation(observation); return freeze(copy(observation));
+}
+function observeMessage(message, { id: observationId, observerId }) {
+  validateMessage(message); id(observerId, 'actor');
+  requireThat(message.outward.recipientIds.includes(observerId), 'NO_RECEIVING_PATH');
+  return projectObservation({ kind: 'message', id: message.id, sequence: message.sequence, details: { communication: message.outward } },
+    { id: observationId, observerId, channel: 'hearing', receivedKeys: ['communication'], roots: [{ kind: 'message', id: message.id }] });
+}
+function previewView(compiledCandidate) {
+  validateMessage(compiledCandidate);
+  return freeze(copy({ privateComposition: compiledCandidate.privateComposition, outward: compiledCandidate.outward, contextMessageId: compiledCandidate.contextMessageId }));
+}
+function recipientHistory(observations, actorId) {
+  id(actorId, 'actor'); observations.forEach(validateObservation);
+  requireThat(new Set(observations.map(o => o.id)).size === observations.length, 'DUPLICATE_OBSERVATION');
+  return freeze(copy(observations.filter(o => o.observerId === actorId)));
+}
+
+/** No source-event store, canonical messages, assets or package data enter this API. */
+function listenerView({ actorId, currentMessageId, observations, claims, profile }) {
+  id(actorId, 'actor'); id(currentMessageId, 'message');
+  const local = recipientHistory(observations, actorId);
+  const delivery = local.find(o => o.source.kind === 'message' && o.source.id === currentMessageId && Object.hasOwn(o.receivedDetails, 'communication'));
+  requireThat(Boolean(delivery), 'NO_RECEIVING_PATH'); validateOutward(delivery.receivedDetails.communication);
+  requireThat(delivery.receivedDetails.communication.recipientIds.includes(actorId), 'NO_RECEIVING_PATH');
+  canonicalJson(profile); fields(profile, ['roles', 'priorities']);
+  requireThat(Array.isArray(profile.roles)); profile.roles.forEach(role => text(role, 100));
+  fields(profile.priorities, ['relevantService', 'privacy', 'verification']);
+  Object.values(profile.priorities).forEach(weight => { integer(weight); requireThat(weight <= 100); });
+  claims.forEach(validateClaim);
+  const localIds = new Set(local.map(o => o.id));
+  const localClaims = claims.filter(claim => claim.recipientIds.includes(actorId) && claim.observationIds.every(ref => localIds.has(ref)) &&
+    local.some(o => {
+      if (!claim.observationIds.includes(o.id) || o.source.kind !== 'message' || o.source.id !== claim.messageId) return false;
+      const spoken = o.receivedDetails.communication;
+      if (!spoken || spoken.content.kind !== 'assertion') return false;
+      return spoken.senderId === claim.speakerId && spoken.recipientIds.includes(actorId) && spoken.targetId === claim.proposition.subjectId &&
+        spoken.content.predicate === claim.proposition.predicate && spoken.content.timeScope === claim.proposition.timeScope &&
+        canonicalJson(spoken.content.value) === canonicalJson(claim.proposition.value);
+    }));
+  return freeze(copy({ actorId, currentMessageId, incoming: delivery.receivedDetails.communication, observations: local, claims: localClaims, profile }));
+}
+/** Opaque source citation can retrieve only already received fragments. */
+function readObservedSource(boundListenerView, source) {
+  validateSource(source);
+  return freeze(copy(boundListenerView.observations.filter(o => o.source.kind === source.kind && o.source.id === source.id)
+    .map(o => ({ observationId: o.id, receivedDetails: o.receivedDetails }))));
+}
+/** Explicit author-only read. Never supplied to listener/presentation adapters. */
+function authorInspector(record) { return freeze(copy(record)); }
+
+return {projectObservation,observeMessage,previewView,recipientHistory,listenerView,readObservedSource,authorInspector};
+})();
+__modules["src/action-boundary.mjs"]=(()=>{
+const { canonicalJson, copy, freeze, requireThat, validateMatchedResult }=__modules["src/contracts.mjs"];
+
+/**
+ * Pure staging helper, never installs state. Adapter is local/synchronous and
+ * applies supported effects to a copy. Runtime owns the eventual whole commit.
+ * No physical action resolver or scenario action exists at M1.
+ */
+function stageMatchedResult(data, request, result, supportedEffectTypes, apply) {
+  const { request: immutableRequest, result: immutableResult } = freeze(copy({ request, result }));
+  validateMatchedResult(immutableRequest, immutableResult, supportedEffectTypes);
+  const next = copy(data);
+  requireThat(Array.isArray(next.actionResults), 'INVALID_RESULT_STORE');
+  const prior = next.actionResults.find(r => r.id === immutableResult.id || r.request.commandId === immutableRequest.commandId);
+  if (prior) {
+    requireThat(canonicalJson(prior) === canonicalJson(immutableResult), 'RESULT_IDENTITY_CONFLICT');
+    return { data: next, replayed: true };
+  }
+  requireThat(typeof apply === 'function' && apply.constructor.name !== 'AsyncFunction');
+  requireThat(apply(next, copy(immutableResult.effects), copy(immutableResult.observerDetails)) === true);
+  next.actionResults.push(immutableResult);
+  canonicalJson(next);
+  return { data: next, replayed: false };
+}
+
+return {stageMatchedResult};
+})();
+__modules["src/m3/knowledge.mjs"]=(()=>{
+const { copy, freeze, canonicalJson }=__modules["src/m3/types.mjs"];
+const { recipientHistory, readObservedSource }=__modules["src/views.mjs"];
+const { evidenceKey }=__modules["src/m3/meaning.mjs"];
+
+function receivedEvidence(observations){
+ const entries=[];for(const o of observations)for(const e of o.receivedDetails.evidence??[])entries.push({...copy(e),observationId:o.id});return entries;
+}
+function uniqueEvidence(observations){
+ const map=new Map();for(const e of receivedEvidence(observations)){const {observationId,...value}=e;map.set(evidenceKey(e),value);}return [...map.values()];
+}
+function actorView(data,actorId,incoming=null){
+ const observations=recipientHistory(data.observations,actorId),rule=observations.find(o=>o.receivedDetails.serviceRule)?.receivedDetails.serviceRule??null;
+ const authority=observations.flatMap(o=>o.receivedDetails.authority?[o.receivedDetails.authority]:[]).find(a=>a.verified&&a.itemId===rule?.itemId)??null;
+ const visit=data.visits.find(v=>v.holderId===actorId)??null;
+ const localIds=new Set(observations.map(o=>o.id));
+ return freeze({actorId,profile:copy(data.profiles[actorId]),observations:copy(observations),rule:copy(rule),authority:copy(authority),incoming:copy(incoming),
+  evidence:uniqueEvidence(observations),beliefs:data.beliefs.filter(b=>b.holderId===actorId).map(copy),hypotheses:data.hypotheses.filter(h=>h.holderId===actorId).map(copy),
+  claims:data.claims.filter(c=>c.recipientIds.includes(actorId)&&c.observationIds.every(id=>localIds.has(id))).map(copy),visit:copy(visit),
+  comparison:observations.some(o=>o.receivedDetails.comparison?.complete),
+  recovered:observations.some(o=>o.receivedDetails.handover?.complete),
+  serviceClosed:observations.some(o=>o.receivedDetails.service?.open===false),
+  reportedAccount:observations.find(o=>o.receivedDetails.accountInterpretation)?.receivedDetails.accountInterpretation??null});
+}
+
+function qualifiesEvidence(rule,evidence){return rule.requiredEvidence.every(req=>evidence.some(e=>e.subjectId===req.subjectId&&e.predicate===req.predicate&&req.forms.includes(e.form)));}
+function recomputeBeliefs(data,actorId,allocate){
+ // Human knowledge is an observation projection, never simulated acceptance.
+ if(!Object.hasOwn(data.profiles,actorId))return;
+ const local=data.observations.filter(o=>o.observerId===actorId),marks=new Set(local.flatMap(o=>o.receivedDetails.recognizedMarks??[]));
+ const candidates=receivedEvidence(local),questions=new Map();
+ for(const e of candidates){const key=[e.subjectId,e.predicate].join('|');if(!questions.has(key))questions.set(key,[]);questions.get(key).push(e);}
+ for(const [key,group] of questions){
+  const rated=group.map(e=>({e,support:e.form==='direct'?5:e.form==='document'&&marks.has(e.markId)?4:e.form==='inference'?1:2}));
+  const best=Math.max(...rated.map(x=>x.support)),leaders=rated.filter(x=>x.support===best),values=new Set(leaders.map(x=>canonicalJson(x.e.value)));
+  const threshold=data.profiles[actorId]?.acceptanceThreshold??3;
+  const stance=values.size>1?'disputed':best>=threshold?'accepted':'suspected';const value=values.size>1?null:copy(leaders[0].e.value);
+  const current=data.beliefs.find(b=>b.holderId===actorId&&b.question===key);
+  const update={stance,value,support:best,observationIds:[...new Set(group.map(e=>e.observationId))],roots:[...new Map(group.flatMap(e=>e.roots).map(r=>[canonicalJson(r),copy(r)])).values()]};
+  if(current){if(canonicalJson({...update})!==canonicalJson({stance:current.stance,value:current.value,support:current.support,observationIds:current.observationIds,roots:current.roots})){current.history.push({revision:data.sequence,priorStance:current.stance,priorValue:copy(current.value),causeObservationIds:copy(update.observationIds)});Object.assign(current,update);}}
+  else data.beliefs.push({id:allocate('belief'),holderId:actorId,question:key,subjectId:group[0].subjectId,predicate:group[0].predicate,...update,history:[]});
+ }
+}
+function privacySupport(view){
+ const r=view.rule;if(!r)return {ready:false,support:[]};
+ const explanations=view.observations.filter(o=>o.receivedDetails.ownCommunication?.act==='explain_access');
+ const interests=view.observations.filter(o=>{const m=o.receivedDetails.communication;return m?.act==='ask_whereabouts'&&m.targetId===r.ownerTopicId&&m.content.operation==='ask';});
+ const broad=view.observations.filter(o=>{const m=o.receivedDetails.communication;return m&&r.protectedScopeIds.includes(m.scope.subjectId)&&((m.act==='request_access'&&['inspect','bypass'].includes(m.content.operation))||(m.act==='propose_exchange'&&m.content.purpose==='boundary_exception'));});
+ const pair=broad.find(b=>explanations.some(e=>e.sequence<b.sequence)&&interests.some(i=>i.sequence<b.sequence&&i.id!==b.id));
+ return {ready:Boolean(pair),support:pair?[explanations.filter(e=>e.sequence<pair.sequence).at(-1).id,interests.filter(i=>i.sequence<pair.sequence).at(-1).id,pair.id]:[]};
+}
+function substantiveCorrection(view){
+ const o=view.incoming;if(!o||!view.rule||o.scope.subjectId!==view.rule.relevantScopeId)return false;
+ if(o.act==='request_access'&&o.content.operation==='compare')return true;
+ return ['request_access','challenge_record','present_evidence'].includes(o.act)&&o.content.evidence.some(e=>view.rule.requiredEvidence.some(r=>r.subjectId===e.subjectId&&r.predicate===e.predicate));
+}
+
+return {receivedEvidence,uniqueEvidence,actorView,qualifiesEvidence,recomputeBeliefs,privacySupport,substantiveCorrection,readObservedSource};
+})();
+__modules["src/m3/policy.mjs"]=(()=>{
+const { freeze }=__modules["src/m3/types.mjs"];
+const { qualifiesEvidence, privacySupport, substantiveCorrection }=__modules["src/m3/knowledge.mjs"];
+
+/** Filtered actor view only. No world, package, DOM, name or selector input. */
+function chooseResponse(view,{afterAction=false,noticeDisplayed=false}={}){
+ const r=view.rule,o=view.incoming,role=view.profile.roles;
+ const protectedDemand=Boolean(o&&r?.protectedScopeIds.includes(o.scope.subjectId)&&((o.act==='request_access'&&['inspect','bypass'].includes(o.content.operation))||(o.act==='propose_exchange'&&o.content.purpose==='boundary_exception')));
+ const support=privacySupport(view),repair=Boolean(view.visit?.restricted&&!view.visit.repairUsed&&substantiveCorrection(view));
+ const closingBase=Boolean(role.includes('record_custodian')&&!view.recovered&&!view.serviceClosed&&view.visit?.warningMessageId&&view.visit.restrictedOrRepaired&&protectedDemand);
+ const eligible=(act,ok,priority,reason)=>({act,eligible:Boolean(ok),priority,reason});
+ const candidates=[
+  eligible('service_closure',closingBase&&noticeDisplayed,100,'Prior delivered warning, viable alternative, renewed protected demand, unrecovered service and displayed bound preview.'),
+  eligible('boundary_refusal',closingBase&&!noticeDisplayed,99,'A renewed demand was received; absent displayed notice forbids closure. Record only a technical defect.'),
+  eligible('unavailable',view.serviceClosed,98,'A declared service-closure observation is available; no new collection operation is offered.'),
+  eligible('already_recovered',view.recovered&&o?.content.operation==='collect',97,'Actual completed handover is known and cannot be revoked.'),
+  eligible('restriction_warning',role.includes('record_custodian')&&support.ready&&!view.visit?.warningMessageId&&!view.recovered,95,'Same observer received scope explanation, viable case-only offer, distinct volunteered interest and later broad demand.'),
+  eligible('explain_warning',o?.act==='why'&&view.visit?.warningMessageId,94,'Clarification targets the public warning and leaves repair unused.'),
+  eligible('scope_repaired',repair,93,'A substantive received narrowing or acceptance resolves the single repair episode; the warning persists.'),
+  eligible('ordinary_payment_refusal',o?.act==='propose_exchange'&&o.content.purpose==='ordinary_collection'&&r?.handoverPriceMinor===0,90,'No extra collection charge is due; an ordinary offer is received and declined without debt or bribery attribution.'),
+  eligible('payment_boundary_refusal',o?.act==='propose_exchange'&&o.content.purpose==='boundary_exception',89,'An explicit proposal to bypass a disclosure boundary is distinct from ordinary collection payment.'),
+  eligible('handover_offer',role.includes('record_custodian')&&view.authority&&view.comparison&&!view.recovered&&(afterAction||o?.content.operation==='collect'),85,'Verified authority and an actually performed bounded comparison support exact release terms.'),
+  eligible('confirm_reminder',o?.act==='yes',84,'Conversational acknowledgment preserves current terms but cannot execute them.'),
+  eligible('comparison_offer',role.includes('record_custodian')&&view.authority&&o?.scope.subjectId===r?.relevantScopeId&&(o.content.operation==='compare'||qualifiesEvidence(r,view.evidence)),80,'Received relevant evidence or acceptance supports the bounded comparison, which is still a separate physical action.'),
+  eligible('limited_account',role.includes('handling_witness')&&o?.act==='ask_whereabouts'&&o.targetId===r?.itemId,75,'Only this witness’s actually received movement fragment can be reported, with its limits.'),
+  eligible('boundary_refusal',o?.act==='ask_whereabouts'&&o.targetId===r?.ownerTopicId,74,'Unrelated whereabouts are outside the established collection authority; a case-only alternative remains.'),
+  eligible('verify_first',role.includes('record_custodian')&&!view.authority&&Boolean(o),70,'The clerk has not yet received a verified collection ticket.'),
+  eligible('explain_access',role.includes('record_custodian')&&view.authority&&o?.act==='request_access'&&!view.visit?.restricted,65,'Explain mixed scope and offer relevant inspection; the first ordinary request creates no privacy restriction.'),
+  eligible('defer_location',role.includes('record_custodian')&&o?.act==='ask_whereabouts'&&o.targetId===r?.itemId,60,'The clerk cites the ambiguous entry rather than explaining the known movement. This later outward evasion is separate from original shorthand.'),
+  eligible('acknowledge_report',['present_evidence','challenge_record'].includes(o?.act),55,'A report or displayed record was received; its source and scope remain explicit.'),
+  eligible('concern_acknowledged',o?.act==='acknowledge_grievance',50,'An apology alone does not constitute substantive narrowing or acceptance.'),
+  eligible('boundary_refusal',protectedDemand,45,'Protected scope is not generally authorized; refusal alone is not collection failure.'),
+  eligible('unavailable',true,0,'No supported response path is currently available for this outward act.')
+ ];
+ const selected=candidates.map((c,i)=>({...c,ordinal:i})).filter(c=>c.eligible).sort((a,b)=>b.priority-a.priority||a.ordinal-b.ordinal)[0];
+ return freeze({selected:selected.act,candidates:candidates.map((c,i)=>({...c,ordinal:i})),privacySupport:support.support,repair,missingNotice:closingBase&&!noticeDisplayed,
+  evidenceObservationIds:view.observations.filter(x=>x.receivedDetails.communication||x.receivedDetails.authority||x.receivedDetails.comparison).map(x=>x.id)});
+}
+
+return {chooseResponse};
+})();
+__modules["src/m3/engine.mjs"]=(()=>{
+const { canonicalJson, copy, freeze, fields, id, integer, requireThat, verifyPackage, messageRecord, termsRecord }=__modules["src/m3/types.mjs"];
+const { createRun, validateRun, executeCommand }=__modules["src/runtime.mjs"];
+const { projectObservation }=__modules["src/views.mjs"];
+const { stageMatchedResult }=__modules["src/action-boundary.mjs"];
+const { compile, describe, closureNotice, evidenceKey }=__modules["src/m3/meaning.mjs"];
+const { actorView, uniqueEvidence, recomputeBeliefs, privacySupport, qualifiesEvidence }=__modules["src/m3/knowledge.mjs"];
+const { chooseResponse }=__modules["src/m3/policy.mjs"];
+
+const token=(type,n)=>`${type}_${n.toString(16).padStart(4,'0')}`;
+const alloc=(d,type)=>token(type,++d.counters[type]);
+const ref=(p,id)=>{const v=p.subjects.find(s=>s.id===id);requireThat(Boolean(v),'UNKNOWN_REFERENCE');return copy(v);};
+const publicRule=r=>{const keys=['serviceId','custodianId','witnessId','itemId','ownerTopicId','recordId','fileId','relevantScopeId','protectedScopeIds','wholeScopeId'];return Object.fromEntries(keys.map(k=>[k,copy(r[k])]));};
+function event(d,type,details){const e={id:alloc(d,'event'),sequence:++d.sequence,type,details:copy(details)};d.events.push(e);return e;}
+function observe(d,source,actorId,details,channel='initial',roots=null){
+ const o=projectObservation({kind:source.kind??'event',id:source.id,sequence:source.sequence,details},
+  {id:alloc(d,'observation'),observerId:actorId,channel,receivedKeys:Object.keys(details),roots:roots??[{kind:source.kind??'event',id:source.id}]});d.observations.push(o);return o;
+}
+function factEvidence(p,ids,form,markId,roots){return ids.map(id=>{const f=p.facts.find(f=>f.id===id);requireThat(Boolean(f));const {id:_,...e}=f;return {...copy(e),form,markId,roots:copy(roots)};});}
+function receiveMessage(d,p,m){
+ messageRecord(m);const received=[];
+ for(const actorId of m.outward.recipientIds){
+  const o=observe(d,{kind:'message',id:m.id,sequence:m.sequence},actorId,{communication:copy(m.outward)},'hearing');received.push(o);
+  if(m.outward.content.evidence.length){
+   const shown=copy(m.outward.content.evidence);const source={kind:'message',id:m.id,sequence:m.sequence};
+   observe(d,source,actorId,{evidence:shown,references:[...new Set(shown.flatMap(e=>[e.subjectId,...(typeof e.value==='string'&&p.subjects.some(s=>s.id===e.value)?[e.value]:[])]))].map(id=>ref(p,id))},shown.every(e=>e.form==='document')?'reading':'hearing',[...new Map(shown.flatMap(e=>e.roots).map(r=>[canonicalJson(r),copy(r)])).values()]);
+  }
+ }
+ if(m.outward.content.evidence.length)d.claims.push({id:alloc(d,'claim'),messageId:m.id,speakerId:m.outward.senderId,recipientIds:copy(m.outward.recipientIds),evidence:copy(m.outward.content.evidence),observationIds:received.map(o=>o.id),roots:[...new Map(m.outward.content.evidence.flatMap(e=>e.roots).map(r=>[canonicalJson(r),copy(r)])).values()]});
+ if(d.profiles[m.outward.senderId])observe(d,{kind:'message',id:m.id,sequence:m.sequence},m.outward.senderId,{ownCommunication:copy(m.outward)},'hearing');
+ for(const actorId of m.outward.recipientIds)recomputeBeliefs(d,actorId,type=>alloc(d,type));
+ return received;
+}
+function permission(d,actorId,actionId,p,source){
+ const action=p.actions.find(a=>a.id===actionId);requireThat(Boolean(action));let existing=d.permissions.find(x=>x.granteeId===actorId&&x.actionId===actionId);
+ if(existing){existing.status='allowed';existing.source=copy(source);return existing;}
+ existing={id:alloc(d,'permission'),granteeId:actorId,grantorId:p.initial.rule.custodianId,actionId,targetId:action.targetId,status:'allowed',source:copy(source)};d.permissions.push(existing);return existing;
+}
+function updateHypothesis(d,view){
+ const support=privacySupport(view);if(!support.ready)return;
+ const o=view.incoming;if(!o||!view.rule.protectedScopeIds.includes(o.scope.subjectId))return;
+ let h=d.hypotheses.find(h=>h.holderId===view.actorId&&h.type==='protected_scope_interest');
+ if(!h){h={id:alloc(d,'hypothesis'),holderId:view.actorId,type:'protected_scope_interest',targetId:d.humanId,scopeId:view.rule.fileId,band:'actionable',supportObservationIds:[],correctionObservationIds:[],history:[],appliedCauses:[]};d.hypotheses.push(h);}
+ const prior=h.band;h.band='actionable';h.supportObservationIds=[...new Set([...h.supportObservationIds,...support.support])];h.history.push({sequence:d.sequence,prior,band:h.band,causes:copy(support.support)});
+}
+async function startEncounter(sealed,{runId='run_0003',noPressure=false}={}){
+ const checked=await verifyPackage(sealed),p=checked.content,r=p.initial.rule;id(runId,'run');
+ const d={schema:'encounter-domain@3',humanId:p.humanId,currentPartnerId:p.initialPartnerId,sequence:0,
+  counters:Object.fromEntries(['event','message','observation','claim','permission','result','decision','belief','hypothesis','offer','defect'].map(k=>[k,0])),
+  profiles:Object.fromEntries(p.actors.filter(a=>a.kind==='npc').map(a=>[a.id,copy(a.profile)])),
+  world:{itemId:p.initial.itemId,ownerId:p.initial.ownerId,holderId:p.initial.holderId,quantity:1,balances:copy(p.initial.balances),serviceOpen:true,recovered:false,comparisonComplete:false,recordCorrected:false,documentRevisions:[{revision:1,text:p.initial.entry,sourceEventId:null}],facts:copy(p.facts)},
+  observations:[],events:[],messages:[],claims:[],permissions:[],actionResults:[],decisions:[],beliefs:[],hypotheses:[],offers:[],activeOfferId:null,episodes:[],defects:[],
+  visits:[{holderId:r.custodianId,serviceId:r.serviceId,restricted:false,restrictedOrRepaired:false,repairUsed:false,warningMessageId:null,restrictionMessageId:null}],
+  opportunities:{used:0,allowance:p.initial.softAllowance,noPressure}};
+ const origin=event(d,'authored_record_origin',{entry:p.initial.entry,facts:copy(p.facts)});d.world.documentRevisions[0].sourceEventId=origin.id;
+ observe(d,origin,p.humanId,{references:p.initial.initialReferenceIds.map(id=>ref(p,id)),participants:p.actors.map(a=>({id:a.id,label:a.label,kind:a.kind})),collection:{itemId:r.itemId,ticketId:r.ticketId,recordId:r.recordId,entry:p.initial.entry}});
+ const markIds=p.subjects.filter(s=>p.actions.some(a=>a.disclosures.some(x=>x.markId===s.id))).map(s=>s.id);
+ observe(d,origin,r.custodianId,{serviceRule:copy(r),recognizedMarks:markIds});
+ const witnessRule=publicRule(r);observe(d,origin,r.witnessId,{serviceRule:witnessRule,recognizedMarks:markIds,accountInterpretation:p.initial.witnessAccount.interpretation});
+ const movement=event(d,'authored_historical_movement',{evidence:factEvidence(p,p.initial.historicalMovement.allFactIds,'direct',null,[{kind:'event',id:origin.id}])});
+ for(const grant of p.initial.historicalMovement.actorReceipts){const evidence=factEvidence(p,grant.factIds,grant.form,grant.markId,[{kind:'event',id:movement.id}]);observe(d,movement,grant.actorId,{evidence},'initial');recomputeBeliefs(d,grant.actorId,type=>alloc(d,type));}
+ permission(d,p.humanId,r.verifyActionId,p,{kind:'event',id:origin.id});
+ permission(d,r.custodianId,r.closeActionId,p,{kind:'event',id:origin.id});
+ validateDomain(d,p);return createRun({id:runId,packageRef:checked.ref,data:d});
+}
+function playerView(run){
+ const d=run.data,local=d.observations.filter(o=>o.observerId===d.humanId),refs=new Map(),participants=new Map();let collection=null,rule=null;
+ for(const o of local){for(const r of o.receivedDetails.references??[])refs.set(r.id,copy(r));for(const a of o.receivedDetails.participants??[])participants.set(a.id,copy(a));if(o.receivedDetails.collection)collection=o.receivedDetails.collection;if(o.receivedDetails.publicRule)rule=o.receivedDetails.publicRule;}
+ const heard=new Set(local.filter(o=>o.source.kind==='message').map(o=>o.source.id));
+ const messages=d.messages.filter(m=>m.outward.senderId===d.humanId||heard.has(m.id)).map(m=>({id:m.id,sequence:m.sequence,outward:copy(m.outward),ownComposition:m.outward.senderId===d.humanId?copy(m.privateComposition):null}));
+ const warning=messages.filter(m=>m.outward.act==='restriction_warning').at(-1);
+ const seenPermissions=d.permissions.filter(x=>x.granteeId===d.humanId&&(x.source.kind==='event'||heard.has(x.source.id))).map(copy);
+ return freeze({actorId:d.humanId,partnerId:d.currentPartnerId,itemId:collection.itemId,ticketId:collection.ticketId,recordId:collection.recordId,entry:collection.entry,
+  participants:[...participants.values()],references:[...refs.values()],rule,evidence:uniqueEvidence(local),messages,permissions:seenPermissions,
+  warningMessageId:warning?.id??null,activeOffer:d.activeOfferId?copy(d.offers.find(o=>o.id===d.activeOfferId)):null,
+  recovered:local.some(o=>o.receivedDetails.handover?.complete),serviceClosed:local.some(o=>o.receivedDetails.service?.open===false),
+  comparisonComplete:local.some(o=>o.receivedDetails.comparison?.complete),recordCorrected:local.some(o=>o.receivedDetails.recordCorrection),
+  ticketVerified:local.some(o=>o.receivedDetails.authority?.verified),performedActionIds:d.actionResults.filter(x=>x.request.actorId===d.humanId&&x.outcome==='performed'&&local.some(o=>o.source.kind==='action_result'&&o.source.id===x.id)).map(x=>x.request.actionType),
+  opportunities:copy(d.opportunities),balanceMinor:d.world.balances[d.humanId]});
+}
+function prepareSend(run,sealed,input,commandId=token('command',run.revision+1)){
+ validateRun(run);requireThat(canonicalJson(run.packageRef)===canonicalJson(sealed.ref),'PACKAGE_MISMATCH');requireThat(run.data.currentPartnerId!==null,'NO_PARTNER');id(commandId,'command');
+ const view=playerView(run),message=compile(sealed.content.communication,view,input,{id:token('message',run.data.counters.message+1),commandId,sequence:run.data.sequence+1,contextMessageId:input.contextMessageId??view.messages.filter(m=>m.outward.senderId===view.partnerId).at(-1)?.id??null});
+ return freeze({schema:'encounter-command@2',id:commandId,sessionId:run.id,packageRef:copy(run.packageRef),expectedRevision:run.revision,kind:'send_message',payload:{draft:copy(input),preview:{revision:run.revision,message,text:describe(message.outward),notice:closureNotice(view,message.outward)}}});
+}
+function prepareAction(run,sealed,actionId,commandId=token('command',run.revision+1)){
+ const a=sealed.content.actions.find(a=>a.id===actionId);requireThat(Boolean(a),'UNSUPPORTED_ACTION');const p=run.data.permissions.find(p=>p.granteeId===run.data.humanId&&p.actionId===actionId&&p.status==='allowed');requireThat(Boolean(p),'PERMISSION_REQUIRED');
+ return freeze({schema:'encounter-command@2',id:commandId,sessionId:run.id,packageRef:copy(run.packageRef),expectedRevision:run.revision,kind:'perform_action',payload:{operation:'physical',request:{commandId,actorId:run.data.humanId,actionType:actionId,targetId:a.targetId,permissionId:p.id,expectedRevision:run.revision}}});
+}
+function prepareSessionOperation(run,sealed,operation,partnerId=null,commandId=token('command',run.revision+1)){
+ requireThat(['switch_partner','end_conversation'].includes(operation));return freeze({schema:'encounter-command@2',id:commandId,sessionId:run.id,packageRef:copy(run.packageRef),expectedRevision:run.revision,kind:'perform_action',payload:{operation,partnerId}});
+}
+function prepareConfirmation(run,sealed,commandId=token('command',run.revision+1)){
+ const o=run.data.offers.find(o=>o.id===run.data.activeOfferId);requireThat(Boolean(o)&&o.status==='accepted','NO_ACTIVE_OFFER');
+ return freeze({schema:'encounter-command@2',id:commandId,sessionId:run.id,packageRef:copy(run.packageRef),expectedRevision:run.revision,kind:'perform_action',payload:{operation:'confirm_offer',offerId:o.id,offerRevision:o.revision,terms:copy(o.terms)}});
+}
+function closeOffer(d,reason){const o=d.offers.find(o=>o.id===d.activeOfferId);if(o){o.status=reason;o.history.push({sequence:d.sequence,status:reason});}d.activeOfferId=null;}
+function buildOffer(d,p,sourceMessageId){
+ const r=p.initial.rule;closeOffer(d,'superseded');const terms={parties:[d.humanId,r.custodianId],itemId:r.itemId,fromId:p.initial.holderId,toId:d.humanId,ownerId:r.ownerId,moneyId:r.moneyId,amountMinor:r.handoverPriceMinor,privateDisclosures:[],settlements:[]};termsRecord(terms);
+ const offer={id:alloc(d,'offer'),revision:1,partnerId:r.custodianId,status:'accepted',terms,sourceMessageId,history:[{sequence:d.sequence,status:'accepted'}]};d.offers.push(offer);d.activeOfferId=offer.id;return offer;
+}
+function replyText(plan,view,p){
+ const descriptions={
+  explain_access:'The customer file contains case-handling material and unrelated private contact information. The relevant extract and permitted handling tray are available. Private contact values remain covered.',
+  verify_first:'Please show the valid collection ticket through the ticket-verification action. Collection authority must actually be checked.',
+  limited_account:view.evidence.map(e=>e.label).join('\n')+'\n'+view.reportedAccount+'\nThis report does not prove a completed collection.',
+  defer_location:'I refer you to the recorded entry and the relevant inspection route rather than explaining the earlier movement.',
+  acknowledge_report:'I received your report or selected evidence. Its stated scope and source remain distinct from firsthand verification. A case-only comparison can establish the handling discrepancy.',
+  comparison_offer:'A supervised comparison limited to the case-handling evidence is available. Accepting it is permission; choose the physical comparison action to perform it.',
+  restriction_warning:'Further relevant-file access is limited to a supervised comparison. That case-only comparison remains available to complete collection. Renewing a demand for protected/full-file information, or asking me to bypass that boundary, will end collection service for this visit. This warning still applies after clarification or repair.',
+  explain_warning:'The concern comes from the earlier location inquiry followed by the broader protected-scope request after the file split and case-only alternative were explained. This is a fallible concern, not proof of your intent. The supervised case-only route remains available; clarification does not use the repair episode.',
+  scope_repaired:'Your substantive case-only narrowing or acceptance addresses the concern. The appropriate relevant route is restored. The private contact value remains unavailable, and the visit-long warning remains in force.',
+  boundary_refusal:'I decline that unrelated or protected scope. The case-only route remains the relevant collection route while service is open.',
+  ordinary_payment_refusal:'No extra collection charge is due. I decline the ordinary payment offer as unnecessary. No money moves and no new debt or bribery judgment is created.',
+  payment_boundary_refusal:'I decline the explicit proposal to pay for bypassing the private-information boundary. This is different from an ordinary collection payment offer; no money moves.',
+  handover_offer:'The actual supervised comparison supports the authorized release. Review the exact current handover terms and confirm deliberately. Permission or saying Yes does not hand over the item.',
+  confirm_reminder:'Your acknowledgment does not execute the proposal. Use the separate exact handover confirmation if you accept the current terms.',
+  service_closure:'Collection service is now closed for this visit following the previously warned, previewed renewed protected-scope demand.',
+  already_recovered:'The completed handover remains a successful recovery. Later conversation cannot undo it.',
+  unavailable:view.serviceClosed?'Collection service is closed for this visit. No uncompleted release proposal can bypass that state.':'That supported step is not currently available in this context.',
+  concern_acknowledged:'Your acknowledgment was heard. A vague apology alone does not narrow the request or accept the supervised comparison; the substantive repair opportunity remains.'
+ };return descriptions[plan.selected];
+}
+function applyResponse(d,p,command,view,plan,source){
+ const r=p.initial.rule,messageId=alloc(d,'message'),visit=d.visits.find(v=>v.holderId===view.actorId);const changes=[];
+ const evidence=plan.selected==='limited_account'?view.evidence.map(e=>({...copy(e),form:'report',markId:null})):[];
+ const refs=new Set([r.itemId]);for(const e of evidence){refs.add(e.subjectId);if(typeof e.value==='string'&&p.subjects.some(s=>s.id===e.value))refs.add(e.value);}
+ let offer=null;
+ if(plan.selected==='handover_offer'){offer=buildOffer(d,p,messageId);changes.push({type:'offer_prepared',offerId:offer.id,revision:offer.revision});}
+ if(offer)refs.add(offer.terms.fromId);
+ const outward={family:'Remark',act:plan.selected,senderId:view.actorId,recipientIds:[d.humanId],subjectIds:[...refs],targetId:r.itemId,scope:{subjectId:r.itemId,kind:'subject'},
+  content:{kind:'response',operation:plan.selected,evidence,amountMinor:0,purpose:'response',text:replyText(plan,view,p)},framing:[],prominence:'measured',terms:offer?copy(offer.terms):null};
+ const message={schema:'encounter-message@3',id:messageId,commandId:command.id,sequence:d.sequence+1,contextMessageId:source.kind==='message'?source.id:null,privateComposition:{selectedVibe:'EA',selectedSalience:'NUANCED',authorId:'author_0001',templateId:'template_0020',intendedFraming:'Communicate the selected role-bound response and exact scope.'},outward};messageRecord(message);
+ d.messages.push(message);const response=event(d,'response_delivered',{messageId,act:plan.selected});receiveMessage(d,p,message);
+ if(offer)observe(d,{kind:'message',id:messageId,sequence:message.sequence},d.humanId,{references:[ref(p,offer.terms.fromId)]},'hearing');
+ if(['explain_access','restriction_warning','scope_repaired','comparison_offer'].includes(plan.selected)){
+  observe(d,{kind:'message',id:messageId,sequence:message.sequence},d.humanId,{references:r.explainReferenceIds.map(id=>ref(p,id)),publicRule:publicRule(r)},'hearing');
+  if(plan.selected==='explain_access'||plan.selected==='scope_repaired')for(const actionId of r.inspectionActionIds)permission(d,d.humanId,actionId,p,{kind:'message',id:messageId});
+  if(['restriction_warning','scope_repaired','comparison_offer'].includes(plan.selected))permission(d,d.humanId,r.comparisonActionId,p,{kind:'message',id:messageId});
+ }
+ if(plan.selected==='restriction_warning'){
+  visit.restricted=true;visit.restrictedOrRepaired=true;visit.warningMessageId=messageId;visit.restrictionMessageId=messageId;
+  for(const x of d.permissions)if(x.granteeId===d.humanId&&r.inspectionActionIds.includes(x.actionId))x.status='suspended';
+  const h=d.hypotheses.find(h=>h.holderId===view.actorId&&h.type==='protected_scope_interest');if(h)h.appliedCauses.push(messageId);
+  changes.push({type:'restriction',messageId},{type:'warning_delivered',messageId});
+ }
+ if(plan.selected==='scope_repaired'){
+  visit.restricted=false;visit.repairUsed=true;const h=d.hypotheses.find(h=>h.holderId===view.actorId&&h.type==='protected_scope_interest');if(h){h.history.push({sequence:d.sequence,prior:h.band,band:'corrected',causes:[source.id]});h.band='corrected';h.correctionObservationIds.push(...view.observations.filter(o=>o.source.id===source.id).map(o=>o.id));}
+  changes.push({type:'repair_resolved',warningPersists:visit.warningMessageId});
+ }
+ if(plan.missingNotice){const defect={id:alloc(d,'defect'),commandId:command.id,type:'MISSING_CLOSURE_PREVIEW',warningMessageId:visit.warningMessageId,serviceRemainsOpen:true};d.defects.push(defect);changes.push({type:'technical_defect',id:defect.id});}
+ if(plan.selected==='service_closure'){
+  const action=p.actions.find(a=>a.id===r.closeActionId);const permit=d.permissions.find(x=>x.granteeId===view.actorId&&x.actionId===action.id&&x.status==='allowed');requireThat(Boolean(permit));const permissionId=permit.id;
+  const request={commandId:command.id,actorId:view.actorId,actionType:action.id,targetId:action.targetId,permissionId,expectedRevision:command.expectedRevision};
+  const result={id:token('result',d.counters.result+1),request,outcome:'performed',effects:[{type:'close_service',payload:{serviceId:r.serviceId}}],observerDetails:[d.humanId,r.custodianId,r.witnessId].map(observerId=>({observerId,details:{service:{id:r.serviceId,open:false},conduct:'Collection service closed for this visit after the declared warning and renewed demand.'}}))};
+  stageResolved(d,p,request,result);closeOffer(d,'closed_by_service');changes.push({type:'service_closed',resultId:result.id});
+ }
+ const {observations,evidence:inputEvidence,claims,...inputState}=view;
+ const inputBasis={state:copy(inputState),observationIds:observations.map(o=>o.id),claimIds:claims.map(c=>c.id)};
+ const decision={id:alloc(d,'decision'),actorId:view.actorId,source:copy(source),inputBasis,candidates:copy(plan.candidates),selected:plan.selected,privacySupport:copy(plan.privacySupport),repairQualified:plan.repair,noticeDisplayed:Boolean(command.payload.preview?.notice?.displayed),changes:copy(changes)};d.decisions.push(decision);
+ requireThat(canonicalJson(decisionInput({data:d},decision.id))===canonicalJson(view),'INVALID_DECISION_SNAPSHOT');
+ const episode={id:response.id,commandId:command.id,messageId,decisionId:decision.id,intake:{description:view.incoming?.framing.some(c=>c.kind==='possible_consequence')?'Sets both hands beside the material and meets the collector’s gaze with a steady expression.':'Looks from the received material to the collector, holding a composed expression.'},delivery:{description:'Keeps the selected material in view and states the bounded response with a composed face.',text:describe(outward)}};d.episodes.push(episode);
+ return {messageId,episodeId:episode.id,decisionId:decision.id,changes};
+}
+function commitMessage(d,p,command){
+ const m=copy(command.payload.preview.message);alloc(d,'message');d.messages.push(m);event(d,'message_sent',{messageId:m.id});receiveMessage(d,p,m);
+ let view=actorView(d,d.currentPartnerId,m.outward);updateHypothesis(d,view);view=actorView(d,d.currentPartnerId,m.outward);
+ const plan=chooseResponse(view,{noticeDisplayed:command.payload.preview.notice?.displayed===true});
+ const result=applyResponse(d,p,command,view,plan,{kind:'message',id:m.id});if(m.outward.act!=='why')d.opportunities.used++;
+ return {...result,initiatingMessageId:m.id};
+}
+function validatePhysical(d,p,request){
+ const action=p.actions.find(a=>a.id===request.actionType);requireThat(Boolean(action)&&action.targetId===request.targetId,'INVALID_COMMAND');
+ const permit=d.permissions.find(x=>x.id===request.permissionId&&x.actionId===action.id&&x.granteeId===request.actorId&&x.status==='allowed');requireThat(Boolean(permit)&&request.actorId===d.humanId,'INVALID_COMMAND');
+ requireThat(d.world.serviceOpen||action.kind==='verify_authority'||d.world.recovered,'SERVICE_UNAVAILABLE');
+ if(action.requiresAuthority)requireThat(d.observations.some(o=>o.observerId===p.initial.rule.custodianId&&o.receivedDetails.authority?.verified),'AUTHORITY_REQUIRED');
+ if(action.requiresComparison)requireThat(d.world.comparisonComplete,'COMPARISON_REQUIRED');return action;
+}
+/** Host-side local resolver: authoritative outcome, no installed mutation. */
+function resolveAction(d,p,request){
+ const a=validatePhysical(d,p,request),r=p.initial.rule;
+ requireThat(!['handover','close_service'].includes(a.kind),'EXACT_CONFIRMATION_REQUIRED');
+ const duplicate=d.actionResults.some(x=>x.request.actionType===a.id&&x.outcome==='performed');
+ const selected=uniqueEvidence(d.observations.filter(o=>o.observerId===d.humanId));
+ const inconclusive=a.kind==='compare'&&!qualifiesEvidence(r,selected);
+ const result={id:token('result',d.counters.result+1),request:copy(request),outcome:duplicate||inconclusive?'no_discovery':'performed',effects:[],observerDetails:[]};
+ const root={kind:'action_result',id:result.id};
+ if(duplicate||inconclusive){result.observerDetails=[{observerId:d.humanId,details:{conduct:duplicate?'The supported action supplies no new discovery or second effect.':'The bounded comparison was performed but the available evidence is incomplete; collection service remains open.'}}];return freeze(result);}
+ if(a.kind==='verify_authority'){
+  const authority={collectorId:d.humanId,itemId:r.itemId,ownerId:r.ownerId,ticketId:r.ticketId,verified:true};result.observerDetails=[d.humanId,r.custodianId].map(observerId=>({observerId,details:{authority,conduct:'The valid collection ticket is shown and verified.'}}));
+ }else if(a.kind==='correct_record'){
+  result.effects.push({type:'correct_record',payload:{recordId:r.recordId,text:r.recordCorrection}});result.observerDetails=[d.humanId,r.custodianId].map(observerId=>({observerId,details:{recordCorrection:{recordId:r.recordId,text:r.recordCorrection},conduct:'The correction is recorded as a new revision; the original shorthand remains.'}}));
+ }else{
+  for(const grant of a.disclosures){const evidence=factEvidence({...p,facts:d.world.facts},grant.factIds,grant.form,grant.markId,[root]);const details={conduct:grant.conduct??`Performs the permitted ${a.kind} action.`,evidence,references:[...new Set(evidence.flatMap(e=>[e.subjectId,...(typeof e.value==='string'&&p.subjects.some(s=>s.id===e.value)?[e.value]:[])]))].map(id=>ref(p,id))};
+   if(a.kind==='compare'){details.comparison={serviceId:r.serviceId,itemId:r.itemId,complete:true};if(grant.actorId===r.custodianId)details.evidence=[...details.evidence,...selected.map(copy)];}
+   result.observerDetails.push({observerId:grant.actorId,details});
+  }
+  if(a.kind==='compare')result.effects.push({type:'complete_comparison',payload:{serviceId:r.serviceId}});
+ }
+ return freeze(result);
+}
+function stageResolved(d,p,request,result){
+ const prior=d.actionResults.find(x=>x.id===result.id||x.request.commandId===request.commandId);
+ const declared=p.actions.find(a=>a.id===request.actionType);requireThat(Boolean(declared),'UNSUPPORTED_ACTION');
+ if(!prior&&!['handover','close_service'].includes(declared.kind))requireThat(canonicalJson(resolveAction(d,p,request))===canonicalJson(result),'RESULT_DECLARATION_MISMATCH');
+ const staged=stageMatchedResult(d,request,result,['close_service','complete_comparison','correct_record','custody_transfer','complete_recovery','transfer_money'],(next,effects,recipients)=>{
+  requireThat(result.id===token('result',next.counters.result+1),'INVALID_RESULT');next.counters.result++;
+  for(const e of effects){
+   if(e.type==='close_service'){requireThat(!next.world.recovered&&next.world.serviceOpen);next.world.serviceOpen=false;}
+   else if(e.type==='complete_comparison')next.world.comparisonComplete=true;
+   else if(e.type==='correct_record'){requireThat(!next.world.recordCorrected&&e.payload.recordId===p.initial.rule.recordId);next.world.documentRevisions.push({revision:next.world.documentRevisions.length+1,text:e.payload.text,sourceEventId:token('event',next.counters.event+1)});next.world.recordCorrected=true;}
+   else if(e.type==='custody_transfer'){requireThat(next.world.holderId===e.payload.fromId&&next.world.itemId===e.payload.itemId&&next.world.ownerId===e.payload.ownerId);next.world.holderId=e.payload.toId;}
+   else if(e.type==='complete_recovery'){requireThat(next.world.holderId===next.humanId&&!next.world.recovered);next.world.recovered=true;}
+   else {requireThat(e.type==='transfer_money');const {fromId,toId,amountMinor}=e.payload;integer(amountMinor);requireThat(next.world.balances[fromId]>=amountMinor);next.world.balances[fromId]-=amountMinor;next.world.balances[toId]+=amountMinor;}
+  }
+  const actionEvent=event(next,'physical_result_committed',{resultId:result.id,actionId:request.actionType,outcome:result.outcome});
+  for(const recipient of recipients){
+   requireThat(p.actors.some(a=>a.id===recipient.observerId&&a.kind!=='absent'),'INVALID_RECIPIENT');
+   const action=p.actions.find(a=>a.id===request.actionType);const actual=recipient.details;
+   if(['inspect','search'].includes(action.kind)&&recipient.observerId!==next.humanId)requireThat(!actual.evidence?.length,'UNREAD_DETAIL_LEAK');
+   const protectedValues=p.facts.filter(f=>p.protectedFactIds.includes(f.id)).map(f=>f.value);if(recipient.observerId===next.humanId)requireThat(!protectedValues.some(value=>canonicalJson(actual).includes(JSON.stringify(value))),'PROTECTED_DISCLOSURE');
+   observe(next,{kind:'action_result',id:result.id,sequence:actionEvent.sequence},recipient.observerId,actual,actual.evidence?.length?'reading':'sight');recomputeBeliefs(next,recipient.observerId,type=>alloc(next,type));
+  }
+  return true;
+ });if(!staged.replayed)Object.assign(d,staged.data);return {data:d,replayed:staged.replayed};
+}
+function commitPhysical(d,p,command){
+ const request=command.payload.request,result=resolveAction(d,p,request);stageResolved(d,p,request,result);d.opportunities.used++;
+ const r=p.initial.rule;let response=null;
+ if(request.actionType===r.comparisonActionId&&result.outcome==='performed'){
+  permission(d,d.humanId,r.correctionActionId,p,{kind:'event',id:d.events.at(-1).id});permission(d,d.humanId,r.handoverActionId,p,{kind:'event',id:d.events.at(-1).id});
+  const view=actorView(d,r.custodianId);response=applyResponse(d,p,command,view,chooseResponse(view,{afterAction:true}),{kind:'action_result',id:result.id});
+ }
+ return {resultId:result.id,outcome:result.outcome,...(response??{}),changes:[{type:'physical_result',id:result.id,outcome:result.outcome},...(response?.changes??[])]};
+}
+function validateConfirmation(d,p,payload){
+ fields(payload,['operation','offerId','offerRevision','terms']);const offer=d.offers.find(o=>o.id===payload.offerId);requireThat(Boolean(offer)&&d.activeOfferId===offer.id&&offer.partnerId===d.currentPartnerId&&offer.status==='accepted','INVALID_OFFER');
+ requireThat(offer.revision===payload.offerRevision&&canonicalJson(offer.terms)===canonicalJson(payload.terms),'ALTERED_TERMS');termsRecord(payload.terms);
+ const t=offer.terms,r=p.initial.rule;requireThat(d.world.serviceOpen&&!d.world.recovered&&d.world.comparisonComplete,'SERVICE_UNAVAILABLE');requireThat(t.itemId===d.world.itemId&&t.fromId===d.world.holderId&&t.toId===d.humanId&&t.ownerId===d.world.ownerId,'CUSTODY_CHANGED');
+ requireThat(t.amountMinor===r.handoverPriceMinor&&d.world.balances[d.humanId]>=t.amountMinor,'INVALID_BALANCE');
+ requireThat(d.observations.some(o=>o.observerId===r.custodianId&&o.receivedDetails.authority?.verified),'AUTHORITY_REQUIRED');return offer;
+}
+function commitConfirmation(d,p,command){
+ const offer=validateConfirmation(d,p,command.payload),t=offer.terms,r=p.initial.rule,permit=d.permissions.find(x=>x.granteeId===d.humanId&&x.actionId===r.handoverActionId&&x.status==='allowed');requireThat(Boolean(permit));
+ const request={commandId:command.id,actorId:d.humanId,actionType:r.handoverActionId,targetId:r.itemId,permissionId:permit.id,expectedRevision:command.expectedRevision};
+ const result={id:token('result',d.counters.result+1),request,outcome:'performed',effects:[...(t.amountMinor?[{type:'transfer_money',payload:{fromId:d.humanId,toId:r.custodianId,amountMinor:t.amountMinor}}]:[]),{type:'custody_transfer',payload:{itemId:t.itemId,fromId:t.fromId,toId:t.toId,ownerId:t.ownerId}},{type:'complete_recovery',payload:{itemId:t.itemId}}],observerDetails:[d.humanId,r.custodianId].map(observerId=>({observerId,details:{handover:{complete:true,itemId:t.itemId,holderId:t.toId,ownerId:t.ownerId,paidMinor:t.amountMinor,offerId:offer.id,offerRevision:offer.revision},conduct:'The exact confirmed handover occurs. The collector receives custody; ownership is unchanged.'}}))};
+ stageResolved(d,p,request,result);const installed=d.offers.find(o=>o.id===offer.id);installed.status='confirmed';installed.history.push({sequence:d.sequence,status:'confirmed',resultId:result.id});d.activeOfferId=null;d.opportunities.used++;
+ return {resultId:result.id,offerId:offer.id,changes:result.effects.map(e=>copy(e)),recovered:true};
+}
+function dispatch(run,sealed,command){
+ requireThat(canonicalJson(run.packageRef)===canonicalJson(sealed.ref),'PACKAGE_MISMATCH');const p=sealed.content;
+ return executeCommand(run,command,{
+  validateNew:(d,c)=>{
+   validateDomain(d,p);
+   if(c.kind==='send_message'){
+    fields(c.payload,['draft','preview']);const expected=prepareSend({id:run.id,revision:c.expectedRevision,packageRef:run.packageRef,data:d,journal:run.journal,schema:run.schema},sealed,c.payload.draft,c.id);
+    const submitted=copy(c.payload.preview);if(submitted.notice!==null){requireThat(typeof submitted.notice.displayed==='boolean');submitted.notice.displayed=false;}
+    requireThat(canonicalJson(submitted)===canonicalJson(expected.payload.preview),'INVALID_PREVIEW');
+   }else{
+    const op=c.payload.operation;
+    if(op==='physical'){fields(c.payload,['operation','request']);const q=c.payload.request;requireThat(q.commandId===c.id&&q.expectedRevision===c.expectedRevision);validatePhysical(d,p,q);}
+    else if(op==='confirm_offer')validateConfirmation(d,p,c.payload);
+    else{fields(c.payload,['operation','partnerId']);requireThat(['switch_partner','end_conversation'].includes(op));if(op==='switch_partner')requireThat(c.payload.partnerId!==d.currentPartnerId&&p.actors.some(a=>a.id===c.payload.partnerId&&a.kind==='npc'));else requireThat(c.payload.partnerId===null);}
+   }return true;
+  },
+  resolve:(d,c)=>{
+   if(c.kind==='send_message')return commitMessage(d,p,c);
+   if(c.payload.operation==='physical')return commitPhysical(d,p,c);
+   if(c.payload.operation==='confirm_offer')return commitConfirmation(d,p,c);
+   closeOffer(d,c.payload.operation==='end_conversation'?'closed_on_end':'closed_on_switch');d.currentPartnerId=c.payload.operation==='switch_partner'?c.payload.partnerId:null;const e=event(d,'conversation_context_changed',{operation:c.payload.operation,partnerId:d.currentPartnerId});return {eventId:e.id,changes:[{type:c.payload.operation,partnerId:d.currentPartnerId}]};
+  },validateStaged:d=>validateDomain(d,p)
+ });
+}
+function validateDomain(d,p){
+ canonicalJson(d);fields(d,['schema','humanId','currentPartnerId','sequence','counters','profiles','world','observations','events','messages','claims','permissions','actionResults','decisions','beliefs','hypotheses','offers','activeOfferId','episodes','defects','visits','opportunities']);requireThat(d.schema==='encounter-domain@3'&&d.humanId===p.humanId);requireThat(d.currentPartnerId===null||p.actors.some(a=>a.id===d.currentPartnerId&&a.kind==='npc'));integer(d.sequence);
+ const w=d.world;fields(w,['itemId','ownerId','holderId','quantity','balances','serviceOpen','recovered','comparisonComplete','recordCorrected','documentRevisions','facts']);requireThat(w.itemId===p.initial.itemId&&w.ownerId===p.initial.ownerId&&w.quantity===1&&[p.humanId,...p.subjects.map(s=>s.id)].includes(w.holderId));requireThat(typeof w.serviceOpen==='boolean'&&typeof w.recovered==='boolean');requireThat(!w.recovered||w.holderId===d.humanId);requireThat(w.documentRevisions[0].text===p.initial.entry);requireThat(w.documentRevisions.every((r,i)=>r.revision===i+1));
+ Object.values(w.balances).forEach(integer);requireThat(Object.values(w.balances).reduce((a,b)=>a+b,0)===Object.values(p.initial.balances).reduce((a,b)=>a+b,0),'MONEY_CONSERVATION');
+ const kinds={events:'event',messages:'message',observations:'observation',claims:'claim',permissions:'permission',actionResults:'result',decisions:'decision',beliefs:'belief',hypotheses:'hypothesis',offers:'offer',defects:'defect'};
+ for(const [key,kind] of Object.entries(kinds)){requireThat(Array.isArray(d[key])&&new Set(d[key].map(x=>x.id)).size===d[key].length&&d.counters[kind]===d[key].length);d[key].forEach(x=>id(x.id,kind));}
+ d.messages.forEach(messageRecord);requireThat(d.events.every((e,i)=>e.sequence===i+1)&&d.events.length===d.sequence);
+ const actors=new Set(p.actors.map(a=>a.id)),sourceExists=s=>({event:d.events,message:d.messages,action_result:d.actionResults}[s.kind]??[]).some(x=>x.id===s.id);
+ for(const o of d.observations){requireThat(actors.has(o.observerId)&&sourceExists(o.source)&&o.roots.every(sourceExists));requireThat(p.actors.find(a=>a.id===o.observerId).kind!=='absent');}
+ for(const b of d.beliefs)requireThat(Object.hasOwn(d.profiles,b.holderId)&&b.observationIds.every(id=>d.observations.some(o=>o.id===id&&o.observerId===b.holderId)));
+ for(const h of d.hypotheses)requireThat(h.supportObservationIds.every(id=>d.observations.some(o=>o.id===id&&o.observerId===h.holderId))&&['actionable','corrected'].includes(h.band));
+ for(const x of d.permissions)requireThat(actors.has(x.granteeId)&&p.actions.some(a=>a.id===x.actionId&&a.targetId===x.targetId)&&sourceExists(x.source)&&['allowed','suspended'].includes(x.status));
+ for(const v of d.visits){requireThat(typeof v.repairUsed==='boolean'&&typeof v.restricted==='boolean');if(v.warningMessageId)requireThat(d.messages.some(m=>m.id===v.warningMessageId&&m.outward.act==='restriction_warning'));}
+ requireThat(d.activeOfferId===null||d.offers.some(o=>o.id===d.activeOfferId&&o.status==='accepted'&&o.partnerId===d.currentPartnerId));d.offers.forEach(o=>termsRecord(o.terms));integer(d.opportunities.used);requireThat(d.opportunities.allowance===p.initial.softAllowance);
+ return true;
+}
+function decisionInput(run,decisionId){const d=run.data,record=d.decisions.find(x=>x.id===decisionId);requireThat(Boolean(record),'UNKNOWN_DECISION');const b=record.inputBasis,observations=b.observationIds.map(id=>{const o=d.observations.find(o=>o.id===id&&o.observerId===record.actorId);requireThat(Boolean(o));return copy(o);}),claims=b.claimIds.map(id=>{const c=d.claims.find(c=>c.id===id);requireThat(Boolean(c));return copy(c);});return freeze({...copy(b.state),observations,evidence:uniqueEvidence(observations),claims});}
+function inspectRun(run,sealed){const d=run.data;return freeze(structuredClone({sessionId:run.id,revision:run.revision,packageRef:run.packageRef,canonicalMessages:d.messages,observations:d.observations,claims:d.claims,beliefs:d.beliefs,hypotheses:d.hypotheses,permissions:d.permissions,visits:d.visits,actionResults:d.actionResults,offers:d.offers,decisions:d.decisions.map(x=>({...x,actualInput:decisionInput(run,x.id)})),episodes:d.episodes,technicalDefects:d.defects,documentRevisions:d.world.documentRevisions,commits:run.journal.map(j=>({commandId:j.command.id,revision:j.receipt.committedRevision,changes:j.receipt.result.changes})),outcomes:{recovered:d.world.recovered,serviceOpen:d.world.serviceOpen,ownerId:d.world.ownerId,holderId:d.world.holderId,quantity:d.world.quantity,balances:d.world.balances,recordCorrected:d.world.recordCorrected,privateDisclosed:false},withheld:{factIds:sealed.content.protectedFactIds,reason:'No supported action or response discloses these values.'}}));}
+function renderEpisode(run,id){const e=run.data.episodes.find(e=>e.id===id);requireThat(Boolean(e));return freeze(copy(e));}
+function exportRun(run,sealed){validateRun(run);validateDomain(run.data,sealed.content);return copy({schema:'encounter-save@3',package:sealed,run});}
+async function importRun(input,expectedPackage){
+ canonicalJson(input);fields(input,['schema','package','run']);requireThat(input.schema==='encounter-save@3','UNSUPPORTED_SAVE');const sealed=await verifyPackage(input.package);requireThat(canonicalJson(sealed.ref)===canonicalJson(expectedPackage.ref),'PACKAGE_MISMATCH');validateRun(input.run);validateDomain(input.run.data,sealed.content);
+ let replay=await startEncounter(sealed,{runId:input.run.id,noPressure:input.run.data.opportunities.noPressure});for(const j of input.run.journal){const result=dispatch(replay,sealed,j.command);requireThat(result.status==='committed','INVALID_SAVE');replay=result.run;}
+ requireThat(canonicalJson(replay)===canonicalJson(input.run),'INVALID_SAVE');return replay;
+}
+
+return {startEncounter,playerView,prepareSend,prepareAction,prepareSessionOperation,prepareConfirmation,resolveAction,stageResolved,dispatch,validateDomain,decisionInput,inspectRun,renderEpisode,exportRun,importRun};
+})();
+__modules["src/m3/ui.mjs"]=(()=>{
+const { fixture }=__modules["content/m3/seed.mjs"];
+const { BASED_CATALOG }=__modules["src/m3/types.mjs"];
+const { draft, evidenceKey, markNoticeDisplayed }=__modules["src/m3/meaning.mjs"];
+const { startEncounter,playerView,prepareSend,prepareAction,prepareSessionOperation,prepareConfirmation,dispatch,renderEpisode,inspectRun,exportRun,importRun }=__modules["src/m3/engine.mjs"];
+const $=id=>document.getElementById(id),esc=v=>String(v).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const r=fixture.content.initial.rule,scale=fixture.content.initial.minorUnitsPerCoin;
+let run=null,family='Request',intent='paperwork',phase='ready',episodeId=null,pending=null,url=null;
+const commandId=()=>`command_${crypto.randomUUID().replaceAll('-','')}`;
+const name=(v,id)=>v.participants.find(a=>a.id===id)?.label??v.references.find(s=>s.id===id)?.label??'Participant';
+function notice(text,error=false){$('notice').textContent=text;$('notice').hidden=!text;$('notice').classList.toggle('error',error);}
+function choices(v){const has=id=>v.references.some(x=>x.id===id);return [
+ {id:'paperwork',family:'Request',label:'Request case paperwork',ok:true,input:()=>draft('request_access',{targetId:v.recordId,scopeId:v.rule?.relevantScopeId??v.recordId})},
+ {id:'case-location',family:'Request',label:'Ask where the case is',ok:true,input:()=>draft('ask_whereabouts',{operation:'ask',targetId:v.itemId,scopeId:v.itemId})},
+ {id:'owner-location',family:'Request',label:'Ask about the owner’s whereabouts',ok:has(r.ownerTopicId),input:()=>draft('ask_whereabouts',{operation:'ask',targetId:r.ownerTopicId,scopeId:r.ownerTopicId})},
+ {id:'whole-file',family:'Request',label:'Request the whole customer file',ok:has(r.wholeScopeId),input:()=>draft('request_access',{targetId:v.recordId,scopeId:r.wholeScopeId})},
+ {id:'protected-scope',family:'Request',label:'Request private contact information',ok:has(r.protectedScopeIds[0]),input:()=>draft('request_access',{targetId:v.recordId,scopeId:r.protectedScopeIds[0]})},
+ {id:'comparison',family:'Request',label:'Accept the case-only supervised comparison',ok:has(r.relevantScopeId),input:()=>draft('request_access',{operation:'compare',targetId:v.recordId,scopeId:r.relevantScopeId})},
+ {id:'collection',family:'Request',label:'Request authorized collection',ok:true,input:()=>draft('request_access',{operation:'collect',targetId:v.itemId,scopeId:v.itemId})},
+ {id:'show-evidence',family:'Remark',label:'Present the evidence in your notebook',ok:v.evidence.length>0&&has(r.relevantScopeId),input:()=>draft('present_evidence',{operation:'show',targetId:v.recordId,scopeId:r.relevantScopeId,evidenceKeys:v.evidence.map(evidenceKey)})},
+ {id:'challenge',family:'Remark',label:'Challenge the entry using learned evidence',ok:v.evidence.length>0&&has(r.relevantScopeId),input:()=>draft('challenge_record',{operation:'challenge',targetId:v.recordId,scopeId:r.relevantScopeId,evidenceKeys:v.evidence.map(evidenceKey)})},
+ {id:'why',family:'Remark',label:'Why about the restriction and warning',ok:Boolean(v.warningMessageId)&&v.partnerId===r.custodianId,input:()=>draft('why',{operation:'explain',targetId:v.recordId,scopeId:r.relevantScopeId,contextMessageId:v.warningMessageId})},
+ {id:'apology',family:'Remark',label:'Acknowledge the concern with an apology',ok:Boolean(v.warningMessageId),input:()=>draft('acknowledge_grievance',{targetId:v.recordId,scopeId:r.relevantScopeId})},
+ {id:'yes',family:'Remark',label:'Acknowledge the current proposal (not confirmation)',ok:Boolean(v.activeOffer),input:()=>draft('yes',{targetId:v.itemId,scopeId:v.itemId})},
+ {id:'ordinary-money',family:'Offer',label:'Offer ordinary collection payment',ok:true,input:()=>draft('propose_exchange',{targetId:v.itemId,scopeId:v.itemId,amountMinor:Number($('amount').value)*scale,purpose:'ordinary_collection'})},
+ {id:'money-bypass',family:'Offer',label:'Offer money to bypass the private-file boundary',ok:has(r.wholeScopeId),input:()=>draft('propose_exchange',{targetId:v.itemId,scopeId:r.wholeScopeId,amountMinor:Number($('amount').value)*scale,purpose:'boundary_exception'})}
+ ].filter(x=>x.ok&&x.family===family);}
+function acknowledgeVisibleNotice(){
+ if(!pending?.payload.preview.notice||pending.payload.preview.notice.displayed)return;
+ const el=$('closure-notice'),rect=el.getBoundingClientRect(),style=getComputedStyle(el);
+ // Opacity is not inherited in computed style: a transparent ancestor also
+ // prevents this notice from being displayed, despite its onscreen rectangle.
+ for(let node=el;node;node=node.parentElement){
+  const opacity=Number(getComputedStyle(node).opacity);
+  if(!Number.isFinite(opacity)||opacity<=0)return;
+ }
+ const geometry=[rect.left,rect.right,rect.top,rect.bottom,rect.width,rect.height,innerWidth,innerHeight];
+ const contained=geometry.every(Number.isFinite)&&innerWidth>0&&innerHeight>0&&rect.width>0&&rect.height>0&&rect.right>rect.left&&rect.bottom>rect.top&&rect.left>=0&&rect.right<=innerWidth&&rect.top>=0&&rect.bottom<=innerHeight;
+ if(!el.hidden&&style.visibility==='visible'&&style.display!=='none'&&contained)pending=markNoticeDisplayed(pending);
+}
+function preview(){
+ const v=playerView(run),choice=choices(v).find(x=>x.id===intent);$('closure-notice').hidden=true;
+ if(!choice||v.partnerId===null){pending=null;$('preview').textContent=v.partnerId===null?'Approach a partner to compose a message.':'No supported message in this context.';$('send').disabled=true;return;}
+ try{const input=choice.input();input.vibe=$('vibe').value;input.salience=$('salience').value;pending=prepareSend(run,fixture,input,commandId());$('preview').textContent=pending.payload.preview.text;
+  const n=pending.payload.preview.notice;if(n){$('closure-notice').textContent=n.text;$('closure-notice').hidden=false;requestAnimationFrame(acknowledgeVisibleNotice);}
+  $('send').textContent=n?'Send anyway':'Send message';$('send').disabled=phase!=='ready';
+ }catch{$('preview').textContent='This composition is unavailable. Review the selected meaning and known evidence.';pending=null;$('send').disabled=true;}
+}
+function render(){
+ const v=playerView(run),busy=phase!=='ready';
+ $('brief').textContent=`You carry collection authority for ${name(v,v.itemId)}. The entry reads “${v.entry}”. Show the ticket, then investigate through the relevant records and people.`;
+ $('ticket-status').textContent=v.ticketVerified?'COLLECTION TICKET / VERIFIED':'COLLECTION TICKET / IN YOUR POSSESSION';$('balance').textContent=`${v.balanceMinor/scale} coins remaining`;
+ $('partner').textContent=v.partnerId?name(v,v.partnerId):'Conversation ended';$('partner-select').innerHTML=v.participants.filter(a=>a.kind==='npc').map(a=>`<option value="${a.id}" ${a.id===v.partnerId?'selected':''}>${esc(a.label)}</option>`).join('');
+ $('switch-partner').disabled=busy||$('partner-select').value===v.partnerId;$('partner-select').disabled=busy;$('end').disabled=busy||v.partnerId===null;
+ for(const f of ['Offer','Request','Remark']){$('family-'+f.toLowerCase()).setAttribute('aria-pressed',String(family===f));$('family-'+f.toLowerCase()).disabled=busy;}
+ const available=choices(v);if(!available.some(x=>x.id===intent))intent=available[0]?.id??'';$('intent').innerHTML=available.length?available.map(x=>`<option value="${x.id}">${esc(x.label)}</option>`).join(''):'<option value="">No learned message in this family</option>';$('intent').value=intent;$('intent').disabled=busy;
+ $('amount-wrap').hidden=family!=='Offer';$('amount').disabled=busy;$('vibe').disabled=busy;$('salience').disabled=busy;
+ $('revision').textContent=`Revision ${run.revision} · ${v.opportunities.used} opportunities`;
+ $('references').innerHTML=v.references.map(x=>`<span class="chip">${esc(x.label)}</span>`).join('');
+ $('learned').innerHTML=v.evidence.length?v.evidence.map(e=>`<p>${esc(e.label)}<br><span class="small muted">${e.form==='document'?'Inspected/shown document':e.form==='report'?'Received report':'Directly observed'}</span></p>`).join(''):'<p class="small muted">No handling detail has been inspected yet. Permission alone reveals no result.</p>';
+ $('actions').innerHTML=v.permissions.filter(p=>p.status==='allowed'&&!v.performedActionIds.includes(p.actionId)).map(p=>fixture.content.actions.find(a=>a.id===p.actionId)).filter(a=>a&&!['handover','close_service'].includes(a.kind)).map(a=>`<button class="primary wide physical-action" data-action="${a.id}" ${busy?'disabled':''}>${esc(a.label)}</button>`).join('');
+ $('actions').querySelectorAll('button').forEach(b=>b.addEventListener('click',()=>{try{submit(prepareAction(run,fixture,b.dataset.action,commandId()));}catch{notice('A current permission and valid context are required.',true);}}));
+ $('warning-reminder').hidden=!v.warningMessageId;$('warning-reminder').textContent='Public visit-long warning: renewed protected/full-file demands can end collection service after an explicit preview notice. The case-only route remains available while service is open; clarification and End do not reset this warning.';
+ $('reminder').textContent=!v.opportunities.noPressure&&v.opportunities.used>=v.opportunities.allowance?'Closing-time reminder only: no automatic service closure or loss.':'';
+ const entries=v.messages.map(m=>({sequence:m.sequence,html:`<article class="history-entry"><p class="label">${esc(name(v,m.outward.senderId))} · ${esc(m.outward.family)}${m.ownComposition?' · '+esc(BASED_CATALOG[m.ownComposition.selectedVibe]):''}</p><p>${esc(m.outward.content.text)}</p></article>`}));
+ for(const o of run.data.observations.filter(o=>o.observerId===v.actorId&&o.source.kind==='action_result'))entries.push({sequence:o.sequence,html:`<article class="history-entry action"><p class="label">Physical result</p><p>${esc(o.receivedDetails.conduct??'')}${o.receivedDetails.evidence?.length?'\n'+esc(o.receivedDetails.evidence.map(e=>e.label).join('\n')):''}</p></article>`});
+ $('history').innerHTML=entries.length?entries.sort((a,b)=>a.sequence-b.sequence).map(x=>x.html).join(''):'<p class="empty">Begin by deliberately showing and verifying the collection ticket.</p>';
+ $('offer-panel').hidden=!v.activeOffer;if(v.activeOffer){const t=v.activeOffer.terms;$('offer-id').textContent=`${v.activeOffer.id} / version ${v.activeOffer.revision}`;$('offer-terms').innerHTML=`<p><strong>Receive custody:</strong> ${esc(name(v,t.itemId))}</p><p><strong>Pay:</strong> ${t.amountMinor/scale} coins</p><p><strong>Owner remains:</strong> ${esc(name(v,t.ownerId))}</p><p><strong>Private information:</strong> none</p>`;$('confirm').disabled=busy;}
+ if(v.activeOffer){const origin=document.createElement('p');origin.textContent=`Released by ${name(v,v.activeOffer.partnerId)} from ${name(v,v.activeOffer.terms.fromId)}.`;$('offer-terms').append(origin);}
+ $('outcome').hidden=!v.recovered&&!v.serviceClosed;
+ $('outcome').textContent=v.recovered?`CASE RECOVERED · Spent ${ (fixture.content.initial.balances[v.actorId]-v.balanceMinor)/scale } coins · Remaining ${v.balanceMinor/scale} · Ownership remains with ${name(v,fixture.content.initial.ownerId)} · Private contact information not disclosed · Record ${v.recordCorrected?'corrected with original retained':'correction is a separate outcome'}`:v.serviceClosed?'COLLECTION SERVICE CLOSED FOR THIS VISIT · The case has not been recovered. The previously warned, previewed renewed demand ended service.':'';
+ $('outcome').classList.toggle('closed',v.serviceClosed&&!v.recovered);
+ $('progress').textContent=v.recovered?'Recovery completed':v.serviceClosed?'Visit closed':v.comparisonComplete?'Comparison performed · exact confirmation remains separate':v.evidence.length?'Evidence learned · share relevant fragments deliberately':'Investigate through actual actions and communications';
+ renderPerformance();preview();if(!$('inspector').hidden)refreshInspector();
+}
+function renderPerformance(){const e=episodeId?renderEpisode(run,episodeId):null;$('phase').textContent=phase==='intake'?'Intake':phase==='delivery'?'Delivery':'Your move';$('pose').textContent=e?(phase==='intake'?e.intake.description:e.delivery.description):'The duty clerk waits beside the record. Physical actions and conversation remain separate.';$('delivery').textContent=e&&phase!=='intake'?e.delivery.text:'';$('advance').hidden=phase==='ready';$('skip').hidden=phase==='ready';$('advance').textContent=phase==='intake'?'Continue to Delivery':'Return to composer';$('replay').disabled=!episodeId||phase!=='ready';}
+function submit(c){try{const result=dispatch(run,fixture,c);if(result.status==='rejected'){notice(`This command was not committed (${result.code}). Review the current state and preview.`,true);return;}run=result.run;const response=result.receipt.result.episodeId;if(response)episodeId=response;else if(['switch_partner','end_conversation'].includes(c.payload.operation))episodeId=null;phase=response?'intake':'ready';notice(response?'The communication/action committed once. Read Intake and Delivery.':'The deliberate operation committed once.');render();}catch{notice('The operation was not committed. Review the current permission and context.',true);}}
+function refreshInspector(){const trace=inspectRun(run,fixture);$('trace-summary').textContent=`${trace.canonicalMessages.length} messages · ${trace.actionResults.length} physical results · ${trace.decisions.length} decisions · ${trace.technicalDefects.length} technical defects`;$('trace').textContent=JSON.stringify(trace,null,2);}
+function showJson(title,help,value,filename,importing=false){$('file-title').textContent=title;$('file-help').textContent=help;$('file-json').value=importing?'':JSON.stringify(value,null,2);$('file-json').readOnly=!importing;$('file-error').textContent='';$('load-json').hidden=!importing;$('download-json').hidden=importing;if(url)URL.revokeObjectURL(url);if(!importing){url=URL.createObjectURL(new Blob([JSON.stringify(value,null,2)+'\n'],{type:'application/json'}));$('download-json').href=url;$('download-json').download=filename;}$('file-dialog').showModal();}
+for(const f of ['Offer','Request','Remark'])$('family-'+f.toLowerCase()).addEventListener('click',()=>{family=f;intent='';render();});
+$('intent').addEventListener('change',e=>{intent=e.target.value;preview();});for(const id of ['vibe','salience','amount'])$(id).addEventListener('change',preview);
+$('send').addEventListener('click',()=>{acknowledgeVisibleNotice();if(pending)submit(pending);});window.addEventListener('scroll',acknowledgeVisibleNotice,{passive:true});
+$('advance').addEventListener('click',()=>{phase=phase==='intake'?'delivery':'ready';render();});$('skip').addEventListener('click',()=>{phase='ready';render();});$('replay').addEventListener('click',()=>{phase='intake';render();});
+$('partner-select').addEventListener('change',()=>{$('switch-partner').disabled=phase!=='ready'||$('partner-select').value===playerView(run).partnerId;});
+$('switch-partner').addEventListener('click',()=>submit(prepareSessionOperation(run,fixture,'switch_partner',$('partner-select').value,commandId())));$('end').addEventListener('click',()=>submit(prepareSessionOperation(run,fixture,'end_conversation',null,commandId())));
+$('confirm').addEventListener('click',()=>{try{submit(prepareConfirmation(run,fixture,commandId()));}catch{notice('No current accepted handover is available.',true);}});
+$('inspector-toggle').addEventListener('click',()=>{$('inspector').hidden=!$('inspector').hidden;$('inspector-toggle').setAttribute('aria-expanded',String(!$('inspector').hidden));if(!$('inspector').hidden)refreshInspector();});$('refresh-inspector').addEventListener('click',refreshInspector);
+$('save').addEventListener('click',()=>showJson('Save M3 run','Download or copy this complete author/debug snapshot. Manual saves preserve continuing visit state; they contain authored fixture truth.',exportRun(run,fixture),'Encounter_M3_Run.json'));
+$('open').addEventListener('click',()=>showJson('Open M3 run','Paste a complete matching M3 save. Loading validates and reconstructs the committed journal; it does not perform new world actions.',null,'',true));
+$('load-json').addEventListener('click',async()=>{try{run=await importRun(JSON.parse($('file-json').value),fixture);episodeId=run.data.episodes.at(-1)?.id??null;phase='ready';$('file-dialog').close();notice('M3 run restored with its original warning, repair, offers and physical results.');render();}catch{$('file-error').textContent='This is not a compatible validated M3 save. The current run and original files are unchanged.';}});
+$('export-trace').addEventListener('click',()=>showJson('M3 author trace','Read-only causal data for this exact run. Private composition and NPC hypotheses belong to the author view.',inspectRun(run,fixture),'Encounter_M3_Trace.json'));
+$('export-package').addEventListener('click',()=>showJson('M3 author package','Authored configuration contains synthetic hidden fixture truth. It is separate from the current run.',fixture,'Encounter_M3_Package.json'));$('close-file').addEventListener('click',()=>$('file-dialog').close());
+$('restart').addEventListener('click',async()=>{run=await startEncounter(fixture);family='Request';intent='paperwork';phase='ready';episodeId=null;$('vibe').value='EA';$('salience').value='NUANCED';notice('New M3 run started. Save manually to retain a run before closing or restarting.');render();});
+async function main(){$('vibe').innerHTML=fixture.content.communication.expressions.map(e=>`<option value="${e.vibe}">${esc(BASED_CATALOG[e.vibe])}</option>`).join('');run=await startEncounter(fixture);render();}main().catch(()=>notice('The package could not be verified. Rebuild from the supplied source.',true));
+
+return {};
+})();
+})();</script></body></html>

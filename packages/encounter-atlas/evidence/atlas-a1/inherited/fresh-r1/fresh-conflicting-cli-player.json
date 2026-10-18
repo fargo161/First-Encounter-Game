@@ -1,0 +1,16 @@
+{
+  "name": "conflicting-cli-player",
+  "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\atlas-a1-inherited-gates\\checkpoint",
+  "args": [
+    "node",
+    "scripts/atlas-export.mjs",
+    "independent/ar0-review/evidence/ui-warned.json",
+    "evidence/ar0-r1/rejected-player",
+    "player",
+    "independent/ar0-review/evidence/alias-trust-catalog.json"
+  ],
+  "exitCode": 1,
+  "expectedExitCode": 1,
+  "stdout": "",
+  "stderr": "file:///C:/Users/mcdon/Documents/ChatGPT/encounter%20and%20rc/work/atlas-a1-inherited-gates/checkpoint/src/contracts.mjs:6\n  if (!condition) throw new ContractError(code);\n                        ^\n\nContractError: CONFLICTING_ACTOR_CARD_BINDING\n    at requireThat (file:///C:/Users/mcdon/Documents/ChatGPT/encounter%20and%20rc/work/atlas-a1-inherited-gates/checkpoint/src/contracts.mjs:6:25)\n    at validateCatalog (file:///C:/Users/mcdon/Documents/ChatGPT/encounter%20and%20rc/work/atlas-a1-inherited-gates/checkpoint/src/ar0/atlas.mjs:44:5)\n    at projectAtlas (file:///C:/Users/mcdon/Documents/ChatGPT/encounter%20and%20rc/work/atlas-a1-inherited-gates/checkpoint/src/ar0/atlas.mjs:98:161)\n    at async file:///C:/Users/mcdon/Documents/ChatGPT/encounter%20and%20rc/work/atlas-a1-inherited-gates/checkpoint/scripts/atlas-export.mjs:10:59 {\n  code: 'CONFLICTING_ACTOR_CARD_BINDING'\n}\n\nNode.js v24.18.0\n"
+}

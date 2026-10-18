@@ -1,0 +1,74 @@
+{
+  "normal": {
+    "sourceBuildSha256": "7cbc1251a627631cf352e8a0cd8c5c78b93b76fedd1205a1e84676bfcecfbbe8",
+    "servedSha256": "7cbc1251a627631cf352e8a0cd8c5c78b93b76fedd1205a1e84676bfcecfbbe8",
+    "cssInjection": "",
+    "executableBytesUnchanged": true
+  },
+  "before": {
+    "sourceBuildSha256": "11393dde2ae110d3b04aac03c1044e000be6b410e4bffacb16216829c9050052",
+    "servedSha256": "6d96cf14410ea88ad6b550918d118e59721c6e59461776c6bfc556a4f4cdbb3e",
+    "cssInjection": "#closure-notice{position:fixed!important;left:-10000px!important;top:100px!important;width:300px!important}",
+    "executableBytesUnchanged": true
+  },
+  "opacity": {
+    "sourceBuildSha256": "7cbc1251a627631cf352e8a0cd8c5c78b93b76fedd1205a1e84676bfcecfbbe8",
+    "servedSha256": "937b99c72c0feb133f3435c15bb5e0175a8114325ebeb141c2f23e357772a9c6",
+    "cssInjection": "#closure-notice{opacity:0!important}",
+    "executableBytesUnchanged": true
+  },
+  "ancestor": {
+    "sourceBuildSha256": "7cbc1251a627631cf352e8a0cd8c5c78b93b76fedd1205a1e84676bfcecfbbe8",
+    "servedSha256": "567dec5fd2cd471ccdbe068bb5991cc8f2f06a1f361630dec4cfc29d32bc2151",
+    "cssInjection": ".preview{opacity:0!important}",
+    "executableBytesUnchanged": true
+  },
+  "vertical": {
+    "sourceBuildSha256": "7cbc1251a627631cf352e8a0cd8c5c78b93b76fedd1205a1e84676bfcecfbbe8",
+    "servedSha256": "9b15bb91ff16f464f8499d64dc237db017036cb6091225e9cd956b61b4adf272",
+    "cssInjection": "#closure-notice{position:fixed!important;top:-1000px!important}",
+    "executableBytesUnchanged": true
+  },
+  "horizontal": {
+    "sourceBuildSha256": "7cbc1251a627631cf352e8a0cd8c5c78b93b76fedd1205a1e84676bfcecfbbe8",
+    "servedSha256": "091be72a1ef94b0e39a5f08717feee4f9ec50c39c8e0dc77e85713942da0c78d",
+    "cssInjection": "#closure-notice{position:fixed!important;left:-10000px!important;top:100px!important;width:300px!important}",
+    "executableBytesUnchanged": true
+  },
+  "hidden": {
+    "sourceBuildSha256": "7cbc1251a627631cf352e8a0cd8c5c78b93b76fedd1205a1e84676bfcecfbbe8",
+    "servedSha256": "9a397cb1e9b93230f95d7cd3a80f685e0832d6b9312b35a57f65d49232885173",
+    "cssInjection": "#closure-notice{visibility:hidden!important}",
+    "executableBytesUnchanged": true
+  },
+  "display-none": {
+    "sourceBuildSha256": "7cbc1251a627631cf352e8a0cd8c5c78b93b76fedd1205a1e84676bfcecfbbe8",
+    "servedSha256": "b49d408da95bda16748ededb4b2b768d62ee10bbe747a21ddf7cdc3ff05c6492",
+    "cssInjection": "#closure-notice{display:none!important}",
+    "executableBytesUnchanged": true
+  },
+  "zero-height": {
+    "sourceBuildSha256": "7cbc1251a627631cf352e8a0cd8c5c78b93b76fedd1205a1e84676bfcecfbbe8",
+    "servedSha256": "560f7cab1b053f81a6c2f17c281c28692252c801eb9684d9efde460dd8251df0",
+    "cssInjection": "#closure-notice{height:0!important;max-height:0!important;padding:0!important;border:0!important;overflow:hidden!important}",
+    "executableBytesUnchanged": true
+  },
+  "zero-width": {
+    "sourceBuildSha256": "7cbc1251a627631cf352e8a0cd8c5c78b93b76fedd1205a1e84676bfcecfbbe8",
+    "servedSha256": "6fadf36a1a5e9045fbbb907b53afc08587e8114ccda0064bf5903c71cc8a5a1d",
+    "cssInjection": "#closure-notice{position:fixed!important;top:100px!important;left:100px!important;width:0!important;min-width:0!important;max-width:0!important;height:100px!important;padding:0!important;border:0!important;overflow:hidden!important;box-sizing:border-box!important}",
+    "executableBytesUnchanged": true
+  },
+  "collapse": {
+    "sourceBuildSha256": "7cbc1251a627631cf352e8a0cd8c5c78b93b76fedd1205a1e84676bfcecfbbe8",
+    "servedSha256": "2b391109e5357844906dfc2917bcebf6ba3055c5594f3b9620cce32f7370e186",
+    "cssInjection": "#closure-notice{visibility:collapse!important}",
+    "executableBytesUnchanged": true
+  },
+  "partial-left": {
+    "sourceBuildSha256": "7cbc1251a627631cf352e8a0cd8c5c78b93b76fedd1205a1e84676bfcecfbbe8",
+    "servedSha256": "60dcd3657712d72651d93579448397d53649390121b98f75eb870e079fc76fa5",
+    "cssInjection": "#closure-notice{position:fixed!important;left:-1px!important;top:100px!important;width:300px!important}",
+    "executableBytesUnchanged": true
+  }
+}

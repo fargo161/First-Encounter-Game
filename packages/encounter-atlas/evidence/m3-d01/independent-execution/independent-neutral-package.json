@@ -1,0 +1,488 @@
+{
+  "content": {
+    "actions": [
+      {
+        "disclosures": [],
+        "id": "action_d021",
+        "kind": "verify_authority",
+        "label": "Show and verify collection ticket",
+        "requiresAuthority": false,
+        "requiresComparison": false,
+        "targetId": "subject_d007"
+      },
+      {
+        "disclosures": [
+          {
+            "actorId": "actor_d002",
+            "conduct": null,
+            "factIds": [
+              "fact_d017"
+            ],
+            "form": "document",
+            "markId": "subject_d015"
+          },
+          {
+            "actorId": "actor_d003",
+            "conduct": "Sees the collector inspect the permitted extract; the small print is unreadable from here.",
+            "factIds": [],
+            "form": "direct",
+            "markId": null
+          }
+        ],
+        "id": "action_d022",
+        "kind": "inspect",
+        "label": "Inspect handling extract",
+        "requiresAuthority": true,
+        "requiresComparison": false,
+        "targetId": "subject_d008"
+      },
+      {
+        "disclosures": [
+          {
+            "actorId": "actor_d002",
+            "conduct": null,
+            "factIds": [
+              "fact_d01b",
+              "fact_d01c"
+            ],
+            "form": "document",
+            "markId": "subject_d015"
+          },
+          {
+            "actorId": "actor_d005",
+            "conduct": "Sees the collector search the permitted handling tray; does not read the tag.",
+            "factIds": [],
+            "form": "direct",
+            "markId": null
+          }
+        ],
+        "id": "action_d023",
+        "kind": "search",
+        "label": "Search permitted handling tray",
+        "requiresAuthority": true,
+        "requiresComparison": false,
+        "targetId": "subject_d010"
+      },
+      {
+        "disclosures": [
+          {
+            "actorId": "actor_d002",
+            "conduct": null,
+            "factIds": [
+              "fact_d017",
+              "fact_d01b",
+              "fact_d01c",
+              "fact_d019",
+              "fact_d01d",
+              "fact_d01e"
+            ],
+            "form": "document",
+            "markId": "subject_d015"
+          },
+          {
+            "actorId": "actor_d003",
+            "conduct": "Reads the selected case-handling evidence in the supervised comparison.",
+            "factIds": [
+              "fact_d017",
+              "fact_d01b",
+              "fact_d01c"
+            ],
+            "form": "document",
+            "markId": "subject_d015"
+          }
+        ],
+        "id": "action_d024",
+        "kind": "compare",
+        "label": "Perform supervised case-only comparison",
+        "requiresAuthority": true,
+        "requiresComparison": false,
+        "targetId": "subject_d013"
+      },
+      {
+        "disclosures": [],
+        "id": "action_d025",
+        "kind": "correct_record",
+        "label": "Record correction to the original entry",
+        "requiresAuthority": true,
+        "requiresComparison": true,
+        "targetId": "subject_d008"
+      },
+      {
+        "disclosures": [],
+        "id": "action_d026",
+        "kind": "handover",
+        "label": "Complete confirmed case handover",
+        "requiresAuthority": true,
+        "requiresComparison": true,
+        "targetId": "subject_d006"
+      },
+      {
+        "disclosures": [],
+        "id": "action_d027",
+        "kind": "close_service",
+        "label": "Close collection service for this visit",
+        "requiresAuthority": false,
+        "requiresComparison": false,
+        "targetId": "subject_d009"
+      }
+    ],
+    "actors": [
+      {
+        "id": "actor_d002",
+        "kind": "human",
+        "label": "Courier",
+        "profile": null
+      },
+      {
+        "id": "actor_d003",
+        "kind": "npc",
+        "label": "Mira",
+        "profile": {
+          "acceptanceThreshold": 3,
+          "priorities": {
+            "privacy": 10,
+            "service": 10,
+            "verification": 9
+          },
+          "roles": [
+            "record_custodian"
+          ]
+        }
+      },
+      {
+        "id": "actor_d004",
+        "kind": "absent",
+        "label": "Sol",
+        "profile": null
+      },
+      {
+        "id": "actor_d005",
+        "kind": "npc",
+        "label": "Ivo",
+        "profile": {
+          "acceptanceThreshold": 3,
+          "priorities": {
+            "privacy": 10,
+            "service": 10,
+            "verification": 9
+          },
+          "roles": [
+            "handling_witness"
+          ]
+        }
+      }
+    ],
+    "communication": {
+      "expressions": [
+        {
+          "cues": [
+            {
+              "kind": "scope_limit",
+              "text": "States the selected scope firmly and without adding unrelated demands."
+            }
+          ],
+          "templateId": "template_0011",
+          "vibe": "EA"
+        },
+        {
+          "cues": [
+            {
+              "kind": "displayed_concern",
+              "text": "Acknowledges the clerk’s work and communicates supportive concern about a defensible handover."
+            }
+          ],
+          "templateId": "template_0012",
+          "vibe": "SE"
+        },
+        {
+          "cues": [
+            {
+              "kind": "direct_demand",
+              "text": "Makes a direct demand for attention to the selected matter."
+            },
+            {
+              "kind": "possible_consequence",
+              "text": "Raises the possibility of a procedural complaint; no complaint is filed or promised."
+            }
+          ],
+          "templateId": "template_0013",
+          "vibe": "AB"
+        }
+      ]
+    },
+    "contentRevision": "independent-rename-v1",
+    "facts": [
+      {
+        "id": "fact_d017",
+        "label": "Evidence fragment 100",
+        "predicate": "recipient_signature",
+        "subjectId": "subject_d008",
+        "value": "unfilled"
+      },
+      {
+        "id": "fact_d018",
+        "label": "Evidence fragment 101",
+        "predicate": "movement_direction",
+        "subjectId": "subject_d016",
+        "value": "subject_d00f"
+      },
+      {
+        "id": "fact_d019",
+        "label": "Evidence fragment 102",
+        "predicate": "storage_location",
+        "subjectId": "subject_d006",
+        "value": "subject_d014"
+      },
+      {
+        "id": "fact_d01a",
+        "label": "Evidence fragment 103",
+        "predicate": "movement_reason",
+        "subjectId": "subject_d006",
+        "value": "spill_protection"
+      },
+      {
+        "id": "fact_d01b",
+        "label": "Evidence fragment 104",
+        "predicate": "item_reference",
+        "subjectId": "subject_d011",
+        "value": "subject_d006"
+      },
+      {
+        "id": "fact_d01c",
+        "label": "Evidence fragment 105",
+        "predicate": "handling_type",
+        "subjectId": "subject_d011",
+        "value": "internal_drying"
+      },
+      {
+        "id": "fact_d01d",
+        "label": "Evidence fragment 106",
+        "predicate": "original_entry_meaning",
+        "subjectId": "subject_d008",
+        "value": "removed_from_rack"
+      },
+      {
+        "id": "fact_d01e",
+        "label": "Evidence fragment 107",
+        "predicate": "hauling_obligation_status",
+        "subjectId": "subject_d006",
+        "value": "already_paid"
+      },
+      {
+        "id": "fact_d01f",
+        "label": "Evidence fragment 108",
+        "predicate": "protected_contact",
+        "subjectId": "subject_d00b",
+        "value": "PRIVATE-M3-FIXTURE: 17 Cedar Lane"
+      }
+    ],
+    "humanId": "actor_d002",
+    "id": "package_d001",
+    "initial": {
+      "balances": {
+        "actor_d002": 1200,
+        "actor_d003": 0,
+        "actor_d005": 0
+      },
+      "entry": "moved internally",
+      "historicalMovement": {
+        "actorReceipts": [
+          {
+            "actorId": "actor_d003",
+            "conduct": null,
+            "factIds": [
+              "fact_d018",
+              "fact_d019",
+              "fact_d01a",
+              "fact_d01d"
+            ],
+            "form": "direct",
+            "markId": null
+          },
+          {
+            "actorId": "actor_d005",
+            "conduct": null,
+            "factIds": [
+              "fact_d018"
+            ],
+            "form": "direct",
+            "markId": null
+          }
+        ],
+        "allFactIds": [
+          "fact_d018",
+          "fact_d019",
+          "fact_d01a",
+          "fact_d01d"
+        ]
+      },
+      "holderId": "subject_d00c",
+      "initialReferenceIds": [
+        "subject_d006",
+        "subject_d007",
+        "subject_d008",
+        "subject_d00e",
+        "subject_d012"
+      ],
+      "itemId": "subject_d006",
+      "minorUnitsPerCoin": 100,
+      "ownerId": "actor_d004",
+      "quantity": 1,
+      "rule": {
+        "closeActionId": "action_d027",
+        "comparisonActionId": "action_d024",
+        "correctionActionId": "action_d025",
+        "custodianId": "actor_d003",
+        "explainReferenceIds": [
+          "subject_d009",
+          "subject_d00a",
+          "subject_d00b",
+          "subject_d00d",
+          "subject_d010",
+          "subject_d013"
+        ],
+        "fileId": "subject_d009",
+        "handoverActionId": "action_d026",
+        "handoverPriceMinor": 0,
+        "inspectionActionIds": [
+          "action_d022",
+          "action_d023"
+        ],
+        "itemId": "subject_d006",
+        "moneyId": "subject_d012",
+        "ownerId": "actor_d004",
+        "ownerTopicId": "subject_d00e",
+        "protectedScopeIds": [
+          "subject_d00b",
+          "subject_d00d"
+        ],
+        "recordCorrection": "Earlier movement entry retained; authorized release recorded separately.",
+        "recordId": "subject_d008",
+        "relevantScopeId": "subject_d00a",
+        "requiredEvidence": [
+          {
+            "forms": [
+              "document"
+            ],
+            "predicate": "recipient_signature",
+            "subjectId": "subject_d008"
+          },
+          {
+            "forms": [
+              "report"
+            ],
+            "predicate": "movement_direction",
+            "subjectId": "subject_d016"
+          },
+          {
+            "forms": [
+              "document"
+            ],
+            "predicate": "item_reference",
+            "subjectId": "subject_d011"
+          }
+        ],
+        "serviceId": "service_d020",
+        "ticketId": "subject_d007",
+        "verifyActionId": "action_d021",
+        "wholeScopeId": "subject_d00d",
+        "witnessId": "actor_d005"
+      },
+      "softAllowance": 24,
+      "witnessAccount": {
+        "actorId": "actor_d005",
+        "factIds": [
+          "fact_d018"
+        ],
+        "interpretation": "A limited report, with no destination or purpose observed."
+      }
+    },
+    "initialPartnerId": "actor_d003",
+    "presentation": {
+      "art": null,
+      "delivery": null,
+      "intake": null
+    },
+    "protectedFactIds": [
+      "fact_d01f"
+    ],
+    "revision": 1,
+    "schema": "encounter-package@3",
+    "subjects": [
+      {
+        "id": "subject_d006",
+        "label": "Reference 100"
+      },
+      {
+        "id": "subject_d007",
+        "label": "Reference 101"
+      },
+      {
+        "id": "subject_d008",
+        "label": "Reference 102"
+      },
+      {
+        "id": "subject_d009",
+        "label": "Reference 103"
+      },
+      {
+        "id": "subject_d00a",
+        "label": "Reference 104"
+      },
+      {
+        "id": "subject_d00b",
+        "label": "Reference 105"
+      },
+      {
+        "id": "subject_d00c",
+        "label": "Reference 106"
+      },
+      {
+        "id": "subject_d00d",
+        "label": "Reference 107"
+      },
+      {
+        "id": "subject_d00e",
+        "label": "Reference 108"
+      },
+      {
+        "id": "subject_d00f",
+        "label": "Reference 109"
+      },
+      {
+        "id": "subject_d010",
+        "label": "Reference 110"
+      },
+      {
+        "id": "subject_d011",
+        "label": "Reference 111"
+      },
+      {
+        "id": "subject_d012",
+        "label": "Reference 112"
+      },
+      {
+        "id": "subject_d013",
+        "label": "Reference 113"
+      },
+      {
+        "id": "subject_d014",
+        "label": "Reference 114"
+      },
+      {
+        "id": "subject_d015",
+        "label": "Reference 115"
+      },
+      {
+        "id": "subject_d016",
+        "label": "Reference 116"
+      }
+    ],
+    "title": "Workshop consignment"
+  },
+  "ref": {
+    "id": "package_d001",
+    "revision": 1,
+    "digest": "cbb6756ce3991c5c15fb03bf723238ec74e0cb84213e626cb9fe8f0e90423670"
+  }
+}

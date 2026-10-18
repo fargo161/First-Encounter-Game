@@ -1,0 +1,60 @@
+{
+  "baselineProtectedEntries": [
+    {
+      "path": "independent/M1_Independent_Contract_Tests.test.mjs",
+      "bytes": 18469,
+      "sha256": "c591b4366097e77da7d21b4ddb861161a6ee3e71e9bc2af15acf5f1393ba4651"
+    },
+    {
+      "path": "src/action-boundary.mjs",
+      "bytes": 1304,
+      "sha256": "9e8b88efd9dd303fc2b0c5ac7f12a164a84a70c340cb7efe5e19c0727082f641"
+    },
+    {
+      "path": "src/contracts.mjs",
+      "bytes": 10930,
+      "sha256": "db7de91d1e53c687b4f0469238d51a9c95e8944ecbfb1388c975536aa4c96b78"
+    },
+    {
+      "path": "src/runtime.mjs",
+      "bytes": 4545,
+      "sha256": "657d97f16704c973a7696c712a53e9afe55cecd40a4dfdfbbb5e331ef9eecf89"
+    },
+    {
+      "path": "src/views.mjs",
+      "bytes": 4955,
+      "sha256": "be8138af95f8a3b5758d08013dd171b581c41db7448c9efa880645b8014b0ab9"
+    },
+    {
+      "path": "tests/fixtures.mjs",
+      "bytes": 2294,
+      "sha256": "f4ddba46ab2804f0358d78c07d30c9c26adca42ea825b2744fee780ddb8b85e4"
+    },
+    {
+      "path": "tests/identity-regressions.test.mjs",
+      "bytes": 4523,
+      "sha256": "1aa8fa0650ea91c303519dac32966f10604a3552e76281444bb5ec6e4c787d00"
+    },
+    {
+      "path": "tests/m2-fixture.mjs",
+      "bytes": 1051,
+      "sha256": "93de3e2414cec93b5017291b2f42461ecadae48036c812a74659e74df55f4cd0"
+    },
+    {
+      "path": "tests/m2.test.mjs",
+      "bytes": 15589,
+      "sha256": "3b09d2bd398502cf3cdf1fdb1676d9eef1d7283e0061143a7ec06cecbf8282dc"
+    },
+    {
+      "path": "tests/runtime.test.mjs",
+      "bytes": 6980,
+      "sha256": "0b6da3c6f02565c02f0ed461fa63da0f4295514dce47967b727f17a63bf1e2a5"
+    },
+    {
+      "path": "tests/views.test.mjs",
+      "bytes": 12503,
+      "sha256": "159b1767ce62d9c4796e5a5c66ced265d9bdbd17ef0242516c8ccc548b047358"
+    }
+  ],
+  "sourceDigest": "716a11c4efe9462e8ad60f16d6615ed8537811cf779d10dee424ef92558e3a94"
+}

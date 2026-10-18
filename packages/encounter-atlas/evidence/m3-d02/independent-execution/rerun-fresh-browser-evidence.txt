@@ -1,0 +1,13 @@
+{
+  "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\m3-r1-independent-review\\tooling-clone",
+  "executable": "C:\\Program Files\\nodejs\\node.EXE",
+  "args": [
+    "scripts/generate-m3-d01-evidence.mjs"
+  ],
+  "environmentBinding": {
+    "M3_CHECKPOINT": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\m3-r1-independent-review\\tooling-clone"
+  },
+  "exitCode": 0,
+  "stdout": "{\"result\":\"PASS\",\"sourceRevision\":\"M3-runtime-v1-R1-D01\",\"sourceDigest\":\"35fa58990b19a08933fefb7e2f37ba1d5c5edc5807390354eae238e531588711\",\"buildSHA256\":\"11393dde2ae110d3b04aac03c1044e000be6b410e4bffacb16216829c9050052\",\"packageRef\":{\"id\":\"package_0003\",\"revision\":1,\"digest\":\"2ce9f61b996f17392a39c56f4005d8203b7940aa4974564fafa54d110e35ae8f\"},\"validatedBrowserExports\":10,\"beforeDefectReproduced\":true,\"afterTransparentFallbackPass\":true,\"offscreenFallbackPass\":true,\"visibleClosurePass\":true,\"exactSaveLoadEquality\":true,\"recoveryAndPostRecoveryPass\":true,\"browserChecks\":8}\n",
+  "stderr": ""
+}

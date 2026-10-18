@@ -1,0 +1,58 @@
+CWD: C:\Users\mcdon\Documents\Codex\2026-10-17\execute-encounter-codex-lead-builder-m0\outputs\Encounter_M0_M1_R2
+ENCOUNTER_CHECKPOINT: C:\Users\mcdon\Documents\Codex\2026-10-17\execute-encounter-codex-lead-builder-m0\outputs\Encounter_M0_M1_R2
+COMMAND: "C:\Program Files\nodejs\npm.cmd" test
+EXIT: 0
+
+STDOUT:
+
+> encounter-m1-contract-checkpoint@0.1.0-m1 test
+> node --test tests/*.test.mjs
+
+✔ D01-A regression: caller aliases cannot change the command resolved, receipted or journaled (14.665ms)
+✔ D01-B regression: caller request/result alias mutation cannot disguise an applied result (3.2248ms)
+✔ new valid command stages once; caller state remains unchanged (4.0948ms)
+✔ REQUIRED: identical committed retry returns saved receipt before stale revision check (1.5544ms)
+✔ REQUIRED: same identity and changed payload rejects as conflict even when stale (2.3771ms)
+✔ REQUIRED: a new identity with obsolete revision rejects without any effect (1.6844ms)
+✔ identity conflict is resolved before new-envelope support validation (1.6927ms)
+✔ object field ordering is irrelevant; arrays retain their order (1.9537ms)
+✔ a deliberate repeat with current revision and new identity is a new command (1.4906ms)
+✔ staged failure rolls back all events and exposes no hidden exception text (0.645ms)
+✔ invariant failure after staging also leaves original session untouched (0.9378ms)
+✔ preflight rejection creates no fictional initiating occurrence (0.7673ms)
+✔ valid social refusal can commit receipt and hearing without executing an exchange (0.6167ms)
+✔ journal JSON round trip preserves committed retry protection (0.9156ms)
+✔ new wrong package and wrong session fail safely (0.567ms)
+✔ unsupported confirmation and asynchronous resolver are not implicit implementations (0.7972ms)
+✔ commands and returned receipts cannot be mutated through callback aliases (0.8985ms)
+✔ catalog preserves twenty ordered pairs, six actions, and three settings (0.863ms)
+✔ strict outward schema rejects selected labels, asset/cache keys and provenance fields (2.3527ms)
+✔ private selector perturbation with fixed outward payload produces identical complete listener input (3.8252ms)
+✔ schema accepts a legitimately performed distinctive cue without a hidden vibe key (1.347ms)
+✔ preview/recipient history/author inspection are independent frozen read-only copies (3.0385ms)
+✔ REQUIRED: a known source ID retrieves only received conduct, never hidden source fields (1.3184ms)
+✔ changing unreceived authoritative details leaves the entire listener view unchanged (3.6011ms)
+✔ an observed historical event ID grants no access to its concealed destination or purpose (1.2009ms)
+✔ no receiving path and another actor observation cannot become local knowledge (1.7072ms)
+✔ projection rejects unknown detail grants; missing fields are not negated beliefs (0.5657ms)
+✔ hearing an assertion produces a received claim, not firsthand perception or world truth (2.2286ms)
+✔ a permission record alone has no inspection result or observation effects (0.3753ms)
+✔ matched neutral result stages once; visible observer gets conduct while reader gets print (1.1965ms)
+✔ result/request mismatch, changed result identity and second result for one request reject (1.0536ms)
+✔ unsupported future physical effects fail clearly (0.2658ms)
+✔ JSON validation rejects silent loss, accessors, cycles, NaN and sparse arrays (0.3208ms)
+✔ IDs cannot embed story names or selected labels (0.3032ms)
+✔ nested private metadata cannot hide in a scalar substantive value (0.2913ms)
+✔ duplicate observation identity rejects rather than supplying two competing received records (1.0254ms)
+✔ neutral renamed participants and an absent actor work without fixed seats (2.4719ms)
+✔ NPC outward replies use the same canonical message envelope and hide their own private expression (0.6181ms)
+ℹ tests 38
+ℹ suites 0
+ℹ pass 38
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 3001.3662
+
+STDERR:

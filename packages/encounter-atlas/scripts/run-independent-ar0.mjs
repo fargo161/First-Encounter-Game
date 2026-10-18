@@ -1,0 +1,12 @@
+import {registerHooks} from 'node:module';
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import assert from 'node:assert/strict';
+import {fileURLToPath,pathToFileURL} from 'node:url';
+const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..'),home=path.join(root,'independent/ar0-review'),dest=path.join(root,'evidence/ar0-r1/independent');
+await fs.mkdir(dest,{recursive:true});await fs.copyFile(path.join(home,'evidence/ui-warned.json'),path.join(dest,'ui-warned.json'));
+const files=['independent-ar0.test.mjs','independent-ar0-alias.test.mjs'],targets=new Set(files.map(n=>pathToFileURL(path.join(home,n)).href));
+registerHooks({load(url,context,next){const result=next(url,context);if(!targets.has(url))return result;let s=Buffer.isBuffer(result.source)?result.source.toString('utf8'):String(result.source);
+ for(const [old,value] of [["root=path.join(home,'checkpoint')",'root='+JSON.stringify(root)],["out=path.join(home,'evidence')",'out='+JSON.stringify(dest)]]){assert.equal(s.split(old).length,2);s=s.replace(old,value);}return {...result,source:s};}});
+console.log('Independent AR0 test sources and expectations unchanged; only checkpoint root and evidence output are bound to this execution.');
+for(const file of files)await import(pathToFileURL(path.join(home,file)));

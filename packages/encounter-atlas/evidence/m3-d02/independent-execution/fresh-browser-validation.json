@@ -1,0 +1,1118 @@
+{
+  "runs": [
+    {
+      "name": "D02-horizontal-repeat-run.json",
+      "origin": "Fresh visible UI on exact unmodified R1 HTML",
+      "sourceDigest": "35fa58990b19a08933fefb7e2f37ba1d5c5edc5807390354eae238e531588711",
+      "sha256": "0a3d9768cb1658d9f157d81bdf371ceb030c429fd8e5a1c9e3e14ee0bb3f9612",
+      "revision": 12,
+      "outcomes": {
+        "recovered": false,
+        "serviceOpen": false,
+        "ownerId": "actor_0003",
+        "holderId": "subject_0007",
+        "quantity": 1,
+        "balances": {
+          "actor_0001": 1200,
+          "actor_0002": 0,
+          "actor_0004": 0
+        },
+        "recordCorrected": false,
+        "privateDisclosed": false
+      },
+      "visits": [
+        {
+          "holderId": "actor_0002",
+          "repairUsed": false,
+          "restricted": true,
+          "restrictedOrRepaired": true,
+          "restrictionMessageId": "message_000c",
+          "serviceId": "service_0001",
+          "warningMessageId": "message_000c"
+        }
+      ],
+      "defects": [],
+      "rawInspectorCompared": true,
+      "closeResults": 1,
+      "handoverResults": 0
+    },
+    {
+      "name": "D02-zero-width-repeat-run.json",
+      "origin": "Fresh visible UI on exact unmodified R1 HTML",
+      "sourceDigest": "35fa58990b19a08933fefb7e2f37ba1d5c5edc5807390354eae238e531588711",
+      "sha256": "a00bc878d4d351b31b0480d9f8804f2b3b0afe129d0ae1bed40b439de5036e29",
+      "revision": 12,
+      "outcomes": {
+        "recovered": false,
+        "serviceOpen": false,
+        "ownerId": "actor_0003",
+        "holderId": "subject_0007",
+        "quantity": 1,
+        "balances": {
+          "actor_0001": 1200,
+          "actor_0002": 0,
+          "actor_0004": 0
+        },
+        "recordCorrected": false,
+        "privateDisclosed": false
+      },
+      "visits": [
+        {
+          "holderId": "actor_0002",
+          "repairUsed": false,
+          "restricted": true,
+          "restrictedOrRepaired": true,
+          "restrictionMessageId": "message_000c",
+          "serviceId": "service_0001",
+          "warningMessageId": "message_000c"
+        }
+      ],
+      "defects": [],
+      "rawInspectorCompared": false,
+      "closeResults": 1,
+      "handoverResults": 0
+    },
+    {
+      "name": "display-ancestor-run.json",
+      "origin": "Fresh visible UI, exact R1 executable with declared CSS-only rendering case",
+      "sourceDigest": "35fa58990b19a08933fefb7e2f37ba1d5c5edc5807390354eae238e531588711",
+      "sha256": "378747261b830a2bbdc7e9c62f7f67136cfe9dbb70e7429f715da24600c00d23",
+      "revision": 12,
+      "outcomes": {
+        "recovered": false,
+        "serviceOpen": true,
+        "ownerId": "actor_0003",
+        "holderId": "subject_0007",
+        "quantity": 1,
+        "balances": {
+          "actor_0001": 1200,
+          "actor_0002": 0,
+          "actor_0004": 0
+        },
+        "recordCorrected": false,
+        "privateDisclosed": false
+      },
+      "visits": [
+        {
+          "holderId": "actor_0002",
+          "repairUsed": false,
+          "restricted": true,
+          "restrictedOrRepaired": true,
+          "restrictionMessageId": "message_000c",
+          "serviceId": "service_0001",
+          "warningMessageId": "message_000c"
+        }
+      ],
+      "defects": [
+        {
+          "id": "defect_0001",
+          "commandId": "command_cc3769154a4544c7ba6d56e311054df6",
+          "type": "MISSING_CLOSURE_PREVIEW",
+          "warningMessageId": "message_000c",
+          "serviceRemainsOpen": true
+        }
+      ],
+      "rawInspectorCompared": true,
+      "closeResults": 0,
+      "handoverResults": 0
+    },
+    {
+      "name": "display-before-run.json",
+      "origin": "Fresh visible UI, preserved failed HTML with CSS-only opacity fault",
+      "sourceDigest": "716a11c4efe9462e8ad60f16d6615ed8537811cf779d10dee424ef92558e3a94",
+      "sha256": "fa56ef7e83de1b4521ee98bf8a85e4909cbb55d23784f160b986b2ede7fa86cd",
+      "revision": 12,
+      "outcomes": {
+        "recovered": false,
+        "serviceOpen": false,
+        "ownerId": "actor_0003",
+        "holderId": "subject_0007",
+        "quantity": 1,
+        "balances": {
+          "actor_0001": 1200,
+          "actor_0002": 0,
+          "actor_0004": 0
+        },
+        "recordCorrected": false,
+        "privateDisclosed": false
+      },
+      "visits": [
+        {
+          "holderId": "actor_0002",
+          "repairUsed": false,
+          "restricted": true,
+          "restrictedOrRepaired": true,
+          "restrictionMessageId": "message_000c",
+          "serviceId": "service_0001",
+          "warningMessageId": "message_000c"
+        }
+      ],
+      "defects": [],
+      "rawInspectorCompared": true,
+      "closeResults": 1,
+      "handoverResults": 0
+    },
+    {
+      "name": "display-display-none-run.json",
+      "origin": "Fresh visible UI, exact R1 executable with declared CSS-only rendering case",
+      "sourceDigest": "35fa58990b19a08933fefb7e2f37ba1d5c5edc5807390354eae238e531588711",
+      "sha256": "26efe1afe56ce1a5b47a590ddf8e832e1b14ae7039bf0f47cfb848954f29c1c1",
+      "revision": 12,
+      "outcomes": {
+        "recovered": false,
+        "serviceOpen": true,
+        "ownerId": "actor_0003",
+        "holderId": "subject_0007",
+        "quantity": 1,
+        "balances": {
+          "actor_0001": 1200,
+          "actor_0002": 0,
+          "actor_0004": 0
+        },
+        "recordCorrected": false,
+        "privateDisclosed": false
+      },
+      "visits": [
+        {
+          "holderId": "actor_0002",
+          "repairUsed": false,
+          "restricted": true,
+          "restrictedOrRepaired": true,
+          "restrictionMessageId": "message_000c",
+          "serviceId": "service_0001",
+          "warningMessageId": "message_000c"
+        }
+      ],
+      "defects": [
+        {
+          "id": "defect_0001",
+          "commandId": "command_626db59b82934d17a5056835257c9081",
+          "type": "MISSING_CLOSURE_PREVIEW",
+          "warningMessageId": "message_000c",
+          "serviceRemainsOpen": true
+        }
+      ],
+      "rawInspectorCompared": true,
+      "closeResults": 0,
+      "handoverResults": 0
+    },
+    {
+      "name": "display-hidden-run.json",
+      "origin": "Fresh visible UI, exact R1 executable with declared CSS-only rendering case",
+      "sourceDigest": "35fa58990b19a08933fefb7e2f37ba1d5c5edc5807390354eae238e531588711",
+      "sha256": "d64b39bce23c4ea164059512ee20969c2b00703388073cd8abd6fb74e47ef9fd",
+      "revision": 12,
+      "outcomes": {
+        "recovered": false,
+        "serviceOpen": true,
+        "ownerId": "actor_0003",
+        "holderId": "subject_0007",
+        "quantity": 1,
+        "balances": {
+          "actor_0001": 1200,
+          "actor_0002": 0,
+          "actor_0004": 0
+        },
+        "recordCorrected": false,
+        "privateDisclosed": false
+      },
+      "visits": [
+        {
+          "holderId": "actor_0002",
+          "repairUsed": false,
+          "restricted": true,
+          "restrictedOrRepaired": true,
+          "restrictionMessageId": "message_000c",
+          "serviceId": "service_0001",
+          "warningMessageId": "message_000c"
+        }
+      ],
+      "defects": [
+        {
+          "id": "defect_0001",
+          "commandId": "command_5daac85b0a574cb8970bdf8f6055c826",
+          "type": "MISSING_CLOSURE_PREVIEW",
+          "warningMessageId": "message_000c",
+          "serviceRemainsOpen": true
+        }
+      ],
+      "rawInspectorCompared": true,
+      "closeResults": 0,
+      "handoverResults": 0
+    },
+    {
+      "name": "display-horizontal-run.json",
+      "origin": "Fresh visible UI, exact R1 executable with declared CSS-only rendering case",
+      "sourceDigest": "35fa58990b19a08933fefb7e2f37ba1d5c5edc5807390354eae238e531588711",
+      "sha256": "475b48de874f796f9556337bc591f8782402762ff85a0e446d7049900767b5fe",
+      "revision": 12,
+      "outcomes": {
+        "recovered": false,
+        "serviceOpen": false,
+        "ownerId": "actor_0003",
+        "holderId": "subject_0007",
+        "quantity": 1,
+        "balances": {
+          "actor_0001": 1200,
+          "actor_0002": 0,
+          "actor_0004": 0
+        },
+        "recordCorrected": false,
+        "privateDisclosed": false
+      },
+      "visits": [
+        {
+          "holderId": "actor_0002",
+          "repairUsed": false,
+          "restricted": true,
+          "restrictedOrRepaired": true,
+          "restrictionMessageId": "message_000c",
+          "serviceId": "service_0001",
+          "warningMessageId": "message_000c"
+        }
+      ],
+      "defects": [],
+      "rawInspectorCompared": true,
+      "closeResults": 1,
+      "handoverResults": 0
+    },
+    {
+      "name": "display-normal-run.json",
+      "origin": "Fresh visible UI, exact R1 executable with declared CSS-only rendering case",
+      "sourceDigest": "35fa58990b19a08933fefb7e2f37ba1d5c5edc5807390354eae238e531588711",
+      "sha256": "f837e440f2e5eb35731016bd2cde90c8042dd7ee457a2311e92a045f7a84a2db",
+      "revision": 12,
+      "outcomes": {
+        "recovered": false,
+        "serviceOpen": false,
+        "ownerId": "actor_0003",
+        "holderId": "subject_0007",
+        "quantity": 1,
+        "balances": {
+          "actor_0001": 1200,
+          "actor_0002": 0,
+          "actor_0004": 0
+        },
+        "recordCorrected": false,
+        "privateDisclosed": false
+      },
+      "visits": [
+        {
+          "holderId": "actor_0002",
+          "repairUsed": false,
+          "restricted": true,
+          "restrictedOrRepaired": true,
+          "restrictionMessageId": "message_000c",
+          "serviceId": "service_0001",
+          "warningMessageId": "message_000c"
+        }
+      ],
+      "defects": [],
+      "rawInspectorCompared": true,
+      "closeResults": 1,
+      "handoverResults": 0
+    },
+    {
+      "name": "display-opacity-run.json",
+      "origin": "Fresh visible UI, exact R1 executable with declared CSS-only rendering case",
+      "sourceDigest": "35fa58990b19a08933fefb7e2f37ba1d5c5edc5807390354eae238e531588711",
+      "sha256": "415a80934d80b9c0fd76272a01156bc01e70636e07d8f6ef5074ed60e01b419e",
+      "revision": 12,
+      "outcomes": {
+        "recovered": false,
+        "serviceOpen": true,
+        "ownerId": "actor_0003",
+        "holderId": "subject_0007",
+        "quantity": 1,
+        "balances": {
+          "actor_0001": 1200,
+          "actor_0002": 0,
+          "actor_0004": 0
+        },
+        "recordCorrected": false,
+        "privateDisclosed": false
+      },
+      "visits": [
+        {
+          "holderId": "actor_0002",
+          "repairUsed": false,
+          "restricted": true,
+          "restrictedOrRepaired": true,
+          "restrictionMessageId": "message_000c",
+          "serviceId": "service_0001",
+          "warningMessageId": "message_000c"
+        }
+      ],
+      "defects": [
+        {
+          "id": "defect_0001",
+          "commandId": "command_c446325e125c4acfa593cbafb77f977c",
+          "type": "MISSING_CLOSURE_PREVIEW",
+          "warningMessageId": "message_000c",
+          "serviceRemainsOpen": true
+        }
+      ],
+      "rawInspectorCompared": true,
+      "closeResults": 0,
+      "handoverResults": 0
+    },
+    {
+      "name": "display-scroll-run.json",
+      "origin": "Fresh visible UI, exact R1 executable with declared CSS-only rendering case",
+      "sourceDigest": "35fa58990b19a08933fefb7e2f37ba1d5c5edc5807390354eae238e531588711",
+      "sha256": "6ab292d0210d0bd5e0db73fa9f8c3c3eb59a58ce5eeb57c423dc352a45c81162",
+      "revision": 12,
+      "outcomes": {
+        "recovered": false,
+        "serviceOpen": false,
+        "ownerId": "actor_0003",
+        "holderId": "subject_0007",
+        "quantity": 1,
+        "balances": {
+          "actor_0001": 1200,
+          "actor_0002": 0,
+          "actor_0004": 0
+        },
+        "recordCorrected": false,
+        "privateDisclosed": false
+      },
+      "visits": [
+        {
+          "holderId": "actor_0002",
+          "repairUsed": false,
+          "restricted": true,
+          "restrictedOrRepaired": true,
+          "restrictionMessageId": "message_000c",
+          "serviceId": "service_0001",
+          "warningMessageId": "message_000c"
+        }
+      ],
+      "defects": [],
+      "rawInspectorCompared": true,
+      "closeResults": 1,
+      "handoverResults": 0
+    },
+    {
+      "name": "display-vertical-run.json",
+      "origin": "Fresh visible UI, exact R1 executable with declared CSS-only rendering case",
+      "sourceDigest": "35fa58990b19a08933fefb7e2f37ba1d5c5edc5807390354eae238e531588711",
+      "sha256": "b4404a92d0d8a55b5f252e7fc60bfcd0173175f390ac9b0325cd023c1ecf34b4",
+      "revision": 12,
+      "outcomes": {
+        "recovered": false,
+        "serviceOpen": true,
+        "ownerId": "actor_0003",
+        "holderId": "subject_0007",
+        "quantity": 1,
+        "balances": {
+          "actor_0001": 1200,
+          "actor_0002": 0,
+          "actor_0004": 0
+        },
+        "recordCorrected": false,
+        "privateDisclosed": false
+      },
+      "visits": [
+        {
+          "holderId": "actor_0002",
+          "repairUsed": false,
+          "restricted": true,
+          "restrictedOrRepaired": true,
+          "restrictionMessageId": "message_000c",
+          "serviceId": "service_0001",
+          "warningMessageId": "message_000c"
+        }
+      ],
+      "defects": [
+        {
+          "id": "defect_0001",
+          "commandId": "command_17cf7b8861bc409da74aed9c851406f5",
+          "type": "MISSING_CLOSURE_PREVIEW",
+          "warningMessageId": "message_000c",
+          "serviceRemainsOpen": true
+        }
+      ],
+      "rawInspectorCompared": true,
+      "closeResults": 0,
+      "handoverResults": 0
+    },
+    {
+      "name": "display-zero-height-run.json",
+      "origin": "Fresh visible UI, exact R1 executable with declared CSS-only rendering case",
+      "sourceDigest": "35fa58990b19a08933fefb7e2f37ba1d5c5edc5807390354eae238e531588711",
+      "sha256": "0fd8c50772c3609dfb0ff587b604aae9430eff30d6f95e101c2587c8a1afa18b",
+      "revision": 12,
+      "outcomes": {
+        "recovered": false,
+        "serviceOpen": true,
+        "ownerId": "actor_0003",
+        "holderId": "subject_0007",
+        "quantity": 1,
+        "balances": {
+          "actor_0001": 1200,
+          "actor_0002": 0,
+          "actor_0004": 0
+        },
+        "recordCorrected": false,
+        "privateDisclosed": false
+      },
+      "visits": [
+        {
+          "holderId": "actor_0002",
+          "repairUsed": false,
+          "restricted": true,
+          "restrictedOrRepaired": true,
+          "restrictionMessageId": "message_000c",
+          "serviceId": "service_0001",
+          "warningMessageId": "message_000c"
+        }
+      ],
+      "defects": [
+        {
+          "id": "defect_0001",
+          "commandId": "command_6fc794f64b104fbcbeec7b0149af2a15",
+          "type": "MISSING_CLOSURE_PREVIEW",
+          "warningMessageId": "message_000c",
+          "serviceRemainsOpen": true
+        }
+      ],
+      "rawInspectorCompared": true,
+      "closeResults": 0,
+      "handoverResults": 0
+    },
+    {
+      "name": "display-zero-width-run.json",
+      "origin": "Fresh visible UI, exact R1 executable with declared CSS-only rendering case",
+      "sourceDigest": "35fa58990b19a08933fefb7e2f37ba1d5c5edc5807390354eae238e531588711",
+      "sha256": "0670662c998d1daf005be30bdf5844e44d7870cf91302fbe389e1b4105265ff5",
+      "revision": 12,
+      "outcomes": {
+        "recovered": false,
+        "serviceOpen": false,
+        "ownerId": "actor_0003",
+        "holderId": "subject_0007",
+        "quantity": 1,
+        "balances": {
+          "actor_0001": 1200,
+          "actor_0002": 0,
+          "actor_0004": 0
+        },
+        "recordCorrected": false,
+        "privateDisclosed": false
+      },
+      "visits": [
+        {
+          "holderId": "actor_0002",
+          "repairUsed": false,
+          "restricted": true,
+          "restrictedOrRepaired": true,
+          "restrictionMessageId": "message_000c",
+          "serviceId": "service_0001",
+          "warningMessageId": "message_000c"
+        }
+      ],
+      "defects": [],
+      "rawInspectorCompared": true,
+      "closeResults": 1,
+      "handoverResults": 0
+    },
+    {
+      "name": "r1-after-invalid-save.json",
+      "origin": "Fresh visible UI on exact unmodified R1 HTML",
+      "sourceDigest": "35fa58990b19a08933fefb7e2f37ba1d5c5edc5807390354eae238e531588711",
+      "sha256": "ce6f6d3b3a435cc36e6f0f74445f105761101e182f90071a14215cc6de270406",
+      "revision": 17,
+      "outcomes": {
+        "recovered": false,
+        "serviceOpen": true,
+        "ownerId": "actor_0003",
+        "holderId": "subject_0007",
+        "quantity": 1,
+        "balances": {
+          "actor_0001": 1200,
+          "actor_0002": 0,
+          "actor_0004": 0
+        },
+        "recordCorrected": false,
+        "privateDisclosed": false
+      },
+      "visits": [
+        {
+          "holderId": "actor_0002",
+          "repairUsed": true,
+          "restricted": false,
+          "restrictedOrRepaired": true,
+          "restrictionMessageId": "message_000c",
+          "serviceId": "service_0001",
+          "warningMessageId": "message_000c"
+        }
+      ],
+      "defects": [],
+      "rawInspectorCompared": false,
+      "closeResults": 0,
+      "handoverResults": 0
+    },
+    {
+      "name": "r1-after-read-surfaces.json",
+      "origin": "Fresh visible UI on exact unmodified R1 HTML",
+      "sourceDigest": "35fa58990b19a08933fefb7e2f37ba1d5c5edc5807390354eae238e531588711",
+      "sha256": "ffb81f9506cac821837cd810d79348ae36308f524e61ce787d08116bc9e8262d",
+      "revision": 21,
+      "outcomes": {
+        "recovered": true,
+        "serviceOpen": true,
+        "ownerId": "actor_0003",
+        "holderId": "actor_0001",
+        "quantity": 1,
+        "balances": {
+          "actor_0001": 1200,
+          "actor_0002": 0,
+          "actor_0004": 0
+        },
+        "recordCorrected": true,
+        "privateDisclosed": false
+      },
+      "visits": [
+        {
+          "holderId": "actor_0002",
+          "repairUsed": true,
+          "restricted": false,
+          "restrictedOrRepaired": true,
+          "restrictionMessageId": "message_000c",
+          "serviceId": "service_0001",
+          "warningMessageId": "message_000c"
+        }
+      ],
+      "defects": [],
+      "rawInspectorCompared": false,
+      "closeResults": 0,
+      "handoverResults": 1
+    },
+    {
+      "name": "r1-after-yes.json",
+      "origin": "Fresh visible UI on exact unmodified R1 HTML",
+      "sourceDigest": "35fa58990b19a08933fefb7e2f37ba1d5c5edc5807390354eae238e531588711",
+      "sha256": "626c77f1c3bacf632aa60318e92c8f40d0592f4ffd0d04f5ce5d004bd82a7e34",
+      "revision": 19,
+      "outcomes": {
+        "recovered": false,
+        "serviceOpen": true,
+        "ownerId": "actor_0003",
+        "holderId": "subject_0007",
+        "quantity": 1,
+        "balances": {
+          "actor_0001": 1200,
+          "actor_0002": 0,
+          "actor_0004": 0
+        },
+        "recordCorrected": false,
+        "privateDisclosed": false
+      },
+      "visits": [
+        {
+          "holderId": "actor_0002",
+          "repairUsed": true,
+          "restricted": false,
+          "restrictedOrRepaired": true,
+          "restrictionMessageId": "message_000c",
+          "serviceId": "service_0001",
+          "warningMessageId": "message_000c"
+        }
+      ],
+      "defects": [],
+      "rawInspectorCompared": false,
+      "closeResults": 0,
+      "handoverResults": 0
+    },
+    {
+      "name": "r1-before-substantive-repair.json",
+      "origin": "Fresh visible UI on exact unmodified R1 HTML",
+      "sourceDigest": "35fa58990b19a08933fefb7e2f37ba1d5c5edc5807390354eae238e531588711",
+      "sha256": "990b3f008485b657a49a15bd3201b72f3146b90ec434d4fa236d501ae4f28d15",
+      "revision": 16,
+      "outcomes": {
+        "recovered": false,
+        "serviceOpen": true,
+        "ownerId": "actor_0003",
+        "holderId": "subject_0007",
+        "quantity": 1,
+        "balances": {
+          "actor_0001": 1200,
+          "actor_0002": 0,
+          "actor_0004": 0
+        },
+        "recordCorrected": false,
+        "privateDisclosed": false
+      },
+      "visits": [
+        {
+          "holderId": "actor_0002",
+          "repairUsed": false,
+          "restricted": true,
+          "restrictedOrRepaired": true,
+          "restrictionMessageId": "message_000c",
+          "serviceId": "service_0001",
+          "warningMessageId": "message_000c"
+        }
+      ],
+      "defects": [],
+      "rawInspectorCompared": false,
+      "closeResults": 0,
+      "handoverResults": 0
+    },
+    {
+      "name": "r1-clean-recovery.json",
+      "origin": "Fresh visible UI on exact unmodified R1 HTML",
+      "sourceDigest": "35fa58990b19a08933fefb7e2f37ba1d5c5edc5807390354eae238e531588711",
+      "sha256": "ffb81f9506cac821837cd810d79348ae36308f524e61ce787d08116bc9e8262d",
+      "revision": 21,
+      "outcomes": {
+        "recovered": true,
+        "serviceOpen": true,
+        "ownerId": "actor_0003",
+        "holderId": "actor_0001",
+        "quantity": 1,
+        "balances": {
+          "actor_0001": 1200,
+          "actor_0002": 0,
+          "actor_0004": 0
+        },
+        "recordCorrected": true,
+        "privateDisclosed": false
+      },
+      "visits": [
+        {
+          "holderId": "actor_0002",
+          "repairUsed": true,
+          "restricted": false,
+          "restrictedOrRepaired": true,
+          "restrictionMessageId": "message_000c",
+          "serviceId": "service_0001",
+          "warningMessageId": "message_000c"
+        }
+      ],
+      "defects": [],
+      "rawInspectorCompared": true,
+      "closeResults": 0,
+      "handoverResults": 1
+    },
+    {
+      "name": "r1-closed-reloaded.json",
+      "origin": "Fresh visible UI on exact unmodified R1 HTML",
+      "sourceDigest": "35fa58990b19a08933fefb7e2f37ba1d5c5edc5807390354eae238e531588711",
+      "sha256": "f837e440f2e5eb35731016bd2cde90c8042dd7ee457a2311e92a045f7a84a2db",
+      "revision": 12,
+      "outcomes": {
+        "recovered": false,
+        "serviceOpen": false,
+        "ownerId": "actor_0003",
+        "holderId": "subject_0007",
+        "quantity": 1,
+        "balances": {
+          "actor_0001": 1200,
+          "actor_0002": 0,
+          "actor_0004": 0
+        },
+        "recordCorrected": false,
+        "privateDisclosed": false
+      },
+      "visits": [
+        {
+          "holderId": "actor_0002",
+          "repairUsed": false,
+          "restricted": true,
+          "restrictedOrRepaired": true,
+          "restrictionMessageId": "message_000c",
+          "serviceId": "service_0001",
+          "warningMessageId": "message_000c"
+        }
+      ],
+      "defects": [],
+      "rawInspectorCompared": false,
+      "closeResults": 1,
+      "handoverResults": 0
+    },
+    {
+      "name": "r1-fresh-warned.json",
+      "origin": "Fresh visible UI on exact unmodified R1 HTML",
+      "sourceDigest": "35fa58990b19a08933fefb7e2f37ba1d5c5edc5807390354eae238e531588711",
+      "sha256": "86bf0bcc43280bae583195be099ac298982c13d0cf5fffb5c25574923f3cf2b5",
+      "revision": 11,
+      "outcomes": {
+        "recovered": false,
+        "serviceOpen": true,
+        "ownerId": "actor_0003",
+        "holderId": "subject_0007",
+        "quantity": 1,
+        "balances": {
+          "actor_0001": 1200,
+          "actor_0002": 0,
+          "actor_0004": 0
+        },
+        "recordCorrected": false,
+        "privateDisclosed": false
+      },
+      "visits": [
+        {
+          "holderId": "actor_0002",
+          "repairUsed": false,
+          "restricted": true,
+          "restrictedOrRepaired": true,
+          "restrictionMessageId": "message_000c",
+          "serviceId": "service_0001",
+          "warningMessageId": "message_000c"
+        }
+      ],
+      "defects": [],
+      "rawInspectorCompared": false,
+      "closeResults": 0,
+      "handoverResults": 0
+    },
+    {
+      "name": "r1-partial-evidence.json",
+      "origin": "Fresh visible UI on exact unmodified R1 HTML",
+      "sourceDigest": "35fa58990b19a08933fefb7e2f37ba1d5c5edc5807390354eae238e531588711",
+      "sha256": "203a954a8ebc6ffe9b2abfc88ab79947e24939301fef32c6cfcf354fbddb63b2",
+      "revision": 3,
+      "outcomes": {
+        "recovered": false,
+        "serviceOpen": true,
+        "ownerId": "actor_0003",
+        "holderId": "subject_0007",
+        "quantity": 1,
+        "balances": {
+          "actor_0001": 1200,
+          "actor_0002": 0,
+          "actor_0004": 0
+        },
+        "recordCorrected": false,
+        "privateDisclosed": false
+      },
+      "visits": [
+        {
+          "holderId": "actor_0002",
+          "repairUsed": false,
+          "restricted": false,
+          "restrictedOrRepaired": false,
+          "restrictionMessageId": null,
+          "serviceId": "service_0001",
+          "warningMessageId": null
+        }
+      ],
+      "defects": [],
+      "rawInspectorCompared": false,
+      "closeResults": 0,
+      "handoverResults": 0
+    },
+    {
+      "name": "r1-pending-handover.json",
+      "origin": "Fresh visible UI on exact unmodified R1 HTML",
+      "sourceDigest": "35fa58990b19a08933fefb7e2f37ba1d5c5edc5807390354eae238e531588711",
+      "sha256": "5aee2706992293ca9e04c8fd480048894c11e0a7de60e30731cbb15a9db993e3",
+      "revision": 18,
+      "outcomes": {
+        "recovered": false,
+        "serviceOpen": true,
+        "ownerId": "actor_0003",
+        "holderId": "subject_0007",
+        "quantity": 1,
+        "balances": {
+          "actor_0001": 1200,
+          "actor_0002": 0,
+          "actor_0004": 0
+        },
+        "recordCorrected": false,
+        "privateDisclosed": false
+      },
+      "visits": [
+        {
+          "holderId": "actor_0002",
+          "repairUsed": true,
+          "restricted": false,
+          "restrictedOrRepaired": true,
+          "restrictionMessageId": "message_000c",
+          "serviceId": "service_0001",
+          "warningMessageId": "message_000c"
+        }
+      ],
+      "defects": [],
+      "rawInspectorCompared": false,
+      "closeResults": 0,
+      "handoverResults": 0
+    },
+    {
+      "name": "r1-permission-only.json",
+      "origin": "Fresh visible UI on exact unmodified R1 HTML",
+      "sourceDigest": "35fa58990b19a08933fefb7e2f37ba1d5c5edc5807390354eae238e531588711",
+      "sha256": "456163d070d5ec5941ac0d76c09810a8c8b491277cc070ca394666d6704ed96d",
+      "revision": 2,
+      "outcomes": {
+        "recovered": false,
+        "serviceOpen": true,
+        "ownerId": "actor_0003",
+        "holderId": "subject_0007",
+        "quantity": 1,
+        "balances": {
+          "actor_0001": 1200,
+          "actor_0002": 0,
+          "actor_0004": 0
+        },
+        "recordCorrected": false,
+        "privateDisclosed": false
+      },
+      "visits": [
+        {
+          "holderId": "actor_0002",
+          "repairUsed": false,
+          "restricted": false,
+          "restrictedOrRepaired": false,
+          "restrictionMessageId": null,
+          "serviceId": "service_0001",
+          "warningMessageId": null
+        }
+      ],
+      "defects": [],
+      "rawInspectorCompared": false,
+      "closeResults": 0,
+      "handoverResults": 0
+    },
+    {
+      "name": "r1-post-recovery.json",
+      "origin": "Fresh visible UI on exact unmodified R1 HTML",
+      "sourceDigest": "35fa58990b19a08933fefb7e2f37ba1d5c5edc5807390354eae238e531588711",
+      "sha256": "5bf6e732ad6064eda9f93afb2f8806cf55962ad4c98992517b7740d0d7d7d481",
+      "revision": 22,
+      "outcomes": {
+        "recovered": true,
+        "serviceOpen": true,
+        "ownerId": "actor_0003",
+        "holderId": "actor_0001",
+        "quantity": 1,
+        "balances": {
+          "actor_0001": 1200,
+          "actor_0002": 0,
+          "actor_0004": 0
+        },
+        "recordCorrected": true,
+        "privateDisclosed": false
+      },
+      "visits": [
+        {
+          "holderId": "actor_0002",
+          "repairUsed": true,
+          "restricted": false,
+          "restrictedOrRepaired": true,
+          "restrictionMessageId": "message_000c",
+          "serviceId": "service_0001",
+          "warningMessageId": "message_000c"
+        }
+      ],
+      "defects": [],
+      "rawInspectorCompared": false,
+      "closeResults": 0,
+      "handoverResults": 1
+    },
+    {
+      "name": "r1-repaired-reloaded.json",
+      "origin": "Fresh visible UI on exact unmodified R1 HTML",
+      "sourceDigest": "35fa58990b19a08933fefb7e2f37ba1d5c5edc5807390354eae238e531588711",
+      "sha256": "ce6f6d3b3a435cc36e6f0f74445f105761101e182f90071a14215cc6de270406",
+      "revision": 17,
+      "outcomes": {
+        "recovered": false,
+        "serviceOpen": true,
+        "ownerId": "actor_0003",
+        "holderId": "subject_0007",
+        "quantity": 1,
+        "balances": {
+          "actor_0001": 1200,
+          "actor_0002": 0,
+          "actor_0004": 0
+        },
+        "recordCorrected": false,
+        "privateDisclosed": false
+      },
+      "visits": [
+        {
+          "holderId": "actor_0002",
+          "repairUsed": true,
+          "restricted": false,
+          "restrictedOrRepaired": true,
+          "restrictionMessageId": "message_000c",
+          "serviceId": "service_0001",
+          "warningMessageId": "message_000c"
+        }
+      ],
+      "defects": [],
+      "rawInspectorCompared": false,
+      "closeResults": 0,
+      "handoverResults": 0
+    },
+    {
+      "name": "r1-repaired.json",
+      "origin": "Fresh visible UI on exact unmodified R1 HTML",
+      "sourceDigest": "35fa58990b19a08933fefb7e2f37ba1d5c5edc5807390354eae238e531588711",
+      "sha256": "ce6f6d3b3a435cc36e6f0f74445f105761101e182f90071a14215cc6de270406",
+      "revision": 17,
+      "outcomes": {
+        "recovered": false,
+        "serviceOpen": true,
+        "ownerId": "actor_0003",
+        "holderId": "subject_0007",
+        "quantity": 1,
+        "balances": {
+          "actor_0001": 1200,
+          "actor_0002": 0,
+          "actor_0004": 0
+        },
+        "recordCorrected": false,
+        "privateDisclosed": false
+      },
+      "visits": [
+        {
+          "holderId": "actor_0002",
+          "repairUsed": true,
+          "restricted": false,
+          "restrictedOrRepaired": true,
+          "restrictionMessageId": "message_000c",
+          "serviceId": "service_0001",
+          "warningMessageId": "message_000c"
+        }
+      ],
+      "defects": [],
+      "rawInspectorCompared": true,
+      "closeResults": 0,
+      "handoverResults": 0
+    },
+    {
+      "name": "verified-ancestor-run.json",
+      "origin": "Fresh visible UI on exact unmodified R1 HTML",
+      "sourceDigest": "35fa58990b19a08933fefb7e2f37ba1d5c5edc5807390354eae238e531588711",
+      "sha256": "3105e5b45964a88967080d953cb2a7e9d6d79a20f6d382cde8e667f71b328096",
+      "revision": 12,
+      "outcomes": {
+        "recovered": false,
+        "serviceOpen": true,
+        "ownerId": "actor_0003",
+        "holderId": "subject_0007",
+        "quantity": 1,
+        "balances": {
+          "actor_0001": 1200,
+          "actor_0002": 0,
+          "actor_0004": 0
+        },
+        "recordCorrected": false,
+        "privateDisclosed": false
+      },
+      "visits": [
+        {
+          "holderId": "actor_0002",
+          "repairUsed": false,
+          "restricted": true,
+          "restrictedOrRepaired": true,
+          "restrictionMessageId": "message_000c",
+          "serviceId": "service_0001",
+          "warningMessageId": "message_000c"
+        }
+      ],
+      "defects": [
+        {
+          "id": "defect_0001",
+          "commandId": "command_87c68b89c44849e697bc5f9ce8e53c69",
+          "type": "MISSING_CLOSURE_PREVIEW",
+          "warningMessageId": "message_000c",
+          "serviceRemainsOpen": true
+        }
+      ],
+      "rawInspectorCompared": false,
+      "closeResults": 0,
+      "handoverResults": 0
+    },
+    {
+      "name": "verified-opacity-run.json",
+      "origin": "Fresh visible UI on exact unmodified R1 HTML",
+      "sourceDigest": "35fa58990b19a08933fefb7e2f37ba1d5c5edc5807390354eae238e531588711",
+      "sha256": "e64e408e94038b1fb6fdc575e27a5b6ee1eefcdb97ed0cf756ef737339ad1783",
+      "revision": 12,
+      "outcomes": {
+        "recovered": false,
+        "serviceOpen": true,
+        "ownerId": "actor_0003",
+        "holderId": "subject_0007",
+        "quantity": 1,
+        "balances": {
+          "actor_0001": 1200,
+          "actor_0002": 0,
+          "actor_0004": 0
+        },
+        "recordCorrected": false,
+        "privateDisclosed": false
+      },
+      "visits": [
+        {
+          "holderId": "actor_0002",
+          "repairUsed": false,
+          "restricted": true,
+          "restrictedOrRepaired": true,
+          "restrictionMessageId": "message_000c",
+          "serviceId": "service_0001",
+          "warningMessageId": "message_000c"
+        }
+      ],
+      "defects": [
+        {
+          "id": "defect_0001",
+          "commandId": "command_58aadd306c5340c5ae8b5a3d99b623b9",
+          "type": "MISSING_CLOSURE_PREVIEW",
+          "warningMessageId": "message_000c",
+          "serviceRemainsOpen": true
+        }
+      ],
+      "rawInspectorCompared": false,
+      "closeResults": 0,
+      "handoverResults": 0
+    },
+    {
+      "name": "verified-visible-run.json",
+      "origin": "Fresh visible UI on exact unmodified R1 HTML",
+      "sourceDigest": "35fa58990b19a08933fefb7e2f37ba1d5c5edc5807390354eae238e531588711",
+      "sha256": "8104071bf2b19a9e2889c7354a7e5a1eef5401c37c6036d9149b1f2bc920a589",
+      "revision": 12,
+      "outcomes": {
+        "recovered": false,
+        "serviceOpen": false,
+        "ownerId": "actor_0003",
+        "holderId": "subject_0007",
+        "quantity": 1,
+        "balances": {
+          "actor_0001": 1200,
+          "actor_0002": 0,
+          "actor_0004": 0
+        },
+        "recordCorrected": false,
+        "privateDisclosed": false
+      },
+      "visits": [
+        {
+          "holderId": "actor_0002",
+          "repairUsed": false,
+          "restricted": true,
+          "restrictedOrRepaired": true,
+          "restrictionMessageId": "message_000c",
+          "serviceId": "service_0001",
+          "warningMessageId": "message_000c"
+        }
+      ],
+      "defects": [],
+      "rawInspectorCompared": false,
+      "closeResults": 1,
+      "handoverResults": 0
+    }
+  ],
+  "allReplayValidated": true,
+  "originalOpacityDefectFixed": true,
+  "newBlockingDefects": [
+    "M3-D02: horizontal offscreen and zero-width false display receipt"
+  ],
+  "builderBrowserEvidenceUsedAsProof": false
+}

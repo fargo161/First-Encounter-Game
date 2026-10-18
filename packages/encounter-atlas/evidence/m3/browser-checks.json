@@ -1,0 +1,98 @@
+[
+  {
+    "name": "Nine draft variants leave the entire initial run unchanged",
+    "passed": true,
+    "groupId": "B01"
+  },
+  {
+    "name": "Ticket verification and protected request have distinct Intake/Delivery and no automatic inspection",
+    "passed": true,
+    "groupId": "B02"
+  },
+  {
+    "name": "Ordinary collection money is received and declined without fee, debt or transfer",
+    "passed": true,
+    "groupId": "B03"
+  },
+  {
+    "name": "Witness account retains unidentified subject and limited observation",
+    "passed": true,
+    "groupId": "B04"
+  },
+  {
+    "name": "Physical comparison produces exact zero-payment proposal, not automatic handover",
+    "passed": true,
+    "groupId": "B05"
+  },
+  {
+    "name": "Conversational Yes preserves terms without executing them",
+    "passed": true,
+    "groupId": "B06"
+  },
+  {
+    "name": "Exact confirmation changes unique custody once at zero cost, preserves owner/history, and models no human belief",
+    "passed": true,
+    "groupId": "B07"
+  },
+  {
+    "name": "Read-only inspector and replay/skip leave the complete final run unchanged",
+    "passed": true,
+    "groupId": "B08"
+  },
+  {
+    "name": "Same-observer later pattern causes specific restriction, viable route and explicit earlier warning",
+    "passed": true,
+    "groupId": "B09"
+  },
+  {
+    "name": "Why, End/reopen, partner changes and vague apology cannot consume repair or erase authority",
+    "passed": true,
+    "groupId": "B10"
+  },
+  {
+    "name": "Substantive comparison acceptance repairs once; continuing save reload retains the exact state",
+    "passed": true,
+    "groupId": "B11"
+  },
+  {
+    "name": "Restored repaired visit completes actual comparison and zero-cost recovery while warning persists",
+    "passed": true,
+    "groupId": "B12"
+  },
+  {
+    "name": "Case-only and Why drafts have no closure notice; abandoning edits changes no run data",
+    "passed": true,
+    "groupId": "B13"
+  },
+  {
+    "name": "Warned later demand with actually displayed bound notice closes through one explicit result",
+    "passed": true,
+    "groupId": "B14"
+  },
+  {
+    "name": "Closed visit restores exactly without reapplying closure",
+    "passed": true,
+    "groupId": "B15"
+  },
+  {
+    "name": "Legacy save refusal is explicit and leaves the complete current run unchanged",
+    "passed": true,
+    "groupId": "B16"
+  },
+  {
+    "name": "Actual downloaded JSON exactly matches the final closed-run export",
+    "passed": true,
+    "groupId": "B17"
+  },
+  {
+    "name": "A later protected-scope demand cannot retroactively turn completed recovery into loss",
+    "passed": true,
+    "groupId": "B18"
+  },
+  {
+    "name": "A later protected demand cannot turn an already completed recovery into loss",
+    "passed": true,
+    "groupId": "B18",
+    "repeatOf": "B18"
+  }
+]

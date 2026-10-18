@@ -1,0 +1,11 @@
+{
+  "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\Encounter_M3",
+  "executable": "C:\\Users\\mcdon\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+  "args": [
+    "scripts/preserve-m3.py"
+  ],
+  "stage": "Final documentation/preservation verification",
+  "exitCode": 0,
+  "stdout": "{\"result\": \"PASS\", \"baselineMembers\": 73, \"unchangedCopyMembers\": 70, \"intentionalChanges\": [\"package.json\", \"README.md\", \"Test_Results_and_Scope.md\"]}\n",
+  "stderr": ""
+}

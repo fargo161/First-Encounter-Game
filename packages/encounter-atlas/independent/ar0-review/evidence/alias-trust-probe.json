@@ -1,0 +1,49 @@
+{
+  "catalogAccepted": true,
+  "ownerId": "actor_0003",
+  "witnessId": "actor_0004",
+  "ownerDisplayName": "Nera Vale",
+  "ownerSourceRefs": [
+    {
+      "id": "actor_0003",
+      "kind": "actor"
+    }
+  ],
+  "ownerActorKind": "npc",
+  "ownerObservationObservers": [
+    "actor_0004"
+  ],
+  "ownerBeliefHolders": [
+    "actor_0004"
+  ],
+  "playerReportLinks": [
+    {
+      "id": "link:reporter:claim_0001:actor_0001:event%3Aevent_0002",
+      "relationKind": "reported_about",
+      "fromRef": "actor_0003",
+      "toRef": "event_0002",
+      "epistemic": "report",
+      "provenance": {
+        "claimIds": [
+          "claim_0001"
+        ],
+        "roots": [
+          {
+            "id": "event_0002",
+            "kind": "event"
+          }
+        ],
+        "sourceRefs": [
+          {
+            "id": "message_0006",
+            "kind": "message"
+          }
+        ]
+      },
+      "details": {
+        "recipientRef": "actor_0001"
+      }
+    }
+  ],
+  "canonicalOwnerObservations": 0
+}

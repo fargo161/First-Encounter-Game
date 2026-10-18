@@ -1,0 +1,481 @@
+{
+  "schema": "encounter-package@3",
+  "id": "package_0003",
+  "revision": 1,
+  "contentRevision": "M3-protective-shortcut-v1",
+  "title": "Last Collection · The Protective Shortcut",
+  "actors": [
+    {
+      "id": "actor_0001",
+      "label": "Collector",
+      "kind": "human",
+      "profile": null
+    },
+    {
+      "id": "actor_0002",
+      "label": "Tamsin",
+      "kind": "npc",
+      "profile": {
+        "roles": [
+          "record_custodian"
+        ],
+        "priorities": {
+          "service": 10,
+          "privacy": 10,
+          "verification": 9
+        },
+        "acceptanceThreshold": 3
+      }
+    },
+    {
+      "id": "actor_0003",
+      "label": "Nera Vale",
+      "kind": "absent",
+      "profile": null
+    },
+    {
+      "id": "actor_0004",
+      "label": "Orrin",
+      "kind": "npc",
+      "profile": {
+        "roles": [
+          "handling_witness"
+        ],
+        "priorities": {
+          "service": 10,
+          "privacy": 10,
+          "verification": 9
+        },
+        "acceptanceThreshold": 3
+      }
+    }
+  ],
+  "subjects": [
+    {
+      "id": "subject_0001",
+      "label": "Nera’s green instrument case"
+    },
+    {
+      "id": "subject_0002",
+      "label": "Collection ticket"
+    },
+    {
+      "id": "subject_0003",
+      "label": "Collection record"
+    },
+    {
+      "id": "subject_0004",
+      "label": "Customer file"
+    },
+    {
+      "id": "subject_0005",
+      "label": "Case-handling scope"
+    },
+    {
+      "id": "subject_0006",
+      "label": "Private contact scope"
+    },
+    {
+      "id": "subject_0007",
+      "label": "Office storage"
+    },
+    {
+      "id": "subject_0008",
+      "label": "Whole customer file"
+    },
+    {
+      "id": "subject_0009",
+      "label": "Nera Vale"
+    },
+    {
+      "id": "subject_000a",
+      "label": "Partition"
+    },
+    {
+      "id": "subject_000b",
+      "label": "Handling tray"
+    },
+    {
+      "id": "subject_000c",
+      "label": "Numbered drying tag"
+    },
+    {
+      "id": "subject_000d",
+      "label": "Coins"
+    },
+    {
+      "id": "subject_000e",
+      "label": "Supervised comparison"
+    },
+    {
+      "id": "subject_000f",
+      "label": "Dry storage"
+    },
+    {
+      "id": "subject_0010",
+      "label": "Office record mark"
+    },
+    {
+      "id": "subject_0011",
+      "label": "Observed wrapped green case — identity not established"
+    }
+  ],
+  "humanId": "actor_0001",
+  "initialPartnerId": "actor_0002",
+  "facts": [
+    {
+      "id": "fact_0001",
+      "subjectId": "subject_0003",
+      "predicate": "recipient_signature",
+      "value": "unfilled",
+      "label": "Recipient signature: unfilled"
+    },
+    {
+      "id": "fact_0002",
+      "subjectId": "subject_0011",
+      "predicate": "movement_direction",
+      "value": "subject_000a",
+      "label": "A wrapped green case moved toward the partition; its exact identity was not established by that sighting"
+    },
+    {
+      "id": "fact_0003",
+      "subjectId": "subject_0001",
+      "predicate": "storage_location",
+      "value": "subject_000f",
+      "label": "Case is in dry storage"
+    },
+    {
+      "id": "fact_0004",
+      "subjectId": "subject_0001",
+      "predicate": "movement_reason",
+      "value": "spill_protection",
+      "label": "Moved after a spill to protect it from damp"
+    },
+    {
+      "id": "fact_0005",
+      "subjectId": "subject_000c",
+      "predicate": "item_reference",
+      "value": "subject_0001",
+      "label": "Drying tag 041 matches the case reference"
+    },
+    {
+      "id": "fact_0006",
+      "subjectId": "subject_000c",
+      "predicate": "handling_type",
+      "value": "internal_drying",
+      "label": "Drying tag records internal drying, not recipient collection"
+    },
+    {
+      "id": "fact_0007",
+      "subjectId": "subject_0003",
+      "predicate": "original_entry_meaning",
+      "value": "removed_from_rack",
+      "label": "Original collected entry meant removed from the rack"
+    },
+    {
+      "id": "fact_0008",
+      "subjectId": "subject_0001",
+      "predicate": "hauling_obligation_status",
+      "value": "already_paid",
+      "label": "Separate hauling obligation: already paid"
+    },
+    {
+      "id": "fact_0009",
+      "subjectId": "subject_0006",
+      "predicate": "protected_contact",
+      "value": "PRIVATE-M3-FIXTURE: 17 Cedar Lane",
+      "label": "Private contact value"
+    }
+  ],
+  "protectedFactIds": [
+    "fact_0009"
+  ],
+  "initial": {
+    "itemId": "subject_0001",
+    "ownerId": "actor_0003",
+    "holderId": "subject_0007",
+    "quantity": 1,
+    "balances": {
+      "actor_0001": 1200,
+      "actor_0002": 0,
+      "actor_0004": 0
+    },
+    "minorUnitsPerCoin": 100,
+    "softAllowance": 24,
+    "entry": "collected",
+    "rule": {
+      "serviceId": "service_0001",
+      "custodianId": "actor_0002",
+      "witnessId": "actor_0004",
+      "itemId": "subject_0001",
+      "ownerId": "actor_0003",
+      "ownerTopicId": "subject_0009",
+      "ticketId": "subject_0002",
+      "recordId": "subject_0003",
+      "fileId": "subject_0004",
+      "relevantScopeId": "subject_0005",
+      "protectedScopeIds": [
+        "subject_0006",
+        "subject_0008"
+      ],
+      "wholeScopeId": "subject_0008",
+      "moneyId": "subject_000d",
+      "verifyActionId": "action_0001",
+      "inspectionActionIds": [
+        "action_0002",
+        "action_0003"
+      ],
+      "comparisonActionId": "action_0004",
+      "correctionActionId": "action_0005",
+      "handoverActionId": "action_0006",
+      "closeActionId": "action_0007",
+      "explainReferenceIds": [
+        "subject_0004",
+        "subject_0005",
+        "subject_0006",
+        "subject_0008",
+        "subject_000b",
+        "subject_000e"
+      ],
+      "requiredEvidence": [
+        {
+          "subjectId": "subject_0003",
+          "predicate": "recipient_signature",
+          "forms": [
+            "document"
+          ]
+        },
+        {
+          "subjectId": "subject_0011",
+          "predicate": "movement_direction",
+          "forms": [
+            "report"
+          ]
+        },
+        {
+          "subjectId": "subject_000c",
+          "predicate": "item_reference",
+          "forms": [
+            "document"
+          ]
+        }
+      ],
+      "handoverPriceMinor": 0,
+      "recordCorrection": "Original “collected” meant removal from the rack for internal drying; recipient handover is recorded separately."
+    },
+    "initialReferenceIds": [
+      "subject_0001",
+      "subject_0002",
+      "subject_0003",
+      "subject_0009",
+      "subject_000d"
+    ],
+    "historicalMovement": {
+      "allFactIds": [
+        "fact_0002",
+        "fact_0003",
+        "fact_0004",
+        "fact_0007"
+      ],
+      "actorReceipts": [
+        {
+          "actorId": "actor_0002",
+          "factIds": [
+            "fact_0002",
+            "fact_0003",
+            "fact_0004",
+            "fact_0007"
+          ],
+          "form": "direct",
+          "markId": null,
+          "conduct": null
+        },
+        {
+          "actorId": "actor_0004",
+          "factIds": [
+            "fact_0002"
+          ],
+          "form": "direct",
+          "markId": null,
+          "conduct": null
+        }
+      ]
+    },
+    "witnessAccount": {
+      "actorId": "actor_0004",
+      "factIds": [
+        "fact_0002"
+      ],
+      "interpretation": "It may have been an exception. I did not see the damp seam, final cupboard, or purpose; that interpretation is not a witnessed fact."
+    }
+  },
+  "actions": [
+    {
+      "id": "action_0001",
+      "kind": "verify_authority",
+      "targetId": "subject_0002",
+      "label": "Show and verify collection ticket",
+      "requiresAuthority": false,
+      "requiresComparison": false,
+      "disclosures": []
+    },
+    {
+      "id": "action_0002",
+      "kind": "inspect",
+      "targetId": "subject_0003",
+      "label": "Inspect handling extract",
+      "requiresAuthority": true,
+      "requiresComparison": false,
+      "disclosures": [
+        {
+          "actorId": "actor_0001",
+          "factIds": [
+            "fact_0001"
+          ],
+          "form": "document",
+          "markId": "subject_0010",
+          "conduct": null
+        },
+        {
+          "actorId": "actor_0002",
+          "factIds": [],
+          "form": "direct",
+          "markId": null,
+          "conduct": "Sees the collector inspect the permitted extract; the small print is unreadable from here."
+        }
+      ]
+    },
+    {
+      "id": "action_0003",
+      "kind": "search",
+      "targetId": "subject_000b",
+      "label": "Search permitted handling tray",
+      "requiresAuthority": true,
+      "requiresComparison": false,
+      "disclosures": [
+        {
+          "actorId": "actor_0001",
+          "factIds": [
+            "fact_0005",
+            "fact_0006"
+          ],
+          "form": "document",
+          "markId": "subject_0010",
+          "conduct": null
+        },
+        {
+          "actorId": "actor_0004",
+          "factIds": [],
+          "form": "direct",
+          "markId": null,
+          "conduct": "Sees the collector search the permitted handling tray; does not read the tag."
+        }
+      ]
+    },
+    {
+      "id": "action_0004",
+      "kind": "compare",
+      "targetId": "subject_000e",
+      "label": "Perform supervised case-only comparison",
+      "requiresAuthority": true,
+      "requiresComparison": false,
+      "disclosures": [
+        {
+          "actorId": "actor_0001",
+          "factIds": [
+            "fact_0001",
+            "fact_0005",
+            "fact_0006",
+            "fact_0003",
+            "fact_0007",
+            "fact_0008"
+          ],
+          "form": "document",
+          "markId": "subject_0010",
+          "conduct": null
+        },
+        {
+          "actorId": "actor_0002",
+          "factIds": [
+            "fact_0001",
+            "fact_0005",
+            "fact_0006"
+          ],
+          "form": "document",
+          "markId": "subject_0010",
+          "conduct": "Reads the selected case-handling evidence in the supervised comparison."
+        }
+      ]
+    },
+    {
+      "id": "action_0005",
+      "kind": "correct_record",
+      "targetId": "subject_0003",
+      "label": "Record correction to the original entry",
+      "requiresAuthority": true,
+      "requiresComparison": true,
+      "disclosures": []
+    },
+    {
+      "id": "action_0006",
+      "kind": "handover",
+      "targetId": "subject_0001",
+      "label": "Complete confirmed case handover",
+      "requiresAuthority": true,
+      "requiresComparison": true,
+      "disclosures": []
+    },
+    {
+      "id": "action_0007",
+      "kind": "close_service",
+      "targetId": "subject_0004",
+      "label": "Close collection service for this visit",
+      "requiresAuthority": false,
+      "requiresComparison": false,
+      "disclosures": []
+    }
+  ],
+  "communication": {
+    "expressions": [
+      {
+        "vibe": "EA",
+        "templateId": "template_0011",
+        "cues": [
+          {
+            "kind": "scope_limit",
+            "text": "States the selected scope firmly and without adding unrelated demands."
+          }
+        ]
+      },
+      {
+        "vibe": "SE",
+        "templateId": "template_0012",
+        "cues": [
+          {
+            "kind": "displayed_concern",
+            "text": "Acknowledges the clerk’s work and communicates supportive concern about a defensible handover."
+          }
+        ]
+      },
+      {
+        "vibe": "AB",
+        "templateId": "template_0013",
+        "cues": [
+          {
+            "kind": "direct_demand",
+            "text": "Makes a direct demand for attention to the selected matter."
+          },
+          {
+            "kind": "possible_consequence",
+            "text": "Raises the possibility of a procedural complaint; no complaint is filed or promised."
+          }
+        ]
+      }
+    ]
+  },
+  "presentation": {
+    "art": null,
+    "intake": null,
+    "delivery": null
+  }
+}

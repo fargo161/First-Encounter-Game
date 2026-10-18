@@ -1,0 +1,72 @@
+- link "Skip to composer":
+  - /url: "#composer"
+- banner:
+  - text: ENCOUNTER / M3 REVIEW BUILD
+  - heading "Last Collection" [level=1]
+  - paragraph: The Protective Shortcut · recover the case, keep the causes clear.
+  - navigation "Run controls":
+    - button "New run" [active]
+    - button "Save run"
+    - button "Open run"
+    - button "Author inspector"
+- status: New M3 run started. Save manually to retain a run before closing or restarting.
+- generic: COLLECTION TICKET / IN YOUR POSSESSION
+- paragraph: You carry collection authority for Nera’s green instrument case. The entry reads “collected”. Show the ticket, then investigate through the relevant records and people.
+- generic: 12 coins remaining
+- main:
+  - text: AT THE COUNTER
+  - heading "Tamsin" [level=2]
+  - generic: Your move
+  - text: COLLECTION
+  - text: RECORD
+  - paragraph: The duty clerk waits beside the record. Physical actions and conversation remain separate.
+  - paragraph
+  - button "Replay latest response" [disabled]
+  - generic: Conversation partner
+  - combobox "Conversation partner":
+    - option "Tamsin" [selected]
+    - option "Orrin"
+  - button "Approach selected partner" [disabled]
+  - button "End conversation"
+  - heading "Conversation & actions" [level=2]
+  - generic: Revision 0 · 0 opportunities
+  - log:
+    - paragraph: Begin by deliberately showing and verifying the collection ticket.
+  - text: YOUR COMMUNICATION
+  - heading "Compose a message" [level=2]
+  - group "Communication family":
+    - button "Offer"
+    - button "Request" [pressed]
+    - button "Remark"
+  - generic: Meaning
+  - combobox "Meaning":
+    - option "Request case paperwork" [selected]
+    - option "Ask where the case is"
+    - option "Ask about the owner’s whereabouts"
+    - option "Request authorized collection"
+  - generic: BASED
+  - combobox "BASED":
+    - option "Boundaried" [selected]
+    - option "Compassionate"
+    - option "Menacing"
+  - generic: Salience
+  - combobox "Salience":
+    - option "Subtle"
+    - option "Nuanced" [selected]
+    - option "Overt"
+  - text: PREVIEW / WHAT YOU WILL COMMUNICATE
+  - paragraph: Requests access to Collection record concerning Collection record. States the selected scope firmly and without adding unrelated demands. Social framing is measured.
+  - button "Send message"
+  - paragraph: Reading, drafting, clarification, End and partner switching do not spend the substantive repair episode.
+  - heading "Your notebook & actions" [level=2]
+  - generic: Nera’s green instrument case
+  - generic: Collection ticket
+  - generic: Collection record
+  - generic: Nera Vale
+  - generic: Coins
+  - paragraph: No handling detail has been inspected yet. Permission alone reveals no result.
+  - button "Show and verify collection ticket"
+  - paragraph
+- contentinfo:
+  - generic: Investigate through actual actions and communications
+  - generic: Local · manual saves · descriptive performances · M3 only

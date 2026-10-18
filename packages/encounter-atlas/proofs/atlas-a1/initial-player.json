@@ -1,0 +1,655 @@
+{
+  "context": {
+    "audience": "player",
+    "viewLabel": "Player-received view",
+    "foundationRevision": "AR0-projection-v1-R1-D01",
+    "foundationSourceDigest": "8dd542efed9f74573bcb1913d367f7c791d63c3830d65b7f35f68abdcb92f09c",
+    "runId": "run_0003",
+    "revision": 0,
+    "packageRef": {
+      "digest": "2ce9f61b996f17392a39c56f4005d8203b7940aa4974564fafa54d110e35ae8f",
+      "id": "package_0003",
+      "revision": 1
+    },
+    "catalogId": "catalog_0001",
+    "catalogDigest": "46fa89e1ff1831614eca1ad63d030427c258a8debd849b054c375fbc96033e42",
+    "snapshotDigest": "6edc2be9c477ac098ed702f39019ab3bcecc73727c8f0d8a076c278ee540920a"
+  },
+  "people": [
+    {
+      "id": "actor_0001",
+      "name": "Collector",
+      "kindLabel": "Player-controlled person",
+      "mode": "modeled",
+      "status": "Information received in this run",
+      "identityNote": "Received information is recorded. Human beliefs, motives and feelings are not simulated.",
+      "sections": [
+        {
+          "id": "received",
+          "title": "Received information",
+          "rows": [
+            {
+              "key": "observation_0001:collection",
+              "text": "Collection information recorded.",
+              "basis": "Starting information",
+              "note": "",
+              "source": {
+                "immediate": [
+                  {
+                    "title": "Referenced historical occurrence",
+                    "period": "Before this run",
+                    "citation": {
+                      "id": "event_0001",
+                      "kind": "event"
+                    },
+                    "receivedFragments": [
+                      {
+                        "observationId": "observation_0001",
+                        "channel": "initial",
+                        "receivedDetails": {
+                          "collection": {
+                            "entry": "collected",
+                            "itemId": "subject_0001",
+                            "recordId": "subject_0003",
+                            "ticketId": "subject_0002"
+                          },
+                          "participants": [
+                            {
+                              "id": "actor_0001",
+                              "kind": "human",
+                              "label": "Collector"
+                            },
+                            {
+                              "id": "actor_0002",
+                              "kind": "npc",
+                              "label": "Tamsin"
+                            },
+                            {
+                              "id": "actor_0003",
+                              "kind": "absent",
+                              "label": "Nera Vale"
+                            },
+                            {
+                              "id": "actor_0004",
+                              "kind": "npc",
+                              "label": "Orrin"
+                            }
+                          ],
+                          "references": [
+                            {
+                              "id": "subject_0001",
+                              "label": "Nera’s green instrument case"
+                            },
+                            {
+                              "id": "subject_0002",
+                              "label": "Collection ticket"
+                            },
+                            {
+                              "id": "subject_0003",
+                              "label": "Collection record"
+                            },
+                            {
+                              "id": "subject_0009",
+                              "label": "Nera Vale"
+                            },
+                            {
+                              "id": "subject_000d",
+                              "label": "Coins"
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "fullDeveloperRecord": null,
+                    "access": "Only received fragments are shown. An earlier citation does not reveal its full contents."
+                  }
+                ],
+                "earlier": [],
+                "support": [],
+                "correction": [],
+                "note": "Repeated references to one source are not independent corroboration.",
+                "technicalRecord": {
+                  "field": "collection",
+                  "observationId": "observation_0001",
+                  "value": {
+                    "entry": "collected",
+                    "itemId": "subject_0001",
+                    "recordId": "subject_0003",
+                    "ticketId": "subject_0002"
+                  }
+                }
+              },
+              "secondary": true
+            },
+            {
+              "key": "observation_0001:participants",
+              "text": "People named in received information: Collector, Tamsin, Nera Vale, Orrin",
+              "basis": "Starting information",
+              "note": "",
+              "source": {
+                "immediate": [
+                  {
+                    "title": "Referenced historical occurrence",
+                    "period": "Before this run",
+                    "citation": {
+                      "id": "event_0001",
+                      "kind": "event"
+                    },
+                    "receivedFragments": [
+                      {
+                        "observationId": "observation_0001",
+                        "channel": "initial",
+                        "receivedDetails": {
+                          "collection": {
+                            "entry": "collected",
+                            "itemId": "subject_0001",
+                            "recordId": "subject_0003",
+                            "ticketId": "subject_0002"
+                          },
+                          "participants": [
+                            {
+                              "id": "actor_0001",
+                              "kind": "human",
+                              "label": "Collector"
+                            },
+                            {
+                              "id": "actor_0002",
+                              "kind": "npc",
+                              "label": "Tamsin"
+                            },
+                            {
+                              "id": "actor_0003",
+                              "kind": "absent",
+                              "label": "Nera Vale"
+                            },
+                            {
+                              "id": "actor_0004",
+                              "kind": "npc",
+                              "label": "Orrin"
+                            }
+                          ],
+                          "references": [
+                            {
+                              "id": "subject_0001",
+                              "label": "Nera’s green instrument case"
+                            },
+                            {
+                              "id": "subject_0002",
+                              "label": "Collection ticket"
+                            },
+                            {
+                              "id": "subject_0003",
+                              "label": "Collection record"
+                            },
+                            {
+                              "id": "subject_0009",
+                              "label": "Nera Vale"
+                            },
+                            {
+                              "id": "subject_000d",
+                              "label": "Coins"
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "fullDeveloperRecord": null,
+                    "access": "Only received fragments are shown. An earlier citation does not reveal its full contents."
+                  }
+                ],
+                "earlier": [],
+                "support": [],
+                "correction": [],
+                "note": "Repeated references to one source are not independent corroboration.",
+                "technicalRecord": {
+                  "field": "participants",
+                  "observationId": "observation_0001",
+                  "value": [
+                    {
+                      "id": "actor_0001",
+                      "kind": "human",
+                      "label": "Collector"
+                    },
+                    {
+                      "id": "actor_0002",
+                      "kind": "npc",
+                      "label": "Tamsin"
+                    },
+                    {
+                      "id": "actor_0003",
+                      "kind": "absent",
+                      "label": "Nera Vale"
+                    },
+                    {
+                      "id": "actor_0004",
+                      "kind": "npc",
+                      "label": "Orrin"
+                    }
+                  ]
+                }
+              },
+              "secondary": true
+            },
+            {
+              "key": "observation_0001:references",
+              "text": "References received: Nera’s green instrument case, Collection ticket, Collection record, Nera Vale, Coins",
+              "basis": "Starting information",
+              "note": "",
+              "source": {
+                "immediate": [
+                  {
+                    "title": "Referenced historical occurrence",
+                    "period": "Before this run",
+                    "citation": {
+                      "id": "event_0001",
+                      "kind": "event"
+                    },
+                    "receivedFragments": [
+                      {
+                        "observationId": "observation_0001",
+                        "channel": "initial",
+                        "receivedDetails": {
+                          "collection": {
+                            "entry": "collected",
+                            "itemId": "subject_0001",
+                            "recordId": "subject_0003",
+                            "ticketId": "subject_0002"
+                          },
+                          "participants": [
+                            {
+                              "id": "actor_0001",
+                              "kind": "human",
+                              "label": "Collector"
+                            },
+                            {
+                              "id": "actor_0002",
+                              "kind": "npc",
+                              "label": "Tamsin"
+                            },
+                            {
+                              "id": "actor_0003",
+                              "kind": "absent",
+                              "label": "Nera Vale"
+                            },
+                            {
+                              "id": "actor_0004",
+                              "kind": "npc",
+                              "label": "Orrin"
+                            }
+                          ],
+                          "references": [
+                            {
+                              "id": "subject_0001",
+                              "label": "Nera’s green instrument case"
+                            },
+                            {
+                              "id": "subject_0002",
+                              "label": "Collection ticket"
+                            },
+                            {
+                              "id": "subject_0003",
+                              "label": "Collection record"
+                            },
+                            {
+                              "id": "subject_0009",
+                              "label": "Nera Vale"
+                            },
+                            {
+                              "id": "subject_000d",
+                              "label": "Coins"
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "fullDeveloperRecord": null,
+                    "access": "Only received fragments are shown. An earlier citation does not reveal its full contents."
+                  }
+                ],
+                "earlier": [],
+                "support": [],
+                "correction": [],
+                "note": "Repeated references to one source are not independent corroboration.",
+                "technicalRecord": {
+                  "field": "references",
+                  "observationId": "observation_0001",
+                  "value": [
+                    {
+                      "id": "subject_0001",
+                      "label": "Nera’s green instrument case"
+                    },
+                    {
+                      "id": "subject_0002",
+                      "label": "Collection ticket"
+                    },
+                    {
+                      "id": "subject_0003",
+                      "label": "Collection record"
+                    },
+                    {
+                      "id": "subject_0009",
+                      "label": "Nera Vale"
+                    },
+                    {
+                      "id": "subject_000d",
+                      "label": "Coins"
+                    }
+                  ]
+                }
+              },
+              "secondary": true
+            }
+          ]
+        }
+      ],
+      "sharedName": false,
+      "technical": {
+        "context": {
+          "audience": "player",
+          "catalogDigest": "46fa89e1ff1831614eca1ad63d030427c258a8debd849b054c375fbc96033e42",
+          "catalogId": "catalog_0001",
+          "foundationRevision": "AR0-projection-v1-R1-D01",
+          "foundationSourceDigest": "8dd542efed9f74573bcb1913d367f7c791d63c3830d65b7f35f68abdcb92f09c",
+          "packageRef": {
+            "digest": "2ce9f61b996f17392a39c56f4005d8203b7940aa4974564fafa54d110e35ae8f",
+            "id": "package_0003",
+            "revision": 1
+          },
+          "revision": 0,
+          "runId": "run_0003",
+          "snapshotDigest": "6edc2be9c477ac098ed702f39019ab3bcecc73727c8f0d8a076c278ee540920a",
+          "viewLabel": "Player-received view"
+        },
+        "person": {
+          "description": "The collecting participant. Information here records receipt and factual state, not private psychology.",
+          "displayName": "Collector",
+          "id": "actor_0001",
+          "kind": "person",
+          "linkRefs": [
+            "link:observation:observation_0001",
+            "link:scenario:scenario_0001:actor_0001"
+          ],
+          "scenarioRefs": [
+            "scenario_0001"
+          ],
+          "sourceRefs": [
+            {
+              "id": "actor_0001",
+              "kind": "actor"
+            }
+          ],
+          "state": {
+            "actorKind": "human",
+            "beliefs": [],
+            "hypotheses": [],
+            "observations": [
+              {
+                "channel": "initial",
+                "id": "observation_0001",
+                "observerId": "actor_0001",
+                "receivedDetails": {
+                  "collection": {
+                    "entry": "collected",
+                    "itemId": "subject_0001",
+                    "recordId": "subject_0003",
+                    "ticketId": "subject_0002"
+                  },
+                  "participants": [
+                    {
+                      "id": "actor_0001",
+                      "kind": "human",
+                      "label": "Collector"
+                    },
+                    {
+                      "id": "actor_0002",
+                      "kind": "npc",
+                      "label": "Tamsin"
+                    },
+                    {
+                      "id": "actor_0003",
+                      "kind": "absent",
+                      "label": "Nera Vale"
+                    },
+                    {
+                      "id": "actor_0004",
+                      "kind": "npc",
+                      "label": "Orrin"
+                    }
+                  ],
+                  "references": [
+                    {
+                      "id": "subject_0001",
+                      "label": "Nera’s green instrument case"
+                    },
+                    {
+                      "id": "subject_0002",
+                      "label": "Collection ticket"
+                    },
+                    {
+                      "id": "subject_0003",
+                      "label": "Collection record"
+                    },
+                    {
+                      "id": "subject_0009",
+                      "label": "Nera Vale"
+                    },
+                    {
+                      "id": "subject_000d",
+                      "label": "Coins"
+                    }
+                  ]
+                },
+                "roots": [
+                  {
+                    "id": "event_0001",
+                    "kind": "event"
+                  }
+                ],
+                "schema": "encounter-observation@2",
+                "sequence": 1,
+                "source": {
+                  "id": "event_0001",
+                  "kind": "event"
+                }
+              }
+            ],
+            "permissions": [
+              {
+                "actionId": "action_0001",
+                "granteeId": "actor_0001",
+                "grantorId": "actor_0002",
+                "id": "permission_0001",
+                "source": {
+                  "id": "event_0001",
+                  "kind": "event"
+                },
+                "status": "allowed",
+                "targetId": "subject_0002"
+              }
+            ],
+            "receivedClaims": [],
+            "visit": null
+          },
+          "tags": []
+        },
+        "references": {
+          "sourceRefs": [
+            {
+              "id": "actor_0001",
+              "kind": "actor"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "actor_0002",
+      "name": "Tamsin",
+      "kindLabel": "Private local state is hidden",
+      "mode": "hidden",
+      "status": "Not shown in this view",
+      "identityNote": "",
+      "sections": [],
+      "sharedName": false,
+      "technical": {
+        "context": {
+          "audience": "player",
+          "catalogDigest": "46fa89e1ff1831614eca1ad63d030427c258a8debd849b054c375fbc96033e42",
+          "catalogId": "catalog_0001",
+          "foundationRevision": "AR0-projection-v1-R1-D01",
+          "foundationSourceDigest": "8dd542efed9f74573bcb1913d367f7c791d63c3830d65b7f35f68abdcb92f09c",
+          "packageRef": {
+            "digest": "2ce9f61b996f17392a39c56f4005d8203b7940aa4974564fafa54d110e35ae8f",
+            "id": "package_0003",
+            "revision": 1
+          },
+          "revision": 0,
+          "runId": "run_0003",
+          "snapshotDigest": "6edc2be9c477ac098ed702f39019ab3bcecc73727c8f0d8a076c278ee540920a",
+          "viewLabel": "Player-received view"
+        },
+        "person": {
+          "description": "A participant in the collection visit. Knowledge and interpretations remain actor-local.",
+          "displayName": "Tamsin",
+          "id": "actor_0002",
+          "kind": "person",
+          "linkRefs": [
+            "link:scenario:scenario_0001:actor_0002"
+          ],
+          "scenarioRefs": [
+            "scenario_0001"
+          ],
+          "sourceRefs": [
+            {
+              "id": "actor_0002",
+              "kind": "actor"
+            }
+          ],
+          "state": {},
+          "tags": []
+        },
+        "references": {
+          "sourceRefs": [
+            {
+              "id": "actor_0002",
+              "kind": "actor"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "actor_0003",
+      "name": "Nera Vale",
+      "kindLabel": "Private local state is hidden",
+      "mode": "hidden",
+      "status": "Not shown in this view",
+      "identityNote": "",
+      "sections": [],
+      "sharedName": false,
+      "technical": {
+        "context": {
+          "audience": "player",
+          "catalogDigest": "46fa89e1ff1831614eca1ad63d030427c258a8debd849b054c375fbc96033e42",
+          "catalogId": "catalog_0001",
+          "foundationRevision": "AR0-projection-v1-R1-D01",
+          "foundationSourceDigest": "8dd542efed9f74573bcb1913d367f7c791d63c3830d65b7f35f68abdcb92f09c",
+          "packageRef": {
+            "digest": "2ce9f61b996f17392a39c56f4005d8203b7940aa4974564fafa54d110e35ae8f",
+            "id": "package_0003",
+            "revision": 1
+          },
+          "revision": 0,
+          "runId": "run_0003",
+          "snapshotDigest": "6edc2be9c477ac098ed702f39019ab3bcecc73727c8f0d8a076c278ee540920a",
+          "viewLabel": "Player-received view"
+        },
+        "person": {
+          "description": "The absent owner. Absence does not grant receipt of the visit’s communications.",
+          "displayName": "Nera Vale",
+          "id": "actor_0003",
+          "kind": "person",
+          "linkRefs": [
+            "link:scenario:scenario_0001:actor_0003"
+          ],
+          "scenarioRefs": [
+            "scenario_0001"
+          ],
+          "sourceRefs": [
+            {
+              "id": "actor_0003",
+              "kind": "actor"
+            }
+          ],
+          "state": {},
+          "tags": []
+        },
+        "references": {
+          "sourceRefs": [
+            {
+              "id": "actor_0003",
+              "kind": "actor"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "actor_0004",
+      "name": "Orrin",
+      "kindLabel": "Private local state is hidden",
+      "mode": "hidden",
+      "status": "Not shown in this view",
+      "identityNote": "",
+      "sections": [],
+      "sharedName": false,
+      "technical": {
+        "context": {
+          "audience": "player",
+          "catalogDigest": "46fa89e1ff1831614eca1ad63d030427c258a8debd849b054c375fbc96033e42",
+          "catalogId": "catalog_0001",
+          "foundationRevision": "AR0-projection-v1-R1-D01",
+          "foundationSourceDigest": "8dd542efed9f74573bcb1913d367f7c791d63c3830d65b7f35f68abdcb92f09c",
+          "packageRef": {
+            "digest": "2ce9f61b996f17392a39c56f4005d8203b7940aa4974564fafa54d110e35ae8f",
+            "id": "package_0003",
+            "revision": 1
+          },
+          "revision": 0,
+          "runId": "run_0003",
+          "snapshotDigest": "6edc2be9c477ac098ed702f39019ab3bcecc73727c8f0d8a076c278ee540920a",
+          "viewLabel": "Player-received view"
+        },
+        "person": {
+          "description": "A participant in the collection visit. Knowledge and interpretations remain actor-local.",
+          "displayName": "Orrin",
+          "id": "actor_0004",
+          "kind": "person",
+          "linkRefs": [
+            "link:scenario:scenario_0001:actor_0004"
+          ],
+          "scenarioRefs": [
+            "scenario_0001"
+          ],
+          "sourceRefs": [
+            {
+              "id": "actor_0004",
+              "kind": "actor"
+            }
+          ],
+          "state": {},
+          "tags": []
+        },
+        "references": {
+          "sourceRefs": [
+            {
+              "id": "actor_0004",
+              "kind": "actor"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "technicalDefects": []
+}

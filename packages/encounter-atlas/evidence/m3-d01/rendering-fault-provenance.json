@@ -1,0 +1,26 @@
+{
+  "/before/": {
+    "sourceBuildSHA256": "4fa1f60a1ec6a561375bdc38799693943b0910886d2f7ea838099d9303469e58",
+    "servedHTMLSHA256": "bbbe0cc12b320443492135cea32e2a856bf1fd6d2f6973610e5806fff8786a2f",
+    "injection": "<style id=\"m3-d01-rendering-fault\">#closure-notice { opacity: 0 !important; }</style>",
+    "executableBytesUnchanged": true
+  },
+  "/transparent/": {
+    "sourceBuildSHA256": "11393dde2ae110d3b04aac03c1044e000be6b410e4bffacb16216829c9050052",
+    "servedHTMLSHA256": "7e2d16216d915d7c789e38bd85f63001c1266691eb94bc1f29006227766c6e3a",
+    "injection": "<style id=\"m3-d01-rendering-fault\">#closure-notice { opacity: 0 !important; }</style>",
+    "executableBytesUnchanged": true
+  },
+  "/offscreen/": {
+    "sourceBuildSHA256": "11393dde2ae110d3b04aac03c1044e000be6b410e4bffacb16216829c9050052",
+    "servedHTMLSHA256": "52e86d1510de0c24edfe709cfe7cd1fbd9fdf0118149fc841069cb911c62e20a",
+    "injection": "<style id=\"m3-d01-rendering-fault\">#closure-notice { position: fixed !important; top: -1000px !important; }</style>",
+    "executableBytesUnchanged": true
+  },
+  "/normal/": {
+    "sourceBuildSHA256": "11393dde2ae110d3b04aac03c1044e000be6b410e4bffacb16216829c9050052",
+    "servedHTMLSHA256": "11393dde2ae110d3b04aac03c1044e000be6b410e4bffacb16216829c9050052",
+    "injection": "",
+    "executableBytesUnchanged": true
+  }
+}

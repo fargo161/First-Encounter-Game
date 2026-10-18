@@ -1,0 +1,168 @@
+TAP version 13
+# Subtest: IR2-01 genuinely visible current notice closes once with immutable exact retry
+ok 1 - IR2-01 genuinely visible current notice closes once with immutable exact retry
+  ---
+  duration_ms: 116.4233
+  type: 'test'
+  ...
+# Subtest: IR2-02 own opacity zero rejects receipt through actual engine
+ok 2 - IR2-02 own opacity zero rejects receipt through actual engine
+  ---
+  duration_ms: 69.1576
+  type: 'test'
+  ...
+# Subtest: IR2-03 ancestor opacity zero rejects receipt through actual engine
+ok 3 - IR2-03 ancestor opacity zero rejects receipt through actual engine
+  ---
+  duration_ms: 66.716
+  type: 'test'
+  ...
+# Subtest: IR2-04 hidden rejects receipt through actual engine
+ok 4 - IR2-04 hidden rejects receipt through actual engine
+  ---
+  duration_ms: 61.3258
+  type: 'test'
+  ...
+# Subtest: IR2-05 display none rejects receipt through actual engine
+ok 5 - IR2-05 display none rejects receipt through actual engine
+  ---
+  duration_ms: 63.5507
+  type: 'test'
+  ...
+# Subtest: IR2-06 visibility hidden rejects receipt through actual engine
+ok 6 - IR2-06 visibility hidden rejects receipt through actual engine
+  ---
+  duration_ms: 63.2378
+  type: 'test'
+  ...
+# Subtest: IR2-07 zero width rejects receipt through actual engine
+ok 7 - IR2-07 zero width rejects receipt through actual engine
+  ---
+  duration_ms: 60.8244
+  type: 'test'
+  ...
+# Subtest: IR2-08 zero height rejects receipt through actual engine
+ok 8 - IR2-08 zero height rejects receipt through actual engine
+  ---
+  duration_ms: 64.1363
+  type: 'test'
+  ...
+# Subtest: IR2-09 offscreen left rejects receipt through actual engine
+ok 9 - IR2-09 offscreen left rejects receipt through actual engine
+  ---
+  duration_ms: 65.1257
+  type: 'test'
+  ...
+# Subtest: IR2-10 offscreen right rejects receipt through actual engine
+ok 10 - IR2-10 offscreen right rejects receipt through actual engine
+  ---
+  duration_ms: 65.007
+  type: 'test'
+  ...
+# Subtest: IR2-11 above rejects receipt through actual engine
+ok 11 - IR2-11 above rejects receipt through actual engine
+  ---
+  duration_ms: 66.1203
+  type: 'test'
+  ...
+# Subtest: IR2-12 below rejects receipt through actual engine
+ok 12 - IR2-12 below rejects receipt through actual engine
+  ---
+  duration_ms: 63.0424
+  type: 'test'
+  ...
+# Subtest: IR2-13 partial left rejects receipt through actual engine
+ok 13 - IR2-13 partial left rejects receipt through actual engine
+  ---
+  duration_ms: 62.9885
+  type: 'test'
+  ...
+# Subtest: IR2-14 partial right rejects receipt through actual engine
+ok 14 - IR2-14 partial right rejects receipt through actual engine
+  ---
+  duration_ms: 79.8868
+  type: 'test'
+  ...
+# Subtest: IR2-15 partial vertical rejects receipt through actual engine
+ok 15 - IR2-15 partial vertical rejects receipt through actual engine
+  ---
+  duration_ms: 73.4003
+  type: 'test'
+  ...
+# Subtest: IR2-16 non-finite rectangle/viewport and invalid viewport dimensions fail closed
+ok 16 - IR2-16 non-finite rectangle/viewport and invalid viewport dimensions fail closed
+  ---
+  duration_ms: 1706.2014
+  type: 'test'
+  ...
+# Subtest: IR2-17 negative/inverted geometry fails closed
+ok 17 - IR2-17 negative/inverted geometry fails closed
+  ---
+  duration_ms: 452.9144
+  type: 'test'
+  ...
+# Subtest: IR2-18 edited/stale draft cannot reuse truthful receipt
+ok 18 - IR2-18 edited/stale draft cannot reuse truthful receipt
+  ---
+  duration_ms: 187.1976
+  type: 'test'
+  ...
+# Subtest: IR2-19 earned truthful receipt remains valid after scroll without edits
+ok 19 - IR2-19 earned truthful receipt remains valid after scroll without edits
+  ---
+  duration_ms: 110.5627
+  type: 'test'
+  ...
+# Subtest: IR2-20 visibility collapse must not earn a receipt or close service
+not ok 20 - IR2-20 visibility collapse must not earn a receipt or close service
+  ---
+  duration_ms: 170.6618
+  type: 'test'
+  location: 'C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\m3-r2-independent-review\\independent-r2-display.test.mjs:37:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    collapse must not authorize closure
+    + actual - expected
+    
+      {
+    +   closeResults: 1,
+    +   defects: [],
+    +   displayed: true,
+    +   serviceOpen: false
+    -   closeResults: 0,
+    -   defects: [
+    -     'MISSING_CLOSURE_PREVIEW'
+    -   ],
+    -   displayed: false,
+    -   serviceOpen: true
+      }
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected:
+    displayed: false
+    serviceOpen: true
+    closeResults: 0
+    defects:
+      0: 'MISSING_CLOSURE_PREVIEW'
+  actual:
+    displayed: true
+    serviceOpen: false
+    closeResults: 1
+    defects:
+  operator: 'deepStrictEqual'
+  stack: |-
+    invalid (file:///C:/Users/mcdon/Documents/ChatGPT/encounter%20and%20rc/work/m3-r2-independent-review/independent-r2-display.test.mjs:21:9)
+    async TestContext.<anonymous> (file:///C:/Users/mcdon/Documents/ChatGPT/encounter%20and%20rc/work/m3-r2-independent-review/independent-r2-display.test.mjs:39:2)
+    async Test.run (node:internal/test_runner/test:1332:7)
+    async Test.processPendingSubtests (node:internal/test_runner/test:911:7)
+  ...
+1..20
+# tests 20
+# suites 0
+# pass 19
+# fail 1
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 5205.7486

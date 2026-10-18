@@ -1,0 +1,801 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="An offline, setting-independent encounter authoring tool.">
+<title>Encounter Core</title>
+<style>:root{color-scheme:dark;--bg:#111511;--panel:#1a201a;--raised:#222a22;--line:#39463a;--text:#e8ede3;--muted:#a2b29f;--accent:#c9e7aa;--accent-dark:#26381c;--warm:#dec493;--danger:#f2b6a9;--mono:'Consolas','Courier New',monospace;--sans:'Segoe UI',Tahoma,Arial,sans-serif;font:14px/1.5 var(--sans);background:var(--bg);color:var(--text)}
+*{box-sizing:border-box}body{margin:0}button,input,select,textarea{font:inherit}button{cursor:pointer;border:1px solid var(--line);color:var(--text);background:var(--raised);border-radius:4px;padding:9px 13px;min-height:39px;font-weight:600;transition:background .12s,border-color .12s}button:hover:enabled{background:#303c2c;border-color:#7e9474}button:disabled{opacity:.43;cursor:not-allowed}button.primary{background:var(--accent);color:#1b2914;border-color:var(--accent)}button.primary:hover:enabled{background:#def2c8}button.quiet{background:transparent}button.text-button{background:transparent;border-color:transparent;color:var(--accent);padding:4px 0;min-height:28px;font-size:12px;font-weight:500}button.icon-button{padding:4px 10px;min-width:36px;font-size:20px;line-height:1}button[aria-pressed=true]{border-color:var(--accent);background:var(--accent-dark);color:var(--accent)}button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible,summary:focus-visible,a:focus-visible{outline:2px solid var(--accent);outline-offset:3px}input,select,textarea{border:1px solid #475745;border-radius:3px;padding:9px 10px;background:#121912;color:var(--text);width:100%;max-width:100%;min-height:40px}input[type=checkbox]{width:18px;height:18px;min-height:18px;accent-color:var(--accent)}input:invalid:not(:placeholder-shown){border-color:#886759}textarea{resize:vertical;min-height:110px}select{cursor:pointer}label{display:block;font-weight:500;margin-bottom:6px}h1,h2,h3,p{margin:0}h1{font-size:30px;line-height:1.1;letter-spacing:-1px;font-weight:650}h2{font-size:20px;line-height:1.25;letter-spacing:-.4px;font-weight:600}h3{font-size:16px;font-weight:600}a{color:var(--accent)}[hidden]{display:none!important}fieldset{border:0;margin:0;padding:0;min-width:0}legend{font-size:12px;font-weight:600;padding:0;margin-bottom:8px}kbd{font:11px var(--mono);border:1px solid currentColor;opacity:.65;padding:1px 4px;margin-left:13px;border-radius:2px}.muted{color:var(--muted)}.small{font-size:12px}.micro{font-size:11px}.eyebrow{font:10px/1.6 var(--mono);letter-spacing:1.25px;color:var(--muted);margin-bottom:5px}.skip-link{position:absolute;top:-100px;left:16px;z-index:100;background:var(--accent);color:#142110;padding:12px}.skip-link:focus{top:10px}.app-shell{max-width:1450px;margin:auto;padding:28px 32px 0}.masthead{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:0 0 26px}.brand{display:flex;align-items:center;gap:16px}.brand-mark{display:grid;place-items:center;width:58px;height:58px;flex:none;border:1px solid #6f8464;box-shadow:inset 0 0 0 4px var(--bg),inset 0 0 0 5px #405237;background:#25321e;color:var(--accent);font:22px var(--mono);letter-spacing:-2px}.subtitle{font-size:12px;color:var(--muted);margin-top:6px}.world-meta{display:flex;flex-wrap:wrap;justify-content:flex-end;align-items:center;gap:8px;max-width:45%;font-size:13px}.world-meta #world-name{max-width:300px;white-space:nowrap;text-overflow:ellipsis;overflow:hidden}.world-meta small{flex-basis:100%;text-align:right;color:var(--muted);font:10px var(--mono);letter-spacing:.4px}.status-dot{width:6px;height:6px;display:inline-block;background:var(--accent);border-radius:50%}.toolbar{border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:12px 0;display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;margin-bottom:22px}.toolbar>div{display:flex;gap:8px;flex-wrap:wrap}.toolbar button{font-size:12px}.notice{background:#263421;border:1px solid #4b6440;border-left:3px solid var(--accent);padding:10px 14px;margin-bottom:16px;font-size:13px;overflow-wrap:anywhere}.notice.error{background:#33261e;border-color:#7b5345;color:#f1c8b9}.onboarding{display:flex;align-items:center;justify-content:space-between;gap:24px;background:linear-gradient(105deg,#273120,#191f19);border:1px solid #465c38;border-left:3px solid var(--accent);padding:22px 24px;margin-bottom:22px}.onboarding h2{font-size:24px;margin-bottom:7px}.onboarding p:not(.eyebrow){font-size:13px;color:#bfccb5;max-width:610px}.onboarding-actions{display:flex;gap:8px;flex-direction:column;min-width:170px}.onboarding button{font-size:12px}.workspace{display:grid;grid-template-columns:minmax(0,1fr) 382px;gap:22px;align-items:start}.main-column,.side-column{min-width:0;display:flex;flex-direction:column;gap:20px}.panel{background:var(--panel);border:1px solid var(--line);border-radius:6px;overflow:hidden}.panel-heading{padding:19px 22px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:center;gap:16px}.panel-heading.compact{padding:17px 19px}.reading{display:flex;align-items:center;gap:12px;font-size:12px;color:var(--accent)}.turn-chip{font:10px var(--mono);color:var(--muted);border:1px solid var(--line);padding:5px 7px;white-space:nowrap}.transcript{max-height:390px;overflow:auto;min-height:218px;scrollbar-color:#526149 #161d16;scrollbar-width:thin}.empty-conversation{display:flex;flex-direction:column;justify-content:center;align-items:flex-start;min-height:218px;padding:28px 30px;background:linear-gradient(135deg,#1f281f,#171c17)}.empty-conversation .empty-symbol{font:24px var(--mono);color:#7f9a6c;margin-bottom:17px}.empty-conversation h3{font-size:18px;font-weight:500;margin-bottom:6px}.empty-conversation p{max-width:430px;font-size:13px;color:var(--muted)}.turn-entry{padding:18px 22px;border-bottom:1px solid #303a30}.turn-entry:last-child{border:0}.turn-heading{display:flex;align-items:center;flex-wrap:wrap;gap:8px;margin-bottom:7px;font-size:11px;color:var(--muted)}.turn-heading strong{font-size:12px;color:var(--text)}.turn-action{font:9px var(--mono);text-transform:uppercase;letter-spacing:.5px;border:1px solid var(--line);padding:2px 5px}.player-message{white-space:pre-wrap;overflow-wrap:anywhere;font-size:13px;color:#c5d3bd;border-left:2px solid #627653;padding-left:12px;margin-bottom:14px}.npc-message{white-space:pre-wrap;overflow-wrap:anywhere;font-size:15px;line-height:1.65}.outcome-badge{color:var(--accent);font:10px var(--mono);margin-top:10px}.pending-offer{border-top:1px solid #7d8660;background:#282d1f;padding:18px 22px}.pending-offer h3{color:var(--warm);font-size:16px}.pending-offer p{font-size:12px;margin:8px 0;color:#cbd0ba}.pending-terms{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:12px 0}.pending-terms>div{background:#1b2117;padding:10px;border:1px solid #51563a;overflow-wrap:anywhere}.pending-terms span{display:block;color:var(--muted);font-size:10px;text-transform:uppercase;letter-spacing:1px;margin-bottom:4px}.pending-terms strong{font-size:13px;font-weight:500}.pending-actions{display:flex;gap:8px;margin-top:13px}.mode-tabs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;padding:18px 19px 0}.mode-tabs button{text-align:left;padding:11px 13px;min-height:64px}.mode-tabs span{display:block;font-size:15px}.mode-tabs small{display:block;font-size:10px;font-weight:400;color:var(--muted);margin-top:3px}.mode-tabs button[aria-pressed=true] small{color:#b6caaa}.composer-fields{padding:19px}.composer-fields>section+section{margin-top:15px}.composer-fields label{font-size:12px}.input-row{display:flex;align-items:stretch;gap:8px}.input-row select{flex:1;min-width:0}.input-row button{white-space:nowrap;font-size:11px}.composer-fields .muted{margin-top:9px}.statement{border:1px solid var(--line);background:#131b13;padding:12px;margin-top:9px;font-size:13px;white-space:pre-wrap;overflow-wrap:anywhere}.statement:empty{display:none}.message-review{padding:17px 19px 18px;background:#141c14;border-top:1px solid var(--line)}.preview-heading{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px;margin-bottom:10px}.preview-heading .eyebrow{margin:0}.delivery-chip{font:10px var(--mono);color:var(--accent);padding:3px 7px;border:1px solid #4e6240;background:#26351e}#message-preview{font-size:14px;line-height:1.6;min-height:38px;white-space:pre-wrap;overflow-wrap:anywhere}.preview-invalid{color:var(--muted)}.send-line{display:flex;justify-content:space-between;align-items:center;gap:16px;margin-top:18px}.send-button{white-space:nowrap;min-height:42px}.send-button span{margin-left:16px}.send-line p{max-width:360px}.trade-columns{display:grid;grid-template-columns:1fr 1fr;gap:12px}.bundle{background:#151d15;border:1px solid var(--line);border-radius:4px;padding:13px;min-width:0}.bundle h3{margin-bottom:12px;color:var(--accent);font-size:14px}.bundle input{font:13px var(--mono)}.bundle-buttons{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}.bundle-buttons button{font-size:10px;padding:5px 8px;min-height:31px}.offer-rows{display:flex;flex-direction:column;gap:8px}.offer-row{border-top:1px solid var(--line);padding-top:10px;margin-top:10px}.offer-row .row-heading{display:flex;justify-content:space-between;align-items:center;font-size:10px;color:var(--muted);margin-bottom:4px}.offer-row .remove-row{background:none;border:0;color:var(--danger);padding:0 4px;min-height:24px;font-size:15px}.offer-row select{font-size:11px;padding:7px;min-height:35px}.offer-row .quantity-row{display:flex;align-items:center;justify-content:space-between;margin-top:6px;gap:8px}.offer-row .quantity-row label{font-size:11px;margin:0}.offer-row input{width:80px;min-height:30px;padding:4px 7px}.delivery-content{padding:16px 17px}.vibe-grid{margin:17px 0}.cue-group{margin-bottom:12px}.cue-label{font:10px var(--mono);color:var(--muted);margin-bottom:5px;display:flex;align-items:center;gap:7px}.cue-label strong{font-size:10px;background:#34442b;color:var(--accent);padding:1px 4px}.cue-buttons{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:5px}.vibe-button{padding:6px 3px;min-height:49px;font-size:10px;font-weight:500;min-width:0;letter-spacing:-.15px}.vibe-button .vibe-code{display:block;font:9px var(--mono);opacity:.65;margin-bottom:2px}.vibe-button[aria-pressed=true]{box-shadow:inset 0 -2px var(--accent)}.intensity-field{padding-top:15px;margin-top:17px;border-top:1px solid var(--line)}.intensity-options{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px}.intensity-options button{font-size:11px;padding:7px 3px;min-height:34px}.selected-vibe{background:#121a12;border-left:2px solid #839c6e;padding:11px 12px;margin:14px 0 9px}.selected-vibe strong{font-size:13px;display:block;color:var(--accent);margin-bottom:5px}.selected-vibe p{font-size:12px;color:#b9c7b2;line-height:1.5}.resource-content{padding:16px 19px}.balance{display:flex;justify-content:space-between;align-items:baseline;border-bottom:1px solid var(--line);padding-bottom:12px;margin-bottom:8px;font-size:12px}.balance strong{font:19px var(--mono);color:var(--accent)}.resource-line{display:flex;gap:12px;justify-content:space-between;padding:7px 0;font-size:12px}.resource-line strong{font:12px var(--mono)}.known-info{margin-top:14px;border-top:1px solid var(--line);padding-top:12px}.known-info summary{font-size:12px;cursor:pointer;color:var(--accent)}.known-fact{padding:10px 0;border-bottom:1px dashed var(--line)}.known-fact strong{font-size:12px}.known-fact p{font-size:12px;color:var(--muted);white-space:pre-wrap;overflow-wrap:anywhere;margin-top:3px}.inspector>summary{cursor:pointer;padding:13px 17px;font-size:12px;list-style-position:inside}.inspector>summary span{color:var(--muted);float:right;font-size:10px}#inspector-content{padding:0 17px 17px;font-size:12px;color:var(--muted)}.metric-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:12px 0}.metric-grid>div{padding:9px;background:#121912;text-align:center}.metric-grid strong{display:block;color:var(--text);font:18px var(--mono);margin-bottom:3px}.belief-row{border-top:1px solid var(--line);padding:8px 0}.belief-row strong{color:var(--warm);font:10px var(--mono)}footer{display:flex;justify-content:space-between;gap:16px;border-top:1px solid var(--line);color:#879480;font:10px var(--mono);padding:20px 0;margin-top:28px}dialog{color:var(--text);background:var(--panel);border:1px solid #647359;border-radius:7px;padding:0;max-width:calc(100vw - 30px);width:1040px;max-height:calc(100dvh - 50px);box-shadow:0 30px 120px #0009}dialog::backdrop{background:#050b05bb;backdrop-filter:blur(3px)}.dialog-heading{display:flex;justify-content:space-between;align-items:center;gap:18px;padding:20px 24px;border-bottom:1px solid var(--line)}.dialog-heading h2{font-size:24px}.dialog-heading .eyebrow{font-size:9px}.ledger-tabs{padding:12px 22px;display:flex;gap:7px;flex-wrap:wrap;background:#151c15;border-bottom:1px solid var(--line)}.ledger-tabs button{font-size:12px;padding:7px 13px;min-height:35px}.ledger-content{max-height:calc(100dvh - 310px);min-height:340px;overflow:auto;padding:24px;scrollbar-width:thin;scrollbar-color:#526149 #161d16}#ledger-error{margin:12px 22px 0}#ledger-error:not([hidden])+#ledger-form .ledger-content{max-height:calc(100dvh - 366px)}.dialog-footer{display:flex;justify-content:space-between;align-items:center;gap:20px;padding:16px 22px;border-top:1px solid var(--line);background:#151c15}.dialog-footer p{font-size:11px;color:var(--muted);max-width:450px}.dialog-footer>div{display:flex;gap:8px;flex-shrink:0}.ledger-layout{display:grid;grid-template-columns:235px minmax(0,1fr);gap:24px;align-items:start}.ledger-list{display:flex;flex-direction:column;gap:7px}.ledger-list>button{font-size:12px;text-align:left;overflow-wrap:anywhere}.ledger-list .add-entry{margin-top:6px;color:var(--accent);border-style:dashed}.ledger-editor{min-width:0}.ledger-editor h3{font-size:20px;margin-bottom:7px}.ledger-editor .intro{font-size:12px;color:var(--muted);margin-bottom:19px}.field{margin-bottom:17px}.field label{font-size:12px}.field-help{display:block;color:var(--muted);font-size:11px;margin-top:6px}.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:0 18px}.form-grid>.full{grid-column:1/-1}.check-field{display:flex;align-items:center;gap:9px;margin-bottom:13px}.check-field label{margin:0;font-size:12px}.ledger-editor hr,.world-editor hr{border:0;border-top:1px solid var(--line);margin:24px 0}.delete-entry{border-color:#725343;color:var(--danger);font-size:12px}.empty-ledger{padding:30px;border:1px dashed #506247;text-align:left;min-height:170px}.empty-ledger h3{font-size:18px;margin-bottom:8px}.empty-ledger p{font-size:13px;color:var(--muted);margin-bottom:18px}.world-editor{max-width:850px}.world-editor h3{margin:0 0 15px}.world-editor>.intro{font-size:12px;color:var(--muted);margin-bottom:22px}.id-label{font:10px var(--mono);color:#829478;display:block;margin-top:20px;overflow-wrap:anywhere}.response-table{width:100%;border-collapse:collapse;font-size:12px;margin-top:12px}.response-table th{text-align:left;font-size:10px;color:var(--muted);font-weight:500;text-transform:uppercase;letter-spacing:.4px;border-bottom:1px solid var(--line);padding:8px 9px}.response-table td{padding:7px 9px;border-bottom:1px solid #2c352c}.response-table input{width:90px;padding:6px;min-height:34px;font:12px var(--mono)}.response-table small{color:var(--muted);font:10px var(--mono);margin-right:8px}.help-dialog{width:720px}.help-content{padding:25px;max-height:calc(100dvh - 160px);overflow:auto}.help-content h3{margin-bottom:8px;margin-top:23px;color:var(--accent)}.help-content h3:first-child{margin-top:0}.help-content p{font-size:13px;color:#c3cfba}.help-content p:last-child{margin-top:24px;color:var(--muted)}
+@media(min-width:1500px){.app-shell{padding-top:35px}.workspace{grid-template-columns:minmax(0,1fr) 400px}.vibe-button{font-size:11px}}
+@media(max-width:1100px){.app-shell{padding:20px 20px 0}.workspace{grid-template-columns:minmax(0,1fr) 340px;gap:16px}.main-column,.side-column{gap:16px}.delivery-content{padding:14px 12px}.panel-heading{padding:17px}.reading{gap:7px}.vibe-button{font-size:9px}.trade-columns{grid-template-columns:1fr}.bundle-buttons{margin-top:8px}.onboarding{padding:20px}.ledger-layout{grid-template-columns:190px 1fr}}
+@media(max-width:820px){.workspace{display:flex;flex-direction:column;gap:16px}.main-column,.side-column{width:100%}.side-column{display:grid;grid-template-columns:1fr 1fr;align-items:start}.delivery-panel{grid-row:span 2}.inspector{grid-column:2}.vibe-button{font-size:10px}.onboarding{align-items:flex-start}.onboarding-actions{min-width:140px}.onboarding h2{font-size:21px}.trade-columns{grid-template-columns:1fr 1fr}.ledger-layout{grid-template-columns:170px minmax(0,1fr);gap:18px}.dialog-footer p{max-width:300px}.mode-tabs{padding-top:14px}.world-meta{max-width:38%}.world-meta #world-name{max-width:200px}}
+@media(max-width:570px){.app-shell{padding:18px 12px 0}.masthead{align-items:flex-start;padding-bottom:19px}.brand{gap:11px}.brand-mark{width:42px;height:46px;font-size:18px}h1{font-size:24px}.brand .eyebrow{font-size:8px;letter-spacing:.6px}.subtitle{font-size:10px}.world-meta{max-width:26%;font-size:10px}.world-meta #world-name{max-width:92px}.world-meta small{font-size:8px;line-height:1.6}.toolbar{gap:10px;margin-bottom:16px;padding:10px 0}.toolbar button{padding:8px 10px;font-size:11px}.toolbar>div{gap:6px}.toolbar kbd{display:none}.onboarding{padding:17px;flex-direction:column;gap:14px;margin-bottom:16px}.onboarding-actions{flex-direction:row;flex-wrap:wrap}.onboarding p:not(.eyebrow){font-size:12px}.panel-heading,.panel-heading.compact{padding:15px}.panel-heading h2{font-size:18px}.reading{flex-direction:column;align-items:flex-end;gap:5px}.transcript{max-height:330px}.turn-entry{padding:16px}.empty-conversation{padding:25px 20px;min-height:195px}.transcript{min-height:195px}.mode-tabs{gap:6px;padding:13px 13px 0}.mode-tabs button{padding:9px;min-height:61px}.mode-tabs small{font-size:9px}.composer-fields{padding:14px}.message-review{padding:15px}.send-line{gap:10px;align-items:flex-start}.send-button{padding:10px;font-size:12px}.send-button span{margin-left:8px}.send-line p{font-size:10px}.side-column{display:flex;flex-direction:column}.side-column>*{width:100%}.vibe-button{font-size:11px;min-height:47px}.delivery-content{padding:17px}.trade-columns{grid-template-columns:1fr}.pending-offer{padding:16px}.pending-terms{grid-template-columns:1fr;gap:8px}.pending-actions{flex-wrap:wrap}.panel{border-radius:4px}footer{font-size:8px;flex-direction:column;gap:6px;margin-top:20px;padding:17px 0}dialog{max-width:calc(100vw - 12px);max-height:calc(100dvh - 18px)}.dialog-heading{padding:15px}.dialog-heading h2{font-size:22px}.dialog-heading .eyebrow{font-size:8px;letter-spacing:.5px}.ledger-tabs{padding:10px 13px;gap:5px}.ledger-tabs button{font-size:10px;padding:7px 9px}.ledger-content{padding:15px;max-height:calc(100dvh - 295px);min-height:200px}.ledger-layout{display:flex;flex-direction:column;gap:18px}.ledger-list{width:100%;display:flex;flex-flow:row wrap;border-bottom:1px solid var(--line);padding-bottom:13px;max-height:140px;overflow:auto}.ledger-list>button{font-size:11px;max-width:100%;flex:0 1 auto}.ledger-list .add-entry{margin:0}.ledger-editor{width:100%}.form-grid{grid-template-columns:1fr}.dialog-footer{padding:12px 15px;align-items:flex-start;gap:10px;flex-direction:column}.dialog-footer p{max-width:none;font-size:10px}.dialog-footer>div{align-self:flex-end}.dialog-footer button{font-size:12px;padding:8px 12px}.response-table th,.response-table td{padding:6px 4px}.response-table input{width:70px}.help-content{padding:20px}.input-row button{padding:7px}.help-content{max-height:calc(100dvh - 100px)}}
+@media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<a class="skip-link" href="#composer">Skip to message composer</a>
+<div class="app-shell">
+<header class="masthead">
+  <div class="brand"><span class="brand-mark" aria-hidden="true">EC</span><div><p class="eyebrow">SETTING-INDEPENDENT · V0.1.0</p><h1>Encounter core</h1><p class="subtitle">Topics. Exchanges. Delivery.</p></div></div>
+  <div class="world-meta"><span class="status-dot" aria-hidden="true"></span><span id="world-name">Untitled world</span><small id="save-status">LOCAL · OFFLINE</small></div>
+</header>
+<nav class="toolbar" aria-label="World and session controls">
+  <div><button id="open-ledger" class="primary" type="button">World ledger <kbd>L</kbd></button><button id="export-world" type="button">Export world</button></div>
+  <div><button id="save-session" type="button">Save session</button><button id="open-file" type="button">Open file</button><button id="new-encounter" type="button">New encounter</button><button id="help-button" class="icon-button" aria-label="Help" type="button">?</button></div>
+</nav>
+<div id="notice" class="notice" role="status" aria-live="polite" hidden></div>
+<section id="onboarding" class="onboarding" aria-labelledby="start-title">
+  <div><p class="eyebrow">AN EMPTY WORLD, READY TO AUTHOR</p><h2 id="start-title">Start with your ledger.</h2><p>Add topics, goods, and information. Nothing here assumes a particular character, setting, or story.</p></div>
+  <div class="onboarding-actions"><button id="start-ledger" type="button">Add your first topic</button><button id="sample-data" class="quiet" type="button">Load neutral test data</button></div>
+</section>
+<main class="workspace">
+  <div class="main-column">
+    <section class="conversation panel" aria-labelledby="conversation-title">
+      <div class="panel-heading"><div><p class="eyebrow">CONVERSATION</p><h2 id="conversation-title">Counterparty</h2></div><div class="reading"><span id="posture">Listening</span><span class="turn-chip" id="turn-label">TURN 00</span></div></div>
+      <div id="transcript" class="transcript" role="log" aria-label="Conversation transcript" aria-live="polite"></div>
+      <div id="pending-offer" class="pending-offer" hidden></div>
+    </section>
+    <section id="composer" class="panel composer" aria-labelledby="composer-title" tabindex="-1">
+      <div class="panel-heading compact"><div><p class="eyebrow">01 / MESSAGE</p><h2 id="composer-title">What do you want to do?</h2></div></div>
+      <div class="mode-tabs" role="group" aria-label="Message type">
+        <button type="button" data-mode="ASK" aria-pressed="true"><span>Ask</span><small>Request information</small></button>
+        <button type="button" data-mode="TELL" aria-pressed="false"><span>Tell</span><small>Share information</small></button>
+        <button type="button" data-mode="TRADE" aria-pressed="false"><span>Trade</span><small>Build an exchange</small></button>
+      </div>
+      <div class="composer-fields">
+        <section id="topic-controls"><label for="topic-select">Topic</label><div class="input-row"><select id="topic-select"></select><button id="edit-topics" class="quiet" type="button" title="Edit topics in the world ledger">Edit topics</button></div><p id="topic-description" class="muted small"></p></section>
+        <section id="tell-controls" hidden><label for="tell-select">Information to share</label><select id="tell-select"></select><p id="tell-statement" class="statement"></p><p class="muted small">Telling discloses the statement. Hearing it does not make it verified.</p><button id="add-tell-info" class="text-button" type="button">Author information in the ledger</button></section>
+        <section id="trade-controls" hidden>
+          <div class="trade-columns">
+            <section class="bundle" aria-labelledby="give-heading"><h3 id="give-heading">You give</h3><label for="give-money" class="small">Money <span class="currency-name"></span></label><input id="give-money" type="text" inputmode="decimal" value="0.00" autocomplete="off"><div id="give-rows" class="offer-rows"></div><div class="bundle-buttons"><button type="button" data-add-row="give:goods">+ Goods</button><button type="button" data-add-row="give:information">+ Information</button></div></section>
+            <section class="bundle" aria-labelledby="receive-heading"><h3 id="receive-heading">You receive</h3><label for="receive-money" class="small">Money <span class="currency-name"></span></label><input id="receive-money" type="text" inputmode="decimal" value="0.00" autocomplete="off"><div id="receive-rows" class="offer-rows"></div><div class="bundle-buttons"><button type="button" data-add-row="receive:goods">+ Goods</button><button type="button" data-add-row="receive:information">+ Information</button></div></section>
+          </div><p class="muted small">Combine goods, money, and information. Nothing transfers until you confirm an approved offer or counteroffer.</p><button id="clear-trade" class="text-button" type="button">Clear offer</button>
+        </section>
+      </div>
+      <div class="message-review"><div class="preview-heading"><p class="eyebrow">03 / REVIEW & SEND</p><span id="preview-delivery" class="delivery-chip"></span></div><p id="message-preview"></p><div class="send-line"><p id="composer-hint" class="muted small"></p><button id="send-message" class="primary send-button" type="button">Send message <span aria-hidden="true">↗</span></button></div></div>
+    </section>
+  </div>
+  <aside class="side-column">
+    <section class="panel delivery-panel" aria-labelledby="delivery-title"><div class="panel-heading compact"><div><p class="eyebrow">02 / DELIVERY</p><h2 id="delivery-title">Set your BASED vibe.</h2></div></div><div class="delivery-content"><p class="muted small">The first cue leads. The second changes how it lands.</p><div id="vibe-grid" class="vibe-grid"></div><fieldset class="intensity-field"><legend>Intensity / expression</legend><div class="intensity-options" id="intensity-options"></div></fieldset><div id="selected-vibe" class="selected-vibe"></div><p class="muted micro">Delivery affects reception, not the facts or terms of your message.</p></div></section>
+    <section class="panel inventory-panel" aria-labelledby="inventory-title"><div class="panel-heading compact"><div><p class="eyebrow">CURRENT LEDGER</p><h2 id="inventory-title">Your resources</h2></div><button id="edit-resources" class="text-button" type="button">Edit</button></div><div id="resources" class="resource-content"></div></section>
+    <details class="panel inspector"><summary>Author inspector <span>NPC mechanics</span></summary><div id="inspector-content"></div></details>
+  </aside>
+</main>
+<footer><span>ENCOUNTER CORE · LOCAL AUTHORING BUILD</span><span>No account, server, or network required.</span></footer>
+</div>
+<input id="file-input" type="file" accept=".json,application/json" hidden>
+<dialog id="ledger-dialog" aria-labelledby="ledger-title">
+  <div class="dialog-heading"><div><p class="eyebrow">AUTHORING VIEW · INCLUDES HIDDEN INFORMATION</p><h2 id="ledger-title">World ledger</h2></div><button id="close-ledger" class="icon-button" type="button" aria-label="Close world ledger">×</button></div>
+  <nav class="ledger-tabs" aria-label="Ledger sections"><button type="button" data-ledger-tab="world">World</button><button type="button" data-ledger-tab="topics">Topics</button><button type="button" data-ledger-tab="goods">Goods</button><button type="button" data-ledger-tab="information">Information</button><button type="button" data-ledger-tab="profile">NPC response</button></nav>
+  <div id="ledger-error" class="notice error" role="alert" hidden></div>
+  <form id="ledger-form" novalidate><div id="ledger-content" class="ledger-content"></div></form>
+  <div class="dialog-footer"><p>Changes update this world, keep the transcript, and invalidate any pending offer.</p><div><button id="cancel-ledger" type="button">Cancel</button><button id="apply-ledger" class="primary" type="button">Apply changes</button></div></div>
+</dialog>
+<dialog id="help-dialog" class="help-dialog" aria-labelledby="help-title"><div class="dialog-heading"><h2 id="help-title">Using Encounter Core</h2><button id="close-help" class="icon-button" type="button" aria-label="Close help">×</button></div><div class="help-content"><h3>Author the world</h3><p>Open <strong>World ledger</strong> to add or remove topics, define goods and balances, and create information entries. Information belongs to a topic and records who currently knows it. The ledger is an authoring view, not the player's knowledge.</p><h3>Ask, tell, or exchange</h3><p><strong>Ask</strong> requests the counterparty's shareable information on a topic. <strong>Tell</strong> sends a statement the player knows. <strong>Trade</strong> combines goods, money, and information on either side. A submitted proposal does not transfer anything: review and confirm the exact offer.</p><h3>Choose a delivery</h3><p>The 20 ordered BASED vibes pair Belligerence, Aggression, Sociability, Empathy, and Deception. Subtle, Nuanced, and Overt change the signal's salience. The facts and trade terms remain fixed. In this build, Nuanced is the measured middle setting, not a separate blending editor.</p><h3>Keep knowledge separate from belief</h3><p>A spoken or traded statement reaches the listener as hearsay. It is not automatically verified. Optional question keys let incompatible claims produce disputed beliefs. The player has no simulated belief or personality matrix.</p><h3>Save your work</h3><p>Local autosave is attempted after every change. <strong>Save session</strong> exports the current world, transcript, NPC state, and pending offer. <strong>Export world</strong> exports only the current ledger. <strong>Open file</strong> accepts either. Browser storage can be unavailable or cleared, so keep exported backups.</p><h3>Start another encounter</h3><p><strong>New encounter</strong> resets the conversation and NPC reception while keeping current balances, inventories, and knowledge. It does not roll back completed trades. The optional neutral test data is separate from the empty starting world.</p><p class="muted small">Keyboard: L opens the ledger when not typing. Ctrl/⌘ + Enter sends a valid message. Escape closes dialogs.</p></div></dialog>
+<script>/* Setting-independent ordered BASED catalog. Names and fusion definitions retained. */
+(function(root, factory) {
+  if (typeof module === 'object' && module.exports) module.exports = factory();
+  else root.EncounterBased = factory();
+})(typeof globalThis !== 'undefined' ? globalThis : this, function() {
+'use strict';
+const BASED_CUES = Object.freeze([
+  { cueId: "B", name: "Belligerence", governingForce: "Oppositional force: threat, intimidation, escalation, antagonism, dominance." },
+  { cueId: "A", name: "Aggression", governingForce: "Advancing force: direct pursuit, forceful action, attack, decisive movement." },
+  { cueId: "S", name: "Sociability", governingForce: "Affiliative force: charm, rapport, influence, favors, networking." },
+  { cueId: "E", name: "Empathy", governingForce: "Perspective-modeling force: reading, calming, helping, emotional truth." },
+  { cueId: "D", name: "Deception", governingForce: "Interpretive control: lying, hiding intent, disguise, scam, misdirection." },
+]);
+
+const vibe = (vibeId, name, primary, secondary, fusionLogic) => ({ vibeId, name, primaryCue: primary, secondaryCue: secondary, fusionLogic });
+
+const BASED_VIBES = Object.freeze([
+  vibe("BA", "Reckless", "B", "A", "Opposition leads; forward force makes it rash, volatile, and ready to act."),
+  vibe("BS", "Instigating", "B", "S", "Opposition leads; social awareness turns it into bait, spectacle, or provocation."),
+  vibe("BE", "Condemning", "B", "E", "Opposition leads; emotional reading becomes judgment, guilt, or moral accusation."),
+  vibe("BD", "Extortive", "B", "D", "Opposition leads; concealed or ambiguous leverage controls the target."),
+  vibe("AB", "Menacing", "A", "B", "Forward movement leads; hostility makes the advance threatening."),
+  vibe("AS", "Commanding", "A", "S", "Forward movement leads; social fluency makes direction feel authoritative."),
+  vibe("AE", "Urgent", "A", "E", "Forward movement leads; recognized stakes make action immediate and emotionally legible."),
+  vibe("AD", "Hustled", "A", "D", "Forward movement leads; obscured terms and compressed time prevent scrutiny."),
+  vibe("SB", "Irreverent", "S", "B", "Rapport leads; antagonism appears as insolence, teasing, mockery, or social trespass."),
+  vibe("SA", "Charismatic", "S", "A", "Rapport leads; confidence and forward motion turn charm into momentum."),
+  vibe("SE", "Compassionate", "S", "E", "Rapport leads; emotional care makes the bond supportive and sincere."),
+  vibe("SD", "Coaxing", "S", "D", "Rapport leads; concealed intent gently steers the target."),
+  vibe("EB", "Steadfast", "E", "B", "Understanding leads; opposition makes the speaker emotionally aware but immovable."),
+  vibe("EA", "Boundaried", "E", "A", "Understanding leads; decisive force establishes a clear limit or next move."),
+  vibe("ES", "Communal", "E", "S", "Understanding leads; affiliation turns shared feeling into collective action."),
+  vibe("ED", "Deflecting", "E", "D", "Understanding leads; emotional recognition redirects attention or avoids the real issue."),
+  vibe("DB", "Bluffing", "D", "B", "Interpretive control leads; hostility is projected through uncertain or false threat."),
+  vibe("DA", "Predatory", "D", "A", "Interpretive control leads; concealed intent advances toward an exposed weakness."),
+  vibe("DS", "Insinuating", "D", "S", "Interpretation leads; implication travels through friendly or social framing."),
+  vibe("DE", "Feigning", "D", "E", "Interpretive control leads; simulated understanding or care conceals the real motive."),
+]);
+
+
+const DELIVERY_INTENSITIES = Object.freeze(["SUBTLE", "NUANCED", "OVERT"]);
+const INTENSITY = Object.freeze({
+  SUBTLE: {label: "Subtle", salience: 0.5, description: "Understated delivery; the selected vibe is less conspicuous."},
+  NUANCED: {label: "Nuanced", salience: 1, description: "Measured delivery; both parts of the ordered vibe remain legible."},
+  OVERT: {label: "Overt", salience: 1.5, description: "Emphasized delivery; the selected vibe is strongly apparent."}
+});
+function getVibe(id) { const found = BASED_VIBES.find(v => v.vibeId === id); if (!found) throw new Error("Choose a valid BASED vibe."); return found; }
+function validateDelivery(delivery) {
+  if (!delivery || typeof delivery !== "object") throw new Error("Choose a delivery.");
+  getVibe(delivery.vibeId);
+  if (!DELIVERY_INTENSITIES.includes(delivery.intensity)) throw new Error("Choose Subtle, Nuanced, or Overt.");
+  return true;
+}
+function describeDelivery(delivery) {
+  validateDelivery(delivery);
+  const vibe = getVibe(delivery.vibeId), intensity = INTENSITY[delivery.intensity];
+  return {label: `${vibe.name} · ${intensity.label}`, description: `${vibe.fusionLogic} ${intensity.description}`};
+}
+return Object.freeze({BASED_CUES, BASED_VIBES, DELIVERY_INTENSITIES, INTENSITY, getVibe, validateDelivery, describeDelivery});
+});
+
+
+/* Rank-based belief revision, separated from possession and world truth.
+ * Equal-ranked incompatible claims remain disputed; hearing is not verification.
+ */
+(function(root, factory) {
+  if (typeof module === 'object' && module.exports) module.exports = factory();
+  else root.EncounterBeliefs = factory();
+})(typeof globalThis !== 'undefined' ? globalThis : this, function() {
+'use strict';
+const unique = values => [...new Set(values)];
+const assertionsConflict = (a, b) => a.question === b.question && a.value !== b.value;
+const equivalent = (a, b) => a.question === b.question && !assertionsConflict(a.proposition, b.proposition);
+function reviseQuestion(candidates, question) {
+  const own = candidates.filter(candidate => candidate.question === question);
+  if (!own.length) return null;
+  const sequence = candidates.filter(candidate => candidate.question === question || candidate.proposition && own.some(other => other.proposition && assertionsConflict(candidate.proposition, other.proposition)));
+  let accepted = [], competing = [], rank = -1, challenged = false, supportedBy = [];
+  for (const candidate of sequence) {
+    supportedBy = unique([...supportedBy, ...candidate.supportedBy]);
+    const repeat = accepted.find(other => equivalent(other, candidate));
+    if (repeat && candidate.rank <= rank) continue; // R2
+    if (candidate.rank > rank) { accepted = [candidate]; competing = []; rank = candidate.rank; challenged = false; } // R1/R3
+    else if (candidate.rank === rank) { // R4
+      if (!repeat) accepted.push(candidate);
+      competing = competing.filter(other => !equivalent(other, candidate));
+      challenged = competing.length > 0;
+    } else { // R5
+      challenged = true;
+      if (!competing.some(other => equivalent(other, candidate))) competing.push(candidate);
+    }
+  }
+  const disputed = accepted.length > 1, winner = accepted[0];
+  const defeated = !accepted.some(candidate => candidate.question === question);
+  return { winner, belief: { question, stance: defeated ? "DISBELIEVED" : disputed ? "DISPUTED" : "BELIEVED", heldClaim: defeated || disputed ? null : winner.claimId, competing: (disputed ? [...accepted, ...competing] : competing).map(candidate => candidate.claimId), challenged, resolution: own[0].resolution, rank, supportedBy } };
+}
+
+
+const EVIDENCE_RANKS = Object.freeze({HEARSAY:1, SUPPORTED:2, OBSERVED:4});
+function projectBeliefs(world) {
+  const candidates = world.information.filter(f => f.npcKnown).map(f => ({
+    claimId:f.id, question:f.questionKey || f.id, resolution:"EXACT",
+    proposition:{question:f.questionKey || f.id, value:f.claimValue || f.statement},
+    rank:EVIDENCE_RANKS[f.npcEvidence], supportedBy:[f.id]
+  }));
+  return unique(candidates.map(c => c.question)).map(q => reviseQuestion(candidates,q).belief);
+}
+return Object.freeze({reviseQuestion, projectBeliefs, EVIDENCE_RANKS});
+});
+
+
+/* Pure, setting-independent encounter engine. No network or browser dependency. */
+(function(root, factory) {
+  if (typeof module === 'object' && module.exports) module.exports = factory(require('./based.js'), require('./beliefs.js'));
+  else root.EncounterCore = factory(root.EncounterBased, root.EncounterBeliefs);
+})(typeof globalThis !== 'undefined' ? globalThis : this, function(Based, Beliefs) {
+'use strict';
+const WORLD_VERSION = 'encounter-world@1';
+const SESSION_VERSION = 'encounter-session@1';
+const MAX_MONEY = 1000000000, MAX_QUANTITY = 1000000, MAX_TURNS = 1000;
+const clone = value => JSON.parse(JSON.stringify(value));
+const clamp = (value, min, max) => Math.max(min, Math.min(max, value));
+const record = value => value !== null && typeof value === 'object' && !Array.isArray(value);
+function check(condition, message) { if (!condition) throw new Error(message); }
+function text(value, label, max = 300) { check(typeof value === 'string' && value.trim().length > 0 && value.length <= max, `${label} must contain 1–${max} characters.`); }
+function optionalText(value, label, max = 4000) { check(typeof value === 'string' && value.length <= max, `${label} must be text, at most ${max} characters.`); }
+function integer(value, label, max = MAX_MONEY) { check(Number.isSafeInteger(value) && value >= 0 && value <= max, `${label} must be a whole number between 0 and ${max}.`); }
+function number(value, label, min, max) { check(typeof value === 'number' && Number.isFinite(value) && value >= min && value <= max, `${label} must be between ${min} and ${max}.`); }
+function array(value, label, max) { check(Array.isArray(value) && value.length <= max, `${label} must be a list of at most ${max} entries.`); }
+function fields(value, required, optional = []) {
+  check(record(value), 'Expected an object.');
+  check(required.every(key => Object.hasOwn(value, key)), 'A required field is missing.');
+  check(Object.keys(value).every(key => [...required, ...optional].includes(key)), 'An unrecognized field was found.');
+}
+function safeId(value) { check(typeof value === 'string' && /^[a-zA-Z][a-zA-Z0-9_-]{0,79}$/.test(value) && !Object.hasOwn(Object.prototype, value), 'IDs must start with a letter and use letters, numbers, underscores, or hyphens.'); }
+function parseMoney(input) {
+  const value = String(input).trim();
+  check(/^\d+(\.\d{1,2})?$/.test(value), 'Use a nonnegative amount with at most two decimal places.');
+  const [whole, fraction = ''] = value.split('.');
+  const minor = Number(whole) * 100 + Number(fraction.padEnd(2, '0'));
+  integer(minor, 'Money'); return minor;
+}
+function moneyInput(minor) { integer(minor, 'Money'); return (minor / 100).toFixed(2); }
+function moneyLabel(world, minor) { return `${(minor / 100).toLocaleString('en-US', {minimumFractionDigits: 2, maximumFractionDigits: 2})} ${world.currency}`; }
+function defaultProfile() {
+  // Illustrative whole-vibe responses, not universal personality rules or cue mixtures.
+  const pairs = {BA:[-5,7],BS:[-3,5],BE:[-2,4],BD:[-5,6],AB:[-3,5],AS:[1,2],AE:[2,1],AD:[-2,3],SB:[0,1],SA:[3,-1],SE:[4,-2],SD:[1,0],EB:[1,1],EA:[2,-1],ES:[3,-2],ED:[-1,1],DB:[-4,5],DA:[-4,4],DS:[-1,2],DE:[-2,1]};
+  return {patience:40, walkAwayTension:90, minimumTrustToShare:15, margin:1, flexibility:0.15, buyMultiplier:1, sellMultiplier:1,
+    reactions:Object.fromEntries(Based.BASED_VIBES.map(v => [v.vibeId, {trust:pairs[v.vibeId][0], tension:pairs[v.vibeId][1]}]))};
+}
+function blankWorld() {
+  return {version:WORLD_VERSION, name:'Untitled world', currency:'coins',
+    actors:{player:{name:'Player',money:0},npc:{name:'Counterparty',money:0}},
+    topics:[], goods:[], information:[], npcProfile:defaultProfile()};
+}
+function sampleWorld() {
+  const world = blankWorld(); world.name = 'Mechanics test';
+  world.actors.player.money = 10000; world.actors.npc.money = 10000;
+  world.topics = [{id:'sample_topic', label:'Sample topic', description:'A placeholder topic for testing Ask, Tell, and information exchange.'}];
+  world.goods = [{id:'sample_item',label:'Sample item',unit:'units',value:1000,playerQty:2,npcQty:5}];
+  world.information = [
+    {id:'sample_answer',topicId:'sample_topic',label:'Sample answer',statement:'This is a sample answer attached to the sample topic.',value:0,playerKnown:false,npcKnown:true,npcEvidence:'OBSERVED',sharing:'OPEN',questionKey:'',claimValue:''},
+    {id:'player_information',topicId:'sample_topic',label:'Player information',statement:'This is a sample piece of information available to the player.',value:1000,playerKnown:true,npcKnown:false,npcEvidence:'HEARSAY',sharing:'TRADE',questionKey:'',claimValue:''},
+    {id:'exchange_information',topicId:'sample_topic',label:'Exchange information',statement:'This sample information is disclosed only after the exchange is confirmed.',value:1500,playerKnown:false,npcKnown:true,npcEvidence:'SUPPORTED',sharing:'TRADE',questionKey:'',claimValue:''}
+  ]; return world;
+}
+function validateWorld(world) {
+  fields(world, ['version','name','currency','actors','topics','goods','information','npcProfile']);
+  check(world.version === WORLD_VERSION, 'This is not a supported world-ledger file.');
+  text(world.name, 'World name', 120); text(world.currency, 'Currency name', 30);
+  fields(world.actors, ['player','npc']);
+  for (const role of ['player','npc']) { fields(world.actors[role], ['name','money']); text(world.actors[role].name, 'Participant name', 100); integer(world.actors[role].money, 'Balance'); }
+  array(world.topics,'Topics',200); array(world.goods,'Goods',200); array(world.information,'Information',500);
+  const ids = new Set();
+  function identity(id) { safeId(id); check(!ids.has(id), 'Every ledger ID must be unique.'); ids.add(id); }
+  for (const topic of world.topics) { fields(topic,['id','label','description']); identity(topic.id); text(topic.label,'Topic label',120); optionalText(topic.description,'Topic description'); }
+  for (const good of world.goods) { fields(good,['id','label','unit','value','playerQty','npcQty']); identity(good.id); text(good.label,'Good label',120); text(good.unit,'Unit label',40); integer(good.value,'Unit value',100000000); integer(good.playerQty,'Player quantity',MAX_QUANTITY); integer(good.npcQty,'Counterparty quantity',MAX_QUANTITY); }
+  for (const info of world.information) {
+    fields(info,['id','topicId','label','statement','value','playerKnown','npcKnown','npcEvidence','sharing','questionKey','claimValue']);
+    identity(info.id); check(world.topics.some(t => t.id === info.topicId), 'Every information entry must belong to an existing topic.');
+    text(info.label,'Information label',120); text(info.statement,'Statement',4000); integer(info.value,'Information value',100000000);
+    check(typeof info.playerKnown === 'boolean' && typeof info.npcKnown === 'boolean','Knowledge flags must be true or false.');
+    check(Object.hasOwn(Beliefs.EVIDENCE_RANKS, info.npcEvidence),'Unknown evidence level.');
+    check(['OPEN','TRADE','PRIVATE'].includes(info.sharing),'Unknown information-sharing rule.');
+    optionalText(info.questionKey,'Question key',120); optionalText(info.claimValue,'Claim value',1000);
+  }
+  const p = world.npcProfile;
+  fields(p,['patience','walkAwayTension','minimumTrustToShare','margin','flexibility','buyMultiplier','sellMultiplier','reactions']);
+  integer(p.patience,'Patience',1000); check(p.patience >= 1,'Patience must be at least 1.');
+  number(p.walkAwayTension,'Walk-away tension',1,100); number(p.minimumTrustToShare,'Sharing trust threshold',0,100);
+  number(p.margin,'Trade ratio',0.25,3); number(p.flexibility,'Trade flexibility',0,0.5);
+  number(p.buyMultiplier,'Buying multiplier',0.01,10); number(p.sellMultiplier,'Selling multiplier',0.01,10);
+  fields(p.reactions, Based.BASED_VIBES.map(v => v.vibeId));
+  for (const value of Object.values(p.reactions)) { fields(value,['trust','tension']); number(value.trust,'Trust response',-20,20); number(value.tension,'Tension response',-20,20); }
+  return true;
+}
+function createSession(world = blankWorld()) {
+  validateWorld(world);
+  return {version:SESSION_VERSION, world:clone(world), revision:0, turn:0, closed:false,
+    status:{trust:50,tension:0,patience:world.npcProfile.patience}, history:[], events:[], pending:null};
+}
+const normalizeText = value => value.trim().replace(/\s+/g,' ').toLowerCase();
+function infoKey(info) { return JSON.stringify([normalizeText(info.questionKey || info.topicId), normalizeText(info.claimValue || info.statement)]); }
+function knows(world, role, info) { return world.information.some(f => f[`${role}Known`] && (f.id === info.id || infoKey(f) === infoKey(info))); }
+function publicInformation(world, giver, receiver) { return world.information.filter(f => f[`${giver}Known`] && !knows(world,receiver,f) && (giver !== 'npc' || f.sharing !== 'PRIVATE')); }
+function emptyTerms() { return {give:{money:0,goods:[],information:[]},receive:{money:0,goods:[],information:[]}}; }
+function normalizeTerms(world, raw) {
+  fields(raw,['give','receive']); const normalized = emptyTerms(); const allGoods = new Set(), allInfo = new Set(), contentKeys = new Set();
+  for (const [side, giver, receiver] of [['give','player','npc'],['receive','npc','player']]) {
+    const input = raw[side], output = normalized[side]; fields(input,['money','goods','information']);
+    integer(input.money,'Offer money'); output.money = input.money;
+    check(input.money <= world.actors[giver].money, `${world.actors[giver].name} does not have that much money.`);
+    array(input.goods,'Offered goods',200); array(input.information,'Offered information',500);
+    for (const item of input.goods) {
+      fields(item,['id','quantity']); integer(item.quantity,'Offer quantity',MAX_QUANTITY); check(item.quantity > 0,'Offer quantities must be at least 1.');
+      const good = world.goods.find(g => g.id === item.id); check(Boolean(good),'An offered good is no longer in the ledger.');
+      check(!allGoods.has(item.id),'Use each good on only one offer line and one side.'); allGoods.add(item.id);
+      check(item.quantity <= good[`${giver}Qty`], `${world.actors[giver].name} does not have enough ${good.label}.`);
+      check(good[`${receiver}Qty`] + item.quantity <= MAX_QUANTITY,'The receiving inventory would exceed its limit.');
+      output.goods.push({id:item.id,quantity:item.quantity});
+    }
+    for (const id of input.information) {
+      const info = world.information.find(f => f.id === id); check(Boolean(info),'An offered information entry is no longer in the ledger.');
+      check(!allInfo.has(id) && !contentKeys.has(infoKey(info)), 'The same information cannot be offered twice.'); allInfo.add(id); contentKeys.add(infoKey(info));
+      check(info[`${giver}Known`], `${world.actors[giver].name} does not know that information.`);
+      check(!knows(world,receiver,info), `${world.actors[receiver].name} already knows that information. It has no new exchange value.`);
+      check(giver !== 'npc' || info.sharing !== 'PRIVATE', 'That information is not available for exchange.');
+      output.information.push(id);
+    }
+    output.goods.sort((a,b) => a.id.localeCompare(b.id)); output.information.sort();
+  }
+  check(!(normalized.give.money > 0 && normalized.receive.money > 0), 'Put the net money amount on one side of the offer, not both.');
+  check(['give','receive'].some(side => normalized[side].money > 0 || normalized[side].goods.length || normalized[side].information.length), 'Add goods, money, or information to the offer.');
+  for (const role of ['player','npc']) { const delta = normalized.receive.money - normalized.give.money; integer(world.actors[role].money + (role === 'player' ? delta : -delta), 'Resulting balance'); }
+  return normalized;
+}
+function bundleValue(world, bundle, incoming) {
+  const multiplier = incoming ? world.npcProfile.buyMultiplier : world.npcProfile.sellMultiplier;
+  return Math.round(bundle.money + bundle.goods.reduce((total,item) => total + world.goods.find(g => g.id === item.id).value * item.quantity * multiplier,0)
+    + bundle.information.reduce((total,id) => total + world.information.find(f => f.id === id).value,0));
+}
+function summarizeBundle(world, bundle) {
+  const pieces = [];
+  if (bundle.money) pieces.push(moneyLabel(world,bundle.money));
+  for (const row of bundle.goods) { const good = world.goods.find(g => g.id === row.id); pieces.push(`${row.quantity} × ${good.label}`); }
+  for (const id of bundle.information) pieces.push(`information: ${world.information.find(f => f.id === id).label}`);
+  return pieces.length ? pieces.join('; ') : 'nothing';
+}
+function summarizeTerms(world, terms) { return {give:summarizeBundle(world,terms.give), receive:summarizeBundle(world,terms.receive)}; }
+function validateIntent(state, raw) {
+  fields(raw,['action','delivery'],['topicId','informationId','terms','expectedRevision']);
+  check(['ASK','TELL','TRADE'].includes(raw.action), 'Choose Ask, Tell, or Trade.');
+  Based.validateDelivery(raw.delivery);
+  if (raw.expectedRevision !== undefined) check(raw.expectedRevision === state.revision,'This draft is stale. Review the current ledger and submit again.');
+  const intent = {action:raw.action, delivery:{vibeId:raw.delivery.vibeId,intensity:raw.delivery.intensity}};
+  if (raw.action === 'ASK' || raw.action === 'TELL') {
+    const topic = state.world.topics.find(t => t.id === raw.topicId); check(Boolean(topic),'Choose a topic from the world ledger.'); intent.topicId = topic.id;
+    if (raw.action === 'TELL') {
+      const info = state.world.information.find(f => f.id === raw.informationId && f.topicId === topic.id);
+      check(Boolean(info),'Choose information belonging to this topic.'); check(info.playerKnown,'The player does not know that information.'); intent.informationId = info.id;
+    }
+  } else intent.terms = normalizeTerms(state.world,raw.terms);
+  return intent;
+}
+function playerLine(world,intent) {
+  if (intent.action === 'ASK') return `What can you tell me about ${world.topics.find(t => t.id === intent.topicId).label}?`;
+  if (intent.action === 'TELL') return stateInfo(world,intent.informationId).statement;
+  const terms = summarizeTerms(world,intent.terms); return `I offer ${terms.give}. In return, I ask for ${terms.receive}.`;
+}
+function stateInfo(world,id) { const info = world.information.find(f => f.id === id); check(Boolean(info),'Information entry not found.'); return info; }
+function fingerprint(world,intent) {
+  return intent.action === 'ASK' ? `ASK:${intent.topicId}` : intent.action === 'TELL' ? `TELL:${infoKey(stateInfo(world,intent.informationId))}` : `TRADE:${JSON.stringify(intent.terms)}`;
+}
+function progress(state,intent) {
+  const key = fingerprint(state.world,intent), repeats = state.history.filter(h => h.fingerprint === key).length;
+  let meaningful = repeats === 0;
+  if (intent.action === 'TELL') meaningful = !knows(state.world,'npc',stateInfo(state.world,intent.informationId));
+  if (intent.action === 'TRADE') {
+    const offered = bundleValue(state.world,intent.terms.give,true), requested = bundleValue(state.world,intent.terms.receive,false), advantage = offered - requested;
+    const previous = state.history.filter(h => h.action === 'TRADE').map(h => h.economicAdvantage);
+    meaningful = repeats === 0 && (!previous.length || advantage > Math.max(...previous));
+  }
+  return {key,repeats,meaningful};
+}
+function deliveryEffect(state,intent,step) {
+  const response = state.world.npcProfile.reactions[intent.delivery.vibeId], salience = Based.INTENSITY[intent.delivery.intensity].salience;
+  let trust = Math.round(response.trust * salience), tension = Math.round(response.tension * salience);
+  if (!step.meaningful) { trust = Math.min(0,trust); tension = Math.max(0,tension); }
+  tension += Math.min(step.repeats * 2,6);
+  return {trust,tension,patience:-1-Math.min(step.repeats,2),salience,meaningful:step.meaningful,repeats:step.repeats};
+}
+function preview(state,raw) {
+  const intent = validateIntent(state,raw);
+  return {text:playerLine(state.world,intent),delivery:Based.describeDelivery(intent.delivery),intent};
+}
+function commitKnowledge(world, id, recipient) {
+  const info = stateInfo(world,id), novel = !knows(world,recipient,info), exactPreviouslyKnown = info[`${recipient}Known`];
+  info[`${recipient}Known`] = true;
+  if (recipient === 'npc' && !exactPreviouslyKnown) info.npcEvidence = 'HEARSAY';
+  return novel;
+}
+function appendHistory(next,entry) {
+  next.history.push(entry);
+  next.events.push({sequence:next.events.length+1,revision:next.revision,turn:next.turn,type:entry.action,outcome:entry.outcome,disclosedInformation:clone(entry.revealed || []),transfers:clone(entry.transfers || null)});
+}
+function send(state, raw) {
+  check(state.events.length < 10000,'Export this session and start a new encounter before continuing.');
+  check(!state.closed,'This encounter has ended. Start a new encounter to continue.');
+  check(state.turn < MAX_TURNS,'Export this session and start a new encounter before continuing.');
+  const intent = validateIntent(state,raw), step = progress(state,intent), effect = deliveryEffect(state,intent,step);
+  const next = clone(state); next.turn += 1; next.revision += 1; next.pending = null;
+  next.status = {trust:clamp(state.status.trust+effect.trust,0,100),tension:clamp(state.status.tension+effect.tension,0,100),patience:Math.max(0,state.status.patience+effect.patience)};
+  const entry = {turn:next.turn,action:intent.action,intent,delivery:Based.describeDelivery(intent.delivery).label,playerName:state.world.actors.player.name,npcName:state.world.actors.npc.name,
+    playerText:playerLine(state.world,intent),npcText:'',outcome:'',fingerprint:step.key,effect,revealed:[],economicAdvantage:null};
+  // Saying a fact discloses it even when the listener chooses to end the encounter.
+  let newTell = false;
+  if (intent.action === 'TELL') {
+    newTell = commitKnowledge(next.world,intent.informationId,'npc');
+    entry.revealed.push({id:intent.informationId,to:'npc',label:stateInfo(next.world,intent.informationId).label,statement:stateInfo(next.world,intent.informationId).statement});
+  }
+  if (next.status.tension >= next.world.npcProfile.walkAwayTension || next.status.patience <= 0) {
+    next.closed = true; entry.outcome = 'ENDED'; entry.npcText = 'I am ending this conversation.';
+  } else if (intent.action === 'ASK') {
+    const facts = next.world.information.filter(f => f.topicId === intent.topicId && f.npcKnown);
+    const shareable = facts.filter(f => f.sharing === 'OPEN');
+    if (next.status.trust < next.world.npcProfile.minimumTrustToShare) { entry.outcome = 'DECLINED'; entry.npcText = 'I am not willing to discuss that with you right now.'; }
+    else if (shareable.length) {
+      entry.outcome = 'ANSWERED'; entry.npcText = shareable.map(f => f.statement).join('\n\n');
+      for (const info of shareable) { commitKnowledge(next.world,info.id,'player'); entry.revealed.push({id:info.id,to:'player',label:info.label,statement:info.statement}); }
+    } else if (facts.some(f => f.sharing === 'TRADE')) { entry.outcome = 'EXCHANGE_ONLY'; entry.npcText = 'I have information on that topic, but I will only share it as part of an exchange.'; }
+    else if (facts.length) { entry.outcome = 'PRIVATE'; entry.npcText = 'I am not sharing information on that topic.'; }
+    else { entry.outcome = 'UNKNOWN'; entry.npcText = 'I do not have information to give you on that topic.'; }
+  } else if (intent.action === 'TELL') {
+    const info = stateInfo(next.world,intent.informationId), belief = Beliefs.projectBeliefs(next.world).find(b => b.question === (info.questionKey || info.id));
+    if (!newTell) { entry.outcome = 'ALREADY_KNOWN'; entry.npcText = 'You are repeating information I already have.'; }
+    else if (belief?.stance === 'DISPUTED' || belief?.stance === 'DISBELIEVED' || belief?.heldClaim !== info.id && belief?.challenged) {
+      entry.outcome = 'CONFLICTING_CLAIM'; entry.npcText = 'That conflicts with information I already have. I am not treating it as settled.';
+    } else { entry.outcome = 'HEARD'; entry.npcText = 'I have heard what you said. That does not establish that it is true.'; }
+  } else {
+    const terms = intent.terms, offered = bundleValue(next.world,terms.give,true), requested = bundleValue(next.world,terms.receive,false);
+    entry.economicAdvantage = offered-requested;
+    const p = next.world.npcProfile, ratio = Math.max(0.05,p.margin + clamp((next.status.tension - (next.status.trust-50))*0.002,-p.flexibility,p.flexibility));
+    const shortfall = Math.max(0,Math.ceil(requested*ratio)-offered);
+    let proposal = terms, kind = 'APPROVED';
+    if (shortfall > 0) {
+      proposal = clone(terms); kind = 'COUNTER';
+      // Solve the ratio using noncash values; NPC payouts sit on the cost side.
+      // Subtracting a raw shortfall from a payout would be wrong when ratio !== 1.
+      const incomingNoncash = offered - terms.give.money;
+      const outgoingNoncash = requested - terms.receive.money;
+      const noncashDeficit = outgoingNoncash * ratio - incomingNoncash;
+      proposal.give.money = noncashDeficit > 0 ? Math.ceil(noncashDeficit) : 0;
+      proposal.receive.money = noncashDeficit > 0 ? 0 : Math.min(terms.receive.money, Math.max(0,Math.floor(-noncashDeficit / ratio)));
+      try { proposal = normalizeTerms(next.world,proposal); }
+      catch { proposal = null; }
+      if (proposal && bundleValue(next.world,proposal.give,true)+0.001 < bundleValue(next.world,proposal.receive,false)*ratio) proposal = null;
+    }
+    if (proposal) {
+      next.pending = {id:`offer_${next.revision}`,revision:next.revision,kind,terms:clone(proposal),summary:summarizeTerms(next.world,proposal),delivery:clone(intent.delivery)};
+      entry.outcome = kind;
+      entry.npcText = kind === 'APPROVED' ? 'Those terms are acceptable. Confirm the exchange to complete it.' : 'I propose different money terms. Review the counteroffer before confirming.';
+      entry.offer = clone(next.pending);
+    } else { entry.outcome = 'REJECTED'; entry.npcText = 'I cannot accept those terms, and I cannot make a workable money counteroffer from the available balances.'; }
+  }
+  appendHistory(next,entry); return next;
+}
+function acceptOffer(state, offerId, expectedRevision) {
+  check(state.events.length < 10000,'Export this session and start a new encounter before continuing.');
+  check(!state.closed,'This encounter has ended.'); check(state.pending && state.pending.id === offerId,'That offer is no longer available.');
+  check(expectedRevision === state.revision && state.pending.revision === state.revision,'The offer is stale. Send a new proposal.');
+  check(state.turn < MAX_TURNS,'Start a new encounter before continuing.');
+  const terms = normalizeTerms(state.world,state.pending.terms), next = clone(state), summary = summarizeTerms(state.world,terms);
+  const transfers = {money:[],goods:[],information:[]};
+  for (const [side,from,to] of [['give','player','npc'],['receive','npc','player']]) {
+    const bundle = terms[side];
+    next.world.actors[from].money -= bundle.money; next.world.actors[to].money += bundle.money;
+    if (bundle.money) transfers.money.push({from,to,amount:bundle.money});
+    for (const item of bundle.goods) { const good = next.world.goods.find(g => g.id === item.id); good[`${from}Qty`] -= item.quantity; good[`${to}Qty`] += item.quantity; transfers.goods.push({id:good.id,label:good.label,from,to,quantity:item.quantity}); }
+    for (const id of bundle.information) { const info = stateInfo(next.world,id); commitKnowledge(next.world,id,to); transfers.information.push({id,label:info.label,statement:info.statement,from,to}); }
+  }
+  validateWorld(next.world); next.revision += 1; next.turn += 1; next.pending = null;
+  const received = transfers.information.filter(t => t.to === 'player');
+  const entry = {turn:next.turn,action:'CONFIRM',intent:null,delivery:'Exact terms confirmed; no new delivery roll',playerName:state.world.actors.player.name,npcName:state.world.actors.npc.name,
+    playerText:`Confirmed: I give ${summary.give}; I receive ${summary.receive}.`,npcText:'The exchange is complete.'+(received.length ? '\n\n'+received.map(i => `${i.label}: ${i.statement}`).join('\n\n') : ''),
+    outcome:'COMPLETED',fingerprint:null,effect:null,revealed:transfers.information.map(t => ({id:t.id,to:t.to,label:t.label,statement:t.statement})),economicAdvantage:null,transfers,receipt:summary};
+  appendHistory(next,entry); return next;
+}
+function cancelOffer(state) {
+  check(state.events.length < 10000,'Export this session and start a new encounter before continuing.');
+  check(Boolean(state.pending),'There is no pending offer.'); const next = clone(state); next.pending = null; next.revision += 1;
+  next.events.push({sequence:next.events.length+1,revision:next.revision,turn:next.turn,type:'OFFER_CANCELLED'}); return next;
+}
+function applyWorld(state, world, expectedRevision = state.revision) {
+  check(state.events.length < 10000,'Export this session and start a new encounter before continuing.');
+  check(expectedRevision === state.revision,'The ledger changed while it was being edited. Reopen it and apply your changes again.');
+  validateWorld(world); const next = clone(state); next.world = clone(world); next.pending = null; next.revision += 1;
+  next.status.patience = Math.min(next.status.patience,world.npcProfile.patience);
+  next.events.push({sequence:next.events.length+1,revision:next.revision,turn:next.turn,type:'LEDGER_EDIT',counts:{topics:world.topics.length,goods:world.goods.length,information:world.information.length}}); return next;
+}
+function validateSession(state) {
+  fields(state,['version','world','revision','turn','closed','status','history','events','pending']);
+  check(state.version === SESSION_VERSION,'This is not a supported encounter-session file.'); validateWorld(state.world);
+  integer(state.revision,'Revision',1000000); integer(state.turn,'Turn',MAX_TURNS); check(typeof state.closed === 'boolean','Invalid encounter status.');
+  fields(state.status,['trust','tension','patience']); number(state.status.trust,'Trust',0,100); number(state.status.tension,'Tension',0,100); integer(state.status.patience,'Patience',1000);
+  array(state.history,'History',MAX_TURNS); array(state.events,'Event log',10000);
+  check(state.history.length === state.turn,'History length does not match the turn counter.');
+  for (const [index,h] of state.history.entries()) {
+    check(record(h) && h.turn === index+1 && ['ASK','TELL','TRADE','CONFIRM'].includes(h.action),'Invalid history record.');
+    for (const key of ['playerText','npcText','delivery','outcome','playerName','npcName']) optionalText(h[key],`History ${key}`,2000000);
+    check(h.fingerprint === null || typeof h.fingerprint === 'string','Invalid history fingerprint.');
+    check(h.economicAdvantage === null || Number.isSafeInteger(h.economicAdvantage),'Invalid history valuation.');
+    if (h.receipt) { fields(h.receipt,['give','receive']); optionalText(h.receipt.give,'Receipt',100000); optionalText(h.receipt.receive,'Receipt',100000); }
+    array(h.revealed,'Disclosures',500);
+    for (const fact of h.revealed) { check(record(fact) && ['player','npc'].includes(fact.to),'Invalid disclosure.'); text(fact.label,'Disclosure label',120); text(fact.statement,'Disclosure statement',4000); }
+  }
+  for (const [index,event] of state.events.entries()) check(record(event) && event.sequence === index+1 && Number.isSafeInteger(event.revision) && event.revision <= state.revision && typeof event.type === 'string','Invalid event-log record.');
+  if (state.pending !== null) {
+    fields(state.pending,['id','revision','kind','terms','summary','delivery']);
+    check(!state.closed && state.pending.id === `offer_${state.revision}` && state.pending.revision === state.revision && ['APPROVED','COUNTER'].includes(state.pending.kind),'Invalid pending offer.');
+    const terms = normalizeTerms(state.world,state.pending.terms); Based.validateDelivery(state.pending.delivery);
+    check(JSON.stringify(summarizeTerms(state.world,terms)) === JSON.stringify(state.pending.summary),'Pending-offer summary does not match its terms.');
+  }
+  return true;
+}
+function publicView(state) {
+  const world = state.world;
+  return {worldName:world.name,playerName:world.actors.player.name,npcName:world.actors.npc.name,turn:state.turn,closed:state.closed,
+    playerMoney:world.actors.player.money,topics:clone(world.topics),goods:clone(world.goods),
+    knownInformation:world.information.filter(f => f.playerKnown).map(f => ({id:f.id,topicId:f.topicId,label:f.label,statement:f.statement})),
+    offeredInformation:publicInformation(world,'npc','player').map(f => ({id:f.id,topicId:f.topicId,label:f.label})),
+    posture:state.closed ? 'Conversation ended' : state.status.tension >= 45 ? 'Tense' : state.status.trust < 35 ? 'Guarded' : state.status.trust >= 65 ? 'Receptive' : 'Listening',
+    pending:clone(state.pending)};
+}
+return Object.freeze({WORLD_VERSION,SESSION_VERSION,MAX_MONEY,MAX_QUANTITY,MAX_TURNS,clone,parseMoney,moneyInput,moneyLabel,defaultProfile,blankWorld,sampleWorld,
+  validateWorld,createSession,validateSession,emptyTerms,normalizeTerms,bundleValue,summarizeTerms,knows,infoKey,publicInformation,preview,send,acceptOffer,cancelOffer,applyWorld,publicView,
+  projectBeliefs:Beliefs.projectBeliefs,Based});
+});
+
+
+/* Offline browser workspace. All authored strings are escaped or inserted as text. */
+(function() {
+'use strict';
+const C = globalThis.EncounterCore, B = C.Based;
+const $ = id => document.getElementById(id);
+const esc = value => String(value).replace(/[&<>"']/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
+const STORAGE_KEY = 'encounter-core.session.v1';
+let state = C.createSession(), mode = 'ASK', topicId = '', informationId = '', delivery = {vibeId:'EA',intensity:'NUANCED'};
+let trade = {give:{money:'0.00',goods:[],information:[]},receive:{money:'0.00',goods:[],information:[]}};
+let ledgerDraft = null, ledgerRevision = 0, ledgerTab = 'world', ledgerSelection = {}, ledgerDirty = false;
+let startupWarning = '', storageWarning = false;
+try {
+  const saved = localStorage.getItem(STORAGE_KEY);
+  if (saved) { const candidate = JSON.parse(saved); C.validateSession(candidate); state = candidate; }
+} catch { startupWarning = 'Local autosave could not be opened. No stored data has been overwritten. Use Open file to restore an exported session.'; }
+function notice(message, error = false) { $('notice').textContent = message; $('notice').classList.toggle('error',error); $('notice').hidden = !message; }
+function guard(action) { try { return action(); } catch (error) { notice(error.message || 'That action could not be completed.',true); return null; } }
+function persist() {
+  try { localStorage.setItem(STORAGE_KEY,JSON.stringify(state)); $('save-status').textContent = 'AUTOSAVED LOCALLY · OFFLINE'; storageWarning = false; }
+  catch { $('save-status').textContent = 'EXPORT TO SAVE · OFFLINE'; if (!storageWarning) notice('Local autosave is unavailable or full. Use Save session to keep a backup.',true); storageWarning = true; }
+}
+function setState(next, message) { state = next; render(); if (message) notice(message); persist(); }
+function safeName(name) { return name.replace(/[^a-zA-Z0-9_-]+/g,'_').replace(/^_+|_+$/g,'').slice(0,60) || 'world'; }
+function download(value, name) {
+  const blob = new Blob([JSON.stringify(value,null,2)+'\n'],{type:'application/json'}), url = URL.createObjectURL(blob);
+  const link = document.createElement('a'); link.href = url; link.download = name; document.body.append(link); link.click(); link.remove(); setTimeout(() => URL.revokeObjectURL(url),10000);
+}
+function option(value,label,selected) { return `<option value="${esc(value)}"${selected ? ' selected' : ''}>${esc(label)}</option>`; }
+function render() {
+  const view = C.publicView(state);
+  $('world-name').textContent = view.worldName; $('conversation-title').textContent = view.npcName;
+  $('posture').textContent = view.posture; $('turn-label').textContent = `TURN ${String(view.turn).padStart(2,'0')}`;
+  $('onboarding').hidden = Boolean(state.world.topics.length || state.world.goods.length || state.world.information.length);
+  renderTranscript(); renderPending(); renderComposer(); renderDelivery(); renderResources(); renderInspector();
+}
+function renderTranscript() {
+  const container = $('transcript'), atBottom = container.scrollHeight-container.scrollTop-container.clientHeight < 80;
+  if (!state.history.length) container.innerHTML = `<div class="empty-conversation"><span class="empty-symbol" aria-hidden="true">[ ... ]</span><h3>The conversation starts with you.</h3><p>Choose a topic or build an offer, then decide how to deliver your message.</p></div>`;
+  else container.innerHTML = state.history.map(h => `<article class="turn-entry"><div class="turn-heading"><strong>${esc(h.playerName)}</strong><span class="turn-action">${esc(h.action)}</span><span>${esc(h.delivery)}</span></div><p class="player-message">${esc(h.playerText)}</p><div class="turn-heading"><strong>${esc(h.npcName)}</strong></div><p class="npc-message">${esc(h.npcText)}</p><p class="outcome-badge">${esc(h.outcome.replace(/_/g,' '))}</p></article>`).join('');
+  if (atBottom || state.history.length) container.scrollTop = container.scrollHeight;
+}
+function renderPending() {
+  const container = $('pending-offer'), offer = state.pending; container.hidden = !offer;
+  if (!offer) { container.replaceChildren(); return; }
+  container.innerHTML = `<h3>${offer.kind === 'COUNTER' ? 'Counteroffer — review the changed money terms' : 'Offer approved — awaiting your confirmation'}</h3><p>No goods, money, or information have transferred.</p><div class="pending-terms"><div><span>You give</span><strong>${esc(offer.summary.give)}</strong></div><div><span>You receive</span><strong>${esc(offer.summary.receive)}</strong></div></div><div class="pending-actions"><button id="confirm-offer" type="button" class="primary">Confirm exchange</button><button id="dismiss-offer" type="button">Decline / dismiss</button></div>`;
+  $('confirm-offer').addEventListener('click',() => guard(() => {
+    const next = C.acceptOffer(state,offer.id,offer.revision); clearTrade(); setState(next,'Exchange completed. The ledger now reflects the transfers.');
+  }));
+  $('dismiss-offer').addEventListener('click',() => guard(() => setState(C.cancelOffer(state),'Offer dismissed. Nothing transferred.')));
+}
+function renderComposer() {
+  for (const button of document.querySelectorAll('[data-mode]')) { button.setAttribute('aria-pressed',String(button.dataset.mode === mode)); button.disabled = state.closed; }
+  $('topic-controls').hidden = mode === 'TRADE'; $('tell-controls').hidden = mode !== 'TELL'; $('trade-controls').hidden = mode !== 'TRADE';
+  if (!state.world.topics.some(t => t.id === topicId)) topicId = state.world.topics[0]?.id || '';
+  $('topic-select').innerHTML = state.world.topics.length ? state.world.topics.map(t => option(t.id,t.label,t.id === topicId)).join('') : option('','No topics yet — add one in the ledger',true);
+  $('topic-select').disabled = !state.world.topics.length || state.closed;
+  $('topic-description').textContent = state.world.topics.find(t => t.id === topicId)?.description || '';
+  const known = state.world.information.filter(f => f.topicId === topicId && f.playerKnown);
+  if (!known.some(f => f.id === informationId)) informationId = known[0]?.id || '';
+  $('tell-select').innerHTML = known.length ? known.map(f => option(f.id,f.label,f.id === informationId)).join('') : option('','No player-known information on this topic',true);
+  $('tell-select').disabled = !known.length || state.closed;
+  $('tell-statement').textContent = known.find(f => f.id === informationId)?.statement || '';
+  for (const el of document.querySelectorAll('.currency-name')) el.textContent = `(${state.world.currency})`;
+  renderTrade(); renderPreview();
+}
+function currentIntent() {
+  const intent = {action:mode,delivery:C.clone(delivery),expectedRevision:state.revision};
+  if (mode === 'ASK' || mode === 'TELL') { intent.topicId = topicId; if (mode === 'TELL') intent.informationId = informationId; }
+  else intent.terms = Object.fromEntries(['give','receive'].map(side => [side,{money:C.parseMoney(trade[side].money),goods:trade[side].goods.map(g => ({id:g.id,quantity:Number(g.quantity)})),information:trade[side].information.slice()}]));
+  return intent;
+}
+function renderPreview() {
+  $('preview-delivery').textContent = B.describeDelivery(delivery).label;
+  let valid = false;
+  try {
+    if (state.closed) throw new Error('This encounter has ended. Start a new encounter to continue.');
+    const preview = C.preview(state,currentIntent()); $('message-preview').textContent = preview.text; $('message-preview').classList.remove('preview-invalid'); valid = true;
+  } catch (error) { $('message-preview').textContent = error.message; $('message-preview').classList.add('preview-invalid'); }
+  $('send-message').disabled = !valid;
+  $('send-message').firstChild.textContent = mode === 'TRADE' ? 'Submit offer ' : 'Send message ';
+  $('composer-hint').textContent = state.pending ? 'Sending a new message replaces the pending offer.' : mode === 'TRADE' ? 'The recipient evaluates the complete offer. You confirm any exchange.' : 'The selected delivery accompanies these exact words.';
+}
+function renderDelivery() {
+  $('vibe-grid').innerHTML = B.BASED_CUES.map(cue => `<div class="cue-group"><p class="cue-label"><strong>${cue.cueId}</strong>${esc(cue.name)} leads</p><div class="cue-buttons">${B.BASED_VIBES.filter(v => v.primaryCue === cue.cueId).map(v => `<button type="button" class="vibe-button" data-vibe="${v.vibeId}" aria-label="${esc(v.name)} (${v.vibeId})" aria-pressed="${v.vibeId === delivery.vibeId}" title="${esc(v.fusionLogic)}"><span class="vibe-code">${v.vibeId}</span>${esc(v.name)}</button>`).join('')}</div></div>`).join('');
+  $('intensity-options').innerHTML = B.DELIVERY_INTENSITIES.map(id => `<button type="button" data-intensity="${id}" aria-pressed="${delivery.intensity === id}" title="${esc(B.INTENSITY[id].description)}">${B.INTENSITY[id].label}</button>`).join('');
+  const selected = B.describeDelivery(delivery); $('selected-vibe').innerHTML = `<strong>${esc(selected.label)}</strong><p>${esc(selected.description)}</p>`;
+}
+function eligibleGoods(side) { const role = side === 'give' ? 'player' : 'npc'; return state.world.goods.filter(g => g[`${role}Qty`] > 0); }
+function eligibleInformation(side) { return side === 'give' ? C.publicInformation(state.world,'player','npc') : C.publicInformation(state.world,'npc','player'); }
+function renderTrade() {
+  for (const side of ['give','receive']) {
+    const role = side === 'give' ? 'player' : 'npc';
+    $(`${side}-money`).value = trade[side].money;
+    $(`${side}-money`).disabled = state.closed;
+    $(`${side}-rows`).innerHTML = trade[side].goods.map((row,index) => `<div class="offer-row"><div class="row-heading"><span>GOOD</span><button type="button" class="remove-row" data-remove-row="${side}:goods:${index}" aria-label="Remove good from ${side === 'give' ? 'you give' : 'you receive'}">×</button></div><select data-offer-select="${side}:goods:${index}" aria-label="${side === 'give' ? 'Good to give' : 'Good to receive'}">${option('','Choose a good',!eligibleGoods(side).some(g => g.id === row.id))}${eligibleGoods(side).map(g => option(g.id,`${g.label} · ${g[`${role}Qty`]} available`,g.id === row.id)).join('')}</select><div class="quantity-row"><label for="qty-${side}-${index}">Quantity</label><input id="qty-${side}-${index}" type="number" min="1" step="1" max="${C.MAX_QUANTITY}" value="${esc(row.quantity)}" data-offer-quantity="${side}:${index}"></div></div>`).join('') + trade[side].information.map((id,index) => `<div class="offer-row"><div class="row-heading"><span>INFORMATION</span><button type="button" class="remove-row" data-remove-row="${side}:information:${index}" aria-label="Remove information from ${side === 'give' ? 'you give' : 'you receive'}">×</button></div><select data-offer-select="${side}:information:${index}" aria-label="${side === 'give' ? 'Information to give' : 'Information to receive'}">${option('','Choose information',!eligibleInformation(side).some(f => f.id === id))}${eligibleInformation(side).map(f => option(f.id,f.label,f.id === id)).join('')}</select></div>`).join('');
+    for (const kind of ['goods','information']) document.querySelector(`[data-add-row="${side}:${kind}"]`).disabled = state.closed || !(kind === 'goods' ? eligibleGoods(side) : eligibleInformation(side)).length;
+  }
+}
+function clearTrade() { trade = {give:{money:'0.00',goods:[],information:[]},receive:{money:'0.00',goods:[],information:[]}}; }
+function renderResources() {
+  const world = state.world, known = world.information.filter(f => f.playerKnown), goods = world.goods.filter(g => g.playerQty > 0);
+  $('resources').innerHTML = `<div class="balance"><span>${esc(world.currency)}</span><strong>${esc((world.actors.player.money/100).toFixed(2))}</strong></div>${goods.length ? goods.map(g => `<div class="resource-line"><span>${esc(g.label)}</span><strong>${g.playerQty} ${esc(g.unit)}</strong></div>`).join('') : '<p class="muted small">No goods in your inventory.</p>'}<details class="known-info"><summary>${known.length} known information ${known.length === 1 ? 'entry' : 'entries'}</summary>${known.length ? known.map(f => `<div class="known-fact"><strong>${esc(f.label)}</strong><p>${esc(f.statement)}</p></div>`).join('') : '<p class="muted small">Information you learn or author will appear here.</p>'}</details>`;
+}
+function renderInspector() {
+  const beliefs = C.projectBeliefs(state.world), last = state.history.at(-1);
+  $('inspector-content').innerHTML = `<p>This author-only view shows the NPC's internal state. The player has no simulated personality or belief score.</p><div class="metric-grid"><div><strong>${state.status.trust}</strong>Trust</div><div><strong>${state.status.tension}</strong>Tension</div><div><strong>${state.status.patience}</strong>Patience</div></div><p class="small">Illustrative, editable whole-vibe responses. Repeated content cannot farm positive reception.</p>${last?.effect ? `<p class="small" style="margin-top:10px">Last delivery: trust ${last.effect.trust >= 0 ? '+' : ''}${last.effect.trust}; tension ${last.effect.tension >= 0 ? '+' : ''}${last.effect.tension}. ${last.effect.meaningful ? 'New content or progress.' : 'No new progress.'}</p>` : ''}${beliefs.length ? '<p class="eyebrow" style="margin-top:16px">NPC BELIEFS</p>'+beliefs.map(b => `<div class="belief-row"><strong>${esc(b.stance)}</strong><p>${esc(state.world.information.find(f => f.id === b.heldClaim)?.label || b.question)}${b.challenged ? ' · challenged' : ''}</p></div>`).join('') : ''}<button id="edit-profile" class="text-button" type="button">Edit NPC response policy</button>`;
+  $('edit-profile').addEventListener('click',() => openLedger('profile'));
+}
+function newId(prefix) { let id; do { id = `${prefix}_${Math.random().toString(36).slice(2,10)}`; } while ([...ledgerDraft.topics,...ledgerDraft.goods,...ledgerDraft.information].some(x => x.id === id)); return id; }
+function openLedger(tab = 'world') {
+  if ($('ledger-dialog').open) { ledgerTab = tab; renderLedger(); return; }
+  ledgerDraft = C.clone(state.world); ledgerRevision = state.revision; ledgerTab = tab; ledgerSelection = {}; ledgerDirty = false;
+  $('ledger-error').hidden = true; renderLedger(); $('ledger-dialog').showModal();
+}
+function closeLedger() {
+  if (ledgerDirty && !confirm('Discard the unapplied changes to this ledger?')) return;
+  $('ledger-dialog').close(); ledgerDraft = null;
+}
+function ledgerError(message) { $('ledger-error').textContent = message; $('ledger-error').hidden = false; }
+function inputField(label,path,value,{type='text',min,max,step,help='',full=false,required=true,rows} = {}) {
+  const id = `field-${path.replace(/\./g,'-')}`, attr = `id="${id}" data-edit="${esc(path)}"${required ? ' required' : ''}`;
+  const control = rows ? `<textarea ${attr} rows="${rows}" maxlength="4000">${esc(value)}</textarea>` : `<input ${attr} type="${type === 'money' ? 'text' : type}"${type === 'money' ? ' inputmode="decimal" data-money="true"' : ''}${type === 'number' ? ' data-number="true"' : ''} value="${esc(value)}"${min !== undefined ? ` min="${min}"` : ''}${max !== undefined ? ` max="${max}"` : ''}${step !== undefined ? ` step="${step}"` : ''}${type === 'text' && max !== undefined ? ` maxlength="${max}"` : ''}>`;
+  return `<div class="field${full ? ' full' : ''}"><label for="${id}">${esc(label)}</label>${control}${help ? `<span class="field-help">${esc(help)}</span>` : ''}</div>`;
+}
+function selectField(label,path,value,options,help='') {
+  const id = `field-${path.replace(/\./g,'-')}`;
+  return `<div class="field"><label for="${id}">${esc(label)}</label><select id="${id}" data-edit="${esc(path)}">${options.map(([v,l]) => option(v,l,v === value)).join('')}</select>${help ? `<span class="field-help">${esc(help)}</span>` : ''}</div>`;
+}
+function checkboxField(label,path,value) { const id = `field-${path.replace(/\./g,'-')}`; return `<div class="check-field"><input type="checkbox" id="${id}" data-edit="${esc(path)}"${value ? ' checked' : ''}><label for="${id}">${esc(label)}</label></div>`; }
+function renderLedger() {
+  for (const button of document.querySelectorAll('[data-ledger-tab]')) button.setAttribute('aria-pressed',String(button.dataset.ledgerTab === ledgerTab));
+  $('ledger-error').hidden = true;
+  const world = ledgerDraft;
+  if (ledgerTab === 'world') {
+    $('ledger-content').innerHTML = `<div class="world-editor"><h3>World and participants</h3><p class="intro">These are current resources, not a locked opening scenario. You supply all names, content, and balances.</p><div class="form-grid">${inputField('World name','name',world.name,{max:120})}${inputField('Currency name','currency',world.currency,{max:30,help:'One currency; amounts support two decimal places.'})}${inputField('Player name','actors.player.name',world.actors.player.name,{max:100})}${inputField('Counterparty name','actors.npc.name',world.actors.npc.name,{max:100})}${inputField('Player money','actors.player.money',C.moneyInput(world.actors.player.money),{type:'money'})}${inputField('Counterparty money','actors.npc.money',C.moneyInput(world.actors.npc.money),{type:'money'})}</div><hr><p class="muted small">${world.topics.length} topics · ${world.goods.length} goods · ${world.information.length} information entries</p><p class="muted small" style="margin-top:8px">New encounter keeps these current resources and knowledge. Import a world file to replace the ledger with a different world.</p></div>`;
+    return;
+  }
+  if (ledgerTab === 'profile') { renderProfileEditor(); return; }
+  const items = world[ledgerTab];
+  if (!items.some(x => x.id === ledgerSelection[ledgerTab])) ledgerSelection[ledgerTab] = items[0]?.id || '';
+  const selected = items.find(x => x.id === ledgerSelection[ledgerTab]), index = items.findIndex(x => x.id === selected?.id);
+  const singular = {topics:'topic',goods:'good',information:'information entry'}[ledgerTab];
+  $('ledger-content').innerHTML = `<div class="ledger-layout"><div class="ledger-list">${items.map(item => `<button type="button" data-ledger-item="${esc(item.id)}" aria-pressed="${item.id === selected?.id}">${esc(item.label)}</button>`).join('')}<button type="button" class="add-entry" id="add-ledger-entry">+ Add ${singular}</button></div><div class="ledger-editor">${selected ? entryEditor(ledgerTab,index,selected) : `<div class="empty-ledger"><h3>No ${ledgerTab} yet.</h3><p>${ledgerTab === 'topics' ? 'Topics are the subjects your characters can ask or tell about.' : ledgerTab === 'goods' ? 'Goods are countable resources held by either participant.' : 'Information contains an exact statement, its topic, and who knows it.'}</p><button type="button" class="primary" id="add-first-entry">Add ${singular}</button></div>`}</div></div>`;
+}
+function entryEditor(tab,index,item) {
+  const path = `${tab}.${index}`, identity = `<span class="id-label">ID: ${esc(item.id)} · stable across label edits</span>`;
+  if (tab === 'topics') return `<h3>Topic</h3><p class="intro">Available immediately in Ask and Tell after you apply changes.</p>${inputField('Topic label',`${path}.label`,item.label,{max:120})}${inputField('Description',`${path}.description`,item.description,{rows:3,required:false,help:'Context shown with the topic. This is not a fact learned by either participant.'})}<button type="button" class="delete-entry" id="delete-ledger-entry">Remove topic</button>${identity}`;
+  if (tab === 'goods') return `<h3>Good</h3><p class="intro">Quantities transfer only when a trade is confirmed.</p><div class="form-grid">${inputField('Good label',`${path}.label`,item.label,{max:120})}${inputField('Quantity unit',`${path}.unit`,item.unit,{max:40})}${inputField('Reference value per unit',`${path}.value`,C.moneyInput(item.value),{type:'money',full:true,help:'Used by the generic NPC valuation. Buying and selling multipliers are in NPC response.'})}${inputField('Player quantity',`${path}.playerQty`,item.playerQty,{type:'number',min:0,max:C.MAX_QUANTITY,step:1})}${inputField('Counterparty quantity',`${path}.npcQty`,item.npcQty,{type:'number',min:0,max:C.MAX_QUANTITY,step:1})}</div><button type="button" class="delete-entry" id="delete-ledger-entry">Remove good</button>${identity}`;
+  return `<h3>Information</h3><p class="intro">Labels can advertise a possible exchange; the statement stays hidden from the player until learned.</p>${inputField('Information label',`${path}.label`,item.label,{max:120})}${selectField('Topic',`${path}.topicId`,item.topicId,ledgerDraft.topics.map(t => [t.id,t.label]))}${inputField('Exact statement',`${path}.statement`,item.statement,{rows:4,help:'Ask, Tell, and completed trades use this authored text. No facts are generated.'})}<div class="form-grid">${inputField('Exchange value',`${path}.value`,C.moneyInput(item.value),{type:'money'})}${selectField('NPC sharing rule',`${path}.sharing`,item.sharing,[['OPEN','Open — may answer when asked'],['TRADE','Exchange only'],['PRIVATE','Private — not offered or answered']])}</div>${checkboxField('Player currently knows this',`${path}.playerKnown`,item.playerKnown)}${checkboxField('Counterparty currently knows this',`${path}.npcKnown`,item.npcKnown)}${selectField('NPC evidence level',`${path}.npcEvidence`,item.npcEvidence,[['HEARSAY','Hearsay — rank 1'],['SUPPORTED','Supported — rank 2'],['OBSERVED','Observed — rank 4']],'Authoring input for currently known information. A newly told or traded claim arrives as hearsay, not as verified evidence.')}<details><summary class="small">Optional: competing claims</summary><div class="form-grid">${inputField('Question key',`${path}.questionKey`,item.questionKey,{required:false,max:120,help:'Use the same key for statements answering the same question.'})}${inputField('Claim value',`${path}.claimValue`,item.claimValue,{required:false,max:1000,help:'Different values under one question key conflict. Blank uses the statement itself.'})}</div></details><hr><button type="button" class="delete-entry" id="delete-ledger-entry">Remove information</button>${identity}`;
+}
+function renderProfileEditor() {
+  const p = ledgerDraft.npcProfile;
+  $('ledger-content').innerHTML = `<div class="world-editor"><h3>Counterparty response policy</h3><p class="intro">Illustrative defaults, not fixed character psychology. Responses belong to each whole ordered vibe. Positive reception is not awarded again for repeated content. New encounters start at 50 trust and 0 tension.</p><div class="form-grid">${inputField('Starting patience','npcProfile.patience',p.patience,{type:'number',min:1,max:1000,step:1,help:'Applied fully on New encounter. Ledger edits never refill spent patience.'})}${inputField('Walk-away tension','npcProfile.walkAwayTension',p.walkAwayTension,{type:'number',min:1,max:100,step:1})}${inputField('Minimum trust to answer','npcProfile.minimumTrustToShare',p.minimumTrustToShare,{type:'number',min:0,max:100,step:1})}${inputField('Required exchange ratio','npcProfile.margin',p.margin,{type:'number',min:.25,max:3,step:.01,help:'1.00 asks for equal perceived value; 1.20 asks for 20% more.'})}${inputField('Maximum social flexibility','npcProfile.flexibility',p.flexibility,{type:'number',min:0,max:.5,step:.01,help:'Caps how much reception changes the required exchange ratio.'})}${inputField('Buying multiplier','npcProfile.buyMultiplier',p.buyMultiplier,{type:'number',min:.01,max:10,step:.01,help:'Applies to goods the NPC receives.'})}${inputField('Selling multiplier','npcProfile.sellMultiplier',p.sellMultiplier,{type:'number',min:.01,max:10,step:.01,help:'Applies to goods the NPC gives.'})}</div><h3 style="margin-top:18px">Whole-vibe reception</h3><p class="muted small">Nuanced uses these values. Subtle scales them by 0.5; Overt by 1.5. Facts, goods, and amounts do not change.</p><table class="response-table"><thead><tr><th>Ordered vibe</th><th>Trust change</th><th>Tension change</th></tr></thead><tbody>${B.BASED_VIBES.map(v => `<tr><td><small>${v.vibeId}</small>${esc(v.name)}</td><td><input type="number" min="-20" max="20" step="1" required data-number="true" data-edit="npcProfile.reactions.${v.vibeId}.trust" value="${p.reactions[v.vibeId].trust}" aria-label="${esc(v.name)} trust change"></td><td><input type="number" min="-20" max="20" step="1" required data-number="true" data-edit="npcProfile.reactions.${v.vibeId}.tension" value="${p.reactions[v.vibeId].tension}" aria-label="${esc(v.name)} tension change"></td></tr>`).join('')}</tbody></table></div>`;
+}
+function setPath(target,path,value) {
+  const parts = path.split('.'); let current = target;
+  for (const part of parts.slice(0,-1)) { if (!Object.hasOwn(current,part)) throw new Error('Unknown ledger field.'); current = current[part]; }
+  const last = parts.at(-1); if (!Object.hasOwn(current,last)) throw new Error('Unknown ledger field.'); const changed = current[last] !== value; current[last] = value; return changed;
+}
+function updateLedgerInput(element) {
+  if (!element.dataset.edit || !ledgerDraft) return;
+  try {
+    let value = element.type === 'checkbox' ? element.checked : element.value;
+    if (element.dataset.money) value = C.parseMoney(value);
+    else if (element.dataset.number) { value = Number(value); if (!Number.isFinite(value)) throw new Error('Enter a valid number.'); }
+    const changed = setPath(ledgerDraft,element.dataset.edit,value); element.setCustomValidity(''); if (changed) ledgerDirty = true;
+    if (element.dataset.edit.endsWith('.label')) {
+      const current = ledgerDraft[ledgerTab]?.find(x => x.id === ledgerSelection[ledgerTab]);
+      if (current) { const btn = document.querySelector(`[data-ledger-item="${current.id}"]`); if (btn) btn.textContent = current.label; }
+    }
+  } catch (error) { element.setCustomValidity(error.message); ledgerDirty = true; }
+}
+function validVisibleEditor() {
+  for (const element of $('ledger-form').querySelectorAll('[data-edit]')) updateLedgerInput(element);
+  return $('ledger-form').reportValidity();
+}
+function addLedgerEntry() {
+  if (ledgerTab === 'information' && !ledgerDraft.topics.length) { ledgerTab = 'topics'; renderLedger(); ledgerError('Add a topic before creating information.'); return; }
+  let item;
+  if (ledgerTab === 'topics') item = {id:newId('topic'),label:'New topic',description:''};
+  else if (ledgerTab === 'goods') item = {id:newId('good'),label:'New good',unit:'units',value:0,playerQty:0,npcQty:0};
+  else item = {id:newId('info'),topicId:ledgerDraft.topics.some(t => t.id === topicId) ? topicId : ledgerDraft.topics[0].id,label:'New information',statement:'',value:0,playerKnown:true,npcKnown:false,npcEvidence:'HEARSAY',sharing:'OPEN',questionKey:'',claimValue:''};
+  ledgerDraft[ledgerTab].push(item); ledgerSelection[ledgerTab] = item.id; ledgerDirty = true; renderLedger();
+  const label = $('ledger-content').querySelector('input[data-edit$=".label"]'); if (label) { label.focus(); label.select(); }
+}
+function deleteLedgerEntry() {
+  const id = ledgerSelection[ledgerTab], item = ledgerDraft[ledgerTab].find(x => x.id === id);
+  const dependents = ledgerTab === 'topics' ? ledgerDraft.information.filter(f => f.topicId === id).length : 0;
+  if (!confirm(`Remove “${item.label}”${dependents ? ` and its ${dependents} linked information ${dependents === 1 ? 'entry' : 'entries'}` : ''}? The previous transcript remains unchanged.`)) return;
+  ledgerDraft[ledgerTab] = ledgerDraft[ledgerTab].filter(x => x.id !== id);
+  if (ledgerTab === 'topics') ledgerDraft.information = ledgerDraft.information.filter(f => f.topicId !== id);
+  ledgerDirty = true; renderLedger();
+}
+// Primary navigation and composer events.
+$('open-ledger').addEventListener('click',() => openLedger());
+$('start-ledger').addEventListener('click',() => openLedger('topics'));
+$('edit-topics').addEventListener('click',() => openLedger('topics'));
+$('add-tell-info').addEventListener('click',() => openLedger('information'));
+$('edit-resources').addEventListener('click',() => openLedger('goods'));
+$('sample-data').addEventListener('click',() => {
+  if (!confirm('Load generic test topics, balances, goods, and information? This replaces the current world and conversation.')) return;
+  clearTrade(); setState(C.createSession(C.sampleWorld()),'Neutral test data loaded. Edit or remove any entry in the world ledger.');
+});
+$('export-world').addEventListener('click',() => download(state.world,`${safeName(state.world.name)}_world.json`));
+$('save-session').addEventListener('click',() => download(state,`${safeName(state.world.name)}_session.json`));
+$('open-file').addEventListener('click',() => { $('file-input').value = ''; $('file-input').click(); });
+$('file-input').addEventListener('change',async event => {
+  const file = event.target.files[0]; if (!file) return;
+  try {
+    if (file.size > 32*1024*1024) throw new Error('This file exceeds the 32 MB import limit.');
+    const input = JSON.parse(await file.text()); let next;
+    if (input.version === C.WORLD_VERSION) { C.validateWorld(input); next = C.createSession(input); }
+    else { C.validateSession(input); next = input; }
+    if (!confirm(`Open “${file.name}”? This replaces the current world and encounter. Save the current session first to keep it.`)) return;
+    clearTrade(); setState(next,input.version === C.WORLD_VERSION ? 'World imported. A new encounter is ready.' : 'Session restored, including its transcript and current world.');
+  } catch (error) { notice(`Could not open this file: ${error.message}`,true); }
+});
+$('new-encounter').addEventListener('click',() => {
+  if (!confirm('Start a new encounter? The conversation and NPC reception reset. Current money, goods, and knowledge are kept.')) return;
+  clearTrade(); setState(C.createSession(state.world),'New encounter started. Current ledger resources and knowledge were kept.');
+});
+$('help-button').addEventListener('click',() => $('help-dialog').showModal());
+$('close-help').addEventListener('click',() => $('help-dialog').close());
+for (const button of document.querySelectorAll('[data-mode]')) button.addEventListener('click',() => { mode = button.dataset.mode; renderComposer(); });
+$('topic-select').addEventListener('change',event => { topicId = event.target.value; informationId = ''; renderComposer(); });
+$('tell-select').addEventListener('change',event => { informationId = event.target.value; renderComposer(); });
+$('vibe-grid').addEventListener('click',event => { const button = event.target.closest('[data-vibe]'); if (!button) return; delivery.vibeId = button.dataset.vibe; renderDelivery(); renderPreview(); });
+$('intensity-options').addEventListener('click',event => { const button = event.target.closest('[data-intensity]'); if (!button) return; delivery.intensity = button.dataset.intensity; renderDelivery(); renderPreview(); });
+$('send-message').addEventListener('click',() => guard(() => {
+  const next = C.send(state,currentIntent()); setState(next); notice(''); if (storageWarning) notice('This session is not autosaved. Use Save session to keep a backup.',true);
+  $('conversation-title').setAttribute('tabindex','-1'); $('conversation-title').focus({preventScroll:true});
+}));
+$('clear-trade').addEventListener('click',() => { clearTrade(); renderTrade(); renderPreview(); });
+for (const side of ['give','receive']) $(`${side}-money`).addEventListener('input',event => { trade[side].money = event.target.value; renderPreview(); });
+$('trade-controls').addEventListener('click',event => {
+  const add = event.target.closest('[data-add-row]'), remove = event.target.closest('[data-remove-row]');
+  if (add) {
+    const [side,kind] = add.dataset.addRow.split(':'), candidates = kind === 'goods' ? eligibleGoods(side) : eligibleInformation(side);
+    const used = new Set(['give','receive'].flatMap(s => kind === 'goods' ? trade[s].goods.map(g => g.id) : trade[s].information));
+    const candidate = candidates.find(x => !used.has(x.id));
+    if (!candidate) { notice('Every eligible entry is already in this offer. Edit the existing lines or add resources in the ledger.'); return; }
+    trade[side][kind].push(kind === 'goods' ? {id:candidate.id,quantity:1} : candidate.id); renderTrade(); renderPreview();
+  }
+  if (remove) { const [side,kind,index] = remove.dataset.removeRow.split(':'); trade[side][kind].splice(Number(index),1); renderTrade(); renderPreview(); }
+});
+$('trade-controls').addEventListener('change',event => {
+  if (event.target.dataset.offerSelect) {
+    const [side,kind,index] = event.target.dataset.offerSelect.split(':'); if (kind === 'goods') trade[side].goods[index].id = event.target.value; else trade[side].information[index] = event.target.value; renderPreview();
+  }
+});
+$('trade-controls').addEventListener('input',event => {
+  if (event.target.dataset.offerQuantity) { const [side,index] = event.target.dataset.offerQuantity.split(':'); trade[side].goods[index].quantity = event.target.value; renderPreview(); }
+});
+// Ledger editing is staged; only Apply changes mutates the active world.
+$('ledger-form').addEventListener('submit',event => { event.preventDefault(); $('apply-ledger').click(); });
+$('ledger-content').addEventListener('input',event => updateLedgerInput(event.target));
+$('ledger-content').addEventListener('change',event => updateLedgerInput(event.target));
+$('ledger-content').addEventListener('click',event => {
+  const item = event.target.closest('[data-ledger-item]');
+  if (item) { if (!validVisibleEditor()) return; ledgerSelection[ledgerTab] = item.dataset.ledgerItem; renderLedger(); }
+  if (event.target.closest('#add-ledger-entry, #add-first-entry')) { if (!validVisibleEditor()) return; addLedgerEntry(); }
+  if (event.target.closest('#delete-ledger-entry')) deleteLedgerEntry();
+});
+for (const button of document.querySelectorAll('[data-ledger-tab]')) button.addEventListener('click',() => {
+  if (!validVisibleEditor()) return; ledgerTab = button.dataset.ledgerTab; renderLedger();
+});
+$('close-ledger').addEventListener('click',closeLedger); $('cancel-ledger').addEventListener('click',closeLedger);
+$('ledger-dialog').addEventListener('cancel',event => { event.preventDefault(); closeLedger(); });
+$('apply-ledger').addEventListener('click',() => {
+  if (!validVisibleEditor()) return;
+  try {
+    const next = C.applyWorld(state,ledgerDraft,ledgerRevision); $('ledger-dialog').close(); ledgerDraft = null;
+    setState(next,'World ledger updated. Any pending offer was invalidated.');
+  } catch (error) { ledgerError(error.message); }
+});
+document.addEventListener('keydown',event => {
+  const typing = ['INPUT','TEXTAREA','SELECT'].includes(event.target.tagName) || event.target.isContentEditable;
+  if (event.key.toLowerCase() === 'l' && !typing && !event.ctrlKey && !event.metaKey && !$('ledger-dialog').open && !$('help-dialog').open) { event.preventDefault(); openLedger(); }
+  if (event.key === 'Enter' && (event.ctrlKey || event.metaKey) && !$('ledger-dialog').open && !$('help-dialog').open && !$('send-message').disabled) { event.preventDefault(); $('send-message').click(); }
+});
+window.addEventListener('beforeunload',event => { if ($('ledger-dialog').open && ledgerDirty) { event.preventDefault(); event.returnValue = ''; } });
+render(); if (startupWarning) notice(startupWarning,true);
+})();
+</script>
+</body>
+</html>

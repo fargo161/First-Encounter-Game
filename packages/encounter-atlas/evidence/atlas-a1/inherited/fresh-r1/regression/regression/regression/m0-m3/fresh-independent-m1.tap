@@ -1,0 +1,160 @@
+{
+  "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\atlas-a1-inherited-gates\\encounter-r3-regression-y38dntfq",
+  "executable": "C:\\Program Files\\nodejs\\node.EXE",
+  "args": [
+    "--test",
+    "--test-reporter=tap",
+    "independent/M1_Independent_Contract_Tests.test.mjs"
+  ],
+  "environmentBinding": {
+    "ENCOUNTER_CHECKPOINT": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\atlas-a1-inherited-gates\\encounter-r3-regression-y38dntfq",
+    "M2_BROWSER_EVIDENCE": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\atlas-a1-inherited-gates\\encounter-r3-regression-y38dntfq\\independent\\m2-browser-evidence"
+  },
+  "exitCode": 0
+}
+
+STDOUT
+TAP version 13
+# Subtest: I01: exact retry after multiple later commits returns original receipt without hooks
+ok 1 - I01: exact retry after multiple later commits returns original receipt without hooks
+  ---
+  duration_ms: 10.4399
+  type: 'test'
+  ...
+# Subtest: I02: all tested immutable-payload collisions reject before hooks or staleness
+ok 2 - I02: all tested immutable-payload collisions reject before hooks or staleness
+  ---
+  duration_ms: 3.7205
+  type: 'test'
+  ...
+# Subtest: I03: a new stale identity is rejected with no fictional event or resolver call
+ok 3 - I03: a new stale identity is rejected with no fictional event or resolver call
+  ---
+  duration_ms: 1.4761
+  type: 'test'
+  ...
+# Subtest: I04: preflight, stage exceptions, and invariant failures roll back and suppress hidden diagnostics
+ok 4 - I04: preflight, stage exceptions, and invariant failures roll back and suppress hidden diagnostics
+  ---
+  duration_ms: 1.4996
+  type: 'test'
+  ...
+# Subtest: I05: a valid social refusal records hearing while material state stays unchanged
+ok 5 - I05: a valid social refusal records hearing while material state stays unchanged
+  ---
+  duration_ms: 0.6789
+  type: 'test'
+  ...
+# Subtest: I06: restored journals retain retry protection and corrupted revision chains reject
+ok 6 - I06: restored journals retain retry protection and corrupted revision chains reject
+  ---
+  duration_ms: 2.2781
+  type: 'test'
+  ...
+# Subtest: I07: escaped staged-state and result aliases cannot mutate the committed run
+ok 7 - I07: escaped staged-state and result aliases cannot mutate the committed run
+  ---
+  duration_ms: 1.0825
+  type: 'test'
+  ...
+# Subtest: I08: createRun detaches package identity and starting data from later author edits
+ok 8 - I08: createRun detaches package identity and starting data from later author edits
+  ---
+  duration_ms: 0.3302
+  type: 'test'
+  ...
+# Subtest: I09: repeated preview/history/inspector reads do not change source records or a run
+ok 9 - I09: repeated preview/history/inspector reads do not change source records or a run
+  ---
+  duration_ms: 12.7177
+  type: 'test'
+  ...
+# Subtest: I10: all 60 private vibe/salience perturbations preserve the complete M1 listener view
+ok 10 - I10: all 60 private vibe/salience perturbations preserve the complete M1 listener view
+  ---
+  duration_ms: 61.3436
+  type: 'test'
+  ...
+# Subtest: I11: an actually performed distinctive cue is preserved as legitimate outward information
+ok 11 - I11: an actually performed distinctive cue is preserved as legitimate outward information
+  ---
+  duration_ms: 0.8915
+  type: 'test'
+  ...
+# Subtest: I12: hidden selector/template/cache additions and nested private substantive values reject
+ok 12 - I12: hidden selector/template/cache additions and nested private substantive values reject
+  ---
+  duration_ms: 1.2445
+  type: 'test'
+  ...
+# Subtest: I13: every supported opaque source-kind lookup returns only explicitly received details
+ok 13 - I13: every supported opaque source-kind lookup returns only explicitly received details
+  ---
+  duration_ms: 4.7128
+  type: 'test'
+  ...
+# Subtest: I14: another actor and an absent actor have no path to this addressed communication
+ok 14 - I14: another actor and an absent actor have no path to this addressed communication
+  ---
+  duration_ms: 1.4096
+  type: 'test'
+  ...
+# Subtest: I15: only an actually heard matching assertion enters claims; canonical message stays intact
+ok 15 - I15: only an actually heard matching assertion enters claims; canonical message stays intact
+  ---
+  duration_ms: 3.0317
+  type: 'test'
+  ...
+# Subtest: I16: typed neutral IDs and renamed arbitrary actors work without mandatory player/NPC seats
+ok 16 - I16: typed neutral IDs and renamed arbitrary actors work without mandatory player/NPC seats
+  ---
+  duration_ms: 0.8675
+  type: 'test'
+  ...
+# Subtest: I17: permission validation alone produces no inspection or receiving observation
+ok 17 - I17: permission validation alone produces no inspection or receiving observation
+  ---
+  duration_ms: 0.2483
+  type: 'test'
+  ...
+# Subtest: I18: ordinary matched-result redelivery and command retry apply one neutral effect
+ok 18 - I18: ordinary matched-result redelivery and command retry apply one neutral effect
+  ---
+  duration_ms: 1.7378
+  type: 'test'
+  ...
+# Subtest: I19: result mismatch, changed identity, and failed effect application preserve caller data
+ok 19 - I19: result mismatch, changed identity, and failed effect application preserve caller data
+  ---
+  duration_ms: 0.8261
+  type: 'test'
+  ...
+# Subtest: I20: unsupported exchange execution and legacy run formats are rejected explicitly
+ok 20 - I20: unsupported exchange execution and legacy run formats are rejected explicitly
+  ---
+  duration_ms: 0.6337
+  type: 'test'
+  ...
+# Subtest: D01-A: journaling must preserve the frozen command actually resolved despite a mutable caller alias
+ok 21 - D01-A: journaling must preserve the frozen command actually resolved despite a mutable caller alias
+  ---
+  duration_ms: 1.123
+  type: 'test'
+  ...
+# Subtest: D01-B: effect callback aliases must not rewrite stored result identity and enable duplicate application
+ok 22 - D01-B: effect callback aliases must not rewrite stored result identity and enable duplicate application
+  ---
+  duration_ms: 0.5294
+  type: 'test'
+  ...
+1..22
+# tests 22
+# suites 0
+# pass 22
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 1224.2685
+
+STDERR

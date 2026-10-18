@@ -1,0 +1,16 @@
+{
+  "cwd": "C:\\Users\\mcdon\\Documents\\Codex\\2026-10-17\\execute-encounter-codex-lead-builder-m0\\outputs\\Encounter_M2",
+  "executable": "C:\\Users\\mcdon\\AppData\\Local\\Programs\\Python\\Python312\\python.EXE",
+  "args": [
+    "scripts/source-identity.py"
+  ],
+  "environmentBinding": {
+    "ENCOUNTER_CHECKPOINT": "C:\\Users\\mcdon\\Documents\\Codex\\2026-10-17\\execute-encounter-codex-lead-builder-m0\\outputs\\Encounter_M2"
+  },
+  "exitCode": 0
+}
+
+STDOUT
+{"sourceRevision": "M2-runtime-v1", "sourceDigest": "907e4ec682172e90f2c3b0b0d78ec43ade848d8bcace1fbe6775301aefc43731", "files": 27}
+
+STDERR

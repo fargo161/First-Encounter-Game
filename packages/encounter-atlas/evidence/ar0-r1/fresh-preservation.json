@@ -1,0 +1,12 @@
+{
+  "name": "preservation",
+  "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\Encounter_AR0_R1",
+  "args": [
+    "python",
+    "scripts/preserve-ar0-r1.py"
+  ],
+  "exitCode": 0,
+  "expectedExitCode": 0,
+  "stdout": "{\"baselineAR0ZIPSHA256\": \"d028b50107d639ade1ab31a1a68f5e70eaf8ebdc3a401f0abac9b9c2caa51828\", \"baselineMembers\": 1786, \"modifiedExistingFiles\": [\"src/ar0/atlas.mjs\"], \"allOtherBaselineMembersByteIdentical\": true, \"acceptedM3R3MembersByteIdentical\": 1430, \"catalogUnchanged\": true, \"IR3_25TestSHA256\": \"52386d28e3e7388b643b3cc0fd446c1b9386ab4702d960f062042ba0c5070f75\"}\n",
+  "stderr": ""
+}

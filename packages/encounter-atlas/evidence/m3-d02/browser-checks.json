@@ -1,0 +1,122 @@
+[
+  {
+    "name": "before-horizontal",
+    "stage": "before",
+    "passed": false,
+    "expectedDefectReproduced": true,
+    "displayed": true,
+    "serviceOpen": false,
+    "closeCount": 1,
+    "technicalDefects": []
+  },
+  {
+    "name": "before-zero-width",
+    "stage": "before",
+    "passed": false,
+    "expectedDefectReproduced": true,
+    "displayed": true,
+    "serviceOpen": false,
+    "closeCount": 1,
+    "technicalDefects": []
+  },
+  {
+    "name": "horizontal",
+    "stage": "after",
+    "passed": true,
+    "expectedDefectReproduced": false,
+    "displayed": false,
+    "serviceOpen": true,
+    "closeCount": 0,
+    "technicalDefects": [
+      "MISSING_CLOSURE_PREVIEW"
+    ]
+  },
+  {
+    "name": "zero-width",
+    "stage": "after",
+    "passed": true,
+    "expectedDefectReproduced": false,
+    "displayed": false,
+    "serviceOpen": true,
+    "closeCount": 0,
+    "technicalDefects": [
+      "MISSING_CLOSURE_PREVIEW"
+    ]
+  },
+  {
+    "name": "opacity",
+    "stage": "after",
+    "passed": true,
+    "expectedDefectReproduced": false,
+    "displayed": false,
+    "serviceOpen": true,
+    "closeCount": 0,
+    "technicalDefects": [
+      "MISSING_CLOSURE_PREVIEW"
+    ]
+  },
+  {
+    "name": "ancestor",
+    "stage": "after",
+    "passed": true,
+    "expectedDefectReproduced": false,
+    "displayed": false,
+    "serviceOpen": true,
+    "closeCount": 0,
+    "technicalDefects": [
+      "MISSING_CLOSURE_PREVIEW"
+    ]
+  },
+  {
+    "name": "vertical",
+    "stage": "after",
+    "passed": true,
+    "expectedDefectReproduced": false,
+    "displayed": false,
+    "serviceOpen": true,
+    "closeCount": 0,
+    "technicalDefects": [
+      "MISSING_CLOSURE_PREVIEW"
+    ]
+  },
+  {
+    "name": "normal",
+    "stage": "after",
+    "passed": true,
+    "expectedDefectReproduced": false,
+    "displayed": true,
+    "serviceOpen": false,
+    "closeCount": 1,
+    "technicalDefects": []
+  },
+  {
+    "name": "normal closure save/load equality",
+    "stage": "after",
+    "passed": true
+  },
+  {
+    "name": "scroll",
+    "stage": "after",
+    "passed": true,
+    "expectedDefectReproduced": false,
+    "displayed": true,
+    "serviceOpen": false,
+    "closeCount": 1,
+    "technicalDefects": []
+  },
+  {
+    "name": "Fresh authority/evidence/restriction/Why/repair and exact continuing save/load",
+    "stage": "after",
+    "passed": true
+  },
+  {
+    "name": "Fresh repaired recovery with exact separate zero-payment handover and owner retained",
+    "stage": "after",
+    "passed": true
+  },
+  {
+    "name": "Post-recovery protected demand preserves entire world, custody, ownership and money",
+    "stage": "after",
+    "passed": true
+  }
+]

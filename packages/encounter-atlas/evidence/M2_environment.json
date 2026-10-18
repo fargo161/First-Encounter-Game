@@ -1,0 +1,23 @@
+{
+  "platform": "Windows-11-10.0.26200-SP0",
+  "executables": {
+    "node": "C:\\Program Files\\nodejs\\node.EXE",
+    "npm.cmd": "C:\\Program Files\\nodejs\\npm.cmd",
+    "python": "C:\\Users\\mcdon\\AppData\\Local\\Programs\\Python\\Python312\\python.EXE"
+  },
+  "node": {
+    "exitCode": 0,
+    "stdout": "v24.18.0\n",
+    "stderr": ""
+  },
+  "npm.cmd": {
+    "exitCode": 0,
+    "stdout": "11.16.0\n",
+    "stderr": ""
+  },
+  "python": {
+    "exitCode": 0,
+    "stdout": "Python 3.12.0\n",
+    "stderr": ""
+  }
+}

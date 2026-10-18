@@ -1,0 +1,16 @@
+{
+  "cwd": "C:\\Users\\mcdon\\Documents\\Codex\\2026-10-17\\execute-encounter-codex-lead-builder-m0\\outputs\\Encounter_M2",
+  "executable": "C:\\Program Files\\nodejs\\node.EXE",
+  "args": [
+    "scripts/generate-evidence.mjs"
+  ],
+  "environmentBinding": {
+    "ENCOUNTER_CHECKPOINT": "C:\\Users\\mcdon\\Documents\\Codex\\2026-10-17\\execute-encounter-codex-lead-builder-m0\\outputs\\Encounter_M2"
+  },
+  "exitCode": 0
+}
+
+STDOUT
+{"generator":"scripts/generate-evidence.mjs","origin":"Actual browser UI run exported through Save run","runFile":"M2_Interaction_Run.json","runFileSHA256":"68c24d368d797787666aa892d41c6edf54f0363e597a00b39a7bb6464e3ceb4f","sourceRevision":"M2-runtime-v1","sourceDigest":"907e4ec682172e90f2c3b0b0d78ec43ade848d8bcace1fbe6775301aefc43731","contentRevision":"M2-paperwork-v1","sessionId":"run_0002","revision":3,"packageRef":{"id":"package_0002","revision":1,"digest":"6dde071b2d6e6b280ca9ba6ce929bbdd1b42f4f128deba818fc1c32dd2b8e115"},"messages":4,"observations":10,"claims":1,"decisions":2,"validatedReplay":true,"browserInspectorMatches":true}
+
+STDERR

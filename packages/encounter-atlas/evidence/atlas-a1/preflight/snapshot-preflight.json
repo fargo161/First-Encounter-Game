@@ -1,0 +1,473 @@
+{
+  "result": "PASS",
+  "validatedSaves": 4,
+  "projections": 8,
+  "inputPurity": true,
+  "matchingFrozenProofs": true,
+  "records": [
+    {
+      "name": "initial",
+      "audience": "author",
+      "revision": 0,
+      "packageRef": {
+        "id": "package_0003",
+        "revision": 1,
+        "digest": "2ce9f61b996f17392a39c56f4005d8203b7940aa4974564fafa54d110e35ae8f"
+      },
+      "projectionMatchesFrozenProof": true,
+      "personSummaries": [
+        {
+          "id": "actor_0001",
+          "name": "Collector",
+          "actorKind": "human",
+          "received": 1,
+          "reports": 0,
+          "beliefs": 0,
+          "concerns": 0,
+          "localStateHidden": false
+        },
+        {
+          "id": "actor_0002",
+          "name": "Tamsin",
+          "actorKind": "npc",
+          "received": 2,
+          "reports": 0,
+          "beliefs": 4,
+          "concerns": 0,
+          "localStateHidden": false
+        },
+        {
+          "id": "actor_0003",
+          "name": "Nera Vale",
+          "actorKind": "absent",
+          "received": 0,
+          "reports": 0,
+          "beliefs": 0,
+          "concerns": 0,
+          "localStateHidden": false
+        },
+        {
+          "id": "actor_0004",
+          "name": "Orrin",
+          "actorKind": "npc",
+          "received": 2,
+          "reports": 0,
+          "beliefs": 1,
+          "concerns": 0,
+          "localStateHidden": false
+        }
+      ],
+      "sourceTypes": [
+        "event",
+        "world"
+      ]
+    },
+    {
+      "name": "initial",
+      "audience": "player",
+      "revision": 0,
+      "packageRef": {
+        "id": "package_0003",
+        "revision": 1,
+        "digest": "2ce9f61b996f17392a39c56f4005d8203b7940aa4974564fafa54d110e35ae8f"
+      },
+      "projectionMatchesFrozenProof": true,
+      "personSummaries": [
+        {
+          "id": "actor_0001",
+          "name": "Collector",
+          "actorKind": "human",
+          "received": 1,
+          "reports": 0,
+          "beliefs": 0,
+          "concerns": 0,
+          "localStateHidden": false
+        },
+        {
+          "id": "actor_0002",
+          "name": "Tamsin",
+          "actorKind": null,
+          "received": null,
+          "reports": null,
+          "beliefs": null,
+          "concerns": null,
+          "localStateHidden": true
+        },
+        {
+          "id": "actor_0003",
+          "name": "Nera Vale",
+          "actorKind": null,
+          "received": null,
+          "reports": null,
+          "beliefs": null,
+          "concerns": null,
+          "localStateHidden": true
+        },
+        {
+          "id": "actor_0004",
+          "name": "Orrin",
+          "actorKind": null,
+          "received": null,
+          "reports": null,
+          "beliefs": null,
+          "concerns": null,
+          "localStateHidden": true
+        }
+      ],
+      "sourceTypes": [
+        "event"
+      ]
+    },
+    {
+      "name": "warned",
+      "audience": "author",
+      "revision": 11,
+      "packageRef": {
+        "id": "package_0003",
+        "revision": 1,
+        "digest": "2ce9f61b996f17392a39c56f4005d8203b7940aa4974564fafa54d110e35ae8f"
+      },
+      "projectionMatchesFrozenProof": true,
+      "personSummaries": [
+        {
+          "id": "actor_0001",
+          "name": "Collector",
+          "actorKind": "human",
+          "received": 13,
+          "reports": 1,
+          "beliefs": 0,
+          "concerns": 0,
+          "localStateHidden": false
+        },
+        {
+          "id": "actor_0002",
+          "name": "Tamsin",
+          "actorKind": "npc",
+          "received": 14,
+          "reports": 0,
+          "beliefs": 4,
+          "concerns": 1,
+          "localStateHidden": false
+        },
+        {
+          "id": "actor_0003",
+          "name": "Nera Vale",
+          "actorKind": "absent",
+          "received": 0,
+          "reports": 0,
+          "beliefs": 0,
+          "concerns": 0,
+          "localStateHidden": false
+        },
+        {
+          "id": "actor_0004",
+          "name": "Orrin",
+          "actorKind": "npc",
+          "received": 5,
+          "reports": 0,
+          "beliefs": 1,
+          "concerns": 0,
+          "localStateHidden": false
+        }
+      ],
+      "sourceTypes": [
+        "event",
+        "message",
+        "action_result",
+        "world"
+      ]
+    },
+    {
+      "name": "warned",
+      "audience": "player",
+      "revision": 11,
+      "packageRef": {
+        "id": "package_0003",
+        "revision": 1,
+        "digest": "2ce9f61b996f17392a39c56f4005d8203b7940aa4974564fafa54d110e35ae8f"
+      },
+      "projectionMatchesFrozenProof": true,
+      "personSummaries": [
+        {
+          "id": "actor_0001",
+          "name": "Collector",
+          "actorKind": "human",
+          "received": 13,
+          "reports": 1,
+          "beliefs": 0,
+          "concerns": 0,
+          "localStateHidden": false
+        },
+        {
+          "id": "actor_0002",
+          "name": "Tamsin",
+          "actorKind": null,
+          "received": null,
+          "reports": null,
+          "beliefs": null,
+          "concerns": null,
+          "localStateHidden": true
+        },
+        {
+          "id": "actor_0003",
+          "name": "Nera Vale",
+          "actorKind": null,
+          "received": null,
+          "reports": null,
+          "beliefs": null,
+          "concerns": null,
+          "localStateHidden": true
+        },
+        {
+          "id": "actor_0004",
+          "name": "Orrin",
+          "actorKind": null,
+          "received": null,
+          "reports": null,
+          "beliefs": null,
+          "concerns": null,
+          "localStateHidden": true
+        }
+      ],
+      "sourceTypes": [
+        "message",
+        "action_result",
+        "event"
+      ]
+    },
+    {
+      "name": "acknowledged",
+      "audience": "author",
+      "revision": 19,
+      "packageRef": {
+        "id": "package_0003",
+        "revision": 1,
+        "digest": "2ce9f61b996f17392a39c56f4005d8203b7940aa4974564fafa54d110e35ae8f"
+      },
+      "projectionMatchesFrozenProof": true,
+      "personSummaries": [
+        {
+          "id": "actor_0001",
+          "name": "Collector",
+          "actorKind": "human",
+          "received": 21,
+          "reports": 1,
+          "beliefs": 0,
+          "concerns": 0,
+          "localStateHidden": false
+        },
+        {
+          "id": "actor_0002",
+          "name": "Tamsin",
+          "actorKind": "npc",
+          "received": 24,
+          "reports": 0,
+          "beliefs": 7,
+          "concerns": 1,
+          "localStateHidden": false
+        },
+        {
+          "id": "actor_0003",
+          "name": "Nera Vale",
+          "actorKind": "absent",
+          "received": 0,
+          "reports": 0,
+          "beliefs": 0,
+          "concerns": 0,
+          "localStateHidden": false
+        },
+        {
+          "id": "actor_0004",
+          "name": "Orrin",
+          "actorKind": "npc",
+          "received": 5,
+          "reports": 0,
+          "beliefs": 1,
+          "concerns": 0,
+          "localStateHidden": false
+        }
+      ],
+      "sourceTypes": [
+        "event",
+        "action_result",
+        "message",
+        "world"
+      ]
+    },
+    {
+      "name": "acknowledged",
+      "audience": "player",
+      "revision": 19,
+      "packageRef": {
+        "id": "package_0003",
+        "revision": 1,
+        "digest": "2ce9f61b996f17392a39c56f4005d8203b7940aa4974564fafa54d110e35ae8f"
+      },
+      "projectionMatchesFrozenProof": true,
+      "personSummaries": [
+        {
+          "id": "actor_0001",
+          "name": "Collector",
+          "actorKind": "human",
+          "received": 21,
+          "reports": 1,
+          "beliefs": 0,
+          "concerns": 0,
+          "localStateHidden": false
+        },
+        {
+          "id": "actor_0002",
+          "name": "Tamsin",
+          "actorKind": null,
+          "received": null,
+          "reports": null,
+          "beliefs": null,
+          "concerns": null,
+          "localStateHidden": true
+        },
+        {
+          "id": "actor_0003",
+          "name": "Nera Vale",
+          "actorKind": null,
+          "received": null,
+          "reports": null,
+          "beliefs": null,
+          "concerns": null,
+          "localStateHidden": true
+        },
+        {
+          "id": "actor_0004",
+          "name": "Orrin",
+          "actorKind": null,
+          "received": null,
+          "reports": null,
+          "beliefs": null,
+          "concerns": null,
+          "localStateHidden": true
+        }
+      ],
+      "sourceTypes": [
+        "message",
+        "action_result",
+        "event"
+      ]
+    },
+    {
+      "name": "recovery",
+      "audience": "author",
+      "revision": 20,
+      "packageRef": {
+        "id": "package_0003",
+        "revision": 1,
+        "digest": "2ce9f61b996f17392a39c56f4005d8203b7940aa4974564fafa54d110e35ae8f"
+      },
+      "projectionMatchesFrozenProof": true,
+      "personSummaries": [
+        {
+          "id": "actor_0001",
+          "name": "Collector",
+          "actorKind": "human",
+          "received": 22,
+          "reports": 1,
+          "beliefs": 0,
+          "concerns": 0,
+          "localStateHidden": false
+        },
+        {
+          "id": "actor_0002",
+          "name": "Tamsin",
+          "actorKind": "npc",
+          "received": 25,
+          "reports": 0,
+          "beliefs": 7,
+          "concerns": 1,
+          "localStateHidden": false
+        },
+        {
+          "id": "actor_0003",
+          "name": "Nera Vale",
+          "actorKind": "absent",
+          "received": 0,
+          "reports": 0,
+          "beliefs": 0,
+          "concerns": 0,
+          "localStateHidden": false
+        },
+        {
+          "id": "actor_0004",
+          "name": "Orrin",
+          "actorKind": "npc",
+          "received": 5,
+          "reports": 0,
+          "beliefs": 1,
+          "concerns": 0,
+          "localStateHidden": false
+        }
+      ],
+      "sourceTypes": [
+        "event",
+        "action_result",
+        "message",
+        "world"
+      ]
+    },
+    {
+      "name": "recovery",
+      "audience": "player",
+      "revision": 20,
+      "packageRef": {
+        "id": "package_0003",
+        "revision": 1,
+        "digest": "2ce9f61b996f17392a39c56f4005d8203b7940aa4974564fafa54d110e35ae8f"
+      },
+      "projectionMatchesFrozenProof": true,
+      "personSummaries": [
+        {
+          "id": "actor_0001",
+          "name": "Collector",
+          "actorKind": "human",
+          "received": 22,
+          "reports": 1,
+          "beliefs": 0,
+          "concerns": 0,
+          "localStateHidden": false
+        },
+        {
+          "id": "actor_0002",
+          "name": "Tamsin",
+          "actorKind": null,
+          "received": null,
+          "reports": null,
+          "beliefs": null,
+          "concerns": null,
+          "localStateHidden": true
+        },
+        {
+          "id": "actor_0003",
+          "name": "Nera Vale",
+          "actorKind": null,
+          "received": null,
+          "reports": null,
+          "beliefs": null,
+          "concerns": null,
+          "localStateHidden": true
+        },
+        {
+          "id": "actor_0004",
+          "name": "Orrin",
+          "actorKind": null,
+          "received": null,
+          "reports": null,
+          "beliefs": null,
+          "concerns": null,
+          "localStateHidden": true
+        }
+      ],
+      "sourceTypes": [
+        "message",
+        "action_result",
+        "event"
+      ]
+    }
+  ]
+}

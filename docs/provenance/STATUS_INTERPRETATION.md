@@ -11,3 +11,7 @@ ZANT: owner acceptance of R4 candidate 02, including A16, followed the earlier t
 The Stage 0-3 authorization confirms the accepted R4 versus failed/provisional R5 distinction. Historical resume prompts do not authorize authoring in this execution.
 
 Independent reports are prior evidence. This execution performs fresh preservation and foundation checks, not a fresh product acceptance run.
+
+## Stage 4 update
+
+Encounter/Atlas is imported byte-identically. The Stage 0-3 paragraph above is historical. Stage 4 adds file-integrity evidence only; migration build/behavior/browser acceptance remains pending Stage 5. Room Creator and ZANT remain unimported with their recorded statuses.

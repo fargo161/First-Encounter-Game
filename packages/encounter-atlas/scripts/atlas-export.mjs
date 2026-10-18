@@ -1,0 +1,15 @@
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import {fileURLToPath} from 'node:url';
+import {importRun} from '../src/m3/engine.mjs';
+import {projectAtlas,renderAtlasMarkdown,networkFromAtlas} from '../src/ar0/atlas.mjs';
+const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
+const [input,prefix,audience='author',catalogPath=path.join(root,'content/ar0/last-collection.json')]=process.argv.slice(2);
+if(!input||!prefix)throw Error('Usage: node scripts/atlas-export.mjs SAVE_JSON OUTPUT_PREFIX [author|player] [CATALOG_JSON]');
+const saved=JSON.parse(await fs.readFile(input,'utf8')),catalog=JSON.parse(await fs.readFile(catalogPath,'utf8'));
+const run=await importRun(saved,saved.package),projection=await projectAtlas(run,saved.package,catalog,{audience});
+await fs.mkdir(path.dirname(path.resolve(prefix)),{recursive:true});
+await fs.writeFile(prefix+'.json',JSON.stringify(projection,null,2)+'\n');
+await fs.writeFile(prefix+'.md',renderAtlasMarkdown(projection));
+await fs.writeFile(prefix+'-network.json',JSON.stringify(networkFromAtlas(projection),null,2)+'\n');
+console.log(JSON.stringify({audience,cards:projection.cards.length,links:projection.links.length,changes:projection.recentChanges.length,outputPrefix:prefix}));

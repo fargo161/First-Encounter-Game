@@ -1,0 +1,49 @@
+{
+  "package_name": "Encounter_M3_Codex_Handoff_v1",
+  "purpose": "Codex implementation handoff for Encounter System M3 only",
+  "baseline": {
+    "archive": "baseline/Encounter_M2_Checkpoint.zip",
+    "sha256": "940a0bfaed6e45861d425a899afcb29cd518f25a25ed2d877b5c1524a1421bd7",
+    "status": "independently verified; READY FOR NEXT SCOPE"
+  },
+  "scope": "M3 Seed A playable only; no M4+",
+  "locked_owner_rule": "No displayed closure notice = no closure.",
+  "architecture_boundary": "Encounter is host-agnostic; Trapstar routing/navigation context is reference-only.",
+  "members": [
+    {
+      "path": "Encounter_M3_Codex_Implementation_Prompt.md",
+      "bytes": 24419,
+      "sha256": "486d12cbab038417a18da09af4daa1ae719f4b529be6e64258a49d5d1434cc12"
+    },
+    {
+      "path": "START_HERE.md",
+      "bytes": 5016,
+      "sha256": "538d9006ab308c26d1203854889af4cb5bb6d84770535dc97afb575ef28f7080"
+    },
+    {
+      "path": "reference/REFERENCE_ONLY_HOST_BOUNDARY.md",
+      "bytes": 799,
+      "sha256": "b3f4db6272c3c404038e91b7dd2baa9d504b08fe5713397c35ed4443e586e5de"
+    },
+    {
+      "path": "reference/Trapstar_Routing_Player_Movement_NPC_Lanes_Context.md",
+      "bytes": 38194,
+      "sha256": "f223a96332840e1b51fb761f0f8d6df300f25dc04bfa68146cb4081b7b6fdd5e"
+    },
+    {
+      "path": "review/M2_Independent_Test_Evidence.zip",
+      "bytes": 2176404,
+      "sha256": "dd0e7e2423b389f070591cac999e657297bc6fbaa6b9842c1f2f321c5fb68518"
+    },
+    {
+      "path": "review/M2_Independent_Test_Report.md",
+      "bytes": 19131,
+      "sha256": "ecc2eb1085eeb7f7137919cf994eceadd277e13261524a5c525abe352cda059b"
+    },
+    {
+      "path": "baseline/Encounter_M2_Checkpoint.zip",
+      "bytes": 1855021,
+      "sha256": "940a0bfaed6e45861d425a899afcb29cd518f25a25ed2d877b5c1524a1421bd7"
+    }
+  ]
+}

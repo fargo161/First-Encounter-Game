@@ -1,0 +1,58 @@
+{
+  "sourceRevision": "M1-contract-v2",
+  "sourceDigest": "137b1eeda83f325392ffc3b137a90574bd527801c7a766287e0a08c74015e171",
+  "files": [
+    {
+      "path": "package.json",
+      "sha256": "5b4fb83fc160c701da73b47edb68d7d7befd12fab23ee42063c1cf7329e09f5d"
+    },
+    {
+      "path": "scripts/audit-baseline.cjs",
+      "sha256": "de46809ac6b84a7d25c5af45bd7932fb9bf54f9c776e172950612e80975eede9"
+    },
+    {
+      "path": "scripts/snapshot.py",
+      "sha256": "d09da945e4b85612ed6742fc63c9b69dd4c6e7003408bc696535950e12e90732"
+    },
+    {
+      "path": "scripts/source-identity.py",
+      "sha256": "dab2f0cdb7a8931d0fb483bfdcd727ae7b49a693960e75bb4dd72cecc7dc7d8b"
+    },
+    {
+      "path": "scripts/verify-checkpoint.py",
+      "sha256": "9c4d0defcdae566646556046500564a868f984de68c44bbd01f860a1b705d35d"
+    },
+    {
+      "path": "src/action-boundary.mjs",
+      "sha256": "9e8b88efd9dd303fc2b0c5ac7f12a164a84a70c340cb7efe5e19c0727082f641"
+    },
+    {
+      "path": "src/contracts.mjs",
+      "sha256": "db7de91d1e53c687b4f0469238d51a9c95e8944ecbfb1388c975536aa4c96b78"
+    },
+    {
+      "path": "src/runtime.mjs",
+      "sha256": "657d97f16704c973a7696c712a53e9afe55cecd40a4dfdfbbb5e331ef9eecf89"
+    },
+    {
+      "path": "src/views.mjs",
+      "sha256": "be8138af95f8a3b5758d08013dd171b581c41db7448c9efa880645b8014b0ab9"
+    },
+    {
+      "path": "tests/fixtures.mjs",
+      "sha256": "f4ddba46ab2804f0358d78c07d30c9c26adca42ea825b2744fee780ddb8b85e4"
+    },
+    {
+      "path": "tests/identity-regressions.test.mjs",
+      "sha256": "1aa8fa0650ea91c303519dac32966f10604a3552e76281444bb5ec6e4c787d00"
+    },
+    {
+      "path": "tests/runtime.test.mjs",
+      "sha256": "0b6da3c6f02565c02f0ed461fa63da0f4295514dce47967b727f17a63bf1e2a5"
+    },
+    {
+      "path": "tests/views.test.mjs",
+      "sha256": "159b1767ce62d9c4796e5a5c66ced265d9bdbd17ef0242516c8ccc548b047358"
+    }
+  ]
+}

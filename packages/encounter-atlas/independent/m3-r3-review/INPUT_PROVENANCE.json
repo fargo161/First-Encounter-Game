@@ -1,0 +1,12 @@
+{
+  "originalEvidenceZip": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\outputs\\M3_R3_Independent_Test_Evidence.zip",
+  "sha256": "f409474a3f7eb591c8b6911ca27b115d075554b3ed346e43448436545a7f9ce5",
+  "selection": [
+    "independent-r3-display.test.mjs",
+    "evidence/r3-fresh-warned.json",
+    "evidence/display-collapse-geometry.json",
+    "REVIEW_SCOPE_CLARIFICATION.md"
+  ],
+  "testSourceByteIdenticalToSupplied": true,
+  "knownNonBlockingCase": "IR3-25 retained unchanged; full suite expected 24 pass, 1 non-blocking synthetic hardening failure"
+}

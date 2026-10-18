@@ -1,0 +1,11 @@
+{
+  "name": "r1-proof-evidence",
+  "args": [
+    "node",
+    "scripts/generate-ar0-r1-evidence.mjs"
+  ],
+  "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\atlas-a1-inherited-gates\\checkpoint",
+  "exitCode": 0,
+  "stdout": "{\"result\":\"PASS\",\"normalSuppliedProjectionsByteIdentical\":36,\"freshBrowserProjections\":26,\"checks\":12,\"allSavesReplayedEveryCommandRetried\":true,\"allProjectionsPureDeterministicSaveLoadStable\":true}\n",
+  "stderr": ""
+}

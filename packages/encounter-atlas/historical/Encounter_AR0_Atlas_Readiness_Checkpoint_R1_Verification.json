@@ -1,0 +1,189 @@
+{
+  "result": "PASS",
+  "snapshot": "Encounter_AR0_Atlas_Readiness_Checkpoint_R1.zip",
+  "sha256": "f5566fdcfa82dc8aaee9378d7a0e894f10a4a2342100b7665cbd1c23e26e72da",
+  "bytes": 110840429,
+  "members": 2310,
+  "allMemberHashesSizesCRCsSafeUniqueRegularVerified": true,
+  "freshExtraction": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\ar0-r1-frozen-verification\\checkpoint",
+  "sourceRevision": "AR0-projection-v1-R1-D01",
+  "sourceDigest": "8dd542efed9f74573bcb1913d367f7c791d63c3830d65b7f35f68abdcb92f09c",
+  "sourceInputsIndependentlyEnumerated": 112,
+  "unchangedOriginalAR0Members": 1785,
+  "intentionalChangedOriginalMembers": [
+    "src/ar0/atlas.mjs"
+  ],
+  "all1430AcceptedM3R3MembersByteIdentical": true,
+  "originalAR0AndAcceptedM3R3ZIPsAndDeliveredTreesUnchanged": true,
+  "deterministicZIPAndExternalIdentityReexportByteIdentical": true,
+  "overwriteRefused": true,
+  "freshExtractedAR0AndD01Tests": 57,
+  "freshExtractedIndependentAR0Tests": 22,
+  "normalCLIMatchesPackagedProofs": true,
+  "conflictingCatalogRejectedByBothCLIExports": true,
+  "fullRegressionSummary": {
+    "result": "PASS",
+    "sourceRevision": "AR0-projection-v1-R1-D01",
+    "sourceDigest": "8dd542efed9f74573bcb1913d367f7c791d63c3830d65b7f35f68abdcb92f09c",
+    "M0Audit": {
+      "pass": 7,
+      "fail": 0
+    },
+    "suites": [
+      {
+        "suite": "Builder M1/M2/M3/R1/R2/R3 + AR0 + D01",
+        "log": "evidence/ar0-r1/regression/regression/regression/m0-m3/fresh-builder-tests.tap",
+        "tests": 194,
+        "pass": 194,
+        "fail": 0,
+        "skipped": 0
+      },
+      {
+        "suite": "Independent M1",
+        "log": "evidence/ar0-r1/regression/regression/regression/m0-m3/fresh-independent-m1.tap",
+        "tests": 22,
+        "pass": 22,
+        "fail": 0,
+        "skipped": 0
+      },
+      {
+        "suite": "Independent M2",
+        "log": "evidence/ar0-r1/regression/regression/regression/m0-m3/fresh-independent-m2.tap",
+        "tests": 18,
+        "pass": 18,
+        "fail": 0,
+        "skipped": 0
+      },
+      {
+        "suite": "Prior independent M3",
+        "log": "evidence/ar0-r1/regression/regression/regression/prior-m3/fresh-independent-m3.txt",
+        "tests": 18,
+        "pass": 18,
+        "fail": 0,
+        "skipped": 0
+      },
+      {
+        "suite": "Original M3 D01",
+        "log": "evidence/ar0-r1/regression/regression/regression/prior-m3/fresh-independent-d01.txt",
+        "tests": 1,
+        "pass": 1,
+        "fail": 0,
+        "skipped": 0
+      },
+      {
+        "suite": "Independent R1/D02",
+        "log": "evidence/ar0-r1/regression/regression/regression/r2/fresh-independent-d02.json",
+        "tests": 9,
+        "pass": 9,
+        "fail": 0,
+        "skipped": 0
+      },
+      {
+        "suite": "Independent R2/D03",
+        "log": "evidence/ar0-r1/regression/regression/fresh-independent-r2.json",
+        "tests": 20,
+        "pass": 20,
+        "fail": 0,
+        "skipped": 0
+      },
+      {
+        "suite": "Independent R3 (IR3-25 preserved)",
+        "log": "evidence/ar0-r1/regression/fresh-independent-r3.json",
+        "tests": 25,
+        "pass": 24,
+        "fail": 1,
+        "skipped": 0
+      },
+      {
+        "suite": "Independent AR0 incl. original D01 reproducer",
+        "log": "evidence/ar0-r1/fresh-independent-ar0.json",
+        "tests": 22,
+        "pass": 22,
+        "fail": 0,
+        "skipped": 0
+      }
+    ],
+    "totalOverlappingSuitePasses": 328,
+    "newBlockingFailures": 0,
+    "acceptedUnchangedIR3_25Failures": 1,
+    "skipped": 0,
+    "freshBrowserChecks": 12,
+    "freshBrowserExports": 13,
+    "freshProofProjections": 26,
+    "normalOriginalProjectionsByteIdentical": 36
+  },
+  "knownIR3_25UnchangedSHA256": "52386d28e3e7388b643b3cc0fd446c1b9386ab4702d960f062042ba0c5070f75",
+  "commands": [
+    {
+      "name": "identity-recomputed",
+      "exitCode": 0,
+      "expectedExitCode": 0
+    },
+    {
+      "name": "deterministic-reexport",
+      "exitCode": 0,
+      "expectedExitCode": 0
+    },
+    {
+      "name": "overwrite-refusal",
+      "exitCode": 1,
+      "expectedExitCode": 1
+    },
+    {
+      "name": "fresh-extraction-ar0-and-d01",
+      "exitCode": 0,
+      "expectedExitCode": 0
+    },
+    {
+      "name": "fresh-extraction-independent-ar0",
+      "exitCode": 0,
+      "expectedExitCode": 0
+    },
+    {
+      "name": "normal-cli-author",
+      "exitCode": 0,
+      "expectedExitCode": 0
+    },
+    {
+      "name": "conflicting-cli-author",
+      "exitCode": 1,
+      "expectedExitCode": 1
+    },
+    {
+      "name": "normal-cli-player",
+      "exitCode": 0,
+      "expectedExitCode": 0
+    },
+    {
+      "name": "conflicting-cli-player",
+      "exitCode": 1,
+      "expectedExitCode": 1
+    }
+  ],
+  "retainedOriginalAR0EvidenceGate": {
+    "exitCode": 0,
+    "command": [
+      "node",
+      "scripts/generate-ar0-evidence.mjs"
+    ],
+    "executionNote": "Retained original AR0 browser/proof evidence gate in disposable frozen extraction; historical labels unchanged in this tool.",
+    "summary": {
+      "result": "PASS",
+      "sourceRevision": "AR0-projection-v1",
+      "sourceDigest": "4589645177076d67067270df6d6020618b8fb200236fef584807a1921d0768ca",
+      "unchangedM3BuildSHA256": "8e1c14e25a515b92188703927344e97b744921ec9b033ee2b1d8cc0b63f517cb",
+      "browserRuns": 18,
+      "rawInspectorsCompared": 3,
+      "proofProjections": 36,
+      "allProjectionsDeterministicPureAndSaveLoadStable": true,
+      "allBrowserJournalsReplayedAndEveryExactCommandRetryValidated": true,
+      "playerPrivateValueLeak": false,
+      "allRenderingFaultsProtected": true,
+      "visibleClosureExactlyOnce": true,
+      "recoveryProtected": true,
+      "saveLoadAndUIReplayEquality": true,
+      "checks": 14
+    },
+    "recordSHA256": "b68c5fc0f5861de98524f68be18427db19e8759343c1c08ecdb23206a0ebc387"
+  }
+}

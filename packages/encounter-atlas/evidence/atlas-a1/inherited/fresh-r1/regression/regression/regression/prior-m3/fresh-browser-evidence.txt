@@ -1,0 +1,13 @@
+{
+  "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\atlas-a1-inherited-gates\\encounter-r3-regression-y38dntfq",
+  "executable": "C:\\Program Files\\nodejs\\node.EXE",
+  "args": [
+    "scripts/generate-m3-d01-evidence.mjs"
+  ],
+  "environmentBinding": {
+    "M3_CHECKPOINT": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\atlas-a1-inherited-gates\\encounter-r3-regression-y38dntfq"
+  },
+  "exitCode": 0,
+  "stdout": "{\"result\":\"PASS\",\"sourceRevision\":\"M3-runtime-v1-R3-D03\",\"sourceDigest\":\"8df8db981955a28900e0e49b52c56ea4dfb9242e722d6f767417396ae4b65e5a\",\"buildSHA256\":\"8e1c14e25a515b92188703927344e97b744921ec9b033ee2b1d8cc0b63f517cb\",\"packageRef\":{\"id\":\"package_0003\",\"revision\":1,\"digest\":\"2ce9f61b996f17392a39c56f4005d8203b7940aa4974564fafa54d110e35ae8f\"},\"validatedBrowserExports\":10,\"beforeDefectReproduced\":true,\"afterTransparentFallbackPass\":true,\"offscreenFallbackPass\":true,\"visibleClosurePass\":true,\"exactSaveLoadEquality\":true,\"recoveryAndPostRecoveryPass\":true,\"browserChecks\":8}\n",
+  "stderr": ""
+}

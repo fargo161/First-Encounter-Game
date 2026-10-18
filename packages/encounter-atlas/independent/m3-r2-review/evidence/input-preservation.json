@@ -1,0 +1,42 @@
+[
+  {
+    "path": "C:\\Users\\mcdon\\Downloads\\Encounter_M3_R2_Independent_Rereview_Handoff.zip",
+    "bytes": 94258152,
+    "sha256": "e9bd73b2e4f96a429c3fe9ef56384c1611037f6ab08b7cefb0cb512f6bd6cba4"
+  },
+  {
+    "path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\m3-r2-independent-review\\handoff\\Encounter_M3_Checkpoint_R2.identity.json",
+    "bytes": 227686,
+    "sha256": "4172728753ef8cc04c693ee1f7d9533015f3d073fc72c8136fd05c34eac9e844"
+  },
+  {
+    "path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\m3-r2-independent-review\\handoff\\Encounter_M3_Checkpoint_R2.zip",
+    "bytes": 94187091,
+    "sha256": "c3c866834b64aebc573b42e2839e173bed486cdc8125a0287ddcd952f43a1a10"
+  },
+  {
+    "path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\m3-r2-independent-review\\handoff\\Encounter_M3_Checkpoint_R2_Verification.json",
+    "bytes": 18373,
+    "sha256": "77226b761f86d5ea9333752c6fb6e96d94ff4894fead145574452b026e70f8f6"
+  },
+  {
+    "path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\m3-r2-independent-review\\handoff\\Encounter_M3_R2_Independent_Tester_Prompt.md",
+    "bytes": 7546,
+    "sha256": "4b5917652864d91ba8bc4691562c36b00f6a12b2423ebe679b192292c16f6fd3"
+  },
+  {
+    "path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\m3-r2-independent-review\\handoff\\M3_D02_Remediation_Report.md",
+    "bytes": 11625,
+    "sha256": "9a557655d5e84b95d02233c7df4041148af08da24675cb33fc664605230cf552"
+  },
+  {
+    "path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\m3-r2-independent-review\\handoff\\R2_README.md",
+    "bytes": 5340,
+    "sha256": "1f6f82e9d39062b8a0a4d5477d60ddfdfde76a48bc237ca856b127c205b49fa9"
+  },
+  {
+    "path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\m3-r2-independent-review\\handoff\\START_HERE.md",
+    "bytes": 670,
+    "sha256": "441273a3b1f0e322d3986c9e593c09898e7e699a2ef8e832830a284b31b9a517"
+  }
+]

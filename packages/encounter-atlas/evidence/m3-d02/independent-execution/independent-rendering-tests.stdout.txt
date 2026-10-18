@@ -1,0 +1,138 @@
+TAP version 13
+# Subtest: IR1-01 production guard rejects fully transparent own opacity with correct fallback
+ok 1 - IR1-01 production guard rejects fully transparent own opacity with correct fallback
+  ---
+  duration_ms: 89.864
+  type: 'test'
+  ...
+# Subtest: IR1-02 production guard rejects fully transparent ancestor with correct fallback
+ok 2 - IR1-02 production guard rejects fully transparent ancestor with correct fallback
+  ---
+  duration_ms: 81.5978
+  type: 'test'
+  ...
+# Subtest: IR1-03 vertical offscreen, hidden, display-none and zero-height remain invalid
+ok 3 - IR1-03 vertical offscreen, hidden, display-none and zero-height remain invalid
+  ---
+  duration_ms: 332.2248
+  type: 'test'
+  ...
+# Subtest: IR1-04 M3-D02 horizontally offscreen notice must not close service
+not ok 4 - IR1-04 M3-D02 horizontally offscreen notice must not close service
+  ---
+  duration_ms: 83.5143
+  type: 'test'
+  location: 'C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\m3-r1-independent-review\\independent-r1-display.test.mjs:29:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    Invisible notice must not authorize service closure
+    + actual - expected
+    
+      {
+    +   closeResults: 1,
+    +   defects: [],
+    +   displayed: true,
+    +   serviceOpen: false
+    -   closeResults: 0,
+    -   defects: [
+    -     'MISSING_CLOSURE_PREVIEW'
+    -   ],
+    -   displayed: false,
+    -   serviceOpen: true
+      }
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected:
+    displayed: false
+    serviceOpen: true
+    closeResults: 0
+    defects:
+      0: 'MISSING_CLOSURE_PREVIEW'
+  actual:
+    displayed: true
+    serviceOpen: false
+    closeResults: 1
+    defects:
+  operator: 'deepStrictEqual'
+  stack: |-
+    noDisplay (file:///C:/Users/mcdon/Documents/ChatGPT/encounter%20and%20rc/work/m3-r1-independent-review/independent-r1-display.test.mjs:23:9)
+    async Test.run (node:internal/test_runner/test:1332:7)
+    async Test.processPendingSubtests (node:internal/test_runner/test:911:7)
+  ...
+# Subtest: IR1-05 M3-D02 zero-width notice must not close service
+not ok 5 - IR1-05 M3-D02 zero-width notice must not close service
+  ---
+  duration_ms: 83.4595
+  type: 'test'
+  location: 'C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\m3-r1-independent-review\\independent-r1-display.test.mjs:30:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    Invisible notice must not authorize service closure
+    + actual - expected
+    
+      {
+    +   closeResults: 1,
+    +   defects: [],
+    +   displayed: true,
+    +   serviceOpen: false
+    -   closeResults: 0,
+    -   defects: [
+    -     'MISSING_CLOSURE_PREVIEW'
+    -   ],
+    -   displayed: false,
+    -   serviceOpen: true
+      }
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected:
+    displayed: false
+    serviceOpen: true
+    closeResults: 0
+    defects:
+      0: 'MISSING_CLOSURE_PREVIEW'
+  actual:
+    displayed: true
+    serviceOpen: false
+    closeResults: 1
+    defects:
+  operator: 'deepStrictEqual'
+  stack: |-
+    noDisplay (file:///C:/Users/mcdon/Documents/ChatGPT/encounter%20and%20rc/work/m3-r1-independent-review/independent-r1-display.test.mjs:23:9)
+    async Test.run (node:internal/test_runner/test:1332:7)
+    async Test.processPendingSubtests (node:internal/test_runner/test:911:7)
+  ...
+# Subtest: IR1-06 actual visible current notice closes exactly once and retries reuse result
+ok 6 - IR1-06 actual visible current notice closes exactly once and retries reuse result
+  ---
+  duration_ms: 74.1852
+  type: 'test'
+  ...
+# Subtest: IR1-07 truthful display receipt survives subsequent real offscreen scroll
+ok 7 - IR1-07 truthful display receipt survives subsequent real offscreen scroll
+  ---
+  duration_ms: 8.4502
+  type: 'test'
+  ...
+# Subtest: IR1-08 marked stale or edited draft cannot reuse its receipt for another command
+ok 8 - IR1-08 marked stale or edited draft cannot reuse its receipt for another command
+  ---
+  duration_ms: 100.0136
+  type: 'test'
+  ...
+# Subtest: IR1-09 fresh browser results replay and equal actual inspector exports
+ok 9 - IR1-09 fresh browser results replay and equal actual inspector exports
+  ---
+  duration_ms: 5150.6887
+  type: 'test'
+  ...
+1..9
+# tests 9
+# suites 0
+# pass 7
+# fail 2
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 7419.357

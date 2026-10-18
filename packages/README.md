@@ -1,3 +1,5 @@
-# Subsystem placeholders
+# Subsystem packages
 
-The three directories contain documentation only. No source or binary payload has been imported. Preserve package-local builds/tests and the Encounter/Atlas internal boundaries during a later authorized import. Additional subsystem packages require a real implementation lane; do not create speculative implementations.
+encounter-atlas contains the complete accepted A1 snapshot, imported byte-identically in Stage 4. Its original internal layout, tests, data and preservation dependencies are unchanged.
+
+room-creator and zant contain README placeholders only. Their imports are not authorized. Stage 5 Encounter/Atlas verification also requires explicit new authorization.

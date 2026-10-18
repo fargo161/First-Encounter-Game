@@ -1,0 +1,12 @@
+[
+  {
+    "pid": 34580,
+    "verifiedCommandLine": "\"C:\\Users\\mcdon\\AppData\\Local\\Programs\\Python\\Python312\\python.exe\" -u \"C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\m3-independent-review\\checkpoint\\scripts\\serve-m3.py\"",
+    "stopped": true
+  },
+  {
+    "pid": 15264,
+    "verifiedCommandLine": "\"C:\\Users\\mcdon\\AppData\\Local\\Programs\\Python\\Python312\\python.exe\" -u \"C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\m3-independent-review\\display-fault.py\"",
+    "stopped": true
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "name": "identity",
+  "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\Encounter_AR0",
+  "executable": "C:\\Users\\mcdon\\AppData\\Local\\Programs\\Python\\Python312\\python.EXE",
+  "args": [
+    "scripts/identity-ar0.py"
+  ],
+  "M3_CHECKPOINT": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\Encounter_AR0",
+  "exitCode": 0,
+  "expectedExitCode": 0,
+  "stdout": "{\"sourceRevision\": \"AR0-projection-v1\", \"sourceDigest\": \"4589645177076d67067270df6d6020618b8fb200236fef584807a1921d0768ca\", \"baselineR3SourceDigest\": \"a609f63c56ed1e047f44e8f3ef28b21f91adec9e40e35d08eb988d0e78de9362\", \"M3BuildSHA256\": \"8e1c14e25a515b92188703927344e97b744921ec9b033ee2b1d8cc0b63f517cb\", \"catalogSHA256\": \"21a0747936c3e8e7e9cf33833348ff6eb7b07a183179ce1e21181d618c854c5b\"}\n",
+  "stderr": ""
+}

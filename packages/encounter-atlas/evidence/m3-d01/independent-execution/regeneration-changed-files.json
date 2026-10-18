@@ -1,0 +1,11 @@
+[
+  "evidence/m3/executed-commands.json",
+  "evidence/m3/fresh-build.txt",
+  "evidence/m3/fresh-builder-tests.tap",
+  "evidence/m3/fresh-generated-evidence.txt",
+  "evidence/m3/fresh-independent-m1.tap",
+  "evidence/m3/fresh-independent-m2.tap",
+  "evidence/m3/fresh-m0-audit.txt",
+  "evidence/m3/fresh-preservation.txt",
+  "evidence/m3/fresh-source-identity.txt"
+]

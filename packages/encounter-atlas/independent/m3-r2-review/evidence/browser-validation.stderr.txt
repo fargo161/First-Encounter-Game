@@ -1,0 +1,13 @@
+file:///C:/Users/mcdon/Documents/ChatGPT/encounter%20and%20rc/work/m3-r2-independent-review/checkpoint/src/contracts.mjs:6
+  if (!condition) throw new ContractError(code);
+                        ^
+
+ContractError: INVALID_RECORD
+    at requireThat (file:///C:/Users/mcdon/Documents/ChatGPT/encounter%20and%20rc/work/m3-r2-independent-review/checkpoint/src/contracts.mjs:6:25)
+    at fields (file:///C:/Users/mcdon/Documents/ChatGPT/encounter%20and%20rc/work/m3-r2-independent-review/checkpoint/src/contracts.mjs:50:3)
+    at Module.importRun (file:///C:/Users/mcdon/Documents/ChatGPT/encounter%20and%20rc/work/m3-r2-independent-review/checkpoint/src/m3/engine.mjs:294:23)
+    at file:///C:/Users/mcdon/Documents/ChatGPT/encounter%20and%20rc/work/m3-r2-independent-review/export-evidence.mjs:13:80 {
+  code: 'INVALID_RECORD'
+}
+
+Node.js v24.18.0

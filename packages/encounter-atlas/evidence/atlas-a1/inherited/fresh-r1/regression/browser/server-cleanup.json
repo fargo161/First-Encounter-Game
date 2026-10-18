@@ -1,0 +1,6 @@
+{
+  "pid": 27972,
+  "verifiedCommandLine": "\"C:\\Users\\mcdon\\AppData\\Local\\Programs\\Python\\Python312\\python.exe\" \"C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\Encounter_AR0\\scripts\\serve-ar0.py\"",
+  "stopped": true,
+  "purpose": "Only the temporary AR0 loopback rendering verification helper"
+}

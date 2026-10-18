@@ -1,0 +1,411 @@
+{
+  "cwd": "C:\\Users\\mcdon\\Documents\\Codex\\2026-10-17\\execute-encounter-codex-lead-builder-m0\\outputs\\Encounter_M2",
+  "executable": "C:\\Program Files\\nodejs\\node.EXE",
+  "args": [
+    "--test",
+    "--test-reporter=tap",
+    "tests/*.test.mjs"
+  ],
+  "environmentBinding": {
+    "ENCOUNTER_CHECKPOINT": "C:\\Users\\mcdon\\Documents\\Codex\\2026-10-17\\execute-encounter-codex-lead-builder-m0\\outputs\\Encounter_M2"
+  },
+  "exitCode": 0
+}
+
+STDOUT
+TAP version 13
+# Subtest: D01-A regression: caller aliases cannot change the command resolved, receipted or journaled
+ok 1 - D01-A regression: caller aliases cannot change the command resolved, receipted or journaled
+  ---
+  duration_ms: 10.1073
+  type: 'test'
+  ...
+# Subtest: D01-B regression: caller request/result alias mutation cannot disguise an applied result
+ok 2 - D01-B regression: caller request/result alias mutation cannot disguise an applied result
+  ---
+  duration_ms: 1.9108
+  type: 'test'
+  ...
+# Subtest: M2-01 complete connected interaction commits once per deliberate action and returns two phases
+ok 3 - M2-01 complete connected interaction commits once per deliberate action and returns two phases
+  ---
+  duration_ms: 48.154
+  type: 'test'
+  ...
+# Subtest: M2-02 repeated preview edits and abandonment do not mutate any run/NPC/event state
+ok 4 - M2-02 repeated preview edits and abandonment do not mutate any run/NPC/event state
+  ---
+  duration_ms: 8.4439
+  type: 'test'
+  ...
+# Subtest: M2-03 semantic BASED changes outward meaning, not just a reaction multiplier
+ok 5 - M2-03 semantic BASED changes outward meaning, not just a reaction multiplier
+  ---
+  duration_ms: 4.4625
+  type: 'test'
+  ...
+# Subtest: M2-04 all salience settings preserve content, framing, people, targets and terms across both acts
+ok 6 - M2-04 all salience settings preserve content, framing, people, targets and terms across both acts
+  ---
+  duration_ms: 55.6743
+  type: 'test'
+  ...
+# Subtest: M2-05 all nine ordinary first-request expressions receive protection and limited access
+ok 7 - M2-05 all nine ordinary first-request expressions receive protection and limited access
+  ---
+  duration_ms: 71.5113
+  type: 'test'
+  ...
+# Subtest: M2-06 initial menu/reference projection reveals no hidden file split or contact value
+ok 8 - M2-06 initial menu/reference projection reveals no hidden file split or contact value
+  ---
+  duration_ms: 3.0793
+  type: 'test'
+  ...
+# Subtest: M2-07 permission without inspection discloses vocabulary only; printing requires an action
+ok 9 - M2-07 permission without inspection discloses vocabulary only; printing requires an action
+  ---
+  duration_ms: 8.3221
+  type: 'test'
+  ...
+# Subtest: M2-08 performed inspection discloses print only to the player; the clerk observes conduct
+ok 10 - M2-08 performed inspection discloses print only to the player; the clerk observes conduct
+  ---
+  duration_ms: 15.7952
+  type: 'test'
+  ...
+# Subtest: M2-09 follow-up teaches the report as a claim, not as firsthand reading or a canonical rewrite
+ok 11 - M2-09 follow-up teaches the report as a claim, not as firsthand reading or a canonical rewrite
+  ---
+  duration_ms: 23.4194
+  type: 'test'
+  ...
+# Subtest: M2-10 real source-event pointers cannot reveal concealed contact fields
+ok 12 - M2-10 real source-event pointers cannot reveal concealed contact fields
+  ---
+  duration_ms: 30.4934
+  type: 'test'
+  ...
+# Subtest: M2-11 actual result redelivery is a no-op at the application boundary
+ok 13 - M2-11 actual result redelivery is a no-op at the application boundary
+  ---
+  duration_ms: 29.187
+  type: 'test'
+  ...
+# Subtest: M2-12 exact retry after follow-up reuses receipt; collision and new stale command have no effects
+ok 14 - M2-12 exact retry after follow-up reuses receipt; collision and new stale command have no effects
+  ---
+  duration_ms: 25.641
+  type: 'test'
+  ...
+# Subtest: M2-13 full connected paths with equal outward content and different private selections have equal listener results
+ok 15 - M2-13 full connected paths with equal outward content and different private selections have equal listener results
+  ---
+  duration_ms: 71.2623
+  type: 'test'
+  ...
+# Subtest: M2-14 unlearned contact-world perturbation leaves actual policy and later reply unchanged
+ok 16 - M2-14 unlearned contact-world perturbation leaves actual policy and later reply unchanged
+  ---
+  duration_ms: 54.619
+  type: 'test'
+  ...
+# Subtest: M2-15 inspector refresh and Intake/Delivery replay/skip reads do not mutate a run
+ok 17 - M2-15 inspector refresh and Intake/Delivery replay/skip reads do not mutate a run
+  ---
+  duration_ms: 42.0256
+  type: 'test'
+  ...
+# Subtest: M2-16 missing final wording/art uses complete fallback phases without changing mechanics
+ok 18 - M2-16 missing final wording/art uses complete fallback phases without changing mechanics
+  ---
+  duration_ms: 39.9705
+  type: 'test'
+  ...
+# Subtest: M2-17 tampered preview and missing permission are technical failures without fictional action
+ok 19 - M2-17 tampered preview and missing permission are technical failures without fictional action
+  ---
+  duration_ms: 3.5432
+  type: 'test'
+  ...
+# Subtest: M2-18 a valid social refusal still records hearing and changes no material state
+ok 20 - M2-18 a valid social refusal still records hearing and changes no material state
+  ---
+  duration_ms: 7.1563
+  type: 'test'
+  ...
+# Subtest: M2-19 neutral renamed actors/items and arbitrary IDs run the same reusable policy end to end
+ok 21 - M2-19 neutral renamed actors/items and arbitrary IDs run the same reusable policy end to end
+  ---
+  duration_ms: 29.7701
+  type: 'test'
+  ...
+# Subtest: M2-20 save/load validates exact package and replays journal without duplicating effects
+ok 22 - M2-20 save/load validates exact package and replays journal without duplicating effects
+  ---
+  duration_ms: 150.8176
+  type: 'test'
+  ...
+# Subtest: M2-21 changed package bytes cannot silently replace a pinned package
+ok 23 - M2-21 changed package bytes cannot silently replace a pinned package
+  ---
+  duration_ms: 33.0141
+  type: 'test'
+  ...
+# Subtest: M2-22 soft opportunity reminder never closes service or depends on playback time
+ok 24 - M2-22 soft opportunity reminder never closes service or depends on playback time
+  ---
+  duration_ms: 1045.2919
+  type: 'test'
+  ...
+# Subtest: M2-23 reviewed R2 production modules remain byte-identical
+ok 25 - M2-23 reviewed R2 production modules remain byte-identical
+  ---
+  duration_ms: 5.5232
+  type: 'test'
+  ...
+# Subtest: M2-24 compiler can accept an additional catalog entry without a three-vibe branch
+ok 26 - M2-24 compiler can accept an additional catalog entry without a three-vibe branch
+  ---
+  duration_ms: 11.9654
+  type: 'test'
+  ...
+# Subtest: M2-25 unsupported exchange is explicit and creates no transfer
+ok 27 - M2-25 unsupported exchange is explicit and creates no transfer
+  ---
+  duration_ms: 2.9988
+  type: 'test'
+  ...
+# Subtest: M2-26 selector/provenance/cache data never enters actual policy inputs or decision features
+ok 28 - M2-26 selector/provenance/cache data never enters actual policy inputs or decision features
+  ---
+  duration_ms: 22.7049
+  type: 'test'
+  ...
+# Subtest: new valid command stages once; caller state remains unchanged
+ok 29 - new valid command stages once; caller state remains unchanged
+  ---
+  duration_ms: 4.8427
+  type: 'test'
+  ...
+# Subtest: REQUIRED: identical committed retry returns saved receipt before stale revision check
+ok 30 - REQUIRED: identical committed retry returns saved receipt before stale revision check
+  ---
+  duration_ms: 1.3146
+  type: 'test'
+  ...
+# Subtest: REQUIRED: same identity and changed payload rejects as conflict even when stale
+ok 31 - REQUIRED: same identity and changed payload rejects as conflict even when stale
+  ---
+  duration_ms: 1.855
+  type: 'test'
+  ...
+# Subtest: REQUIRED: a new identity with obsolete revision rejects without any effect
+ok 32 - REQUIRED: a new identity with obsolete revision rejects without any effect
+  ---
+  duration_ms: 1.6155
+  type: 'test'
+  ...
+# Subtest: identity conflict is resolved before new-envelope support validation
+ok 33 - identity conflict is resolved before new-envelope support validation
+  ---
+  duration_ms: 1.1423
+  type: 'test'
+  ...
+# Subtest: object field ordering is irrelevant; arrays retain their order
+ok 34 - object field ordering is irrelevant; arrays retain their order
+  ---
+  duration_ms: 1.5474
+  type: 'test'
+  ...
+# Subtest: a deliberate repeat with current revision and new identity is a new command
+ok 35 - a deliberate repeat with current revision and new identity is a new command
+  ---
+  duration_ms: 1.5019
+  type: 'test'
+  ...
+# Subtest: staged failure rolls back all events and exposes no hidden exception text
+ok 36 - staged failure rolls back all events and exposes no hidden exception text
+  ---
+  duration_ms: 0.7174
+  type: 'test'
+  ...
+# Subtest: invariant failure after staging also leaves original session untouched
+ok 37 - invariant failure after staging also leaves original session untouched
+  ---
+  duration_ms: 0.7783
+  type: 'test'
+  ...
+# Subtest: preflight rejection creates no fictional initiating occurrence
+ok 38 - preflight rejection creates no fictional initiating occurrence
+  ---
+  duration_ms: 0.5446
+  type: 'test'
+  ...
+# Subtest: valid social refusal can commit receipt and hearing without executing an exchange
+ok 39 - valid social refusal can commit receipt and hearing without executing an exchange
+  ---
+  duration_ms: 0.5965
+  type: 'test'
+  ...
+# Subtest: journal JSON round trip preserves committed retry protection
+ok 40 - journal JSON round trip preserves committed retry protection
+  ---
+  duration_ms: 0.9496
+  type: 'test'
+  ...
+# Subtest: new wrong package and wrong session fail safely
+ok 41 - new wrong package and wrong session fail safely
+  ---
+  duration_ms: 0.6243
+  type: 'test'
+  ...
+# Subtest: unsupported confirmation and asynchronous resolver are not implicit implementations
+ok 42 - unsupported confirmation and asynchronous resolver are not implicit implementations
+  ---
+  duration_ms: 0.9422
+  type: 'test'
+  ...
+# Subtest: commands and returned receipts cannot be mutated through callback aliases
+ok 43 - commands and returned receipts cannot be mutated through callback aliases
+  ---
+  duration_ms: 1.2227
+  type: 'test'
+  ...
+# Subtest: catalog preserves twenty ordered pairs, six actions, and three settings
+ok 44 - catalog preserves twenty ordered pairs, six actions, and three settings
+  ---
+  duration_ms: 1.0894
+  type: 'test'
+  ...
+# Subtest: strict outward schema rejects selected labels, asset/cache keys and provenance fields
+ok 45 - strict outward schema rejects selected labels, asset/cache keys and provenance fields
+  ---
+  duration_ms: 3.0866
+  type: 'test'
+  ...
+# Subtest: private selector perturbation with fixed outward payload produces identical complete listener input
+ok 46 - private selector perturbation with fixed outward payload produces identical complete listener input
+  ---
+  duration_ms: 5.3163
+  type: 'test'
+  ...
+# Subtest: schema accepts a legitimately performed distinctive cue without a hidden vibe key
+ok 47 - schema accepts a legitimately performed distinctive cue without a hidden vibe key
+  ---
+  duration_ms: 1.2174
+  type: 'test'
+  ...
+# Subtest: preview/recipient history/author inspection are independent frozen read-only copies
+ok 48 - preview/recipient history/author inspection are independent frozen read-only copies
+  ---
+  duration_ms: 3.4153
+  type: 'test'
+  ...
+# Subtest: REQUIRED: a known source ID retrieves only received conduct, never hidden source fields
+ok 49 - REQUIRED: a known source ID retrieves only received conduct, never hidden source fields
+  ---
+  duration_ms: 1.6498
+  type: 'test'
+  ...
+# Subtest: changing unreceived authoritative details leaves the entire listener view unchanged
+ok 50 - changing unreceived authoritative details leaves the entire listener view unchanged
+  ---
+  duration_ms: 2.4412
+  type: 'test'
+  ...
+# Subtest: an observed historical event ID grants no access to its concealed destination or purpose
+ok 51 - an observed historical event ID grants no access to its concealed destination or purpose
+  ---
+  duration_ms: 1.2318
+  type: 'test'
+  ...
+# Subtest: no receiving path and another actor observation cannot become local knowledge
+ok 52 - no receiving path and another actor observation cannot become local knowledge
+  ---
+  duration_ms: 1.64
+  type: 'test'
+  ...
+# Subtest: projection rejects unknown detail grants; missing fields are not negated beliefs
+ok 53 - projection rejects unknown detail grants; missing fields are not negated beliefs
+  ---
+  duration_ms: 0.7355
+  type: 'test'
+  ...
+# Subtest: hearing an assertion produces a received claim, not firsthand perception or world truth
+ok 54 - hearing an assertion produces a received claim, not firsthand perception or world truth
+  ---
+  duration_ms: 1.9013
+  type: 'test'
+  ...
+# Subtest: a permission record alone has no inspection result or observation effects
+ok 55 - a permission record alone has no inspection result or observation effects
+  ---
+  duration_ms: 0.3378
+  type: 'test'
+  ...
+# Subtest: matched neutral result stages once; visible observer gets conduct while reader gets print
+ok 56 - matched neutral result stages once; visible observer gets conduct while reader gets print
+  ---
+  duration_ms: 1.4201
+  type: 'test'
+  ...
+# Subtest: result/request mismatch, changed result identity and second result for one request reject
+ok 57 - result/request mismatch, changed result identity and second result for one request reject
+  ---
+  duration_ms: 0.6577
+  type: 'test'
+  ...
+# Subtest: unsupported future physical effects fail clearly
+ok 58 - unsupported future physical effects fail clearly
+  ---
+  duration_ms: 0.2132
+  type: 'test'
+  ...
+# Subtest: JSON validation rejects silent loss, accessors, cycles, NaN and sparse arrays
+ok 59 - JSON validation rejects silent loss, accessors, cycles, NaN and sparse arrays
+  ---
+  duration_ms: 0.376
+  type: 'test'
+  ...
+# Subtest: IDs cannot embed story names or selected labels
+ok 60 - IDs cannot embed story names or selected labels
+  ---
+  duration_ms: 0.3148
+  type: 'test'
+  ...
+# Subtest: nested private metadata cannot hide in a scalar substantive value
+ok 61 - nested private metadata cannot hide in a scalar substantive value
+  ---
+  duration_ms: 0.2463
+  type: 'test'
+  ...
+# Subtest: duplicate observation identity rejects rather than supplying two competing received records
+ok 62 - duplicate observation identity rejects rather than supplying two competing received records
+  ---
+  duration_ms: 0.5356
+  type: 'test'
+  ...
+# Subtest: neutral renamed participants and an absent actor work without fixed seats
+ok 63 - neutral renamed participants and an absent actor work without fixed seats
+  ---
+  duration_ms: 1.7262
+  type: 'test'
+  ...
+# Subtest: NPC outward replies use the same canonical message envelope and hide their own private expression
+ok 64 - NPC outward replies use the same canonical message envelope and hide their own private expression
+  ---
+  duration_ms: 0.4926
+  type: 'test'
+  ...
+1..64
+# tests 64
+# suites 0
+# pass 64
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 3823.3293
+
+STDERR

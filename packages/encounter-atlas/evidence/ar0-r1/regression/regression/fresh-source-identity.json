@@ -1,0 +1,13 @@
+{
+  "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\encounter-ar0-regression-o78q5zpi",
+  "executable": "C:\\Users\\mcdon\\AppData\\Local\\Programs\\Python\\Python312\\python.EXE",
+  "args": [
+    "scripts/source-identity-m3.py"
+  ],
+  "environmentBinding": {
+    "M3_CHECKPOINT": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\encounter-ar0-regression-o78q5zpi"
+  },
+  "exitCode": 0,
+  "stdout": "{\"sourceRevision\": \"M3-runtime-v1-R3-D03\", \"sourceDigest\": \"8df8db981955a28900e0e49b52c56ea4dfb9242e722d6f767417396ae4b65e5a\", \"files\": 87}\n",
+  "stderr": ""
+}

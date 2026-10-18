@@ -1,0 +1,2353 @@
+{
+  "schema": "encounter-atlas-projection@1",
+  "projectionAudience": "author",
+  "context": {
+    "catalogId": "catalog_0001",
+    "catalogRevision": 1,
+    "catalogDigest": "46fa89e1ff1831614eca1ad63d030427c258a8debd849b054c375fbc96033e42",
+    "packageRef": {
+      "digest": "2ce9f61b996f17392a39c56f4005d8203b7940aa4974564fafa54d110e35ae8f",
+      "id": "package_0003",
+      "revision": 1
+    },
+    "runId": "run_0003",
+    "revision": 0,
+    "sinceRevision": 0
+  },
+  "cards": [
+    {
+      "id": "event_0001",
+      "kind": "event",
+      "displayName": "Collection record origin",
+      "description": "The original collection-record entry and its authored provenance. Later communications are separate occurrences.",
+      "tags": [],
+      "scenarioRefs": [
+        "scenario_0001"
+      ],
+      "sourceRefs": [
+        {
+          "id": "event_0001",
+          "kind": "historical_event"
+        }
+      ],
+      "linkRefs": [
+        "link:thing:event_0001:subject_0001",
+        "link:thing:event_0001:subject_0003",
+        "link:thing:event_0001:subject_000c",
+        "link:thing:event_0001:subject_0011",
+        "link:observation:observation_0001",
+        "link:observation:observation_0002",
+        "link:observation:observation_0003",
+        "link:scenario:scenario_0001:event_0001"
+      ],
+      "state": {
+        "eventClass": "authored_history",
+        "order": 1,
+        "epistemic": "world_truth",
+        "sourceRefs": [
+          {
+            "kind": "event",
+            "id": "event_0001"
+          }
+        ],
+        "cause": null,
+        "participantRefs": [],
+        "observerRefs": [],
+        "thingRefs": [
+          "subject_0001",
+          "subject_0003",
+          "subject_000c",
+          "subject_0011"
+        ],
+        "placeRef": null,
+        "details": {
+          "entry": "collected",
+          "facts": [
+            {
+              "id": "fact_0001",
+              "label": "Recipient signature: unfilled",
+              "predicate": "recipient_signature",
+              "subjectId": "subject_0003",
+              "value": "unfilled"
+            },
+            {
+              "id": "fact_0002",
+              "label": "A wrapped green case moved toward the partition; its exact identity was not established by that sighting",
+              "predicate": "movement_direction",
+              "subjectId": "subject_0011",
+              "value": "subject_000a"
+            },
+            {
+              "id": "fact_0003",
+              "label": "Case is in dry storage",
+              "predicate": "storage_location",
+              "subjectId": "subject_0001",
+              "value": "subject_000f"
+            },
+            {
+              "id": "fact_0004",
+              "label": "Moved after a spill to protect it from damp",
+              "predicate": "movement_reason",
+              "subjectId": "subject_0001",
+              "value": "spill_protection"
+            },
+            {
+              "id": "fact_0005",
+              "label": "Drying tag 041 matches the case reference",
+              "predicate": "item_reference",
+              "subjectId": "subject_000c",
+              "value": "subject_0001"
+            },
+            {
+              "id": "fact_0006",
+              "label": "Drying tag records internal drying, not recipient collection",
+              "predicate": "handling_type",
+              "subjectId": "subject_000c",
+              "value": "internal_drying"
+            },
+            {
+              "id": "fact_0007",
+              "label": "Original collected entry meant removed from the rack",
+              "predicate": "original_entry_meaning",
+              "subjectId": "subject_0003",
+              "value": "removed_from_rack"
+            },
+            {
+              "id": "fact_0008",
+              "label": "Separate hauling obligation: already paid",
+              "predicate": "hauling_obligation_status",
+              "subjectId": "subject_0001",
+              "value": "already_paid"
+            },
+            {
+              "id": "fact_0009",
+              "label": "Private contact value",
+              "predicate": "protected_contact",
+              "subjectId": "subject_0006",
+              "value": "PRIVATE-M3-FIXTURE: 17 Cedar Lane"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "event_0002",
+      "kind": "event",
+      "displayName": "Earlier handling movement",
+      "description": "The authored prior handling occurrence. Each observer received only the declared fragment.",
+      "tags": [],
+      "scenarioRefs": [
+        "scenario_0001"
+      ],
+      "sourceRefs": [
+        {
+          "id": "event_0002",
+          "kind": "historical_event"
+        }
+      ],
+      "linkRefs": [
+        "link:thing:event_0002:subject_0001",
+        "link:thing:event_0002:subject_0003",
+        "link:thing:event_0002:subject_0011",
+        "link:observation:observation_0004",
+        "link:observation:observation_0005",
+        "link:scenario:scenario_0001:event_0002"
+      ],
+      "state": {
+        "eventClass": "authored_history",
+        "order": 2,
+        "epistemic": "world_truth",
+        "sourceRefs": [
+          {
+            "kind": "event",
+            "id": "event_0002"
+          }
+        ],
+        "cause": null,
+        "participantRefs": [],
+        "observerRefs": [],
+        "thingRefs": [
+          "subject_0001",
+          "subject_0003",
+          "subject_0011"
+        ],
+        "placeRef": null,
+        "details": {
+          "evidence": [
+            {
+              "form": "direct",
+              "label": "A wrapped green case moved toward the partition; its exact identity was not established by that sighting",
+              "markId": null,
+              "predicate": "movement_direction",
+              "roots": [
+                {
+                  "id": "event_0001",
+                  "kind": "event"
+                }
+              ],
+              "subjectId": "subject_0011",
+              "value": "subject_000a"
+            },
+            {
+              "form": "direct",
+              "label": "Case is in dry storage",
+              "markId": null,
+              "predicate": "storage_location",
+              "roots": [
+                {
+                  "id": "event_0001",
+                  "kind": "event"
+                }
+              ],
+              "subjectId": "subject_0001",
+              "value": "subject_000f"
+            },
+            {
+              "form": "direct",
+              "label": "Moved after a spill to protect it from damp",
+              "markId": null,
+              "predicate": "movement_reason",
+              "roots": [
+                {
+                  "id": "event_0001",
+                  "kind": "event"
+                }
+              ],
+              "subjectId": "subject_0001",
+              "value": "spill_protection"
+            },
+            {
+              "form": "direct",
+              "label": "Original collected entry meant removed from the rack",
+              "markId": null,
+              "predicate": "original_entry_meaning",
+              "roots": [
+                {
+                  "id": "event_0001",
+                  "kind": "event"
+                }
+              ],
+              "subjectId": "subject_0003",
+              "value": "removed_from_rack"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "actor_0001",
+      "kind": "person",
+      "displayName": "Collector",
+      "description": "The collecting participant. Information here records receipt and factual state, not private psychology.",
+      "tags": [],
+      "scenarioRefs": [
+        "scenario_0001"
+      ],
+      "sourceRefs": [
+        {
+          "id": "actor_0001",
+          "kind": "actor"
+        }
+      ],
+      "linkRefs": [
+        "link:observation:observation_0001",
+        "link:scenario:scenario_0001:actor_0001"
+      ],
+      "state": {
+        "actorKind": "human",
+        "observations": [
+          {
+            "channel": "initial",
+            "id": "observation_0001",
+            "observerId": "actor_0001",
+            "receivedDetails": {
+              "collection": {
+                "entry": "collected",
+                "itemId": "subject_0001",
+                "recordId": "subject_0003",
+                "ticketId": "subject_0002"
+              },
+              "participants": [
+                {
+                  "id": "actor_0001",
+                  "kind": "human",
+                  "label": "Collector"
+                },
+                {
+                  "id": "actor_0002",
+                  "kind": "npc",
+                  "label": "Tamsin"
+                },
+                {
+                  "id": "actor_0003",
+                  "kind": "absent",
+                  "label": "Nera Vale"
+                },
+                {
+                  "id": "actor_0004",
+                  "kind": "npc",
+                  "label": "Orrin"
+                }
+              ],
+              "references": [
+                {
+                  "id": "subject_0001",
+                  "label": "Nera’s green instrument case"
+                },
+                {
+                  "id": "subject_0002",
+                  "label": "Collection ticket"
+                },
+                {
+                  "id": "subject_0003",
+                  "label": "Collection record"
+                },
+                {
+                  "id": "subject_0009",
+                  "label": "Nera Vale"
+                },
+                {
+                  "id": "subject_000d",
+                  "label": "Coins"
+                }
+              ]
+            },
+            "roots": [
+              {
+                "id": "event_0001",
+                "kind": "event"
+              }
+            ],
+            "schema": "encounter-observation@2",
+            "sequence": 1,
+            "source": {
+              "id": "event_0001",
+              "kind": "event"
+            }
+          }
+        ],
+        "receivedClaims": [],
+        "beliefs": [],
+        "hypotheses": [],
+        "permissions": [
+          {
+            "actionId": "action_0001",
+            "granteeId": "actor_0001",
+            "grantorId": "actor_0002",
+            "id": "permission_0001",
+            "source": {
+              "id": "event_0001",
+              "kind": "event"
+            },
+            "status": "allowed",
+            "targetId": "subject_0002"
+          }
+        ],
+        "visit": null
+      }
+    },
+    {
+      "id": "actor_0002",
+      "kind": "person",
+      "displayName": "Tamsin",
+      "description": "A participant in the collection visit. Knowledge and interpretations remain actor-local.",
+      "tags": [],
+      "scenarioRefs": [
+        "scenario_0001"
+      ],
+      "sourceRefs": [
+        {
+          "id": "actor_0002",
+          "kind": "actor"
+        }
+      ],
+      "linkRefs": [
+        "link:observation:observation_0002",
+        "link:observation:observation_0004",
+        "link:evidence:observation_0004:0",
+        "link:evidence:observation_0004:1",
+        "link:evidence:observation_0004:2",
+        "link:evidence:observation_0004:3",
+        "link:belief:belief_0001",
+        "link:belief:belief_0002",
+        "link:belief:belief_0003",
+        "link:belief:belief_0004",
+        "link:scenario:scenario_0001:actor_0002"
+      ],
+      "state": {
+        "actorKind": "npc",
+        "observations": [
+          {
+            "channel": "initial",
+            "id": "observation_0002",
+            "observerId": "actor_0002",
+            "receivedDetails": {
+              "recognizedMarks": [
+                "subject_0010"
+              ],
+              "serviceRule": {
+                "closeActionId": "action_0007",
+                "comparisonActionId": "action_0004",
+                "correctionActionId": "action_0005",
+                "custodianId": "actor_0002",
+                "explainReferenceIds": [
+                  "subject_0004",
+                  "subject_0005",
+                  "subject_0006",
+                  "subject_0008",
+                  "subject_000b",
+                  "subject_000e"
+                ],
+                "fileId": "subject_0004",
+                "handoverActionId": "action_0006",
+                "handoverPriceMinor": 0,
+                "inspectionActionIds": [
+                  "action_0002",
+                  "action_0003"
+                ],
+                "itemId": "subject_0001",
+                "moneyId": "subject_000d",
+                "ownerId": "actor_0003",
+                "ownerTopicId": "subject_0009",
+                "protectedScopeIds": [
+                  "subject_0006",
+                  "subject_0008"
+                ],
+                "recordCorrection": "Original “collected” meant removal from the rack for internal drying; recipient handover is recorded separately.",
+                "recordId": "subject_0003",
+                "relevantScopeId": "subject_0005",
+                "requiredEvidence": [
+                  {
+                    "forms": [
+                      "document"
+                    ],
+                    "predicate": "recipient_signature",
+                    "subjectId": "subject_0003"
+                  },
+                  {
+                    "forms": [
+                      "report"
+                    ],
+                    "predicate": "movement_direction",
+                    "subjectId": "subject_0011"
+                  },
+                  {
+                    "forms": [
+                      "document"
+                    ],
+                    "predicate": "item_reference",
+                    "subjectId": "subject_000c"
+                  }
+                ],
+                "serviceId": "service_0001",
+                "ticketId": "subject_0002",
+                "verifyActionId": "action_0001",
+                "wholeScopeId": "subject_0008",
+                "witnessId": "actor_0004"
+              }
+            },
+            "roots": [
+              {
+                "id": "event_0001",
+                "kind": "event"
+              }
+            ],
+            "schema": "encounter-observation@2",
+            "sequence": 1,
+            "source": {
+              "id": "event_0001",
+              "kind": "event"
+            }
+          },
+          {
+            "channel": "initial",
+            "id": "observation_0004",
+            "observerId": "actor_0002",
+            "receivedDetails": {
+              "evidence": [
+                {
+                  "form": "direct",
+                  "label": "A wrapped green case moved toward the partition; its exact identity was not established by that sighting",
+                  "markId": null,
+                  "predicate": "movement_direction",
+                  "roots": [
+                    {
+                      "id": "event_0002",
+                      "kind": "event"
+                    }
+                  ],
+                  "subjectId": "subject_0011",
+                  "value": "subject_000a"
+                },
+                {
+                  "form": "direct",
+                  "label": "Case is in dry storage",
+                  "markId": null,
+                  "predicate": "storage_location",
+                  "roots": [
+                    {
+                      "id": "event_0002",
+                      "kind": "event"
+                    }
+                  ],
+                  "subjectId": "subject_0001",
+                  "value": "subject_000f"
+                },
+                {
+                  "form": "direct",
+                  "label": "Moved after a spill to protect it from damp",
+                  "markId": null,
+                  "predicate": "movement_reason",
+                  "roots": [
+                    {
+                      "id": "event_0002",
+                      "kind": "event"
+                    }
+                  ],
+                  "subjectId": "subject_0001",
+                  "value": "spill_protection"
+                },
+                {
+                  "form": "direct",
+                  "label": "Original collected entry meant removed from the rack",
+                  "markId": null,
+                  "predicate": "original_entry_meaning",
+                  "roots": [
+                    {
+                      "id": "event_0002",
+                      "kind": "event"
+                    }
+                  ],
+                  "subjectId": "subject_0003",
+                  "value": "removed_from_rack"
+                }
+              ]
+            },
+            "roots": [
+              {
+                "id": "event_0002",
+                "kind": "event"
+              }
+            ],
+            "schema": "encounter-observation@2",
+            "sequence": 2,
+            "source": {
+              "id": "event_0002",
+              "kind": "event"
+            }
+          }
+        ],
+        "receivedClaims": [],
+        "beliefs": [
+          {
+            "history": [],
+            "holderId": "actor_0002",
+            "id": "belief_0001",
+            "observationIds": [
+              "observation_0004"
+            ],
+            "predicate": "movement_direction",
+            "question": "subject_0011|movement_direction",
+            "roots": [
+              {
+                "id": "event_0002",
+                "kind": "event"
+              }
+            ],
+            "stance": "accepted",
+            "subjectId": "subject_0011",
+            "support": 5,
+            "value": "subject_000a"
+          },
+          {
+            "history": [],
+            "holderId": "actor_0002",
+            "id": "belief_0002",
+            "observationIds": [
+              "observation_0004"
+            ],
+            "predicate": "storage_location",
+            "question": "subject_0001|storage_location",
+            "roots": [
+              {
+                "id": "event_0002",
+                "kind": "event"
+              }
+            ],
+            "stance": "accepted",
+            "subjectId": "subject_0001",
+            "support": 5,
+            "value": "subject_000f"
+          },
+          {
+            "history": [],
+            "holderId": "actor_0002",
+            "id": "belief_0003",
+            "observationIds": [
+              "observation_0004"
+            ],
+            "predicate": "movement_reason",
+            "question": "subject_0001|movement_reason",
+            "roots": [
+              {
+                "id": "event_0002",
+                "kind": "event"
+              }
+            ],
+            "stance": "accepted",
+            "subjectId": "subject_0001",
+            "support": 5,
+            "value": "spill_protection"
+          },
+          {
+            "history": [],
+            "holderId": "actor_0002",
+            "id": "belief_0004",
+            "observationIds": [
+              "observation_0004"
+            ],
+            "predicate": "original_entry_meaning",
+            "question": "subject_0003|original_entry_meaning",
+            "roots": [
+              {
+                "id": "event_0002",
+                "kind": "event"
+              }
+            ],
+            "stance": "accepted",
+            "subjectId": "subject_0003",
+            "support": 5,
+            "value": "removed_from_rack"
+          }
+        ],
+        "hypotheses": [],
+        "permissions": [
+          {
+            "actionId": "action_0007",
+            "granteeId": "actor_0002",
+            "grantorId": "actor_0002",
+            "id": "permission_0002",
+            "source": {
+              "id": "event_0001",
+              "kind": "event"
+            },
+            "status": "allowed",
+            "targetId": "subject_0004"
+          }
+        ],
+        "visit": {
+          "holderId": "actor_0002",
+          "repairUsed": false,
+          "restricted": false,
+          "restrictedOrRepaired": false,
+          "restrictionMessageId": null,
+          "serviceId": "service_0001",
+          "warningMessageId": null
+        }
+      }
+    },
+    {
+      "id": "actor_0003",
+      "kind": "person",
+      "displayName": "Nera Vale",
+      "description": "The absent owner. Absence does not grant receipt of the visit’s communications.",
+      "tags": [],
+      "scenarioRefs": [
+        "scenario_0001"
+      ],
+      "sourceRefs": [
+        {
+          "id": "actor_0003",
+          "kind": "actor"
+        }
+      ],
+      "linkRefs": [
+        "link:owner:subject_0001",
+        "link:scenario:scenario_0001:actor_0003"
+      ],
+      "state": {
+        "actorKind": "absent",
+        "observations": [],
+        "receivedClaims": [],
+        "beliefs": [],
+        "hypotheses": [],
+        "permissions": [],
+        "visit": null
+      }
+    },
+    {
+      "id": "actor_0004",
+      "kind": "person",
+      "displayName": "Orrin",
+      "description": "A participant in the collection visit. Knowledge and interpretations remain actor-local.",
+      "tags": [],
+      "scenarioRefs": [
+        "scenario_0001"
+      ],
+      "sourceRefs": [
+        {
+          "id": "actor_0004",
+          "kind": "actor"
+        }
+      ],
+      "linkRefs": [
+        "link:observation:observation_0003",
+        "link:observation:observation_0005",
+        "link:evidence:observation_0005:0",
+        "link:belief:belief_0005",
+        "link:scenario:scenario_0001:actor_0004"
+      ],
+      "state": {
+        "actorKind": "npc",
+        "observations": [
+          {
+            "channel": "initial",
+            "id": "observation_0003",
+            "observerId": "actor_0004",
+            "receivedDetails": {
+              "accountInterpretation": "It may have been an exception. I did not see the damp seam, final cupboard, or purpose; that interpretation is not a witnessed fact.",
+              "recognizedMarks": [
+                "subject_0010"
+              ],
+              "serviceRule": {
+                "custodianId": "actor_0002",
+                "fileId": "subject_0004",
+                "itemId": "subject_0001",
+                "ownerTopicId": "subject_0009",
+                "protectedScopeIds": [
+                  "subject_0006",
+                  "subject_0008"
+                ],
+                "recordId": "subject_0003",
+                "relevantScopeId": "subject_0005",
+                "serviceId": "service_0001",
+                "wholeScopeId": "subject_0008",
+                "witnessId": "actor_0004"
+              }
+            },
+            "roots": [
+              {
+                "id": "event_0001",
+                "kind": "event"
+              }
+            ],
+            "schema": "encounter-observation@2",
+            "sequence": 1,
+            "source": {
+              "id": "event_0001",
+              "kind": "event"
+            }
+          },
+          {
+            "channel": "initial",
+            "id": "observation_0005",
+            "observerId": "actor_0004",
+            "receivedDetails": {
+              "evidence": [
+                {
+                  "form": "direct",
+                  "label": "A wrapped green case moved toward the partition; its exact identity was not established by that sighting",
+                  "markId": null,
+                  "predicate": "movement_direction",
+                  "roots": [
+                    {
+                      "id": "event_0002",
+                      "kind": "event"
+                    }
+                  ],
+                  "subjectId": "subject_0011",
+                  "value": "subject_000a"
+                }
+              ]
+            },
+            "roots": [
+              {
+                "id": "event_0002",
+                "kind": "event"
+              }
+            ],
+            "schema": "encounter-observation@2",
+            "sequence": 2,
+            "source": {
+              "id": "event_0002",
+              "kind": "event"
+            }
+          }
+        ],
+        "receivedClaims": [],
+        "beliefs": [
+          {
+            "history": [],
+            "holderId": "actor_0004",
+            "id": "belief_0005",
+            "observationIds": [
+              "observation_0005"
+            ],
+            "predicate": "movement_direction",
+            "question": "subject_0011|movement_direction",
+            "roots": [
+              {
+                "id": "event_0002",
+                "kind": "event"
+              }
+            ],
+            "stance": "accepted",
+            "subjectId": "subject_0011",
+            "support": 5,
+            "value": "subject_000a"
+          }
+        ],
+        "hypotheses": [],
+        "permissions": [],
+        "visit": null
+      }
+    },
+    {
+      "id": "place_0001",
+      "kind": "place",
+      "displayName": "Transport Office",
+      "description": "The small transport office in which the collection visit takes place (Master §1.4).",
+      "tags": [],
+      "scenarioRefs": [
+        "scenario_0001"
+      ],
+      "sourceRefs": [
+        {
+          "id": "place_0001",
+          "kind": "authored"
+        }
+      ],
+      "linkRefs": [
+        "link:scenario:scenario_0001:place_0001"
+      ],
+      "state": {}
+    },
+    {
+      "id": "subject_0007",
+      "kind": "place",
+      "displayName": "Office storage",
+      "description": "A semantic place or storage reference. This card contains no geometry or navigation data.",
+      "tags": [],
+      "scenarioRefs": [
+        "scenario_0001"
+      ],
+      "sourceRefs": [
+        {
+          "id": "subject_0007",
+          "kind": "subject"
+        }
+      ],
+      "linkRefs": [
+        "link:holder:subject_0001",
+        "link:location:subject_0001",
+        "link:scenario:scenario_0001:subject_0007"
+      ],
+      "state": {}
+    },
+    {
+      "id": "subject_000a",
+      "kind": "place",
+      "displayName": "Partition",
+      "description": "A semantic place or storage reference. This card contains no geometry or navigation data.",
+      "tags": [],
+      "scenarioRefs": [
+        "scenario_0001"
+      ],
+      "sourceRefs": [
+        {
+          "id": "subject_000a",
+          "kind": "subject"
+        }
+      ],
+      "linkRefs": [
+        "link:scenario:scenario_0001:subject_000a"
+      ],
+      "state": {}
+    },
+    {
+      "id": "subject_000f",
+      "kind": "place",
+      "displayName": "Dry storage",
+      "description": "A semantic place or storage reference. This card contains no geometry or navigation data.",
+      "tags": [],
+      "scenarioRefs": [
+        "scenario_0001"
+      ],
+      "sourceRefs": [
+        {
+          "id": "subject_000f",
+          "kind": "subject"
+        }
+      ],
+      "linkRefs": [
+        "link:scenario:scenario_0001:subject_000f"
+      ],
+      "state": {}
+    },
+    {
+      "id": "scenario_0001",
+      "kind": "scenario",
+      "displayName": "Last Collection · The Protective Shortcut",
+      "description": "Recover the owner’s instrument case; money, privacy and record correction remain separate outcomes.",
+      "tags": [],
+      "scenarioRefs": [],
+      "sourceRefs": [
+        {
+          "id": "package_0003",
+          "kind": "package"
+        }
+      ],
+      "linkRefs": [
+        "link:scenario:scenario_0001:actor_0001",
+        "link:scenario:scenario_0001:actor_0002",
+        "link:scenario:scenario_0001:actor_0003",
+        "link:scenario:scenario_0001:actor_0004",
+        "link:scenario:scenario_0001:subject_0007",
+        "link:scenario:scenario_0001:subject_000a",
+        "link:scenario:scenario_0001:subject_000f",
+        "link:scenario:scenario_0001:subject_0001",
+        "link:scenario:scenario_0001:subject_0002",
+        "link:scenario:scenario_0001:subject_0003",
+        "link:scenario:scenario_0001:subject_0004",
+        "link:scenario:scenario_0001:subject_000b",
+        "link:scenario:scenario_0001:subject_000c",
+        "link:scenario:scenario_0001:subject_000d",
+        "link:scenario:scenario_0001:subject_0011",
+        "link:scenario:scenario_0001:place_0001",
+        "link:scenario:scenario_0001:event_0001",
+        "link:scenario:scenario_0001:event_0002"
+      ],
+      "state": {
+        "status": {
+          "recovered": false,
+          "serviceOpen": true,
+          "comparisonComplete": false,
+          "recordCorrected": false
+        },
+        "pendingOffer": null
+      }
+    },
+    {
+      "id": "subject_0001",
+      "kind": "thing",
+      "displayName": "Nera’s green instrument case",
+      "description": "An existing object or resource reference. Ownership, custody and evidence come from Encounter records.",
+      "tags": [],
+      "scenarioRefs": [
+        "scenario_0001"
+      ],
+      "sourceRefs": [
+        {
+          "id": "subject_0001",
+          "kind": "subject"
+        }
+      ],
+      "linkRefs": [
+        "link:thing:event_0001:subject_0001",
+        "link:thing:event_0002:subject_0001",
+        "link:evidence:observation_0004:1",
+        "link:evidence:observation_0004:2",
+        "link:belief:belief_0002",
+        "link:belief:belief_0003",
+        "link:owner:subject_0001",
+        "link:holder:subject_0001",
+        "link:location:subject_0001",
+        "link:scenario:scenario_0001:subject_0001"
+      ],
+      "state": {}
+    },
+    {
+      "id": "subject_0002",
+      "kind": "thing",
+      "displayName": "Collection ticket",
+      "description": "An existing object or resource reference. Ownership, custody and evidence come from Encounter records.",
+      "tags": [],
+      "scenarioRefs": [
+        "scenario_0001"
+      ],
+      "sourceRefs": [
+        {
+          "id": "subject_0002",
+          "kind": "subject"
+        }
+      ],
+      "linkRefs": [
+        "link:scenario:scenario_0001:subject_0002"
+      ],
+      "state": {}
+    },
+    {
+      "id": "subject_0003",
+      "kind": "thing",
+      "displayName": "Collection record",
+      "description": "An existing object or resource reference. Ownership, custody and evidence come from Encounter records.",
+      "tags": [],
+      "scenarioRefs": [
+        "scenario_0001"
+      ],
+      "sourceRefs": [
+        {
+          "id": "subject_0003",
+          "kind": "subject"
+        }
+      ],
+      "linkRefs": [
+        "link:thing:event_0001:subject_0003",
+        "link:thing:event_0002:subject_0003",
+        "link:evidence:observation_0004:3",
+        "link:belief:belief_0004",
+        "link:scenario:scenario_0001:subject_0003"
+      ],
+      "state": {}
+    },
+    {
+      "id": "subject_0004",
+      "kind": "thing",
+      "displayName": "Customer file",
+      "description": "An existing object or resource reference. Ownership, custody and evidence come from Encounter records.",
+      "tags": [],
+      "scenarioRefs": [
+        "scenario_0001"
+      ],
+      "sourceRefs": [
+        {
+          "id": "subject_0004",
+          "kind": "subject"
+        }
+      ],
+      "linkRefs": [
+        "link:scenario:scenario_0001:subject_0004"
+      ],
+      "state": {}
+    },
+    {
+      "id": "subject_000b",
+      "kind": "thing",
+      "displayName": "Handling tray",
+      "description": "An existing object or resource reference. Ownership, custody and evidence come from Encounter records.",
+      "tags": [],
+      "scenarioRefs": [
+        "scenario_0001"
+      ],
+      "sourceRefs": [
+        {
+          "id": "subject_000b",
+          "kind": "subject"
+        }
+      ],
+      "linkRefs": [
+        "link:scenario:scenario_0001:subject_000b"
+      ],
+      "state": {}
+    },
+    {
+      "id": "subject_000c",
+      "kind": "thing",
+      "displayName": "Numbered drying tag",
+      "description": "An existing object or resource reference. Ownership, custody and evidence come from Encounter records.",
+      "tags": [],
+      "scenarioRefs": [
+        "scenario_0001"
+      ],
+      "sourceRefs": [
+        {
+          "id": "subject_000c",
+          "kind": "subject"
+        }
+      ],
+      "linkRefs": [
+        "link:thing:event_0001:subject_000c",
+        "link:scenario:scenario_0001:subject_000c"
+      ],
+      "state": {}
+    },
+    {
+      "id": "subject_000d",
+      "kind": "thing",
+      "displayName": "Coins",
+      "description": "An existing object or resource reference. Ownership, custody and evidence come from Encounter records.",
+      "tags": [],
+      "scenarioRefs": [
+        "scenario_0001"
+      ],
+      "sourceRefs": [
+        {
+          "id": "subject_000d",
+          "kind": "subject"
+        }
+      ],
+      "linkRefs": [
+        "link:scenario:scenario_0001:subject_000d"
+      ],
+      "state": {}
+    },
+    {
+      "id": "subject_0011",
+      "kind": "thing",
+      "displayName": "Observed wrapped green case — identity not established",
+      "description": "An unidentified wrapped-case reference in a limited observation/report; it is not identified as the collection item.",
+      "tags": [],
+      "scenarioRefs": [
+        "scenario_0001"
+      ],
+      "sourceRefs": [
+        {
+          "id": "subject_0011",
+          "kind": "subject"
+        }
+      ],
+      "linkRefs": [
+        "link:thing:event_0001:subject_0011",
+        "link:thing:event_0002:subject_0011",
+        "link:evidence:observation_0004:0",
+        "link:belief:belief_0001",
+        "link:evidence:observation_0005:0",
+        "link:belief:belief_0005",
+        "link:scenario:scenario_0001:subject_0011"
+      ],
+      "state": {}
+    }
+  ],
+  "links": [
+    {
+      "id": "link:belief:belief_0001",
+      "relationKind": "believes_about",
+      "fromRef": "actor_0002",
+      "toRef": "subject_0011",
+      "epistemic": "belief",
+      "provenance": {
+        "beliefIds": [
+          "belief_0001"
+        ],
+        "observationIds": [
+          "observation_0004"
+        ],
+        "observerId": "actor_0002",
+        "sourceRefs": [
+          {
+            "id": "event_0002",
+            "kind": "event"
+          }
+        ]
+      },
+      "details": {
+        "history": [],
+        "holderId": "actor_0002",
+        "id": "belief_0001",
+        "observationIds": [
+          "observation_0004"
+        ],
+        "predicate": "movement_direction",
+        "question": "subject_0011|movement_direction",
+        "roots": [
+          {
+            "id": "event_0002",
+            "kind": "event"
+          }
+        ],
+        "stance": "accepted",
+        "subjectId": "subject_0011",
+        "support": 5,
+        "value": "subject_000a"
+      }
+    },
+    {
+      "id": "link:belief:belief_0002",
+      "relationKind": "believes_about",
+      "fromRef": "actor_0002",
+      "toRef": "subject_0001",
+      "epistemic": "belief",
+      "provenance": {
+        "beliefIds": [
+          "belief_0002"
+        ],
+        "observationIds": [
+          "observation_0004"
+        ],
+        "observerId": "actor_0002",
+        "sourceRefs": [
+          {
+            "id": "event_0002",
+            "kind": "event"
+          }
+        ]
+      },
+      "details": {
+        "history": [],
+        "holderId": "actor_0002",
+        "id": "belief_0002",
+        "observationIds": [
+          "observation_0004"
+        ],
+        "predicate": "storage_location",
+        "question": "subject_0001|storage_location",
+        "roots": [
+          {
+            "id": "event_0002",
+            "kind": "event"
+          }
+        ],
+        "stance": "accepted",
+        "subjectId": "subject_0001",
+        "support": 5,
+        "value": "subject_000f"
+      }
+    },
+    {
+      "id": "link:belief:belief_0003",
+      "relationKind": "believes_about",
+      "fromRef": "actor_0002",
+      "toRef": "subject_0001",
+      "epistemic": "belief",
+      "provenance": {
+        "beliefIds": [
+          "belief_0003"
+        ],
+        "observationIds": [
+          "observation_0004"
+        ],
+        "observerId": "actor_0002",
+        "sourceRefs": [
+          {
+            "id": "event_0002",
+            "kind": "event"
+          }
+        ]
+      },
+      "details": {
+        "history": [],
+        "holderId": "actor_0002",
+        "id": "belief_0003",
+        "observationIds": [
+          "observation_0004"
+        ],
+        "predicate": "movement_reason",
+        "question": "subject_0001|movement_reason",
+        "roots": [
+          {
+            "id": "event_0002",
+            "kind": "event"
+          }
+        ],
+        "stance": "accepted",
+        "subjectId": "subject_0001",
+        "support": 5,
+        "value": "spill_protection"
+      }
+    },
+    {
+      "id": "link:belief:belief_0004",
+      "relationKind": "believes_about",
+      "fromRef": "actor_0002",
+      "toRef": "subject_0003",
+      "epistemic": "belief",
+      "provenance": {
+        "beliefIds": [
+          "belief_0004"
+        ],
+        "observationIds": [
+          "observation_0004"
+        ],
+        "observerId": "actor_0002",
+        "sourceRefs": [
+          {
+            "id": "event_0002",
+            "kind": "event"
+          }
+        ]
+      },
+      "details": {
+        "history": [],
+        "holderId": "actor_0002",
+        "id": "belief_0004",
+        "observationIds": [
+          "observation_0004"
+        ],
+        "predicate": "original_entry_meaning",
+        "question": "subject_0003|original_entry_meaning",
+        "roots": [
+          {
+            "id": "event_0002",
+            "kind": "event"
+          }
+        ],
+        "stance": "accepted",
+        "subjectId": "subject_0003",
+        "support": 5,
+        "value": "removed_from_rack"
+      }
+    },
+    {
+      "id": "link:belief:belief_0005",
+      "relationKind": "believes_about",
+      "fromRef": "actor_0004",
+      "toRef": "subject_0011",
+      "epistemic": "belief",
+      "provenance": {
+        "beliefIds": [
+          "belief_0005"
+        ],
+        "observationIds": [
+          "observation_0005"
+        ],
+        "observerId": "actor_0004",
+        "sourceRefs": [
+          {
+            "id": "event_0002",
+            "kind": "event"
+          }
+        ]
+      },
+      "details": {
+        "history": [],
+        "holderId": "actor_0004",
+        "id": "belief_0005",
+        "observationIds": [
+          "observation_0005"
+        ],
+        "predicate": "movement_direction",
+        "question": "subject_0011|movement_direction",
+        "roots": [
+          {
+            "id": "event_0002",
+            "kind": "event"
+          }
+        ],
+        "stance": "accepted",
+        "subjectId": "subject_0011",
+        "support": 5,
+        "value": "subject_000a"
+      }
+    },
+    {
+      "id": "link:evidence:observation_0004:0",
+      "relationKind": "received_evidence",
+      "fromRef": "actor_0002",
+      "toRef": "subject_0011",
+      "epistemic": "observation",
+      "provenance": {
+        "observationIds": [
+          "observation_0004"
+        ],
+        "observerId": "actor_0002",
+        "roots": [
+          {
+            "id": "event_0002",
+            "kind": "event"
+          }
+        ],
+        "sourceRefs": [
+          {
+            "id": "event_0002",
+            "kind": "event"
+          }
+        ]
+      },
+      "details": {
+        "form": "direct",
+        "label": "A wrapped green case moved toward the partition; its exact identity was not established by that sighting",
+        "markId": null,
+        "predicate": "movement_direction",
+        "roots": [
+          {
+            "id": "event_0002",
+            "kind": "event"
+          }
+        ],
+        "subjectId": "subject_0011",
+        "value": "subject_000a"
+      }
+    },
+    {
+      "id": "link:evidence:observation_0004:1",
+      "relationKind": "received_evidence",
+      "fromRef": "actor_0002",
+      "toRef": "subject_0001",
+      "epistemic": "observation",
+      "provenance": {
+        "observationIds": [
+          "observation_0004"
+        ],
+        "observerId": "actor_0002",
+        "roots": [
+          {
+            "id": "event_0002",
+            "kind": "event"
+          }
+        ],
+        "sourceRefs": [
+          {
+            "id": "event_0002",
+            "kind": "event"
+          }
+        ]
+      },
+      "details": {
+        "form": "direct",
+        "label": "Case is in dry storage",
+        "markId": null,
+        "predicate": "storage_location",
+        "roots": [
+          {
+            "id": "event_0002",
+            "kind": "event"
+          }
+        ],
+        "subjectId": "subject_0001",
+        "value": "subject_000f"
+      }
+    },
+    {
+      "id": "link:evidence:observation_0004:2",
+      "relationKind": "received_evidence",
+      "fromRef": "actor_0002",
+      "toRef": "subject_0001",
+      "epistemic": "observation",
+      "provenance": {
+        "observationIds": [
+          "observation_0004"
+        ],
+        "observerId": "actor_0002",
+        "roots": [
+          {
+            "id": "event_0002",
+            "kind": "event"
+          }
+        ],
+        "sourceRefs": [
+          {
+            "id": "event_0002",
+            "kind": "event"
+          }
+        ]
+      },
+      "details": {
+        "form": "direct",
+        "label": "Moved after a spill to protect it from damp",
+        "markId": null,
+        "predicate": "movement_reason",
+        "roots": [
+          {
+            "id": "event_0002",
+            "kind": "event"
+          }
+        ],
+        "subjectId": "subject_0001",
+        "value": "spill_protection"
+      }
+    },
+    {
+      "id": "link:evidence:observation_0004:3",
+      "relationKind": "received_evidence",
+      "fromRef": "actor_0002",
+      "toRef": "subject_0003",
+      "epistemic": "observation",
+      "provenance": {
+        "observationIds": [
+          "observation_0004"
+        ],
+        "observerId": "actor_0002",
+        "roots": [
+          {
+            "id": "event_0002",
+            "kind": "event"
+          }
+        ],
+        "sourceRefs": [
+          {
+            "id": "event_0002",
+            "kind": "event"
+          }
+        ]
+      },
+      "details": {
+        "form": "direct",
+        "label": "Original collected entry meant removed from the rack",
+        "markId": null,
+        "predicate": "original_entry_meaning",
+        "roots": [
+          {
+            "id": "event_0002",
+            "kind": "event"
+          }
+        ],
+        "subjectId": "subject_0003",
+        "value": "removed_from_rack"
+      }
+    },
+    {
+      "id": "link:evidence:observation_0005:0",
+      "relationKind": "received_evidence",
+      "fromRef": "actor_0004",
+      "toRef": "subject_0011",
+      "epistemic": "observation",
+      "provenance": {
+        "observationIds": [
+          "observation_0005"
+        ],
+        "observerId": "actor_0004",
+        "roots": [
+          {
+            "id": "event_0002",
+            "kind": "event"
+          }
+        ],
+        "sourceRefs": [
+          {
+            "id": "event_0002",
+            "kind": "event"
+          }
+        ]
+      },
+      "details": {
+        "form": "direct",
+        "label": "A wrapped green case moved toward the partition; its exact identity was not established by that sighting",
+        "markId": null,
+        "predicate": "movement_direction",
+        "roots": [
+          {
+            "id": "event_0002",
+            "kind": "event"
+          }
+        ],
+        "subjectId": "subject_0011",
+        "value": "subject_000a"
+      }
+    },
+    {
+      "id": "link:holder:subject_0001",
+      "relationKind": "holds",
+      "fromRef": "subject_0007",
+      "toRef": "subject_0001",
+      "epistemic": "world_truth",
+      "provenance": {
+        "path": "world",
+        "sourceRefs": [
+          {
+            "id": "run_0003",
+            "kind": "world"
+          }
+        ]
+      },
+      "details": {
+        "quantity": 1
+      }
+    },
+    {
+      "id": "link:location:subject_0001",
+      "relationKind": "located_at",
+      "fromRef": "subject_0001",
+      "toRef": "subject_0007",
+      "epistemic": "world_truth",
+      "provenance": {
+        "path": "world",
+        "sourceRefs": [
+          {
+            "id": "run_0003",
+            "kind": "world"
+          }
+        ]
+      },
+      "details": {}
+    },
+    {
+      "id": "link:observation:observation_0001",
+      "relationKind": "received_observation",
+      "fromRef": "actor_0001",
+      "toRef": "event_0001",
+      "epistemic": "observation",
+      "provenance": {
+        "observationIds": [
+          "observation_0001"
+        ],
+        "observerId": "actor_0001",
+        "roots": [
+          {
+            "id": "event_0001",
+            "kind": "event"
+          }
+        ],
+        "sourceRefs": [
+          {
+            "id": "event_0001",
+            "kind": "event"
+          }
+        ]
+      },
+      "details": {
+        "channel": "initial",
+        "details": {
+          "collection": {
+            "entry": "collected",
+            "itemId": "subject_0001",
+            "recordId": "subject_0003",
+            "ticketId": "subject_0002"
+          },
+          "participants": [
+            {
+              "id": "actor_0001",
+              "kind": "human",
+              "label": "Collector"
+            },
+            {
+              "id": "actor_0002",
+              "kind": "npc",
+              "label": "Tamsin"
+            },
+            {
+              "id": "actor_0003",
+              "kind": "absent",
+              "label": "Nera Vale"
+            },
+            {
+              "id": "actor_0004",
+              "kind": "npc",
+              "label": "Orrin"
+            }
+          ],
+          "references": [
+            {
+              "id": "subject_0001",
+              "label": "Nera’s green instrument case"
+            },
+            {
+              "id": "subject_0002",
+              "label": "Collection ticket"
+            },
+            {
+              "id": "subject_0003",
+              "label": "Collection record"
+            },
+            {
+              "id": "subject_0009",
+              "label": "Nera Vale"
+            },
+            {
+              "id": "subject_000d",
+              "label": "Coins"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "link:observation:observation_0002",
+      "relationKind": "received_observation",
+      "fromRef": "actor_0002",
+      "toRef": "event_0001",
+      "epistemic": "observation",
+      "provenance": {
+        "observationIds": [
+          "observation_0002"
+        ],
+        "observerId": "actor_0002",
+        "roots": [
+          {
+            "id": "event_0001",
+            "kind": "event"
+          }
+        ],
+        "sourceRefs": [
+          {
+            "id": "event_0001",
+            "kind": "event"
+          }
+        ]
+      },
+      "details": {
+        "channel": "initial",
+        "details": {
+          "recognizedMarks": [
+            "subject_0010"
+          ],
+          "serviceRule": {
+            "closeActionId": "action_0007",
+            "comparisonActionId": "action_0004",
+            "correctionActionId": "action_0005",
+            "custodianId": "actor_0002",
+            "explainReferenceIds": [
+              "subject_0004",
+              "subject_0005",
+              "subject_0006",
+              "subject_0008",
+              "subject_000b",
+              "subject_000e"
+            ],
+            "fileId": "subject_0004",
+            "handoverActionId": "action_0006",
+            "handoverPriceMinor": 0,
+            "inspectionActionIds": [
+              "action_0002",
+              "action_0003"
+            ],
+            "itemId": "subject_0001",
+            "moneyId": "subject_000d",
+            "ownerId": "actor_0003",
+            "ownerTopicId": "subject_0009",
+            "protectedScopeIds": [
+              "subject_0006",
+              "subject_0008"
+            ],
+            "recordCorrection": "Original “collected” meant removal from the rack for internal drying; recipient handover is recorded separately.",
+            "recordId": "subject_0003",
+            "relevantScopeId": "subject_0005",
+            "requiredEvidence": [
+              {
+                "forms": [
+                  "document"
+                ],
+                "predicate": "recipient_signature",
+                "subjectId": "subject_0003"
+              },
+              {
+                "forms": [
+                  "report"
+                ],
+                "predicate": "movement_direction",
+                "subjectId": "subject_0011"
+              },
+              {
+                "forms": [
+                  "document"
+                ],
+                "predicate": "item_reference",
+                "subjectId": "subject_000c"
+              }
+            ],
+            "serviceId": "service_0001",
+            "ticketId": "subject_0002",
+            "verifyActionId": "action_0001",
+            "wholeScopeId": "subject_0008",
+            "witnessId": "actor_0004"
+          }
+        }
+      }
+    },
+    {
+      "id": "link:observation:observation_0003",
+      "relationKind": "received_observation",
+      "fromRef": "actor_0004",
+      "toRef": "event_0001",
+      "epistemic": "observation",
+      "provenance": {
+        "observationIds": [
+          "observation_0003"
+        ],
+        "observerId": "actor_0004",
+        "roots": [
+          {
+            "id": "event_0001",
+            "kind": "event"
+          }
+        ],
+        "sourceRefs": [
+          {
+            "id": "event_0001",
+            "kind": "event"
+          }
+        ]
+      },
+      "details": {
+        "channel": "initial",
+        "details": {
+          "accountInterpretation": "It may have been an exception. I did not see the damp seam, final cupboard, or purpose; that interpretation is not a witnessed fact.",
+          "recognizedMarks": [
+            "subject_0010"
+          ],
+          "serviceRule": {
+            "custodianId": "actor_0002",
+            "fileId": "subject_0004",
+            "itemId": "subject_0001",
+            "ownerTopicId": "subject_0009",
+            "protectedScopeIds": [
+              "subject_0006",
+              "subject_0008"
+            ],
+            "recordId": "subject_0003",
+            "relevantScopeId": "subject_0005",
+            "serviceId": "service_0001",
+            "wholeScopeId": "subject_0008",
+            "witnessId": "actor_0004"
+          }
+        }
+      }
+    },
+    {
+      "id": "link:observation:observation_0004",
+      "relationKind": "received_observation",
+      "fromRef": "actor_0002",
+      "toRef": "event_0002",
+      "epistemic": "observation",
+      "provenance": {
+        "observationIds": [
+          "observation_0004"
+        ],
+        "observerId": "actor_0002",
+        "roots": [
+          {
+            "id": "event_0002",
+            "kind": "event"
+          }
+        ],
+        "sourceRefs": [
+          {
+            "id": "event_0002",
+            "kind": "event"
+          }
+        ]
+      },
+      "details": {
+        "channel": "initial",
+        "details": {
+          "evidence": [
+            {
+              "form": "direct",
+              "label": "A wrapped green case moved toward the partition; its exact identity was not established by that sighting",
+              "markId": null,
+              "predicate": "movement_direction",
+              "roots": [
+                {
+                  "id": "event_0002",
+                  "kind": "event"
+                }
+              ],
+              "subjectId": "subject_0011",
+              "value": "subject_000a"
+            },
+            {
+              "form": "direct",
+              "label": "Case is in dry storage",
+              "markId": null,
+              "predicate": "storage_location",
+              "roots": [
+                {
+                  "id": "event_0002",
+                  "kind": "event"
+                }
+              ],
+              "subjectId": "subject_0001",
+              "value": "subject_000f"
+            },
+            {
+              "form": "direct",
+              "label": "Moved after a spill to protect it from damp",
+              "markId": null,
+              "predicate": "movement_reason",
+              "roots": [
+                {
+                  "id": "event_0002",
+                  "kind": "event"
+                }
+              ],
+              "subjectId": "subject_0001",
+              "value": "spill_protection"
+            },
+            {
+              "form": "direct",
+              "label": "Original collected entry meant removed from the rack",
+              "markId": null,
+              "predicate": "original_entry_meaning",
+              "roots": [
+                {
+                  "id": "event_0002",
+                  "kind": "event"
+                }
+              ],
+              "subjectId": "subject_0003",
+              "value": "removed_from_rack"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "link:observation:observation_0005",
+      "relationKind": "received_observation",
+      "fromRef": "actor_0004",
+      "toRef": "event_0002",
+      "epistemic": "observation",
+      "provenance": {
+        "observationIds": [
+          "observation_0005"
+        ],
+        "observerId": "actor_0004",
+        "roots": [
+          {
+            "id": "event_0002",
+            "kind": "event"
+          }
+        ],
+        "sourceRefs": [
+          {
+            "id": "event_0002",
+            "kind": "event"
+          }
+        ]
+      },
+      "details": {
+        "channel": "initial",
+        "details": {
+          "evidence": [
+            {
+              "form": "direct",
+              "label": "A wrapped green case moved toward the partition; its exact identity was not established by that sighting",
+              "markId": null,
+              "predicate": "movement_direction",
+              "roots": [
+                {
+                  "id": "event_0002",
+                  "kind": "event"
+                }
+              ],
+              "subjectId": "subject_0011",
+              "value": "subject_000a"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "link:owner:subject_0001",
+      "relationKind": "owns",
+      "fromRef": "actor_0003",
+      "toRef": "subject_0001",
+      "epistemic": "world_truth",
+      "provenance": {
+        "path": "world",
+        "sourceRefs": [
+          {
+            "id": "run_0003",
+            "kind": "world"
+          }
+        ]
+      },
+      "details": {
+        "quantity": 1
+      }
+    },
+    {
+      "id": "link:scenario:scenario_0001:actor_0001",
+      "relationKind": "relevant_to",
+      "fromRef": "actor_0001",
+      "toRef": "scenario_0001",
+      "epistemic": "authored_context",
+      "provenance": {
+        "catalogId": "catalog_0001"
+      },
+      "details": {}
+    },
+    {
+      "id": "link:scenario:scenario_0001:actor_0002",
+      "relationKind": "relevant_to",
+      "fromRef": "actor_0002",
+      "toRef": "scenario_0001",
+      "epistemic": "authored_context",
+      "provenance": {
+        "catalogId": "catalog_0001"
+      },
+      "details": {}
+    },
+    {
+      "id": "link:scenario:scenario_0001:actor_0003",
+      "relationKind": "relevant_to",
+      "fromRef": "actor_0003",
+      "toRef": "scenario_0001",
+      "epistemic": "authored_context",
+      "provenance": {
+        "catalogId": "catalog_0001"
+      },
+      "details": {}
+    },
+    {
+      "id": "link:scenario:scenario_0001:actor_0004",
+      "relationKind": "relevant_to",
+      "fromRef": "actor_0004",
+      "toRef": "scenario_0001",
+      "epistemic": "authored_context",
+      "provenance": {
+        "catalogId": "catalog_0001"
+      },
+      "details": {}
+    },
+    {
+      "id": "link:scenario:scenario_0001:event_0001",
+      "relationKind": "relevant_to",
+      "fromRef": "event_0001",
+      "toRef": "scenario_0001",
+      "epistemic": "authored_context",
+      "provenance": {
+        "catalogId": "catalog_0001"
+      },
+      "details": {}
+    },
+    {
+      "id": "link:scenario:scenario_0001:event_0002",
+      "relationKind": "relevant_to",
+      "fromRef": "event_0002",
+      "toRef": "scenario_0001",
+      "epistemic": "authored_context",
+      "provenance": {
+        "catalogId": "catalog_0001"
+      },
+      "details": {}
+    },
+    {
+      "id": "link:scenario:scenario_0001:place_0001",
+      "relationKind": "relevant_to",
+      "fromRef": "place_0001",
+      "toRef": "scenario_0001",
+      "epistemic": "authored_context",
+      "provenance": {
+        "catalogId": "catalog_0001"
+      },
+      "details": {}
+    },
+    {
+      "id": "link:scenario:scenario_0001:subject_0001",
+      "relationKind": "relevant_to",
+      "fromRef": "subject_0001",
+      "toRef": "scenario_0001",
+      "epistemic": "authored_context",
+      "provenance": {
+        "catalogId": "catalog_0001"
+      },
+      "details": {}
+    },
+    {
+      "id": "link:scenario:scenario_0001:subject_0002",
+      "relationKind": "relevant_to",
+      "fromRef": "subject_0002",
+      "toRef": "scenario_0001",
+      "epistemic": "authored_context",
+      "provenance": {
+        "catalogId": "catalog_0001"
+      },
+      "details": {}
+    },
+    {
+      "id": "link:scenario:scenario_0001:subject_0003",
+      "relationKind": "relevant_to",
+      "fromRef": "subject_0003",
+      "toRef": "scenario_0001",
+      "epistemic": "authored_context",
+      "provenance": {
+        "catalogId": "catalog_0001"
+      },
+      "details": {}
+    },
+    {
+      "id": "link:scenario:scenario_0001:subject_0004",
+      "relationKind": "relevant_to",
+      "fromRef": "subject_0004",
+      "toRef": "scenario_0001",
+      "epistemic": "authored_context",
+      "provenance": {
+        "catalogId": "catalog_0001"
+      },
+      "details": {}
+    },
+    {
+      "id": "link:scenario:scenario_0001:subject_0007",
+      "relationKind": "relevant_to",
+      "fromRef": "subject_0007",
+      "toRef": "scenario_0001",
+      "epistemic": "authored_context",
+      "provenance": {
+        "catalogId": "catalog_0001"
+      },
+      "details": {}
+    },
+    {
+      "id": "link:scenario:scenario_0001:subject_000a",
+      "relationKind": "relevant_to",
+      "fromRef": "subject_000a",
+      "toRef": "scenario_0001",
+      "epistemic": "authored_context",
+      "provenance": {
+        "catalogId": "catalog_0001"
+      },
+      "details": {}
+    },
+    {
+      "id": "link:scenario:scenario_0001:subject_000b",
+      "relationKind": "relevant_to",
+      "fromRef": "subject_000b",
+      "toRef": "scenario_0001",
+      "epistemic": "authored_context",
+      "provenance": {
+        "catalogId": "catalog_0001"
+      },
+      "details": {}
+    },
+    {
+      "id": "link:scenario:scenario_0001:subject_000c",
+      "relationKind": "relevant_to",
+      "fromRef": "subject_000c",
+      "toRef": "scenario_0001",
+      "epistemic": "authored_context",
+      "provenance": {
+        "catalogId": "catalog_0001"
+      },
+      "details": {}
+    },
+    {
+      "id": "link:scenario:scenario_0001:subject_000d",
+      "relationKind": "relevant_to",
+      "fromRef": "subject_000d",
+      "toRef": "scenario_0001",
+      "epistemic": "authored_context",
+      "provenance": {
+        "catalogId": "catalog_0001"
+      },
+      "details": {}
+    },
+    {
+      "id": "link:scenario:scenario_0001:subject_000f",
+      "relationKind": "relevant_to",
+      "fromRef": "subject_000f",
+      "toRef": "scenario_0001",
+      "epistemic": "authored_context",
+      "provenance": {
+        "catalogId": "catalog_0001"
+      },
+      "details": {}
+    },
+    {
+      "id": "link:scenario:scenario_0001:subject_0011",
+      "relationKind": "relevant_to",
+      "fromRef": "subject_0011",
+      "toRef": "scenario_0001",
+      "epistemic": "authored_context",
+      "provenance": {
+        "catalogId": "catalog_0001"
+      },
+      "details": {}
+    },
+    {
+      "id": "link:thing:event_0001:subject_0001",
+      "relationKind": "references_thing",
+      "fromRef": "event_0001",
+      "toRef": "subject_0001",
+      "epistemic": "world_truth",
+      "provenance": {
+        "sourceRefs": [
+          {
+            "id": "event_0001",
+            "kind": "event"
+          }
+        ]
+      },
+      "details": {}
+    },
+    {
+      "id": "link:thing:event_0001:subject_0003",
+      "relationKind": "references_thing",
+      "fromRef": "event_0001",
+      "toRef": "subject_0003",
+      "epistemic": "world_truth",
+      "provenance": {
+        "sourceRefs": [
+          {
+            "id": "event_0001",
+            "kind": "event"
+          }
+        ]
+      },
+      "details": {}
+    },
+    {
+      "id": "link:thing:event_0001:subject_000c",
+      "relationKind": "references_thing",
+      "fromRef": "event_0001",
+      "toRef": "subject_000c",
+      "epistemic": "world_truth",
+      "provenance": {
+        "sourceRefs": [
+          {
+            "id": "event_0001",
+            "kind": "event"
+          }
+        ]
+      },
+      "details": {}
+    },
+    {
+      "id": "link:thing:event_0001:subject_0011",
+      "relationKind": "references_thing",
+      "fromRef": "event_0001",
+      "toRef": "subject_0011",
+      "epistemic": "world_truth",
+      "provenance": {
+        "sourceRefs": [
+          {
+            "id": "event_0001",
+            "kind": "event"
+          }
+        ]
+      },
+      "details": {}
+    },
+    {
+      "id": "link:thing:event_0002:subject_0001",
+      "relationKind": "references_thing",
+      "fromRef": "event_0002",
+      "toRef": "subject_0001",
+      "epistemic": "world_truth",
+      "provenance": {
+        "sourceRefs": [
+          {
+            "id": "event_0002",
+            "kind": "event"
+          }
+        ]
+      },
+      "details": {}
+    },
+    {
+      "id": "link:thing:event_0002:subject_0003",
+      "relationKind": "references_thing",
+      "fromRef": "event_0002",
+      "toRef": "subject_0003",
+      "epistemic": "world_truth",
+      "provenance": {
+        "sourceRefs": [
+          {
+            "id": "event_0002",
+            "kind": "event"
+          }
+        ]
+      },
+      "details": {}
+    },
+    {
+      "id": "link:thing:event_0002:subject_0011",
+      "relationKind": "references_thing",
+      "fromRef": "event_0002",
+      "toRef": "subject_0011",
+      "epistemic": "world_truth",
+      "provenance": {
+        "sourceRefs": [
+          {
+            "id": "event_0002",
+            "kind": "event"
+          }
+        ]
+      },
+      "details": {}
+    }
+  ],
+  "scenarioIndex": [
+    {
+      "scenarioRef": "scenario_0001",
+      "cardRefs": [
+        "actor_0001",
+        "actor_0002",
+        "actor_0003",
+        "actor_0004",
+        "event_0001",
+        "event_0002",
+        "place_0001",
+        "subject_0001",
+        "subject_0002",
+        "subject_0003",
+        "subject_0004",
+        "subject_0007",
+        "subject_000a",
+        "subject_000b",
+        "subject_000c",
+        "subject_000d",
+        "subject_000f",
+        "subject_0011"
+      ]
+    }
+  ],
+  "recentChanges": [],
+  "worldTruth": {
+    "balances": {
+      "actor_0001": 1200,
+      "actor_0002": 0,
+      "actor_0004": 0
+    },
+    "comparisonComplete": false,
+    "documentRevisions": [
+      {
+        "revision": 1,
+        "sourceEventId": "event_0001",
+        "text": "collected"
+      }
+    ],
+    "facts": [
+      {
+        "id": "fact_0001",
+        "label": "Recipient signature: unfilled",
+        "predicate": "recipient_signature",
+        "subjectId": "subject_0003",
+        "value": "unfilled"
+      },
+      {
+        "id": "fact_0002",
+        "label": "A wrapped green case moved toward the partition; its exact identity was not established by that sighting",
+        "predicate": "movement_direction",
+        "subjectId": "subject_0011",
+        "value": "subject_000a"
+      },
+      {
+        "id": "fact_0003",
+        "label": "Case is in dry storage",
+        "predicate": "storage_location",
+        "subjectId": "subject_0001",
+        "value": "subject_000f"
+      },
+      {
+        "id": "fact_0004",
+        "label": "Moved after a spill to protect it from damp",
+        "predicate": "movement_reason",
+        "subjectId": "subject_0001",
+        "value": "spill_protection"
+      },
+      {
+        "id": "fact_0005",
+        "label": "Drying tag 041 matches the case reference",
+        "predicate": "item_reference",
+        "subjectId": "subject_000c",
+        "value": "subject_0001"
+      },
+      {
+        "id": "fact_0006",
+        "label": "Drying tag records internal drying, not recipient collection",
+        "predicate": "handling_type",
+        "subjectId": "subject_000c",
+        "value": "internal_drying"
+      },
+      {
+        "id": "fact_0007",
+        "label": "Original collected entry meant removed from the rack",
+        "predicate": "original_entry_meaning",
+        "subjectId": "subject_0003",
+        "value": "removed_from_rack"
+      },
+      {
+        "id": "fact_0008",
+        "label": "Separate hauling obligation: already paid",
+        "predicate": "hauling_obligation_status",
+        "subjectId": "subject_0001",
+        "value": "already_paid"
+      },
+      {
+        "id": "fact_0009",
+        "label": "Private contact value",
+        "predicate": "protected_contact",
+        "subjectId": "subject_0006",
+        "value": "PRIVATE-M3-FIXTURE: 17 Cedar Lane"
+      }
+    ],
+    "holderId": "subject_0007",
+    "itemId": "subject_0001",
+    "ownerId": "actor_0003",
+    "quantity": 1,
+    "recordCorrected": false,
+    "recovered": false,
+    "serviceOpen": true
+  },
+  "technicalDefects": []
+}

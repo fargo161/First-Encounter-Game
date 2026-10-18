@@ -1,0 +1,667 @@
+{
+  "runs": [
+    {
+      "name": "display-ancestor-run.json",
+      "origin": "Fresh visible UI on exact R2 executable, declared CSS-only fault where named",
+      "sourceDigest": "7bbf91958abfb963830f412136baab95601da19cebc6673bf6d72207d18766d0",
+      "sha256": "bf2b28432c80bf7c975d9ddf242cb2fb4c9a166025381c775e5eede7e7608d92",
+      "revision": 12,
+      "outcomes": {
+        "recovered": false,
+        "serviceOpen": true,
+        "ownerId": "actor_0003",
+        "holderId": "subject_0007",
+        "quantity": 1,
+        "balances": {
+          "actor_0001": 1200,
+          "actor_0002": 0,
+          "actor_0004": 0
+        },
+        "recordCorrected": false,
+        "privateDisclosed": false
+      },
+      "closeResults": 0,
+      "handoverResults": 0,
+      "defects": [
+        {
+          "id": "defect_0001",
+          "commandId": "command_3297eb28bb4d46f18850d4bd2662f216",
+          "type": "MISSING_CLOSURE_PREVIEW",
+          "warningMessageId": "message_000c",
+          "serviceRemainsOpen": true
+        }
+      ],
+      "rawInspectorCompared": true,
+      "exactRetryReplayed": true
+    },
+    {
+      "name": "display-before-run.json",
+      "origin": "Fresh visible UI on preserved R1 build, CSS-only horizontal fault",
+      "sourceDigest": "35fa58990b19a08933fefb7e2f37ba1d5c5edc5807390354eae238e531588711",
+      "sha256": "da931992e38d27ef8e0d6b1ba3720c5e331a86171da28d0d3faa0c0ff7972ffd",
+      "revision": 12,
+      "outcomes": {
+        "recovered": false,
+        "serviceOpen": false,
+        "ownerId": "actor_0003",
+        "holderId": "subject_0007",
+        "quantity": 1,
+        "balances": {
+          "actor_0001": 1200,
+          "actor_0002": 0,
+          "actor_0004": 0
+        },
+        "recordCorrected": false,
+        "privateDisclosed": false
+      },
+      "closeResults": 1,
+      "handoverResults": 0,
+      "defects": [],
+      "rawInspectorCompared": true,
+      "exactRetryReplayed": true
+    },
+    {
+      "name": "display-collapse-repeat-run.json",
+      "origin": "Fresh visible UI on exact R2 executable, declared CSS-only fault where named",
+      "sourceDigest": "7bbf91958abfb963830f412136baab95601da19cebc6673bf6d72207d18766d0",
+      "sha256": "da3e26fa26ca9a8ca1e3a401a2da0a97fc3bfa8957774686365aad9948cb2030",
+      "revision": 12,
+      "outcomes": {
+        "recovered": false,
+        "serviceOpen": false,
+        "ownerId": "actor_0003",
+        "holderId": "subject_0007",
+        "quantity": 1,
+        "balances": {
+          "actor_0001": 1200,
+          "actor_0002": 0,
+          "actor_0004": 0
+        },
+        "recordCorrected": false,
+        "privateDisclosed": false
+      },
+      "closeResults": 1,
+      "handoverResults": 0,
+      "defects": [],
+      "rawInspectorCompared": true,
+      "exactRetryReplayed": true
+    },
+    {
+      "name": "display-collapse-run.json",
+      "origin": "Fresh visible UI on exact R2 executable, declared CSS-only fault where named",
+      "sourceDigest": "7bbf91958abfb963830f412136baab95601da19cebc6673bf6d72207d18766d0",
+      "sha256": "3b292f787016da1d55f46f256f295f416d55820ffbb409f4eea9103237121913",
+      "revision": 12,
+      "outcomes": {
+        "recovered": false,
+        "serviceOpen": false,
+        "ownerId": "actor_0003",
+        "holderId": "subject_0007",
+        "quantity": 1,
+        "balances": {
+          "actor_0001": 1200,
+          "actor_0002": 0,
+          "actor_0004": 0
+        },
+        "recordCorrected": false,
+        "privateDisclosed": false
+      },
+      "closeResults": 1,
+      "handoverResults": 0,
+      "defects": [],
+      "rawInspectorCompared": true,
+      "exactRetryReplayed": true
+    },
+    {
+      "name": "display-display-none-run.json",
+      "origin": "Fresh visible UI on exact R2 executable, declared CSS-only fault where named",
+      "sourceDigest": "7bbf91958abfb963830f412136baab95601da19cebc6673bf6d72207d18766d0",
+      "sha256": "cda53ac49b5bc44089135e0a2494dc77bcebf6fc0859c9b01948454429a4d8c1",
+      "revision": 12,
+      "outcomes": {
+        "recovered": false,
+        "serviceOpen": true,
+        "ownerId": "actor_0003",
+        "holderId": "subject_0007",
+        "quantity": 1,
+        "balances": {
+          "actor_0001": 1200,
+          "actor_0002": 0,
+          "actor_0004": 0
+        },
+        "recordCorrected": false,
+        "privateDisclosed": false
+      },
+      "closeResults": 0,
+      "handoverResults": 0,
+      "defects": [
+        {
+          "id": "defect_0001",
+          "commandId": "command_63e6fce12cf247c0b8c103cc70bbae2a",
+          "type": "MISSING_CLOSURE_PREVIEW",
+          "warningMessageId": "message_000c",
+          "serviceRemainsOpen": true
+        }
+      ],
+      "rawInspectorCompared": true,
+      "exactRetryReplayed": true
+    },
+    {
+      "name": "display-hidden-run.json",
+      "origin": "Fresh visible UI on exact R2 executable, declared CSS-only fault where named",
+      "sourceDigest": "7bbf91958abfb963830f412136baab95601da19cebc6673bf6d72207d18766d0",
+      "sha256": "23fd79b16e684b76ea3744d0f6fc2c9176c32eb6ef2e9972bf38a6b66c2e6eb5",
+      "revision": 12,
+      "outcomes": {
+        "recovered": false,
+        "serviceOpen": true,
+        "ownerId": "actor_0003",
+        "holderId": "subject_0007",
+        "quantity": 1,
+        "balances": {
+          "actor_0001": 1200,
+          "actor_0002": 0,
+          "actor_0004": 0
+        },
+        "recordCorrected": false,
+        "privateDisclosed": false
+      },
+      "closeResults": 0,
+      "handoverResults": 0,
+      "defects": [
+        {
+          "id": "defect_0001",
+          "commandId": "command_8e5d1a2735fc48d7989a84d640c6e698",
+          "type": "MISSING_CLOSURE_PREVIEW",
+          "warningMessageId": "message_000c",
+          "serviceRemainsOpen": true
+        }
+      ],
+      "rawInspectorCompared": true,
+      "exactRetryReplayed": true
+    },
+    {
+      "name": "display-horizontal-run.json",
+      "origin": "Fresh visible UI on exact R2 executable, declared CSS-only fault where named",
+      "sourceDigest": "7bbf91958abfb963830f412136baab95601da19cebc6673bf6d72207d18766d0",
+      "sha256": "e460ea70e34b480e5da6053a786328473846d030769b1ddb404cb51189a6f023",
+      "revision": 12,
+      "outcomes": {
+        "recovered": false,
+        "serviceOpen": true,
+        "ownerId": "actor_0003",
+        "holderId": "subject_0007",
+        "quantity": 1,
+        "balances": {
+          "actor_0001": 1200,
+          "actor_0002": 0,
+          "actor_0004": 0
+        },
+        "recordCorrected": false,
+        "privateDisclosed": false
+      },
+      "closeResults": 0,
+      "handoverResults": 0,
+      "defects": [
+        {
+          "id": "defect_0001",
+          "commandId": "command_5c9c0cda3b9d40aabc0bf45847649fb9",
+          "type": "MISSING_CLOSURE_PREVIEW",
+          "warningMessageId": "message_000c",
+          "serviceRemainsOpen": true
+        }
+      ],
+      "rawInspectorCompared": true,
+      "exactRetryReplayed": true
+    },
+    {
+      "name": "display-normal-run.json",
+      "origin": "Fresh visible UI on exact R2 executable, declared CSS-only fault where named",
+      "sourceDigest": "7bbf91958abfb963830f412136baab95601da19cebc6673bf6d72207d18766d0",
+      "sha256": "77e458766f0b9dac4316d935131b2cc58518803cc1c0f9940a9b19eaab3419ca",
+      "revision": 12,
+      "outcomes": {
+        "recovered": false,
+        "serviceOpen": false,
+        "ownerId": "actor_0003",
+        "holderId": "subject_0007",
+        "quantity": 1,
+        "balances": {
+          "actor_0001": 1200,
+          "actor_0002": 0,
+          "actor_0004": 0
+        },
+        "recordCorrected": false,
+        "privateDisclosed": false
+      },
+      "closeResults": 1,
+      "handoverResults": 0,
+      "defects": [],
+      "rawInspectorCompared": true,
+      "exactRetryReplayed": true
+    },
+    {
+      "name": "display-opacity-run.json",
+      "origin": "Fresh visible UI on exact R2 executable, declared CSS-only fault where named",
+      "sourceDigest": "7bbf91958abfb963830f412136baab95601da19cebc6673bf6d72207d18766d0",
+      "sha256": "15f021b6a61253b18531ac8f282cdafb5c5180c67f8bd59d15966c21b113f534",
+      "revision": 12,
+      "outcomes": {
+        "recovered": false,
+        "serviceOpen": true,
+        "ownerId": "actor_0003",
+        "holderId": "subject_0007",
+        "quantity": 1,
+        "balances": {
+          "actor_0001": 1200,
+          "actor_0002": 0,
+          "actor_0004": 0
+        },
+        "recordCorrected": false,
+        "privateDisclosed": false
+      },
+      "closeResults": 0,
+      "handoverResults": 0,
+      "defects": [
+        {
+          "id": "defect_0001",
+          "commandId": "command_5ea6d062bd80467dbd6550742b34ee9c",
+          "type": "MISSING_CLOSURE_PREVIEW",
+          "warningMessageId": "message_000c",
+          "serviceRemainsOpen": true
+        }
+      ],
+      "rawInspectorCompared": true,
+      "exactRetryReplayed": true
+    },
+    {
+      "name": "display-scroll-run.json",
+      "origin": "Fresh visible UI on exact R2 executable, declared CSS-only fault where named",
+      "sourceDigest": "7bbf91958abfb963830f412136baab95601da19cebc6673bf6d72207d18766d0",
+      "sha256": "de8ac011e61acb09d28b0b9a1eaa1c5d5fe018c2e7413c6c6680c4e977fd825a",
+      "revision": 12,
+      "outcomes": {
+        "recovered": false,
+        "serviceOpen": false,
+        "ownerId": "actor_0003",
+        "holderId": "subject_0007",
+        "quantity": 1,
+        "balances": {
+          "actor_0001": 1200,
+          "actor_0002": 0,
+          "actor_0004": 0
+        },
+        "recordCorrected": false,
+        "privateDisclosed": false
+      },
+      "closeResults": 1,
+      "handoverResults": 0,
+      "defects": [],
+      "rawInspectorCompared": true,
+      "exactRetryReplayed": true
+    },
+    {
+      "name": "display-vertical-run.json",
+      "origin": "Fresh visible UI on exact R2 executable, declared CSS-only fault where named",
+      "sourceDigest": "7bbf91958abfb963830f412136baab95601da19cebc6673bf6d72207d18766d0",
+      "sha256": "a5a66432057f67afa0ed112110e7558e05fe5701ebfdcabb82c35d4af00922eb",
+      "revision": 12,
+      "outcomes": {
+        "recovered": false,
+        "serviceOpen": true,
+        "ownerId": "actor_0003",
+        "holderId": "subject_0007",
+        "quantity": 1,
+        "balances": {
+          "actor_0001": 1200,
+          "actor_0002": 0,
+          "actor_0004": 0
+        },
+        "recordCorrected": false,
+        "privateDisclosed": false
+      },
+      "closeResults": 0,
+      "handoverResults": 0,
+      "defects": [
+        {
+          "id": "defect_0001",
+          "commandId": "command_c796066be417405cbdc1ecd8557f486b",
+          "type": "MISSING_CLOSURE_PREVIEW",
+          "warningMessageId": "message_000c",
+          "serviceRemainsOpen": true
+        }
+      ],
+      "rawInspectorCompared": true,
+      "exactRetryReplayed": true
+    },
+    {
+      "name": "display-zero-width-run.json",
+      "origin": "Fresh visible UI on exact R2 executable, declared CSS-only fault where named",
+      "sourceDigest": "7bbf91958abfb963830f412136baab95601da19cebc6673bf6d72207d18766d0",
+      "sha256": "002c64c777b76a5a38ea0c8567a394e4762071e3aec388f17e79aa72e614f3bf",
+      "revision": 12,
+      "outcomes": {
+        "recovered": false,
+        "serviceOpen": true,
+        "ownerId": "actor_0003",
+        "holderId": "subject_0007",
+        "quantity": 1,
+        "balances": {
+          "actor_0001": 1200,
+          "actor_0002": 0,
+          "actor_0004": 0
+        },
+        "recordCorrected": false,
+        "privateDisclosed": false
+      },
+      "closeResults": 0,
+      "handoverResults": 0,
+      "defects": [
+        {
+          "id": "defect_0001",
+          "commandId": "command_b9261b28439e4698b9f50c9bede3d4bd",
+          "type": "MISSING_CLOSURE_PREVIEW",
+          "warningMessageId": "message_000c",
+          "serviceRemainsOpen": true
+        }
+      ],
+      "rawInspectorCompared": true,
+      "exactRetryReplayed": true
+    },
+    {
+      "name": "r2-after-read-surfaces.json",
+      "origin": "Fresh visible UI on exact R2 executable, declared CSS-only fault where named",
+      "sourceDigest": "7bbf91958abfb963830f412136baab95601da19cebc6673bf6d72207d18766d0",
+      "sha256": "182bd74eba818bb48404481c2af507f7bead87a5f70c26a729cecc8653858e58",
+      "revision": 21,
+      "outcomes": {
+        "recovered": true,
+        "serviceOpen": true,
+        "ownerId": "actor_0003",
+        "holderId": "actor_0001",
+        "quantity": 1,
+        "balances": {
+          "actor_0001": 1200,
+          "actor_0002": 0,
+          "actor_0004": 0
+        },
+        "recordCorrected": true,
+        "privateDisclosed": false
+      },
+      "closeResults": 0,
+      "handoverResults": 1,
+      "defects": [],
+      "rawInspectorCompared": false,
+      "exactRetryReplayed": true
+    },
+    {
+      "name": "r2-after-yes.json",
+      "origin": "Fresh visible UI on exact R2 executable, declared CSS-only fault where named",
+      "sourceDigest": "7bbf91958abfb963830f412136baab95601da19cebc6673bf6d72207d18766d0",
+      "sha256": "bf0f57c9bceb5f5bc85eb3ebb1803dc2df2e6282e6db788115af5937aeef98cc",
+      "revision": 19,
+      "outcomes": {
+        "recovered": false,
+        "serviceOpen": true,
+        "ownerId": "actor_0003",
+        "holderId": "subject_0007",
+        "quantity": 1,
+        "balances": {
+          "actor_0001": 1200,
+          "actor_0002": 0,
+          "actor_0004": 0
+        },
+        "recordCorrected": false,
+        "privateDisclosed": false
+      },
+      "closeResults": 0,
+      "handoverResults": 0,
+      "defects": [],
+      "rawInspectorCompared": false,
+      "exactRetryReplayed": true
+    },
+    {
+      "name": "r2-before-substantive-repair.json",
+      "origin": "Fresh visible UI on exact R2 executable, declared CSS-only fault where named",
+      "sourceDigest": "7bbf91958abfb963830f412136baab95601da19cebc6673bf6d72207d18766d0",
+      "sha256": "e75c9f7bd18c49d44832556e8357dff6bb9f2bf1481bf916684bdb3df6f7098f",
+      "revision": 16,
+      "outcomes": {
+        "recovered": false,
+        "serviceOpen": true,
+        "ownerId": "actor_0003",
+        "holderId": "subject_0007",
+        "quantity": 1,
+        "balances": {
+          "actor_0001": 1200,
+          "actor_0002": 0,
+          "actor_0004": 0
+        },
+        "recordCorrected": false,
+        "privateDisclosed": false
+      },
+      "closeResults": 0,
+      "handoverResults": 0,
+      "defects": [],
+      "rawInspectorCompared": false,
+      "exactRetryReplayed": true
+    },
+    {
+      "name": "r2-clean-recovery.json",
+      "origin": "Fresh visible UI on exact R2 executable, declared CSS-only fault where named",
+      "sourceDigest": "7bbf91958abfb963830f412136baab95601da19cebc6673bf6d72207d18766d0",
+      "sha256": "182bd74eba818bb48404481c2af507f7bead87a5f70c26a729cecc8653858e58",
+      "revision": 21,
+      "outcomes": {
+        "recovered": true,
+        "serviceOpen": true,
+        "ownerId": "actor_0003",
+        "holderId": "actor_0001",
+        "quantity": 1,
+        "balances": {
+          "actor_0001": 1200,
+          "actor_0002": 0,
+          "actor_0004": 0
+        },
+        "recordCorrected": true,
+        "privateDisclosed": false
+      },
+      "closeResults": 0,
+      "handoverResults": 1,
+      "defects": [],
+      "rawInspectorCompared": true,
+      "exactRetryReplayed": true
+    },
+    {
+      "name": "r2-fresh-warned.json",
+      "origin": "Fresh visible UI on exact R2 executable, declared CSS-only fault where named",
+      "sourceDigest": "7bbf91958abfb963830f412136baab95601da19cebc6673bf6d72207d18766d0",
+      "sha256": "b51ba5a5ef3bbf9f5407229f453ecd13f69ea2f0b56b6f8b9e6b64a73cc58861",
+      "revision": 11,
+      "outcomes": {
+        "recovered": false,
+        "serviceOpen": true,
+        "ownerId": "actor_0003",
+        "holderId": "subject_0007",
+        "quantity": 1,
+        "balances": {
+          "actor_0001": 1200,
+          "actor_0002": 0,
+          "actor_0004": 0
+        },
+        "recordCorrected": false,
+        "privateDisclosed": false
+      },
+      "closeResults": 0,
+      "handoverResults": 0,
+      "defects": [],
+      "rawInspectorCompared": false,
+      "exactRetryReplayed": true
+    },
+    {
+      "name": "r2-partial-evidence.json",
+      "origin": "Fresh visible UI on exact R2 executable, declared CSS-only fault where named",
+      "sourceDigest": "7bbf91958abfb963830f412136baab95601da19cebc6673bf6d72207d18766d0",
+      "sha256": "44f2cccdc745efb690245dd2c5bd1c9d30f3c46791e4d1523931c1430d91fc6c",
+      "revision": 3,
+      "outcomes": {
+        "recovered": false,
+        "serviceOpen": true,
+        "ownerId": "actor_0003",
+        "holderId": "subject_0007",
+        "quantity": 1,
+        "balances": {
+          "actor_0001": 1200,
+          "actor_0002": 0,
+          "actor_0004": 0
+        },
+        "recordCorrected": false,
+        "privateDisclosed": false
+      },
+      "closeResults": 0,
+      "handoverResults": 0,
+      "defects": [],
+      "rawInspectorCompared": false,
+      "exactRetryReplayed": true
+    },
+    {
+      "name": "r2-pending-handover.json",
+      "origin": "Fresh visible UI on exact R2 executable, declared CSS-only fault where named",
+      "sourceDigest": "7bbf91958abfb963830f412136baab95601da19cebc6673bf6d72207d18766d0",
+      "sha256": "0f9dc67cbab8e84fca5511462a617201c750e07a5d6f8ad38dcca4a5b4485621",
+      "revision": 18,
+      "outcomes": {
+        "recovered": false,
+        "serviceOpen": true,
+        "ownerId": "actor_0003",
+        "holderId": "subject_0007",
+        "quantity": 1,
+        "balances": {
+          "actor_0001": 1200,
+          "actor_0002": 0,
+          "actor_0004": 0
+        },
+        "recordCorrected": false,
+        "privateDisclosed": false
+      },
+      "closeResults": 0,
+      "handoverResults": 0,
+      "defects": [],
+      "rawInspectorCompared": false,
+      "exactRetryReplayed": true
+    },
+    {
+      "name": "r2-permission-only.json",
+      "origin": "Fresh visible UI on exact R2 executable, declared CSS-only fault where named",
+      "sourceDigest": "7bbf91958abfb963830f412136baab95601da19cebc6673bf6d72207d18766d0",
+      "sha256": "02d6ea6d1a17795856c8958dd97b03211a01c3fa4b8cf64317e7d0ce8fc45477",
+      "revision": 2,
+      "outcomes": {
+        "recovered": false,
+        "serviceOpen": true,
+        "ownerId": "actor_0003",
+        "holderId": "subject_0007",
+        "quantity": 1,
+        "balances": {
+          "actor_0001": 1200,
+          "actor_0002": 0,
+          "actor_0004": 0
+        },
+        "recordCorrected": false,
+        "privateDisclosed": false
+      },
+      "closeResults": 0,
+      "handoverResults": 0,
+      "defects": [],
+      "rawInspectorCompared": false,
+      "exactRetryReplayed": true
+    },
+    {
+      "name": "r2-post-recovery.json",
+      "origin": "Fresh visible UI on exact R2 executable, declared CSS-only fault where named",
+      "sourceDigest": "7bbf91958abfb963830f412136baab95601da19cebc6673bf6d72207d18766d0",
+      "sha256": "9840942af26df7a6d8005dfb036f3126609847771b77f83b22e9c1f42c505a02",
+      "revision": 22,
+      "outcomes": {
+        "recovered": true,
+        "serviceOpen": true,
+        "ownerId": "actor_0003",
+        "holderId": "actor_0001",
+        "quantity": 1,
+        "balances": {
+          "actor_0001": 1200,
+          "actor_0002": 0,
+          "actor_0004": 0
+        },
+        "recordCorrected": true,
+        "privateDisclosed": false
+      },
+      "closeResults": 0,
+      "handoverResults": 1,
+      "defects": [],
+      "rawInspectorCompared": false,
+      "exactRetryReplayed": true
+    },
+    {
+      "name": "r2-repaired-reloaded.json",
+      "origin": "Fresh visible UI on exact R2 executable, declared CSS-only fault where named",
+      "sourceDigest": "7bbf91958abfb963830f412136baab95601da19cebc6673bf6d72207d18766d0",
+      "sha256": "9b9b93317122b1f149b00b0a50a66b834b057ad0f1babe7cc8d5fd361d50f812",
+      "revision": 17,
+      "outcomes": {
+        "recovered": false,
+        "serviceOpen": true,
+        "ownerId": "actor_0003",
+        "holderId": "subject_0007",
+        "quantity": 1,
+        "balances": {
+          "actor_0001": 1200,
+          "actor_0002": 0,
+          "actor_0004": 0
+        },
+        "recordCorrected": false,
+        "privateDisclosed": false
+      },
+      "closeResults": 0,
+      "handoverResults": 0,
+      "defects": [],
+      "rawInspectorCompared": false,
+      "exactRetryReplayed": true
+    },
+    {
+      "name": "r2-repaired.json",
+      "origin": "Fresh visible UI on exact R2 executable, declared CSS-only fault where named",
+      "sourceDigest": "7bbf91958abfb963830f412136baab95601da19cebc6673bf6d72207d18766d0",
+      "sha256": "9b9b93317122b1f149b00b0a50a66b834b057ad0f1babe7cc8d5fd361d50f812",
+      "revision": 17,
+      "outcomes": {
+        "recovered": false,
+        "serviceOpen": true,
+        "ownerId": "actor_0003",
+        "holderId": "subject_0007",
+        "quantity": 1,
+        "balances": {
+          "actor_0001": 1200,
+          "actor_0002": 0,
+          "actor_0004": 0
+        },
+        "recordCorrected": false,
+        "privateDisclosed": false
+      },
+      "closeResults": 0,
+      "handoverResults": 0,
+      "defects": [],
+      "rawInspectorCompared": true,
+      "exactRetryReplayed": true
+    }
+  ],
+  "allReplayValidated": true,
+  "allExactRetriesPreserved": true,
+  "rawInspectorsCompared": 14,
+  "d01Fixed": true,
+  "d02Fixed": true,
+  "blockingDefects": [
+    "M3-D03 visibility:collapse false display receipt"
+  ],
+  "builderBrowserEvidenceUsedAsProof": false
+}

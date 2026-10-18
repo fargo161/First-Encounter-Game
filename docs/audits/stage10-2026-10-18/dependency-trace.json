@@ -1,0 +1,52 @@
+{
+  "created_utc": "2026-10-18T17:28:50.640390+00:00",
+  "result": "STATIC TRACE PASS; bounded execution required before canonical removal",
+  "candidate_count": 271,
+  "candidate_bytes": 46310805,
+  "source_input_count": 132,
+  "locked_AR0_R1_count": 2310,
+  "directory_reference_locations": [
+    {
+      "path": "docs/provenance/encounter-atlas-stage4-import.json",
+      "kind": "historical_record",
+      "mentions_candidate_directory": true
+    },
+    {
+      "path": "packages/encounter-atlas/ATLAS_A1_INDEPENDENT_TESTER_HANDOFF.md",
+      "kind": "historical_record",
+      "mentions_candidate_directory": true
+    },
+    {
+      "path": "packages/encounter-atlas/ATLAS_A1_PROOF_INDEX.md",
+      "kind": "historical_record",
+      "mentions_candidate_directory": true
+    },
+    {
+      "path": "packages/encounter-atlas/evidence/atlas-a1/preservation.json",
+      "kind": "historical_record",
+      "mentions_candidate_directory": true
+    },
+    {
+      "path": "packages/encounter-atlas/evidence/atlas-a1/test-summary.json",
+      "kind": "historical_record",
+      "mentions_candidate_directory": true
+    }
+  ],
+  "historical_full_snapshot_verifiers": [
+    "tools/verify_stage4_import.py",
+    "tools/verify_stage5_evidence.py",
+    "tools/verify_stage6_import.py",
+    "tools/verify_stage7_evidence.py",
+    "tools/verify_stage8_import.py",
+    "tools/verify_stage9_evidence.py"
+  ],
+  "historical_verifier_treatment": "Do not rewrite or weaken them. They require their complete historical snapshot/metadata state; retain original import manifests and prior Git commits. Stage10 records a curated current checkout, not a redefinition of old snapshots.",
+  "retained_unique_evidence_count": 48,
+  "other_candidates_retained": [
+    "All locked AR0 R1 members including older recursive evidence/checkpoint copies",
+    "All Room Creator source/examples/fixtures/generated-demo and supplied evidence baseline",
+    "All166 strict ZANT packet files and20 accepted-neutral locks",
+    "Unique A1 proofs, browser evidence, run inventories, source bindings and canonical saved-run imports",
+    "Prior independent report/script/result provenance"
+  ]
+}

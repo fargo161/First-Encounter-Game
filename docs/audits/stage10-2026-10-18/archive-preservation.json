@@ -1,0 +1,11 @@
+{
+  "result": "PASS",
+  "checked_utc": "2026-10-18T17:37:07.880973+00:00",
+  "preserved_originals_hash_size_mtime": 6722,
+  "preservation_copies_hash_size": 6722,
+  "all_archive_files_membership_size_mtime_guarded": 30443,
+  "archive_guard_bytes": 9580378713,
+  "canonical_preexisting_files_unchanged": 3594,
+  "archive_used_for_outputs": false,
+  "new_evidence_root": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Stage 10 Verification\\2026-10-18"
+}

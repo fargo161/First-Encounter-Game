@@ -1,0 +1,35 @@
+TAP version 13
+# node:internal/fs/promises:697
+#   return new FileHandle(await PromisePrototypeThen(
+#                         ^
+# Error: ENOENT: no such file or directory, open 'C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Stage 10 Verification\\2026-10-18\\work\\a1-independent\\evidence\\independent-input-fingerprints.json'
+#     at async open (node:internal/fs/promises:697:25)
+#     at async Object.writeFile (node:internal/fs/promises:1317:14)
+#     at async file:///C:/Users/mcdon/Documents/ChatGPT/First%20Encounter%20Game%20Stage%2010%20Verification/2026-10-18/work/a1-independent/ATLAS_A1_Independent_Adversarial_Tests.test.mjs:9:1 {
+#   errno: -4058,
+#   code: 'ENOENT',
+#   syscall: 'open',
+#   path: 'C:\\\\Users\\\\mcdon\\\\Documents\\\\ChatGPT\\\\First Encounter Game Stage 10 Verification\\\\2026-10-18\\\\work\\\\a1-independent\\\\evidence\\\\independent-input-fingerprints.json'
+# }
+# Node.js v24.19.0
+# Subtest: C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Stage 10 Verification\\2026-10-18\\work\\a1-independent\\ATLAS_A1_Independent_Adversarial_Tests.test.mjs
+not ok 1 - C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Stage 10 Verification\\2026-10-18\\work\\a1-independent\\ATLAS_A1_Independent_Adversarial_Tests.test.mjs
+  ---
+  duration_ms: 16664.4362
+  type: 'test'
+  location: 'C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Stage 10 Verification\\2026-10-18\\work\\a1-independent\\ATLAS_A1_Independent_Adversarial_Tests.test.mjs:1:1'
+  failureType: 'testCodeFailure'
+  exitCode: 1
+  signal: ~
+  error: 'test failed'
+  code: 'ERR_TEST_FAILURE'
+  ...
+1..1
+# tests 1
+# suites 0
+# pass 0
+# fail 1
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 16676.0494

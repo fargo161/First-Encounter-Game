@@ -1,0 +1,201 @@
+[
+  {
+    "name": "01-a1-supplied-tests",
+    "args": [
+      "C:\\Users\\mcdon\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\bin\\node.exe",
+      "--test",
+      "--test-reporter=tap",
+      "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Stage 10 Verification\\2026-10-18\\work\\fresh-checkout\\packages\\encounter-atlas\\tests\\ar0-d01.test.mjs",
+      "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Stage 10 Verification\\2026-10-18\\work\\fresh-checkout\\packages\\encounter-atlas\\tests\\ar0.test.mjs",
+      "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Stage 10 Verification\\2026-10-18\\work\\fresh-checkout\\packages\\encounter-atlas\\tests\\atlas-a1.test.mjs",
+      "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Stage 10 Verification\\2026-10-18\\work\\fresh-checkout\\packages\\encounter-atlas\\tests\\identity-regressions.test.mjs",
+      "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Stage 10 Verification\\2026-10-18\\work\\fresh-checkout\\packages\\encounter-atlas\\tests\\m2.test.mjs",
+      "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Stage 10 Verification\\2026-10-18\\work\\fresh-checkout\\packages\\encounter-atlas\\tests\\m3-notice-collapse.test.mjs",
+      "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Stage 10 Verification\\2026-10-18\\work\\fresh-checkout\\packages\\encounter-atlas\\tests\\m3-notice-display.test.mjs",
+      "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Stage 10 Verification\\2026-10-18\\work\\fresh-checkout\\packages\\encounter-atlas\\tests\\m3-notice-geometry.test.mjs",
+      "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Stage 10 Verification\\2026-10-18\\work\\fresh-checkout\\packages\\encounter-atlas\\tests\\m3.test.mjs",
+      "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Stage 10 Verification\\2026-10-18\\work\\fresh-checkout\\packages\\encounter-atlas\\tests\\runtime.test.mjs",
+      "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Stage 10 Verification\\2026-10-18\\work\\fresh-checkout\\packages\\encounter-atlas\\tests\\views.test.mjs"
+    ],
+    "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Stage 10 Verification\\2026-10-18\\work\\fresh-checkout\\packages\\encounter-atlas",
+    "exit_code": 0,
+    "expected_exit": 0,
+    "seconds": 36.938,
+    "log": "logs\\01-a1-supplied-tests.log",
+    "log_sha256": "fb6def1c56a38a612da7e0bc5e3b6b020cc354a3aa988d784ddc7ffc0c2ae7d4",
+    "disposable_only": true
+  },
+  {
+    "name": "02-a1-rebuild-m3",
+    "args": [
+      "C:\\Users\\mcdon\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\bin\\node.exe",
+      "scripts/build-m3.mjs"
+    ],
+    "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Stage 10 Verification\\2026-10-18\\work\\fresh-checkout\\packages\\encounter-atlas",
+    "exit_code": 0,
+    "expected_exit": 0,
+    "seconds": 1.094,
+    "log": "logs\\02-a1-rebuild-m3.log",
+    "log_sha256": "f0fe74071ab71148c45b2153a51852080fe61e15f3b9a39b8e5a357396fb8512",
+    "disposable_only": true
+  },
+  {
+    "name": "03-a1-rebuild-atlas",
+    "args": [
+      "C:\\Users\\mcdon\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\bin\\node.exe",
+      "scripts/build-atlas-a1.mjs"
+    ],
+    "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Stage 10 Verification\\2026-10-18\\work\\fresh-checkout\\packages\\encounter-atlas",
+    "exit_code": 0,
+    "expected_exit": 0,
+    "seconds": 1.156,
+    "log": "logs\\03-a1-rebuild-atlas.log",
+    "log_sha256": "74c68e510a3554b42b1c1d52303b10ba512d29fbfec1589b368ea913fa4b01f1",
+    "disposable_only": true
+  },
+  {
+    "name": "04-a1-generate-proofs",
+    "args": [
+      "C:\\Users\\mcdon\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\bin\\node.exe",
+      "scripts/generate-atlas-a1-evidence.mjs"
+    ],
+    "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Stage 10 Verification\\2026-10-18\\work\\fresh-checkout\\packages\\encounter-atlas",
+    "exit_code": 0,
+    "expected_exit": 0,
+    "seconds": 32.125,
+    "log": "logs\\04-a1-generate-proofs.log",
+    "log_sha256": "40fcf13a0226833def26fc54802d23718963283e799b3bd34cf9eb4bd07d0d91",
+    "disposable_only": true
+  },
+  {
+    "name": "05-a1-preserve-2310",
+    "args": [
+      "C:\\Users\\mcdon\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-B",
+      "scripts/preserve-atlas-a1.py"
+    ],
+    "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Stage 10 Verification\\2026-10-18\\work\\fresh-checkout\\packages\\encounter-atlas",
+    "exit_code": 0,
+    "expected_exit": 0,
+    "seconds": 1.125,
+    "log": "logs\\05-a1-preserve-2310.log",
+    "log_sha256": "afa028a19452e60eba19328ab024728bf98fd80b3ef2b977519b3df8264dea73",
+    "disposable_only": true
+  },
+  {
+    "name": "06-a1-source-identity",
+    "args": [
+      "C:\\Users\\mcdon\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-B",
+      "scripts/identity-atlas-a1.py"
+    ],
+    "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Stage 10 Verification\\2026-10-18\\work\\fresh-checkout\\packages\\encounter-atlas",
+    "exit_code": 0,
+    "expected_exit": 0,
+    "seconds": 0.156,
+    "log": "logs\\06-a1-source-identity.log",
+    "log_sha256": "2fce75947809c9beb1f34852b71c43203df9572561b6a44ff1ac561877093fb5",
+    "disposable_only": true
+  },
+  {
+    "name": "07-a1-independent",
+    "args": [
+      "C:\\Users\\mcdon\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\bin\\node.exe",
+      "--test",
+      "--test-reporter=tap",
+      "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Stage 10 Verification\\2026-10-18\\work\\a1-independent\\ATLAS_A1_Independent_Adversarial_Tests.test.mjs"
+    ],
+    "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Stage 10 Verification\\2026-10-18\\work\\a1-independent",
+    "exit_code": 1,
+    "expected_exit": 0,
+    "seconds": 17.735,
+    "log": "logs\\07-a1-independent.log",
+    "log_sha256": "4317948717f24462d98bd77143013ce3f99dbfc02d83b4b7bf1571643ea1d34d",
+    "disposable_only": true
+  },
+  {
+    "name": "07-a1-independent-retry",
+    "args": [
+      "C:\\Users\\mcdon\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\bin\\node.exe",
+      "--test",
+      "--test-reporter=tap",
+      "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Stage 10 Verification\\2026-10-18\\work\\a1-independent\\ATLAS_A1_Independent_Adversarial_Tests.test.mjs"
+    ],
+    "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Stage 10 Verification\\2026-10-18\\work\\a1-independent",
+    "exit_code": 0,
+    "expected_exit": 0,
+    "seconds": 51.125,
+    "log": "logs\\07-a1-independent-retry.log",
+    "log_sha256": "3325de2420c35f4aa8d8fdde91b393d0a4444e3b85253983af01d775b23840a1",
+    "disposable_only": true
+  },
+  {
+    "name": "08-a1-retained-ir3",
+    "args": [
+      "C:\\Users\\mcdon\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\bin\\node.exe",
+      "--test",
+      "--test-reporter=tap",
+      "scripts/run-independent-m3-r3.mjs"
+    ],
+    "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Stage 10 Verification\\2026-10-18\\work\\fresh-checkout\\packages\\encounter-atlas",
+    "exit_code": 1,
+    "expected_exit": 1,
+    "seconds": 8.687,
+    "log": "logs\\08-a1-retained-ir3.log",
+    "log_sha256": "b10e5499adc9b665d71a9687a24768e51beac2427efcbdacc5fb84d94663ddea",
+    "disposable_only": true
+  },
+  {
+    "name": "09-room-creator-node",
+    "args": [
+      "C:\\Users\\mcdon\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-B",
+      "tests/run_tests.py",
+      "--suite",
+      "node",
+      "--out",
+      "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Stage 10 Verification\\2026-10-18\\outputs\\room-node",
+      "--port",
+      "8788"
+    ],
+    "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Stage 10 Verification\\2026-10-18\\work\\fresh-checkout\\packages\\room-creator",
+    "exit_code": 0,
+    "expected_exit": 0,
+    "seconds": 13.141,
+    "log": "logs\\09-room-creator-node.log",
+    "log_sha256": "eda495d04f4898093d280cbab482552452cb05d7a64afd345fd4d120831b7156",
+    "disposable_only": true
+  },
+  {
+    "name": "10-room-creator-build",
+    "args": [
+      "C:\\Users\\mcdon\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-B",
+      "source/build.py"
+    ],
+    "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Stage 10 Verification\\2026-10-18\\work\\fresh-checkout\\packages\\room-creator",
+    "exit_code": 0,
+    "expected_exit": 0,
+    "seconds": 0.14,
+    "log": "logs\\10-room-creator-build.log",
+    "log_sha256": "7240f7d37aadb5e623231d8002565fb0242f6016ef60c27d4a7dea167d47a06a",
+    "disposable_only": true
+  },
+  {
+    "name": "11-zant-portable",
+    "args": [
+      "C:\\Users\\mcdon\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-B",
+      "validation/verify_checkpoint.py",
+      "--out",
+      "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Stage 10 Verification\\2026-10-18\\outputs\\zant-portable"
+    ],
+    "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Stage 10 Verification\\2026-10-18\\work\\fresh-checkout\\packages\\zant\\C001_ZANT_GATE_A_R5",
+    "exit_code": 0,
+    "expected_exit": 0,
+    "seconds": 26.61,
+    "log": "logs\\11-zant-portable.log",
+    "log_sha256": "109985517e001a63eac37f23158fefab5de6736ffe460dcdd81f13784f18fbf1",
+    "disposable_only": true
+  }
+]

@@ -1,7 +1,7 @@
-# Hard stop after Stage 9
+# Hard stop after Stage 10
 
-Stage 9 ZANT verification: **PASS WITH ACCEPTANCE STATES PRESERVED**. Accepted R4 remains frozen; failed A10/unaccepted A06/A14/provisional G interface remain unpromoted. Gate A is incomplete; 14 slots remain unauthored and 222 valid/17 production-negative cases unrun.
+Stage 10 cleanup is **PASS WITH RETAINED NECESSARY DUPLICATION**. Only 271 proven duplicate inherited A1 evidence files were removed. Required source/dependency/fixture/provenance paths and all acceptance states remain intact.
 
-**STOP. Stage 10 has not begun.** No repairs, redraws, slot authoring, interface revision, research-to-production conversion, integration, shared contracts, Unity, LFS, CI or cleanup is authorized.
+**STOP. Stage 11 has not begun.** No remediation, art repair/authoring, interface revision, shared contracts, integration, Unity, LFS or unrelated refactoring is authorized.
 
-Review STAGE_9_VERIFICATION.md. Recommended next action is owner review/disposition of the known failed pilot and provisional wrist receiving interface. Any future work requires explicit new authorization. Room Creator retains HOLD_FOR_FURTHER_REMEDIATION.
+Review STAGE_10_CLEANUP.md and the exact removal/retention records. Room Creator stays HOLD; ZANT Gate A stays incomplete. External archives were not modified. Any next work requires explicit new owner authorization.

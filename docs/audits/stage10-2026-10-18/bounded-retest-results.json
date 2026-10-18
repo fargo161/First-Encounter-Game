@@ -1,0 +1,124 @@
+{
+  "result": "PASS",
+  "checked_utc": "2026-10-18T17:37:43.152544+00:00",
+  "tests": {
+    "a1_supplied": {
+      "tests": 224,
+      "pass": 224,
+      "fail": 0,
+      "skipped": 0
+    },
+    "a1_independent": {
+      "tests": 21,
+      "pass": 21,
+      "fail": 0,
+      "skipped": 0
+    },
+    "retained_IR3": {
+      "tests": 25,
+      "pass": 24,
+      "fail": 1,
+      "skipped": 0
+    }
+  },
+  "Room_Creator_Node_suites": [
+    {
+      "script": "architecture_extensions.test.js",
+      "passed": 59,
+      "failed": 0
+    },
+    {
+      "script": "asset_demo_file.test.js",
+      "passed": 6,
+      "failed": 0
+    },
+    {
+      "script": "construction_v10.test.js",
+      "passed": 14,
+      "failed": 0
+    },
+    {
+      "script": "core.test.js",
+      "passed": 84,
+      "failed": 0
+    },
+    {
+      "script": "multistory.test.js",
+      "passed": 21,
+      "failed": 0
+    },
+    {
+      "script": "props_metadata.test.js",
+      "passed": 10,
+      "failed": 0
+    },
+    {
+      "script": "remediation_core.test.js",
+      "passed": 11,
+      "failed": 0
+    },
+    {
+      "script": "shared_matte.test.js",
+      "passed": 26,
+      "failed": 0
+    },
+    {
+      "script": "style_openings.test.js",
+      "passed": 37,
+      "failed": 0
+    },
+    {
+      "script": "v0_11_1_story_floor.test.js",
+      "passed": 24,
+      "failed": 0
+    },
+    {
+      "script": "v0_12_stories_rooms.test.js",
+      "passed": 16,
+      "failed": 0
+    }
+  ],
+  "Room_Creator_Node_assertions": 308,
+  "Room_Creator_LF_CRLF_build_reproduction": "PASS",
+  "builds": [
+    {
+      "path": "packages/encounter-atlas/dist-m3/index.html",
+      "bytes": 133751,
+      "sha256": "8e1c14e25a515b92188703927344e97b744921ec9b033ee2b1d8cc0b63f517cb",
+      "byte_identical": true
+    },
+    {
+      "path": "packages/encounter-atlas/dist-atlas-a1/index.html",
+      "bytes": 1039524,
+      "sha256": "b9612d61f41bcf2bee5085902ff65c5e418b226de3dd5c8af6490ccd15e4ae9f",
+      "byte_identical": true
+    },
+    {
+      "path": "packages/room-creator/Room_Creator.html",
+      "bytes": 1615201,
+      "sha256": "a4e8a14ddc4d734c036902f56b1a7d7bb8a157a77ef3911b97ea70c76f228c97",
+      "byte_identical": true
+    }
+  ],
+  "A1_unchanged_required_dependency_members": 2310,
+  "A1_source_inputs": 132,
+  "A1_source_digest": "1a8558b3654e52881a288d2a5ab99e574878531f7a9d5fca86223e511146f085",
+  "A1_regenerated_proofs": 12,
+  "A1_regenerated_proofs_byte_identical": true,
+  "A1_independent_probe_unchanged": true,
+  "ZANT_portable_integrity": "PASS",
+  "ZANT_replays": 4,
+  "ZANT_failed_wrist_pixels": 1252,
+  "ZANT_gate_A_complete": false,
+  "unresolved_environment_failures": [],
+  "resolved_orchestration_issues": [
+    "Git export stream completion wait; verified task-owned producer stopped after complete export, all retained file hashes/membership validated, helper corrected to drain padding.",
+    "Independent A1 harness expected an evidence output sibling; directory added in disposable layout, unchanged retry21/21; failed first attempt/log retained."
+  ],
+  "migration_regressions": [],
+  "known_IR3_25_preserved": true,
+  "no_test_or_production_scripts_rewritten": true,
+  "safe_to_remove_candidates": 271,
+  "safe_to_remove_bytes": 46310805,
+  "canonical_removals_applied": false
+}

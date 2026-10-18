@@ -1,9 +1,9 @@
 # Subsystem packages
 
-encounter-atlas is accepted A1, unchanged after Stage 5 verification with documented known limitations.
+encounter-atlas retains all canonical execution inputs, required 2310-member AR0 R1 dependency, tests, saved runs and proofs. Stage 10 removes271 noncanonical duplicate inherited evidence files only; current tree 2460 files, full historical imported tree 2731 files reconstructible from exact retained copies.
 
-room-creator is unchanged held v0.14.1: 383 baseline files plus separate Git metadata. Stage 7 passed with HOLD preserved; the known missing-image repair defect remains.
+room-creator remains the unchanged 384-file held v0.14.1 package (383 baseline files plus Git metadata), with HOLD_FOR_FURTHER_REMEDIATION.
 
-zant contains unchanged C001_ZANT_GATE_A_R5 and its exact manifest. Stage 9 passed with acceptance states preserved: accepted R4, failed A10, unaccepted A06/A14, provisional G interface, incomplete Gate A. No source/art repair or promotion.
+zant remains the unchanged 166-file packet, accepted R4 distinct from failed/provisional R5; Gate A incomplete.
 
-See ../docs/consolidation/STAGE_9_VERIFICATION.md. Stop before Stage 10; no integration/shared contracts/Unity/LFS.
+Current cleanup/integrity: ../docs/consolidation/STAGE_10_CLEANUP.md. Stop before Stage 11. No integration/shared contracts/Unity/LFS.

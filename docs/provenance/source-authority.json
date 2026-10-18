@@ -11,7 +11,8 @@
     6,
     7,
     8,
-    9
+    9,
+    10
   ],
   "subsystem_source_imported": true,
   "governing_documents": {
@@ -76,6 +77,14 @@
       "sha256": "27efcefb694f7d302982ce44175bd092f21baf056a0a5cec517e604968cbb6f0",
       "archive_root": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-9-verification-2026-10-18",
       "archive_path": "inputs/FIRST_ENCOUNTER_GAME_STAGE_9_AUTHORIZATION.md"
+    },
+    "FIRST_ENCOUNTER_GAME_STAGE_10_AUTHORIZATION.md": {
+      "source_path": "C:\\Users\\mcdon\\Downloads\\FIRST_ENCOUNTER_GAME_STAGE_10_AUTHORIZATION.md",
+      "repository_path": "docs/provenance/governing/FIRST_ENCOUNTER_GAME_STAGE_10_AUTHORIZATION.md",
+      "bytes": 5387,
+      "sha256": "9c3af730ac01012c036d954afac038dc21d8f5e7addd7363be4a0235418af422",
+      "verification_root": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Stage 10 Verification\\2026-10-18",
+      "verification_path": "inputs/FIRST_ENCOUNTER_GAME_STAGE_10_AUTHORIZATION.md"
     }
   },
   "repository": {
@@ -463,25 +472,19 @@
     }
   },
   "verification_this_execution": {
-    "stage": 9,
-    "subsystem": "zant",
-    "source_builds_or_behavior_tests_executed": true,
-    "disposable_only": true,
-    "verdict": "PASS WITH ACCEPTANCE STATES PRESERVED",
-    "manifest": "docs/provenance/zant-stage9-verification.json",
-    "report": "docs/consolidation/STAGE_9_VERIFICATION.md",
-    "accepted_R4_preserved": true,
-    "failed_provisional_material_promoted": false,
-    "Gate_A_complete": false,
-    "canonical_ZANT_unchanged": true,
-    "canonical_Encounter_unchanged": true,
-    "canonical_Room_Creator_unchanged": true,
-    "Room_Creator_HOLD_unchanged": true,
-    "originals_unchanged": true,
-    "stage10_started": false
+    "stage": 10,
+    "scope": "Duplicate noncanonical imported evidence removal only",
+    "verdict": "PASS WITH RETAINED NECESSARY DUPLICATION",
+    "manifest": "docs/provenance/stage10-cleanup-manifest.json",
+    "report": "docs/consolidation/STAGE_10_CLEANUP.md",
+    "canonical_execution_source_changed": false,
+    "subsystem_acceptance_changed": false,
+    "known_defect_records_changed": false,
+    "external_preservation_archive_changed": false,
+    "stage11_started": false
   },
-  "next_stage": "Stage 10 requires explicit new owner authorization. STOP; no repair or integration is authorized.",
-  "current_authorized_stage": 9,
+  "next_stage": "Stage 11 requires explicit new owner authorization. STOP.",
+  "current_authorized_stage": 10,
   "imported_subsystems": [
     "encounter_atlas",
     "room_creator",
@@ -544,5 +547,37 @@
     "manifest": "docs/provenance/zant-stage8-import.json",
     "gateAComplete": false,
     "no_failed_or_provisional_work_promoted": true
+  },
+  "verification_history_stage_9": {
+    "stage": 9,
+    "subsystem": "zant",
+    "source_builds_or_behavior_tests_executed": true,
+    "disposable_only": true,
+    "verdict": "PASS WITH ACCEPTANCE STATES PRESERVED",
+    "manifest": "docs/provenance/zant-stage9-verification.json",
+    "report": "docs/consolidation/STAGE_9_VERIFICATION.md",
+    "accepted_R4_preserved": true,
+    "failed_provisional_material_promoted": false,
+    "Gate_A_complete": false,
+    "canonical_ZANT_unchanged": true,
+    "canonical_Encounter_unchanged": true,
+    "canonical_Room_Creator_unchanged": true,
+    "Room_Creator_HOLD_unchanged": true,
+    "originals_unchanged": true,
+    "stage10_started": false
+  },
+  "current_checkout_cleanup": {
+    "stage": 10,
+    "manifest": "docs/provenance/stage10-cleanup-manifest.json",
+    "baseline_commit": "17eac3c20eb9952c0d5cd444363c1d3e286d3db9",
+    "removed_noncanonical_duplicate_files": 271,
+    "removed_bytes": 46310805,
+    "A1_current_files": 2460,
+    "A1_current_tree_sha256": "f565b7f89329a02b17febec136b991ce99ee092db7d8c6b952c4159b9d32171c",
+    "historical_import_records": "Subsystem import counts/trees remain exact historical import identities. Current checkout intentionally omits only listed noncanonical duplicate outputs; original full snapshots and all retained duplicate bindings remain exact.",
+    "execution_and_dependency_input_counts_unchanged": [
+      132,
+      2310
+    ]
   }
 }

@@ -1,0 +1,9 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "python_executable": "C:\\Users\\mcdon\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "node": "v24.19.0",
+  "disposable_retests": true,
+  "dependency_installations": false,
+  "external_archive_output_writes": false
+}

@@ -1,0 +1,595 @@
+{
+  "categories": [
+    {
+      "category": "Locked inherited AR0 R1 snapshot",
+      "paths_manifest": "packages/encounter-atlas/historical/Encounter_AR0_Atlas_Readiness_Checkpoint_R1.identity.json",
+      "member_count": 2310,
+      "reason": "Unchanged A1 supplied test and preserve-atlas-a1.py hash all2310 members; scripts/readers also use historical ZIPs and inherited fixtures."
+    },
+    {
+      "category": "Historical checkpoint and review archives",
+      "files": [
+        {
+          "path": "packages/encounter-atlas/baseline/Encounter_M2_Checkpoint.zip",
+          "bytes": 1855021,
+          "sha256": "940a0bfaed6e45861d425a899afcb29cd518f25a25ed2d877b5c1524a1421bd7",
+          "mtime_ns": 1792317626611776800
+        },
+        {
+          "path": "packages/encounter-atlas/historical/Encounter_M3_Checkpoint.zip",
+          "bytes": 7534657,
+          "sha256": "de808fbdbf6929c5c9cf7915ea982086d5796c7c004b16ec0a882e58170f3b64",
+          "mtime_ns": 1792317628711577800
+        },
+        {
+          "path": "packages/encounter-atlas/historical/Encounter_M3_Checkpoint_R1.zip",
+          "bytes": 28146000,
+          "sha256": "f7afae2bfa1b75a4a8ec3e2ded09a7845671dbfb0ca9fc5ad487c655c6a68ed4",
+          "mtime_ns": 1792317628823519000
+        },
+        {
+          "path": "packages/encounter-atlas/independent/M1_Independent_Tester_Evidence.zip",
+          "bytes": 375777,
+          "sha256": "30e0f7937339958ac49980a410df74c044a8ceac8b79d5ac70587d4dee878932",
+          "mtime_ns": 1792317628848885600
+        },
+        {
+          "path": "packages/encounter-atlas/independent/M1_Independent_Tester_Evidence_R2.zip",
+          "bytes": 1016809,
+          "sha256": "f758045250da945cb521ae22277c289a8e52055eaa5a347ff5f40f626002f46a",
+          "mtime_ns": 1792317628854470400
+        },
+        {
+          "path": "packages/encounter-atlas/independent/M2_Independent_Test_Evidence.zip",
+          "bytes": 2176404,
+          "sha256": "dd0e7e2423b389f070591cac999e657297bc6fbaa6b9842c1f2f321c5fb68518",
+          "mtime_ns": 1792317628865860800
+        },
+        {
+          "path": "packages/encounter-atlas/independent/m3-r1-review/reviewed-checkpoint/Encounter_M3_Checkpoint_R1.zip",
+          "bytes": 28146000,
+          "sha256": "f7afae2bfa1b75a4a8ec3e2ded09a7845671dbfb0ca9fc5ad487c655c6a68ed4",
+          "mtime_ns": 1792317629442572000
+        },
+        {
+          "path": "packages/encounter-atlas/independent/m3-review/reviewed-checkpoint/Encounter_M3_Checkpoint.zip",
+          "bytes": 7534657,
+          "sha256": "de808fbdbf6929c5c9cf7915ea982086d5796c7c004b16ec0a882e58170f3b64",
+          "mtime_ns": 1792317629987443300
+        }
+      ],
+      "reason": "Exact paths participate in inherited preservation/serving/portable review workflows. No scripts are rewritten solely to remove these copies."
+    },
+    {
+      "category": "Unique A1 inherited run provenance",
+      "files": [
+        {
+          "path": "packages/encounter-atlas/evidence/atlas-a1/inherited/all-inherited.json",
+          "bytes": 856,
+          "sha256": "ac13ba858b04ff92768e3bed2074b9e218f0d2af99d4423ea4391186d09428b0",
+          "mtime_ns": 1792318209024634400
+        },
+        {
+          "path": "packages/encounter-atlas/evidence/atlas-a1/inherited/fresh-r1/executed-commands.json",
+          "bytes": 34916,
+          "sha256": "1520d371c3ba157e77ba9f73a8a05045838f246c98516fa51754de686dafeff4",
+          "mtime_ns": 1792318209007116400
+        },
+        {
+          "path": "packages/encounter-atlas/evidence/atlas-a1/inherited/fresh-r1/fresh-all-inherited-ar0.json",
+          "bytes": 24219,
+          "sha256": "47ac02b14c2a5b0997d101f64d694e5b70089cfaba4cddfc61565fc67061de2b",
+          "mtime_ns": 1792318140466621500
+        },
+        {
+          "path": "packages/encounter-atlas/evidence/atlas-a1/inherited/fresh-r1/fresh-conflicting-cli-author.json",
+          "bytes": 1387,
+          "sha256": "e56f796b7721db30e441447fa9133f7473ae1c60ef5cb663a173803cce0f1939",
+          "mtime_ns": 1792318203207485400
+        },
+        {
+          "path": "packages/encounter-atlas/evidence/atlas-a1/inherited/fresh-r1/fresh-conflicting-cli-player.json",
+          "bytes": 1387,
+          "sha256": "465fc28baed6d782d8a438e5cf924b28f56595780e1885cbe9e1f690a7e95191",
+          "mtime_ns": 1792318204815785100
+        },
+        {
+          "path": "packages/encounter-atlas/evidence/atlas-a1/inherited/fresh-r1/fresh-identity.json",
+          "bytes": 703,
+          "sha256": "68bd495c92c62da5302905bc56b8e506213f858231c212342908b7ae93e5f38d",
+          "mtime_ns": 1792317959757460600
+        },
+        {
+          "path": "packages/encounter-atlas/evidence/atlas-a1/inherited/fresh-r1/fresh-independent-ar0.json",
+          "bytes": 6364,
+          "sha256": "f5fc6f08e855cb8210c1c04e3551d869f976ca3eb3ee984623528c543858b5fa",
+          "mtime_ns": 1792318201609685300
+        },
+        {
+          "path": "packages/encounter-atlas/evidence/atlas-a1/inherited/fresh-r1/fresh-preservation.json",
+          "bytes": 679,
+          "sha256": "576d4f681a98835d766a12e2e3a17b5b4a1dcfae6006a2a7bbf842f9e5f672f9",
+          "mtime_ns": 1792318209007116400
+        },
+        {
+          "path": "packages/encounter-atlas/evidence/atlas-a1/inherited/fresh-r1/regression-source-binding.json",
+          "bytes": 327,
+          "sha256": "2708b278aa0a16673b05d6173d03dccf49063aec540e2e4220c740178d6c5213",
+          "mtime_ns": 1792318140886267800
+        },
+        {
+          "path": "packages/encounter-atlas/evidence/atlas-a1/inherited/fresh-r1/regression/executed-commands.json",
+          "bytes": 24132,
+          "sha256": "caea09816d2b9a4e6bea0881f4015eda8b809e090d0accca0cc4267ab97cb875",
+          "mtime_ns": 1792318140452667500
+        },
+        {
+          "path": "packages/encounter-atlas/evidence/atlas-a1/inherited/fresh-r1/regression/fresh-all-inherited-plus-ar0.json",
+          "bytes": 14767,
+          "sha256": "745eb15a4d04be3cbe52c8cda62191bf804d92825729e86004df55a7b3f796bd",
+          "mtime_ns": 1792318126085469600
+        },
+        {
+          "path": "packages/encounter-atlas/evidence/atlas-a1/inherited/fresh-r1/regression/fresh-identity.json",
+          "bytes": 945,
+          "sha256": "0507d8d2a8b786cfdc170ea91144834357cbd2d67b35d5c2d020177f8cf063e3",
+          "mtime_ns": 1792317965120769700
+        },
+        {
+          "path": "packages/encounter-atlas/evidence/atlas-a1/inherited/fresh-r1/regression/fresh-independent-r3.json",
+          "bytes": 7339,
+          "sha256": "d9386995ce9ade2e7512020d714fd3d2fb4d7d637ec421930382a1528813c7d6",
+          "mtime_ns": 1792318137917766800
+        },
+        {
+          "path": "packages/encounter-atlas/evidence/atlas-a1/inherited/fresh-r1/regression/fresh-preservation.json",
+          "bytes": 964,
+          "sha256": "0b6bc7657bc38e43389ef77e00c7dad4de6478e44f118032f584a12b6fc71ec8",
+          "mtime_ns": 1792318140451665600
+        },
+        {
+          "path": "packages/encounter-atlas/evidence/atlas-a1/inherited/fresh-r1/regression/preservation.json",
+          "bytes": 53618,
+          "sha256": "0a5ae05bb033ec08f0b23d3d0577d78af83359c3c63a489ca87a5ae3265ec5f4",
+          "mtime_ns": 1792318140432315700
+        },
+        {
+          "path": "packages/encounter-atlas/evidence/atlas-a1/inherited/fresh-r1/regression/regression-source-binding.json",
+          "bytes": 496,
+          "sha256": "35123b01175cdefdee07336ebbc733ea691add9516dc8c9cf45f291c80dcfbce",
+          "mtime_ns": 1792318126298253900
+        },
+        {
+          "path": "packages/encounter-atlas/evidence/atlas-a1/inherited/fresh-r1/regression/regression/executed-commands.json",
+          "bytes": 17125,
+          "sha256": "b47062f81e8a092bc113880e94a67028e5912d0ba4a22cad167b8bcfbb5bf9a9",
+          "mtime_ns": 1792318126066002200
+        },
+        {
+          "path": "packages/encounter-atlas/evidence/atlas-a1/inherited/fresh-r1/regression/regression/fresh-browser-evidence.json",
+          "bytes": 1114,
+          "sha256": "a797aa4632a3f9836bfa54ae9025a4be4bce92ff8fc6821dc3f59565fbf15f8e",
+          "mtime_ns": 1792318124583864600
+        },
+        {
+          "path": "packages/encounter-atlas/evidence/atlas-a1/inherited/fresh-r1/regression/regression/fresh-build.json",
+          "bytes": 678,
+          "sha256": "37d4f1bca3874599b596fb9f088969d6ca361e85b19287f9a418d035691bab72",
+          "mtime_ns": 1792317972619175200
+        },
+        {
+          "path": "packages/encounter-atlas/evidence/atlas-a1/inherited/fresh-r1/regression/regression/fresh-independent-r2.json",
+          "bytes": 4793,
+          "sha256": "0aa25e21571efbd26ae53a876472db0cf15f4f5115c6dc92ffb8482f9309fb1b",
+          "mtime_ns": 1792318113816467100
+        },
+        {
+          "path": "packages/encounter-atlas/evidence/atlas-a1/inherited/fresh-r1/regression/regression/fresh-inherited-gates.json",
+          "bytes": 8726,
+          "sha256": "11819ee88075978abdd44565063d53a9028b3fdc2dfacac9fcd251fdf7949867",
+          "mtime_ns": 1792318107819620700
+        },
+        {
+          "path": "packages/encounter-atlas/evidence/atlas-a1/inherited/fresh-r1/regression/regression/fresh-preservation.json",
+          "bytes": 971,
+          "sha256": "808cf604a5e05264d03f8205a84b996276de11e022b1ac28481c735de44242ea",
+          "mtime_ns": 1792318126064758800
+        },
+        {
+          "path": "packages/encounter-atlas/evidence/atlas-a1/inherited/fresh-r1/regression/regression/fresh-source-identity.json",
+          "bytes": 672,
+          "sha256": "82405a99c148c32a8c8c8ec9bb81559b4bca9b4cf0ac24c08859b8674d4f127a",
+          "mtime_ns": 1792317972963103400
+        },
+        {
+          "path": "packages/encounter-atlas/evidence/atlas-a1/inherited/fresh-r1/regression/regression/regression-source-binding.json",
+          "bytes": 394,
+          "sha256": "4f562f2ddc9fdca4e3797b4ba79249bddb05c73030efb2cc31a1dd4ab65ce80a",
+          "mtime_ns": 1792318107890668900
+        },
+        {
+          "path": "packages/encounter-atlas/evidence/atlas-a1/inherited/fresh-r1/regression/regression/regression/m0-m3/executed-commands.json",
+          "bytes": 64390,
+          "sha256": "7321637f7a86c850519c49b6887e6b17e9deaa528a3c5ae71e78ed6dbe5706e5",
+          "mtime_ns": 1792318053880304400
+        },
+        {
+          "path": "packages/encounter-atlas/evidence/atlas-a1/inherited/fresh-r1/regression/regression/regression/m0-m3/fresh-build.txt",
+          "bytes": 835,
+          "sha256": "178cf4acd852cad7a61c8781955b93457fd1be52bac873bfc90ae9abea80773e",
+          "mtime_ns": 1792317984926963600
+        },
+        {
+          "path": "packages/encounter-atlas/evidence/atlas-a1/inherited/fresh-r1/regression/regression/regression/m0-m3/fresh-builder-tests.tap",
+          "bytes": 47236,
+          "sha256": "605899714f803d6e1cf1363c5ad947fdc30d26eb7db330cb258c45fb16a53fae",
+          "mtime_ns": 1792318028661284300
+        },
+        {
+          "path": "packages/encounter-atlas/evidence/atlas-a1/inherited/fresh-r1/regression/regression/regression/m0-m3/fresh-generated-evidence.txt",
+          "bytes": 1036,
+          "sha256": "1f43fa11b43bf09c7d94f59fb2645e6edf131fe46905059dd09ec3e547bd6450",
+          "mtime_ns": 1792318053879340400
+        },
+        {
+          "path": "packages/encounter-atlas/evidence/atlas-a1/inherited/fresh-r1/regression/regression/regression/m0-m3/fresh-independent-m1.tap",
+          "bytes": 6310,
+          "sha256": "3912cb356ccf314ecdbc7c43a95ed2b164b09dd283ad10ff14feb882bf579bf2",
+          "mtime_ns": 1792318030958048500
+        },
+        {
+          "path": "packages/encounter-atlas/evidence/atlas-a1/inherited/fresh-r1/regression/regression/regression/m0-m3/fresh-independent-m2.tap",
+          "bytes": 5517,
+          "sha256": "73fc1713b45ebd9a8b635e0051b8e1299d1931452b11b9b69e457ae36c0310eb",
+          "mtime_ns": 1792318034075599400
+        },
+        {
+          "path": "packages/encounter-atlas/evidence/atlas-a1/inherited/fresh-r1/regression/regression/regression/m0-m3/fresh-m0-audit.txt",
+          "bytes": 1322,
+          "sha256": "bc9e09aac91c1d422ae06bca5ab721a27ecd96cfa3ef58f3dcde4e0ad793eb25",
+          "mtime_ns": 1792317986830266500
+        },
+        {
+          "path": "packages/encounter-atlas/evidence/atlas-a1/inherited/fresh-r1/regression/regression/regression/m0-m3/fresh-preservation.txt",
+          "bytes": 844,
+          "sha256": "faba5f0ee81ac6311e3c1250e82baf11dcb595ddd3317c5075d359449b569de7",
+          "mtime_ns": 1792317985663789100
+        },
+        {
+          "path": "packages/encounter-atlas/evidence/atlas-a1/inherited/fresh-r1/regression/regression/regression/m0-m3/fresh-source-identity.txt",
+          "bytes": 839,
+          "sha256": "6ee7e7ce793ed8009ba18958a848cade1f7dcbcaf0f51c8c055ff8bde8d9388e",
+          "mtime_ns": 1792317985271365600
+        },
+        {
+          "path": "packages/encounter-atlas/evidence/atlas-a1/inherited/fresh-r1/regression/regression/regression/prior-m3/executed-commands.json",
+          "bytes": 11224,
+          "sha256": "c0f2fadd3a5ab19c47ea10a277cbfa251021c3388ea82f811231355f69a87ea6",
+          "mtime_ns": 1792318086062457300
+        },
+        {
+          "path": "packages/encounter-atlas/evidence/atlas-a1/inherited/fresh-r1/regression/regression/regression/prior-m3/fresh-browser-evidence.txt",
+          "bytes": 1110,
+          "sha256": "d0c0e79210dae58def645203c961010e3b21c789ca2e752647d9e275543b1f92",
+          "mtime_ns": 1792318084277030800
+        },
+        {
+          "path": "packages/encounter-atlas/evidence/atlas-a1/inherited/fresh-r1/regression/regression/regression/prior-m3/fresh-independent-d01.txt",
+          "bytes": 884,
+          "sha256": "7c936607e725ee90214a7734e6f949137d504079ea87a17f1ed9f0e796eadcd1",
+          "mtime_ns": 1792318076324187300
+        },
+        {
+          "path": "packages/encounter-atlas/evidence/atlas-a1/inherited/fresh-r1/regression/regression/regression/prior-m3/fresh-independent-m3.txt",
+          "bytes": 5271,
+          "sha256": "d9c526d72ed3509e959718d3ca37ba20b1ce73bd7c69f07b56f0d964d633ca61",
+          "mtime_ns": 1792318073846406500
+        },
+        {
+          "path": "packages/encounter-atlas/evidence/atlas-a1/inherited/fresh-r1/regression/regression/regression/prior-m3/fresh-preservation.txt",
+          "bytes": 936,
+          "sha256": "ca68c95598bfdec2268bd5d98153acf0f9df243c15f44d03853f2c432f399aae",
+          "mtime_ns": 1792318086059712800
+        },
+        {
+          "path": "packages/encounter-atlas/evidence/atlas-a1/inherited/fresh-r1/regression/regression/regression/prior-m3/fresh-regression.txt",
+          "bytes": 2875,
+          "sha256": "267b72edeff8042dc864f15675d9694718345cb7bb4ca0c8528e817d34976086",
+          "mtime_ns": 1792318053906571100
+        },
+        {
+          "path": "packages/encounter-atlas/evidence/atlas-a1/inherited/fresh-r1/regression/regression/regression/r2/executed-commands.json",
+          "bytes": 10506,
+          "sha256": "10773f6c7133305759e18ad21ef744d307af20687aca838cd2ef089b7281ac84",
+          "mtime_ns": 1792318107808300300
+        },
+        {
+          "path": "packages/encounter-atlas/evidence/atlas-a1/inherited/fresh-r1/regression/regression/regression/r2/fresh-browser-evidence.json",
+          "bytes": 1133,
+          "sha256": "476e8524a1edd1354beec58363ba57818601fbe9cd0dd7045d896903c0b32b45",
+          "mtime_ns": 1792318105496004600
+        },
+        {
+          "path": "packages/encounter-atlas/evidence/atlas-a1/inherited/fresh-r1/regression/regression/regression/r2/fresh-independent-d02.json",
+          "bytes": 2875,
+          "sha256": "ba15aa1886ec438c6e436931efc25001fda1af0f2dc97fb95c081928152d6395",
+          "mtime_ns": 1792318096663660300
+        },
+        {
+          "path": "packages/encounter-atlas/evidence/atlas-a1/inherited/fresh-r1/regression/regression/regression/r2/fresh-inherited-regressions.json",
+          "bytes": 5363,
+          "sha256": "26eca4667b6c11993be1949088c3b194c9b35ab301aa5dd0206a4ff2331d4388",
+          "mtime_ns": 1792318086086662900
+        },
+        {
+          "path": "packages/encounter-atlas/evidence/atlas-a1/inherited/fresh-r1/regression/regression/regression/r2/fresh-preservation.json",
+          "bytes": 1010,
+          "sha256": "2a12d6c12e00b323cfdaaf1577b35fc01588c518c526342b8102c9cf51944e7f",
+          "mtime_ns": 1792318107808300300
+        },
+        {
+          "path": "packages/encounter-atlas/evidence/atlas-a1/inherited/independent-r1.json",
+          "bytes": 4160,
+          "sha256": "1b4453ae3ff946dc049b6ba682b8bb8b64a4194afa6fd83e4df971575dd9514b",
+          "mtime_ns": 1792318233405751000
+        },
+        {
+          "path": "packages/encounter-atlas/evidence/atlas-a1/inherited/r1-proof-evidence.json",
+          "bytes": 491,
+          "sha256": "c7f06960c50de381d41e6c2e4db2297b98423e123369d938676dd0ccf0f2a113",
+          "mtime_ns": 1792318511537904500
+        },
+        {
+          "path": "packages/encounter-atlas/evidence/atlas-a1/inherited/retained-ar0-evidence.json",
+          "bytes": 906,
+          "sha256": "e2ace1deff48929d66fc6a87e7121f74ba657a4dcbccfe90757a623030ae6e28",
+          "mtime_ns": 1792318336067304100
+        },
+        {
+          "path": "packages/encounter-atlas/evidence/atlas-a1/inherited/source-binding.json",
+          "bytes": 1139,
+          "sha256": "7686fc03986a948e69e8e7048b7835b4525c4cdf0b96a16bb3460c7e1c96327c",
+          "mtime_ns": 1792318512285378600
+        }
+      ],
+      "reason": "48 metadata/log/source-binding records have no second retained byte copy. Preserve unique run provenance and link the cleanup projection instead of deleting or rewriting it."
+    },
+    {
+      "category": "Canonical A1 runtime and proofs",
+      "directories": [
+        "packages/encounter-atlas/src",
+        "packages/encounter-atlas/content",
+        "packages/encounter-atlas/tests",
+        "packages/encounter-atlas/scripts",
+        "packages/encounter-atlas/fixtures/atlas-a1",
+        "packages/encounter-atlas/proofs/atlas-a1",
+        "packages/encounter-atlas/evidence/ar0-r1/browser"
+      ],
+      "reason": "132-source-input identity; six UI imports; full proof/retest workflows retained."
+    },
+    {
+      "category": "Room Creator held package",
+      "directory": "packages/room-creator",
+      "manifest": "docs/provenance/room-creator-stage6-import.json",
+      "reason": "All source/maps/fixtures and original packaging/evidence contract retained. Generated versus shipped demo differ in bytes; similar image-heavy JSON outputs are not automatically interchangeable."
+    },
+    {
+      "category": "ZANT exact failed packet",
+      "directory": "packages/zant/C001_ZANT_GATE_A_R5",
+      "member_count": 166,
+      "reason": "Portable verifier checks exact manifest membership; neutral/current/snapshot duplicates preserve accepted and failed/provisional provenance. No art files can be removed safely under this scope."
+    },
+    {
+      "category": "Selected provenance/research/audit records",
+      "directories": [
+        "docs/provenance",
+        "docs/research/zant",
+        "docs/audits"
+      ],
+      "reason": "Preserved source roles, historical identities and selected verification records remain needed. No unrelated documentation cleanup."
+    }
+  ],
+  "deferred_uncertain": [
+    "Further RC example/generated/download JSON deduplication: distinct bytes/metadata and held package contract; no normalization or reader changes authorized.",
+    "Removal of locked older recursive evidence/archive copies: existing tests/preservation/workflows require them.",
+    "Semantic consolidation of unique inherited provenance or source-role references: unnecessary risk; retain."
+  ],
+  "top_duplicate_groups": [
+    {
+      "bytes_each": 28146000,
+      "sha256": "f7afae2bfa1b75a4a8ec3e2ded09a7845671dbfb0ca9fc5ad487c655c6a68ed4",
+      "copies": 2,
+      "paths": [
+        "packages/encounter-atlas/historical/Encounter_M3_Checkpoint_R1.zip",
+        "packages/encounter-atlas/independent/m3-r1-review/reviewed-checkpoint/Encounter_M3_Checkpoint_R1.zip"
+      ],
+      "duplicate_checkout_bytes": 28146000
+    },
+    {
+      "bytes_each": 18197293,
+      "sha256": "8675378e115152b566afe818fb2c2ca4a1652e5d28fd2e62b95178de92a9f38d",
+      "copies": 2,
+      "paths": [
+        "packages/room-creator/tests/assets_evidence/downloads/resaved_without_library.room.json",
+        "packages/room-creator/tests/assets_evidence/downloads/saved_with_future.room.json"
+      ],
+      "duplicate_checkout_bytes": 18197293
+    },
+    {
+      "bytes_each": 7534657,
+      "sha256": "de808fbdbf6929c5c9cf7915ea982086d5796c7c004b16ec0a882e58170f3b64",
+      "copies": 2,
+      "paths": [
+        "packages/encounter-atlas/historical/Encounter_M3_Checkpoint.zip",
+        "packages/encounter-atlas/independent/m3-review/reviewed-checkpoint/Encounter_M3_Checkpoint.zip"
+      ],
+      "duplicate_checkout_bytes": 7534657
+    },
+    {
+      "bytes_each": 768008,
+      "sha256": "7534fb3e1cf836796c1a7a567e1240f85492fe6c3cf1d35ebe22cf8e21fecddf",
+      "copies": 6,
+      "paths": [
+        "packages/encounter-atlas/evidence/ar0-r1/regression/browser/ui-post-recovery-trace.json",
+        "packages/encounter-atlas/evidence/ar0-r1/regression/browser/ui-replayed-trace.json",
+        "packages/encounter-atlas/evidence/ar0/browser/ui-post-recovery-trace.json",
+        "packages/encounter-atlas/evidence/ar0/browser/ui-replayed-trace.json",
+        "packages/encounter-atlas/evidence/atlas-a1/inherited/fresh-r1/regression/browser/ui-post-recovery-trace.json",
+        "packages/encounter-atlas/evidence/atlas-a1/inherited/fresh-r1/regression/browser/ui-replayed-trace.json"
+      ],
+      "duplicate_checkout_bytes": 3840040
+    },
+    {
+      "bytes_each": 487896,
+      "sha256": "d2a85d1a9e79a5f0d4f5d018b53e6ccdfa02bff2db0edd3ec98ccc599b13f3ed",
+      "copies": 6,
+      "paths": [
+        "packages/encounter-atlas/evidence/ar0-r1/regression/browser/ui-repaired-loaded-trace.json",
+        "packages/encounter-atlas/evidence/ar0-r1/regression/browser/ui-repaired-trace.json",
+        "packages/encounter-atlas/evidence/ar0/browser/ui-repaired-loaded-trace.json",
+        "packages/encounter-atlas/evidence/ar0/browser/ui-repaired-trace.json",
+        "packages/encounter-atlas/evidence/atlas-a1/inherited/fresh-r1/regression/browser/ui-repaired-loaded-trace.json",
+        "packages/encounter-atlas/evidence/atlas-a1/inherited/fresh-r1/regression/browser/ui-repaired-trace.json"
+      ],
+      "duplicate_checkout_bytes": 2439480
+    },
+    {
+      "bytes_each": 767310,
+      "sha256": "a7823db4ff164aec5ba4fc1fdcde538be8b41638c52e21e4428706e2fdc5724b",
+      "copies": 4,
+      "paths": [
+        "packages/encounter-atlas/evidence/ar0-r1/browser/ui-post-recovery-trace.json",
+        "packages/encounter-atlas/evidence/ar0-r1/browser/ui-replayed-trace.json",
+        "packages/encounter-atlas/evidence/atlas-a1/inherited/fresh-r1/browser/ui-post-recovery-trace.json",
+        "packages/encounter-atlas/evidence/atlas-a1/inherited/fresh-r1/browser/ui-replayed-trace.json"
+      ],
+      "duplicate_checkout_bytes": 2301930
+    },
+    {
+      "bytes_each": 458723,
+      "sha256": "c59abb71cf4e7db35e8ea6ec1858b5b3b79ccf59b68d79bfcd22a95ef3ec314e",
+      "copies": 6,
+      "paths": [
+        "packages/encounter-atlas/evidence/m3-d02/independent-execution/r1-after-invalid-save-trace.json",
+        "packages/encounter-atlas/evidence/m3-d02/independent-execution/r1-repaired-reloaded-trace.json",
+        "packages/encounter-atlas/evidence/m3-d02/independent-execution/r1-repaired-trace.json",
+        "packages/encounter-atlas/independent/m3-r1-review/evidence/r1-after-invalid-save-trace.json",
+        "packages/encounter-atlas/independent/m3-r1-review/evidence/r1-repaired-reloaded-trace.json",
+        "packages/encounter-atlas/independent/m3-r1-review/evidence/r1-repaired-trace.json"
+      ],
+      "duplicate_checkout_bytes": 2293615
+    },
+    {
+      "bytes_each": 434804,
+      "sha256": "dd7a9d1bc27fac1b2140d650d4187beeeb1f9683d5233e31b9c7850d2b1a6e1c",
+      "copies": 6,
+      "paths": [
+        "packages/encounter-atlas/evidence/ar0-r1/regression/browser/ui-post-recovery.json",
+        "packages/encounter-atlas/evidence/ar0-r1/regression/browser/ui-replayed.json",
+        "packages/encounter-atlas/evidence/ar0/browser/ui-post-recovery.json",
+        "packages/encounter-atlas/evidence/ar0/browser/ui-replayed.json",
+        "packages/encounter-atlas/evidence/atlas-a1/inherited/fresh-r1/regression/browser/ui-post-recovery.json",
+        "packages/encounter-atlas/evidence/atlas-a1/inherited/fresh-r1/regression/browser/ui-replayed.json"
+      ],
+      "duplicate_checkout_bytes": 2174020
+    },
+    {
+      "bytes_each": 2035930,
+      "sha256": "d90cfe7f256f88148973ea5b79945b518f83eb9f52c3d72a0f815f29d3e946d8",
+      "copies": 2,
+      "paths": [
+        "packages/encounter-atlas/evidence/m3-d02/independent-execution/actual-policy-capture.json",
+        "packages/encounter-atlas/independent/m3-r1-review/evidence/actual-policy-capture.json"
+      ],
+      "duplicate_checkout_bytes": 2035930
+    },
+    {
+      "bytes_each": 280114,
+      "sha256": "27b4c5d3ac0278e6dc8fd9cf0645a9942d86ee6d5f257428140a1c15b80892f7",
+      "copies": 8,
+      "paths": [
+        "packages/encounter-atlas/evidence/ar0-r1/regression/regression/browser-repaired-after-load.json",
+        "packages/encounter-atlas/evidence/ar0-r1/regression/regression/browser-repaired.json",
+        "packages/encounter-atlas/evidence/ar0/regression/browser-repaired-after-load.json",
+        "packages/encounter-atlas/evidence/ar0/regression/browser-repaired.json",
+        "packages/encounter-atlas/evidence/atlas-a1/inherited/fresh-r1/regression/regression/browser-repaired-after-load.json",
+        "packages/encounter-atlas/evidence/atlas-a1/inherited/fresh-r1/regression/regression/browser-repaired.json",
+        "packages/encounter-atlas/evidence/m3-d03/browser-repaired-after-load.json",
+        "packages/encounter-atlas/evidence/m3-d03/browser-repaired.json"
+      ],
+      "duplicate_checkout_bytes": 1960798
+    },
+    {
+      "bytes_each": 638801,
+      "sha256": "94b111bd1456c53e46ac0a7139ba637d3041b158cd1af4c812629f2ed03a34be",
+      "copies": 4,
+      "paths": [
+        "packages/encounter-atlas/evidence/m3-d02/independent-execution/r1-after-read-surfaces-trace.json",
+        "packages/encounter-atlas/evidence/m3-d02/independent-execution/r1-clean-recovery-trace.json",
+        "packages/encounter-atlas/independent/m3-r1-review/evidence/r1-after-read-surfaces-trace.json",
+        "packages/encounter-atlas/independent/m3-r1-review/evidence/r1-clean-recovery-trace.json"
+      ],
+      "duplicate_checkout_bytes": 1916403
+    },
+    {
+      "bytes_each": 255252,
+      "sha256": "40f681072e6a3367a5be14f49a495dd600b7505904215cd30f0a2823c90a18ed",
+      "copies": 8,
+      "paths": [
+        "packages/encounter-atlas/evidence/ar0-r1/regression/regression/browser-normal-after-load.json",
+        "packages/encounter-atlas/evidence/ar0-r1/regression/regression/browser-normal.json",
+        "packages/encounter-atlas/evidence/ar0/regression/browser-normal-after-load.json",
+        "packages/encounter-atlas/evidence/ar0/regression/browser-normal.json",
+        "packages/encounter-atlas/evidence/atlas-a1/inherited/fresh-r1/regression/regression/browser-normal-after-load.json",
+        "packages/encounter-atlas/evidence/atlas-a1/inherited/fresh-r1/regression/regression/browser-normal.json",
+        "packages/encounter-atlas/evidence/m3-d03/browser-normal-after-load.json",
+        "packages/encounter-atlas/evidence/m3-d03/browser-normal.json"
+      ],
+      "duplicate_checkout_bytes": 1786764
+    },
+    {
+      "bytes_each": 535254,
+      "sha256": "73374f638870d47a0b8673e41cf3f53d71155a44b6460fc921a636a3881151ca",
+      "copies": 4,
+      "paths": [
+        "packages/encounter-atlas/proofs/ar0-r1/preserved-ar0/ui-post-recovery-author.json",
+        "packages/encounter-atlas/proofs/ar0-r1/preserved-ar0/ui-replayed-author.json",
+        "packages/encounter-atlas/proofs/ar0/ui-post-recovery-author.json",
+        "packages/encounter-atlas/proofs/ar0/ui-replayed-author.json"
+      ],
+      "duplicate_checkout_bytes": 1605762
+    },
+    {
+      "bytes_each": 313702,
+      "sha256": "2d55c5b5f1b6cc002a69f24971800bab22af95f0d3390041faf3d33d7a4e4411",
+      "copies": 6,
+      "paths": [
+        "packages/encounter-atlas/evidence/ar0-r1/regression/browser/ui-repaired-loaded.json",
+        "packages/encounter-atlas/evidence/ar0-r1/regression/browser/ui-repaired.json",
+        "packages/encounter-atlas/evidence/ar0/browser/ui-repaired-loaded.json",
+        "packages/encounter-atlas/evidence/ar0/browser/ui-repaired.json",
+        "packages/encounter-atlas/evidence/atlas-a1/inherited/fresh-r1/regression/browser/ui-repaired-loaded.json",
+        "packages/encounter-atlas/evidence/atlas-a1/inherited/fresh-r1/regression/browser/ui-repaired.json"
+      ],
+      "duplicate_checkout_bytes": 1568510
+    },
+    {
+      "bytes_each": 313702,
+      "sha256": "ce6f6d3b3a435cc36e6f0f74445f105761101e182f90071a14215cc6de270406",
+      "copies": 6,
+      "paths": [
+        "packages/encounter-atlas/evidence/m3-d02/independent-execution/r1-after-invalid-save.json",
+        "packages/encounter-atlas/evidence/m3-d02/independent-execution/r1-repaired-reloaded.json",
+        "packages/encounter-atlas/evidence/m3-d02/independent-execution/r1-repaired.json",
+        "packages/encounter-atlas/independent/m3-r1-review/evidence/r1-after-invalid-save.json",
+        "packages/encounter-atlas/independent/m3-r1-review/evidence/r1-repaired-reloaded.json",
+        "packages/encounter-atlas/independent/m3-r1-review/evidence/r1-repaired.json"
+      ],
+      "duplicate_checkout_bytes": 1568510
+    }
+  ],
+  "total_byte_duplicate_groups": 728,
+  "total_repeated_checkout_bytes": 227216104,
+  "selected_prune_files": 271,
+  "selected_prune_bytes": 46310805
+}

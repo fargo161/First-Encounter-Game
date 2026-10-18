@@ -1,0 +1,23 @@
+{
+  "result": "PASS",
+  "applied_utc": "2026-10-18T17:38:09.071887+00:00",
+  "removed_files": 271,
+  "removed_bytes": 46310805,
+  "before_tracked_files": 3594,
+  "before_tracked_bytes": 660693675,
+  "after_deletion_files_before_records": 3323,
+  "after_deletion_bytes_before_records": 614382870,
+  "all_retained_preexisting_bytes_sizes_mtimes_unchanged": true,
+  "A1_before_files": 2731,
+  "A1_after_files": 2460,
+  "A1_before_tree_sha256": "01d90c554b2dc00bf169d98d8d4b36691f93311b3c0a81dc4d18da764008e76d",
+  "A1_after_tree_sha256": "f565b7f89329a02b17febec136b991ce99ee092db7d8c6b952c4159b9d32171c",
+  "A1_after_bytes": 376487390,
+  "A1_execution_inputs_unchanged": 132,
+  "AR0_R1_members_unchanged": 2310,
+  "Room_Creator_canonical_unchanged": true,
+  "ZANT_canonical_unchanged": true,
+  "external_copies_deleted_or_altered": false,
+  "source_scripts_rewritten": false,
+  "stage11_started": false
+}

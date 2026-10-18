@@ -1,0 +1,10 @@
+{
+  "result": "PASS",
+  "exported_files": 3323,
+  "excluded_candidates": 271,
+  "all_exported_bytes_and_membership_exact": true,
+  "independent_checkpoint_copy_complete": true,
+  "canonical_removals": 0,
+  "helper_issue": "Git archive producer remained in completion wait after all files were exported. Only verified task-owned archive child stopped; complete export membership/hashes independently validated; helper now drains trailing stream padding.",
+  "baseline_product_failure": false
+}

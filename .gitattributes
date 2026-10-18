@@ -31,3 +31,6 @@
 /docs/audits/zant/** -text
 /docs/research/zant/** -text
 /docs/provenance/zant-external/** -text
+
+# Stage 10: copied cleanup verification records retain exact bytes.
+/docs/audits/stage10-2026-10-18/** -text

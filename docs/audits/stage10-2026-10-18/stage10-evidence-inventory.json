@@ -1,0 +1,358 @@
+{
+  "schema": "first-encounter-stage10-private-evidence@1",
+  "files": [
+    {
+      "path": "aggregate-retests.py",
+      "bytes": 5442,
+      "sha256": "74327ff3ab24b873affdaf0f93a353ddfd9630086350bf9088a8b5aafdd7677f"
+    },
+    {
+      "path": "apply-whitelisted-cleanup.py",
+      "bytes": 3650,
+      "sha256": "06b333c925551a436cb017df87405634a619442c5a2522809418750a17592c5a"
+    },
+    {
+      "path": "candidate-plan.json",
+      "bytes": 339083,
+      "sha256": "58694bfb82bcc878f31813d1923ac9768255418698dfac1976278d5c32cc6e60"
+    },
+    {
+      "path": "checks/archive-preservation.json",
+      "bytes": 466,
+      "sha256": "beff67d7eafa16b7e387fcbc70bc15d27c6d86df280425d39ed5218752d93549"
+    },
+    {
+      "path": "checks/bounded-retest-results.json",
+      "bytes": 3284,
+      "sha256": "c818baca95bab61f428f38f3ae10235cdf8b8621bd43d3a4d7092993a444f9ec"
+    },
+    {
+      "path": "checks/cleanup-applied.json",
+      "bytes": 903,
+      "sha256": "fb88e6812b34fd9e9f75a0534c1732a6353ed2e1376edab738b9a73221496b7e"
+    },
+    {
+      "path": "checks/pruned-export-identity.json",
+      "bytes": 493,
+      "sha256": "d5c452b4bdda51a5a5657b5a4b392f5de1c7cd0aff74c36ef8e4dd987f32aa5e"
+    },
+    {
+      "path": "command-results.json",
+      "bytes": 9800,
+      "sha256": "b34e7597a7090a1b4d1929ff5fb5351954255c99d5d07c339acf9a20fbdcfabd"
+    },
+    {
+      "path": "dependency-trace.json",
+      "bytes": 2161,
+      "sha256": "1f93328f40e320396fa80b9b1b852c231904853eb06a844fc68423276e155f07"
+    },
+    {
+      "path": "environment.json",
+      "bytes": 383,
+      "sha256": "ff8446fb4d67ee6ae1f77ac096229ffe689bb25caba2525b8922468e5fcc59a8"
+    },
+    {
+      "path": "inputs/external-archive-metadata-before.json",
+      "bytes": 8670416,
+      "sha256": "3fb4e1569a2ec42f416cf8f1067d4af10eb028dc30c25790a2e6b8dd1dfd6fd6"
+    },
+    {
+      "path": "inputs/FIRST_ENCOUNTER_GAME_STAGE_10_AUTHORIZATION.md",
+      "bytes": 5387,
+      "sha256": "9c3af730ac01012c036d954afac038dc21d8f5e7addd7363be4a0235418af422"
+    },
+    {
+      "path": "inputs/known-defects-before.json",
+      "bytes": 5738,
+      "sha256": "a8c5715bd8604fb67c083f933f848dfb0924f5f95347a6b5306dc32d28e4a657"
+    },
+    {
+      "path": "inputs/repository-before.json",
+      "bytes": 861586,
+      "sha256": "229222686955ca94d20ddd532ff2491ca28ac6e4e4418a0e0d55813b562a1bb4"
+    },
+    {
+      "path": "inputs/source-authority-before.json",
+      "bytes": 32122,
+      "sha256": "2e37fd2462d9211b3667ca3d0854d4e64f74aea68fbba8167da28e4e2dae06f1"
+    },
+    {
+      "path": "logs/01-a1-supplied-tests.log",
+      "bytes": 52125,
+      "sha256": "fb6def1c56a38a612da7e0bc5e3b6b020cc354a3aa988d784ddc7ffc0c2ae7d4"
+    },
+    {
+      "path": "logs/02-a1-rebuild-m3.log",
+      "bytes": 183,
+      "sha256": "f0fe74071ab71148c45b2153a51852080fe61e15f3b9a39b8e5a357396fb8512"
+    },
+    {
+      "path": "logs/03-a1-rebuild-atlas.log",
+      "bytes": 206,
+      "sha256": "74c68e510a3554b42b1c1d52303b10ba512d29fbfec1589b368ea913fa4b01f1"
+    },
+    {
+      "path": "logs/04-a1-generate-proofs.log",
+      "bytes": 55,
+      "sha256": "40fcf13a0226833def26fc54802d23718963283e799b3bd34cf9eb4bd07d0d91"
+    },
+    {
+      "path": "logs/05-a1-preserve-2310.log",
+      "bytes": 451,
+      "sha256": "afa028a19452e60eba19328ab024728bf98fd80b3ef2b977519b3df8264dea73"
+    },
+    {
+      "path": "logs/06-a1-source-identity.log",
+      "bytes": 766,
+      "sha256": "2fce75947809c9beb1f34852b71c43203df9572561b6a44ff1ac561877093fb5"
+    },
+    {
+      "path": "logs/07-a1-independent-retry.log",
+      "bytes": 5534,
+      "sha256": "3325de2420c35f4aa8d8fdde91b393d0a4444e3b85253983af01d775b23840a1"
+    },
+    {
+      "path": "logs/07-a1-independent.log",
+      "bytes": 1733,
+      "sha256": "4317948717f24462d98bd77143013ce3f99dbfc02d83b4b7bf1571643ea1d34d"
+    },
+    {
+      "path": "logs/08-a1-retained-ir3.log",
+      "bytes": 6611,
+      "sha256": "b10e5499adc9b665d71a9687a24768e51beac2427efcbdacc5fb84d94663ddea"
+    },
+    {
+      "path": "logs/09-room-creator-node.log",
+      "bytes": 3017,
+      "sha256": "eda495d04f4898093d280cbab482552452cb05d7a64afd345fd4d120831b7156"
+    },
+    {
+      "path": "logs/10-room-creator-build.log",
+      "bytes": 42,
+      "sha256": "7240f7d37aadb5e623231d8002565fb0242f6016ef60c27d4a7dea167d47a06a"
+    },
+    {
+      "path": "logs/11-zant-portable.log",
+      "bytes": 787,
+      "sha256": "109985517e001a63eac37f23158fefab5de6736ffe460dcdd81f13784f18fbf1"
+    },
+    {
+      "path": "outputs/room-node/architecture_extensions.test.js.log",
+      "bytes": 3776,
+      "sha256": "5c0a48c0f3b5b79b6b10bb7cfad77442b9c22f5fb03e7992db043166d0fa82ed"
+    },
+    {
+      "path": "outputs/room-node/asset_demo_file.test.js.log",
+      "bytes": 585,
+      "sha256": "dab294689394c541e86806afab17367e7aa378354db09af02957b4368c3da8db"
+    },
+    {
+      "path": "outputs/room-node/build_repro.py.log",
+      "bytes": 368,
+      "sha256": "8abbddd4ca8504cca0982aff8511ce6288fd4db63a1465dd3dfb8c6e55da1e3c"
+    },
+    {
+      "path": "outputs/room-node/construction_v10.test.js.log",
+      "bytes": 760,
+      "sha256": "449c786ad6d5ce03289dbe555f7d912295e9b37572c791ee2dab2cb367869160"
+    },
+    {
+      "path": "outputs/room-node/core.test.js.log",
+      "bytes": 4821,
+      "sha256": "02277600838169ac1ce4248d03749a830ff377300f63f8b688d043fbc4159fbd"
+    },
+    {
+      "path": "outputs/room-node/multistory.test.js.log",
+      "bytes": 1113,
+      "sha256": "954c4c4bc2870a5b36ec27b357318dc334540cdb9ba298e798df01964bdf9c82"
+    },
+    {
+      "path": "outputs/room-node/props_metadata.test.js.log",
+      "bytes": 827,
+      "sha256": "2cefe4b4d45b739657fb81acf7caf8e69b744eb6ed37a3ee807be332aca1889f"
+    },
+    {
+      "path": "outputs/room-node/remediation_core.test.js.log",
+      "bytes": 945,
+      "sha256": "bdc30eec0be2ecce474478cd2444d78b15c99c84629afd14996e26fd1b1aeae5"
+    },
+    {
+      "path": "outputs/room-node/run-index.json",
+      "bytes": 2905,
+      "sha256": "90cae1065621557a329da646662fb9cdacc3ba70c3de20ede105d892b21f559b"
+    },
+    {
+      "path": "outputs/room-node/shared_matte.test.js.log",
+      "bytes": 1575,
+      "sha256": "3dbff8d66350574897883d51cc1301d73a753269383a88cb4f2c1baf7ac648fa"
+    },
+    {
+      "path": "outputs/room-node/style_openings.test.js.log",
+      "bytes": 2193,
+      "sha256": "b406352385a4020ed1373d21d0d273270c9b82100e1ac8dee09224b001e1069a"
+    },
+    {
+      "path": "outputs/room-node/v0_11_1_story_floor.test.js.log",
+      "bytes": 1526,
+      "sha256": "2cded3eb0e11a35032ffa50cfe457c0ce132b7f4bd82fee06e4cee35ee8ecfd6"
+    },
+    {
+      "path": "outputs/room-node/v0_12_stories_rooms.test.js.log",
+      "bytes": 968,
+      "sha256": "bfa07afdabcf47d5b24b54d26cecea7439bdb83d8b8328b3d50da1b7f52acc93"
+    },
+    {
+      "path": "outputs/zant-portable/B_off_GN_NN.png",
+      "bytes": 884306,
+      "sha256": "36576731ccaca6247cfd250da7b164601f515eff3775db34c411ae59885fbafc"
+    },
+    {
+      "path": "outputs/zant-portable/B_off_NN_NN.png",
+      "bytes": 904850,
+      "sha256": "581bcf1416cd7069252fa93017cef739a31f7ed2c70f7336f45ea46cc41eca63"
+    },
+    {
+      "path": "outputs/zant-portable/B_on_GN_NN.png",
+      "bytes": 967531,
+      "sha256": "568ac2c332f86e573bf8ec3438e8b312b112a0209cf20311ab44e396c54ceaa2"
+    },
+    {
+      "path": "outputs/zant-portable/B_on_NN_NN.png",
+      "bytes": 948996,
+      "sha256": "eb0ba7bc71d766583b451423eae332a47b89beb8d2103e0546c45eb10bee5a14"
+    },
+    {
+      "path": "outputs/zant-portable/verification.json",
+      "bytes": 5941,
+      "sha256": "88db9b3fd05fe81d525df79c0385324d5b65b6c22558d9f534961b8c2d7ec3df"
+    },
+    {
+      "path": "record-stage10.py",
+      "bytes": 26764,
+      "sha256": "e1789506113559457af0e86d17a0ab2b81363a89fb83452cb499a3eedcb29beb"
+    },
+    {
+      "path": "removal-plan-reviewed.json",
+      "bytes": 529596,
+      "sha256": "412a2c5b22d989d0187ddb31df5cc374f19a0375fb4a31083df747d8586d5902"
+    },
+    {
+      "path": "resume-bounded-retests.py",
+      "bytes": 3086,
+      "sha256": "6df2fe358ed9c8d44e6f1cceab93fd5e698ab0d68c1034b5e6156a32d699c379"
+    },
+    {
+      "path": "retained-decisions.json",
+      "bytes": 30083,
+      "sha256": "383c1ba88068ea37bdce4ba73f8eccee06377dfa7571a2752bf0d02a6a01e4ec"
+    },
+    {
+      "path": "run-bounded-retests.py",
+      "bytes": 2903,
+      "sha256": "b79610f708b09b20d2c7a36e732019ff064c9dc29a3a473445ad3790f623e385"
+    },
+    {
+      "path": "setup.json",
+      "bytes": 603,
+      "sha256": "08bab7791e138232d5aa7ce879b718a68e9b1a34bb79d7a1a0f04c6e3bb450ef"
+    },
+    {
+      "path": "trace-and-prepare.py",
+      "bytes": 5164,
+      "sha256": "83194e732231096146e47f3434b40955a230b9a3bcd9f9f21c48de55d205e429"
+    },
+    {
+      "path": "verify-external-preservation.py",
+      "bytes": 1858,
+      "sha256": "db9b4ebbc3b3683632f5a6d685adfa8cd70514cbf2f6937734774ada9ae87618"
+    },
+    {
+      "path": "work/fresh-checkout/packages/encounter-atlas/dist-atlas-a1/index.html",
+      "bytes": 1039524,
+      "sha256": "b9612d61f41bcf2bee5085902ff65c5e418b226de3dd5c8af6490ccd15e4ae9f"
+    },
+    {
+      "path": "work/fresh-checkout/packages/encounter-atlas/dist-m3/index.html",
+      "bytes": 133751,
+      "sha256": "8e1c14e25a515b92188703927344e97b744921ec9b033ee2b1d8cc0b63f517cb"
+    },
+    {
+      "path": "work/fresh-checkout/packages/encounter-atlas/evidence/atlas-a1/preservation.json",
+      "bytes": 9902,
+      "sha256": "66ab7802d389b47052c4444060f218ca10dfea632219e28b5f38c4cb2906cb65"
+    },
+    {
+      "path": "work/fresh-checkout/packages/encounter-atlas/evidence/atlas-a1/source-identity.json",
+      "bytes": 20149,
+      "sha256": "bc9af5ab12d848b4758be0118b6179818b9a83fd4b4e5721fe0f0fc4e157d7ec"
+    },
+    {
+      "path": "work/fresh-checkout/packages/encounter-atlas/proofs/atlas-a1/collapse-author.json",
+      "bytes": 619542,
+      "sha256": "727dd99043d01944684a61cdd7fd9e98837dc7d0a1e1a596519df7f9b043c38f"
+    },
+    {
+      "path": "work/fresh-checkout/packages/encounter-atlas/proofs/atlas-a1/collapse-player.json",
+      "bytes": 168419,
+      "sha256": "dbaa7ed574add8f2f17b7ce7aadb215ae1715a1fa54e97354d0901c439108f17"
+    },
+    {
+      "path": "work/fresh-checkout/packages/encounter-atlas/proofs/atlas-a1/initial-author.json",
+      "bytes": 238407,
+      "sha256": "c7a06f10391d0e0c15c40cdc5b44351f69b9f454e3c279b089c22b5797971048"
+    },
+    {
+      "path": "work/fresh-checkout/packages/encounter-atlas/proofs/atlas-a1/initial-player.json",
+      "bytes": 23443,
+      "sha256": "09b2cecc578331c34242eaedc9e1435d9b91b619f686a9a5547bfdbc22b51aa5"
+    },
+    {
+      "path": "work/fresh-checkout/packages/encounter-atlas/proofs/atlas-a1/pending-author.json",
+      "bytes": 1491872,
+      "sha256": "189deb08b5601d6b6c6607c4d4323fe9a1cc96a208511750e9b08e9403dbbf6c"
+    },
+    {
+      "path": "work/fresh-checkout/packages/encounter-atlas/proofs/atlas-a1/pending-player.json",
+      "bytes": 317525,
+      "sha256": "76e62c3f0f840c30823f919b8894be768e64e573824ed45537e66ce64d51fa25"
+    },
+    {
+      "path": "work/fresh-checkout/packages/encounter-atlas/proofs/atlas-a1/recovery-author.json",
+      "bytes": 1540530,
+      "sha256": "4d4f79100328c6b81caa150230ba7d4f9ecb65ab078dc7008ac04bbb0ae1d9f0"
+    },
+    {
+      "path": "work/fresh-checkout/packages/encounter-atlas/proofs/atlas-a1/recovery-player.json",
+      "bytes": 332310,
+      "sha256": "3e7f04c5ab5ad1172ab70b65db00a7646466e2793d444bfe87a729eaed5864f9"
+    },
+    {
+      "path": "work/fresh-checkout/packages/encounter-atlas/proofs/atlas-a1/repaired-author.json",
+      "bytes": 698762,
+      "sha256": "a11613569d3f25a9e0463fb3800c21c851bd4baaa0c421549bc4f28290cd8585"
+    },
+    {
+      "path": "work/fresh-checkout/packages/encounter-atlas/proofs/atlas-a1/repaired-player.json",
+      "bytes": 198037,
+      "sha256": "28b968ddee084e5d9be72673e792ad0aef21b8cde2384122ab79eeaae45c9ae8"
+    },
+    {
+      "path": "work/fresh-checkout/packages/encounter-atlas/proofs/atlas-a1/warned-author.json",
+      "bytes": 594305,
+      "sha256": "e61f72f74167be1b3b3f774a307ef032bf6d387ab9b19aed1e5155723fdf6143"
+    },
+    {
+      "path": "work/fresh-checkout/packages/encounter-atlas/proofs/atlas-a1/warned-player.json",
+      "bytes": 162118,
+      "sha256": "9dd0b87734e76209028771a083a61567e5b8684cb73c1ef9d3b309eb9f5fe4c6"
+    },
+    {
+      "path": "work/fresh-checkout/packages/room-creator/Room_Creator.html",
+      "bytes": 1615201,
+      "sha256": "a4e8a14ddc4d734c036902f56b1a7d7bb8a157a77ef3911b97ea70c76f228c97"
+    }
+  ],
+  "scope": "Selected cleanup safety/orchestration/identity records, retest logs/renders/builds/proofs. Duplicate source clones omitted; later completion records additional.",
+  "file_count": 70,
+  "bytes": 23550264
+}

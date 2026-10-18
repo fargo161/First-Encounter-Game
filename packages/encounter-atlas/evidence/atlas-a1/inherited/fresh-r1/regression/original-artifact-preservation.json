@@ -1,9 +1,0 @@
-{
-  "result": "PASS",
-  "acceptedR3ZIP": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\outputs\\Encounter_M3_Checkpoint_R3.zip",
-  "sha256": "615ddc79e0f7bd8d903411401360fc321b7b916abcc69dc974e9673fd0e74c87",
-  "bytes": 98549633,
-  "all1430ZIPMembersAndOriginalDeliveredFilesUnchanged": true,
-  "all1430BaselineFilesInAR0Unchanged": true,
-  "originalExternalIdentitySHA256": "4a2805485681ab4f61f8804cd9e3565104e83eea138a7551ec515adc1369aea9"
-}

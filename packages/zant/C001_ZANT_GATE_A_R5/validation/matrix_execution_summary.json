@@ -1,0 +1,14 @@
+{
+  "required": 243,
+  "valid": 226,
+  "productionNegatives": 17,
+  "actualStatuses": {
+    "PASS_ACCEPTED_NEUTRAL_REPRODUCTION": 2,
+    "NOT_RUN_R5_STOP_CONDITION": 239,
+    "UNACCEPTED_PILOT_RENDERED_NOT_GATE_PASS": 1,
+    "FAIL_SOURCE_GARMENT_AND_WRIST_INTERFACE": 1
+  },
+  "twoSupplementaryPixelControls": "separate comparator checks; not production negatives",
+  "fullGateAVerdict": "FAILED_AT_G_SLEEVE_PILOT",
+  "viewerImplemented": false
+}

@@ -1,0 +1,18 @@
+{
+  "criterion": "coated G arm occludes shared G hand beyond declared 10px seam band",
+  "pixels": 1252,
+  "bodyBoundsXYXY": [
+    605,
+    708,
+    661,
+    765
+  ],
+  "maximumSignedVerticalDistanceFromWristLine": 60.39999999999998,
+  "maximumPerpendicularDistanceFromWristLine": 49.481607999350025,
+  "G_L_Wrist": [
+    637,
+    705
+  ],
+  "wristLine": "y=.7*(x-637)+705",
+  "declaredOverlapEachSide": 10
+}

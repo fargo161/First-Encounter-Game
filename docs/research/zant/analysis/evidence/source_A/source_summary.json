@@ -1,0 +1,601 @@
+{
+  "silhouette_iou_same_canvas_gt127": {
+    "min": 0.7932181363020889,
+    "median": 0.9756446089982114,
+    "max": 0.9914041042050068
+  },
+  "silhouette_iou_after_root_translation_gt127": {
+    "min": 0.7932181363020889,
+    "median": 0.9756446089982114,
+    "max": 0.9914041042050068
+  },
+  "height_ratio_rebuilt_source": {
+    "min": 1.0,
+    "median": 1.0,
+    "max": 1.001510574018127
+  },
+  "width_ratio_rebuilt_source": {
+    "min": 0.861003861003861,
+    "median": 0.9961824983911958,
+    "max": 1.033210332103321
+  },
+  "bottom_positions_source_rebuilt_equal_all44": true,
+  "bbox_gt0_heights_source_rebuilt_equal_all44": true,
+  "fit_assignment_summary": {
+    "female_short_slim": {
+      "characters": [
+        "C013",
+        "C016",
+        "C020",
+        "C023",
+        "C042"
+      ],
+      "calibration_height_range": [
+        1338,
+        1403
+      ],
+      "calibration_width_range": [
+        400,
+        433
+      ],
+      "calibration_width_height_ratio_range": [
+        0.28652886671418387,
+        0.32286995515695066
+      ]
+    },
+    "female_short_wide": {
+      "characters": [
+        "C022",
+        "C025",
+        "C026",
+        "C041"
+      ],
+      "calibration_height_range": [
+        1379,
+        1412
+      ],
+      "calibration_width_range": [
+        423,
+        501
+      ],
+      "calibration_width_height_ratio_range": [
+        0.30257510729613735,
+        0.36278059377262856
+      ]
+    },
+    "female_tall_slim": {
+      "characters": [
+        "C002",
+        "C003",
+        "C006",
+        "C011",
+        "C030"
+      ],
+      "calibration_height_range": [
+        1422,
+        1498
+      ],
+      "calibration_width_range": [
+        401,
+        425
+      ],
+      "calibration_width_height_ratio_range": [
+        0.2676902536715621,
+        0.29049897470950103
+      ]
+    },
+    "female_tall_wide": {
+      "characters": [
+        "C007",
+        "C010",
+        "C018"
+      ],
+      "calibration_height_range": [
+        1416,
+        1484
+      ],
+      "calibration_width_range": [
+        439,
+        485
+      ],
+      "calibration_width_height_ratio_range": [
+        0.29878048780487804,
+        0.32681940700808626
+      ]
+    },
+    "male_short_slim": {
+      "characters": [
+        "C001",
+        "C029",
+        "C031",
+        "C035",
+        "C036",
+        "C037",
+        "C043"
+      ],
+      "calibration_height_range": [
+        1316,
+        1385
+      ],
+      "calibration_width_range": [
+        414,
+        467
+      ],
+      "calibration_width_height_ratio_range": [
+        0.3025270758122744,
+        0.3451589061345159
+      ]
+    },
+    "male_short_wide": {
+      "characters": [
+        "C015",
+        "C019",
+        "C027",
+        "C028",
+        "C032",
+        "C034",
+        "C038",
+        "C039",
+        "C044"
+      ],
+      "calibration_height_range": [
+        1357,
+        1406
+      ],
+      "calibration_width_range": [
+        456,
+        502
+      ],
+      "calibration_width_height_ratio_range": [
+        0.3275862068965517,
+        0.35704125177809387
+      ]
+    },
+    "male_tall_slim": {
+      "characters": [
+        "C009",
+        "C012",
+        "C014",
+        "C017",
+        "C021",
+        "C033"
+      ],
+      "calibration_height_range": [
+        1416,
+        1477
+      ],
+      "calibration_width_range": [
+        412,
+        460
+      ],
+      "calibration_width_height_ratio_range": [
+        0.28791055206149546,
+        0.3248587570621469
+      ]
+    },
+    "male_tall_wide": {
+      "characters": [
+        "C004",
+        "C005",
+        "C008",
+        "C024",
+        "C040"
+      ],
+      "calibration_height_range": [
+        1422,
+        1452
+      ],
+      "calibration_width_range": [
+        437,
+        473
+      ],
+      "calibration_width_height_ratio_range": [
+        0.3044982698961938,
+        0.3293871866295265
+      ]
+    }
+  },
+  "catalog_border_pixels": {
+    "C001_clothing_inventory_rgba.png": {
+      "top": 0,
+      "bottom": 2,
+      "left": 305,
+      "right": 0,
+      "visible_near_magenta_rgb": 2842
+    },
+    "C002_clothing_inventory_rgba.png": {
+      "top": 0,
+      "bottom": 117,
+      "left": 0,
+      "right": 0,
+      "visible_near_magenta_rgb": 2696
+    },
+    "C003_clothing_inventory_rgba.png": {
+      "top": 0,
+      "bottom": 147,
+      "left": 190,
+      "right": 0,
+      "visible_near_magenta_rgb": 3102
+    },
+    "C004_clothing_inventory_rgba.png": {
+      "top": 0,
+      "bottom": 151,
+      "left": 359,
+      "right": 0,
+      "visible_near_magenta_rgb": 3826
+    },
+    "C005_clothing_inventory_rgba.png": {
+      "top": 0,
+      "bottom": 172,
+      "left": 339,
+      "right": 0,
+      "visible_near_magenta_rgb": 2246
+    },
+    "C006_clothing_inventory_rgba.png": {
+      "top": 0,
+      "bottom": 0,
+      "left": 0,
+      "right": 0,
+      "visible_near_magenta_rgb": 2901
+    },
+    "C007_clothing_inventory_rgba.png": {
+      "top": 0,
+      "bottom": 184,
+      "left": 0,
+      "right": 0,
+      "visible_near_magenta_rgb": 3357
+    },
+    "C008_clothing_inventory_rgba.png": {
+      "top": 0,
+      "bottom": 207,
+      "left": 89,
+      "right": 0,
+      "visible_near_magenta_rgb": 2239
+    },
+    "C009_clothing_inventory_rgba.png": {
+      "top": 0,
+      "bottom": 180,
+      "left": 0,
+      "right": 0,
+      "visible_near_magenta_rgb": 3446
+    },
+    "C010_clothing_inventory_rgba.png": {
+      "top": 0,
+      "bottom": 106,
+      "left": 454,
+      "right": 0,
+      "visible_near_magenta_rgb": 4508
+    },
+    "C011_clothing_inventory_rgba.png": {
+      "top": 0,
+      "bottom": 171,
+      "left": 0,
+      "right": 0,
+      "visible_near_magenta_rgb": 2749
+    },
+    "C012_clothing_inventory_rgba.png": {
+      "top": 0,
+      "bottom": 147,
+      "left": 553,
+      "right": 0,
+      "visible_near_magenta_rgb": 2299
+    },
+    "C013_clothing_inventory_rgba.png": {
+      "top": 0,
+      "bottom": 0,
+      "left": 170,
+      "right": 0,
+      "visible_near_magenta_rgb": 3887
+    },
+    "C014_clothing_inventory_rgba.png": {
+      "top": 0,
+      "bottom": 0,
+      "left": 0,
+      "right": 0,
+      "visible_near_magenta_rgb": 2822
+    },
+    "C015_clothing_inventory_rgba.png": {
+      "top": 0,
+      "bottom": 226,
+      "left": 0,
+      "right": 0,
+      "visible_near_magenta_rgb": 1493
+    },
+    "C016_clothing_inventory_rgba.png": {
+      "top": 0,
+      "bottom": 132,
+      "left": 0,
+      "right": 0,
+      "visible_near_magenta_rgb": 1692
+    },
+    "C017_clothing_inventory_rgba.png": {
+      "top": 0,
+      "bottom": 0,
+      "left": 0,
+      "right": 0,
+      "visible_near_magenta_rgb": 2815
+    },
+    "C018_clothing_inventory_rgba.png": {
+      "top": 0,
+      "bottom": 0,
+      "left": 230,
+      "right": 0,
+      "visible_near_magenta_rgb": 2432
+    },
+    "C019_clothing_inventory_rgba.png": {
+      "top": 0,
+      "bottom": 183,
+      "left": 217,
+      "right": 0,
+      "visible_near_magenta_rgb": 4276
+    },
+    "C020_clothing_inventory_rgba.png": {
+      "top": 0,
+      "bottom": 280,
+      "left": 254,
+      "right": 0,
+      "visible_near_magenta_rgb": 2416
+    },
+    "C021_clothing_inventory_rgba.png": {
+      "top": 0,
+      "bottom": 160,
+      "left": 0,
+      "right": 0,
+      "visible_near_magenta_rgb": 1673
+    },
+    "C022_clothing_inventory_rgba.png": {
+      "top": 0,
+      "bottom": 0,
+      "left": 357,
+      "right": 0,
+      "visible_near_magenta_rgb": 3958
+    },
+    "C023_clothing_inventory_rgba.png": {
+      "top": 0,
+      "bottom": 0,
+      "left": 209,
+      "right": 0,
+      "visible_near_magenta_rgb": 3325
+    },
+    "C024_clothing_inventory_rgba.png": {
+      "top": 0,
+      "bottom": 364,
+      "left": 553,
+      "right": 0,
+      "visible_near_magenta_rgb": 3698
+    },
+    "C025_clothing_inventory_rgba.png": {
+      "top": 0,
+      "bottom": 0,
+      "left": 141,
+      "right": 0,
+      "visible_near_magenta_rgb": 3549
+    },
+    "C026_clothing_inventory_rgba.png": {
+      "top": 0,
+      "bottom": 0,
+      "left": 208,
+      "right": 0,
+      "visible_near_magenta_rgb": 2086
+    },
+    "C027_clothing_inventory_rgba.png": {
+      "top": 0,
+      "bottom": 522,
+      "left": 0,
+      "right": 0,
+      "visible_near_magenta_rgb": 4155
+    },
+    "C028_clothing_inventory_rgba.png": {
+      "top": 0,
+      "bottom": 349,
+      "left": 0,
+      "right": 0,
+      "visible_near_magenta_rgb": 3804
+    },
+    "C029_clothing_inventory_rgba.png": {
+      "top": 0,
+      "bottom": 3,
+      "left": 15,
+      "right": 0,
+      "visible_near_magenta_rgb": 2480
+    },
+    "C030_clothing_inventory_rgba.png": {
+      "top": 0,
+      "bottom": 0,
+      "left": 181,
+      "right": 0,
+      "visible_near_magenta_rgb": 3994
+    },
+    "C031_clothing_inventory_rgba.png": {
+      "top": 0,
+      "bottom": 4,
+      "left": 238,
+      "right": 0,
+      "visible_near_magenta_rgb": 2574
+    },
+    "C032_clothing_inventory_rgba.png": {
+      "top": 0,
+      "bottom": 187,
+      "left": 316,
+      "right": 0,
+      "visible_near_magenta_rgb": 2180
+    },
+    "C033_clothing_inventory_rgba.png": {
+      "top": 0,
+      "bottom": 0,
+      "left": 46,
+      "right": 0,
+      "visible_near_magenta_rgb": 5989
+    },
+    "C034_clothing_inventory_rgba.png": {
+      "top": 0,
+      "bottom": 7,
+      "left": 248,
+      "right": 0,
+      "visible_near_magenta_rgb": 3523
+    },
+    "C035_clothing_inventory_rgba.png": {
+      "top": 0,
+      "bottom": 0,
+      "left": 210,
+      "right": 0,
+      "visible_near_magenta_rgb": 2129
+    },
+    "C036_clothing_inventory_rgba.png": {
+      "top": 0,
+      "bottom": 138,
+      "left": 0,
+      "right": 0,
+      "visible_near_magenta_rgb": 1864
+    },
+    "C037_clothing_inventory_rgba.png": {
+      "top": 0,
+      "bottom": 251,
+      "left": 194,
+      "right": 0,
+      "visible_near_magenta_rgb": 3067
+    },
+    "C038_clothing_inventory_rgba.png": {
+      "top": 0,
+      "bottom": 0,
+      "left": 0,
+      "right": 0,
+      "visible_near_magenta_rgb": 2955
+    },
+    "C039_clothing_inventory_rgba.png": {
+      "top": 0,
+      "bottom": 161,
+      "left": 0,
+      "right": 0,
+      "visible_near_magenta_rgb": 5780
+    },
+    "C040_clothing_inventory_rgba.png": {
+      "top": 0,
+      "bottom": 0,
+      "left": 271,
+      "right": 0,
+      "visible_near_magenta_rgb": 3866
+    },
+    "C041_clothing_inventory_rgba.png": {
+      "top": 0,
+      "bottom": 0,
+      "left": 0,
+      "right": 0,
+      "visible_near_magenta_rgb": 3293
+    },
+    "C042_clothing_inventory_rgba.png": {
+      "top": 0,
+      "bottom": 0,
+      "left": 0,
+      "right": 0,
+      "visible_near_magenta_rgb": 2559
+    },
+    "C043_clothing_inventory_rgba.png": {
+      "top": 0,
+      "bottom": 124,
+      "left": 0,
+      "right": 0,
+      "visible_near_magenta_rgb": 3340
+    },
+    "C044_clothing_inventory_rgba.png": {
+      "top": 0,
+      "bottom": 148,
+      "left": 187,
+      "right": 0,
+      "visible_near_magenta_rgb": 2563
+    }
+  },
+  "source_partial_alpha_ids": [
+    "C001",
+    "C002",
+    "C004",
+    "C006",
+    "C008",
+    "C009"
+  ],
+  "source_magenta_ids": [
+    {
+      "id": "C004",
+      "exact": 1,
+      "near": 1
+    },
+    {
+      "id": "C006",
+      "exact": 1,
+      "near": 1
+    },
+    {
+      "id": "C009",
+      "exact": 0,
+      "near": 1
+    }
+  ],
+  "source_rebuild_iou_below_0_92": [
+    {
+      "id": "C003",
+      "iou": 0.9137839559988375
+    },
+    {
+      "id": "C010",
+      "iou": 0.8972552623829962
+    },
+    {
+      "id": "C012",
+      "iou": 0.8748759668018163
+    },
+    {
+      "id": "C018",
+      "iou": 0.8795627112283844
+    },
+    {
+      "id": "C019",
+      "iou": 0.9158717787375226
+    },
+    {
+      "id": "C022",
+      "iou": 0.879019013191053
+    },
+    {
+      "id": "C026",
+      "iou": 0.8933515327566602
+    },
+    {
+      "id": "C027",
+      "iou": 0.7932181363020889
+    },
+    {
+      "id": "C028",
+      "iou": 0.8876441797513885
+    },
+    {
+      "id": "C029",
+      "iou": 0.8959764086527995
+    },
+    {
+      "id": "C032",
+      "iou": 0.8935476897162082
+    }
+  ],
+  "original_extra_duplicates": [
+    [
+      "original/characters trapstar source/4832c954-8dfe-44cb-a597-064df422c222.png",
+      "original/characters trapstar source/ChatGPT Image Sep 3, 2026, 03_14_16 AM (2).png"
+    ],
+    [
+      "original/characters trapstar source/ChatGPT Image Sep 3, 2026, 10_17_03 PM (1).png",
+      "original/characters trapstar source/ChatGPT Image Sep 3, 2026, 10_17_36 PM (1).png"
+    ],
+    [
+      "original/characters trapstar source/ChatGPT Image Sep 3, 2026, 10_17_21 PM (2).png",
+      "original/characters trapstar source/ChatGPT Image Sep 3, 2026, 10_17_37 PM (2).png"
+    ],
+    [
+      "original/characters trapstar source/ChatGPT Image Sep 3, 2026, 10_17_21 PM (3).png",
+      "original/characters trapstar source/ChatGPT Image Sep 3, 2026, 10_17_37 PM (3).png"
+    ],
+    [
+      "original/characters trapstar source/ChatGPT Image Sep 3, 2026, 10_17_22 PM (4).png",
+      "original/characters trapstar source/ChatGPT Image Sep 3, 2026, 10_17_37 PM (4).png"
+    ]
+  ]
+}

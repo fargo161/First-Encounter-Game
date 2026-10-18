@@ -1,0 +1,65 @@
+{
+  "bodyFrame": [
+    1024,
+    1536
+  ],
+  "fixedBodyScale": 1,
+  "plans": {
+    "L": {
+      "bodyWindow": [
+        520,
+        350,
+        820,
+        950
+      ],
+      "shoulder": [
+        612,
+        407
+      ],
+      "elbowGuide": [
+        699,
+        625
+      ],
+      "wristGuide": [
+        625,
+        617
+      ],
+      "handGuideBox": [
+        536,
+        563,
+        636,
+        647
+      ]
+    },
+    "R": {
+      "bodyWindow": [
+        210,
+        350,
+        510,
+        950
+      ],
+      "shoulder": [
+        380,
+        407
+      ],
+      "elbowGuide": [
+        298,
+        635
+      ],
+      "wristGuide": [
+        369,
+        643
+      ],
+      "handGuideBox": [
+        360,
+        589,
+        455,
+        675
+      ]
+    }
+  },
+  "elbowWristAreArtGuidesUntilMeasured": true,
+  "runtimeTransform": "identity; crop reconstructs integer body coordinates",
+  "upperCapPolicy": "attach at frozen shoulder; no neutral edit",
+  "hands": "new G artwork; shared unchanged between tee and jacket"
+}

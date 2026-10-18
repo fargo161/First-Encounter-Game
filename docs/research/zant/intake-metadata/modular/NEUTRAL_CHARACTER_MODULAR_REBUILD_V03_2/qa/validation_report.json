@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "checked_standardized_pngs": 88,
+  "rebuilt_composites": 44,
+  "body_calibrations": 44,
+  "canonical_fit_classes": 8,
+  "kit_plates": 44,
+  "source_masters_preserved": 44,
+  "notes": [
+    "Runtime-frame composites and body references passed RGBA, dimension, and alpha checks.",
+    "Clothing and gear/accessory catalogs are authoring inventories, not pixel-aligned runtime overlays.",
+    "Entries marked visual_review_required need manual cleanup before production item swapping.",
+    "C010 is corrected to female_tall_wide in V03."
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "status": "REVIEW_CANDIDATE_NOT_OWNER_ACCEPTED",
+  "bodyFrame": [
+    1024,
+    1536
+  ],
+  "sourceTranslation": [
+    0,
+    54
+  ],
+  "root": [
+    512,
+    1472
+  ],
+  "scale": [
+    1,
+    1
+  ],
+  "rotation": 0,
+  "mirror": false,
+  "head": {
+    "frame": [
+      512,
+      640
+    ],
+    "translation": [
+      256,
+      54
+    ],
+    "attach": [
+      501,
+      320
+    ],
+    "receiving": "A01_skin_neck",
+    "A25Policy": "immutable accepted R2 RGB/alpha; source observed neck below owns bridge"
+  },
+  "neckBase": [
+    501,
+    381
+  ],
+  "shoulders": {
+    "L": [
+      612,
+      407
+    ],
+    "R": [
+      380,
+      407
+    ],
+    "receiving": "A02_tee_torso",
+    "opaqueOverlapPixelsAtReviewedRows": {
+      "L": {
+        "407": 24,
+        "435": 25,
+        "470": 26,
+        "500": 29
+      },
+      "R": {
+        "407": 24,
+        "435": 23,
+        "470": 22,
+        "500": 20
+      }
+    },
+    "wholeArmResponsibility": "sleeve and skin at one draw depth; no sleeve/skin runtime cut",
+    "torsoContinuation": "A02 only; no dragged torso tabs in arm parts"
+  },
+  "wrists": {
+    "L": {
+      "changedPixels": 635,
+      "RGBChangedOnRetainedPixels": 0,
+      "policy": "14px smooth internal wrist-edge alpha transition; y<842; only over opaque receiving forearm; palms/fingers y>=842 unchanged",
+      "fixedWristDatum": [
+        684,
+        824
+      ]
+    },
+    "R": {
+      "changedPixels": 718,
+      "RGBChangedOnRetainedPixels": 0,
+      "policy": "14px smooth internal wrist-edge alpha transition; y<842; only over opaque receiving forearm; palms/fingers y>=842 unchanged",
+      "fixedWristDatum": [
+        301,
+        822
+      ]
+    }
+  },
+  "waist": {
+    "receiving": "A16_pants_pelvis_NN",
+    "tee": "A02_tee_torso",
+    "A16SeedAlphaExact": true,
+    "sourceRGBChangesCSV": "validation/A16_RGB_changes_from_source_seed.csv",
+    "status": "artwork review pending"
+  },
+  "hips": {
+    "L": [
+      572,
+      842
+    ],
+    "R": [
+      422,
+      842
+    ],
+    "selectedLegs": "NN only"
+  },
+  "ankles": {
+    "L": [
+      594,
+      1361
+    ],
+    "R": [
+      390,
+      1360
+    ]
+  },
+  "soleCoreRows": {
+    "L": 1471,
+    "R": 1471
+  },
+  "perRecipeOverrides": false,
+  "unproven": [
+    "G arms and shared G hands",
+    "O legs/shoes and transitions",
+    "mixed-state shoulder/hip compatibility",
+    "facial patches and ownership",
+    "material masks/palettes",
+    "viewer and full required matrix"
+  ]
+}

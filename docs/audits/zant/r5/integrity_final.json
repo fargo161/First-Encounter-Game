@@ -1,0 +1,82 @@
+{
+  "utc": "2026-10-18T14:50:16.064102+00:00",
+  "archiveSha256": "5c8196e1d81ed8aae3bd42a740c6afd01294bc069345c9d683c90163faac2796",
+  "archiveUnchanged": true,
+  "freshManifest": {
+    "expectedFiles": 165,
+    "actualFiles": 165,
+    "changed": [],
+    "missing": [],
+    "added": []
+  },
+  "freshUnchanged": {
+    "expectedFiles": 166,
+    "actualFiles": 166,
+    "changed": [],
+    "missing": [],
+    "added": []
+  },
+  "deliveredUnchanged": {
+    "expectedFiles": 166,
+    "actualFiles": 166,
+    "changed": [],
+    "missing": [],
+    "added": []
+  },
+  "acceptedNeutralLock": {
+    "acceptedCandidate": "C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_02",
+    "filesChecked": 20,
+    "mismatches": []
+  },
+  "preservation": {
+    "sources": {
+      "expectedFiles": 620,
+      "actualFiles": 620,
+      "changed": [],
+      "missing": [],
+      "added": []
+    },
+    "R1": {
+      "expectedFiles": 119,
+      "actualFiles": 119,
+      "changed": [],
+      "missing": [],
+      "added": []
+    },
+    "R2": {
+      "expectedFiles": 31,
+      "actualFiles": 31,
+      "changed": [],
+      "missing": [],
+      "added": []
+    },
+    "R3": {
+      "expectedFiles": 462,
+      "actualFiles": 462,
+      "changed": [],
+      "missing": [],
+      "added": []
+    },
+    "independent_R3": {
+      "expectedFiles": 163,
+      "actualFiles": 163,
+      "changed": [],
+      "missing": [],
+      "added": []
+    },
+    "R4": {
+      "expectedFiles": 735,
+      "actualFiles": 735,
+      "changed": [],
+      "missing": [],
+      "added": []
+    },
+    "independent_R4": {
+      "expectedFiles": 149,
+      "actualFiles": 149,
+      "changed": [],
+      "missing": [],
+      "added": []
+    }
+  }
+}

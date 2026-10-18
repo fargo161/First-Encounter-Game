@@ -1,0 +1,929 @@
+{
+  "summary": {
+    "id": "zant-independent-r5",
+    "role": "independent_evidence",
+    "source_root": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\C001_ZANT_GATE_A_R5_Independent_Review_2026-10-18",
+    "archive_root": "snapshots/zant-independent-r5",
+    "file_count": 183,
+    "bytes": 28579677,
+    "tree_sha256": "85eea6117cc93caf002b6891193ee0b6ef7497ded09abc733cd1747db74b5263",
+    "fingerprint_method": "SHA256 of UTF-8 JSON sorted relative paths; keys sorted; compact separators; records path,bytes,sha256"
+  },
+  "files": [
+    {
+      "path": "INDEPENDENT_R5_REVIEW.md",
+      "bytes": 15496,
+      "sha256": "c4d26ce42cc52721805f4017bccb6cce6588840143869a928af6ec108c33a7a5"
+    },
+    {
+      "path": "audit_frozen.py",
+      "bytes": 4230,
+      "sha256": "890e5087bbd20e271bc12805b7de750dc963f7d6fe05d0cd9a8efceb5a88b9dd"
+    },
+    {
+      "path": "audit_replay/B_off_GN_NN.png",
+      "bytes": 884306,
+      "sha256": "36576731ccaca6247cfd250da7b164601f515eff3775db34c411ae59885fbafc"
+    },
+    {
+      "path": "audit_replay/B_off_NN_NN.png",
+      "bytes": 904850,
+      "sha256": "581bcf1416cd7069252fa93017cef739a31f7ed2c70f7336f45ea46cc41eca63"
+    },
+    {
+      "path": "audit_replay/B_on_GN_NN.png",
+      "bytes": 967531,
+      "sha256": "568ac2c332f86e573bf8ec3438e8b312b112a0209cf20311ab44e396c54ceaa2"
+    },
+    {
+      "path": "audit_replay/B_on_NN_NN.png",
+      "bytes": 948996,
+      "sha256": "eb0ba7bc71d766583b451423eae332a47b89beb8d2103e0546c45eb10bee5a14"
+    },
+    {
+      "path": "audit_replay/verification.json",
+      "bytes": 5940,
+      "sha256": "e9cc3e5b1a8673e5fb1486e1244eef4fade8e4f1bb2638a125a4c9a83bc93838"
+    },
+    {
+      "path": "delivered_inventory_before.json",
+      "bytes": 25587,
+      "sha256": "6d41855f3891cf6dfedbb5b8cb05a775862180fd086081297cb2e18986f9bddc"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/IMPLEMENTATION_REPORT.md",
+      "bytes": 8095,
+      "sha256": "47caecca80f048a9aebf41c1f19a794b20edae67a9580d4b6116ddfa9f3efd92"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/START_HERE.md",
+      "bytes": 2024,
+      "sha256": "e2bd36be6902120905a7c772d8c1a01ec4d6c8fe1fcf8b26dbfcf3a4f9aebbc5"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/TESTER_HANDOFF.md",
+      "bytes": 2823,
+      "sha256": "a73241e665f7a9db3ef5d458b3549c108d387790519e13582b16ec3c6516f00f"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/accepted_A25/A25_extraction_policy.json",
+      "bytes": 4217,
+      "sha256": "a77082a2ab2543aa95c12644e3239598ff0d5b94a5e6a9a7c10015405ffb7231"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/accepted_A25/A25_head_front_neutral_rgba.png",
+      "bytes": 45116,
+      "sha256": "f57ca9e06a203810c3a7f5d9e4c94bf6ecb9f5a2ff83d74b27eff62b4fbba724"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/accepted_A25/A25_head_front_silhouette.png",
+      "bytes": 2080,
+      "sha256": "37e11415f639cf8fa3634ca066bdf718ede06c77acff2121fb79441e62104052"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/accepted_A25/R2_original_metadata.json",
+      "bytes": 1383,
+      "sha256": "634ed90ed626762297b6e0e82a8d796d74db312087d8ec26d062008322c7f56f"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/accepted_A25/registration_bounds.json",
+      "bytes": 1687,
+      "sha256": "05b31742096988c9e431272f061602dd452b3a433d7a71051a6bf208dc152940"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/accepted_neutral/ORIGINAL_R4_MANIFEST.json",
+      "bytes": 27227,
+      "sha256": "e7a727520b99ec3fc2c273f79843c4a951adf11dbe5bbf4e2eeaf33a791af4c9"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/accepted_neutral/R4_ACCEPTED_CANDIDATE02_REPORT.md",
+      "bytes": 5489,
+      "sha256": "f5d63444a83ff2ea8fdb1d695c7b8687f9dc879e8aeac1ae84cbdd0e25bcdf9d"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/accepted_neutral/accepted_A25/A25_extraction_policy.json",
+      "bytes": 4217,
+      "sha256": "a77082a2ab2543aa95c12644e3239598ff0d5b94a5e6a9a7c10015405ffb7231"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/accepted_neutral/accepted_A25/A25_head_front_neutral_rgba.png",
+      "bytes": 45116,
+      "sha256": "f57ca9e06a203810c3a7f5d9e4c94bf6ecb9f5a2ff83d74b27eff62b4fbba724"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/accepted_neutral/accepted_A25/A25_head_front_silhouette.png",
+      "bytes": 2080,
+      "sha256": "37e11415f639cf8fa3634ca066bdf718ede06c77acff2121fb79441e62104052"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/accepted_neutral/accepted_A25/R2_original_metadata.json",
+      "bytes": 1383,
+      "sha256": "634ed90ed626762297b6e0e82a8d796d74db312087d8ec26d062008322c7f56f"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/accepted_neutral/accepted_A25/registration_bounds.json",
+      "bytes": 1687,
+      "sha256": "05b31742096988c9e431272f061602dd452b3a433d7a71051a6bf208dc152940"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/accepted_neutral/assets/A01_skin_neck.png",
+      "bytes": 31480,
+      "sha256": "65bc822a519c7a3f8ae4af5614513786e11e56b4fe1dda78c06849bfcd78513c"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/accepted_neutral/assets/A02_tee_torso.png",
+      "bytes": 245343,
+      "sha256": "a54b14ee20c4a0bf15035158c2f0c94e5c94cfa1c6c50f67462dc486ac03237e"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/accepted_neutral/assets/A03_jacket_open_torso.png",
+      "bytes": 200536,
+      "sha256": "bdcc357af525e589c462828fbfe717cf5ba0e64e926ae8ebb547c44d616e2f1c"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/accepted_neutral/assets/A04_tee_arm_L_N.png",
+      "bytes": 82035,
+      "sha256": "17d27eca4cfee3852e1489b962d378cd1e9ee5f3a4fcedca85b3f0a75fdcaf37"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/accepted_neutral/assets/A05_tee_arm_R_N.png",
+      "bytes": 84094,
+      "sha256": "05345f49a3145b54d47798fc313ce4b66ee330ca2c456688f8b048cdd080a43a"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/accepted_neutral/assets/A08_jacket_arm_L_N.png",
+      "bytes": 82934,
+      "sha256": "3e09100330dfb8e56d6464524b2351468d001439813cd876dee337926e2ccf6d"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/accepted_neutral/assets/A09_jacket_arm_R_N.png",
+      "bytes": 77963,
+      "sha256": "f317de66dd6829527d3ff7407770be6f84524f65e687710aac8f07a0bdf748a8"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/accepted_neutral/assets/A12_hand_L_N.png",
+      "bytes": 19773,
+      "sha256": "0710aa6f9c1017abc0c6fe35ed3c10ac17017ebcc67e21763bbbac0861d58833"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/accepted_neutral/assets/A13_hand_R_N.png",
+      "bytes": 19704,
+      "sha256": "7d31c4e20a1fb06dc2bb493ab93e4dfd03156225ac5946f52207479ff295b1cf"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/accepted_neutral/assets/A16_pants_pelvis_NN.png",
+      "bytes": 82083,
+      "sha256": "23ad2c87efb724bb4c747d13d4bd76c49f4c411e5517c6f59f44f1de000008c7"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/accepted_neutral/assets/A17_pants_leg_L_N.png",
+      "bytes": 112837,
+      "sha256": "0e6899ecff7c19adb4ed730a60542f582a41242a72ac162a0a1d6bec8d0f4bce"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/accepted_neutral/assets/A18_pants_leg_R_N.png",
+      "bytes": 110300,
+      "sha256": "3929c09128b0ff45f9c4a14a3252566423ea313df20bdfe707de0b0209c77740"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/accepted_neutral/assets/A21_sneaker_L_N.png",
+      "bytes": 34539,
+      "sha256": "6ab77f1755780b3918f0b7b336d5697c1611f402670e032fbc4f62ecdbdd49a9"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/accepted_neutral/assets/A22_sneaker_R_N.png",
+      "bytes": 35001,
+      "sha256": "3525c647412a04f5c9b193415ab00bd34af1164645cfc51d36c21dfb9431b8d6"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/accepted_neutral/assets/A25_head_front_neutral_rgba.png",
+      "bytes": 45116,
+      "sha256": "f57ca9e06a203810c3a7f5d9e4c94bf6ecb9f5a2ff83d74b27eff62b4fbba724"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/accepted_neutral/assets/A25_head_front_silhouette.png",
+      "bytes": 2080,
+      "sha256": "37e11415f639cf8fa3634ca066bdf718ede06c77acff2121fb79441e62104052"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/accepted_neutral/data/calibration.json",
+      "bytes": 1686,
+      "sha256": "fad31334fef28eee4a0b71bbf28e5a695e2e19c5959ab06815946cca312e300f"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/accepted_neutral/data/interfaces_neutral.json",
+      "bytes": 2606,
+      "sha256": "6beaaedd93c4485fd9cc25242d7a940b63586ca48aef1c4eabe5595ee63915e7"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/accepted_neutral/data/neutral_recipes.json",
+      "bytes": 1546,
+      "sha256": "c54a510b86859257e12b398f348ecf91752f08e1012171affe22c84638342682"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/accepted_neutral/data/neutral_review_state.json",
+      "bytes": 647,
+      "sha256": "f293f629da7560f1a32fe3a08ba5ec0d39934ffc022acd1996ebcfd8137b22d9"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/accepted_neutral/data/required_matrix.json",
+      "bytes": 63775,
+      "sha256": "dc78dfcb131ffcb96db4e3f97674ff622e8cc98af8a01837b71d564ebc1dd01a"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/accepted_neutral/data/surface_ledger.json",
+      "bytes": 7463,
+      "sha256": "91aeeab671d08148ca8847ccc374f4d138acc85392917fe3d02150e5713d8d20"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/assets/A01_skin_neck.png",
+      "bytes": 31480,
+      "sha256": "65bc822a519c7a3f8ae4af5614513786e11e56b4fe1dda78c06849bfcd78513c"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/assets/A02_tee_torso.png",
+      "bytes": 245343,
+      "sha256": "a54b14ee20c4a0bf15035158c2f0c94e5c94cfa1c6c50f67462dc486ac03237e"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/assets/A03_jacket_open_torso.png",
+      "bytes": 200536,
+      "sha256": "bdcc357af525e589c462828fbfe717cf5ba0e64e926ae8ebb547c44d616e2f1c"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/assets/A04_tee_arm_L_N.png",
+      "bytes": 82035,
+      "sha256": "17d27eca4cfee3852e1489b962d378cd1e9ee5f3a4fcedca85b3f0a75fdcaf37"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/assets/A05_tee_arm_R_N.png",
+      "bytes": 84094,
+      "sha256": "05345f49a3145b54d47798fc313ce4b66ee330ca2c456688f8b048cdd080a43a"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/assets/A06_tee_arm_L_G.png",
+      "bytes": 77116,
+      "sha256": "a2800d12a578d5b1dffc3f456bdde58b84945833489352f6d23243ba7be49411"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/assets/A08_jacket_arm_L_N.png",
+      "bytes": 82934,
+      "sha256": "3e09100330dfb8e56d6464524b2351468d001439813cd876dee337926e2ccf6d"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/assets/A09_jacket_arm_R_N.png",
+      "bytes": 77963,
+      "sha256": "f317de66dd6829527d3ff7407770be6f84524f65e687710aac8f07a0bdf748a8"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/assets/A10_jacket_arm_L_G.png",
+      "bytes": 97908,
+      "sha256": "17d70af056af0d812eccd5ba8ce300cccdebba771939e084be797ace52793524"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/assets/A12_hand_L_N.png",
+      "bytes": 19773,
+      "sha256": "0710aa6f9c1017abc0c6fe35ed3c10ac17017ebcc67e21763bbbac0861d58833"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/assets/A13_hand_R_N.png",
+      "bytes": 19704,
+      "sha256": "7d31c4e20a1fb06dc2bb493ab93e4dfd03156225ac5946f52207479ff295b1cf"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/assets/A14_hand_L_G.png",
+      "bytes": 23617,
+      "sha256": "722bc28fa8e904acb28148d51e218f52622e58937903f93554e3301c5f539d19"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/assets/A16_pants_pelvis_NN.png",
+      "bytes": 82083,
+      "sha256": "23ad2c87efb724bb4c747d13d4bd76c49f4c411e5517c6f59f44f1de000008c7"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/assets/A17_pants_leg_L_N.png",
+      "bytes": 112837,
+      "sha256": "0e6899ecff7c19adb4ed730a60542f582a41242a72ac162a0a1d6bec8d0f4bce"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/assets/A18_pants_leg_R_N.png",
+      "bytes": 110300,
+      "sha256": "3929c09128b0ff45f9c4a14a3252566423ea313df20bdfe707de0b0209c77740"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/assets/A21_sneaker_L_N.png",
+      "bytes": 34539,
+      "sha256": "6ab77f1755780b3918f0b7b336d5697c1611f402670e032fbc4f62ecdbdd49a9"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/assets/A22_sneaker_R_N.png",
+      "bytes": 35001,
+      "sha256": "3525c647412a04f5c9b193415ab00bd34af1164645cfc51d36c21dfb9431b8d6"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/assets/A25_head_front_neutral_rgba.png",
+      "bytes": 45116,
+      "sha256": "f57ca9e06a203810c3a7f5d9e4c94bf6ecb9f5a2ff83d74b27eff62b4fbba724"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/assets/A25_head_front_silhouette.png",
+      "bytes": 2080,
+      "sha256": "37e11415f639cf8fa3634ca066bdf718ede06c77acff2121fb79441e62104052"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/authoring/G_L_jacket_pilot_export.json",
+      "bytes": 972,
+      "sha256": "23d420aba2807f3625ce52f29fc111a9e333ec500fb6266c2ccce23f693fb02a"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/authoring/G_L_jacket_v1_native.png",
+      "bytes": 96715,
+      "sha256": "d19430982cbb521afcb8c43aea574880ff35ba7dc9a9c05a44267261e8ac1f40"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/authoring/G_L_jacket_v2_native.png",
+      "bytes": 100174,
+      "sha256": "251788cb9953404ebb04d2a1bbe03e78d3a6a97ee962fc6fc013e2b49ff53c2c"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/authoring/G_L_off_pilot.png",
+      "bytes": 691787,
+      "sha256": "4b76ede5e0560e09d6f08849edeedec30a5bfa65767df08581d23259a52236d1"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/authoring/G_L_on_pilot.png",
+      "bytes": 719085,
+      "sha256": "b832919f9f2ea561b70941875e1994e212f14e1eb663207490e971f3250761f5"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/authoring/G_L_pilot_before_depth_fix.png",
+      "bytes": 142694,
+      "sha256": "261c04bf817a97c4505be56d878b250f6e3b50a049636e689aaff54166554994"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/authoring/G_L_pilot_composite.png",
+      "bytes": 691787,
+      "sha256": "4b76ede5e0560e09d6f08849edeedec30a5bfa65767df08581d23259a52236d1"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/authoring/G_L_pilot_export.json",
+      "bytes": 1248,
+      "sha256": "bb2fe634b76923ad9912b377ab6bf12f2be824fd07209ef6aae520675d222b96"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/authoring/G_L_tee_hand_v1_native.png",
+      "bytes": 76947,
+      "sha256": "27d91d302b8d6e88cb8c9c8320b805c1e5d6b96ee4ab13d8c2af07f9ff1fc656"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/authoring/G_pose_plan.json",
+      "bytes": 1107,
+      "sha256": "0db10427130c4e23f42f5a1142eca542a240b15b9bb6449bea3b7f1f08b735bc"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/authoring/inputs/L_G_layout_reference_only.png",
+      "bytes": 9060,
+      "sha256": "8d736be8a3e44875486a4ccf073f81a53bb0548ee1ad23059b3a9fd9f2e0e531"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/authoring/inputs/L_G_skin_pose_reference.png",
+      "bytes": 76947,
+      "sha256": "27d91d302b8d6e88cb8c9c8320b805c1e5d6b96ee4ab13d8c2af07f9ff1fc656"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/authoring/inputs/L_N_arm_hand_reference.png",
+      "bytes": 77787,
+      "sha256": "4b754e243abd523aba9b29116fb9a6c2b8feecb3aba073664e42ed8ab224231f"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/authoring/inputs/L_N_jacket_arm_reference.png",
+      "bytes": 80172,
+      "sha256": "473bc508ebc755c6257fc810554d5ccd8bf4b78049f6322d50b05da2f4f80b49"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/authoring/inputs/R4_source_hand_L_before_alpha_cleanup.png",
+      "bytes": 19751,
+      "sha256": "877f07c2a7be76fcad92694322f1f66d91bc98e0d1f4281cbb03b9c1df6b60ce"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/authoring/inputs/R4_source_hand_R_before_alpha_cleanup.png",
+      "bytes": 19615,
+      "sha256": "1352a71879a1cbbc40b2e2ef67b2b99991f83f1ac6bdcee187d13e3f9412c8e4"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/authoring/inputs/R_G_layout_reference_only.png",
+      "bytes": 8925,
+      "sha256": "a295673995af60813832347f49ccfe667b4ecc2fca5342df933345c1e1f06453"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/authoring/inputs/R_N_arm_hand_reference.png",
+      "bytes": 79672,
+      "sha256": "26413535d9301be83d17ebd147e70f8d7fca4c5d59f5048e0d9dc2dbec49b823"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/authoring/inputs/accepted_upper_head_excluded.png",
+      "bytes": 415398,
+      "sha256": "6a97c450fbc616d14824a0c8a4dd434bae2ce93b7f65de223a3f31f0cf4ddadc"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/authoring/prompts/G_L_jacket_v1.txt",
+      "bytes": 1817,
+      "sha256": "ff86d0d5a48c27cd4a06c72f1fb6fb928403e96196e0f745398daa57c00715cf"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/authoring/prompts/G_L_jacket_v2.txt",
+      "bytes": 1835,
+      "sha256": "cc77b4686ff5e50115c773699947d5234281e4c77231a9e65edd2ca189903e0f"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/authoring/prompts/G_L_tee_hand_v1.txt",
+      "bytes": 2022,
+      "sha256": "aa89427c590a8b2c187aa725af25d44d3045cff86ed69a703b692d1b5c46ca58"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/authoring/raw/G_L_jacket_v1.png",
+      "bytes": 651437,
+      "sha256": "28bf5a31f6a5668a2537d55b90fced9988929e9310fe3165a64ff9416ab085b7"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/authoring/raw/G_L_jacket_v2.png",
+      "bytes": 705651,
+      "sha256": "0e4351d0e88c9b7e025a0ef6178340dfe0e9f7dda2bf43d2c4fbc70e7c29cd55"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/authoring/raw/G_L_tee_hand_v1.png",
+      "bytes": 584385,
+      "sha256": "36e3b341e3207629605a1077ac5d3ea40bc2d3caea46f542008a7bbce990249a"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/authoring/rejected/A10_v1_failed_join_native.png",
+      "bytes": 160743,
+      "sha256": "d5c88cb39d8db58e4618580714ddef17447fbcc7df16fca488a32ff728112f95"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/authoring/rejected/A10_v1_skin_predicate_export.png",
+      "bytes": 79758,
+      "sha256": "9ff3da0d0db1176489eba80b25e809b04ad74f1232938003f5d0a74b7fc52273"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/contract/00_GATE_A_IMPLEMENTATION_PREFLIGHT.md",
+      "bytes": 53665,
+      "sha256": "4f63ab38c3d07b48aaf6f2411e849321383f9be1512ef6a45ad4bdec0bf9eac8"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/contract/04_RECOMMENDED_ZANT_MODULAR_STANDARD_v0_1.md",
+      "bytes": 17059,
+      "sha256": "e730a47ce1aa6c388de035529ceb08197a3c38469ea77202b3628c748964a852"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/contract/05_FIRST_COMBINATORIAL_CHARACTER_PROOF_SPEC.md",
+      "bytes": 15576,
+      "sha256": "4da9cfef9b2e108c2bf20cc639f90ed1e2afdd4352aa3dd597af72fb2c86339e"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/contract/A25_LOCK.json",
+      "bytes": 1399,
+      "sha256": "9baa48ae81928a88407840e43d8ca9cf6e72426c8a5885562742a5107ec68710"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/contract/ACCEPTED_R4_NEUTRAL_LOCK.json",
+      "bytes": 3576,
+      "sha256": "e205da75079c50ec19e335325207a533e690114812833504cebdd205ecd9ae1f"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/contract/INDEPENDENT_R3_REVIEW.md",
+      "bytes": 17577,
+      "sha256": "3d1e58a56d1dc32daffdef6a012974e085e4b747e63cd03e681cfead728aebdc"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/contract/OWNER_APPROVAL_R3.md",
+      "bytes": 1294,
+      "sha256": "5611d1a85aa72b175f8541667924daff6ab472c5b44e347d7be6142c14f75bac"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/contract/OWNER_RESUME_AFTER_R4.md",
+      "bytes": 1005,
+      "sha256": "5ad8b39d298a17e615f960d1bc6b1172025a48da5dc9f35e263abeb31c693422"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/contract/R4_AUTHORITY_AND_HOLD.md",
+      "bytes": 1809,
+      "sha256": "d59db8155bc43557a665c22aa9d592c49224d7784c73198dcac26aaf22e3b393"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/contract/R4_CONTINUED_CLEANUP_AUTHORITY.md",
+      "bytes": 1023,
+      "sha256": "e26976f4ea51638fb8a0d2a2f03ca9825d5ce872fccf777974670f905187ed03"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/contract/R4_SHOULDER_FINISH_AUTHORITY.md",
+      "bytes": 977,
+      "sha256": "d9112f4b59b91efbdf1a3b698d9e1012beb0655f48882ea775c91f69a85740aa"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/data/calibration.json",
+      "bytes": 1686,
+      "sha256": "fad31334fef28eee4a0b71bbf28e5a695e2e19c5959ab06815946cca312e300f"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/data/interfaces_neutral.json",
+      "bytes": 2606,
+      "sha256": "6beaaedd93c4485fd9cc25242d7a940b63586ca48aef1c4eabe5595ee63915e7"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/data/neutral_recipes.json",
+      "bytes": 1546,
+      "sha256": "c54a510b86859257e12b398f348ecf91752f08e1012171affe22c84638342682"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/data/pilot_recipes.json",
+      "bytes": 2841,
+      "sha256": "e04cb98c9f58d6868721fbba19df6b43cd55a0aaddadf6c48e4e659e9241674d"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/data/required_matrix.json",
+      "bytes": 66251,
+      "sha256": "0a95ee4950cf69bb913de78f041b35abd75782c6598639557658d1fa6abdd96c"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/data/run_state.json",
+      "bytes": 669,
+      "sha256": "40bc23c93ae61b1308a574a4c49e334e7b996e58a88f177dff1661bbff48d73a"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/data/surface_ledger.json",
+      "bytes": 7319,
+      "sha256": "afddc6657c323044e8b9352df3c08fef7cf37ce0a563d8dbc6bf3efe6bab3fc1"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/evidence/B_off_GN_NN_384.png",
+      "bytes": 56030,
+      "sha256": "ea4117d3ba85c4bc5aed5369142ba6d03de4cef4154f4d20eb5c1766cecfd1da"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/evidence/B_off_GN_NN_native.png",
+      "bytes": 674455,
+      "sha256": "53dac2f2ee3de3b488188a53be16fb94ec2fcf18bb7eb1d008b1523224d6e5a2"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/evidence/B_off_GN_NN_upper_interface_native.png",
+      "bytes": 146151,
+      "sha256": "dd9c787e112cf74c75a6cff0222ea030d5c62a822ebd2eca0fb03a94b45282f6"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/evidence/B_off_GN_NN_wrist_native_dark.png",
+      "bytes": 42640,
+      "sha256": "dcd97a87b02194f1428cae0836e06456ccc4bbaed3e476b5cd4edc900652b0a2"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/evidence/B_off_GN_NN_wrist_native_green.png",
+      "bytes": 42868,
+      "sha256": "d19938db50039f1e5cbe79ea0498c18ce1d735a9957c3de2fd7bfa573e852746"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/evidence/B_off_GN_NN_wrist_native_light.png",
+      "bytes": 42882,
+      "sha256": "e8abef799fe2f5aca60e53e60ef637af6cae6bfb2d9327158f718813c5101cc2"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/evidence/B_off_GN_NN_wrist_native_magenta.png",
+      "bytes": 43062,
+      "sha256": "52c31e918bd39e6fdd6837450216cf0286620ccb7b6638f6354e00e4934ae6fd"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/evidence/B_off_GN_NN_wrist_native_textured.png",
+      "bytes": 42710,
+      "sha256": "bf01c1fc8a10d2a935885d4e0c842dc09bc0bd34cbf7bd3f2ec003ce0062866e"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/evidence/B_off_NN_NN_384.png",
+      "bytes": 56874,
+      "sha256": "2514af7cba0b5fcf7f1f888350c7e9aa965f773c702b8baee6952ff827ad063b"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/evidence/B_off_NN_NN_native.png",
+      "bytes": 683307,
+      "sha256": "08074ea5133effd6a61518bf49d25ee947e301151710657cfe824dd0d9cc5a10"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/evidence/B_on_GN_NN_384.png",
+      "bytes": 61202,
+      "sha256": "ec1eb6fa47f61f9b00c9a2242f4076ce59096c5c60a21472d6ea7ac206ba0896"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/evidence/B_on_GN_NN_native.png",
+      "bytes": 721595,
+      "sha256": "69ce3b0e0398706844b10a6317babad39b2a5de5f90eeee44185c0e75c0f717c"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/evidence/B_on_GN_NN_upper_interface_native.png",
+      "bytes": 175219,
+      "sha256": "5542b6b87e2fbd2972a1520286527a3593ffb9062c5f8aabc96bb0d8dd27b81a"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/evidence/B_on_GN_NN_wrist_native_dark.png",
+      "bytes": 50562,
+      "sha256": "96cad25a0151ff546ad036d1201fbc69e8224be3aef56eacbbf0aa8e2349f255"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/evidence/B_on_GN_NN_wrist_native_green.png",
+      "bytes": 50814,
+      "sha256": "53e2d710c06436480cc97c9282f171f848208995e656cfd8cc81ae1ebb32d2a9"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/evidence/B_on_GN_NN_wrist_native_light.png",
+      "bytes": 51375,
+      "sha256": "ac300778cd06389cb849c26c0ce82a800fc81d580e88c78d7a541fdbce2994c5"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/evidence/B_on_GN_NN_wrist_native_magenta.png",
+      "bytes": 51182,
+      "sha256": "47f7be888c1cd77e6c026168d45d44f826df3c4c79c556d6b88935a05fa5fd59"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/evidence/B_on_GN_NN_wrist_native_textured.png",
+      "bytes": 51034,
+      "sha256": "bae8e1f8e3ad9452f9781a8023d734516734bdfab2f980372d53b0ba1b75c84d"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/evidence/B_on_NN_NN_384.png",
+      "bytes": 60828,
+      "sha256": "c4c467008e53ab8df175d6c3447de7478a48a7b2b51594e0ac7113c1251a083b"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/evidence/B_on_NN_NN_native.png",
+      "bytes": 706912,
+      "sha256": "19c163ad43ce5ad998f56480cab3e28b4c1dc11f179e7c54611315612a1ef825"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/evidence/FAILED_G_L_wrist_registration_native.png",
+      "bytes": 157713,
+      "sha256": "c450b1837981cc2e6dd23d60b20423a435e8d29bfe9baf301fb4f6c352a33a63"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/evidence/G_L_both_outfits_pilot_384.png",
+      "bytes": 77990,
+      "sha256": "31f25c27d971aab4995feb1636bb402f19c91fbc9b5f72d1c9656684b7c8505b"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/evidence/G_L_donor_coordinate_inspection.png",
+      "bytes": 76915,
+      "sha256": "77c0f278f574f3edf9e79f59dbef7f95b1bb05d8cf1c74107784494e9d8ed17c"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/evidence/G_L_donor_native_inspection.png",
+      "bytes": 72292,
+      "sha256": "6b1be71eeaad40d6cb8ae87850f3e551de5c70728bfc1c6152741a7c7a1917a7"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/evidence/G_L_jacket_v1_coordinate.png",
+      "bytes": 93657,
+      "sha256": "90c710c48ea8d87eff73d1417de2588f687fb144124b7e89dd2dbcab303b6bb4"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/evidence/G_L_off_pilot_join_native.png",
+      "bytes": 143250,
+      "sha256": "d343dcd58e4562c69bb16ccdf841c3c953f100a4f08b663ee5712f6ad27f8a7c"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/evidence/G_L_off_pilot_native.png",
+      "bytes": 674455,
+      "sha256": "53dac2f2ee3de3b488188a53be16fb94ec2fcf18bb7eb1d008b1523224d6e5a2"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/evidence/G_L_on_pilot_join_native.png",
+      "bytes": 160743,
+      "sha256": "d5c88cb39d8db58e4618580714ddef17447fbcc7df16fca488a32ff728112f95"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/evidence/G_L_on_pilot_native.png",
+      "bytes": 708445,
+      "sha256": "d3e924ee55f6b872983444cf5549f3f89795ac34587fd611dfe0126b24b8931a"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/evidence/G_L_pilot_384.png",
+      "bytes": 56030,
+      "sha256": "ea4117d3ba85c4bc5aed5369142ba6d03de4cef4154f4d20eb5c1766cecfd1da"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/evidence/G_L_pilot_join_native.png",
+      "bytes": 142727,
+      "sha256": "eb724f1e5b21a907627d27814da31f1de0da1137d5922dc7c38c9dd0b54ce66d"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/evidence/G_L_pilot_native.png",
+      "bytes": 674455,
+      "sha256": "53dac2f2ee3de3b488188a53be16fb94ec2fcf18bb7eb1d008b1523224d6e5a2"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/evidence/R5_STOP_comparison_384.png",
+      "bytes": 98642,
+      "sha256": "7a760c68227eb3f097fad9f73bb8afe1e4d5014db418e43b9d5a0458f1645064"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/expected/B_off_GN_NN.png",
+      "bytes": 691787,
+      "sha256": "4b76ede5e0560e09d6f08849edeedec30a5bfa65767df08581d23259a52236d1"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/expected/B_off_NN_NN.png",
+      "bytes": 700508,
+      "sha256": "083b4c99ca24f00e4bf19efad9159aced3bf9745fa09439a93f900b97f0e9b47"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/expected/B_on_GN_NN.png",
+      "bytes": 731867,
+      "sha256": "c6d9d5e326878cf7b6493682c014a593b06b54fe760a34003451d12e58785fa8"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/expected/B_on_NN_NN.png",
+      "bytes": 714175,
+      "sha256": "f56de235462a2be051735204bde962b93aab62d9ebe97eced04a6248a1ef1022"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/expected/index.json",
+      "bytes": 2161,
+      "sha256": "ca9468c0f60abc42c2d81a28f0e610ac0648a31bc5636f9c89c70d6485f84df6"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/export_G_L_jacket_pilot.py",
+      "bytes": 2715,
+      "sha256": "3eae379e6e0da39c67fb6b08629618b8c1ab1e2cecff7c5931eb676ffcb8c4d9"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/export_G_L_pilot.py",
+      "bytes": 3443,
+      "sha256": "ce3f0ae857ebb0c55014b13ccba4c2b0bcab8b08f94d807ad78179c8c9bd4ac3"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/freeze_failed_pilot_evidence.py",
+      "bytes": 5993,
+      "sha256": "70f3673452ba7388735bc9b0bdd3be9a02df8c29e53f2df1b362c3660808c718"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/gate_a_core.py",
+      "bytes": 1576,
+      "sha256": "5c4ca557861e2f118a2fbd8d2d174e1ee6bd4c326a3c2b3503253c04a5f4ad9a"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/initialize_resume.py",
+      "bytes": 4786,
+      "sha256": "7a9dda4fa5bf7cbe33136c8d940e72d462df0dbe5611fc4caf40e35976914070"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/inspect_G_L_donor.py",
+      "bytes": 981,
+      "sha256": "55fc428ea6bb0d3320fb5e571d3875a0f511397dab69b9a2e173120c984c8f3e"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/manifest.json",
+      "bytes": 29874,
+      "sha256": "f583c0b57b7ad606b2c8dd985c189836b9831e056fecd07aa9c685ee2b4895dc"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/masks/coverage/A06_root_tee_occlusion.png",
+      "bytes": 8242,
+      "sha256": "62a934bfb703687a22c8ec608fae275eba747f0f58d9375e75d26ee6766e2a19"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/masks/coverage/A10_root_jacket_occlusion.png",
+      "bytes": 4705,
+      "sha256": "2e38d0526921b3e8955bf42f725a49d428c4db9e583d393f02106e6a7b003a0f"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/package_failed_checkpoint.py",
+      "bytes": 6980,
+      "sha256": "076ed4098f302b12ca53c90aab5c66cc14c0486ce1f9c749519c525d01f68b95"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/prepare_pose_inputs.py",
+      "bytes": 2162,
+      "sha256": "e109e095be8b537a3b89db0d6bad97b76dd2978abbfabdf99c2f2b11168fc66a"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/references/A16_source_seed.png",
+      "bytes": 75494,
+      "sha256": "c6e80fcd794aa08e2545fa883ec1a61f9fa0ff24205ae82ab204df72203bcd54"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/references/C001_clothing_inventory_rgba.png",
+      "bytes": 692810,
+      "sha256": "9a02bf9c5b80581d0ecba558521cf6d7eccce2eb1114632ca54f4cc1540554cb"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/references/C001_fit_calibration_rgba.png",
+      "bytes": 510309,
+      "sha256": "add7415be15d664ba04b205846ca7d1e7a82bf3a27e243403bf7fffaf790e4f1"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/references/C001_modular_kit_plate_rgba.png",
+      "bytes": 1886333,
+      "sha256": "36970230e64dc438fcaaa237e3fb07d424721dd73a03f591704cb97348b63aba"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/references/C001_neutral_composite_rgba.png",
+      "bytes": 743302,
+      "sha256": "e8319df52dfb1355107cd4a0d773db4117309cfb2c3f2cb76825ab1ee29a4c3f"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/references/C001_source_neutral_rgba.png",
+      "bytes": 688551,
+      "sha256": "f651af252d32fd7a0870d254faab31ec63e4f620a42492641b834fd76274e0db"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/references/R4_candidate01_remediation_report.md",
+      "bytes": 9287,
+      "sha256": "187a8131b7a21ad3359f8727995d1f4007e8d534ebf573983370e190f79d0083"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/references/source_in_body_frame.png",
+      "bytes": 726471,
+      "sha256": "307ac35596796454c1a19a2936cc12f07cd903cc68ddbd687b0a171b89b42f09"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/validation/A16_RGB_changes_from_source_seed.csv",
+      "bytes": 364708,
+      "sha256": "50bb8397c3388c08e68d5a366b9384dd3e7fc46b063d94755d3b69551025c622"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/validation/A25_protected_audit_L8.png",
+      "bytes": 1083,
+      "sha256": "84c3bc4191e5a9809a26e89f0a942f7b05055e826925052813617bc3463392c3"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/validation/G_L_failed_wrist_measurement.json",
+      "bytes": 427,
+      "sha256": "00ff27e62fafb3438976905ffbbf5ad51668937d1cf61a3481694cbbc47f0d63"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/validation/matrix_execution_summary.json",
+      "bytes": 461,
+      "sha256": "f82b866b3708ba2275db2a9db6e5718d7fb93e644cfa27cbdff2d6f0a6576a2b"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/validation/preservation_baseline.json",
+      "bytes": 520800,
+      "sha256": "35b0d50412f0966fd88b9d6572770432aec54d21ec4c654f66f075d7f336bc96"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/validation/preservation_results.json",
+      "bytes": 831,
+      "sha256": "b0a93c8c4c7ac60cf8aae485bc23c11e131a010186ea7bf2cc785e89568011e6"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/validation/verify_checkpoint.py",
+      "bytes": 11955,
+      "sha256": "078a44568cf916ec8cc8d11711b020e8c60ee1ae117281762616e9b867d236bc"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT/write_failure_record.py",
+      "bytes": 15396,
+      "sha256": "51549c9937407ef03c5051050c38bad65794a94e454d5d4cf769d606c418f9df"
+    },
+    {
+      "path": "independent_pilot_audit.json",
+      "bytes": 7306,
+      "sha256": "40b37cb5194d92bad2feacc68b4db24320e57dcb51b69963c7786b310604eecf"
+    },
+    {
+      "path": "independent_pilot_audit.py",
+      "bytes": 7086,
+      "sha256": "ad42bcf451ae3f514eb42e89f7260bf7f77fd4bcd2c44158583d13fb319e5738"
+    },
+    {
+      "path": "independent_pilot_audit_stdout.txt",
+      "bytes": 7306,
+      "sha256": "40b37cb5194d92bad2feacc68b4db24320e57dcb51b69963c7786b310604eecf"
+    },
+    {
+      "path": "integrity_final.json",
+      "bytes": 1776,
+      "sha256": "dac1032ca0afd58b3d10484904bfb52f38d16f5ed4bf215a773e738d00be6c70"
+    },
+    {
+      "path": "integrity_initial.json",
+      "bytes": 2562,
+      "sha256": "02d9f7e1df41affc00fd0b92dee364d1713c86318fb55babbec09e9936c66562"
+    },
+    {
+      "path": "packet_inventory_before.json",
+      "bytes": 25587,
+      "sha256": "6d41855f3891cf6dfedbb5b8cb05a775862180fd086081297cb2e18986f9bddc"
+    },
+    {
+      "path": "review_status.json",
+      "bytes": 1090,
+      "sha256": "3a018ff5f75e48510ce64f93b858b77f9421a13e01e2679e032d6c07ca71959a"
+    },
+    {
+      "path": "wrist_overlap_ownership_audit.json",
+      "bytes": 1074,
+      "sha256": "f9cc9b2525cb6bc5046c425609d7b7e34386ebd6ed82da72891f14d1c884f857"
+    },
+    {
+      "path": "wrist_overlap_ownership_audit.py",
+      "bytes": 1772,
+      "sha256": "9894c47fe6b784d7bab2d41dea0552b1368c053d0329c29f7220b150f61f069c"
+    }
+  ]
+}

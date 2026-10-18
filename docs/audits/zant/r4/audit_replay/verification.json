@@ -1,0 +1,151 @@
+{
+  "capsuleStatus": "NEUTRAL_REVIEW_CANDIDATE_NOT_OWNER_ACCEPTED",
+  "gateAVerdict": "HOLD_NEUTRAL_OWNER_REVIEW",
+  "auditIntegrity": "PASS",
+  "python": "3.12.0",
+  "dependencies": "standard library only; no network",
+  "manifestFilesVerified": 135,
+  "presentBaselineSurfaces": 15,
+  "missingBaselineSurfaces": 17,
+  "reservesUsed": 0,
+  "A25FileHashUnchanged": true,
+  "acceptedA25RecordsUnchanged": true,
+  "headAlphaExact": true,
+  "retainedSourceHeadRGBPixelsCompared": 18229,
+  "retainedSourceHeadRGBChanged": 0,
+  "fixedRegistrationExact": true,
+  "handInterfaceAudit": {
+    "L": {
+      "alphaTransitionPixels": 635,
+      "retainedRGBChanged": 0,
+      "retainedRGBDifferentFromOriginalC001Source": 0,
+      "palmFingerRGBAChangedAtY842Plus": 0
+    },
+    "R": {
+      "alphaTransitionPixels": 718,
+      "retainedRGBChanged": 0,
+      "retainedRGBDifferentFromOriginalC001Source": 0,
+      "palmFingerRGBAChangedAtY842Plus": 0
+    }
+  },
+  "neutralRenders": {
+    "B_off_NN_NN": {
+      "canonical": {
+        "differentPixels": 0,
+        "differentChannelsRGBA": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "maxDeltaRGBA": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "equal": true,
+        "includesHiddenRGB": true
+      },
+      "reopened": {
+        "differentPixels": 0,
+        "differentChannelsRGBA": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "maxDeltaRGBA": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "equal": true,
+        "includesHiddenRGB": true
+      },
+      "decodedRGBA256": "1eb2c73a133b92afb78475d7e0867b71657c34d4ca2cbdd2b130cbbf3ac686ef",
+      "protectedFacialPixels": 14254,
+      "protectedFaceRGBAChanged": 0,
+      "artAcceptance": "PENDING_OWNER_REVIEW"
+    },
+    "B_on_NN_NN": {
+      "canonical": {
+        "differentPixels": 0,
+        "differentChannelsRGBA": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "maxDeltaRGBA": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "equal": true,
+        "includesHiddenRGB": true
+      },
+      "reopened": {
+        "differentPixels": 0,
+        "differentChannelsRGBA": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "maxDeltaRGBA": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "equal": true,
+        "includesHiddenRGB": true
+      },
+      "decodedRGBA256": "48feb5aa9fc7f5da1fbdffc4d2347d9faa38d26fc4314788431593b787692d24",
+      "protectedFacialPixels": 14254,
+      "protectedFaceRGBAChanged": 0,
+      "artAcceptance": "PENDING_OWNER_REVIEW"
+    }
+  },
+  "supplementaryComparisonControls": {
+    "RGBOnlyOnePixel": {
+      "differentPixels": 1,
+      "differentChannelsRGBA": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "maxDeltaRGBA": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "equal": false,
+      "includesHiddenRGB": true
+    },
+    "alphaOnlyOnePixel": {
+      "differentPixels": 1,
+      "differentChannelsRGBA": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "maxDeltaRGBA": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "equal": false,
+      "includesHiddenRGB": true
+    }
+  },
+  "gateAMatrix": "2 neutral cases reproduced, pending owner acceptance; other 224 valid and all 17 production negatives NOT_RUN_NEUTRAL_REVIEW_HOLD",
+  "warning": "Integrity and deterministic reproduction do not grant artwork approval or prove the missing Gate A matrix."
+}

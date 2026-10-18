@@ -1,0 +1,15 @@
+{
+  "candidateId": "C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_02",
+  "zip": "C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_02.zip",
+  "zipBytes": 33921583,
+  "zipSha256": "c43e34ac80a8fd32f1ee5f30e5116dad06129a10b196032afc2fb2746a8188b3",
+  "manifestSha256": "e7a727520b99ec3fc2c273f79843c4a951adf11dbe5bbf4e2eeaf33a791af4c9",
+  "governedFiles": 149,
+  "packetFilesIncludingManifest": 150,
+  "A25Sha256": "f57ca9e06a203810c3a7f5d9e4c94bf6ecb9f5a2ff83d74b27eff62b4fbba724",
+  "A25AlphaSha256": "37e11415f639cf8fa3634ca066bdf718ede06c77acff2121fb79441e62104052",
+  "A16Sha256": "23ad2c87efb724bb4c747d13d4bd76c49f4c411e5517c6f59f44f1de000008c7",
+  "A16Status": "unchanged authored waist proposal; owner art decision pending; not source-exact RGB",
+  "ownerAccepted": false,
+  "neutralContourFrozen": false
+}

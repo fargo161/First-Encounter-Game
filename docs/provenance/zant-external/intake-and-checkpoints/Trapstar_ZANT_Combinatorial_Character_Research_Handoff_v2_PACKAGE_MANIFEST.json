@@ -1,0 +1,77 @@
+{
+  "package": "Trapstar_ZANT_Combinatorial_Character_Research_Handoff_v2",
+  "parts": [
+    {
+      "name": "Trapstar_ZANT_Combinatorial_Character_Research_Handoff_v2_PART1_CONTEXT_AND_RESEARCH_BRIEF.zip",
+      "purpose": "Context + audits + ZANT lineage + read-only project context + master/pre-flight research brief",
+      "bytes": 13636963,
+      "sha256": "567085632c1e061d7d25417bce9dd22e88d6dae515a01b759c9b192f257cf80a"
+    },
+    {
+      "name": "Trapstar_ZANT_Combinatorial_Character_Research_Handoff_v2_PART2_ORIGINAL_CHARACTER_SOURCE.zip",
+      "purpose": "Original character/source archive + standalone 44-sheet clothing archive",
+      "bytes": 169191353,
+      "sha256": "a2d025102b94e616565cf585c5565155d116779409e525aa8e5bf4f7cbd6c8ed"
+    },
+    {
+      "name": "Trapstar_ZANT_Combinatorial_Character_Research_Handoff_v2_PART3_MODULAR_STANDARDIZATION_CORE.zip",
+      "purpose": "Fit classes, 44 calibrations, clothing/gear catalogs, metadata and QA",
+      "bytes": 69499916,
+      "sha256": "7af32fe67947c514694bc60764d70e0668bdb80d7ea562f21c52a09f1a320484"
+    },
+    {
+      "name": "Trapstar_ZANT_Combinatorial_Character_Research_Handoff_v2_PART4_MODULAR_RECONSTRUCTION_EVIDENCE.zip",
+      "purpose": "Source masters, rebuilt composites and kit plates",
+      "bytes": 162500344,
+      "sha256": "a23cbb6778ea3ac06e8940f949a410acc867462cbdff87e87449614b029e4429"
+    },
+    {
+      "name": "Trapstar_ZANT_Combinatorial_Character_Research_Handoff_v2_PART5_FACE_SYSTEM_CORE_PROVENANCE.zip",
+      "purpose": "Five-slot face base/docs/manifest/18 previews/raw edit provenance/masks/validator/build logic",
+      "bytes": 73110314,
+      "sha256": "4d6757c327cc7fadd7bfdef549d07617f8c245664baf91c4743f148ed9304b6c"
+    },
+    {
+      "name": "Trapstar_ZANT_Combinatorial_Character_Research_Handoff_v2_PART6_FACE_SLOTS_EXP01_09.zip",
+      "purpose": "All 45 registered facial slot PNGs for demonstrations 01\u201309",
+      "bytes": 78404463,
+      "sha256": "21ca8da86ce6743c44400cfc458fe23f7d48fb9fd6cad6a3a566b840b3797bd8"
+    },
+    {
+      "name": "Trapstar_ZANT_Combinatorial_Character_Research_Handoff_v2_PART7_FACE_SLOTS_EXP10_18.zip",
+      "purpose": "All 45 registered facial slot PNGs for demonstrations 10\u201318",
+      "bytes": 76949708,
+      "sha256": "d17b772209ddc3bbb9e2235ae0382c5bc519ec967d96fe158078b43cae7c1a3d"
+    }
+  ],
+  "master_prompt": {
+    "name": "CODEX_ZANT_COMBINATORIAL_CHARACTER_RESEARCH_MASTER_PROMPT_v2.md",
+    "bytes": 19522,
+    "sha256": "5ad7d0cfc91c26b2c582e3e917b229e6123e980cdd99626578b6bc0ad5e1ebb0"
+  },
+  "face_system_source_facts": {
+    "name": "ZANT_FIVE_SLOT_FACE_SYSTEM_SOURCE_FACTS.md",
+    "bytes": 6645,
+    "sha256": "26a6aa26a2a66410fc1cd08abab648c6da34a742da4e116cfb9f4c842ccc8823"
+  },
+  "preflight_required": true,
+  "deep_analysis_requires_owner_approval_after_preflight": true,
+  "face_evidence": {
+    "expressions": 18,
+    "registered_slot_pngs": 90,
+    "slots_per_expression": 5,
+    "canonical_canvas": [
+      1187,
+      1484
+    ],
+    "draw_order": [
+      "BASE_HEAD",
+      "LEFT_BROW",
+      "RIGHT_BROW",
+      "LEFT_EYE",
+      "RIGHT_EYE",
+      "LOWER_FACE"
+    ],
+    "exact_recomposition_validation": true
+  }
+}

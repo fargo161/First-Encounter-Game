@@ -2,23 +2,22 @@
 
 Private canonical monorepo with independent Git history. Encounter governs gameplay grammar and interaction contracts; preserve subsystem boundaries.
 
-
 ## Current consolidation state
 
-Stage 7 Room Creator migration verification is complete: **PASS WITH HOLD PRESERVED**. Room Creator v0.14.1 remains **HOLD_FOR_FURTHER_REMEDIATION**; both known manifest-present/missing-image appearance-repair failures reproduced. No source repair or product promotion.
+Stage 8 ZANT import is complete at the byte-integrity level. ZANT behavior/art verification remains pending explicit Stage 9 authorization.
 
 | Lane | Repository state |
 | --- | --- |
-| Encounter / Atlas | Accepted A1 snapshot remains byte-identical. Stage 5 passed with documented known limitations; IR3-25 remains an actual accepted non-blocking failure. |
-| Room Creator | Full held v0.14.1 baseline remains byte-identical: 383 baseline files plus one Git-only attribute file. Stage 7 tests/build/package/browser verification passed with the known product defect and HOLD preserved. |
-| ZANT | README placeholder only; accepted R4 candidate02 remains distinct from failed/provisional R5 work. |
+| Encounter / Atlas | Accepted A1 unchanged. Stage 5 PASS WITH DOCUMENTED KNOWN LIMITATIONS; IR3-25 remains an actual accepted non-blocking failure. |
+| Room Creator | Held v0.14.1 unchanged. Stage 7 PASS WITH HOLD PRESERVED; product status remains HOLD_FOR_FURTHER_REMEDIATION with its known missing-image repair defect. |
+| ZANT | Current R5 maintained source plus exact failure-checkpoint manifest imported. R4 candidate02 neutral surfaces stay owner-accepted/frozen. R5 G-sleeve pilot remains failed and wrist/interface provisional. Gate A is incomplete. |
 
-See the [Stage 7 report](docs/consolidation/STAGE_7_VERIFICATION.md), [verification manifest](docs/provenance/room-creator-stage7-verification.json), [current integrity instructions](docs/testing/STAGE_7_VERIFICATION.md), and [authority](docs/provenance/source-authority.json).
+See the [Stage 8 report](docs/consolidation/STAGE_8_IMPORT.md), [exact ZANT import manifest](docs/provenance/zant-stage8-import.json), [authority](docs/provenance/source-authority.json), and [read-only integrity](docs/testing/STAGE_8_INTEGRITY.md).
 
-All execution and bulk generated evidence stayed in disposable private archive locations. Exact HTML and candidate ZIP reproduced, all 11 examples passed full browser preservation checks, and the external library's 2,753 checksums matched before/after use. The full asset library and source packs remain outside Git. Preserved builder and old independent records retain their historical bytes.
+The [ZANT wrapper](packages/zant/README.md) distinguishes accepted assets, failed/provisional work, original references and derived/calibration material. Seven original intake packages, bulk research/source art and delivery duplicates remain external with exact identities and roles. Historical prompts are evidence, not new authorization.
 
 ## Hard stop
 
-**Stop before Stage 8.** Review Stage 7; any next-stage work requires explicit new authorization. Room Creator promotion requires separate versioned remediation and independent re-verification. No ZANT import, integration, shared executable contracts, Unity, LFS or CI was added.
+**Stop before Stage 9.** No ZANT replay/art verification, repair, new art, integration, shared-contract implementation, Unity, LFS, CI or cleanup is authorized. Review [proposed Stage 9 scope](docs/testing/STAGE_9_RECOMMENDED_SCOPE.md); do not execute it without new owner authorization.
 
 Preserve first. Normalize second. Connect third. Refactor later.

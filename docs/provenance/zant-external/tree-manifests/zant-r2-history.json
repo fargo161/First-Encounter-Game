@@ -1,0 +1,169 @@
+{
+  "summary": {
+    "id": "zant-r2-history",
+    "role": "accepted_head_and_history",
+    "source_root": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\C001_ZANT_GATE_A_R2_A25",
+    "archive_root": "snapshots/zant-r2-history",
+    "file_count": 31,
+    "bytes": 3049552,
+    "tree_sha256": "8f9093d7b4714b1c8006562bc50b3d35529e087b6f0b48cc77f6a1ad1edb0ec7",
+    "fingerprint_method": "SHA256 of UTF-8 JSON sorted relative paths; keys sorted; compact separators; records path,bytes,sha256"
+  },
+  "files": [
+    {
+      "path": "R2_A25_REMEDIATION_REPORT.md",
+      "bytes": 4728,
+      "sha256": "8251402719212b9781dd78b38427ad46ccbdeedc54d540dfa6b60b3803bbcd1d"
+    },
+    {
+      "path": "R2_manifest.json",
+      "bytes": 5567,
+      "sha256": "aaa27c72cff3281531f41f8ede103e020356d7c85939f9514fae8e3a7144c0a3"
+    },
+    {
+      "path": "assets/A25_head_front_neutral_rgba.png",
+      "bytes": 45116,
+      "sha256": "f57ca9e06a203810c3a7f5d9e4c94bf6ecb9f5a2ff83d74b27eff62b4fbba724"
+    },
+    {
+      "path": "assets/A25_head_front_silhouette.png",
+      "bytes": 2080,
+      "sha256": "37e11415f639cf8fa3634ca066bdf718ede06c77acff2121fb79441e62104052"
+    },
+    {
+      "path": "assets/A25_metadata.json",
+      "bytes": 1383,
+      "sha256": "634ed90ed626762297b6e0e82a8d796d74db312087d8ec26d062008322c7f56f"
+    },
+    {
+      "path": "authoring/A25_extraction_policy.json",
+      "bytes": 4217,
+      "sha256": "a77082a2ab2543aa95c12644e3239598ff0d5b94a5e6a9a7c10015405ffb7231"
+    },
+    {
+      "path": "authoring/source_head_grid_5x.png",
+      "bytes": 95869,
+      "sha256": "08eba93ff0d9bd1ef88ef1891392234870d43c9b4534d1f19549cbe6a057e61b"
+    },
+    {
+      "path": "build_a25.py",
+      "bytes": 13404,
+      "sha256": "8ed52a6591755ca07f4b1745fe8417948ef63ec5073197c3b6396c874f299281"
+    },
+    {
+      "path": "closeout_r2.py",
+      "bytes": 10592,
+      "sha256": "7c9cb64b5a96658f20d1334f3d67b825bd1c28ff8fe26948628f17b76f71a511"
+    },
+    {
+      "path": "contract/00_GATE_A_IMPLEMENTATION_PREFLIGHT.md",
+      "bytes": 53665,
+      "sha256": "4f63ab38c3d07b48aaf6f2411e849321383f9be1512ef6a45ad4bdec0bf9eac8"
+    },
+    {
+      "path": "contract/OWNER_APPROVAL_R2.md",
+      "bytes": 1104,
+      "sha256": "7f3c41fb025d6f288c1013dd6a93a918a946d8e02980201d35d3c0ce0dbf1b4a"
+    },
+    {
+      "path": "contract/established_calibration.json",
+      "bytes": 1686,
+      "sha256": "fad31334fef28eee4a0b71bbf28e5a695e2e19c5959ab06815946cca312e300f"
+    },
+    {
+      "path": "evidence/A25_alpha_native.png",
+      "bytes": 2080,
+      "sha256": "37e11415f639cf8fa3634ca066bdf718ede06c77acff2121fb79441e62104052"
+    },
+    {
+      "path": "evidence/alpha_backgrounds_edge4x.png",
+      "bytes": 106589,
+      "sha256": "ab66ad234d72b41470df6273b88a22edba1b6498bcba303e9a4ff473d22440ac"
+    },
+    {
+      "path": "evidence/alpha_backgrounds_head128.png",
+      "bytes": 55433,
+      "sha256": "952ca59061459f7ab6785a780e2d432c1737715cccdc0d46e14cf7d9f4a51311"
+    },
+    {
+      "path": "evidence/alpha_backgrounds_head256.png",
+      "bytes": 150360,
+      "sha256": "9a1502d5410b3ee136405c3b32c248e3defbeb372a2b6e9d6549ec1341482f11"
+    },
+    {
+      "path": "evidence/alpha_backgrounds_native.png",
+      "bytes": 60154,
+      "sha256": "1296ca8767c52c90a7c226f9ca9d045d6c8fd4c10ce098100b5821bc8fe8457a"
+    },
+    {
+      "path": "evidence/source_cutout_and_attachment_4x.png",
+      "bytes": 69829,
+      "sha256": "257be9025fd8a8160680b601666960895f8c7de2e99834e8a3aff7d0d0cd82a0"
+    },
+    {
+      "path": "evidence/source_vs_candidate_head128.png",
+      "bytes": 42089,
+      "sha256": "391ae9a25e2f90644da85ee92d691f28e309e4d7066054e757c33b0fea9b7ad7"
+    },
+    {
+      "path": "evidence/source_vs_candidate_head256.png",
+      "bytes": 101759,
+      "sha256": "efdfb8bda343d8500eaae8f936dfaeff2b45fe90a73f6967b75217760b719b36"
+    },
+    {
+      "path": "evidence/source_vs_candidate_native.png",
+      "bytes": 59824,
+      "sha256": "d6eb5b0d21e6c09adc3678d3eafc97ef93191e2dcfea74101491fcffcbaefadb"
+    },
+    {
+      "path": "initialize_r2.py",
+      "bytes": 2468,
+      "sha256": "54fb067435e3485329121926c30c86b6a8665eabd7662a0a65cef9007cc9fd96"
+    },
+    {
+      "path": "references/C001_source_neutral_rgba.png",
+      "bytes": 688551,
+      "sha256": "f651af252d32fd7a0870d254faab31ec63e4f620a42492641b834fd76274e0db"
+    },
+    {
+      "path": "validation/RGB_PRESERVATION_REPORT.json",
+      "bytes": 2760,
+      "sha256": "3b62da61750b4bc225e5be9ed0ead5a028379a4d851eecad3b1a07ac61ee76d3"
+    },
+    {
+      "path": "validation/changed_source_pixels.csv.gz",
+      "bytes": 1349041,
+      "sha256": "dd06be02e8f571cd1bcf75307784d83cfa9fb69649bb36337cd24e646f63b69d"
+    },
+    {
+      "path": "validation/independent_validation.json",
+      "bytes": 2604,
+      "sha256": "4477651fba33ba8958ae8e2139c40b3e216f2d7b73fbcec849c172ac92a3f3b7"
+    },
+    {
+      "path": "validation/iteration01_speck_detection.json",
+      "bytes": 2558,
+      "sha256": "6d42d84bfe866103f2cc4a2cfbc227887f53832ddcfd90b16de480425aba7656"
+    },
+    {
+      "path": "validation/preservation_baseline.json",
+      "bytes": 103038,
+      "sha256": "a3c42ce95bf05b35a4789f211ee581f6a5a3a9bb8512bc880363fa0becbfb503"
+    },
+    {
+      "path": "validation/registration_bounds.json",
+      "bytes": 1687,
+      "sha256": "05b31742096988c9e431272f061602dd452b3a433d7a71051a6bf208dc152940"
+    },
+    {
+      "path": "validation/validate_a25.py",
+      "bytes": 7582,
+      "sha256": "535c3cf18441f14a7a53be2b77cd0229943bd10a98548d786ff12ee4579f662d"
+    },
+    {
+      "path": "validation/visual_inspection.json",
+      "bytes": 1735,
+      "sha256": "5e15788439c7acac57fedd25d5e7895911de650d06c97cce5d097beaf911fe3f"
+    }
+  ]
+}

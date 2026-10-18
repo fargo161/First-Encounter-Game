@@ -1,0 +1,161 @@
+{
+  "schemaVersion": "0.1.0",
+  "capsuleId": "C001_proof_SPEC_ONLY",
+  "identityId": "C001",
+  "coordinateSystem": {
+    "units": "authoring_pixel",
+    "xPositive": "image_right",
+    "yPositive": "image_down",
+    "anatomicalSides": "subject_relative",
+    "scalePolicy": "preserve_identity_calibration"
+  },
+  "identity": {
+    "sourceMaster": {
+      "uri": "Part2!ORIGINAL_USER_SOURCE/characters_trapstar_source.zip!characters trapstar source/C001_source_neutral_rgba.png",
+      "availability": "supplied"
+    },
+    "headPackage": {
+      "uri": "C001/head/package.json",
+      "availability": "proposed_uncreated"
+    },
+    "visualDecisions": [
+      "Preserve original bald head and facial proportions",
+      "Blue striped tracksuit over light T-shirt; cream sneakers"
+    ]
+  },
+  "body": {
+    "fitReference": {
+      "uri": "Part3!NEUTRAL_CHARACTER_MODULAR_REBUILD_V03_2/fit_classes/male_short_slim_canonical_rgba.png",
+      "availability": "supplied"
+    },
+    "calibration": {
+      "uri": "C001/body/calibration.json",
+      "availability": "proposed_uncreated"
+    },
+    "profileId": "C001_measured_profile",
+    "geometryAuthority": "original C001 silhouette; supplied gray fit is construction reference only"
+  },
+  "views": [
+    {
+      "id": "front",
+      "yawDegrees": 0,
+      "frame": [
+        1024,
+        1536
+      ],
+      "root": [
+        512,
+        1472
+      ],
+      "anchors": [
+        {
+          "id": "floor_root",
+          "xy": [
+            512,
+            1472
+          ],
+          "semanticSide": "center"
+        }
+      ],
+      "headCompatibility": [
+        "front"
+      ],
+      "mirrorPolicy": "unreviewed"
+    },
+    {
+      "id": "three_quarter_left",
+      "yawDegrees": 45,
+      "frame": [
+        1024,
+        1536
+      ],
+      "root": [
+        512,
+        1472
+      ],
+      "anchors": [
+        {
+          "id": "floor_root",
+          "xy": [
+            512,
+            1472
+          ],
+          "semanticSide": "center"
+        }
+      ],
+      "headCompatibility": [
+        "three_quarter_left"
+      ],
+      "mirrorPolicy": "unreviewed"
+    },
+    {
+      "id": "side_left",
+      "yawDegrees": 90,
+      "frame": [
+        1024,
+        1536
+      ],
+      "root": [
+        512,
+        1472
+      ],
+      "anchors": [
+        {
+          "id": "floor_root",
+          "xy": [
+            512,
+            1472
+          ],
+          "semanticSide": "center"
+        }
+      ],
+      "headCompatibility": [
+        "side_left"
+      ],
+      "mirrorPolicy": "unreviewed"
+    },
+    {
+      "id": "back",
+      "yawDegrees": 180,
+      "frame": [
+        1024,
+        1536
+      ],
+      "root": [
+        512,
+        1472
+      ],
+      "anchors": [
+        {
+          "id": "floor_root",
+          "xy": [
+            512,
+            1472
+          ],
+          "semanticSide": "center"
+        }
+      ],
+      "headCompatibility": [
+        "back"
+      ],
+      "mirrorPolicy": "unreviewed"
+    }
+  ],
+  "assets": [],
+  "layerConstraints": [],
+  "facePackages": [],
+  "recipes": [],
+  "provenance": [
+    {
+      "source": "Owner-approved research handoff, October 18, 2026",
+      "role": "authored_candidate",
+      "authority": "proposed"
+    }
+  ],
+  "qa": {
+    "status": "unreviewed",
+    "checks": [
+      "Schema example only; art, anchors beyond root and recipes do not exist. Not eligible for rendering or production."
+    ]
+  }
+}

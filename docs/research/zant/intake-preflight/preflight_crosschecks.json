@@ -1,0 +1,438 @@
+{
+  "series": {
+    "original_neutrals": {
+      "expected": 44,
+      "present": 44,
+      "missing": []
+    },
+    "reconstruction_source_masters": {
+      "expected": 44,
+      "present": 44,
+      "missing": []
+    },
+    "clothing_original": {
+      "expected": 44,
+      "present": 44,
+      "missing": []
+    },
+    "calibrations": {
+      "expected": 44,
+      "present": 44,
+      "missing": []
+    },
+    "clothing_modular": {
+      "expected": 44,
+      "present": 44,
+      "missing": []
+    },
+    "gear_modular": {
+      "expected": 44,
+      "present": 44,
+      "missing": []
+    },
+    "rebuilt_composites": {
+      "expected": 44,
+      "present": 44,
+      "missing": []
+    },
+    "kit_plates": {
+      "expected": 44,
+      "present": 44,
+      "missing": []
+    }
+  },
+  "source_copies_identical": 44,
+  "wardrobe_copies_identical": 44,
+  "character_source_hashes": {
+    "checked": 44,
+    "mismatches": []
+  },
+  "repair_catalog_hashes": {
+    "checked": 25,
+    "mismatches": []
+  },
+  "face_manifest_hashes": {
+    "checked": 111,
+    "missing": [],
+    "mismatches": []
+  },
+  "face_manifest_references": {
+    "unique": 132,
+    "missing": []
+  },
+  "face_slot_membership": {
+    "goose_expr_01": [
+      "LEFT_BROW",
+      "LEFT_EYE",
+      "LOWER_FACE",
+      "RIGHT_BROW",
+      "RIGHT_EYE"
+    ],
+    "goose_expr_02": [
+      "LEFT_BROW",
+      "LEFT_EYE",
+      "LOWER_FACE",
+      "RIGHT_BROW",
+      "RIGHT_EYE"
+    ],
+    "goose_expr_03": [
+      "LEFT_BROW",
+      "LEFT_EYE",
+      "LOWER_FACE",
+      "RIGHT_BROW",
+      "RIGHT_EYE"
+    ],
+    "goose_expr_04": [
+      "LEFT_BROW",
+      "LEFT_EYE",
+      "LOWER_FACE",
+      "RIGHT_BROW",
+      "RIGHT_EYE"
+    ],
+    "goose_expr_05": [
+      "LEFT_BROW",
+      "LEFT_EYE",
+      "LOWER_FACE",
+      "RIGHT_BROW",
+      "RIGHT_EYE"
+    ],
+    "goose_expr_06": [
+      "LEFT_BROW",
+      "LEFT_EYE",
+      "LOWER_FACE",
+      "RIGHT_BROW",
+      "RIGHT_EYE"
+    ],
+    "goose_expr_07": [
+      "LEFT_BROW",
+      "LEFT_EYE",
+      "LOWER_FACE",
+      "RIGHT_BROW",
+      "RIGHT_EYE"
+    ],
+    "goose_expr_08": [
+      "LEFT_BROW",
+      "LEFT_EYE",
+      "LOWER_FACE",
+      "RIGHT_BROW",
+      "RIGHT_EYE"
+    ],
+    "goose_expr_09": [
+      "LEFT_BROW",
+      "LEFT_EYE",
+      "LOWER_FACE",
+      "RIGHT_BROW",
+      "RIGHT_EYE"
+    ],
+    "goose_expr_10": [
+      "LEFT_BROW",
+      "LEFT_EYE",
+      "LOWER_FACE",
+      "RIGHT_BROW",
+      "RIGHT_EYE"
+    ],
+    "goose_expr_11": [
+      "LEFT_BROW",
+      "LEFT_EYE",
+      "LOWER_FACE",
+      "RIGHT_BROW",
+      "RIGHT_EYE"
+    ],
+    "goose_expr_12": [
+      "LEFT_BROW",
+      "LEFT_EYE",
+      "LOWER_FACE",
+      "RIGHT_BROW",
+      "RIGHT_EYE"
+    ],
+    "goose_expr_13": [
+      "LEFT_BROW",
+      "LEFT_EYE",
+      "LOWER_FACE",
+      "RIGHT_BROW",
+      "RIGHT_EYE"
+    ],
+    "goose_expr_14": [
+      "LEFT_BROW",
+      "LEFT_EYE",
+      "LOWER_FACE",
+      "RIGHT_BROW",
+      "RIGHT_EYE"
+    ],
+    "goose_expr_15": [
+      "LEFT_BROW",
+      "LEFT_EYE",
+      "LOWER_FACE",
+      "RIGHT_BROW",
+      "RIGHT_EYE"
+    ],
+    "goose_expr_16": [
+      "LEFT_BROW",
+      "LEFT_EYE",
+      "LOWER_FACE",
+      "RIGHT_BROW",
+      "RIGHT_EYE"
+    ],
+    "goose_expr_17": [
+      "LEFT_BROW",
+      "LEFT_EYE",
+      "LOWER_FACE",
+      "RIGHT_BROW",
+      "RIGHT_EYE"
+    ],
+    "goose_expr_18": [
+      "LEFT_BROW",
+      "LEFT_EYE",
+      "LOWER_FACE",
+      "RIGHT_BROW",
+      "RIGHT_EYE"
+    ]
+  },
+  "fit_reference_calibration_copies": {
+    "male_short_slim": true,
+    "male_tall_slim": true,
+    "male_short_wide": true,
+    "male_tall_wide": true,
+    "female_short_slim": true,
+    "female_tall_slim": true,
+    "female_short_wide": true,
+    "female_tall_wide": true
+  },
+  "original_internal_duplicates": [
+    [
+      "4832c954-8dfe-44cb-a597-064df422c222.png",
+      "ChatGPT Image Sep 3, 2026, 03_14_16 AM (2).png"
+    ],
+    [
+      "ChatGPT Image Sep 3, 2026, 10_17_03 PM (1).png",
+      "ChatGPT Image Sep 3, 2026, 10_17_36 PM (1).png"
+    ],
+    [
+      "ChatGPT Image Sep 3, 2026, 10_17_21 PM (2).png",
+      "ChatGPT Image Sep 3, 2026, 10_17_37 PM (2).png"
+    ],
+    [
+      "ChatGPT Image Sep 3, 2026, 10_17_21 PM (3).png",
+      "ChatGPT Image Sep 3, 2026, 10_17_37 PM (3).png"
+    ],
+    [
+      "ChatGPT Image Sep 3, 2026, 10_17_22 PM (4).png",
+      "ChatGPT Image Sep 3, 2026, 10_17_37 PM (4).png"
+    ]
+  ],
+  "original_non_neutral_count": 52,
+  "original_non_neutral_distinct_count": 47,
+  "quick_review_duplicate_count": 12,
+  "embedded_master_matches_standalone": true,
+  "embedded_face_facts_match_standalone": true,
+  "legacy_identity_map": {
+    "source_file_count": 49,
+    "distinct_identity_count": 44,
+    "master_paths_present": 0,
+    "source_filenames": 49,
+    "source_filenames_found": [
+      "07c326e9-3506-4114-a3ee-ed04f5ade242.png",
+      "116d5c93-46f5-4f34-aac8-d502a2e6e8ef.png",
+      "5b655b91-12dc-45af-8ccf-a2df17ed912e.png",
+      "9003b8d3-1198-488d-92fe-65e8f796595a.png",
+      "ChatGPT Image Sep 3, 2026, 03_14_16 AM (1).png",
+      "ChatGPT Image Sep 3, 2026, 03_14_16 AM (2).png",
+      "ChatGPT Image Sep 3, 2026, 03_14_17 AM (3).png",
+      "ChatGPT Image Sep 3, 2026, 03_14_17 AM (4).png",
+      "ChatGPT Image Sep 3, 2026, 03_14_17 AM (5).png",
+      "ChatGPT Image Sep 3, 2026, 03_14_18 AM (7).png",
+      "ChatGPT Image Sep 3, 2026, 03_14_19 AM (8).png",
+      "ChatGPT Image Sep 3, 2026, 03_14_19 AM (9).png",
+      "ChatGPT Image Sep 3, 2026, 03_23_48 AM (1).png",
+      "ChatGPT Image Sep 3, 2026, 03_23_48 AM (2).png",
+      "ChatGPT Image Sep 3, 2026, 03_23_48 AM (3).png",
+      "ChatGPT Image Sep 3, 2026, 03_23_49 AM (4).png",
+      "ChatGPT Image Sep 3, 2026, 03_40_19 AM (1).png",
+      "ChatGPT Image Sep 3, 2026, 03_40_19 AM (2).png",
+      "ChatGPT Image Sep 3, 2026, 03_40_19 AM (3).png",
+      "ChatGPT Image Sep 3, 2026, 03_40_20 AM (4).png",
+      "ChatGPT Image Sep 3, 2026, 03_49_00 AM (1).png",
+      "ChatGPT Image Sep 3, 2026, 03_49_01 AM (2).png",
+      "ChatGPT Image Sep 3, 2026, 03_49_01 AM (3).png",
+      "ChatGPT Image Sep 3, 2026, 03_49_01 AM (4).png",
+      "ChatGPT Image Sep 3, 2026, 03_58_57 AM (1).png",
+      "ChatGPT Image Sep 3, 2026, 03_58_57 AM (2).png",
+      "ChatGPT Image Sep 3, 2026, 03_58_57 AM (3).png",
+      "ChatGPT Image Sep 3, 2026, 03_58_58 AM (4).png",
+      "ChatGPT Image Sep 3, 2026, 04_21_05 AM (1).png",
+      "ChatGPT Image Sep 3, 2026, 04_21_05 AM (3).png",
+      "ChatGPT Image Sep 3, 2026, 04_21_05 AM (4).png",
+      "ChatGPT Image Sep 3, 2026, 04_36_21 AM (1).png",
+      "ChatGPT Image Sep 3, 2026, 04_36_22 AM (3).png",
+      "ChatGPT Image Sep 3, 2026, 04_36_22 AM (4).png",
+      "ChatGPT Image Sep 3, 2026, 04_36_22 AM (5).png",
+      "ChatGPT Image Sep 3, 2026, 04_36_23 AM (6).png",
+      "ChatGPT Image Sep 3, 2026, 10_17_22 PM (4).png",
+      "ChatGPT Image Sep 3, 2026, 10_17_36 PM (1).png",
+      "ChatGPT Image Sep 3, 2026, 10_17_37 PM (2).png",
+      "ChatGPT Image Sep 3, 2026, 10_17_37 PM (3).png",
+      "ChatGPT Image Sep 3, 2026, 10_17_37 PM (4).png",
+      "af371441-9373-45c2-a125-afadc0067e37.png",
+      "c3eac5e4-e458-4259-bba7-5f72315236d3.png",
+      "e99462f9-ec90-470d-b410-f23165f4a82c.png",
+      "f2bbce51-ca4d-4c7f-9b4c-e76631a397f8.png",
+      "fb122343-7012-4011-8200-effbbc02e68b.png"
+    ]
+  },
+  "repair_summary_as_supplied": {
+    "catalogs_repaired": 25,
+    "clean_complete": 5,
+    "clean_partial": 2,
+    "clean_empty_missing": 18,
+    "isolated_assets_recovered": 13,
+    "declared_assets_missing_source_isolation": 30
+  },
+  "zip_timestamp_range": [
+    [
+      2026,
+      8,
+      20,
+      14,
+      17,
+      22
+    ],
+    [
+      2026,
+      10,
+      18,
+      8,
+      58,
+      40
+    ]
+  ],
+  "character_manifest_references": {
+    "checked": 264,
+    "missing": []
+  },
+  "representative_decodes": {
+    "original_44_contact.jpg": {
+      "size": [
+        1080,
+        2368
+      ],
+      "mode": "RGB"
+    },
+    "C001_clothing_inventory.png": {
+      "size": [
+        737,
+        737
+      ],
+      "mode": "RGBA"
+    },
+    "eight_fit_classes.png": {
+      "size": [
+        976,
+        740
+      ],
+      "mode": "RGB"
+    },
+    "C020_kit_plate.png": {
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA"
+    },
+    "C028_kit_plate.png": {
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA"
+    },
+    "face_contact.png": {
+      "size": [
+        1560,
+        1035
+      ],
+      "mode": "RGBA"
+    },
+    "face_registration_guide.png": {
+      "size": [
+        1187,
+        1484
+      ],
+      "mode": "RGBA"
+    },
+    "original_C001": {
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA"
+    },
+    "calibration_C001": {
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA"
+    },
+    "rebuild_C001": {
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA"
+    },
+    "gear_C002": {
+      "size": [
+        737,
+        461
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        0
+      ]
+    },
+    "base_head": {
+      "size": [
+        1187,
+        1484
+      ],
+      "mode": "RGBA"
+    },
+    "face_mask": {
+      "size": [
+        1187,
+        1484
+      ],
+      "mode": "L"
+    },
+    "face_preview": {
+      "size": [
+        1187,
+        1484
+      ],
+      "mode": "RGBA"
+    },
+    "raw_face_edit": {
+      "size": [
+        1164,
+        1351
+      ],
+      "mode": "RGB"
+    },
+    "slot_part6": {
+      "size": [
+        1187,
+        1484
+      ],
+      "mode": "RGBA"
+    },
+    "slot_part7": {
+      "size": [
+        1187,
+        1484
+      ],
+      "mode": "RGBA"
+    }
+  },
+  "text_replacement_character_counts": {}
+}

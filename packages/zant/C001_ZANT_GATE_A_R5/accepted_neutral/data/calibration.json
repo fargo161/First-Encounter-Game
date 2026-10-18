@@ -1,0 +1,40 @@
+{
+  "id": "C001_front_calibration_draft_01",
+  "status": "builder_draft_not_owner_art_accepted",
+  "coordinateSystem": "authoring pixels; image right +X, image down +Y; anatomical sides",
+  "view": "front",
+  "yawDegrees": 0,
+  "bodyFrame": [1024,1536],
+  "floor_root": [512,1472],
+  "sourceTranslation": [0,54],
+  "scale": [1,1],
+  "rotationDegrees": 0,
+  "mirror": false,
+  "headLocalFrame": [512,640],
+  "headLocalSourceWindow": [256,0,768,640],
+  "headLocalToBodyTranslation": [256,54],
+  "placementMethod": "builder visual source annotation; contacts independently scanned alpha>127 in sneaker regions",
+  "anchorsBody": {
+    "pelvis": [498,848],
+    "torso": [500,592],
+    "neck_base": [501,381],
+    "head_attach": [501,320],
+    "shoulder_L": [612,407],
+    "shoulder_R": [380,407],
+    "wrist_L_N": [684,824],
+    "wrist_R_N": [301,822],
+    "hip_L": [572,842],
+    "hip_R": [422,842],
+    "ankle_L_N": [594,1361],
+    "ankle_R_N": [390,1360],
+    "sole_contact_L_N": [619,1471],
+    "sole_contact_R_N": [355,1471],
+    "crown": [501,147]
+  },
+  "contacts": {
+    "L_N": {"contact":true,"sourceLastCoreRow":1417,"sourceContactXRange":[603,635],"bodyTargetY":1471,"floorGuideDifference":1},
+    "R_N": {"contact":true,"sourceLastCoreRow":1417,"sourceContactXRange":[350,359],"bodyTargetY":1471,"floorGuideDifference":1}
+  },
+  "unpopulatedUntilArtExists": ["G wrists/seam bands","O ankles/contact geometry","shoulder/hip/wrist/ankle seam polygons and actual overlap","feature ownership cores","head neck seam approval"],
+  "warning": "No claim of completed interfaces. New-state anchors will not be inferred by rotating neutral limbs. No final art acceptance has occurred."
+}

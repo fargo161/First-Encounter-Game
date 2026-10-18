@@ -1,0 +1,2149 @@
+{
+  "package": "NEUTRAL_CHARACTER_MODULAR_REBUILD_V03_2_GEAR_CATALOG_REPAIR",
+  "version": "3.2.0",
+  "character_count": 44,
+  "fit_classes": {
+    "male_short_slim": [
+      1,
+      29,
+      31,
+      35,
+      36,
+      37,
+      43
+    ],
+    "male_tall_slim": [
+      9,
+      12,
+      14,
+      17,
+      21,
+      33
+    ],
+    "male_short_wide": [
+      15,
+      19,
+      27,
+      28,
+      32,
+      34,
+      38,
+      39,
+      44
+    ],
+    "male_tall_wide": [
+      4,
+      5,
+      8,
+      24,
+      40
+    ],
+    "female_short_slim": [
+      13,
+      16,
+      20,
+      23,
+      42
+    ],
+    "female_tall_slim": [
+      2,
+      3,
+      6,
+      11,
+      30
+    ],
+    "female_short_wide": [
+      22,
+      25,
+      26,
+      41
+    ],
+    "female_tall_wide": [
+      7,
+      10,
+      18
+    ]
+  },
+  "recommended_fit_masters": {
+    "male_short_slim": "C001",
+    "male_tall_slim": "C009",
+    "male_short_wide": "C019",
+    "male_tall_wide": "C040",
+    "female_short_slim": "C042",
+    "female_tall_slim": "C002",
+    "female_short_wide": "C022",
+    "female_tall_wide": "C007"
+  },
+  "domain_contract": [
+    "identity_head_hair_skin",
+    "body_fit",
+    "clothing_footwear",
+    "gear_accessories"
+  ],
+  "runtime_canvas": {
+    "width": 1024,
+    "height": 1536,
+    "mode": "RGBA",
+    "pose": "neutral_front"
+  },
+  "status": {
+    "rebuilt_composites": "standardized transparent runtime-frame references",
+    "body_calibration": "standardized transparent fit references",
+    "kit_plates": "authoring plates",
+    "clothing_catalogs": "authoring inventory; not yet pixel-aligned runtime overlays",
+    "gear_accessory_catalogs": "25 formerly flagged catalogs mechanically sorted; clean isolated components only; declared items absent from source separation are explicitly reported"
+  },
+  "characters": [
+    {
+      "id": "C001",
+      "fit_class": "male_short_slim",
+      "source_master": "source_masters/C001_source_neutral_rgba.png",
+      "rebuilt_composite": "rebuilt_composites/C001_neutral_composite_rgba.png",
+      "body_calibration": "body_calibration/C001_fit_calibration_rgba.png",
+      "kit_plate": "kit_plates/C001_modular_kit_plate_rgba.png",
+      "clothing_inventory": "clothing_catalogs/C001_clothing_inventory_rgba.png",
+      "gear_accessory_inventory": "gear_accessory_catalogs/C001_gear_accessory_inventory_rgba.png",
+      "garments": [
+        {
+          "logical_family": "polo shirt",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "plaid trousers",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "loafers",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        }
+      ],
+      "gear_accessories": [],
+      "gear_visual_status": "not_applicable",
+      "hands": "empty_neutral_grip_compatible",
+      "identity": "preserved_from_source_master",
+      "source_sha256": "f651af252d32fd7a0870d254faab31ec63e4f620a42492641b834fd76274e0db"
+    },
+    {
+      "id": "C002",
+      "fit_class": "female_tall_slim",
+      "source_master": "source_masters/C002_source_neutral_rgba.png",
+      "rebuilt_composite": "rebuilt_composites/C002_neutral_composite_rgba.png",
+      "body_calibration": "body_calibration/C002_fit_calibration_rgba.png",
+      "kit_plate": "kit_plates/C002_modular_kit_plate_rgba.png",
+      "clothing_inventory": "clothing_catalogs/C002_clothing_inventory_rgba.png",
+      "gear_accessory_inventory": "gear_accessory_catalogs/C002_gear_accessory_inventory_rgba.png",
+      "garments": [
+        {
+          "logical_family": "button shirt",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "double-breasted blazer",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "trousers",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "heels",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        }
+      ],
+      "gear_accessories": [
+        "pearl necklace"
+      ],
+      "gear_visual_status": "clean_empty_missing_source_isolation",
+      "hands": "empty_neutral_grip_compatible",
+      "identity": "preserved_from_source_master",
+      "source_sha256": "507a29aa8be5fc0c2af79a1fdd0c419212fb1d60c460b35b7d60b7b59f2bc1ab",
+      "gear_accessory_catalog_repair": {
+        "version": "3.2.0",
+        "isolated_items": [],
+        "missing_source_isolation": [
+          "pearl necklace"
+        ],
+        "removed_catalog_leaks": [
+          "clothing",
+          "footwear",
+          "plate guide marks"
+        ],
+        "source_bboxes": [],
+        "no_new_generation": true
+      }
+    },
+    {
+      "id": "C003",
+      "fit_class": "female_tall_slim",
+      "source_master": "source_masters/C003_source_neutral_rgba.png",
+      "rebuilt_composite": "rebuilt_composites/C003_neutral_composite_rgba.png",
+      "body_calibration": "body_calibration/C003_fit_calibration_rgba.png",
+      "kit_plate": "kit_plates/C003_modular_kit_plate_rgba.png",
+      "clothing_inventory": "clothing_catalogs/C003_clothing_inventory_rgba.png",
+      "gear_accessory_inventory": "gear_accessory_catalogs/C003_gear_accessory_inventory_rgba.png",
+      "garments": [
+        {
+          "logical_family": "tank top",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "track jacket",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "jeans",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "sneakers",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        }
+      ],
+      "gear_accessories": [
+        "necklace",
+        "earrings"
+      ],
+      "gear_visual_status": "clean_empty_missing_source_isolation",
+      "hands": "empty_neutral_grip_compatible",
+      "identity": "preserved_from_source_master",
+      "source_sha256": "be39b547e305b780efdcb170f358aa264e12aaf60d6f2e40493705547d188178",
+      "gear_accessory_catalog_repair": {
+        "version": "3.2.0",
+        "isolated_items": [],
+        "missing_source_isolation": [
+          "necklace",
+          "earrings"
+        ],
+        "removed_catalog_leaks": [
+          "clothing",
+          "footwear",
+          "plate guide marks"
+        ],
+        "source_bboxes": [],
+        "no_new_generation": true
+      }
+    },
+    {
+      "id": "C004",
+      "fit_class": "male_tall_wide",
+      "source_master": "source_masters/C004_source_neutral_rgba.png",
+      "rebuilt_composite": "rebuilt_composites/C004_neutral_composite_rgba.png",
+      "body_calibration": "body_calibration/C004_fit_calibration_rgba.png",
+      "kit_plate": "kit_plates/C004_modular_kit_plate_rgba.png",
+      "clothing_inventory": "clothing_catalogs/C004_clothing_inventory_rgba.png",
+      "gear_accessory_inventory": "gear_accessory_catalogs/C004_gear_accessory_inventory_rgba.png",
+      "garments": [
+        {
+          "logical_family": "utility shirt",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "cargo trousers",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "boots",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        }
+      ],
+      "gear_accessories": [
+        "belt"
+      ],
+      "gear_visual_status": "clean_empty_missing_source_isolation",
+      "hands": "empty_neutral_grip_compatible",
+      "identity": "preserved_from_source_master",
+      "source_sha256": "1039106cd08611f0cae93cabbc57d344d1827460384a5bf73d3fc54bca30436c",
+      "gear_accessory_catalog_repair": {
+        "version": "3.2.0",
+        "isolated_items": [],
+        "missing_source_isolation": [
+          "belt"
+        ],
+        "removed_catalog_leaks": [
+          "clothing",
+          "footwear",
+          "plate guide marks"
+        ],
+        "source_bboxes": [],
+        "no_new_generation": true
+      }
+    },
+    {
+      "id": "C005",
+      "fit_class": "male_tall_wide",
+      "source_master": "source_masters/C005_source_neutral_rgba.png",
+      "rebuilt_composite": "rebuilt_composites/C005_neutral_composite_rgba.png",
+      "body_calibration": "body_calibration/C005_fit_calibration_rgba.png",
+      "kit_plate": "kit_plates/C005_modular_kit_plate_rgba.png",
+      "clothing_inventory": "clothing_catalogs/C005_clothing_inventory_rgba.png",
+      "gear_accessory_inventory": "gear_accessory_catalogs/C005_gear_accessory_inventory_rgba.png",
+      "garments": [
+        {
+          "logical_family": "polo shirt",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "velour track jacket",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "velour trousers",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "sneakers",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        }
+      ],
+      "gear_accessories": [
+        "eyeglasses",
+        "belt"
+      ],
+      "gear_visual_status": "clean_partial_missing_source_isolation",
+      "hands": "empty_neutral_grip_compatible",
+      "identity": "preserved_from_source_master",
+      "source_sha256": "14bebd547187039a1894189f933b0569ecc8acf1b88082d867834e28bb58475c",
+      "gear_accessory_catalog_repair": {
+        "version": "3.2.0",
+        "isolated_items": [
+          "belt"
+        ],
+        "missing_source_isolation": [
+          "eyeglasses"
+        ],
+        "removed_catalog_leaks": [
+          "clothing",
+          "footwear",
+          "plate guide marks"
+        ],
+        "source_bboxes": [
+          {
+            "item": "belt",
+            "bbox_xyxy": [
+              912,
+              875,
+              1134,
+              969
+            ]
+          }
+        ],
+        "no_new_generation": true
+      }
+    },
+    {
+      "id": "C006",
+      "fit_class": "female_tall_slim",
+      "source_master": "source_masters/C006_source_neutral_rgba.png",
+      "rebuilt_composite": "rebuilt_composites/C006_neutral_composite_rgba.png",
+      "body_calibration": "body_calibration/C006_fit_calibration_rgba.png",
+      "kit_plate": "kit_plates/C006_modular_kit_plate_rgba.png",
+      "clothing_inventory": "clothing_catalogs/C006_clothing_inventory_rgba.png",
+      "gear_accessory_inventory": "gear_accessory_catalogs/C006_gear_accessory_inventory_rgba.png",
+      "garments": [
+        {
+          "logical_family": "blouse",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "knit vest",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "trousers",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "loafers",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        }
+      ],
+      "gear_accessories": [
+        "eyeglasses"
+      ],
+      "gear_visual_status": "clean_empty_missing_source_isolation",
+      "hands": "empty_neutral_grip_compatible",
+      "identity": "preserved_from_source_master",
+      "source_sha256": "c7348c2ac2a11b6e830fcf6ee9c473089af9b6dd6a31fc7e29719f16da725b8e",
+      "gear_accessory_catalog_repair": {
+        "version": "3.2.0",
+        "isolated_items": [],
+        "missing_source_isolation": [
+          "eyeglasses"
+        ],
+        "removed_catalog_leaks": [
+          "clothing",
+          "footwear",
+          "plate guide marks"
+        ],
+        "source_bboxes": [],
+        "no_new_generation": true
+      }
+    },
+    {
+      "id": "C007",
+      "fit_class": "female_tall_wide",
+      "source_master": "source_masters/C007_source_neutral_rgba.png",
+      "rebuilt_composite": "rebuilt_composites/C007_neutral_composite_rgba.png",
+      "body_calibration": "body_calibration/C007_fit_calibration_rgba.png",
+      "kit_plate": "kit_plates/C007_modular_kit_plate_rgba.png",
+      "clothing_inventory": "clothing_catalogs/C007_clothing_inventory_rgba.png",
+      "gear_accessory_inventory": "gear_accessory_catalogs/C007_gear_accessory_inventory_rgba.png",
+      "garments": [
+        {
+          "logical_family": "blouse",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "structured jacket",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "skirt",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "heels",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        }
+      ],
+      "gear_accessories": [
+        "eyeglasses",
+        "necklace",
+        "earrings",
+        "watch",
+        "brooch"
+      ],
+      "gear_visual_status": "clean_complete",
+      "hands": "empty_neutral_grip_compatible",
+      "identity": "preserved_from_source_master",
+      "source_sha256": "4bd1481c029f97fcab3c8f9530adf58aab068131635bdeade4c4c210c27166c3",
+      "gear_accessory_catalog_repair": {
+        "version": "3.2.0",
+        "isolated_items": [
+          "eyeglasses",
+          "necklace",
+          "earrings",
+          "watch",
+          "brooch"
+        ],
+        "missing_source_isolation": [],
+        "removed_catalog_leaks": [
+          "clothing",
+          "footwear",
+          "plate guide marks"
+        ],
+        "source_bboxes": [
+          {
+            "item": "eyeglasses",
+            "bbox_xyxy": [
+              828,
+              846,
+              1007,
+              932
+            ]
+          },
+          {
+            "item": "necklace",
+            "bbox_xyxy": [
+              1037,
+              790,
+              1131,
+              971
+            ]
+          },
+          {
+            "item": "earrings",
+            "bbox_xyxy": [
+              1149,
+              842,
+              1271,
+              937
+            ]
+          },
+          {
+            "item": "watch",
+            "bbox_xyxy": [
+              1290,
+              802,
+              1386,
+              974
+            ]
+          },
+          {
+            "item": "brooch",
+            "bbox_xyxy": [
+              1412,
+              853,
+              1504,
+              950
+            ]
+          }
+        ],
+        "no_new_generation": true
+      }
+    },
+    {
+      "id": "C008",
+      "fit_class": "male_tall_wide",
+      "source_master": "source_masters/C008_source_neutral_rgba.png",
+      "rebuilt_composite": "rebuilt_composites/C008_neutral_composite_rgba.png",
+      "body_calibration": "body_calibration/C008_fit_calibration_rgba.png",
+      "kit_plate": "kit_plates/C008_modular_kit_plate_rgba.png",
+      "clothing_inventory": "clothing_catalogs/C008_clothing_inventory_rgba.png",
+      "gear_accessory_inventory": "gear_accessory_catalogs/C008_gear_accessory_inventory_rgba.png",
+      "garments": [
+        {
+          "logical_family": "turtleneck",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "velour jacket",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "trousers",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "loafers",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        }
+      ],
+      "gear_accessories": [
+        "sunglasses",
+        "chain necklaces"
+      ],
+      "gear_visual_status": "visually_separated_on_authoring_plate",
+      "hands": "empty_neutral_grip_compatible",
+      "identity": "preserved_from_source_master",
+      "source_sha256": "b225ccb4c0817f6fcf658899d1ff9f93dffa9ccc7eeb6e18b0bb66dd1ce2aac1"
+    },
+    {
+      "id": "C009",
+      "fit_class": "male_tall_slim",
+      "source_master": "source_masters/C009_source_neutral_rgba.png",
+      "rebuilt_composite": "rebuilt_composites/C009_neutral_composite_rgba.png",
+      "body_calibration": "body_calibration/C009_fit_calibration_rgba.png",
+      "kit_plate": "kit_plates/C009_modular_kit_plate_rgba.png",
+      "clothing_inventory": "clothing_catalogs/C009_clothing_inventory_rgba.png",
+      "gear_accessory_inventory": "gear_accessory_catalogs/C009_gear_accessory_inventory_rgba.png",
+      "garments": [
+        {
+          "logical_family": "t-shirt",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "flannel overshirt",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "jeans",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "skate shoes",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        }
+      ],
+      "gear_accessories": [],
+      "gear_visual_status": "not_applicable",
+      "hands": "empty_neutral_grip_compatible",
+      "identity": "preserved_from_source_master",
+      "source_sha256": "5011be07719a556219e9fa5fd4f7ab1522869206f53504051a279ecbe0148026"
+    },
+    {
+      "id": "C010",
+      "fit_class": "female_tall_wide",
+      "source_master": "source_masters/C010_source_neutral_rgba.png",
+      "rebuilt_composite": "rebuilt_composites/C010_neutral_composite_rgba.png",
+      "body_calibration": "body_calibration/C010_fit_calibration_rgba.png",
+      "kit_plate": "kit_plates/C010_modular_kit_plate_rgba.png",
+      "clothing_inventory": "clothing_catalogs/C010_clothing_inventory_rgba.png",
+      "gear_accessory_inventory": "gear_accessory_catalogs/C010_gear_accessory_inventory_rgba.png",
+      "garments": [
+        {
+          "logical_family": "uniform shirt",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "uniform cargo trousers",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "combat boots",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        }
+      ],
+      "gear_accessories": [
+        "helmet",
+        "plate carrier",
+        "pouch belt",
+        "thigh holster",
+        "utility belt",
+        "gloves",
+        "knee pads"
+      ],
+      "gear_visual_status": "visually_separated_on_authoring_plate",
+      "hands": "empty_neutral_grip_compatible",
+      "identity": "preserved_from_source_master",
+      "source_sha256": "6d5de8d849409509c79fd465b9c8e04edd312c912c5384fbaab4b45372d1f238"
+    },
+    {
+      "id": "C011",
+      "fit_class": "female_tall_slim",
+      "source_master": "source_masters/C011_source_neutral_rgba.png",
+      "rebuilt_composite": "rebuilt_composites/C011_neutral_composite_rgba.png",
+      "body_calibration": "body_calibration/C011_fit_calibration_rgba.png",
+      "kit_plate": "kit_plates/C011_modular_kit_plate_rgba.png",
+      "clothing_inventory": "clothing_catalogs/C011_clothing_inventory_rgba.png",
+      "gear_accessory_inventory": "gear_accessory_catalogs/C011_gear_accessory_inventory_rgba.png",
+      "garments": [
+        {
+          "logical_family": "satin blouse",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "blazer",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "trousers",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "heels",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        }
+      ],
+      "gear_accessories": [
+        "earrings",
+        "scarf",
+        "belt"
+      ],
+      "gear_visual_status": "clean_empty_missing_source_isolation",
+      "hands": "empty_neutral_grip_compatible",
+      "identity": "preserved_from_source_master",
+      "source_sha256": "4e532f3801a51f9bc2ca2ee8a179b6746b659a88960dc3eba8df51bcb05912a7",
+      "gear_accessory_catalog_repair": {
+        "version": "3.2.0",
+        "isolated_items": [],
+        "missing_source_isolation": [
+          "earrings",
+          "scarf",
+          "belt"
+        ],
+        "removed_catalog_leaks": [
+          "clothing",
+          "footwear",
+          "plate guide marks"
+        ],
+        "source_bboxes": [],
+        "no_new_generation": true
+      }
+    },
+    {
+      "id": "C012",
+      "fit_class": "male_tall_slim",
+      "source_master": "source_masters/C012_source_neutral_rgba.png",
+      "rebuilt_composite": "rebuilt_composites/C012_neutral_composite_rgba.png",
+      "body_calibration": "body_calibration/C012_fit_calibration_rgba.png",
+      "kit_plate": "kit_plates/C012_modular_kit_plate_rgba.png",
+      "clothing_inventory": "clothing_catalogs/C012_clothing_inventory_rgba.png",
+      "gear_accessory_inventory": "gear_accessory_catalogs/C012_gear_accessory_inventory_rgba.png",
+      "garments": [
+        {
+          "logical_family": "polo shirt",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "pleated trousers",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "walking shoes",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        }
+      ],
+      "gear_accessories": [
+        "eyeglasses",
+        "belt"
+      ],
+      "gear_visual_status": "clean_empty_missing_source_isolation",
+      "hands": "empty_neutral_grip_compatible",
+      "identity": "preserved_from_source_master",
+      "source_sha256": "77a82b3c5b2c4fa9a63ec477d1e6be21f3a1fd2e54ec9dceefd721c1b2f5cc5c",
+      "gear_accessory_catalog_repair": {
+        "version": "3.2.0",
+        "isolated_items": [],
+        "missing_source_isolation": [
+          "eyeglasses",
+          "belt"
+        ],
+        "removed_catalog_leaks": [
+          "clothing",
+          "footwear",
+          "plate guide marks"
+        ],
+        "source_bboxes": [],
+        "no_new_generation": true
+      }
+    },
+    {
+      "id": "C013",
+      "fit_class": "female_short_slim",
+      "source_master": "source_masters/C013_source_neutral_rgba.png",
+      "rebuilt_composite": "rebuilt_composites/C013_neutral_composite_rgba.png",
+      "body_calibration": "body_calibration/C013_fit_calibration_rgba.png",
+      "kit_plate": "kit_plates/C013_modular_kit_plate_rgba.png",
+      "clothing_inventory": "clothing_catalogs/C013_clothing_inventory_rgba.png",
+      "gear_accessory_inventory": "gear_accessory_catalogs/C013_gear_accessory_inventory_rgba.png",
+      "garments": [
+        {
+          "logical_family": "striped polo",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "denim coverall",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "work boots",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        }
+      ],
+      "gear_accessories": [
+        "hair clips",
+        "necklace",
+        "bracelets",
+        "earrings"
+      ],
+      "gear_visual_status": "visually_separated_on_authoring_plate",
+      "hands": "empty_neutral_grip_compatible",
+      "identity": "preserved_from_source_master",
+      "source_sha256": "0efcadd3a04f4135f97594892e73a6b57fd65790eda94aed7e9b60647c0bce9f"
+    },
+    {
+      "id": "C014",
+      "fit_class": "male_tall_slim",
+      "source_master": "source_masters/C014_source_neutral_rgba.png",
+      "rebuilt_composite": "rebuilt_composites/C014_neutral_composite_rgba.png",
+      "body_calibration": "body_calibration/C014_fit_calibration_rgba.png",
+      "kit_plate": "kit_plates/C014_modular_kit_plate_rgba.png",
+      "clothing_inventory": "clothing_catalogs/C014_clothing_inventory_rgba.png",
+      "gear_accessory_inventory": "gear_accessory_catalogs/C014_gear_accessory_inventory_rgba.png",
+      "garments": [
+        {
+          "logical_family": "button shirt",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "work jacket",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "chinos",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "walking shoes",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        }
+      ],
+      "gear_accessories": [
+        "belt"
+      ],
+      "gear_visual_status": "clean_complete",
+      "hands": "empty_neutral_grip_compatible",
+      "identity": "preserved_from_source_master",
+      "source_sha256": "3913cea9b58e813fd360ed724c5c3300ac84b4363f70fa8b06bba3818b476d31",
+      "gear_accessory_catalog_repair": {
+        "version": "3.2.0",
+        "isolated_items": [
+          "belt"
+        ],
+        "missing_source_isolation": [],
+        "removed_catalog_leaks": [
+          "clothing",
+          "footwear",
+          "plate guide marks"
+        ],
+        "source_bboxes": [
+          {
+            "item": "belt",
+            "bbox_xyxy": [
+              1188,
+              391,
+              1484,
+              489
+            ]
+          }
+        ],
+        "no_new_generation": true
+      }
+    },
+    {
+      "id": "C015",
+      "fit_class": "male_short_wide",
+      "source_master": "source_masters/C015_source_neutral_rgba.png",
+      "rebuilt_composite": "rebuilt_composites/C015_neutral_composite_rgba.png",
+      "body_calibration": "body_calibration/C015_fit_calibration_rgba.png",
+      "kit_plate": "kit_plates/C015_modular_kit_plate_rgba.png",
+      "clothing_inventory": "clothing_catalogs/C015_clothing_inventory_rgba.png",
+      "gear_accessory_inventory": "gear_accessory_catalogs/C015_gear_accessory_inventory_rgba.png",
+      "garments": [
+        {
+          "logical_family": "tank top",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "bowling shirt",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "pleated trousers",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "dress shoes",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        }
+      ],
+      "gear_accessories": [
+        "belt"
+      ],
+      "gear_visual_status": "clean_complete",
+      "hands": "empty_neutral_grip_compatible",
+      "identity": "preserved_from_source_master",
+      "source_sha256": "a1eb54aa45dac3a3d4ac3287fe4842455d175178fbe967098711114910535255",
+      "gear_accessory_catalog_repair": {
+        "version": "3.2.0",
+        "isolated_items": [
+          "belt"
+        ],
+        "missing_source_isolation": [],
+        "removed_catalog_leaks": [
+          "clothing",
+          "footwear",
+          "plate guide marks"
+        ],
+        "source_bboxes": [
+          {
+            "item": "belt",
+            "bbox_xyxy": [
+              1215,
+              601,
+              1480,
+              681
+            ]
+          }
+        ],
+        "no_new_generation": true
+      }
+    },
+    {
+      "id": "C016",
+      "fit_class": "female_short_slim",
+      "source_master": "source_masters/C016_source_neutral_rgba.png",
+      "rebuilt_composite": "rebuilt_composites/C016_neutral_composite_rgba.png",
+      "body_calibration": "body_calibration/C016_fit_calibration_rgba.png",
+      "kit_plate": "kit_plates/C016_modular_kit_plate_rgba.png",
+      "clothing_inventory": "clothing_catalogs/C016_clothing_inventory_rgba.png",
+      "gear_accessory_inventory": "gear_accessory_catalogs/C016_gear_accessory_inventory_rgba.png",
+      "garments": [
+        {
+          "logical_family": "polo shirt",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "knit vest",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "jeans",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "loafers",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        }
+      ],
+      "gear_accessories": [
+        "earrings"
+      ],
+      "gear_visual_status": "clean_empty_missing_source_isolation",
+      "hands": "empty_neutral_grip_compatible",
+      "identity": "preserved_from_source_master",
+      "source_sha256": "28c7faa612c927b3ec2f414afa9f0ba3aa30f23dc37ae9161a60708c735f1201",
+      "gear_accessory_catalog_repair": {
+        "version": "3.2.0",
+        "isolated_items": [],
+        "missing_source_isolation": [
+          "earrings"
+        ],
+        "removed_catalog_leaks": [
+          "clothing",
+          "footwear",
+          "plate guide marks"
+        ],
+        "source_bboxes": [],
+        "no_new_generation": true
+      }
+    },
+    {
+      "id": "C017",
+      "fit_class": "male_tall_slim",
+      "source_master": "source_masters/C017_source_neutral_rgba.png",
+      "rebuilt_composite": "rebuilt_composites/C017_neutral_composite_rgba.png",
+      "body_calibration": "body_calibration/C017_fit_calibration_rgba.png",
+      "kit_plate": "kit_plates/C017_modular_kit_plate_rgba.png",
+      "clothing_inventory": "clothing_catalogs/C017_clothing_inventory_rgba.png",
+      "gear_accessory_inventory": "gear_accessory_catalogs/C017_gear_accessory_inventory_rgba.png",
+      "garments": [
+        {
+          "logical_family": "turtleneck",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "double-breasted suit jacket",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "suit trousers",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "loafers",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        }
+      ],
+      "gear_accessories": [
+        "eyeglasses"
+      ],
+      "gear_visual_status": "clean_empty_missing_source_isolation",
+      "hands": "empty_neutral_grip_compatible",
+      "identity": "preserved_from_source_master",
+      "source_sha256": "392c8c2a5beb46b7197507845a2630da6fb72b21ac35fcef6f17c3a32fdd6707",
+      "gear_accessory_catalog_repair": {
+        "version": "3.2.0",
+        "isolated_items": [],
+        "missing_source_isolation": [
+          "eyeglasses"
+        ],
+        "removed_catalog_leaks": [
+          "clothing",
+          "footwear",
+          "plate guide marks"
+        ],
+        "source_bboxes": [],
+        "no_new_generation": true
+      }
+    },
+    {
+      "id": "C018",
+      "fit_class": "female_tall_wide",
+      "source_master": "source_masters/C018_source_neutral_rgba.png",
+      "rebuilt_composite": "rebuilt_composites/C018_neutral_composite_rgba.png",
+      "body_calibration": "body_calibration/C018_fit_calibration_rgba.png",
+      "kit_plate": "kit_plates/C018_modular_kit_plate_rgba.png",
+      "clothing_inventory": "clothing_catalogs/C018_clothing_inventory_rgba.png",
+      "gear_accessory_inventory": "gear_accessory_catalogs/C018_gear_accessory_inventory_rgba.png",
+      "garments": [
+        {
+          "logical_family": "satin blouse",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "faux-fur jacket",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "flare trousers",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "ankle boots",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        }
+      ],
+      "gear_accessories": [
+        "sunglasses",
+        "earrings",
+        "necklace",
+        "bracelet",
+        "belt"
+      ],
+      "gear_visual_status": "visually_separated_on_authoring_plate",
+      "hands": "empty_neutral_grip_compatible",
+      "identity": "preserved_from_source_master",
+      "source_sha256": "19c9ef4c95db4df7d1f6c4f88ac7bead66fe8bd35dac7aaee8a00d8dbdf34594"
+    },
+    {
+      "id": "C019",
+      "fit_class": "male_short_wide",
+      "source_master": "source_masters/C019_source_neutral_rgba.png",
+      "rebuilt_composite": "rebuilt_composites/C019_neutral_composite_rgba.png",
+      "body_calibration": "body_calibration/C019_fit_calibration_rgba.png",
+      "kit_plate": "kit_plates/C019_modular_kit_plate_rgba.png",
+      "clothing_inventory": "clothing_catalogs/C019_clothing_inventory_rgba.png",
+      "gear_accessory_inventory": "gear_accessory_catalogs/C019_gear_accessory_inventory_rgba.png",
+      "garments": [
+        {
+          "logical_family": "button shirt",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "suit jacket",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "suit trousers",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "loafers",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        }
+      ],
+      "gear_accessories": [
+        "necklace"
+      ],
+      "gear_visual_status": "clean_empty_missing_source_isolation",
+      "hands": "empty_neutral_grip_compatible",
+      "identity": "preserved_from_source_master",
+      "source_sha256": "9155867e9f69d5397db5c9fde492cf5eda46be5e765c13aac42a87b6ed3e4dd0",
+      "gear_accessory_catalog_repair": {
+        "version": "3.2.0",
+        "isolated_items": [],
+        "missing_source_isolation": [
+          "necklace"
+        ],
+        "removed_catalog_leaks": [
+          "clothing",
+          "footwear",
+          "plate guide marks"
+        ],
+        "source_bboxes": [],
+        "no_new_generation": true
+      }
+    },
+    {
+      "id": "C020",
+      "fit_class": "female_short_slim",
+      "source_master": "source_masters/C020_source_neutral_rgba.png",
+      "rebuilt_composite": "rebuilt_composites/C020_neutral_composite_rgba.png",
+      "body_calibration": "body_calibration/C020_fit_calibration_rgba.png",
+      "kit_plate": "kit_plates/C020_modular_kit_plate_rgba.png",
+      "clothing_inventory": "clothing_catalogs/C020_clothing_inventory_rgba.png",
+      "gear_accessory_inventory": "gear_accessory_catalogs/C020_gear_accessory_inventory_rgba.png",
+      "garments": [
+        {
+          "logical_family": "button shirt",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "long coat",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "skirt",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "tights",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "running shoes",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        }
+      ],
+      "gear_accessories": [],
+      "gear_visual_status": "not_applicable",
+      "hands": "empty_neutral_grip_compatible",
+      "identity": "preserved_from_source_master",
+      "source_sha256": "cda84734af46d3b1a12a0e1ad5074b83bb21e9b9a8b3d9f09d38b4b698006d35"
+    },
+    {
+      "id": "C021",
+      "fit_class": "male_tall_slim",
+      "source_master": "source_masters/C021_source_neutral_rgba.png",
+      "rebuilt_composite": "rebuilt_composites/C021_neutral_composite_rgba.png",
+      "body_calibration": "body_calibration/C021_fit_calibration_rgba.png",
+      "kit_plate": "kit_plates/C021_modular_kit_plate_rgba.png",
+      "clothing_inventory": "clothing_catalogs/C021_clothing_inventory_rgba.png",
+      "gear_accessory_inventory": "gear_accessory_catalogs/C021_gear_accessory_inventory_rgba.png",
+      "garments": [
+        {
+          "logical_family": "button shirt",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "argyle sweater vest",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "pleated trousers",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "sneakers",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        }
+      ],
+      "gear_accessories": [
+        "belt"
+      ],
+      "gear_visual_status": "clean_empty_missing_source_isolation",
+      "hands": "empty_neutral_grip_compatible",
+      "identity": "preserved_from_source_master",
+      "source_sha256": "b61195443dc4b4239c19d0fad1ce61f33469519c19bd24d5a3d6e410ffa742c2",
+      "gear_accessory_catalog_repair": {
+        "version": "3.2.0",
+        "isolated_items": [],
+        "missing_source_isolation": [
+          "belt"
+        ],
+        "removed_catalog_leaks": [
+          "clothing",
+          "footwear",
+          "plate guide marks"
+        ],
+        "source_bboxes": [],
+        "no_new_generation": true
+      }
+    },
+    {
+      "id": "C022",
+      "fit_class": "female_short_wide",
+      "source_master": "source_masters/C022_source_neutral_rgba.png",
+      "rebuilt_composite": "rebuilt_composites/C022_neutral_composite_rgba.png",
+      "body_calibration": "body_calibration/C022_fit_calibration_rgba.png",
+      "kit_plate": "kit_plates/C022_modular_kit_plate_rgba.png",
+      "clothing_inventory": "clothing_catalogs/C022_clothing_inventory_rgba.png",
+      "gear_accessory_inventory": "gear_accessory_catalogs/C022_gear_accessory_inventory_rgba.png",
+      "garments": [
+        {
+          "logical_family": "floral blouse",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "jeans",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "work boots",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        }
+      ],
+      "gear_accessories": [
+        "earrings"
+      ],
+      "gear_visual_status": "clean_empty_missing_source_isolation",
+      "hands": "empty_neutral_grip_compatible",
+      "identity": "preserved_from_source_master",
+      "source_sha256": "3281cf765d8a4ff772636e7c8f67e7b2d53d5377c793ad832c66a680c165d4b9",
+      "gear_accessory_catalog_repair": {
+        "version": "3.2.0",
+        "isolated_items": [],
+        "missing_source_isolation": [
+          "earrings"
+        ],
+        "removed_catalog_leaks": [
+          "clothing",
+          "footwear",
+          "plate guide marks"
+        ],
+        "source_bboxes": [],
+        "no_new_generation": true
+      }
+    },
+    {
+      "id": "C023",
+      "fit_class": "female_short_slim",
+      "source_master": "source_masters/C023_source_neutral_rgba.png",
+      "rebuilt_composite": "rebuilt_composites/C023_neutral_composite_rgba.png",
+      "body_calibration": "body_calibration/C023_fit_calibration_rgba.png",
+      "kit_plate": "kit_plates/C023_modular_kit_plate_rgba.png",
+      "clothing_inventory": "clothing_catalogs/C023_clothing_inventory_rgba.png",
+      "gear_accessory_inventory": "gear_accessory_catalogs/C023_gear_accessory_inventory_rgba.png",
+      "garments": [
+        {
+          "logical_family": "button shirt",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "long coat",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "trousers",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "dress shoes",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        }
+      ],
+      "gear_accessories": [
+        "eyeglasses",
+        "earrings",
+        "scarf",
+        "belt"
+      ],
+      "gear_visual_status": "visually_separated_on_authoring_plate",
+      "hands": "empty_neutral_grip_compatible",
+      "identity": "preserved_from_source_master",
+      "source_sha256": "ef2009be597a648fa11d8f7afedaae78f28bbe9aee9a7670ca422f40f54b4fb5"
+    },
+    {
+      "id": "C024",
+      "fit_class": "male_tall_wide",
+      "source_master": "source_masters/C024_source_neutral_rgba.png",
+      "rebuilt_composite": "rebuilt_composites/C024_neutral_composite_rgba.png",
+      "body_calibration": "body_calibration/C024_fit_calibration_rgba.png",
+      "kit_plate": "kit_plates/C024_modular_kit_plate_rgba.png",
+      "clothing_inventory": "clothing_catalogs/C024_clothing_inventory_rgba.png",
+      "gear_accessory_inventory": "gear_accessory_catalogs/C024_gear_accessory_inventory_rgba.png",
+      "garments": [
+        {
+          "logical_family": "button shirt",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "sweater vest",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "cardigan",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "trousers",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "boots",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        }
+      ],
+      "gear_accessories": [
+        "eyeglasses"
+      ],
+      "gear_visual_status": "clean_empty_missing_source_isolation",
+      "hands": "empty_neutral_grip_compatible",
+      "identity": "preserved_from_source_master",
+      "source_sha256": "75df498212c15fa68260428ceecc4fbdd27c18f5d9a06cebb9ae63015f4a0fa2",
+      "gear_accessory_catalog_repair": {
+        "version": "3.2.0",
+        "isolated_items": [],
+        "missing_source_isolation": [
+          "eyeglasses"
+        ],
+        "removed_catalog_leaks": [
+          "clothing",
+          "footwear",
+          "plate guide marks"
+        ],
+        "source_bboxes": [],
+        "no_new_generation": true
+      }
+    },
+    {
+      "id": "C025",
+      "fit_class": "female_short_wide",
+      "source_master": "source_masters/C025_source_neutral_rgba.png",
+      "rebuilt_composite": "rebuilt_composites/C025_neutral_composite_rgba.png",
+      "body_calibration": "body_calibration/C025_fit_calibration_rgba.png",
+      "kit_plate": "kit_plates/C025_modular_kit_plate_rgba.png",
+      "clothing_inventory": "clothing_catalogs/C025_clothing_inventory_rgba.png",
+      "gear_accessory_inventory": "gear_accessory_catalogs/C025_gear_accessory_inventory_rgba.png",
+      "garments": [
+        {
+          "logical_family": "t-shirt",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "track jacket",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "denim utility vest",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "jeans",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "sneakers",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        }
+      ],
+      "gear_accessories": [
+        "hoop earrings",
+        "necklaces",
+        "belt chain"
+      ],
+      "gear_visual_status": "clean_empty_missing_source_isolation",
+      "hands": "empty_neutral_grip_compatible",
+      "identity": "preserved_from_source_master",
+      "source_sha256": "d1066ae3c61b91e6780245c6c232e66c5d0af6292d777cec67abddf18d0cb549",
+      "gear_accessory_catalog_repair": {
+        "version": "3.2.0",
+        "isolated_items": [],
+        "missing_source_isolation": [
+          "hoop earrings",
+          "necklaces",
+          "belt chain"
+        ],
+        "removed_catalog_leaks": [
+          "clothing",
+          "footwear",
+          "plate guide marks"
+        ],
+        "source_bboxes": [],
+        "no_new_generation": true
+      }
+    },
+    {
+      "id": "C026",
+      "fit_class": "female_short_wide",
+      "source_master": "source_masters/C026_source_neutral_rgba.png",
+      "rebuilt_composite": "rebuilt_composites/C026_neutral_composite_rgba.png",
+      "body_calibration": "body_calibration/C026_fit_calibration_rgba.png",
+      "kit_plate": "kit_plates/C026_modular_kit_plate_rgba.png",
+      "clothing_inventory": "clothing_catalogs/C026_clothing_inventory_rgba.png",
+      "gear_accessory_inventory": "gear_accessory_catalogs/C026_gear_accessory_inventory_rgba.png",
+      "garments": [
+        {
+          "logical_family": "uniform shirt",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "uniform cargo trousers",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "combat boots",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        }
+      ],
+      "gear_accessories": [
+        "protective vest"
+      ],
+      "gear_visual_status": "clean_complete",
+      "hands": "empty_neutral_grip_compatible",
+      "identity": "preserved_from_source_master",
+      "source_sha256": "174def71ebd10ffc142c0de32ca6bdb342b02517c08c12f1213cdb51eefe432b",
+      "gear_accessory_catalog_repair": {
+        "version": "3.2.0",
+        "isolated_items": [
+          "protective vest"
+        ],
+        "missing_source_isolation": [],
+        "removed_catalog_leaks": [
+          "clothing",
+          "footwear",
+          "plate guide marks"
+        ],
+        "source_bboxes": [
+          {
+            "item": "protective vest",
+            "bbox_xyxy": [
+              1244,
+              49,
+              1510,
+              293
+            ]
+          }
+        ],
+        "no_new_generation": true
+      }
+    },
+    {
+      "id": "C027",
+      "fit_class": "male_short_wide",
+      "source_master": "source_masters/C027_source_neutral_rgba.png",
+      "rebuilt_composite": "rebuilt_composites/C027_neutral_composite_rgba.png",
+      "body_calibration": "body_calibration/C027_fit_calibration_rgba.png",
+      "kit_plate": "kit_plates/C027_modular_kit_plate_rgba.png",
+      "clothing_inventory": "clothing_catalogs/C027_clothing_inventory_rgba.png",
+      "gear_accessory_inventory": "gear_accessory_catalogs/C027_gear_accessory_inventory_rgba.png",
+      "garments": [
+        {
+          "logical_family": "base shirt",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "uniform overshirt",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "cargo trousers",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "combat boots",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        }
+      ],
+      "gear_accessories": [
+        "plate carrier",
+        "pouches",
+        "utility belt",
+        "gloves",
+        "knee pads",
+        "holster"
+      ],
+      "gear_visual_status": "visually_separated_on_authoring_plate",
+      "hands": "empty_neutral_grip_compatible",
+      "identity": "preserved_from_source_master",
+      "source_sha256": "80dc499163f3ca04fb64847db589c00caff641b511c76c395591c017abd55b93"
+    },
+    {
+      "id": "C028",
+      "fit_class": "male_short_wide",
+      "source_master": "source_masters/C028_source_neutral_rgba.png",
+      "rebuilt_composite": "rebuilt_composites/C028_neutral_composite_rgba.png",
+      "body_calibration": "body_calibration/C028_fit_calibration_rgba.png",
+      "kit_plate": "kit_plates/C028_modular_kit_plate_rgba.png",
+      "clothing_inventory": "clothing_catalogs/C028_clothing_inventory_rgba.png",
+      "gear_accessory_inventory": "gear_accessory_catalogs/C028_gear_accessory_inventory_rgba.png",
+      "garments": [
+        {
+          "logical_family": "quarter-zip base",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "uniform overshirt",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "cargo trousers",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "combat boots",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        }
+      ],
+      "gear_accessories": [
+        "helmet",
+        "plate carrier",
+        "gloves",
+        "knee pads",
+        "utility belt",
+        "radio",
+        "pouches"
+      ],
+      "gear_visual_status": "visually_separated_on_authoring_plate",
+      "hands": "empty_neutral_grip_compatible",
+      "identity": "preserved_from_source_master",
+      "source_sha256": "dcfdae71f306c625cf901e17d4fd2a6957a119da4aa3eebab34eec88b667b341"
+    },
+    {
+      "id": "C029",
+      "fit_class": "male_short_slim",
+      "source_master": "source_masters/C029_source_neutral_rgba.png",
+      "rebuilt_composite": "rebuilt_composites/C029_neutral_composite_rgba.png",
+      "body_calibration": "body_calibration/C029_fit_calibration_rgba.png",
+      "kit_plate": "kit_plates/C029_modular_kit_plate_rgba.png",
+      "clothing_inventory": "clothing_catalogs/C029_clothing_inventory_rgba.png",
+      "gear_accessory_inventory": "gear_accessory_catalogs/C029_gear_accessory_inventory_rgba.png",
+      "garments": [
+        {
+          "logical_family": "uniform shirt",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "cargo trousers",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "combat boots",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        }
+      ],
+      "gear_accessories": [
+        "protective vest",
+        "belt",
+        "watch",
+        "bracelet"
+      ],
+      "gear_visual_status": "clean_partial_missing_source_isolation",
+      "hands": "empty_neutral_grip_compatible",
+      "identity": "preserved_from_source_master",
+      "source_sha256": "870594c57ee303143c9a8b334fb6e70021b6ddfc0912355e963c470dfdf6cdaa",
+      "gear_accessory_catalog_repair": {
+        "version": "3.2.0",
+        "isolated_items": [
+          "protective vest",
+          "belt"
+        ],
+        "missing_source_isolation": [
+          "watch",
+          "bracelet"
+        ],
+        "removed_catalog_leaks": [
+          "clothing",
+          "footwear",
+          "plate guide marks"
+        ],
+        "source_bboxes": [
+          {
+            "item": "protective vest",
+            "bbox_xyxy": [
+              1258,
+              55,
+              1513,
+              330
+            ]
+          },
+          {
+            "item": "belt",
+            "bbox_xyxy": [
+              1225,
+              356,
+              1494,
+              438
+            ]
+          }
+        ],
+        "no_new_generation": true
+      }
+    },
+    {
+      "id": "C030",
+      "fit_class": "female_tall_slim",
+      "source_master": "source_masters/C030_source_neutral_rgba.png",
+      "rebuilt_composite": "rebuilt_composites/C030_neutral_composite_rgba.png",
+      "body_calibration": "body_calibration/C030_fit_calibration_rgba.png",
+      "kit_plate": "kit_plates/C030_modular_kit_plate_rgba.png",
+      "clothing_inventory": "clothing_catalogs/C030_clothing_inventory_rgba.png",
+      "gear_accessory_inventory": "gear_accessory_catalogs/C030_gear_accessory_inventory_rgba.png",
+      "garments": [
+        {
+          "logical_family": "button shirt",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "long coat",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "trousers",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "loafers",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        }
+      ],
+      "gear_accessories": [
+        "belt"
+      ],
+      "gear_visual_status": "clean_empty_missing_source_isolation",
+      "hands": "empty_neutral_grip_compatible",
+      "identity": "preserved_from_source_master",
+      "source_sha256": "d4d802dccbff9325e66084ace9647aea1510e356570b0047428d30a6d9a13990",
+      "gear_accessory_catalog_repair": {
+        "version": "3.2.0",
+        "isolated_items": [],
+        "missing_source_isolation": [
+          "belt"
+        ],
+        "removed_catalog_leaks": [
+          "clothing",
+          "footwear",
+          "plate guide marks"
+        ],
+        "source_bboxes": [],
+        "no_new_generation": true
+      }
+    },
+    {
+      "id": "C031",
+      "fit_class": "male_short_slim",
+      "source_master": "source_masters/C031_source_neutral_rgba.png",
+      "rebuilt_composite": "rebuilt_composites/C031_neutral_composite_rgba.png",
+      "body_calibration": "body_calibration/C031_fit_calibration_rgba.png",
+      "kit_plate": "kit_plates/C031_modular_kit_plate_rgba.png",
+      "clothing_inventory": "clothing_catalogs/C031_clothing_inventory_rgba.png",
+      "gear_accessory_inventory": "gear_accessory_catalogs/C031_gear_accessory_inventory_rgba.png",
+      "garments": [
+        {
+          "logical_family": "hoodie",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "puffer vest",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "sweatpants",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "high-top sneakers",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        }
+      ],
+      "gear_accessories": [],
+      "gear_visual_status": "not_applicable",
+      "hands": "empty_neutral_grip_compatible",
+      "identity": "preserved_from_source_master",
+      "source_sha256": "99a6f3fce401f88756d4aeadaf235deea9ecf27296b3a908c268e9ce252defd5"
+    },
+    {
+      "id": "C032",
+      "fit_class": "male_short_wide",
+      "source_master": "source_masters/C032_source_neutral_rgba.png",
+      "rebuilt_composite": "rebuilt_composites/C032_neutral_composite_rgba.png",
+      "body_calibration": "body_calibration/C032_fit_calibration_rgba.png",
+      "kit_plate": "kit_plates/C032_modular_kit_plate_rgba.png",
+      "clothing_inventory": "clothing_catalogs/C032_clothing_inventory_rgba.png",
+      "gear_accessory_inventory": "gear_accessory_catalogs/C032_gear_accessory_inventory_rgba.png",
+      "garments": [
+        {
+          "logical_family": "tank top",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "track jacket",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "jeans",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "sneakers",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        }
+      ],
+      "gear_accessories": [
+        "watch"
+      ],
+      "gear_visual_status": "clean_empty_missing_source_isolation",
+      "hands": "empty_neutral_grip_compatible",
+      "identity": "preserved_from_source_master",
+      "source_sha256": "e5c2373d970a75a3d479236a571e0618c878436830b9c351e19ce5b5a1c3f02b",
+      "gear_accessory_catalog_repair": {
+        "version": "3.2.0",
+        "isolated_items": [],
+        "missing_source_isolation": [
+          "watch"
+        ],
+        "removed_catalog_leaks": [
+          "clothing",
+          "footwear",
+          "plate guide marks"
+        ],
+        "source_bboxes": [],
+        "no_new_generation": true
+      }
+    },
+    {
+      "id": "C033",
+      "fit_class": "male_tall_slim",
+      "source_master": "source_masters/C033_source_neutral_rgba.png",
+      "rebuilt_composite": "rebuilt_composites/C033_neutral_composite_rgba.png",
+      "body_calibration": "body_calibration/C033_fit_calibration_rgba.png",
+      "kit_plate": "kit_plates/C033_modular_kit_plate_rgba.png",
+      "clothing_inventory": "clothing_catalogs/C033_clothing_inventory_rgba.png",
+      "gear_accessory_inventory": "gear_accessory_catalogs/C033_gear_accessory_inventory_rgba.png",
+      "garments": [
+        {
+          "logical_family": "t-shirt",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "mesh jersey",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "jeans",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "high-top sneakers",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        }
+      ],
+      "gear_accessories": [],
+      "gear_visual_status": "not_applicable",
+      "hands": "empty_neutral_grip_compatible",
+      "identity": "preserved_from_source_master",
+      "source_sha256": "3025117b5e6ea90759d0af94ecdaa55ee51a34bd4c79c6b22e0498e7f86ea514"
+    },
+    {
+      "id": "C034",
+      "fit_class": "male_short_wide",
+      "source_master": "source_masters/C034_source_neutral_rgba.png",
+      "rebuilt_composite": "rebuilt_composites/C034_neutral_composite_rgba.png",
+      "body_calibration": "body_calibration/C034_fit_calibration_rgba.png",
+      "kit_plate": "kit_plates/C034_modular_kit_plate_rgba.png",
+      "clothing_inventory": "clothing_catalogs/C034_clothing_inventory_rgba.png",
+      "gear_accessory_inventory": "gear_accessory_catalogs/C034_gear_accessory_inventory_rgba.png",
+      "garments": [
+        {
+          "logical_family": "tank top",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "plaid overshirt",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "work trousers",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "sneakers",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        }
+      ],
+      "gear_accessories": [],
+      "gear_visual_status": "not_applicable",
+      "hands": "empty_neutral_grip_compatible",
+      "identity": "preserved_from_source_master",
+      "source_sha256": "632e5c2c222dbb7cae16f5f958381406112f5c81a609d5bb187191631a6787e4"
+    },
+    {
+      "id": "C035",
+      "fit_class": "male_short_slim",
+      "source_master": "source_masters/C035_source_neutral_rgba.png",
+      "rebuilt_composite": "rebuilt_composites/C035_neutral_composite_rgba.png",
+      "body_calibration": "body_calibration/C035_fit_calibration_rgba.png",
+      "kit_plate": "kit_plates/C035_modular_kit_plate_rgba.png",
+      "clothing_inventory": "clothing_catalogs/C035_clothing_inventory_rgba.png",
+      "gear_accessory_inventory": "gear_accessory_catalogs/C035_gear_accessory_inventory_rgba.png",
+      "garments": [
+        {
+          "logical_family": "patterned shirt",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "double-breasted blazer",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "pleated trousers",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "loafers",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        }
+      ],
+      "gear_accessories": [
+        "belt",
+        "watch",
+        "necklace"
+      ],
+      "gear_visual_status": "clean_empty_missing_source_isolation",
+      "hands": "empty_neutral_grip_compatible",
+      "identity": "preserved_from_source_master",
+      "source_sha256": "3852f2042f4c980d97c0761a4418584021faf5bd783cc2e29faea95d78147016",
+      "gear_accessory_catalog_repair": {
+        "version": "3.2.0",
+        "isolated_items": [],
+        "missing_source_isolation": [
+          "belt",
+          "watch",
+          "necklace"
+        ],
+        "removed_catalog_leaks": [
+          "clothing",
+          "footwear",
+          "plate guide marks"
+        ],
+        "source_bboxes": [],
+        "no_new_generation": true
+      }
+    },
+    {
+      "id": "C036",
+      "fit_class": "male_short_slim",
+      "source_master": "source_masters/C036_source_neutral_rgba.png",
+      "rebuilt_composite": "rebuilt_composites/C036_neutral_composite_rgba.png",
+      "body_calibration": "body_calibration/C036_fit_calibration_rgba.png",
+      "kit_plate": "kit_plates/C036_modular_kit_plate_rgba.png",
+      "clothing_inventory": "clothing_catalogs/C036_clothing_inventory_rgba.png",
+      "gear_accessory_inventory": "gear_accessory_catalogs/C036_gear_accessory_inventory_rgba.png",
+      "garments": [
+        {
+          "logical_family": "polo shirt",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "track jacket",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "jeans",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "sneakers",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        }
+      ],
+      "gear_accessories": [],
+      "gear_visual_status": "not_applicable",
+      "hands": "empty_neutral_grip_compatible",
+      "identity": "preserved_from_source_master",
+      "source_sha256": "389c5e9281e419587caa2eafe8a6a4ca685d64622bde1e8f4e6b8e593e33132c"
+    },
+    {
+      "id": "C037",
+      "fit_class": "male_short_slim",
+      "source_master": "source_masters/C037_source_neutral_rgba.png",
+      "rebuilt_composite": "rebuilt_composites/C037_neutral_composite_rgba.png",
+      "body_calibration": "body_calibration/C037_fit_calibration_rgba.png",
+      "kit_plate": "kit_plates/C037_modular_kit_plate_rgba.png",
+      "clothing_inventory": "clothing_catalogs/C037_clothing_inventory_rgba.png",
+      "gear_accessory_inventory": "gear_accessory_catalogs/C037_gear_accessory_inventory_rgba.png",
+      "garments": [
+        {
+          "logical_family": "knit polo",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "blazer",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "trousers",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "sneakers",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        }
+      ],
+      "gear_accessories": [
+        "belt"
+      ],
+      "gear_visual_status": "clean_empty_missing_source_isolation",
+      "hands": "empty_neutral_grip_compatible",
+      "identity": "preserved_from_source_master",
+      "source_sha256": "a40946d5a5117e05c8afb53c26bda0f1780ddd720c2cdc4d09a8ddf0376cad98",
+      "gear_accessory_catalog_repair": {
+        "version": "3.2.0",
+        "isolated_items": [],
+        "missing_source_isolation": [
+          "belt"
+        ],
+        "removed_catalog_leaks": [
+          "clothing",
+          "footwear",
+          "plate guide marks"
+        ],
+        "source_bboxes": [],
+        "no_new_generation": true
+      }
+    },
+    {
+      "id": "C038",
+      "fit_class": "male_short_wide",
+      "source_master": "source_masters/C038_source_neutral_rgba.png",
+      "rebuilt_composite": "rebuilt_composites/C038_neutral_composite_rgba.png",
+      "body_calibration": "body_calibration/C038_fit_calibration_rgba.png",
+      "kit_plate": "kit_plates/C038_modular_kit_plate_rgba.png",
+      "clothing_inventory": "clothing_catalogs/C038_clothing_inventory_rgba.png",
+      "gear_accessory_inventory": "gear_accessory_catalogs/C038_gear_accessory_inventory_rgba.png",
+      "garments": [
+        {
+          "logical_family": "thermal shirt",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "work jacket",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "cargo trousers",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "sneakers",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        }
+      ],
+      "gear_accessories": [],
+      "gear_visual_status": "not_applicable",
+      "hands": "empty_neutral_grip_compatible",
+      "identity": "preserved_from_source_master",
+      "source_sha256": "7e0b0171fa460c0db1e9d065f3cf5925e02045c4e8feae2f438828b30b3bf312"
+    },
+    {
+      "id": "C039",
+      "fit_class": "male_short_wide",
+      "source_master": "source_masters/C039_source_neutral_rgba.png",
+      "rebuilt_composite": "rebuilt_composites/C039_neutral_composite_rgba.png",
+      "body_calibration": "body_calibration/C039_fit_calibration_rgba.png",
+      "kit_plate": "kit_plates/C039_modular_kit_plate_rgba.png",
+      "clothing_inventory": "clothing_catalogs/C039_clothing_inventory_rgba.png",
+      "gear_accessory_inventory": "gear_accessory_catalogs/C039_gear_accessory_inventory_rgba.png",
+      "garments": [
+        {
+          "logical_family": "embroidered shirt",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "track jacket",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "pleated trousers",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "loafers",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        }
+      ],
+      "gear_accessories": [
+        "necklace",
+        "watch"
+      ],
+      "gear_visual_status": "clean_empty_missing_source_isolation",
+      "hands": "empty_neutral_grip_compatible",
+      "identity": "preserved_from_source_master",
+      "source_sha256": "e6c6c40cfffa867c3bfbe079a3aa6cb5ce05fbc4cafa95601b9b890175526032",
+      "gear_accessory_catalog_repair": {
+        "version": "3.2.0",
+        "isolated_items": [],
+        "missing_source_isolation": [
+          "necklace",
+          "watch"
+        ],
+        "removed_catalog_leaks": [
+          "clothing",
+          "footwear",
+          "plate guide marks"
+        ],
+        "source_bboxes": [],
+        "no_new_generation": true
+      }
+    },
+    {
+      "id": "C040",
+      "fit_class": "male_tall_wide",
+      "source_master": "source_masters/C040_source_neutral_rgba.png",
+      "rebuilt_composite": "rebuilt_composites/C040_neutral_composite_rgba.png",
+      "body_calibration": "body_calibration/C040_fit_calibration_rgba.png",
+      "kit_plate": "kit_plates/C040_modular_kit_plate_rgba.png",
+      "clothing_inventory": "clothing_catalogs/C040_clothing_inventory_rgba.png",
+      "gear_accessory_inventory": "gear_accessory_catalogs/C040_gear_accessory_inventory_rgba.png",
+      "garments": [
+        {
+          "logical_family": "base sweater",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "coverall",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "work boots",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        }
+      ],
+      "gear_accessories": [
+        "goggles",
+        "work gloves",
+        "belt"
+      ],
+      "gear_visual_status": "visually_separated_on_authoring_plate",
+      "hands": "empty_neutral_grip_compatible",
+      "identity": "preserved_from_source_master",
+      "source_sha256": "c4f9da83f9bbe2b46a8b5c464632f0b357a10d33e8430f563c761e3f65b10163"
+    },
+    {
+      "id": "C041",
+      "fit_class": "female_short_wide",
+      "source_master": "source_masters/C041_source_neutral_rgba.png",
+      "rebuilt_composite": "rebuilt_composites/C041_neutral_composite_rgba.png",
+      "body_calibration": "body_calibration/C041_fit_calibration_rgba.png",
+      "kit_plate": "kit_plates/C041_modular_kit_plate_rgba.png",
+      "clothing_inventory": "clothing_catalogs/C041_clothing_inventory_rgba.png",
+      "gear_accessory_inventory": "gear_accessory_catalogs/C041_gear_accessory_inventory_rgba.png",
+      "garments": [
+        {
+          "logical_family": "turtleneck",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "long coat",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "jeans",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "ankle boots",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        }
+      ],
+      "gear_accessories": [],
+      "gear_visual_status": "not_applicable",
+      "hands": "empty_neutral_grip_compatible",
+      "identity": "preserved_from_source_master",
+      "source_sha256": "e82d502d264c2686568eb27c47a6ef919cefb36ef53654f9db9b9db76d18528f"
+    },
+    {
+      "id": "C042",
+      "fit_class": "female_short_slim",
+      "source_master": "source_masters/C042_source_neutral_rgba.png",
+      "rebuilt_composite": "rebuilt_composites/C042_neutral_composite_rgba.png",
+      "body_calibration": "body_calibration/C042_fit_calibration_rgba.png",
+      "kit_plate": "kit_plates/C042_modular_kit_plate_rgba.png",
+      "clothing_inventory": "clothing_catalogs/C042_clothing_inventory_rgba.png",
+      "gear_accessory_inventory": "gear_accessory_catalogs/C042_gear_accessory_inventory_rgba.png",
+      "garments": [
+        {
+          "logical_family": "floral dress",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "leather jacket",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "tights",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "combat boots",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        }
+      ],
+      "gear_accessories": [],
+      "gear_visual_status": "not_applicable",
+      "hands": "empty_neutral_grip_compatible",
+      "identity": "preserved_from_source_master",
+      "source_sha256": "fa4103e6fbbad9ffb7f41cbf558eecd8681361845ef4cd0001274d28c8778719"
+    },
+    {
+      "id": "C043",
+      "fit_class": "male_short_slim",
+      "source_master": "source_masters/C043_source_neutral_rgba.png",
+      "rebuilt_composite": "rebuilt_composites/C043_neutral_composite_rgba.png",
+      "body_calibration": "body_calibration/C043_fit_calibration_rgba.png",
+      "kit_plate": "kit_plates/C043_modular_kit_plate_rgba.png",
+      "clothing_inventory": "clothing_catalogs/C043_clothing_inventory_rgba.png",
+      "gear_accessory_inventory": "gear_accessory_catalogs/C043_gear_accessory_inventory_rgba.png",
+      "garments": [
+        {
+          "logical_family": "button shirt",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "leather jacket",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "trousers",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "dress shoes",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        }
+      ],
+      "gear_accessories": [
+        "tie",
+        "belt"
+      ],
+      "gear_visual_status": "clean_complete",
+      "hands": "empty_neutral_grip_compatible",
+      "identity": "preserved_from_source_master",
+      "source_sha256": "d3dc7abf859f3280cbd23eb530324202b47d6cf2564924a53a502ffbf1a34eca",
+      "gear_accessory_catalog_repair": {
+        "version": "3.2.0",
+        "isolated_items": [
+          "tie",
+          "belt"
+        ],
+        "missing_source_isolation": [],
+        "removed_catalog_leaks": [
+          "clothing",
+          "footwear",
+          "plate guide marks"
+        ],
+        "source_bboxes": [
+          {
+            "item": "tie",
+            "bbox_xyxy": [
+              1391,
+              111,
+              1491,
+              372
+            ]
+          },
+          {
+            "item": "belt",
+            "bbox_xyxy": [
+              1042,
+              463,
+              1291,
+              540
+            ]
+          }
+        ],
+        "no_new_generation": true
+      }
+    },
+    {
+      "id": "C044",
+      "fit_class": "male_short_wide",
+      "source_master": "source_masters/C044_source_neutral_rgba.png",
+      "rebuilt_composite": "rebuilt_composites/C044_neutral_composite_rgba.png",
+      "body_calibration": "body_calibration/C044_fit_calibration_rgba.png",
+      "kit_plate": "kit_plates/C044_modular_kit_plate_rgba.png",
+      "clothing_inventory": "clothing_catalogs/C044_clothing_inventory_rgba.png",
+      "gear_accessory_inventory": "gear_accessory_catalogs/C044_gear_accessory_inventory_rgba.png",
+      "garments": [
+        {
+          "logical_family": "sweatshirt",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "bomber jacket",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "cargo trousers",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        },
+        {
+          "logical_family": "combat boots",
+          "asset_policy": "character_specific_fit; reuse only after compatibility review"
+        }
+      ],
+      "gear_accessories": [],
+      "gear_visual_status": "not_applicable",
+      "hands": "empty_neutral_grip_compatible",
+      "identity": "preserved_from_source_master",
+      "source_sha256": "2fad831291f7bd8c4b102711e9f781e09410cdad638158e22cfc78615544bced"
+    }
+  ],
+  "despill": {
+    "completed": true,
+    "known_matte": "#FF00FF",
+    "files_processed": 88,
+    "alpha_preserved_byte_for_byte": true,
+    "report": "qa/despill_metrics_v03_1.json"
+  },
+  "gear_catalog_repair": {
+    "completed": true,
+    "flagged_catalogs_repaired": 25,
+    "no_new_generation": true,
+    "report": "metadata/gear_accessory_catalog_repair_v03_2.json",
+    "qa_contact_sheet": "qa/gear_accessory_catalogs_repaired_contact_sheet.png",
+    "before_after_sheet": "qa/gear_accessory_catalogs_before_after.png"
+  }
+}

@@ -1,0 +1,234 @@
+{
+  "schema": "zant-external-authorities-stage8@1",
+  "archive_root": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\pre-migration-2026-10-18-stages-0-3",
+  "original_source_collection": {
+    "id": "zant-intake-source",
+    "role": "immutable_source_collection_and_research_inputs",
+    "source_root": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\ZANT_analysis_sources",
+    "archive_root": "snapshots/zant-intake-source",
+    "file_count": 620,
+    "bytes": 646968057,
+    "tree_sha256": "1cbd916b2d191acaa841b1ae9bb2ca27102aa6487a879493a4906fb5ad531c79",
+    "fingerprint_method": "SHA256 of UTF-8 JSON sorted relative paths; keys sorted; compact separators; records path,bytes,sha256",
+    "tree_manifest_path": "tree-manifests/zant-intake-source.json",
+    "tree_manifest_sha256": "d48b5a020998bd8d04e778c2c3dc3082819fdfa40919fc493f384e3d599a1dfd"
+  },
+  "seven_intake_packages": [
+    {
+      "id": "artifact-077",
+      "classification": "immutable_source_intake_package",
+      "source_path": "C:\\Users\\mcdon\\Downloads\\Trapstar_ZANT_Combinatorial_Character_Research_Handoff_v2_PART1_CONTEXT_AND_RESEARCH_BRIEF.zip",
+      "bytes": 13636963,
+      "sha256": "567085632c1e061d7d25417bce9dd22e88d6dae515a01b759c9b192f257cf80a",
+      "archive_path": "artifacts/zant-intake-packages/Trapstar_ZANT_Combinatorial_Character_Research_Handoff_v2_PART1_CONTEXT_AND_RESEARCH_BRIEF.zip",
+      "name": "Trapstar_ZANT_Combinatorial_Character_Research_Handoff_v2_PART1_CONTEXT_AND_RESEARCH_BRIEF.zip",
+      "purpose": "Context + audits + ZANT lineage + read-only project context + master/pre-flight research brief",
+      "role": "external_immutable_original_intake_package",
+      "imported_payload": false
+    },
+    {
+      "id": "artifact-078",
+      "classification": "immutable_source_intake_package",
+      "source_path": "C:\\Users\\mcdon\\Downloads\\Trapstar_ZANT_Combinatorial_Character_Research_Handoff_v2_PART2_ORIGINAL_CHARACTER_SOURCE.zip",
+      "bytes": 169191353,
+      "sha256": "a2d025102b94e616565cf585c5565155d116779409e525aa8e5bf4f7cbd6c8ed",
+      "archive_path": "artifacts/zant-intake-packages/Trapstar_ZANT_Combinatorial_Character_Research_Handoff_v2_PART2_ORIGINAL_CHARACTER_SOURCE.zip",
+      "name": "Trapstar_ZANT_Combinatorial_Character_Research_Handoff_v2_PART2_ORIGINAL_CHARACTER_SOURCE.zip",
+      "purpose": "Original character/source archive + standalone 44-sheet clothing archive",
+      "role": "external_immutable_original_intake_package",
+      "imported_payload": false
+    },
+    {
+      "id": "artifact-079",
+      "classification": "immutable_source_intake_package",
+      "source_path": "C:\\Users\\mcdon\\Downloads\\Trapstar_ZANT_Combinatorial_Character_Research_Handoff_v2_PART3_MODULAR_STANDARDIZATION_CORE.zip",
+      "bytes": 69499916,
+      "sha256": "7af32fe67947c514694bc60764d70e0668bdb80d7ea562f21c52a09f1a320484",
+      "archive_path": "artifacts/zant-intake-packages/Trapstar_ZANT_Combinatorial_Character_Research_Handoff_v2_PART3_MODULAR_STANDARDIZATION_CORE.zip",
+      "name": "Trapstar_ZANT_Combinatorial_Character_Research_Handoff_v2_PART3_MODULAR_STANDARDIZATION_CORE.zip",
+      "purpose": "Fit classes, 44 calibrations, clothing/gear catalogs, metadata and QA",
+      "role": "external_immutable_original_intake_package",
+      "imported_payload": false
+    },
+    {
+      "id": "artifact-080",
+      "classification": "immutable_source_intake_package",
+      "source_path": "C:\\Users\\mcdon\\Downloads\\Trapstar_ZANT_Combinatorial_Character_Research_Handoff_v2_PART4_MODULAR_RECONSTRUCTION_EVIDENCE.zip",
+      "bytes": 162500344,
+      "sha256": "a23cbb6778ea3ac06e8940f949a410acc867462cbdff87e87449614b029e4429",
+      "archive_path": "artifacts/zant-intake-packages/Trapstar_ZANT_Combinatorial_Character_Research_Handoff_v2_PART4_MODULAR_RECONSTRUCTION_EVIDENCE.zip",
+      "name": "Trapstar_ZANT_Combinatorial_Character_Research_Handoff_v2_PART4_MODULAR_RECONSTRUCTION_EVIDENCE.zip",
+      "purpose": "Source masters, rebuilt composites and kit plates",
+      "role": "external_immutable_original_intake_package",
+      "imported_payload": false
+    },
+    {
+      "id": "artifact-081",
+      "classification": "immutable_source_intake_package",
+      "source_path": "C:\\Users\\mcdon\\Downloads\\Trapstar_ZANT_Combinatorial_Character_Research_Handoff_v2_PART5_FACE_SYSTEM_CORE_PROVENANCE.zip",
+      "bytes": 73110314,
+      "sha256": "4d6757c327cc7fadd7bfdef549d07617f8c245664baf91c4743f148ed9304b6c",
+      "archive_path": "artifacts/zant-intake-packages/Trapstar_ZANT_Combinatorial_Character_Research_Handoff_v2_PART5_FACE_SYSTEM_CORE_PROVENANCE.zip",
+      "name": "Trapstar_ZANT_Combinatorial_Character_Research_Handoff_v2_PART5_FACE_SYSTEM_CORE_PROVENANCE.zip",
+      "purpose": "Five-slot face base/docs/manifest/18 previews/raw edit provenance/masks/validator/build logic",
+      "role": "external_immutable_original_intake_package",
+      "imported_payload": false
+    },
+    {
+      "id": "artifact-082",
+      "classification": "immutable_source_intake_package",
+      "source_path": "C:\\Users\\mcdon\\Downloads\\Trapstar_ZANT_Combinatorial_Character_Research_Handoff_v2_PART6_FACE_SLOTS_EXP01_09.zip",
+      "bytes": 78404463,
+      "sha256": "21ca8da86ce6743c44400cfc458fe23f7d48fb9fd6cad6a3a566b840b3797bd8",
+      "archive_path": "artifacts/zant-intake-packages/Trapstar_ZANT_Combinatorial_Character_Research_Handoff_v2_PART6_FACE_SLOTS_EXP01_09.zip",
+      "name": "Trapstar_ZANT_Combinatorial_Character_Research_Handoff_v2_PART6_FACE_SLOTS_EXP01_09.zip",
+      "purpose": "All 45 registered facial slot PNGs for demonstrations 01\u201309",
+      "role": "external_immutable_original_intake_package",
+      "imported_payload": false
+    },
+    {
+      "id": "artifact-083",
+      "classification": "immutable_source_intake_package",
+      "source_path": "C:\\Users\\mcdon\\Downloads\\Trapstar_ZANT_Combinatorial_Character_Research_Handoff_v2_PART7_FACE_SLOTS_EXP10_18.zip",
+      "bytes": 76949708,
+      "sha256": "d17b772209ddc3bbb9e2235ae0382c5bc519ec967d96fe158078b43cae7c1a3d",
+      "archive_path": "artifacts/zant-intake-packages/Trapstar_ZANT_Combinatorial_Character_Research_Handoff_v2_PART7_FACE_SLOTS_EXP10_18.zip",
+      "name": "Trapstar_ZANT_Combinatorial_Character_Research_Handoff_v2_PART7_FACE_SLOTS_EXP10_18.zip",
+      "purpose": "All 45 registered facial slot PNGs for demonstrations 10\u201318",
+      "role": "external_immutable_original_intake_package",
+      "imported_payload": false
+    }
+  ],
+  "accepted_R4_checkpoint": {
+    "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\C001_ZANT_GATE_A_R4_NEUTRAL\\deliverables\\C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_02.zip",
+    "bytes": 33921583,
+    "sha256": "c43e34ac80a8fd32f1ee5f30e5116dad06129a10b196032afc2fb2746a8188b3",
+    "archive_path": "snapshots/zant-r4-history/deliverables/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_02.zip"
+  },
+  "failed_R5_checkpoint": {
+    "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\C001_ZANT_GATE_A_R5\\deliverables\\C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT.zip",
+    "bytes": 23227104,
+    "sha256": "5c8196e1d81ed8aae3bd42a740c6afd01294bc069345c9d683c90163faac2796",
+    "archive_path": "snapshots/zant-r5-editable/deliverables/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT.zip"
+  },
+  "role_rules": [
+    {
+      "paths": "original/characters trapstar source/C001_source_neutral_rgba.png through C044_source_neutral_rgba.png",
+      "count": 44,
+      "role": "original_identity_design_neutral_authority",
+      "location": "external"
+    },
+    {
+      "paths": "original/characters trapstar source/ remaining images",
+      "count": 52,
+      "role": "original_pose_garment_style_references_not_registered_modular_assets",
+      "location": "external"
+    },
+    {
+      "paths": "modular/**/source_masters/",
+      "role": "byte-identical convenience duplicates of originals; no independent identity authority",
+      "location": "external"
+    },
+    {
+      "paths": "modular/**/rebuilt_composites/ and kit_plates/",
+      "role": "derived reconstruction/authoring references, not identity or outfit authority",
+      "location": "external"
+    },
+    {
+      "paths": "modular/**/body_calibration/ and fit_classes/",
+      "role": "calibration/fit search references, not certified anatomy or independent chassis",
+      "location": "external"
+    },
+    {
+      "paths": "wardrobe/ and modular clothing/gear catalogs",
+      "role": "design plates/catalog evidence, not ready runtime layers",
+      "location": "external"
+    },
+    {
+      "paths": "face/",
+      "role": "experimental five-slot frontal proof, not cast-wide production requirements",
+      "location": "external"
+    },
+    {
+      "paths": "packages/zant/C001_ZANT_GATE_A_R5/accepted_neutral/ and accepted_A25/",
+      "role": "preserved accepted R4 neutral snapshot and immutable A25"
+    },
+    {
+      "paths": "packages/zant/C001_ZANT_GATE_A_R5/assets/",
+      "role": "mixed statuses only as explicitly enumerated by data/surface_ledger.json"
+    },
+    {
+      "paths": "packages/zant/C001_ZANT_GATE_A_R5/references/",
+      "role": "C001 original source copy plus derived/rebuilt/calibration/fit/kit/wardrobe references; inspect per-file origins below"
+    },
+    {
+      "paths": "packages/zant/C001_ZANT_GATE_A_R5/authoring/",
+      "role": "pilot donors/prompts/raw/rejected outputs/working references; unaccepted research/failed art"
+    }
+  ],
+  "imported_reference_origins": [
+    {
+      "repository_path": "packages/zant/C001_ZANT_GATE_A_R5/references/A16_source_seed.png",
+      "sha256": "c6e80fcd794aa08e2545fa883ec1a61f9fa0ff24205ae82ab204df72203bcd54",
+      "role": "derived_seed_or_registration_reference",
+      "byte_identical_intake_paths": []
+    },
+    {
+      "repository_path": "packages/zant/C001_ZANT_GATE_A_R5/references/C001_clothing_inventory_rgba.png",
+      "sha256": "9a02bf9c5b80581d0ecba558521cf6d7eccce2eb1114632ca54f4cc1540554cb",
+      "role": "wardrobe_source_design_plate",
+      "byte_identical_intake_paths": [
+        "modular/NEUTRAL_CHARACTER_MODULAR_REBUILD_V03_2/clothing_catalogs/C001_clothing_inventory_rgba.png",
+        "original_screenshots/C001_clothing_inventory_sample.png",
+        "wardrobe/C001_clothing_inventory_rgba.png"
+      ]
+    },
+    {
+      "repository_path": "packages/zant/C001_ZANT_GATE_A_R5/references/C001_fit_calibration_rgba.png",
+      "sha256": "add7415be15d664ba04b205846ca7d1e7a82bf3a27e243403bf7fffaf790e4f1",
+      "role": "derived_calibration_reference",
+      "byte_identical_intake_paths": [
+        "modular/NEUTRAL_CHARACTER_MODULAR_REBUILD_V03_2/body_calibration/C001_fit_calibration_rgba.png",
+        "modular/NEUTRAL_CHARACTER_MODULAR_REBUILD_V03_2/fit_classes/male_short_slim_canonical_rgba.png"
+      ]
+    },
+    {
+      "repository_path": "packages/zant/C001_ZANT_GATE_A_R5/references/C001_modular_kit_plate_rgba.png",
+      "sha256": "36970230e64dc438fcaaa237e3fb07d424721dd73a03f591704cb97348b63aba",
+      "role": "derived_kit_reference",
+      "byte_identical_intake_paths": [
+        "context/05_QUICK_REVIEW/C001_modular_kit_plate_rgba.png",
+        "modular/NEUTRAL_CHARACTER_MODULAR_REBUILD_V03_2/kit_plates/C001_modular_kit_plate_rgba.png"
+      ]
+    },
+    {
+      "repository_path": "packages/zant/C001_ZANT_GATE_A_R5/references/C001_neutral_composite_rgba.png",
+      "sha256": "e8319df52dfb1355107cd4a0d773db4117309cfb2c3f2cb76825ab1ee29a4c3f",
+      "role": "rebuilt_composite_reference_not_identity_authority",
+      "byte_identical_intake_paths": [
+        "context/05_QUICK_REVIEW/C001_neutral_composite_rgba.png",
+        "modular/NEUTRAL_CHARACTER_MODULAR_REBUILD_V03_2/rebuilt_composites/C001_neutral_composite_rgba.png"
+      ]
+    },
+    {
+      "repository_path": "packages/zant/C001_ZANT_GATE_A_R5/references/C001_source_neutral_rgba.png",
+      "sha256": "f651af252d32fd7a0870d254faab31ec63e4f620a42492641b834fd76274e0db",
+      "role": "original_identity_design_reference_copy",
+      "byte_identical_intake_paths": [
+        "context/05_QUICK_REVIEW/C001_source_neutral_rgba.png",
+        "modular/NEUTRAL_CHARACTER_MODULAR_REBUILD_V03_2/source_masters/C001_source_neutral_rgba.png",
+        "original/characters trapstar source/C001_source_neutral_rgba.png"
+      ]
+    },
+    {
+      "repository_path": "packages/zant/C001_ZANT_GATE_A_R5/references/source_in_body_frame.png",
+      "sha256": "307ac35596796454c1a19a2936cc12f07cd903cc68ddbd687b0a171b89b42f09",
+      "role": "derived_seed_or_registration_reference",
+      "byte_identical_intake_paths": []
+    }
+  ],
+  "R5_delivery_files_left_external": 340,
+  "original_source_images_not_bulk_imported": true,
+  "tree_inventory_directory": "docs/provenance/zant-external/tree-manifests",
+  "research_boundary": "Historical research/forensic artifacts are preserved evidence and proposals, not implemented production requirements. Embedded launch/resume prompts are not current authorization."
+}

@@ -1,0 +1,26 @@
+{
+  "candidateId": "C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01",
+  "technicalIntegrity": "PASS",
+  "visualRecommendation": "HOLD_NEUTRAL_FREEZE_FOR_OWNER_REVIEW",
+  "bothStatesReadAsCoherentC001": true,
+  "broadStructuralAnatomyFailureFound": false,
+  "nativeShoulderCapContourLedges": {
+    "bodyY": 365,
+    "imageLeftApproximateX": 400,
+    "imageRightApproximateX": 601,
+    "recommendation": "Resolve or obtain explicit owner disposition before freezing the neutral contour"
+  },
+  "A16WaistArtDecisionOutstanding": true,
+  "visibleJacketOnTeeLeakFound": false,
+  "candidateModified": false,
+  "artworkGeneratedRepairedOrRetouched": false,
+  "requiredExistingNeutralReplays": 2,
+  "ownerAcceptedSurfaces": 1,
+  "bodyPartsPendingOwnerReview": 14,
+  "missingBaselineSurfaces": 17,
+  "reservesUsed": 0,
+  "otherValidCasesNotRun": 224,
+  "productionNegativesNotRun": 17,
+  "report": "INDEPENDENT_R4_REVIEW.md",
+  "nextAction": "STOP FOR OWNER REVIEW"
+}

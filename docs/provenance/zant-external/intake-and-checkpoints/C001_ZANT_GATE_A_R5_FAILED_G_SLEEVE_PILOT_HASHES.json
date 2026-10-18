@@ -1,0 +1,13 @@
+{
+  "candidateId": "C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT",
+  "zip": "C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT.zip",
+  "zipBytes": 23227104,
+  "zipSHA256": "5c8196e1d81ed8aae3bd42a740c6afd01294bc069345c9d683c90163faac2796",
+  "manifestSHA256": "f583c0b57b7ad606b2c8dd985c189836b9831e056fecd07aa9c685ee2b4895dc",
+  "governedFiles": 165,
+  "filesIncludingManifest": 166,
+  "gateAVerdict": "GATE_A_FAILED_AT_G_SLEEVE_PILOT",
+  "acceptedNeutralFrozen": true,
+  "A25SHA256": "f57ca9e06a203810c3a7f5d9e4c94bf6ecb9f5a2ff83d74b27eff62b4fbba724",
+  "A16SHA256": "23ad2c87efb724bb4c747d13d4bd76c49f4c411e5517c6f59f44f1de000008c7"
+}

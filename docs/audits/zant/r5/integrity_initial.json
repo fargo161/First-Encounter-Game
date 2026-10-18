@@ -1,0 +1,101 @@
+{
+  "utc": "2026-10-18T14:40:35.177233+00:00",
+  "environment": {
+    "python": "3.12.0 (tags/v3.12.0:0fb18b0, Oct  2 2023, 13:03:39) [MSC v.1935 64 bit (AMD64)]",
+    "executable": "C:\\Users\\mcdon\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "workspace": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc"
+  },
+  "archive": {
+    "bytes": 23227104,
+    "sha256": "5c8196e1d81ed8aae3bd42a740c6afd01294bc069345c9d683c90163faac2796",
+    "externalHashMatches": true,
+    "crc": "PASS",
+    "entries": 166
+  },
+  "manifestSha256": "f583c0b57b7ad606b2c8dd985c189836b9831e056fecd07aa9c685ee2b4895dc",
+  "externalManifestHashMatches": true,
+  "declaredStatus": "FAILED_PARTIAL_GATE_A_G_SLEEVE_PILOT",
+  "freshManifest": {
+    "expectedFiles": 165,
+    "actualFiles": 165,
+    "changed": [],
+    "missing": [],
+    "added": []
+  },
+  "deliveredManifest": {
+    "expectedFiles": 165,
+    "actualFiles": 165,
+    "changed": [],
+    "missing": [],
+    "added": []
+  },
+  "deliveredVersusFresh": {
+    "expectedFiles": 166,
+    "actualFiles": 166,
+    "changed": [],
+    "missing": [],
+    "added": []
+  },
+  "acceptedNeutralLock": {
+    "acceptedCandidate": "C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_02",
+    "filesChecked": 20,
+    "mismatches": []
+  },
+  "preservation": {
+    "sources": {
+      "expectedFiles": 620,
+      "actualFiles": 620,
+      "changed": [],
+      "missing": [],
+      "added": []
+    },
+    "R1": {
+      "expectedFiles": 119,
+      "actualFiles": 119,
+      "changed": [],
+      "missing": [],
+      "added": []
+    },
+    "R2": {
+      "expectedFiles": 31,
+      "actualFiles": 31,
+      "changed": [],
+      "missing": [],
+      "added": []
+    },
+    "R3": {
+      "expectedFiles": 462,
+      "actualFiles": 462,
+      "changed": [],
+      "missing": [],
+      "added": []
+    },
+    "independent_R3": {
+      "expectedFiles": 163,
+      "actualFiles": 163,
+      "changed": [],
+      "missing": [],
+      "added": []
+    },
+    "R4": {
+      "expectedFiles": 735,
+      "actualFiles": 735,
+      "changed": [],
+      "missing": [],
+      "added": []
+    },
+    "independent_R4": {
+      "expectedFiles": 149,
+      "actualFiles": 149,
+      "changed": [],
+      "missing": [],
+      "added": []
+    }
+  },
+  "builderAudit": {
+    "exists": true,
+    "sha256": "e9cc3e5b1a8673e5fb1486e1244eef4fade8e4f1bb2638a125a4c9a83bc93838",
+    "matchesHandoffHash": true
+  }
+}

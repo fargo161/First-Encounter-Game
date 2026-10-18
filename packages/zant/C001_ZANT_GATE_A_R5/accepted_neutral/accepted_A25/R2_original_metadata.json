@@ -1,0 +1,31 @@
+{
+  "id": "A25_head_front_neutral",
+  "revision": "C001_front_A25_R2_source_pixels_v1",
+  "view": "front",
+  "status": "READY_FOR_OWNER_ART_REVIEW",
+  "ownerAccepted": false,
+  "art": "assets/A25_head_front_neutral_rgba.png",
+  "silhouette": "assets/A25_head_front_silhouette.png",
+  "logicalArtSurfaces": 1,
+  "reserveSurfacesUsed": 0,
+  "silhouetteIsSupportDataNotAnotherArtSurface": true,
+  "source": "references/C001_source_neutral_rgba.png",
+  "sourceSha256": "f651af252d32fd7a0870d254faab31ec63e4f620a42492641b834fd76274e0db",
+  "artSha256": "f57ca9e06a203810c3a7f5d9e4c94bf6ecb9f5a2ff83d74b27eff62b4fbba724",
+  "decodedRgbaSha256": "b67a3b8c2fbc07bbdcc382fa9330d9319ba12a6442abceb93f63a65b537e104b",
+  "registration": "validation/registration_bounds.json",
+  "colorSpace": "source sRGB byte values preserved; straight-alpha RGBA8; no color-management conversion",
+  "alphaPolicy": "This A25 alpha is the proposed ordinary-head silhouette. No expression compositor was created; any later approved implementation must apply this silhouette once.",
+  "facialSlotsUnchanged": [
+    "LEFT_BROW",
+    "RIGHT_BROW",
+    "LEFT_EYE",
+    "RIGHT_EYE",
+    "LOWER_FACE"
+  ],
+  "nonneutralPatchesAuthored": 0,
+  "otherGateASurfacesAuthored": 0,
+  "originalFacialRgbRepainted": false,
+  "imageGenerationUsed": false,
+  "architectureOrBudgetChanged": false
+}

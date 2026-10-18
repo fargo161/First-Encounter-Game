@@ -1,0 +1,87 @@
+{
+  "utc": "2026-10-18T13:33:04.301230+00:00",
+  "environment": {
+    "python": "3.12.0 (tags/v3.12.0:0fb18b0, Oct  2 2023, 13:03:39) [MSC v.1935 64 bit (AMD64)]",
+    "executable": "C:\\Users\\mcdon\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "workspace": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc"
+  },
+  "archive": {
+    "bytes": 33706224,
+    "sha256": "0b812b84e5f49916699081e4d184b73f10bd502ea9a6837b0b0f2691fc6900ad",
+    "matchesExternalHash": true,
+    "crc": "PASS",
+    "entries": 136
+  },
+  "manifestSha256": "c3e0e4e23c483081ebf2945cec6c635f42093c68750863cbae5c2265ae44ab09",
+  "matchesExternalManifestHash": true,
+  "declaredStatus": "NEUTRAL_REVIEW_CANDIDATE_NOT_OWNER_ACCEPTED",
+  "freshManifest": {
+    "expectedFiles": 135,
+    "actualFiles": 135,
+    "changed": [],
+    "missing": [],
+    "added": []
+  },
+  "deliveredManifest": {
+    "expectedFiles": 135,
+    "actualFiles": 135,
+    "changed": [],
+    "missing": [],
+    "added": []
+  },
+  "deliveredVersusFresh": {
+    "expectedFiles": 136,
+    "actualFiles": 136,
+    "changed": [],
+    "missing": [],
+    "added": []
+  },
+  "preservation": {
+    "sources": {
+      "expectedFiles": 620,
+      "actualFiles": 620,
+      "changed": [],
+      "missing": [],
+      "added": []
+    },
+    "R1": {
+      "expectedFiles": 119,
+      "actualFiles": 119,
+      "changed": [],
+      "missing": [],
+      "added": []
+    },
+    "R2": {
+      "expectedFiles": 31,
+      "actualFiles": 31,
+      "changed": [],
+      "missing": [],
+      "added": []
+    },
+    "R3": {
+      "expectedFiles": 462,
+      "actualFiles": 462,
+      "changed": [],
+      "missing": [],
+      "added": []
+    },
+    "independent_R3": {
+      "expectedFiles": 163,
+      "actualFiles": 163,
+      "changed": [],
+      "missing": [],
+      "added": []
+    },
+    "A25MatchesR2": {
+      "A25_head_front_neutral_rgba.png": true,
+      "A25_head_front_silhouette.png": true
+    },
+    "sourceReferenceMatchesOriginal": true
+  },
+  "deliveredAuthorAudit": {
+    "exists": true,
+    "sha256": "1229bb96e1460fa8f724f9fff9c7beaa106a8b8f1f0d18854a95ef7bbd138ab9",
+    "matchesHandoffSha256": true
+  }
+}

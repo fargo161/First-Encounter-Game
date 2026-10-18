@@ -1,0 +1,312 @@
+{
+  "environment": {
+    "python": "3.12.0",
+    "pillow": "12.3.0",
+    "numpy": "2.5.1"
+  },
+  "retainedSourceHeadPixels": 18229,
+  "retainedSourceHeadRGBChangedChannels": 0,
+  "protectedFacePixels": 14254,
+  "evidenceReplays": {
+    "B_off_NN_NN": {
+      "recordedStatus": "PASS_ACCEPTED_NEUTRAL_REPRODUCTION",
+      "canonical": {
+        "differentPixels": 0,
+        "differentChannelsRGBA": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "maxDeltaRGBA": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "includesHiddenRGB": true
+      },
+      "reopened": {
+        "differentPixels": 0,
+        "differentChannelsRGBA": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "maxDeltaRGBA": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "includesHiddenRGB": true
+      },
+      "decodedRgbaSha256": "b315f5a7696e506b98e39c04e3ceaa9e7666b860d2cd49b49797b3ad8c254909",
+      "protectedFaceChangedRGBAChannels": 0,
+      "onlyDeclaredPartsDrawnOnce": true
+    },
+    "B_on_NN_NN": {
+      "recordedStatus": "PASS_ACCEPTED_NEUTRAL_REPRODUCTION",
+      "canonical": {
+        "differentPixels": 0,
+        "differentChannelsRGBA": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "maxDeltaRGBA": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "includesHiddenRGB": true
+      },
+      "reopened": {
+        "differentPixels": 0,
+        "differentChannelsRGBA": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "maxDeltaRGBA": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "includesHiddenRGB": true
+      },
+      "decodedRgbaSha256": "48feb5aa9fc7f5da1fbdffc4d2347d9faa38d26fc4314788431593b787692d24",
+      "protectedFaceChangedRGBAChannels": 0,
+      "onlyDeclaredPartsDrawnOnce": true
+    },
+    "B_off_GN_NN": {
+      "recordedStatus": "UNACCEPTED_PILOT_RENDERED_NOT_GATE_PASS",
+      "canonical": {
+        "differentPixels": 0,
+        "differentChannelsRGBA": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "maxDeltaRGBA": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "includesHiddenRGB": true
+      },
+      "reopened": {
+        "differentPixels": 0,
+        "differentChannelsRGBA": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "maxDeltaRGBA": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "includesHiddenRGB": true
+      },
+      "decodedRgbaSha256": "9ddd02db7526817fa5fe29a8e4eb5800b0ad26f154fd1fab1bce9cf8915c4b5b",
+      "protectedFaceChangedRGBAChannels": 0,
+      "onlyDeclaredPartsDrawnOnce": true
+    },
+    "B_on_GN_NN": {
+      "recordedStatus": "FAIL_SOURCE_GARMENT_AND_WRIST_INTERFACE",
+      "canonical": {
+        "differentPixels": 0,
+        "differentChannelsRGBA": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "maxDeltaRGBA": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "includesHiddenRGB": true
+      },
+      "reopened": {
+        "differentPixels": 0,
+        "differentChannelsRGBA": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "maxDeltaRGBA": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "includesHiddenRGB": true
+      },
+      "decodedRgbaSha256": "7d5433d6087e363628a05ad781cce00ba003c90ed65d6e816fdf38b6874d838a",
+      "protectedFaceChangedRGBAChannels": 0,
+      "onlyDeclaredPartsDrawnOnce": true
+    }
+  },
+  "failedWrist": {
+    "vectorCount": 1252,
+    "independentScalarCount": 1252,
+    "bodyBoundsInclusive": [
+      605,
+      708,
+      660,
+      764
+    ],
+    "bodyBoundsHalfOpen": [
+      605,
+      708,
+      661,
+      765
+    ],
+    "maximumSignedVerticalDistance": 60.39999999999998,
+    "maximumPerpendicularDistance": 49.481607999350025,
+    "sharedHandCorePixels": 4905,
+    "fractionOfHandCoreCoveredBeyondBand": 0.25524974515800203,
+    "datum": [
+      637,
+      705
+    ],
+    "seamEquation": "y=.7*(x-637)+705",
+    "bandSignedVerticalPixelsEachSide": 10,
+    "bandPerpendicularPixelsEachSide": 8.192319205190405,
+    "datumAlphaHandArmSleeve": [
+      253,
+      0,
+      252
+    ],
+    "handCoreNearLineBoundsInclusive": [
+      620,
+      694,
+      665,
+      725
+    ],
+    "geometricMeasurementsDoNotApproveAnatomicalWrist": true
+  },
+  "sharedGHand": {
+    "path": "assets/A14_hand_L_G.png",
+    "sha256": "722bc28fa8e904acb28148d51e218f52622e58937903f93554e3301c5f539d19",
+    "sameDeclaredFileInBothGPilots": true,
+    "onHasNoBareLArmOrNeutralLHand": true,
+    "offHasNoJacketGArm": true
+  },
+  "occlusionMasks": {
+    "A06_root_tee_occlusion": {
+      "mode": "L",
+      "size": [
+        1024,
+        1536
+      ],
+      "equalsFrozenReceivingCoverageFade": true,
+      "paintedRGB": false
+    },
+    "A10_root_jacket_occlusion": {
+      "mode": "L",
+      "size": [
+        1024,
+        1536
+      ],
+      "equalsFrozenReceivingCoverageFade": true,
+      "paintedRGB": false
+    }
+  },
+  "acceptedNeutralLock": {
+    "candidate": "C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_02",
+    "files": 20,
+    "mismatches": [],
+    "neutralLayerOrdersUnchanged": true
+  },
+  "inventory": {
+    "all32IdsMatchContract": true,
+    "statusCounts": {
+      "OWNER_ACCEPTED_FROZEN": 15,
+      "UNACCEPTED_PILOT_NOT_GATE_PASS": 2,
+      "NOT_AUTHORED_STOP_CONDITION": 14,
+      "FAILED_PILOT_NOT_APPROVED": 1
+    },
+    "presentIncludingFailedDrafts": 18,
+    "missing": [
+      "A07_tee_arm_R_G",
+      "A11_jacket_arm_R_G",
+      "A15_hand_R_G",
+      "A19_pants_leg_L_O",
+      "A20_pants_leg_R_O",
+      "A23_sneaker_L_O",
+      "A24_sneaker_R_O",
+      "A26_brow_L_uneven",
+      "A27_brow_R_uneven",
+      "A28_eye_L_lateral",
+      "A29_eye_R_lateral",
+      "A30_lower_compact",
+      "A31_lower_open",
+      "A32_eye_L_closed"
+    ],
+    "reserves": [],
+    "assetsOnlyDeclaredPartsAndA25Alpha": true
+  },
+  "matrix": {
+    "body": {
+      "count": 24,
+      "statuses": {
+        "PASS_ACCEPTED_NEUTRAL_REPRODUCTION": 2,
+        "NOT_RUN_R5_STOP_CONDITION": 20,
+        "UNACCEPTED_PILOT_RENDERED_NOT_GATE_PASS": 1,
+        "FAIL_SOURCE_GARMENT_AND_WRIST_INTERFACE": 1
+      }
+    },
+    "palette": {
+      "count": 54,
+      "statuses": {
+        "NOT_RUN_R5_STOP_CONDITION": 54
+      }
+    },
+    "isolatedFace": {
+      "count": 120,
+      "statuses": {
+        "NOT_RUN_R5_STOP_CONDITION": 120
+      }
+    },
+    "assembledFace": {
+      "count": 28,
+      "statuses": {
+        "NOT_RUN_R5_STOP_CONDITION": 28
+      }
+    },
+    "negative": {
+      "count": 17,
+      "statuses": {
+        "NOT_RUN_R5_STOP_CONDITION": 17
+      }
+    }
+  },
+  "all243CaseIdsUnique": true,
+  "interfaceMetadata": {
+    "operativePilotDatum": [
+      637,
+      705
+    ],
+    "earlierLGuide": [
+      625,
+      617
+    ],
+    "earlierGuideExplicitlyProvisional": true
+  },
+  "artworkAuthoredRepairedOrModified": false
+}

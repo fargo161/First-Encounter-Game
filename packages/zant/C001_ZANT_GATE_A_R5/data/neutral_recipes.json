@@ -1,0 +1,68 @@
+{
+  "profile": "C001_GATE_A_sRGB8_integer_v1",
+  "recipes": {
+    "B_off_NN_NN": {
+      "view": "front",
+      "armPair": "NN",
+      "legPair": "NN",
+      "jacket": "off",
+      "layerOrder": [
+        "A21_sneaker_L_N",
+        "A22_sneaker_R_N",
+        "A17_pants_leg_L_N",
+        "A18_pants_leg_R_N",
+        "A16_pants_pelvis_NN",
+        "A01_skin_neck",
+        "A25_head_front_neutral",
+        "A04_tee_arm_L_N",
+        "A05_tee_arm_R_N",
+        "A02_tee_torso",
+        "A12_hand_L_N",
+        "A13_hand_R_N"
+      ],
+      "headTranslation": [
+        256,
+        54
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "rotation": 0,
+      "mirror": false,
+      "artStatus": "REVIEW_CANDIDATE_NOT_OWNER_ACCEPTED"
+    },
+    "B_on_NN_NN": {
+      "view": "front",
+      "armPair": "NN",
+      "legPair": "NN",
+      "jacket": "on",
+      "layerOrder": [
+        "A21_sneaker_L_N",
+        "A22_sneaker_R_N",
+        "A17_pants_leg_L_N",
+        "A18_pants_leg_R_N",
+        "A16_pants_pelvis_NN",
+        "A01_skin_neck",
+        "A25_head_front_neutral",
+        "A02_tee_torso",
+        "A12_hand_L_N",
+        "A13_hand_R_N",
+        "A08_jacket_arm_L_N",
+        "A09_jacket_arm_R_N",
+        "A03_jacket_open_torso"
+      ],
+      "headTranslation": [
+        256,
+        54
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "rotation": 0,
+      "mirror": false,
+      "artStatus": "REVIEW_CANDIDATE_NOT_OWNER_ACCEPTED"
+    }
+  }
+}

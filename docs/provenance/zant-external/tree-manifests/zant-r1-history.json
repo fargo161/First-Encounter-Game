@@ -1,0 +1,609 @@
+{
+  "summary": {
+    "id": "zant-r1-history",
+    "role": "historical_failed_work",
+    "source_root": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\C001_ZANT_GATE_A_implementation",
+    "archive_root": "snapshots/zant-r1-history",
+    "file_count": 119,
+    "bytes": 20924201,
+    "tree_sha256": "5bb97814286f2cdcfc4b5c14dd8f3c895fd3ace0b7740350c2b2319f73784b50",
+    "fingerprint_method": "SHA256 of UTF-8 JSON sorted relative paths; keys sorted; compact separators; records path,bytes,sha256"
+  },
+  "files": [
+    {
+      "path": "IMPLEMENTATION_REPORT.md",
+      "bytes": 6360,
+      "sha256": "30bffaeea56a31dde41e5af23130aa96ce73ca98f11a48ba817dfe54cca3cfc0"
+    },
+    {
+      "path": "START_HERE.md",
+      "bytes": 2111,
+      "sha256": "431e3c77b786b41635c6bb07802629852d167dad789407a1b447dc7559f85465"
+    },
+    {
+      "path": "TESTER_INSTRUCTIONS.md",
+      "bytes": 2790,
+      "sha256": "23b3ab446a3a3b2e4674ddf8473d8280b90c5fa9dfc6b744502247f90fe78bd4"
+    },
+    {
+      "path": "assets/STATUS.md",
+      "bytes": 357,
+      "sha256": "7426a769bbf02f7bd429fa6c4748e77ed18c5dbef6dd00535b4af2f6bec08262"
+    },
+    {
+      "path": "author_results/A25_attempt01_measurements.json",
+      "bytes": 2068,
+      "sha256": "7bc2fa6f8ce0efb43528c655b4c9128ef5b3937c3eb613ec04fdf71803fe9147"
+    },
+    {
+      "path": "author_results/EXECUTION_RECORD.md",
+      "bytes": 1562,
+      "sha256": "f2205e8c3d88503d5b8db8fbf81c1be7d0f6cb3534f90c5aefe1e318e90351ac"
+    },
+    {
+      "path": "author_results/browser_smoke.json",
+      "bytes": 1591,
+      "sha256": "d29b41cbefc33ecf7c01b66a9d779a87b605bbc05207ccfe221ab7b2d8f9ffac"
+    },
+    {
+      "path": "author_results/environment.json",
+      "bytes": 690,
+      "sha256": "a94830d6ec0d7b67cb16d5e3185fa1ecafbc68e466e161e98d9e0b706e0dbff9"
+    },
+    {
+      "path": "author_results/run_state.json",
+      "bytes": 507,
+      "sha256": "72f595de715a4a436931e607653d9d996e64e189bc31771658acb357424b8484"
+    },
+    {
+      "path": "author_results/source_baseline.json",
+      "bytes": 130076,
+      "sha256": "908ee68c7ef5e23e7e1be613de37ff93ef1287aa1e08d1f4e8613e240046b650"
+    },
+    {
+      "path": "author_results/source_preservation.json",
+      "bytes": 304,
+      "sha256": "b692747a113d5d94fdc7479ed92019e2a884ae9fd391ab1456fded17a953d095"
+    },
+    {
+      "path": "author_results/stop_record.json",
+      "bytes": 1419,
+      "sha256": "f5736d91ff71a839efa408f40941eb3c3dae676ff9a4dfc67e665999c7250cd5"
+    },
+    {
+      "path": "authoring/generation_record.json",
+      "bytes": 706,
+      "sha256": "33861266bd878c96a567b22b4d630c48f6f59aae314e190ed93afe85171d50a7"
+    },
+    {
+      "path": "authoring/prompts/A25_head_front_neutral.txt",
+      "bytes": 1920,
+      "sha256": "387d2f4b5fb78e777f2c74e54ff103ad8f42674f0c736a91b7e963ef6fe1915c"
+    },
+    {
+      "path": "authoring/raw/A25_attempt01.png",
+      "bytes": 438183,
+      "sha256": "8ebf03ea31d40936aa48764723815db8929a76bb44e7d78d00cef185607cda29"
+    },
+    {
+      "path": "contract/00_GATE_A_IMPLEMENTATION_PREFLIGHT.md",
+      "bytes": 53665,
+      "sha256": "4f63ab38c3d07b48aaf6f2411e849321383f9be1512ef6a45ad4bdec0bf9eac8"
+    },
+    {
+      "path": "contract/04_RECOMMENDED_ZANT_MODULAR_STANDARD_v0_1.md",
+      "bytes": 17059,
+      "sha256": "e730a47ce1aa6c388de035529ceb08197a3c38469ea77202b3628c748964a852"
+    },
+    {
+      "path": "contract/05_FIRST_COMBINATORIAL_CHARACTER_PROOF_SPEC.md",
+      "bytes": 15576,
+      "sha256": "4da9cfef9b2e108c2bf20cc639f90ed1e2afdd4352aa3dd597af72fb2c86339e"
+    },
+    {
+      "path": "contract/COMPOSITION_STATUS.md",
+      "bytes": 449,
+      "sha256": "6fadf7db73eb299412fb0bd19ef1d97382fc71e4d32108c87571ed34fbb72e11"
+    },
+    {
+      "path": "contract/OWNER_APPROVAL.md",
+      "bytes": 1192,
+      "sha256": "267a7ca7fdcc4a3627026145ce1e87f856b7f0dafd5cc966bfe5035fba3a658e"
+    },
+    {
+      "path": "contract/OWNER_STEERING_FACE_SCOPE.md",
+      "bytes": 1181,
+      "sha256": "8fb371db130b1681824c1f2f50931694ab8bd66e1cf034651c83addcfa540e03"
+    },
+    {
+      "path": "contract/READING_NOTES.md",
+      "bytes": 898,
+      "sha256": "f2b5b211fb08c726ee2a5aba84c0f9bec4f8f4bfc05402f49ac875144a31d69a"
+    },
+    {
+      "path": "data/calibration.json",
+      "bytes": 1686,
+      "sha256": "fad31334fef28eee4a0b71bbf28e5a695e2e19c5959ab06815946cca312e300f"
+    },
+    {
+      "path": "data/face_plan.json",
+      "bytes": 631,
+      "sha256": "50996cea3bf023b19a68c395154cabec5ffb42b3e7ceaabfcebe30cf71755915"
+    },
+    {
+      "path": "data/required_matrix.json",
+      "bytes": 58599,
+      "sha256": "224ef0fe47dbc1ce392f26988bdc6fca04a3e8eb1572c5ca3f8c6f6772eb789d"
+    },
+    {
+      "path": "data/surface_ledger.json",
+      "bytes": 9299,
+      "sha256": "0fa3f6e24c355be2d5651fc99c715f964bd89956692e69def84ccb9a85a28198"
+    },
+    {
+      "path": "deliverables/C001_R1_fresh_extraction_verification.json",
+      "bytes": 1077,
+      "sha256": "3d3f52160af1e6a354ff662db3c00804aedfb4050240e1330ad958078cdd9cd5"
+    },
+    {
+      "path": "deliverables/C001_R1_frozen_packet_verification.json",
+      "bytes": 1077,
+      "sha256": "3d3f52160af1e6a354ff662db3c00804aedfb4050240e1330ad958078cdd9cd5"
+    },
+    {
+      "path": "deliverables/C001_ZANT_GATE_A_R1_FAILED.zip",
+      "bytes": 4990093,
+      "sha256": "8642645a1d7ab7cce49a3c7ca4e108727d5a46a516710548147cdfa9e7a988f4"
+    },
+    {
+      "path": "deliverables/C001_ZANT_GATE_A_R1_FAILED/IMPLEMENTATION_REPORT.md",
+      "bytes": 6360,
+      "sha256": "30bffaeea56a31dde41e5af23130aa96ce73ca98f11a48ba817dfe54cca3cfc0"
+    },
+    {
+      "path": "deliverables/C001_ZANT_GATE_A_R1_FAILED/START_HERE.md",
+      "bytes": 2111,
+      "sha256": "431e3c77b786b41635c6bb07802629852d167dad789407a1b447dc7559f85465"
+    },
+    {
+      "path": "deliverables/C001_ZANT_GATE_A_R1_FAILED/TESTER_INSTRUCTIONS.md",
+      "bytes": 2790,
+      "sha256": "23b3ab446a3a3b2e4674ddf8473d8280b90c5fa9dfc6b744502247f90fe78bd4"
+    },
+    {
+      "path": "deliverables/C001_ZANT_GATE_A_R1_FAILED/assets/STATUS.md",
+      "bytes": 357,
+      "sha256": "7426a769bbf02f7bd429fa6c4748e77ed18c5dbef6dd00535b4af2f6bec08262"
+    },
+    {
+      "path": "deliverables/C001_ZANT_GATE_A_R1_FAILED/author_results/A25_attempt01_measurements.json",
+      "bytes": 2068,
+      "sha256": "7bc2fa6f8ce0efb43528c655b4c9128ef5b3937c3eb613ec04fdf71803fe9147"
+    },
+    {
+      "path": "deliverables/C001_ZANT_GATE_A_R1_FAILED/author_results/EXECUTION_RECORD.md",
+      "bytes": 1562,
+      "sha256": "f2205e8c3d88503d5b8db8fbf81c1be7d0f6cb3534f90c5aefe1e318e90351ac"
+    },
+    {
+      "path": "deliverables/C001_ZANT_GATE_A_R1_FAILED/author_results/browser_smoke.json",
+      "bytes": 1591,
+      "sha256": "d29b41cbefc33ecf7c01b66a9d779a87b605bbc05207ccfe221ab7b2d8f9ffac"
+    },
+    {
+      "path": "deliverables/C001_ZANT_GATE_A_R1_FAILED/author_results/environment.json",
+      "bytes": 690,
+      "sha256": "a94830d6ec0d7b67cb16d5e3185fa1ecafbc68e466e161e98d9e0b706e0dbff9"
+    },
+    {
+      "path": "deliverables/C001_ZANT_GATE_A_R1_FAILED/author_results/run_state.json",
+      "bytes": 507,
+      "sha256": "72f595de715a4a436931e607653d9d996e64e189bc31771658acb357424b8484"
+    },
+    {
+      "path": "deliverables/C001_ZANT_GATE_A_R1_FAILED/author_results/source_baseline.json",
+      "bytes": 130076,
+      "sha256": "908ee68c7ef5e23e7e1be613de37ff93ef1287aa1e08d1f4e8613e240046b650"
+    },
+    {
+      "path": "deliverables/C001_ZANT_GATE_A_R1_FAILED/author_results/source_preservation.json",
+      "bytes": 304,
+      "sha256": "b692747a113d5d94fdc7479ed92019e2a884ae9fd391ab1456fded17a953d095"
+    },
+    {
+      "path": "deliverables/C001_ZANT_GATE_A_R1_FAILED/author_results/stop_record.json",
+      "bytes": 1419,
+      "sha256": "f5736d91ff71a839efa408f40941eb3c3dae676ff9a4dfc67e665999c7250cd5"
+    },
+    {
+      "path": "deliverables/C001_ZANT_GATE_A_R1_FAILED/authoring/generation_record.json",
+      "bytes": 706,
+      "sha256": "33861266bd878c96a567b22b4d630c48f6f59aae314e190ed93afe85171d50a7"
+    },
+    {
+      "path": "deliverables/C001_ZANT_GATE_A_R1_FAILED/authoring/prompts/A25_head_front_neutral.txt",
+      "bytes": 1920,
+      "sha256": "387d2f4b5fb78e777f2c74e54ff103ad8f42674f0c736a91b7e963ef6fe1915c"
+    },
+    {
+      "path": "deliverables/C001_ZANT_GATE_A_R1_FAILED/authoring/raw/A25_attempt01.png",
+      "bytes": 438183,
+      "sha256": "8ebf03ea31d40936aa48764723815db8929a76bb44e7d78d00cef185607cda29"
+    },
+    {
+      "path": "deliverables/C001_ZANT_GATE_A_R1_FAILED/contract/00_GATE_A_IMPLEMENTATION_PREFLIGHT.md",
+      "bytes": 53665,
+      "sha256": "4f63ab38c3d07b48aaf6f2411e849321383f9be1512ef6a45ad4bdec0bf9eac8"
+    },
+    {
+      "path": "deliverables/C001_ZANT_GATE_A_R1_FAILED/contract/04_RECOMMENDED_ZANT_MODULAR_STANDARD_v0_1.md",
+      "bytes": 17059,
+      "sha256": "e730a47ce1aa6c388de035529ceb08197a3c38469ea77202b3628c748964a852"
+    },
+    {
+      "path": "deliverables/C001_ZANT_GATE_A_R1_FAILED/contract/05_FIRST_COMBINATORIAL_CHARACTER_PROOF_SPEC.md",
+      "bytes": 15576,
+      "sha256": "4da9cfef9b2e108c2bf20cc639f90ed1e2afdd4352aa3dd597af72fb2c86339e"
+    },
+    {
+      "path": "deliverables/C001_ZANT_GATE_A_R1_FAILED/contract/COMPOSITION_STATUS.md",
+      "bytes": 449,
+      "sha256": "6fadf7db73eb299412fb0bd19ef1d97382fc71e4d32108c87571ed34fbb72e11"
+    },
+    {
+      "path": "deliverables/C001_ZANT_GATE_A_R1_FAILED/contract/OWNER_APPROVAL.md",
+      "bytes": 1192,
+      "sha256": "267a7ca7fdcc4a3627026145ce1e87f856b7f0dafd5cc966bfe5035fba3a658e"
+    },
+    {
+      "path": "deliverables/C001_ZANT_GATE_A_R1_FAILED/contract/OWNER_STEERING_FACE_SCOPE.md",
+      "bytes": 1181,
+      "sha256": "8fb371db130b1681824c1f2f50931694ab8bd66e1cf034651c83addcfa540e03"
+    },
+    {
+      "path": "deliverables/C001_ZANT_GATE_A_R1_FAILED/contract/READING_NOTES.md",
+      "bytes": 898,
+      "sha256": "f2b5b211fb08c726ee2a5aba84c0f9bec4f8f4bfc05402f49ac875144a31d69a"
+    },
+    {
+      "path": "deliverables/C001_ZANT_GATE_A_R1_FAILED/data/calibration.json",
+      "bytes": 1686,
+      "sha256": "fad31334fef28eee4a0b71bbf28e5a695e2e19c5959ab06815946cca312e300f"
+    },
+    {
+      "path": "deliverables/C001_ZANT_GATE_A_R1_FAILED/data/face_plan.json",
+      "bytes": 631,
+      "sha256": "50996cea3bf023b19a68c395154cabec5ffb42b3e7ceaabfcebe30cf71755915"
+    },
+    {
+      "path": "deliverables/C001_ZANT_GATE_A_R1_FAILED/data/required_matrix.json",
+      "bytes": 58599,
+      "sha256": "224ef0fe47dbc1ce392f26988bdc6fca04a3e8eb1572c5ca3f8c6f6772eb789d"
+    },
+    {
+      "path": "deliverables/C001_ZANT_GATE_A_R1_FAILED/data/surface_ledger.json",
+      "bytes": 9299,
+      "sha256": "0fa3f6e24c355be2d5651fc99c715f964bd89956692e69def84ccb9a85a28198"
+    },
+    {
+      "path": "deliverables/C001_ZANT_GATE_A_R1_FAILED/expected/STATUS.md",
+      "bytes": 347,
+      "sha256": "d086ffd1398ee0b025bc6d0f91bd65c8d744258cb07b236554a9866f270b62f8"
+    },
+    {
+      "path": "deliverables/C001_ZANT_GATE_A_R1_FAILED/manifest.json",
+      "bytes": 7169,
+      "sha256": "4fe7fd084d5858412fceadde20b1d4f99ea8714bef294a0cf1634cdc845b752f"
+    },
+    {
+      "path": "deliverables/C001_ZANT_GATE_A_R1_FAILED/references/C001_clothing_inventory_rgba.png",
+      "bytes": 692810,
+      "sha256": "9a02bf9c5b80581d0ecba558521cf6d7eccce2eb1114632ca54f4cc1540554cb"
+    },
+    {
+      "path": "deliverables/C001_ZANT_GATE_A_R1_FAILED/references/C001_fit_calibration_rgba.png",
+      "bytes": 510309,
+      "sha256": "add7415be15d664ba04b205846ca7d1e7a82bf3a27e243403bf7fffaf790e4f1"
+    },
+    {
+      "path": "deliverables/C001_ZANT_GATE_A_R1_FAILED/references/C001_modular_kit_plate_rgba.png",
+      "bytes": 1886333,
+      "sha256": "36970230e64dc438fcaaa237e3fb07d424721dd73a03f591704cb97348b63aba"
+    },
+    {
+      "path": "deliverables/C001_ZANT_GATE_A_R1_FAILED/references/C001_neutral_composite_rgba.png",
+      "bytes": 743302,
+      "sha256": "e8319df52dfb1355107cd4a0d773db4117309cfb2c3f2cb76825ab1ee29a4c3f"
+    },
+    {
+      "path": "deliverables/C001_ZANT_GATE_A_R1_FAILED/references/C001_source_neutral_rgba.png",
+      "bytes": 688551,
+      "sha256": "f651af252d32fd7a0870d254faab31ec63e4f620a42492641b834fd76274e0db"
+    },
+    {
+      "path": "deliverables/C001_ZANT_GATE_A_R1_FAILED/references/GOOSE_FAILURE_REFERENCE.md",
+      "bytes": 854,
+      "sha256": "ea16e2b0299accdec2eb9c88309bdf061b6d6f42048c25d2453ac2df9a084203"
+    },
+    {
+      "path": "deliverables/C001_ZANT_GATE_A_R1_FAILED/references/provenance.json",
+      "bytes": 3270,
+      "sha256": "febfce277adf7a6b61a2b48cc275272534cbbba40dd61db19a9e44256b73588c"
+    },
+    {
+      "path": "deliverables/C001_ZANT_GATE_A_R1_FAILED/validation/verify_failure_checkpoint.py",
+      "bytes": 6910,
+      "sha256": "9e09b871ee64d4e7a9f07774fc61c084792f19e7f72857fd2673990c89433230"
+    },
+    {
+      "path": "deliverables/C001_ZANT_GATE_A_R1_FAILED/viewer/index.html",
+      "bytes": 7683,
+      "sha256": "0fcfe6ccccfd033b5465cce5ca1800992b3b80630e28c1f44a03a272d47899f1"
+    },
+    {
+      "path": "deliverables/FREEZE_RECEIPT.json",
+      "bytes": 595,
+      "sha256": "4d4c38bb53b663d811ffb90d976517d670eeaa8b633955a1069df51e3ce4abbd"
+    },
+    {
+      "path": "deliverables/OWNER_HANDOFF.md",
+      "bytes": 1997,
+      "sha256": "65302337a6a117f004f7102feafa572e40eecbc012b73ec64076580fc1b602b3"
+    },
+    {
+      "path": "deliverables/SHA256SUMS.txt",
+      "bytes": 206,
+      "sha256": "04521a96814354b018d390a6ed8f9307b68cc73cfcbb89cd089b275979010bc7"
+    },
+    {
+      "path": "deliverables/fresh_extraction_verification/C001_ZANT_GATE_A_R1_FAILED/IMPLEMENTATION_REPORT.md",
+      "bytes": 6360,
+      "sha256": "30bffaeea56a31dde41e5af23130aa96ce73ca98f11a48ba817dfe54cca3cfc0"
+    },
+    {
+      "path": "deliverables/fresh_extraction_verification/C001_ZANT_GATE_A_R1_FAILED/START_HERE.md",
+      "bytes": 2111,
+      "sha256": "431e3c77b786b41635c6bb07802629852d167dad789407a1b447dc7559f85465"
+    },
+    {
+      "path": "deliverables/fresh_extraction_verification/C001_ZANT_GATE_A_R1_FAILED/TESTER_INSTRUCTIONS.md",
+      "bytes": 2790,
+      "sha256": "23b3ab446a3a3b2e4674ddf8473d8280b90c5fa9dfc6b744502247f90fe78bd4"
+    },
+    {
+      "path": "deliverables/fresh_extraction_verification/C001_ZANT_GATE_A_R1_FAILED/assets/STATUS.md",
+      "bytes": 357,
+      "sha256": "7426a769bbf02f7bd429fa6c4748e77ed18c5dbef6dd00535b4af2f6bec08262"
+    },
+    {
+      "path": "deliverables/fresh_extraction_verification/C001_ZANT_GATE_A_R1_FAILED/author_results/A25_attempt01_measurements.json",
+      "bytes": 2068,
+      "sha256": "7bc2fa6f8ce0efb43528c655b4c9128ef5b3937c3eb613ec04fdf71803fe9147"
+    },
+    {
+      "path": "deliverables/fresh_extraction_verification/C001_ZANT_GATE_A_R1_FAILED/author_results/EXECUTION_RECORD.md",
+      "bytes": 1562,
+      "sha256": "f2205e8c3d88503d5b8db8fbf81c1be7d0f6cb3534f90c5aefe1e318e90351ac"
+    },
+    {
+      "path": "deliverables/fresh_extraction_verification/C001_ZANT_GATE_A_R1_FAILED/author_results/browser_smoke.json",
+      "bytes": 1591,
+      "sha256": "d29b41cbefc33ecf7c01b66a9d779a87b605bbc05207ccfe221ab7b2d8f9ffac"
+    },
+    {
+      "path": "deliverables/fresh_extraction_verification/C001_ZANT_GATE_A_R1_FAILED/author_results/environment.json",
+      "bytes": 690,
+      "sha256": "a94830d6ec0d7b67cb16d5e3185fa1ecafbc68e466e161e98d9e0b706e0dbff9"
+    },
+    {
+      "path": "deliverables/fresh_extraction_verification/C001_ZANT_GATE_A_R1_FAILED/author_results/run_state.json",
+      "bytes": 507,
+      "sha256": "72f595de715a4a436931e607653d9d996e64e189bc31771658acb357424b8484"
+    },
+    {
+      "path": "deliverables/fresh_extraction_verification/C001_ZANT_GATE_A_R1_FAILED/author_results/source_baseline.json",
+      "bytes": 130076,
+      "sha256": "908ee68c7ef5e23e7e1be613de37ff93ef1287aa1e08d1f4e8613e240046b650"
+    },
+    {
+      "path": "deliverables/fresh_extraction_verification/C001_ZANT_GATE_A_R1_FAILED/author_results/source_preservation.json",
+      "bytes": 304,
+      "sha256": "b692747a113d5d94fdc7479ed92019e2a884ae9fd391ab1456fded17a953d095"
+    },
+    {
+      "path": "deliverables/fresh_extraction_verification/C001_ZANT_GATE_A_R1_FAILED/author_results/stop_record.json",
+      "bytes": 1419,
+      "sha256": "f5736d91ff71a839efa408f40941eb3c3dae676ff9a4dfc67e665999c7250cd5"
+    },
+    {
+      "path": "deliverables/fresh_extraction_verification/C001_ZANT_GATE_A_R1_FAILED/authoring/generation_record.json",
+      "bytes": 706,
+      "sha256": "33861266bd878c96a567b22b4d630c48f6f59aae314e190ed93afe85171d50a7"
+    },
+    {
+      "path": "deliverables/fresh_extraction_verification/C001_ZANT_GATE_A_R1_FAILED/authoring/prompts/A25_head_front_neutral.txt",
+      "bytes": 1920,
+      "sha256": "387d2f4b5fb78e777f2c74e54ff103ad8f42674f0c736a91b7e963ef6fe1915c"
+    },
+    {
+      "path": "deliverables/fresh_extraction_verification/C001_ZANT_GATE_A_R1_FAILED/authoring/raw/A25_attempt01.png",
+      "bytes": 438183,
+      "sha256": "8ebf03ea31d40936aa48764723815db8929a76bb44e7d78d00cef185607cda29"
+    },
+    {
+      "path": "deliverables/fresh_extraction_verification/C001_ZANT_GATE_A_R1_FAILED/contract/00_GATE_A_IMPLEMENTATION_PREFLIGHT.md",
+      "bytes": 53665,
+      "sha256": "4f63ab38c3d07b48aaf6f2411e849321383f9be1512ef6a45ad4bdec0bf9eac8"
+    },
+    {
+      "path": "deliverables/fresh_extraction_verification/C001_ZANT_GATE_A_R1_FAILED/contract/04_RECOMMENDED_ZANT_MODULAR_STANDARD_v0_1.md",
+      "bytes": 17059,
+      "sha256": "e730a47ce1aa6c388de035529ceb08197a3c38469ea77202b3628c748964a852"
+    },
+    {
+      "path": "deliverables/fresh_extraction_verification/C001_ZANT_GATE_A_R1_FAILED/contract/05_FIRST_COMBINATORIAL_CHARACTER_PROOF_SPEC.md",
+      "bytes": 15576,
+      "sha256": "4da9cfef9b2e108c2bf20cc639f90ed1e2afdd4352aa3dd597af72fb2c86339e"
+    },
+    {
+      "path": "deliverables/fresh_extraction_verification/C001_ZANT_GATE_A_R1_FAILED/contract/COMPOSITION_STATUS.md",
+      "bytes": 449,
+      "sha256": "6fadf7db73eb299412fb0bd19ef1d97382fc71e4d32108c87571ed34fbb72e11"
+    },
+    {
+      "path": "deliverables/fresh_extraction_verification/C001_ZANT_GATE_A_R1_FAILED/contract/OWNER_APPROVAL.md",
+      "bytes": 1192,
+      "sha256": "267a7ca7fdcc4a3627026145ce1e87f856b7f0dafd5cc966bfe5035fba3a658e"
+    },
+    {
+      "path": "deliverables/fresh_extraction_verification/C001_ZANT_GATE_A_R1_FAILED/contract/OWNER_STEERING_FACE_SCOPE.md",
+      "bytes": 1181,
+      "sha256": "8fb371db130b1681824c1f2f50931694ab8bd66e1cf034651c83addcfa540e03"
+    },
+    {
+      "path": "deliverables/fresh_extraction_verification/C001_ZANT_GATE_A_R1_FAILED/contract/READING_NOTES.md",
+      "bytes": 898,
+      "sha256": "f2b5b211fb08c726ee2a5aba84c0f9bec4f8f4bfc05402f49ac875144a31d69a"
+    },
+    {
+      "path": "deliverables/fresh_extraction_verification/C001_ZANT_GATE_A_R1_FAILED/data/calibration.json",
+      "bytes": 1686,
+      "sha256": "fad31334fef28eee4a0b71bbf28e5a695e2e19c5959ab06815946cca312e300f"
+    },
+    {
+      "path": "deliverables/fresh_extraction_verification/C001_ZANT_GATE_A_R1_FAILED/data/face_plan.json",
+      "bytes": 631,
+      "sha256": "50996cea3bf023b19a68c395154cabec5ffb42b3e7ceaabfcebe30cf71755915"
+    },
+    {
+      "path": "deliverables/fresh_extraction_verification/C001_ZANT_GATE_A_R1_FAILED/data/required_matrix.json",
+      "bytes": 58599,
+      "sha256": "224ef0fe47dbc1ce392f26988bdc6fca04a3e8eb1572c5ca3f8c6f6772eb789d"
+    },
+    {
+      "path": "deliverables/fresh_extraction_verification/C001_ZANT_GATE_A_R1_FAILED/data/surface_ledger.json",
+      "bytes": 9299,
+      "sha256": "0fa3f6e24c355be2d5651fc99c715f964bd89956692e69def84ccb9a85a28198"
+    },
+    {
+      "path": "deliverables/fresh_extraction_verification/C001_ZANT_GATE_A_R1_FAILED/expected/STATUS.md",
+      "bytes": 347,
+      "sha256": "d086ffd1398ee0b025bc6d0f91bd65c8d744258cb07b236554a9866f270b62f8"
+    },
+    {
+      "path": "deliverables/fresh_extraction_verification/C001_ZANT_GATE_A_R1_FAILED/manifest.json",
+      "bytes": 7169,
+      "sha256": "4fe7fd084d5858412fceadde20b1d4f99ea8714bef294a0cf1634cdc845b752f"
+    },
+    {
+      "path": "deliverables/fresh_extraction_verification/C001_ZANT_GATE_A_R1_FAILED/references/C001_clothing_inventory_rgba.png",
+      "bytes": 692810,
+      "sha256": "9a02bf9c5b80581d0ecba558521cf6d7eccce2eb1114632ca54f4cc1540554cb"
+    },
+    {
+      "path": "deliverables/fresh_extraction_verification/C001_ZANT_GATE_A_R1_FAILED/references/C001_fit_calibration_rgba.png",
+      "bytes": 510309,
+      "sha256": "add7415be15d664ba04b205846ca7d1e7a82bf3a27e243403bf7fffaf790e4f1"
+    },
+    {
+      "path": "deliverables/fresh_extraction_verification/C001_ZANT_GATE_A_R1_FAILED/references/C001_modular_kit_plate_rgba.png",
+      "bytes": 1886333,
+      "sha256": "36970230e64dc438fcaaa237e3fb07d424721dd73a03f591704cb97348b63aba"
+    },
+    {
+      "path": "deliverables/fresh_extraction_verification/C001_ZANT_GATE_A_R1_FAILED/references/C001_neutral_composite_rgba.png",
+      "bytes": 743302,
+      "sha256": "e8319df52dfb1355107cd4a0d773db4117309cfb2c3f2cb76825ab1ee29a4c3f"
+    },
+    {
+      "path": "deliverables/fresh_extraction_verification/C001_ZANT_GATE_A_R1_FAILED/references/C001_source_neutral_rgba.png",
+      "bytes": 688551,
+      "sha256": "f651af252d32fd7a0870d254faab31ec63e4f620a42492641b834fd76274e0db"
+    },
+    {
+      "path": "deliverables/fresh_extraction_verification/C001_ZANT_GATE_A_R1_FAILED/references/GOOSE_FAILURE_REFERENCE.md",
+      "bytes": 854,
+      "sha256": "ea16e2b0299accdec2eb9c88309bdf061b6d6f42048c25d2453ac2df9a084203"
+    },
+    {
+      "path": "deliverables/fresh_extraction_verification/C001_ZANT_GATE_A_R1_FAILED/references/provenance.json",
+      "bytes": 3270,
+      "sha256": "febfce277adf7a6b61a2b48cc275272534cbbba40dd61db19a9e44256b73588c"
+    },
+    {
+      "path": "deliverables/fresh_extraction_verification/C001_ZANT_GATE_A_R1_FAILED/validation/verify_failure_checkpoint.py",
+      "bytes": 6910,
+      "sha256": "9e09b871ee64d4e7a9f07774fc61c084792f19e7f72857fd2673990c89433230"
+    },
+    {
+      "path": "deliverables/fresh_extraction_verification/C001_ZANT_GATE_A_R1_FAILED/viewer/index.html",
+      "bytes": 7683,
+      "sha256": "0fcfe6ccccfd033b5465cce5ca1800992b3b80630e28c1f44a03a272d47899f1"
+    },
+    {
+      "path": "expected/STATUS.md",
+      "bytes": 347,
+      "sha256": "d086ffd1398ee0b025bc6d0f91bd65c8d744258cb07b236554a9866f270b62f8"
+    },
+    {
+      "path": "freeze_failure.py",
+      "bytes": 7223,
+      "sha256": "3d37fe23638c36830af576cad746ee5c1f456d66a37080992af082ace1c25ef6"
+    },
+    {
+      "path": "initialize.py",
+      "bytes": 3881,
+      "sha256": "ed1064a76c1f1683b7c7b0604ba5f38363193428000f827f24e1d03551f92fc5"
+    },
+    {
+      "path": "prepare_failure.py",
+      "bytes": 29970,
+      "sha256": "b442e4c0df1a1c14d7603da2131a75817576a5ffcd191c665e77a4c49cdfcc5c"
+    },
+    {
+      "path": "references/C001_clothing_inventory_rgba.png",
+      "bytes": 692810,
+      "sha256": "9a02bf9c5b80581d0ecba558521cf6d7eccce2eb1114632ca54f4cc1540554cb"
+    },
+    {
+      "path": "references/C001_fit_calibration_rgba.png",
+      "bytes": 510309,
+      "sha256": "add7415be15d664ba04b205846ca7d1e7a82bf3a27e243403bf7fffaf790e4f1"
+    },
+    {
+      "path": "references/C001_modular_kit_plate_rgba.png",
+      "bytes": 1886333,
+      "sha256": "36970230e64dc438fcaaa237e3fb07d424721dd73a03f591704cb97348b63aba"
+    },
+    {
+      "path": "references/C001_neutral_composite_rgba.png",
+      "bytes": 743302,
+      "sha256": "e8319df52dfb1355107cd4a0d773db4117309cfb2c3f2cb76825ab1ee29a4c3f"
+    },
+    {
+      "path": "references/C001_source_neutral_rgba.png",
+      "bytes": 688551,
+      "sha256": "f651af252d32fd7a0870d254faab31ec63e4f620a42492641b834fd76274e0db"
+    },
+    {
+      "path": "references/GOOSE_FAILURE_REFERENCE.md",
+      "bytes": 854,
+      "sha256": "ea16e2b0299accdec2eb9c88309bdf061b6d6f42048c25d2453ac2df9a084203"
+    },
+    {
+      "path": "references/provenance.json",
+      "bytes": 3270,
+      "sha256": "febfce277adf7a6b61a2b48cc275272534cbbba40dd61db19a9e44256b73588c"
+    },
+    {
+      "path": "validation/verify_failure_checkpoint.py",
+      "bytes": 6910,
+      "sha256": "9e09b871ee64d4e7a9f07774fc61c084792f19e7f72857fd2673990c89433230"
+    },
+    {
+      "path": "viewer/index.html",
+      "bytes": 7683,
+      "sha256": "0fcfe6ccccfd033b5465cce5ca1800992b3b80630e28c1f44a03a272d47899f1"
+    }
+  ]
+}

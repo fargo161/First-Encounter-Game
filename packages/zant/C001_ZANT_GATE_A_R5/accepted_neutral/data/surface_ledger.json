@@ -1,0 +1,234 @@
+{
+  "baseline": 32,
+  "maxLiningOcclusionReserve": 4,
+  "maxPelvisReserve": 2,
+  "gateAMaximum": 38,
+  "surfaces": [
+    {
+      "id": "A01_skin_neck",
+      "description": "Minimal neck/upper-chest underplate and head bridge",
+      "derivation": "D",
+      "status": "REVIEW_CANDIDATE_NOT_OWNER_ACCEPTED",
+      "path": "assets/A01_skin_neck.png"
+    },
+    {
+      "id": "A02_tee_torso",
+      "description": "Tee central torso, neckline and hem",
+      "derivation": "D",
+      "status": "REVIEW_CANDIDATE_NOT_OWNER_ACCEPTED",
+      "path": "assets/A02_tee_torso.png"
+    },
+    {
+      "id": "A03_jacket_open_torso",
+      "description": "Open jacket central torso, both front panels and collar at one draw depth",
+      "derivation": "D",
+      "status": "REVIEW_CANDIDATE_NOT_OWNER_ACCEPTED",
+      "path": "assets/A03_jacket_open_torso.png"
+    },
+    {
+      "id": "A04_tee_arm_L_N",
+      "description": "Whole short-sleeve/exposed-skin L arm, N, shoulder to wrist",
+      "derivation": "N",
+      "status": "REVIEW_CANDIDATE_NOT_OWNER_ACCEPTED",
+      "path": "assets/A04_tee_arm_L_N.png"
+    },
+    {
+      "id": "A05_tee_arm_R_N",
+      "description": "Whole short-sleeve/exposed-skin R arm, N",
+      "derivation": "N",
+      "status": "REVIEW_CANDIDATE_NOT_OWNER_ACCEPTED",
+      "path": "assets/A05_tee_arm_R_N.png"
+    },
+    {
+      "id": "A06_tee_arm_L_G",
+      "description": "Whole short-sleeve/exposed-skin L arm, G",
+      "derivation": "N",
+      "status": "NOT_AUTHORED_R4_NEUTRAL_HOLD",
+      "path": null
+    },
+    {
+      "id": "A07_tee_arm_R_G",
+      "description": "Whole short-sleeve/exposed-skin R arm, G",
+      "derivation": "N",
+      "status": "NOT_AUTHORED_R4_NEUTRAL_HOLD",
+      "path": null
+    },
+    {
+      "id": "A08_jacket_arm_L_N",
+      "description": "Whole jacket L sleeve, N, shoulder to wrist/cuff",
+      "derivation": "D",
+      "status": "REVIEW_CANDIDATE_NOT_OWNER_ACCEPTED",
+      "path": "assets/A08_jacket_arm_L_N.png"
+    },
+    {
+      "id": "A09_jacket_arm_R_N",
+      "description": "Whole jacket R sleeve, N",
+      "derivation": "D",
+      "status": "REVIEW_CANDIDATE_NOT_OWNER_ACCEPTED",
+      "path": "assets/A09_jacket_arm_R_N.png"
+    },
+    {
+      "id": "A10_jacket_arm_L_G",
+      "description": "Whole jacket L sleeve, G",
+      "derivation": "N",
+      "status": "NOT_AUTHORED_R4_NEUTRAL_HOLD",
+      "path": null
+    },
+    {
+      "id": "A11_jacket_arm_R_G",
+      "description": "Whole jacket R sleeve, G",
+      "derivation": "N",
+      "status": "NOT_AUTHORED_R4_NEUTRAL_HOLD",
+      "path": null
+    },
+    {
+      "id": "A12_hand_L_N",
+      "description": "L hand matching N wrist; shared by both outfits",
+      "derivation": "D",
+      "status": "REVIEW_CANDIDATE_NOT_OWNER_ACCEPTED",
+      "path": "assets/A12_hand_L_N.png"
+    },
+    {
+      "id": "A13_hand_R_N",
+      "description": "R hand matching N wrist; shared by both outfits",
+      "derivation": "D",
+      "status": "REVIEW_CANDIDATE_NOT_OWNER_ACCEPTED",
+      "path": "assets/A13_hand_R_N.png"
+    },
+    {
+      "id": "A14_hand_L_G",
+      "description": "L relaxed open hand matching G wrist; shared by both outfits",
+      "derivation": "N",
+      "status": "NOT_AUTHORED_R4_NEUTRAL_HOLD",
+      "path": null
+    },
+    {
+      "id": "A15_hand_R_G",
+      "description": "R relaxed open hand matching G wrist; shared by both outfits",
+      "derivation": "N",
+      "status": "NOT_AUTHORED_R4_NEUTRAL_HOLD",
+      "path": null
+    },
+    {
+      "id": "A16_pants_pelvis_NN",
+      "description": "Default trouser waist/pelvis, including crotch join coverage",
+      "derivation": "D",
+      "status": "REVIEW_CANDIDATE_NOT_OWNER_ACCEPTED",
+      "path": "assets/A16_pants_pelvis_NN.png"
+    },
+    {
+      "id": "A17_pants_leg_L_N",
+      "description": "Whole L trouser leg, N, hip to ankle",
+      "derivation": "D",
+      "status": "REVIEW_CANDIDATE_NOT_OWNER_ACCEPTED",
+      "path": "assets/A17_pants_leg_L_N.png"
+    },
+    {
+      "id": "A18_pants_leg_R_N",
+      "description": "Whole R trouser leg, N",
+      "derivation": "D",
+      "status": "REVIEW_CANDIDATE_NOT_OWNER_ACCEPTED",
+      "path": "assets/A18_pants_leg_R_N.png"
+    },
+    {
+      "id": "A19_pants_leg_L_O",
+      "description": "Whole L trouser leg, O",
+      "derivation": "N",
+      "status": "NOT_AUTHORED_R4_NEUTRAL_HOLD",
+      "path": null
+    },
+    {
+      "id": "A20_pants_leg_R_O",
+      "description": "Whole R trouser leg, O",
+      "derivation": "N",
+      "status": "NOT_AUTHORED_R4_NEUTRAL_HOLD",
+      "path": null
+    },
+    {
+      "id": "A21_sneaker_L_N",
+      "description": "L sneaker/foot matching N ankle and contact",
+      "derivation": "D",
+      "status": "REVIEW_CANDIDATE_NOT_OWNER_ACCEPTED",
+      "path": "assets/A21_sneaker_L_N.png"
+    },
+    {
+      "id": "A22_sneaker_R_N",
+      "description": "R sneaker/foot matching N ankle and contact",
+      "derivation": "D",
+      "status": "REVIEW_CANDIDATE_NOT_OWNER_ACCEPTED",
+      "path": "assets/A22_sneaker_R_N.png"
+    },
+    {
+      "id": "A23_sneaker_L_O",
+      "description": "L sneaker/foot matching O ankle/contact",
+      "derivation": "N",
+      "status": "NOT_AUTHORED_R4_NEUTRAL_HOLD",
+      "path": null
+    },
+    {
+      "id": "A24_sneaker_R_O",
+      "description": "R sneaker/foot matching O ankle/contact",
+      "derivation": "N",
+      "status": "NOT_AUTHORED_R4_NEUTRAL_HOLD",
+      "path": null
+    },
+    {
+      "id": "A25_head_front_neutral",
+      "description": "Wardrobe-free C001 front head with all neutral facial features",
+      "derivation": "D",
+      "status": "owner_accepted_immutable",
+      "path": "assets/A25_head_front_neutral_rgba.png"
+    },
+    {
+      "id": "A26_brow_L_uneven",
+      "description": "Independent L brow raised/arched component",
+      "derivation": "N",
+      "status": "NOT_AUTHORED_R4_NEUTRAL_HOLD",
+      "path": null
+    },
+    {
+      "id": "A27_brow_R_uneven",
+      "description": "Independent R brow lowered/knit component",
+      "derivation": "N",
+      "status": "NOT_AUTHORED_R4_NEUTRAL_HOLD",
+      "path": null
+    },
+    {
+      "id": "A28_eye_L_lateral",
+      "description": "L eye/eyelids plus one coherent lateral gaze",
+      "derivation": "N",
+      "status": "NOT_AUTHORED_R4_NEUTRAL_HOLD",
+      "path": null
+    },
+    {
+      "id": "A29_eye_R_lateral",
+      "description": "R eye/eyelids, same lateral attention target",
+      "derivation": "N",
+      "status": "NOT_AUTHORED_R4_NEUTRAL_HOLD",
+      "path": null
+    },
+    {
+      "id": "A30_lower_compact",
+      "description": "Compact uneven smile with cheek/chin shading",
+      "derivation": "N",
+      "status": "NOT_AUTHORED_R4_NEUTRAL_HOLD",
+      "path": null
+    },
+    {
+      "id": "A31_lower_open",
+      "description": "Bounded open-jaw/mouth performance with believable cheeks/chin",
+      "derivation": "N",
+      "status": "NOT_AUTHORED_R4_NEUTRAL_HOLD",
+      "path": null
+    },
+    {
+      "id": "A32_eye_L_closed",
+      "description": "Deliberate single-eye closure/wink",
+      "derivation": "N",
+      "status": "NOT_AUTHORED_R4_NEUTRAL_HOLD",
+      "path": null
+    }
+  ],
+  "reserves": [],
+  "status": "NEUTRAL_REVIEW_CANDIDATE_NOT_OWNER_ACCEPTED"
+}

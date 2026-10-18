@@ -1,0 +1,18 @@
+{
+  "verdict": "GATE_A_FAILED_AT_G_SLEEVE_PILOT",
+  "stopCondition": "source-garment drift / failed clean shared-wrist and root/stripe interface",
+  "authoringStopped": true,
+  "acceptedNeutralFrozen": true,
+  "neutralOwnerAccepted": true,
+  "A25Unchanged": true,
+  "A16Unchanged": true,
+  "gateAComplete": false,
+  "validCompletedNonneutralStates": 0,
+  "acceptedNeutralBaselineSurfaces": 15,
+  "unacceptedNewPilotSurfaces": 3,
+  "baselineSlots": 32,
+  "unauthoredBaselineSlots": 14,
+  "reservesUsed": 0,
+  "remainingWork": "not started after stop; no G R, O, facial patches, palettes, viewer, Gate B or integration",
+  "ownerReviewRequired": true
+}

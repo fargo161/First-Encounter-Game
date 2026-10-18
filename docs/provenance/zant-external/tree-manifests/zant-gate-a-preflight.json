@@ -1,0 +1,19 @@
+{
+  "summary": {
+    "id": "zant-gate-a-preflight",
+    "role": "gate_a_contract_and_preflight",
+    "source_root": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\Trapstar_ZANT_Gate_A_preflight_2026-10-18",
+    "archive_root": "snapshots/zant-gate-a-preflight",
+    "file_count": 1,
+    "bytes": 53665,
+    "tree_sha256": "fb6691726d4006730959225324c2960808313559c53ed0d69caf52dc6d525be2",
+    "fingerprint_method": "SHA256 of UTF-8 JSON sorted relative paths; keys sorted; compact separators; records path,bytes,sha256"
+  },
+  "files": [
+    {
+      "path": "00_GATE_A_IMPLEMENTATION_PREFLIGHT.md",
+      "bytes": 53665,
+      "sha256": "4f63ab38c3d07b48aaf6f2411e849321383f9be1512ef6a45ad4bdec0bf9eac8"
+    }
+  ]
+}

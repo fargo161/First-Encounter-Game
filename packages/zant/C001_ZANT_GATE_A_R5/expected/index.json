@@ -1,0 +1,76 @@
+{
+  "B_off_NN_NN": {
+    "layerOrder": [
+      "A21_sneaker_L_N",
+      "A22_sneaker_R_N",
+      "A17_pants_leg_L_N",
+      "A18_pants_leg_R_N",
+      "A16_pants_pelvis_NN",
+      "A01_skin_neck",
+      "A25_head_front_neutral",
+      "A04_tee_arm_L_N",
+      "A05_tee_arm_R_N",
+      "A02_tee_torso",
+      "A12_hand_L_N",
+      "A13_hand_R_N"
+    ],
+    "decodedRGBA_SHA256": "b315f5a7696e506b98e39c04e3ceaa9e7666b860d2cd49b49797b3ad8c254909",
+    "status": "PASS_ACCEPTED_NEUTRAL_REPRODUCTION"
+  },
+  "B_on_NN_NN": {
+    "layerOrder": [
+      "A21_sneaker_L_N",
+      "A22_sneaker_R_N",
+      "A17_pants_leg_L_N",
+      "A18_pants_leg_R_N",
+      "A16_pants_pelvis_NN",
+      "A01_skin_neck",
+      "A25_head_front_neutral",
+      "A02_tee_torso",
+      "A12_hand_L_N",
+      "A13_hand_R_N",
+      "A08_jacket_arm_L_N",
+      "A09_jacket_arm_R_N",
+      "A03_jacket_open_torso"
+    ],
+    "decodedRGBA_SHA256": "48feb5aa9fc7f5da1fbdffc4d2347d9faa38d26fc4314788431593b787692d24",
+    "status": "PASS_ACCEPTED_NEUTRAL_REPRODUCTION"
+  },
+  "B_off_GN_NN": {
+    "layerOrder": [
+      "A21_sneaker_L_N",
+      "A22_sneaker_R_N",
+      "A17_pants_leg_L_N",
+      "A18_pants_leg_R_N",
+      "A16_pants_pelvis_NN",
+      "A01_skin_neck",
+      "A25_head_front_neutral",
+      "A05_tee_arm_R_N",
+      "A02_tee_torso",
+      "A13_hand_R_N",
+      "A14_hand_L_G",
+      "A06_tee_arm_L_G"
+    ],
+    "decodedRGBA_SHA256": "9ddd02db7526817fa5fe29a8e4eb5800b0ad26f154fd1fab1bce9cf8915c4b5b",
+    "status": "UNACCEPTED_PILOT_RENDERED_NOT_GATE_PASS"
+  },
+  "B_on_GN_NN": {
+    "layerOrder": [
+      "A21_sneaker_L_N",
+      "A22_sneaker_R_N",
+      "A17_pants_leg_L_N",
+      "A18_pants_leg_R_N",
+      "A16_pants_pelvis_NN",
+      "A01_skin_neck",
+      "A25_head_front_neutral",
+      "A02_tee_torso",
+      "A13_hand_R_N",
+      "A09_jacket_arm_R_N",
+      "A03_jacket_open_torso",
+      "A14_hand_L_G",
+      "A10_jacket_arm_L_G"
+    ],
+    "decodedRGBA_SHA256": "7d5433d6087e363628a05ad781cce00ba003c90ed65d6e816fdf38b6874d838a",
+    "status": "FAIL_SOURCE_GARMENT_AND_WRIST_INTERFACE"
+  }
+}

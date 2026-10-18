@@ -1,6 +1,6 @@
 {
   "schema": "first-encounter-execution-input-fingerprints@1",
-  "note": "Execution-input identities originally recorded at Stages 0-3. Encounter/Atlas bodies are now imported byte-identically in packages/encounter-atlas; Room Creator and ZANT remain external. Complete preserved-tree inventories remain in the private archive.",
+  "note": "Historical execution-input identities recorded at Stages 0-3 remain unchanged. Encounter/Atlas, Room Creator and selected current ZANT source are now imported byte-identically; consult source-authority.json and each stage import manifest for current paths. Complete original tree inventories and unselected historical/bulk payloads remain in the private archive.",
   "encounter_a1": {
     "source_digest": "1a8558b3654e52881a288d2a5ab99e574878531f7a9d5fca86223e511146f085",
     "inputs": [

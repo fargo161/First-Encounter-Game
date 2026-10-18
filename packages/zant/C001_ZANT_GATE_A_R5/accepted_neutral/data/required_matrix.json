@@ -1,0 +1,2134 @@
+{
+  "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+  "validCases": 226,
+  "negativeCases": 17,
+  "body": [
+    {
+      "id": "B_off_NN_NN",
+      "jacket": "off",
+      "arms": "NN",
+      "legs": "NN",
+      "face": "F00",
+      "jacketPalette": "original",
+      "pantsPalette": "original",
+      "status": "RENDERED_PENDING_OWNER_ART_REVIEW",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "B_off_NN_NO",
+      "jacket": "off",
+      "arms": "NN",
+      "legs": "NO",
+      "face": "F00",
+      "jacketPalette": "original",
+      "pantsPalette": "original",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "B_off_NN_ON",
+      "jacket": "off",
+      "arms": "NN",
+      "legs": "ON",
+      "face": "F00",
+      "jacketPalette": "original",
+      "pantsPalette": "original",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "B_off_NG_NN",
+      "jacket": "off",
+      "arms": "NG",
+      "legs": "NN",
+      "face": "F00",
+      "jacketPalette": "original",
+      "pantsPalette": "original",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "B_off_NG_NO",
+      "jacket": "off",
+      "arms": "NG",
+      "legs": "NO",
+      "face": "F00",
+      "jacketPalette": "original",
+      "pantsPalette": "original",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "B_off_NG_ON",
+      "jacket": "off",
+      "arms": "NG",
+      "legs": "ON",
+      "face": "F00",
+      "jacketPalette": "original",
+      "pantsPalette": "original",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "B_off_GN_NN",
+      "jacket": "off",
+      "arms": "GN",
+      "legs": "NN",
+      "face": "F00",
+      "jacketPalette": "original",
+      "pantsPalette": "original",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "B_off_GN_NO",
+      "jacket": "off",
+      "arms": "GN",
+      "legs": "NO",
+      "face": "F00",
+      "jacketPalette": "original",
+      "pantsPalette": "original",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "B_off_GN_ON",
+      "jacket": "off",
+      "arms": "GN",
+      "legs": "ON",
+      "face": "F00",
+      "jacketPalette": "original",
+      "pantsPalette": "original",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "B_off_GG_NN",
+      "jacket": "off",
+      "arms": "GG",
+      "legs": "NN",
+      "face": "F00",
+      "jacketPalette": "original",
+      "pantsPalette": "original",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "B_off_GG_NO",
+      "jacket": "off",
+      "arms": "GG",
+      "legs": "NO",
+      "face": "F00",
+      "jacketPalette": "original",
+      "pantsPalette": "original",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "B_off_GG_ON",
+      "jacket": "off",
+      "arms": "GG",
+      "legs": "ON",
+      "face": "F00",
+      "jacketPalette": "original",
+      "pantsPalette": "original",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "B_on_NN_NN",
+      "jacket": "on",
+      "arms": "NN",
+      "legs": "NN",
+      "face": "F00",
+      "jacketPalette": "original",
+      "pantsPalette": "original",
+      "status": "RENDERED_PENDING_OWNER_ART_REVIEW",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "B_on_NN_NO",
+      "jacket": "on",
+      "arms": "NN",
+      "legs": "NO",
+      "face": "F00",
+      "jacketPalette": "original",
+      "pantsPalette": "original",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "B_on_NN_ON",
+      "jacket": "on",
+      "arms": "NN",
+      "legs": "ON",
+      "face": "F00",
+      "jacketPalette": "original",
+      "pantsPalette": "original",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "B_on_NG_NN",
+      "jacket": "on",
+      "arms": "NG",
+      "legs": "NN",
+      "face": "F00",
+      "jacketPalette": "original",
+      "pantsPalette": "original",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "B_on_NG_NO",
+      "jacket": "on",
+      "arms": "NG",
+      "legs": "NO",
+      "face": "F00",
+      "jacketPalette": "original",
+      "pantsPalette": "original",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "B_on_NG_ON",
+      "jacket": "on",
+      "arms": "NG",
+      "legs": "ON",
+      "face": "F00",
+      "jacketPalette": "original",
+      "pantsPalette": "original",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "B_on_GN_NN",
+      "jacket": "on",
+      "arms": "GN",
+      "legs": "NN",
+      "face": "F00",
+      "jacketPalette": "original",
+      "pantsPalette": "original",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "B_on_GN_NO",
+      "jacket": "on",
+      "arms": "GN",
+      "legs": "NO",
+      "face": "F00",
+      "jacketPalette": "original",
+      "pantsPalette": "original",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "B_on_GN_ON",
+      "jacket": "on",
+      "arms": "GN",
+      "legs": "ON",
+      "face": "F00",
+      "jacketPalette": "original",
+      "pantsPalette": "original",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "B_on_GG_NN",
+      "jacket": "on",
+      "arms": "GG",
+      "legs": "NN",
+      "face": "F00",
+      "jacketPalette": "original",
+      "pantsPalette": "original",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "B_on_GG_NO",
+      "jacket": "on",
+      "arms": "GG",
+      "legs": "NO",
+      "face": "F00",
+      "jacketPalette": "original",
+      "pantsPalette": "original",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "B_on_GG_ON",
+      "jacket": "on",
+      "arms": "GG",
+      "legs": "ON",
+      "face": "F00",
+      "jacketPalette": "original",
+      "pantsPalette": "original",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    }
+  ],
+  "palette": [
+    {
+      "id": "P_off_GG_NN_Joriginal_Poriginal",
+      "jacket": "off",
+      "arms": "GG",
+      "legs": "NN",
+      "jacketPalette": "original",
+      "pantsPalette": "original",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "P_off_GG_NN_Joriginal_Pcharcoal",
+      "jacket": "off",
+      "arms": "GG",
+      "legs": "NN",
+      "jacketPalette": "original",
+      "pantsPalette": "charcoal",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "P_off_GG_NN_Joriginal_Pbrown",
+      "jacket": "off",
+      "arms": "GG",
+      "legs": "NN",
+      "jacketPalette": "original",
+      "pantsPalette": "brown",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "P_off_GG_NN_Jmuted_green_Poriginal",
+      "jacket": "off",
+      "arms": "GG",
+      "legs": "NN",
+      "jacketPalette": "muted_green",
+      "pantsPalette": "original",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "P_off_GG_NN_Jmuted_green_Pcharcoal",
+      "jacket": "off",
+      "arms": "GG",
+      "legs": "NN",
+      "jacketPalette": "muted_green",
+      "pantsPalette": "charcoal",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "P_off_GG_NN_Jmuted_green_Pbrown",
+      "jacket": "off",
+      "arms": "GG",
+      "legs": "NN",
+      "jacketPalette": "muted_green",
+      "pantsPalette": "brown",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "P_off_GG_NN_Jmuted_burgundy_Poriginal",
+      "jacket": "off",
+      "arms": "GG",
+      "legs": "NN",
+      "jacketPalette": "muted_burgundy",
+      "pantsPalette": "original",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "P_off_GG_NN_Jmuted_burgundy_Pcharcoal",
+      "jacket": "off",
+      "arms": "GG",
+      "legs": "NN",
+      "jacketPalette": "muted_burgundy",
+      "pantsPalette": "charcoal",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "P_off_GG_NN_Jmuted_burgundy_Pbrown",
+      "jacket": "off",
+      "arms": "GG",
+      "legs": "NN",
+      "jacketPalette": "muted_burgundy",
+      "pantsPalette": "brown",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "P_off_GG_NO_Joriginal_Poriginal",
+      "jacket": "off",
+      "arms": "GG",
+      "legs": "NO",
+      "jacketPalette": "original",
+      "pantsPalette": "original",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "P_off_GG_NO_Joriginal_Pcharcoal",
+      "jacket": "off",
+      "arms": "GG",
+      "legs": "NO",
+      "jacketPalette": "original",
+      "pantsPalette": "charcoal",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "P_off_GG_NO_Joriginal_Pbrown",
+      "jacket": "off",
+      "arms": "GG",
+      "legs": "NO",
+      "jacketPalette": "original",
+      "pantsPalette": "brown",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "P_off_GG_NO_Jmuted_green_Poriginal",
+      "jacket": "off",
+      "arms": "GG",
+      "legs": "NO",
+      "jacketPalette": "muted_green",
+      "pantsPalette": "original",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "P_off_GG_NO_Jmuted_green_Pcharcoal",
+      "jacket": "off",
+      "arms": "GG",
+      "legs": "NO",
+      "jacketPalette": "muted_green",
+      "pantsPalette": "charcoal",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "P_off_GG_NO_Jmuted_green_Pbrown",
+      "jacket": "off",
+      "arms": "GG",
+      "legs": "NO",
+      "jacketPalette": "muted_green",
+      "pantsPalette": "brown",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "P_off_GG_NO_Jmuted_burgundy_Poriginal",
+      "jacket": "off",
+      "arms": "GG",
+      "legs": "NO",
+      "jacketPalette": "muted_burgundy",
+      "pantsPalette": "original",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "P_off_GG_NO_Jmuted_burgundy_Pcharcoal",
+      "jacket": "off",
+      "arms": "GG",
+      "legs": "NO",
+      "jacketPalette": "muted_burgundy",
+      "pantsPalette": "charcoal",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "P_off_GG_NO_Jmuted_burgundy_Pbrown",
+      "jacket": "off",
+      "arms": "GG",
+      "legs": "NO",
+      "jacketPalette": "muted_burgundy",
+      "pantsPalette": "brown",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "P_off_GG_ON_Joriginal_Poriginal",
+      "jacket": "off",
+      "arms": "GG",
+      "legs": "ON",
+      "jacketPalette": "original",
+      "pantsPalette": "original",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "P_off_GG_ON_Joriginal_Pcharcoal",
+      "jacket": "off",
+      "arms": "GG",
+      "legs": "ON",
+      "jacketPalette": "original",
+      "pantsPalette": "charcoal",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "P_off_GG_ON_Joriginal_Pbrown",
+      "jacket": "off",
+      "arms": "GG",
+      "legs": "ON",
+      "jacketPalette": "original",
+      "pantsPalette": "brown",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "P_off_GG_ON_Jmuted_green_Poriginal",
+      "jacket": "off",
+      "arms": "GG",
+      "legs": "ON",
+      "jacketPalette": "muted_green",
+      "pantsPalette": "original",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "P_off_GG_ON_Jmuted_green_Pcharcoal",
+      "jacket": "off",
+      "arms": "GG",
+      "legs": "ON",
+      "jacketPalette": "muted_green",
+      "pantsPalette": "charcoal",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "P_off_GG_ON_Jmuted_green_Pbrown",
+      "jacket": "off",
+      "arms": "GG",
+      "legs": "ON",
+      "jacketPalette": "muted_green",
+      "pantsPalette": "brown",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "P_off_GG_ON_Jmuted_burgundy_Poriginal",
+      "jacket": "off",
+      "arms": "GG",
+      "legs": "ON",
+      "jacketPalette": "muted_burgundy",
+      "pantsPalette": "original",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "P_off_GG_ON_Jmuted_burgundy_Pcharcoal",
+      "jacket": "off",
+      "arms": "GG",
+      "legs": "ON",
+      "jacketPalette": "muted_burgundy",
+      "pantsPalette": "charcoal",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "P_off_GG_ON_Jmuted_burgundy_Pbrown",
+      "jacket": "off",
+      "arms": "GG",
+      "legs": "ON",
+      "jacketPalette": "muted_burgundy",
+      "pantsPalette": "brown",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "P_on_GG_NN_Joriginal_Poriginal",
+      "jacket": "on",
+      "arms": "GG",
+      "legs": "NN",
+      "jacketPalette": "original",
+      "pantsPalette": "original",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "P_on_GG_NN_Joriginal_Pcharcoal",
+      "jacket": "on",
+      "arms": "GG",
+      "legs": "NN",
+      "jacketPalette": "original",
+      "pantsPalette": "charcoal",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "P_on_GG_NN_Joriginal_Pbrown",
+      "jacket": "on",
+      "arms": "GG",
+      "legs": "NN",
+      "jacketPalette": "original",
+      "pantsPalette": "brown",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "P_on_GG_NN_Jmuted_green_Poriginal",
+      "jacket": "on",
+      "arms": "GG",
+      "legs": "NN",
+      "jacketPalette": "muted_green",
+      "pantsPalette": "original",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "P_on_GG_NN_Jmuted_green_Pcharcoal",
+      "jacket": "on",
+      "arms": "GG",
+      "legs": "NN",
+      "jacketPalette": "muted_green",
+      "pantsPalette": "charcoal",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "P_on_GG_NN_Jmuted_green_Pbrown",
+      "jacket": "on",
+      "arms": "GG",
+      "legs": "NN",
+      "jacketPalette": "muted_green",
+      "pantsPalette": "brown",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "P_on_GG_NN_Jmuted_burgundy_Poriginal",
+      "jacket": "on",
+      "arms": "GG",
+      "legs": "NN",
+      "jacketPalette": "muted_burgundy",
+      "pantsPalette": "original",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "P_on_GG_NN_Jmuted_burgundy_Pcharcoal",
+      "jacket": "on",
+      "arms": "GG",
+      "legs": "NN",
+      "jacketPalette": "muted_burgundy",
+      "pantsPalette": "charcoal",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "P_on_GG_NN_Jmuted_burgundy_Pbrown",
+      "jacket": "on",
+      "arms": "GG",
+      "legs": "NN",
+      "jacketPalette": "muted_burgundy",
+      "pantsPalette": "brown",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "P_on_GG_NO_Joriginal_Poriginal",
+      "jacket": "on",
+      "arms": "GG",
+      "legs": "NO",
+      "jacketPalette": "original",
+      "pantsPalette": "original",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "P_on_GG_NO_Joriginal_Pcharcoal",
+      "jacket": "on",
+      "arms": "GG",
+      "legs": "NO",
+      "jacketPalette": "original",
+      "pantsPalette": "charcoal",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "P_on_GG_NO_Joriginal_Pbrown",
+      "jacket": "on",
+      "arms": "GG",
+      "legs": "NO",
+      "jacketPalette": "original",
+      "pantsPalette": "brown",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "P_on_GG_NO_Jmuted_green_Poriginal",
+      "jacket": "on",
+      "arms": "GG",
+      "legs": "NO",
+      "jacketPalette": "muted_green",
+      "pantsPalette": "original",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "P_on_GG_NO_Jmuted_green_Pcharcoal",
+      "jacket": "on",
+      "arms": "GG",
+      "legs": "NO",
+      "jacketPalette": "muted_green",
+      "pantsPalette": "charcoal",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "P_on_GG_NO_Jmuted_green_Pbrown",
+      "jacket": "on",
+      "arms": "GG",
+      "legs": "NO",
+      "jacketPalette": "muted_green",
+      "pantsPalette": "brown",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "P_on_GG_NO_Jmuted_burgundy_Poriginal",
+      "jacket": "on",
+      "arms": "GG",
+      "legs": "NO",
+      "jacketPalette": "muted_burgundy",
+      "pantsPalette": "original",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "P_on_GG_NO_Jmuted_burgundy_Pcharcoal",
+      "jacket": "on",
+      "arms": "GG",
+      "legs": "NO",
+      "jacketPalette": "muted_burgundy",
+      "pantsPalette": "charcoal",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "P_on_GG_NO_Jmuted_burgundy_Pbrown",
+      "jacket": "on",
+      "arms": "GG",
+      "legs": "NO",
+      "jacketPalette": "muted_burgundy",
+      "pantsPalette": "brown",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "P_on_GG_ON_Joriginal_Poriginal",
+      "jacket": "on",
+      "arms": "GG",
+      "legs": "ON",
+      "jacketPalette": "original",
+      "pantsPalette": "original",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "P_on_GG_ON_Joriginal_Pcharcoal",
+      "jacket": "on",
+      "arms": "GG",
+      "legs": "ON",
+      "jacketPalette": "original",
+      "pantsPalette": "charcoal",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "P_on_GG_ON_Joriginal_Pbrown",
+      "jacket": "on",
+      "arms": "GG",
+      "legs": "ON",
+      "jacketPalette": "original",
+      "pantsPalette": "brown",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "P_on_GG_ON_Jmuted_green_Poriginal",
+      "jacket": "on",
+      "arms": "GG",
+      "legs": "ON",
+      "jacketPalette": "muted_green",
+      "pantsPalette": "original",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "P_on_GG_ON_Jmuted_green_Pcharcoal",
+      "jacket": "on",
+      "arms": "GG",
+      "legs": "ON",
+      "jacketPalette": "muted_green",
+      "pantsPalette": "charcoal",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "P_on_GG_ON_Jmuted_green_Pbrown",
+      "jacket": "on",
+      "arms": "GG",
+      "legs": "ON",
+      "jacketPalette": "muted_green",
+      "pantsPalette": "brown",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "P_on_GG_ON_Jmuted_burgundy_Poriginal",
+      "jacket": "on",
+      "arms": "GG",
+      "legs": "ON",
+      "jacketPalette": "muted_burgundy",
+      "pantsPalette": "original",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "P_on_GG_ON_Jmuted_burgundy_Pcharcoal",
+      "jacket": "on",
+      "arms": "GG",
+      "legs": "ON",
+      "jacketPalette": "muted_burgundy",
+      "pantsPalette": "charcoal",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "P_on_GG_ON_Jmuted_burgundy_Pbrown",
+      "jacket": "on",
+      "arms": "GG",
+      "legs": "ON",
+      "jacketPalette": "muted_burgundy",
+      "pantsPalette": "brown",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    }
+  ],
+  "isolatedFace": [
+    {
+      "id": "H_F00_native_light",
+      "face": "F00",
+      "displayHeight": "native",
+      "background": "light",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F00_native_dark",
+      "face": "F00",
+      "displayHeight": "native",
+      "background": "dark",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F00_native_magenta",
+      "face": "F00",
+      "displayHeight": "native",
+      "background": "magenta",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F00_native_green",
+      "face": "F00",
+      "displayHeight": "native",
+      "background": "green",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F00_native_textured",
+      "face": "F00",
+      "displayHeight": "native",
+      "background": "textured",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F00_128_light",
+      "face": "F00",
+      "displayHeight": 128,
+      "background": "light",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F00_128_dark",
+      "face": "F00",
+      "displayHeight": 128,
+      "background": "dark",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F00_128_magenta",
+      "face": "F00",
+      "displayHeight": 128,
+      "background": "magenta",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F00_128_green",
+      "face": "F00",
+      "displayHeight": 128,
+      "background": "green",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F00_128_textured",
+      "face": "F00",
+      "displayHeight": 128,
+      "background": "textured",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F00_256_light",
+      "face": "F00",
+      "displayHeight": 256,
+      "background": "light",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F00_256_dark",
+      "face": "F00",
+      "displayHeight": 256,
+      "background": "dark",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F00_256_magenta",
+      "face": "F00",
+      "displayHeight": 256,
+      "background": "magenta",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F00_256_green",
+      "face": "F00",
+      "displayHeight": 256,
+      "background": "green",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F00_256_textured",
+      "face": "F00",
+      "displayHeight": 256,
+      "background": "textured",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F01_native_light",
+      "face": "F01",
+      "displayHeight": "native",
+      "background": "light",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F01_native_dark",
+      "face": "F01",
+      "displayHeight": "native",
+      "background": "dark",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F01_native_magenta",
+      "face": "F01",
+      "displayHeight": "native",
+      "background": "magenta",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F01_native_green",
+      "face": "F01",
+      "displayHeight": "native",
+      "background": "green",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F01_native_textured",
+      "face": "F01",
+      "displayHeight": "native",
+      "background": "textured",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F01_128_light",
+      "face": "F01",
+      "displayHeight": 128,
+      "background": "light",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F01_128_dark",
+      "face": "F01",
+      "displayHeight": 128,
+      "background": "dark",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F01_128_magenta",
+      "face": "F01",
+      "displayHeight": 128,
+      "background": "magenta",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F01_128_green",
+      "face": "F01",
+      "displayHeight": 128,
+      "background": "green",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F01_128_textured",
+      "face": "F01",
+      "displayHeight": 128,
+      "background": "textured",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F01_256_light",
+      "face": "F01",
+      "displayHeight": 256,
+      "background": "light",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F01_256_dark",
+      "face": "F01",
+      "displayHeight": 256,
+      "background": "dark",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F01_256_magenta",
+      "face": "F01",
+      "displayHeight": 256,
+      "background": "magenta",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F01_256_green",
+      "face": "F01",
+      "displayHeight": 256,
+      "background": "green",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F01_256_textured",
+      "face": "F01",
+      "displayHeight": 256,
+      "background": "textured",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F02_native_light",
+      "face": "F02",
+      "displayHeight": "native",
+      "background": "light",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F02_native_dark",
+      "face": "F02",
+      "displayHeight": "native",
+      "background": "dark",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F02_native_magenta",
+      "face": "F02",
+      "displayHeight": "native",
+      "background": "magenta",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F02_native_green",
+      "face": "F02",
+      "displayHeight": "native",
+      "background": "green",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F02_native_textured",
+      "face": "F02",
+      "displayHeight": "native",
+      "background": "textured",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F02_128_light",
+      "face": "F02",
+      "displayHeight": 128,
+      "background": "light",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F02_128_dark",
+      "face": "F02",
+      "displayHeight": 128,
+      "background": "dark",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F02_128_magenta",
+      "face": "F02",
+      "displayHeight": 128,
+      "background": "magenta",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F02_128_green",
+      "face": "F02",
+      "displayHeight": 128,
+      "background": "green",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F02_128_textured",
+      "face": "F02",
+      "displayHeight": 128,
+      "background": "textured",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F02_256_light",
+      "face": "F02",
+      "displayHeight": 256,
+      "background": "light",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F02_256_dark",
+      "face": "F02",
+      "displayHeight": 256,
+      "background": "dark",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F02_256_magenta",
+      "face": "F02",
+      "displayHeight": 256,
+      "background": "magenta",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F02_256_green",
+      "face": "F02",
+      "displayHeight": 256,
+      "background": "green",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F02_256_textured",
+      "face": "F02",
+      "displayHeight": 256,
+      "background": "textured",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F03_native_light",
+      "face": "F03",
+      "displayHeight": "native",
+      "background": "light",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F03_native_dark",
+      "face": "F03",
+      "displayHeight": "native",
+      "background": "dark",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F03_native_magenta",
+      "face": "F03",
+      "displayHeight": "native",
+      "background": "magenta",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F03_native_green",
+      "face": "F03",
+      "displayHeight": "native",
+      "background": "green",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F03_native_textured",
+      "face": "F03",
+      "displayHeight": "native",
+      "background": "textured",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F03_128_light",
+      "face": "F03",
+      "displayHeight": 128,
+      "background": "light",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F03_128_dark",
+      "face": "F03",
+      "displayHeight": 128,
+      "background": "dark",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F03_128_magenta",
+      "face": "F03",
+      "displayHeight": 128,
+      "background": "magenta",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F03_128_green",
+      "face": "F03",
+      "displayHeight": 128,
+      "background": "green",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F03_128_textured",
+      "face": "F03",
+      "displayHeight": 128,
+      "background": "textured",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F03_256_light",
+      "face": "F03",
+      "displayHeight": 256,
+      "background": "light",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F03_256_dark",
+      "face": "F03",
+      "displayHeight": 256,
+      "background": "dark",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F03_256_magenta",
+      "face": "F03",
+      "displayHeight": 256,
+      "background": "magenta",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F03_256_green",
+      "face": "F03",
+      "displayHeight": 256,
+      "background": "green",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F03_256_textured",
+      "face": "F03",
+      "displayHeight": 256,
+      "background": "textured",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F04_native_light",
+      "face": "F04",
+      "displayHeight": "native",
+      "background": "light",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F04_native_dark",
+      "face": "F04",
+      "displayHeight": "native",
+      "background": "dark",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F04_native_magenta",
+      "face": "F04",
+      "displayHeight": "native",
+      "background": "magenta",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F04_native_green",
+      "face": "F04",
+      "displayHeight": "native",
+      "background": "green",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F04_native_textured",
+      "face": "F04",
+      "displayHeight": "native",
+      "background": "textured",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F04_128_light",
+      "face": "F04",
+      "displayHeight": 128,
+      "background": "light",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F04_128_dark",
+      "face": "F04",
+      "displayHeight": 128,
+      "background": "dark",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F04_128_magenta",
+      "face": "F04",
+      "displayHeight": 128,
+      "background": "magenta",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F04_128_green",
+      "face": "F04",
+      "displayHeight": 128,
+      "background": "green",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F04_128_textured",
+      "face": "F04",
+      "displayHeight": 128,
+      "background": "textured",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F04_256_light",
+      "face": "F04",
+      "displayHeight": 256,
+      "background": "light",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F04_256_dark",
+      "face": "F04",
+      "displayHeight": 256,
+      "background": "dark",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F04_256_magenta",
+      "face": "F04",
+      "displayHeight": 256,
+      "background": "magenta",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F04_256_green",
+      "face": "F04",
+      "displayHeight": 256,
+      "background": "green",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F04_256_textured",
+      "face": "F04",
+      "displayHeight": 256,
+      "background": "textured",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F05_native_light",
+      "face": "F05",
+      "displayHeight": "native",
+      "background": "light",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F05_native_dark",
+      "face": "F05",
+      "displayHeight": "native",
+      "background": "dark",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F05_native_magenta",
+      "face": "F05",
+      "displayHeight": "native",
+      "background": "magenta",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F05_native_green",
+      "face": "F05",
+      "displayHeight": "native",
+      "background": "green",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F05_native_textured",
+      "face": "F05",
+      "displayHeight": "native",
+      "background": "textured",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F05_128_light",
+      "face": "F05",
+      "displayHeight": 128,
+      "background": "light",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F05_128_dark",
+      "face": "F05",
+      "displayHeight": 128,
+      "background": "dark",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F05_128_magenta",
+      "face": "F05",
+      "displayHeight": 128,
+      "background": "magenta",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F05_128_green",
+      "face": "F05",
+      "displayHeight": 128,
+      "background": "green",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F05_128_textured",
+      "face": "F05",
+      "displayHeight": 128,
+      "background": "textured",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F05_256_light",
+      "face": "F05",
+      "displayHeight": 256,
+      "background": "light",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F05_256_dark",
+      "face": "F05",
+      "displayHeight": 256,
+      "background": "dark",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F05_256_magenta",
+      "face": "F05",
+      "displayHeight": 256,
+      "background": "magenta",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F05_256_green",
+      "face": "F05",
+      "displayHeight": 256,
+      "background": "green",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F05_256_textured",
+      "face": "F05",
+      "displayHeight": 256,
+      "background": "textured",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F06_native_light",
+      "face": "F06",
+      "displayHeight": "native",
+      "background": "light",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F06_native_dark",
+      "face": "F06",
+      "displayHeight": "native",
+      "background": "dark",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F06_native_magenta",
+      "face": "F06",
+      "displayHeight": "native",
+      "background": "magenta",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F06_native_green",
+      "face": "F06",
+      "displayHeight": "native",
+      "background": "green",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F06_native_textured",
+      "face": "F06",
+      "displayHeight": "native",
+      "background": "textured",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F06_128_light",
+      "face": "F06",
+      "displayHeight": 128,
+      "background": "light",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F06_128_dark",
+      "face": "F06",
+      "displayHeight": 128,
+      "background": "dark",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F06_128_magenta",
+      "face": "F06",
+      "displayHeight": 128,
+      "background": "magenta",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F06_128_green",
+      "face": "F06",
+      "displayHeight": 128,
+      "background": "green",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F06_128_textured",
+      "face": "F06",
+      "displayHeight": 128,
+      "background": "textured",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F06_256_light",
+      "face": "F06",
+      "displayHeight": 256,
+      "background": "light",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F06_256_dark",
+      "face": "F06",
+      "displayHeight": 256,
+      "background": "dark",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F06_256_magenta",
+      "face": "F06",
+      "displayHeight": 256,
+      "background": "magenta",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F06_256_green",
+      "face": "F06",
+      "displayHeight": 256,
+      "background": "green",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F06_256_textured",
+      "face": "F06",
+      "displayHeight": 256,
+      "background": "textured",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F07_native_light",
+      "face": "F07",
+      "displayHeight": "native",
+      "background": "light",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F07_native_dark",
+      "face": "F07",
+      "displayHeight": "native",
+      "background": "dark",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F07_native_magenta",
+      "face": "F07",
+      "displayHeight": "native",
+      "background": "magenta",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F07_native_green",
+      "face": "F07",
+      "displayHeight": "native",
+      "background": "green",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F07_native_textured",
+      "face": "F07",
+      "displayHeight": "native",
+      "background": "textured",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F07_128_light",
+      "face": "F07",
+      "displayHeight": 128,
+      "background": "light",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F07_128_dark",
+      "face": "F07",
+      "displayHeight": 128,
+      "background": "dark",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F07_128_magenta",
+      "face": "F07",
+      "displayHeight": 128,
+      "background": "magenta",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F07_128_green",
+      "face": "F07",
+      "displayHeight": 128,
+      "background": "green",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F07_128_textured",
+      "face": "F07",
+      "displayHeight": 128,
+      "background": "textured",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F07_256_light",
+      "face": "F07",
+      "displayHeight": 256,
+      "background": "light",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F07_256_dark",
+      "face": "F07",
+      "displayHeight": 256,
+      "background": "dark",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F07_256_magenta",
+      "face": "F07",
+      "displayHeight": 256,
+      "background": "magenta",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F07_256_green",
+      "face": "F07",
+      "displayHeight": 256,
+      "background": "green",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "H_F07_256_textured",
+      "face": "F07",
+      "displayHeight": 256,
+      "background": "textured",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    }
+  ],
+  "assembledFace": [
+    {
+      "id": "C_off_NN_NN_F00",
+      "jacket": "off",
+      "arms": "NN",
+      "legs": "NN",
+      "face": "F00",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "C_off_NN_NN_F01",
+      "jacket": "off",
+      "arms": "NN",
+      "legs": "NN",
+      "face": "F01",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "C_off_NN_NN_F02",
+      "jacket": "off",
+      "arms": "NN",
+      "legs": "NN",
+      "face": "F02",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "C_off_NN_NN_F03",
+      "jacket": "off",
+      "arms": "NN",
+      "legs": "NN",
+      "face": "F03",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "C_off_NN_NN_F04",
+      "jacket": "off",
+      "arms": "NN",
+      "legs": "NN",
+      "face": "F04",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "C_off_NN_NN_F05",
+      "jacket": "off",
+      "arms": "NN",
+      "legs": "NN",
+      "face": "F05",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "C_off_NN_NN_F06",
+      "jacket": "off",
+      "arms": "NN",
+      "legs": "NN",
+      "face": "F06",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "C_off_NN_NN_F07",
+      "jacket": "off",
+      "arms": "NN",
+      "legs": "NN",
+      "face": "F07",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "C_on_NN_NN_F00",
+      "jacket": "on",
+      "arms": "NN",
+      "legs": "NN",
+      "face": "F00",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "C_on_NN_NN_F01",
+      "jacket": "on",
+      "arms": "NN",
+      "legs": "NN",
+      "face": "F01",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "C_on_NN_NN_F02",
+      "jacket": "on",
+      "arms": "NN",
+      "legs": "NN",
+      "face": "F02",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "C_on_NN_NN_F03",
+      "jacket": "on",
+      "arms": "NN",
+      "legs": "NN",
+      "face": "F03",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "C_on_NN_NN_F04",
+      "jacket": "on",
+      "arms": "NN",
+      "legs": "NN",
+      "face": "F04",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "C_on_NN_NN_F05",
+      "jacket": "on",
+      "arms": "NN",
+      "legs": "NN",
+      "face": "F05",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "C_on_NN_NN_F06",
+      "jacket": "on",
+      "arms": "NN",
+      "legs": "NN",
+      "face": "F06",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "C_on_NN_NN_F07",
+      "jacket": "on",
+      "arms": "NN",
+      "legs": "NN",
+      "face": "F07",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "C_off_GG_NO_F04",
+      "jacket": "off",
+      "arms": "GG",
+      "legs": "NO",
+      "face": "F04",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "C_off_GG_NO_F06",
+      "jacket": "off",
+      "arms": "GG",
+      "legs": "NO",
+      "face": "F06",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "C_off_GG_NO_F07",
+      "jacket": "off",
+      "arms": "GG",
+      "legs": "NO",
+      "face": "F07",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "C_off_GG_ON_F04",
+      "jacket": "off",
+      "arms": "GG",
+      "legs": "ON",
+      "face": "F04",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "C_off_GG_ON_F06",
+      "jacket": "off",
+      "arms": "GG",
+      "legs": "ON",
+      "face": "F06",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "C_off_GG_ON_F07",
+      "jacket": "off",
+      "arms": "GG",
+      "legs": "ON",
+      "face": "F07",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "C_on_GG_NO_F04",
+      "jacket": "on",
+      "arms": "GG",
+      "legs": "NO",
+      "face": "F04",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "C_on_GG_NO_F06",
+      "jacket": "on",
+      "arms": "GG",
+      "legs": "NO",
+      "face": "F06",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "C_on_GG_NO_F07",
+      "jacket": "on",
+      "arms": "GG",
+      "legs": "NO",
+      "face": "F07",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "C_on_GG_ON_F04",
+      "jacket": "on",
+      "arms": "GG",
+      "legs": "ON",
+      "face": "F04",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "C_on_GG_ON_F06",
+      "jacket": "on",
+      "arms": "GG",
+      "legs": "ON",
+      "face": "F06",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "C_on_GG_ON_F07",
+      "jacket": "on",
+      "arms": "GG",
+      "legs": "ON",
+      "face": "F07",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    }
+  ],
+  "negative": [
+    {
+      "id": "N_OO_legs",
+      "expectedReason": "OO_legs",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "N_lone_left_lateral_eye",
+      "expectedReason": "lone_left_lateral_eye",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "N_lone_right_lateral_eye",
+      "expectedReason": "lone_right_lateral_eye",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "N_left_wink_with_right_lateral",
+      "expectedReason": "left_wink_with_right_lateral",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "N_unsupported_view",
+      "expectedReason": "unsupported_view",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "N_mirror_not_approved",
+      "expectedReason": "mirror_not_approved",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "N_closed_jacket_not_supported",
+      "expectedReason": "closed_jacket_not_supported",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "N_wrong_fit",
+      "expectedReason": "wrong_fit",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "N_wrong_arm_side",
+      "expectedReason": "wrong_arm_side",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "N_wrong_hand_state",
+      "expectedReason": "wrong_hand_state",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "N_wrong_shoe_state",
+      "expectedReason": "wrong_shoe_state",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "N_wrong_head_revision",
+      "expectedReason": "wrong_head_revision",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "N_missing_selected_asset",
+      "expectedReason": "missing_selected_asset",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "N_cyclic_layer_DAG",
+      "expectedReason": "cyclic_layer_DAG",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "N_unresolved_reserve_dependency",
+      "expectedReason": "unresolved_reserve_dependency",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "N_unreviewed_face_mix",
+      "expectedReason": "unreviewed_face_mix",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    },
+    {
+      "id": "N_ordinary_head_alpha_mutation",
+      "expectedReason": "ordinary_head_alpha_mutation",
+      "status": "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD",
+      "reason": "HOLD_UNTIL_OWNER_ACCEPTS_NEUTRAL_PAIR"
+    }
+  ],
+  "warning": "Required cases are listed in full. Only two neutral drafts were rendered; none is accepted as Gate A passing art. No required combination is silently removed."
+}

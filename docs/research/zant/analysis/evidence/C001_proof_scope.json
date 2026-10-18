@@ -1,0 +1,91 @@
+{
+  "artifactKind": "research_specification_unimplemented",
+  "identity": "C001",
+  "surfaces": {
+    "neck_underplate": [
+      1,
+      4
+    ],
+    "tee_torso": [
+      1,
+      4
+    ],
+    "open_jacket_torso": [
+      1,
+      4
+    ],
+    "tee_arms": [
+      4,
+      12
+    ],
+    "jacket_arms": [
+      4,
+      12
+    ],
+    "hands": [
+      4,
+      12
+    ],
+    "pants_pelvis": [
+      1,
+      4
+    ],
+    "pants_legs": [
+      4,
+      10
+    ],
+    "shoes": [
+      4,
+      10
+    ],
+    "head_bases": [
+      1,
+      4
+    ],
+    "face_patches": [
+      7,
+      15
+    ]
+  },
+  "columns": [
+    "front_gate",
+    "complete_sparse_four_view"
+  ],
+  "reserve_surfaces": {
+    "liner_occlusion": 4,
+    "front_pelvis": 2
+  },
+  "editable_material_mask_sets": {
+    "front": 10,
+    "complete": 30,
+    "packing": "not_a_PNG_file_count"
+  },
+  "body_recipe_counts": {
+    "front": 24,
+    "three_quarter": 8,
+    "side": 2,
+    "back": 2
+  },
+  "palette_pairs": 9,
+  "state_limits": {
+    "side_back": "neutral_only",
+    "three_quarter_legs": "neutral_only",
+    "front_leg_pairs": [
+      "NN",
+      "NO",
+      "ON"
+    ],
+    "unsupported": [
+      "OO_legs",
+      "arbitrary_head_body_pairs",
+      "unreviewed_gaze_mixes",
+      "cross_fit"
+    ]
+  },
+  "surface_totals": [
+    32,
+    91
+  ],
+  "surface_cap": 97,
+  "body_recipe_total": 36
+}

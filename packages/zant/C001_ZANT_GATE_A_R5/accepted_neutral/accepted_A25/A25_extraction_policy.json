@@ -1,0 +1,289 @@
+{
+  "method": "source pixels plus alpha-only cutout/edge cleanup; no generation",
+  "sourcePath": "references/C001_source_neutral_rgba.png",
+  "sourceSha256": "f651af252d32fd7a0870d254faab31ec63e4f620a42492641b834fd76274e0db",
+  "localFrame": [
+    512,
+    640
+  ],
+  "sourceWindow": [
+    256,
+    0,
+    768,
+    640
+  ],
+  "sourceToHeadLocalTranslation": [
+    -256,
+    0
+  ],
+  "headLocalToBodyTranslation": [
+    256,
+    54
+  ],
+  "scale": [
+    1,
+    1
+  ],
+  "rotation": 0,
+  "mirror": false,
+  "cutoutPolygonSource": [
+    [
+      420,
+      80
+    ],
+    [
+      582,
+      80
+    ],
+    [
+      582,
+      225
+    ],
+    [
+      556,
+      225
+    ],
+    [
+      553,
+      234
+    ],
+    [
+      548,
+      242
+    ],
+    [
+      541,
+      249
+    ],
+    [
+      531,
+      256
+    ],
+    [
+      521,
+      261
+    ],
+    [
+      518,
+      263
+    ],
+    [
+      518,
+      269
+    ],
+    [
+      514,
+      274
+    ],
+    [
+      488,
+      274
+    ],
+    [
+      484,
+      269
+    ],
+    [
+      484,
+      263
+    ],
+    [
+      478,
+      262
+    ],
+    [
+      468,
+      258
+    ],
+    [
+      460,
+      252
+    ],
+    [
+      454,
+      246
+    ],
+    [
+      450,
+      239
+    ],
+    [
+      447,
+      230
+    ],
+    [
+      447,
+      221
+    ],
+    [
+      420,
+      221
+    ]
+  ],
+  "protectedFacialAuditPolygonSource": [
+    [
+      462,
+      118
+    ],
+    [
+      480,
+      104
+    ],
+    [
+      503,
+      100
+    ],
+    [
+      526,
+      105
+    ],
+    [
+      546,
+      120
+    ],
+    [
+      555,
+      145
+    ],
+    [
+      555,
+      172
+    ],
+    [
+      551,
+      200
+    ],
+    [
+      545,
+      226
+    ],
+    [
+      537,
+      243
+    ],
+    [
+      524,
+      252
+    ],
+    [
+      507,
+      258
+    ],
+    [
+      490,
+      258
+    ],
+    [
+      476,
+      254
+    ],
+    [
+      464,
+      246
+    ],
+    [
+      455,
+      229
+    ],
+    [
+      451,
+      205
+    ],
+    [
+      447,
+      178
+    ],
+    [
+      447,
+      150
+    ],
+    [
+      452,
+      132
+    ]
+  ],
+  "protectedPolygonIsNotRuntimeFaceStateMask": true,
+  "headAttachSource": [
+    501,
+    266
+  ],
+  "headAttachLocal": [
+    245,
+    266
+  ],
+  "headAttachBody": [
+    501,
+    320
+  ],
+  "neckBaseBody": [
+    501,
+    381
+  ],
+  "floorRootBody": [
+    512,
+    1472
+  ],
+  "attachmentTabSourceBounds": [
+    484,
+    261,
+    519,
+    275
+  ],
+  "alphaCutRasterization": "8x polygon, BOX area-coverage downsample; alpha multiplied with half-up integer rounding",
+  "greenMatteCleanup": "original alpha-support outer 3px band only; coverage feather from R-G=0 to24, original RGB untouched",
+  "transparentRGBPolicy": "RGB=0 where final alpha=0, including removed wardrobe; retained RGB source-exact",
+  "isolatedSpeckCleanup": {
+    "rule": "Only disconnected components of at most 2 pixels, alpha<=4, outside protected face",
+    "pixels": [
+      {
+        "source": [
+          535,
+          103
+        ],
+        "oldAlpha": 4,
+        "alphaBeforeSpeckCleanup": 2,
+        "newAlpha": 0
+      },
+      {
+        "source": [
+          536,
+          104
+        ],
+        "oldAlpha": 4,
+        "alphaBeforeSpeckCleanup": 4,
+        "newAlpha": 0
+      },
+      {
+        "source": [
+          463,
+          108
+        ],
+        "oldAlpha": 4,
+        "alphaBeforeSpeckCleanup": 4,
+        "newAlpha": 0
+      },
+      {
+        "source": [
+          464,
+          107
+        ],
+        "oldAlpha": 4,
+        "alphaBeforeSpeckCleanup": 1,
+        "newAlpha": 0
+      },
+      {
+        "source": [
+          473,
+          101
+        ],
+        "oldAlpha": 4,
+        "alphaBeforeSpeckCleanup": 4,
+        "newAlpha": 0
+      }
+    ]
+  },
+  "noResamplingOfCandidateRGB": true,
+  "noIdentityRepaint": true,
+  "colorSpace": "source sRGB-encoded byte values preserved; no ICC conversion or color transform",
+  "reviewStatus": "pending visual QA; owner art review required"
+}

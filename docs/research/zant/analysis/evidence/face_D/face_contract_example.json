@@ -1,0 +1,33 @@
+{
+  "status": "analysis_only_not_a_runtime_implementation",
+  "schemaVersion": "zant-head-authoring-0.1-proposal",
+  "headIdentity": "proof_identity_to_be_selected_by_lead",
+  "headRevision": "proposed_new_art_revision",
+  "sourceAuthority": "original_character_master",
+  "view": "front",
+  "canvas": { "width": null, "height": null, "origin": "top_left", "units": "source_pixels" },
+  "anatomicalSides": "left_and_right_remain_anatomical_under_mirroring",
+  "anchors": { "neck_attach": null, "skull_center": null, "eye_line": null, "chin_reference": null },
+  "baseLayers": { "skin_head": null, "hair_back": null, "hair_front": null, "neck_underplate": null },
+  "normalSilhouettePolicy": "approved_head_alpha_applied_once_after_color_composition",
+  "slots": [ "LEFT_BROW", "RIGHT_BROW", "LEFT_EYE", "RIGHT_EYE", "LOWER_FACE" ],
+  "slotAssetRequiredFields": [
+    "assetId", "headRevision", "view", "semanticSlot", "file", "maskRef", "anatomicalSide",
+    "skinPaletteRevision", "lightingRevision", "shapeState", "gazePairId", "gazeMode",
+    "silhouetteMode", "requiredCompanions", "preferredCompanions", "incompatibleAssets",
+    "occludes", "accessoryCompatibility", "provenance", "sha256", "qaStatus"
+  ],
+  "presetRequiredFields": [ "presetId", "slotAssetMap", "headRevision", "view", "qaStatus" ],
+  "qaStates": [ "reference_only", "candidate", "approved_preset", "approved_mix", "rejected" ],
+  "silhouetteModes": [ "interior_only", "approved_extended_head_set" ],
+  "gazeModes": [ "paired_baked_eyes", "deliberate_unpaired_approved", "closed_not_applicable" ],
+  "sideImplementation": "visible_brow_visible_eye_lower_face_with_hidden_semantics_recorded",
+  "backImplementation": "no_face_overlays",
+  "mirrorSafe": false,
+  "notes": [
+    "Placeholder contract: no newly authored art, coordinates, or production package is supplied.",
+    "Masks are identity/view-specific; Goose geometry is not universal.",
+    "Empty compatibility arrays must not imply every combination approved.",
+    "Extended head sets include replacement alpha and neighbor/accessory compatibility; they are not a sixth free slot."
+  ]
+}

@@ -1,0 +1,5 @@
+# Owner acceptance and C001 Gate A resume
+
+The owner explicitly accepts R4 candidate02 neutral jacket-off/on, including the current authored A16 waist/upper-pants proposal. Freeze current registration, layer ownership, anchors, arm balance, wrist treatment, collar/shoulder construction and A16 treatment. A25 remains immutable. New pose artwork attaches to these fixed interfaces; neutral parts cannot change to accommodate it.
+
+Resume remaining Gate A only: alternate whole-arm G/shared hands, O legs/shoes and evidenced allowed pelvis reserves, exactly seven face patches/ownership/gaze/asymmetry tests, semantic masks/restrained palettes, local viewer, full required matrix. Preserve original sources and all R1–R4/review history. The 32-baseline/6-bounded-reserve contract and existing stop rules remain controlling. Stop on a defined failure; otherwise freeze the completed independent-tester checkpoint and STOP FOR OWNER REVIEW. No later gate/character/animation/integration/database work.

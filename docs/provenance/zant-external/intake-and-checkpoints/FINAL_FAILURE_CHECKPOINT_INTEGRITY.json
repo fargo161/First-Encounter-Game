@@ -1,0 +1,69 @@
+{
+  "candidateId": "C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT",
+  "archiveCRC": "PASS",
+  "manifest": "PASS",
+  "freshExtractionExact": true,
+  "portableReplayIntegrity": "PASS",
+  "builderAuditSHA256": "e9cc3e5b1a8673e5fb1486e1244eef4fade8e4f1bb2638a125a4c9a83bc93838",
+  "replayedEvidenceCases": 4,
+  "acceptedNeutralExact": true,
+  "A25Exact": true,
+  "A16Exact": true,
+  "failedSharedWristTexels": 1252,
+  "preservation": {
+    "sources": {
+      "files": 620,
+      "changed": 0,
+      "missing": 0,
+      "added": 0,
+      "unchanged": true
+    },
+    "R1": {
+      "files": 119,
+      "changed": 0,
+      "missing": 0,
+      "added": 0,
+      "unchanged": true
+    },
+    "R2": {
+      "files": 31,
+      "changed": 0,
+      "missing": 0,
+      "added": 0,
+      "unchanged": true
+    },
+    "R3": {
+      "files": 462,
+      "changed": 0,
+      "missing": 0,
+      "added": 0,
+      "unchanged": true
+    },
+    "independent_R3": {
+      "files": 163,
+      "changed": 0,
+      "missing": 0,
+      "added": 0,
+      "unchanged": true
+    },
+    "R4": {
+      "files": 735,
+      "changed": 0,
+      "missing": 0,
+      "added": 0,
+      "unchanged": true
+    },
+    "independent_R4": {
+      "files": 149,
+      "changed": 0,
+      "missing": 0,
+      "added": 0,
+      "unchanged": true
+    }
+  },
+  "gateAVerdict": "GATE_A_FAILED_AT_G_SLEEVE_PILOT",
+  "newArtOwnerAccepted": false,
+  "reservesUsed": 0,
+  "zipSHA256": "5c8196e1d81ed8aae3bd42a740c6afd01294bc069345c9d683c90163faac2796",
+  "manifestSHA256": "f583c0b57b7ad606b2c8dd985c189836b9831e056fecd07aa9c685ee2b4895dc"
+}

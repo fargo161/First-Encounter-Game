@@ -1,0 +1,124 @@
+{
+  "schema_version": "1.0.0",
+  "pack_id": "trapstar_zant_neutral_grip_hold_v02",
+  "character_count": 44,
+  "master_pattern": "masters/character_{001..044}_neutral_rgba.png",
+  "canvas": {
+    "width_px": 1024,
+    "height_px": 1536,
+    "origin": "top_left",
+    "normalized_range": [0.0, 1.0],
+    "screen_rotation_positive": "clockwise"
+  },
+  "pose": {
+    "id": "neutral_front_grip_ready_v1",
+    "facing": "front",
+    "weight_distribution": "even",
+    "arms": "8_to_12_degrees_from_torso",
+    "elbows": "soft",
+    "palms": "inward",
+    "fingers": "relaxed_gently_curved",
+    "hands_visible": true,
+    "hands_empty": true,
+    "expression": "neutral_identity_preserving"
+  },
+  "socket_resolution": {
+    "bounds_source": "nonzero_alpha_bounds",
+    "formula_space": "character_alpha_bounds",
+    "anatomical_right_palm": {
+      "viewer_side": "left",
+      "x": "bounds.left + (bounds.width * 0.10)",
+      "y": "bounds.top + (bounds.height * 0.52)",
+      "grip_axis_normalized": [0.0, 1.0],
+      "default_rotation_deg": 0.0
+    },
+    "anatomical_left_palm": {
+      "viewer_side": "right",
+      "x": "bounds.left + (bounds.width * 0.90)",
+      "y": "bounds.top + (bounds.height * 0.52)",
+      "grip_axis_normalized": [0.0, 1.0],
+      "default_rotation_deg": 0.0
+    },
+    "placement_seed_only": true,
+    "recommended_refine_radius_normalized_canvas": 0.035,
+    "character_override_supported": true
+  },
+  "grip_profiles": {
+    "relaxed_open": {
+      "item_allowed": false,
+      "base_hand_visible": true,
+      "overlay_required": false
+    },
+    "cylindrical": {
+      "examples": ["bottle", "flashlight", "baton", "vertical_handle"],
+      "item_grip_axis": [0.0, 1.0],
+      "base_hand_occlusion": "palm_and_inner_fingers",
+      "overlay_required": true,
+      "overlay_id_pattern": "hand_{side}_cylindrical_{size}"
+    },
+    "horizontal_handle": {
+      "examples": ["briefcase", "toolbox", "shopping_bag"],
+      "item_grip_axis": [1.0, 0.0],
+      "base_hand_occlusion": "palm_and_inner_fingers",
+      "overlay_required": true,
+      "overlay_id_pattern": "hand_{side}_horizontal_handle_{size}"
+    },
+    "pinch": {
+      "examples": ["card", "paper", "key", "cigarette"],
+      "item_grip_axis": [1.0, 0.0],
+      "base_hand_occlusion": "thumb_and_index_inner_edges",
+      "overlay_required": true,
+      "overlay_id_pattern": "hand_{side}_pinch_{size}"
+    },
+    "support": {
+      "examples": ["box", "tray", "wrapped_package"],
+      "item_grip_axis": [1.0, 0.0],
+      "base_hand_occlusion": "upper_palm_and_fingers",
+      "overlay_required": true,
+      "overlay_id_pattern": "hand_{side}_support_{size}"
+    },
+    "two_hand_long_object": {
+      "examples": ["long_tool", "long_sporting_object"],
+      "uses_both_sockets": true,
+      "primary_socket": "dominant_palm",
+      "secondary_socket": "support_palm",
+      "base_hand_occlusion": "both_palms_and_inner_fingers",
+      "overlay_required": true,
+      "overlay_id_pattern": "hand_{side}_{role}_long_object_{size}"
+    }
+  },
+  "item_contract": {
+    "required_fields": [
+      "item_id",
+      "sprite",
+      "grip_profile",
+      "grip_pivot_normalized",
+      "grip_axis_normalized",
+      "preferred_hand",
+      "scale_reference_px"
+    ],
+    "optional_fields": [
+      "secondary_grip_pivot_normalized",
+      "character_scale_override",
+      "rotation_override_deg",
+      "occlusion_mask",
+      "hand_overlay_override"
+    ]
+  },
+  "render_layers_back_to_front": [
+    "rear_item_component",
+    "character_neutral_master",
+    "base_hand_occlusion_mask",
+    "item_main_sprite",
+    "grip_hand_overlay",
+    "front_item_component"
+  ],
+  "safety_rules": [
+    "Never overwrite the neutral master.",
+    "Never bake a held item into a neutral master.",
+    "Use anatomical side names in data; viewer-side names are descriptive only.",
+    "Require an overlay for grips that close fingers around an item.",
+    "Fall back to relaxed_open when grip data is absent.",
+    "Treat socket formulas as placement seeds and save reviewed per-character overrides."
+  ]
+}

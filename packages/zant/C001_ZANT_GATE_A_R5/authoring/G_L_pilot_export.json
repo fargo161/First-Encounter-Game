@@ -1,0 +1,46 @@
+{
+  "status": "PILOT_REVIEW_NOT_ACCEPTED",
+  "raw": "G_L_tee_hand_v1.png",
+  "nativeExport": {
+    "rawFrame": [
+      887,
+      1774
+    ],
+    "wholeCanvasResize": [
+      300,
+      600
+    ],
+    "bodyOrigin": [
+      520,
+      350
+    ],
+    "resample": "Lanczos"
+  },
+  "shoulder": [
+    612,
+    407
+  ],
+  "wristG": [
+    637,
+    705
+  ],
+  "wristSeamLine": "y = .7*(x-637)+705",
+  "wristHiddenOverlapEachSide": 10,
+  "matteTexelsRemoved": 109,
+  "root": "accepted N cap paint retained above body435, new G transition435..480; then pure frozen-tee root-occlusion alpha baked into G only; no neutral modification",
+  "layerOrder": [
+    "A21_sneaker_L_N",
+    "A22_sneaker_R_N",
+    "A17_pants_leg_L_N",
+    "A18_pants_leg_R_N",
+    "A16_pants_pelvis_NN",
+    "A01_skin_neck",
+    "A25_head_front_neutral",
+    "A05_tee_arm_R_N",
+    "A02_tee_torso",
+    "A13_hand_R_N",
+    "A14_hand_L_G",
+    "A06_tee_arm_L_G"
+  ],
+  "depthRationale": "G hand then whole G arm in front, cuff/forearm over hidden hand wrist. Shoulder root concealed using pure coverage ownership mask from frozen A02, full at y<=550, fades to zero by580. No repair RGB, repeated arm draw, extra painted layer or reserve."
+}

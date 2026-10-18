@@ -1,0 +1,37 @@
+{
+  "status": "PILOT_REVIEW_NOT_ACCEPTED",
+  "raw": "G_L_jacket_v1.png",
+  "nativeExport": [
+    300,
+    600
+  ],
+  "bodyOrigin": [
+    520,
+    350
+  ],
+  "skinTexelsExcluded": 6719,
+  "GHand": "A14_hand_L_G shared unchanged from tee pilot; no generated jacket-hand pixels selected",
+  "wristG": [
+    637,
+    705
+  ],
+  "cuffPolicy": "generated cloth may overlap more of same hidden wrist; palm/fingers are the same hand file",
+  "rootPolicy": "N source cap paint through435; transition435..480; pure A03 coverage mask on root; no new RGB repair",
+  "layerOrder": [
+    "A21_sneaker_L_N",
+    "A22_sneaker_R_N",
+    "A17_pants_leg_L_N",
+    "A18_pants_leg_R_N",
+    "A16_pants_pelvis_NN",
+    "A01_skin_neck",
+    "A25_head_front_neutral",
+    "A02_tee_torso",
+    "A13_hand_R_N",
+    "A09_jacket_arm_R_N",
+    "A03_jacket_open_torso",
+    "A14_hand_L_G",
+    "A10_jacket_arm_L_G"
+  ],
+  "neutralChanged": false,
+  "reserves": 0
+}

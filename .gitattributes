@@ -25,3 +25,9 @@
 /docs/audits/room-creator/** -text
 /tools/room-creator-independent/** -text
 /assets/manifests/room-creator-library-v1/** -text
+
+# Stage 8: preserve ZANT package, research and audit bytes, including historical line endings.
+/packages/zant/** -text
+/docs/audits/zant/** -text
+/docs/research/zant/** -text
+/docs/provenance/zant-external/** -text

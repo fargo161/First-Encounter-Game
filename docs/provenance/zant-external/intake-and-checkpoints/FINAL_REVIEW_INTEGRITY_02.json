@@ -1,0 +1,79 @@
+{
+  "candidateId": "C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_02",
+  "zipIntegrity": "PASS",
+  "manifestIntegrity": "PASS",
+  "governedFiles": 149,
+  "packetFilesIncludingManifest": 150,
+  "freshExtractionMatches": true,
+  "portableAuthorAudit": "PASS",
+  "portableAuditSHA256": "6aea6dc1584eebe4360e59b2d6a4a0e721d3beb1f11726a89fe9047dbf3b8e49",
+  "preservation": {
+    "sources": {
+      "files": 620,
+      "changed": 0,
+      "missing": 0,
+      "added": 0,
+      "unchanged": true
+    },
+    "R1": {
+      "files": 119,
+      "changed": 0,
+      "missing": 0,
+      "added": 0,
+      "unchanged": true
+    },
+    "R2": {
+      "files": 31,
+      "changed": 0,
+      "missing": 0,
+      "added": 0,
+      "unchanged": true
+    },
+    "R3": {
+      "files": 462,
+      "changed": 0,
+      "missing": 0,
+      "added": 0,
+      "unchanged": true
+    },
+    "independent_R3": {
+      "files": 163,
+      "changed": 0,
+      "missing": 0,
+      "added": 0,
+      "unchanged": true
+    },
+    "candidate01": {
+      "files": 136,
+      "changed": 0,
+      "missing": 0,
+      "added": 0,
+      "unchanged": true
+    },
+    "independentR4": {
+      "files": 149,
+      "changed": 0,
+      "missing": 0,
+      "added": 0,
+      "unchanged": true
+    }
+  },
+  "candidate01ExternalFilesUnchanged": true,
+  "allFixedRecordsByteUnchanged": true,
+  "onlyAssetChanges": [
+    "A04_tee_arm_L_N.png",
+    "A05_tee_arm_R_N.png"
+  ],
+  "restoredPreviouslyTransparentTexels": 15,
+  "retainedVisibleRGBAChanged": 0,
+  "jacketOnDecodedRGBAChangedPixels": 0,
+  "A25ByteUnchanged": true,
+  "A16ByteUnchanged": true,
+  "A16Status": "unchanged authored waist proposal; owner art decision pending; not source-exact RGB",
+  "gateAVerdict": "HOLD_NEUTRAL_OWNER_REVIEW",
+  "ownerAccepted": false,
+  "neutralContourFrozen": false,
+  "reservesUsed": 0,
+  "zipSHA256": "c43e34ac80a8fd32f1ee5f30e5116dad06129a10b196032afc2fb2746a8188b3",
+  "manifestSHA256": "e7a727520b99ec3fc2c273f79843c4a951adf11dbe5bbf4e2eeaf33a791af4c9"
+}

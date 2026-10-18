@@ -1,0 +1,387 @@
+{
+  "base_alpha_top_counts": [
+    [
+      0,
+      797609
+    ],
+    [
+      253,
+      672492
+    ],
+    [
+      252,
+      260655
+    ],
+    [
+      251,
+      7479
+    ],
+    [
+      1,
+      3667
+    ],
+    [
+      250,
+      2409
+    ],
+    [
+      2,
+      1395
+    ],
+    [
+      249,
+      1335
+    ],
+    [
+      248,
+      998
+    ],
+    [
+      3,
+      988
+    ],
+    [
+      247,
+      690
+    ],
+    [
+      4,
+      688
+    ]
+  ],
+  "base_fully_opaque_pixels": 324,
+  "expressions": [
+    {
+      "expression": 1,
+      "alpha_changed_pixels": 310208,
+      "alpha_change_bbox": [
+        280,
+        415,
+        908,
+        989
+      ],
+      "alpha_max_delta": 67,
+      "rgb_changed_pixels": 324639,
+      "rgb_max_delta": 251
+    },
+    {
+      "expression": 2,
+      "alpha_changed_pixels": 310208,
+      "alpha_change_bbox": [
+        280,
+        415,
+        908,
+        989
+      ],
+      "alpha_max_delta": 67,
+      "rgb_changed_pixels": 325725,
+      "rgb_max_delta": 254
+    },
+    {
+      "expression": 3,
+      "alpha_changed_pixels": 310208,
+      "alpha_change_bbox": [
+        280,
+        415,
+        908,
+        989
+      ],
+      "alpha_max_delta": 67,
+      "rgb_changed_pixels": 327122,
+      "rgb_max_delta": 254
+    },
+    {
+      "expression": 4,
+      "alpha_changed_pixels": 310208,
+      "alpha_change_bbox": [
+        280,
+        415,
+        908,
+        989
+      ],
+      "alpha_max_delta": 67,
+      "rgb_changed_pixels": 321421,
+      "rgb_max_delta": 252
+    },
+    {
+      "expression": 5,
+      "alpha_changed_pixels": 310208,
+      "alpha_change_bbox": [
+        280,
+        415,
+        908,
+        989
+      ],
+      "alpha_max_delta": 67,
+      "rgb_changed_pixels": 324889,
+      "rgb_max_delta": 253
+    },
+    {
+      "expression": 6,
+      "alpha_changed_pixels": 310208,
+      "alpha_change_bbox": [
+        280,
+        415,
+        908,
+        989
+      ],
+      "alpha_max_delta": 67,
+      "rgb_changed_pixels": 326565,
+      "rgb_max_delta": 252
+    },
+    {
+      "expression": 7,
+      "alpha_changed_pixels": 310208,
+      "alpha_change_bbox": [
+        280,
+        415,
+        908,
+        989
+      ],
+      "alpha_max_delta": 67,
+      "rgb_changed_pixels": 324414,
+      "rgb_max_delta": 252
+    },
+    {
+      "expression": 8,
+      "alpha_changed_pixels": 310208,
+      "alpha_change_bbox": [
+        280,
+        415,
+        908,
+        989
+      ],
+      "alpha_max_delta": 67,
+      "rgb_changed_pixels": 324844,
+      "rgb_max_delta": 253
+    },
+    {
+      "expression": 9,
+      "alpha_changed_pixels": 310208,
+      "alpha_change_bbox": [
+        280,
+        415,
+        908,
+        989
+      ],
+      "alpha_max_delta": 67,
+      "rgb_changed_pixels": 0,
+      "rgb_max_delta": 0
+    },
+    {
+      "expression": 10,
+      "alpha_changed_pixels": 310208,
+      "alpha_change_bbox": [
+        280,
+        415,
+        908,
+        989
+      ],
+      "alpha_max_delta": 67,
+      "rgb_changed_pixels": 326679,
+      "rgb_max_delta": 252
+    },
+    {
+      "expression": 11,
+      "alpha_changed_pixels": 310208,
+      "alpha_change_bbox": [
+        280,
+        415,
+        908,
+        989
+      ],
+      "alpha_max_delta": 67,
+      "rgb_changed_pixels": 326501,
+      "rgb_max_delta": 254
+    },
+    {
+      "expression": 12,
+      "alpha_changed_pixels": 310208,
+      "alpha_change_bbox": [
+        280,
+        415,
+        908,
+        989
+      ],
+      "alpha_max_delta": 67,
+      "rgb_changed_pixels": 320066,
+      "rgb_max_delta": 253
+    },
+    {
+      "expression": 13,
+      "alpha_changed_pixels": 310208,
+      "alpha_change_bbox": [
+        280,
+        415,
+        908,
+        989
+      ],
+      "alpha_max_delta": 67,
+      "rgb_changed_pixels": 319039,
+      "rgb_max_delta": 252
+    },
+    {
+      "expression": 14,
+      "alpha_changed_pixels": 310208,
+      "alpha_change_bbox": [
+        280,
+        415,
+        908,
+        989
+      ],
+      "alpha_max_delta": 67,
+      "rgb_changed_pixels": 321014,
+      "rgb_max_delta": 255
+    },
+    {
+      "expression": 15,
+      "alpha_changed_pixels": 310208,
+      "alpha_change_bbox": [
+        280,
+        415,
+        908,
+        989
+      ],
+      "alpha_max_delta": 67,
+      "rgb_changed_pixels": 319923,
+      "rgb_max_delta": 251
+    },
+    {
+      "expression": 16,
+      "alpha_changed_pixels": 310208,
+      "alpha_change_bbox": [
+        280,
+        415,
+        908,
+        989
+      ],
+      "alpha_max_delta": 67,
+      "rgb_changed_pixels": 326828,
+      "rgb_max_delta": 253
+    },
+    {
+      "expression": 17,
+      "alpha_changed_pixels": 310208,
+      "alpha_change_bbox": [
+        280,
+        415,
+        908,
+        989
+      ],
+      "alpha_max_delta": 67,
+      "rgb_changed_pixels": 326302,
+      "rgb_max_delta": 254
+    },
+    {
+      "expression": 18,
+      "alpha_changed_pixels": 310208,
+      "alpha_change_bbox": [
+        280,
+        415,
+        908,
+        989
+      ],
+      "alpha_max_delta": 67,
+      "rgb_changed_pixels": 315510,
+      "rgb_max_delta": 245
+    }
+  ],
+  "preview_alpha_invariant_across_all18": true,
+  "base_alpha_support_equals_preview_alpha_support": true,
+  "visually_identified_context_samples": [
+    {
+      "xy": [
+        350,
+        950
+      ],
+      "description": "image-left blue collar inside lower mask",
+      "base_rgba": [
+        0,
+        0,
+        5,
+        252
+      ],
+      "lower_mask_value": 230
+    },
+    {
+      "xy": [
+        840,
+        950
+      ],
+      "description": "image-right blue collar inside lower mask",
+      "base_rgba": [
+        1,
+        2,
+        11,
+        252
+      ],
+      "lower_mask_value": 223
+    },
+    {
+      "xy": [
+        600,
+        970
+      ],
+      "description": "upper neck beneath neutral chin",
+      "base_rgba": [
+        126,
+        68,
+        44,
+        253
+      ],
+      "lower_mask_value": 178
+    },
+    {
+      "xy": [
+        310,
+        660
+      ],
+      "description": "image-left ear near lower-mask edge",
+      "base_rgba": [
+        233,
+        150,
+        121,
+        252
+      ],
+      "lower_mask_value": 2
+    },
+    {
+      "xy": [
+        875,
+        660
+      ],
+      "description": "image-right ear near lower-mask edge",
+      "base_rgba": [
+        208,
+        139,
+        111,
+        252
+      ],
+      "lower_mask_value": 3
+    },
+    {
+      "xy": [
+        330,
+        435
+      ],
+      "description": "hair in brow rectangle",
+      "base_rgba": [
+        62,
+        35,
+        17,
+        252
+      ],
+      "lower_mask_value": 0
+    }
+  ],
+  "expr08_bright_changed_candidates": {
+    "test": "RGB minimum>220 and mean abs RGB change>80 inside lower mask; visually inspect, not semantic segmentation",
+    "pixels": 1121,
+    "bbox": [
+      333,
+      686,
+      851,
+      800
+    ]
+  }
+}

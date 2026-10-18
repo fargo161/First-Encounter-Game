@@ -1,0 +1,74 @@
+{
+  "summary": {
+    "id": "zant-intake-preflight",
+    "role": "intake_verification",
+    "source_root": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\Trapstar_ZANT_preflight_2026-10-18",
+    "archive_root": "snapshots/zant-intake-preflight",
+    "file_count": 12,
+    "bytes": 7881124,
+    "tree_sha256": "205c0bada54ac6921266fa2b4fbcf2d84b0ad729d272d6a3a2a5b5872a87bb04",
+    "fingerprint_method": "SHA256 of UTF-8 JSON sorted relative paths; keys sorted; compact separators; records path,bytes,sha256"
+  },
+  "files": [
+    {
+      "path": "00_PREFLIGHT_REPORT.md",
+      "bytes": 18299,
+      "sha256": "5f1fb9fa1d67348e2547ff5a228f08abec959630c93fcf7f6b6515b04dd7cb04"
+    },
+    {
+      "path": "preflight_crosscheck.py",
+      "bytes": 9190,
+      "sha256": "d295ee6ad0811837976aa00eb28add62fb7b36c60684bd159f77b0fbc898cc06"
+    },
+    {
+      "path": "preflight_crosschecks.json",
+      "bytes": 10162,
+      "sha256": "fc1b2928c86523dd05a617848692d79f7ccb2acb7a53db702b2b45d905e9f96e"
+    },
+    {
+      "path": "preflight_integrity_check.py",
+      "bytes": 4940,
+      "sha256": "5742981d566d851e6b05b95b6ac221f9fc42edb546f6a3e870f0bf27dd2bbab6"
+    },
+    {
+      "path": "preflight_integrity_inventory.json",
+      "bytes": 414135,
+      "sha256": "cbb65137dde0ddf98f4f831e6ddaff158af350539cee13686737556a546d6ae9"
+    },
+    {
+      "path": "samples/C001_clothing_inventory.png",
+      "bytes": 692810,
+      "sha256": "9a02bf9c5b80581d0ecba558521cf6d7eccce2eb1114632ca54f4cc1540554cb"
+    },
+    {
+      "path": "samples/C020_kit_plate.png",
+      "bytes": 1856058,
+      "sha256": "e53d21a785e3ca93507cc53fc39ac0a6c45ee3f2bb79f096a10a6248749c960b"
+    },
+    {
+      "path": "samples/C028_kit_plate.png",
+      "bytes": 2117787,
+      "sha256": "841ae951687747699202588c290c49db1fd7d8df8d011eeb71d404fd73fff351"
+    },
+    {
+      "path": "samples/eight_fit_classes.png",
+      "bytes": 244314,
+      "sha256": "1e901c3837cd2be17adc23bf4c43bae2f6cc97c06eb2fce7c56d65930a6bee1d"
+    },
+    {
+      "path": "samples/face_contact.png",
+      "bytes": 790836,
+      "sha256": "7f0c65547d1da336a4c506f23cb620fd544e7875f0ae839998014a01b7635038"
+    },
+    {
+      "path": "samples/face_registration_guide.png",
+      "bytes": 1253489,
+      "sha256": "e01dcf17b6236e0866fa640e3cfb4002e125023dbdf65413eba6ce5418865253"
+    },
+    {
+      "path": "samples/original_44_contact.jpg",
+      "bytes": 469104,
+      "sha256": "4186a507a0bdacb564b9747871f4106e6fb0bac1dbbcec9345dca9e89004c7ac"
+    }
+  ]
+}

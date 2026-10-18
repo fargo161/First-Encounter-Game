@@ -1,0 +1,670 @@
+{
+  "package": "NEUTRAL_CHARACTER_MODULAR_REBUILD_V03_2_GEAR_CATALOG_REPAIR",
+  "version": "3.2.0",
+  "scope": "25 catalogs previously marked visual_review_required",
+  "method": "mechanical component recovery and sorting from existing authoring plates",
+  "new_generation": false,
+  "catalog_contract": {
+    "canvas": [
+      737,
+      461
+    ],
+    "mode": "RGBA",
+    "allowed": "separately rendered gear/accessory components only",
+    "excluded": [
+      "clothing",
+      "footwear",
+      "character bodies",
+      "guide boxes",
+      "guide lines"
+    ],
+    "missing_policy": "report missing_source_isolation; do not infer or fabricate"
+  },
+  "summary": {
+    "catalogs_repaired": 25,
+    "clean_complete": 5,
+    "clean_partial": 2,
+    "clean_empty_missing": 18,
+    "isolated_assets_recovered": 13,
+    "declared_assets_missing_source_isolation": 30
+  },
+  "characters": {
+    "C002": {
+      "declared_items": [
+        "pearl necklace"
+      ],
+      "isolated_items": [],
+      "missing_source_isolation": [
+        "pearl necklace"
+      ],
+      "status": "clean_empty_missing_source_isolation",
+      "gear_catalog": "gear_accessory_catalogs/C002_gear_accessory_inventory_rgba.png",
+      "gear_catalog_sha256": "ce21a25f3bd1e2eb6ef93901ecf4e447d7e4a5770062f9dfed605edac905de22",
+      "source_bboxes": [],
+      "clothing_catalog_gear_removed": false,
+      "removed_catalog_leaks": [
+        "clothing",
+        "footwear",
+        "plate guide marks"
+      ]
+    },
+    "C003": {
+      "declared_items": [
+        "necklace",
+        "earrings"
+      ],
+      "isolated_items": [],
+      "missing_source_isolation": [
+        "necklace",
+        "earrings"
+      ],
+      "status": "clean_empty_missing_source_isolation",
+      "gear_catalog": "gear_accessory_catalogs/C003_gear_accessory_inventory_rgba.png",
+      "gear_catalog_sha256": "ce21a25f3bd1e2eb6ef93901ecf4e447d7e4a5770062f9dfed605edac905de22",
+      "source_bboxes": [],
+      "clothing_catalog_gear_removed": false,
+      "removed_catalog_leaks": [
+        "clothing",
+        "footwear",
+        "plate guide marks"
+      ]
+    },
+    "C004": {
+      "declared_items": [
+        "belt"
+      ],
+      "isolated_items": [],
+      "missing_source_isolation": [
+        "belt"
+      ],
+      "status": "clean_empty_missing_source_isolation",
+      "gear_catalog": "gear_accessory_catalogs/C004_gear_accessory_inventory_rgba.png",
+      "gear_catalog_sha256": "ce21a25f3bd1e2eb6ef93901ecf4e447d7e4a5770062f9dfed605edac905de22",
+      "source_bboxes": [],
+      "clothing_catalog_gear_removed": false,
+      "removed_catalog_leaks": [
+        "clothing",
+        "footwear",
+        "plate guide marks"
+      ]
+    },
+    "C005": {
+      "declared_items": [
+        "eyeglasses",
+        "belt"
+      ],
+      "isolated_items": [
+        "belt"
+      ],
+      "missing_source_isolation": [
+        "eyeglasses"
+      ],
+      "status": "clean_partial_missing_source_isolation",
+      "gear_catalog": "gear_accessory_catalogs/C005_gear_accessory_inventory_rgba.png",
+      "gear_catalog_sha256": "293ad175f8749b0da66f18d0f7a3c3b9966fc1415d2cfbb6e48b637f272a64f8",
+      "source_bboxes": [
+        {
+          "item": "belt",
+          "bbox_xyxy": [
+            912,
+            875,
+            1134,
+            969
+          ]
+        }
+      ],
+      "clothing_catalog_gear_removed": false,
+      "removed_catalog_leaks": [
+        "clothing",
+        "footwear",
+        "plate guide marks"
+      ]
+    },
+    "C006": {
+      "declared_items": [
+        "eyeglasses"
+      ],
+      "isolated_items": [],
+      "missing_source_isolation": [
+        "eyeglasses"
+      ],
+      "status": "clean_empty_missing_source_isolation",
+      "gear_catalog": "gear_accessory_catalogs/C006_gear_accessory_inventory_rgba.png",
+      "gear_catalog_sha256": "ce21a25f3bd1e2eb6ef93901ecf4e447d7e4a5770062f9dfed605edac905de22",
+      "source_bboxes": [],
+      "clothing_catalog_gear_removed": false,
+      "removed_catalog_leaks": [
+        "clothing",
+        "footwear",
+        "plate guide marks"
+      ]
+    },
+    "C007": {
+      "declared_items": [
+        "eyeglasses",
+        "necklace",
+        "earrings",
+        "watch",
+        "brooch"
+      ],
+      "isolated_items": [
+        "eyeglasses",
+        "necklace",
+        "earrings",
+        "watch",
+        "brooch"
+      ],
+      "missing_source_isolation": [],
+      "status": "clean_complete",
+      "gear_catalog": "gear_accessory_catalogs/C007_gear_accessory_inventory_rgba.png",
+      "gear_catalog_sha256": "9216f8dcd5084f85e94e06127f4598547daf2e3b4d4fad6f5a22b3e82b2f8fd2",
+      "source_bboxes": [
+        {
+          "item": "eyeglasses",
+          "bbox_xyxy": [
+            828,
+            846,
+            1007,
+            932
+          ]
+        },
+        {
+          "item": "necklace",
+          "bbox_xyxy": [
+            1037,
+            790,
+            1131,
+            971
+          ]
+        },
+        {
+          "item": "earrings",
+          "bbox_xyxy": [
+            1149,
+            842,
+            1271,
+            937
+          ]
+        },
+        {
+          "item": "watch",
+          "bbox_xyxy": [
+            1290,
+            802,
+            1386,
+            974
+          ]
+        },
+        {
+          "item": "brooch",
+          "bbox_xyxy": [
+            1412,
+            853,
+            1504,
+            950
+          ]
+        }
+      ],
+      "clothing_catalog_gear_removed": false,
+      "removed_catalog_leaks": [
+        "clothing",
+        "footwear",
+        "plate guide marks"
+      ]
+    },
+    "C011": {
+      "declared_items": [
+        "earrings",
+        "scarf",
+        "belt"
+      ],
+      "isolated_items": [],
+      "missing_source_isolation": [
+        "earrings",
+        "scarf",
+        "belt"
+      ],
+      "status": "clean_empty_missing_source_isolation",
+      "gear_catalog": "gear_accessory_catalogs/C011_gear_accessory_inventory_rgba.png",
+      "gear_catalog_sha256": "ce21a25f3bd1e2eb6ef93901ecf4e447d7e4a5770062f9dfed605edac905de22",
+      "source_bboxes": [],
+      "clothing_catalog_gear_removed": false,
+      "removed_catalog_leaks": [
+        "clothing",
+        "footwear",
+        "plate guide marks"
+      ]
+    },
+    "C012": {
+      "declared_items": [
+        "eyeglasses",
+        "belt"
+      ],
+      "isolated_items": [],
+      "missing_source_isolation": [
+        "eyeglasses",
+        "belt"
+      ],
+      "status": "clean_empty_missing_source_isolation",
+      "gear_catalog": "gear_accessory_catalogs/C012_gear_accessory_inventory_rgba.png",
+      "gear_catalog_sha256": "ce21a25f3bd1e2eb6ef93901ecf4e447d7e4a5770062f9dfed605edac905de22",
+      "source_bboxes": [],
+      "clothing_catalog_gear_removed": false,
+      "removed_catalog_leaks": [
+        "clothing",
+        "footwear",
+        "plate guide marks"
+      ]
+    },
+    "C014": {
+      "declared_items": [
+        "belt"
+      ],
+      "isolated_items": [
+        "belt"
+      ],
+      "missing_source_isolation": [],
+      "status": "clean_complete",
+      "gear_catalog": "gear_accessory_catalogs/C014_gear_accessory_inventory_rgba.png",
+      "gear_catalog_sha256": "f32c94ea2b79cd06c6c0cf9f32d2e814c468d3c1c64447b3edaf04ee4b71772b",
+      "source_bboxes": [
+        {
+          "item": "belt",
+          "bbox_xyxy": [
+            1188,
+            391,
+            1484,
+            489
+          ]
+        }
+      ],
+      "clothing_catalog_gear_removed": true,
+      "removed_catalog_leaks": [
+        "clothing",
+        "footwear",
+        "plate guide marks"
+      ]
+    },
+    "C015": {
+      "declared_items": [
+        "belt"
+      ],
+      "isolated_items": [
+        "belt"
+      ],
+      "missing_source_isolation": [],
+      "status": "clean_complete",
+      "gear_catalog": "gear_accessory_catalogs/C015_gear_accessory_inventory_rgba.png",
+      "gear_catalog_sha256": "618ca546bd3e77ad48d128c264110ecd4e9bc2434984e7b733d31188c0fcd2fa",
+      "source_bboxes": [
+        {
+          "item": "belt",
+          "bbox_xyxy": [
+            1215,
+            601,
+            1480,
+            681
+          ]
+        }
+      ],
+      "clothing_catalog_gear_removed": true,
+      "removed_catalog_leaks": [
+        "clothing",
+        "footwear",
+        "plate guide marks"
+      ]
+    },
+    "C016": {
+      "declared_items": [
+        "earrings"
+      ],
+      "isolated_items": [],
+      "missing_source_isolation": [
+        "earrings"
+      ],
+      "status": "clean_empty_missing_source_isolation",
+      "gear_catalog": "gear_accessory_catalogs/C016_gear_accessory_inventory_rgba.png",
+      "gear_catalog_sha256": "ce21a25f3bd1e2eb6ef93901ecf4e447d7e4a5770062f9dfed605edac905de22",
+      "source_bboxes": [],
+      "clothing_catalog_gear_removed": false,
+      "removed_catalog_leaks": [
+        "clothing",
+        "footwear",
+        "plate guide marks"
+      ]
+    },
+    "C017": {
+      "declared_items": [
+        "eyeglasses"
+      ],
+      "isolated_items": [],
+      "missing_source_isolation": [
+        "eyeglasses"
+      ],
+      "status": "clean_empty_missing_source_isolation",
+      "gear_catalog": "gear_accessory_catalogs/C017_gear_accessory_inventory_rgba.png",
+      "gear_catalog_sha256": "ce21a25f3bd1e2eb6ef93901ecf4e447d7e4a5770062f9dfed605edac905de22",
+      "source_bboxes": [],
+      "clothing_catalog_gear_removed": false,
+      "removed_catalog_leaks": [
+        "clothing",
+        "footwear",
+        "plate guide marks"
+      ]
+    },
+    "C019": {
+      "declared_items": [
+        "necklace"
+      ],
+      "isolated_items": [],
+      "missing_source_isolation": [
+        "necklace"
+      ],
+      "status": "clean_empty_missing_source_isolation",
+      "gear_catalog": "gear_accessory_catalogs/C019_gear_accessory_inventory_rgba.png",
+      "gear_catalog_sha256": "ce21a25f3bd1e2eb6ef93901ecf4e447d7e4a5770062f9dfed605edac905de22",
+      "source_bboxes": [],
+      "clothing_catalog_gear_removed": false,
+      "removed_catalog_leaks": [
+        "clothing",
+        "footwear",
+        "plate guide marks"
+      ]
+    },
+    "C021": {
+      "declared_items": [
+        "belt"
+      ],
+      "isolated_items": [],
+      "missing_source_isolation": [
+        "belt"
+      ],
+      "status": "clean_empty_missing_source_isolation",
+      "gear_catalog": "gear_accessory_catalogs/C021_gear_accessory_inventory_rgba.png",
+      "gear_catalog_sha256": "ce21a25f3bd1e2eb6ef93901ecf4e447d7e4a5770062f9dfed605edac905de22",
+      "source_bboxes": [],
+      "clothing_catalog_gear_removed": false,
+      "removed_catalog_leaks": [
+        "clothing",
+        "footwear",
+        "plate guide marks"
+      ]
+    },
+    "C022": {
+      "declared_items": [
+        "earrings"
+      ],
+      "isolated_items": [],
+      "missing_source_isolation": [
+        "earrings"
+      ],
+      "status": "clean_empty_missing_source_isolation",
+      "gear_catalog": "gear_accessory_catalogs/C022_gear_accessory_inventory_rgba.png",
+      "gear_catalog_sha256": "ce21a25f3bd1e2eb6ef93901ecf4e447d7e4a5770062f9dfed605edac905de22",
+      "source_bboxes": [],
+      "clothing_catalog_gear_removed": false,
+      "removed_catalog_leaks": [
+        "clothing",
+        "footwear",
+        "plate guide marks"
+      ]
+    },
+    "C024": {
+      "declared_items": [
+        "eyeglasses"
+      ],
+      "isolated_items": [],
+      "missing_source_isolation": [
+        "eyeglasses"
+      ],
+      "status": "clean_empty_missing_source_isolation",
+      "gear_catalog": "gear_accessory_catalogs/C024_gear_accessory_inventory_rgba.png",
+      "gear_catalog_sha256": "ce21a25f3bd1e2eb6ef93901ecf4e447d7e4a5770062f9dfed605edac905de22",
+      "source_bboxes": [],
+      "clothing_catalog_gear_removed": false,
+      "removed_catalog_leaks": [
+        "clothing",
+        "footwear",
+        "plate guide marks"
+      ]
+    },
+    "C025": {
+      "declared_items": [
+        "hoop earrings",
+        "necklaces",
+        "belt chain"
+      ],
+      "isolated_items": [],
+      "missing_source_isolation": [
+        "hoop earrings",
+        "necklaces",
+        "belt chain"
+      ],
+      "status": "clean_empty_missing_source_isolation",
+      "gear_catalog": "gear_accessory_catalogs/C025_gear_accessory_inventory_rgba.png",
+      "gear_catalog_sha256": "ce21a25f3bd1e2eb6ef93901ecf4e447d7e4a5770062f9dfed605edac905de22",
+      "source_bboxes": [],
+      "clothing_catalog_gear_removed": false,
+      "removed_catalog_leaks": [
+        "clothing",
+        "footwear",
+        "plate guide marks"
+      ]
+    },
+    "C026": {
+      "declared_items": [
+        "protective vest"
+      ],
+      "isolated_items": [
+        "protective vest"
+      ],
+      "missing_source_isolation": [],
+      "status": "clean_complete",
+      "gear_catalog": "gear_accessory_catalogs/C026_gear_accessory_inventory_rgba.png",
+      "gear_catalog_sha256": "f3907465be7fca0500f7a0c8edbddcf1d6bb6bb0f4273f915ce2d69201c2329d",
+      "source_bboxes": [
+        {
+          "item": "protective vest",
+          "bbox_xyxy": [
+            1244,
+            49,
+            1510,
+            293
+          ]
+        }
+      ],
+      "clothing_catalog_gear_removed": true,
+      "removed_catalog_leaks": [
+        "clothing",
+        "footwear",
+        "plate guide marks"
+      ]
+    },
+    "C029": {
+      "declared_items": [
+        "protective vest",
+        "belt",
+        "watch",
+        "bracelet"
+      ],
+      "isolated_items": [
+        "protective vest",
+        "belt"
+      ],
+      "missing_source_isolation": [
+        "watch",
+        "bracelet"
+      ],
+      "status": "clean_partial_missing_source_isolation",
+      "gear_catalog": "gear_accessory_catalogs/C029_gear_accessory_inventory_rgba.png",
+      "gear_catalog_sha256": "5356033c13778692c9faaef00f85dda64008612897a4f451c713dbdf00d4e471",
+      "source_bboxes": [
+        {
+          "item": "protective vest",
+          "bbox_xyxy": [
+            1258,
+            55,
+            1513,
+            330
+          ]
+        },
+        {
+          "item": "belt",
+          "bbox_xyxy": [
+            1225,
+            356,
+            1494,
+            438
+          ]
+        }
+      ],
+      "clothing_catalog_gear_removed": true,
+      "removed_catalog_leaks": [
+        "clothing",
+        "footwear",
+        "plate guide marks"
+      ]
+    },
+    "C030": {
+      "declared_items": [
+        "belt"
+      ],
+      "isolated_items": [],
+      "missing_source_isolation": [
+        "belt"
+      ],
+      "status": "clean_empty_missing_source_isolation",
+      "gear_catalog": "gear_accessory_catalogs/C030_gear_accessory_inventory_rgba.png",
+      "gear_catalog_sha256": "ce21a25f3bd1e2eb6ef93901ecf4e447d7e4a5770062f9dfed605edac905de22",
+      "source_bboxes": [],
+      "clothing_catalog_gear_removed": false,
+      "removed_catalog_leaks": [
+        "clothing",
+        "footwear",
+        "plate guide marks"
+      ]
+    },
+    "C032": {
+      "declared_items": [
+        "watch"
+      ],
+      "isolated_items": [],
+      "missing_source_isolation": [
+        "watch"
+      ],
+      "status": "clean_empty_missing_source_isolation",
+      "gear_catalog": "gear_accessory_catalogs/C032_gear_accessory_inventory_rgba.png",
+      "gear_catalog_sha256": "ce21a25f3bd1e2eb6ef93901ecf4e447d7e4a5770062f9dfed605edac905de22",
+      "source_bboxes": [],
+      "clothing_catalog_gear_removed": false,
+      "removed_catalog_leaks": [
+        "clothing",
+        "footwear",
+        "plate guide marks"
+      ]
+    },
+    "C035": {
+      "declared_items": [
+        "belt",
+        "watch",
+        "necklace"
+      ],
+      "isolated_items": [],
+      "missing_source_isolation": [
+        "belt",
+        "watch",
+        "necklace"
+      ],
+      "status": "clean_empty_missing_source_isolation",
+      "gear_catalog": "gear_accessory_catalogs/C035_gear_accessory_inventory_rgba.png",
+      "gear_catalog_sha256": "ce21a25f3bd1e2eb6ef93901ecf4e447d7e4a5770062f9dfed605edac905de22",
+      "source_bboxes": [],
+      "clothing_catalog_gear_removed": false,
+      "removed_catalog_leaks": [
+        "clothing",
+        "footwear",
+        "plate guide marks"
+      ]
+    },
+    "C037": {
+      "declared_items": [
+        "belt"
+      ],
+      "isolated_items": [],
+      "missing_source_isolation": [
+        "belt"
+      ],
+      "status": "clean_empty_missing_source_isolation",
+      "gear_catalog": "gear_accessory_catalogs/C037_gear_accessory_inventory_rgba.png",
+      "gear_catalog_sha256": "ce21a25f3bd1e2eb6ef93901ecf4e447d7e4a5770062f9dfed605edac905de22",
+      "source_bboxes": [],
+      "clothing_catalog_gear_removed": false,
+      "removed_catalog_leaks": [
+        "clothing",
+        "footwear",
+        "plate guide marks"
+      ]
+    },
+    "C039": {
+      "declared_items": [
+        "necklace",
+        "watch"
+      ],
+      "isolated_items": [],
+      "missing_source_isolation": [
+        "necklace",
+        "watch"
+      ],
+      "status": "clean_empty_missing_source_isolation",
+      "gear_catalog": "gear_accessory_catalogs/C039_gear_accessory_inventory_rgba.png",
+      "gear_catalog_sha256": "ce21a25f3bd1e2eb6ef93901ecf4e447d7e4a5770062f9dfed605edac905de22",
+      "source_bboxes": [],
+      "clothing_catalog_gear_removed": false,
+      "removed_catalog_leaks": [
+        "clothing",
+        "footwear",
+        "plate guide marks"
+      ]
+    },
+    "C043": {
+      "declared_items": [
+        "tie",
+        "belt"
+      ],
+      "isolated_items": [
+        "tie",
+        "belt"
+      ],
+      "missing_source_isolation": [],
+      "status": "clean_complete",
+      "gear_catalog": "gear_accessory_catalogs/C043_gear_accessory_inventory_rgba.png",
+      "gear_catalog_sha256": "e9d62ae21ec5e137455180905482e9b11162ede0e4f2d121d4eab8429d44bbc8",
+      "source_bboxes": [
+        {
+          "item": "tie",
+          "bbox_xyxy": [
+            1391,
+            111,
+            1491,
+            372
+          ]
+        },
+        {
+          "item": "belt",
+          "bbox_xyxy": [
+            1042,
+            463,
+            1291,
+            540
+          ]
+        }
+      ],
+      "clothing_catalog_gear_removed": true,
+      "removed_catalog_leaks": [
+        "clothing",
+        "footwear",
+        "plate guide marks"
+      ]
+    }
+  }
+}

@@ -1,0 +1,271 @@
+[
+  {
+    "id": "C001",
+    "file": "work\\ZANT_analysis_sources\\modular\\NEUTRAL_CHARACTER_MODULAR_REBUILD_V03_2\\gear_accessory_catalogs\\C001_gear_accessory_inventory_rgba.png",
+    "declared_items": [],
+    "alpha_bbox": [
+      0,
+      0,
+      720,
+      412
+    ],
+    "alpha_nonzero_pixels": 30422
+  },
+  {
+    "id": "C008",
+    "file": "work\\ZANT_analysis_sources\\modular\\NEUTRAL_CHARACTER_MODULAR_REBUILD_V03_2\\gear_accessory_catalogs\\C008_gear_accessory_inventory_rgba.png",
+    "declared_items": [
+      "sunglasses",
+      "chain necklaces"
+    ],
+    "alpha_bbox": [
+      114,
+      0,
+      643,
+      398
+    ],
+    "alpha_nonzero_pixels": 93701
+  },
+  {
+    "id": "C009",
+    "file": "work\\ZANT_analysis_sources\\modular\\NEUTRAL_CHARACTER_MODULAR_REBUILD_V03_2\\gear_accessory_catalogs\\C009_gear_accessory_inventory_rgba.png",
+    "declared_items": [],
+    "alpha_bbox": [
+      73,
+      0,
+      640,
+      250
+    ],
+    "alpha_nonzero_pixels": 57164
+  },
+  {
+    "id": "C010",
+    "file": "work\\ZANT_analysis_sources\\modular\\NEUTRAL_CHARACTER_MODULAR_REBUILD_V03_2\\gear_accessory_catalogs\\C010_gear_accessory_inventory_rgba.png",
+    "declared_items": [
+      "helmet",
+      "plate carrier",
+      "pouch belt",
+      "thigh holster",
+      "utility belt",
+      "gloves",
+      "knee pads"
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      680,
+      336
+    ],
+    "alpha_nonzero_pixels": 96398
+  },
+  {
+    "id": "C013",
+    "file": "work\\ZANT_analysis_sources\\modular\\NEUTRAL_CHARACTER_MODULAR_REBUILD_V03_2\\gear_accessory_catalogs\\C013_gear_accessory_inventory_rgba.png",
+    "declared_items": [
+      "hair clips",
+      "necklace",
+      "bracelets",
+      "earrings"
+    ],
+    "alpha_bbox": [
+      24,
+      0,
+      663,
+      343
+    ],
+    "alpha_nonzero_pixels": 38336
+  },
+  {
+    "id": "C018",
+    "file": "work\\ZANT_analysis_sources\\modular\\NEUTRAL_CHARACTER_MODULAR_REBUILD_V03_2\\gear_accessory_catalogs\\C018_gear_accessory_inventory_rgba.png",
+    "declared_items": [
+      "sunglasses",
+      "earrings",
+      "necklace",
+      "bracelet",
+      "belt"
+    ],
+    "alpha_bbox": [
+      65,
+      0,
+      716,
+      408
+    ],
+    "alpha_nonzero_pixels": 45580
+  },
+  {
+    "id": "C020",
+    "file": "work\\ZANT_analysis_sources\\modular\\NEUTRAL_CHARACTER_MODULAR_REBUILD_V03_2\\gear_accessory_catalogs\\C020_gear_accessory_inventory_rgba.png",
+    "declared_items": [],
+    "alpha_bbox": [
+      0,
+      0,
+      719,
+      445
+    ],
+    "alpha_nonzero_pixels": 77186
+  },
+  {
+    "id": "C023",
+    "file": "work\\ZANT_analysis_sources\\modular\\NEUTRAL_CHARACTER_MODULAR_REBUILD_V03_2\\gear_accessory_catalogs\\C023_gear_accessory_inventory_rgba.png",
+    "declared_items": [
+      "eyeglasses",
+      "earrings",
+      "scarf",
+      "belt"
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      642,
+      417
+    ],
+    "alpha_nonzero_pixels": 52638
+  },
+  {
+    "id": "C027",
+    "file": "work\\ZANT_analysis_sources\\modular\\NEUTRAL_CHARACTER_MODULAR_REBUILD_V03_2\\gear_accessory_catalogs\\C027_gear_accessory_inventory_rgba.png",
+    "declared_items": [
+      "plate carrier",
+      "pouches",
+      "utility belt",
+      "gloves",
+      "knee pads",
+      "holster"
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      710,
+      387
+    ],
+    "alpha_nonzero_pixels": 119542
+  },
+  {
+    "id": "C028",
+    "file": "work\\ZANT_analysis_sources\\modular\\NEUTRAL_CHARACTER_MODULAR_REBUILD_V03_2\\gear_accessory_catalogs\\C028_gear_accessory_inventory_rgba.png",
+    "declared_items": [
+      "helmet",
+      "plate carrier",
+      "gloves",
+      "knee pads",
+      "utility belt",
+      "radio",
+      "pouches"
+    ],
+    "alpha_bbox": [
+      39,
+      0,
+      638,
+      375
+    ],
+    "alpha_nonzero_pixels": 115186
+  },
+  {
+    "id": "C031",
+    "file": "work\\ZANT_analysis_sources\\modular\\NEUTRAL_CHARACTER_MODULAR_REBUILD_V03_2\\gear_accessory_catalogs\\C031_gear_accessory_inventory_rgba.png",
+    "declared_items": [],
+    "alpha_bbox": [
+      0,
+      0,
+      716,
+      438
+    ],
+    "alpha_nonzero_pixels": 30709
+  },
+  {
+    "id": "C033",
+    "file": "work\\ZANT_analysis_sources\\modular\\NEUTRAL_CHARACTER_MODULAR_REBUILD_V03_2\\gear_accessory_catalogs\\C033_gear_accessory_inventory_rgba.png",
+    "declared_items": [],
+    "alpha_bbox": [
+      19,
+      0,
+      695,
+      390
+    ],
+    "alpha_nonzero_pixels": 8551
+  },
+  {
+    "id": "C034",
+    "file": "work\\ZANT_analysis_sources\\modular\\NEUTRAL_CHARACTER_MODULAR_REBUILD_V03_2\\gear_accessory_catalogs\\C034_gear_accessory_inventory_rgba.png",
+    "declared_items": [],
+    "alpha_bbox": [
+      0,
+      0,
+      705,
+      438
+    ],
+    "alpha_nonzero_pixels": 34992
+  },
+  {
+    "id": "C036",
+    "file": "work\\ZANT_analysis_sources\\modular\\NEUTRAL_CHARACTER_MODULAR_REBUILD_V03_2\\gear_accessory_catalogs\\C036_gear_accessory_inventory_rgba.png",
+    "declared_items": [],
+    "alpha_bbox": [
+      53,
+      0,
+      276,
+      410
+    ],
+    "alpha_nonzero_pixels": 52761
+  },
+  {
+    "id": "C038",
+    "file": "work\\ZANT_analysis_sources\\modular\\NEUTRAL_CHARACTER_MODULAR_REBUILD_V03_2\\gear_accessory_catalogs\\C038_gear_accessory_inventory_rgba.png",
+    "declared_items": [],
+    "alpha_bbox": [
+      29,
+      0,
+      685,
+      428
+    ],
+    "alpha_nonzero_pixels": 35940
+  },
+  {
+    "id": "C040",
+    "file": "work\\ZANT_analysis_sources\\modular\\NEUTRAL_CHARACTER_MODULAR_REBUILD_V03_2\\gear_accessory_catalogs\\C040_gear_accessory_inventory_rgba.png",
+    "declared_items": [
+      "goggles",
+      "work gloves",
+      "belt"
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      643,
+      419
+    ],
+    "alpha_nonzero_pixels": 51582
+  },
+  {
+    "id": "C041",
+    "file": "work\\ZANT_analysis_sources\\modular\\NEUTRAL_CHARACTER_MODULAR_REBUILD_V03_2\\gear_accessory_catalogs\\C041_gear_accessory_inventory_rgba.png",
+    "declared_items": [],
+    "alpha_bbox": [
+      299,
+      0,
+      482,
+      82
+    ],
+    "alpha_nonzero_pixels": 9364
+  },
+  {
+    "id": "C042",
+    "file": "work\\ZANT_analysis_sources\\modular\\NEUTRAL_CHARACTER_MODULAR_REBUILD_V03_2\\gear_accessory_catalogs\\C042_gear_accessory_inventory_rgba.png",
+    "declared_items": [],
+    "alpha_bbox": null,
+    "alpha_nonzero_pixels": 0
+  },
+  {
+    "id": "C044",
+    "file": "work\\ZANT_analysis_sources\\modular\\NEUTRAL_CHARACTER_MODULAR_REBUILD_V03_2\\gear_accessory_catalogs\\C044_gear_accessory_inventory_rgba.png",
+    "declared_items": [],
+    "alpha_bbox": [
+      185,
+      0,
+      397,
+      352
+    ],
+    "alpha_nonzero_pixels": 43849
+  }
+]

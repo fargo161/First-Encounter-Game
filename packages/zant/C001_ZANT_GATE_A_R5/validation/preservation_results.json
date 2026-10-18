@@ -1,0 +1,51 @@
+{
+  "sources": {
+    "files": 620,
+    "changed": 0,
+    "missing": 0,
+    "added": 0,
+    "unchanged": true
+  },
+  "R1": {
+    "files": 119,
+    "changed": 0,
+    "missing": 0,
+    "added": 0,
+    "unchanged": true
+  },
+  "R2": {
+    "files": 31,
+    "changed": 0,
+    "missing": 0,
+    "added": 0,
+    "unchanged": true
+  },
+  "R3": {
+    "files": 462,
+    "changed": 0,
+    "missing": 0,
+    "added": 0,
+    "unchanged": true
+  },
+  "independent_R3": {
+    "files": 163,
+    "changed": 0,
+    "missing": 0,
+    "added": 0,
+    "unchanged": true
+  },
+  "R4": {
+    "files": 735,
+    "changed": 0,
+    "missing": 0,
+    "added": 0,
+    "unchanged": true
+  },
+  "independent_R4": {
+    "files": 149,
+    "changed": 0,
+    "missing": 0,
+    "added": 0,
+    "unchanged": true
+  }
+}

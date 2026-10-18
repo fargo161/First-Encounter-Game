@@ -1,0 +1,43 @@
+{
+  "ownerAccepted": true,
+  "authorization": "contract/OWNER_APPROVAL_R3.md",
+  "identity": "C001",
+  "assetId": "A25_head_front_neutral",
+  "artSha256": "f57ca9e06a203810c3a7f5d9e4c94bf6ecb9f5a2ff83d74b27eff62b4fbba724",
+  "alphaSha256": "37e11415f639cf8fa3634ca066bdf718ede06c77acff2121fb79441e62104052",
+  "headFrame": [
+    512,
+    640
+  ],
+  "sourceWindow": [
+    256,
+    0,
+    768,
+    640
+  ],
+  "bodyTranslation": [
+    256,
+    54
+  ],
+  "headAttachLocal": [
+    245,
+    266
+  ],
+  "headAttachBody": [
+    501,
+    320
+  ],
+  "floorRootBody": [
+    512,
+    1472
+  ],
+  "neutralRgbPolicy": "immutable accepted source RGB; no generation, enhancement, reinterpretation, repaint or expression accommodation",
+  "alphaPolicy": "immutable accepted silhouette applied once after owned patch RGB replacement",
+  "frozenFiles": {
+    "A25_extraction_policy.json": "a77082a2ab2543aa95c12644e3239598ff0d5b94a5e6a9a7c10015405ffb7231",
+    "A25_head_front_neutral_rgba.png": "f57ca9e06a203810c3a7f5d9e4c94bf6ecb9f5a2ff83d74b27eff62b4fbba724",
+    "A25_head_front_silhouette.png": "37e11415f639cf8fa3634ca066bdf718ede06c77acff2121fb79441e62104052",
+    "R2_original_metadata.json": "634ed90ed626762297b6e0e82a8d796d74db312087d8ec26d062008322c7f56f",
+    "registration_bounds.json": "05b31742096988c9e431272f061602dd452b3a433d7a71051a6bf208dc152940"
+  }
+}

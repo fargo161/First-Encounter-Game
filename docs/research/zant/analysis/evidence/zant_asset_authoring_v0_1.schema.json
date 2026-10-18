@@ -1,0 +1,865 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:trapstar:zant:asset-authoring:0.1.0",
+  "title": "Proposed ZANT asset-authoring capsule 0.1.0 (research specification)",
+  "type": "object",
+  "properties": {
+    "schemaVersion": {
+      "const": "0.1.0"
+    },
+    "capsuleId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "identityId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "coordinateSystem": {
+      "type": "object",
+      "properties": {
+        "units": {
+          "const": "authoring_pixel"
+        },
+        "xPositive": {
+          "const": "image_right"
+        },
+        "yPositive": {
+          "const": "image_down"
+        },
+        "anatomicalSides": {
+          "const": "subject_relative"
+        },
+        "scalePolicy": {
+          "const": "preserve_identity_calibration"
+        }
+      },
+      "required": [
+        "units",
+        "xPositive",
+        "yPositive",
+        "anatomicalSides",
+        "scalePolicy"
+      ],
+      "additionalProperties": false
+    },
+    "identity": {
+      "type": "object",
+      "properties": {
+        "sourceMaster": {
+          "$ref": "#/$defs/ref"
+        },
+        "headPackage": {
+          "$ref": "#/$defs/ref"
+        },
+        "visualDecisions": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "maxItems": 6
+        }
+      },
+      "required": [
+        "sourceMaster",
+        "headPackage",
+        "visualDecisions"
+      ],
+      "additionalProperties": false
+    },
+    "body": {
+      "type": "object",
+      "properties": {
+        "fitReference": {
+          "$ref": "#/$defs/ref"
+        },
+        "calibration": {
+          "$ref": "#/$defs/ref"
+        },
+        "profileId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "geometryAuthority": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "fitReference",
+        "calibration",
+        "profileId",
+        "geometryAuthority"
+      ],
+      "additionalProperties": false
+    },
+    "views": {
+      "type": "array",
+      "minItems": 4,
+      "maxItems": 4,
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "enum": [
+              "front",
+              "three_quarter_left",
+              "side_left",
+              "back"
+            ]
+          },
+          "yawDegrees": {
+            "enum": [
+              0,
+              45,
+              90,
+              180
+            ]
+          },
+          "frame": {
+            "type": "array",
+            "items": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "minItems": 2,
+            "maxItems": 2
+          },
+          "root": {
+            "type": "array",
+            "items": {
+              "type": "number"
+            },
+            "minItems": 2,
+            "maxItems": 2
+          },
+          "anchors": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "xy": {
+                  "type": "array",
+                  "items": {
+                    "type": "number"
+                  },
+                  "minItems": 2,
+                  "maxItems": 2
+                },
+                "semanticSide": {
+                  "enum": [
+                    "left",
+                    "right",
+                    "center"
+                  ]
+                },
+                "parent": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "required": [
+                "id",
+                "xy",
+                "semanticSide"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "headCompatibility": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "mirrorPolicy": {
+            "enum": [
+              "audited_safe",
+              "authored_opposite_required",
+              "unreviewed"
+            ]
+          }
+        },
+        "required": [
+          "id",
+          "yawDegrees",
+          "frame",
+          "root",
+          "anchors",
+          "headCompatibility",
+          "mirrorPolicy"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "assets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "file": {
+            "$ref": "#/$defs/ref"
+          },
+          "view": {
+            "type": "string",
+            "minLength": 1
+          },
+          "family": {
+            "type": "string",
+            "minLength": 1
+          },
+          "domain": {
+            "enum": [
+              "body",
+              "head",
+              "hair_back",
+              "hair_front",
+              "face",
+              "garment",
+              "hand",
+              "footwear",
+              "gear",
+              "mask"
+            ]
+          },
+          "fitCompatibility": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "pose": {
+            "type": "string",
+            "minLength": 1
+          },
+          "semanticSide": {
+            "enum": [
+              "left",
+              "right",
+              "center",
+              "paired"
+            ]
+          },
+          "attachAnchor": {
+            "type": "string",
+            "minLength": 1
+          },
+          "offset": {
+            "type": "array",
+            "items": {
+              "type": "number"
+            },
+            "minItems": 2,
+            "maxItems": 2
+          },
+          "layer": {
+            "type": "string",
+            "minLength": 1
+          },
+          "occlusionRefs": {
+            "type": "array",
+            "items": {
+              "$ref": "#/$defs/ref"
+            }
+          },
+          "paletteChannels": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "mask": {
+                  "$ref": "#/$defs/ref"
+                },
+                "method": {
+                  "enum": [
+                    "value_preserving_material",
+                    "authored_texture",
+                    "unchanged"
+                  ]
+                },
+                "limits": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "required": [
+                "id",
+                "mask",
+                "method",
+                "limits"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "mirrorPolicy": {
+            "enum": [
+              "audited_safe",
+              "authored_opposite_required",
+              "unreviewed"
+            ]
+          },
+          "provenance": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "properties": {
+                "source": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "sha256": {
+                  "type": "string",
+                  "pattern": "^[a-fA-F0-9]{64}$"
+                },
+                "role": {
+                  "enum": [
+                    "original",
+                    "construction_reference",
+                    "derived_diagnostic",
+                    "authored_candidate"
+                  ]
+                },
+                "authority": {
+                  "enum": [
+                    "source_master",
+                    "verified_reference",
+                    "proposed",
+                    "unknown"
+                  ]
+                }
+              },
+              "required": [
+                "source",
+                "role",
+                "authority"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "qa": {
+            "type": "object",
+            "properties": {
+              "status": {
+                "enum": [
+                  "unreviewed",
+                  "diagnostic_only",
+                  "candidate",
+                  "approved",
+                  "rejected"
+                ]
+              },
+              "checks": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "reviewRef": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "status",
+              "checks"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "id",
+          "file",
+          "view",
+          "family",
+          "domain",
+          "fitCompatibility",
+          "pose",
+          "semanticSide",
+          "attachAnchor",
+          "offset",
+          "layer",
+          "occlusionRefs",
+          "paletteChannels",
+          "mirrorPolicy",
+          "provenance",
+          "qa"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "layerConstraints": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "before": {
+            "type": "string",
+            "minLength": 1
+          },
+          "after": {
+            "type": "string",
+            "minLength": 1
+          },
+          "when": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "before",
+          "after",
+          "when"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "facePackages": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "view": {
+            "type": "string",
+            "minLength": 1
+          },
+          "base": {
+            "$ref": "#/$defs/ref"
+          },
+          "frame": {
+            "type": "array",
+            "items": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "minItems": 2,
+            "maxItems": 2
+          },
+          "alphaPolicy": {
+            "enum": [
+              "authoritative_silhouette_once",
+              "extended_head_group"
+            ]
+          },
+          "silhouette": {
+            "$ref": "#/$defs/ref"
+          },
+          "compositionProfile": {
+            "type": "string",
+            "minLength": 1
+          },
+          "neutralSelection": {
+            "const": "omitted_active_slots_use_neutral_base"
+          },
+          "activeSlots": {
+            "type": "array",
+            "uniqueItems": true,
+            "items": {
+              "enum": [
+                "LEFT_BROW",
+                "RIGHT_BROW",
+                "LEFT_EYE",
+                "RIGHT_EYE",
+                "LOWER_FACE"
+              ]
+            }
+          },
+          "drawOrder": {
+            "type": "array",
+            "uniqueItems": true,
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "maskRefs": {
+            "type": "object",
+            "propertyNames": {
+              "enum": [
+                "LEFT_BROW",
+                "RIGHT_BROW",
+                "LEFT_EYE",
+                "RIGHT_EYE",
+                "LOWER_FACE"
+              ]
+            },
+            "additionalProperties": {
+              "$ref": "#/$defs/ref"
+            }
+          },
+          "variants": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "slot": {
+                  "enum": [
+                    "LEFT_BROW",
+                    "RIGHT_BROW",
+                    "LEFT_EYE",
+                    "RIGHT_EYE",
+                    "LOWER_FACE"
+                  ]
+                },
+                "asset": {
+                  "$ref": "#/$defs/ref"
+                },
+                "maskRef": {
+                  "$ref": "#/$defs/ref"
+                },
+                "gazePairId": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "requiredCompanions": {
+                  "type": "array",
+                  "uniqueItems": true,
+                  "items": {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                },
+                "compatibility": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                },
+                "seamRisk": {
+                  "enum": [
+                    "unreviewed",
+                    "low",
+                    "requires_review",
+                    "blocked"
+                  ]
+                },
+                "silhouetteVariant": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                }
+              },
+              "required": [
+                "id",
+                "slot",
+                "asset",
+                "maskRef",
+                "gazePairId",
+                "requiredCompanions",
+                "compatibility",
+                "seamRisk",
+                "silhouetteVariant"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "presets": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "selections": {
+                  "type": "object",
+                  "propertyNames": {
+                    "enum": [
+                      "LEFT_BROW",
+                      "RIGHT_BROW",
+                      "LEFT_EYE",
+                      "RIGHT_EYE",
+                      "LOWER_FACE"
+                    ]
+                  },
+                  "additionalProperties": {
+                    "type": "string"
+                  }
+                },
+                "qa": {
+                  "type": "object",
+                  "properties": {
+                    "status": {
+                      "enum": [
+                        "unreviewed",
+                        "diagnostic_only",
+                        "candidate",
+                        "approved",
+                        "rejected"
+                      ]
+                    },
+                    "checks": {
+                      "type": "array",
+                      "items": {
+                        "type": "string",
+                        "minLength": 1
+                      }
+                    },
+                    "reviewRef": {
+                      "type": "string",
+                      "minLength": 1
+                    }
+                  },
+                  "required": [
+                    "status",
+                    "checks"
+                  ],
+                  "additionalProperties": false
+                }
+              },
+              "required": [
+                "id",
+                "selections",
+                "qa"
+              ],
+              "additionalProperties": false
+            }
+          }
+        },
+        "required": [
+          "id",
+          "view",
+          "base",
+          "frame",
+          "alphaPolicy",
+          "silhouette",
+          "compositionProfile",
+          "neutralSelection",
+          "activeSlots",
+          "drawOrder",
+          "maskRefs",
+          "variants",
+          "presets"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "recipes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "view": {
+            "type": "string",
+            "minLength": 1
+          },
+          "bodyPose": {
+            "type": "string",
+            "minLength": 1
+          },
+          "headView": {
+            "type": "string",
+            "minLength": 1
+          },
+          "assetIds": {
+            "type": "array",
+            "uniqueItems": true,
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "facePreset": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "paletteSelections": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "qa": {
+            "type": "object",
+            "properties": {
+              "status": {
+                "enum": [
+                  "unreviewed",
+                  "diagnostic_only",
+                  "candidate",
+                  "approved",
+                  "rejected"
+                ]
+              },
+              "checks": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "reviewRef": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "status",
+              "checks"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "id",
+          "view",
+          "bodyPose",
+          "headView",
+          "assetIds",
+          "facePreset",
+          "paletteSelections",
+          "qa"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "provenance": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "properties": {
+          "source": {
+            "type": "string",
+            "minLength": 1
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[a-fA-F0-9]{64}$"
+          },
+          "role": {
+            "enum": [
+              "original",
+              "construction_reference",
+              "derived_diagnostic",
+              "authored_candidate"
+            ]
+          },
+          "authority": {
+            "enum": [
+              "source_master",
+              "verified_reference",
+              "proposed",
+              "unknown"
+            ]
+          }
+        },
+        "required": [
+          "source",
+          "role",
+          "authority"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "qa": {
+      "type": "object",
+      "properties": {
+        "status": {
+          "enum": [
+            "unreviewed",
+            "diagnostic_only",
+            "candidate",
+            "approved",
+            "rejected"
+          ]
+        },
+        "checks": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "reviewRef": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "status",
+        "checks"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "capsuleId",
+    "identityId",
+    "coordinateSystem",
+    "identity",
+    "body",
+    "views",
+    "assets",
+    "layerConstraints",
+    "facePackages",
+    "recipes",
+    "provenance",
+    "qa"
+  ],
+  "additionalProperties": false,
+  "$defs": {
+    "ref": {
+      "type": "object",
+      "properties": {
+        "uri": {
+          "type": "string",
+          "minLength": 1
+        },
+        "availability": {
+          "enum": [
+            "supplied",
+            "proposed_uncreated",
+            "derived_diagnostic"
+          ]
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[a-fA-F0-9]{64}$"
+        }
+      },
+      "required": [
+        "uri",
+        "availability"
+      ],
+      "additionalProperties": false
+    }
+  }
+}

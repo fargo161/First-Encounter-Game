@@ -1,0 +1,16 @@
+{
+  "candidateId": "C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_02",
+  "status": "READY_FOR_OWNER_ART_REVIEW",
+  "ownerAccepted": false,
+  "neutralContourFrozen": false,
+  "acceptedA25Frozen": true,
+  "fixedDatumsChanged": false,
+  "gateAComplete": false,
+  "gateAVerdict": "HOLD_NEUTRAL_OWNER_REVIEW",
+  "nextWorkAuthorizedWithoutOwnerReview": false,
+  "presentBaselineSurfaces": 15,
+  "missingBaselineSurfaces": 17,
+  "reservesUsed": 0,
+  "scopeOfThisRevision": "15 omitted native tee-edge texels restored in A04/A05 only",
+  "A16OwnerDecision": "unchanged authored waist proposal; not source-exact RGB; art decision pending"
+}

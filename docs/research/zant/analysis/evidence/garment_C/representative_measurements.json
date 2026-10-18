@@ -1,0 +1,592 @@
+[
+  {
+    "id": "C001",
+    "family": "source",
+    "file": "work\\ZANT_analysis_sources\\modular\\NEUTRAL_CHARACTER_MODULAR_REBUILD_V03_2\\source_masters\\C001_source_neutral_rgba.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "alpha_bbox": [
+      259,
+      93,
+      732,
+      1419
+    ]
+  },
+  {
+    "id": "C001",
+    "family": "wardrobe",
+    "file": "work\\ZANT_analysis_sources\\wardrobe\\C001_clothing_inventory_rgba.png",
+    "size": [
+      737,
+      737
+    ],
+    "alpha_bbox": [
+      0,
+      50,
+      720,
+      737
+    ]
+  },
+  {
+    "id": "C001",
+    "family": "kit",
+    "file": "work\\ZANT_analysis_sources\\modular\\NEUTRAL_CHARACTER_MODULAR_REBUILD_V03_2\\kit_plates\\C001_modular_kit_plate_rgba.png",
+    "size": [
+      1536,
+      1024
+    ],
+    "alpha_bbox": [
+      105,
+      21,
+      1519,
+      975
+    ]
+  },
+  {
+    "id": "C001",
+    "family": "rebuild",
+    "file": "work\\ZANT_analysis_sources\\modular\\NEUTRAL_CHARACTER_MODULAR_REBUILD_V03_2\\rebuilt_composites\\C001_neutral_composite_rgba.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "alpha_bbox": [
+      258,
+      93,
+      733,
+      1419
+    ]
+  },
+  {
+    "id": "C001",
+    "family": "gear",
+    "file": "work\\ZANT_analysis_sources\\modular\\NEUTRAL_CHARACTER_MODULAR_REBUILD_V03_2\\gear_accessory_catalogs\\C001_gear_accessory_inventory_rgba.png",
+    "size": [
+      737,
+      461
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      720,
+      412
+    ]
+  },
+  {
+    "id": "C003",
+    "family": "source",
+    "file": "work\\ZANT_analysis_sources\\modular\\NEUTRAL_CHARACTER_MODULAR_REBUILD_V03_2\\source_masters\\C003_source_neutral_rgba.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "alpha_bbox": [
+      304,
+      29,
+      719,
+      1483
+    ]
+  },
+  {
+    "id": "C003",
+    "family": "wardrobe",
+    "file": "work\\ZANT_analysis_sources\\wardrobe\\C003_clothing_inventory_rgba.png",
+    "size": [
+      737,
+      737
+    ],
+    "alpha_bbox": [
+      0,
+      41,
+      621,
+      737
+    ]
+  },
+  {
+    "id": "C003",
+    "family": "kit",
+    "file": "work\\ZANT_analysis_sources\\modular\\NEUTRAL_CHARACTER_MODULAR_REBUILD_V03_2\\kit_plates\\C003_modular_kit_plate_rgba.png",
+    "size": [
+      1536,
+      1024
+    ],
+    "alpha_bbox": [
+      132,
+      24,
+      1482,
+      1011
+    ]
+  },
+  {
+    "id": "C003",
+    "family": "rebuild",
+    "file": "work\\ZANT_analysis_sources\\modular\\NEUTRAL_CHARACTER_MODULAR_REBUILD_V03_2\\rebuilt_composites\\C003_neutral_composite_rgba.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "alpha_bbox": [
+      308,
+      29,
+      716,
+      1483
+    ]
+  },
+  {
+    "id": "C003",
+    "family": "gear",
+    "file": "work\\ZANT_analysis_sources\\modular\\NEUTRAL_CHARACTER_MODULAR_REBUILD_V03_2\\gear_accessory_catalogs\\C003_gear_accessory_inventory_rgba.png",
+    "size": [
+      737,
+      461
+    ],
+    "alpha_bbox": null
+  },
+  {
+    "id": "C018",
+    "family": "source",
+    "file": "work\\ZANT_analysis_sources\\modular\\NEUTRAL_CHARACTER_MODULAR_REBUILD_V03_2\\source_masters\\C018_source_neutral_rgba.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "alpha_bbox": [
+      250,
+      36,
+      768,
+      1452
+    ]
+  },
+  {
+    "id": "C018",
+    "family": "wardrobe",
+    "file": "work\\ZANT_analysis_sources\\wardrobe\\C018_clothing_inventory_rgba.png",
+    "size": [
+      737,
+      737
+    ],
+    "alpha_bbox": [
+      0,
+      50,
+      662,
+      714
+    ]
+  },
+  {
+    "id": "C018",
+    "family": "kit",
+    "file": "work\\ZANT_analysis_sources\\modular\\NEUTRAL_CHARACTER_MODULAR_REBUILD_V03_2\\kit_plates\\C018_modular_kit_plate_rgba.png",
+    "size": [
+      1536,
+      1024
+    ],
+    "alpha_bbox": [
+      119,
+      23,
+      1515,
+      974
+    ]
+  },
+  {
+    "id": "C018",
+    "family": "rebuild",
+    "file": "work\\ZANT_analysis_sources\\modular\\NEUTRAL_CHARACTER_MODULAR_REBUILD_V03_2\\rebuilt_composites\\C018_neutral_composite_rgba.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "alpha_bbox": [
+      286,
+      36,
+      732,
+      1452
+    ]
+  },
+  {
+    "id": "C018",
+    "family": "gear",
+    "file": "work\\ZANT_analysis_sources\\modular\\NEUTRAL_CHARACTER_MODULAR_REBUILD_V03_2\\gear_accessory_catalogs\\C018_gear_accessory_inventory_rgba.png",
+    "size": [
+      737,
+      461
+    ],
+    "alpha_bbox": [
+      65,
+      0,
+      716,
+      408
+    ]
+  },
+  {
+    "id": "C020",
+    "family": "source",
+    "file": "work\\ZANT_analysis_sources\\modular\\NEUTRAL_CHARACTER_MODULAR_REBUILD_V03_2\\source_masters\\C020_source_neutral_rgba.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "alpha_bbox": [
+      266,
+      39,
+      742,
+      1442
+    ]
+  },
+  {
+    "id": "C020",
+    "family": "wardrobe",
+    "file": "work\\ZANT_analysis_sources\\wardrobe\\C020_clothing_inventory_rgba.png",
+    "size": [
+      737,
+      737
+    ],
+    "alpha_bbox": [
+      0,
+      79,
+      612,
+      737
+    ]
+  },
+  {
+    "id": "C020",
+    "family": "kit",
+    "file": "work\\ZANT_analysis_sources\\modular\\NEUTRAL_CHARACTER_MODULAR_REBUILD_V03_2\\kit_plates\\C020_modular_kit_plate_rgba.png",
+    "size": [
+      1536,
+      1024
+    ],
+    "alpha_bbox": [
+      120,
+      29,
+      1518,
+      1008
+    ]
+  },
+  {
+    "id": "C020",
+    "family": "rebuild",
+    "file": "work\\ZANT_analysis_sources\\modular\\NEUTRAL_CHARACTER_MODULAR_REBUILD_V03_2\\rebuilt_composites\\C020_neutral_composite_rgba.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "alpha_bbox": [
+      262,
+      39,
+      746,
+      1442
+    ]
+  },
+  {
+    "id": "C020",
+    "family": "gear",
+    "file": "work\\ZANT_analysis_sources\\modular\\NEUTRAL_CHARACTER_MODULAR_REBUILD_V03_2\\gear_accessory_catalogs\\C020_gear_accessory_inventory_rgba.png",
+    "size": [
+      737,
+      461
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      719,
+      445
+    ]
+  },
+  {
+    "id": "C028",
+    "family": "source",
+    "file": "work\\ZANT_analysis_sources\\modular\\NEUTRAL_CHARACTER_MODULAR_REBUILD_V03_2\\source_masters\\C028_source_neutral_rgba.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "alpha_bbox": [
+      204,
+      42,
+      805,
+      1433
+    ]
+  },
+  {
+    "id": "C028",
+    "family": "wardrobe",
+    "file": "work\\ZANT_analysis_sources\\wardrobe\\C028_clothing_inventory_rgba.png",
+    "size": [
+      737,
+      737
+    ],
+    "alpha_bbox": [
+      22,
+      83,
+      671,
+      737
+    ]
+  },
+  {
+    "id": "C028",
+    "family": "kit",
+    "file": "work\\ZANT_analysis_sources\\modular\\NEUTRAL_CHARACTER_MODULAR_REBUILD_V03_2\\kit_plates\\C028_modular_kit_plate_rgba.png",
+    "size": [
+      1536,
+      1024
+    ],
+    "alpha_bbox": [
+      74,
+      46,
+      1470,
+      968
+    ]
+  },
+  {
+    "id": "C028",
+    "family": "rebuild",
+    "file": "work\\ZANT_analysis_sources\\modular\\NEUTRAL_CHARACTER_MODULAR_REBUILD_V03_2\\rebuilt_composites\\C028_neutral_composite_rgba.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "alpha_bbox": [
+      222,
+      42,
+      788,
+      1433
+    ]
+  },
+  {
+    "id": "C028",
+    "family": "gear",
+    "file": "work\\ZANT_analysis_sources\\modular\\NEUTRAL_CHARACTER_MODULAR_REBUILD_V03_2\\gear_accessory_catalogs\\C028_gear_accessory_inventory_rgba.png",
+    "size": [
+      737,
+      461
+    ],
+    "alpha_bbox": [
+      39,
+      0,
+      638,
+      375
+    ]
+  },
+  {
+    "id": "C033",
+    "family": "source",
+    "file": "work\\ZANT_analysis_sources\\modular\\NEUTRAL_CHARACTER_MODULAR_REBUILD_V03_2\\source_masters\\C033_source_neutral_rgba.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "alpha_bbox": [
+      271,
+      44,
+      750,
+      1460
+    ]
+  },
+  {
+    "id": "C033",
+    "family": "wardrobe",
+    "file": "work\\ZANT_analysis_sources\\wardrobe\\C033_clothing_inventory_rgba.png",
+    "size": [
+      737,
+      737
+    ],
+    "alpha_bbox": [
+      0,
+      90,
+      695,
+      734
+    ]
+  },
+  {
+    "id": "C033",
+    "family": "kit",
+    "file": "work\\ZANT_analysis_sources\\modular\\NEUTRAL_CHARACTER_MODULAR_REBUILD_V03_2\\kit_plates\\C033_modular_kit_plate_rgba.png",
+    "size": [
+      1536,
+      1024
+    ],
+    "alpha_bbox": [
+      0,
+      22,
+      1494,
+      1024
+    ]
+  },
+  {
+    "id": "C033",
+    "family": "rebuild",
+    "file": "work\\ZANT_analysis_sources\\modular\\NEUTRAL_CHARACTER_MODULAR_REBUILD_V03_2\\rebuilt_composites\\C033_neutral_composite_rgba.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "alpha_bbox": [
+      269,
+      44,
+      752,
+      1460
+    ]
+  },
+  {
+    "id": "C033",
+    "family": "gear",
+    "file": "work\\ZANT_analysis_sources\\modular\\NEUTRAL_CHARACTER_MODULAR_REBUILD_V03_2\\gear_accessory_catalogs\\C033_gear_accessory_inventory_rgba.png",
+    "size": [
+      737,
+      461
+    ],
+    "alpha_bbox": [
+      19,
+      0,
+      695,
+      390
+    ]
+  },
+  {
+    "id": "C034",
+    "family": "source",
+    "file": "work\\ZANT_analysis_sources\\modular\\NEUTRAL_CHARACTER_MODULAR_REBUILD_V03_2\\source_masters\\C034_source_neutral_rgba.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "alpha_bbox": [
+      231,
+      52,
+      786,
+      1424
+    ]
+  },
+  {
+    "id": "C034",
+    "family": "wardrobe",
+    "file": "work\\ZANT_analysis_sources\\wardrobe\\C034_clothing_inventory_rgba.png",
+    "size": [
+      737,
+      737
+    ],
+    "alpha_bbox": [
+      0,
+      27,
+      705,
+      737
+    ]
+  },
+  {
+    "id": "C034",
+    "family": "kit",
+    "file": "work\\ZANT_analysis_sources\\modular\\NEUTRAL_CHARACTER_MODULAR_REBUILD_V03_2\\kit_plates\\C034_modular_kit_plate_rgba.png",
+    "size": [
+      1536,
+      1024
+    ],
+    "alpha_bbox": [
+      58,
+      26,
+      1504,
+      1016
+    ]
+  },
+  {
+    "id": "C034",
+    "family": "rebuild",
+    "file": "work\\ZANT_analysis_sources\\modular\\NEUTRAL_CHARACTER_MODULAR_REBUILD_V03_2\\rebuilt_composites\\C034_neutral_composite_rgba.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "alpha_bbox": [
+      232,
+      52,
+      786,
+      1424
+    ]
+  },
+  {
+    "id": "C034",
+    "family": "gear",
+    "file": "work\\ZANT_analysis_sources\\modular\\NEUTRAL_CHARACTER_MODULAR_REBUILD_V03_2\\gear_accessory_catalogs\\C034_gear_accessory_inventory_rgba.png",
+    "size": [
+      737,
+      461
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      705,
+      438
+    ]
+  },
+  {
+    "id": "C042",
+    "family": "source",
+    "file": "work\\ZANT_analysis_sources\\modular\\NEUTRAL_CHARACTER_MODULAR_REBUILD_V03_2\\source_masters\\C042_source_neutral_rgba.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "alpha_bbox": [
+      274,
+      40,
+      747,
+      1378
+    ]
+  },
+  {
+    "id": "C042",
+    "family": "wardrobe",
+    "file": "work\\ZANT_analysis_sources\\wardrobe\\C042_clothing_inventory_rgba.png",
+    "size": [
+      737,
+      737
+    ],
+    "alpha_bbox": [
+      63,
+      47,
+      676,
+      540
+    ]
+  },
+  {
+    "id": "C042",
+    "family": "kit",
+    "file": "work\\ZANT_analysis_sources\\modular\\NEUTRAL_CHARACTER_MODULAR_REBUILD_V03_2\\kit_plates\\C042_modular_kit_plate_rgba.png",
+    "size": [
+      1536,
+      1024
+    ],
+    "alpha_bbox": [
+      116,
+      23,
+      1475,
+      954
+    ]
+  },
+  {
+    "id": "C042",
+    "family": "rebuild",
+    "file": "work\\ZANT_analysis_sources\\modular\\NEUTRAL_CHARACTER_MODULAR_REBUILD_V03_2\\rebuilt_composites\\C042_neutral_composite_rgba.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "alpha_bbox": [
+      279,
+      40,
+      742,
+      1378
+    ]
+  },
+  {
+    "id": "C042",
+    "family": "gear",
+    "file": "work\\ZANT_analysis_sources\\modular\\NEUTRAL_CHARACTER_MODULAR_REBUILD_V03_2\\gear_accessory_catalogs\\C042_gear_accessory_inventory_rgba.png",
+    "size": [
+      737,
+      461
+    ],
+    "alpha_bbox": null
+  }
+]

@@ -9,7 +9,8 @@
     4,
     5,
     6,
-    7
+    7,
+    8
   ],
   "subsystem_source_imported": true,
   "governing_documents": {
@@ -58,6 +59,14 @@
       "sha256": "a8218c7a24188cba8576a9971d31caf94293595196e4f0a77968c26cd2bbae5c",
       "archive_root": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-7-verification-2026-10-18",
       "archive_path": "inputs/FIRST_ENCOUNTER_GAME_STAGE_7_AUTHORIZATION.md"
+    },
+    "FIRST_ENCOUNTER_GAME_STAGE_8_AUTHORIZATION.md": {
+      "source_path": "C:\\Users\\mcdon\\Downloads\\FIRST_ENCOUNTER_GAME_STAGE_8_AUTHORIZATION.md",
+      "repository_path": "docs/provenance/governing/FIRST_ENCOUNTER_GAME_STAGE_8_AUTHORIZATION.md",
+      "bytes": 4801,
+      "sha256": "e862c281dfca0203b5474a75e351e63bfb60d1f5de3f0fee79c5f2adf6f91e22",
+      "archive_root": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-8-import-2026-10-18",
+      "archive_path": "inputs/FIRST_ENCOUNTER_GAME_STAGE_8_AUTHORIZATION.md"
     }
   },
   "repository": {
@@ -424,30 +433,41 @@
         "G wrist/hand geometry and overlap ownership remain provisional."
       ],
       "status_conflicts": "Historical R4 sidecars, calibration.json and interfaces_neutral.json retain draft/not-accepted wording. Explicit later owner acceptance, accepted-neutral lock, current surface ledger, and R5 review govern neutral status. Preserve historical bytes; do not rewrite now.",
-      "scope_boundary": "Gate A incomplete. No later gate, other-character conversion, completed viewer, animation, database rollout or Unity integration."
+      "scope_boundary": "Gate A incomplete. No later gate, other-character conversion, completed viewer, animation, database rollout or Unity integration.",
+      "repository_import": {
+        "stage": 8,
+        "path": "packages/zant/C001_ZANT_GATE_A_R5",
+        "maintained_source_files": 165,
+        "maintained_source_bytes": 24737308,
+        "imported_files": 166,
+        "imported_bytes": 24767182,
+        "source_full_tree_sha256": "a7952fa3e28d5223aab63329172fae9514cca9b4c172f2d334cb5e0baee35a1f",
+        "selected_package_tree_sha256": "e6650aa6e28ab0b51e4d67dbd6d9922060d49673631b261718ae326cf71761ba",
+        "integrity": "BYTE_IDENTICAL_SELECTED_SOURCE_AND_FROZEN_MANIFEST",
+        "neutral_acceptance": "OWNER_ACCEPTED_R4_CANDIDATE02",
+        "current_work_acceptance": "GATE_A_FAILED_AT_G_SLEEVE_PILOT",
+        "manifest": "docs/provenance/zant-stage8-import.json",
+        "migration_behavior_verification": "PENDING_STAGE_9_NOT_AUTHORIZED",
+        "origin_snapshot_role": "editable_source remains the immutable pre-import source authority; maintained current location is this repository path. 165 non-delivery source files plus the exact frozen packet manifest; 340 delivery duplicate/history files remain external."
+      }
     }
   },
   "verification_this_execution": {
-    "stage": 7,
-    "subsystem": "room_creator",
-    "source_builds_or_behavior_tests_executed": true,
-    "disposable_only": true,
-    "verdict": "PASS WITH HOLD PRESERVED",
-    "product_status": "HOLD_FOR_FURTHER_REMEDIATION",
-    "known_product_defect_reproduced": true,
-    "known_defect_repaired": false,
-    "manifest": "docs/provenance/room-creator-stage7-verification.json",
-    "report": "docs/consolidation/STAGE_7_VERIFICATION.md",
-    "canonical_Room_Creator_unchanged": true,
-    "canonical_Encounter_unchanged": true,
-    "originals_unchanged": true,
-    "stage8_started": false
+    "stage": 8,
+    "subsystem": "zant",
+    "source_builds_or_behavior_tests_executed": false,
+    "stage9_started": false,
+    "fresh_checks": "Full original/archive hash-size-mtime preservation; selected 166-file source/archive/checkpoint alignment; original frozen manifest; all20 accepted R4 lock hashes against candidate02 ZIP; seven external intake identities/CRC; strict unchanged Encounter/Room Creator; Git byte integrity.",
+    "manifest": "docs/provenance/zant-stage8-import.json",
+    "gateAComplete": false,
+    "no_failed_or_provisional_work_promoted": true
   },
-  "next_stage": "Stage 8 requires explicit new owner authorization. STOP; no ZANT import or integration is authorized.",
-  "current_authorized_stage": 7,
+  "next_stage": "Stage 9 ZANT verification requires explicit new owner authorization. STOP.",
+  "current_authorized_stage": 8,
   "imported_subsystems": [
     "encounter_atlas",
-    "room_creator"
+    "room_creator",
+    "zant"
   ],
   "verification_history_stage_0_to_3": {
     "source_builds_or_behavior_tests_executed": false,
@@ -480,5 +500,21 @@
     "fresh_checks": "Complete 383-file source/snapshot/ZIP hashes, 382 internal checksum entries, asset ZIP identity/CRC, copied metadata hashes, unchanged originals and Encounter, Git staging/checkout integrity.",
     "baseline_status": "HOLD_FOR_FURTHER_REMEDIATION",
     "manifest": "docs/provenance/room-creator-stage6-import.json"
+  },
+  "verification_history_stage_7": {
+    "stage": 7,
+    "subsystem": "room_creator",
+    "source_builds_or_behavior_tests_executed": true,
+    "disposable_only": true,
+    "verdict": "PASS WITH HOLD PRESERVED",
+    "product_status": "HOLD_FOR_FURTHER_REMEDIATION",
+    "known_product_defect_reproduced": true,
+    "known_defect_repaired": false,
+    "manifest": "docs/provenance/room-creator-stage7-verification.json",
+    "report": "docs/consolidation/STAGE_7_VERIFICATION.md",
+    "canonical_Room_Creator_unchanged": true,
+    "canonical_Encounter_unchanged": true,
+    "originals_unchanged": true,
+    "stage8_started": false
   }
 }

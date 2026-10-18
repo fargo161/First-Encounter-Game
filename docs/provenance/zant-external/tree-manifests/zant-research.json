@@ -1,0 +1,439 @@
+{
+  "summary": {
+    "id": "zant-research",
+    "role": "research_and_forensics",
+    "source_root": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\Trapstar_ZANT_analysis_2026-10-18",
+    "archive_root": "snapshots/zant-research",
+    "file_count": 85,
+    "bytes": 35725595,
+    "tree_sha256": "e87cb0ce59be0eb35e13c466f169f34d49216739a76c49b052aa35b344828c32",
+    "fingerprint_method": "SHA256 of UTF-8 JSON sorted relative paths; keys sorted; compact separators; records path,bytes,sha256"
+  },
+  "files": [
+    {
+      "path": "01_SOURCE_TRUTH_AND_FORENSICS.md",
+      "bytes": 17286,
+      "sha256": "7b5056718bded86ab0f1445c9e44db850c2682e14b107a6090491f3d67f09a56"
+    },
+    {
+      "path": "02_ARCHITECTURE_OPTIONS.md",
+      "bytes": 22284,
+      "sha256": "87b3bcce776ea0b2ca8c49fc098ae4ba4889fec193578b5f5d8f4b59e2717bb0"
+    },
+    {
+      "path": "03_FIVE_SLOT_FACE_SYSTEM_ANALYSIS.md",
+      "bytes": 28704,
+      "sha256": "0543eeead1abf8747dc509fec10d6cd43d5d3929130c73ac52b59004566ce3f8"
+    },
+    {
+      "path": "04_RECOMMENDED_ZANT_MODULAR_STANDARD_v0_1.md",
+      "bytes": 17059,
+      "sha256": "e730a47ce1aa6c388de035529ceb08197a3c38469ea77202b3628c748964a852"
+    },
+    {
+      "path": "05_FIRST_COMBINATORIAL_CHARACTER_PROOF_SPEC.md",
+      "bytes": 15576,
+      "sha256": "4da9cfef9b2e108c2bf20cc639f90ed1e2afdd4352aa3dd597af72fb2c86339e"
+    },
+    {
+      "path": "06_NEW_ZANT_CHARACTER_TO_DATABASE_WORKFLOW.md",
+      "bytes": 14958,
+      "sha256": "19d6863e0e5d051eb59e0d74e32339031b390a9149f3899ffcff98838c736662"
+    },
+    {
+      "path": "07_GAPS_RISKS_AND_REQUIRED_NEW_ART.md",
+      "bytes": 11132,
+      "sha256": "902df1b4b85151f7ef0c501bf6b9fcf78202a907bb061cdd8f76ea0bf5736ffc"
+    },
+    {
+      "path": "08_NEXT_ACTION_BRIEF.md",
+      "bytes": 13927,
+      "sha256": "6525695fa063af5ed457a891f38860102405d71e0eb7bfa208f8cc0e46ba3f58"
+    },
+    {
+      "path": "evidence/C001_proof_SPEC_ONLY.example.json",
+      "bytes": 3600,
+      "sha256": "4ab189af5d22562d1eb9457c4819649069d819b4032ed6a6dfe049a4361c7bd0"
+    },
+    {
+      "path": "evidence/C001_proof_scope.json",
+      "bytes": 1456,
+      "sha256": "79c65b485334792bdbf60d98394d0d08cbd5a0ab41a5071813c5b57f8bc06c19"
+    },
+    {
+      "path": "evidence/evidence_copy_manifest.json",
+      "bytes": 242309,
+      "sha256": "08c8b97098e1eb8adcce6ca845ca1b17abaa68f9a19aeaf753915f1b338023df"
+    },
+    {
+      "path": "evidence/extract_handoff.py",
+      "bytes": 2341,
+      "sha256": "cd985f1088d94946ba06946655b480943bc95b8b5559634348895dbd0257e794"
+    },
+    {
+      "path": "evidence/face_D/all_preview_face_crops.png",
+      "bytes": 3630017,
+      "sha256": "5509e8d2b0b7b471cf292da651d215c0dca8ab1ae005a9adf8aefd0e5a91b64d"
+    },
+    {
+      "path": "evidence/face_D/analyze_face.py",
+      "bytes": 9962,
+      "sha256": "f1782ba15ccd9fa75d43cdd1c15930d2e6512fcf3c2def0dad3e35fa895d5a3a"
+    },
+    {
+      "path": "evidence/face_D/base_and_slots.png",
+      "bytes": 223351,
+      "sha256": "ac0f18f79a870afdfd1cb3357b1b0dab91b26a3a13666968bb3d0f04b685fcdd"
+    },
+    {
+      "path": "evidence/face_D/critical_interface_crops.png",
+      "bytes": 927857,
+      "sha256": "3300a268062b08ca148517d057867588d68009de4abd9f65321f43ca94eb336a"
+    },
+    {
+      "path": "evidence/face_D/diagnostic_mix_01.png",
+      "bytes": 1917380,
+      "sha256": "ed2e5979ad64eed48d413a091ff2bcaccda8e037b2408163c5839465399a3427"
+    },
+    {
+      "path": "evidence/face_D/diagnostic_mix_02.png",
+      "bytes": 1943290,
+      "sha256": "d195e32215bd7205b5b9c1a2d648be96a885c3278ee0682eae543769f5470a8a"
+    },
+    {
+      "path": "evidence/face_D/diagnostic_mix_03.png",
+      "bytes": 1945651,
+      "sha256": "f23fff079bc2c3ec5a0b87501ce65d5ad786ec55f47d5ae0ee319b14d346e097"
+    },
+    {
+      "path": "evidence/face_D/diagnostic_mix_04.png",
+      "bytes": 1944223,
+      "sha256": "bb140758d025837833e2af28124257a8957c74fcda4f1e9883b71771866907f9"
+    },
+    {
+      "path": "evidence/face_D/diagnostic_mix_05.png",
+      "bytes": 1926284,
+      "sha256": "153d9eb9979bba7b4224005407199aa94b9d83917ee7ea3bce3aba75d00d6b2b"
+    },
+    {
+      "path": "evidence/face_D/diagnostic_mix_06.png",
+      "bytes": 1950679,
+      "sha256": "993fcc010a9f500fc98d711abb6f67a0453f69eb02b242a3124c629017bd342a"
+    },
+    {
+      "path": "evidence/face_D/diagnostic_mix_07.png",
+      "bytes": 1921717,
+      "sha256": "67fa82df0ce5005da9374a9cf4f7bea79e8d954a66181d34df41fa0b3b36340e"
+    },
+    {
+      "path": "evidence/face_D/diagnostic_mix_08.png",
+      "bytes": 1929600,
+      "sha256": "2b8b3c0552983eb170609e1bf80ca9c4f0e763923e486a922b8ac2165d94de47"
+    },
+    {
+      "path": "evidence/face_D/diagnostic_mixes_contact.png",
+      "bytes": 1256689,
+      "sha256": "9d2bbba39e8662227d18d991da3b34e4aefca396e214c7ceb3c31ea2f0619f7a"
+    },
+    {
+      "path": "evidence/face_D/expr08_bright_candidate_locations.png",
+      "bytes": 1635411,
+      "sha256": "72e47610492c94f219b1470e91260d70d3c37157df53623f06965e0cfeca1b5e"
+    },
+    {
+      "path": "evidence/face_D/extremes_normalized_vs_preview.png",
+      "bytes": 2493568,
+      "sha256": "5939cf706d654d4452a6c6662fac13151cbfced879f4a4cad66c1ec0e0072c87"
+    },
+    {
+      "path": "evidence/face_D/face_contract_example.json",
+      "bytes": 2124,
+      "sha256": "a96b76ba8192a02efd6e864d362a03303758b596b9cc25b64eedfc0b962fdf50"
+    },
+    {
+      "path": "evidence/face_D/face_measurements.json",
+      "bytes": 132622,
+      "sha256": "53e8e24c8f45f8de160954f9881e36a51494f6862a5d47dd431df1fe9fe03a33"
+    },
+    {
+      "path": "evidence/face_D/mask_boxes_on_base.png",
+      "bytes": 1935893,
+      "sha256": "2aa19e768a78fffd0aa0137290cc50b3e657ecd6dbd0bcb1a861172b7b7b1750"
+    },
+    {
+      "path": "evidence/face_D/saved_validation_and_prompt_records.json",
+      "bytes": 42618,
+      "sha256": "6788509e2073f138333be03629bb33b100d4e5f77a954e509ee36e3965579e8e"
+    },
+    {
+      "path": "evidence/face_D/supplement_face.py",
+      "bytes": 3627,
+      "sha256": "a95a710fe0feb643982edff7125b86069d5f3cd41b33509bd257d2582af8f1fd"
+    },
+    {
+      "path": "evidence/face_D/supplement_face_measurements.json",
+      "bytes": 7251,
+      "sha256": "d50b643fa2334ac497c13edc745b9e1e0cec48770bb2c6255378293a34360b2a"
+    },
+    {
+      "path": "evidence/final_audit.py",
+      "bytes": 6496,
+      "sha256": "b345d63472d1c3c5dc151dfa16985188b0c3c1ada58c5173bcc71daeafe02556"
+    },
+    {
+      "path": "evidence/final_bundle_audit.json",
+      "bytes": 7297,
+      "sha256": "62ed9e96cbca945860ad8bc643fdbeabd7e52055d092ef698abb6346afb27ad3"
+    },
+    {
+      "path": "evidence/garment_C/C001_source_wardrobe_kit.jpg",
+      "bytes": 195396,
+      "sha256": "1ef4668201b555371bbefc7ce64faa5d0b651d7c6313642e014efab88012a27b"
+    },
+    {
+      "path": "evidence/garment_C/C003_source_wardrobe_kit.jpg",
+      "bytes": 187206,
+      "sha256": "5581d06049efd2675924519118521a62dd66fcfc169a112dd8fa1dfc769136ac"
+    },
+    {
+      "path": "evidence/garment_C/C018_source_wardrobe_kit.jpg",
+      "bytes": 206366,
+      "sha256": "3de1fc4225d87bcac4e9d8e2f7f003e642ee2b712dd6b0ac0759fd2c9d0d7734"
+    },
+    {
+      "path": "evidence/garment_C/C020_source_wardrobe_kit.jpg",
+      "bytes": 186395,
+      "sha256": "168e9471eb39081ba79f75260b52752e23599aa80bdca317f72354de2ff3bf55"
+    },
+    {
+      "path": "evidence/garment_C/C028_source_wardrobe_kit.jpg",
+      "bytes": 236751,
+      "sha256": "2c9db89410771528f4ea066dba1401698e21856bbd7a1d898f6bd88e032bc763"
+    },
+    {
+      "path": "evidence/garment_C/C033_source_wardrobe_kit.jpg",
+      "bytes": 223747,
+      "sha256": "f9499ee17d5965576962643b7f72ef8d0ed77ea3c8c3af8bf74252f8dcfcac93"
+    },
+    {
+      "path": "evidence/garment_C/C034_source_wardrobe_kit.jpg",
+      "bytes": 241530,
+      "sha256": "ed9e9f9b9052aff90f1b4589dd468114732782328de892f5e8da7f5036aa1b27"
+    },
+    {
+      "path": "evidence/garment_C/C042_source_wardrobe_kit.jpg",
+      "bytes": 230178,
+      "sha256": "45bc0743c3465a0444605013172e6e97f1130142f974db811bb768ebaaa26231"
+    },
+    {
+      "path": "evidence/garment_C/garment_diagnostics.py",
+      "bytes": 3981,
+      "sha256": "6cfd452b694035c4c4be78ed98f455e68e49ba9538e660d31de64ae0c739cdcd"
+    },
+    {
+      "path": "evidence/garment_C/gear_remaining19.jpg",
+      "bytes": 254553,
+      "sha256": "ec857c368571462257557a266a9bed50bc06420ff1ec0b5ada6322fa0183b30f"
+    },
+    {
+      "path": "evidence/garment_C/gear_remaining19_measurements.json",
+      "bytes": 6887,
+      "sha256": "4785b198b1bd3d9719cfcb04177256cba592aea23ef789eeebfc2fb318d41076"
+    },
+    {
+      "path": "evidence/garment_C/representative_A.jpg",
+      "bytes": 369563,
+      "sha256": "e26162cf02904d8d51fa1e009e6647f7709395ee8515f3b9d2a00aec8b8d51a4"
+    },
+    {
+      "path": "evidence/garment_C/representative_B.jpg",
+      "bytes": 431018,
+      "sha256": "2470a392d4dbaa34464c8bf16a26e9acc7e8e7c48d0841366dccf882d0066a56"
+    },
+    {
+      "path": "evidence/garment_C/representative_measurements.json",
+      "bytes": 12314,
+      "sha256": "aac05ad1d39cc046b1d1bb6944dbda16a2cf3bc430119cc60181a5951bf7e521"
+    },
+    {
+      "path": "evidence/palette_lead/compare_palette.py",
+      "bytes": 2360,
+      "sha256": "5417fa3234c35cb38c4a0fa2527528a7dcf11e6668caeb18632516b38846d009"
+    },
+    {
+      "path": "evidence/palette_lead/palette_crop_comparison.png",
+      "bytes": 351570,
+      "sha256": "392c5e3a7f87ca4ea176bbca2ca5c582ed4ea28397aafc8f81d91dfe49e0e4ce"
+    },
+    {
+      "path": "evidence/palette_lead/palette_crop_measurements.json",
+      "bytes": 1034,
+      "sha256": "1e202b4adf4d748515cbe5a7efe7f1ce08fe9a8bd3222de145c0cae245689a0a"
+    },
+    {
+      "path": "evidence/source_A/audit_source.py",
+      "bytes": 10992,
+      "sha256": "e693a99dfae5f23b4fc9ab7889dd3826eb9e545271ea4370b8a6770423436ef6"
+    },
+    {
+      "path": "evidence/source_A/c020_reference_zip_check.json",
+      "bytes": 417,
+      "sha256": "4ee3a44130de207a9300284afefdbb9ea8d9af3d48f52b85284a26c0d22a4632"
+    },
+    {
+      "path": "evidence/source_A/calibration_contact_1.jpg",
+      "bytes": 173951,
+      "sha256": "7a520603c7df615936a3d1ccfcc99b4a34e57e7fe365587008e12071aced1fb7"
+    },
+    {
+      "path": "evidence/source_A/calibration_contact_2.jpg",
+      "bytes": 180074,
+      "sha256": "cdfe9b036885ee0bb01ea1dc6ab34cfe9df2b50ea0a9b2727f46613fcdee554d"
+    },
+    {
+      "path": "evidence/source_A/character_comparisons.csv",
+      "bytes": 5025,
+      "sha256": "a3d0a2e3bb300b7c8cfe8160ffe3704823f14fdd752ae28e010ddecae1bddd10"
+    },
+    {
+      "path": "evidence/source_A/clothing_catalogs_contact_1.jpg",
+      "bytes": 248638,
+      "sha256": "ba0ebb4c358623a1a1092fd9c2124bdb07894276dca078cd5eefd726f3e2f356"
+    },
+    {
+      "path": "evidence/source_A/clothing_catalogs_contact_2.jpg",
+      "bytes": 239441,
+      "sha256": "fc297321b3b1171de7f99740bc9b73b7d80927dff57d345dab40b6591e1c8b46"
+    },
+    {
+      "path": "evidence/source_A/comparison_plate_1.jpg",
+      "bytes": 152594,
+      "sha256": "d51eeaee78bfd1ae6f5d4363b85bc7299eaaeb82a62c2f737b4f1b9d52386986"
+    },
+    {
+      "path": "evidence/source_A/comparison_plate_2.jpg",
+      "bytes": 171764,
+      "sha256": "9d0a8f20a75deb26f421ce7f5b2d202bb3616a1411cfb7cbccb71d4a1eba6c8b"
+    },
+    {
+      "path": "evidence/source_A/comparison_plate_3.jpg",
+      "bytes": 190517,
+      "sha256": "548225e9e7ce838637008d33469f1a46e50cb2322450d1003627872c8beeae48"
+    },
+    {
+      "path": "evidence/source_A/eight_fit_references.jpg",
+      "bytes": 67377,
+      "sha256": "0ffd830a9e8d8128419521e12542731d0e81a1dc4f3dd7c6a57c26bcf68700ca"
+    },
+    {
+      "path": "evidence/source_A/gear_accessory_catalogs_contact_1.jpg",
+      "bytes": 70258,
+      "sha256": "c0d51eabb3bf985b0914be7849de84d8651692d0c36ab8f2c0c94a04e3ee0c20"
+    },
+    {
+      "path": "evidence/source_A/gear_accessory_catalogs_contact_2.jpg",
+      "bytes": 83058,
+      "sha256": "b235adfbefa5baf7c2dc8b886856b2357a5b7e0b9439d25c5dcb14a93c756435"
+    },
+    {
+      "path": "evidence/source_A/original_reference_contact_1.jpg",
+      "bytes": 220485,
+      "sha256": "39b3be59742bd90ee0ef3f19dfb8b68f1670f508f6900a041e311d6092e48bea"
+    },
+    {
+      "path": "evidence/source_A/original_reference_contact_2.jpg",
+      "bytes": 212387,
+      "sha256": "7901dddfdef79541de2a82a6ac92f1b0564f4e43daa2261591d8dfd34242e00a"
+    },
+    {
+      "path": "evidence/source_A/original_reference_contact_3.jpg",
+      "bytes": 231308,
+      "sha256": "e1a6b3fbc991b1a9b132b406a265dce98741eb8c488a6fbd8c8009e8981998b8"
+    },
+    {
+      "path": "evidence/source_A/original_reference_key.json",
+      "bytes": 2996,
+      "sha256": "d6954dd2a5795ae4bf707f8f904a7b807c80dc639ece325cb55a85f637ca031e"
+    },
+    {
+      "path": "evidence/source_A/rebuilt_contact_1.jpg",
+      "bytes": 285212,
+      "sha256": "1bf04b626b39974764aed53177ef05ba8c2310a9a2f95517ebbdfb2d3b962aa3"
+    },
+    {
+      "path": "evidence/source_A/rebuilt_contact_2.jpg",
+      "bytes": 287419,
+      "sha256": "07a59d85d5c2f39f2d4557f3638dcb7dfa03b77b44050136b92ecc58af9afdb0"
+    },
+    {
+      "path": "evidence/source_A/silhouette_extremes.jpg",
+      "bytes": 166722,
+      "sha256": "939920e68acbb1ddb405340dd804da53786165dd3ed86694ecd64f754e9981b9"
+    },
+    {
+      "path": "evidence/source_A/source_contact_1.jpg",
+      "bytes": 285631,
+      "sha256": "6f0621324ed4dabdd1699604f795831468fd16c0d7a17eb32defce413340f81e"
+    },
+    {
+      "path": "evidence/source_A/source_contact_2.jpg",
+      "bytes": 289784,
+      "sha256": "ca9d7ccb25c7c816c9ff6a18312041e3b09825ded5f599a86228c62626edec1e"
+    },
+    {
+      "path": "evidence/source_A/source_measurements.json",
+      "bytes": 736697,
+      "sha256": "3ce568dd657706e9bae0362d790745f11795b2e3141fdb50e8293a1de1f2abcc"
+    },
+    {
+      "path": "evidence/source_A/source_summary.json",
+      "bytes": 13689,
+      "sha256": "508ad72e03289e7e72df01f922e2a15d378576c86e95f01aceaada1a1d9cef0e"
+    },
+    {
+      "path": "evidence/source_A/summarize_source.py",
+      "bytes": 3455,
+      "sha256": "066e436643d2471ad0926d2fdd5f009c42b497ec4c9b3e05d7dcde60ea810a04"
+    },
+    {
+      "path": "evidence/write_authoring_schema.py",
+      "bytes": 8134,
+      "sha256": "e7fefd67980a80daf6ad1ea04b912eee664147d0fb5fbbb4ee771ae154a45c2b"
+    },
+    {
+      "path": "evidence/zant_asset_authoring_v0_1.schema.json",
+      "bytes": 21746,
+      "sha256": "619acaaa5ba071f38a80c3e9dba69c31c97c08cac719996e455dfd91fc0196e8"
+    },
+    {
+      "path": "specialists/A_SOURCE_FORENSICS.md",
+      "bytes": 4147,
+      "sha256": "d02c4eb01ae8d8c7e1b94cbc103061bad0759df55428fd7910453448b18a17fe"
+    },
+    {
+      "path": "specialists/B_BODY_VIEW_POSE.md",
+      "bytes": 2783,
+      "sha256": "45b44ec6675bda4655032a4aa8aa6774f917768417cbe5f3ec6e7da75b43d02c"
+    },
+    {
+      "path": "specialists/C_GARMENT_MATERIAL.md",
+      "bytes": 17737,
+      "sha256": "02300c170b84466a12555a9c07ef3050cf1b7296f73257cc413bebb4851e700c"
+    },
+    {
+      "path": "specialists/D_FACE_ANALYSIS.md",
+      "bytes": 5270,
+      "sha256": "5bf54e7da6f907ec48f47addb24456e376b0019a53942f167cea01c1605da836"
+    },
+    {
+      "path": "specialists/E_ZANT_WORKFLOW.md",
+      "bytes": 7362,
+      "sha256": "967f60c6cc07899a4cc15f9372b2fb5dcb407e5ed80bbda0bbcb005180340080"
+    },
+    {
+      "path": "specialists/F_READ_ONLY_CONTEXT.md",
+      "bytes": 3437,
+      "sha256": "6dbc890eac472455a9bc96dd01941620b33f938d3e51abe774cd9e7cfe621606"
+    }
+  ]
+}

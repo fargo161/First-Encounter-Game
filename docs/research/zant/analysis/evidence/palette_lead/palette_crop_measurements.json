@@ -1,0 +1,32 @@
+{
+  "source": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\work\\ZANT_analysis_sources\\wardrobe\\C001_clothing_inventory_rgba.png",
+  "warning": "Local texture tests only. Rectangular crops are not semantic masks or production recolors. No identity/garment geometry changed.",
+  "crops": {
+    "blue_jacket": {
+      "box": [
+        540,
+        130,
+        600,
+        220
+      ],
+      "pixels": 5400,
+      "source_mean_luminance": 0.07218059323646293,
+      "hue_mean_abs_luminance_delta": 0.011151251263137185,
+      "ramp_mean_abs_luminance_delta": 2.4123294953276653e-05,
+      "ramp_out_of_gamut_pixels_before_clip": 2
+    },
+    "light_Tshirt": {
+      "box": [
+        190,
+        170,
+        285,
+        280
+      ],
+      "pixels": 10450,
+      "source_mean_luminance": 0.5825037073995178,
+      "hue_mean_abs_luminance_delta": 0.017091508406988958,
+      "ramp_mean_abs_luminance_delta": 5.559614438146836e-17,
+      "ramp_out_of_gamut_pixels_before_clip": 0
+    }
+  }
+}

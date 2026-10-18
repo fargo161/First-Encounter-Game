@@ -1,0 +1,103 @@
+{
+  "status": "PASS_FIXED_NATIVE_REGISTRATION",
+  "headLocalCanvas": [
+    512,
+    640
+  ],
+  "sourceWindowHalfOpen": [
+    256,
+    0,
+    768,
+    640
+  ],
+  "pixelMapping": "candidate[x,y].RGB == original[x+256,y].RGB for every candidate alpha>0 pixel",
+  "sourceToBodyTranslation": [
+    0,
+    54
+  ],
+  "headLocalToBodyTranslation": [
+    256,
+    54
+  ],
+  "bodyCanvas": [
+    1024,
+    1536
+  ],
+  "floorRootBody": [
+    512,
+    1472
+  ],
+  "headAttach": {
+    "source": [
+      501,
+      266
+    ],
+    "headLocal": [
+      245,
+      266
+    ],
+    "body": [
+      501,
+      320
+    ],
+    "candidateAlpha": 255
+  },
+  "neckBaseBodyUnchanged": [
+    501,
+    381
+  ],
+  "scale": [
+    1,
+    1
+  ],
+  "rotationDegrees": 0,
+  "mirrored": false,
+  "boundsHalfOpenLocal": {
+    "0": [
+      173,
+      93,
+      315,
+      275
+    ],
+    "127": [
+      174,
+      94,
+      315,
+      274
+    ],
+    "250": [
+      174,
+      95,
+      314,
+      274
+    ]
+  },
+  "boundsHalfOpenBody": {
+    "0": [
+      429,
+      147,
+      571,
+      329
+    ],
+    "127": [
+      430,
+      148,
+      571,
+      328
+    ],
+    "250": [
+      430,
+      149,
+      570,
+      328
+    ]
+  },
+  "minimalAttachment": "Central source skin tab around head_attach, ending at source/local y=274; no coverage at y>=275. Its lower limit is 8 native pixels below the anchor.",
+  "tabSourceBoundsHalfOpen": [
+    484,
+    261,
+    519,
+    275
+  ],
+  "limitation": "No A01 skin/neck surface was authored. Actual assembled overlap/concealment remains untested and requires later authorization."
+}

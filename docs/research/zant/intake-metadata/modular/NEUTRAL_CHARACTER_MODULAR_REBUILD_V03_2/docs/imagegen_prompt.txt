@@ -1,0 +1,13 @@
+Use case: identity-preserve
+Asset type: modular 2D game-character reconstruction kit plate
+Primary request: Reconstruct the referenced adult neutral character as a four-domain modular kit while preserving the exact face, age, ethnicity, hair, body proportions, height, width, neutral expression, front-facing neutral pose, empty visible hands, outfit design, fabric character, footwear, and ZANT/Trapstar visual identity.
+Layout on one wide technical plate:
+A) LEFT: one large finished neutral character composite wearing only the clothing and footwear from the source. Remove every removable accessory and all gear from this composite.
+B) CENTER: one fully and modestly clothed fit-calibration mannequin matching this character's exact height and body proportions, wearing an opaque seamless matte-gray long-sleeve crew-neck top, opaque full-length gray leggings, and plain gray flat shoes. Featureless oval head; no anatomy detail.
+C) UPPER RIGHT: an exploded catalog of the source clothing only, each garment isolated and non-overlapping: base top, overshirt/midlayer, outerwear, bottom or dress/skirt, and footwear as applicable. Preserve the original garment designs. Do not invent missing garments.
+D) LOWER RIGHT: a separate exploded catalog containing every removable gear/accessory from the source: eyewear, jewelry, watch, belt, scarf/tie, badge, protective equipment, tactical equipment, gloves, helmet, radio, pouches, worn tools, or other removable item as applicable. Do not include clothing here. If none exist, leave this zone empty.
+Scene/backdrop: perfectly flat solid hot-magenta #FF00FF chroma background, with no gradient, texture, checkerboard, shadow, glow, floor, or text.
+Composition: every figure and component fully visible with clean gaps; strict front orthographic presentation.
+Constraints: identity/head-hair, body, clothing, and gear-accessories must remain visibly distinct categories; hands completely empty; no handheld items; no weapons; no labels; no role-writing; no new fashion design; no duplicated face.
+Avoid: exposed anatomy, underwear, changing identity, body homogenization, changing height/build, action pose, checkerboard, white background.
+Canonical fit class: [FIT]. The fit mannequin must match this class and the referenced person's proportions.

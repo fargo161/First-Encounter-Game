@@ -1,0 +1,759 @@
+{
+  "summary": {
+    "id": "zant-independent-r4",
+    "role": "independent_evidence",
+    "source_root": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\C001_ZANT_GATE_A_R4_Independent_Review_2026-10-18",
+    "archive_root": "snapshots/zant-independent-r4",
+    "file_count": 149,
+    "bytes": 37230084,
+    "tree_sha256": "977a9e3f49af06dd0422702b086356ea2e8fec4f4c9203565ae57d18c92e9d14",
+    "fingerprint_method": "SHA256 of UTF-8 JSON sorted relative paths; keys sorted; compact separators; records path,bytes,sha256"
+  },
+  "files": [
+    {
+      "path": "INDEPENDENT_R4_REVIEW.md",
+      "bytes": 14179,
+      "sha256": "d3c466b3309c3a06a61ff28b8e93727a57408b42d6b89df25c3428d48cc5878b"
+    },
+    {
+      "path": "audit_frozen.py",
+      "bytes": 4273,
+      "sha256": "f130b76c08f9d8b0b41818efbbb9d86ac0ee01e2db531a87636dfbd9b09949a8"
+    },
+    {
+      "path": "audit_replay/B_off_NN_NN.png",
+      "bytes": 904816,
+      "sha256": "f2c599e3540773cf81b7fa4cf098d49b0a29d086f3814305f8ed1a5488f7e361"
+    },
+    {
+      "path": "audit_replay/B_on_NN_NN.png",
+      "bytes": 948996,
+      "sha256": "eb0ba7bc71d766583b451423eae332a47b89beb8d2103e0546c45eb10bee5a14"
+    },
+    {
+      "path": "audit_replay/verification.json",
+      "bytes": 3684,
+      "sha256": "1229bb96e1460fa8f724f9fff9c7beaa106a8b8f1f0d18854a95ef7bbd138ab9"
+    },
+    {
+      "path": "delivered_inventory_before.json",
+      "bytes": 21145,
+      "sha256": "89964b32b0d60d50884de791c43b7b9bb36322e01d0ede9bec4b3099d69a90b4"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/R4_NEUTRAL_INTERFACE_REMEDIATION_REPORT.md",
+      "bytes": 9287,
+      "sha256": "187a8131b7a21ad3359f8727995d1f4007e8d534ebf573983370e190f79d0083"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/START_HERE.md",
+      "bytes": 2766,
+      "sha256": "adc58bdd1d44a134714fc15a2f0f8e942ea6f88b4428f59afd25a56eb38fb608"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/TESTER_INSTRUCTIONS.md",
+      "bytes": 3743,
+      "sha256": "4b677b7bf5bdf266bf9225b80ba6645791e2dcb8dbc4a256cfc08bba65b85989"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/accepted_A25/A25_extraction_policy.json",
+      "bytes": 4217,
+      "sha256": "a77082a2ab2543aa95c12644e3239598ff0d5b94a5e6a9a7c10015405ffb7231"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/accepted_A25/A25_head_front_neutral_rgba.png",
+      "bytes": 45116,
+      "sha256": "f57ca9e06a203810c3a7f5d9e4c94bf6ecb9f5a2ff83d74b27eff62b4fbba724"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/accepted_A25/A25_head_front_silhouette.png",
+      "bytes": 2080,
+      "sha256": "37e11415f639cf8fa3634ca066bdf718ede06c77acff2121fb79441e62104052"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/accepted_A25/R2_original_metadata.json",
+      "bytes": 1383,
+      "sha256": "634ed90ed626762297b6e0e82a8d796d74db312087d8ec26d062008322c7f56f"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/accepted_A25/registration_bounds.json",
+      "bytes": 1687,
+      "sha256": "05b31742096988c9e431272f061602dd452b3a433d7a71051a6bf208dc152940"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/assets/A01_skin_neck.png",
+      "bytes": 31480,
+      "sha256": "65bc822a519c7a3f8ae4af5614513786e11e56b4fe1dda78c06849bfcd78513c"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/assets/A02_tee_torso.png",
+      "bytes": 245343,
+      "sha256": "a54b14ee20c4a0bf15035158c2f0c94e5c94cfa1c6c50f67462dc486ac03237e"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/assets/A03_jacket_open_torso.png",
+      "bytes": 200536,
+      "sha256": "bdcc357af525e589c462828fbfe717cf5ba0e64e926ae8ebb547c44d616e2f1c"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/assets/A04_tee_arm_L_N.png",
+      "bytes": 81958,
+      "sha256": "00b6dd3dfe87bcdb8583c69bb4d5d4a9398d0d055aad780f84a2bd09722e84f2"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/assets/A05_tee_arm_R_N.png",
+      "bytes": 84040,
+      "sha256": "90afebf06a3eaf93b44438e5229aa9b380a6e8624818e6898c1fed4629884fbf"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/assets/A08_jacket_arm_L_N.png",
+      "bytes": 82934,
+      "sha256": "3e09100330dfb8e56d6464524b2351468d001439813cd876dee337926e2ccf6d"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/assets/A09_jacket_arm_R_N.png",
+      "bytes": 77963,
+      "sha256": "f317de66dd6829527d3ff7407770be6f84524f65e687710aac8f07a0bdf748a8"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/assets/A12_hand_L_N.png",
+      "bytes": 19773,
+      "sha256": "0710aa6f9c1017abc0c6fe35ed3c10ac17017ebcc67e21763bbbac0861d58833"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/assets/A13_hand_R_N.png",
+      "bytes": 19704,
+      "sha256": "7d31c4e20a1fb06dc2bb493ab93e4dfd03156225ac5946f52207479ff295b1cf"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/assets/A16_pants_pelvis_NN.png",
+      "bytes": 82083,
+      "sha256": "23ad2c87efb724bb4c747d13d4bd76c49f4c411e5517c6f59f44f1de000008c7"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/assets/A17_pants_leg_L_N.png",
+      "bytes": 112837,
+      "sha256": "0e6899ecff7c19adb4ed730a60542f582a41242a72ac162a0a1d6bec8d0f4bce"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/assets/A18_pants_leg_R_N.png",
+      "bytes": 110300,
+      "sha256": "3929c09128b0ff45f9c4a14a3252566423ea313df20bdfe707de0b0209c77740"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/assets/A21_sneaker_L_N.png",
+      "bytes": 34539,
+      "sha256": "6ab77f1755780b3918f0b7b336d5697c1611f402670e032fbc4f62ecdbdd49a9"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/assets/A22_sneaker_R_N.png",
+      "bytes": 35001,
+      "sha256": "3525c647412a04f5c9b193415ab00bd34af1164645cfc51d36c21dfb9431b8d6"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/assets/A25_head_front_neutral_rgba.png",
+      "bytes": 45116,
+      "sha256": "f57ca9e06a203810c3a7f5d9e4c94bf6ecb9f5a2ff83d74b27eff62b4fbba724"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/assets/A25_head_front_silhouette.png",
+      "bytes": 2080,
+      "sha256": "37e11415f639cf8fa3634ca066bdf718ede06c77acff2121fb79441e62104052"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/author_source_parts.py",
+      "bytes": 10663,
+      "sha256": "92044529668853f90a61098e1d82b44d076bbc1d467cb6a788a5d1cb18ba9e9e"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/authoring/A02_source_center_seed.png",
+      "bytes": 102159,
+      "sha256": "528e576496f72626f788911d0efb1b3b504b76710a2902932528cedd308c8fda"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/authoring/A16_source_seed.png",
+      "bytes": 75494,
+      "sha256": "c6e80fcd794aa08e2545fa883ec1a61f9fa0ff24205ae82ab204df72203bcd54"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/authoring/arm_L_N_source_reference.png",
+      "bytes": 80655,
+      "sha256": "92327bddb9d492e06c0163e3e47a5ca5de421e4e0d8b1447f1e7d99165d9683b"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/authoring/arm_R_N_source_reference.png",
+      "bytes": 76323,
+      "sha256": "8d566eed26802001dcdbbb3468a40be83a3bffdd559c83f73b731b21a5efcd2b"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/authoring/inputs/R3_A02_unaccepted_cloth.png",
+      "bytes": 255467,
+      "sha256": "310ea9a911eb1b915ae4457f2b772cab693ab0f9a284b619117c0f68a4ab9b31"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/authoring/inputs/R3_A04_garment_donor.png",
+      "bytes": 86208,
+      "sha256": "7db81a034d6fcbc15953de0cf03332b12a0059a8da4d94fb628a1766bad0ba14"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/authoring/inputs/R3_A05_garment_donor.png",
+      "bytes": 76105,
+      "sha256": "f0b9e2aec43e48cf6411001d3003ac86fc86bd1ee431d1b57b04dd553e72fc37"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/authoring/inputs/R3_A16_unaccepted_waist_derivative.png",
+      "bytes": 82083,
+      "sha256": "23ad2c87efb724bb4c747d13d4bd76c49f4c411e5517c6f59f44f1de000008c7"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/authoring/inputs/R3_hidden_waist_original_prompt.txt",
+      "bytes": 1606,
+      "sha256": "7793e6dbd125fe9aa5c6b8ac698687fd7d9ba420f8e10d74414ac7b2129a1613"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/authoring/inputs/R3_hidden_waist_paint_reference.png",
+      "bytes": 1314708,
+      "sha256": "51750c6f91c5e1cbf9c8af80083379f864fb84e9d8318f575404e7139464969d"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/authoring/inputs/R4_source_hand_L_before_alpha_cleanup.png",
+      "bytes": 19751,
+      "sha256": "877f07c2a7be76fcad92694322f1f66d91bc98e0d1f4281cbb03b9c1df6b60ce"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/authoring/inputs/R4_source_hand_R_before_alpha_cleanup.png",
+      "bytes": 19615,
+      "sha256": "1352a71879a1cbbc40b2e2ef67b2b99991f83f1ac6bdcee187d13e3f9412c8e4"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/authoring/inputs/R4_source_neck_exact_derivative.png",
+      "bytes": 30987,
+      "sha256": "a828dc9840679592613ec60250fecfa86627383fd8c3aca5ae86fa056335a07d"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/authoring/inputs/R4_unaccepted_pair_before_skin_cleanup.png",
+      "bytes": 413573,
+      "sha256": "dbcda823762076926026ad95da2651193cf582450c579603e0231d4b1e595f15"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/authoring/inputs/fixed_datums_reference_only.png",
+      "bytes": 429276,
+      "sha256": "8098fae9104c93c412def665e1c41179e602f5ca41d872a66970eda3afa466df"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/authoring/inputs/source_upper_body_head_excluded.png",
+      "bytes": 432033,
+      "sha256": "a64c8597c8bb875a1b2649247b9e69cafbe21e18e3c6bebe117367215f03e82b"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/authoring/inputs/tee_design_only.png",
+      "bytes": 125869,
+      "sha256": "e00596560243c3ecdca0646d61ba099a6f83c21035f45d1904ee21362c72bf79"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/authoring/neutral_decomposition.json",
+      "bytes": 12273,
+      "sha256": "03ec3bc64b6dac91cef092f3584d85bc03952cbe6c41dca20341383ffe7c1c35"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/authoring/neutral_skin_interface_native_v3.png",
+      "bytes": 447450,
+      "sha256": "287e211b0b4b516a78f3c7d02a463013e8f7a104fcc634028bef72a98e9b83ac"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/authoring/neutral_upper_native_v1.png",
+      "bytes": 428901,
+      "sha256": "43f66b386164190e42f086a04c2d8186dcb91551cd221a543cbddf04df2effc9"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/authoring/neutral_upper_native_v2.png",
+      "bytes": 427746,
+      "sha256": "e17ee27908a6d59da53d181db401b0d326762cfc4adba018b2c76a977e9960cb"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/authoring/prompts/neutral_skin_interface_cleanup_v3.txt",
+      "bytes": 2550,
+      "sha256": "aeaf796359a65393d9a0f2059d47e1fdab0133350a904e4db3eb4e09a2307dd1"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/authoring/prompts/neutral_upper_reconstruction_v1.txt",
+      "bytes": 3486,
+      "sha256": "076c9a522bb9c03047b1d748e3e1adc54edaa5e7b36072d5087fcef37548af62"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/authoring/prompts/neutral_upper_reconstruction_v2.txt",
+      "bytes": 1911,
+      "sha256": "404ef40c9715ae5b6ead57ed45888b40a8d70a7506adc25c890a8ad1187fec3f"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/authoring/raw/neutral_skin_interface_cleanup_v3.png",
+      "bytes": 1910827,
+      "sha256": "ea4ed4d955962bebaea84592ba54d3ce9aa2923a7467572bd5d5d5d45e3a041d"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/authoring/raw/neutral_upper_reconstruction_v1.png",
+      "bytes": 1721940,
+      "sha256": "f9185afd18fa2586c5b381ef924f6cb74c0920a52dfb77b33c731e9806285dc2"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/authoring/raw/neutral_upper_reconstruction_v2.png",
+      "bytes": 1832859,
+      "sha256": "acc9a4f27c043901145b87a80cf79fe26a15e07ca27eefbeb2d759369e57866e"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/authoring/reconstruction_provenance.json",
+      "bytes": 3488,
+      "sha256": "25555ee45feffcab62bbd171b27b2e297c08f0d9c09d493a42ded8e4a0854d99"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/authoring/rejected_interface_diagnostics/neutral_upper_native_pair.png",
+      "bytes": 635376,
+      "sha256": "b7959f04e4925868b974f14690383990423a083be5257e12efd49fc7cbaec14f"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/authoring/rejected_interface_diagnostics/raw_neck_inspect.png",
+      "bytes": 206762,
+      "sha256": "8beb9f8cce1ffe83d7825908f3cd25af071bde2f034d81deac3be9c48f478310"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/authoring/rejected_interface_diagnostics/sleeve_insertions_native.png",
+      "bytes": 69591,
+      "sha256": "ecfd0f7474c84457118bc325fbf9c23a898468d4f24c7b18bc20fe960dabf599"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/authoring/rejected_interface_diagnostics/v3_jacket_side_native.png",
+      "bytes": 18821,
+      "sha256": "421e1ce61b130468c75d64afe908b30734befaff9c2e9355f827af52432cecee"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/authoring/rejected_interface_diagnostics/v3_sleeve_insertions_native.png",
+      "bytes": 94844,
+      "sha256": "38cb988a8cdb7e62832e55a98719d0e41fecd704801ab6dbac2efc28d080c596"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/authoring/rejected_interface_diagnostics/v3_wrist_waist_native.png",
+      "bytes": 58797,
+      "sha256": "c0869913b7c4883dd752fc9d3e9703fadc81363324d50bab1b7fca34a093cab7"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/authoring/rejected_interface_diagnostics/wrist_waist_native.png",
+      "bytes": 52170,
+      "sha256": "39c5dffc37a4cc54754d536a940822de7c89a9beeae153bc55abf0db90bd94aa"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/authoring/source_grid_L_hand.png",
+      "bytes": 24661,
+      "sha256": "fd1875fca6bdcdcf565f3d131e91fffce1539cb2f49aa017dc998d0901649759"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/authoring/source_grid_R_hand.png",
+      "bytes": 25619,
+      "sha256": "f5f5af6c536bc2daaa42d5c50f4b9591f2b0b4bd00100794c94d15a9cf44d290"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/authoring/source_grid_hips.png",
+      "bytes": 126363,
+      "sha256": "26d0029c5f4d87202cdb4c785c098440ea308a390b644292c7a1d7598097d8c5"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/authoring/source_grid_torso.png",
+      "bytes": 384312,
+      "sha256": "b51f0bc8c60f5205891206b28b35821b27d7b03b338b190092584c58016c7697"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/authoring/tee_design_reference.png",
+      "bytes": 94498,
+      "sha256": "d44e285b41c0685495b1b832508bea0c58516f2b2ff644e1fc5acc3ff6f91cd8"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/authoring/tee_shared_paint.png",
+      "bytes": 263132,
+      "sha256": "efc7c6507785dbc590052e24eea964a4a72e10c9754dc38771ee4461dc267fff"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/authoring/upper_body_paint_in_fixed_frame.png",
+      "bytes": 458864,
+      "sha256": "35393e02bb3c50f32ace41b1d83c7316969c737fea831c8aa01dbd3219320559"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/authoring/v3_interface_policy.json",
+      "bytes": 2385,
+      "sha256": "c7aa7f89f056811994631cb4ad2f0fcefde762bb542cb0eb4630f6b76fd653cc"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/authoring/v3_working_paint_in_body_frame.png",
+      "bytes": 470074,
+      "sha256": "4b7ccd33d01ff7888f15dafa414be4c648222a2840f66eddfdc56c1104bd7093"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/build_neutral.py",
+      "bytes": 14883,
+      "sha256": "760f6666d044d28239cd4437746dc0902211015436f85d7769b78bf943b9afb1"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/build_v3_clean.py",
+      "bytes": 8624,
+      "sha256": "5943a69cf3afb81d0f6d72b204c3bd2a88a62c5ec3789f25c865d5a2901cd39e"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/contract/00_GATE_A_IMPLEMENTATION_PREFLIGHT.md",
+      "bytes": 53665,
+      "sha256": "4f63ab38c3d07b48aaf6f2411e849321383f9be1512ef6a45ad4bdec0bf9eac8"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/contract/04_RECOMMENDED_ZANT_MODULAR_STANDARD_v0_1.md",
+      "bytes": 17059,
+      "sha256": "e730a47ce1aa6c388de035529ceb08197a3c38469ea77202b3628c748964a852"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/contract/05_FIRST_COMBINATORIAL_CHARACTER_PROOF_SPEC.md",
+      "bytes": 15576,
+      "sha256": "4da9cfef9b2e108c2bf20cc639f90ed1e2afdd4352aa3dd597af72fb2c86339e"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/contract/A25_LOCK.json",
+      "bytes": 1399,
+      "sha256": "9baa48ae81928a88407840e43d8ca9cf6e72426c8a5885562742a5107ec68710"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/contract/INDEPENDENT_R3_REVIEW.md",
+      "bytes": 17577,
+      "sha256": "3d1e58a56d1dc32daffdef6a012974e085e4b747e63cd03e681cfead728aebdc"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/contract/OWNER_APPROVAL_R3.md",
+      "bytes": 1294,
+      "sha256": "5611d1a85aa72b175f8541667924daff6ab472c5b44e347d7be6142c14f75bac"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/contract/R4_AUTHORITY_AND_HOLD.md",
+      "bytes": 1809,
+      "sha256": "d59db8155bc43557a665c22aa9d592c49224d7784c73198dcac26aaf22e3b393"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/contract/R4_CONTINUED_CLEANUP_AUTHORITY.md",
+      "bytes": 1023,
+      "sha256": "e26976f4ea51638fb8a0d2a2f03ca9825d5ce872fccf777974670f905187ed03"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/data/calibration.json",
+      "bytes": 1686,
+      "sha256": "fad31334fef28eee4a0b71bbf28e5a695e2e19c5959ab06815946cca312e300f"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/data/interfaces_neutral.json",
+      "bytes": 2606,
+      "sha256": "6beaaedd93c4485fd9cc25242d7a940b63586ca48aef1c4eabe5595ee63915e7"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/data/neutral_recipes.json",
+      "bytes": 1546,
+      "sha256": "c54a510b86859257e12b398f348ecf91752f08e1012171affe22c84638342682"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/data/neutral_review_state.json",
+      "bytes": 455,
+      "sha256": "7f7f5b60092dff4799a0c111f62414ae70614d0e754e7a2225824fd47dc9ef06"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/data/required_matrix.json",
+      "bytes": 63775,
+      "sha256": "dc78dfcb131ffcb96db4e3f97674ff622e8cc98af8a01837b71d564ebc1dd01a"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/data/surface_ledger.json",
+      "bytes": 7463,
+      "sha256": "91aeeab671d08148ca8847ccc374f4d138acc85392917fe3d02150e5713d8d20"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/evidence/CURRENT_arms_native.png",
+      "bytes": 340641,
+      "sha256": "5fffbdb45589dae1474aa0d9c9e6aa211d5da2851f1454982483362912efd53d"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/evidence/CURRENT_jacket_side_native.png",
+      "bytes": 18381,
+      "sha256": "3aa7dede03fcbd28b575150fad4b3de5276e231eaaac293c8e51f9d84cc12df7"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/evidence/CURRENT_native_5bg_upper_pair.png",
+      "bytes": 1523365,
+      "sha256": "dbe30e0c4db4ab9f3aaca7137af736a6f3ced270ab2dba0ff4884b4b1826165c"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/evidence/CURRENT_native_5bg_wrists_waist_pair.png",
+      "bytes": 390370,
+      "sha256": "08fa93ca1066eb7b1aa6c8d7e5baf2d9324e674db02db10d2eef707611f954fc"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/evidence/alpha_interface_native_5bg_0.png",
+      "bytes": 143473,
+      "sha256": "cfc16123698278c6a917c2229fde9504fc2dad55defd84e78b7f85333bcfe814"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/evidence/alpha_interface_native_5bg_1.png",
+      "bytes": 60104,
+      "sha256": "87f4774054fb42e7113c30c86b038c79f9a5f3673dab7cb87cf8ae6ec0388a92"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/evidence/neck_shoulders_native_pair.png",
+      "bytes": 257999,
+      "sha256": "8c4e6e8eaa9fd852946e3677830d55a8f20b8fdbe2a52fce9f253fdf9dbbffbe"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/evidence/neutral_off_1536.png",
+      "bytes": 683266,
+      "sha256": "0bc6df765d9cef2261770e9d0ca4ed147fb20339e20d9590605073e6141f87f1"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/evidence/neutral_off_384.png",
+      "bytes": 56880,
+      "sha256": "827b5fbdd94be547a6eb975755a4c02e3083f8000f2581a572c1d8798019b20d"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/evidence/neutral_off_768.png",
+      "bytes": 201114,
+      "sha256": "4ec904ec3571086bb794539eaffee24880a7a20f9140da09100f63eb1523407c"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/evidence/neutral_off_native_dark.png",
+      "bytes": 682767,
+      "sha256": "fdd3f9c9e186d8c58d5caf242c3aa3de359c762968a5e947d21fb63286af3823"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/evidence/neutral_off_native_green.png",
+      "bytes": 686084,
+      "sha256": "938217b53f22918afaeee4871cd2b5bc80e2916c0033a094af678896f17ee53b"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/evidence/neutral_off_native_light.png",
+      "bytes": 684989,
+      "sha256": "01ec2dda22d5b75d969a063579f502255f1b72d9805ef7a5db67bc4810688692"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/evidence/neutral_off_native_magenta.png",
+      "bytes": 688653,
+      "sha256": "144e542660d34ecb2a0f6ce94e456963cfae474c1779c5ac7732d4e6e67b5a36"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/evidence/neutral_off_native_textured.png",
+      "bytes": 690664,
+      "sha256": "91fac939e4defb9306860520435ea8d1b2742f57ca2d193abdfe7fc97e5939cd"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/evidence/neutral_off_visible_body_384.png",
+      "bytes": 73782,
+      "sha256": "dd35dc9d97340b2ed98b50fa77a9f3b1be97d059d4488642e1db39a6b896efc6"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/evidence/neutral_on_1536.png",
+      "bytes": 706912,
+      "sha256": "19c163ad43ce5ad998f56480cab3e28b4c1dc11f179e7c54611315612a1ef825"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/evidence/neutral_on_384.png",
+      "bytes": 60828,
+      "sha256": "c4c467008e53ab8df175d6c3447de7478a48a7b2b51594e0ac7113c1251a083b"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/evidence/neutral_on_768.png",
+      "bytes": 213583,
+      "sha256": "fbaa2707218e41592d7c7824d047d633030a4e44bca39ba62dd365e7e6b2cdf4"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/evidence/neutral_on_native_dark.png",
+      "bytes": 705550,
+      "sha256": "6cf3aaeab06e70447d8251caaeaaeeedbb502a29aba8d9c4a893ce0f521b9795"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/evidence/neutral_on_native_green.png",
+      "bytes": 708295,
+      "sha256": "3e8b5746f910dc7d02c49ba8d91f55b4dd2530f075a261ddaa0f24b9353e2319"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/evidence/neutral_on_native_light.png",
+      "bytes": 711254,
+      "sha256": "77aeeb48b2c61fcfd4648a07ec15083b3bfd30a715916b543165ac4350ce1258"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/evidence/neutral_on_native_magenta.png",
+      "bytes": 710541,
+      "sha256": "c7f64c123ca71cd4a63ef1f025411f97e4c0a11334f8cb0581918cc79f2eac08"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/evidence/neutral_on_native_textured.png",
+      "bytes": 713073,
+      "sha256": "092c2fdc23e33f8b1b3842f3f788486b2fc5591f6f57e8ca6b2061f7caaf28dd"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/evidence/neutral_on_visible_body_384.png",
+      "bytes": 79127,
+      "sha256": "80d814c43593f6bd64af32c2d28bfbd4e219624ed0671b3ea76717913f86aa4f"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/evidence/neutral_pair_native.png",
+      "bytes": 898147,
+      "sha256": "56d8172b4d6529ad05c2ebaf66715e375f87b800cadc439089d0bdb48ed7dd91"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/evidence/source_jacket_side_native.png",
+      "bytes": 20134,
+      "sha256": "3701d1f04ba2cc7c568f3b4cdfde5ff8af2a64eeea17e52041ff2bb572c53b12"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/evidence/source_vs_R4_pair_384.png",
+      "bytes": 106922,
+      "sha256": "54734c834d78407dd5f0b33a0d55dd7cb60286c59ddbeddbe934998fb63c0fa9"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/evidence/wrists_waist_native_pair.png",
+      "bytes": 77331,
+      "sha256": "4b2248997d297525137ed35f63d8a55ca1438d6a48e3cd84e26aa5deda729fc2"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/expected/B_off_NN_NN.png",
+      "bytes": 700456,
+      "sha256": "ac7dc13a33a5bd69c995048fd092e365752f268a04d77917658240f02bd4daa0"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/expected/B_on_NN_NN.png",
+      "bytes": 714175,
+      "sha256": "f56de235462a2be051735204bde962b93aab62d9ebe97eced04a6248a1ef1022"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/expected/index.json",
+      "bytes": 783,
+      "sha256": "1f62db16839ef17fbd1d0cb935e6a627fa629f9f879f58ff5894cbedd5cf5f5c"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/initialize_r4.py",
+      "bytes": 3217,
+      "sha256": "d1a6eb060371f21f9dece44a748dc5c9b592cae248dc9258972cd17900ab41d2"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/manifest.json",
+      "bytes": 24631,
+      "sha256": "c3e0e4e23c483081ebf2945cec6c635f42093c68750863cbae5c2265ae44ab09"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/measure_and_record.py",
+      "bytes": 10982,
+      "sha256": "433865a6bf6ae89f17402ce6d9597d93f6f5e4bdc468f7c26786ec08efcd7e2a"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/package_review_snapshot.py",
+      "bytes": 2525,
+      "sha256": "0ffd5ce21dd60d247d073c76313e4279eedb59e1a60ba52bd47676f999e63178"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/prepare_review_packet.py",
+      "bytes": 12853,
+      "sha256": "98a37ccbcf4759e3357d5cc3c715fc33f1fdfbc8a9708d6b24f4cee39a9a9c67"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/references/C001_clothing_inventory_rgba.png",
+      "bytes": 692810,
+      "sha256": "9a02bf9c5b80581d0ecba558521cf6d7eccce2eb1114632ca54f4cc1540554cb"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/references/C001_fit_calibration_rgba.png",
+      "bytes": 510309,
+      "sha256": "add7415be15d664ba04b205846ca7d1e7a82bf3a27e243403bf7fffaf790e4f1"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/references/C001_modular_kit_plate_rgba.png",
+      "bytes": 1886333,
+      "sha256": "36970230e64dc438fcaaa237e3fb07d424721dd73a03f591704cb97348b63aba"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/references/C001_neutral_composite_rgba.png",
+      "bytes": 743302,
+      "sha256": "e8319df52dfb1355107cd4a0d773db4117309cfb2c3f2cb76825ab1ee29a4c3f"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/references/C001_source_neutral_rgba.png",
+      "bytes": 688551,
+      "sha256": "f651af252d32fd7a0870d254faab31ec63e4f620a42492641b834fd76274e0db"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/references/source_in_body_frame.png",
+      "bytes": 726471,
+      "sha256": "307ac35596796454c1a19a2936cc12f07cd903cc68ddbd687b0a171b89b42f09"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/validate_neutral_interfaces.py",
+      "bytes": 2983,
+      "sha256": "cc687e8d180f606fa2e65931acc752b11ae550ff1e950437d3f371702233bb32"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/validation/A16_RGB_changes_from_source_seed.csv",
+      "bytes": 364708,
+      "sha256": "50bb8397c3388c08e68d5a366b9384dd3e7fc46b063d94755d3b69551025c622"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/validation/A25_protected_audit_L8.png",
+      "bytes": 1083,
+      "sha256": "84c3bc4191e5a9809a26e89f0a942f7b05055e826925052813617bc3463392c3"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/validation/neutral_interface_checks.json",
+      "bytes": 6950,
+      "sha256": "0ec0971970228a7768ff9b9ee5b8830904c7efe0d89ab11829196df41b12a126"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/validation/neutral_measurements.json",
+      "bytes": 9275,
+      "sha256": "0952ea4a7cd214d75b07791ccc64ce7d57ae4bbbf92cf28e8ae45a342bc69179"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/validation/preservation_baseline.json",
+      "bytes": 314523,
+      "sha256": "aa0d7fba8acc3db47da7040d7352bc27bd86ce23352564f580389993c1a7b737"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/validation/preservation_results.json",
+      "bytes": 606,
+      "sha256": "d1ab969ae5863c0259bd40474c107ab9b7e8e9f00c327fd0ede6a740b9459cd9"
+    },
+    {
+      "path": "fresh_extraction/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01/validation/verify_checkpoint.py",
+      "bytes": 10920,
+      "sha256": "b0ee173b7a145d4b4f6c187e7025b35f3b2a8ae3866c9bbc041b7c0ce1935c9d"
+    },
+    {
+      "path": "independent_neutral_audit.json",
+      "bytes": 8832,
+      "sha256": "64583947747a4efad4535cb6bffa29c4657d9e09e74a05290068b44e7d6a83b7"
+    },
+    {
+      "path": "independent_neutral_audit.py",
+      "bytes": 8074,
+      "sha256": "0e96031476a54fe241f30f96465d8cc2e0c5f92d2a2b67483dc18ea599fe0924"
+    },
+    {
+      "path": "independent_neutral_audit_stdout.txt",
+      "bytes": 8832,
+      "sha256": "64583947747a4efad4535cb6bffa29c4657d9e09e74a05290068b44e7d6a83b7"
+    },
+    {
+      "path": "integrity_final.json",
+      "bytes": 1495,
+      "sha256": "e926ddb1249390fae2aca29f7ccae6af2ff1618a2d0193d33152c4fa10b5089e"
+    },
+    {
+      "path": "integrity_initial.json",
+      "bytes": 2298,
+      "sha256": "97a4cab4a96c3dcecd56b9c325ebc4581aa764d09bd26d05a463622cc25392ba"
+    },
+    {
+      "path": "packet_inventory_before.json",
+      "bytes": 21145,
+      "sha256": "89964b32b0d60d50884de791c43b7b9bb36322e01d0ede9bec4b3099d69a90b4"
+    },
+    {
+      "path": "review_status.json",
+      "bytes": 959,
+      "sha256": "0b2e4b73b9812853058d23964b5bb39ae675cc57c8c4858f75cbf630f620f4b1"
+    }
+  ]
+}

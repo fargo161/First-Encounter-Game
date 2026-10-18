@@ -1,0 +1,404 @@
+{
+  "environment": {
+    "python": "3.12.0",
+    "pillow": "12.3.0",
+    "numpy": "2.5.1"
+  },
+  "retainedA25Pixels": 18229,
+  "A25SourceRGBChangedChannels": 0,
+  "protectedFacePixels": 14254,
+  "recipes": {
+    "B_off_NN_NN": {
+      "layerOrder": [
+        "A21_sneaker_L_N",
+        "A22_sneaker_R_N",
+        "A17_pants_leg_L_N",
+        "A18_pants_leg_R_N",
+        "A16_pants_pelvis_NN",
+        "A01_skin_neck",
+        "A25_head_front_neutral",
+        "A04_tee_arm_L_N",
+        "A05_tee_arm_R_N",
+        "A02_tee_torso",
+        "A12_hand_L_N",
+        "A13_hand_R_N"
+      ],
+      "canonical": {
+        "differentPixels": 0,
+        "differentChannelsRGBA": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "maxDeltaRGBA": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "includesHiddenRGB": true
+      },
+      "reopened": {
+        "differentPixels": 0,
+        "differentChannelsRGBA": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "maxDeltaRGBA": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "includesHiddenRGB": true
+      },
+      "decodedRgbaSha256": "1eb2c73a133b92afb78475d7e0867b71657c34d4ca2cbdd2b130cbbf3ac686ef",
+      "protectedFaceChangedChannelsRGBA": 0,
+      "sampledJoinCorePixelsBelowAlpha128": {
+        "neck_core": 0,
+        "shoulder_R_core": 0,
+        "shoulder_L_core": 0,
+        "sleeve_R_core": 0,
+        "sleeve_L_core": 0,
+        "wrist_R_core": 0,
+        "wrist_L_core": 0,
+        "waist_core": 0,
+        "ankle_R_core": 0,
+        "ankle_L_core": 0
+      }
+    },
+    "B_on_NN_NN": {
+      "layerOrder": [
+        "A21_sneaker_L_N",
+        "A22_sneaker_R_N",
+        "A17_pants_leg_L_N",
+        "A18_pants_leg_R_N",
+        "A16_pants_pelvis_NN",
+        "A01_skin_neck",
+        "A25_head_front_neutral",
+        "A02_tee_torso",
+        "A12_hand_L_N",
+        "A13_hand_R_N",
+        "A08_jacket_arm_L_N",
+        "A09_jacket_arm_R_N",
+        "A03_jacket_open_torso"
+      ],
+      "canonical": {
+        "differentPixels": 0,
+        "differentChannelsRGBA": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "maxDeltaRGBA": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "includesHiddenRGB": true
+      },
+      "reopened": {
+        "differentPixels": 0,
+        "differentChannelsRGBA": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "maxDeltaRGBA": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "includesHiddenRGB": true
+      },
+      "decodedRgbaSha256": "48feb5aa9fc7f5da1fbdffc4d2347d9faa38d26fc4314788431593b787692d24",
+      "protectedFaceChangedChannelsRGBA": 0,
+      "sampledJoinCorePixelsBelowAlpha128": {
+        "neck_core": 0,
+        "shoulder_R_core": 0,
+        "shoulder_L_core": 0,
+        "sleeve_R_core": 0,
+        "sleeve_L_core": 0,
+        "wrist_R_core": 0,
+        "wrist_L_core": 0,
+        "waist_core": 0,
+        "ankle_R_core": 0,
+        "ankle_L_core": 0
+      }
+    }
+  },
+  "sourceJacketRGB": {
+    "A03_jacket_open_torso": {
+      "retainedPixels": 98520,
+      "differentRGBChannels": 0
+    },
+    "A08_jacket_arm_L_N": {
+      "retainedPixels": 30684,
+      "differentRGBChannels": 0
+    },
+    "A09_jacket_arm_R_N": {
+      "retainedPixels": 28902,
+      "differentRGBChannels": 0
+    }
+  },
+  "hands": {
+    "L": {
+      "alphaChangedPixels": 635,
+      "alphaChangeBounds": [
+        660,
+        819,
+        706,
+        842
+      ],
+      "alphaChangesAtY842Plus": 0,
+      "retainedSourceRGBChangedChannels": 0,
+      "palmFingerRGBAChangedChannelsAtY842Plus": 0,
+      "changedAlphaOutsideOpaqueReceiver": 0
+    },
+    "R": {
+      "alphaChangedPixels": 718,
+      "alphaChangeBounds": [
+        277,
+        819,
+        329,
+        842
+      ],
+      "alphaChangesAtY842Plus": 0,
+      "retainedSourceRGBChangedChannels": 0,
+      "palmFingerRGBAChangedChannelsAtY842Plus": 0,
+      "changedAlphaOutsideOpaqueReceiver": 0
+    }
+  },
+  "armMeasurements": {
+    "L": {
+      "550": {
+        "minX": 637,
+        "maxX": 701,
+        "width": 65
+      },
+      "600": {
+        "minX": 645,
+        "maxX": 703,
+        "width": 59
+      },
+      "625": {
+        "minX": 648,
+        "maxX": 711,
+        "width": 64
+      },
+      "650": {
+        "minX": 652,
+        "maxX": 715,
+        "width": 64
+      },
+      "700": {
+        "minX": 655,
+        "maxX": 713,
+        "width": 59
+      },
+      "750": {
+        "minX": 666,
+        "maxX": 706,
+        "width": 41
+      },
+      "800": {
+        "minX": 665,
+        "maxX": 706,
+        "width": 42
+      }
+    },
+    "R": {
+      "550": {
+        "minX": 306,
+        "maxX": 370,
+        "width": 65
+      },
+      "600": {
+        "minX": 295,
+        "maxX": 357,
+        "width": 63
+      },
+      "625": {
+        "minX": 288,
+        "maxX": 355,
+        "width": 68
+      },
+      "650": {
+        "minX": 283,
+        "maxX": 351,
+        "width": 69
+      },
+      "700": {
+        "minX": 280,
+        "maxX": 340,
+        "width": 61
+      },
+      "750": {
+        "minX": 281,
+        "maxX": 322,
+        "width": 42
+      },
+      "800": {
+        "minX": 277,
+        "maxX": 318,
+        "width": 42
+      }
+    }
+  },
+  "shoulderContourRows": {
+    "360": {
+      "minX": 411,
+      "maxX": 590
+    },
+    "361": {
+      "minX": 409,
+      "maxX": 592
+    },
+    "362": {
+      "minX": 407,
+      "maxX": 594
+    },
+    "363": {
+      "minX": 405,
+      "maxX": 595
+    },
+    "364": {
+      "minX": 405,
+      "maxX": 595
+    },
+    "365": {
+      "minX": 400,
+      "maxX": 601
+    },
+    "366": {
+      "minX": 397,
+      "maxX": 604
+    },
+    "367": {
+      "minX": 395,
+      "maxX": 607
+    },
+    "368": {
+      "minX": 392,
+      "maxX": 609
+    },
+    "369": {
+      "minX": 389,
+      "maxX": 612
+    },
+    "370": {
+      "minX": 387,
+      "maxX": 615
+    }
+  },
+  "armCapSupportFirstBodyRows": {
+    "A04_tee_arm_L_N": 365,
+    "A05_tee_arm_R_N": 365
+  },
+  "jacketOnSilhouetteIoU": 0.9810194273336492,
+  "teeOpaquePixelsOutsideSourceSupportY571To829": 0,
+  "sourceNContactCoreRows": {
+    "A21_sneaker_L_N": 1471,
+    "A22_sneaker_R_N": 1471
+  },
+  "A16": {
+    "alphaEqualsSeed": true,
+    "equalsArchivedR3WaistDerivative": true,
+    "changedRetainedRGBTexels": 13564,
+    "changedBounds": [
+      347,
+      799,
+      640,
+      865
+    ],
+    "changesY840To864": 5066,
+    "changesAtY865Plus": 0,
+    "csvRows": 13564,
+    "csvCoordinatesExactlyMatch": true,
+    "csvBeforeAfterValuesMatch": true
+  },
+  "inventory": {
+    "baselineIds": 32,
+    "statuses": {
+      "REVIEW_CANDIDATE_NOT_OWNER_ACCEPTED": 14,
+      "NOT_AUTHORED_R4_NEUTRAL_HOLD": 17,
+      "owner_accepted_immutable": 1
+    },
+    "exported": 15,
+    "missing": [
+      "A06_tee_arm_L_G",
+      "A07_tee_arm_R_G",
+      "A10_jacket_arm_L_G",
+      "A11_jacket_arm_R_G",
+      "A14_hand_L_G",
+      "A15_hand_R_G",
+      "A19_pants_leg_L_O",
+      "A20_pants_leg_R_O",
+      "A23_sneaker_L_O",
+      "A24_sneaker_R_O",
+      "A26_brow_L_uneven",
+      "A27_brow_R_uneven",
+      "A28_eye_L_lateral",
+      "A29_eye_R_lateral",
+      "A30_lower_compact",
+      "A31_lower_open",
+      "A32_eye_L_closed"
+    ],
+    "reserves": []
+  },
+  "sharedFilesInBothOutfits": {
+    "A02_tee_torso": true,
+    "A12_hand_L_N": true,
+    "A13_hand_R_N": true,
+    "A16_pants_pelvis_NN": true,
+    "A17_pants_leg_L_N": true,
+    "A18_pants_leg_R_N": true,
+    "A21_sneaker_L_N": true,
+    "A22_sneaker_R_N": true,
+    "A25_head_front_neutral": true
+  },
+  "onlyDeclaredPartsAndAlphaInAssets": true,
+  "matrix": {
+    "body": {
+      "count": 24,
+      "statuses": {
+        "RENDERED_PENDING_OWNER_ART_REVIEW": 2,
+        "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD": 22
+      }
+    },
+    "palette": {
+      "count": 54,
+      "statuses": {
+        "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD": 54
+      }
+    },
+    "isolatedFace": {
+      "count": 120,
+      "statuses": {
+        "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD": 120
+      }
+    },
+    "assembledFace": {
+      "count": 28,
+      "statuses": {
+        "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD": 28
+      }
+    },
+    "negative": {
+      "count": 17,
+      "statuses": {
+        "NOT_RUN_R4_NEUTRAL_REVIEW_HOLD": 17
+      }
+    }
+  },
+  "all243CaseIdsUnique": true,
+  "all32LedgerIdsMatchContract": true,
+  "artworkModifiedOrGenerated": false
+}

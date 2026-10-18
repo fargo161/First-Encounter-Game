@@ -1,0 +1,304 @@
+{
+  "files": [
+    {
+      "id": "C002",
+      "size": [
+        737,
+        461
+      ],
+      "mode": "RGBA",
+      "visible_pixels": 0,
+      "transparent_pixels": 339757,
+      "magenta_signature_visible_pixels": 0,
+      "sha256": "ce21a25f3bd1e2eb6ef93901ecf4e447d7e4a5770062f9dfed605edac905de22"
+    },
+    {
+      "id": "C003",
+      "size": [
+        737,
+        461
+      ],
+      "mode": "RGBA",
+      "visible_pixels": 0,
+      "transparent_pixels": 339757,
+      "magenta_signature_visible_pixels": 0,
+      "sha256": "ce21a25f3bd1e2eb6ef93901ecf4e447d7e4a5770062f9dfed605edac905de22"
+    },
+    {
+      "id": "C004",
+      "size": [
+        737,
+        461
+      ],
+      "mode": "RGBA",
+      "visible_pixels": 0,
+      "transparent_pixels": 339757,
+      "magenta_signature_visible_pixels": 0,
+      "sha256": "ce21a25f3bd1e2eb6ef93901ecf4e447d7e4a5770062f9dfed605edac905de22"
+    },
+    {
+      "id": "C005",
+      "size": [
+        737,
+        461
+      ],
+      "mode": "RGBA",
+      "visible_pixels": 10521,
+      "transparent_pixels": 329236,
+      "magenta_signature_visible_pixels": 4,
+      "sha256": "293ad175f8749b0da66f18d0f7a3c3b9966fc1415d2cfbb6e48b637f272a64f8"
+    },
+    {
+      "id": "C006",
+      "size": [
+        737,
+        461
+      ],
+      "mode": "RGBA",
+      "visible_pixels": 0,
+      "transparent_pixels": 339757,
+      "magenta_signature_visible_pixels": 0,
+      "sha256": "ce21a25f3bd1e2eb6ef93901ecf4e447d7e4a5770062f9dfed605edac905de22"
+    },
+    {
+      "id": "C007",
+      "size": [
+        737,
+        461
+      ],
+      "mode": "RGBA",
+      "visible_pixels": 10762,
+      "transparent_pixels": 328995,
+      "magenta_signature_visible_pixels": 0,
+      "sha256": "9216f8dcd5084f85e94e06127f4598547daf2e3b4d4fad6f5a22b3e82b2f8fd2"
+    },
+    {
+      "id": "C011",
+      "size": [
+        737,
+        461
+      ],
+      "mode": "RGBA",
+      "visible_pixels": 0,
+      "transparent_pixels": 339757,
+      "magenta_signature_visible_pixels": 0,
+      "sha256": "ce21a25f3bd1e2eb6ef93901ecf4e447d7e4a5770062f9dfed605edac905de22"
+    },
+    {
+      "id": "C012",
+      "size": [
+        737,
+        461
+      ],
+      "mode": "RGBA",
+      "visible_pixels": 0,
+      "transparent_pixels": 339757,
+      "magenta_signature_visible_pixels": 0,
+      "sha256": "ce21a25f3bd1e2eb6ef93901ecf4e447d7e4a5770062f9dfed605edac905de22"
+    },
+    {
+      "id": "C014",
+      "size": [
+        737,
+        461
+      ],
+      "mode": "RGBA",
+      "visible_pixels": 12904,
+      "transparent_pixels": 326853,
+      "magenta_signature_visible_pixels": 9,
+      "sha256": "f32c94ea2b79cd06c6c0cf9f32d2e814c468d3c1c64447b3edaf04ee4b71772b"
+    },
+    {
+      "id": "C015",
+      "size": [
+        737,
+        461
+      ],
+      "mode": "RGBA",
+      "visible_pixels": 10772,
+      "transparent_pixels": 328985,
+      "magenta_signature_visible_pixels": 1,
+      "sha256": "618ca546bd3e77ad48d128c264110ecd4e9bc2434984e7b733d31188c0fcd2fa"
+    },
+    {
+      "id": "C016",
+      "size": [
+        737,
+        461
+      ],
+      "mode": "RGBA",
+      "visible_pixels": 0,
+      "transparent_pixels": 339757,
+      "magenta_signature_visible_pixels": 0,
+      "sha256": "ce21a25f3bd1e2eb6ef93901ecf4e447d7e4a5770062f9dfed605edac905de22"
+    },
+    {
+      "id": "C017",
+      "size": [
+        737,
+        461
+      ],
+      "mode": "RGBA",
+      "visible_pixels": 0,
+      "transparent_pixels": 339757,
+      "magenta_signature_visible_pixels": 0,
+      "sha256": "ce21a25f3bd1e2eb6ef93901ecf4e447d7e4a5770062f9dfed605edac905de22"
+    },
+    {
+      "id": "C019",
+      "size": [
+        737,
+        461
+      ],
+      "mode": "RGBA",
+      "visible_pixels": 0,
+      "transparent_pixels": 339757,
+      "magenta_signature_visible_pixels": 0,
+      "sha256": "ce21a25f3bd1e2eb6ef93901ecf4e447d7e4a5770062f9dfed605edac905de22"
+    },
+    {
+      "id": "C021",
+      "size": [
+        737,
+        461
+      ],
+      "mode": "RGBA",
+      "visible_pixels": 0,
+      "transparent_pixels": 339757,
+      "magenta_signature_visible_pixels": 0,
+      "sha256": "ce21a25f3bd1e2eb6ef93901ecf4e447d7e4a5770062f9dfed605edac905de22"
+    },
+    {
+      "id": "C022",
+      "size": [
+        737,
+        461
+      ],
+      "mode": "RGBA",
+      "visible_pixels": 0,
+      "transparent_pixels": 339757,
+      "magenta_signature_visible_pixels": 0,
+      "sha256": "ce21a25f3bd1e2eb6ef93901ecf4e447d7e4a5770062f9dfed605edac905de22"
+    },
+    {
+      "id": "C024",
+      "size": [
+        737,
+        461
+      ],
+      "mode": "RGBA",
+      "visible_pixels": 0,
+      "transparent_pixels": 339757,
+      "magenta_signature_visible_pixels": 0,
+      "sha256": "ce21a25f3bd1e2eb6ef93901ecf4e447d7e4a5770062f9dfed605edac905de22"
+    },
+    {
+      "id": "C025",
+      "size": [
+        737,
+        461
+      ],
+      "mode": "RGBA",
+      "visible_pixels": 0,
+      "transparent_pixels": 339757,
+      "magenta_signature_visible_pixels": 0,
+      "sha256": "ce21a25f3bd1e2eb6ef93901ecf4e447d7e4a5770062f9dfed605edac905de22"
+    },
+    {
+      "id": "C026",
+      "size": [
+        737,
+        461
+      ],
+      "mode": "RGBA",
+      "visible_pixels": 33644,
+      "transparent_pixels": 306113,
+      "magenta_signature_visible_pixels": 0,
+      "sha256": "f3907465be7fca0500f7a0c8edbddcf1d6bb6bb0f4273f915ce2d69201c2329d"
+    },
+    {
+      "id": "C029",
+      "size": [
+        737,
+        461
+      ],
+      "mode": "RGBA",
+      "visible_pixels": 38513,
+      "transparent_pixels": 301244,
+      "magenta_signature_visible_pixels": 0,
+      "sha256": "5356033c13778692c9faaef00f85dda64008612897a4f451c713dbdf00d4e471"
+    },
+    {
+      "id": "C030",
+      "size": [
+        737,
+        461
+      ],
+      "mode": "RGBA",
+      "visible_pixels": 0,
+      "transparent_pixels": 339757,
+      "magenta_signature_visible_pixels": 0,
+      "sha256": "ce21a25f3bd1e2eb6ef93901ecf4e447d7e4a5770062f9dfed605edac905de22"
+    },
+    {
+      "id": "C032",
+      "size": [
+        737,
+        461
+      ],
+      "mode": "RGBA",
+      "visible_pixels": 0,
+      "transparent_pixels": 339757,
+      "magenta_signature_visible_pixels": 0,
+      "sha256": "ce21a25f3bd1e2eb6ef93901ecf4e447d7e4a5770062f9dfed605edac905de22"
+    },
+    {
+      "id": "C035",
+      "size": [
+        737,
+        461
+      ],
+      "mode": "RGBA",
+      "visible_pixels": 0,
+      "transparent_pixels": 339757,
+      "magenta_signature_visible_pixels": 0,
+      "sha256": "ce21a25f3bd1e2eb6ef93901ecf4e447d7e4a5770062f9dfed605edac905de22"
+    },
+    {
+      "id": "C037",
+      "size": [
+        737,
+        461
+      ],
+      "mode": "RGBA",
+      "visible_pixels": 0,
+      "transparent_pixels": 339757,
+      "magenta_signature_visible_pixels": 0,
+      "sha256": "ce21a25f3bd1e2eb6ef93901ecf4e447d7e4a5770062f9dfed605edac905de22"
+    },
+    {
+      "id": "C039",
+      "size": [
+        737,
+        461
+      ],
+      "mode": "RGBA",
+      "visible_pixels": 0,
+      "transparent_pixels": 339757,
+      "magenta_signature_visible_pixels": 0,
+      "sha256": "ce21a25f3bd1e2eb6ef93901ecf4e447d7e4a5770062f9dfed605edac905de22"
+    },
+    {
+      "id": "C043",
+      "size": [
+        737,
+        461
+      ],
+      "mode": "RGBA",
+      "visible_pixels": 13632,
+      "transparent_pixels": 326125,
+      "magenta_signature_visible_pixels": 0,
+      "sha256": "e9d62ae21ec5e137455180905482e9b11162ede0e4f2d121d4eab8429d44bbc8"
+    }
+  ]
+}

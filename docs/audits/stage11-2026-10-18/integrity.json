@@ -1,0 +1,30 @@
+{
+  "integrity": "PASS",
+  "stage": 11,
+  "removed_duplicates_still_absent": 271,
+  "encounter_files": 2460,
+  "encounter_tree_sha256": "f565b7f89329a02b17febec136b991ce99ee092db7d8c6b952c4159b9d32171c",
+  "encounter_source_inputs": 132,
+  "encounter_source_digest": "1a8558b3654e52881a288d2a5ab99e574878531f7a9d5fca86223e511146f085",
+  "AR0_R1_members": 2310,
+  "historical_A1_reconstructible_files": 2731,
+  "room_creator_files": 384,
+  "room_creator_baseline_tree_sha256": "63521f0d9068de3e4da40cd8ec4573d17b26481aa6557a908caaa8d10a4c485b",
+  "zant_files": 166,
+  "zant_tree_sha256": "e6650aa6e28ab0b51e4d67dbd6d9922060d49673631b261718ae326cf71761ba",
+  "acceptance_records_unchanged": true,
+  "statuses": {
+    "encounter_atlas": {
+      "acceptance": "ACCEPTED_ATLAS_A1_WITH_PRESERVED_ENCOUNTER_DEPENDENCIES"
+    },
+    "room_creator": {
+      "acceptance": "HOLD_FOR_FURTHER_REMEDIATION"
+    },
+    "zant": {
+      "neutral_acceptance": "OWNER_ACCEPTED_R4_CANDIDATE02",
+      "current_work_acceptance": "GATE_A_FAILED_AT_G_SLEEVE_PILOT"
+    }
+  },
+  "Gate_A_complete": false,
+  "external_archive_access_required": false
+}

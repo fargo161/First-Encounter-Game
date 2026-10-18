@@ -1,0 +1,98 @@
+[
+  {
+    "script": "architecture_extensions.test.js",
+    "buildSHA256": "a4e8a14ddc4d734c036902f56b1a7d7bb8a157a77ef3911b97ea70c76f228c97",
+    "kind": "assertions",
+    "exitCode": 0,
+    "seconds": 1.09,
+    "log": "architecture_extensions.test.js.log"
+  },
+  {
+    "script": "asset_demo_file.test.js",
+    "buildSHA256": "a4e8a14ddc4d734c036902f56b1a7d7bb8a157a77ef3911b97ea70c76f228c97",
+    "kind": "assertions",
+    "exitCode": 0,
+    "seconds": 1.69,
+    "log": "asset_demo_file.test.js.log"
+  },
+  {
+    "script": "construction_v10.test.js",
+    "buildSHA256": "a4e8a14ddc4d734c036902f56b1a7d7bb8a157a77ef3911b97ea70c76f228c97",
+    "kind": "assertions",
+    "exitCode": 0,
+    "seconds": 1.16,
+    "log": "construction_v10.test.js.log"
+  },
+  {
+    "script": "core.test.js",
+    "buildSHA256": "a4e8a14ddc4d734c036902f56b1a7d7bb8a157a77ef3911b97ea70c76f228c97",
+    "kind": "assertions",
+    "exitCode": 0,
+    "seconds": 1.16,
+    "log": "core.test.js.log"
+  },
+  {
+    "script": "multistory.test.js",
+    "buildSHA256": "a4e8a14ddc4d734c036902f56b1a7d7bb8a157a77ef3911b97ea70c76f228c97",
+    "kind": "assertions",
+    "exitCode": 0,
+    "seconds": 1.11,
+    "log": "multistory.test.js.log"
+  },
+  {
+    "script": "props_metadata.test.js",
+    "buildSHA256": "a4e8a14ddc4d734c036902f56b1a7d7bb8a157a77ef3911b97ea70c76f228c97",
+    "kind": "assertions",
+    "exitCode": 0,
+    "seconds": 1.06,
+    "log": "props_metadata.test.js.log"
+  },
+  {
+    "script": "remediation_core.test.js",
+    "buildSHA256": "a4e8a14ddc4d734c036902f56b1a7d7bb8a157a77ef3911b97ea70c76f228c97",
+    "kind": "assertions",
+    "exitCode": 0,
+    "seconds": 1.09,
+    "log": "remediation_core.test.js.log"
+  },
+  {
+    "script": "shared_matte.test.js",
+    "buildSHA256": "a4e8a14ddc4d734c036902f56b1a7d7bb8a157a77ef3911b97ea70c76f228c97",
+    "kind": "assertions",
+    "exitCode": 0,
+    "seconds": 1.09,
+    "log": "shared_matte.test.js.log"
+  },
+  {
+    "script": "style_openings.test.js",
+    "buildSHA256": "a4e8a14ddc4d734c036902f56b1a7d7bb8a157a77ef3911b97ea70c76f228c97",
+    "kind": "assertions",
+    "exitCode": 0,
+    "seconds": 1.12,
+    "log": "style_openings.test.js.log"
+  },
+  {
+    "script": "v0_11_1_story_floor.test.js",
+    "buildSHA256": "a4e8a14ddc4d734c036902f56b1a7d7bb8a157a77ef3911b97ea70c76f228c97",
+    "kind": "assertions",
+    "exitCode": 0,
+    "seconds": 1.03,
+    "log": "v0_11_1_story_floor.test.js.log"
+  },
+  {
+    "script": "v0_12_stories_rooms.test.js",
+    "buildSHA256": "a4e8a14ddc4d734c036902f56b1a7d7bb8a157a77ef3911b97ea70c76f228c97",
+    "kind": "assertions",
+    "exitCode": 0,
+    "seconds": 1.05,
+    "log": "v0_12_stories_rooms.test.js.log"
+  },
+  {
+    "script": "build_repro.py",
+    "buildSHA256": "a4e8a14ddc4d734c036902f56b1a7d7bb8a157a77ef3911b97ea70c76f228c97",
+    "kind": "assertions",
+    "exitCode": 0,
+    "seconds": 0.53,
+    "log": "build_repro.py.log"
+  }
+]

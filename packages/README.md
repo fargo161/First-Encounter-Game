@@ -1,9 +1,13 @@
 # Subsystem packages
 
-encounter-atlas retains all canonical execution inputs, required 2310-member AR0 R1 dependency, tests, saved runs and proofs. Stage 10 removes271 noncanonical duplicate inherited evidence files only; current tree 2460 files, full historical imported tree 2731 files reconstructible from exact retained copies.
+Run checks from the repository root with Python 3.12.x and Node 24.x:
 
-room-creator remains the unchanged 384-file held v0.14.1 package (383 baseline files plus Git metadata), with HOLD_FOR_FURTHER_REMEDIATION.
+| Package | Root command | Preserved state |
+| --- | --- | --- |
+| encounter-atlas | python -B tools/repo.py encounter-atlas | Accepted A1; actual IR3-25 known failure |
+| room-creator | python -B tools/repo.py room-creator | HOLD_FOR_FURTHER_REMEDIATION |
+| zant/C001_ZANT_GATE_A_R5 | python -B tools/repo.py zant | Gate A incomplete; accepted neutral separate from failed/provisional pilots |
 
-zant remains the unchanged 166-file packet, accepted R4 distinct from failed/provisional R5; Gate A incomplete.
+See [development guide](../DEVELOPMENT.md) for outputs, dependencies and platform limits. All builds/tests run in disposable copies; historical package READMEs/scripts remain exact imported bytes.
 
-Current cleanup/integrity: ../docs/consolidation/STAGE_10_CLEANUP.md. Stop before Stage 11. No integration/shared contracts/Unity/LFS.
+Stage 10 keeps A1 at 2460 files with required inputs. Room Creator retains 384 files; ZANT retains its strict 166-file packet. Stop before Stage 12.

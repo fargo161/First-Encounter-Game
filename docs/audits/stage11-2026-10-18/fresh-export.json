@@ -1,0 +1,13 @@
+{
+  "method": "Clean staged Git export without .git; initial ZIP plus updated repo.py from exact staged Git blob before execution",
+  "staged_tree": "32c86d78dad11b19d785b39b4a1467a078f48a57",
+  "fresh_source": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Stage 11 Verification\\2026-10-18\\fresh source with spaces",
+  "files": 3348,
+  "all_exported_bytes_match_checkout": true,
+  "archive_sha256": "ac2760826ecab122a92150575bf41a01c7078eddfb2cc2f4519436f701618874",
+  "base": "58217eab6b561ed50faef31357773af0828e7c4c",
+  "initial_archive_tree": "a0b9c95b3f23bb591617ab79613d0870f8afa00d",
+  "updated_git_blobs": [
+    "tools/repo.py"
+  ]
+}

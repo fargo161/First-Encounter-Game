@@ -1,0 +1,199 @@
+TAP version 13
+# Unmodified independent R3 assertions; evidence output redirected only. IR3-25 remains an expected non-blocking failure, not skipped or changed.
+# Subtest: IR3-01 genuinely visible current notice closes once with immutable exact retry
+ok 1 - IR3-01 genuinely visible current notice closes once with immutable exact retry
+  ---
+  duration_ms: 107.1605
+  type: 'test'
+  ...
+# Subtest: IR3-02 own opacity zero rejects receipt through actual engine
+ok 2 - IR3-02 own opacity zero rejects receipt through actual engine
+  ---
+  duration_ms: 68.9945
+  type: 'test'
+  ...
+# Subtest: IR3-03 ancestor opacity zero rejects receipt through actual engine
+ok 3 - IR3-03 ancestor opacity zero rejects receipt through actual engine
+  ---
+  duration_ms: 66.0833
+  type: 'test'
+  ...
+# Subtest: IR3-04 hidden rejects receipt through actual engine
+ok 4 - IR3-04 hidden rejects receipt through actual engine
+  ---
+  duration_ms: 67.632
+  type: 'test'
+  ...
+# Subtest: IR3-05 display none rejects receipt through actual engine
+ok 5 - IR3-05 display none rejects receipt through actual engine
+  ---
+  duration_ms: 72.5287
+  type: 'test'
+  ...
+# Subtest: IR3-06 visibility hidden rejects receipt through actual engine
+ok 6 - IR3-06 visibility hidden rejects receipt through actual engine
+  ---
+  duration_ms: 65.2009
+  type: 'test'
+  ...
+# Subtest: IR3-07 zero width rejects receipt through actual engine
+ok 7 - IR3-07 zero width rejects receipt through actual engine
+  ---
+  duration_ms: 61.7822
+  type: 'test'
+  ...
+# Subtest: IR3-08 zero height rejects receipt through actual engine
+ok 8 - IR3-08 zero height rejects receipt through actual engine
+  ---
+  duration_ms: 64.1098
+  type: 'test'
+  ...
+# Subtest: IR3-09 offscreen left rejects receipt through actual engine
+ok 9 - IR3-09 offscreen left rejects receipt through actual engine
+  ---
+  duration_ms: 65.7536
+  type: 'test'
+  ...
+# Subtest: IR3-10 offscreen right rejects receipt through actual engine
+ok 10 - IR3-10 offscreen right rejects receipt through actual engine
+  ---
+  duration_ms: 69.6906
+  type: 'test'
+  ...
+# Subtest: IR3-11 above rejects receipt through actual engine
+ok 11 - IR3-11 above rejects receipt through actual engine
+  ---
+  duration_ms: 64.933
+  type: 'test'
+  ...
+# Subtest: IR3-12 below rejects receipt through actual engine
+ok 12 - IR3-12 below rejects receipt through actual engine
+  ---
+  duration_ms: 64.4924
+  type: 'test'
+  ...
+# Subtest: IR3-13 partial left rejects receipt through actual engine
+ok 13 - IR3-13 partial left rejects receipt through actual engine
+  ---
+  duration_ms: 76.8213
+  type: 'test'
+  ...
+# Subtest: IR3-14 partial right rejects receipt through actual engine
+ok 14 - IR3-14 partial right rejects receipt through actual engine
+  ---
+  duration_ms: 72.5255
+  type: 'test'
+  ...
+# Subtest: IR3-15 partial vertical rejects receipt through actual engine
+ok 15 - IR3-15 partial vertical rejects receipt through actual engine
+  ---
+  duration_ms: 67.014
+  type: 'test'
+  ...
+# Subtest: IR3-16 non-finite rectangle/viewport and invalid viewport dimensions fail closed
+ok 16 - IR3-16 non-finite rectangle/viewport and invalid viewport dimensions fail closed
+  ---
+  duration_ms: 1926.0023
+  type: 'test'
+  ...
+# Subtest: IR3-17 negative/inverted geometry fails closed
+ok 17 - IR3-17 negative/inverted geometry fails closed
+  ---
+  duration_ms: 342.5597
+  type: 'test'
+  ...
+# Subtest: IR3-18 edited/stale draft cannot reuse truthful receipt
+ok 18 - IR3-18 edited/stale draft cannot reuse truthful receipt
+  ---
+  duration_ms: 150.5264
+  type: 'test'
+  ...
+# Subtest: IR3-19 earned truthful receipt remains valid after scroll without edits
+ok 19 - IR3-19 earned truthful receipt remains valid after scroll without edits
+  ---
+  duration_ms: 95.2916
+  type: 'test'
+  ...
+# Subtest: IR3-20 visibility collapse must not earn a receipt or close service
+ok 20 - IR3-20 visibility collapse must not earn a receipt or close service
+  ---
+  duration_ms: 160.519
+  type: 'test'
+  ...
+# Subtest: IR3-21 partial bottom clipping rejects receipt through actual engine
+ok 21 - IR3-21 partial bottom clipping rejects receipt through actual engine
+  ---
+  duration_ms: 93.6999
+  type: 'test'
+  ...
+# Subtest: IR3-22 exact viewport edges with positive geometry permit exactly one closure
+ok 22 - IR3-22 exact viewport edges with positive geometry permit exactly one closure
+  ---
+  duration_ms: 87.3041
+  type: 'test'
+  ...
+# Subtest: IR3-23 unknown/nonvisible computed visibility fails closed
+ok 23 - IR3-23 unknown/nonvisible computed visibility fails closed
+  ---
+  duration_ms: 426.8706
+  type: 'test'
+  ...
+# Subtest: IR3-24 invalid numeric geometry types fail closed
+ok 24 - IR3-24 invalid numeric geometry types fail closed
+  ---
+  duration_ms: 1603.9152
+  type: 'test'
+  ...
+# Subtest: IR3-25 inconsistent rectangle dimensions cannot earn a valid display receipt
+not ok 25 - IR3-25 inconsistent rectangle dimensions cannot earn a valid display receipt
+  ---
+  duration_ms: 120.935
+  type: 'test'
+  location: 'C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Stage 11 Verification\\2026-10-18\\fresh run outputs\\encounter\\checkpoint\\independent\\m3-r3-review\\independent-r3-display.test.mjs:47:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    inconsistent must not authorize closure
+    + actual - expected
+    
+      {
+    +   closeResults: 1,
+    +   defects: [],
+    +   displayed: true,
+    +   serviceOpen: false
+    -   closeResults: 0,
+    -   defects: [
+    -     'MISSING_CLOSURE_PREVIEW'
+    -   ],
+    -   displayed: false,
+    -   serviceOpen: true
+      }
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected:
+    displayed: false
+    serviceOpen: true
+    closeResults: 0
+    defects:
+      0: 'MISSING_CLOSURE_PREVIEW'
+  actual:
+    displayed: true
+    serviceOpen: false
+    closeResults: 1
+    defects:
+  operator: 'deepStrictEqual'
+  stack: |-
+    invalid (file:///C:/Users/mcdon/Documents/ChatGPT/First%20Encounter%20Game%20Stage%2011%20Verification/2026-10-18/fresh%20run%20outputs/encounter/checkpoint/independent/m3-r3-review/independent-r3-display.test.mjs:21:9)
+    async TestContext.<anonymous> (file:///C:/Users/mcdon/Documents/ChatGPT/First%20Encounter%20Game%20Stage%2011%20Verification/2026-10-18/fresh%20run%20outputs/encounter/checkpoint/independent/m3-r3-review/independent-r3-display.test.mjs:50:2)
+    async Test.run (node:internal/test_runner/test:1389:7)
+    async Test.processPendingSubtests (node:internal/test_runner/test:960:7)
+  ...
+1..25
+# tests 25
+# suites 0
+# pass 24
+# fail 1
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 7435.7864

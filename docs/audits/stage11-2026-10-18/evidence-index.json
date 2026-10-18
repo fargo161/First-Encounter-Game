@@ -1,0 +1,129 @@
+{
+  "schema": "first-encounter-stage11-readiness-evidence@1",
+  "base_commit": "58217eab6b561ed50faef31357773af0828e7c4c",
+  "verdict": "PASS WITH DOCUMENTED EXTERNAL DEPENDENCIES",
+  "scope": "New fresh-export execution; no product acceptance promotion",
+  "records": [
+    {
+      "path": "fresh-export.json",
+      "bytes": 671,
+      "sha256": "0f8dd443d92c1f2a96a3ab3dde83e5972d265bceaad3f6b9ba0b3980720627e9"
+    },
+    {
+      "path": "environment.json",
+      "bytes": 752,
+      "sha256": "d69ae4728d459bbdf487680ba0eb961ac559d390f93902d6e9ffda8acf9071a1"
+    },
+    {
+      "path": "integrity.json",
+      "bytes": 1158,
+      "sha256": "85b8a86e092e5d0cd407193f80a62802983deda6e7dda38bc63350e00db2b914"
+    },
+    {
+      "path": "fresh-results.json",
+      "bytes": 6557,
+      "sha256": "b625b1655a01b66ab9a614ff9018408d50e6bb8a0073ae0cb13fea615efd2149"
+    },
+    {
+      "path": "command-results.json",
+      "bytes": 2583,
+      "sha256": "4bef4e65c84f7a0cb53da763cddbc98a0df12850f5dedb30652539dbcc927071"
+    },
+    {
+      "path": "negative-path-checks.json",
+      "bytes": 1669,
+      "sha256": "d595f689040c5a4fde2a39edc197dd758a01999cec18bd4ec568db79ca34f03a"
+    },
+    {
+      "path": "optimized-python-rejection.json",
+      "bytes": 126,
+      "sha256": "bca94a67ee2273704adf538f548b38926146e90dfbce5d9d2f7c08b79b6a74e4"
+    },
+    {
+      "path": "optional-library-identity.json",
+      "bytes": 1170,
+      "sha256": "93a41c1f360aeb3884c4e740d33befd68235424ad8ed577534ee99e5ce5842dc"
+    },
+    {
+      "path": "preservation-checks.json",
+      "bytes": 285,
+      "sha256": "7c707643223de42d6982717e72d763333488780603a427899ab231dce42be99a"
+    },
+    {
+      "path": "automation-review.json",
+      "bytes": 984,
+      "sha256": "9ffec84b1b1989662028ccd7789cbb7d9d7632492fe93563e60503011d9d845c"
+    },
+    {
+      "path": "room-node-run-index.json",
+      "bytes": 2906,
+      "sha256": "c597d82ad3191af38306762222e0e82f08105672aa10acdf492c1eb5bef63217"
+    },
+    {
+      "path": "zant-portable-verification.json",
+      "bytes": 5941,
+      "sha256": "88db9b3fd05fe81d525df79c0385324d5b65b6c22558d9f534961b8c2d7ec3df"
+    },
+    {
+      "path": "logs/a1-build-atlas-a1.mjs.log",
+      "bytes": 206,
+      "sha256": "74c68e510a3554b42b1c1d52303b10ba512d29fbfec1589b368ea913fa4b01f1"
+    },
+    {
+      "path": "logs/a1-build-m3.mjs.log",
+      "bytes": 183,
+      "sha256": "f0fe74071ab71148c45b2153a51852080fe61e15f3b9a39b8e5a357396fb8512"
+    },
+    {
+      "path": "logs/a1-identity-atlas-a1.py.log",
+      "bytes": 766,
+      "sha256": "2fce75947809c9beb1f34852b71c43203df9572561b6a44ff1ac561877093fb5"
+    },
+    {
+      "path": "logs/a1-independent.log",
+      "bytes": 5537,
+      "sha256": "44efe34384514e3e0ec85b4630664950a330d79fd0c6ee088f12c58e14b117ee"
+    },
+    {
+      "path": "logs/a1-ir3-known-limitation.log",
+      "bytes": 6598,
+      "sha256": "8d45d607dd4e4a07eae7ee1bb32679040ec61609275f180a7def33b4b2e697d1"
+    },
+    {
+      "path": "logs/a1-preserve-atlas-a1.py.log",
+      "bytes": 451,
+      "sha256": "afa028a19452e60eba19328ab024728bf98fd80b3ef2b977519b3df8264dea73"
+    },
+    {
+      "path": "logs/a1-proofs.log",
+      "bytes": 55,
+      "sha256": "40fcf13a0226833def26fc54802d23718963283e799b3bd34cf9eb4bd07d0d91"
+    },
+    {
+      "path": "logs/a1-supplied.log",
+      "bytes": 52125,
+      "sha256": "519f64d2fdbd2fc263ac536b1030c39f5ba1effa4fe1a68fc8ea8812e8405df6"
+    },
+    {
+      "path": "logs/room-build.log",
+      "bytes": 42,
+      "sha256": "7240f7d37aadb5e623231d8002565fb0242f6016ef60c27d4a7dea167d47a06a"
+    },
+    {
+      "path": "logs/room-node.log",
+      "bytes": 3028,
+      "sha256": "8d55cfd4d15f7069af91b888b05b77ebbbb7e0add2b141b6e83420ee6e87600b"
+    },
+    {
+      "path": "logs/zant-portable.log",
+      "bytes": 795,
+      "sha256": "7a40c28b36cb39b2cf562b65cf29f7fe01b96456b3c63aca9b0550cf779fa774"
+    }
+  ],
+  "orchestration_sha256": {
+    "tools/repo.py": "7983af419749e41e8b6b3045dcc9ca0ec059fd454cc6d7c46ca4266301649e2a",
+    "tools/repository_integrity.py": "b5f5dbd8e7b6e76a298fa54934dc6cee18a65ab723d86207604629401b7c131b",
+    ".github/workflows/readiness.yml": "8a43fe4c5c9a3ed0a31b42b9eb6c6770261761fb91801122be58afe35f84f992"
+  },
+  "hosted_ci": "Post-push observations are separate from this pre-commit evidence"
+}

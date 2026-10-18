@@ -1,17 +1,21 @@
 # First Encounter Game
 
-Private canonical monorepo with independent history. Encounter governs gameplay grammar and interaction contracts.
+Private canonical monorepo with independent history. Encounter governs gameplay grammar and interaction contracts. Older Trapstar repositories are non-authoritative and unused.
 
-## Current consolidation state
+Stage 11 establishes fresh-clone setup, safe package verification wrappers and bounded CI. Start with [development setup and commands](DEVELOPMENT.md):
 
-Stage 10 cleanup: **PASS WITH RETAINED NECESSARY DUPLICATION**. Removed 271 byte-identical, noncanonical inherited A1 evidence copies (46,310,805 checkout bytes). All 132 execution inputs and all 2,310 required AR0 R1 members remain unchanged; A1's current tree has2,460 files. Every removal maps to retained exact bytes and external original/archive copies.
+    python -B tools/repo.py doctor
+    python -B tools/repo.py integrity
+    python -B tools/repo.py all
 
-Encounter/Atlas retains its Stage 5 acceptance and actual IR3-25 known limitation. Room Creator remains HOLD_FOR_FURTHER_REMEDIATION. ZANT retains accepted R4/A25/A16, failed A10, unaccepted A06/A14 and provisional G interface; Gate A remains incomplete.
+Use Python 3.12.x and Node 24.x. Package checks run in disposable copies outside the checkout. No npm/pip install or private archive is needed for bounded checks.
 
-See [cleanup report](docs/consolidation/STAGE_10_CLEANUP.md), [exact removals/mappings](docs/provenance/stage10-cleanup-manifest.json), [current integrity](docs/testing/STAGE_10_CLEANUP.md) and [authority](docs/provenance/source-authority.json).
+| Package | Authoritative state |
+| --- | --- |
+| packages/encounter-atlas | Accepted A1; IR3-25 remains an actual accepted nonblocking failure |
+| packages/room-creator | HOLD_FOR_FURTHER_REMEDIATION |
+| packages/zant/C001_ZANT_GATE_A_R5 | Accepted R4 neutral separate from failed/provisional pilots; Gate A incomplete |
 
-The 48 unique inherited run records, source/proofs, required historical ZIPs, Room Creator held package, all 166 ZANT packet files and selected provenance/research remain. No subsystem script was rewritten to justify deletion. Original full-snapshot manifests/verifiers retain historical bytes; the current checker validates the exact curated projection and historical reconstruction from retained duplicate bytes.
+Stage 10 cleanup remains intact: 271 redundant A1 copies removed, all 132 execution inputs and 2310 dependency members retained. See [cleanup](docs/consolidation/STAGE_10_CLEANUP.md), [mappings](docs/provenance/stage10-cleanup-manifest.json) and [authority](docs/provenance/source-authority.json).
 
-## Hard stop
-
-**Stop before Stage 11.** No remediation, art changes, acceptance promotion, shared contracts, integration, Unity, LFS or unrelated refactoring was performed. External archives remain untouched. No Git history rewrite or Git object-store saving is claimed.
+Stage 11 checks prove preservation and runnable entry points. Optional asset/browser/archive replays remain external. See [Stage 11 report](docs/consolidation/STAGE_11_READINESS.md) and [next gate](docs/consolidation/NEXT_STAGE_GATE.md). **STOP before Stage 12.**

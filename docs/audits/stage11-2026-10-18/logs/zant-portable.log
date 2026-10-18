@@ -1,0 +1,28 @@
+Manifest verified: 165 governed files
+Decode A25_head_front_neutral
+Decode A12_hand_L_N
+Decode A13_hand_R_N
+Render B_off_NN_NN
+Decode A21_sneaker_L_N
+Decode A22_sneaker_R_N
+Decode A17_pants_leg_L_N
+Decode A18_pants_leg_R_N
+Decode A16_pants_pelvis_NN
+Decode A01_skin_neck
+Decode A04_tee_arm_L_N
+Decode A05_tee_arm_R_N
+Decode A02_tee_torso
+Render B_on_NN_NN
+Decode A08_jacket_arm_L_N
+Decode A09_jacket_arm_R_N
+Decode A03_jacket_open_torso
+Render B_off_GN_NN
+Decode A14_hand_L_G
+Decode A06_tee_arm_L_G
+Render B_on_GN_NN
+Decode A10_jacket_arm_L_G
+{
+  "auditIntegrity": "PASS",
+  "gateAVerdict": "GATE_A_FAILED_AT_G_SLEEVE_PILOT",
+  "output": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Stage 11 Verification\\2026-10-18\\fresh run outputs\\zant-replay"
+}

@@ -1,0 +1,41 @@
+{
+  "cases": [
+    {
+      "case": "missing-library",
+      "actual_exit": 1,
+      "diagnostic": "ERROR: Configured Room Creator library ZIP is missing: C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Stage 11 Verification\\2026-10-18\\missing-library.zip",
+      "PASS": true
+    },
+    {
+      "case": "wrong-library",
+      "actual_exit": 1,
+      "diagnostic": "ERROR: Room Creator library ZIP identity mismatch: C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Stage 11 Verification\\2026-10-18\\invalid-library.zip",
+      "PASS": true
+    },
+    {
+      "case": "missing-node",
+      "actual_exit": 1,
+      "diagnostic": "ERROR: Node 24.x must be on PATH; no npm install is needed. See DEVELOPMENT.md",
+      "PASS": true
+    },
+    {
+      "case": "inside-checkout-output",
+      "actual_exit": 1,
+      "diagnostic": "ERROR: --out must be outside the checkout and cannot be its ancestor",
+      "PASS": true
+    },
+    {
+      "case": "existing-output",
+      "actual_exit": 1,
+      "diagnostic": "ERROR: [WinError 183] Cannot create a file when that file already exists: 'C:\\\\Users\\\\mcdon\\\\Documents\\\\ChatGPT\\\\First Encounter Game Stage 11 Verification\\\\2026-10-18\\\\negative-existing'",
+      "PASS": true
+    },
+    {
+      "case": "ancestor-output",
+      "actual_exit": 1,
+      "diagnostic": "ERROR: --out must be outside the checkout and cannot be its ancestor",
+      "PASS": true
+    }
+  ],
+  "resolved_test_setup": "The initial existing-output case selected an ancestor of the checkout and correctly hit the ancestor guard; retested with an existing sibling directory."
+}

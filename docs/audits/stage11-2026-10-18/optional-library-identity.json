@@ -1,0 +1,33 @@
+{
+  "PASS": true,
+  "method": "Explicit optional CLI argument from archived provenance; read-only hash, no unpack/browser checks",
+  "result": {
+    "python": "3.12.14",
+    "node": "v24.19.0",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "packages": [
+      {
+        "name": "encounter-atlas",
+        "path": "packages/encounter-atlas",
+        "present": true
+      },
+      {
+        "name": "room-creator",
+        "path": "packages/room-creator",
+        "present": true
+      },
+      {
+        "name": "zant",
+        "path": "packages/zant/C001_ZANT_GATE_A_R5",
+        "present": true
+      }
+    ],
+    "external_dependencies": {
+      "room_creator_library": "VERIFIED_READ_ONLY_ZIP",
+      "needed_for_bounded_checks": false,
+      "archive_replays": "OPTIONAL_PROVENANCE_ONLY; not accessed",
+      "browser": "OPTIONAL; Playwright 1.56.0 and compatible Chrome for historical browser audits",
+      "configured_zip": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\pre-migration-2026-10-18-stages-0-3\\artifacts\\room-creator-intake-packages\\Trapstar_RoomCreator_Asset_Library_v1.zip"
+    }
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "PASS": true,
+  "exit": 1,
+  "diagnostic": "ERROR: Do not use Python -O: integrity assertions must remain enabled"
+}

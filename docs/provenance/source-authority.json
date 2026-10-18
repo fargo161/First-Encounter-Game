@@ -12,7 +12,8 @@
     7,
     8,
     9,
-    10
+    10,
+    11
   ],
   "subsystem_source_imported": true,
   "governing_documents": {
@@ -85,6 +86,12 @@
       "sha256": "9c3af730ac01012c036d954afac038dc21d8f5e7addd7363be4a0235418af422",
       "verification_root": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Stage 10 Verification\\2026-10-18",
       "verification_path": "inputs/FIRST_ENCOUNTER_GAME_STAGE_10_AUTHORIZATION.md"
+    },
+    "FIRST_ENCOUNTER_GAME_STAGE_11_AUTHORIZATION.md": {
+      "source_path": "C:\\Users\\mcdon\\Downloads\\FIRST_ENCOUNTER_GAME_STAGE_11_AUTHORIZATION.md",
+      "repository_path": "docs/provenance/governing/FIRST_ENCOUNTER_GAME_STAGE_11_AUTHORIZATION.md",
+      "bytes": 6756,
+      "sha256": "5f44b3c131e2413097bda73ad62a4883d8c15a0069a137fbc5bdcbb6ab429ca9"
     }
   },
   "repository": {
@@ -472,19 +479,18 @@
     }
   },
   "verification_this_execution": {
-    "stage": 10,
-    "scope": "Duplicate noncanonical imported evidence removal only",
-    "verdict": "PASS WITH RETAINED NECESSARY DUPLICATION",
-    "manifest": "docs/provenance/stage10-cleanup-manifest.json",
-    "report": "docs/consolidation/STAGE_10_CLEANUP.md",
-    "canonical_execution_source_changed": false,
+    "stage": 11,
+    "scope": "Repository orchestration and fresh-clone readiness only",
+    "verdict": "PASS WITH DOCUMENTED EXTERNAL DEPENDENCIES",
+    "report": "docs/consolidation/STAGE_11_READINESS.md",
+    "evidence": "docs/audits/stage11-2026-10-18/",
+    "canonical_package_files_changed": false,
     "subsystem_acceptance_changed": false,
-    "known_defect_records_changed": false,
-    "external_preservation_archive_changed": false,
-    "stage11_started": false
+    "stage10_cleanup_preserved": true,
+    "stage12_started": false
   },
-  "next_stage": "Stage 11 requires explicit new owner authorization. STOP.",
-  "current_authorized_stage": 10,
+  "next_stage": "Stage 12 requires explicit new owner authorization. STOP.",
+  "current_authorized_stage": 11,
   "imported_subsystems": [
     "encounter_atlas",
     "room_creator",
@@ -579,5 +585,17 @@
       132,
       2310
     ]
+  },
+  "verification_history_stage_10": {
+    "stage": 10,
+    "scope": "Duplicate noncanonical imported evidence removal only",
+    "verdict": "PASS WITH RETAINED NECESSARY DUPLICATION",
+    "manifest": "docs/provenance/stage10-cleanup-manifest.json",
+    "report": "docs/consolidation/STAGE_10_CLEANUP.md",
+    "canonical_execution_source_changed": false,
+    "subsystem_acceptance_changed": false,
+    "known_defect_records_changed": false,
+    "external_preservation_archive_changed": false,
+    "stage11_started": false
   }
 }

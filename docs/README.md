@@ -1,12 +1,7 @@
 # Project documentation
 
-Current cleanup: consolidation/STAGE_10_CLEANUP.md.
-Exact removed paths/retained and archive mappings: provenance/stage10-cleanup-manifest.json.
-Current integrity: testing/STAGE_10_CLEANUP.md.
-Bounded fresh evidence: audits/stage10-2026-10-18/.
-Authority: provenance/source-authority.json.
-Hard stop: consolidation/NEXT_STAGE_GATE.md.
+Start with [development setup](../DEVELOPMENT.md), [Stage 11 readiness](consolidation/STAGE_11_READINESS.md), [authority](provenance/source-authority.json) and [next gate](consolidation/NEXT_STAGE_GATE.md).
 
-Historical import/verification manifests and subsystem acceptance records remain unchanged. Current A1 checkout intentionally omits271 noncanonical duplicates; old full-snapshot checks belong to their historical commits. The current checker validates remaining exact membership, original full-byte reconstruction, all required inputs and unchanged other packages/states.
+Stage 10 [cleanup](consolidation/STAGE_10_CLEANUP.md) and [mappings](provenance/stage10-cleanup-manifest.json) remain authoritative. Historical import/verification records and acceptance/defect records are unchanged. Current integrity validates the curated checkout; historical full-snapshot verifiers require their recorded commit.
 
-External archives are untouched. No unrelated documentation cleanup or subsystem script refactor.
+Bounded Stage 11 evidence is under audits/stage11-2026-10-18/. Optional dependencies and platform limits are in DEVELOPMENT.md. Stop before Stage 12.

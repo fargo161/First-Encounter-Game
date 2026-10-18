@@ -1,0 +1,8 @@
+{
+  "PASS": true,
+  "protected_package_and_status_files": 3014,
+  "all_hashes_sizes_mtimes_unchanged": true,
+  "subsystems_dictionary_value_identical": true,
+  "external_archive_files_metadata_unchanged": 30443,
+  "archive_check_is_separate_from_normal_fresh_commands": true
+}

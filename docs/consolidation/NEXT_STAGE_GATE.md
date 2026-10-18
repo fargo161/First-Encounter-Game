@@ -1,7 +1,9 @@
-# Hard stop after Stage 10
+# Hard stop after Stage 11
 
-Stage 10 cleanup is **PASS WITH RETAINED NECESSARY DUPLICATION**. Only 271 proven duplicate inherited A1 evidence files were removed. Required source/dependency/fixture/provenance paths and all acceptance states remain intact.
+Stage 11 repository orchestration/fresh-clone readiness is complete with documented optional external dependencies. Checks preserve all product states and Stage 10 cleanup.
 
-**STOP. Stage 11 has not begun.** No remediation, art repair/authoring, interface revision, shared contracts, integration, Unity, LFS or unrelated refactoring is authorized.
+**STOP before Stage 12.** No shared contracts, integration, remediation, art/interface changes, Unity, LFS or unrelated refactor is authorized.
 
-Review STAGE_10_CLEANUP.md and the exact removal/retention records. Room Creator stays HOLD; ZANT Gate A stays incomplete. External archives were not modified. Any next work requires explicit new owner authorization.
+Recommended Stage 12 proposal only: inventory existing Encounter-owned schema/version identifiers and define a documentation-only boundary matrix plus sample compatibility expectations for Encounter, Room Creator and ZANT. Separate observed behavior from proposed contracts. Do not change runtime schemas, add adapters, promote held/failed work or begin Unity. Implementation requires explicit owner authorization.
+
+See STAGE_11_READINESS.md and ../../DEVELOPMENT.md. Older Trapstar repositories remain non-authoritative and unused.

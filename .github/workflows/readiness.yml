@@ -1,0 +1,38 @@
+name: Repository readiness (preserves product states)
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  bounded:
+    name: "${{ matrix.label }}"
+    runs-on: windows-latest
+    timeout-minutes: 15
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - target: integrity
+            label: Repository integrity
+          - target: encounter-atlas
+            label: Encounter A1 (IR3-25 retained)
+          - target: room-creator
+            label: Room Creator (HOLD retained)
+          - target: zant
+            label: ZANT (Gate A incomplete)
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6
+        with:
+          node-version: '24'
+          package-manager-cache: false
+      - name: Verify preserved checkout and package state
+        run: python -B tools/repo.py ${{ matrix.target }}

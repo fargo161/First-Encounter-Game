@@ -1,0 +1,29 @@
+{
+  "review": "PASS",
+  "syntax_compile": "PASS",
+  "ci_matrix_targets": [
+    "integrity",
+    "encounter-atlas",
+    "room-creator",
+    "zant"
+  ],
+  "official_action_v6_refs_verified": {
+    "actions/checkout": "d23441a48e516b6c34aea4fa41551a30e30af803",
+    "actions/setup-python": "ece7cb06caefa5fff74198d8649806c4678c61a1",
+    "actions/setup-node": "249970729cb0ef3589644e2896645e5dc5ba9c38"
+  },
+  "read_only_permissions": true,
+  "no_secret_release_or_archive_dependency": true,
+  "machine_path_reviewed_files": [
+    "tools/repo.py",
+    "tools/repository_integrity.py",
+    "DEVELOPMENT.md"
+  ],
+  "hosted_execution": "NOT_YET_PUSHED",
+  "validation_method": "Python compile plus explicit workflow structure/security/path review; hosted GitHub parser/run checked after push",
+  "official_references": [
+    "https://github.com/actions/checkout",
+    "https://github.com/actions/setup-python",
+    "https://github.com/actions/setup-node"
+  ]
+}

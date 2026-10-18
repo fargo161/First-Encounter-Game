@@ -1,0 +1,3265 @@
+{
+  "schema": "first-encounter-stage5-evidence-index@1",
+  "root": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-5-verification-2026-10-18",
+  "selection": "Selected execution evidence, reports, scripts, logs, proofs and browser artifacts; duplicate disposable source clones are represented by the Stage 4 manifest. Retained inherited evidence is not claimed as fresh execution.",
+  "files": [
+    {
+      "path": "audit-additional-browser.mjs",
+      "bytes": 3930,
+      "sha256": "1b8ddd6ac1cf8f875a3046f04464e4260ed975e28defb471958d0cc75766548b",
+      "role": "stage5-harness-or-result"
+    },
+    {
+      "path": "browser-attempt-1/browser-repeat-author-collector.json",
+      "bytes": 303017,
+      "sha256": "a6a094090d3fcaff198b7360ed9496a6a14eb92b5a2fe7af96f697543d6e93f7",
+      "role": "preserved-first-browser-attempt"
+    },
+    {
+      "path": "browser-attempt-1/browser-repeat-author-nera.json",
+      "bytes": 5630,
+      "sha256": "ead3afec2b14369a9b92e77bd89a7d6121354ed821f9b8acebb521dcdca93117",
+      "role": "preserved-first-browser-attempt"
+    },
+    {
+      "path": "browser-attempt-1/browser-repeat-author-orrin.json",
+      "bytes": 109879,
+      "sha256": "5b95b69eecfd92cd81f3f38f95d2cb682dc4ebb079561fa46f4c636c10ff22f4",
+      "role": "preserved-first-browser-attempt"
+    },
+    {
+      "path": "browser-attempt-1/browser-repeat-author-tamsin.json",
+      "bytes": 359203,
+      "sha256": "072002e7701e67b037637ca604f2454ccff0808bb4a310c080e86b07085bed0b",
+      "role": "preserved-first-browser-attempt"
+    },
+    {
+      "path": "browser-attempt-1/browser-repeat-comparisons.json",
+      "bytes": 939,
+      "sha256": "3adac73e4908f39423b4b476b75f55bdceeb357bc08b081ccee3589654f61ef6",
+      "role": "preserved-first-browser-attempt"
+    },
+    {
+      "path": "browser-attempt-1/browser-repeat-player-collector.json",
+      "bytes": 201128,
+      "sha256": "039d7b4c0d9801270ed74f11c03f80d8f28071f64947a026f5c808ec219ba920",
+      "role": "preserved-first-browser-attempt"
+    },
+    {
+      "path": "browser-attempt-1/browser-repeat-player-nera-vale.json",
+      "bytes": 4699,
+      "sha256": "b3368b040b8fe7dfc4399bf358ca211b6906f78f943f49e25538886e16ac2d05",
+      "role": "preserved-first-browser-attempt"
+    },
+    {
+      "path": "browser-attempt-1/browser-repeat-player-orrin.json",
+      "bytes": 7930,
+      "sha256": "0148b46a7f12bf318fe5de48c362a9ed6415dfce68daa084aa37bf9efc5b0560",
+      "role": "preserved-first-browser-attempt"
+    },
+    {
+      "path": "browser-attempt-1/browser-repeat-player-tamsin.json",
+      "bytes": 5611,
+      "sha256": "53ac4186648cc1b395461d8bae849743b86054e8939c847c8fe61354c259c5ae",
+      "role": "preserved-first-browser-attempt"
+    },
+    {
+      "path": "browser-attempt-1/browser-run-failure.json",
+      "bytes": 19099,
+      "sha256": "db8be34e2eba6b3a07c091048d191311ad7293c5891d1189b1316c199062f17b",
+      "role": "preserved-first-browser-attempt"
+    },
+    {
+      "path": "browser-attempt-1/browser-server.log",
+      "bytes": 61,
+      "sha256": "718dac8ed2b11ac1b911e6fe70c2979d7a032c9ecc389e957f0544339ce85bdb",
+      "role": "preserved-first-browser-attempt"
+    },
+    {
+      "path": "browser-attempt-1/browser-warned-author-collector.json",
+      "bytes": 303017,
+      "sha256": "a6a094090d3fcaff198b7360ed9496a6a14eb92b5a2fe7af96f697543d6e93f7",
+      "role": "preserved-first-browser-attempt"
+    },
+    {
+      "path": "browser-attempt-1/browser-warned-author-nera.json",
+      "bytes": 5630,
+      "sha256": "ead3afec2b14369a9b92e77bd89a7d6121354ed821f9b8acebb521dcdca93117",
+      "role": "preserved-first-browser-attempt"
+    },
+    {
+      "path": "browser-attempt-1/browser-warned-author-orrin.json",
+      "bytes": 109879,
+      "sha256": "5b95b69eecfd92cd81f3f38f95d2cb682dc4ebb079561fa46f4c636c10ff22f4",
+      "role": "preserved-first-browser-attempt"
+    },
+    {
+      "path": "browser-attempt-1/browser-warned-author-tamsin.json",
+      "bytes": 359203,
+      "sha256": "072002e7701e67b037637ca604f2454ccff0808bb4a310c080e86b07085bed0b",
+      "role": "preserved-first-browser-attempt"
+    },
+    {
+      "path": "browser-attempt-1/browser-warned-player-collector.json",
+      "bytes": 201128,
+      "sha256": "039d7b4c0d9801270ed74f11c03f80d8f28071f64947a026f5c808ec219ba920",
+      "role": "preserved-first-browser-attempt"
+    },
+    {
+      "path": "browser-attempt-1/browser-warned-player-nera-vale.json",
+      "bytes": 4699,
+      "sha256": "b3368b040b8fe7dfc4399bf358ca211b6906f78f943f49e25538886e16ac2d05",
+      "role": "preserved-first-browser-attempt"
+    },
+    {
+      "path": "browser-attempt-1/browser-warned-player-orrin.json",
+      "bytes": 7930,
+      "sha256": "0148b46a7f12bf318fe5de48c362a9ed6415dfce68daa084aa37bf9efc5b0560",
+      "role": "preserved-first-browser-attempt"
+    },
+    {
+      "path": "browser-attempt-1/browser-warned-player-tamsin.json",
+      "bytes": 5611,
+      "sha256": "53ac4186648cc1b395461d8bae849743b86054e8939c847c8fe61354c259c5ae",
+      "role": "preserved-first-browser-attempt"
+    },
+    {
+      "path": "browser-attempt-1/live-closure-captures/capture-001.json.gz",
+      "bytes": 31803,
+      "sha256": "ffcd8b5b370dd7de16324667e15a60d9b5a10a1f7ac25e142c9493595dd77c4b",
+      "role": "preserved-first-browser-attempt"
+    },
+    {
+      "path": "browser-attempt-1/live-closure-captures/capture-002.json.gz",
+      "bytes": 31803,
+      "sha256": "ffcd8b5b370dd7de16324667e15a60d9b5a10a1f7ac25e142c9493595dd77c4b",
+      "role": "preserved-first-browser-attempt"
+    },
+    {
+      "path": "browser-attempt-1/live-closure-captures/capture-003.json.gz",
+      "bytes": 31803,
+      "sha256": "ffcd8b5b370dd7de16324667e15a60d9b5a10a1f7ac25e142c9493595dd77c4b",
+      "role": "preserved-first-browser-attempt"
+    },
+    {
+      "path": "browser-attempt-1/live-closure-captures/capture-004.json.gz",
+      "bytes": 31803,
+      "sha256": "ffcd8b5b370dd7de16324667e15a60d9b5a10a1f7ac25e142c9493595dd77c4b",
+      "role": "preserved-first-browser-attempt"
+    },
+    {
+      "path": "browser-attempt-1/live-closure-captures/capture-005.json.gz",
+      "bytes": 31803,
+      "sha256": "ffcd8b5b370dd7de16324667e15a60d9b5a10a1f7ac25e142c9493595dd77c4b",
+      "role": "preserved-first-browser-attempt"
+    },
+    {
+      "path": "browser-attempt-1/live-closure-captures/capture-006.json.gz",
+      "bytes": 31803,
+      "sha256": "ffcd8b5b370dd7de16324667e15a60d9b5a10a1f7ac25e142c9493595dd77c4b",
+      "role": "preserved-first-browser-attempt"
+    },
+    {
+      "path": "browser-attempt-1/live-closure-captures/capture-007.json.gz",
+      "bytes": 31803,
+      "sha256": "ffcd8b5b370dd7de16324667e15a60d9b5a10a1f7ac25e142c9493595dd77c4b",
+      "role": "preserved-first-browser-attempt"
+    },
+    {
+      "path": "browser-attempt-1/live-closure-captures/capture-008.json.gz",
+      "bytes": 31803,
+      "sha256": "ffcd8b5b370dd7de16324667e15a60d9b5a10a1f7ac25e142c9493595dd77c4b",
+      "role": "preserved-first-browser-attempt"
+    },
+    {
+      "path": "browser-attempt-1/live-closure-captures/capture-009.json.gz",
+      "bytes": 31803,
+      "sha256": "ffcd8b5b370dd7de16324667e15a60d9b5a10a1f7ac25e142c9493595dd77c4b",
+      "role": "preserved-first-browser-attempt"
+    },
+    {
+      "path": "browser-attempt-1/live-closure-captures/capture-010.json.gz",
+      "bytes": 31803,
+      "sha256": "ffcd8b5b370dd7de16324667e15a60d9b5a10a1f7ac25e142c9493595dd77c4b",
+      "role": "preserved-first-browser-attempt"
+    },
+    {
+      "path": "browser-attempt-1/live-closure-captures/capture-011.json.gz",
+      "bytes": 31803,
+      "sha256": "ffcd8b5b370dd7de16324667e15a60d9b5a10a1f7ac25e142c9493595dd77c4b",
+      "role": "preserved-first-browser-attempt"
+    },
+    {
+      "path": "browser-attempt-1/live-closure-captures/capture-012.json.gz",
+      "bytes": 31803,
+      "sha256": "ffcd8b5b370dd7de16324667e15a60d9b5a10a1f7ac25e142c9493595dd77c4b",
+      "role": "preserved-first-browser-attempt"
+    },
+    {
+      "path": "browser-attempt-1/live-closure-captures/capture-013.json.gz",
+      "bytes": 31803,
+      "sha256": "ffcd8b5b370dd7de16324667e15a60d9b5a10a1f7ac25e142c9493595dd77c4b",
+      "role": "preserved-first-browser-attempt"
+    },
+    {
+      "path": "browser-attempt-1/live-closure-captures/capture-014.json.gz",
+      "bytes": 31803,
+      "sha256": "ffcd8b5b370dd7de16324667e15a60d9b5a10a1f7ac25e142c9493595dd77c4b",
+      "role": "preserved-first-browser-attempt"
+    },
+    {
+      "path": "browser-attempt-1/live-closure-captures/capture-015.json.gz",
+      "bytes": 31803,
+      "sha256": "ffcd8b5b370dd7de16324667e15a60d9b5a10a1f7ac25e142c9493595dd77c4b",
+      "role": "preserved-first-browser-attempt"
+    },
+    {
+      "path": "browser-attempt-1/live-closure-captures/capture-016.json.gz",
+      "bytes": 31803,
+      "sha256": "ffcd8b5b370dd7de16324667e15a60d9b5a10a1f7ac25e142c9493595dd77c4b",
+      "role": "preserved-first-browser-attempt"
+    },
+    {
+      "path": "browser-attempt-1/live-closure-captures/capture-017.json.gz",
+      "bytes": 31803,
+      "sha256": "ffcd8b5b370dd7de16324667e15a60d9b5a10a1f7ac25e142c9493595dd77c4b",
+      "role": "preserved-first-browser-attempt"
+    },
+    {
+      "path": "browser-attempt-1/live-closure-captures/capture-018.json.gz",
+      "bytes": 31803,
+      "sha256": "ffcd8b5b370dd7de16324667e15a60d9b5a10a1f7ac25e142c9493595dd77c4b",
+      "role": "preserved-first-browser-attempt"
+    },
+    {
+      "path": "browser-attempt-1/live-closure-captures/capture-019.json.gz",
+      "bytes": 31803,
+      "sha256": "ffcd8b5b370dd7de16324667e15a60d9b5a10a1f7ac25e142c9493595dd77c4b",
+      "role": "preserved-first-browser-attempt"
+    },
+    {
+      "path": "browser-attempt-1/live-closure-captures/capture-020.json.gz",
+      "bytes": 31803,
+      "sha256": "ffcd8b5b370dd7de16324667e15a60d9b5a10a1f7ac25e142c9493595dd77c4b",
+      "role": "preserved-first-browser-attempt"
+    },
+    {
+      "path": "browser-attempt-1/live-closure-captures/capture-021.json.gz",
+      "bytes": 31803,
+      "sha256": "ffcd8b5b370dd7de16324667e15a60d9b5a10a1f7ac25e142c9493595dd77c4b",
+      "role": "preserved-first-browser-attempt"
+    },
+    {
+      "path": "browser-attempt-1/live-closure-captures/capture-022.json.gz",
+      "bytes": 31803,
+      "sha256": "ffcd8b5b370dd7de16324667e15a60d9b5a10a1f7ac25e142c9493595dd77c4b",
+      "role": "preserved-first-browser-attempt"
+    },
+    {
+      "path": "browser-attempt-1/live-closure-captures/capture-023.json.gz",
+      "bytes": 7896,
+      "sha256": "b76f431a46f50e80f44b627a3d2dced21d08b04ff1507549c1eaef323d404e47",
+      "role": "preserved-first-browser-attempt"
+    },
+    {
+      "path": "browser-attempt-1/live-closure-captures/capture-024.json.gz",
+      "bytes": 7896,
+      "sha256": "b76f431a46f50e80f44b627a3d2dced21d08b04ff1507549c1eaef323d404e47",
+      "role": "preserved-first-browser-attempt"
+    },
+    {
+      "path": "browser-attempt-1/live-closure-captures/capture-025.json.gz",
+      "bytes": 7896,
+      "sha256": "b76f431a46f50e80f44b627a3d2dced21d08b04ff1507549c1eaef323d404e47",
+      "role": "preserved-first-browser-attempt"
+    },
+    {
+      "path": "browser-attempt-1/live-closure-captures/capture-026.json.gz",
+      "bytes": 7896,
+      "sha256": "b76f431a46f50e80f44b627a3d2dced21d08b04ff1507549c1eaef323d404e47",
+      "role": "preserved-first-browser-attempt"
+    },
+    {
+      "path": "browser-attempt-1/live-closure-captures/capture-027.json.gz",
+      "bytes": 7896,
+      "sha256": "b76f431a46f50e80f44b627a3d2dced21d08b04ff1507549c1eaef323d404e47",
+      "role": "preserved-first-browser-attempt"
+    },
+    {
+      "path": "browser-attempt-1/live-closure-captures/capture-028.json.gz",
+      "bytes": 41392,
+      "sha256": "e4b9c4cbe207c24137481fa8260fa778f2b73eed17e3a3a80e64b507dfabdfb3",
+      "role": "preserved-first-browser-attempt"
+    },
+    {
+      "path": "browser-attempt-1/live-closure-captures/capture-029.json.gz",
+      "bytes": 41392,
+      "sha256": "e4b9c4cbe207c24137481fa8260fa778f2b73eed17e3a3a80e64b507dfabdfb3",
+      "role": "preserved-first-browser-attempt"
+    },
+    {
+      "path": "browser-attempt-1/live-closure-captures/capture-030.json.gz",
+      "bytes": 41392,
+      "sha256": "e4b9c4cbe207c24137481fa8260fa778f2b73eed17e3a3a80e64b507dfabdfb3",
+      "role": "preserved-first-browser-attempt"
+    },
+    {
+      "path": "browser-attempt-1/live-closure-captures/capture-031.json.gz",
+      "bytes": 41392,
+      "sha256": "e4b9c4cbe207c24137481fa8260fa778f2b73eed17e3a3a80e64b507dfabdfb3",
+      "role": "preserved-first-browser-attempt"
+    },
+    {
+      "path": "browser-attempt-1/live-closure-captures/capture-032.json.gz",
+      "bytes": 41392,
+      "sha256": "e4b9c4cbe207c24137481fa8260fa778f2b73eed17e3a3a80e64b507dfabdfb3",
+      "role": "preserved-first-browser-attempt"
+    },
+    {
+      "path": "browser-attempt-1/live-closure-captures/capture-033.json.gz",
+      "bytes": 47230,
+      "sha256": "627f5e4237cc71ec3bb1d45b826de6a3ec67acb7b38edd6bfb124775b7473627",
+      "role": "preserved-first-browser-attempt"
+    },
+    {
+      "path": "browser-attempt-1/live-closure-captures/capture-034.json.gz",
+      "bytes": 47230,
+      "sha256": "627f5e4237cc71ec3bb1d45b826de6a3ec67acb7b38edd6bfb124775b7473627",
+      "role": "preserved-first-browser-attempt"
+    },
+    {
+      "path": "browser-attempt-1/live-closure-captures/capture-035.json.gz",
+      "bytes": 47230,
+      "sha256": "627f5e4237cc71ec3bb1d45b826de6a3ec67acb7b38edd6bfb124775b7473627",
+      "role": "preserved-first-browser-attempt"
+    },
+    {
+      "path": "browser-attempt-1/live-closure-captures/capture-036.json.gz",
+      "bytes": 47230,
+      "sha256": "627f5e4237cc71ec3bb1d45b826de6a3ec67acb7b38edd6bfb124775b7473627",
+      "role": "preserved-first-browser-attempt"
+    },
+    {
+      "path": "browser-attempt-1/run-browser.mjs",
+      "bytes": 14911,
+      "sha256": "1ab259c9da638cb186bf92baead8ce667396dabcf0d5fe85a5c16460e654205c",
+      "role": "preserved-first-browser-attempt"
+    },
+    {
+      "path": "browser-attempt-1/screenshots/author-tamsin.png",
+      "bytes": 70721,
+      "sha256": "7aaf80955fe4bfd65b153751906b063f3aeb960a05a365ead14c7a3931bfcac3",
+      "role": "preserved-first-browser-attempt"
+    },
+    {
+      "path": "browser-attempt-1/screenshots/failure.png",
+      "bytes": 114662,
+      "sha256": "2cbafdd1ed24ab1564fcfc8bf1fee26f10e7ad52a2d017243c2e57ef82f563b0",
+      "role": "preserved-first-browser-attempt"
+    },
+    {
+      "path": "browser-attempt-1/screenshots/player-collector.png",
+      "bytes": 52027,
+      "sha256": "dc9c5bd92886eb2e1478efdb8c4539e1ef963fe250fbcfc15d616ff65ab5d5ad",
+      "role": "preserved-first-browser-attempt"
+    },
+    {
+      "path": "browser-attempt-1/screenshots/player-nera-vale.png",
+      "bytes": 51531,
+      "sha256": "9a78a54efec8c772418a890aef27ba4b76730318381f3c1bc7ba13f568272ff9",
+      "role": "preserved-first-browser-attempt"
+    },
+    {
+      "path": "browser-harness-correction.json",
+      "bytes": 9454,
+      "sha256": "32a2cb81efaf8f12528319f3b01b867f9087dedf4178b42eaa678476473fdc32",
+      "role": "stage5-harness-or-result"
+    },
+    {
+      "path": "capture-visual-review.mjs",
+      "bytes": 2782,
+      "sha256": "4494bb3d7f9df81de6d79824dc2f242521318cabbc1ee43cd17414bedc36b563",
+      "role": "stage5-harness-or-result"
+    },
+    {
+      "path": "command-results.json",
+      "bytes": 6345,
+      "sha256": "de8df5987dc9710e1442d066c6c3378ac19bad5c68bdeb9e731a0a4927bd1a86",
+      "role": "stage5-harness-or-result"
+    },
+    {
+      "path": "environment.json",
+      "bytes": 826,
+      "sha256": "2b1ced50da7d7eb06c41268fe0254186fc7799046e81cbce1e1187a6f93199a1",
+      "role": "stage5-harness-or-result"
+    },
+    {
+      "path": "finalize-verification.py",
+      "bytes": 9220,
+      "sha256": "498d190b5ddd658ec3c616700e6e2d549939b94bff16563cb6784b04195a7cd8",
+      "role": "stage5-harness-or-result"
+    },
+    {
+      "path": "inherited-command-summary.json",
+      "bytes": 16498,
+      "sha256": "a9ea39ff0cd390cf4bd6bd32d66edcd7472581e4253b5eb312284068a0bf09e0",
+      "role": "stage5-harness-or-result"
+    },
+    {
+      "path": "inputs/FIRST_ENCOUNTER_GAME_STAGE_5_AUTHORIZATION.md",
+      "bytes": 3509,
+      "sha256": "c46dbc5f3a4ceec29460838718e17deaabc37b4fca5ac73c532ca3a79c1cf155",
+      "role": "read-only-verification-inputs"
+    },
+    {
+      "path": "inputs/protected-files-before.json",
+      "bytes": 1920948,
+      "sha256": "aa3d56c80fa7bc720a7eea56dffb880fb535313bf063438e657d7400180741fc",
+      "role": "read-only-verification-inputs"
+    },
+    {
+      "path": "inputs/stage4-import-manifest.json",
+      "bytes": 681520,
+      "sha256": "ebcde2df7f706aa9f3bd4ce79fe554ea1b0e20d75a3f5ca8546567eab18c8b2d",
+      "role": "read-only-verification-inputs"
+    },
+    {
+      "path": "ir3-25-fresh.json",
+      "bytes": 7556,
+      "sha256": "1273d8269a5b4bb565d62cd330b3b423d9014f0ce0dea2f6ffc2f0f48a935d95",
+      "role": "stage5-harness-or-result"
+    },
+    {
+      "path": "logs/01-a1-supplied-tests.log",
+      "bytes": 52120,
+      "sha256": "2eee4c65c3d8e2e9bdc5fb56e00887ecf96e482567a3c6f2c949d76d2dc82fa2",
+      "role": "fresh-top-level-command-logs"
+    },
+    {
+      "path": "logs/02-rebuild-m3.log",
+      "bytes": 183,
+      "sha256": "f0fe74071ab71148c45b2153a51852080fe61e15f3b9a39b8e5a357396fb8512",
+      "role": "fresh-top-level-command-logs"
+    },
+    {
+      "path": "logs/03-rebuild-a1.log",
+      "bytes": 206,
+      "sha256": "74c68e510a3554b42b1c1d52303b10ba512d29fbfec1589b368ea913fa4b01f1",
+      "role": "fresh-top-level-command-logs"
+    },
+    {
+      "path": "logs/04-regenerate-a1-proofs.log",
+      "bytes": 55,
+      "sha256": "40fcf13a0226833def26fc54802d23718963283e799b3bd34cf9eb4bd07d0d91",
+      "role": "fresh-top-level-command-logs"
+    },
+    {
+      "path": "logs/05-preserve-a1.log",
+      "bytes": 451,
+      "sha256": "afa028a19452e60eba19328ab024728bf98fd80b3ef2b977519b3df8264dea73",
+      "role": "fresh-top-level-command-logs"
+    },
+    {
+      "path": "logs/06-identity-a1.log",
+      "bytes": 766,
+      "sha256": "2fce75947809c9beb1f34852b71c43203df9572561b6a44ff1ac561877093fb5",
+      "role": "fresh-top-level-command-logs"
+    },
+    {
+      "path": "logs/07-independent-a1.log",
+      "bytes": 5538,
+      "sha256": "02e105379560e9bfa5356a9864b9e780fb42654f2bb10ec7fac472cf99a20afd",
+      "role": "fresh-top-level-command-logs"
+    },
+    {
+      "path": "logs/08-full-ar0-r1-regression.log",
+      "bytes": 534,
+      "sha256": "f825d26aa96fec29074d25de76e685e751fcf6920f1ad507426db9a554443112",
+      "role": "fresh-top-level-command-logs"
+    },
+    {
+      "path": "logs/09-independent-r1.log",
+      "bytes": 3765,
+      "sha256": "076021d6bb2af462bea8fe97a93da73daceb1608f7c9585a8da9faa161dda4ba",
+      "role": "fresh-top-level-command-logs"
+    },
+    {
+      "path": "protected-files-after-verification.json",
+      "bytes": 404,
+      "sha256": "8c0dc36c167e19e462212e75e1b140dcf0c5d1114ba99d1eea396fa51268a0ae",
+      "role": "stage5-harness-or-result"
+    },
+    {
+      "path": "rebuild-comparisons.json",
+      "bytes": 6915,
+      "sha256": "676f6f885959aa00e998d329edb264bccaa9461c33e1244b8b68d95bc9738614",
+      "role": "stage5-harness-or-result"
+    },
+    {
+      "path": "run-browser.mjs",
+      "bytes": 15282,
+      "sha256": "c659cd668d08637cc4d60da1625305c1c1cd5b24d8cfa2307da895e8e3b3bfb0",
+      "role": "stage5-harness-or-result"
+    },
+    {
+      "path": "run-verification.py",
+      "bytes": 3656,
+      "sha256": "bc32a3cd9f22593e064b7aeb6af2abbaf6ccdc433b8172fea98c75005c59adb4",
+      "role": "stage5-harness-or-result"
+    },
+    {
+      "path": "setup-identity.json",
+      "bytes": 922,
+      "sha256": "a5ed694a2eb8bc9fe383bf91abcfc06ea1204085139ca369bb45025f50e75a15",
+      "role": "stage5-harness-or-result"
+    },
+    {
+      "path": "stage5-result.json",
+      "bytes": 7710,
+      "sha256": "e531cff07a0c2013eab64ea2bebf19263382e669b8e29a6f961cb4b770d39605",
+      "role": "stage5-harness-or-result"
+    },
+    {
+      "path": "verification-run-status.json",
+      "bytes": 77,
+      "sha256": "6c44fa3b642667b725471619959115b758e7e080e44b86ba8e00a445225008d7",
+      "role": "stage5-harness-or-result"
+    },
+    {
+      "path": "verify-protected-files.py",
+      "bytes": 2602,
+      "sha256": "e57a7ad293fcc4922331961382f02ae106b41613cd9c7075902f96bf69656326",
+      "role": "stage5-harness-or-result"
+    },
+    {
+      "path": "work/a1-review/evidence/browser-additional-source-audit.json",
+      "bytes": 9095,
+      "sha256": "2ce4c4f19cb8e7f2a991b6adc9dd3b1cccd3358c28c3cb4ccde4b1c50b1e250f",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/browser-all-examples.json",
+      "bytes": 7671493,
+      "sha256": "6ef84d7b3cfa0c2dbedacb73cb8f365633560c4f0de0893982e58ac78fb01b41",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/browser-conflict-author-return.json",
+      "bytes": 437,
+      "sha256": "a95cc866d13892231be9ab586d66a4b2750bbaab1d7be557739676f28c7489d5",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/browser-conflict-author.json",
+      "bytes": 437,
+      "sha256": "a95cc866d13892231be9ab586d66a4b2750bbaab1d7be557739676f28c7489d5",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/browser-conflict-player.json",
+      "bytes": 437,
+      "sha256": "a95cc866d13892231be9ab586d66a4b2750bbaab1d7be557739676f28c7489d5",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/browser-console.json",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/browser-escaped-html.json",
+      "bytes": 5780,
+      "sha256": "b4d2b190ea62225c36426c9785623bc2665093e15e15a02777e438044f64e081",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/browser-incompatible-catalog.json",
+      "bytes": 427,
+      "sha256": "87484dab18b300d19c6fe95748bde33b8536672333a3d4ee288ea02b63963cc0",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/browser-independent-audit.json",
+      "bytes": 3607,
+      "sha256": "c8312a33f1713b940a95f1d3882702b7ace6074b313fc0410af05e68892d91e4",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/browser-invalid-save.json",
+      "bytes": 426,
+      "sha256": "5f495a0cb6d64ff00942cbc334013b1dc7797a3253dd30b0c23798f3b0e3b700",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/browser-live-closure-verification.json",
+      "bytes": 30373,
+      "sha256": "d65686943383643a6c1325525e4e419eacad949d1951ddea0c28dcefdc38258d",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/browser-purity-checks.json",
+      "bytes": 18308,
+      "sha256": "bf3f4dfec00918768e56ff8ef76725db42e4dccecbe108e5ac301adc67e76829",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/browser-rejections.json",
+      "bytes": 297,
+      "sha256": "80230c5ec758165e3bd7d283baebdf7ff9d24ca0152a8f5bff8b1ecaf27d2c6c",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/browser-renamed-owner.json",
+      "bytes": 5697,
+      "sha256": "8df8a8ac40e57a5986f2d54d7e4dc5aecadc687e7cef896a3ae2af326f3457b2",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/browser-repeat-author-collector.json",
+      "bytes": 303017,
+      "sha256": "a6a094090d3fcaff198b7360ed9496a6a14eb92b5a2fe7af96f697543d6e93f7",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/browser-repeat-author-nera.json",
+      "bytes": 5630,
+      "sha256": "ead3afec2b14369a9b92e77bd89a7d6121354ed821f9b8acebb521dcdca93117",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/browser-repeat-author-orrin.json",
+      "bytes": 109879,
+      "sha256": "5b95b69eecfd92cd81f3f38f95d2cb682dc4ebb079561fa46f4c636c10ff22f4",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/browser-repeat-author-tamsin.json",
+      "bytes": 359203,
+      "sha256": "072002e7701e67b037637ca604f2454ccff0808bb4a310c080e86b07085bed0b",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/browser-repeat-comparisons.json",
+      "bytes": 939,
+      "sha256": "3adac73e4908f39423b4b476b75f55bdceeb357bc08b081ccee3589654f61ef6",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/browser-repeat-player-collector.json",
+      "bytes": 201128,
+      "sha256": "039d7b4c0d9801270ed74f11c03f80d8f28071f64947a026f5c808ec219ba920",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/browser-repeat-player-nera-vale.json",
+      "bytes": 4699,
+      "sha256": "b3368b040b8fe7dfc4399bf358ca211b6906f78f943f49e25538886e16ac2d05",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/browser-repeat-player-orrin.json",
+      "bytes": 7930,
+      "sha256": "0148b46a7f12bf318fe5de48c362a9ed6415dfce68daa084aa37bf9efc5b0560",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/browser-repeat-player-tamsin.json",
+      "bytes": 5611,
+      "sha256": "53ac4186648cc1b395461d8bae849743b86054e8939c847c8fe61354c259c5ae",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/browser-same-name-identities.json",
+      "bytes": 75806,
+      "sha256": "3fe8208745052f69a4ff3fe33f54d5cd74993f0083f634b5316328682d5b9f3a",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/browser-server.log",
+      "bytes": 61,
+      "sha256": "992aa049e1d99564ad521f6cb627df48c12c12651ec6b294b788037d9c2811ed",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/browser-session.json",
+      "bytes": 917,
+      "sha256": "1e777b219bbcfe284142562faeb0172db963bba25b0f32cfa278ce0c836e5893",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/browser-technical-defect.json",
+      "bytes": 3197,
+      "sha256": "9bc6303715915744cddd8fe78fcff3bbb3ed25fa7a4bb42c5da5e1d4d77f42f2",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/browser-unmodeled.json",
+      "bytes": 2761,
+      "sha256": "a17f7383466084d4324e902d242cdaf9d9f0dde5cd691923b00d19a1dcf7fbb8",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/browser-warned-author-collector.json",
+      "bytes": 303017,
+      "sha256": "a6a094090d3fcaff198b7360ed9496a6a14eb92b5a2fe7af96f697543d6e93f7",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/browser-warned-author-nera.json",
+      "bytes": 5630,
+      "sha256": "ead3afec2b14369a9b92e77bd89a7d6121354ed821f9b8acebb521dcdca93117",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/browser-warned-author-orrin.json",
+      "bytes": 109879,
+      "sha256": "5b95b69eecfd92cd81f3f38f95d2cb682dc4ebb079561fa46f4c636c10ff22f4",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/browser-warned-author-tamsin.json",
+      "bytes": 359203,
+      "sha256": "072002e7701e67b037637ca604f2454ccff0808bb4a310c080e86b07085bed0b",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/browser-warned-player-collector.json",
+      "bytes": 201128,
+      "sha256": "039d7b4c0d9801270ed74f11c03f80d8f28071f64947a026f5c808ec219ba920",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/browser-warned-player-nera-vale.json",
+      "bytes": 4699,
+      "sha256": "b3368b040b8fe7dfc4399bf358ca211b6906f78f943f49e25538886e16ac2d05",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/browser-warned-player-orrin.json",
+      "bytes": 7930,
+      "sha256": "0148b46a7f12bf318fe5de48c362a9ed6415dfce68daa084aa37bf9efc5b0560",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/browser-warned-player-tamsin.json",
+      "bytes": 5611,
+      "sha256": "53ac4186648cc1b395461d8bae849743b86054e8939c847c8fe61354c259c5ae",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/independent-input-fingerprints.json",
+      "bytes": 4455,
+      "sha256": "019118b8f1a9f8f5639a31b3fa5888335d91dd6bc45f2e51567698933873cf74",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/live-closure-captures/capture-001.json.gz",
+      "bytes": 31803,
+      "sha256": "ffcd8b5b370dd7de16324667e15a60d9b5a10a1f7ac25e142c9493595dd77c4b",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/live-closure-captures/capture-002.json.gz",
+      "bytes": 31803,
+      "sha256": "ffcd8b5b370dd7de16324667e15a60d9b5a10a1f7ac25e142c9493595dd77c4b",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/live-closure-captures/capture-003.json.gz",
+      "bytes": 31803,
+      "sha256": "ffcd8b5b370dd7de16324667e15a60d9b5a10a1f7ac25e142c9493595dd77c4b",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/live-closure-captures/capture-004.json.gz",
+      "bytes": 31803,
+      "sha256": "ffcd8b5b370dd7de16324667e15a60d9b5a10a1f7ac25e142c9493595dd77c4b",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/live-closure-captures/capture-005.json.gz",
+      "bytes": 31803,
+      "sha256": "ffcd8b5b370dd7de16324667e15a60d9b5a10a1f7ac25e142c9493595dd77c4b",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/live-closure-captures/capture-006.json.gz",
+      "bytes": 31803,
+      "sha256": "ffcd8b5b370dd7de16324667e15a60d9b5a10a1f7ac25e142c9493595dd77c4b",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/live-closure-captures/capture-007.json.gz",
+      "bytes": 31803,
+      "sha256": "ffcd8b5b370dd7de16324667e15a60d9b5a10a1f7ac25e142c9493595dd77c4b",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/live-closure-captures/capture-008.json.gz",
+      "bytes": 31803,
+      "sha256": "ffcd8b5b370dd7de16324667e15a60d9b5a10a1f7ac25e142c9493595dd77c4b",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/live-closure-captures/capture-009.json.gz",
+      "bytes": 31803,
+      "sha256": "ffcd8b5b370dd7de16324667e15a60d9b5a10a1f7ac25e142c9493595dd77c4b",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/live-closure-captures/capture-010.json.gz",
+      "bytes": 31803,
+      "sha256": "ffcd8b5b370dd7de16324667e15a60d9b5a10a1f7ac25e142c9493595dd77c4b",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/live-closure-captures/capture-011.json.gz",
+      "bytes": 31803,
+      "sha256": "ffcd8b5b370dd7de16324667e15a60d9b5a10a1f7ac25e142c9493595dd77c4b",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/live-closure-captures/capture-012.json.gz",
+      "bytes": 31803,
+      "sha256": "ffcd8b5b370dd7de16324667e15a60d9b5a10a1f7ac25e142c9493595dd77c4b",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/live-closure-captures/capture-013.json.gz",
+      "bytes": 31803,
+      "sha256": "ffcd8b5b370dd7de16324667e15a60d9b5a10a1f7ac25e142c9493595dd77c4b",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/live-closure-captures/capture-014.json.gz",
+      "bytes": 31803,
+      "sha256": "ffcd8b5b370dd7de16324667e15a60d9b5a10a1f7ac25e142c9493595dd77c4b",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/live-closure-captures/capture-015.json.gz",
+      "bytes": 31803,
+      "sha256": "ffcd8b5b370dd7de16324667e15a60d9b5a10a1f7ac25e142c9493595dd77c4b",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/live-closure-captures/capture-016.json.gz",
+      "bytes": 31803,
+      "sha256": "ffcd8b5b370dd7de16324667e15a60d9b5a10a1f7ac25e142c9493595dd77c4b",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/live-closure-captures/capture-017.json.gz",
+      "bytes": 31803,
+      "sha256": "ffcd8b5b370dd7de16324667e15a60d9b5a10a1f7ac25e142c9493595dd77c4b",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/live-closure-captures/capture-018.json.gz",
+      "bytes": 31803,
+      "sha256": "ffcd8b5b370dd7de16324667e15a60d9b5a10a1f7ac25e142c9493595dd77c4b",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/live-closure-captures/capture-019.json.gz",
+      "bytes": 31803,
+      "sha256": "ffcd8b5b370dd7de16324667e15a60d9b5a10a1f7ac25e142c9493595dd77c4b",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/live-closure-captures/capture-020.json.gz",
+      "bytes": 31803,
+      "sha256": "ffcd8b5b370dd7de16324667e15a60d9b5a10a1f7ac25e142c9493595dd77c4b",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/live-closure-captures/capture-021.json.gz",
+      "bytes": 31803,
+      "sha256": "ffcd8b5b370dd7de16324667e15a60d9b5a10a1f7ac25e142c9493595dd77c4b",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/live-closure-captures/capture-022.json.gz",
+      "bytes": 31803,
+      "sha256": "ffcd8b5b370dd7de16324667e15a60d9b5a10a1f7ac25e142c9493595dd77c4b",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/live-closure-captures/capture-023.json.gz",
+      "bytes": 7896,
+      "sha256": "b76f431a46f50e80f44b627a3d2dced21d08b04ff1507549c1eaef323d404e47",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/live-closure-captures/capture-024.json.gz",
+      "bytes": 7896,
+      "sha256": "b76f431a46f50e80f44b627a3d2dced21d08b04ff1507549c1eaef323d404e47",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/live-closure-captures/capture-025.json.gz",
+      "bytes": 7896,
+      "sha256": "b76f431a46f50e80f44b627a3d2dced21d08b04ff1507549c1eaef323d404e47",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/live-closure-captures/capture-026.json.gz",
+      "bytes": 7896,
+      "sha256": "b76f431a46f50e80f44b627a3d2dced21d08b04ff1507549c1eaef323d404e47",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/live-closure-captures/capture-027.json.gz",
+      "bytes": 7896,
+      "sha256": "b76f431a46f50e80f44b627a3d2dced21d08b04ff1507549c1eaef323d404e47",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/live-closure-captures/capture-028.json.gz",
+      "bytes": 41392,
+      "sha256": "e4b9c4cbe207c24137481fa8260fa778f2b73eed17e3a3a80e64b507dfabdfb3",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/live-closure-captures/capture-029.json.gz",
+      "bytes": 41392,
+      "sha256": "e4b9c4cbe207c24137481fa8260fa778f2b73eed17e3a3a80e64b507dfabdfb3",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/live-closure-captures/capture-030.json.gz",
+      "bytes": 41392,
+      "sha256": "e4b9c4cbe207c24137481fa8260fa778f2b73eed17e3a3a80e64b507dfabdfb3",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/live-closure-captures/capture-031.json.gz",
+      "bytes": 41392,
+      "sha256": "e4b9c4cbe207c24137481fa8260fa778f2b73eed17e3a3a80e64b507dfabdfb3",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/live-closure-captures/capture-032.json.gz",
+      "bytes": 41392,
+      "sha256": "e4b9c4cbe207c24137481fa8260fa778f2b73eed17e3a3a80e64b507dfabdfb3",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/live-closure-captures/capture-033.json.gz",
+      "bytes": 47230,
+      "sha256": "627f5e4237cc71ec3bb1d45b826de6a3ec67acb7b38edd6bfb124775b7473627",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/live-closure-captures/capture-034.json.gz",
+      "bytes": 47230,
+      "sha256": "627f5e4237cc71ec3bb1d45b826de6a3ec67acb7b38edd6bfb124775b7473627",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/live-closure-captures/capture-035.json.gz",
+      "bytes": 47230,
+      "sha256": "627f5e4237cc71ec3bb1d45b826de6a3ec67acb7b38edd6bfb124775b7473627",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/live-closure-captures/capture-036.json.gz",
+      "bytes": 47230,
+      "sha256": "627f5e4237cc71ec3bb1d45b826de6a3ec67acb7b38edd6bfb124775b7473627",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/live-closure-captures/capture-037.json.gz",
+      "bytes": 47230,
+      "sha256": "627f5e4237cc71ec3bb1d45b826de6a3ec67acb7b38edd6bfb124775b7473627",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/live-closure-captures/capture-038.json.gz",
+      "bytes": 52130,
+      "sha256": "3a9eb786fc9b49c9c5458bbe6e2de4943d8274f5e9ab35f812c18cf4c1438582",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/live-closure-captures/capture-039.json.gz",
+      "bytes": 52130,
+      "sha256": "3a9eb786fc9b49c9c5458bbe6e2de4943d8274f5e9ab35f812c18cf4c1438582",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/live-closure-captures/capture-040.json.gz",
+      "bytes": 52130,
+      "sha256": "3a9eb786fc9b49c9c5458bbe6e2de4943d8274f5e9ab35f812c18cf4c1438582",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/live-closure-captures/capture-041.json.gz",
+      "bytes": 52130,
+      "sha256": "3a9eb786fc9b49c9c5458bbe6e2de4943d8274f5e9ab35f812c18cf4c1438582",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/live-closure-captures/capture-042.json.gz",
+      "bytes": 52130,
+      "sha256": "3a9eb786fc9b49c9c5458bbe6e2de4943d8274f5e9ab35f812c18cf4c1438582",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/live-closure-captures/capture-043.json.gz",
+      "bytes": 34139,
+      "sha256": "210fe7b78fccd4150f87c81e945e6fab09b4113193d934ed608dd349c5e428bf",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/live-closure-captures/capture-044.json.gz",
+      "bytes": 34139,
+      "sha256": "210fe7b78fccd4150f87c81e945e6fab09b4113193d934ed608dd349c5e428bf",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/live-closure-captures/capture-045.json.gz",
+      "bytes": 34139,
+      "sha256": "210fe7b78fccd4150f87c81e945e6fab09b4113193d934ed608dd349c5e428bf",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/live-closure-captures/capture-046.json.gz",
+      "bytes": 34139,
+      "sha256": "210fe7b78fccd4150f87c81e945e6fab09b4113193d934ed608dd349c5e428bf",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/live-closure-captures/capture-047.json.gz",
+      "bytes": 34139,
+      "sha256": "210fe7b78fccd4150f87c81e945e6fab09b4113193d934ed608dd349c5e428bf",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/live-closure-captures/capture-048.json.gz",
+      "bytes": 34139,
+      "sha256": "210fe7b78fccd4150f87c81e945e6fab09b4113193d934ed608dd349c5e428bf",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/live-closure-captures/capture-049.json.gz",
+      "bytes": 34139,
+      "sha256": "210fe7b78fccd4150f87c81e945e6fab09b4113193d934ed608dd349c5e428bf",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/live-closure-captures/capture-050.json.gz",
+      "bytes": 31803,
+      "sha256": "ffcd8b5b370dd7de16324667e15a60d9b5a10a1f7ac25e142c9493595dd77c4b",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/live-closure-captures/capture-051.json.gz",
+      "bytes": 31923,
+      "sha256": "b403c9c9e2dfc72d1b17e8025ee36d47bb902da999054e35a87b170f1fc09db7",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/live-closure-captures/capture-052.json.gz",
+      "bytes": 31923,
+      "sha256": "b403c9c9e2dfc72d1b17e8025ee36d47bb902da999054e35a87b170f1fc09db7",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/live-closure-captures/capture-053.json.gz",
+      "bytes": 31918,
+      "sha256": "43121e29fda208e5662c6da22615df92507c100fd25069509495379d964d4618",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/live-closure-captures/capture-054.json.gz",
+      "bytes": 31918,
+      "sha256": "43121e29fda208e5662c6da22615df92507c100fd25069509495379d964d4618",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/live-closure-captures/capture-055.json.gz",
+      "bytes": 31889,
+      "sha256": "17cb0f89f62476bdd3fd2bc2f09640fa56420d0015ca2827703dc67f6940df8b",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/live-closure-captures/capture-056.json.gz",
+      "bytes": 31889,
+      "sha256": "17cb0f89f62476bdd3fd2bc2f09640fa56420d0015ca2827703dc67f6940df8b",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/live-closure-captures/capture-057.json.gz",
+      "bytes": 31869,
+      "sha256": "262317565cfbad87bc8cdbfc3b25ff2d4c1a33f20e1dea611600f3a6250cf640",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/live-closure-captures/capture-058.json.gz",
+      "bytes": 31869,
+      "sha256": "262317565cfbad87bc8cdbfc3b25ff2d4c1a33f20e1dea611600f3a6250cf640",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/screenshots/author-tamsin.png",
+      "bytes": 70721,
+      "sha256": "7aaf80955fe4bfd65b153751906b063f3aeb960a05a365ead14c7a3931bfcac3",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/screenshots/collapse-technical-defect.png",
+      "bytes": 72762,
+      "sha256": "059be104c14e478801238054fc85cbf7edd479ebb00aeb93811c6ee2d433e6ae",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/screenshots/player-collector.png",
+      "bytes": 52027,
+      "sha256": "dc9c5bd92886eb2e1478efdb8c4539e1ef963fe250fbcfc15d616ff65ab5d5ad",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/screenshots/player-nera-vale.png",
+      "bytes": 51531,
+      "sha256": "9a78a54efec8c772418a890aef27ba4b76730318381f3c1bc7ba13f568272ff9",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/screenshots/recovery-author.png",
+      "bytes": 49215,
+      "sha256": "dd762d2dc1a1f5e75ee893ec5cdad92c4c75e3f9e7fc0c93f7f142d5f50187a9",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/screenshots/rejected-incompatible-catalog.png",
+      "bytes": 95109,
+      "sha256": "8576683c53f522ed55bd6e255b71619800540e4563d2319e81a85a0de5cc93fc",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/screenshots/visual-author-tamsin-source.png",
+      "bytes": 87446,
+      "sha256": "7bd843fe8caf31c6300037e26fe1891f5f394528603f198216cd9d0beff956cc",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/screenshots/visual-author-tamsin-top.png",
+      "bytes": 83434,
+      "sha256": "02dee671df6027e4c81dfd6eb2a33463f80d62417faeb913f8f142fdb9f8ea48",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/screenshots/visual-collapse-defect.png",
+      "bytes": 85504,
+      "sha256": "f378fa85b5143cecfe2904c989fdf7ed158726372665ee7a7e23f1b0aa889eda",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/screenshots/visual-player-collector-top.png",
+      "bytes": 87434,
+      "sha256": "07c695f4c8682a529657ad455ce8799fde69de540b213c0bfb41038232daa82c",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/screenshots/visual-player-nera-hidden.png",
+      "bytes": 76920,
+      "sha256": "e72430e043f9924a4e34c041a4e3892edba88b326ca013b8eca42c3ddc5e8f33",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/screenshots/visual-recovery-collector-top.png",
+      "bytes": 86607,
+      "sha256": "b03d4e6f50e4c8522c853a7853c3c359dab1e17311ce5ed34acf57969fa902a5",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/visual-review-captures.json",
+      "bytes": 188,
+      "sha256": "9be00e4e6578e52cd8a9d6ab2b0a09480d5b57fb85f47bd2738ffc8ac8d7b0ae",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/evidence/visual-review.json",
+      "bytes": 1441,
+      "sha256": "6fa16e9aacabb4fd00d320b8c02cb65f8a5ce75e902b079a5806ec0fdd55518d",
+      "role": "fresh-a1-independent-and-browser-evidence"
+    },
+    {
+      "path": "work/a1-review/fixtures/html-catalog.json",
+      "bytes": 8656,
+      "sha256": "5a209a4c4b29471f3a52edef1979f63ae4b5636801c5c28396ddeaa1a88ceb94",
+      "role": "fresh-adversarial-fixtures"
+    },
+    {
+      "path": "work/a1-review/fixtures/invalid-save.json",
+      "bytes": 222397,
+      "sha256": "aa69a60e18faad42fc3be881a9520e7d845c7f4710ae5e45deb0f24038294ff1",
+      "role": "fresh-adversarial-fixtures"
+    },
+    {
+      "path": "work/a1-review/fixtures/renamed-catalog.json",
+      "bytes": 9052,
+      "sha256": "4e5fa47593fbde064f2055f86a37d7c125416b786ab4889d55d56d9d7ceba014",
+      "role": "fresh-adversarial-fixtures"
+    },
+    {
+      "path": "work/a1-review/fixtures/same-name-catalog.json",
+      "bytes": 8776,
+      "sha256": "55fa96782e750d43c1b112d63ef6d0f05207982c34a4c993b8e74d56730e70da",
+      "role": "fresh-adversarial-fixtures"
+    },
+    {
+      "path": "work/a1-review/fixtures/unmodeled-catalog.json",
+      "bytes": 8944,
+      "sha256": "15bb1561f303f3f7b025d6d05b503d38ecac92e8ab5585e6d29eb997d20e6261",
+      "role": "fresh-adversarial-fixtures"
+    },
+    {
+      "path": "work/a1-tooling/content/m3/seed.mjs",
+      "bytes": 13141,
+      "sha256": "b4fd57ab97b52d22359da7b3cc8e107014c1cc934bd76b891316d0c7109d7ffc",
+      "role": "reproduced-output-or-proof"
+    },
+    {
+      "path": "work/a1-tooling/dist-atlas-a1/index.html",
+      "bytes": 1039524,
+      "sha256": "b9612d61f41bcf2bee5085902ff65c5e418b226de3dd5c8af6490ccd15e4ae9f",
+      "role": "reproduced-output-or-proof"
+    },
+    {
+      "path": "work/a1-tooling/dist-m3/index.html",
+      "bytes": 133751,
+      "sha256": "8e1c14e25a515b92188703927344e97b744921ec9b033ee2b1d8cc0b63f517cb",
+      "role": "reproduced-output-or-proof"
+    },
+    {
+      "path": "work/a1-tooling/evidence/atlas-a1/build.json",
+      "bytes": 3162,
+      "sha256": "0d2f0eb3cdcc0b75b86def23b9b42296faa84f870503f04c38543aea67413d80",
+      "role": "reproduced-output-or-proof"
+    },
+    {
+      "path": "work/a1-tooling/evidence/atlas-a1/expected-inputs.json",
+      "bytes": 24755,
+      "sha256": "2a728380e9332c42583d5a5947b408a1d31e1a43026853fd3d3425b7b8e0ae5e",
+      "role": "reproduced-output-or-proof"
+    },
+    {
+      "path": "work/a1-tooling/evidence/atlas-a1/preservation.json",
+      "bytes": 33595,
+      "sha256": "11d8523e1586bec30a3d183f3e7f41fdb2d5e31506c4c194a7f67072c3c1d60f",
+      "role": "reproduced-output-or-proof"
+    },
+    {
+      "path": "work/a1-tooling/evidence/atlas-a1/production-additions.patch",
+      "bytes": 1082611,
+      "sha256": "8c001cb118e9d434fbc3b97ab5ed6a29e1b49a4676046e91d3271cf8c6d84f7d",
+      "role": "reproduced-output-or-proof"
+    },
+    {
+      "path": "work/a1-tooling/evidence/atlas-a1/proof-summary.json",
+      "bytes": 26743,
+      "sha256": "e51717824070fd1ed8b64a4323675514d8728e577bb38188e6330b98b1da4ff2",
+      "role": "reproduced-output-or-proof"
+    },
+    {
+      "path": "work/a1-tooling/evidence/atlas-a1/source-identity.json",
+      "bytes": 20149,
+      "sha256": "bc9af5ab12d848b4758be0118b6179818b9a83fd4b4e5721fe0f0fc4e157d7ec",
+      "role": "reproduced-output-or-proof"
+    },
+    {
+      "path": "work/a1-tooling/fixtures/atlas-a1/conflicting-catalog.json",
+      "bytes": 8263,
+      "sha256": "4692b0695ff552e3579c4aa30ea11fc54fae6dff9b89e93ccbeccc12d9c5c73b",
+      "role": "reproduced-output-or-proof"
+    },
+    {
+      "path": "work/a1-tooling/fixtures/atlas-a1/incompatible-catalog.json",
+      "bytes": 8602,
+      "sha256": "1654367436c01f4513ef1b1b1d046b7e6b1084728915c04f48877bf25e8b852a",
+      "role": "reproduced-output-or-proof"
+    },
+    {
+      "path": "work/a1-tooling/fixtures/atlas-a1/invalid-save.json",
+      "bytes": 222399,
+      "sha256": "0f23c0abd7c096522360bda25dc63a7467f8151df3be732a418f2a35ad39cfe0",
+      "role": "reproduced-output-or-proof"
+    },
+    {
+      "path": "work/a1-tooling/fixtures/atlas-a1/same-name-catalog.json",
+      "bytes": 8638,
+      "sha256": "ab0b2c2e907c9fcfa26daceed7eb163b68aa44182169c3340bddbae9fa1d3f23",
+      "role": "reproduced-output-or-proof"
+    },
+    {
+      "path": "work/a1-tooling/fixtures/atlas-a1/unmodeled-catalog.json",
+      "bytes": 8994,
+      "sha256": "5e62a6881f5a141521b2afd342c0d04ad5a4ebfa903c6cc6767a40e4bba73d18",
+      "role": "reproduced-output-or-proof"
+    },
+    {
+      "path": "work/a1-tooling/proofs/atlas-a1/collapse-author.json",
+      "bytes": 619542,
+      "sha256": "727dd99043d01944684a61cdd7fd9e98837dc7d0a1e1a596519df7f9b043c38f",
+      "role": "reproduced-output-or-proof"
+    },
+    {
+      "path": "work/a1-tooling/proofs/atlas-a1/collapse-player.json",
+      "bytes": 168419,
+      "sha256": "dbaa7ed574add8f2f17b7ce7aadb215ae1715a1fa54e97354d0901c439108f17",
+      "role": "reproduced-output-or-proof"
+    },
+    {
+      "path": "work/a1-tooling/proofs/atlas-a1/initial-author.json",
+      "bytes": 238407,
+      "sha256": "c7a06f10391d0e0c15c40cdc5b44351f69b9f454e3c279b089c22b5797971048",
+      "role": "reproduced-output-or-proof"
+    },
+    {
+      "path": "work/a1-tooling/proofs/atlas-a1/initial-player.json",
+      "bytes": 23443,
+      "sha256": "09b2cecc578331c34242eaedc9e1435d9b91b619f686a9a5547bfdbc22b51aa5",
+      "role": "reproduced-output-or-proof"
+    },
+    {
+      "path": "work/a1-tooling/proofs/atlas-a1/pending-author.json",
+      "bytes": 1491872,
+      "sha256": "189deb08b5601d6b6c6607c4d4323fe9a1cc96a208511750e9b08e9403dbbf6c",
+      "role": "reproduced-output-or-proof"
+    },
+    {
+      "path": "work/a1-tooling/proofs/atlas-a1/pending-player.json",
+      "bytes": 317525,
+      "sha256": "76e62c3f0f840c30823f919b8894be768e64e573824ed45537e66ce64d51fa25",
+      "role": "reproduced-output-or-proof"
+    },
+    {
+      "path": "work/a1-tooling/proofs/atlas-a1/recovery-author.json",
+      "bytes": 1540530,
+      "sha256": "4d4f79100328c6b81caa150230ba7d4f9ecb65ab078dc7008ac04bbb0ae1d9f0",
+      "role": "reproduced-output-or-proof"
+    },
+    {
+      "path": "work/a1-tooling/proofs/atlas-a1/recovery-player.json",
+      "bytes": 332310,
+      "sha256": "3e7f04c5ab5ad1172ab70b65db00a7646466e2793d444bfe87a729eaed5864f9",
+      "role": "reproduced-output-or-proof"
+    },
+    {
+      "path": "work/a1-tooling/proofs/atlas-a1/repaired-author.json",
+      "bytes": 698762,
+      "sha256": "a11613569d3f25a9e0463fb3800c21c851bd4baaa0c421549bc4f28290cd8585",
+      "role": "reproduced-output-or-proof"
+    },
+    {
+      "path": "work/a1-tooling/proofs/atlas-a1/repaired-player.json",
+      "bytes": 198037,
+      "sha256": "28b968ddee084e5d9be72673e792ad0aef21b8cde2384122ab79eeaae45c9ae8",
+      "role": "reproduced-output-or-proof"
+    },
+    {
+      "path": "work/a1-tooling/proofs/atlas-a1/warned-author.json",
+      "bytes": 594305,
+      "sha256": "e61f72f74167be1b3b3f774a307ef032bf6d387ab9b19aed1e5155723fdf6143",
+      "role": "reproduced-output-or-proof"
+    },
+    {
+      "path": "work/a1-tooling/proofs/atlas-a1/warned-player.json",
+      "bytes": 162118,
+      "sha256": "9dd0b87734e76209028771a083a61567e5b8684cb73c1ef9d3b309eb9f5fe4c6",
+      "role": "reproduced-output-or-proof"
+    },
+    {
+      "path": "work/dependency/evidence/independent-r1-diagnostics.json",
+      "bytes": 9136,
+      "sha256": "e26e7b3656fdbb9516e058b25eed7d1b5129bb53d8be10a93215374e1d12fe7d",
+      "role": "fresh-r1-independent-evidence"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/after-d01-diagnostic.json",
+      "bytes": 672,
+      "sha256": "f2cd3ee20618b909673864de401b9cbce790c1bf0015f3210dc5b58285024c66",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/before-author-network.json",
+      "bytes": 129149,
+      "sha256": "3ecba423c81dc7bda5f00596e5ee8e20b6da87d442f3ceeffe8e5e3dcaac3c6a",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/before-author.json",
+      "bytes": 284783,
+      "sha256": "f31324a7da392cd3d0d9c0ba88a25b30a3ac77bc2049a3a2e4629d1974336f69",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/before-author.md",
+      "bytes": 134395,
+      "sha256": "83291e9e5ffc5d4f9de1eac6f4cc26b3ebf17eb6e0897d2ae97f578e4cdd38e9",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/before-cli-author.json",
+      "bytes": 347,
+      "sha256": "7752b35b01b5f9009cd1e8725af6eaf6c702244ed12a0d49fb0b6bd21031b201",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/before-cli-player.json",
+      "bytes": 347,
+      "sha256": "70630fc867fe1247b9a3d46ec742b62240411fb922feadefd21c15e81b34812d",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/before-independent-reproducer.json",
+      "bytes": 1344,
+      "sha256": "25171bc8c3ddfa014b6ef8cc1032da397f2a493bc1ae4647d710c236ed3c7016",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/before-observed-misattribution.json",
+      "bytes": 244680,
+      "sha256": "391903bfc95fe141b88148e0a4e3705b5ba68d69fac46d9d2e03d5435224d386",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/before-player-network.json",
+      "bytes": 82474,
+      "sha256": "c3951fe31dacab1b56dab22be3b260f28cb6b9d4f2ef5421fb97848942af99e1",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/before-player.json",
+      "bytes": 189661,
+      "sha256": "53e22b64fbeb3470a730ae81c83a4b4f6090d42e9bfe485d136390f550a7aa29",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/before-player.md",
+      "bytes": 92918,
+      "sha256": "ba5f8acc48c0f43046565d3e649c19de60679ddaf8a1f4bab428dbaf5e498d0d",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/browser/checks.json",
+      "bytes": 1247,
+      "sha256": "9b2954c3fe9f031568e3d3751243bb9f3ab99f49dba2865818928f1246a31dc6",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/browser/collapse-geometry.json",
+      "bytes": 1403,
+      "sha256": "094f9cfaf9270f99377fb16a3e39b74b3f860f82d3ba7eeb250cd0ada3adbac4",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/browser/console.json",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/browser/normal-geometry.json",
+      "bytes": 1402,
+      "sha256": "40deb4a1306a2e42e4352430d797c4f76499602cc559152d9143505f2ef6d36c",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/browser/ui-acknowledged-trace.json",
+      "bytes": 671048,
+      "sha256": "5c74be925ed979e3aac0dd49120716380ba3fa4bd6951869dec8283dd27c4246",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/browser/ui-acknowledged-transcript.md",
+      "bytes": 29541,
+      "sha256": "0dc2ab38884832e51e0cc09ae0dd16afc26756af071b4dce769cab75c8f52fc9",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/browser/ui-acknowledged.json",
+      "bytes": 394415,
+      "sha256": "4ef0b284fe65687ee9458eef4e363a3ee810c490a2b7a8bbaf94f394d319e76e",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/browser/ui-collapse-preview.jpg",
+      "bytes": 72860,
+      "sha256": "11b0bbeaf08b9d9c4636c93447761ba5e044a503300731c02ea51069a51c6db4",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/browser/ui-collapse-raw-trace.json",
+      "bytes": 333722,
+      "sha256": "9cda60252faa6852ee48d299d78d4d34e8e29f5c069e5d279a2ca8e57bd1f0a3",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/browser/ui-collapse-trace.json",
+      "bytes": 354983,
+      "sha256": "0cb2459a329b56ff3e80622137da395fef9ce1c1f3e7734417803147324ee7d5",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/browser/ui-collapse-transcript.md",
+      "bytes": 20197,
+      "sha256": "fd25aea9b5c58b06dff5fc0e65e05bbff6275849fba58ff30f3d1cb3dd3847d4",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/browser/ui-collapse.json",
+      "bytes": 251479,
+      "sha256": "3a0211b218db34504f3152ca790261910b4d5a18734815de749ef2837349f479",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/browser/ui-initial-trace.json",
+      "bytes": 13301,
+      "sha256": "52156e6f53235c593744c414110192b742067d1aa33bae2b5b067b8cf2d693b3",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/browser/ui-initial-transcript.md",
+      "bytes": 130,
+      "sha256": "b8f10ed98559060f893f8a5e42650bf01aee455705bff0e0270a5e823c8a2db7",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/browser/ui-initial.json",
+      "bytes": 36508,
+      "sha256": "233e5d1241d126cbc66e3c5d58f1e450c310ec4fd35e9e6d8fba5e8e466d5204",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/browser/ui-normal-preview.jpg",
+      "bytes": 81334,
+      "sha256": "c7bbd25c160217f534137b77a396bbd5dca708b6c2caf62a9c9d0ded561d120b",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/browser/ui-normal-raw-trace.json",
+      "bytes": 336761,
+      "sha256": "ffcceac7fece9a71e8e9f4a84a9dd2583dfda6d5a67e7629b622ef2e261bd98b",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/browser/ui-normal-trace.json",
+      "bytes": 358254,
+      "sha256": "57b796a1d897a96f1b04f7e0020f8aaa111f7c5e4f186afb4389d3af36142485",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/browser/ui-normal-transcript.md",
+      "bytes": 20195,
+      "sha256": "0e0ce34701342dbfc28793bdb312759bd7cd27303d83c066918c1f289047748a",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/browser/ui-normal.json",
+      "bytes": 255252,
+      "sha256": "0bbe236c83789a63c0cf49134962e3a9774e3236fcb56d2e9b50332c289793eb",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/browser/ui-opened-trace.json",
+      "bytes": 57105,
+      "sha256": "0ee00c732423a6118998e4d3b0195784207841c61f372330edbb715571f7e205",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/browser/ui-opened-transcript.md",
+      "bytes": 3107,
+      "sha256": "28c8304da728703bc0236126f41fe96a583285b9062348d00ac0f08d18e6facc",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/browser/ui-opened.json",
+      "bytes": 69885,
+      "sha256": "a086cab0da3044908b6e16535bc4451ac72bee4529e82a3e7b9c276e06e78635",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/browser/ui-pending-trace.json",
+      "bytes": 586356,
+      "sha256": "4dd6ade05554396dbf4181a8deaedc6e6a9d7a1dacc434065b9bcd68697a62e0",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/browser/ui-pending-transcript.md",
+      "bytes": 27086,
+      "sha256": "0d5cd18db883388aafa4cc9da90ba775831e2f3187ba8d4c3b8459742b93f792",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/browser/ui-pending.json",
+      "bytes": 363167,
+      "sha256": "1f7a0acdc992b1eba3b9eca7b216c45b9465b3ffef69446a2ed1c91b3d99ab0c",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/browser/ui-post-recovery-trace.json",
+      "bytes": 767310,
+      "sha256": "a7823db4ff164aec5ba4fc1fdcde538be8b41638c52e21e4428706e2fdc5724b",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/browser/ui-post-recovery-transcript.md",
+      "bytes": 32743,
+      "sha256": "288bc7a5341dd6f485ee0a912072503d48b875efa094c55d087c3d23d7968374",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/browser/ui-post-recovery.json",
+      "bytes": 434404,
+      "sha256": "ef87110e04f4e1871060d8be34a821c1f85785300cc1cc2d42cf6a7ac17f641f",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/browser/ui-recovery-final.jpg",
+      "bytes": 73248,
+      "sha256": "2f97c55dd43a991dc4a46b3136fd92f2d64f153f70f165e3a292243be07ed79e",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/browser/ui-recovery-raw-trace.json",
+      "bytes": 635381,
+      "sha256": "2bfa243f857079143249e7ccd02f1152de7ccca34ffa9016ed9c7d85b56834a2",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/browser/ui-recovery-trace.json",
+      "bytes": 675290,
+      "sha256": "9673c1616a15a61297a62b57ade153bcbf71531b7ec5e7ce33f8a245cbfd3fb5",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/browser/ui-recovery-transcript.md",
+      "bytes": 30257,
+      "sha256": "4237869de1b2a050552bf44fb56f1d588a9ac65df0c654fabbddc908c32e71a2",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/browser/ui-recovery.jpg",
+      "bytes": 71455,
+      "sha256": "206e8cabbb23b8ee171ebd1281462a5023ad5c75582737b6317733cc026e4a0f",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/browser/ui-recovery.json",
+      "bytes": 400435,
+      "sha256": "ec2df864bf034fe75b6499f5e1375ef28bf79548f9c57bb2c86fb388ba9f5116",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/browser/ui-repair-continuity-trace.json",
+      "bytes": 418677,
+      "sha256": "2aa819e2e6e8b537103762ff653d08d9d52985dc9bd3b99fe10ff8cb470a3f13",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/browser/ui-repair-continuity-transcript.md",
+      "bytes": 23529,
+      "sha256": "02409314d8bd3045eab7f457940cfa7da955d13918f92614224500a9c2a4f813",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/browser/ui-repair-continuity.json",
+      "bytes": 283056,
+      "sha256": "e0541df001c31ca01d3f61d36f0327a72bfb0e78a86a56ccbca5b5a4a4932f55",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/browser/ui-repaired-loaded-trace.json",
+      "bytes": 487598,
+      "sha256": "f3603af8b43d20041b33d7e5d742af2b59f0add0d2ee491284ef995fc9a768a8",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/browser/ui-repaired-loaded-transcript.md",
+      "bytes": 26176,
+      "sha256": "9dd22340f8a9eaa765127e5181810347916c385226022ebbbf5cf024ea1a580d",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/browser/ui-repaired-loaded.json",
+      "bytes": 313702,
+      "sha256": "3a61c834f2bd8528d1bc00e139726c6b713a4f6d92f6d9f0d407e01582a857f4",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/browser/ui-repaired-trace.json",
+      "bytes": 487598,
+      "sha256": "f3603af8b43d20041b33d7e5d742af2b59f0add0d2ee491284ef995fc9a768a8",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/browser/ui-repaired-transcript.md",
+      "bytes": 26169,
+      "sha256": "94b075659cfde909aea680512b32ee572c9baae2b34bf26d2aa998b43a41378d",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/browser/ui-repaired.json",
+      "bytes": 313702,
+      "sha256": "3a61c834f2bd8528d1bc00e139726c6b713a4f6d92f6d9f0d407e01582a857f4",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/browser/ui-replayed-trace.json",
+      "bytes": 767310,
+      "sha256": "a7823db4ff164aec5ba4fc1fdcde538be8b41638c52e21e4428706e2fdc5724b",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/browser/ui-replayed-transcript.md",
+      "bytes": 32738,
+      "sha256": "d169fab78b674a60712839e1ace68c861391b4bd5eabbde26c4e3ef667969c20",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/browser/ui-replayed.json",
+      "bytes": 434404,
+      "sha256": "ef87110e04f4e1871060d8be34a821c1f85785300cc1cc2d42cf6a7ac17f641f",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/browser/ui-warned-trace.json",
+      "bytes": 294702,
+      "sha256": "a263c6efa2cb95b1a9b4af310c8f9d7178515f21f8fa72b366b9e208b36873bf",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/browser/ui-warned-transcript.md",
+      "bytes": 17513,
+      "sha256": "ca49f49d18fae8dd9725762932bfd53b42784725477ac7a2e624d96dd223b8b1",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/browser/ui-warned.json",
+      "bytes": 222398,
+      "sha256": "8d0f676c83aa731ae5619a2b3833624472e4fa29dc1664af4d04eebef3af3a11",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/executed-commands.json",
+      "bytes": 35465,
+      "sha256": "59d035ec5c2a9018ef817cd31628b349fc8c886a8cd25d00e6ceddff62d25516",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/fresh-all-inherited-ar0.json",
+      "bytes": 24249,
+      "sha256": "1d45676057d406ccba0d158c90d3032713e7eaf61210fe2168b84b8f839136c3",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/fresh-conflicting-cli-author.json",
+      "bytes": 1596,
+      "sha256": "c62862267d0a6cd5b5438cc70441f6aeefa4a597658bcde697405c9a5dd8f7da",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/fresh-conflicting-cli-player.json",
+      "bytes": 1596,
+      "sha256": "660fe6340dadf4302c3ca4a3a9a98ff74a763ed97125e18bfcf816972980846b",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/fresh-identity.json",
+      "bytes": 737,
+      "sha256": "49cf0d873b0b1af72736d6131adbf8adcf73e32feedcd69ddbe791381aababf4",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/fresh-independent-ar0.json",
+      "bytes": 6397,
+      "sha256": "f677ae93d2fa6573c37b202bd06309064c9dee3a19aa06860e4bb1dc646fad0f",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/fresh-preservation.json",
+      "bytes": 713,
+      "sha256": "5b7ef9ef7c5df84322966165cd0f4ce6913891d20321abb2340903e1d681f6ae",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/independent/independent-api-initial-author.json",
+      "bytes": 65204,
+      "sha256": "c37c3113b3dbc6fde5f848ee8da4bb32e228602f79d28b72e244fa47650e0d74",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/independent/independent-api-initial-player.json",
+      "bytes": 19152,
+      "sha256": "fba76155bee880d2d5c31a97db5a25e3b21d96a7363903743121becb28f59941",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/independent/independent-api-initial.json",
+      "bytes": 36508,
+      "sha256": "233e5d1241d126cbc66e3c5d58f1e450c310ec4fd35e9e6d8fba5e8e466d5204",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/independent/independent-api-pending-author.json",
+      "bytes": 359931,
+      "sha256": "50bf0915fea34ad5322e868c8585ec98eee0edfab8227a94bc7d8dbded594779",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/independent/independent-api-pending-player.json",
+      "bytes": 225714,
+      "sha256": "543a039a7f0fda0615383bd6dee409c9cc5fcc837483078b6883c79446de168a",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/independent/independent-api-pending.json",
+      "bytes": 246183,
+      "sha256": "76c6ee193d586bd98c7b791b2dd2ffec3d51f5d0fdd612ec321b267908a24237",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/independent/independent-api-post-author.json",
+      "bytes": 423076,
+      "sha256": "6b2124a3854167846525f6f2a87f131337fb0430417d5953d75f68685518fe06",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/independent/independent-api-post-player.json",
+      "bytes": 270495,
+      "sha256": "f24d5c4a656b850a4c52883c583b8c81cd3714e8e3d369590c53fcddeaba52ae",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/independent/independent-api-post.json",
+      "bytes": 316483,
+      "sha256": "653f94a3ad65a606c6ed1ddd330c92b13d1cdb70ac14ad6481bb3d4a5eb17874",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/independent/independent-api-recovery-author.json",
+      "bytes": 394633,
+      "sha256": "143c18f9c30c5944cff7f558ad965e894db51490a676f2429cd9c3fd8e477e83",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/independent/independent-api-recovery-player.json",
+      "bytes": 249556,
+      "sha256": "5e5e364cccd4fe1cfdb5a2c56205a5dbc887b71b57926dacd38e4a75c8fb82db",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/independent/independent-api-recovery.json",
+      "bytes": 282928,
+      "sha256": "c29a16ddc3d09855a111cc2e4ebf4f45f640ad9abd216dbd82f7c3545608b420",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/independent/independent-api-warned-author.json",
+      "bytes": 230170,
+      "sha256": "aabad0a014c6fd86996c2b710aee91a5081a30515246e7db514eecb4f272a62b",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/independent/independent-api-warned-player.json",
+      "bytes": 149577,
+      "sha256": "41381df0654f01c79f2e424763e44ecc298c80ae85cf7a5b9a4ced31c16e97b6",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/independent/independent-api-warned.json",
+      "bytes": 167153,
+      "sha256": "3e06e1b65575c233991814704d809e99f4c55c9ffd49f24cfd003e00faf72cdf",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/independent/ui-warned.json",
+      "bytes": 222397,
+      "sha256": "3e42b63944c3dcf8b6a8a992bf0db44028dae40dceabfa74361bcc8c4d560e65",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/preflight.json",
+      "bytes": 458,
+      "sha256": "90c2b5346fbf88d332a9504ea1e96e8932c833c1d5059cb4a01d2b9262b22680",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/preservation.json",
+      "bytes": 34495,
+      "sha256": "7f853bb340e55c17f879ab85b7d4079721141a6ca391a040d35e56fd8c9f4cc2",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/production.diff",
+      "bytes": 5804,
+      "sha256": "7bc517a3d3a3d5314061029894c501d7001e330f7aead54f57025e717daad915",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/proof-source-binding.json",
+      "bytes": 683,
+      "sha256": "2ecaf78cc0dd2765a698d42217a8206aefb003e304301738185c37345395680c",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/proof-verification.json",
+      "bytes": 28699,
+      "sha256": "308e9f6fc75eb6086f080de15c051cb68f25815e90cc0528825c8dadd99ecedc",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression-source-binding.json",
+      "bytes": 358,
+      "sha256": "3083146f616a84ede7ec2f69befe3e8d9a7121a6e251ba466b3ec27282b8de4a",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/baseline-verification.json",
+      "bytes": 597,
+      "sha256": "2f8b89d382a2f208e39751e84886890eaa36b1f86a73e3b5058d3702357c9d96",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/browser/checks.json",
+      "bytes": 2798,
+      "sha256": "164e977f11459a01492b93156936d1b224b9da7db0e11451c1d710d7b2fb175e",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/browser/console.json",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/browser/server-cleanup.json",
+      "bytes": 331,
+      "sha256": "7ce292c48a1682b8458f1b3f3bac30dc77080eac6ffeb4de8acc5cabbbd8e86f",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/browser/server-process.json",
+      "bytes": 137,
+      "sha256": "1d475845d88b90dca0d47072086f707a51a4e1dd1c23f5423e0d973fd2739c9a",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/browser/server.stderr.txt",
+      "bytes": 624,
+      "sha256": "53dba18790612ecf71fc2776812657664379756106bd09fad3eb1f37d425e430",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/browser/server.stdout.txt",
+      "bytes": 109,
+      "sha256": "784523f06bc4e5f50714ece41a0eb40671fc669ba7e0436856261b5112da08a3",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/browser/ui-acknowledged-trace.json",
+      "bytes": 671530,
+      "sha256": "e133d271f1ddd1b17f1c122ce9d3be00470f05a18556e79b7b6adf1e265ae2d7",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/browser/ui-acknowledged-transcript.md",
+      "bytes": 11050,
+      "sha256": "57c603b0423a967a2cc65c57faea536f53d2d40dc607292df892a023f8e694dd",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/browser/ui-acknowledged.json",
+      "bytes": 394615,
+      "sha256": "024cfc95365c1d01c1849365fd73260e6f4a23f68706c38759f04c0cf3d0d7cc",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/browser/ui-ancestor-geometry.json",
+      "bytes": 1019,
+      "sha256": "697d3179ed2d77fc50762ee82ad91439405fca34f673f01eff3b5e8c0590afc6",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/browser/ui-ancestor-trace.json",
+      "bytes": 355279,
+      "sha256": "87c377adbeb1a57d8347223f0c5ba0524c142de7abe927b424fa4f45bd516667",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/browser/ui-ancestor-transcript.md",
+      "bytes": 7301,
+      "sha256": "f64e4e4f1b1237a11610f4f00de4fe274a3e83df6307c014fd44df60d9bdddfb",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/browser/ui-ancestor.json",
+      "bytes": 251479,
+      "sha256": "b4febf608af11b6038adc293cec224cde5f6a8d08f7fd399a20f3fe2cda6129f",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/browser/ui-collapse-geometry.json",
+      "bytes": 1020,
+      "sha256": "8d2577bbf4a7ac4cc280274b4b78131631aada5a249a1f6cab51279249af7673",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/browser/ui-collapse-outcome.png",
+      "bytes": 66432,
+      "sha256": "0d413ac0d81153b3b60f7c88f3af7ac3e6a675a94663428d81fe7a6bc7a31441",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/browser/ui-collapse-preview.png",
+      "bytes": 72860,
+      "sha256": "11b0bbeaf08b9d9c4636c93447761ba5e044a503300731c02ea51069a51c6db4",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/browser/ui-collapse-raw-trace.json",
+      "bytes": 333722,
+      "sha256": "440e4295881818ad0d74b5c30338b6454b5a0270e1ab59f8db12954e48da7828",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/browser/ui-collapse-trace.json",
+      "bytes": 355278,
+      "sha256": "e6c112ea86eb77bdd4827a2fe69b6ef5f83e1d3ed2126b617fa11a07ed535706",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/browser/ui-collapse-transcript.md",
+      "bytes": 7301,
+      "sha256": "6629cb71498779e94b3926ceef6194ff2e0f1c4395b4ddc8cb03368869340a71",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/browser/ui-collapse.json",
+      "bytes": 251479,
+      "sha256": "6757d7ba1284ede16809ec0b5edc88571613e277149cd532dac8b6d89b050f50",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/browser/ui-horizontal-geometry.json",
+      "bytes": 969,
+      "sha256": "eae955cd9312492a4b74181802e47665c9508aff3accc0254fd2586eb62c34d9",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/browser/ui-horizontal-trace.json",
+      "bytes": 355279,
+      "sha256": "6dbf203267e81bdee3a2ac8b3fe59a4e682db1120af354da43794533e27723f7",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/browser/ui-horizontal-transcript.md",
+      "bytes": 7301,
+      "sha256": "e6ece585c2345815f9e203b21833ba69fa179200837269deb023563170ab9bea",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/browser/ui-horizontal.json",
+      "bytes": 251479,
+      "sha256": "1374c17ae22e709c18bdcaa211d8de076dc3d36bc7342ffffb1a59e5cff7dfea",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/browser/ui-initial-trace.json",
+      "bytes": 13599,
+      "sha256": "b38d2be5fedef6731406a692d0f9f3bbb536868b79faccc807d8fda8d55eb17e",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/browser/ui-initial-transcript.md",
+      "bytes": 221,
+      "sha256": "236d6efd2760c6af606a4650f7d662c0209334fb62ae6c2b368930e2df5629b6",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/browser/ui-initial.json",
+      "bytes": 36508,
+      "sha256": "233e5d1241d126cbc66e3c5d58f1e450c310ec4fd35e9e6d8fba5e8e466d5204",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/browser/ui-missing-geometry.json",
+      "bytes": 923,
+      "sha256": "2e0ff3852008408e0343d2c157a32918e022a0a0f94f4faec9566d561a399f0e",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/browser/ui-missing-trace.json",
+      "bytes": 355279,
+      "sha256": "456a5897db9e5e73ef9babc108f524039d0259b99d5dc4bd01d5adf0ba01774b",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/browser/ui-missing-transcript.md",
+      "bytes": 7301,
+      "sha256": "8ea4e9c40ee5ceb54277b09413f3df8341d3d40934f7c3e52d5eae98e4d68ba1",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/browser/ui-missing.json",
+      "bytes": 251479,
+      "sha256": "181b5995013bca9a8309068f9c853c333985f75053663d75e1ab6df29344ba41",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/browser/ui-normal-geometry.json",
+      "bytes": 1019,
+      "sha256": "c1112aef5b96588b7510d6045ee330183731bf6a763c65a96981f8fad6aea8c7",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/browser/ui-normal-loaded-trace.json",
+      "bytes": 358734,
+      "sha256": "2cc1e3bff3fc9273c640fcab0d048a497eeda2a6e3f13301b87020bf341856d2",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/browser/ui-normal-loaded-transcript.md",
+      "bytes": 7327,
+      "sha256": "163ffcfedadbecd3ffed309d57f9eae80e64ddd89e84f4e59d62f97f95145744",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/browser/ui-normal-loaded.json",
+      "bytes": 255452,
+      "sha256": "82d07e5fe1735aa524aa42e04d71a214a0e7dfabdea2ce405db93fa5e8995885",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/browser/ui-normal-preview.png",
+      "bytes": 82290,
+      "sha256": "75fed6c0c08f7921cf07409abc69b144534fa6a722ac01b6a845adea48ee52b9",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/browser/ui-normal-raw-trace.json",
+      "bytes": 336945,
+      "sha256": "9f0fab57d7bd27d82a3e6a246a08eb12e612f830ef7b32bd496457b2c16bc9e6",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/browser/ui-normal-trace.json",
+      "bytes": 358733,
+      "sha256": "88ffdd15ba7df42aa09c2fe7457cc4b3c240a554f6dd1df2e97c099e17e6d9ee",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/browser/ui-normal-transcript.md",
+      "bytes": 7327,
+      "sha256": "163ffcfedadbecd3ffed309d57f9eae80e64ddd89e84f4e59d62f97f95145744",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/browser/ui-normal.json",
+      "bytes": 255452,
+      "sha256": "82d07e5fe1735aa524aa42e04d71a214a0e7dfabdea2ce405db93fa5e8995885",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/browser/ui-opacity-geometry.json",
+      "bytes": 1019,
+      "sha256": "86e414c1cbb09a3fa867b8b92b9b4c143153d1d320598c2698741677e9b9ee48",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/browser/ui-opacity-trace.json",
+      "bytes": 355279,
+      "sha256": "a407f1eab4b11ee38265b9ae33d21461130d18581e152dda6ef08ede6b6c7927",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/browser/ui-opacity-transcript.md",
+      "bytes": 7301,
+      "sha256": "1ea95806ada2ef16670c03408a9a0dd5f77d12e7ecf2da5251f5da7f2acfacbf",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/browser/ui-opacity.json",
+      "bytes": 251479,
+      "sha256": "fe3622dd2857421e5de4fb0796c93a0850693834bc89f500470a2503fbf4e291",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/browser/ui-opened-trace.json",
+      "bytes": 57403,
+      "sha256": "cac37ccfa35e067f5af6f576525c282c8085a34bd95273020852cabb7aab8c8a",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/browser/ui-opened-transcript.md",
+      "bytes": 1245,
+      "sha256": "7f8697f345a83a6b60edac4608d64c4847376729bf53a3816b989992422b6469",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/browser/ui-opened.json",
+      "bytes": 69885,
+      "sha256": "06f7719a2c0e8328ff1b3a3fe967c69b549d8a680b15fc554c9b0729c23edd56",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/browser/ui-pending-trace.json",
+      "bytes": 586654,
+      "sha256": "2a24bd8398c9f36d276ccddeba580b27423d94aaa5e14214771c16c258c61ba3",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/browser/ui-pending-transcript.md",
+      "bytes": 10315,
+      "sha256": "f2468bb54689d47d5606cbd518d6f54d632e86e6b4f717f1f80b0e1957bc470a",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/browser/ui-pending.json",
+      "bytes": 363167,
+      "sha256": "ccb5e93b046bcea1484346a04532b14726aa7e95c899fc5411ebe29c692e6749",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/browser/ui-post-recovery-trace.json",
+      "bytes": 768008,
+      "sha256": "7534fb3e1cf836796c1a7a567e1240f85492fe6c3cf1d35ebe22cf8e21fecddf",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/browser/ui-post-recovery-transcript.md",
+      "bytes": 12315,
+      "sha256": "3057672e12078e451eceb9d4eb8addfe7301a5b25b5804e5b1013baf4dfaa718",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/browser/ui-post-recovery.json",
+      "bytes": 434804,
+      "sha256": "dd7a9d1bc27fac1b2140d650d4187beeeb1f9683d5233e31b9c7850d2b1a6e1c",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/browser/ui-recovery-final.png",
+      "bytes": 73248,
+      "sha256": "2f97c55dd43a991dc4a46b3136fd92f2d64f153f70f165e3a292243be07ed79e",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/browser/ui-recovery-raw-trace.json",
+      "bytes": 635565,
+      "sha256": "2bbf3c2b0c8f8433beb80eca72cecab25a591db44ded04a7cfbee4bc1a79a7cd",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/browser/ui-recovery-trace.json",
+      "bytes": 675769,
+      "sha256": "4fdba4b84a2b9e99df6414f680b0979a4ce8eeb92047db429696c59473de0cf7",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/browser/ui-recovery-transcript.md",
+      "bytes": 11540,
+      "sha256": "446195df9f573aeb22998301cff47f86fc57c0b0718f32885b2c132ff0858b52",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/browser/ui-recovery.json",
+      "bytes": 400635,
+      "sha256": "71c6fde48bc266afabfc067c02476d1b17b002a5d6a661d7e7d0954f7631a181",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/browser/ui-recovery.png",
+      "bytes": 69337,
+      "sha256": "b15487cf9b6872f765f83cfb5b1ef157e0f38fb2b3639e354e82ca0739d5e39f",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/browser/ui-repair-continuity-trace.json",
+      "bytes": 418975,
+      "sha256": "f8be3a3e3b15e3e63245d18368b5d9c890d9dd1ad3158b36534bec2e8ee96c3e",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/browser/ui-repair-continuity-transcript.md",
+      "bytes": 8674,
+      "sha256": "ef8dbb93a9431422e44303e4a76f95cf69e7a8a53d9fde23e27a5a73a3b42369",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/browser/ui-repair-continuity.json",
+      "bytes": 283056,
+      "sha256": "c2e7acdc6552309a4c0d77d4f4af1b69dc713f45c9eccad7f29d5cdc9200dcf4",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/browser/ui-repaired-loaded-trace.json",
+      "bytes": 487896,
+      "sha256": "d2a85d1a9e79a5f0d4f5d018b53e6ccdfa02bff2db0edd3ec98ccc599b13f3ed",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/browser/ui-repaired-loaded-transcript.md",
+      "bytes": 9557,
+      "sha256": "25511992e3bd684d61b6a279ec3bf37254182b74e7a75b5cfbce9275a0d0fa61",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/browser/ui-repaired-loaded.json",
+      "bytes": 313702,
+      "sha256": "2d55c5b5f1b6cc002a69f24971800bab22af95f0d3390041faf3d33d7a4e4411",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/browser/ui-repaired-trace.json",
+      "bytes": 487896,
+      "sha256": "d2a85d1a9e79a5f0d4f5d018b53e6ccdfa02bff2db0edd3ec98ccc599b13f3ed",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/browser/ui-repaired-transcript.md",
+      "bytes": 9557,
+      "sha256": "25511992e3bd684d61b6a279ec3bf37254182b74e7a75b5cfbce9275a0d0fa61",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/browser/ui-repaired.json",
+      "bytes": 313702,
+      "sha256": "2d55c5b5f1b6cc002a69f24971800bab22af95f0d3390041faf3d33d7a4e4411",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/browser/ui-replayed-trace.json",
+      "bytes": 768008,
+      "sha256": "7534fb3e1cf836796c1a7a567e1240f85492fe6c3cf1d35ebe22cf8e21fecddf",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/browser/ui-replayed-transcript.md",
+      "bytes": 12315,
+      "sha256": "3057672e12078e451eceb9d4eb8addfe7301a5b25b5804e5b1013baf4dfaa718",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/browser/ui-replayed.json",
+      "bytes": 434804,
+      "sha256": "dd7a9d1bc27fac1b2140d650d4187beeeb1f9683d5233e31b9c7850d2b1a6e1c",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/browser/ui-warned-trace.json",
+      "bytes": 295000,
+      "sha256": "592d628e3fa8f5cbaaffb85a334a5c2a9948554380019c59dcee956c43cfcf3b",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/browser/ui-warned-transcript.md",
+      "bytes": 6351,
+      "sha256": "1e895fdfd0fc634bd71d36835a2cb376edaa3e7d9ad6be5c7142298dd2b49fbc",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/browser/ui-warned.json",
+      "bytes": 222398,
+      "sha256": "caac9d687ee00ef43c02f298567d5fcb5d55196e6f58d202afdf67f84034033e",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/executed-commands.json",
+      "bytes": 24607,
+      "sha256": "95d4ef617913516459046c3cb0fd455137c5faa159bd543d88bfaf35eccb4dd5",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/fresh-all-inherited-plus-ar0.json",
+      "bytes": 14853,
+      "sha256": "2cb27e552cefcd105dd4a53d3dff919b7bade9209a09255d7a4f70ea83743aba",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/fresh-browser-and-proof-evidence.json",
+      "bytes": 1056,
+      "sha256": "1a84e8c23e45e209e64583e4dbafcc2ae0b9092adec9b8d47590e91d981ec4a9",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/fresh-final-proof-generation.json",
+      "bytes": 1056,
+      "sha256": "1a84e8c23e45e209e64583e4dbafcc2ae0b9092adec9b8d47590e91d981ec4a9",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/fresh-identity.json",
+      "bytes": 1031,
+      "sha256": "3fd0e3b16d236108e21534a273bbad1e33753df5f5192e709cfc43e7f508342f",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/fresh-independent-r3.json",
+      "bytes": 7556,
+      "sha256": "1273d8269a5b4bb565d62cd330b3b423d9014f0ce0dea2f6ffc2f0f48a935d95",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/fresh-preservation.json",
+      "bytes": 1050,
+      "sha256": "a025857a2451d0fea15a71d645d2ecd19a9acb551576f89ce4da43b51a2f72a0",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/generated-evidence-summary.json",
+      "bytes": 19227,
+      "sha256": "5f2f0fa8511f87474426e2148415a2182db78ebaa07c747ef263840a4f08a7aa",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/independent-r3-execution/display-collapse-geometry.json",
+      "bytes": 1357,
+      "sha256": "3745152acb339539116e35af4731786ab90a3af36df324aaed009a52993c4b3e",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/independent-r3-execution/independent-collapse-reproducer.json",
+      "bytes": 273104,
+      "sha256": "9e48ba0871622fa28aac6a530b1cc3f2961a497b28e3db6acb3efbd3f9e8c1d1",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/independent-r3-execution/independent-inconsistent-reproducer.json",
+      "bytes": 276833,
+      "sha256": "6c01fa12dcb10010e98a61bbe9ff823031767c8d6a8fe5ee74ee43dec15c7d8c",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/independent-r3-execution/r3-fresh-warned.json",
+      "bytes": 222397,
+      "sha256": "502c0983e6bc926fa386cbb808203611ce3de8ad82185b47012e8601dc405472",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/original-artifact-preservation.json",
+      "bytes": 464,
+      "sha256": "814030777f9c5c26da6acab439282b3f5a558391fec7cfbad3c77975ecc7ff0d",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/preflight-inputs.json",
+      "bytes": 6811,
+      "sha256": "85b02dcca26b3cd71de15518b9b6bba865d4628cd5eda761ccaeaf0fc3e5e9ed",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/preservation.json",
+      "bytes": 53618,
+      "sha256": "0a5ae05bb033ec08f0b23d3d0577d78af83359c3c63a489ca87a5ae3265ec5f4",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/production-additions.patch",
+      "bytes": 34369,
+      "sha256": "255b5fedc59960fe86cb5f6c888ea7445cb19f39f0aea5aa712ac786001d8188",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/production.diff",
+      "bytes": 153,
+      "sha256": "413de62d5dcdff91483995ce2c8c881800b0510ffb4fae5905a92175faffb215",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression-source-binding.json",
+      "bytes": 527,
+      "sha256": "4d82d41ef3073faebd7f7182b2e15abb7887b9de7729536abcab18fa47d52756",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/after-focused-display.tap",
+      "bytes": 5555,
+      "sha256": "ddf3046fc39683bfd2fca2e59d0fda292904594fc4dbc6f3d4cf71afaf85da5e",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/before-builder-d03.tap",
+      "bytes": 1070,
+      "sha256": "2397df0ca06281c53510e6d951bdd2ce8607b14d3f1867c26a3ad319063263a6",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/before-independent-r2.tap",
+      "bytes": 5347,
+      "sha256": "adf13aa108c020785270aae8eaf7162b0900b5f975407ee11d1aa04a69faa2ac",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/browser-ancestor-geometry.json",
+      "bytes": 1181,
+      "sha256": "76eb457b115db712408fa908b609794615dcedc5af6823e560dbb9208034e173",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/browser-ancestor-trace.json",
+      "bytes": 355610,
+      "sha256": "5b335ef5b3e795c9a072208e99054335ab979093e4c8df9e4e2aed7367a2c108",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/browser-ancestor-transcript.md",
+      "bytes": 11722,
+      "sha256": "3826c527c9971ad26128cfb6b59b438f0d16d4cd84d8b9fcaeabe44b4a437174",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/browser-ancestor.json",
+      "bytes": 251479,
+      "sha256": "cc2fb86523736c207753c3f9713fdf6228be8cc989c2c3a4d91913f0da9dd95f",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/browser-before-collapse-geometry.json",
+      "bytes": 1182,
+      "sha256": "2edf269a0fb49f5d366e109021a5de7dc403efe715439a42ced00651ad5b835f",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/browser-before-collapse-preview.png",
+      "bytes": 72860,
+      "sha256": "11b0bbeaf08b9d9c4636c93447761ba5e044a503300731c02ea51069a51c6db4",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/browser-before-collapse-trace.json",
+      "bytes": 358887,
+      "sha256": "7b25c222afcb8ed95dca6f8271646b857636c1e26b7d5033da584b44e298bb1d",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/browser-before-collapse-transcript.md",
+      "bytes": 12797,
+      "sha256": "99f21c7d463e6f9769aae404f5b1c91ac6056cb7d7c52eabe4990b98760edb8b",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/browser-before-collapse.json",
+      "bytes": 255252,
+      "sha256": "86c8705bbf54654f16b349cb3aacd4d8e7ab41a30210d0f5ae4b03302566490d",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/browser-checks.json",
+      "bytes": 7427,
+      "sha256": "4eec12715ba20524ba398ae5381552f5677b66968726bf2643da0fbe2ba4b166",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/browser-collapse-geometry.json",
+      "bytes": 1182,
+      "sha256": "2edf269a0fb49f5d366e109021a5de7dc403efe715439a42ced00651ad5b835f",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/browser-collapse-outcome-final.png",
+      "bytes": 66482,
+      "sha256": "7153bad6a344da6732562ba3d8e76eec39ee012475c24c227c4dfb35fe5c000d",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/browser-collapse-outcome.png",
+      "bytes": 66432,
+      "sha256": "0d413ac0d81153b3b60f7c88f3af7ac3e6a675a94663428d81fe7a6bc7a31441",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/browser-collapse-preview.png",
+      "bytes": 72860,
+      "sha256": "11b0bbeaf08b9d9c4636c93447761ba5e044a503300731c02ea51069a51c6db4",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/browser-collapse-raw-trace.json",
+      "bytes": 333722,
+      "sha256": "5016f0352ecaacaee68ed10b31c3ce6dafa4d5dace7628a8119abdd8350e98da",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/browser-collapse-trace.json",
+      "bytes": 355609,
+      "sha256": "ffb08b6bac17dca33218ecaf02684f05477c9134f1d69f8c37c20b73176b73f2",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/browser-collapse-transcript.md",
+      "bytes": 11721,
+      "sha256": "e114e6b1abccc61913fe92e47ecbc297a317f10d6392c9917a8acc841dcbffd6",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/browser-collapse.json",
+      "bytes": 251479,
+      "sha256": "b47d1d17301976e34af39902dbdc2559a7a6d8f06c9d5b82103caf15279cdbda",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/browser-console.json",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/browser-display-none-geometry.json",
+      "bytes": 1085,
+      "sha256": "9ebc3c4fec41707d9bd235efd9a00308b90b237792fdc456996ab8e02a1d4d92",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/browser-display-none-trace.json",
+      "bytes": 355614,
+      "sha256": "8c554af83c337a6934e9de2b617acbbb1f3b2a2013ed815a9b6217f4ad624134",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/browser-display-none-transcript.md",
+      "bytes": 11726,
+      "sha256": "5a1319bb74af4183d88fcc9f80513a40bbb7e2215163616e1e2b63302872dc0d",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/browser-display-none.json",
+      "bytes": 251479,
+      "sha256": "afcddc5eead951ae0a77350ebea5ffb01f7b0a5c55afc99483e07e2763e90790",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/browser-hidden-geometry.json",
+      "bytes": 1180,
+      "sha256": "10dbbcb77c6bbcdf1724ea42846c717c1e921e316af31751a1501af379802b2f",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/browser-hidden-trace.json",
+      "bytes": 355608,
+      "sha256": "dc0739dd2ea8e496a7c973bfd286cf43f541004a190513347c4c8b4fead58d7b",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/browser-hidden-transcript.md",
+      "bytes": 11720,
+      "sha256": "1db15dd0a8ee9b151df7121627609f35780e70971343e7db8d191bfba9996858",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/browser-hidden.json",
+      "bytes": 251479,
+      "sha256": "367511a9f97f15085d5aa1efe4da5bbc6b974c7fa00f2d9e4dc67b1d6e1ab184",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/browser-horizontal-geometry.json",
+      "bytes": 1131,
+      "sha256": "958a5a2bde4c8542f38e15fc5adbf6d3693d27380d55bce0694814a4e1dbfcc8",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/browser-horizontal-trace.json",
+      "bytes": 355612,
+      "sha256": "31a2b645ad5b976fbe39b43c6fc8d5382834fdd5915ee6374a82378177c9cf2c",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/browser-horizontal-transcript.md",
+      "bytes": 11724,
+      "sha256": "86b22eb3127c3c5837ba538ff08c67d15d9911dab6ab3318ecaedd57b02f3f7a",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/browser-horizontal.json",
+      "bytes": 251479,
+      "sha256": "a14969eb9690efb76dea74032379e2c3e45df5cbfaca9b33da2187dca63409df",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/browser-normal-after-load-trace.json",
+      "bytes": 358890,
+      "sha256": "0a9e74ebc2155f39057925a33197bc995dcdd5ae485d24034ea55b4e5eb66f97",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/browser-normal-after-load-transcript.md",
+      "bytes": 12800,
+      "sha256": "d32bd1a3bd4460af01163699ba0fbe0698fdb4a3dd6928cbc7ffee0e7861d237",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/browser-normal-after-load.json",
+      "bytes": 255252,
+      "sha256": "40f681072e6a3367a5be14f49a495dd600b7505904215cd30f0a2823c90a18ed",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/browser-normal-geometry.json",
+      "bytes": 1181,
+      "sha256": "6d6284d5f93bc8da2b45cd3cab9f1dac2dadc1517e59f752ed33844f4f062785",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/browser-normal-preview.png",
+      "bytes": 81334,
+      "sha256": "c7bbd25c160217f534137b77a396bbd5dca708b6c2caf62a9c9d0ded561d120b",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/browser-normal-raw-trace.json",
+      "bytes": 336761,
+      "sha256": "58a05e2e2d3b070f7d1aa6af386a01fedd7bac8bc5260424c8c757457c460200",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/browser-normal-trace.json",
+      "bytes": 358878,
+      "sha256": "5a37727b1b9e0ac7564dd892b742da6b46de16578fdcc0a5ca8cb1ea30de97b7",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/browser-normal-transcript.md",
+      "bytes": 12788,
+      "sha256": "74677ec218696be0900919735a7efabbff0a9b0f23418418481e8b2ab8eacfac",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/browser-normal.json",
+      "bytes": 255252,
+      "sha256": "40f681072e6a3367a5be14f49a495dd600b7505904215cd30f0a2823c90a18ed",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/browser-opacity-geometry.json",
+      "bytes": 1181,
+      "sha256": "20f60049f9c9ba6586ddf1ce57bcd6da3bb043ea245fdf3dffc19b5a928d5510",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/browser-opacity-trace.json",
+      "bytes": 355609,
+      "sha256": "97762b9eb76179c7674e1fabdaf1005e95bcd08b47c9208214e5bdf6b9c6d3ae",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/browser-opacity-transcript.md",
+      "bytes": 11721,
+      "sha256": "9518231fedff23731a086f4fa86441d55e20730f37dc2664cb8c1cdf3a470e77",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/browser-opacity.json",
+      "bytes": 251479,
+      "sha256": "2335f2cc127737a72c79aa801a89c35067439fabb346c868a1c4c5c1bd7f8072",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/browser-partial-left-geometry.json",
+      "bytes": 1125,
+      "sha256": "9c626c50cd2115736b33e6f7f1d1cf6d7a6c3db15936e92a4fe8fcc74c0ca23e",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/browser-partial-left-trace.json",
+      "bytes": 355614,
+      "sha256": "9b287be02746f7e52a9cb0d204cb76e3d9fab093a0d989f5b377b0879f479a74",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/browser-partial-left-transcript.md",
+      "bytes": 11726,
+      "sha256": "b56bdad1f553adc444a3ab895fa186c9a407bf01054e1a0360d4582888b063d2",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/browser-partial-left.json",
+      "bytes": 251479,
+      "sha256": "c1f777f68bf4985cc726267b4724d23597fdcde150a4da1adb19cc8ab07706bb",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/browser-post-recovery-trace.json",
+      "bytes": 602237,
+      "sha256": "7f14b928a7670ef11fc326bada022f514185ebdaabedf44eba36995a0918a27e",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/browser-post-recovery-transcript.md",
+      "bytes": 22749,
+      "sha256": "d49d187c3a8506886b90727ac4e2377f220913a24e032ed2b36dd3582d18f47e",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/browser-post-recovery.json",
+      "bytes": 369364,
+      "sha256": "b65c7c2fab309fb0e678f9434f3bc0a5ee5cff7949fe4e781580191f25989d30",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/browser-recovery-outcome.png",
+      "bytes": 71887,
+      "sha256": "43c1ee4114a5c9880574bf27dbf3f9387ef463441a99f887662725bb51047e7c",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/browser-recovery-raw-trace.json",
+      "bytes": 486024,
+      "sha256": "ee36f885037b5cbfaaa27f5af38dc2666c05cd44c80395ca054d271941909a2d",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/browser-recovery-trace.json",
+      "bytes": 517559,
+      "sha256": "fe982568ad5b5ca7b5858b2d2fdca05bb89e744340b7d5380f6290a05f4254b3",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/browser-recovery-transcript.md",
+      "bytes": 22108,
+      "sha256": "ea245bb5ea553f5540d58fece6360d1da877019af7ae0515ae78445e72d5963a",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/browser-recovery.json",
+      "bytes": 335530,
+      "sha256": "c14d413a36d7b058321c42435b42e8aace984df06e684082de58e412b1717c76",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/browser-repaired-after-load-trace.json",
+      "bytes": 418430,
+      "sha256": "32f0fba47bba47680cbb8f519b1ec0caa33cf0ca29f09cbec47f5eeae5a63271",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/browser-repaired-after-load-transcript.md",
+      "bytes": 12034,
+      "sha256": "1d890deb35411e7dd54a386a66b45cd3c58cbdf9e944975101deba0afab4856e",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/browser-repaired-after-load.json",
+      "bytes": 280114,
+      "sha256": "27b4c5d3ac0278e6dc8fd9cf0645a9942d86ee6d5f257428140a1c15b80892f7",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/browser-repaired-trace.json",
+      "bytes": 418419,
+      "sha256": "8943abab3af23daf321c60e9255a6293714c37c9d53104e8971a10cc7a46fb7c",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/browser-repaired-transcript.md",
+      "bytes": 12023,
+      "sha256": "9a96b1913d8578ff6f919ee3713755fbae866a5963b185c8ab7e6bed4c193062",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/browser-repaired.json",
+      "bytes": 280114,
+      "sha256": "27b4c5d3ac0278e6dc8fd9cf0645a9942d86ee6d5f257428140a1c15b80892f7",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/browser-scroll-earned-geometry.json",
+      "bytes": 1181,
+      "sha256": "6d6284d5f93bc8da2b45cd3cab9f1dac2dadc1517e59f752ed33844f4f062785",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/browser-scroll-offscreen-geometry.json",
+      "bytes": 1183,
+      "sha256": "309e66b70e040a34e0169f9379ebdd7a1bf4068c3851f1bc79f35dc0675b90fa",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/browser-scroll-offscreen.png",
+      "bytes": 59555,
+      "sha256": "26214d6c64e002925832679f29796fc42fb1893bcbea2b84797032c1165cbb0c",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/browser-scroll-trace.json",
+      "bytes": 358879,
+      "sha256": "4a86f054008302ffeaa35ed890efda6c1cfd8fcd3127c47372cb56ec445563df",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/browser-scroll-transcript.md",
+      "bytes": 12789,
+      "sha256": "9fedd08c2546e232a4b8c4214ef16c5014339966aca3fd59b825551d27d69f1d",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/browser-scroll.json",
+      "bytes": 255252,
+      "sha256": "ce7856451f9ab5bb1597ff201ee72e1cd0c86c4199c9338a3a16b53b4abfaf50",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/browser-vertical-geometry.json",
+      "bytes": 1170,
+      "sha256": "40d471ce3475df254176a21b7d54aece0ba900b7eaea605c1a94a54f132e44ad",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/browser-vertical-trace.json",
+      "bytes": 355610,
+      "sha256": "a45cca707f54aba08b3eb1901626a2229b06ff9683649cce21197c02f593bd50",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/browser-vertical-transcript.md",
+      "bytes": 11722,
+      "sha256": "035e697bd7eac0917f2f807e92d8873af0c584ab765d71108b28a9c888eafec3",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/browser-vertical.json",
+      "bytes": 251479,
+      "sha256": "d819118d957eead8ebd2bf585b71f107907ef31aae84a9e7af0cf8abae0ec29f",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/browser-zero-height-geometry.json",
+      "bytes": 1168,
+      "sha256": "948183e8918e8d8dfd48b43f22f35a258c6cfa892eeba02116eca3675ce43701",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/browser-zero-height-trace.json",
+      "bytes": 355613,
+      "sha256": "365ba0b74002ccf4ca49a270b4bff2d8bf92f968e5ebf9b1d8dd8d3684749f81",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/browser-zero-height-transcript.md",
+      "bytes": 11725,
+      "sha256": "1ad6f5ecded485557c43c4e6f5d98ba39c3bdfb34b07581f0a52f049c3069893",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/browser-zero-height.json",
+      "bytes": 251479,
+      "sha256": "7a9557654fde5866541d94097daafc77eb6446dca5dd1641bc15ae0a22265cac",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/browser-zero-width-geometry.json",
+      "bytes": 1096,
+      "sha256": "bd33b4c334e213d0830c310a04ee04f297f40a3a01fe84f85c698f0918449719",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/browser-zero-width-trace.json",
+      "bytes": 355612,
+      "sha256": "236d01638575863c7a01bb477ca451a409477100020619c33e98cd00c472f984",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/browser-zero-width-transcript.md",
+      "bytes": 11724,
+      "sha256": "ac9f773f9b5e4c0208dcd5eb861aebc13ed6a0bcb34071277f85a06456fc8aa4",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/browser-zero-width.json",
+      "bytes": 251479,
+      "sha256": "f05dc440a6840e0fdcba00a2c5bea2932db2786aea69a92753b89b287a68522e",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/executed-commands.json",
+      "bytes": 17758,
+      "sha256": "4dba27d372b03bc2c80c5d96f76b75d82b93b5d4c3dbd88ceb554cabc29faf59",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/fresh-browser-evidence.json",
+      "bytes": 1239,
+      "sha256": "00697f7fb60f5e1872c322dc9e3929f0fb3bd8d178f5e350c474e4633f5ef5ef",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/fresh-build.json",
+      "bytes": 803,
+      "sha256": "35d92d8df433bdf929e78e7c34fcc4640347b1ab73a056d6f93139089f420583",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/fresh-independent-r2.json",
+      "bytes": 4918,
+      "sha256": "d798454f553d9ab5e4d01ece43b054eb9d28196ef87d8cbee8e67f4e61c9f23f",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/fresh-inherited-gates.json",
+      "bytes": 8812,
+      "sha256": "5ef317b37f1f7ad027dedfed3aec223aca65b83c6331b02bae249f359f389c50",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/fresh-preservation.json",
+      "bytes": 1057,
+      "sha256": "258054a2997ae31a0350720c43b7f09122d4548e87e661ccf1814b1769561bc4",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/fresh-source-identity.json",
+      "bytes": 758,
+      "sha256": "a04d3941022c2d0def1f2e7d711db09fcc92df6c1ef9934305da5c61be5bc434",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/generated-evidence-summary.json",
+      "bytes": 23699,
+      "sha256": "b4cd32ce067b05c98a6946362d25771118e8d8b01e3c9ac302f903883d4baa02",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/independent-execution/display-collapse-geometry.json",
+      "bytes": 1357,
+      "sha256": "3745152acb339539116e35af4731786ab90a3af36df324aaed009a52993c4b3e",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/independent-execution/independent-collapse-reproducer.json",
+      "bytes": 273027,
+      "sha256": "be8ab109b543ee228fee94ccec12187dc3ad95d8c345d929139a4191eef77601",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/independent-execution/r2-fresh-warned.json",
+      "bytes": 222397,
+      "sha256": "b51ba5a5ef3bbf9f5407229f453ecd13f69ea2f0b56b6f8b9e6b64a73cc58861",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/original-artifact-preservation.json",
+      "bytes": 685,
+      "sha256": "98e2e7dac49e0cc1642445d530ba75cb7eaf24bca7e0399e54521f4c0823553d",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/preservation.json",
+      "bytes": 77530,
+      "sha256": "c7a497ed81938958dd20f389f3b9094e2e554cf3608ccde484caf73f6fabff93",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/production.diff",
+      "bytes": 774,
+      "sha256": "ffbe41719d3c62b6fc625f8c0bf9e552a924c5ba26d6ae799078437f1c917c6f",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/regression-source-binding.json",
+      "bytes": 425,
+      "sha256": "9f51bb318b36b75d54a26ea7acff3e5fd9ac733d544745827991581abe5c4fff",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/regression/m0-m3/environment.json",
+      "bytes": 670,
+      "sha256": "a57b839fa3953afc7499412ec3201c071153cd0beeca16cbca1d7947971a7f68",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/regression/m0-m3/executed-commands.json",
+      "bytes": 65543,
+      "sha256": "a77b21ad86bbd0f5b4c85e883b9b52a818573f560162b55e2737f6f228d7b1c9",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/regression/m0-m3/fresh-build.txt",
+      "bytes": 991,
+      "sha256": "558fba4cd98861b08606c7ea0879e4157737c7e7b962a7c3a168826fe981779d",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/regression/m0-m3/fresh-builder-tests.tap",
+      "bytes": 47373,
+      "sha256": "8d654308e885f1997a50763576552fb399cd0f335f2a99412299adab802fb390",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/regression/m0-m3/fresh-generated-evidence.txt",
+      "bytes": 1192,
+      "sha256": "e9440330929a7171a01990a0b47c4de0b5036363c8c9010763038b883847d1fd",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/regression/m0-m3/fresh-independent-m1.tap",
+      "bytes": 6467,
+      "sha256": "6f7c4bd4790acc961d922275f5ab535111bd0244c6f2306960ebf0232ff37de8",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/regression/m0-m3/fresh-independent-m2.tap",
+      "bytes": 5674,
+      "sha256": "0d92d866a72fe9bcc836ee7a769f43fb199fb1efa1d9a0c93ecfb26ca1e4a234",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/regression/m0-m3/fresh-m0-audit.txt",
+      "bytes": 1478,
+      "sha256": "9efb3c9555eb60020b52e28d2bd30bfb6fa9b2d3adb7e3ff9223bce79e5d351e",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/regression/m0-m3/fresh-preservation.txt",
+      "bytes": 961,
+      "sha256": "556afdf347b90362939e7a028c585f6cb09b6f3fe2331875b01b88ebbcd3203c",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/regression/m0-m3/fresh-source-identity.txt",
+      "bytes": 956,
+      "sha256": "0c3f25f827e41d26d0e7df6f6020fa255fd7c7bd32cbc95d6d6ac986218ab29b",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/regression/prior-m3/executed-commands.json",
+      "bytes": 11770,
+      "sha256": "cdc75da5218ac675c1986c14dd2d886a9562d9038cc8f20fc8640f092cd1d7b3",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/regression/prior-m3/fresh-browser-evidence.txt",
+      "bytes": 1235,
+      "sha256": "080f2d688c289ab14e2ca9c18b48445558cab6af4ed538cbc2864feeff472ae2",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/regression/prior-m3/fresh-independent-d01.txt",
+      "bytes": 1009,
+      "sha256": "4a0653f8add6702fb01f8c2321ff61f3caa7217f2eb8a42ed2f35ea30b09e724",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/regression/prior-m3/fresh-independent-m3.txt",
+      "bytes": 5395,
+      "sha256": "32190580ce6b43e02262157e80c750606ec222ade1a75ea72177274e077bf85e",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/regression/prior-m3/fresh-preservation.txt",
+      "bytes": 1022,
+      "sha256": "e97139ac2c48db5d218dc95b26b37bbda8b2b4e88034abd2d9fb5e536c115481",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/regression/prior-m3/fresh-regression.txt",
+      "bytes": 2961,
+      "sha256": "17c4ad0a4fbd77fddbf53f04dd2cd2e2da04a60937acc38c1be8fdd487da5db9",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/regression/r2/executed-commands.json",
+      "bytes": 10926,
+      "sha256": "3b81aa2b33087addfa708abe80afaa7a355f31f8647940063fdb24d8429391fe",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/regression/r2/fresh-browser-evidence.json",
+      "bytes": 1258,
+      "sha256": "1983f41e0292e88b55bfb2b3a18156ba7ffe6a07e62791f429485e4dad8aaede",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/regression/r2/fresh-independent-d02.json",
+      "bytes": 2998,
+      "sha256": "e036b5fc6cd4ff2528e0c35e79d306751826c3cd3e147035cf9d244b32cb8f69",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/regression/r2/fresh-inherited-regressions.json",
+      "bytes": 5449,
+      "sha256": "6a235024c0d7c814b04b5bca94baa6c681ecf2daea3ff886b426c9a277ddefbc",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/regression/r2/fresh-preservation.json",
+      "bytes": 1096,
+      "sha256": "ed9d274fcc06aefa8a2e42c671703ac3a174309b66e506aa1dc91ed60416481b",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/rendering-fault-provenance.json",
+      "bytes": 4198,
+      "sha256": "e62e462928b48cefcf8d764bfbf8c4de19ed02a610cd7b14472c489b8e299121",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/server-cleanup.json",
+      "bytes": 331,
+      "sha256": "fc8d041ac5d03a566e3e6799e5ea3668bc8207ce793f8888c4d32afbe6960772",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/server.pid.txt",
+      "bytes": 7,
+      "sha256": "151c09ef52fe074aa7199178edbfe3340b062a2a312246661b0f592fc5193cb9",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/server.stderr.txt",
+      "bytes": 1133,
+      "sha256": "b88de6cb9dbfdcd69c4d3c45cd0544be75c5a380b694108ee16e3d7d6b819ed8",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/regression/server.stdout.txt",
+      "bytes": 39,
+      "sha256": "f5deaa251f4a604aca479c05d82435dc1ad0e95c0880f8da5e6467126765743b",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/rendering-fault-provenance.json",
+      "bytes": 1547,
+      "sha256": "00e3f2d2718b92a1a940b0340a61a88a9a020fc0f871350283ae9902cc79cc3d",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/source-diff-classification.json",
+      "bytes": 71234,
+      "sha256": "83ded07d9d4f1ae470195e3190f3b546e498e98983184b93cf0ce12133d24a9e",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/source-identity.json",
+      "bytes": 16768,
+      "sha256": "8e3bbbb0c042558b0dffb7817df15cb44d9dc0734415e4f964642186eeabee3f",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/regression/test-summary.json",
+      "bytes": 1709,
+      "sha256": "a4edbca245cffb7358730706073e2a93009dea61be311b2fa6e3e891d806e7fb",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/rendering-fault-provenance.json",
+      "bytes": 1547,
+      "sha256": "00e3f2d2718b92a1a940b0340a61a88a9a020fc0f871350283ae9902cc79cc3d",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/source-identity.json",
+      "bytes": 16776,
+      "sha256": "b67b2e385ce3cb6cdb2aae0ad05fc919f7f30ad9d9184f0e8cd2eccab8db0824",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    },
+    {
+      "path": "work/dependency/tooling-clone/evidence/ar0-r1/test-summary.json",
+      "bytes": 2519,
+      "sha256": "72411cbc796d0fe67ebba3201777b51354c3b5c742b44e261b049dfe915675cb",
+      "role": "mixed-retained-and-regenerated-inherited-evidence; identify-fresh-executions-via-command-manifests"
+    }
+  ]
+}

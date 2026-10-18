@@ -1,0 +1,279 @@
+{
+  "classification": "verification-harness assertion error; no baseline change",
+  "first_attempt_preserved": "browser-attempt-1",
+  "overbroad_assertion": "storage_location is forbidden at every saved point",
+  "correction": "Compare state-dependent disclosure to actual received records. Protected contact and private composition remain forbidden in all player views.",
+  "source_proof": [
+    {
+      "save": "pending",
+      "actor": "actor_0001",
+      "actual_received_observations": [
+        {
+          "channel": "reading",
+          "id": "observation_002b",
+          "observerId": "actor_0001",
+          "receivedDetails": {
+            "comparison": {
+              "complete": true,
+              "itemId": "subject_0001",
+              "serviceId": "service_0001"
+            },
+            "conduct": "Performs the permitted compare action.",
+            "evidence": [
+              {
+                "form": "document",
+                "label": "Recipient signature: unfilled",
+                "markId": "subject_0010",
+                "predicate": "recipient_signature",
+                "roots": [
+                  {
+                    "id": "result_0004",
+                    "kind": "action_result"
+                  }
+                ],
+                "subjectId": "subject_0003",
+                "value": "unfilled"
+              },
+              {
+                "form": "document",
+                "label": "Drying tag 041 matches the case reference",
+                "markId": "subject_0010",
+                "predicate": "item_reference",
+                "roots": [
+                  {
+                    "id": "result_0004",
+                    "kind": "action_result"
+                  }
+                ],
+                "subjectId": "subject_000c",
+                "value": "subject_0001"
+              },
+              {
+                "form": "document",
+                "label": "Drying tag records internal drying, not recipient collection",
+                "markId": "subject_0010",
+                "predicate": "handling_type",
+                "roots": [
+                  {
+                    "id": "result_0004",
+                    "kind": "action_result"
+                  }
+                ],
+                "subjectId": "subject_000c",
+                "value": "internal_drying"
+              },
+              {
+                "form": "document",
+                "label": "Case is in dry storage",
+                "markId": "subject_0010",
+                "predicate": "storage_location",
+                "roots": [
+                  {
+                    "id": "result_0004",
+                    "kind": "action_result"
+                  }
+                ],
+                "subjectId": "subject_0001",
+                "value": "subject_000f"
+              },
+              {
+                "form": "document",
+                "label": "Original collected entry meant removed from the rack",
+                "markId": "subject_0010",
+                "predicate": "original_entry_meaning",
+                "roots": [
+                  {
+                    "id": "result_0004",
+                    "kind": "action_result"
+                  }
+                ],
+                "subjectId": "subject_0003",
+                "value": "removed_from_rack"
+              },
+              {
+                "form": "document",
+                "label": "Separate hauling obligation: already paid",
+                "markId": "subject_0010",
+                "predicate": "hauling_obligation_status",
+                "roots": [
+                  {
+                    "id": "result_0004",
+                    "kind": "action_result"
+                  }
+                ],
+                "subjectId": "subject_0001",
+                "value": "already_paid"
+              }
+            ],
+            "references": [
+              {
+                "id": "subject_0003",
+                "label": "Collection record"
+              },
+              {
+                "id": "subject_000c",
+                "label": "Numbered drying tag"
+              },
+              {
+                "id": "subject_0001",
+                "label": "Nera\u2019s green instrument case"
+              },
+              {
+                "id": "subject_000f",
+                "label": "Dry storage"
+              }
+            ]
+          },
+          "roots": [
+            {
+              "id": "result_0004",
+              "kind": "action_result"
+            }
+          ],
+          "schema": "encounter-observation@2",
+          "sequence": 29,
+          "source": {
+            "id": "result_0004",
+            "kind": "action_result"
+          }
+        }
+      ]
+    },
+    {
+      "save": "recovery",
+      "actor": "actor_0001",
+      "actual_received_observations": [
+        {
+          "channel": "reading",
+          "id": "observation_002b",
+          "observerId": "actor_0001",
+          "receivedDetails": {
+            "comparison": {
+              "complete": true,
+              "itemId": "subject_0001",
+              "serviceId": "service_0001"
+            },
+            "conduct": "Performs the permitted compare action.",
+            "evidence": [
+              {
+                "form": "document",
+                "label": "Recipient signature: unfilled",
+                "markId": "subject_0010",
+                "predicate": "recipient_signature",
+                "roots": [
+                  {
+                    "id": "result_0004",
+                    "kind": "action_result"
+                  }
+                ],
+                "subjectId": "subject_0003",
+                "value": "unfilled"
+              },
+              {
+                "form": "document",
+                "label": "Drying tag 041 matches the case reference",
+                "markId": "subject_0010",
+                "predicate": "item_reference",
+                "roots": [
+                  {
+                    "id": "result_0004",
+                    "kind": "action_result"
+                  }
+                ],
+                "subjectId": "subject_000c",
+                "value": "subject_0001"
+              },
+              {
+                "form": "document",
+                "label": "Drying tag records internal drying, not recipient collection",
+                "markId": "subject_0010",
+                "predicate": "handling_type",
+                "roots": [
+                  {
+                    "id": "result_0004",
+                    "kind": "action_result"
+                  }
+                ],
+                "subjectId": "subject_000c",
+                "value": "internal_drying"
+              },
+              {
+                "form": "document",
+                "label": "Case is in dry storage",
+                "markId": "subject_0010",
+                "predicate": "storage_location",
+                "roots": [
+                  {
+                    "id": "result_0004",
+                    "kind": "action_result"
+                  }
+                ],
+                "subjectId": "subject_0001",
+                "value": "subject_000f"
+              },
+              {
+                "form": "document",
+                "label": "Original collected entry meant removed from the rack",
+                "markId": "subject_0010",
+                "predicate": "original_entry_meaning",
+                "roots": [
+                  {
+                    "id": "result_0004",
+                    "kind": "action_result"
+                  }
+                ],
+                "subjectId": "subject_0003",
+                "value": "removed_from_rack"
+              },
+              {
+                "form": "document",
+                "label": "Separate hauling obligation: already paid",
+                "markId": "subject_0010",
+                "predicate": "hauling_obligation_status",
+                "roots": [
+                  {
+                    "id": "result_0004",
+                    "kind": "action_result"
+                  }
+                ],
+                "subjectId": "subject_0001",
+                "value": "already_paid"
+              }
+            ],
+            "references": [
+              {
+                "id": "subject_0003",
+                "label": "Collection record"
+              },
+              {
+                "id": "subject_000c",
+                "label": "Numbered drying tag"
+              },
+              {
+                "id": "subject_0001",
+                "label": "Nera\u2019s green instrument case"
+              },
+              {
+                "id": "subject_000f",
+                "label": "Dry storage"
+              }
+            ]
+          },
+          "roots": [
+            {
+              "id": "result_0004",
+              "kind": "action_result"
+            }
+          ],
+          "schema": "encounter-observation@2",
+          "sequence": 29,
+          "source": {
+            "id": "result_0004",
+            "kind": "action_result"
+          }
+        }
+      ]
+    }
+  ],
+  "helper_encoding_issue": "System Python cp1252 decoding rejected a Unicode fixture while writing correction evidence; repeated this read with explicit UTF-8."
+}

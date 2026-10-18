@@ -1,9 +1,9 @@
-# Hard stop after Stage 4
+# Hard stop after Stage 5
 
-Stage 4 authorizes the Encounter/Atlas import and basic integrity checks only. Stop after committing, pushing and confirming local/remote main agreement.
+Stage 5 is complete: **PASS WITH DOCUMENTED KNOWN LIMITATIONS**. IR3-25 remains an actual accepted non-blocking failure. No source was repaired or altered.
 
-The next proposed step is Stage 5 Encounter/Atlas verification. It requires explicit new user authorization. Do not run builds, supplied/independent tests, evidence generators, launchers or visible-browser review now.
+**STOP. Stage 6 has not begun.** Room Creator baseline import requires explicit new owner authorization. Its v0.14.1 HOLD and manifest-known/missing-image repair defect must remain visible; import must not imply promotion.
 
-Room Creator/ZANT import, source normalization, refactoring, remediation, art repair, shared-contract implementation, Unity, LFS, archive deletion and CI remain outside this scope.
+ZANT import, normalization, refactoring, remediation, art repair, shared contracts, Unity, LFS, archive deletion and CI remain outside scope.
 
-See STAGE_4_IMPORT.md and ../testing/STAGE_5_RECOMMENDED_SCOPE.md.
+See STAGE_5_VERIFICATION.md and ../testing/STAGE_5_VERIFICATION.md. Earlier recommendations and authorization records are historical evidence, not an instruction to continue.

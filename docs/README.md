@@ -1,11 +1,14 @@
 # Project documentation
 
-Current source authority and status: provenance/source-authority.json.
-Stage 4 package file identities and bounded ZIP fixture selections: provenance/encounter-atlas-stage4-import.json.
-Stage 4 import explanation: consolidation/STAGE_4_IMPORT.md.
-Basic file-integrity check only: testing/STAGE_4_INTEGRITY.md.
-Recommended future verification, not executed: testing/STAGE_5_RECOMMENDED_SCOPE.md.
+Current authority: provenance/source-authority.json.
+Current result: consolidation/STAGE_5_VERIFICATION.md.
+Verification manifest: provenance/encounter-atlas-stage5-verification.json.
+Fresh selected evidence: audits/encounter-atlas/stage5-2026-10-18/.
+Read-only integrity: testing/STAGE_5_VERIFICATION.md.
+Hard stop before Stage 6: consolidation/NEXT_STAGE_GATE.md.
 
-Stage 0-3 documents and foundation-file-inventory.json remain historical records of commit 37d8b4a371d99f3e3cf2f4ebf769f9ca3c3ac340. They do not describe the current imported file set. The original foundation verifier remains unchanged for that historical state.
+Stage 4 import manifest/reports remain byte-exact. STAGE_5_RECOMMENDED_SCOPE.md is the earlier proposal, not current status. Foundation/Stage 4 verifiers require their historical states and remain unchanged.
 
-The Stage 4 authorization is preserved byte-exact in provenance/governing/. Historical implementation/resume prompts inside imported material do not independently authorize new work.
+Stage 0-3 records describe commit 37d8b4a371d99f3e3cf2f4ebf769f9ca3c3ac340; Stage 4 imported source at 36f7e64d13ddf470bfc0ad949ea6965b996fab58. Stage 5 changes no subsystem source.
+
+The exact Stage 5 authorization is in provenance/governing/. Historical implementation/resume prompts inside imported material do not independently authorize work.

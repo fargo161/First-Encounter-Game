@@ -1,0 +1,11 @@
+{
+  "result": "PASS",
+  "checked_utc": "2026-10-18T16:06:40.165976+00:00",
+  "stage5_before_after_file_guards": 5506,
+  "canonical_repository_all_files_before_documentation": 2772,
+  "canonical_and_original_A1_membership_unchanged": true,
+  "preserved_original_files_checked": 6722,
+  "preservation_copy_files_checked": 6722,
+  "sizes_hashes_and_original_mtimes_match": true,
+  "errors": []
+}

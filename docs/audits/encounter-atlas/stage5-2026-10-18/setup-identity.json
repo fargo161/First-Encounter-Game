@@ -1,0 +1,14 @@
+{
+  "result": "PASS",
+  "source_commit": "36f7e64d13ddf470bfc0ad949ea6965b996fab58",
+  "committed_a1_members": 2731,
+  "source_digest": "1a8558b3654e52881a288d2a5ab99e574878531f7a9d5fca86223e511146f085",
+  "full_tree_sha256": "01d90c554b2dc00bf169d98d8d4b36691f93311b3c0a81dc4d18da764008e76d",
+  "accepted_checkpoint_zip_sha256": "867f3278e3d6a09937b43503c2b886724dd21593533c1ae929c858f970acd72e",
+  "all2310_dependency_members_match_migrated_A1": true,
+  "dependency_zip_sha256": "f5566fdcfa82dc8aaee9378d7a0e894f10a4a2342100b7665cbd1c23e26e72da",
+  "before_original_ar0_zip_sha256": "d028b50107d639ade1ab31a1a68f5e70eaf8ebdc3a401f0abac9b9c2caa51828",
+  "independent_a1_test_sha256": "c0f2a489d76a64c2cec161917f995837b1ca10646c95da63b52aee8730190ed6",
+  "preserved_browser_audit_sha256": "47bb22ad1cfa358054fa01f9203d46b33b9ccbb41fd0810917858c9d056e2e14",
+  "no_source_helpers_executed_on_canonical_or_originals": true
+}

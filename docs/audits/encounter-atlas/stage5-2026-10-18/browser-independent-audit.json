@@ -1,0 +1,125 @@
+{
+  "result": "PASS",
+  "completeExpandedPersonViews": 16,
+  "rawDOMRecordInstancesComparedWithCanonicalSources": 554,
+  "exactFullReopenComparisons": 8,
+  "independentBrowserFingerprintChecks": 30,
+  "additionalSavedPointPersonViews": 40,
+  "uniqueBundledSavedPointPersonViews": 48,
+  "expectedRejections": 5,
+  "consoleWarningsErrors": 0,
+  "records": [
+    {
+      "file": "browser-warned-author-orrin.json",
+      "audience": "author",
+      "actorId": "actor_0004",
+      "actualDOMTechnicalRecordsVerified": 34,
+      "visibleCharacters": 52751
+    },
+    {
+      "file": "browser-repeat-author-orrin.json",
+      "audience": "author",
+      "actorId": "actor_0004",
+      "actualDOMTechnicalRecordsVerified": 34,
+      "visibleCharacters": 52751
+    },
+    {
+      "file": "browser-warned-author-tamsin.json",
+      "audience": "author",
+      "actorId": "actor_0002",
+      "actualDOMTechnicalRecordsVerified": 96,
+      "visibleCharacters": 171577
+    },
+    {
+      "file": "browser-repeat-author-tamsin.json",
+      "audience": "author",
+      "actorId": "actor_0002",
+      "actualDOMTechnicalRecordsVerified": 96,
+      "visibleCharacters": 171577
+    },
+    {
+      "file": "browser-warned-author-nera.json",
+      "audience": "author",
+      "actorId": "actor_0003",
+      "actualDOMTechnicalRecordsVerified": 4,
+      "visibleCharacters": 2854
+    },
+    {
+      "file": "browser-repeat-author-nera.json",
+      "audience": "author",
+      "actorId": "actor_0003",
+      "actualDOMTechnicalRecordsVerified": 4,
+      "visibleCharacters": 2854
+    },
+    {
+      "file": "browser-warned-author-collector.json",
+      "audience": "author",
+      "actorId": "actor_0001",
+      "actualDOMTechnicalRecordsVerified": 82,
+      "visibleCharacters": 144555
+    },
+    {
+      "file": "browser-repeat-author-collector.json",
+      "audience": "author",
+      "actorId": "actor_0001",
+      "actualDOMTechnicalRecordsVerified": 82,
+      "visibleCharacters": 144555
+    },
+    {
+      "file": "browser-warned-player-orrin.json",
+      "audience": "player",
+      "actorId": "actor_0004",
+      "actualDOMTechnicalRecordsVerified": 4,
+      "visibleCharacters": 4077
+    },
+    {
+      "file": "browser-repeat-player-orrin.json",
+      "audience": "player",
+      "actorId": "actor_0004",
+      "actualDOMTechnicalRecordsVerified": 4,
+      "visibleCharacters": 4077
+    },
+    {
+      "file": "browser-warned-player-nera-vale.json",
+      "audience": "player",
+      "actorId": "actor_0003",
+      "actualDOMTechnicalRecordsVerified": 3,
+      "visibleCharacters": 2383
+    },
+    {
+      "file": "browser-repeat-player-nera-vale.json",
+      "audience": "player",
+      "actorId": "actor_0003",
+      "actualDOMTechnicalRecordsVerified": 3,
+      "visibleCharacters": 2383
+    },
+    {
+      "file": "browser-warned-player-tamsin.json",
+      "audience": "player",
+      "actorId": "actor_0002",
+      "actualDOMTechnicalRecordsVerified": 1,
+      "visibleCharacters": 2654
+    },
+    {
+      "file": "browser-repeat-player-tamsin.json",
+      "audience": "player",
+      "actorId": "actor_0002",
+      "actualDOMTechnicalRecordsVerified": 1,
+      "visibleCharacters": 2654
+    },
+    {
+      "file": "browser-warned-player-collector.json",
+      "audience": "player",
+      "actorId": "actor_0001",
+      "actualDOMTechnicalRecordsVerified": 53,
+      "visibleCharacters": 98855
+    },
+    {
+      "file": "browser-repeat-player-collector.json",
+      "audience": "player",
+      "actorId": "actor_0001",
+      "actualDOMTechnicalRecordsVerified": 53,
+      "visibleCharacters": 98855
+    }
+  ]
+}

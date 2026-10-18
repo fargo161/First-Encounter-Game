@@ -1,0 +1,530 @@
+{
+  "result": "PASS",
+  "method": "CDP pause in unchanged integrity closure; independently compare complete input, catalog, replayed run and pre-read canonical string with external files; no source instrumentation",
+  "breakpointLine1Based": 1217,
+  "observations": [
+    {
+      "label": "boot-warned-author",
+      "file": "live-closure-captures/capture-001.json.gz",
+      "snapshotDigest": "3f34a44b72430f6d50e732755e16338e48cc3081bc86d50990a7f4baf1c253ed",
+      "catalogDigest": "46fa89e1ff1831614eca1ad63d030427c258a8debd849b054c375fbc96033e42",
+      "replayedRunDigest": "4124fba2993664aa48d9ce95ad92306ec11011748e321394fb4c043adaef12cf",
+      "matchesExternalInputs": true,
+      "compressedSha256": "ffcd8b5b370dd7de16324667e15a60d9b5a10a1f7ac25e142c9493595dd77c4b"
+    },
+    {
+      "label": "warned-author",
+      "file": "live-closure-captures/capture-002.json.gz",
+      "snapshotDigest": "3f34a44b72430f6d50e732755e16338e48cc3081bc86d50990a7f4baf1c253ed",
+      "catalogDigest": "46fa89e1ff1831614eca1ad63d030427c258a8debd849b054c375fbc96033e42",
+      "replayedRunDigest": "4124fba2993664aa48d9ce95ad92306ec11011748e321394fb4c043adaef12cf",
+      "matchesExternalInputs": true,
+      "compressedSha256": "ffcd8b5b370dd7de16324667e15a60d9b5a10a1f7ac25e142c9493595dd77c4b"
+    },
+    {
+      "label": "warned-author",
+      "file": "live-closure-captures/capture-003.json.gz",
+      "snapshotDigest": "3f34a44b72430f6d50e732755e16338e48cc3081bc86d50990a7f4baf1c253ed",
+      "catalogDigest": "46fa89e1ff1831614eca1ad63d030427c258a8debd849b054c375fbc96033e42",
+      "replayedRunDigest": "4124fba2993664aa48d9ce95ad92306ec11011748e321394fb4c043adaef12cf",
+      "matchesExternalInputs": true,
+      "compressedSha256": "ffcd8b5b370dd7de16324667e15a60d9b5a10a1f7ac25e142c9493595dd77c4b"
+    },
+    {
+      "label": "warned-author",
+      "file": "live-closure-captures/capture-004.json.gz",
+      "snapshotDigest": "3f34a44b72430f6d50e732755e16338e48cc3081bc86d50990a7f4baf1c253ed",
+      "catalogDigest": "46fa89e1ff1831614eca1ad63d030427c258a8debd849b054c375fbc96033e42",
+      "replayedRunDigest": "4124fba2993664aa48d9ce95ad92306ec11011748e321394fb4c043adaef12cf",
+      "matchesExternalInputs": true,
+      "compressedSha256": "ffcd8b5b370dd7de16324667e15a60d9b5a10a1f7ac25e142c9493595dd77c4b"
+    },
+    {
+      "label": "warned-author",
+      "file": "live-closure-captures/capture-005.json.gz",
+      "snapshotDigest": "3f34a44b72430f6d50e732755e16338e48cc3081bc86d50990a7f4baf1c253ed",
+      "catalogDigest": "46fa89e1ff1831614eca1ad63d030427c258a8debd849b054c375fbc96033e42",
+      "replayedRunDigest": "4124fba2993664aa48d9ce95ad92306ec11011748e321394fb4c043adaef12cf",
+      "matchesExternalInputs": true,
+      "compressedSha256": "ffcd8b5b370dd7de16324667e15a60d9b5a10a1f7ac25e142c9493595dd77c4b"
+    },
+    {
+      "label": "warned-author",
+      "file": "live-closure-captures/capture-006.json.gz",
+      "snapshotDigest": "3f34a44b72430f6d50e732755e16338e48cc3081bc86d50990a7f4baf1c253ed",
+      "catalogDigest": "46fa89e1ff1831614eca1ad63d030427c258a8debd849b054c375fbc96033e42",
+      "replayedRunDigest": "4124fba2993664aa48d9ce95ad92306ec11011748e321394fb4c043adaef12cf",
+      "matchesExternalInputs": true,
+      "compressedSha256": "ffcd8b5b370dd7de16324667e15a60d9b5a10a1f7ac25e142c9493595dd77c4b"
+    },
+    {
+      "label": "warned-author-player",
+      "file": "live-closure-captures/capture-007.json.gz",
+      "snapshotDigest": "3f34a44b72430f6d50e732755e16338e48cc3081bc86d50990a7f4baf1c253ed",
+      "catalogDigest": "46fa89e1ff1831614eca1ad63d030427c258a8debd849b054c375fbc96033e42",
+      "replayedRunDigest": "4124fba2993664aa48d9ce95ad92306ec11011748e321394fb4c043adaef12cf",
+      "matchesExternalInputs": true,
+      "compressedSha256": "ffcd8b5b370dd7de16324667e15a60d9b5a10a1f7ac25e142c9493595dd77c4b"
+    },
+    {
+      "label": "warned-author-player",
+      "file": "live-closure-captures/capture-008.json.gz",
+      "snapshotDigest": "3f34a44b72430f6d50e732755e16338e48cc3081bc86d50990a7f4baf1c253ed",
+      "catalogDigest": "46fa89e1ff1831614eca1ad63d030427c258a8debd849b054c375fbc96033e42",
+      "replayedRunDigest": "4124fba2993664aa48d9ce95ad92306ec11011748e321394fb4c043adaef12cf",
+      "matchesExternalInputs": true,
+      "compressedSha256": "ffcd8b5b370dd7de16324667e15a60d9b5a10a1f7ac25e142c9493595dd77c4b"
+    },
+    {
+      "label": "warned-author-player",
+      "file": "live-closure-captures/capture-009.json.gz",
+      "snapshotDigest": "3f34a44b72430f6d50e732755e16338e48cc3081bc86d50990a7f4baf1c253ed",
+      "catalogDigest": "46fa89e1ff1831614eca1ad63d030427c258a8debd849b054c375fbc96033e42",
+      "replayedRunDigest": "4124fba2993664aa48d9ce95ad92306ec11011748e321394fb4c043adaef12cf",
+      "matchesExternalInputs": true,
+      "compressedSha256": "ffcd8b5b370dd7de16324667e15a60d9b5a10a1f7ac25e142c9493595dd77c4b"
+    },
+    {
+      "label": "warned-author-player",
+      "file": "live-closure-captures/capture-010.json.gz",
+      "snapshotDigest": "3f34a44b72430f6d50e732755e16338e48cc3081bc86d50990a7f4baf1c253ed",
+      "catalogDigest": "46fa89e1ff1831614eca1ad63d030427c258a8debd849b054c375fbc96033e42",
+      "replayedRunDigest": "4124fba2993664aa48d9ce95ad92306ec11011748e321394fb4c043adaef12cf",
+      "matchesExternalInputs": true,
+      "compressedSha256": "ffcd8b5b370dd7de16324667e15a60d9b5a10a1f7ac25e142c9493595dd77c4b"
+    },
+    {
+      "label": "warned-author-player",
+      "file": "live-closure-captures/capture-011.json.gz",
+      "snapshotDigest": "3f34a44b72430f6d50e732755e16338e48cc3081bc86d50990a7f4baf1c253ed",
+      "catalogDigest": "46fa89e1ff1831614eca1ad63d030427c258a8debd849b054c375fbc96033e42",
+      "replayedRunDigest": "4124fba2993664aa48d9ce95ad92306ec11011748e321394fb4c043adaef12cf",
+      "matchesExternalInputs": true,
+      "compressedSha256": "ffcd8b5b370dd7de16324667e15a60d9b5a10a1f7ac25e142c9493595dd77c4b"
+    },
+    {
+      "label": "warned-author",
+      "file": "live-closure-captures/capture-012.json.gz",
+      "snapshotDigest": "3f34a44b72430f6d50e732755e16338e48cc3081bc86d50990a7f4baf1c253ed",
+      "catalogDigest": "46fa89e1ff1831614eca1ad63d030427c258a8debd849b054c375fbc96033e42",
+      "replayedRunDigest": "4124fba2993664aa48d9ce95ad92306ec11011748e321394fb4c043adaef12cf",
+      "matchesExternalInputs": true,
+      "compressedSha256": "ffcd8b5b370dd7de16324667e15a60d9b5a10a1f7ac25e142c9493595dd77c4b"
+    },
+    {
+      "label": "warned-author-author",
+      "file": "live-closure-captures/capture-013.json.gz",
+      "snapshotDigest": "3f34a44b72430f6d50e732755e16338e48cc3081bc86d50990a7f4baf1c253ed",
+      "catalogDigest": "46fa89e1ff1831614eca1ad63d030427c258a8debd849b054c375fbc96033e42",
+      "replayedRunDigest": "4124fba2993664aa48d9ce95ad92306ec11011748e321394fb4c043adaef12cf",
+      "matchesExternalInputs": true,
+      "compressedSha256": "ffcd8b5b370dd7de16324667e15a60d9b5a10a1f7ac25e142c9493595dd77c4b"
+    },
+    {
+      "label": "warned-author-author",
+      "file": "live-closure-captures/capture-014.json.gz",
+      "snapshotDigest": "3f34a44b72430f6d50e732755e16338e48cc3081bc86d50990a7f4baf1c253ed",
+      "catalogDigest": "46fa89e1ff1831614eca1ad63d030427c258a8debd849b054c375fbc96033e42",
+      "replayedRunDigest": "4124fba2993664aa48d9ce95ad92306ec11011748e321394fb4c043adaef12cf",
+      "matchesExternalInputs": true,
+      "compressedSha256": "ffcd8b5b370dd7de16324667e15a60d9b5a10a1f7ac25e142c9493595dd77c4b"
+    },
+    {
+      "label": "warned-author-author",
+      "file": "live-closure-captures/capture-015.json.gz",
+      "snapshotDigest": "3f34a44b72430f6d50e732755e16338e48cc3081bc86d50990a7f4baf1c253ed",
+      "catalogDigest": "46fa89e1ff1831614eca1ad63d030427c258a8debd849b054c375fbc96033e42",
+      "replayedRunDigest": "4124fba2993664aa48d9ce95ad92306ec11011748e321394fb4c043adaef12cf",
+      "matchesExternalInputs": true,
+      "compressedSha256": "ffcd8b5b370dd7de16324667e15a60d9b5a10a1f7ac25e142c9493595dd77c4b"
+    },
+    {
+      "label": "warned-author-author",
+      "file": "live-closure-captures/capture-016.json.gz",
+      "snapshotDigest": "3f34a44b72430f6d50e732755e16338e48cc3081bc86d50990a7f4baf1c253ed",
+      "catalogDigest": "46fa89e1ff1831614eca1ad63d030427c258a8debd849b054c375fbc96033e42",
+      "replayedRunDigest": "4124fba2993664aa48d9ce95ad92306ec11011748e321394fb4c043adaef12cf",
+      "matchesExternalInputs": true,
+      "compressedSha256": "ffcd8b5b370dd7de16324667e15a60d9b5a10a1f7ac25e142c9493595dd77c4b"
+    },
+    {
+      "label": "warned-author-author",
+      "file": "live-closure-captures/capture-017.json.gz",
+      "snapshotDigest": "3f34a44b72430f6d50e732755e16338e48cc3081bc86d50990a7f4baf1c253ed",
+      "catalogDigest": "46fa89e1ff1831614eca1ad63d030427c258a8debd849b054c375fbc96033e42",
+      "replayedRunDigest": "4124fba2993664aa48d9ce95ad92306ec11011748e321394fb4c043adaef12cf",
+      "matchesExternalInputs": true,
+      "compressedSha256": "ffcd8b5b370dd7de16324667e15a60d9b5a10a1f7ac25e142c9493595dd77c4b"
+    },
+    {
+      "label": "warned-author-author-player",
+      "file": "live-closure-captures/capture-018.json.gz",
+      "snapshotDigest": "3f34a44b72430f6d50e732755e16338e48cc3081bc86d50990a7f4baf1c253ed",
+      "catalogDigest": "46fa89e1ff1831614eca1ad63d030427c258a8debd849b054c375fbc96033e42",
+      "replayedRunDigest": "4124fba2993664aa48d9ce95ad92306ec11011748e321394fb4c043adaef12cf",
+      "matchesExternalInputs": true,
+      "compressedSha256": "ffcd8b5b370dd7de16324667e15a60d9b5a10a1f7ac25e142c9493595dd77c4b"
+    },
+    {
+      "label": "warned-author-author-player",
+      "file": "live-closure-captures/capture-019.json.gz",
+      "snapshotDigest": "3f34a44b72430f6d50e732755e16338e48cc3081bc86d50990a7f4baf1c253ed",
+      "catalogDigest": "46fa89e1ff1831614eca1ad63d030427c258a8debd849b054c375fbc96033e42",
+      "replayedRunDigest": "4124fba2993664aa48d9ce95ad92306ec11011748e321394fb4c043adaef12cf",
+      "matchesExternalInputs": true,
+      "compressedSha256": "ffcd8b5b370dd7de16324667e15a60d9b5a10a1f7ac25e142c9493595dd77c4b"
+    },
+    {
+      "label": "warned-author-author-player",
+      "file": "live-closure-captures/capture-020.json.gz",
+      "snapshotDigest": "3f34a44b72430f6d50e732755e16338e48cc3081bc86d50990a7f4baf1c253ed",
+      "catalogDigest": "46fa89e1ff1831614eca1ad63d030427c258a8debd849b054c375fbc96033e42",
+      "replayedRunDigest": "4124fba2993664aa48d9ce95ad92306ec11011748e321394fb4c043adaef12cf",
+      "matchesExternalInputs": true,
+      "compressedSha256": "ffcd8b5b370dd7de16324667e15a60d9b5a10a1f7ac25e142c9493595dd77c4b"
+    },
+    {
+      "label": "warned-author-author-player",
+      "file": "live-closure-captures/capture-021.json.gz",
+      "snapshotDigest": "3f34a44b72430f6d50e732755e16338e48cc3081bc86d50990a7f4baf1c253ed",
+      "catalogDigest": "46fa89e1ff1831614eca1ad63d030427c258a8debd849b054c375fbc96033e42",
+      "replayedRunDigest": "4124fba2993664aa48d9ce95ad92306ec11011748e321394fb4c043adaef12cf",
+      "matchesExternalInputs": true,
+      "compressedSha256": "ffcd8b5b370dd7de16324667e15a60d9b5a10a1f7ac25e142c9493595dd77c4b"
+    },
+    {
+      "label": "warned-author-author-player",
+      "file": "live-closure-captures/capture-022.json.gz",
+      "snapshotDigest": "3f34a44b72430f6d50e732755e16338e48cc3081bc86d50990a7f4baf1c253ed",
+      "catalogDigest": "46fa89e1ff1831614eca1ad63d030427c258a8debd849b054c375fbc96033e42",
+      "replayedRunDigest": "4124fba2993664aa48d9ce95ad92306ec11011748e321394fb4c043adaef12cf",
+      "matchesExternalInputs": true,
+      "compressedSha256": "ffcd8b5b370dd7de16324667e15a60d9b5a10a1f7ac25e142c9493595dd77c4b"
+    },
+    {
+      "label": "initial-author",
+      "file": "live-closure-captures/capture-023.json.gz",
+      "snapshotDigest": "6edc2be9c477ac098ed702f39019ab3bcecc73727c8f0d8a076c278ee540920a",
+      "catalogDigest": "46fa89e1ff1831614eca1ad63d030427c258a8debd849b054c375fbc96033e42",
+      "replayedRunDigest": "af3b57cfd3b1d76956e648e7db56da3cbe9a102aa31f41e345913f61f33e0081",
+      "matchesExternalInputs": true,
+      "compressedSha256": "b76f431a46f50e80f44b627a3d2dced21d08b04ff1507549c1eaef323d404e47"
+    },
+    {
+      "label": "initial-author-author",
+      "file": "live-closure-captures/capture-024.json.gz",
+      "snapshotDigest": "6edc2be9c477ac098ed702f39019ab3bcecc73727c8f0d8a076c278ee540920a",
+      "catalogDigest": "46fa89e1ff1831614eca1ad63d030427c258a8debd849b054c375fbc96033e42",
+      "replayedRunDigest": "af3b57cfd3b1d76956e648e7db56da3cbe9a102aa31f41e345913f61f33e0081",
+      "matchesExternalInputs": true,
+      "compressedSha256": "b76f431a46f50e80f44b627a3d2dced21d08b04ff1507549c1eaef323d404e47"
+    },
+    {
+      "label": "initial-author-author",
+      "file": "live-closure-captures/capture-025.json.gz",
+      "snapshotDigest": "6edc2be9c477ac098ed702f39019ab3bcecc73727c8f0d8a076c278ee540920a",
+      "catalogDigest": "46fa89e1ff1831614eca1ad63d030427c258a8debd849b054c375fbc96033e42",
+      "replayedRunDigest": "af3b57cfd3b1d76956e648e7db56da3cbe9a102aa31f41e345913f61f33e0081",
+      "matchesExternalInputs": true,
+      "compressedSha256": "b76f431a46f50e80f44b627a3d2dced21d08b04ff1507549c1eaef323d404e47"
+    },
+    {
+      "label": "initial-author-author-player",
+      "file": "live-closure-captures/capture-026.json.gz",
+      "snapshotDigest": "6edc2be9c477ac098ed702f39019ab3bcecc73727c8f0d8a076c278ee540920a",
+      "catalogDigest": "46fa89e1ff1831614eca1ad63d030427c258a8debd849b054c375fbc96033e42",
+      "replayedRunDigest": "af3b57cfd3b1d76956e648e7db56da3cbe9a102aa31f41e345913f61f33e0081",
+      "matchesExternalInputs": true,
+      "compressedSha256": "b76f431a46f50e80f44b627a3d2dced21d08b04ff1507549c1eaef323d404e47"
+    },
+    {
+      "label": "initial-author-author-player",
+      "file": "live-closure-captures/capture-027.json.gz",
+      "snapshotDigest": "6edc2be9c477ac098ed702f39019ab3bcecc73727c8f0d8a076c278ee540920a",
+      "catalogDigest": "46fa89e1ff1831614eca1ad63d030427c258a8debd849b054c375fbc96033e42",
+      "replayedRunDigest": "af3b57cfd3b1d76956e648e7db56da3cbe9a102aa31f41e345913f61f33e0081",
+      "matchesExternalInputs": true,
+      "compressedSha256": "b76f431a46f50e80f44b627a3d2dced21d08b04ff1507549c1eaef323d404e47"
+    },
+    {
+      "label": "repaired-author",
+      "file": "live-closure-captures/capture-028.json.gz",
+      "snapshotDigest": "a16e5c7908b7bee614e1e2692c5b3ee5164001bb01c0e1ff90a28bfccf977718",
+      "catalogDigest": "46fa89e1ff1831614eca1ad63d030427c258a8debd849b054c375fbc96033e42",
+      "replayedRunDigest": "b0d0315bdf63557db2fd26c93aea3a546694f91a97acf4f50e58f14057dfdf85",
+      "matchesExternalInputs": true,
+      "compressedSha256": "e4b9c4cbe207c24137481fa8260fa778f2b73eed17e3a3a80e64b507dfabdfb3"
+    },
+    {
+      "label": "repaired-author-author",
+      "file": "live-closure-captures/capture-029.json.gz",
+      "snapshotDigest": "a16e5c7908b7bee614e1e2692c5b3ee5164001bb01c0e1ff90a28bfccf977718",
+      "catalogDigest": "46fa89e1ff1831614eca1ad63d030427c258a8debd849b054c375fbc96033e42",
+      "replayedRunDigest": "b0d0315bdf63557db2fd26c93aea3a546694f91a97acf4f50e58f14057dfdf85",
+      "matchesExternalInputs": true,
+      "compressedSha256": "e4b9c4cbe207c24137481fa8260fa778f2b73eed17e3a3a80e64b507dfabdfb3"
+    },
+    {
+      "label": "repaired-author-author",
+      "file": "live-closure-captures/capture-030.json.gz",
+      "snapshotDigest": "a16e5c7908b7bee614e1e2692c5b3ee5164001bb01c0e1ff90a28bfccf977718",
+      "catalogDigest": "46fa89e1ff1831614eca1ad63d030427c258a8debd849b054c375fbc96033e42",
+      "replayedRunDigest": "b0d0315bdf63557db2fd26c93aea3a546694f91a97acf4f50e58f14057dfdf85",
+      "matchesExternalInputs": true,
+      "compressedSha256": "e4b9c4cbe207c24137481fa8260fa778f2b73eed17e3a3a80e64b507dfabdfb3"
+    },
+    {
+      "label": "repaired-author-author-player",
+      "file": "live-closure-captures/capture-031.json.gz",
+      "snapshotDigest": "a16e5c7908b7bee614e1e2692c5b3ee5164001bb01c0e1ff90a28bfccf977718",
+      "catalogDigest": "46fa89e1ff1831614eca1ad63d030427c258a8debd849b054c375fbc96033e42",
+      "replayedRunDigest": "b0d0315bdf63557db2fd26c93aea3a546694f91a97acf4f50e58f14057dfdf85",
+      "matchesExternalInputs": true,
+      "compressedSha256": "e4b9c4cbe207c24137481fa8260fa778f2b73eed17e3a3a80e64b507dfabdfb3"
+    },
+    {
+      "label": "repaired-author-author-player",
+      "file": "live-closure-captures/capture-032.json.gz",
+      "snapshotDigest": "a16e5c7908b7bee614e1e2692c5b3ee5164001bb01c0e1ff90a28bfccf977718",
+      "catalogDigest": "46fa89e1ff1831614eca1ad63d030427c258a8debd849b054c375fbc96033e42",
+      "replayedRunDigest": "b0d0315bdf63557db2fd26c93aea3a546694f91a97acf4f50e58f14057dfdf85",
+      "matchesExternalInputs": true,
+      "compressedSha256": "e4b9c4cbe207c24137481fa8260fa778f2b73eed17e3a3a80e64b507dfabdfb3"
+    },
+    {
+      "label": "pending-author",
+      "file": "live-closure-captures/capture-033.json.gz",
+      "snapshotDigest": "5b8906bb88c95165372e79546a12245c6cd42d4f9f9eb68dff54c4e9ac8ab283",
+      "catalogDigest": "46fa89e1ff1831614eca1ad63d030427c258a8debd849b054c375fbc96033e42",
+      "replayedRunDigest": "e60d02941b2d9b88eb1e7802b378d602bc61122013f175164a40cf8703b0c5fb",
+      "matchesExternalInputs": true,
+      "compressedSha256": "627f5e4237cc71ec3bb1d45b826de6a3ec67acb7b38edd6bfb124775b7473627"
+    },
+    {
+      "label": "pending-author-author",
+      "file": "live-closure-captures/capture-034.json.gz",
+      "snapshotDigest": "5b8906bb88c95165372e79546a12245c6cd42d4f9f9eb68dff54c4e9ac8ab283",
+      "catalogDigest": "46fa89e1ff1831614eca1ad63d030427c258a8debd849b054c375fbc96033e42",
+      "replayedRunDigest": "e60d02941b2d9b88eb1e7802b378d602bc61122013f175164a40cf8703b0c5fb",
+      "matchesExternalInputs": true,
+      "compressedSha256": "627f5e4237cc71ec3bb1d45b826de6a3ec67acb7b38edd6bfb124775b7473627"
+    },
+    {
+      "label": "pending-author-author",
+      "file": "live-closure-captures/capture-035.json.gz",
+      "snapshotDigest": "5b8906bb88c95165372e79546a12245c6cd42d4f9f9eb68dff54c4e9ac8ab283",
+      "catalogDigest": "46fa89e1ff1831614eca1ad63d030427c258a8debd849b054c375fbc96033e42",
+      "replayedRunDigest": "e60d02941b2d9b88eb1e7802b378d602bc61122013f175164a40cf8703b0c5fb",
+      "matchesExternalInputs": true,
+      "compressedSha256": "627f5e4237cc71ec3bb1d45b826de6a3ec67acb7b38edd6bfb124775b7473627"
+    },
+    {
+      "label": "pending-author-author-player",
+      "file": "live-closure-captures/capture-036.json.gz",
+      "snapshotDigest": "5b8906bb88c95165372e79546a12245c6cd42d4f9f9eb68dff54c4e9ac8ab283",
+      "catalogDigest": "46fa89e1ff1831614eca1ad63d030427c258a8debd849b054c375fbc96033e42",
+      "replayedRunDigest": "e60d02941b2d9b88eb1e7802b378d602bc61122013f175164a40cf8703b0c5fb",
+      "matchesExternalInputs": true,
+      "compressedSha256": "627f5e4237cc71ec3bb1d45b826de6a3ec67acb7b38edd6bfb124775b7473627"
+    },
+    {
+      "label": "pending-author-author-player",
+      "file": "live-closure-captures/capture-037.json.gz",
+      "snapshotDigest": "5b8906bb88c95165372e79546a12245c6cd42d4f9f9eb68dff54c4e9ac8ab283",
+      "catalogDigest": "46fa89e1ff1831614eca1ad63d030427c258a8debd849b054c375fbc96033e42",
+      "replayedRunDigest": "e60d02941b2d9b88eb1e7802b378d602bc61122013f175164a40cf8703b0c5fb",
+      "matchesExternalInputs": true,
+      "compressedSha256": "627f5e4237cc71ec3bb1d45b826de6a3ec67acb7b38edd6bfb124775b7473627"
+    },
+    {
+      "label": "recovery-author",
+      "file": "live-closure-captures/capture-038.json.gz",
+      "snapshotDigest": "70cbbce818505831eaf1afb62e3cfbc01c8051b36d4a442556bdb0e1db417978",
+      "catalogDigest": "46fa89e1ff1831614eca1ad63d030427c258a8debd849b054c375fbc96033e42",
+      "replayedRunDigest": "4b7a487fdfcddf56f686ff942bc18c24d194c837e070bcbf761f81c5b592c483",
+      "matchesExternalInputs": true,
+      "compressedSha256": "3a9eb786fc9b49c9c5458bbe6e2de4943d8274f5e9ab35f812c18cf4c1438582"
+    },
+    {
+      "label": "recovery-author-author",
+      "file": "live-closure-captures/capture-039.json.gz",
+      "snapshotDigest": "70cbbce818505831eaf1afb62e3cfbc01c8051b36d4a442556bdb0e1db417978",
+      "catalogDigest": "46fa89e1ff1831614eca1ad63d030427c258a8debd849b054c375fbc96033e42",
+      "replayedRunDigest": "4b7a487fdfcddf56f686ff942bc18c24d194c837e070bcbf761f81c5b592c483",
+      "matchesExternalInputs": true,
+      "compressedSha256": "3a9eb786fc9b49c9c5458bbe6e2de4943d8274f5e9ab35f812c18cf4c1438582"
+    },
+    {
+      "label": "recovery-author-author",
+      "file": "live-closure-captures/capture-040.json.gz",
+      "snapshotDigest": "70cbbce818505831eaf1afb62e3cfbc01c8051b36d4a442556bdb0e1db417978",
+      "catalogDigest": "46fa89e1ff1831614eca1ad63d030427c258a8debd849b054c375fbc96033e42",
+      "replayedRunDigest": "4b7a487fdfcddf56f686ff942bc18c24d194c837e070bcbf761f81c5b592c483",
+      "matchesExternalInputs": true,
+      "compressedSha256": "3a9eb786fc9b49c9c5458bbe6e2de4943d8274f5e9ab35f812c18cf4c1438582"
+    },
+    {
+      "label": "recovery-author-author-player",
+      "file": "live-closure-captures/capture-041.json.gz",
+      "snapshotDigest": "70cbbce818505831eaf1afb62e3cfbc01c8051b36d4a442556bdb0e1db417978",
+      "catalogDigest": "46fa89e1ff1831614eca1ad63d030427c258a8debd849b054c375fbc96033e42",
+      "replayedRunDigest": "4b7a487fdfcddf56f686ff942bc18c24d194c837e070bcbf761f81c5b592c483",
+      "matchesExternalInputs": true,
+      "compressedSha256": "3a9eb786fc9b49c9c5458bbe6e2de4943d8274f5e9ab35f812c18cf4c1438582"
+    },
+    {
+      "label": "recovery-author-author-player",
+      "file": "live-closure-captures/capture-042.json.gz",
+      "snapshotDigest": "70cbbce818505831eaf1afb62e3cfbc01c8051b36d4a442556bdb0e1db417978",
+      "catalogDigest": "46fa89e1ff1831614eca1ad63d030427c258a8debd849b054c375fbc96033e42",
+      "replayedRunDigest": "4b7a487fdfcddf56f686ff942bc18c24d194c837e070bcbf761f81c5b592c483",
+      "matchesExternalInputs": true,
+      "compressedSha256": "3a9eb786fc9b49c9c5458bbe6e2de4943d8274f5e9ab35f812c18cf4c1438582"
+    },
+    {
+      "label": "collapse-author",
+      "file": "live-closure-captures/capture-043.json.gz",
+      "snapshotDigest": "e8cf8d73d2a664bd8e6cad50a825cc2845dee3ec364e7ba2df0b70f692dc6576",
+      "catalogDigest": "46fa89e1ff1831614eca1ad63d030427c258a8debd849b054c375fbc96033e42",
+      "replayedRunDigest": "f48c57242658c580d5b53a0fb430226796e5c20e0cf9ae5fa5ef2c77f84a95e8",
+      "matchesExternalInputs": true,
+      "compressedSha256": "210fe7b78fccd4150f87c81e945e6fab09b4113193d934ed608dd349c5e428bf"
+    },
+    {
+      "label": "collapse-author-author",
+      "file": "live-closure-captures/capture-044.json.gz",
+      "snapshotDigest": "e8cf8d73d2a664bd8e6cad50a825cc2845dee3ec364e7ba2df0b70f692dc6576",
+      "catalogDigest": "46fa89e1ff1831614eca1ad63d030427c258a8debd849b054c375fbc96033e42",
+      "replayedRunDigest": "f48c57242658c580d5b53a0fb430226796e5c20e0cf9ae5fa5ef2c77f84a95e8",
+      "matchesExternalInputs": true,
+      "compressedSha256": "210fe7b78fccd4150f87c81e945e6fab09b4113193d934ed608dd349c5e428bf"
+    },
+    {
+      "label": "collapse-author-author",
+      "file": "live-closure-captures/capture-045.json.gz",
+      "snapshotDigest": "e8cf8d73d2a664bd8e6cad50a825cc2845dee3ec364e7ba2df0b70f692dc6576",
+      "catalogDigest": "46fa89e1ff1831614eca1ad63d030427c258a8debd849b054c375fbc96033e42",
+      "replayedRunDigest": "f48c57242658c580d5b53a0fb430226796e5c20e0cf9ae5fa5ef2c77f84a95e8",
+      "matchesExternalInputs": true,
+      "compressedSha256": "210fe7b78fccd4150f87c81e945e6fab09b4113193d934ed608dd349c5e428bf"
+    },
+    {
+      "label": "collapse-author-author-player",
+      "file": "live-closure-captures/capture-046.json.gz",
+      "snapshotDigest": "e8cf8d73d2a664bd8e6cad50a825cc2845dee3ec364e7ba2df0b70f692dc6576",
+      "catalogDigest": "46fa89e1ff1831614eca1ad63d030427c258a8debd849b054c375fbc96033e42",
+      "replayedRunDigest": "f48c57242658c580d5b53a0fb430226796e5c20e0cf9ae5fa5ef2c77f84a95e8",
+      "matchesExternalInputs": true,
+      "compressedSha256": "210fe7b78fccd4150f87c81e945e6fab09b4113193d934ed608dd349c5e428bf"
+    },
+    {
+      "label": "collapse-author-author-player",
+      "file": "live-closure-captures/capture-047.json.gz",
+      "snapshotDigest": "e8cf8d73d2a664bd8e6cad50a825cc2845dee3ec364e7ba2df0b70f692dc6576",
+      "catalogDigest": "46fa89e1ff1831614eca1ad63d030427c258a8debd849b054c375fbc96033e42",
+      "replayedRunDigest": "f48c57242658c580d5b53a0fb430226796e5c20e0cf9ae5fa5ef2c77f84a95e8",
+      "matchesExternalInputs": true,
+      "compressedSha256": "210fe7b78fccd4150f87c81e945e6fab09b4113193d934ed608dd349c5e428bf"
+    },
+    {
+      "label": "collapse-author",
+      "file": "live-closure-captures/capture-048.json.gz",
+      "snapshotDigest": "e8cf8d73d2a664bd8e6cad50a825cc2845dee3ec364e7ba2df0b70f692dc6576",
+      "catalogDigest": "46fa89e1ff1831614eca1ad63d030427c258a8debd849b054c375fbc96033e42",
+      "replayedRunDigest": "f48c57242658c580d5b53a0fb430226796e5c20e0cf9ae5fa5ef2c77f84a95e8",
+      "matchesExternalInputs": true,
+      "compressedSha256": "210fe7b78fccd4150f87c81e945e6fab09b4113193d934ed608dd349c5e428bf"
+    },
+    {
+      "label": "collapse-author-author",
+      "file": "live-closure-captures/capture-049.json.gz",
+      "snapshotDigest": "e8cf8d73d2a664bd8e6cad50a825cc2845dee3ec364e7ba2df0b70f692dc6576",
+      "catalogDigest": "46fa89e1ff1831614eca1ad63d030427c258a8debd849b054c375fbc96033e42",
+      "replayedRunDigest": "f48c57242658c580d5b53a0fb430226796e5c20e0cf9ae5fa5ef2c77f84a95e8",
+      "matchesExternalInputs": true,
+      "compressedSha256": "210fe7b78fccd4150f87c81e945e6fab09b4113193d934ed608dd349c5e428bf"
+    },
+    {
+      "label": "warned-author",
+      "file": "live-closure-captures/capture-050.json.gz",
+      "snapshotDigest": "3f34a44b72430f6d50e732755e16338e48cc3081bc86d50990a7f4baf1c253ed",
+      "catalogDigest": "46fa89e1ff1831614eca1ad63d030427c258a8debd849b054c375fbc96033e42",
+      "replayedRunDigest": "4124fba2993664aa48d9ce95ad92306ec11011748e321394fb4c043adaef12cf",
+      "matchesExternalInputs": true,
+      "compressedSha256": "ffcd8b5b370dd7de16324667e15a60d9b5a10a1f7ac25e142c9493595dd77c4b"
+    },
+    {
+      "label": "escaped-html",
+      "file": "live-closure-captures/capture-051.json.gz",
+      "snapshotDigest": "3f34a44b72430f6d50e732755e16338e48cc3081bc86d50990a7f4baf1c253ed",
+      "catalogDigest": "edc1a2d647e8ee5a9ab4619180145b1d41fa06a1895f828b2137f3baacbfb9bc",
+      "replayedRunDigest": "4124fba2993664aa48d9ce95ad92306ec11011748e321394fb4c043adaef12cf",
+      "matchesExternalInputs": true,
+      "compressedSha256": "b403c9c9e2dfc72d1b17e8025ee36d47bb902da999054e35a87b170f1fc09db7"
+    },
+    {
+      "label": "escaped-html",
+      "file": "live-closure-captures/capture-052.json.gz",
+      "snapshotDigest": "3f34a44b72430f6d50e732755e16338e48cc3081bc86d50990a7f4baf1c253ed",
+      "catalogDigest": "edc1a2d647e8ee5a9ab4619180145b1d41fa06a1895f828b2137f3baacbfb9bc",
+      "replayedRunDigest": "4124fba2993664aa48d9ce95ad92306ec11011748e321394fb4c043adaef12cf",
+      "matchesExternalInputs": true,
+      "compressedSha256": "b403c9c9e2dfc72d1b17e8025ee36d47bb902da999054e35a87b170f1fc09db7"
+    },
+    {
+      "label": "unmodeled",
+      "file": "live-closure-captures/capture-053.json.gz",
+      "snapshotDigest": "3f34a44b72430f6d50e732755e16338e48cc3081bc86d50990a7f4baf1c253ed",
+      "catalogDigest": "ac121c4514c6b1d291b6487c159f2ae868523d6584d41934fe1f742925b5f238",
+      "replayedRunDigest": "4124fba2993664aa48d9ce95ad92306ec11011748e321394fb4c043adaef12cf",
+      "matchesExternalInputs": true,
+      "compressedSha256": "43121e29fda208e5662c6da22615df92507c100fd25069509495379d964d4618"
+    },
+    {
+      "label": "unmodeled",
+      "file": "live-closure-captures/capture-054.json.gz",
+      "snapshotDigest": "3f34a44b72430f6d50e732755e16338e48cc3081bc86d50990a7f4baf1c253ed",
+      "catalogDigest": "ac121c4514c6b1d291b6487c159f2ae868523d6584d41934fe1f742925b5f238",
+      "replayedRunDigest": "4124fba2993664aa48d9ce95ad92306ec11011748e321394fb4c043adaef12cf",
+      "matchesExternalInputs": true,
+      "compressedSha256": "43121e29fda208e5662c6da22615df92507c100fd25069509495379d964d4618"
+    },
+    {
+      "label": "renamed-owner",
+      "file": "live-closure-captures/capture-055.json.gz",
+      "snapshotDigest": "3f34a44b72430f6d50e732755e16338e48cc3081bc86d50990a7f4baf1c253ed",
+      "catalogDigest": "ebddc81f2793788daa5dd6679a0cbde7ceb4f5b147b33cb09417d7de3f581dd0",
+      "replayedRunDigest": "4124fba2993664aa48d9ce95ad92306ec11011748e321394fb4c043adaef12cf",
+      "matchesExternalInputs": true,
+      "compressedSha256": "17cb0f89f62476bdd3fd2bc2f09640fa56420d0015ca2827703dc67f6940df8b"
+    },
+    {
+      "label": "renamed-owner",
+      "file": "live-closure-captures/capture-056.json.gz",
+      "snapshotDigest": "3f34a44b72430f6d50e732755e16338e48cc3081bc86d50990a7f4baf1c253ed",
+      "catalogDigest": "ebddc81f2793788daa5dd6679a0cbde7ceb4f5b147b33cb09417d7de3f581dd0",
+      "replayedRunDigest": "4124fba2993664aa48d9ce95ad92306ec11011748e321394fb4c043adaef12cf",
+      "matchesExternalInputs": true,
+      "compressedSha256": "17cb0f89f62476bdd3fd2bc2f09640fa56420d0015ca2827703dc67f6940df8b"
+    },
+    {
+      "label": "same-name",
+      "file": "live-closure-captures/capture-057.json.gz",
+      "snapshotDigest": "3f34a44b72430f6d50e732755e16338e48cc3081bc86d50990a7f4baf1c253ed",
+      "catalogDigest": "afab01436d62c26bc57398c863df4187f8625db095a42321b54d7789be90d5c7",
+      "replayedRunDigest": "4124fba2993664aa48d9ce95ad92306ec11011748e321394fb4c043adaef12cf",
+      "matchesExternalInputs": true,
+      "compressedSha256": "262317565cfbad87bc8cdbfc3b25ff2d4c1a33f20e1dea611600f3a6250cf640"
+    },
+    {
+      "label": "same-name",
+      "file": "live-closure-captures/capture-058.json.gz",
+      "snapshotDigest": "3f34a44b72430f6d50e732755e16338e48cc3081bc86d50990a7f4baf1c253ed",
+      "catalogDigest": "afab01436d62c26bc57398c863df4187f8625db095a42321b54d7789be90d5c7",
+      "replayedRunDigest": "4124fba2993664aa48d9ce95ad92306ec11011748e321394fb4c043adaef12cf",
+      "matchesExternalInputs": true,
+      "compressedSha256": "262317565cfbad87bc8cdbfc3b25ff2d4c1a33f20e1dea611600f3a6250cf640"
+    }
+  ],
+  "errors": []
+}

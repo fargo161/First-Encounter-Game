@@ -1,0 +1,27 @@
+{
+  "result": "PASS",
+  "started": "2026-10-18T16:02:56.714Z",
+  "finished": "2026-10-18T16:03:32.829Z",
+  "headed": true,
+  "browserVersion": "155.0.8059.41",
+  "playwright": "1.62.1",
+  "serverInfo": {
+    "url": "http://127.0.0.1:53219/",
+    "bytes": 1039524,
+    "sha256": "b9612d61f41bcf2bee5085902ff65c5e418b226de3dd5c8af6490ccd15e4ae9f",
+    "readOnlyGETOnly": true
+  },
+  "sourceHtmlSha256": "b9612d61f41bcf2bee5085902ff65c5e418b226de3dd5c8af6490ccd15e4ae9f",
+  "completeExpandedViews": 16,
+  "additionalPersonViews": 40,
+  "purityChecks": 30,
+  "liveClosureComparisons": 58,
+  "pageErrors": [],
+  "requests": [
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:53219/"
+    }
+  ],
+  "disclosureInteraction": "Real Person, audience, saved-point, import, read-check, and first disclosure clicks. Remaining disclosure elements opened via DOM to capture and independently audit all precise records."
+}

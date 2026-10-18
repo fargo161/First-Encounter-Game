@@ -1,0 +1,32 @@
+{
+  "result": "PASS",
+  "reviewer": "Codex direct image inspection",
+  "method": "Viewed actual captured PNGs, in addition to browser DOM audits",
+  "reviewed_screenshots": [
+    {
+      "file": "visual-author-tamsin-top.png",
+      "observation": "Tamsin direct receipts and qualification distinguish historical dry storage from current custody."
+    },
+    {
+      "file": "visual-author-tamsin-source.png",
+      "observation": "Source opens earlier handling movement; developer source is separate from local received fragments."
+    },
+    {
+      "file": "visual-player-collector-top.png",
+      "observation": "Collector shows factual receipt and human mental-state disclaimer."
+    },
+    {
+      "file": "visual-player-nera-hidden.png",
+      "observation": "Nera private local state is explicitly not shown; received ownership fact remains distinct."
+    },
+    {
+      "file": "visual-recovery-collector-top.png",
+      "observation": "Recovery saved point and Collector identity display correctly; exact custody/ownership assertions are covered independently."
+    },
+    {
+      "file": "visual-collapse-defect.png",
+      "observation": "Missing closure preview remains a technical issue; serviceRemainsOpen true; inspection does not repair it."
+    }
+  ],
+  "notes": "Browser automation exercised controls; direct image review is visual verification, not a claim of a human-operated session."
+}

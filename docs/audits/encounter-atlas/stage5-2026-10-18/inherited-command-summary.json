@@ -1,0 +1,443 @@
+[
+  {
+    "record": "work\\dependency\\tooling-clone\\evidence\\ar0-r1\\executed-commands.json",
+    "name": "identity",
+    "exit_code": 0,
+    "expected_exit_code": 0,
+    "tap": [],
+    "args": [
+      "python",
+      "scripts/identity-ar0-r1.py"
+    ],
+    "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-5-verification-2026-10-18\\work\\dependency\\tooling-clone"
+  },
+  {
+    "record": "work\\dependency\\tooling-clone\\evidence\\ar0-r1\\executed-commands.json",
+    "name": "all-inherited-ar0",
+    "exit_code": 0,
+    "expected_exit_code": 0,
+    "tap": [],
+    "args": [
+      "python",
+      "scripts/check-ar0.py",
+      "--regressions"
+    ],
+    "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-5-verification-2026-10-18\\work\\dependency\\encounter-ar0-r1-regression-vx34rtdt"
+  },
+  {
+    "record": "work\\dependency\\tooling-clone\\evidence\\ar0-r1\\executed-commands.json",
+    "name": "independent-ar0",
+    "exit_code": 0,
+    "expected_exit_code": 0,
+    "tap": [
+      "# tests 22",
+      "# pass 22",
+      "# fail 0",
+      "# skipped 0"
+    ],
+    "args": [
+      "node",
+      "--test",
+      "--test-reporter=tap",
+      "scripts/run-independent-ar0.mjs"
+    ],
+    "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-5-verification-2026-10-18\\work\\dependency\\tooling-clone"
+  },
+  {
+    "record": "work\\dependency\\tooling-clone\\evidence\\ar0-r1\\executed-commands.json",
+    "name": "conflicting-cli-author",
+    "exit_code": 1,
+    "expected_exit_code": 1,
+    "tap": [],
+    "args": [
+      "node",
+      "scripts/atlas-export.mjs",
+      "independent/ar0-review/evidence/ui-warned.json",
+      "evidence/ar0-r1/rejected-author",
+      "author",
+      "independent/ar0-review/evidence/alias-trust-catalog.json"
+    ],
+    "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-5-verification-2026-10-18\\work\\dependency\\tooling-clone"
+  },
+  {
+    "record": "work\\dependency\\tooling-clone\\evidence\\ar0-r1\\executed-commands.json",
+    "name": "conflicting-cli-player",
+    "exit_code": 1,
+    "expected_exit_code": 1,
+    "tap": [],
+    "args": [
+      "node",
+      "scripts/atlas-export.mjs",
+      "independent/ar0-review/evidence/ui-warned.json",
+      "evidence/ar0-r1/rejected-player",
+      "player",
+      "independent/ar0-review/evidence/alias-trust-catalog.json"
+    ],
+    "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-5-verification-2026-10-18\\work\\dependency\\tooling-clone"
+  },
+  {
+    "record": "work\\dependency\\tooling-clone\\evidence\\ar0-r1\\executed-commands.json",
+    "name": "preservation",
+    "exit_code": 0,
+    "expected_exit_code": 0,
+    "tap": [],
+    "args": [
+      "python",
+      "scripts/preserve-ar0-r1.py"
+    ],
+    "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-5-verification-2026-10-18\\work\\dependency\\tooling-clone"
+  },
+  {
+    "record": "work\\dependency\\tooling-clone\\evidence\\ar0-r1\\regression\\executed-commands.json",
+    "name": "identity",
+    "exit_code": 0,
+    "expected_exit_code": 0,
+    "tap": [],
+    "args": [
+      "scripts/identity-ar0.py"
+    ],
+    "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-5-verification-2026-10-18\\work\\dependency\\encounter-ar0-r1-regression-vx34rtdt"
+  },
+  {
+    "record": "work\\dependency\\tooling-clone\\evidence\\ar0-r1\\regression\\executed-commands.json",
+    "name": "all-inherited-plus-ar0",
+    "exit_code": 0,
+    "expected_exit_code": 0,
+    "tap": [],
+    "args": [
+      "scripts/check-m3-r3.py"
+    ],
+    "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-5-verification-2026-10-18\\work\\dependency\\encounter-ar0-regression-daipwh5p"
+  },
+  {
+    "record": "work\\dependency\\tooling-clone\\evidence\\ar0-r1\\regression\\executed-commands.json",
+    "name": "independent-r3",
+    "exit_code": 1,
+    "expected_exit_code": 1,
+    "tap": [
+      "# tests 25",
+      "# pass 24",
+      "# fail 1",
+      "# skipped 0"
+    ],
+    "args": [
+      "--test",
+      "--test-reporter=tap",
+      "scripts/run-independent-m3-r3.mjs"
+    ],
+    "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-5-verification-2026-10-18\\work\\dependency\\encounter-ar0-r1-regression-vx34rtdt"
+  },
+  {
+    "record": "work\\dependency\\tooling-clone\\evidence\\ar0-r1\\regression\\executed-commands.json",
+    "name": "preservation",
+    "exit_code": 0,
+    "expected_exit_code": 0,
+    "tap": [],
+    "args": [
+      "scripts/preserve-ar0.py"
+    ],
+    "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-5-verification-2026-10-18\\work\\dependency\\encounter-ar0-r1-regression-vx34rtdt"
+  },
+  {
+    "record": "work\\dependency\\tooling-clone\\evidence\\ar0-r1\\regression\\regression\\executed-commands.json",
+    "name": null,
+    "exit_code": 0,
+    "expected_exit_code": null,
+    "tap": [],
+    "args": [
+      "scripts/build-m3.mjs"
+    ],
+    "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-5-verification-2026-10-18\\work\\dependency\\encounter-ar0-regression-daipwh5p"
+  },
+  {
+    "record": "work\\dependency\\tooling-clone\\evidence\\ar0-r1\\regression\\regression\\executed-commands.json",
+    "name": null,
+    "exit_code": 0,
+    "expected_exit_code": null,
+    "tap": [],
+    "args": [
+      "scripts/source-identity-m3.py"
+    ],
+    "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-5-verification-2026-10-18\\work\\dependency\\encounter-ar0-regression-daipwh5p"
+  },
+  {
+    "record": "work\\dependency\\tooling-clone\\evidence\\ar0-r1\\regression\\regression\\executed-commands.json",
+    "name": null,
+    "exit_code": 0,
+    "expected_exit_code": null,
+    "tap": [],
+    "args": [
+      "scripts/check-m3-r2.py"
+    ],
+    "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-5-verification-2026-10-18\\work\\dependency\\encounter-r3-regression-vviwx86e"
+  },
+  {
+    "record": "work\\dependency\\tooling-clone\\evidence\\ar0-r1\\regression\\regression\\executed-commands.json",
+    "name": null,
+    "exit_code": 0,
+    "expected_exit_code": null,
+    "tap": [
+      "# tests 20",
+      "# pass 20",
+      "# fail 0",
+      "# skipped 0"
+    ],
+    "args": [
+      "--test",
+      "--test-reporter=tap",
+      "scripts/run-independent-m3-d03.mjs"
+    ],
+    "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-5-verification-2026-10-18\\work\\dependency\\encounter-ar0-regression-daipwh5p"
+  },
+  {
+    "record": "work\\dependency\\tooling-clone\\evidence\\ar0-r1\\regression\\regression\\executed-commands.json",
+    "name": null,
+    "exit_code": 0,
+    "expected_exit_code": null,
+    "tap": [],
+    "args": [
+      "scripts/generate-m3-d03-evidence.mjs"
+    ],
+    "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-5-verification-2026-10-18\\work\\dependency\\encounter-ar0-regression-daipwh5p"
+  },
+  {
+    "record": "work\\dependency\\tooling-clone\\evidence\\ar0-r1\\regression\\regression\\executed-commands.json",
+    "name": null,
+    "exit_code": 0,
+    "expected_exit_code": null,
+    "tap": [],
+    "args": [
+      "scripts/preserve-m3-r3.py"
+    ],
+    "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-5-verification-2026-10-18\\work\\dependency\\encounter-ar0-regression-daipwh5p"
+  },
+  {
+    "record": "work\\dependency\\tooling-clone\\evidence\\ar0-r1\\regression\\regression\\regression\\m0-m3\\executed-commands.json",
+    "name": null,
+    "exit_code": 0,
+    "expected_exit_code": null,
+    "tap": [],
+    "args": [
+      "scripts/build-m3.mjs"
+    ],
+    "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-5-verification-2026-10-18\\work\\dependency\\encounter-r3-regression-vviwx86e"
+  },
+  {
+    "record": "work\\dependency\\tooling-clone\\evidence\\ar0-r1\\regression\\regression\\regression\\m0-m3\\executed-commands.json",
+    "name": null,
+    "exit_code": 0,
+    "expected_exit_code": null,
+    "tap": [],
+    "args": [
+      "scripts/source-identity-m3.py"
+    ],
+    "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-5-verification-2026-10-18\\work\\dependency\\encounter-r3-regression-vviwx86e"
+  },
+  {
+    "record": "work\\dependency\\tooling-clone\\evidence\\ar0-r1\\regression\\regression\\regression\\m0-m3\\executed-commands.json",
+    "name": null,
+    "exit_code": 0,
+    "expected_exit_code": null,
+    "tap": [],
+    "args": [
+      "scripts/preserve-m3.py"
+    ],
+    "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-5-verification-2026-10-18\\work\\dependency\\encounter-r3-regression-vviwx86e"
+  },
+  {
+    "record": "work\\dependency\\tooling-clone\\evidence\\ar0-r1\\regression\\regression\\regression\\m0-m3\\executed-commands.json",
+    "name": null,
+    "exit_code": 0,
+    "expected_exit_code": null,
+    "tap": [],
+    "args": [
+      "scripts/audit-baseline.cjs"
+    ],
+    "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-5-verification-2026-10-18\\work\\dependency\\encounter-r3-regression-vviwx86e"
+  },
+  {
+    "record": "work\\dependency\\tooling-clone\\evidence\\ar0-r1\\regression\\regression\\regression\\m0-m3\\executed-commands.json",
+    "name": null,
+    "exit_code": 0,
+    "expected_exit_code": null,
+    "tap": [
+      "# tests 194",
+      "# pass 194",
+      "# fail 0",
+      "# skipped 0"
+    ],
+    "args": [
+      "--test",
+      "--test-reporter=tap",
+      "tests/*.test.mjs"
+    ],
+    "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-5-verification-2026-10-18\\work\\dependency\\encounter-r3-regression-vviwx86e"
+  },
+  {
+    "record": "work\\dependency\\tooling-clone\\evidence\\ar0-r1\\regression\\regression\\regression\\m0-m3\\executed-commands.json",
+    "name": null,
+    "exit_code": 0,
+    "expected_exit_code": null,
+    "tap": [
+      "# tests 22",
+      "# pass 22",
+      "# fail 0",
+      "# skipped 0"
+    ],
+    "args": [
+      "--test",
+      "--test-reporter=tap",
+      "independent/M1_Independent_Contract_Tests.test.mjs"
+    ],
+    "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-5-verification-2026-10-18\\work\\dependency\\encounter-r3-regression-vviwx86e"
+  },
+  {
+    "record": "work\\dependency\\tooling-clone\\evidence\\ar0-r1\\regression\\regression\\regression\\m0-m3\\executed-commands.json",
+    "name": null,
+    "exit_code": 0,
+    "expected_exit_code": null,
+    "tap": [
+      "# tests 18",
+      "# pass 18",
+      "# fail 0",
+      "# skipped 0"
+    ],
+    "args": [
+      "--test",
+      "--test-reporter=tap",
+      "independent/M2_Independent_Contract_Tests.test.mjs"
+    ],
+    "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-5-verification-2026-10-18\\work\\dependency\\encounter-r3-regression-vviwx86e"
+  },
+  {
+    "record": "work\\dependency\\tooling-clone\\evidence\\ar0-r1\\regression\\regression\\regression\\m0-m3\\executed-commands.json",
+    "name": null,
+    "exit_code": 0,
+    "expected_exit_code": null,
+    "tap": [],
+    "args": [
+      "scripts/generate-m3-evidence.mjs"
+    ],
+    "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-5-verification-2026-10-18\\work\\dependency\\encounter-r3-regression-vviwx86e"
+  },
+  {
+    "record": "work\\dependency\\tooling-clone\\evidence\\ar0-r1\\regression\\regression\\regression\\prior-m3\\executed-commands.json",
+    "name": null,
+    "exit_code": 0,
+    "expected_exit_code": null,
+    "tap": [],
+    "args": [
+      "scripts/check-m3.py"
+    ],
+    "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-5-verification-2026-10-18\\work\\dependency\\encounter-r3-regression-vviwx86e"
+  },
+  {
+    "record": "work\\dependency\\tooling-clone\\evidence\\ar0-r1\\regression\\regression\\regression\\prior-m3\\executed-commands.json",
+    "name": null,
+    "exit_code": 0,
+    "expected_exit_code": null,
+    "tap": [
+      "# tests 18",
+      "# pass 18",
+      "# fail 0",
+      "# skipped 0"
+    ],
+    "args": [
+      "--test",
+      "--test-reporter=tap",
+      "scripts/run-independent-m3-r1.mjs"
+    ],
+    "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-5-verification-2026-10-18\\work\\dependency\\encounter-r3-regression-vviwx86e"
+  },
+  {
+    "record": "work\\dependency\\tooling-clone\\evidence\\ar0-r1\\regression\\regression\\regression\\prior-m3\\executed-commands.json",
+    "name": null,
+    "exit_code": 0,
+    "expected_exit_code": null,
+    "tap": [
+      "# tests 1",
+      "# pass 1",
+      "# fail 0",
+      "# skipped 0"
+    ],
+    "args": [
+      "--test",
+      "--test-reporter=tap",
+      "independent/m3-review/notice-display-defect.test.mjs"
+    ],
+    "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-5-verification-2026-10-18\\work\\dependency\\encounter-r3-regression-vviwx86e"
+  },
+  {
+    "record": "work\\dependency\\tooling-clone\\evidence\\ar0-r1\\regression\\regression\\regression\\prior-m3\\executed-commands.json",
+    "name": null,
+    "exit_code": 0,
+    "expected_exit_code": null,
+    "tap": [],
+    "args": [
+      "scripts/generate-m3-d01-evidence.mjs"
+    ],
+    "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-5-verification-2026-10-18\\work\\dependency\\encounter-r3-regression-vviwx86e"
+  },
+  {
+    "record": "work\\dependency\\tooling-clone\\evidence\\ar0-r1\\regression\\regression\\regression\\prior-m3\\executed-commands.json",
+    "name": null,
+    "exit_code": 0,
+    "expected_exit_code": null,
+    "tap": [],
+    "args": [
+      "scripts/preserve-m3-r1.py"
+    ],
+    "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-5-verification-2026-10-18\\work\\dependency\\encounter-r3-regression-vviwx86e"
+  },
+  {
+    "record": "work\\dependency\\tooling-clone\\evidence\\ar0-r1\\regression\\regression\\regression\\r2\\executed-commands.json",
+    "name": null,
+    "exit_code": 0,
+    "expected_exit_code": null,
+    "tap": [],
+    "args": [
+      "scripts/check-m3-r1.py"
+    ],
+    "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-5-verification-2026-10-18\\work\\dependency\\encounter-r3-regression-vviwx86e"
+  },
+  {
+    "record": "work\\dependency\\tooling-clone\\evidence\\ar0-r1\\regression\\regression\\regression\\r2\\executed-commands.json",
+    "name": null,
+    "exit_code": 0,
+    "expected_exit_code": null,
+    "tap": [
+      "# tests 9",
+      "# pass 9",
+      "# fail 0",
+      "# skipped 0"
+    ],
+    "args": [
+      "--test",
+      "--test-reporter=tap",
+      "scripts/run-independent-m3-d02.mjs"
+    ],
+    "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-5-verification-2026-10-18\\work\\dependency\\encounter-r3-regression-vviwx86e"
+  },
+  {
+    "record": "work\\dependency\\tooling-clone\\evidence\\ar0-r1\\regression\\regression\\regression\\r2\\executed-commands.json",
+    "name": null,
+    "exit_code": 0,
+    "expected_exit_code": null,
+    "tap": [],
+    "args": [
+      "scripts/generate-m3-d02-evidence.mjs"
+    ],
+    "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-5-verification-2026-10-18\\work\\dependency\\encounter-r3-regression-vviwx86e"
+  },
+  {
+    "record": "work\\dependency\\tooling-clone\\evidence\\ar0-r1\\regression\\regression\\regression\\r2\\executed-commands.json",
+    "name": null,
+    "exit_code": 0,
+    "expected_exit_code": null,
+    "tap": [],
+    "args": [
+      "scripts/preserve-m3-r2.py"
+    ],
+    "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-5-verification-2026-10-18\\work\\dependency\\encounter-r3-regression-vviwx86e"
+  }
+]

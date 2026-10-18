@@ -1,0 +1,14 @@
+{
+  "started_utc": "2026-10-18T15:58:13.830406+00:00",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": "Python 3.12.14",
+  "python_executable": "C:\\Users\\mcdon\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+  "node": "v24.19.0",
+  "node_executable": "C:\\Users\\mcdon\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\bin\\node.exe",
+  "playwright": "1.62.1",
+  "chrome_executable": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+  "chrome_version": "155.0.8059.41",
+  "computer_use_session": "node_repl not exposed; using existing Playwright browser automation",
+  "source_commit": "36f7e64d13ddf470bfc0ad949ea6965b996fab58",
+  "review_root": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-5-verification-2026-10-18"
+}

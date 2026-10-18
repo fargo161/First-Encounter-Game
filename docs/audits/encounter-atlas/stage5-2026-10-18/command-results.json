@@ -1,0 +1,161 @@
+[
+  {
+    "label": "01-a1-supplied-tests",
+    "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-5-verification-2026-10-18\\work\\a1-tooling",
+    "command": [
+      "C:\\Users\\mcdon\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\bin\\node.exe",
+      "--test",
+      "--test-reporter=tap",
+      "tests/*.test.mjs"
+    ],
+    "started_utc": "2026-10-18T15:59:30.954764+00:00",
+    "finished_utc": "2026-10-18T16:00:09.473954+00:00",
+    "exit_code": 0,
+    "expected_exit_code": 0,
+    "tap_summaries": [
+      "# tests 224",
+      "# suites 0",
+      "# pass 224",
+      "# fail 0",
+      "# cancelled 0",
+      "# skipped 0",
+      "# todo 0",
+      "# duration_ms 37167.7251"
+    ],
+    "log_sha256": "2eee4c65c3d8e2e9bdc5fb56e00887ecf96e482567a3c6f2c949d76d2dc82fa2"
+  },
+  {
+    "label": "02-rebuild-m3",
+    "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-5-verification-2026-10-18\\work\\a1-tooling",
+    "command": [
+      "C:\\Users\\mcdon\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\bin\\node.exe",
+      "scripts/build-m3.mjs"
+    ],
+    "started_utc": "2026-10-18T16:00:09.476960+00:00",
+    "finished_utc": "2026-10-18T16:00:10.600246+00:00",
+    "exit_code": 0,
+    "expected_exit_code": 0,
+    "tap_summaries": [],
+    "log_sha256": "f0fe74071ab71148c45b2153a51852080fe61e15f3b9a39b8e5a357396fb8512"
+  },
+  {
+    "label": "03-rebuild-a1",
+    "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-5-verification-2026-10-18\\work\\a1-tooling",
+    "command": [
+      "C:\\Users\\mcdon\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\bin\\node.exe",
+      "scripts/build-atlas-a1.mjs"
+    ],
+    "started_utc": "2026-10-18T16:00:10.601738+00:00",
+    "finished_utc": "2026-10-18T16:00:11.789771+00:00",
+    "exit_code": 0,
+    "expected_exit_code": 0,
+    "tap_summaries": [],
+    "log_sha256": "74c68e510a3554b42b1c1d52303b10ba512d29fbfec1589b368ea913fa4b01f1"
+  },
+  {
+    "label": "04-regenerate-a1-proofs",
+    "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-5-verification-2026-10-18\\work\\a1-tooling",
+    "command": [
+      "C:\\Users\\mcdon\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\bin\\node.exe",
+      "scripts/generate-atlas-a1-evidence.mjs"
+    ],
+    "started_utc": "2026-10-18T16:00:11.790772+00:00",
+    "finished_utc": "2026-10-18T16:00:48.510334+00:00",
+    "exit_code": 0,
+    "expected_exit_code": 0,
+    "tap_summaries": [],
+    "log_sha256": "40fcf13a0226833def26fc54802d23718963283e799b3bd34cf9eb4bd07d0d91"
+  },
+  {
+    "label": "05-preserve-a1",
+    "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-5-verification-2026-10-18\\work\\a1-tooling",
+    "command": [
+      "C:\\Users\\mcdon\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "scripts/preserve-atlas-a1.py"
+    ],
+    "started_utc": "2026-10-18T16:00:48.576214+00:00",
+    "finished_utc": "2026-10-18T16:00:50.559848+00:00",
+    "exit_code": 0,
+    "expected_exit_code": 0,
+    "tap_summaries": [],
+    "log_sha256": "afa028a19452e60eba19328ab024728bf98fd80b3ef2b977519b3df8264dea73"
+  },
+  {
+    "label": "06-identity-a1",
+    "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-5-verification-2026-10-18\\work\\a1-tooling",
+    "command": [
+      "C:\\Users\\mcdon\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "scripts/identity-atlas-a1.py"
+    ],
+    "started_utc": "2026-10-18T16:00:50.559848+00:00",
+    "finished_utc": "2026-10-18T16:00:50.727340+00:00",
+    "exit_code": 0,
+    "expected_exit_code": 0,
+    "tap_summaries": [],
+    "log_sha256": "2fce75947809c9beb1f34852b71c43203df9572561b6a44ff1ac561877093fb5"
+  },
+  {
+    "label": "07-independent-a1",
+    "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-5-verification-2026-10-18\\work\\a1-review",
+    "command": [
+      "C:\\Users\\mcdon\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\bin\\node.exe",
+      "--test",
+      "--test-reporter=tap",
+      "independent-a1.test.mjs"
+    ],
+    "started_utc": "2026-10-18T16:00:50.727340+00:00",
+    "finished_utc": "2026-10-18T16:01:46.533293+00:00",
+    "exit_code": 0,
+    "expected_exit_code": 0,
+    "tap_summaries": [
+      "# tests 21",
+      "# suites 0",
+      "# pass 21",
+      "# fail 0",
+      "# cancelled 0",
+      "# skipped 0",
+      "# todo 0",
+      "# duration_ms 54818.1365"
+    ],
+    "log_sha256": "02e105379560e9bfa5356a9864b9e780fb42654f2bb10ec7fac472cf99a20afd"
+  },
+  {
+    "label": "08-full-ar0-r1-regression",
+    "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-5-verification-2026-10-18\\work\\dependency\\tooling-clone",
+    "command": [
+      "C:\\Users\\mcdon\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "scripts/check-ar0-r1.py"
+    ],
+    "started_utc": "2026-10-18T16:01:46.534295+00:00",
+    "finished_utc": "2026-10-18T16:05:29.162247+00:00",
+    "exit_code": 0,
+    "expected_exit_code": 0,
+    "tap_summaries": [],
+    "log_sha256": "f825d26aa96fec29074d25de76e685e751fcf6920f1ad507426db9a554443112"
+  },
+  {
+    "label": "09-independent-r1",
+    "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-5-verification-2026-10-18\\work\\dependency",
+    "command": [
+      "C:\\Users\\mcdon\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\bin\\node.exe",
+      "--test",
+      "--test-reporter=tap",
+      "independent-r1.test.mjs"
+    ],
+    "started_utc": "2026-10-18T16:05:29.164771+00:00",
+    "finished_utc": "2026-10-18T16:05:48.865750+00:00",
+    "exit_code": 0,
+    "expected_exit_code": 0,
+    "tap_summaries": [
+      "# tests 15",
+      "# suites 0",
+      "# pass 15",
+      "# fail 0",
+      "# cancelled 0",
+      "# skipped 0",
+      "# todo 0",
+      "# duration_ms 18603.2052"
+    ],
+    "log_sha256": "076021d6bb2af462bea8fe97a93da73daceb1608f7c9585a8da9faa161dda4ba"
+  }
+]

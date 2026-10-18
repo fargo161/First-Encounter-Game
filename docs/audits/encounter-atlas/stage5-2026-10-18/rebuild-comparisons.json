@@ -1,0 +1,158 @@
+[
+  {
+    "path": "dist-m3/index.html",
+    "expected_sha256": "8e1c14e25a515b92188703927344e97b744921ec9b033ee2b1d8cc0b63f517cb",
+    "observed_sha256": "8e1c14e25a515b92188703927344e97b744921ec9b033ee2b1d8cc0b63f517cb",
+    "equal": true
+  },
+  {
+    "path": "dist-atlas-a1/index.html",
+    "expected_sha256": "b9612d61f41bcf2bee5085902ff65c5e418b226de3dd5c8af6490ccd15e4ae9f",
+    "observed_sha256": "b9612d61f41bcf2bee5085902ff65c5e418b226de3dd5c8af6490ccd15e4ae9f",
+    "equal": true
+  },
+  {
+    "path": "content/m3/seed.mjs",
+    "expected_sha256": "b4fd57ab97b52d22359da7b3cc8e107014c1cc934bd76b891316d0c7109d7ffc",
+    "observed_sha256": "b4fd57ab97b52d22359da7b3cc8e107014c1cc934bd76b891316d0c7109d7ffc",
+    "equal": true
+  },
+  {
+    "path": "proofs/atlas-a1/collapse-author.json",
+    "expected_sha256": "727dd99043d01944684a61cdd7fd9e98837dc7d0a1e1a596519df7f9b043c38f",
+    "observed_sha256": "727dd99043d01944684a61cdd7fd9e98837dc7d0a1e1a596519df7f9b043c38f",
+    "equal": true
+  },
+  {
+    "path": "proofs/atlas-a1/collapse-player.json",
+    "expected_sha256": "dbaa7ed574add8f2f17b7ce7aadb215ae1715a1fa54e97354d0901c439108f17",
+    "observed_sha256": "dbaa7ed574add8f2f17b7ce7aadb215ae1715a1fa54e97354d0901c439108f17",
+    "equal": true
+  },
+  {
+    "path": "proofs/atlas-a1/initial-author.json",
+    "expected_sha256": "c7a06f10391d0e0c15c40cdc5b44351f69b9f454e3c279b089c22b5797971048",
+    "observed_sha256": "c7a06f10391d0e0c15c40cdc5b44351f69b9f454e3c279b089c22b5797971048",
+    "equal": true
+  },
+  {
+    "path": "proofs/atlas-a1/initial-player.json",
+    "expected_sha256": "09b2cecc578331c34242eaedc9e1435d9b91b619f686a9a5547bfdbc22b51aa5",
+    "observed_sha256": "09b2cecc578331c34242eaedc9e1435d9b91b619f686a9a5547bfdbc22b51aa5",
+    "equal": true
+  },
+  {
+    "path": "proofs/atlas-a1/pending-author.json",
+    "expected_sha256": "189deb08b5601d6b6c6607c4d4323fe9a1cc96a208511750e9b08e9403dbbf6c",
+    "observed_sha256": "189deb08b5601d6b6c6607c4d4323fe9a1cc96a208511750e9b08e9403dbbf6c",
+    "equal": true
+  },
+  {
+    "path": "proofs/atlas-a1/pending-player.json",
+    "expected_sha256": "76e62c3f0f840c30823f919b8894be768e64e573824ed45537e66ce64d51fa25",
+    "observed_sha256": "76e62c3f0f840c30823f919b8894be768e64e573824ed45537e66ce64d51fa25",
+    "equal": true
+  },
+  {
+    "path": "proofs/atlas-a1/recovery-author.json",
+    "expected_sha256": "4d4f79100328c6b81caa150230ba7d4f9ecb65ab078dc7008ac04bbb0ae1d9f0",
+    "observed_sha256": "4d4f79100328c6b81caa150230ba7d4f9ecb65ab078dc7008ac04bbb0ae1d9f0",
+    "equal": true
+  },
+  {
+    "path": "proofs/atlas-a1/recovery-player.json",
+    "expected_sha256": "3e7f04c5ab5ad1172ab70b65db00a7646466e2793d444bfe87a729eaed5864f9",
+    "observed_sha256": "3e7f04c5ab5ad1172ab70b65db00a7646466e2793d444bfe87a729eaed5864f9",
+    "equal": true
+  },
+  {
+    "path": "proofs/atlas-a1/repaired-author.json",
+    "expected_sha256": "a11613569d3f25a9e0463fb3800c21c851bd4baaa0c421549bc4f28290cd8585",
+    "observed_sha256": "a11613569d3f25a9e0463fb3800c21c851bd4baaa0c421549bc4f28290cd8585",
+    "equal": true
+  },
+  {
+    "path": "proofs/atlas-a1/repaired-player.json",
+    "expected_sha256": "28b968ddee084e5d9be72673e792ad0aef21b8cde2384122ab79eeaae45c9ae8",
+    "observed_sha256": "28b968ddee084e5d9be72673e792ad0aef21b8cde2384122ab79eeaae45c9ae8",
+    "equal": true
+  },
+  {
+    "path": "proofs/atlas-a1/warned-author.json",
+    "expected_sha256": "e61f72f74167be1b3b3f774a307ef032bf6d387ab9b19aed1e5155723fdf6143",
+    "observed_sha256": "e61f72f74167be1b3b3f774a307ef032bf6d387ab9b19aed1e5155723fdf6143",
+    "equal": true
+  },
+  {
+    "path": "proofs/atlas-a1/warned-player.json",
+    "expected_sha256": "9dd0b87734e76209028771a083a61567e5b8684cb73c1ef9d3b309eb9f5fe4c6",
+    "observed_sha256": "9dd0b87734e76209028771a083a61567e5b8684cb73c1ef9d3b309eb9f5fe4c6",
+    "equal": true
+  },
+  {
+    "path": "fixtures/atlas-a1/conflicting-catalog.json",
+    "expected_sha256": "4692b0695ff552e3579c4aa30ea11fc54fae6dff9b89e93ccbeccc12d9c5c73b",
+    "observed_sha256": "4692b0695ff552e3579c4aa30ea11fc54fae6dff9b89e93ccbeccc12d9c5c73b",
+    "equal": true
+  },
+  {
+    "path": "fixtures/atlas-a1/incompatible-catalog.json",
+    "expected_sha256": "1654367436c01f4513ef1b1b1d046b7e6b1084728915c04f48877bf25e8b852a",
+    "observed_sha256": "1654367436c01f4513ef1b1b1d046b7e6b1084728915c04f48877bf25e8b852a",
+    "equal": true
+  },
+  {
+    "path": "fixtures/atlas-a1/invalid-save.json",
+    "expected_sha256": "0f23c0abd7c096522360bda25dc63a7467f8151df3be732a418f2a35ad39cfe0",
+    "observed_sha256": "0f23c0abd7c096522360bda25dc63a7467f8151df3be732a418f2a35ad39cfe0",
+    "equal": true
+  },
+  {
+    "path": "fixtures/atlas-a1/same-name-catalog.json",
+    "expected_sha256": "ab0b2c2e907c9fcfa26daceed7eb163b68aa44182169c3340bddbae9fa1d3f23",
+    "observed_sha256": "ab0b2c2e907c9fcfa26daceed7eb163b68aa44182169c3340bddbae9fa1d3f23",
+    "equal": true
+  },
+  {
+    "path": "fixtures/atlas-a1/unmodeled-catalog.json",
+    "expected_sha256": "5e62a6881f5a141521b2afd342c0d04ad5a4ebfa903c6cc6767a40e4bba73d18",
+    "observed_sha256": "5e62a6881f5a141521b2afd342c0d04ad5a4ebfa903c6cc6767a40e4bba73d18",
+    "equal": true
+  },
+  {
+    "path": "evidence/atlas-a1/expected-inputs.json",
+    "expected_sha256": "2a728380e9332c42583d5a5947b408a1d31e1a43026853fd3d3425b7b8e0ae5e",
+    "observed_sha256": "2a728380e9332c42583d5a5947b408a1d31e1a43026853fd3d3425b7b8e0ae5e",
+    "equal": true
+  },
+  {
+    "path": "evidence/atlas-a1/proof-summary.json",
+    "expected_sha256": "e51717824070fd1ed8b64a4323675514d8728e577bb38188e6330b98b1da4ff2",
+    "observed_sha256": "e51717824070fd1ed8b64a4323675514d8728e577bb38188e6330b98b1da4ff2",
+    "equal": true
+  },
+  {
+    "path": "evidence/atlas-a1/build.json",
+    "expected_sha256": "0d2f0eb3cdcc0b75b86def23b9b42296faa84f870503f04c38543aea67413d80",
+    "observed_sha256": "0d2f0eb3cdcc0b75b86def23b9b42296faa84f870503f04c38543aea67413d80",
+    "equal": true
+  },
+  {
+    "path": "evidence/atlas-a1/source-identity.json",
+    "expected_sha256": "bc9af5ab12d848b4758be0118b6179818b9a83fd4b4e5721fe0f0fc4e157d7ec",
+    "observed_sha256": "bc9af5ab12d848b4758be0118b6179818b9a83fd4b4e5721fe0f0fc4e157d7ec",
+    "equal": true
+  },
+  {
+    "path": "evidence/atlas-a1/preservation.json",
+    "expected_sha256": "11d8523e1586bec30a3d183f3e7f41fdb2d5e31506c4c194a7f67072c3c1d60f",
+    "observed_sha256": "11d8523e1586bec30a3d183f3e7f41fdb2d5e31506c4c194a7f67072c3c1d60f",
+    "equal": true
+  },
+  {
+    "path": "evidence/atlas-a1/production-additions.patch",
+    "expected_sha256": "8c001cb118e9d434fbc3b97ab5ed6a29e1b49a4676046e91d3271cf8c6d84f7d",
+    "observed_sha256": "8c001cb118e9d434fbc3b97ab5ed6a29e1b49a4676046e91d3271cf8c6d84f7d",
+    "equal": true
+  }
+]

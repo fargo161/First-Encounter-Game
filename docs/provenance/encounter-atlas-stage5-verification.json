@@ -1,0 +1,351 @@
+{
+  "schema": "first-encounter-stage5-verification@1",
+  "created_utc": "2026-10-18T16:08:08.395686+00:00",
+  "verdict": "PASS WITH DOCUMENTED KNOWN LIMITATIONS",
+  "baseline": {
+    "result": "PASS",
+    "source_commit": "36f7e64d13ddf470bfc0ad949ea6965b996fab58",
+    "committed_a1_members": 2731,
+    "source_digest": "1a8558b3654e52881a288d2a5ab99e574878531f7a9d5fca86223e511146f085",
+    "full_tree_sha256": "01d90c554b2dc00bf169d98d8d4b36691f93311b3c0a81dc4d18da764008e76d",
+    "accepted_checkpoint_zip_sha256": "867f3278e3d6a09937b43503c2b886724dd21593533c1ae929c858f970acd72e",
+    "all2310_dependency_members_match_migrated_A1": true,
+    "dependency_zip_sha256": "f5566fdcfa82dc8aaee9378d7a0e894f10a4a2342100b7665cbd1c23e26e72da",
+    "before_original_ar0_zip_sha256": "d028b50107d639ade1ab31a1a68f5e70eaf8ebdc3a401f0abac9b9c2caa51828",
+    "independent_a1_test_sha256": "c0f2a489d76a64c2cec161917f995837b1ca10646c95da63b52aee8730190ed6",
+    "preserved_browser_audit_sha256": "47bb22ad1cfa358054fa01f9203d46b33b9ccbb41fd0810917858c9d056e2e14",
+    "no_source_helpers_executed_on_canonical_or_originals": true
+  },
+  "environment": {
+    "started_utc": "2026-10-18T15:58:13.830406+00:00",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "Python 3.12.14",
+    "python_executable": "C:\\Users\\mcdon\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "node": "v24.19.0",
+    "node_executable": "C:\\Users\\mcdon\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\bin\\node.exe",
+    "playwright": "1.62.1",
+    "chrome_executable": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+    "chrome_version": "155.0.8059.41",
+    "computer_use_session": "node_repl not exposed; using existing Playwright browser automation",
+    "source_commit": "36f7e64d13ddf470bfc0ad949ea6965b996fab58",
+    "review_root": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-5-verification-2026-10-18"
+  },
+  "supplied_tests": {
+    "passed": 224,
+    "failed": 0,
+    "skipped": 0
+  },
+  "independent_a1": {
+    "passed": 21,
+    "failed": 0,
+    "skipped": 0
+  },
+  "independent_r1": {
+    "passed": 15,
+    "failed": 0,
+    "skipped": 0
+  },
+  "inherited_suites": [
+    {
+      "name": "M0 audit",
+      "passed": 7,
+      "failed": 0
+    },
+    {
+      "name": "supplied inherited AR0 closure (overlaps A1)",
+      "passed": 194,
+      "failed": 0
+    },
+    {
+      "name": "independent M1",
+      "passed": 22,
+      "failed": 0
+    },
+    {
+      "name": "independent M2",
+      "passed": 18,
+      "failed": 0
+    },
+    {
+      "name": "independent prior M3",
+      "passed": 18,
+      "failed": 0
+    },
+    {
+      "name": "independent D01",
+      "passed": 1,
+      "failed": 0
+    },
+    {
+      "name": "independent D02",
+      "passed": 9,
+      "failed": 0
+    },
+    {
+      "name": "independent D03",
+      "passed": 20,
+      "failed": 0
+    },
+    {
+      "name": "independent retained R3",
+      "passed": 24,
+      "failed": 1
+    },
+    {
+      "name": "independent AR0",
+      "passed": 22,
+      "failed": 0
+    }
+  ],
+  "counts_note": "Suite counts overlap. Do not sum these into a unique-test total. IR3-25 is a real test failure; the wrapper succeeds only because that exact failure is explicitly expected.",
+  "reproducibility": {
+    "all_compared_files_byte_identical": true,
+    "compared_files": 26,
+    "person_models": 12,
+    "fixtures": 5,
+    "a1_html_sha256": "b9612d61f41bcf2bee5085902ff65c5e418b226de3dd5c8af6490ccd15e4ae9f",
+    "m3_html_sha256": "8e1c14e25a515b92188703927344e97b744921ec9b033ee2b1d8cc0b63f517cb",
+    "source_digest": "1a8558b3654e52881a288d2a5ab99e574878531f7a9d5fca86223e511146f085",
+    "execution_inputs": 132,
+    "dependency_members": 2310,
+    "regenerated_manifests_equal": true
+  },
+  "browser": {
+    "result": "PASS",
+    "completeExpandedPersonViews": 16,
+    "rawDOMRecordInstancesComparedWithCanonicalSources": 554,
+    "exactFullReopenComparisons": 8,
+    "independentBrowserFingerprintChecks": 30,
+    "additionalSavedPointPersonViews": 40,
+    "uniqueBundledSavedPointPersonViews": 48,
+    "expectedRejections": 5,
+    "consoleWarningsErrors": 0
+  },
+  "additional_browser_source_audit": {
+    "result": "PASS",
+    "views": 40,
+    "rawRecordInstancesCompared": 1663,
+    "personLocalFragments": 1056
+  },
+  "live_reader_comparisons": 58,
+  "privacy_boundary": "Player DOM and projected source disclosure verified; full developer truth remains in the local input/browser memory by design. This is not an untrusted-client secrecy boundary.",
+  "ir3_25": {
+    "result": "FAIL_EXPECTED_ACCEPTED_NON_BLOCKING",
+    "passed": 24,
+    "failed": 1,
+    "skipped": 0,
+    "assertion": "inconsistent rectangle dimensions cannot earn a valid display receipt",
+    "actual": {
+      "displayed": true,
+      "serviceOpen": false,
+      "closeResults": 1,
+      "defects": []
+    },
+    "expected": {
+      "displayed": false,
+      "serviceOpen": true,
+      "closeResults": 0,
+      "defects": [
+        "MISSING_CLOSURE_PREVIEW"
+      ]
+    },
+    "repaired_or_weakened": false
+  },
+  "findings": {
+    "migration_regressions": [],
+    "new_baseline_defects": [],
+    "known_limitations": [
+      "IR3-25 accepted synthetic geometry failure reproduced",
+      "A1 remains a read-only inspection prototype",
+      "Historical root metadata, absolute paths and sibling layouts remain preserved",
+      "Collapse save retains missing-closure-preview technical defect and open service"
+    ],
+    "environment_or_harness_issues": [
+      {
+        "issue": "computer-use node_repl session is not exposed",
+        "resolution": "Existing Node Playwright 1.62.1 and visible local Chrome used; screenshots inspected directly",
+        "unresolved": false
+      },
+      {
+        "issue": "Extra harness assertion wrongly forbade storage_location in pending/recovery",
+        "resolution": "Verified actual Collector receipts; preserved failed attempt; audit all source records against exact local observations and player projection",
+        "unresolved": false
+      },
+      {
+        "issue": "System Python default cp1252 could not decode Unicode fixture while writing correction evidence",
+        "resolution": "Explicit UTF-8 read; bundled Python UTF-8 used for all subsystem checks",
+        "unresolved": false
+      }
+    ],
+    "unresolved_environment_failures": []
+  },
+  "integrity": {
+    "result": "PASS",
+    "checked_utc": "2026-10-18T16:06:40.165976+00:00",
+    "stage5_before_after_file_guards": 5506,
+    "canonical_repository_all_files_before_documentation": 2772,
+    "canonical_and_original_A1_membership_unchanged": true,
+    "preserved_original_files_checked": 6722,
+    "preservation_copy_files_checked": 6722,
+    "sizes_hashes_and_original_mtimes_match": true,
+    "errors": []
+  },
+  "scope": {
+    "source_modified": false,
+    "originals_modified": false,
+    "room_creator_imported": false,
+    "zant_imported": false,
+    "legacy_repository_content_or_history_reused": false,
+    "stage6_started": false,
+    "unity_initialized": false,
+    "lfs_added": false,
+    "shared_contracts_implemented": false
+  },
+  "private_evidence_root": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-5-verification-2026-10-18",
+  "next_action": "Review this Stage 5 record; if desired, explicitly authorize Stage 6 Room Creator baseline import only while preserving its HOLD. No Stage 6 action was performed.",
+  "repository_evidence": [
+    {
+      "path": "docs/audits/encounter-atlas/stage5-2026-10-18/browser-additional-source-audit.json",
+      "bytes": 9095,
+      "sha256": "2ce4c4f19cb8e7f2a991b6adc9dd3b1cccd3358c28c3cb4ccde4b1c50b1e250f"
+    },
+    {
+      "path": "docs/audits/encounter-atlas/stage5-2026-10-18/browser-harness-correction.json",
+      "bytes": 9454,
+      "sha256": "32a2cb81efaf8f12528319f3b01b867f9087dedf4178b42eaa678476473fdc32"
+    },
+    {
+      "path": "docs/audits/encounter-atlas/stage5-2026-10-18/browser-independent-audit.json",
+      "bytes": 3607,
+      "sha256": "c8312a33f1713b940a95f1d3882702b7ace6074b313fc0410af05e68892d91e4"
+    },
+    {
+      "path": "docs/audits/encounter-atlas/stage5-2026-10-18/browser-live-closure-verification.json",
+      "bytes": 30373,
+      "sha256": "d65686943383643a6c1325525e4e419eacad949d1951ddea0c28dcefdc38258d"
+    },
+    {
+      "path": "docs/audits/encounter-atlas/stage5-2026-10-18/browser-purity-checks.json",
+      "bytes": 18308,
+      "sha256": "bf3f4dfec00918768e56ff8ef76725db42e4dccecbe108e5ac301adc67e76829"
+    },
+    {
+      "path": "docs/audits/encounter-atlas/stage5-2026-10-18/browser-session.json",
+      "bytes": 917,
+      "sha256": "1e777b219bbcfe284142562faeb0172db963bba25b0f32cfa278ce0c836e5893"
+    },
+    {
+      "path": "docs/audits/encounter-atlas/stage5-2026-10-18/command-results.json",
+      "bytes": 6345,
+      "sha256": "de8df5987dc9710e1442d066c6c3378ac19bad5c68bdeb9e731a0a4927bd1a86"
+    },
+    {
+      "path": "docs/audits/encounter-atlas/stage5-2026-10-18/environment.json",
+      "bytes": 826,
+      "sha256": "2b1ced50da7d7eb06c41268fe0254186fc7799046e81cbce1e1187a6f93199a1"
+    },
+    {
+      "path": "docs/audits/encounter-atlas/stage5-2026-10-18/evidence-inventory.json",
+      "bytes": 165880,
+      "sha256": "826e3962103a9b97581356966ffca0aba59446c979eacf1522babf4cd231ea91"
+    },
+    {
+      "path": "docs/audits/encounter-atlas/stage5-2026-10-18/inherited-command-summary.json",
+      "bytes": 16498,
+      "sha256": "a9ea39ff0cd390cf4bd6bd32d66edcd7472581e4253b5eb312284068a0bf09e0"
+    },
+    {
+      "path": "docs/audits/encounter-atlas/stage5-2026-10-18/ir3-25-fresh.json",
+      "bytes": 7556,
+      "sha256": "1273d8269a5b4bb565d62cd330b3b423d9014f0ce0dea2f6ffc2f0f48a935d95"
+    },
+    {
+      "path": "docs/audits/encounter-atlas/stage5-2026-10-18/logs/01-a1-supplied-tests.log",
+      "bytes": 52120,
+      "sha256": "2eee4c65c3d8e2e9bdc5fb56e00887ecf96e482567a3c6f2c949d76d2dc82fa2"
+    },
+    {
+      "path": "docs/audits/encounter-atlas/stage5-2026-10-18/logs/02-rebuild-m3.log",
+      "bytes": 183,
+      "sha256": "f0fe74071ab71148c45b2153a51852080fe61e15f3b9a39b8e5a357396fb8512"
+    },
+    {
+      "path": "docs/audits/encounter-atlas/stage5-2026-10-18/logs/03-rebuild-a1.log",
+      "bytes": 206,
+      "sha256": "74c68e510a3554b42b1c1d52303b10ba512d29fbfec1589b368ea913fa4b01f1"
+    },
+    {
+      "path": "docs/audits/encounter-atlas/stage5-2026-10-18/logs/04-regenerate-a1-proofs.log",
+      "bytes": 55,
+      "sha256": "40fcf13a0226833def26fc54802d23718963283e799b3bd34cf9eb4bd07d0d91"
+    },
+    {
+      "path": "docs/audits/encounter-atlas/stage5-2026-10-18/logs/05-preserve-a1.log",
+      "bytes": 451,
+      "sha256": "afa028a19452e60eba19328ab024728bf98fd80b3ef2b977519b3df8264dea73"
+    },
+    {
+      "path": "docs/audits/encounter-atlas/stage5-2026-10-18/logs/06-identity-a1.log",
+      "bytes": 766,
+      "sha256": "2fce75947809c9beb1f34852b71c43203df9572561b6a44ff1ac561877093fb5"
+    },
+    {
+      "path": "docs/audits/encounter-atlas/stage5-2026-10-18/logs/07-independent-a1.log",
+      "bytes": 5538,
+      "sha256": "02e105379560e9bfa5356a9864b9e780fb42654f2bb10ec7fac472cf99a20afd"
+    },
+    {
+      "path": "docs/audits/encounter-atlas/stage5-2026-10-18/logs/08-full-ar0-r1-regression.log",
+      "bytes": 534,
+      "sha256": "f825d26aa96fec29074d25de76e685e751fcf6920f1ad507426db9a554443112"
+    },
+    {
+      "path": "docs/audits/encounter-atlas/stage5-2026-10-18/logs/09-independent-r1.log",
+      "bytes": 3765,
+      "sha256": "076021d6bb2af462bea8fe97a93da73daceb1608f7c9585a8da9faa161dda4ba"
+    },
+    {
+      "path": "docs/audits/encounter-atlas/stage5-2026-10-18/protected-files-after-verification.json",
+      "bytes": 404,
+      "sha256": "8c0dc36c167e19e462212e75e1b140dcf0c5d1114ba99d1eea396fa51268a0ae"
+    },
+    {
+      "path": "docs/audits/encounter-atlas/stage5-2026-10-18/rebuild-comparisons.json",
+      "bytes": 6915,
+      "sha256": "676f6f885959aa00e998d329edb264bccaa9461c33e1244b8b68d95bc9738614"
+    },
+    {
+      "path": "docs/audits/encounter-atlas/stage5-2026-10-18/setup-identity.json",
+      "bytes": 922,
+      "sha256": "a5ed694a2eb8bc9fe383bf91abcfc06ea1204085139ca369bb45025f50e75a15"
+    },
+    {
+      "path": "docs/audits/encounter-atlas/stage5-2026-10-18/stage5-result.json",
+      "bytes": 7710,
+      "sha256": "e531cff07a0c2013eab64ea2bebf19263382e669b8e29a6f961cb4b770d39605"
+    },
+    {
+      "path": "docs/audits/encounter-atlas/stage5-2026-10-18/visual-review.json",
+      "bytes": 1441,
+      "sha256": "6fa16e9aacabb4fd00d320b8c02cb65f8a5ce75e902b079a5806ec0fdd55518d"
+    },
+    {
+      "path": "docs/provenance/governing/FIRST_ENCOUNTER_GAME_STAGE_5_AUTHORIZATION.md",
+      "bytes": 3509,
+      "sha256": "c46dbc5f3a4ceec29460838718e17deaabc37b4fca5ac73c532ca3a79c1cf155"
+    },
+    {
+      "path": "tools/verify_stage5_evidence.py",
+      "bytes": 5155,
+      "sha256": "c06b593dd27f386273985d1a0b842a4d35c4bb74af68df957f1cd0e2a726f234"
+    }
+  ],
+  "private_evidence_inventory": {
+    "path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-5-verification-2026-10-18\\evidence-inventory.json",
+    "sha256": "826e3962103a9b97581356966ffca0aba59446c979eacf1522babf4cd231ea91",
+    "selected_files": 543,
+    "selected_bytes": 74898639,
+    "note": "Mixed retained/regenerated inherited folders: only fresh execution manifests are claimed as new. Duplicate disposable source clones omitted."
+  },
+  "commit_record": "The dedicated commit containing this manifest is Stage 5. Full SHA and remote confirmation are in private git-completion.json and owner response."
+}

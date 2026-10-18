@@ -1,0 +1,328 @@
+{
+  "result": "PASS",
+  "views": 40,
+  "rawRecordInstancesCompared": 1663,
+  "personLocalFragments": 1056,
+  "results": [
+    {
+      "example": "initial",
+      "view": "author",
+      "actor": "actor_0001",
+      "rawRecordsVerified": 10,
+      "personLocalFragmentsVerified": 6,
+      "playerRecordsRestrictedToPlayerProjection": false
+    },
+    {
+      "example": "initial",
+      "view": "author",
+      "actor": "actor_0002",
+      "rawRecordsVerified": 47,
+      "personLocalFragmentsVerified": 20,
+      "playerRecordsRestrictedToPlayerProjection": false
+    },
+    {
+      "example": "initial",
+      "view": "author",
+      "actor": "actor_0003",
+      "rawRecordsVerified": 4,
+      "personLocalFragmentsVerified": 0,
+      "playerRecordsRestrictedToPlayerProjection": false
+    },
+    {
+      "example": "initial",
+      "view": "author",
+      "actor": "actor_0004",
+      "rawRecordsVerified": 20,
+      "personLocalFragmentsVerified": 10,
+      "playerRecordsRestrictedToPlayerProjection": false
+    },
+    {
+      "example": "initial",
+      "view": "player",
+      "actor": "actor_0001",
+      "rawRecordsVerified": 7,
+      "personLocalFragmentsVerified": 6,
+      "playerRecordsRestrictedToPlayerProjection": true
+    },
+    {
+      "example": "initial",
+      "view": "player",
+      "actor": "actor_0002",
+      "rawRecordsVerified": 1,
+      "personLocalFragmentsVerified": 0,
+      "playerRecordsRestrictedToPlayerProjection": true
+    },
+    {
+      "example": "initial",
+      "view": "player",
+      "actor": "actor_0003",
+      "rawRecordsVerified": 1,
+      "personLocalFragmentsVerified": 0,
+      "playerRecordsRestrictedToPlayerProjection": true
+    },
+    {
+      "example": "initial",
+      "view": "player",
+      "actor": "actor_0004",
+      "rawRecordsVerified": 1,
+      "personLocalFragmentsVerified": 0,
+      "playerRecordsRestrictedToPlayerProjection": true
+    },
+    {
+      "example": "repaired",
+      "view": "author",
+      "actor": "actor_0001",
+      "rawRecordsVerified": 97,
+      "personLocalFragmentsVerified": 68,
+      "playerRecordsRestrictedToPlayerProjection": false
+    },
+    {
+      "example": "repaired",
+      "view": "author",
+      "actor": "actor_0002",
+      "rawRecordsVerified": 116,
+      "personLocalFragmentsVerified": 64,
+      "playerRecordsRestrictedToPlayerProjection": false
+    },
+    {
+      "example": "repaired",
+      "view": "author",
+      "actor": "actor_0003",
+      "rawRecordsVerified": 4,
+      "personLocalFragmentsVerified": 0,
+      "playerRecordsRestrictedToPlayerProjection": false
+    },
+    {
+      "example": "repaired",
+      "view": "author",
+      "actor": "actor_0004",
+      "rawRecordsVerified": 34,
+      "personLocalFragmentsVerified": 18,
+      "playerRecordsRestrictedToPlayerProjection": false
+    },
+    {
+      "example": "repaired",
+      "view": "player",
+      "actor": "actor_0001",
+      "rawRecordsVerified": 63,
+      "personLocalFragmentsVerified": 68,
+      "playerRecordsRestrictedToPlayerProjection": true
+    },
+    {
+      "example": "repaired",
+      "view": "player",
+      "actor": "actor_0002",
+      "rawRecordsVerified": 1,
+      "personLocalFragmentsVerified": 0,
+      "playerRecordsRestrictedToPlayerProjection": true
+    },
+    {
+      "example": "repaired",
+      "view": "player",
+      "actor": "actor_0003",
+      "rawRecordsVerified": 3,
+      "personLocalFragmentsVerified": 0,
+      "playerRecordsRestrictedToPlayerProjection": true
+    },
+    {
+      "example": "repaired",
+      "view": "player",
+      "actor": "actor_0004",
+      "rawRecordsVerified": 4,
+      "personLocalFragmentsVerified": 0,
+      "playerRecordsRestrictedToPlayerProjection": true
+    },
+    {
+      "example": "pending",
+      "view": "author",
+      "actor": "actor_0001",
+      "rawRecordsVerified": 142,
+      "personLocalFragmentsVerified": 92,
+      "playerRecordsRestrictedToPlayerProjection": false
+    },
+    {
+      "example": "pending",
+      "view": "author",
+      "actor": "actor_0002",
+      "rawRecordsVerified": 186,
+      "personLocalFragmentsVerified": 92,
+      "playerRecordsRestrictedToPlayerProjection": false
+    },
+    {
+      "example": "pending",
+      "view": "author",
+      "actor": "actor_0003",
+      "rawRecordsVerified": 4,
+      "personLocalFragmentsVerified": 0,
+      "playerRecordsRestrictedToPlayerProjection": false
+    },
+    {
+      "example": "pending",
+      "view": "author",
+      "actor": "actor_0004",
+      "rawRecordsVerified": 34,
+      "personLocalFragmentsVerified": 18,
+      "playerRecordsRestrictedToPlayerProjection": false
+    },
+    {
+      "example": "pending",
+      "view": "player",
+      "actor": "actor_0001",
+      "rawRecordsVerified": 91,
+      "personLocalFragmentsVerified": 92,
+      "playerRecordsRestrictedToPlayerProjection": true
+    },
+    {
+      "example": "pending",
+      "view": "player",
+      "actor": "actor_0002",
+      "rawRecordsVerified": 1,
+      "personLocalFragmentsVerified": 0,
+      "playerRecordsRestrictedToPlayerProjection": true
+    },
+    {
+      "example": "pending",
+      "view": "player",
+      "actor": "actor_0003",
+      "rawRecordsVerified": 3,
+      "personLocalFragmentsVerified": 0,
+      "playerRecordsRestrictedToPlayerProjection": true
+    },
+    {
+      "example": "pending",
+      "view": "player",
+      "actor": "actor_0004",
+      "rawRecordsVerified": 4,
+      "personLocalFragmentsVerified": 0,
+      "playerRecordsRestrictedToPlayerProjection": true
+    },
+    {
+      "example": "recovery",
+      "view": "author",
+      "actor": "actor_0001",
+      "rawRecordsVerified": 154,
+      "personLocalFragmentsVerified": 98,
+      "playerRecordsRestrictedToPlayerProjection": false
+    },
+    {
+      "example": "recovery",
+      "view": "author",
+      "actor": "actor_0002",
+      "rawRecordsVerified": 198,
+      "personLocalFragmentsVerified": 100,
+      "playerRecordsRestrictedToPlayerProjection": false
+    },
+    {
+      "example": "recovery",
+      "view": "author",
+      "actor": "actor_0003",
+      "rawRecordsVerified": 4,
+      "personLocalFragmentsVerified": 0,
+      "playerRecordsRestrictedToPlayerProjection": false
+    },
+    {
+      "example": "recovery",
+      "view": "author",
+      "actor": "actor_0004",
+      "rawRecordsVerified": 34,
+      "personLocalFragmentsVerified": 18,
+      "playerRecordsRestrictedToPlayerProjection": false
+    },
+    {
+      "example": "recovery",
+      "view": "player",
+      "actor": "actor_0001",
+      "rawRecordsVerified": 99,
+      "personLocalFragmentsVerified": 99,
+      "playerRecordsRestrictedToPlayerProjection": true
+    },
+    {
+      "example": "recovery",
+      "view": "player",
+      "actor": "actor_0002",
+      "rawRecordsVerified": 1,
+      "personLocalFragmentsVerified": 0,
+      "playerRecordsRestrictedToPlayerProjection": true
+    },
+    {
+      "example": "recovery",
+      "view": "player",
+      "actor": "actor_0003",
+      "rawRecordsVerified": 3,
+      "personLocalFragmentsVerified": 0,
+      "playerRecordsRestrictedToPlayerProjection": true
+    },
+    {
+      "example": "recovery",
+      "view": "player",
+      "actor": "actor_0004",
+      "rawRecordsVerified": 4,
+      "personLocalFragmentsVerified": 0,
+      "playerRecordsRestrictedToPlayerProjection": true
+    },
+    {
+      "example": "collapse",
+      "view": "author",
+      "actor": "actor_0001",
+      "rawRecordsVerified": 85,
+      "personLocalFragmentsVerified": 57,
+      "playerRecordsRestrictedToPlayerProjection": false
+    },
+    {
+      "example": "collapse",
+      "view": "author",
+      "actor": "actor_0002",
+      "rawRecordsVerified": 102,
+      "personLocalFragmentsVerified": 55,
+      "playerRecordsRestrictedToPlayerProjection": false
+    },
+    {
+      "example": "collapse",
+      "view": "author",
+      "actor": "actor_0003",
+      "rawRecordsVerified": 4,
+      "personLocalFragmentsVerified": 0,
+      "playerRecordsRestrictedToPlayerProjection": false
+    },
+    {
+      "example": "collapse",
+      "view": "author",
+      "actor": "actor_0004",
+      "rawRecordsVerified": 34,
+      "personLocalFragmentsVerified": 18,
+      "playerRecordsRestrictedToPlayerProjection": false
+    },
+    {
+      "example": "collapse",
+      "view": "player",
+      "actor": "actor_0001",
+      "rawRecordsVerified": 55,
+      "personLocalFragmentsVerified": 57,
+      "playerRecordsRestrictedToPlayerProjection": true
+    },
+    {
+      "example": "collapse",
+      "view": "player",
+      "actor": "actor_0002",
+      "rawRecordsVerified": 1,
+      "personLocalFragmentsVerified": 0,
+      "playerRecordsRestrictedToPlayerProjection": true
+    },
+    {
+      "example": "collapse",
+      "view": "player",
+      "actor": "actor_0003",
+      "rawRecordsVerified": 3,
+      "personLocalFragmentsVerified": 0,
+      "playerRecordsRestrictedToPlayerProjection": true
+    },
+    {
+      "example": "collapse",
+      "view": "player",
+      "actor": "actor_0004",
+      "rawRecordsVerified": 4,
+      "personLocalFragmentsVerified": 0,
+      "playerRecordsRestrictedToPlayerProjection": true
+    }
+  ]
+}

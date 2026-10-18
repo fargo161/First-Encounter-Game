@@ -1,0 +1,136 @@
+TAP version 13
+# Subtest: IA1-01 six real saves both audiences have independent full-state identities and exact local anchors
+ok 1 - IA1-01 six real saves both audiences have independent full-state identities and exact local anchors
+  ---
+  duration_ms: 37.3269
+  type: 'test'
+  ...
+# Subtest: IA1-02 every full developer source record equals its actual canonical source; support stays person-local
+ok 2 - IA1-02 every full developer source record equals its actual canonical source; support stays person-local
+  ---
+  duration_ms: 9.3949
+  type: 'test'
+  ...
+# Subtest: IA1-03 player source layers contain only actual player fragments and never full developer records
+ok 3 - IA1-03 player source layers contain only actual player fragments and never full developer records
+  ---
+  duration_ms: 4.518
+  type: 'test'
+  ...
+# Subtest: IA1-04 reports retain canonical speakers, uncertainty, correct immediate timing and opaque earlier paths
+ok 4 - IA1-04 reports retain canonical speakers, uncertainty, correct immediate timing and opaque earlier paths
+  ---
+  duration_ms: 0.3209
+  type: 'test'
+  ...
+# Subtest: IA1-05 absent ownership, hidden state and descriptive unmodeled Person remain three distinct states
+ok 5 - IA1-05 absent ownership, hidden state and descriptive unmodeled Person remain three distinct states
+  ---
+  duration_ms: 596.5729
+  type: 'test'
+  ...
+# Subtest: IA1-06 human factual receipt never acquires simulated beliefs or concerns, including after recovery
+ok 6 - IA1-06 human factual receipt never acquires simulated beliefs or concerns, including after recovery
+  ---
+  duration_ms: 0.5097
+  type: 'test'
+  ...
+# Subtest: IA1-07 all ordered conflicting canonical actor pairs fail safely in both audiences
+ok 7 - IA1-07 all ordered conflicting canonical actor pairs fail safely in both audiences
+  ---
+  duration_ms: 7582.7571
+  type: 'test'
+  ...
+# Subtest: IA1-08 same-name Persons remain four identities and supported alias bindings remain intact
+ok 8 - IA1-08 same-name Persons remain four identities and supported alias bindings remain intact
+  ---
+  duration_ms: 1017.4642
+  type: 'test'
+  ...
+# Subtest: IA1-09 permutation of card IDs and labels does not change canonical source identity
+ok 9 - IA1-09 permutation of card IDs and labels does not change canonical source identity
+  ---
+  duration_ms: 1060.3003
+  type: 'test'
+  ...
+# Subtest: IA1-10 valid actor alias on descriptive primary retains local state and report identity
+ok 10 - IA1-10 valid actor alias on descriptive primary retains local state and report identity
+  ---
+  duration_ms: 972.2359
+  type: 'test'
+  ...
+# Subtest: IA1-11 removing optional historical Event mappings must not erase reports
+ok 11 - IA1-11 removing optional historical Event mappings must not erase reports
+  ---
+  duration_ms: 1083.1429
+  type: 'test'
+  ...
+# Subtest: IA1-12 repeated source receipts keep exact records while citations deduplicate
+ok 12 - IA1-12 repeated source receipts keep exact records while citations deduplicate
+  ---
+  duration_ms: 1.6629
+  type: 'test'
+  ...
+# Subtest: IA1-13 Tamsin belief wording and support match her actual proposition rather than world truth
+ok 13 - IA1-13 Tamsin belief wording and support match her actual proposition rather than world truth
+  ---
+  duration_ms: 0.8784
+  type: 'test'
+  ...
+# Subtest: IA1-14 pending confirmation and recovered custody retain ownership versus old location evidence
+ok 14 - IA1-14 pending confirmation and recovered custody retain ownership versus old location evidence
+  ---
+  duration_ms: 0.2469
+  type: 'test'
+  ...
+# Subtest: IA1-15 unsupported mappings retain neutral fallback and exact raw data (isolated view-model counterexamples)
+ok 15 - IA1-15 unsupported mappings retain neutral fallback and exact raw data (isolated view-model counterexamples)
+  ---
+  duration_ms: 983.941
+  type: 'test'
+  ...
+# Subtest: IA1-16 HTML-like names and technical values remain escaped, without changing original meaning
+ok 16 - IA1-16 HTML-like names and technical values remain escaped, without changing original meaning
+  ---
+  duration_ms: 850.6032
+  type: 'test'
+  ...
+# Subtest: IA1-17 tampered authoritative fields, invalid references and wrong inputs reject without input repair
+ok 17 - IA1-17 tampered authoritative fields, invalid references and wrong inputs reject without input repair
+  ---
+  duration_ms: 1477.7697
+  type: 'test'
+  ...
+# Subtest: IA1-18 valid concealed-truth and private-name sentinels do not enter initial player view or sources
+ok 18 - IA1-18 valid concealed-truth and private-name sentinels do not enter initial player view or sources
+  ---
+  duration_ms: 121.6727
+  type: 'test'
+  ...
+# Subtest: IA1-19 repeated rendering, sources, integrity and exact load preserve whole authoritative values
+ok 19 - IA1-19 repeated rendering, sources, integrity and exact load preserve whole authoritative values
+  ---
+  duration_ms: 25844.5275
+  type: 'test'
+  ...
+# Subtest: IA1-20 detached reader rejects model mutation and does not depend on later caller edits
+ok 20 - IA1-20 detached reader rejects model mutation and does not depend on later caller edits
+  ---
+  duration_ms: 1046.4508
+  type: 'test'
+  ...
+# Subtest: IA1-21 missing-notice defect stays technical, open service stays open, and no repair API exists
+ok 21 - IA1-21 missing-notice defect stays technical, open service stays open, and no repair API exists
+  ---
+  duration_ms: 0.5856
+  type: 'test'
+  ...
+1..21
+# tests 21
+# suites 0
+# pass 21
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 54818.1365

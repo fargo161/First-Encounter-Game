@@ -1,0 +1,6 @@
+{"name": "identity", "exitCode": 0, "stdoutLog": "fresh-identity.json"}
+{"name": "all-inherited-ar0", "exitCode": 0, "stdoutLog": "fresh-all-inherited-ar0.json"}
+{"name": "independent-ar0", "exitCode": 0, "stdoutLog": "fresh-independent-ar0.json"}
+{"name": "conflicting-cli-author", "exitCode": 1, "stdoutLog": "fresh-conflicting-cli-author.json"}
+{"name": "conflicting-cli-player", "exitCode": 1, "stdoutLog": "fresh-conflicting-cli-player.json"}
+{"name": "preservation", "exitCode": 0, "stdoutLog": "fresh-preservation.json"}

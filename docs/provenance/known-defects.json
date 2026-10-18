@@ -11,6 +11,14 @@
         "bytes": 16382,
         "sha256": "eefe1d404f82204d212f8c1ee8dfe978086482953bcd9f19cf5774392640e182",
         "archive_path": "artifacts/encounter-deliverables/ATLAS_A1_Independent_Test_Report.md"
+      },
+      "stage5_reproduction": {
+        "result": "FAIL_EXPECTED_ACCEPTED_NON_BLOCKING",
+        "suite_passed": 24,
+        "suite_failed": 1,
+        "skipped": 0,
+        "source_or_test_modified": false,
+        "fresh_evidence": "docs/audits/encounter-atlas/stage5-2026-10-18/ir3-25-fresh.json"
       }
     },
     {

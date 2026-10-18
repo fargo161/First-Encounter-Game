@@ -29,3 +29,7 @@ Room Creator migration verification is PASS WITH HOLD PRESERVED. Fresh supplied,
 ## Stage 8 update
 
 Selected maintained ZANT R5 source and the original frozen-failure manifest are imported byte-identically. This is import integrity only, not fresh behavior/pixel/art verification. R4 neutral acceptance, immutable A25 and accepted authored A16 remain distinct from failed A10, unaccepted A06/A14 and provisional G wrist/interface ownership. Fourteen slots remain unauthored; 222 valid cases and 17 production negatives remain unrun; zero reserves used. Historical labels and research retain bytes/chronology. No promotion. Room Creator source/authority/HOLD and Encounter source/authority remain unchanged. Stop before Stage 9.
+
+## Stage 9 update
+
+ZANT verification is PASS WITH ACCEPTANCE STATES PRESERVED. Fresh portable and independent RGBA/source/lock/state/visual checks reproduce the known failed sleeve and provisional overlap findings. R4 acceptance, immutable A25 and accepted authored A16 remain intact. A10 failed, A06/A14 unaccepted, G interface provisional, Gate A incomplete; 14 unauthored slots, zero reserves, 222 valid cases and 17 production negatives remain unrun. No repair, promotion or research-to-production conversion. Canonical ZANT, Encounter/Atlas and Room Creator sources/originals are unchanged; Room Creator retains HOLD. Stop before Stage 10.

@@ -1,0 +1,165 @@
+{
+  "result": "PASS",
+  "candidate02_zip_sha256": "c43e34ac80a8fd32f1ee5f30e5116dad06129a10b196032afc2fb2746a8188b3",
+  "locked_entries": [
+    {
+      "path": "assets/A01_skin_neck.png",
+      "bytes": 31480,
+      "sha256": "65bc822a519c7a3f8ae4af5614513786e11e56b4fe1dda78c06849bfcd78513c",
+      "accepted_candidate02_match": true,
+      "canonical_and_disposable_match": true
+    },
+    {
+      "path": "assets/A02_tee_torso.png",
+      "bytes": 245343,
+      "sha256": "a54b14ee20c4a0bf15035158c2f0c94e5c94cfa1c6c50f67462dc486ac03237e",
+      "accepted_candidate02_match": true,
+      "canonical_and_disposable_match": true
+    },
+    {
+      "path": "assets/A03_jacket_open_torso.png",
+      "bytes": 200536,
+      "sha256": "bdcc357af525e589c462828fbfe717cf5ba0e64e926ae8ebb547c44d616e2f1c",
+      "accepted_candidate02_match": true,
+      "canonical_and_disposable_match": true
+    },
+    {
+      "path": "assets/A04_tee_arm_L_N.png",
+      "bytes": 82035,
+      "sha256": "17d27eca4cfee3852e1489b962d378cd1e9ee5f3a4fcedca85b3f0a75fdcaf37",
+      "accepted_candidate02_match": true,
+      "canonical_and_disposable_match": true
+    },
+    {
+      "path": "assets/A05_tee_arm_R_N.png",
+      "bytes": 84094,
+      "sha256": "05345f49a3145b54d47798fc313ce4b66ee330ca2c456688f8b048cdd080a43a",
+      "accepted_candidate02_match": true,
+      "canonical_and_disposable_match": true
+    },
+    {
+      "path": "assets/A08_jacket_arm_L_N.png",
+      "bytes": 82934,
+      "sha256": "3e09100330dfb8e56d6464524b2351468d001439813cd876dee337926e2ccf6d",
+      "accepted_candidate02_match": true,
+      "canonical_and_disposable_match": true
+    },
+    {
+      "path": "assets/A09_jacket_arm_R_N.png",
+      "bytes": 77963,
+      "sha256": "f317de66dd6829527d3ff7407770be6f84524f65e687710aac8f07a0bdf748a8",
+      "accepted_candidate02_match": true,
+      "canonical_and_disposable_match": true
+    },
+    {
+      "path": "assets/A12_hand_L_N.png",
+      "bytes": 19773,
+      "sha256": "0710aa6f9c1017abc0c6fe35ed3c10ac17017ebcc67e21763bbbac0861d58833",
+      "accepted_candidate02_match": true,
+      "canonical_and_disposable_match": true
+    },
+    {
+      "path": "assets/A13_hand_R_N.png",
+      "bytes": 19704,
+      "sha256": "7d31c4e20a1fb06dc2bb493ab93e4dfd03156225ac5946f52207479ff295b1cf",
+      "accepted_candidate02_match": true,
+      "canonical_and_disposable_match": true
+    },
+    {
+      "path": "assets/A16_pants_pelvis_NN.png",
+      "bytes": 82083,
+      "sha256": "23ad2c87efb724bb4c747d13d4bd76c49f4c411e5517c6f59f44f1de000008c7",
+      "accepted_candidate02_match": true,
+      "canonical_and_disposable_match": true
+    },
+    {
+      "path": "assets/A17_pants_leg_L_N.png",
+      "bytes": 112837,
+      "sha256": "0e6899ecff7c19adb4ed730a60542f582a41242a72ac162a0a1d6bec8d0f4bce",
+      "accepted_candidate02_match": true,
+      "canonical_and_disposable_match": true
+    },
+    {
+      "path": "assets/A18_pants_leg_R_N.png",
+      "bytes": 110300,
+      "sha256": "3929c09128b0ff45f9c4a14a3252566423ea313df20bdfe707de0b0209c77740",
+      "accepted_candidate02_match": true,
+      "canonical_and_disposable_match": true
+    },
+    {
+      "path": "assets/A21_sneaker_L_N.png",
+      "bytes": 34539,
+      "sha256": "6ab77f1755780b3918f0b7b336d5697c1611f402670e032fbc4f62ecdbdd49a9",
+      "accepted_candidate02_match": true,
+      "canonical_and_disposable_match": true
+    },
+    {
+      "path": "assets/A22_sneaker_R_N.png",
+      "bytes": 35001,
+      "sha256": "3525c647412a04f5c9b193415ab00bd34af1164645cfc51d36c21dfb9431b8d6",
+      "accepted_candidate02_match": true,
+      "canonical_and_disposable_match": true
+    },
+    {
+      "path": "assets/A25_head_front_neutral_rgba.png",
+      "bytes": 45116,
+      "sha256": "f57ca9e06a203810c3a7f5d9e4c94bf6ecb9f5a2ff83d74b27eff62b4fbba724",
+      "accepted_candidate02_match": true,
+      "canonical_and_disposable_match": true
+    },
+    {
+      "path": "assets/A25_head_front_silhouette.png",
+      "bytes": 2080,
+      "sha256": "37e11415f639cf8fa3634ca066bdf718ede06c77acff2121fb79441e62104052",
+      "accepted_candidate02_match": true,
+      "canonical_and_disposable_match": true
+    },
+    {
+      "path": "data/calibration.json",
+      "bytes": 1686,
+      "sha256": "fad31334fef28eee4a0b71bbf28e5a695e2e19c5959ab06815946cca312e300f",
+      "accepted_candidate02_match": true,
+      "canonical_and_disposable_match": true
+    },
+    {
+      "path": "data/interfaces_neutral.json",
+      "bytes": 2606,
+      "sha256": "6beaaedd93c4485fd9cc25242d7a940b63586ca48aef1c4eabe5595ee63915e7",
+      "accepted_candidate02_match": true,
+      "canonical_and_disposable_match": true
+    },
+    {
+      "path": "data/neutral_recipes.json",
+      "bytes": 1546,
+      "sha256": "c54a510b86859257e12b398f348ecf91752f08e1012171affe22c84638342682",
+      "accepted_candidate02_match": true,
+      "canonical_and_disposable_match": true
+    },
+    {
+      "path": "contract/A25_LOCK.json",
+      "bytes": 1399,
+      "sha256": "9baa48ae81928a88407840e43d8ca9cf6e72426c8a5885562742a5107ec68710",
+      "accepted_candidate02_match": true,
+      "canonical_and_disposable_match": true
+    }
+  ],
+  "neutral_expected_buffers": [
+    {
+      "case": "B_off_NN_NN",
+      "R4_expected_encoded_sha256": "083b4c99ca24f00e4bf19efad9159aced3bf9745fa09439a93f900b97f0e9b47",
+      "R5_expected_encoded_sha256": "083b4c99ca24f00e4bf19efad9159aced3bf9745fa09439a93f900b97f0e9b47",
+      "all_RGBA_bytes_equal": true,
+      "decoded_RGBA_sha256": "b315f5a7696e506b98e39c04e3ceaa9e7666b860d2cd49b49797b3ad8c254909"
+    },
+    {
+      "case": "B_on_NN_NN",
+      "R4_expected_encoded_sha256": "f56de235462a2be051735204bde962b93aab62d9ebe97eced04a6248a1ef1022",
+      "R5_expected_encoded_sha256": "f56de235462a2be051735204bde962b93aab62d9ebe97eced04a6248a1ef1022",
+      "all_RGBA_bytes_equal": true,
+      "decoded_RGBA_sha256": "48feb5aa9fc7f5da1fbdffc4d2347d9faa38d26fc4314788431593b787692d24"
+    }
+  ],
+  "owner_acceptance_record_sha256": "5ad8b39d298a17e615f960d1bc6b1172025a48da5dc9f35e263abeb31c693422",
+  "A16_role": "accepted authored art; not wholly source-exact RGB",
+  "historical_draft_labels_unchanged": true
+}

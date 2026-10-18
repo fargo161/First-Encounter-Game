@@ -1,0 +1,18 @@
+[
+  {
+    "name": "independent_pilot_audit.py",
+    "source_path": "C:\\Users\\mcdon\\Documents\\GitHub\\First-Encounter-Game\\docs\\audits\\zant\\r5\\independent_pilot_audit.py",
+    "disposable_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-9-verification-2026-10-18\\work\\independent-r5\\independent_pilot_audit.py",
+    "sha256": "ad42bcf451ae3f514eb42e89f7260bf7f77fd4bcd2c44158583d13fb319e5738",
+    "byte_identical": true,
+    "path_adaptation_required": false
+  },
+  {
+    "name": "wrist_overlap_ownership_audit.py",
+    "source_path": "C:\\Users\\mcdon\\Documents\\GitHub\\First-Encounter-Game\\docs\\audits\\zant\\r5\\wrist_overlap_ownership_audit.py",
+    "disposable_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-9-verification-2026-10-18\\work\\independent-r5\\wrist_overlap_ownership_audit.py",
+    "sha256": "9894c47fe6b784d7bab2d41dea0552b1368c053d0329c29f7220b150f61f069c",
+    "byte_identical": true,
+    "path_adaptation_required": false
+  }
+]

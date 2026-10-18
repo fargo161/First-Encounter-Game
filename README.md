@@ -4,20 +4,18 @@ Private canonical monorepo with independent Git history. Encounter governs gamep
 
 ## Current consolidation state
 
-Stage 8 ZANT import is complete at the byte-integrity level. ZANT behavior/art verification remains pending explicit Stage 9 authorization.
+Stage 9 ZANT verification is complete: **PASS WITH ACCEPTANCE STATES PRESERVED**. Accepted R4 stays accepted; R5 sleeve stays failed, A06/A14 unaccepted and G wrist/interface provisional. Gate A remains incomplete.
 
-| Lane | Repository state |
+| Lane | Current state |
 | --- | --- |
-| Encounter / Atlas | Accepted A1 unchanged. Stage 5 PASS WITH DOCUMENTED KNOWN LIMITATIONS; IR3-25 remains an actual accepted non-blocking failure. |
-| Room Creator | Held v0.14.1 unchanged. Stage 7 PASS WITH HOLD PRESERVED; product status remains HOLD_FOR_FURTHER_REMEDIATION with its known missing-image repair defect. |
-| ZANT | Current R5 maintained source plus exact failure-checkpoint manifest imported. R4 candidate02 neutral surfaces stay owner-accepted/frozen. R5 G-sleeve pilot remains failed and wrist/interface provisional. Gate A is incomplete. |
+| Encounter / Atlas | Accepted A1 unchanged; Stage 5 PASS WITH DOCUMENTED KNOWN LIMITATIONS. IR3-25 remains an actual accepted non-blocking failure. |
+| Room Creator | Held v0.14.1 unchanged; Stage 7 PASS WITH HOLD PRESERVED. Product remains HOLD_FOR_FURTHER_REMEDIATION with its known missing-image defect. |
+| ZANT | Byte-identical 166-file baseline; four exact RGBA replays and 20 accepted R4 lock entries verified. Known sleeve/overlap failure reproduced. 14 slots unauthored, zero reserves, 222 valid cases and 17 production negatives unrun. |
 
-See the [Stage 8 report](docs/consolidation/STAGE_8_IMPORT.md), [exact ZANT import manifest](docs/provenance/zant-stage8-import.json), [authority](docs/provenance/source-authority.json), and [read-only integrity](docs/testing/STAGE_8_INTEGRITY.md).
+See [Stage 9 report](docs/consolidation/STAGE_9_VERIFICATION.md), [verification manifest](docs/provenance/zant-stage9-verification.json), [current integrity](docs/testing/STAGE_9_VERIFICATION.md) and [authority](docs/provenance/source-authority.json).
 
-The [ZANT wrapper](packages/zant/README.md) distinguishes accepted assets, failed/provisional work, original references and derived/calibration material. Seven original intake packages, bulk research/source art and delivery duplicates remain external with exact identities and roles. Historical prompts are evidence, not new authorization.
+All execution/renders/bulk evidence stayed in disposable external locations. Source/intake/research/design/derived roles and exact package bytes remain distinct and unchanged. Historical prompts do not authorize new work.
 
 ## Hard stop
 
-**Stop before Stage 9.** No ZANT replay/art verification, repair, new art, integration, shared-contract implementation, Unity, LFS, CI or cleanup is authorized. Review [proposed Stage 9 scope](docs/testing/STAGE_9_RECOMMENDED_SCOPE.md); do not execute it without new owner authorization.
-
-Preserve first. Normalize second. Connect third. Refactor later.
+**Stop before Stage 10.** No art repair, redraw, missing-slot authoring, interface revision, integration, shared-contract implementation, Unity, LFS, CI or cleanup was performed. Any next work needs explicit owner authorization.

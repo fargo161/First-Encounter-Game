@@ -17,4 +17,6 @@ Read [authority](../../docs/provenance/source-authority.json), [Stage 8 report](
 
 Seven intake ZIPs, full R4 history, 340 unselected R5 delivery/duplicate files, original cast and bulk face/research art remain external. Selected audit/research records are evidence/proposals, not production requirements. Historical calibration/interface draft labels retain their bytes; later owner acceptance and accepted-neutral lock govern R4 status.
 
-**STOP before Stage 9.** Do not run preserved portable/pixel/authoring/export/initializer/packager scripts or repair art. Historic links and workspace assumptions are recorded unchanged for later disposable reconstruction. Current byte-integrity instructions: ../../docs/testing/STAGE_8_INTEGRITY.md.
+**Stage 9: PASS WITH ACCEPTANCE STATES PRESERVED.** Four exact RGBA replays, all 20 accepted R4 lock entries, known 1,252-texel cuff interference and provisional 35/7 overlap findings reproduce. The 166-file package remains byte-identical. No new art approval or completed Gate A is implied.
+
+[Fresh report](../../docs/consolidation/STAGE_9_VERIFICATION.md) and [read-only integrity](../../docs/testing/STAGE_9_VERIFICATION.md) are outside this governed package. All execution/generated evidence stayed external. **STOP before Stage 10.**

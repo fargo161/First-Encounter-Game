@@ -1,0 +1,15 @@
+{
+  "result": "PASS",
+  "checked_utc": "2026-10-18T17:16:27.593858+00:00",
+  "preexisting_canonical_repository_files_unchanged": 3569,
+  "canonical_ZANT_files_unchanged": 166,
+  "disposable_package_files_unchanged": 166,
+  "independent_probe_scripts_unchanged": 2,
+  "originals_unchanged": 6722,
+  "archive_copies_unchanged": 6722,
+  "original_hash_size_mtime_unchanged": true,
+  "excluded_R5_cache_unchanged": 1,
+  "excluded_Room_Creator_caches_unchanged": 4,
+  "Encounter_files_unchanged": 2731,
+  "Room_Creator_baseline_plus_metadata_unchanged": 384
+}

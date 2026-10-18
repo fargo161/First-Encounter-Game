@@ -63,6 +63,23 @@
         "bytes": 15496,
         "sha256": "c4d26ce42cc52721805f4017bccb6cce6588840143869a928af6ec108c33a7a5",
         "archive_path": "snapshots/zant-independent-r5/INDEPENDENT_R5_REVIEW.md"
+      },
+      "stage9_reproduction": {
+        "known_failed_finding": true,
+        "migration_regression": false,
+        "covered_shared_hand_core_texels": 1252,
+        "body_bounds_half_open": [
+          605,
+          708,
+          661,
+          765
+        ],
+        "maximum_signed_vertical_distance": 60.4,
+        "maximum_perpendicular_distance": 49.481607999350025,
+        "fresh_scalar_vector_and_portable_agree": true,
+        "native_and_384_visual_failure_confirmed": true,
+        "repaired_or_promoted": false,
+        "evidence": "docs/audits/zant/stage9-2026-10-18/independent-pilot-audit.json"
       }
     },
     {
@@ -75,6 +92,21 @@
         "bytes": 15496,
         "sha256": "c4d26ce42cc52721805f4017bccb6cce6588840143869a928af6ec108c33a7a5",
         "archive_path": "snapshots/zant-independent-r5/INDEPENDENT_R5_REVIEW.md"
+      },
+      "stage9_reproduction": {
+        "known_provisional_finding": true,
+        "donor_band_core": 888,
+        "donor_band_interior": 828,
+        "core_overlap_band": 35,
+        "core_overlap_interior": 7,
+        "band_core_holes": 0,
+        "datum_alpha_donor_arm_hand": [
+          253,
+          0,
+          253
+        ],
+        "interface_frozen_or_promoted": false,
+        "evidence": "docs/audits/zant/stage9-2026-10-18/wrist-overlap-ownership-audit.json"
       }
     },
     {

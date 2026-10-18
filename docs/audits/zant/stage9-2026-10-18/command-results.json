@@ -1,0 +1,65 @@
+[
+  {
+    "name": "01-stage8-pre-execution-integrity",
+    "args": [
+      "C:\\Users\\mcdon\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-B",
+      "C:\\Users\\mcdon\\Documents\\GitHub\\First-Encounter-Game\\tools\\verify_stage8_import.py",
+      "--originals"
+    ],
+    "cwd": "C:\\Users\\mcdon\\Documents\\GitHub\\First-Encounter-Game",
+    "started_utc": "2026-10-18T17:13:43.316590+00:00",
+    "seconds": 18.843,
+    "exit_code": 0,
+    "log": "logs\\01-stage8-pre-execution-integrity.log",
+    "log_sha256": "568014603c258518aeb57852bc2b80255c32eadac168665df932047619b6e559",
+    "execution_package_manifest_sha256": "f583c0b57b7ad606b2c8dd985c189836b9831e056fecd07aa9c685ee2b4895dc"
+  },
+  {
+    "name": "02-portable-verifier",
+    "args": [
+      "C:\\Users\\mcdon\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-B",
+      "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-9-verification-2026-10-18\\work\\independent-r5\\fresh_extraction\\C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT\\validation\\verify_checkpoint.py",
+      "--out",
+      "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-9-verification-2026-10-18\\work\\independent-r5\\audit_replay"
+    ],
+    "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-9-verification-2026-10-18\\work\\independent-r5\\fresh_extraction\\C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT",
+    "started_utc": "2026-10-18T17:14:02.164702+00:00",
+    "seconds": 24.282,
+    "exit_code": 0,
+    "log": "logs\\02-portable-verifier.log",
+    "log_sha256": "e65074a4f7c942810bf92084b7cbc24dd53434a94af9d5112c35658ba0bcba53",
+    "execution_package_manifest_sha256": "f583c0b57b7ad606b2c8dd985c189836b9831e056fecd07aa9c685ee2b4895dc"
+  },
+  {
+    "name": "03-independent-pilot-audit",
+    "args": [
+      "C:\\Users\\mcdon\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-B",
+      "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-9-verification-2026-10-18\\work\\independent-r5\\independent_pilot_audit.py"
+    ],
+    "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-9-verification-2026-10-18\\work\\independent-r5",
+    "started_utc": "2026-10-18T17:14:26.452988+00:00",
+    "seconds": 17.906,
+    "exit_code": 0,
+    "log": "logs\\03-independent-pilot-audit.log",
+    "log_sha256": "203a6fbf696c6e43eebee8a2bf0bb231344092449f15f120d8389681cf50252c",
+    "execution_package_manifest_sha256": "f583c0b57b7ad606b2c8dd985c189836b9831e056fecd07aa9c685ee2b4895dc"
+  },
+  {
+    "name": "04-independent-overlap-audit",
+    "args": [
+      "C:\\Users\\mcdon\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-B",
+      "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-9-verification-2026-10-18\\work\\independent-r5\\wrist_overlap_ownership_audit.py"
+    ],
+    "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-9-verification-2026-10-18\\work\\independent-r5",
+    "started_utc": "2026-10-18T17:14:44.356128+00:00",
+    "seconds": 0.312,
+    "exit_code": 0,
+    "log": "logs\\04-independent-overlap-audit.log",
+    "log_sha256": "f9cc9b2525cb6bc5046c425609d7b7e34386ebd6ed82da72891f14d1c884f857",
+    "execution_package_manifest_sha256": "f583c0b57b7ad606b2c8dd985c189836b9831e056fecd07aa9c685ee2b4895dc"
+  }
+]

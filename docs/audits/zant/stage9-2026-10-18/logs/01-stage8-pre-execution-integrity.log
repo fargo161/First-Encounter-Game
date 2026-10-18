@@ -1,0 +1,22 @@
+{
+  "stage8_import_integrity": "PASS",
+  "ZANT_package_files": 166,
+  "ZANT_package_bytes": 24767182,
+  "ZANT_package_tree_sha256": "e6650aa6e28ab0b51e4d67dbd6d9922060d49673631b261718ae326cf71761ba",
+  "supplemental_provenance_files": 107,
+  "accepted_R4_lock_files": 20,
+  "accepted_neutral_surfaces": 15,
+  "unaccepted_or_failed_pilot_surfaces": 3,
+  "unauthored_slots": 14,
+  "reserves_used": 0,
+  "unrun_valid_cases": 222,
+  "unrun_production_negatives": 17,
+  "Encounter_canonical_files_unchanged": 2731,
+  "Room_Creator_baseline_files_unchanged": 383,
+  "Room_Creator_Git_metadata_unchanged": 1,
+  "Room_Creator_status": "HOLD_FOR_FURTHER_REMEDIATION",
+  "originals_and_archive_copies_verified": 6722,
+  "ZANT_source_executed": false,
+  "stage9_started": false,
+  "scope": "Byte/membership/recorded-status/Git integrity only; no pixel replay, art acceptance or behavior tests."
+}

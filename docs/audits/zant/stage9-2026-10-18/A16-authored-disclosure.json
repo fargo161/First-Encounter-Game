@@ -1,0 +1,10 @@
+{
+  "result": "PASS",
+  "accepted_A16_sha256": "23ad2c87efb724bb4c747d13d4bd76c49f4c411e5517c6f59f44f1de000008c7",
+  "source_seed_sha256": "c6e80fcd794aa08e2545fa883ec1a61f9fa0ff24205ae82ab204df72203bcd54",
+  "visible_RGB_different_pixels": 13564,
+  "CSV_rows": 13564,
+  "CSV_source_and_accepted_RGB_match": true,
+  "waist_band_y840_to864_different_pixels": 5066,
+  "interpretation": "Existing accepted authored A16 difference is exactly disclosed, not a regression or new alteration."
+}

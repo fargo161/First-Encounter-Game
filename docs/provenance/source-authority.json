@@ -10,7 +10,8 @@
     5,
     6,
     7,
-    8
+    8,
+    9
   ],
   "subsystem_source_imported": true,
   "governing_documents": {
@@ -67,6 +68,14 @@
       "sha256": "e862c281dfca0203b5474a75e351e63bfb60d1f5de3f0fee79c5f2adf6f91e22",
       "archive_root": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-8-import-2026-10-18",
       "archive_path": "inputs/FIRST_ENCOUNTER_GAME_STAGE_8_AUTHORIZATION.md"
+    },
+    "FIRST_ENCOUNTER_GAME_STAGE_9_AUTHORIZATION.md": {
+      "source_path": "C:\\Users\\mcdon\\Downloads\\FIRST_ENCOUNTER_GAME_STAGE_9_AUTHORIZATION.md",
+      "repository_path": "docs/provenance/governing/FIRST_ENCOUNTER_GAME_STAGE_9_AUTHORIZATION.md",
+      "bytes": 6124,
+      "sha256": "27efcefb694f7d302982ce44175bd092f21baf056a0a5cec517e604968cbb6f0",
+      "archive_root": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-9-verification-2026-10-18",
+      "archive_path": "inputs/FIRST_ENCOUNTER_GAME_STAGE_9_AUTHORIZATION.md"
     }
   },
   "repository": {
@@ -447,23 +456,32 @@
         "neutral_acceptance": "OWNER_ACCEPTED_R4_CANDIDATE02",
         "current_work_acceptance": "GATE_A_FAILED_AT_G_SLEEVE_PILOT",
         "manifest": "docs/provenance/zant-stage8-import.json",
-        "migration_behavior_verification": "PENDING_STAGE_9_NOT_AUTHORIZED",
-        "origin_snapshot_role": "editable_source remains the immutable pre-import source authority; maintained current location is this repository path. 165 non-delivery source files plus the exact frozen packet manifest; 340 delivery duplicate/history files remain external."
+        "migration_behavior_verification": "PASS_WITH_ACCEPTANCE_STATES_PRESERVED_STAGE_9",
+        "origin_snapshot_role": "editable_source remains the immutable pre-import source authority; maintained current location is this repository path. 165 non-delivery source files plus the exact frozen packet manifest; 340 delivery duplicate/history files remain external.",
+        "stage9_verification_manifest": "docs/provenance/zant-stage9-verification.json"
       }
     }
   },
   "verification_this_execution": {
-    "stage": 8,
+    "stage": 9,
     "subsystem": "zant",
-    "source_builds_or_behavior_tests_executed": false,
-    "stage9_started": false,
-    "fresh_checks": "Full original/archive hash-size-mtime preservation; selected 166-file source/archive/checkpoint alignment; original frozen manifest; all20 accepted R4 lock hashes against candidate02 ZIP; seven external intake identities/CRC; strict unchanged Encounter/Room Creator; Git byte integrity.",
-    "manifest": "docs/provenance/zant-stage8-import.json",
-    "gateAComplete": false,
-    "no_failed_or_provisional_work_promoted": true
+    "source_builds_or_behavior_tests_executed": true,
+    "disposable_only": true,
+    "verdict": "PASS WITH ACCEPTANCE STATES PRESERVED",
+    "manifest": "docs/provenance/zant-stage9-verification.json",
+    "report": "docs/consolidation/STAGE_9_VERIFICATION.md",
+    "accepted_R4_preserved": true,
+    "failed_provisional_material_promoted": false,
+    "Gate_A_complete": false,
+    "canonical_ZANT_unchanged": true,
+    "canonical_Encounter_unchanged": true,
+    "canonical_Room_Creator_unchanged": true,
+    "Room_Creator_HOLD_unchanged": true,
+    "originals_unchanged": true,
+    "stage10_started": false
   },
-  "next_stage": "Stage 9 ZANT verification requires explicit new owner authorization. STOP.",
-  "current_authorized_stage": 8,
+  "next_stage": "Stage 10 requires explicit new owner authorization. STOP; no repair or integration is authorized.",
+  "current_authorized_stage": 9,
   "imported_subsystems": [
     "encounter_atlas",
     "room_creator",
@@ -516,5 +534,15 @@
     "canonical_Encounter_unchanged": true,
     "originals_unchanged": true,
     "stage8_started": false
+  },
+  "verification_history_stage_8": {
+    "stage": 8,
+    "subsystem": "zant",
+    "source_builds_or_behavior_tests_executed": false,
+    "stage9_started": false,
+    "fresh_checks": "Full original/archive hash-size-mtime preservation; selected 166-file source/archive/checkpoint alignment; original frozen manifest; all20 accepted R4 lock hashes against candidate02 ZIP; seven external intake identities/CRC; strict unchanged Encounter/Room Creator; Git byte integrity.",
+    "manifest": "docs/provenance/zant-stage8-import.json",
+    "gateAComplete": false,
+    "no_failed_or_provisional_work_promoted": true
   }
 }

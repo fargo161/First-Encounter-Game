@@ -1,0 +1,32 @@
+{
+  "result": "PASS",
+  "comparisons": [
+    {
+      "probe": "portable",
+      "all_differing_paths": [
+        "/python"
+      ],
+      "environment_ignored_fields": [
+        "python"
+      ],
+      "behavior_metric_differences": []
+    },
+    {
+      "probe": "independent_pilot",
+      "all_differing_paths": [
+        "/environment/numpy",
+        "/environment/python"
+      ],
+      "environment_ignored_fields": [
+        "environment"
+      ],
+      "behavior_metric_differences": []
+    },
+    {
+      "probe": "overlap",
+      "all_differing_paths": [],
+      "environment_ignored_fields": [],
+      "behavior_metric_differences": []
+    }
+  ]
+}

@@ -1,0 +1,239 @@
+{
+  "schema": "first-encounter-stage9-result@1",
+  "verdict": "PASS WITH ACCEPTANCE STATES PRESERVED",
+  "baseline_commit": "08b15bab10d26087fd21931f381ba4f16c1d9b79",
+  "baseline_package": "packages/zant/C001_ZANT_GATE_A_R5",
+  "baseline_files": 166,
+  "baseline_bytes": 24767182,
+  "baseline_tree_sha256": "e6650aa6e28ab0b51e4d67dbd6d9922060d49673631b261718ae326cf71761ba",
+  "environment": {
+    "started_utc": "2026-10-18T17:13:20.776094+00:00",
+    "source_commit": "08b15bab10d26087fd21931f381ba4f16c1d9b79",
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "python_executable": "C:\\Users\\mcdon\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "numpy": "2.3.5",
+    "Pillow": "12.3.0",
+    "git": "git version 2.55.0.windows.3",
+    "installs": false,
+    "bytecode_generation": false,
+    "execution_copy": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-9-verification-2026-10-18\\work\\independent-r5\\fresh_extraction\\C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT",
+    "canonical_source_execution": false,
+    "budget_method": "Prioritize current authority/locks/package and independent probes; inspect only necessary external mappings; preserve capacity for actual pixel/visual checks and final integrity. No historical bulk ingestion or fixed token target."
+  },
+  "commands": [
+    {
+      "name": "01-stage8-pre-execution-integrity",
+      "args": [
+        "C:\\Users\\mcdon\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "C:\\Users\\mcdon\\Documents\\GitHub\\First-Encounter-Game\\tools\\verify_stage8_import.py",
+        "--originals"
+      ],
+      "cwd": "C:\\Users\\mcdon\\Documents\\GitHub\\First-Encounter-Game",
+      "started_utc": "2026-10-18T17:13:43.316590+00:00",
+      "seconds": 18.843,
+      "exit_code": 0,
+      "log": "logs\\01-stage8-pre-execution-integrity.log",
+      "log_sha256": "568014603c258518aeb57852bc2b80255c32eadac168665df932047619b6e559",
+      "execution_package_manifest_sha256": "f583c0b57b7ad606b2c8dd985c189836b9831e056fecd07aa9c685ee2b4895dc"
+    },
+    {
+      "name": "02-portable-verifier",
+      "args": [
+        "C:\\Users\\mcdon\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-9-verification-2026-10-18\\work\\independent-r5\\fresh_extraction\\C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT\\validation\\verify_checkpoint.py",
+        "--out",
+        "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-9-verification-2026-10-18\\work\\independent-r5\\audit_replay"
+      ],
+      "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-9-verification-2026-10-18\\work\\independent-r5\\fresh_extraction\\C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT",
+      "started_utc": "2026-10-18T17:14:02.164702+00:00",
+      "seconds": 24.282,
+      "exit_code": 0,
+      "log": "logs\\02-portable-verifier.log",
+      "log_sha256": "e65074a4f7c942810bf92084b7cbc24dd53434a94af9d5112c35658ba0bcba53",
+      "execution_package_manifest_sha256": "f583c0b57b7ad606b2c8dd985c189836b9831e056fecd07aa9c685ee2b4895dc"
+    },
+    {
+      "name": "03-independent-pilot-audit",
+      "args": [
+        "C:\\Users\\mcdon\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-9-verification-2026-10-18\\work\\independent-r5\\independent_pilot_audit.py"
+      ],
+      "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-9-verification-2026-10-18\\work\\independent-r5",
+      "started_utc": "2026-10-18T17:14:26.452988+00:00",
+      "seconds": 17.906,
+      "exit_code": 0,
+      "log": "logs\\03-independent-pilot-audit.log",
+      "log_sha256": "203a6fbf696c6e43eebee8a2bf0bb231344092449f15f120d8389681cf50252c",
+      "execution_package_manifest_sha256": "f583c0b57b7ad606b2c8dd985c189836b9831e056fecd07aa9c685ee2b4895dc"
+    },
+    {
+      "name": "04-independent-overlap-audit",
+      "args": [
+        "C:\\Users\\mcdon\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-9-verification-2026-10-18\\work\\independent-r5\\wrist_overlap_ownership_audit.py"
+      ],
+      "cwd": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-9-verification-2026-10-18\\work\\independent-r5",
+      "started_utc": "2026-10-18T17:14:44.356128+00:00",
+      "seconds": 0.312,
+      "exit_code": 0,
+      "log": "logs\\04-independent-overlap-audit.log",
+      "log_sha256": "f9cc9b2525cb6bc5046c425609d7b7e34386ebd6ed82da72891f14d1c884f857",
+      "execution_package_manifest_sha256": "f583c0b57b7ad606b2c8dd985c189836b9831e056fecd07aa9c685ee2b4895dc"
+    }
+  ],
+  "portable_integrity": "PASS",
+  "portable_manifest_entries_verified": 165,
+  "RGBA_evidence_cases_reproduced": 4,
+  "accepted_neutral_cases": 2,
+  "unaccepted_pilot_cases": 1,
+  "failed_pilot_cases": 1,
+  "independent_RGBA_cases_reproduced": 4,
+  "retained_source_head_pixels_exact": 18229,
+  "protected_face_pixels_exact_per_render": 14254,
+  "R4_locked_entries_exact": 20,
+  "A16_disclosed_RGB_changes": 13564,
+  "A16_waist_band_changes": 5066,
+  "failed_wrist": {
+    "vectorCount": 1252,
+    "independentScalarCount": 1252,
+    "bodyBoundsInclusive": [
+      605,
+      708,
+      660,
+      764
+    ],
+    "bodyBoundsHalfOpen": [
+      605,
+      708,
+      661,
+      765
+    ],
+    "maximumSignedVerticalDistance": 60.39999999999998,
+    "maximumPerpendicularDistance": 49.481607999350025,
+    "sharedHandCorePixels": 4905,
+    "fractionOfHandCoreCoveredBeyondBand": 0.25524974515800203,
+    "datum": [
+      637,
+      705
+    ],
+    "seamEquation": "y=.7*(x-637)+705",
+    "bandSignedVerticalPixelsEachSide": 10,
+    "bandPerpendicularPixelsEachSide": 8.192319205190405,
+    "datumAlphaHandArmSleeve": [
+      253,
+      0,
+      252
+    ],
+    "handCoreNearLineBoundsInclusive": [
+      620,
+      694,
+      665,
+      725
+    ],
+    "geometricMeasurementsDoNotApproveAnatomicalWrist": true
+  },
+  "overlap_ownership": {
+    "bandDefinition": "abs(y-(.7*(x-637)+705))<=10 with donor alpha>127",
+    "donorBandCorePixels": 888,
+    "donorBandInterior3x3Pixels": 828,
+    "donorBandAlphaDistribution": {
+      "128": 1,
+      "133": 1,
+      "142": 1,
+      "143": 1,
+      "146": 1,
+      "147": 1,
+      "150": 1,
+      "151": 1,
+      "153": 2,
+      "155": 1,
+      "172": 1,
+      "180": 2,
+      "183": 2,
+      "194": 1,
+      "200": 1,
+      "211": 1,
+      "216": 1,
+      "225": 1,
+      "227": 1,
+      "228": 1,
+      "241": 1,
+      "244": 1,
+      "245": 1,
+      "246": 1,
+      "247": 2,
+      "248": 5,
+      "249": 12,
+      "250": 16,
+      "251": 6,
+      "252": 52,
+      "253": 594,
+      "254": 139,
+      "255": 35
+    },
+    "actualArmHandCoreOverlapInBand": 35,
+    "actualArmHandAnyAlphaOverlapInBand": 35,
+    "actualArmHandCoreOverlapInBandInterior": 7,
+    "bandCorePixelsWithNeitherPartCore": 0,
+    "datumAlphaDonorArmHand": [
+      253,
+      0,
+      253
+    ],
+    "interpretationScope": "Overlap/ownership diagnostic of current exported G parts; no art modification, no neutral-interface reassessment."
+  },
+  "slot_states": {
+    "OWNER_ACCEPTED_FROZEN": 15,
+    "UNACCEPTED_PILOT_NOT_GATE_PASS": 2,
+    "NOT_AUTHORED_STOP_CONDITION": 14,
+    "FAILED_PILOT_NOT_APPROVED": 1
+  },
+  "total_slots": 32,
+  "reserve_use": 0,
+  "matrix_status_distribution": {
+    "PASS_ACCEPTED_NEUTRAL_REPRODUCTION": 2,
+    "NOT_RUN_R5_STOP_CONDITION": 239,
+    "UNACCEPTED_PILOT_RENDERED_NOT_GATE_PASS": 1,
+    "FAIL_SOURCE_GARMENT_AND_WRIST_INTERFACE": 1
+  },
+  "matrix_cases": 243,
+  "unrun_valid_cases": 222,
+  "unrun_production_negatives": 17,
+  "unauthored_slots": 14,
+  "Gate_A_complete": false,
+  "pilot_or_interface_promoted": false,
+  "known_failed_provisional_findings_reproduced": true,
+  "new_baseline_defects": [],
+  "migration_regressions": [],
+  "environment_failures": [],
+  "prior_metrics_unchanged": true,
+  "visually_inspected_images": 9,
+  "external_intake_packages_checked": 7,
+  "original_master_duplicate_hashes_checked": 88,
+  "protected_files": {
+    "result": "PASS",
+    "checked_utc": "2026-10-18T17:16:27.593858+00:00",
+    "preexisting_canonical_repository_files_unchanged": 3569,
+    "canonical_ZANT_files_unchanged": 166,
+    "disposable_package_files_unchanged": 166,
+    "independent_probe_scripts_unchanged": 2,
+    "originals_unchanged": 6722,
+    "archive_copies_unchanged": 6722,
+    "original_hash_size_mtime_unchanged": true,
+    "excluded_R5_cache_unchanged": 1,
+    "excluded_Room_Creator_caches_unchanged": 4,
+    "Encounter_files_unchanged": 2731,
+    "Room_Creator_baseline_plus_metadata_unchanged": 384
+  },
+  "limits": [
+    "Current frontal C001 evidence only; other characters/views/poses/face/palette/viewer and later gates intentionally absent/unrun.",
+    "Preserved audit_frozen.py prepare/finish orchestration not replayed: its broad workspace/delivery history is covered instead by full original/archive preservation, exact Git-exported packet, checkpoint/source binding and preserved unchanged probes.",
+    "No art acceptance beyond existing owner accepted R4; pilot seam/anatomical tolerance/receiving policy remains provisional."
+  ],
+  "stage10_started": false
+}

@@ -1,0 +1,464 @@
+{
+  "result": "PASS",
+  "slot_count": 32,
+  "slot_states": [
+    {
+      "id": "A01_skin_neck",
+      "path": "assets/A01_skin_neck.png",
+      "status": "OWNER_ACCEPTED_FROZEN"
+    },
+    {
+      "id": "A02_tee_torso",
+      "path": "assets/A02_tee_torso.png",
+      "status": "OWNER_ACCEPTED_FROZEN"
+    },
+    {
+      "id": "A03_jacket_open_torso",
+      "path": "assets/A03_jacket_open_torso.png",
+      "status": "OWNER_ACCEPTED_FROZEN"
+    },
+    {
+      "id": "A04_tee_arm_L_N",
+      "path": "assets/A04_tee_arm_L_N.png",
+      "status": "OWNER_ACCEPTED_FROZEN"
+    },
+    {
+      "id": "A05_tee_arm_R_N",
+      "path": "assets/A05_tee_arm_R_N.png",
+      "status": "OWNER_ACCEPTED_FROZEN"
+    },
+    {
+      "id": "A06_tee_arm_L_G",
+      "path": "assets/A06_tee_arm_L_G.png",
+      "status": "UNACCEPTED_PILOT_NOT_GATE_PASS"
+    },
+    {
+      "id": "A07_tee_arm_R_G",
+      "path": null,
+      "status": "NOT_AUTHORED_STOP_CONDITION"
+    },
+    {
+      "id": "A08_jacket_arm_L_N",
+      "path": "assets/A08_jacket_arm_L_N.png",
+      "status": "OWNER_ACCEPTED_FROZEN"
+    },
+    {
+      "id": "A09_jacket_arm_R_N",
+      "path": "assets/A09_jacket_arm_R_N.png",
+      "status": "OWNER_ACCEPTED_FROZEN"
+    },
+    {
+      "id": "A10_jacket_arm_L_G",
+      "path": "assets/A10_jacket_arm_L_G.png",
+      "status": "FAILED_PILOT_NOT_APPROVED"
+    },
+    {
+      "id": "A11_jacket_arm_R_G",
+      "path": null,
+      "status": "NOT_AUTHORED_STOP_CONDITION"
+    },
+    {
+      "id": "A12_hand_L_N",
+      "path": "assets/A12_hand_L_N.png",
+      "status": "OWNER_ACCEPTED_FROZEN"
+    },
+    {
+      "id": "A13_hand_R_N",
+      "path": "assets/A13_hand_R_N.png",
+      "status": "OWNER_ACCEPTED_FROZEN"
+    },
+    {
+      "id": "A14_hand_L_G",
+      "path": "assets/A14_hand_L_G.png",
+      "status": "UNACCEPTED_PILOT_NOT_GATE_PASS"
+    },
+    {
+      "id": "A15_hand_R_G",
+      "path": null,
+      "status": "NOT_AUTHORED_STOP_CONDITION"
+    },
+    {
+      "id": "A16_pants_pelvis_NN",
+      "path": "assets/A16_pants_pelvis_NN.png",
+      "status": "OWNER_ACCEPTED_FROZEN"
+    },
+    {
+      "id": "A17_pants_leg_L_N",
+      "path": "assets/A17_pants_leg_L_N.png",
+      "status": "OWNER_ACCEPTED_FROZEN"
+    },
+    {
+      "id": "A18_pants_leg_R_N",
+      "path": "assets/A18_pants_leg_R_N.png",
+      "status": "OWNER_ACCEPTED_FROZEN"
+    },
+    {
+      "id": "A19_pants_leg_L_O",
+      "path": null,
+      "status": "NOT_AUTHORED_STOP_CONDITION"
+    },
+    {
+      "id": "A20_pants_leg_R_O",
+      "path": null,
+      "status": "NOT_AUTHORED_STOP_CONDITION"
+    },
+    {
+      "id": "A21_sneaker_L_N",
+      "path": "assets/A21_sneaker_L_N.png",
+      "status": "OWNER_ACCEPTED_FROZEN"
+    },
+    {
+      "id": "A22_sneaker_R_N",
+      "path": "assets/A22_sneaker_R_N.png",
+      "status": "OWNER_ACCEPTED_FROZEN"
+    },
+    {
+      "id": "A23_sneaker_L_O",
+      "path": null,
+      "status": "NOT_AUTHORED_STOP_CONDITION"
+    },
+    {
+      "id": "A24_sneaker_R_O",
+      "path": null,
+      "status": "NOT_AUTHORED_STOP_CONDITION"
+    },
+    {
+      "id": "A25_head_front_neutral",
+      "path": "assets/A25_head_front_neutral_rgba.png",
+      "status": "OWNER_ACCEPTED_FROZEN"
+    },
+    {
+      "id": "A26_brow_L_uneven",
+      "path": null,
+      "status": "NOT_AUTHORED_STOP_CONDITION"
+    },
+    {
+      "id": "A27_brow_R_uneven",
+      "path": null,
+      "status": "NOT_AUTHORED_STOP_CONDITION"
+    },
+    {
+      "id": "A28_eye_L_lateral",
+      "path": null,
+      "status": "NOT_AUTHORED_STOP_CONDITION"
+    },
+    {
+      "id": "A29_eye_R_lateral",
+      "path": null,
+      "status": "NOT_AUTHORED_STOP_CONDITION"
+    },
+    {
+      "id": "A30_lower_compact",
+      "path": null,
+      "status": "NOT_AUTHORED_STOP_CONDITION"
+    },
+    {
+      "id": "A31_lower_open",
+      "path": null,
+      "status": "NOT_AUTHORED_STOP_CONDITION"
+    },
+    {
+      "id": "A32_eye_L_closed",
+      "path": null,
+      "status": "NOT_AUTHORED_STOP_CONDITION"
+    }
+  ],
+  "slot_status_counts": {
+    "OWNER_ACCEPTED_FROZEN": 15,
+    "UNACCEPTED_PILOT_NOT_GATE_PASS": 2,
+    "NOT_AUTHORED_STOP_CONDITION": 14,
+    "FAILED_PILOT_NOT_APPROVED": 1
+  },
+  "reserve_use": 0,
+  "matrix_ids": [
+    "B_off_NN_NN",
+    "B_off_NN_NO",
+    "B_off_NN_ON",
+    "B_off_NG_NN",
+    "B_off_NG_NO",
+    "B_off_NG_ON",
+    "B_off_GN_NN",
+    "B_off_GN_NO",
+    "B_off_GN_ON",
+    "B_off_GG_NN",
+    "B_off_GG_NO",
+    "B_off_GG_ON",
+    "B_on_NN_NN",
+    "B_on_NN_NO",
+    "B_on_NN_ON",
+    "B_on_NG_NN",
+    "B_on_NG_NO",
+    "B_on_NG_ON",
+    "B_on_GN_NN",
+    "B_on_GN_NO",
+    "B_on_GN_ON",
+    "B_on_GG_NN",
+    "B_on_GG_NO",
+    "B_on_GG_ON",
+    "P_off_GG_NN_Joriginal_Poriginal",
+    "P_off_GG_NN_Joriginal_Pcharcoal",
+    "P_off_GG_NN_Joriginal_Pbrown",
+    "P_off_GG_NN_Jmuted_green_Poriginal",
+    "P_off_GG_NN_Jmuted_green_Pcharcoal",
+    "P_off_GG_NN_Jmuted_green_Pbrown",
+    "P_off_GG_NN_Jmuted_burgundy_Poriginal",
+    "P_off_GG_NN_Jmuted_burgundy_Pcharcoal",
+    "P_off_GG_NN_Jmuted_burgundy_Pbrown",
+    "P_off_GG_NO_Joriginal_Poriginal",
+    "P_off_GG_NO_Joriginal_Pcharcoal",
+    "P_off_GG_NO_Joriginal_Pbrown",
+    "P_off_GG_NO_Jmuted_green_Poriginal",
+    "P_off_GG_NO_Jmuted_green_Pcharcoal",
+    "P_off_GG_NO_Jmuted_green_Pbrown",
+    "P_off_GG_NO_Jmuted_burgundy_Poriginal",
+    "P_off_GG_NO_Jmuted_burgundy_Pcharcoal",
+    "P_off_GG_NO_Jmuted_burgundy_Pbrown",
+    "P_off_GG_ON_Joriginal_Poriginal",
+    "P_off_GG_ON_Joriginal_Pcharcoal",
+    "P_off_GG_ON_Joriginal_Pbrown",
+    "P_off_GG_ON_Jmuted_green_Poriginal",
+    "P_off_GG_ON_Jmuted_green_Pcharcoal",
+    "P_off_GG_ON_Jmuted_green_Pbrown",
+    "P_off_GG_ON_Jmuted_burgundy_Poriginal",
+    "P_off_GG_ON_Jmuted_burgundy_Pcharcoal",
+    "P_off_GG_ON_Jmuted_burgundy_Pbrown",
+    "P_on_GG_NN_Joriginal_Poriginal",
+    "P_on_GG_NN_Joriginal_Pcharcoal",
+    "P_on_GG_NN_Joriginal_Pbrown",
+    "P_on_GG_NN_Jmuted_green_Poriginal",
+    "P_on_GG_NN_Jmuted_green_Pcharcoal",
+    "P_on_GG_NN_Jmuted_green_Pbrown",
+    "P_on_GG_NN_Jmuted_burgundy_Poriginal",
+    "P_on_GG_NN_Jmuted_burgundy_Pcharcoal",
+    "P_on_GG_NN_Jmuted_burgundy_Pbrown",
+    "P_on_GG_NO_Joriginal_Poriginal",
+    "P_on_GG_NO_Joriginal_Pcharcoal",
+    "P_on_GG_NO_Joriginal_Pbrown",
+    "P_on_GG_NO_Jmuted_green_Poriginal",
+    "P_on_GG_NO_Jmuted_green_Pcharcoal",
+    "P_on_GG_NO_Jmuted_green_Pbrown",
+    "P_on_GG_NO_Jmuted_burgundy_Poriginal",
+    "P_on_GG_NO_Jmuted_burgundy_Pcharcoal",
+    "P_on_GG_NO_Jmuted_burgundy_Pbrown",
+    "P_on_GG_ON_Joriginal_Poriginal",
+    "P_on_GG_ON_Joriginal_Pcharcoal",
+    "P_on_GG_ON_Joriginal_Pbrown",
+    "P_on_GG_ON_Jmuted_green_Poriginal",
+    "P_on_GG_ON_Jmuted_green_Pcharcoal",
+    "P_on_GG_ON_Jmuted_green_Pbrown",
+    "P_on_GG_ON_Jmuted_burgundy_Poriginal",
+    "P_on_GG_ON_Jmuted_burgundy_Pcharcoal",
+    "P_on_GG_ON_Jmuted_burgundy_Pbrown",
+    "H_F00_native_light",
+    "H_F00_native_dark",
+    "H_F00_native_magenta",
+    "H_F00_native_green",
+    "H_F00_native_textured",
+    "H_F00_128_light",
+    "H_F00_128_dark",
+    "H_F00_128_magenta",
+    "H_F00_128_green",
+    "H_F00_128_textured",
+    "H_F00_256_light",
+    "H_F00_256_dark",
+    "H_F00_256_magenta",
+    "H_F00_256_green",
+    "H_F00_256_textured",
+    "H_F01_native_light",
+    "H_F01_native_dark",
+    "H_F01_native_magenta",
+    "H_F01_native_green",
+    "H_F01_native_textured",
+    "H_F01_128_light",
+    "H_F01_128_dark",
+    "H_F01_128_magenta",
+    "H_F01_128_green",
+    "H_F01_128_textured",
+    "H_F01_256_light",
+    "H_F01_256_dark",
+    "H_F01_256_magenta",
+    "H_F01_256_green",
+    "H_F01_256_textured",
+    "H_F02_native_light",
+    "H_F02_native_dark",
+    "H_F02_native_magenta",
+    "H_F02_native_green",
+    "H_F02_native_textured",
+    "H_F02_128_light",
+    "H_F02_128_dark",
+    "H_F02_128_magenta",
+    "H_F02_128_green",
+    "H_F02_128_textured",
+    "H_F02_256_light",
+    "H_F02_256_dark",
+    "H_F02_256_magenta",
+    "H_F02_256_green",
+    "H_F02_256_textured",
+    "H_F03_native_light",
+    "H_F03_native_dark",
+    "H_F03_native_magenta",
+    "H_F03_native_green",
+    "H_F03_native_textured",
+    "H_F03_128_light",
+    "H_F03_128_dark",
+    "H_F03_128_magenta",
+    "H_F03_128_green",
+    "H_F03_128_textured",
+    "H_F03_256_light",
+    "H_F03_256_dark",
+    "H_F03_256_magenta",
+    "H_F03_256_green",
+    "H_F03_256_textured",
+    "H_F04_native_light",
+    "H_F04_native_dark",
+    "H_F04_native_magenta",
+    "H_F04_native_green",
+    "H_F04_native_textured",
+    "H_F04_128_light",
+    "H_F04_128_dark",
+    "H_F04_128_magenta",
+    "H_F04_128_green",
+    "H_F04_128_textured",
+    "H_F04_256_light",
+    "H_F04_256_dark",
+    "H_F04_256_magenta",
+    "H_F04_256_green",
+    "H_F04_256_textured",
+    "H_F05_native_light",
+    "H_F05_native_dark",
+    "H_F05_native_magenta",
+    "H_F05_native_green",
+    "H_F05_native_textured",
+    "H_F05_128_light",
+    "H_F05_128_dark",
+    "H_F05_128_magenta",
+    "H_F05_128_green",
+    "H_F05_128_textured",
+    "H_F05_256_light",
+    "H_F05_256_dark",
+    "H_F05_256_magenta",
+    "H_F05_256_green",
+    "H_F05_256_textured",
+    "H_F06_native_light",
+    "H_F06_native_dark",
+    "H_F06_native_magenta",
+    "H_F06_native_green",
+    "H_F06_native_textured",
+    "H_F06_128_light",
+    "H_F06_128_dark",
+    "H_F06_128_magenta",
+    "H_F06_128_green",
+    "H_F06_128_textured",
+    "H_F06_256_light",
+    "H_F06_256_dark",
+    "H_F06_256_magenta",
+    "H_F06_256_green",
+    "H_F06_256_textured",
+    "H_F07_native_light",
+    "H_F07_native_dark",
+    "H_F07_native_magenta",
+    "H_F07_native_green",
+    "H_F07_native_textured",
+    "H_F07_128_light",
+    "H_F07_128_dark",
+    "H_F07_128_magenta",
+    "H_F07_128_green",
+    "H_F07_128_textured",
+    "H_F07_256_light",
+    "H_F07_256_dark",
+    "H_F07_256_magenta",
+    "H_F07_256_green",
+    "H_F07_256_textured",
+    "C_off_NN_NN_F00",
+    "C_off_NN_NN_F01",
+    "C_off_NN_NN_F02",
+    "C_off_NN_NN_F03",
+    "C_off_NN_NN_F04",
+    "C_off_NN_NN_F05",
+    "C_off_NN_NN_F06",
+    "C_off_NN_NN_F07",
+    "C_on_NN_NN_F00",
+    "C_on_NN_NN_F01",
+    "C_on_NN_NN_F02",
+    "C_on_NN_NN_F03",
+    "C_on_NN_NN_F04",
+    "C_on_NN_NN_F05",
+    "C_on_NN_NN_F06",
+    "C_on_NN_NN_F07",
+    "C_off_GG_NO_F04",
+    "C_off_GG_NO_F06",
+    "C_off_GG_NO_F07",
+    "C_off_GG_ON_F04",
+    "C_off_GG_ON_F06",
+    "C_off_GG_ON_F07",
+    "C_on_GG_NO_F04",
+    "C_on_GG_NO_F06",
+    "C_on_GG_NO_F07",
+    "C_on_GG_ON_F04",
+    "C_on_GG_ON_F06",
+    "C_on_GG_ON_F07",
+    "N_OO_legs",
+    "N_lone_left_lateral_eye",
+    "N_lone_right_lateral_eye",
+    "N_left_wink_with_right_lateral",
+    "N_unsupported_view",
+    "N_mirror_not_approved",
+    "N_closed_jacket_not_supported",
+    "N_wrong_fit",
+    "N_wrong_arm_side",
+    "N_wrong_hand_state",
+    "N_wrong_shoe_state",
+    "N_wrong_head_revision",
+    "N_missing_selected_asset",
+    "N_cyclic_layer_DAG",
+    "N_unresolved_reserve_dependency",
+    "N_unreviewed_face_mix",
+    "N_ordinary_head_alpha_mutation"
+  ],
+  "matrix_groups": {
+    "body": {
+      "count": 24,
+      "states": {
+        "PASS_ACCEPTED_NEUTRAL_REPRODUCTION": 2,
+        "NOT_RUN_R5_STOP_CONDITION": 20,
+        "UNACCEPTED_PILOT_RENDERED_NOT_GATE_PASS": 1,
+        "FAIL_SOURCE_GARMENT_AND_WRIST_INTERFACE": 1
+      }
+    },
+    "palette": {
+      "count": 54,
+      "states": {
+        "NOT_RUN_R5_STOP_CONDITION": 54
+      }
+    },
+    "isolatedFace": {
+      "count": 120,
+      "states": {
+        "NOT_RUN_R5_STOP_CONDITION": 120
+      }
+    },
+    "assembledFace": {
+      "count": 28,
+      "states": {
+        "NOT_RUN_R5_STOP_CONDITION": 28
+      }
+    },
+    "negative": {
+      "count": 17,
+      "states": {
+        "NOT_RUN_R5_STOP_CONDITION": 17
+      }
+    }
+  },
+  "total_matrix_cases": 243,
+  "status_distribution": {
+    "PASS_ACCEPTED_NEUTRAL_REPRODUCTION": 2,
+    "NOT_RUN_R5_STOP_CONDITION": 239,
+    "UNACCEPTED_PILOT_RENDERED_NOT_GATE_PASS": 1,
+    "FAIL_SOURCE_GARMENT_AND_WRIST_INTERFACE": 1
+  },
+  "unrun_valid": 222,
+  "unrun_production_negatives": 17,
+  "selected_record_bytes_match_stage8": true,
+  "Gate_A_complete": false
+}

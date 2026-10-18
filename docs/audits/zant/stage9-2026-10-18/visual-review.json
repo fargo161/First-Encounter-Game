@@ -1,0 +1,70 @@
+{
+  "method": "Direct image inspection through view_image; two fresh replays plus seven preserved source/evidence images; not human-operated UI or new art approval.",
+  "images": [
+    {
+      "path": "work\\independent-r5\\fresh_extraction\\C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT\\references\\C001_source_neutral_rgba.png",
+      "bytes": 688551,
+      "sha256": "f651af252d32fd7a0870d254faab31ec63e4f620a42492641b834fd76274e0db",
+      "kind": "preserved original-reference copy",
+      "observation": "Original C001 identity/design authority, not rebuilt/calibration authority."
+    },
+    {
+      "path": "work\\independent-r5\\fresh_extraction\\C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT\\evidence\\R5_STOP_comparison_384.png",
+      "bytes": 98642,
+      "sha256": "7a760c68227eb3f097fad9f73bb8afe1e4d5014db418e43b9d5a0458f1645064",
+      "kind": "preserved evidence",
+      "observation": "Accepted neutral pair and two pilots remain distinctly labelled; failed cuff intrudes over palm at384 scale."
+    },
+    {
+      "path": "work\\independent-r5\\fresh_extraction\\C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT\\evidence\\B_on_GN_NN_upper_interface_native.png",
+      "bytes": 175219,
+      "sha256": "5542b6b87e2fbd2972a1520286527a3593ffb9062c5f8aabc96bb0d8dd27b81a",
+      "kind": "preserved evidence",
+      "observation": "Native cuff covers palm; diagonal shoulder/root graft and stripe transition remain visibly unsettled against frozen source-style jacket."
+    },
+    {
+      "path": "work\\independent-r5\\audit_replay\\B_on_NN_NN.png",
+      "bytes": 948996,
+      "sha256": "eb0ba7bc71d766583b451423eae332a47b89beb8d2103e0546c45eb10bee5a14",
+      "kind": "fresh portable output",
+      "observation": "Accepted neutral-on replay retains source identity/accepted neutral appearance; pixel checks establish exact R4 buffer identity, not new art approval."
+    },
+    {
+      "path": "work\\independent-r5\\audit_replay\\B_on_GN_NN.png",
+      "bytes": 967531,
+      "sha256": "568ac2c332f86e573bf8ec3438e8b312b112a0209cf20311ab44e396c54ceaa2",
+      "kind": "fresh portable output",
+      "observation": "Fresh failed on-pilot repeats raised-arm sleeve/cuff palm intrusion and root/stripe mismatch."
+    },
+    {
+      "path": "work\\independent-r5\\fresh_extraction\\C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT\\evidence\\B_off_GN_NN_upper_interface_native.png",
+      "bytes": 146151,
+      "sha256": "dd9c787e112cf74c75a6cff0222ea030d5c62a822ebd2eca0fb03a94b45282f6",
+      "kind": "preserved evidence",
+      "observation": "Bare-arm/open-hand gesture reads coherently; this does not establish a separately receiving wrist/cuff interface or accept A06/A14."
+    },
+    {
+      "path": "work\\independent-r5\\fresh_extraction\\C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT\\evidence\\B_on_GN_NN_wrist_native_dark.png",
+      "bytes": 50562,
+      "sha256": "96cad25a0151ff546ad036d1201fbc69e8224be3aef56eacbbf0aa8e2349f255",
+      "kind": "preserved evidence",
+      "observation": "Palm coverage persists against dark background."
+    },
+    {
+      "path": "work\\independent-r5\\fresh_extraction\\C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT\\evidence\\B_on_GN_NN_wrist_native_light.png",
+      "bytes": 51375,
+      "sha256": "ac300778cd06389cb849c26c0ce82a800fc81d580e88c78d7a541fdbce2994c5",
+      "kind": "preserved evidence",
+      "observation": "Palm coverage persists against light background; not a matte illusion."
+    },
+    {
+      "path": "work\\independent-r5\\fresh_extraction\\C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT\\evidence\\FAILED_G_L_wrist_registration_native.png",
+      "bytes": 157713,
+      "sha256": "c450b1837981cc2e6dd23d60b20423a435e8d29bfe9baf301fb4f6c352a33a63",
+      "kind": "preserved evidence",
+      "observation": "Marked provisional(637,705) seam reference remains above the visible failed cuff/palm region; no anatomy/interface freeze inferred."
+    }
+  ],
+  "known_failure_confirmed": true,
+  "no_new_art_acceptance": true
+}

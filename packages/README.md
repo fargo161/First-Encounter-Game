@@ -1,9 +1,9 @@
 # Subsystem packages
 
-encounter-atlas contains accepted A1, unchanged after Stage 5 verification with documented known limitations.
+encounter-atlas is accepted A1, unchanged after Stage 5 verification with documented known limitations.
 
-room-creator contains unchanged held v0.14.1: 383 original files plus separate Git-only metadata. Stage 7 passed with HOLD preserved. The known missing-image repair defect remains.
+room-creator is unchanged held v0.14.1: 383 baseline files plus separate Git metadata. Stage 7 passed with HOLD preserved; the known missing-image repair defect remains.
 
-zant contains wrapper documentation and C001_ZANT_GATE_A_R5, the byte-identical maintained R5 source with its original checkpoint manifest. R4 acceptance stays distinct from failed/provisional R5 work. Gate A is incomplete; Stage 9 verification awaits explicit authorization.
+zant contains unchanged C001_ZANT_GATE_A_R5 and its exact manifest. Stage 9 passed with acceptance states preserved: accepted R4, failed A10, unaccepted A06/A14, provisional G interface, incomplete Gate A. No source/art repair or promotion.
 
-Current import: ../docs/consolidation/STAGE_8_IMPORT.md. No integration, shared executable contracts, Unity or LFS.
+See ../docs/consolidation/STAGE_9_VERIFICATION.md. Stop before Stage 10; no integration/shared contracts/Unity/LFS.

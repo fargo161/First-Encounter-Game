@@ -1,0 +1,340 @@
+{
+  "conclusion": "success",
+  "headSha": "0d901173109984bcc1df116f8cca73bc6d2efc06",
+  "jobs": [
+    {
+      "completedAt": "2026-10-18T18:01:30Z",
+      "conclusion": "success",
+      "databaseId": 117747778871,
+      "name": "ZANT (Gate A incomplete)",
+      "startedAt": "2026-10-18T18:00:18Z",
+      "status": "completed",
+      "steps": [
+        {
+          "completedAt": "2026-10-18T18:00:24Z",
+          "conclusion": "success",
+          "name": "Set up job",
+          "number": 1,
+          "startedAt": "2026-10-18T18:00:20Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-18T18:00:47Z",
+          "conclusion": "success",
+          "name": "Run actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803",
+          "number": 2,
+          "startedAt": "2026-10-18T18:00:24Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-18T18:00:48Z",
+          "conclusion": "success",
+          "name": "Run actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1",
+          "number": 3,
+          "startedAt": "2026-10-18T18:00:47Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-18T18:00:54Z",
+          "conclusion": "success",
+          "name": "Run actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38",
+          "number": 4,
+          "startedAt": "2026-10-18T18:00:48Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-18T18:01:24Z",
+          "conclusion": "success",
+          "name": "Verify preserved checkout and package state",
+          "number": 5,
+          "startedAt": "2026-10-18T18:00:54Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-18T18:01:25Z",
+          "conclusion": "success",
+          "name": "Post Run actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38",
+          "number": 8,
+          "startedAt": "2026-10-18T18:01:25Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-18T18:01:25Z",
+          "conclusion": "success",
+          "name": "Post Run actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1",
+          "number": 9,
+          "startedAt": "2026-10-18T18:01:25Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-18T18:01:28Z",
+          "conclusion": "success",
+          "name": "Post Run actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803",
+          "number": 10,
+          "startedAt": "2026-10-18T18:01:25Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-18T18:01:28Z",
+          "conclusion": "success",
+          "name": "Complete job",
+          "number": 11,
+          "startedAt": "2026-10-18T18:01:28Z",
+          "status": "completed"
+        }
+      ],
+      "url": "https://github.com/fargo161/First-Encounter-Game/actions/runs/39152134587/job/117747778871"
+    },
+    {
+      "completedAt": "2026-10-18T18:03:14Z",
+      "conclusion": "success",
+      "databaseId": 117747778967,
+      "name": "Encounter A1 (IR3-25 retained)",
+      "startedAt": "2026-10-18T18:00:16Z",
+      "status": "completed",
+      "steps": [
+        {
+          "completedAt": "2026-10-18T18:00:18Z",
+          "conclusion": "success",
+          "name": "Set up job",
+          "number": 1,
+          "startedAt": "2026-10-18T18:00:17Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-18T18:00:34Z",
+          "conclusion": "success",
+          "name": "Run actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803",
+          "number": 2,
+          "startedAt": "2026-10-18T18:00:18Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-18T18:00:34Z",
+          "conclusion": "success",
+          "name": "Run actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1",
+          "number": 3,
+          "startedAt": "2026-10-18T18:00:34Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-18T18:00:39Z",
+          "conclusion": "success",
+          "name": "Run actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38",
+          "number": 4,
+          "startedAt": "2026-10-18T18:00:34Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-18T18:03:09Z",
+          "conclusion": "success",
+          "name": "Verify preserved checkout and package state",
+          "number": 5,
+          "startedAt": "2026-10-18T18:00:39Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-18T18:03:10Z",
+          "conclusion": "success",
+          "name": "Post Run actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38",
+          "number": 8,
+          "startedAt": "2026-10-18T18:03:09Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-18T18:03:10Z",
+          "conclusion": "success",
+          "name": "Post Run actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1",
+          "number": 9,
+          "startedAt": "2026-10-18T18:03:10Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-18T18:03:13Z",
+          "conclusion": "success",
+          "name": "Post Run actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803",
+          "number": 10,
+          "startedAt": "2026-10-18T18:03:10Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-18T18:03:13Z",
+          "conclusion": "success",
+          "name": "Complete job",
+          "number": 11,
+          "startedAt": "2026-10-18T18:03:13Z",
+          "status": "completed"
+        }
+      ],
+      "url": "https://github.com/fargo161/First-Encounter-Game/actions/runs/39152134587/job/117747778967"
+    },
+    {
+      "completedAt": "2026-10-18T18:00:42Z",
+      "conclusion": "success",
+      "databaseId": 117747779050,
+      "name": "Repository integrity",
+      "startedAt": "2026-10-18T18:00:17Z",
+      "status": "completed",
+      "steps": [
+        {
+          "completedAt": "2026-10-18T18:00:18Z",
+          "conclusion": "success",
+          "name": "Set up job",
+          "number": 1,
+          "startedAt": "2026-10-18T18:00:18Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-18T18:00:30Z",
+          "conclusion": "success",
+          "name": "Run actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803",
+          "number": 2,
+          "startedAt": "2026-10-18T18:00:18Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-18T18:00:30Z",
+          "conclusion": "success",
+          "name": "Run actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1",
+          "number": 3,
+          "startedAt": "2026-10-18T18:00:30Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-18T18:00:35Z",
+          "conclusion": "success",
+          "name": "Run actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38",
+          "number": 4,
+          "startedAt": "2026-10-18T18:00:30Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-18T18:00:38Z",
+          "conclusion": "success",
+          "name": "Verify preserved checkout and package state",
+          "number": 5,
+          "startedAt": "2026-10-18T18:00:35Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-18T18:00:38Z",
+          "conclusion": "success",
+          "name": "Post Run actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38",
+          "number": 8,
+          "startedAt": "2026-10-18T18:00:38Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-18T18:00:39Z",
+          "conclusion": "success",
+          "name": "Post Run actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1",
+          "number": 9,
+          "startedAt": "2026-10-18T18:00:38Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-18T18:00:41Z",
+          "conclusion": "success",
+          "name": "Post Run actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803",
+          "number": 10,
+          "startedAt": "2026-10-18T18:00:39Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-18T18:00:41Z",
+          "conclusion": "success",
+          "name": "Complete job",
+          "number": 11,
+          "startedAt": "2026-10-18T18:00:41Z",
+          "status": "completed"
+        }
+      ],
+      "url": "https://github.com/fargo161/First-Encounter-Game/actions/runs/39152134587/job/117747779050"
+    },
+    {
+      "completedAt": "2026-10-18T18:00:57Z",
+      "conclusion": "success",
+      "databaseId": 117747779082,
+      "name": "Room Creator (HOLD retained)",
+      "startedAt": "2026-10-18T18:00:16Z",
+      "status": "completed",
+      "steps": [
+        {
+          "completedAt": "2026-10-18T18:00:18Z",
+          "conclusion": "success",
+          "name": "Set up job",
+          "number": 1,
+          "startedAt": "2026-10-18T18:00:17Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-18T18:00:36Z",
+          "conclusion": "success",
+          "name": "Run actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803",
+          "number": 2,
+          "startedAt": "2026-10-18T18:00:18Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-18T18:00:36Z",
+          "conclusion": "success",
+          "name": "Run actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1",
+          "number": 3,
+          "startedAt": "2026-10-18T18:00:36Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-18T18:00:42Z",
+          "conclusion": "success",
+          "name": "Run actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38",
+          "number": 4,
+          "startedAt": "2026-10-18T18:00:36Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-18T18:00:53Z",
+          "conclusion": "success",
+          "name": "Verify preserved checkout and package state",
+          "number": 5,
+          "startedAt": "2026-10-18T18:00:42Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-18T18:00:53Z",
+          "conclusion": "success",
+          "name": "Post Run actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38",
+          "number": 8,
+          "startedAt": "2026-10-18T18:00:53Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-18T18:00:53Z",
+          "conclusion": "success",
+          "name": "Post Run actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1",
+          "number": 9,
+          "startedAt": "2026-10-18T18:00:53Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-18T18:00:56Z",
+          "conclusion": "success",
+          "name": "Post Run actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803",
+          "number": 10,
+          "startedAt": "2026-10-18T18:00:53Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-18T18:00:56Z",
+          "conclusion": "success",
+          "name": "Complete job",
+          "number": 11,
+          "startedAt": "2026-10-18T18:00:56Z",
+          "status": "completed"
+        }
+      ],
+      "url": "https://github.com/fargo161/First-Encounter-Game/actions/runs/39152134587/job/117747779082"
+    }
+  ],
+  "status": "completed",
+  "url": "https://github.com/fargo161/First-Encounter-Game/actions/runs/39152134587"
+}

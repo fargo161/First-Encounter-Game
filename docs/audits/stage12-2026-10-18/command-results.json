@@ -1,0 +1,90 @@
+[
+  {
+    "name": "a1-supplied",
+    "exit_code": 0,
+    "expected_exit": 0,
+    "seconds": 40.547,
+    "log": "a1-supplied.log",
+    "log_sha256": "f125b94d195a3e734aafbdf5946bc7a7b7c40f841d43b6560ebc11b9a54d52c6"
+  },
+  {
+    "name": "a1-build-m3.mjs",
+    "exit_code": 0,
+    "expected_exit": 0,
+    "seconds": 1.109,
+    "log": "a1-build-m3.mjs.log",
+    "log_sha256": "f0fe74071ab71148c45b2153a51852080fe61e15f3b9a39b8e5a357396fb8512"
+  },
+  {
+    "name": "a1-build-atlas-a1.mjs",
+    "exit_code": 0,
+    "expected_exit": 0,
+    "seconds": 1.188,
+    "log": "a1-build-atlas-a1.mjs.log",
+    "log_sha256": "74c68e510a3554b42b1c1d52303b10ba512d29fbfec1589b368ea913fa4b01f1"
+  },
+  {
+    "name": "a1-proofs",
+    "exit_code": 0,
+    "expected_exit": 0,
+    "seconds": 38.078,
+    "log": "a1-proofs.log",
+    "log_sha256": "40fcf13a0226833def26fc54802d23718963283e799b3bd34cf9eb4bd07d0d91"
+  },
+  {
+    "name": "a1-preserve-atlas-a1.py",
+    "exit_code": 0,
+    "expected_exit": 0,
+    "seconds": 1.688,
+    "log": "a1-preserve-atlas-a1.py.log",
+    "log_sha256": "afa028a19452e60eba19328ab024728bf98fd80b3ef2b977519b3df8264dea73"
+  },
+  {
+    "name": "a1-identity-atlas-a1.py",
+    "exit_code": 0,
+    "expected_exit": 0,
+    "seconds": 0.203,
+    "log": "a1-identity-atlas-a1.py.log",
+    "log_sha256": "2fce75947809c9beb1f34852b71c43203df9572561b6a44ff1ac561877093fb5"
+  },
+  {
+    "name": "a1-independent",
+    "exit_code": 0,
+    "expected_exit": 0,
+    "seconds": 66.828,
+    "log": "a1-independent.log",
+    "log_sha256": "c0a89758dc8fdad531cb44a3fc01ecfa666dc5ac465cfeaf0f1de9212d041f22"
+  },
+  {
+    "name": "a1-ir3-known-limitation",
+    "exit_code": 1,
+    "expected_exit": 1,
+    "seconds": 8.625,
+    "log": "a1-ir3-known-limitation.log",
+    "log_sha256": "942927f59bd9453166d42a4fca772f18c2491c7082bc92f89118a9b8b34d372c"
+  },
+  {
+    "name": "room-node",
+    "exit_code": 0,
+    "expected_exit": 0,
+    "seconds": 13.703,
+    "log": "room-node.log",
+    "log_sha256": "c02d77ae6b4aab3645039ce57b07891ec7da55bd8675e51cadf3a1a9ecf9f7b3"
+  },
+  {
+    "name": "room-build",
+    "exit_code": 0,
+    "expected_exit": 0,
+    "seconds": 0.125,
+    "log": "room-build.log",
+    "log_sha256": "7240f7d37aadb5e623231d8002565fb0242f6016ef60c27d4a7dea167d47a06a"
+  },
+  {
+    "name": "zant-portable",
+    "exit_code": 0,
+    "expected_exit": 0,
+    "seconds": 29.906,
+    "log": "zant-portable.log",
+    "log_sha256": "56d008bd13aaabdd72435a67594dc3fb01193143590faaa2d098712d42ba4062"
+  }
+]

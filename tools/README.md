@@ -5,3 +5,5 @@ Use python -B tools/repo.py with doctor, integrity, encounter-atlas, room-creato
 repo.py locates tooling/packages, reports optional dependencies and runs unchanged package checks in retained disposable copies. repository_integrity.py verifies current exact package membership/hashes, Stage 10 removal/reconstruction bindings, dependencies, locked evidence and statuses using frozen Stage 10 hash helpers.
 
 verify_stage10_cleanup.py remains byte-identical with its Stage 10 pointer assertion; replay its full CLI at Stage 10. Earlier verifiers likewise belong to recorded historical states. Current orchestration does not rewrite them or require original machine paths. External archive replay is optional and separate from normal setup/CI.
+
+Stage 12 retains these commands and all package assertions. Only current integrity stage-pointer/report handling now recognizes authorized Stages 11 and 12 and their corresponding next gate. No shared executable schema or adapter was added. Stop before Stage 13.

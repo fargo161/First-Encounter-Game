@@ -57,8 +57,9 @@ def verify():
     for e in m["verification_records"]:
         check(ROOT / e["path"], e)
     authority = load(ROOT / "docs/provenance/source-authority.json")
-    assert authority["current_authorized_stage"] == 11
-    assert authority["next_stage"].startswith("Stage 12")
+    stage = authority["current_authorized_stage"]
+    assert stage in (11, 12)
+    assert authority["next_stage"].startswith(f"Stage {stage + 1}")
     assert digest(authority["subsystems"]) == m["preserved_subsystems_authority_sha256"]
     assert sha(ROOT / "docs/provenance/known-defects.json") == m["preserved_known_defects_sha256"]
     assert sha(ROOT / "docs/provenance/STATUS_INTERPRETATION.md") == m["preserved_status_interpretation_sha256"]
@@ -66,7 +67,7 @@ def verify():
     assert not (ROOT / "runtime").exists()
     assert "filter=lfs" not in (ROOT / ".gitattributes").read_text(encoding="utf-8")
     return {
-        "integrity": "PASS", "stage": 11, "removed_duplicates_still_absent": len(removed),
+        "integrity": "PASS", "stage": stage, "removed_duplicates_still_absent": len(removed),
         "encounter_files": len(current), "encounter_tree_sha256": tree(current),
         "encounter_source_inputs": 132, "encounter_source_digest": source["source_digest"],
         "AR0_R1_members": 2310, "historical_A1_reconstructible_files": 2731,

@@ -1,7 +1,7 @@
 # Project documentation
 
-Start with [development setup](../DEVELOPMENT.md), [Stage 11 readiness](consolidation/STAGE_11_READINESS.md), [authority](provenance/source-authority.json) and [next gate](consolidation/NEXT_STAGE_GATE.md).
+Initial GitHub consolidation is complete at narrow Stage 12. Start with [contract inventory](../contracts/SHARED_CONTRACT_INVENTORY.md), [boundary matrix](../contracts/BOUNDARY_MATRIX.md), [examples](../contracts/COMPATIBILITY_EXAMPLES.md), [decision](../contracts/SHARED_CONTRACT_DECISION.md) and [Stage 12 report](consolidation/STAGE_12_BOUNDARIES.md).
 
-Stage 10 [cleanup](consolidation/STAGE_10_CLEANUP.md) and [mappings](provenance/stage10-cleanup-manifest.json) remain authoritative. Historical import/verification records and acceptance/defect records are unchanged. Current integrity validates the curated checkout; historical full-snapshot verifiers require their recorded commit.
+Normal development setup/commands remain in [DEVELOPMENT.md](../DEVELOPMENT.md). Stage 11 [readiness](consolidation/STAGE_11_READINESS.md), Stage 10 [cleanup](consolidation/STAGE_10_CLEANUP.md), [removal mappings](provenance/stage10-cleanup-manifest.json), [authority](provenance/source-authority.json) and [product status interpretation](provenance/STATUS_INTERPRETATION.md) retain their recorded scope.
 
-Bounded Stage 11 evidence is under audits/stage11-2026-10-18/. Optional dependencies and platform limits are in DEVELOPMENT.md. Stop before Stage 12.
+Stage 12 evidence is under audits/stage12-2026-10-18/. Historical full-snapshot verifiers require their recorded commit. Subsystem acceptance/defect records are unchanged. [Stop before Stage 13](consolidation/NEXT_STAGE_GATE.md); no Unity or runtime integration is authorized.

@@ -1,0 +1,13 @@
+{
+  "PASS": true,
+  "protected_package_and_status_files": 3014,
+  "hashes_sizes_mtimes_unchanged": true,
+  "subsystem_authority_dictionaries_value_identical": true,
+  "stage10_cleanup_records_and_tool_unchanged": true,
+  "stage11_cli_and_ci_workflow_unchanged": true,
+  "only_integrity_stage_gate_report_changed": true,
+  "no_original_archive_writes": true,
+  "initial_consolidation_complete": true,
+  "runtime_schema_or_adapters_added": false,
+  "stage13_started": false
+}

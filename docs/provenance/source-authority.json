@@ -13,7 +13,8 @@
     8,
     9,
     10,
-    11
+    11,
+    12
   ],
   "subsystem_source_imported": true,
   "governing_documents": {
@@ -92,6 +93,12 @@
       "repository_path": "docs/provenance/governing/FIRST_ENCOUNTER_GAME_STAGE_11_AUTHORIZATION.md",
       "bytes": 6756,
       "sha256": "5f44b3c131e2413097bda73ad62a4883d8c15a0069a137fbc5bdcbb6ab429ca9"
+    },
+    "FIRST_ENCOUNTER_GAME_STAGE_12_NARROW_AUTHORIZATION.md": {
+      "source_path": "C:\\Users\\mcdon\\Downloads\\FIRST_ENCOUNTER_GAME_STAGE_12_NARROW_AUTHORIZATION.md",
+      "repository_path": "docs/provenance/governing/FIRST_ENCOUNTER_GAME_STAGE_12_NARROW_AUTHORIZATION.md",
+      "bytes": 11312,
+      "sha256": "8201eecd9d234c626f1bbcb9608b018013ee4f790f32c796a627752fcd4309d5"
     }
   },
   "repository": {
@@ -479,18 +486,22 @@
     }
   },
   "verification_this_execution": {
-    "stage": 11,
-    "scope": "Repository orchestration and fresh-clone readiness only",
-    "verdict": "PASS WITH DOCUMENTED EXTERNAL DEPENDENCIES",
-    "report": "docs/consolidation/STAGE_11_READINESS.md",
-    "evidence": "docs/audits/stage11-2026-10-18/",
+    "stage": 12,
+    "scope": "Narrow shared-contract boundary documentation only",
+    "verdict": "PASS WITH DEFERRED CONTRACT QUESTIONS",
+    "report": "docs/consolidation/STAGE_12_BOUNDARIES.md",
+    "decision": "contracts/SHARED_CONTRACT_DECISION.md",
     "canonical_package_files_changed": false,
     "subsystem_acceptance_changed": false,
     "stage10_cleanup_preserved": true,
-    "stage12_started": false
+    "stage11_orchestration_preserved": true,
+    "initial_github_consolidation_complete": true,
+    "stage13_started": false,
+    "runtime_schema_or_adapters_implemented": false,
+    "evidence": "docs/audits/stage12-2026-10-18/"
   },
-  "next_stage": "Stage 12 requires explicit new owner authorization. STOP.",
-  "current_authorized_stage": 11,
+  "next_stage": "Stage 13 is reserved for future explicitly authorized Unity integration. STOP.",
+  "current_authorized_stage": 12,
   "imported_subsystems": [
     "encounter_atlas",
     "room_creator",
@@ -597,5 +608,17 @@
     "known_defect_records_changed": false,
     "external_preservation_archive_changed": false,
     "stage11_started": false
-  }
+  },
+  "verification_history_stage_11": {
+    "stage": 11,
+    "scope": "Repository orchestration and fresh-clone readiness only",
+    "verdict": "PASS WITH DOCUMENTED EXTERNAL DEPENDENCIES",
+    "report": "docs/consolidation/STAGE_11_READINESS.md",
+    "evidence": "docs/audits/stage11-2026-10-18/",
+    "canonical_package_files_changed": false,
+    "subsystem_acceptance_changed": false,
+    "stage10_cleanup_preserved": true,
+    "stage12_started": false
+  },
+  "initial_github_consolidation_complete": true
 }

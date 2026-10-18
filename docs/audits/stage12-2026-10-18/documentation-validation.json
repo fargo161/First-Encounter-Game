@@ -1,0 +1,536 @@
+{
+  "PASS": true,
+  "classification_labels_checked": 4,
+  "local_links_and_line_anchors_checked": 130,
+  "illustrative_associations": 2,
+  "example_ids_coordinates_and_hashes_match_sources": true,
+  "native_versions_checked": true,
+  "ZANT_matrix_category_counts_checked": true,
+  "subsystem_authority_and_cleanup_records_unchanged": true,
+  "only_integrity_stage_gate_and_report_changed": true,
+  "package_files_and_all_other_old_files_unchanged": true,
+  "machine_readable_contract_records_added": false,
+  "local_source_observations_only": true,
+  "links": [
+    {
+      "document": "DEVELOPMENT.md",
+      "target": "assets/manifests/room-creator-library-v1/"
+    },
+    {
+      "document": "DEVELOPMENT.md",
+      "target": "docs/testing/STAGE_7_VERIFICATION.md"
+    },
+    {
+      "document": "DEVELOPMENT.md",
+      "target": ".github/workflows/readiness.yml"
+    },
+    {
+      "document": "DEVELOPMENT.md",
+      "target": "contracts/README.md"
+    },
+    {
+      "document": "README.md",
+      "target": "contracts/SHARED_CONTRACT_INVENTORY.md"
+    },
+    {
+      "document": "README.md",
+      "target": "contracts/BOUNDARY_MATRIX.md"
+    },
+    {
+      "document": "README.md",
+      "target": "contracts/COMPATIBILITY_EXAMPLES.md"
+    },
+    {
+      "document": "README.md",
+      "target": "contracts/SHARED_CONTRACT_DECISION.md"
+    },
+    {
+      "document": "README.md",
+      "target": "DEVELOPMENT.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/consolidation/STAGE_10_CLEANUP.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/provenance/stage10-cleanup-manifest.json"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/provenance/source-authority.json"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/consolidation/STAGE_11_READINESS.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/consolidation/NEXT_STAGE_GATE.md"
+    },
+    {
+      "document": "contracts/BOUNDARY_MATRIX.md",
+      "target": "SHARED_CONTRACT_INVENTORY.md"
+    },
+    {
+      "document": "contracts/BOUNDARY_MATRIX.md",
+      "target": "SHARED_CONTRACT_DECISION.md"
+    },
+    {
+      "document": "contracts/COMPATIBILITY_EXAMPLES.md",
+      "target": "SHARED_CONTRACT_INVENTORY.md"
+    },
+    {
+      "document": "contracts/COMPATIBILITY_EXAMPLES.md",
+      "target": "BOUNDARY_MATRIX.md"
+    },
+    {
+      "document": "contracts/COMPATIBILITY_EXAMPLES.md",
+      "target": "../packages/encounter-atlas/content/m3/seed.json"
+    },
+    {
+      "document": "contracts/COMPATIBILITY_EXAMPLES.md",
+      "target": "../packages/zant/C001_ZANT_GATE_A_R5/contract/A25_LOCK.json"
+    },
+    {
+      "document": "contracts/COMPATIBILITY_EXAMPLES.md",
+      "target": "../packages/zant/C001_ZANT_GATE_A_R5/contract/ACCEPTED_R4_NEUTRAL_LOCK.json"
+    },
+    {
+      "document": "contracts/COMPATIBILITY_EXAMPLES.md",
+      "target": "../packages/encounter-atlas/content/ar0/last-collection.json"
+    },
+    {
+      "document": "contracts/COMPATIBILITY_EXAMPLES.md",
+      "target": "../packages/room-creator/examples/Route_Prototype_Street_ASSET_DEMO.room.json"
+    },
+    {
+      "document": "contracts/COMPATIBILITY_EXAMPLES.md",
+      "target": "../packages/room-creator/source/core.js#L141"
+    },
+    {
+      "document": "contracts/COMPATIBILITY_EXAMPLES.md",
+      "target": "../packages/room-creator/source/FORMAT.md#L62"
+    },
+    {
+      "document": "contracts/COMPATIBILITY_EXAMPLES.md",
+      "target": "../packages/encounter-atlas/src/m3/engine.mjs#L292"
+    },
+    {
+      "document": "contracts/COMPATIBILITY_EXAMPLES.md",
+      "target": "../packages/encounter-atlas/src/ar0/atlas.mjs#L21"
+    },
+    {
+      "document": "contracts/COMPATIBILITY_EXAMPLES.md",
+      "target": "../packages/room-creator/tests/props_metadata.test.js#L29"
+    },
+    {
+      "document": "contracts/COMPATIBILITY_EXAMPLES.md",
+      "target": "../packages/encounter-atlas/src/contracts.mjs#L48"
+    },
+    {
+      "document": "contracts/COMPATIBILITY_EXAMPLES.md",
+      "target": "../packages/encounter-atlas/src/runtime.mjs#L44"
+    },
+    {
+      "document": "contracts/README.md",
+      "target": "SHARED_CONTRACT_INVENTORY.md"
+    },
+    {
+      "document": "contracts/README.md",
+      "target": "BOUNDARY_MATRIX.md"
+    },
+    {
+      "document": "contracts/README.md",
+      "target": "COMPATIBILITY_EXAMPLES.md"
+    },
+    {
+      "document": "contracts/README.md",
+      "target": "SHARED_CONTRACT_DECISION.md"
+    },
+    {
+      "document": "contracts/SHARED_CONTRACT_DECISION.md",
+      "target": "SHARED_CONTRACT_INVENTORY.md"
+    },
+    {
+      "document": "contracts/SHARED_CONTRACT_DECISION.md",
+      "target": "BOUNDARY_MATRIX.md"
+    },
+    {
+      "document": "contracts/SHARED_CONTRACT_DECISION.md",
+      "target": "COMPATIBILITY_EXAMPLES.md"
+    },
+    {
+      "document": "contracts/SHARED_CONTRACT_INVENTORY.md",
+      "target": "../packages/encounter-atlas/src/package.mjs#L10"
+    },
+    {
+      "document": "contracts/SHARED_CONTRACT_INVENTORY.md",
+      "target": "../packages/encounter-atlas/src/contracts.mjs#L113"
+    },
+    {
+      "document": "contracts/SHARED_CONTRACT_INVENTORY.md",
+      "target": "../packages/encounter-atlas/src/encounter.mjs#L239"
+    },
+    {
+      "document": "contracts/SHARED_CONTRACT_INVENTORY.md",
+      "target": "../packages/encounter-atlas/src/m3/types.mjs#L24"
+    },
+    {
+      "document": "contracts/SHARED_CONTRACT_INVENTORY.md",
+      "target": "../packages/encounter-atlas/src/m3/engine.mjs#L274"
+    },
+    {
+      "document": "contracts/SHARED_CONTRACT_INVENTORY.md",
+      "target": "../packages/encounter-atlas/src/runtime.mjs#L3"
+    },
+    {
+      "document": "contracts/SHARED_CONTRACT_INVENTORY.md",
+      "target": "../packages/encounter-atlas/src/contracts.mjs#L61"
+    },
+    {
+      "document": "contracts/SHARED_CONTRACT_INVENTORY.md",
+      "target": "../packages/encounter-atlas/src/m3/types.mjs#L43"
+    },
+    {
+      "document": "contracts/SHARED_CONTRACT_INVENTORY.md",
+      "target": "../packages/encounter-atlas/content/m3/seed.json"
+    },
+    {
+      "document": "contracts/SHARED_CONTRACT_INVENTORY.md",
+      "target": "../packages/encounter-atlas/content/last-collection.json"
+    },
+    {
+      "document": "contracts/SHARED_CONTRACT_INVENTORY.md",
+      "target": "../packages/encounter-atlas/content/ar0/last-collection.json"
+    },
+    {
+      "document": "contracts/SHARED_CONTRACT_INVENTORY.md",
+      "target": "../packages/encounter-atlas/src/contracts.mjs#L56"
+    },
+    {
+      "document": "contracts/SHARED_CONTRACT_INVENTORY.md",
+      "target": "../packages/encounter-atlas/content/m3/seed.json"
+    },
+    {
+      "document": "contracts/SHARED_CONTRACT_INVENTORY.md",
+      "target": "../packages/encounter-atlas/src/m3/engine.mjs#L274"
+    },
+    {
+      "document": "contracts/SHARED_CONTRACT_INVENTORY.md",
+      "target": "../packages/encounter-atlas/content/ar0/last-collection.json"
+    },
+    {
+      "document": "contracts/SHARED_CONTRACT_INVENTORY.md",
+      "target": "../packages/encounter-atlas/src/ar0/atlas.mjs#L21"
+    },
+    {
+      "document": "contracts/SHARED_CONTRACT_INVENTORY.md",
+      "target": "../packages/encounter-atlas/src/ar0/atlas.mjs#L9"
+    },
+    {
+      "document": "contracts/SHARED_CONTRACT_INVENTORY.md",
+      "target": "../packages/encounter-atlas/src/ar0/atlas.mjs#L194"
+    },
+    {
+      "document": "contracts/SHARED_CONTRACT_INVENTORY.md",
+      "target": "../packages/encounter-atlas/src/atlas-a1/adapter.mjs#L12"
+    },
+    {
+      "document": "contracts/SHARED_CONTRACT_INVENTORY.md",
+      "target": "../packages/encounter-atlas/src/runtime.mjs#L10"
+    },
+    {
+      "document": "contracts/SHARED_CONTRACT_INVENTORY.md",
+      "target": "../packages/encounter-atlas/src/m3/engine.mjs#L292"
+    },
+    {
+      "document": "contracts/SHARED_CONTRACT_INVENTORY.md",
+      "target": "../packages/encounter-atlas/src/contracts.mjs"
+    },
+    {
+      "document": "contracts/SHARED_CONTRACT_INVENTORY.md",
+      "target": "../packages/encounter-atlas/src/m3/ui.mjs#L27"
+    },
+    {
+      "document": "contracts/SHARED_CONTRACT_INVENTORY.md",
+      "target": "../docs/provenance/known-defects.json"
+    },
+    {
+      "document": "contracts/SHARED_CONTRACT_INVENTORY.md",
+      "target": "../packages/encounter-atlas/scripts/identity-atlas-a1.py"
+    },
+    {
+      "document": "contracts/SHARED_CONTRACT_INVENTORY.md",
+      "target": "../packages/encounter-atlas/src/atlas-a1/adapter.mjs#L44"
+    },
+    {
+      "document": "contracts/SHARED_CONTRACT_INVENTORY.md",
+      "target": "../packages/encounter-atlas/package.json"
+    },
+    {
+      "document": "contracts/SHARED_CONTRACT_INVENTORY.md",
+      "target": "../docs/provenance/source-authority.json"
+    },
+    {
+      "document": "contracts/SHARED_CONTRACT_INVENTORY.md",
+      "target": "../packages/room-creator/source/FORMAT.md#L1"
+    },
+    {
+      "document": "contracts/SHARED_CONTRACT_INVENTORY.md",
+      "target": "../packages/room-creator/source/core.js#L843"
+    },
+    {
+      "document": "contracts/SHARED_CONTRACT_INVENTORY.md",
+      "target": "../packages/room-creator/examples/Route_Prototype_Street.room.json"
+    },
+    {
+      "document": "contracts/SHARED_CONTRACT_INVENTORY.md",
+      "target": "../assets/manifests/room-creator-library-v1/ASSET_MANIFEST.json"
+    },
+    {
+      "document": "contracts/SHARED_CONTRACT_INVENTORY.md",
+      "target": "../assets/manifests/room-creator-library-v1/PACKAGE_MANIFEST.json"
+    },
+    {
+      "document": "contracts/SHARED_CONTRACT_INVENTORY.md",
+      "target": "../packages/room-creator/source/FORMAT.md#L23"
+    },
+    {
+      "document": "contracts/SHARED_CONTRACT_INVENTORY.md",
+      "target": "../DEVELOPMENT.md"
+    },
+    {
+      "document": "contracts/SHARED_CONTRACT_INVENTORY.md",
+      "target": "../packages/room-creator/source/core.js#L163"
+    },
+    {
+      "document": "contracts/SHARED_CONTRACT_INVENTORY.md",
+      "target": "../packages/room-creator/source/core.js#L167"
+    },
+    {
+      "document": "contracts/SHARED_CONTRACT_INVENTORY.md",
+      "target": "../packages/room-creator/source/core.js#L878"
+    },
+    {
+      "document": "contracts/SHARED_CONTRACT_INVENTORY.md",
+      "target": "../packages/room-creator/examples/Route_Prototype_Street.room.json"
+    },
+    {
+      "document": "contracts/SHARED_CONTRACT_INVENTORY.md",
+      "target": "../packages/room-creator/source/FORMAT.md#L62"
+    },
+    {
+      "document": "contracts/SHARED_CONTRACT_INVENTORY.md",
+      "target": "../packages/room-creator/source/core.js#L80"
+    },
+    {
+      "document": "contracts/SHARED_CONTRACT_INVENTORY.md",
+      "target": "../packages/room-creator/examples/Route_Prototype_Street_ASSET_DEMO.room.json"
+    },
+    {
+      "document": "contracts/SHARED_CONTRACT_INVENTORY.md",
+      "target": "../packages/room-creator/source/FORMAT.md#L26"
+    },
+    {
+      "document": "contracts/SHARED_CONTRACT_INVENTORY.md",
+      "target": "../packages/room-creator/source/core.js#L141"
+    },
+    {
+      "document": "contracts/SHARED_CONTRACT_INVENTORY.md",
+      "target": "../packages/room-creator/source/core.js#L22"
+    },
+    {
+      "document": "contracts/SHARED_CONTRACT_INVENTORY.md",
+      "target": "../assets/manifests/room-creator-library-v1/ASSET_MANIFEST.json"
+    },
+    {
+      "document": "contracts/SHARED_CONTRACT_INVENTORY.md",
+      "target": "../packages/room-creator/source/FORMAT.md#L71"
+    },
+    {
+      "document": "contracts/SHARED_CONTRACT_INVENTORY.md",
+      "target": "../packages/room-creator/source/FORMAT.md#L310"
+    },
+    {
+      "document": "contracts/SHARED_CONTRACT_INVENTORY.md",
+      "target": "../packages/room-creator/source/core.js#L65"
+    },
+    {
+      "document": "contracts/SHARED_CONTRACT_INVENTORY.md",
+      "target": "../packages/room-creator/source/FORMAT.md#L1"
+    },
+    {
+      "document": "contracts/SHARED_CONTRACT_INVENTORY.md",
+      "target": "../packages/room-creator/tests/props_metadata.test.js#L29"
+    },
+    {
+      "document": "contracts/SHARED_CONTRACT_INVENTORY.md",
+      "target": "../docs/provenance/known-defects.json"
+    },
+    {
+      "document": "contracts/SHARED_CONTRACT_INVENTORY.md",
+      "target": "../packages/zant/C001_ZANT_GATE_A_R5/data/pilot_recipes.json"
+    },
+    {
+      "document": "contracts/SHARED_CONTRACT_INVENTORY.md",
+      "target": "../packages/zant/C001_ZANT_GATE_A_R5/manifest.json"
+    },
+    {
+      "document": "contracts/SHARED_CONTRACT_INVENTORY.md",
+      "target": "../packages/zant/C001_ZANT_GATE_A_R5/data/surface_ledger.json"
+    },
+    {
+      "document": "contracts/SHARED_CONTRACT_INVENTORY.md",
+      "target": "../packages/zant/C001_ZANT_GATE_A_R5/data/run_state.json"
+    },
+    {
+      "document": "contracts/SHARED_CONTRACT_INVENTORY.md",
+      "target": "../packages/zant/C001_ZANT_GATE_A_R5/contract/ACCEPTED_R4_NEUTRAL_LOCK.json"
+    },
+    {
+      "document": "contracts/SHARED_CONTRACT_INVENTORY.md",
+      "target": "../packages/zant/C001_ZANT_GATE_A_R5/contract/A25_LOCK.json"
+    },
+    {
+      "document": "contracts/SHARED_CONTRACT_INVENTORY.md",
+      "target": "../docs/provenance/STATUS_INTERPRETATION.md"
+    },
+    {
+      "document": "contracts/SHARED_CONTRACT_INVENTORY.md",
+      "target": "../packages/zant/C001_ZANT_GATE_A_R5/data/neutral_recipes.json"
+    },
+    {
+      "document": "contracts/SHARED_CONTRACT_INVENTORY.md",
+      "target": "../packages/zant/C001_ZANT_GATE_A_R5/data/pilot_recipes.json"
+    },
+    {
+      "document": "contracts/SHARED_CONTRACT_INVENTORY.md",
+      "target": "../packages/zant/C001_ZANT_GATE_A_R5/data/required_matrix.json"
+    },
+    {
+      "document": "contracts/SHARED_CONTRACT_INVENTORY.md",
+      "target": "../packages/zant/C001_ZANT_GATE_A_R5/data/calibration.json"
+    },
+    {
+      "document": "contracts/SHARED_CONTRACT_INVENTORY.md",
+      "target": "../packages/zant/C001_ZANT_GATE_A_R5/contract/A25_LOCK.json"
+    },
+    {
+      "document": "contracts/SHARED_CONTRACT_INVENTORY.md",
+      "target": "../packages/zant/C001_ZANT_GATE_A_R5/data/pilot_recipes.json"
+    },
+    {
+      "document": "contracts/SHARED_CONTRACT_INVENTORY.md",
+      "target": "../docs/provenance/STATUS_INTERPRETATION.md"
+    },
+    {
+      "document": "contracts/SHARED_CONTRACT_INVENTORY.md",
+      "target": "../docs/provenance/source-authority.json"
+    },
+    {
+      "document": "contracts/SHARED_CONTRACT_INVENTORY.md",
+      "target": "../packages/zant/C001_ZANT_GATE_A_R5/data/run_state.json"
+    },
+    {
+      "document": "contracts/SHARED_CONTRACT_INVENTORY.md",
+      "target": "../docs/provenance/source-fingerprints.json"
+    },
+    {
+      "document": "contracts/SHARED_CONTRACT_INVENTORY.md",
+      "target": "../docs/provenance/stage10-cleanup-manifest.json"
+    },
+    {
+      "document": "contracts/SHARED_CONTRACT_INVENTORY.md",
+      "target": "../packages/zant/C001_ZANT_GATE_A_R5/validation/verify_checkpoint.py"
+    },
+    {
+      "document": "contracts/SHARED_CONTRACT_INVENTORY.md",
+      "target": "SHARED_CONTRACT_DECISION.md"
+    },
+    {
+      "document": "contracts/SHARED_CONTRACT_INVENTORY.md",
+      "target": "BOUNDARY_MATRIX.md"
+    },
+    {
+      "document": "contracts/SHARED_CONTRACT_INVENTORY.md",
+      "target": "COMPATIBILITY_EXAMPLES.md"
+    },
+    {
+      "document": "docs/README.md",
+      "target": "../contracts/SHARED_CONTRACT_INVENTORY.md"
+    },
+    {
+      "document": "docs/README.md",
+      "target": "../contracts/BOUNDARY_MATRIX.md"
+    },
+    {
+      "document": "docs/README.md",
+      "target": "../contracts/COMPATIBILITY_EXAMPLES.md"
+    },
+    {
+      "document": "docs/README.md",
+      "target": "../contracts/SHARED_CONTRACT_DECISION.md"
+    },
+    {
+      "document": "docs/README.md",
+      "target": "../DEVELOPMENT.md"
+    },
+    {
+      "document": "docs/README.md",
+      "target": "consolidation/STAGE_11_READINESS.md"
+    },
+    {
+      "document": "docs/README.md",
+      "target": "consolidation/STAGE_10_CLEANUP.md"
+    },
+    {
+      "document": "docs/README.md",
+      "target": "provenance/stage10-cleanup-manifest.json"
+    },
+    {
+      "document": "docs/README.md",
+      "target": "provenance/source-authority.json"
+    },
+    {
+      "document": "docs/README.md",
+      "target": "provenance/STATUS_INTERPRETATION.md"
+    },
+    {
+      "document": "docs/README.md",
+      "target": "consolidation/NEXT_STAGE_GATE.md"
+    },
+    {
+      "document": "docs/architecture/SYSTEM_BOUNDARIES.md",
+      "target": "../../contracts/SHARED_CONTRACT_DECISION.md"
+    },
+    {
+      "document": "docs/architecture/SYSTEM_BOUNDARIES.md",
+      "target": "../../contracts/BOUNDARY_MATRIX.md"
+    },
+    {
+      "document": "integration/README.md",
+      "target": "../contracts/COMPATIBILITY_EXAMPLES.md"
+    },
+    {
+      "document": "integration/README.md",
+      "target": "../contracts/BOUNDARY_MATRIX.md"
+    },
+    {
+      "document": "integration/README.md",
+      "target": "../contracts/SHARED_CONTRACT_DECISION.md"
+    },
+    {
+      "document": "packages/README.md",
+      "target": "../DEVELOPMENT.md"
+    },
+    {
+      "document": "packages/README.md",
+      "target": "../contracts/README.md"
+    },
+    {
+      "document": "tools/README.md",
+      "target": "../DEVELOPMENT.md"
+    }
+  ]
+}

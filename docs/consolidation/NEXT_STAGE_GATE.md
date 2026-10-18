@@ -1,9 +1,9 @@
-# Hard stop after Stage 11
+# Initial consolidation complete — stop before Stage 13
 
-Stage 11 repository orchestration/fresh-clone readiness is complete with documented optional external dependencies. Checks preserve all product states and Stage 10 cleanup.
+Stage 12 is **PASS WITH DEFERRED CONTRACT QUESTIONS**: a documentation-only inventory, boundary matrix, illustrative examples and minimal ownership/version/reference conventions. Initial GitHub consolidation is complete. This repository is the canonical home for ongoing separately scoped development and future subsystem trios.
 
-**STOP before Stage 12.** No shared contracts, integration, remediation, art/interface changes, Unity, LFS or unrelated refactor is authorized.
+**STOP. Stage 13 is reserved for future explicitly authorized Unity integration.** Stage 12 does not authorize Unity setup, runtime adapters, shared schema implementation, cross-system mutation, remediation, art changes, LFS or product promotion.
 
-Recommended Stage 12 proposal only: inventory existing Encounter-owned schema/version identifiers and define a documentation-only boundary matrix plus sample compatibility expectations for Encounter, Room Creator and ZANT. Separate observed behavior from proposed contracts. Do not change runtime schemas, add adapters, promote held/failed work or begin Unity. Implementation requires explicit owner authorization.
+Future entry criteria: the owner explicitly chooses a concrete Unity/scene integration scope and consumer; identifies eligible source subsets without changing HOLD/failed/provisional states; resolves only the needed artifact/binding lifecycle and coordinate questions; agrees import/rejection and command/result validation expectations; separately authorizes the smallest adapter implementation. No engine version/tooling or adapter is selected now.
 
-See STAGE_11_READINESS.md and ../../DEVELOPMENT.md. Older Trapstar repositories remain non-authoritative and unused.
+Read ../../contracts/SHARED_CONTRACT_DECISION.md and STAGE_12_BOUNDARIES.md. Encounter/Atlas retains IR3-25; Room Creator remains HOLD_FOR_FURTHER_REMEDIATION; ZANT Gate A remains incomplete. Older Trapstar repositories remain non-authoritative and unused.

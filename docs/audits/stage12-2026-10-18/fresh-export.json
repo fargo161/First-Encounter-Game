@@ -1,0 +1,10 @@
+{
+  "PASS": true,
+  "method": "Full staged git archive, safe regular-file extraction, no .git, every file hash/membership compared",
+  "staged_tree": "2abdf308c38ada781e518e2c4bc016dc00e4ee59",
+  "base": "0d901173109984bcc1df116f8cca73bc6d2efc06",
+  "fresh_source": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Stage 12 Verification\\2026-10-18\\fresh source with spaces",
+  "files": 3378,
+  "all_exported_bytes_match_staged_checkout": true,
+  "machine_readable_contracts_added": false
+}

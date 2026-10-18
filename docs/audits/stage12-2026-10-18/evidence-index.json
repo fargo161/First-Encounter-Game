@@ -1,0 +1,100 @@
+{
+  "schema": "first-encounter-stage12-boundary-verification@1",
+  "base_commit": "0d901173109984bcc1df116f8cca73bc6d2efc06",
+  "verdict": "PASS WITH DEFERRED CONTRACT QUESTIONS",
+  "scope": "Documentation-level contract boundaries; no runtime schema or adapters",
+  "records": [
+    {
+      "path": "fresh-export.json",
+      "bytes": 513,
+      "sha256": "b3a062b5a6db60dda7fce141345dfaaecaab4f3cfec3e08b66647dd89f6cc78b"
+    },
+    {
+      "path": "documentation-validation.json",
+      "bytes": 17865,
+      "sha256": "fbc7401039ec104435a555c06aaed33dc03dc2609fcf9aeb40c9633a2b652bd6"
+    },
+    {
+      "path": "environment.json",
+      "bytes": 752,
+      "sha256": "d69ae4728d459bbdf487680ba0eb961ac559d390f93902d6e9ffda8acf9071a1"
+    },
+    {
+      "path": "integrity.json",
+      "bytes": 1158,
+      "sha256": "8c76269e4a13132e8284a6aab2f4d0317e3111d6901a6d651bbff7a2339998f5"
+    },
+    {
+      "path": "fresh-results.json",
+      "bytes": 6557,
+      "sha256": "722dd8304579232fc00459cae78341bc8f23a818ff358bb9ef78a0d9bbda4c7e"
+    },
+    {
+      "path": "command-results.json",
+      "bytes": 2585,
+      "sha256": "2445296dfaa1f3e8bd801c4d8436855ec146925d25e4551a26cd91c77a992e8c"
+    },
+    {
+      "path": "room-node-run-index.json",
+      "bytes": 2906,
+      "sha256": "f144daece838163052e401b4f7c020d4e5ee7a0a16346cf177597ba707c423ec"
+    },
+    {
+      "path": "zant-verification.json",
+      "bytes": 5941,
+      "sha256": "88db9b3fd05fe81d525df79c0385324d5b65b6c22558d9f534961b8c2d7ec3df"
+    },
+    {
+      "path": "preservation-checks.json",
+      "bytes": 474,
+      "sha256": "5b0e7d8d3e2fb286e27494edc2242fde72bb47b10cafbde6f7948c8f2f5109ad"
+    },
+    {
+      "path": "stage11-ci-base.json",
+      "bytes": 12116,
+      "sha256": "331f2e5585e7a5505a69d827d7285ce3b61dae212205eb8354cc7f6837d845c5"
+    }
+  ],
+  "changed_paths": [
+    ".gitattributes",
+    "AGENTS.md",
+    "DEVELOPMENT.md",
+    "README.md",
+    "contracts/BOUNDARY_MATRIX.md",
+    "contracts/COMPATIBILITY_EXAMPLES.md",
+    "contracts/README.md",
+    "contracts/SHARED_CONTRACT_DECISION.md",
+    "contracts/SHARED_CONTRACT_INVENTORY.md",
+    "docs/README.md",
+    "docs/architecture/SYSTEM_BOUNDARIES.md",
+    "docs/audits/stage12-2026-10-18/command-results.json",
+    "docs/audits/stage12-2026-10-18/documentation-validation.json",
+    "docs/audits/stage12-2026-10-18/environment.json",
+    "docs/audits/stage12-2026-10-18/evidence-index.json",
+    "docs/audits/stage12-2026-10-18/fresh-export.json",
+    "docs/audits/stage12-2026-10-18/fresh-results.json",
+    "docs/audits/stage12-2026-10-18/integrity.json",
+    "docs/audits/stage12-2026-10-18/preservation-checks.json",
+    "docs/audits/stage12-2026-10-18/room-node-run-index.json",
+    "docs/audits/stage12-2026-10-18/stage11-ci-base.json",
+    "docs/audits/stage12-2026-10-18/zant-verification.json",
+    "docs/consolidation/NEXT_STAGE_GATE.md",
+    "docs/consolidation/STAGE_12_BOUNDARIES.md",
+    "docs/provenance/governing/FIRST_ENCOUNTER_GAME_STAGE_12_NARROW_AUTHORIZATION.md",
+    "docs/provenance/source-authority.json",
+    "integration/README.md",
+    "packages/README.md",
+    "tools/README.md",
+    "tools/repository_integrity.py"
+  ],
+  "source_contracts_unchanged": true,
+  "initial_consolidation_complete": true,
+  "stage13_started": false,
+  "machine_readable_convention_records_added": false,
+  "hosted_ci": "Actual post-push result recorded separately in external final completion report",
+  "tested_orchestration_sha256": {
+    "tools/repo.py": "7983af419749e41e8b6b3045dcc9ca0ec059fd454cc6d7c46ca4266301649e2a",
+    "tools/repository_integrity.py": "57141c683001054d6b7f632ff7a6706b93f49bf2693b5ef24ffbd98381ab674c",
+    ".github/workflows/readiness.yml": "8a43fe4c5c9a3ed0a31b42b9eb6c6770261761fb91801122be58afe35f84f992"
+  }
+}

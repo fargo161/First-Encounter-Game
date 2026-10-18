@@ -10,4 +10,4 @@ Run checks from the repository root with Python 3.12.x and Node 24.x:
 
 See [development guide](../DEVELOPMENT.md) for outputs, dependencies and platform limits. All builds/tests run in disposable copies; historical package READMEs/scripts remain exact imported bytes.
 
-Stage 10 keeps A1 at 2460 files with required inputs. Room Creator retains 384 files; ZANT retains its strict 166-file packet. Stop before Stage 12.
+Stage 10 keeps A1 at 2460 files with required inputs. Room Creator retains 384 files; ZANT retains its strict 166-file packet. Initial consolidation is complete; [Stage 12 boundaries](../contracts/README.md) are documentation only. Stop before Stage 13.

@@ -51,6 +51,6 @@ Optional deeper ZANT pixel probes use NumPy/Pillow and the historical audit sibl
 
 [Readiness workflow](.github/workflows/readiness.yml) creates four separate Windows jobs for integrity, Encounter/Atlas, held Room Creator and incomplete ZANT. Jobs have read-only repository permission, a 15-minute timeout, Python 3.12 and Node 24. Action revisions are pinned. No secrets, private archive, dependency install, release or deployment is configured. Job logs show results; disposable runner outputs do not persist after CI. Failures print the failing log tail.
 
-Canonical package files, known-defects.json, STATUS_INTERPRETATION.md, source-fingerprints.json and historical verifier bytes remain unchanged. Encounter governs gameplay grammar. Stop before Stage 12; contracts, remediation, art changes, Unity and LFS require separate authorization.
+Canonical package files, known-defects.json, STATUS_INTERPRETATION.md, source-fingerprints.json and historical verifier bytes remain unchanged. Encounter governs gameplay grammar. Stage 12 adds documentation-level [contract boundaries](contracts/README.md) only. Initial consolidation is complete; stop before Stage 13. Executable shared schemas, runtime adapters, remediation, art changes, Unity and LFS require separate authorization.
 
 Workflow action options/revisions were checked against the official [checkout](https://github.com/actions/checkout), [setup-python](https://github.com/actions/setup-python) and [setup-node](https://github.com/actions/setup-node) repositories.

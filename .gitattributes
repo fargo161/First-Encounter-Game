@@ -35,3 +35,4 @@
 # Stage 10: copied cleanup verification records retain exact bytes.
 /docs/audits/stage10-2026-10-18/** -text
 /docs/audits/stage11-2026-10-18/** -text
+/docs/audits/stage12-2026-10-18/** -text

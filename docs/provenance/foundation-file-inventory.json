@@ -1,0 +1,167 @@
+{
+  "schema": "first-encounter-foundation-file-inventory@1",
+  "stage": "0-3",
+  "self_excluded": true,
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 587,
+      "sha256": "cc5f1bfcf63aa3c3a1a1926cf5b8c4c0b654d1d68437c977075c3fb24e6a3d4b"
+    },
+    {
+      "path": ".github/README.md",
+      "bytes": 213,
+      "sha256": "dd1dea9001536563bd1e24e38170870b3883317e12761879c12e9db9be78118c"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 392,
+      "sha256": "7590909bff22a2fcbbf5589c61a5a146a3a249d3a5a4598a4c3e22c574ff2441"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 1292,
+      "sha256": "bc371be0ae5754981297dff65e7fa05456a82897bf7317e9ad8ca65e6d9262bd"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1755,
+      "sha256": "20fcfc47bf78e14ddf6d6eeff9834762bde6a1bba4d37c855e788cf9be9cd03b"
+    },
+    {
+      "path": "archive/INDEX.md",
+      "bytes": 2864,
+      "sha256": "b9e562513eb4fd086bf925e6d678bbce572fd81ac2a732e0192a5ace23acd719"
+    },
+    {
+      "path": "assets/README.md",
+      "bytes": 425,
+      "sha256": "76decac964bd741fdca9b624ec3fbfa6311aaaca99f61499c2236756ee0b9b41"
+    },
+    {
+      "path": "assets/dependency-lock.json",
+      "bytes": 4584,
+      "sha256": "4b831f94ef127437de7a9ffd44849a9dc25f492201c01bf5806ea9eb0ed4ebaa"
+    },
+    {
+      "path": "assets/licenses/SOURCE_STATUS.md",
+      "bytes": 685,
+      "sha256": "80c0853449888dcf5f075357105ca4d1caf965cf0e0147d033f9ef8628bec01c"
+    },
+    {
+      "path": "contracts/README.md",
+      "bytes": 334,
+      "sha256": "eb66151bc60bef1e851d8ee6bc71d18d151c9c21865652c05d75930d56398bd4"
+    },
+    {
+      "path": "docs/README.md",
+      "bytes": 860,
+      "sha256": "fabfb717625a11917d82349cc9682abd5216575b45565ae8d4b4e202e5fffa43"
+    },
+    {
+      "path": "docs/architecture/SYSTEM_BOUNDARIES.md",
+      "bytes": 1681,
+      "sha256": "688f2ef71c7991bf9404b469d75e9e78a1ffde86afe1f459e5c42712201bfde1"
+    },
+    {
+      "path": "docs/consolidation/APPROVED_STAGE_0_DECISIONS.md",
+      "bytes": 1406,
+      "sha256": "3b3a771ed1cfb16e0880c7f2aacf5e6ab5a6eb67fc0e7ff9e16fe355969893be"
+    },
+    {
+      "path": "docs/consolidation/NEXT_STAGE_GATE.md",
+      "bytes": 816,
+      "sha256": "722f633ec246c31dc04bbf2ef478504ee645bec717c790c2009dfdbc913af7b3"
+    },
+    {
+      "path": "docs/consolidation/STAGES_0_TO_3_SCOPE.md",
+      "bytes": 1312,
+      "sha256": "7e8ea6254d9b8113cca4bc91c6381b8658df24994fda4ab00da7ddb81195709b"
+    },
+    {
+      "path": "docs/provenance/STATUS_INTERPRETATION.md",
+      "bytes": 1336,
+      "sha256": "eefd2748e54ff439c18503dce838ab9d9fea696541632ce87f444c7e80e9d11e"
+    },
+    {
+      "path": "docs/provenance/artifact-catalog.json",
+      "bytes": 48198,
+      "sha256": "d25ed684e8c4d7d0f91dc4062f2172eaddc0e1bae8273749e628ae36ad940d1d"
+    },
+    {
+      "path": "docs/provenance/governing/FIRST_ENCOUNTER_GAME_AUTHORIZE_STAGES_0_TO_3.md",
+      "bytes": 6468,
+      "sha256": "9304e90151bf52521d1a118ce16396363ac4fd8c95709f365cabc495a6478bd2"
+    },
+    {
+      "path": "docs/provenance/governing/GITHUB_CONSOLIDATION_AUDIT_LAUNCH.md",
+      "bytes": 17113,
+      "sha256": "cae388e3f659a42c0539ed7d57e5dd606e277d1797e4d0e6d7d592dce9ca41c7"
+    },
+    {
+      "path": "docs/provenance/known-defects.json",
+      "bytes": 3430,
+      "sha256": "bb4f37d6e3cf678cbf115be5b9de87fad1108bcada34ae3f6c057af624056e64"
+    },
+    {
+      "path": "docs/provenance/local-locations.json",
+      "bytes": 613,
+      "sha256": "9c3baaee3fb6acba14150aadf1298e0a93cf3ac8a903260e0c03a1259a4d5acc"
+    },
+    {
+      "path": "docs/provenance/preservation-checkpoint.json",
+      "bytes": 13637,
+      "sha256": "26321556f29ef3730f3670be99744b3241e99f4afde4062a7c1a13a592a8c574"
+    },
+    {
+      "path": "docs/provenance/source-authority.json",
+      "bytes": 22242,
+      "sha256": "57df562496e8034414faa3d598ad894c790c8be626ab4744bdbbdd4111021cdd"
+    },
+    {
+      "path": "docs/provenance/source-fingerprints.json",
+      "bytes": 63631,
+      "sha256": "f2a2e1d89b4cd742d5554b7ca045ff8557d8a5d1b1d84a52d178f355062bf10f"
+    },
+    {
+      "path": "docs/testing/FOUNDATION_VERIFICATION.md",
+      "bytes": 1199,
+      "sha256": "cc971aec4fff7ffa50e2fe7a7bb65b44db7cf7ae6ed07adf46055aaf6910ef26"
+    },
+    {
+      "path": "integration/README.md",
+      "bytes": 248,
+      "sha256": "1059451c39d15ff0699d66f7905443d048c3bf37a73dae76d8b6a06834375428"
+    },
+    {
+      "path": "packages/README.md",
+      "bytes": 346,
+      "sha256": "0a7538c8207e4a22d07a0bf7619b1be4ccb5b4c565dbbcb783bb96e17f471971"
+    },
+    {
+      "path": "packages/encounter-atlas/README.md",
+      "bytes": 343,
+      "sha256": "6da4bb92c5564d17ea3633a67372c44ca0009f79922dc8e338acdd4816be7fb2"
+    },
+    {
+      "path": "packages/room-creator/README.md",
+      "bytes": 327,
+      "sha256": "658c6334432b5f179be7ae95068636869de46be40bd4647cabf1810741099399"
+    },
+    {
+      "path": "packages/zant/README.md",
+      "bytes": 289,
+      "sha256": "ed0f48c90a67f8165631156f68873865cf882fbd677ac11dc7dd0f210e2864ae"
+    },
+    {
+      "path": "tools/README.md",
+      "bytes": 510,
+      "sha256": "6e8e29838e3b1e37d42d84f78c42348e9c61001d5bd33040ca5644c667962996"
+    },
+    {
+      "path": "tools/verify_foundation.py",
+      "bytes": 5869,
+      "sha256": "a3e20c91d3b34700b118bb395c3de219d10f5d540d2f3099b91fb53ab8922ba1"
+    }
+  ]
+}

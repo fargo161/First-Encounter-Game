@@ -1,0 +1,76 @@
+{
+  "schema": "first-encounter-external-assets@1",
+  "lfs_enabled": false,
+  "asset_payloads_imported": false,
+  "dependencies": [
+    {
+      "id": "room-creator-asset-library-v1",
+      "source_path": "C:\\Users\\mcdon\\Desktop\\gamefuse\\Trapstar_RoomCreator_Asset_Library_v1.zip",
+      "bytes": 178595688,
+      "sha256": "4cf39cb712d55e866a593ad12394efec891d5ae3ac14dfd35d932b32bd8b1241",
+      "archive_path": "artifacts/room-creator-intake-packages/Trapstar_RoomCreator_Asset_Library_v1.zip",
+      "read_only": true,
+      "counts": {
+        "models": 327,
+        "surface_textures": 1043,
+        "palettes": 3
+      },
+      "runtime_source": "ASSET_MANIFEST.json and STANDARDIZED_LIBRARY, not original source archives.",
+      "distribution": "Private external archive; supplied licenses/status preserved; 29 vehicle assets commercially unverified; raw pixel-art pack redistribution restricted."
+    },
+    {
+      "id": "zant-research-intake-v2",
+      "manifest": {
+        "source_path": "C:\\Users\\mcdon\\Downloads\\Trapstar_ZANT_Combinatorial_Character_Research_Handoff_v2_PACKAGE_MANIFEST.json",
+        "bytes": 3220,
+        "sha256": "c29de05cda823230184a1238a157d689d35e71ddae0db6dca7f3d08eccefa51f",
+        "archive_path": "artifacts/external-intake/Trapstar_ZANT_Combinatorial_Character_Research_Handoff_v2_PACKAGE_MANIFEST.json"
+      },
+      "parts": [
+        {
+          "source_path": "C:\\Users\\mcdon\\Downloads\\Trapstar_ZANT_Combinatorial_Character_Research_Handoff_v2_PART1_CONTEXT_AND_RESEARCH_BRIEF.zip",
+          "bytes": 13636963,
+          "sha256": "567085632c1e061d7d25417bce9dd22e88d6dae515a01b759c9b192f257cf80a",
+          "archive_path": "artifacts/zant-intake-packages/Trapstar_ZANT_Combinatorial_Character_Research_Handoff_v2_PART1_CONTEXT_AND_RESEARCH_BRIEF.zip"
+        },
+        {
+          "source_path": "C:\\Users\\mcdon\\Downloads\\Trapstar_ZANT_Combinatorial_Character_Research_Handoff_v2_PART2_ORIGINAL_CHARACTER_SOURCE.zip",
+          "bytes": 169191353,
+          "sha256": "a2d025102b94e616565cf585c5565155d116779409e525aa8e5bf4f7cbd6c8ed",
+          "archive_path": "artifacts/zant-intake-packages/Trapstar_ZANT_Combinatorial_Character_Research_Handoff_v2_PART2_ORIGINAL_CHARACTER_SOURCE.zip"
+        },
+        {
+          "source_path": "C:\\Users\\mcdon\\Downloads\\Trapstar_ZANT_Combinatorial_Character_Research_Handoff_v2_PART3_MODULAR_STANDARDIZATION_CORE.zip",
+          "bytes": 69499916,
+          "sha256": "7af32fe67947c514694bc60764d70e0668bdb80d7ea562f21c52a09f1a320484",
+          "archive_path": "artifacts/zant-intake-packages/Trapstar_ZANT_Combinatorial_Character_Research_Handoff_v2_PART3_MODULAR_STANDARDIZATION_CORE.zip"
+        },
+        {
+          "source_path": "C:\\Users\\mcdon\\Downloads\\Trapstar_ZANT_Combinatorial_Character_Research_Handoff_v2_PART4_MODULAR_RECONSTRUCTION_EVIDENCE.zip",
+          "bytes": 162500344,
+          "sha256": "a23cbb6778ea3ac06e8940f949a410acc867462cbdff87e87449614b029e4429",
+          "archive_path": "artifacts/zant-intake-packages/Trapstar_ZANT_Combinatorial_Character_Research_Handoff_v2_PART4_MODULAR_RECONSTRUCTION_EVIDENCE.zip"
+        },
+        {
+          "source_path": "C:\\Users\\mcdon\\Downloads\\Trapstar_ZANT_Combinatorial_Character_Research_Handoff_v2_PART5_FACE_SYSTEM_CORE_PROVENANCE.zip",
+          "bytes": 73110314,
+          "sha256": "4d6757c327cc7fadd7bfdef549d07617f8c245664baf91c4743f148ed9304b6c",
+          "archive_path": "artifacts/zant-intake-packages/Trapstar_ZANT_Combinatorial_Character_Research_Handoff_v2_PART5_FACE_SYSTEM_CORE_PROVENANCE.zip"
+        },
+        {
+          "source_path": "C:\\Users\\mcdon\\Downloads\\Trapstar_ZANT_Combinatorial_Character_Research_Handoff_v2_PART6_FACE_SLOTS_EXP01_09.zip",
+          "bytes": 78404463,
+          "sha256": "21ca8da86ce6743c44400cfc458fe23f7d48fb9fd6cad6a3a566b840b3797bd8",
+          "archive_path": "artifacts/zant-intake-packages/Trapstar_ZANT_Combinatorial_Character_Research_Handoff_v2_PART6_FACE_SLOTS_EXP01_09.zip"
+        },
+        {
+          "source_path": "C:\\Users\\mcdon\\Downloads\\Trapstar_ZANT_Combinatorial_Character_Research_Handoff_v2_PART7_FACE_SLOTS_EXP10_18.zip",
+          "bytes": 76949708,
+          "sha256": "d17b772209ddc3bbb9e2235ae0382c5bc519ec967d96fe158078b43cae7c1a3d",
+          "archive_path": "artifacts/zant-intake-packages/Trapstar_ZANT_Combinatorial_Character_Research_Handoff_v2_PART7_FACE_SLOTS_EXP10_18.zip"
+        }
+      ],
+      "distribution": "Private immutable source intake outside normal Git history."
+    }
+  ]
+}

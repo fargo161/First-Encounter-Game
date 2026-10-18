@@ -1,0 +1,65 @@
+{
+  "schema": "first-encounter-known-defects@1",
+  "findings": [
+    {
+      "id": "IR3-25",
+      "subsystem": "encounter_atlas",
+      "status": "ACCEPTED_NON_BLOCKING_LIMITATION",
+      "finding": "Retained independent synthetic geometry assertion actually fails; accepted as non-blocking. Do not remove, weaken, skip or silently count it as passing.",
+      "evidence": {
+        "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\ATLAS_A1_Independent_Test_Report.md",
+        "bytes": 16382,
+        "sha256": "eefe1d404f82204d212f8c1ee8dfe978086482953bcd9f19cf5774392640e182",
+        "archive_path": "artifacts/encounter-deliverables/ATLAS_A1_Independent_Test_Report.md"
+      }
+    },
+    {
+      "id": "ROOM_CREATOR_V0141_R1",
+      "subsystem": "room_creator",
+      "status": "HOLD_P2",
+      "finding": "ROOM_CREATOR_V0141_R1: manifest-known palette/texture IDs with missing image files silently fall back without object-specific repair warnings/controls.",
+      "evidence": {
+        "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\Room_Creator_v0_14_1_Independent_Audit\\AUDIT_REPORT.md",
+        "bytes": 16203,
+        "sha256": "5615ad2e601b59eb4b03f218fee1b41da8690a14770cb23b641c816005186adc",
+        "archive_path": "snapshots/room-creator-independent-v0141/AUDIT_REPORT.md"
+      }
+    },
+    {
+      "id": "ZANT_R5_G_SLEEVE",
+      "subsystem": "zant",
+      "status": "FAILED_STOPPED",
+      "finding": "Current A10 sleeve engulfs 1252 protected shared-hand core texels beyond pilot band; garment/root/stripe fit also failed.",
+      "evidence": {
+        "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\C001_ZANT_GATE_A_R5_Independent_Review_2026-10-18\\INDEPENDENT_R5_REVIEW.md",
+        "bytes": 15496,
+        "sha256": "c4d26ce42cc52721805f4017bccb6cce6588840143869a928af6ec108c33a7a5",
+        "archive_path": "snapshots/zant-independent-r5/INDEPENDENT_R5_REVIEW.md"
+      }
+    },
+    {
+      "id": "ZANT_R5_G_INTERFACE",
+      "subsystem": "zant",
+      "status": "PROVISIONAL",
+      "finding": "Shared hand remains a viable candidate; wrist/cuff geometry, palm protection and receiving-overlap ownership are not ready to freeze.",
+      "evidence": {
+        "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\C001_ZANT_GATE_A_R5_Independent_Review_2026-10-18\\INDEPENDENT_R5_REVIEW.md",
+        "bytes": 15496,
+        "sha256": "c4d26ce42cc52721805f4017bccb6cce6588840143869a928af6ec108c33a7a5",
+        "archive_path": "snapshots/zant-independent-r5/INDEPENDENT_R5_REVIEW.md"
+      }
+    },
+    {
+      "id": "ZANT_STALE_ACCEPTANCE_LABELS",
+      "subsystem": "zant",
+      "status": "DOCUMENTED_METADATA_CONFLICT",
+      "finding": "Historical R4 sidecars, calibration.json and interfaces_neutral.json retain draft/not-accepted wording. Explicit later owner acceptance, accepted-neutral lock, current surface ledger, and R5 review govern neutral status. Preserve historical bytes; do not rewrite now."
+    },
+    {
+      "id": "ROOM_ASSET_DISTRIBUTION",
+      "subsystem": "assets",
+      "status": "EXTERNAL_RESTRICTED_OR_UNVERIFIED",
+      "finding": "29 vehicle assets from two car packs retain unverified supplied license status. Pixel-art texture pack restricts raw-pack redistribution. No raw assets published by this foundation."
+    }
+  ]
+}

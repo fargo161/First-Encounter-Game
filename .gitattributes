@@ -1,0 +1,18 @@
+* -text
+# Preserve imported byte identities by default; normalize only newly authored foundation text.
+/README.md text eol=lf
+/AGENTS.md text eol=lf
+/.gitignore text eol=lf
+/.gitattributes text eol=lf
+/.github/** text eol=lf
+/docs/** text eol=lf
+/docs/provenance/governing/** -text
+/contracts/README.md text eol=lf
+/integration/README.md text eol=lf
+/assets/** text eol=lf
+/archive/INDEX.md text eol=lf
+/tools/** text eol=lf
+/packages/README.md text eol=lf
+/packages/encounter-atlas/README.md text eol=lf
+/packages/room-creator/README.md text eol=lf
+/packages/zant/README.md text eol=lf

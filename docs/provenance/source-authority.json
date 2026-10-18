@@ -1,0 +1,373 @@
+{
+  "schema": "first-encounter-source-authority@1",
+  "created_utc": "2026-10-18T15:31:28.102905+00:00",
+  "authorized_stages": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "subsystem_source_imported": false,
+  "governing_documents": {
+    "FIRST_ENCOUNTER_GAME_AUTHORIZE_STAGES_0_TO_3.md": {
+      "source_path": "C:\\Users\\mcdon\\Downloads\\FIRST_ENCOUNTER_GAME_AUTHORIZE_STAGES_0_TO_3.md",
+      "bytes": 6468,
+      "sha256": "9304e90151bf52521d1a118ce16396363ac4fd8c95709f365cabc495a6478bd2",
+      "archive_path": "artifacts/external-intake/FIRST_ENCOUNTER_GAME_AUTHORIZE_STAGES_0_TO_3.md",
+      "repository_path": "docs/provenance/governing/FIRST_ENCOUNTER_GAME_AUTHORIZE_STAGES_0_TO_3.md"
+    },
+    "GITHUB_CONSOLIDATION_AUDIT_LAUNCH.md": {
+      "source_path": "C:\\Users\\mcdon\\Downloads\\GITHUB_CONSOLIDATION_AUDIT_LAUNCH.md",
+      "bytes": 17113,
+      "sha256": "cae388e3f659a42c0539ed7d57e5dd606e277d1797e4d0e6d7d592dce9ca41c7",
+      "archive_path": "artifacts/external-intake/GITHUB_CONSOLIDATION_AUDIT_LAUNCH.md",
+      "repository_path": "docs/provenance/governing/GITHUB_CONSOLIDATION_AUDIT_LAUNCH.md"
+    }
+  },
+  "repository": {
+    "display_name": "First Encounter Game",
+    "owner": "fargo161",
+    "slug": "First-Encounter-Game",
+    "url": "https://github.com/fargo161/First-Encounter-Game",
+    "visibility": "private",
+    "model": "fresh_monorepo",
+    "branch": "main",
+    "independent_root_history_required": true,
+    "legacy_history_reused": false,
+    "git_lfs_enabled": false,
+    "unity_initialized": false
+  },
+  "architectural_authority": "Encounter governs gameplay grammar and interaction contracts; strong subsystem boundaries remain.",
+  "history_policy": "Older Trapstar repositories are non-authoritative. No fork, merge, history import, or content recovery is authorized by Stages 0-3.",
+  "source_location_change": {
+    "audit_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc",
+    "observed_current_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game",
+    "old_path_exists": false,
+    "action": "Record relocation only. No original directory was moved or renamed by this execution."
+  },
+  "preservation": {
+    "archive_root": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\pre-migration-2026-10-18-stages-0-3",
+    "report_path": "preservation-report.json",
+    "report_sha256": "810d2a3dd09dee9569246229576fff241b8617db79de677c567c46801bc0abde",
+    "inventory_path": "archive-inventory.json",
+    "inventory_sha256": "d562db876c46a79ba584f9ee1e60093637adf114c52486b692a3bde42bbf3138",
+    "files_preserved": 6722,
+    "bytes_preserved": 4836603257,
+    "originals_unchanged": true,
+    "same_drive_only": true
+  },
+  "subsystems": {
+    "encounter_atlas": {
+      "acceptance": "ACCEPTED_ATLAS_A1_WITH_PRESERVED_ENCOUNTER_DEPENDENCIES",
+      "editable_source": {
+        "id": "encounter-atlas-editable",
+        "role": "current_editable_accepted_snapshot",
+        "source_root": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\Atlas_A1_Person_Source_Inspection",
+        "archive_root": "snapshots/encounter-atlas-editable",
+        "file_count": 2731,
+        "bytes": 422798195,
+        "tree_sha256": "01d90c554b2dc00bf169d98d8d4b36691f93311b3c0a81dc4d18da764008e76d",
+        "fingerprint_method": "SHA256 of UTF-8 JSON sorted relative paths; keys sorted; compact separators; records path,bytes,sha256",
+        "tree_manifest_path": "tree-manifests/encounter-atlas-editable.json",
+        "tree_manifest_sha256": "4122b40bf61dd76fa8475a1969d44eb18e9720e3cb641a5b1d00e8ac49690cbc"
+      },
+      "accepted_checkpoint": {
+        "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\Atlas_A1_Person_Source_Inspection_Checkpoint.zip",
+        "bytes": 116945619,
+        "sha256": "867f3278e3d6a09937b43503c2b886724dd21593533c1ae929c858f970acd72e",
+        "archive_path": "artifacts/encounter-deliverables/Atlas_A1_Person_Source_Inspection_Checkpoint.zip"
+      },
+      "external_identity": {
+        "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\Atlas_A1_Person_Source_Inspection_Checkpoint.identity.json",
+        "bytes": 539635,
+        "sha256": "5d97942b21b7daece6240af136f32d47fc4f14d523ade29b655267bb7cfab00a",
+        "archive_path": "artifacts/encounter-deliverables/Atlas_A1_Person_Source_Inspection_Checkpoint.identity.json"
+      },
+      "source_revision": "Atlas-A1-person-source-v1",
+      "source_digest": "1a8558b3654e52881a288d2a5ab99e574878531f7a9d5fca86223e511146f085",
+      "enumerated_execution_inputs": 132,
+      "dependency_revision": "AR0-projection-v1-R1-D01",
+      "dependency_source_digest": "8dd542efed9f74573bcb1913d367f7c791d63c3830d65b7f35f68abdcb92f09c",
+      "dependency_checkpoint_sha256": "f5566fdcfa82dc8aaee9378d7a0e894f10a4a2342100b7665cbd1c23e26e72da",
+      "preserved_m3_build_sha256": "8e1c14e25a515b92188703927344e97b744921ec9b033ee2b1d8cc0b63f517cb",
+      "atlas_build_sha256": "b9612d61f41bcf2bee5085902ff65c5e418b226de3dd5c8af6490ccd15e4ae9f",
+      "package_ref": {
+        "id": "package_0003",
+        "revision": 1,
+        "digest": "2ce9f61b996f17392a39c56f4005d8203b7940aa4974564fafa54d110e35ae8f"
+      },
+      "tests": {
+        "supplied": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\Atlas_A1_Person_Source_Inspection\\tests",
+        "retained_independent": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\Atlas_A1_Person_Source_Inspection\\independent",
+        "a1_adversarial": {
+          "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\ATLAS_A1_Independent_Adversarial_Tests.test.mjs",
+          "bytes": 17723,
+          "sha256": "c0f2a489d76a64c2cec161917f995837b1ca10646c95da63b52aee8730190ed6",
+          "archive_path": "artifacts/encounter-deliverables/ATLAS_A1_Independent_Adversarial_Tests.test.mjs"
+        }
+      },
+      "independent_report": {
+        "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\ATLAS_A1_Independent_Test_Report.md",
+        "bytes": 16382,
+        "sha256": "eefe1d404f82204d212f8c1ee8dfe978086482953bcd9f19cf5774392640e182",
+        "archive_path": "artifacts/encounter-deliverables/ATLAS_A1_Independent_Test_Report.md"
+      },
+      "independent_evidence": {
+        "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\ATLAS_A1_Independent_Test_Evidence.zip",
+        "bytes": 335148969,
+        "sha256": "f3b8a395cc458e56c2c606008c4dd3eb930a5d4b1f0af44006f00c6dc442ede4",
+        "archive_path": "artifacts/encounter-deliverables/ATLAS_A1_Independent_Test_Evidence.zip"
+      },
+      "contracts": [
+        "src/contracts.mjs",
+        "src/m3/types.mjs",
+        "src/ar0/atlas.mjs"
+      ],
+      "contract_note": "Distinct executable M1/M2 and M3 versions remain separate; Atlas catalog is encounter-atlas-catalog@1.",
+      "authored_data": [
+        "content/last-collection.json",
+        "content/m3/seed.json",
+        "content/ar0/last-collection.json"
+      ],
+      "build_input_warning": "src/atlas-a1/ui.mjs imports six saved runs from evidence/ar0-r1/browser/. Preserve execution dependency closure during later import.",
+      "known_limitations": [
+        "IR3-25 remains an accepted non-blocking failing synthetic geometry assertion.",
+        "A1 is read-only; no A2 implementation or authorization.",
+        "Root README/package metadata retain older M3 wording and commands."
+      ],
+      "builder_vs_independent": "Builder verification is preserved separately. Independent report records 224 supplied and 21 new independent adversarial tests passing; inherited IR3-25 is disclosed.",
+      "working_checkpoint_alignment": "2731 regular checkpoint members matched during this preservation pass."
+    },
+    "room_creator": {
+      "acceptance": "HOLD_FOR_FURTHER_REMEDIATION",
+      "version": "0.14.1",
+      "editable_source": {
+        "id": "room-creator-editable",
+        "role": "current_editable_held_candidate",
+        "source_root": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\rc0141-remediation\\Room_Creator_v0_14_1_remediation_candidate",
+        "archive_root": "snapshots/room-creator-editable",
+        "file_count": 383,
+        "bytes": 201955025,
+        "tree_sha256": "63521f0d9068de3e4da40cd8ec4573d17b26481aa6557a908caaa8d10a4c485b",
+        "fingerprint_method": "SHA256 of UTF-8 JSON sorted relative paths; keys sorted; compact separators; records path,bytes,sha256",
+        "tree_manifest_path": "tree-manifests/room-creator-editable.json",
+        "tree_manifest_sha256": "73444d33f4dca2c5ac90beb5e3be3ccb3ed22ce87951567eb5b02fd3eabd2536"
+      },
+      "held_candidate": {
+        "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\Room_Creator_v0_14_1_Remediation\\Room_Creator_v0_14_1_remediation_candidate.zip",
+        "bytes": 202047247,
+        "sha256": "9b9cd3e9220edbdffbd836154b44d69b5527aa8b0d74300ad546f868a18da78d",
+        "archive_path": "snapshots/room-creator-delivery/Room_Creator_v0_14_1_remediation_candidate.zip"
+      },
+      "source_directory": "source/",
+      "tests_directory": "tests/",
+      "examples_directory": "examples/",
+      "contract": "source/FORMAT.md plus executable RCCore validation; format remains 11.",
+      "builder_report": {
+        "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\Room_Creator_v0_14_1_Remediation\\REMEDIATION_REPORT.md",
+        "bytes": 5528,
+        "sha256": "ac7233a122b9a5dc5e974e851e3ecc7b82e7b6d99a06754db601a41854f6a0df",
+        "archive_path": "snapshots/room-creator-delivery/REMEDIATION_REPORT.md"
+      },
+      "independent_report": {
+        "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\Room_Creator_v0_14_1_Independent_Audit\\AUDIT_REPORT.md",
+        "bytes": 16203,
+        "sha256": "5615ad2e601b59eb4b03f218fee1b41da8690a14770cb23b641c816005186adc",
+        "archive_path": "snapshots/room-creator-independent-v0141/AUDIT_REPORT.md"
+      },
+      "independent_evidence": {
+        "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\Room_Creator_v0_14_1_Independent_Audit\\Room_Creator_v0_14_1_Independent_Audit_Evidence.zip",
+        "bytes": 82269144,
+        "sha256": "c8f201a8b1f2b3075ec22d9e07b71a8b82707b87d5fdfd8aee7838efd4086d59",
+        "archive_path": "snapshots/room-creator-independent-v0141/Room_Creator_v0_14_1_Independent_Audit_Evidence.zip"
+      },
+      "original_v014": {
+        "source_path": "C:\\Users\\mcdon\\Desktop\\gamefuse\\Room_Creator_v0_14_asset_library.zip",
+        "bytes": 81686920,
+        "sha256": "a829c93663a6b79208391721a15f3f1f01f84ba211782b8fcbe08719fcd90224",
+        "archive_path": "artifacts/room-creator-intake-packages/Room_Creator_v0_14_asset_library.zip"
+      },
+      "preservation_baseline_v0131": {
+        "source_path": "C:\\Users\\mcdon\\Downloads\\Room_Creator_v0_13_1_route_prototype.zip",
+        "bytes": 52340137,
+        "sha256": "935d74f5eb38e773fdafac3d2813371829177b17882eef69eab3991df4ecf129",
+        "archive_path": "artifacts/external-intake/Room_Creator_v0_13_1_route_prototype.zip"
+      },
+      "asset_library": {
+        "source_path": "C:\\Users\\mcdon\\Desktop\\gamefuse\\Trapstar_RoomCreator_Asset_Library_v1.zip",
+        "bytes": 178595688,
+        "sha256": "4cf39cb712d55e866a593ad12394efec891d5ae3ac14dfd35d932b32bd8b1241",
+        "archive_path": "artifacts/room-creator-intake-packages/Trapstar_RoomCreator_Asset_Library_v1.zip"
+      },
+      "known_defect": "ROOM_CREATOR_V0141_R1: manifest-known palette/texture IDs with missing image files silently fall back without object-specific repair warnings/controls.",
+      "promotion": "Not promoted. The owner permits later importing this development baseline while retaining HOLD; source import itself remains unauthorized now.",
+      "dependencies": [
+        "Read-only Trapstar_RoomCreator_Asset_Library_v1",
+        "Bundled three.js r159 and glTF loader",
+        "Python development/build tooling",
+        "Playwright 1.56.0 browser test pin"
+      ],
+      "working_checkpoint_alignment": "383 regular archive members, including the package manifest, matched the current working tree. No behavior tests rerun in Stages 0-3."
+    },
+    "zant": {
+      "neutral_acceptance": "OWNER_ACCEPTED_R4_CANDIDATE02",
+      "current_work_acceptance": "GATE_A_FAILED_AT_G_SLEEVE_PILOT",
+      "editable_source": {
+        "id": "zant-r5-editable",
+        "role": "current_editable_failed_provisional_work",
+        "source_root": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\C001_ZANT_GATE_A_R5",
+        "archive_root": "snapshots/zant-r5-editable",
+        "file_count": 506,
+        "bytes": 101215491,
+        "tree_sha256": "a7952fa3e28d5223aab63329172fae9514cca9b4c172f2d334cb5e0baee35a1f",
+        "fingerprint_method": "SHA256 of UTF-8 JSON sorted relative paths; keys sorted; compact separators; records path,bytes,sha256",
+        "tree_manifest_path": "tree-manifests/zant-r5-editable.json",
+        "tree_manifest_sha256": "7b58fe286f439ab2fa2577e7cdede3b5c2b507529b7651b9ccb5c5050940c59a"
+      },
+      "original_source_collection": {
+        "id": "zant-intake-source",
+        "role": "immutable_source_collection_and_research_inputs",
+        "source_root": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\ZANT_analysis_sources",
+        "archive_root": "snapshots/zant-intake-source",
+        "file_count": 620,
+        "bytes": 646968057,
+        "tree_sha256": "1cbd916b2d191acaa841b1ae9bb2ca27102aa6487a879493a4906fb5ad531c79",
+        "fingerprint_method": "SHA256 of UTF-8 JSON sorted relative paths; keys sorted; compact separators; records path,bytes,sha256",
+        "tree_manifest_path": "tree-manifests/zant-intake-source.json",
+        "tree_manifest_sha256": "d48b5a020998bd8d04e778c2c3dc3082819fdfa40919fc493f384e3d599a1dfd"
+      },
+      "accepted_neutral_checkpoint": {
+        "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\C001_ZANT_GATE_A_R4_NEUTRAL\\deliverables\\C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_02.zip",
+        "bytes": 33921583,
+        "sha256": "c43e34ac80a8fd32f1ee5f30e5116dad06129a10b196032afc2fb2746a8188b3",
+        "archive_path": "snapshots/zant-r4-history/deliverables/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_02.zip"
+      },
+      "accepted_neutral_lock": {
+        "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\C001_ZANT_GATE_A_R5\\contract\\ACCEPTED_R4_NEUTRAL_LOCK.json",
+        "bytes": 3576,
+        "sha256": "e205da75079c50ec19e335325207a533e690114812833504cebdd205ecd9ae1f",
+        "archive_path": "snapshots/zant-r5-editable/contract/ACCEPTED_R4_NEUTRAL_LOCK.json"
+      },
+      "owner_acceptance_record": {
+        "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\C001_ZANT_GATE_A_R5\\contract\\OWNER_RESUME_AFTER_R4.md",
+        "bytes": 1005,
+        "sha256": "5ad8b39d298a17e615f960d1bc6b1172025a48da5dc9f35e263abeb31c693422",
+        "archive_path": "snapshots/zant-r5-editable/contract/OWNER_RESUME_AFTER_R4.md"
+      },
+      "current_failed_checkpoint": {
+        "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\C001_ZANT_GATE_A_R5\\deliverables\\C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT.zip",
+        "bytes": 23227104,
+        "sha256": "5c8196e1d81ed8aae3bd42a740c6afd01294bc069345c9d683c90163faac2796",
+        "archive_path": "snapshots/zant-r5-editable/deliverables/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT.zip"
+      },
+      "independent_report": {
+        "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\C001_ZANT_GATE_A_R5_Independent_Review_2026-10-18\\INDEPENDENT_R5_REVIEW.md",
+        "bytes": 15496,
+        "sha256": "c4d26ce42cc52721805f4017bccb6cce6588840143869a928af6ec108c33a7a5",
+        "archive_path": "snapshots/zant-independent-r5/INDEPENDENT_R5_REVIEW.md"
+      },
+      "independent_evidence_tree": {
+        "id": "zant-independent-r5",
+        "role": "independent_evidence",
+        "source_root": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\C001_ZANT_GATE_A_R5_Independent_Review_2026-10-18",
+        "archive_root": "snapshots/zant-independent-r5",
+        "file_count": 183,
+        "bytes": 28579677,
+        "tree_sha256": "85eea6117cc93caf002b6891193ee0b6ef7497ded09abc733cd1747db74b5263",
+        "fingerprint_method": "SHA256 of UTF-8 JSON sorted relative paths; keys sorted; compact separators; records path,bytes,sha256",
+        "tree_manifest_path": "tree-manifests/zant-independent-r5.json",
+        "tree_manifest_sha256": "1f9bb9cdfb1e0c5e2ea68ca842f97b112efde474bc074381da2fca491f88a801"
+      },
+      "historical_trees": [
+        {
+          "id": "zant-r1-history",
+          "role": "historical_failed_work",
+          "source_root": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\C001_ZANT_GATE_A_implementation",
+          "archive_root": "snapshots/zant-r1-history",
+          "file_count": 119,
+          "bytes": 20924201,
+          "tree_sha256": "5bb97814286f2cdcfc4b5c14dd8f3c895fd3ace0b7740350c2b2319f73784b50",
+          "fingerprint_method": "SHA256 of UTF-8 JSON sorted relative paths; keys sorted; compact separators; records path,bytes,sha256",
+          "tree_manifest_path": "tree-manifests/zant-r1-history.json",
+          "tree_manifest_sha256": "9f8bc4f206afa2de6ec5d98fa58f90f1889d614d5d93b3bd008179c73d139ac8"
+        },
+        {
+          "id": "zant-r2-history",
+          "role": "accepted_head_and_history",
+          "source_root": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\C001_ZANT_GATE_A_R2_A25",
+          "archive_root": "snapshots/zant-r2-history",
+          "file_count": 31,
+          "bytes": 3049552,
+          "tree_sha256": "8f9093d7b4714b1c8006562bc50b3d35529e087b6f0b48cc77f6a1ad1edb0ec7",
+          "fingerprint_method": "SHA256 of UTF-8 JSON sorted relative paths; keys sorted; compact separators; records path,bytes,sha256",
+          "tree_manifest_path": "tree-manifests/zant-r2-history.json",
+          "tree_manifest_sha256": "e92c4b6f369ac00a332e993e99d519b803d3b553d103cb4aa72f818f636470c4"
+        },
+        {
+          "id": "zant-r3-history",
+          "role": "historical_remediation_work",
+          "source_root": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\C001_ZANT_GATE_A_R3",
+          "archive_root": "snapshots/zant-r3-history",
+          "file_count": 461,
+          "bytes": 154332223,
+          "tree_sha256": "1c728a78bb56d3d86fb2a61662c8751051925cd81af5c86a6650b0c30ed0db46",
+          "fingerprint_method": "SHA256 of UTF-8 JSON sorted relative paths; keys sorted; compact separators; records path,bytes,sha256",
+          "tree_manifest_path": "tree-manifests/zant-r3-history.json",
+          "tree_manifest_sha256": "1fbb4848b349ce02ecf7093c3ae60968d552ce32dca3808fb77e10b3bdb0640e"
+        },
+        {
+          "id": "zant-r4-history",
+          "role": "accepted_candidate02_and_prior_candidates",
+          "source_root": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\C001_ZANT_GATE_A_R4_NEUTRAL",
+          "archive_root": "snapshots/zant-r4-history",
+          "file_count": 735,
+          "bytes": 248629022,
+          "tree_sha256": "52141629b78c1f606d3d07e25a3392d2db60b656004bd08557812d79710ed16d",
+          "fingerprint_method": "SHA256 of UTF-8 JSON sorted relative paths; keys sorted; compact separators; records path,bytes,sha256",
+          "tree_manifest_path": "tree-manifests/zant-r4-history.json",
+          "tree_manifest_sha256": "bfd0c5036a92f3fa026adf043acecd35901f9ffb5a83187db1f21b1e9bc5de54"
+        }
+      ],
+      "intake_manifest": {
+        "source_path": "C:\\Users\\mcdon\\Downloads\\Trapstar_ZANT_Combinatorial_Character_Research_Handoff_v2_PACKAGE_MANIFEST.json",
+        "bytes": 3220,
+        "sha256": "c29de05cda823230184a1238a157d689d35e71ddae0db6dca7f3d08eccefa51f",
+        "archive_path": "artifacts/external-intake/Trapstar_ZANT_Combinatorial_Character_Research_Handoff_v2_PACKAGE_MANIFEST.json"
+      },
+      "contracts": [
+        "contract/",
+        "data/surface_ledger.json",
+        "data/required_matrix.json",
+        "data/interfaces_neutral.json",
+        "data/calibration.json",
+        "data/neutral_recipes.json",
+        "data/pilot_recipes.json"
+      ],
+      "verifier": "validation/verify_checkpoint.py; technical replay/integrity does not imply art acceptance.",
+      "assets_status": {
+        "original_neutral_masters": 44,
+        "accepted_neutral_surfaces": 15,
+        "unaccepted_or_failed_pilot_surfaces": 3,
+        "unauthored_baseline_slots": 14,
+        "reserves_used": 0,
+        "neutral_lock_files_verified": 20
+      },
+      "unrun": {
+        "remaining_valid_cases": 222,
+        "production_negative_cases": 17
+      },
+      "known_defects": [
+        "R5 sleeve covers 1252 shared-hand core texels beyond its pilot band.",
+        "G wrist/hand geometry and overlap ownership remain provisional."
+      ],
+      "status_conflicts": "Historical R4 sidecars, calibration.json and interfaces_neutral.json retain draft/not-accepted wording. Explicit later owner acceptance, accepted-neutral lock, current surface ledger, and R5 review govern neutral status. Preserve historical bytes; do not rewrite now.",
+      "scope_boundary": "Gate A incomplete. No later gate, other-character conversion, completed viewer, animation, database rollout or Unity integration."
+    }
+  },
+  "verification_this_execution": {
+    "source_builds_or_behavior_tests_executed": false,
+    "fresh_checks": "Copy hashes, original hashes/sizes/mtimes, directory membership, principal ZIP hashes/CRC/member alignment, all 20 neutral-lock files.",
+    "prior_independent_reports": "Preserved evidence, not newly rerun results."
+  },
+  "next_stage": "Stage 4 Encounter/Atlas import requires explicit new user authorization."
+}

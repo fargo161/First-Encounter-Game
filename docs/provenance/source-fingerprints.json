@@ -1,0 +1,1271 @@
+{
+  "schema": "first-encounter-execution-input-fingerprints@1",
+  "note": "File identities only; source bodies have not been imported. Complete preserved tree inventories are external.",
+  "encounter_a1": {
+    "source_digest": "1a8558b3654e52881a288d2a5ab99e574878531f7a9d5fca86223e511146f085",
+    "inputs": [
+      {
+        "path": "Start_Atlas_A1.cmd",
+        "sha256": "bb01c2ee2b53d255e9110e66c6675b72a78386171d33685a50e7dd91e5c01f64"
+      },
+      {
+        "path": "content/ar0/last-collection.json",
+        "sha256": "21a0747936c3e8e7e9cf33833348ff6eb7b07a183179ce1e21181d618c854c5b"
+      },
+      {
+        "path": "content/last-collection.json",
+        "sha256": "91d94786392e148e34ac18d27c6e9a1fb8d76a7abbd2c4ffd6fbb4d12dc8ef34"
+      },
+      {
+        "path": "content/last-collection.mjs",
+        "sha256": "19388e27fe5a770354cd8279b684d659e5952d8e150bbaf8fa9f0d4bb72496e8"
+      },
+      {
+        "path": "content/m3/seed.json",
+        "sha256": "c67252d1927abf7f81d834693100e55a9d0356d8266ed8bc7f073f048858030b"
+      },
+      {
+        "path": "content/m3/seed.mjs",
+        "sha256": "b4fd57ab97b52d22359da7b3cc8e107014c1cc934bd76b891316d0c7109d7ffc"
+      },
+      {
+        "path": "fixtures/atlas-a1/conflicting-catalog.json",
+        "sha256": "4692b0695ff552e3579c4aa30ea11fc54fae6dff9b89e93ccbeccc12d9c5c73b"
+      },
+      {
+        "path": "fixtures/atlas-a1/incompatible-catalog.json",
+        "sha256": "1654367436c01f4513ef1b1b1d046b7e6b1084728915c04f48877bf25e8b852a"
+      },
+      {
+        "path": "fixtures/atlas-a1/invalid-save.json",
+        "sha256": "0f23c0abd7c096522360bda25dc63a7467f8151df3be732a418f2a35ad39cfe0"
+      },
+      {
+        "path": "fixtures/atlas-a1/same-name-catalog.json",
+        "sha256": "ab0b2c2e907c9fcfa26daceed7eb163b68aa44182169c3340bddbae9fa1d3f23"
+      },
+      {
+        "path": "fixtures/atlas-a1/unmodeled-catalog.json",
+        "sha256": "5e62a6881f5a141521b2afd342c0d04ad5a4ebfa903c6cc6767a40e4bba73d18"
+      },
+      {
+        "path": "independent/M1_Independent_Contract_Tests.test.mjs",
+        "sha256": "c591b4366097e77da7d21b4ddb861161a6ee3e71e9bc2af15acf5f1393ba4651"
+      },
+      {
+        "path": "independent/M2_Independent_Contract_Tests.test.mjs",
+        "sha256": "858171387e7edbcfe105a39cfe3d1a6f1dd58bf505a5dc65dbbd83df24ccc0de"
+      },
+      {
+        "path": "independent/ar0-review/independent-ar0-alias.test.mjs",
+        "sha256": "63021c0901cb74188a6cc8c696a00a3c119e8b668dd89a424d52d9ecc0ec4a14"
+      },
+      {
+        "path": "independent/ar0-review/independent-ar0.test.mjs",
+        "sha256": "3cde4dac1f8ad46068fbc6058292542774d884b719ec051e5dc5f875967010fa"
+      },
+      {
+        "path": "independent/ar0-review/probe-aliases.mjs",
+        "sha256": "9e64dfd9b8d59aaf7409dd1bbadee0b4dac1eb13c5e32d380e21657c5f0a6863"
+      },
+      {
+        "path": "independent/atlas-a1-inherited-review/independent-r1.test.mjs",
+        "sha256": "8d774f682a89ef8caec59a6f34a172d01f869481acf5f79be21a5329960d1bdb"
+      },
+      {
+        "path": "independent/m3-r1-review/audit-causal.mjs",
+        "sha256": "4dba6d317b98f69a091491175d84e197cb9cabc7d194c6866b775dfb5b68fbba"
+      },
+      {
+        "path": "independent/m3-r1-review/display-server.py",
+        "sha256": "128160324894db4aa97730a652f008ce11a73ec790926b24b1aab87f49246932"
+      },
+      {
+        "path": "independent/m3-r1-review/export-evidence.mjs",
+        "sha256": "47f864dee64e5b2762327631bd3a1b8ed9456180927007942b3d79fdddf864c8"
+      },
+      {
+        "path": "independent/m3-r1-review/finalize.py",
+        "sha256": "c432c34a95200da07d7a2f1026c1cad2d7c4058142bd9248865259e69de3829a"
+      },
+      {
+        "path": "independent/m3-r1-review/independent-r1-display.test.mjs",
+        "sha256": "ce0a357be52bf78bd48429c477ba1fbea2d9c2079087bd7e8616801afa0070b4"
+      },
+      {
+        "path": "independent/m3-r1-review/original-D01-after.test.mjs",
+        "sha256": "1e404d227db10b77c244b8d24c728851aec740e2e28374925c6c95ad97558329"
+      },
+      {
+        "path": "independent/m3-r1-review/original-D01-before.test.mjs",
+        "sha256": "d50e17e92a33c1bdd83be0fbb02586a348fc5eb3d875b4b0aa3e105cccff5f47"
+      },
+      {
+        "path": "independent/m3-r1-review/review.py",
+        "sha256": "5a69da74e83ae88566e38ab2b5a4addf7ca81b49eaa3d7dfffbd8e76e55a9520"
+      },
+      {
+        "path": "independent/m3-r2-review/audit-causal.mjs",
+        "sha256": "0444338d1207c26ff6542f6efb9546d41fe71b0ec409952988b70e9e5cf16819"
+      },
+      {
+        "path": "independent/m3-r2-review/display-server.py",
+        "sha256": "e9fb9aecb80ed175a33a9c71f7036c4b0a24017e2dcb29f87c85ec267fbc4e54"
+      },
+      {
+        "path": "independent/m3-r2-review/export-evidence.mjs",
+        "sha256": "b5fde3527c79ff2b078d85b21475c433f4d579494905c50690ae850805e90870"
+      },
+      {
+        "path": "independent/m3-r2-review/finalize.py",
+        "sha256": "105ab33eeff376913db1f8e3f977300f2f270c2be401c18ae7c829c3b26dc037"
+      },
+      {
+        "path": "independent/m3-r2-review/independent-r2-display.test.mjs",
+        "sha256": "9e26487db05059cab7b5c7456ca3adc31c2aa7c43ae7d442238a32b15da8740c"
+      },
+      {
+        "path": "independent/m3-r2-review/review.py",
+        "sha256": "14d230f2a1e2e760beacd063ca4f410fe0bd9366fbd426d89a92540c00a1d927"
+      },
+      {
+        "path": "independent/m3-r3-review/independent-r3-display.test.mjs",
+        "sha256": "52386d28e3e7388b643b3cc0fd446c1b9386ab4702d960f062042ba0c5070f75"
+      },
+      {
+        "path": "independent/m3-review/audit-causal.mjs",
+        "sha256": "512c4ffaaba1d5f9a694352dca40fdd2cda3b2f8edf84a95f13e958771fece07"
+      },
+      {
+        "path": "independent/m3-review/display-fault.py",
+        "sha256": "d09bd655a5818fe6ba4b5c3d7b261dea78fd27548568429ad8344b1dba4dd2e2"
+      },
+      {
+        "path": "independent/m3-review/export-evidence.mjs",
+        "sha256": "59ea98b6538afbdc2f41106d3a5ea3b2157b511bdaedb4f297af96212105cc22"
+      },
+      {
+        "path": "independent/m3-review/finalize.py",
+        "sha256": "06bf914631492dc89b4f0b8cda7609dfed8e82ef2f5c694aebf8fd7d78475962"
+      },
+      {
+        "path": "independent/m3-review/independent-m3.test.mjs",
+        "sha256": "de4c1f77a866b4f13e9bd607640d0e3e54b7ee9a98a50b6af52dc129af0f3750"
+      },
+      {
+        "path": "independent/m3-review/notice-display-defect.test.mjs",
+        "sha256": "042126abf78360838fd6f38e4640fe9e19e827428148fa8480a6cb66394e9115"
+      },
+      {
+        "path": "independent/m3-review/review.py",
+        "sha256": "b6306e85b902f0dbe9c6bc4eedbb6fde85b6dc7acd30f339424c4c432ae9a73c"
+      },
+      {
+        "path": "package.json",
+        "sha256": "1b2e57f98324a67ce4910db2c6761f13f5cc5a9725c9b148d4ead3c03a9e7b17"
+      },
+      {
+        "path": "scripts/atlas-export.mjs",
+        "sha256": "c7d8477faec1d0c95c34a883fc3507b2fc77b695f83faca9a47453ab966490e5"
+      },
+      {
+        "path": "scripts/audit-baseline.cjs",
+        "sha256": "de46809ac6b84a7d25c5af45bd7932fb9bf54f9c776e172950612e80975eede9"
+      },
+      {
+        "path": "scripts/build-atlas-a1.mjs",
+        "sha256": "575dfe3ff4ab084c30d477bf866c25d70f52918040f4277dede0368f84cd334d"
+      },
+      {
+        "path": "scripts/build-m3.mjs",
+        "sha256": "e30e11f04f32dc3af76b541466d67ed733a74561d629f4ca39924f8da77242b0"
+      },
+      {
+        "path": "scripts/build.mjs",
+        "sha256": "3e490cd88fcdf50193f9806c0d4281f7459eec7daf76ea8e5c24b41f3587f80e"
+      },
+      {
+        "path": "scripts/check-ar0-r1.py",
+        "sha256": "59638c4b6703e1d269f39269267d796a2ecd965818e19ff4f30558286bc7e150"
+      },
+      {
+        "path": "scripts/check-ar0.py",
+        "sha256": "f11d9c2116c00c8be2fb630d92e74854dbc1a0c68b503d29d7ec8eaec3cddb12"
+      },
+      {
+        "path": "scripts/check-m3-r1.py",
+        "sha256": "f564611a470280694ece380e883572610e26a27ae3821d86f78a5e8ec0f4b644"
+      },
+      {
+        "path": "scripts/check-m3-r2.py",
+        "sha256": "df3b446b4a5f389faeb99923c6b58423f2120c0c5be165c9e55d90c597ffb08f"
+      },
+      {
+        "path": "scripts/check-m3-r3.py",
+        "sha256": "ead445311fcf86b520eeb9cfe0b5f319860420017ca2449248557956549349b3"
+      },
+      {
+        "path": "scripts/check-m3.py",
+        "sha256": "9ee0753bb1282b7c85edc96f341cb2142567d200b3aa05792d48f7fe32a081dd"
+      },
+      {
+        "path": "scripts/export-ar0-r1.py",
+        "sha256": "2c49157a639dc9d0e4ade36e315d7a3b1bc289234419c4c50a969de908c1ec64"
+      },
+      {
+        "path": "scripts/export-ar0.py",
+        "sha256": "b3cadca578330443ba3e3f4198bd53b75eddfb5eab78f45c815a2c2a74168db6"
+      },
+      {
+        "path": "scripts/export-atlas-a1.py",
+        "sha256": "57fb0643d414407fac6f577ce7baf2f9da6a5f609465d93a98dac1844580307c"
+      },
+      {
+        "path": "scripts/export-m3-r1.py",
+        "sha256": "4ec882853ceb758225ebcf4c566cfc14f36505cca64ffbb75c202575cc248812"
+      },
+      {
+        "path": "scripts/export-m3-r2.py",
+        "sha256": "b22217c62a5446ff79ce3cabafd5b44251a689414b7147d85b10dfac73581227"
+      },
+      {
+        "path": "scripts/export-m3-r3.py",
+        "sha256": "91ef42c3f7eea9e33ca720e275bbe3847fd70c88cb082db0238e870cd9b99cbf"
+      },
+      {
+        "path": "scripts/export-m3.py",
+        "sha256": "710c0e5989f26f99f47f99a2736d7198738a5d8ad63afeea0782ab63739d93cf"
+      },
+      {
+        "path": "scripts/generate-ar0-evidence.mjs",
+        "sha256": "b7cf97639615472cb4750a0c38a8053b2df81d9f92e2352147d803d75970601f"
+      },
+      {
+        "path": "scripts/generate-ar0-r1-evidence.mjs",
+        "sha256": "a602dd0a2669492051cf2134d1b93a87a943ef358185adfb8879988b1fc585d8"
+      },
+      {
+        "path": "scripts/generate-atlas-a1-evidence.mjs",
+        "sha256": "18503a0d4999399aefbf9fbc671ac5074424326f23f84ca627b672af8d8ec98e"
+      },
+      {
+        "path": "scripts/generate-evidence.mjs",
+        "sha256": "ffe56027af1ba1bf42b7848708f159ad64948940e6d8951a0b410b78dc4c67a8"
+      },
+      {
+        "path": "scripts/generate-m3-d01-evidence.mjs",
+        "sha256": "206472e7969824feedbad125f45eccf56abe8a81694ad07a327a0641fab75004"
+      },
+      {
+        "path": "scripts/generate-m3-d02-evidence.mjs",
+        "sha256": "dc2b8d743df4edf13fcbbb489022411b079296fac6e595982c08a4e8a9aaabfd"
+      },
+      {
+        "path": "scripts/generate-m3-d03-evidence.mjs",
+        "sha256": "a164d6ee6cbf377bf012d8b9fd9f64e3e95892ef81025c154328a6abac022652"
+      },
+      {
+        "path": "scripts/generate-m3-evidence.mjs",
+        "sha256": "028358b14291b7fbecda5b5afe037bb143aa2b251a2d931b9fdfe32d8d5f4cde"
+      },
+      {
+        "path": "scripts/identity-ar0-r1.py",
+        "sha256": "b579f5d7961a4d78dedba479f7d0a0aed6d9728db610286fea8b7432f3a08ffd"
+      },
+      {
+        "path": "scripts/identity-ar0.py",
+        "sha256": "365a42cd740cb9bab56ba7bbbfca95ce80558df105e068e7f38fddb6a7d6b94f"
+      },
+      {
+        "path": "scripts/identity-atlas-a1.py",
+        "sha256": "bad49ebc55a9fa06cb3128fd05a7abd5836647d73dd31c5056ff2c9f107daa84"
+      },
+      {
+        "path": "scripts/preserve-ar0-r1.py",
+        "sha256": "3e05e248f06a45ffcbff4be0220b4f164208c16a7e3b8fc181a2d33a13ba62cf"
+      },
+      {
+        "path": "scripts/preserve-ar0.py",
+        "sha256": "b46d0d219f7ebfa1c8ff6a71e8c47de2962099ae890b0dfebe8b20c30da5db3b"
+      },
+      {
+        "path": "scripts/preserve-atlas-a1.py",
+        "sha256": "105ccc5b81bffec9425365b938ef5b1a631c77765a39df3957a16aa75f14fab0"
+      },
+      {
+        "path": "scripts/preserve-m3-r1.py",
+        "sha256": "a366a265e85380b247f82eaebb1d965fde9499c9c7a7466a1dba91edb1550616"
+      },
+      {
+        "path": "scripts/preserve-m3-r2.py",
+        "sha256": "6dc8d622dc9989dcdc28bb20495e86496a2f7149111b082f9bca32e2d752fe7f"
+      },
+      {
+        "path": "scripts/preserve-m3-r3.py",
+        "sha256": "9e72234b5be55d97ecd8572e12c03f9db933f7c808ae04d5ed9afd57676f9020"
+      },
+      {
+        "path": "scripts/preserve-m3.py",
+        "sha256": "4a0a8fb34ad74405b6b54639856e752d9d6fe4ea29242d0b48a3b3d4dbf6770a"
+      },
+      {
+        "path": "scripts/run-independent-ar0.mjs",
+        "sha256": "c5bc73b4a1f61ca21438b3d0ab6d1fbbde8b7951de97d42a66d4022025a1514e"
+      },
+      {
+        "path": "scripts/run-independent-m3-d02.mjs",
+        "sha256": "09cddb052f3aca2b44fc226272930b0258088549853262ca31207ceb4e9d779c"
+      },
+      {
+        "path": "scripts/run-independent-m3-d03.mjs",
+        "sha256": "f23fa1b85983c4629ae4e96303258f7d3ce7fb39152fe675656690128a97fe9f"
+      },
+      {
+        "path": "scripts/run-independent-m3-r1.mjs",
+        "sha256": "afc7b090175c360df4f195308cbcde31d958ca9e90cb81614874348fcfe14b03"
+      },
+      {
+        "path": "scripts/run-independent-m3-r3.mjs",
+        "sha256": "5f2b367c78c5ccc90d347398631186588c78d726eaee793e7eed42d4038767a1"
+      },
+      {
+        "path": "scripts/serve-ar0-r1.py",
+        "sha256": "61c725d7381b9ed5137d81e174aa6f38d518618ffcab7f97c4b7c3b5f85f28ef"
+      },
+      {
+        "path": "scripts/serve-ar0.py",
+        "sha256": "b2365dc8648e7533fb378dc864e66a9e2563570719acbc82e3ee48e1dae213fd"
+      },
+      {
+        "path": "scripts/serve-atlas-a1.py",
+        "sha256": "01c0b95ea06a45d165384cbc6aa5bb62cd3f3043863ded2543b3d388397d8bba"
+      },
+      {
+        "path": "scripts/serve-m3-d01.py",
+        "sha256": "6dee17c5ec0042b92098278fd34865102fa242ac16d4baa0bba18ad5350e000d"
+      },
+      {
+        "path": "scripts/serve-m3-d02.py",
+        "sha256": "9a2e79dbde84c0f71a0f82c55f3f515da03dc38caed45147cf122763973293bd"
+      },
+      {
+        "path": "scripts/serve-m3-d03.py",
+        "sha256": "7b41966ae6be077e20fa8ff84065854d416b939f55fb9b197278dc06e63ba04e"
+      },
+      {
+        "path": "scripts/serve-m3.py",
+        "sha256": "82dee966381fd9a9cac09ac851c3af874f2b5742a67f4416da4b218915a7a9ff"
+      },
+      {
+        "path": "scripts/serve.py",
+        "sha256": "74c658fcf772c756ca071dfec03ca221e02e672a9eabd3b29a76b0d83abac825"
+      },
+      {
+        "path": "scripts/snapshot.py",
+        "sha256": "1e4482165a7c0fe1bc5e2390a1d53ece04a03191a9384a5369990ce55afdfd74"
+      },
+      {
+        "path": "scripts/source-identity-m3.py",
+        "sha256": "c98804ccbca7ed9dff200ebe801ecc7859788aefc2c00b9a26d9298f4fbf8798"
+      },
+      {
+        "path": "scripts/source-identity.py",
+        "sha256": "a180ba9ac5a82b3ecd00bf58f5d9dfa6de7ad55cf5fa369a93f01ca769364224"
+      },
+      {
+        "path": "scripts/verify-checkpoint.py",
+        "sha256": "9c4d0defcdae566646556046500564a868f984de68c44bbd01f860a1b705d35d"
+      },
+      {
+        "path": "src/action-boundary.mjs",
+        "sha256": "9e8b88efd9dd303fc2b0c5ac7f12a164a84a70c340cb7efe5e19c0727082f641"
+      },
+      {
+        "path": "src/ar0/atlas.mjs",
+        "sha256": "d32a2964eb068698da159288a4b09cafb91448be5e75ff4029ad1c5dd88511e9"
+      },
+      {
+        "path": "src/atlas-a1/adapter.mjs",
+        "sha256": "f4fdf89a93d3ea09d20bd05ce54740fc5cd46190b0386be04b971cd8c295b5a4"
+      },
+      {
+        "path": "src/atlas-a1/person-view.mjs",
+        "sha256": "a11875863c53dfb70a9508df986e012e65767a7ca975acadf2c6a9abe46aa153"
+      },
+      {
+        "path": "src/atlas-a1/render.mjs",
+        "sha256": "0eb549e896d3fe1a45c39e6aa6a0758e98b6aaebdf7561540aeea25dcfcfbaf4"
+      },
+      {
+        "path": "src/atlas-a1/shell.html",
+        "sha256": "dd1ffb4748b1f99b1512424e7b4486b5b9b7cd321d715525f8690d5e8404ae72"
+      },
+      {
+        "path": "src/atlas-a1/style.css",
+        "sha256": "09b210ecff7fbfb0031865c6757de1aaf75ac5881087b096eb37f59518738f10"
+      },
+      {
+        "path": "src/atlas-a1/ui.mjs",
+        "sha256": "cdec7c2ea4d14c6f647bf3f7df2c526bf04da7c3a7f86900ff4bb21ce566dfd3"
+      },
+      {
+        "path": "src/compiler.mjs",
+        "sha256": "a6ad8e50e96b735642e1bf3092d1547ca8f8b5ba3e6ab45bf9fda0a0c80c20ed"
+      },
+      {
+        "path": "src/contracts.mjs",
+        "sha256": "db7de91d1e53c687b4f0469238d51a9c95e8944ecbfb1388c975536aa4c96b78"
+      },
+      {
+        "path": "src/encounter.mjs",
+        "sha256": "5fbccbd537ba0bab84b9dcabaa71970aa4e629ee0421ab81cb8ca33425737617"
+      },
+      {
+        "path": "src/m3/engine.mjs",
+        "sha256": "69e109f29bec9b74faec18f48d55c77f613059b585b34e98b493355e6cb0f64a"
+      },
+      {
+        "path": "src/m3/knowledge.mjs",
+        "sha256": "f0067c5bcbfc253fa4a9c4c5e46902cefe4ba876b611451436b34e66f09b1112"
+      },
+      {
+        "path": "src/m3/meaning.mjs",
+        "sha256": "46ba76d03b99dc12a133d7e8e060aabb5eadbbdf79147967e28793805b8b23c0"
+      },
+      {
+        "path": "src/m3/policy.mjs",
+        "sha256": "1b5cd14a9c10c591df2660a66daca5f3beed7c848e6fb5fdeac243fdc68c4a3d"
+      },
+      {
+        "path": "src/m3/shell.html",
+        "sha256": "2f4b30c91fdcdc6fecc67aa430dd65f1614562f16e3ff1116803c172f717088f"
+      },
+      {
+        "path": "src/m3/types.mjs",
+        "sha256": "2bab449d5c498873bb20879e9aea3c4002177f7699ba6ebc4ea1c171c7d49ce3"
+      },
+      {
+        "path": "src/m3/ui.mjs",
+        "sha256": "c5f05c20be8d3b39baffd8ddc6d6ac9ee2cbd86845fb5d4148238b1b2ca03cbb"
+      },
+      {
+        "path": "src/package.mjs",
+        "sha256": "9ef3de0ce6b061b1c26ecee6007f6605ac4228d8e7c058aa7843018f0908b9c2"
+      },
+      {
+        "path": "src/policy.mjs",
+        "sha256": "53674ae58a95036614410841be6cd322bd30366a100d0ee8c0367131fa58f9b3"
+      },
+      {
+        "path": "src/runtime.mjs",
+        "sha256": "657d97f16704c973a7696c712a53e9afe55cecd40a4dfdfbbb5e331ef9eecf89"
+      },
+      {
+        "path": "src/shell.html",
+        "sha256": "b4032ddb411955fcd781c087f98dc2ca21b64d3568cf8ed2006c513b51018697"
+      },
+      {
+        "path": "src/ui.css",
+        "sha256": "67d7171af0f99dcd1cd18fbe20528bc144be9aa9831fdea6646ba4dfd0a6b0b7"
+      },
+      {
+        "path": "src/ui.mjs",
+        "sha256": "a3c096d062fc723b1b1d6f51f9f086c97c764ac70b6208c7989937af826fea5c"
+      },
+      {
+        "path": "src/views.mjs",
+        "sha256": "be8138af95f8a3b5758d08013dd171b581c41db7448c9efa880645b8014b0ab9"
+      },
+      {
+        "path": "tests/ar0-d01.test.mjs",
+        "sha256": "6e3b657961745d227e2f236d82c26cddd1dff8522cd3cb1478c4a9cacd1ead3b"
+      },
+      {
+        "path": "tests/ar0.test.mjs",
+        "sha256": "03d8ecb059d9aab8c43e2de86e18c126c7cd847d63d7d0bcbd57716738417352"
+      },
+      {
+        "path": "tests/atlas-a1.test.mjs",
+        "sha256": "827e6caffdbc84e76055d912ed4675f583c39dd53b55c04fde47ccb016902781"
+      },
+      {
+        "path": "tests/fixtures.mjs",
+        "sha256": "f4ddba46ab2804f0358d78c07d30c9c26adca42ea825b2744fee780ddb8b85e4"
+      },
+      {
+        "path": "tests/identity-regressions.test.mjs",
+        "sha256": "1aa8fa0650ea91c303519dac32966f10604a3552e76281444bb5ec6e4c787d00"
+      },
+      {
+        "path": "tests/m2-fixture.mjs",
+        "sha256": "93de3e2414cec93b5017291b2f42461ecadae48036c812a74659e74df55f4cd0"
+      },
+      {
+        "path": "tests/m2.test.mjs",
+        "sha256": "3b09d2bd398502cf3cdf1fdb1676d9eef1d7283e0061143a7ec06cecbf8282dc"
+      },
+      {
+        "path": "tests/m3-fixtures.mjs",
+        "sha256": "1d7d6e5fd1265e135c9f3f764b175253aab755aac5f900888592952bd93fff5e"
+      },
+      {
+        "path": "tests/m3-notice-collapse.test.mjs",
+        "sha256": "22fd2d1860f53bc4a3813dea234a8e9aae0a142cb051ab8916e9fa0ea22e68f8"
+      },
+      {
+        "path": "tests/m3-notice-display.test.mjs",
+        "sha256": "75280749c1f3c704fb9fab58a09f5045978626496d42bbe34bb2dafde28ac121"
+      },
+      {
+        "path": "tests/m3-notice-geometry.test.mjs",
+        "sha256": "b443a86e4293153504c458126ed9a7e1ce77199e16397095606717276bafa169"
+      },
+      {
+        "path": "tests/m3.test.mjs",
+        "sha256": "5c4094089d8a12d249a9acac84a857c02b6a383390d02dd971e061e80606565a"
+      },
+      {
+        "path": "tests/runtime.test.mjs",
+        "sha256": "0b6da3c6f02565c02f0ed461fa63da0f4295514dce47967b727f17a63bf1e2a5"
+      },
+      {
+        "path": "tests/views.test.mjs",
+        "sha256": "159b1767ce62d9c4796e5a5c66ced265d9bdbd17ef0242516c8ccc548b047358"
+      }
+    ]
+  },
+  "room_creator_source": [
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\rc0141-remediation\\Room_Creator_v0_14_1_remediation_candidate\\source\\FORMAT.md",
+      "bytes": 30529,
+      "sha256": "7d129ce2e05bea25414509c14826c983111b9572b37db1e74b8a462603e1c06f",
+      "archive_path": "snapshots/room-creator-editable/source/FORMAT.md"
+    },
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\rc0141-remediation\\Room_Creator_v0_14_1_remediation_candidate\\source\\THREE_LICENSE.txt",
+      "bytes": 1081,
+      "sha256": "852e0e8699169bf9f6fdc6bda3e682d078dcbc738b5d33e74df594721bff271d",
+      "archive_path": "snapshots/room-creator-editable/source/THREE_LICENSE.txt"
+    },
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\rc0141-remediation\\Room_Creator_v0_14_1_remediation_candidate\\source\\app.js",
+      "bytes": 206757,
+      "sha256": "18f995af96d82aaa4b0d89a5ce569fb7832ff1843a9caac136940abe79f0707f",
+      "archive_path": "snapshots/room-creator-editable/source/app.js"
+    },
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\rc0141-remediation\\Room_Creator_v0_14_1_remediation_candidate\\source\\assetlib.js",
+      "bytes": 23455,
+      "sha256": "f7eb8487edd8958acc1527ce3da01e0d006b46ac931d6069569791950eb8ecd1",
+      "archive_path": "snapshots/room-creator-editable/source/assetlib.js"
+    },
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\rc0141-remediation\\Room_Creator_v0_14_1_remediation_candidate\\source\\build.py",
+      "bytes": 1893,
+      "sha256": "1648c0d0b3e1a6a0a5fca86ff2b9ba324e6bafd3a8c76f848e6d66fd21164e01",
+      "archive_path": "snapshots/room-creator-editable/source/build.py"
+    },
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\rc0141-remediation\\Room_Creator_v0_14_1_remediation_candidate\\source\\core.js",
+      "bytes": 110647,
+      "sha256": "f4e3b13fc6e78177d2dbd41adee32de89582491cf1520d15084565f56429e6e3",
+      "archive_path": "snapshots/room-creator-editable/source/core.js"
+    },
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\rc0141-remediation\\Room_Creator_v0_14_1_remediation_candidate\\source\\gl.js",
+      "bytes": 57434,
+      "sha256": "b16ce12bb90bc199cebc4548c6f63c47fcf26fc173eb9d9c4b91385a2c975540",
+      "archive_path": "snapshots/room-creator-editable/source/gl.js"
+    },
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\rc0141-remediation\\Room_Creator_v0_14_1_remediation_candidate\\source\\legacy-v1.js",
+      "bytes": 6755,
+      "sha256": "7a171686cd6a156a7f69673481e7d62c970956619885cbe9e25d007166264d93",
+      "archive_path": "snapshots/room-creator-editable/source/legacy-v1.js"
+    },
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\rc0141-remediation\\Room_Creator_v0_14_1_remediation_candidate\\source\\legacy-v3.js",
+      "bytes": 24920,
+      "sha256": "91019b49e204ae7063f50af76f77dfef89ca270cb96c68b952558d2976911a61",
+      "archive_path": "snapshots/room-creator-editable/source/legacy-v3.js"
+    },
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\rc0141-remediation\\Room_Creator_v0_14_1_remediation_candidate\\source\\rails.js",
+      "bytes": 24797,
+      "sha256": "d05299123f6abe2400e44cb5675d287badeddd338f32858d614171e467fa382f",
+      "archive_path": "snapshots/room-creator-editable/source/rails.js"
+    },
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\rc0141-remediation\\Room_Creator_v0_14_1_remediation_candidate\\source\\renderer.js",
+      "bytes": 48807,
+      "sha256": "46dc760da6a492fdbe4b44efc6500a98b8cde1ac60bf1ad60fbce815b0e03b58",
+      "archive_path": "snapshots/room-creator-editable/source/renderer.js"
+    },
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\rc0141-remediation\\Room_Creator_v0_14_1_remediation_candidate\\source\\shell.html",
+      "bytes": 6504,
+      "sha256": "ee6714cf61de9683237aa7ad8b3e7759ee4dc6224a455d5076c6f6c3c23b417c",
+      "archive_path": "snapshots/room-creator-editable/source/shell.html"
+    },
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\rc0141-remediation\\Room_Creator_v0_14_1_remediation_candidate\\source\\style.css",
+      "bytes": 39574,
+      "sha256": "50aa01a5ececa0724e1047dbb542b16373e581f4c2d675d8e9d8f162b28937de",
+      "archive_path": "snapshots/room-creator-editable/source/style.css"
+    },
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\rc0141-remediation\\Room_Creator_v0_14_1_remediation_candidate\\source\\ui-fp.js",
+      "bytes": 22961,
+      "sha256": "ccc59e466f8899586c01a154c51bd2db0030ea4d265db914be4c1913583900b3",
+      "archive_path": "snapshots/room-creator-editable/source/ui-fp.js"
+    },
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\rc0141-remediation\\Room_Creator_v0_14_1_remediation_candidate\\source\\ui-gl.js",
+      "bytes": 17820,
+      "sha256": "c8586a8b824c4a4627076acabc38a4a18375b77d2cfa7258351cdec465844bd5",
+      "archive_path": "snapshots/room-creator-editable/source/ui-gl.js"
+    },
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\rc0141-remediation\\Room_Creator_v0_14_1_remediation_candidate\\source\\ui-props.js",
+      "bytes": 89015,
+      "sha256": "29c878d809b65fcc2d1486be98c1951e324e49a7cb850e8588b1ad262c0d670a",
+      "archive_path": "snapshots/room-creator-editable/source/ui-props.js"
+    },
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\rc0141-remediation\\Room_Creator_v0_14_1_remediation_candidate\\source\\ui-rails.js",
+      "bytes": 32331,
+      "sha256": "06f0530b26087c60c5fec24ea3be72fd3c2729830b336edb34f7f58ea72332d5",
+      "archive_path": "snapshots/room-creator-editable/source/ui-rails.js"
+    },
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\rc0141-remediation\\Room_Creator_v0_14_1_remediation_candidate\\source\\ui-route.js",
+      "bytes": 75575,
+      "sha256": "90f74ede25fb9f66f8c063dd1447fee9f5865465e41340e1c49d6759fa2ba232",
+      "archive_path": "snapshots/room-creator-editable/source/ui-route.js"
+    },
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\rc0141-remediation\\Room_Creator_v0_14_1_remediation_candidate\\source\\ui-sky.js",
+      "bytes": 14638,
+      "sha256": "45360b07bd756811262ad0ef26a30de317018283915d9fe7f82be991e85e4907",
+      "archive_path": "snapshots/room-creator-editable/source/ui-sky.js"
+    },
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\rc0141-remediation\\Room_Creator_v0_14_1_remediation_candidate\\source\\ui-stories.js",
+      "bytes": 34671,
+      "sha256": "85e60fad12d5d77091af921e0f35cae34967d46343ed8dc51b5762892b93bff1",
+      "archive_path": "snapshots/room-creator-editable/source/ui-stories.js"
+    },
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\rc0141-remediation\\Room_Creator_v0_14_1_remediation_candidate\\source\\vendor-gltfloader.js",
+      "bytes": 110676,
+      "sha256": "9197307852796b98d41bb4d1998d9c3996788d29a117e0b82a88b9537d85d9d6",
+      "archive_path": "snapshots/room-creator-editable/source/vendor-gltfloader.js"
+    },
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\rc0141-remediation\\Room_Creator_v0_14_1_remediation_candidate\\source\\vendor-three.min.js",
+      "bytes": 667791,
+      "sha256": "a0d4379385416186a71a630d01113aa5922dbe05baa8eba7d6e411741fe08cda",
+      "archive_path": "snapshots/room-creator-editable/source/vendor-three.min.js"
+    }
+  ],
+  "room_creator_test_code": [
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\rc0141-remediation\\Room_Creator_v0_14_1_remediation_candidate\\tests\\README_TESTS.md",
+      "bytes": 3157,
+      "sha256": "cc287107732e448396b81b2797d7741c764024e3267618853eeca5a1a2e166a2",
+      "archive_path": "snapshots/room-creator-editable/tests/README_TESTS.md"
+    },
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\rc0141-remediation\\Room_Creator_v0_14_1_remediation_candidate\\tests\\architecture_extensions.test.js",
+      "bytes": 16051,
+      "sha256": "d5cccfbf1c9eff9a2338acbc2abe98a4faa30e1c5bfe6d62a76459615015e909",
+      "archive_path": "snapshots/room-creator-editable/tests/architecture_extensions.test.js"
+    },
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\rc0141-remediation\\Room_Creator_v0_14_1_remediation_candidate\\tests\\architecture_extensions_browser.py",
+      "bytes": 20965,
+      "sha256": "1555d377ab897437bbb8d5a76eda2fb7d628d8be1ae3cd743932c1d2a9e37cb0",
+      "archive_path": "snapshots/room-creator-editable/tests/architecture_extensions_browser.py"
+    },
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\rc0141-remediation\\Room_Creator_v0_14_1_remediation_candidate\\tests\\asset_demo_file.test.js",
+      "bytes": 4640,
+      "sha256": "3e0ba05535449e8f86ef4d8d6c0c57c99ae2bd5b417d16a5ee170d25aee1019c",
+      "archive_path": "snapshots/room-creator-editable/tests/asset_demo_file.test.js"
+    },
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\rc0141-remediation\\Room_Creator_v0_14_1_remediation_candidate\\tests\\assets_all_models.py",
+      "bytes": 6801,
+      "sha256": "61040a50487bbf60869f8f86477fce32d940d635ad3c8fc4f757b82287ae725b",
+      "archive_path": "snapshots/room-creator-editable/tests/assets_all_models.py"
+    },
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\rc0141-remediation\\Room_Creator_v0_14_1_remediation_candidate\\tests\\assets_browser.py",
+      "bytes": 62063,
+      "sha256": "750fde653e1684545a06e6049ab163b7cc5c08e58075be79e14f9c3ba5e46104",
+      "archive_path": "snapshots/room-creator-editable/tests/assets_browser.py"
+    },
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\rc0141-remediation\\Room_Creator_v0_14_1_remediation_candidate\\tests\\assets_demo_checks.py",
+      "bytes": 6474,
+      "sha256": "92a005226de665fbed40d59826187e24345545150d589c08ce9835e66b424a11",
+      "archive_path": "snapshots/room-creator-editable/tests/assets_demo_checks.py"
+    },
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\rc0141-remediation\\Room_Creator_v0_14_1_remediation_candidate\\tests\\assets_evidence\\README.md",
+      "bytes": 1542,
+      "sha256": "7bc5c2497e95c9b9fa359959f60f5580efa5b2e5d48c6e0d1480033108b3b633",
+      "archive_path": "snapshots/room-creator-editable/tests/assets_evidence/README.md"
+    },
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\rc0141-remediation\\Room_Creator_v0_14_1_remediation_candidate\\tests\\assets_perf.py",
+      "bytes": 3843,
+      "sha256": "5d67ff496fe7b4da02947575ccd5e64db9ad51f0a5b1af6f681bea70aab6ade5",
+      "archive_path": "snapshots/room-creator-editable/tests/assets_perf.py"
+    },
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\rc0141-remediation\\Room_Creator_v0_14_1_remediation_candidate\\tests\\assets_vehicle_fronts.py",
+      "bytes": 3649,
+      "sha256": "a778e7652db3982eb8fba36482fac1b943bf11e15652784918a1d3af893d8a0d",
+      "archive_path": "snapshots/room-creator-editable/tests/assets_vehicle_fronts.py"
+    },
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\rc0141-remediation\\Room_Creator_v0_14_1_remediation_candidate\\tests\\browser\\README.txt",
+      "bytes": 448,
+      "sha256": "e2f5b14ac2db78d1b64dcabfef78c12da0f8652c1307fce643e6653a6b1855e2",
+      "archive_path": "snapshots/room-creator-editable/tests/browser/README.txt"
+    },
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\rc0141-remediation\\Room_Creator_v0_14_1_remediation_candidate\\tests\\browser\\final_test.py",
+      "bytes": 5720,
+      "sha256": "92a871d28620ac5cb18a855da0b6a20a61d029fce1c46f45259b22d1b443b53b",
+      "archive_path": "snapshots/room-creator-editable/tests/browser/final_test.py"
+    },
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\rc0141-remediation\\Room_Creator_v0_14_1_remediation_candidate\\tests\\browser\\fp_test.py",
+      "bytes": 4391,
+      "sha256": "a1567a49ec7a4cb3f2c21c7f815a06eae9e40fa95769027b0b793c1d8f75bfa8",
+      "archive_path": "snapshots/room-creator-editable/tests/browser/fp_test.py"
+    },
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\rc0141-remediation\\Room_Creator_v0_14_1_remediation_candidate\\tests\\browser\\fp_test2.py",
+      "bytes": 2669,
+      "sha256": "42a8b245e75c22e42a4ee3d1d07ae3706f2c06ca7eef63a75105a850bc313190",
+      "archive_path": "snapshots/room-creator-editable/tests/browser/fp_test2.py"
+    },
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\rc0141-remediation\\Room_Creator_v0_14_1_remediation_candidate\\tests\\browser\\make_city.py",
+      "bytes": 5395,
+      "sha256": "224a7b1db05b78e4df1049d703832e5ecb51c8a5eb45daf6076e4d636a03437e",
+      "archive_path": "snapshots/room-creator-editable/tests/browser/make_city.py"
+    },
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\rc0141-remediation\\Room_Creator_v0_14_1_remediation_candidate\\tests\\browser\\previews.py",
+      "bytes": 2452,
+      "sha256": "77db0b87f096e14a9bbc3db6035152dafdda3dcd8c9328c5a2c64e3018061e7b",
+      "archive_path": "snapshots/room-creator-editable/tests/browser/previews.py"
+    },
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\rc0141-remediation\\Room_Creator_v0_14_1_remediation_candidate\\tests\\browser\\rail_stairs_check.py",
+      "bytes": 1272,
+      "sha256": "7e4d85965f888ab8de87c113726c199ff35267903a1fac69c7a9c8fb96b29a75",
+      "archive_path": "snapshots/room-creator-editable/tests/browser/rail_stairs_check.py"
+    },
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\rc0141-remediation\\Room_Creator_v0_14_1_remediation_candidate\\tests\\browser\\rails_test.py",
+      "bytes": 5564,
+      "sha256": "58300a5d1d8e007265cad76b859e390ae109ae6174e8916e72ccc8d43ced249a",
+      "archive_path": "snapshots/room-creator-editable/tests/browser/rails_test.py"
+    },
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\rc0141-remediation\\Room_Creator_v0_14_1_remediation_candidate\\tests\\browser\\rails_test2.py",
+      "bytes": 3682,
+      "sha256": "b1d1e99bd73d6f6754b0ccf7c7022cf4d609c0c02759d29e09e49cf1273585cb",
+      "archive_path": "snapshots/room-creator-editable/tests/browser/rails_test2.py"
+    },
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\rc0141-remediation\\Room_Creator_v0_14_1_remediation_candidate\\tests\\browser\\sky_test.py",
+      "bytes": 3253,
+      "sha256": "efd52b91937719b3488df6230111e60fd66802dccd079f466d72e89252657aec",
+      "archive_path": "snapshots/room-creator-editable/tests/browser/sky_test.py"
+    },
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\rc0141-remediation\\Room_Creator_v0_14_1_remediation_candidate\\tests\\browser\\stories_test.py",
+      "bytes": 5422,
+      "sha256": "177270e4c82d678ce52eb8e8849bea0209eca1a9619624eed05931dc4f17ad3d",
+      "archive_path": "snapshots/room-creator-editable/tests/browser/stories_test.py"
+    },
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\rc0141-remediation\\Room_Creator_v0_14_1_remediation_candidate\\tests\\browser\\ui_smoke.py",
+      "bytes": 3774,
+      "sha256": "3b803e7064f7024d8cc9f5db064cdd89e475ba6458627e76b8c915c9a14a7014",
+      "archive_path": "snapshots/room-creator-editable/tests/browser/ui_smoke.py"
+    },
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\rc0141-remediation\\Room_Creator_v0_14_1_remediation_candidate\\tests\\browser_acceptance.py",
+      "bytes": 30441,
+      "sha256": "58f9a7bdcb7be98a1508bd2d423268b9a28903377c8c4d833b6f3f99c3923bb2",
+      "archive_path": "snapshots/room-creator-editable/tests/browser_acceptance.py"
+    },
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\rc0141-remediation\\Room_Creator_v0_14_1_remediation_candidate\\tests\\build_repro.py",
+      "bytes": 990,
+      "sha256": "13c4440a637a06d1be39dc61a6adb4d4e07d1324ee15c92f36aa74c1d9dea2ae",
+      "archive_path": "snapshots/room-creator-editable/tests/build_repro.py"
+    },
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\rc0141-remediation\\Room_Creator_v0_14_1_remediation_candidate\\tests\\construction_v10.test.js",
+      "bytes": 3458,
+      "sha256": "53d7012a0b25a1f359a93a3ddb4db172afb3921387edb4f9395b4d000ab5ef28",
+      "archive_path": "snapshots/room-creator-editable/tests/construction_v10.test.js"
+    },
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\rc0141-remediation\\Room_Creator_v0_14_1_remediation_candidate\\tests\\construction_v10_browser.py",
+      "bytes": 4376,
+      "sha256": "b4aba1de74772deca779a22cb1f12436e19539341a5c22969920ec972c25d38b",
+      "archive_path": "snapshots/room-creator-editable/tests/construction_v10_browser.py"
+    },
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\rc0141-remediation\\Room_Creator_v0_14_1_remediation_candidate\\tests\\core.test.js",
+      "bytes": 21210,
+      "sha256": "23d77cd12ef2f4c0e55d235f86ca653a3abe00dc6f66b7f5c7cdce5b563d9196",
+      "archive_path": "snapshots/room-creator-editable/tests/core.test.js"
+    },
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\rc0141-remediation\\Room_Creator_v0_14_1_remediation_candidate\\tests\\demo_screens.py",
+      "bytes": 3275,
+      "sha256": "1ea325b8c318c67f485631d4989167c436befcf34d0c0e3d323b36811b014ae6",
+      "archive_path": "snapshots/room-creator-editable/tests/demo_screens.py"
+    },
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\rc0141-remediation\\Room_Creator_v0_14_1_remediation_candidate\\tests\\make_asset_demo.py",
+      "bytes": 25500,
+      "sha256": "682ec453e66f2daef1f00028f0cc659b1d6a4c14d919367d2a4d053ccce3df64",
+      "archive_path": "snapshots/room-creator-editable/tests/make_asset_demo.py"
+    },
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\rc0141-remediation\\Room_Creator_v0_14_1_remediation_candidate\\tests\\migration_regression.js",
+      "bytes": 1776,
+      "sha256": "1f673fc76fb3d20ad659a6985fe046d60ebe0aa44307b00161eb85b114a15711",
+      "archive_path": "snapshots/room-creator-editable/tests/migration_regression.js"
+    },
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\rc0141-remediation\\Room_Creator_v0_14_1_remediation_candidate\\tests\\multistory.test.js",
+      "bytes": 5987,
+      "sha256": "ac6c94aaecc1d40b86159d3810457394924dfe2b43f7f89c2636b5704b0bbb4d",
+      "archive_path": "snapshots/room-creator-editable/tests/multistory.test.js"
+    },
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\rc0141-remediation\\Room_Creator_v0_14_1_remediation_candidate\\tests\\multistory_browser.py",
+      "bytes": 4475,
+      "sha256": "a836e06066e3c8297e6914a62af08748c37294f240bfc1f304ed78d07104cb01",
+      "archive_path": "snapshots/room-creator-editable/tests/multistory_browser.py"
+    },
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\rc0141-remediation\\Room_Creator_v0_14_1_remediation_candidate\\tests\\package_checkpoint.py",
+      "bytes": 1340,
+      "sha256": "0e1d2e7b5efd88174a043ceaa9afd9104946cb3eb09259fe8ded823ddd3b434f",
+      "archive_path": "snapshots/room-creator-editable/tests/package_checkpoint.py"
+    },
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\rc0141-remediation\\Room_Creator_v0_14_1_remediation_candidate\\tests\\props_metadata.test.js",
+      "bytes": 7493,
+      "sha256": "21d499f48836b386e1e2c6548ef351471bc70a255e0ab17f4f897aef6e593125",
+      "archive_path": "snapshots/room-creator-editable/tests/props_metadata.test.js"
+    },
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\rc0141-remediation\\Room_Creator_v0_14_1_remediation_candidate\\tests\\rc_test_runtime.py",
+      "bytes": 743,
+      "sha256": "f39c5e75a1258dfffdf732cbdfb63ba943657cdb5e404b964147b48af7895b99",
+      "archive_path": "snapshots/room-creator-editable/tests/rc_test_runtime.py"
+    },
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\rc0141-remediation\\Room_Creator_v0_14_1_remediation_candidate\\tests\\remediation_browser.py",
+      "bytes": 13512,
+      "sha256": "c0d5711f7d6c709f203c90c7cec276e86bdd5320f8aec9d631a2d0ea72862167",
+      "archive_path": "snapshots/room-creator-editable/tests/remediation_browser.py"
+    },
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\rc0141-remediation\\Room_Creator_v0_14_1_remediation_candidate\\tests\\remediation_core.test.js",
+      "bytes": 5678,
+      "sha256": "c7bf3b9795eba38058656f4937cca8011a021d0c7c5cb59a9331db7319b86ebe",
+      "archive_path": "snapshots/room-creator-editable/tests/remediation_core.test.js"
+    },
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\rc0141-remediation\\Room_Creator_v0_14_1_remediation_candidate\\tests\\requirements.txt",
+      "bytes": 86,
+      "sha256": "0a3d5361d1a1fed57fc0b860d4f5c51817efd4f97fa1450e3056d9f8a629fecc",
+      "archive_path": "snapshots/room-creator-editable/tests/requirements.txt"
+    },
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\rc0141-remediation\\Room_Creator_v0_14_1_remediation_candidate\\tests\\route\\README.txt",
+      "bytes": 1115,
+      "sha256": "4eccab9dc0ae0c2b7e750db593dc4a9d57a0618158fd228c744046c116dc4652",
+      "archive_path": "snapshots/room-creator-editable/tests/route/README.txt"
+    },
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\rc0141-remediation\\Room_Creator_v0_14_1_remediation_candidate\\tests\\route\\make_route_scene.cjs",
+      "bytes": 7585,
+      "sha256": "44312a4c010196a5f5fca31cc2b79fc3815f0a24c52f8cbafcd402a3ed8b35fa",
+      "archive_path": "snapshots/room-creator-editable/tests/route/make_route_scene.cjs"
+    },
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\rc0141-remediation\\Room_Creator_v0_14_1_remediation_candidate\\tests\\route\\route_eval.py",
+      "bytes": 9552,
+      "sha256": "c88870fc247bb1ec28c4fbd25785c2f396a14f8050aa94a195cf7939bea1285a",
+      "archive_path": "snapshots/room-creator-editable/tests/route/route_eval.py"
+    },
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\rc0141-remediation\\Room_Creator_v0_14_1_remediation_candidate\\tests\\route\\route_keys.py",
+      "bytes": 4716,
+      "sha256": "959fe5070811ddcf2547ead85aaafc52e7671e31d519b932c16b1fffdd770dbb",
+      "archive_path": "snapshots/room-creator-editable/tests/route/route_keys.py"
+    },
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\rc0141-remediation\\Room_Creator_v0_14_1_remediation_candidate\\tests\\route\\route_perf.py",
+      "bytes": 1655,
+      "sha256": "482d13149e071686c1c6f8e3dcde729ddb0352e7d49b95442e8d32be8974875d",
+      "archive_path": "snapshots/room-creator-editable/tests/route/route_perf.py"
+    },
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\rc0141-remediation\\Room_Creator_v0_14_1_remediation_candidate\\tests\\route\\route_smoke.py",
+      "bytes": 2706,
+      "sha256": "8ccb8858e103b7567a24e11508214e98210274199915c6709a5a984462ec7a55",
+      "archive_path": "snapshots/room-creator-editable/tests/route/route_smoke.py"
+    },
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\rc0141-remediation\\Room_Creator_v0_14_1_remediation_candidate\\tests\\run_asset_tests.sh",
+      "bytes": 508,
+      "sha256": "dd91595701d00064704c39bafc3ebd1e51006c62ceda70a385ba983deb5a3995",
+      "archive_path": "snapshots/room-creator-editable/tests/run_asset_tests.sh"
+    },
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\rc0141-remediation\\Room_Creator_v0_14_1_remediation_candidate\\tests\\run_tests.ps1",
+      "bytes": 319,
+      "sha256": "60e74445404b0738b5b50edc909b088acffef0dab6c26b66e50cd18071f441ad",
+      "archive_path": "snapshots/room-creator-editable/tests/run_tests.ps1"
+    },
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\rc0141-remediation\\Room_Creator_v0_14_1_remediation_candidate\\tests\\run_tests.py",
+      "bytes": 4166,
+      "sha256": "f1787bb472b83006ca8d2104822ea00f85c53fe174764eed38e6cb7078bab136",
+      "archive_path": "snapshots/room-creator-editable/tests/run_tests.py"
+    },
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\rc0141-remediation\\Room_Creator_v0_14_1_remediation_candidate\\tests\\shared_matte.test.js",
+      "bytes": 6370,
+      "sha256": "9c96115ef4368cf2c75f9389d22bc182f22ddd85c170a54649c5b502fff2ca1c",
+      "archive_path": "snapshots/room-creator-editable/tests/shared_matte.test.js"
+    },
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\rc0141-remediation\\Room_Creator_v0_14_1_remediation_candidate\\tests\\shared_matte_browser.py",
+      "bytes": 18681,
+      "sha256": "5a467487af617b7caae7e438d5a8298455e91fee46ecbe282aa78c7a64e9b12f",
+      "archive_path": "snapshots/room-creator-editable/tests/shared_matte_browser.py"
+    },
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\rc0141-remediation\\Room_Creator_v0_14_1_remediation_candidate\\tests\\sitecustomize.py",
+      "bytes": 672,
+      "sha256": "aac8d931652663281586beda30df03ea76d35197109c5b0e11ef22810c6d4114",
+      "archive_path": "snapshots/room-creator-editable/tests/sitecustomize.py"
+    },
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\rc0141-remediation\\Room_Creator_v0_14_1_remediation_candidate\\tests\\story_floor_ux.cjs",
+      "bytes": 9543,
+      "sha256": "461bedbd897980ed2a3ee7f9a605b90a5d57bb05e9360f134ce4b006f22e7c94",
+      "archive_path": "snapshots/room-creator-editable/tests/story_floor_ux.cjs"
+    },
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\rc0141-remediation\\Room_Creator_v0_14_1_remediation_candidate\\tests\\style_openings.test.js",
+      "bytes": 8522,
+      "sha256": "4b03154d68ed5f91db30acc204eedd5e86fd61a05afc8b330379395799187262",
+      "archive_path": "snapshots/room-creator-editable/tests/style_openings.test.js"
+    },
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\rc0141-remediation\\Room_Creator_v0_14_1_remediation_candidate\\tests\\style_openings_browser.py",
+      "bytes": 17431,
+      "sha256": "d22eeea08eaedd538ea401b0a1c4fc40fb279083c5677a7edc30af70734d3fd1",
+      "archive_path": "snapshots/room-creator-editable/tests/style_openings_browser.py"
+    },
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\rc0141-remediation\\Room_Creator_v0_14_1_remediation_candidate\\tests\\v06_materials_smoke.py",
+      "bytes": 2803,
+      "sha256": "85ee1517b949adbfe951169d75be2f846e4ce36a52fc50af909a08c0978cb9ce",
+      "archive_path": "snapshots/room-creator-editable/tests/v06_materials_smoke.py"
+    },
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\rc0141-remediation\\Room_Creator_v0_14_1_remediation_candidate\\tests\\v0_11_1_story_floor.test.js",
+      "bytes": 7412,
+      "sha256": "c6e7cc3243e4f4df17deaca59e7f58d89d6a75c57cb760dfb6df9eb9a30382d9",
+      "archive_path": "snapshots/room-creator-editable/tests/v0_11_1_story_floor.test.js"
+    },
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\rc0141-remediation\\Room_Creator_v0_14_1_remediation_candidate\\tests\\v0_11_1_story_floor_browser.cjs",
+      "bytes": 28088,
+      "sha256": "09b0b5523fcc712477f27f267a6f71e1ae54ed6a071b591d5bc14199f9f835c2",
+      "archive_path": "snapshots/room-creator-editable/tests/v0_11_1_story_floor_browser.cjs"
+    },
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\rc0141-remediation\\Room_Creator_v0_14_1_remediation_candidate\\tests\\v0_11_2_floor_placement_browser.cjs",
+      "bytes": 8480,
+      "sha256": "75ec19fbb67c96e2637b438d2a27b75cf5e231d1e2016d9991c0386dbdb655d7",
+      "archive_path": "snapshots/room-creator-editable/tests/v0_11_2_floor_placement_browser.cjs"
+    },
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\rc0141-remediation\\Room_Creator_v0_14_1_remediation_candidate\\tests\\v0_12_stories_rooms.test.js",
+      "bytes": 6595,
+      "sha256": "a076086729da48a76844baec9507f7ae56652d980eddcc2ce34116ccb8b5713e",
+      "archive_path": "snapshots/room-creator-editable/tests/v0_12_stories_rooms.test.js"
+    },
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\rc0141-remediation\\Room_Creator_v0_14_1_remediation_candidate\\tests\\v0_12_stories_rooms_browser.cjs",
+      "bytes": 9279,
+      "sha256": "dd97664c4ce7ac345ffb647b59054c3f15e5ac084453c530673987a76b5deb92",
+      "archive_path": "snapshots/room-creator-editable/tests/v0_12_stories_rooms_browser.cjs"
+    },
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\rc0141-remediation\\Room_Creator_v0_14_1_remediation_candidate\\tests\\verify_generated.cjs",
+      "bytes": 1281,
+      "sha256": "01de47ad9f4b60f3904ec79a4b2e4c4552fd8e2b1e6fcb2786f300fa34c367c3",
+      "archive_path": "snapshots/room-creator-editable/tests/verify_generated.cjs"
+    }
+  ],
+  "zant_contracts_data_validation": [
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\C001_ZANT_GATE_A_R5\\contract\\00_GATE_A_IMPLEMENTATION_PREFLIGHT.md",
+      "bytes": 53665,
+      "sha256": "4f63ab38c3d07b48aaf6f2411e849321383f9be1512ef6a45ad4bdec0bf9eac8",
+      "archive_path": "snapshots/zant-r5-editable/contract/00_GATE_A_IMPLEMENTATION_PREFLIGHT.md"
+    },
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\C001_ZANT_GATE_A_R5\\contract\\04_RECOMMENDED_ZANT_MODULAR_STANDARD_v0_1.md",
+      "bytes": 17059,
+      "sha256": "e730a47ce1aa6c388de035529ceb08197a3c38469ea77202b3628c748964a852",
+      "archive_path": "snapshots/zant-r5-editable/contract/04_RECOMMENDED_ZANT_MODULAR_STANDARD_v0_1.md"
+    },
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\C001_ZANT_GATE_A_R5\\contract\\05_FIRST_COMBINATORIAL_CHARACTER_PROOF_SPEC.md",
+      "bytes": 15576,
+      "sha256": "4da9cfef9b2e108c2bf20cc639f90ed1e2afdd4352aa3dd597af72fb2c86339e",
+      "archive_path": "snapshots/zant-r5-editable/contract/05_FIRST_COMBINATORIAL_CHARACTER_PROOF_SPEC.md"
+    },
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\C001_ZANT_GATE_A_R5\\contract\\A25_LOCK.json",
+      "bytes": 1399,
+      "sha256": "9baa48ae81928a88407840e43d8ca9cf6e72426c8a5885562742a5107ec68710",
+      "archive_path": "snapshots/zant-r5-editable/contract/A25_LOCK.json"
+    },
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\C001_ZANT_GATE_A_R5\\contract\\ACCEPTED_R4_NEUTRAL_LOCK.json",
+      "bytes": 3576,
+      "sha256": "e205da75079c50ec19e335325207a533e690114812833504cebdd205ecd9ae1f",
+      "archive_path": "snapshots/zant-r5-editable/contract/ACCEPTED_R4_NEUTRAL_LOCK.json"
+    },
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\C001_ZANT_GATE_A_R5\\contract\\INDEPENDENT_R3_REVIEW.md",
+      "bytes": 17577,
+      "sha256": "3d1e58a56d1dc32daffdef6a012974e085e4b747e63cd03e681cfead728aebdc",
+      "archive_path": "snapshots/zant-r5-editable/contract/INDEPENDENT_R3_REVIEW.md"
+    },
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\C001_ZANT_GATE_A_R5\\contract\\OWNER_APPROVAL_R3.md",
+      "bytes": 1294,
+      "sha256": "5611d1a85aa72b175f8541667924daff6ab472c5b44e347d7be6142c14f75bac",
+      "archive_path": "snapshots/zant-r5-editable/contract/OWNER_APPROVAL_R3.md"
+    },
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\C001_ZANT_GATE_A_R5\\contract\\OWNER_RESUME_AFTER_R4.md",
+      "bytes": 1005,
+      "sha256": "5ad8b39d298a17e615f960d1bc6b1172025a48da5dc9f35e263abeb31c693422",
+      "archive_path": "snapshots/zant-r5-editable/contract/OWNER_RESUME_AFTER_R4.md"
+    },
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\C001_ZANT_GATE_A_R5\\contract\\R4_AUTHORITY_AND_HOLD.md",
+      "bytes": 1809,
+      "sha256": "d59db8155bc43557a665c22aa9d592c49224d7784c73198dcac26aaf22e3b393",
+      "archive_path": "snapshots/zant-r5-editable/contract/R4_AUTHORITY_AND_HOLD.md"
+    },
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\C001_ZANT_GATE_A_R5\\contract\\R4_CONTINUED_CLEANUP_AUTHORITY.md",
+      "bytes": 1023,
+      "sha256": "e26976f4ea51638fb8a0d2a2f03ca9825d5ce872fccf777974670f905187ed03",
+      "archive_path": "snapshots/zant-r5-editable/contract/R4_CONTINUED_CLEANUP_AUTHORITY.md"
+    },
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\C001_ZANT_GATE_A_R5\\contract\\R4_SHOULDER_FINISH_AUTHORITY.md",
+      "bytes": 977,
+      "sha256": "d9112f4b59b91efbdf1a3b698d9e1012beb0655f48882ea775c91f69a85740aa",
+      "archive_path": "snapshots/zant-r5-editable/contract/R4_SHOULDER_FINISH_AUTHORITY.md"
+    },
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\C001_ZANT_GATE_A_R5\\data\\calibration.json",
+      "bytes": 1686,
+      "sha256": "fad31334fef28eee4a0b71bbf28e5a695e2e19c5959ab06815946cca312e300f",
+      "archive_path": "snapshots/zant-r5-editable/data/calibration.json"
+    },
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\C001_ZANT_GATE_A_R5\\data\\interfaces_neutral.json",
+      "bytes": 2606,
+      "sha256": "6beaaedd93c4485fd9cc25242d7a940b63586ca48aef1c4eabe5595ee63915e7",
+      "archive_path": "snapshots/zant-r5-editable/data/interfaces_neutral.json"
+    },
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\C001_ZANT_GATE_A_R5\\data\\neutral_recipes.json",
+      "bytes": 1546,
+      "sha256": "c54a510b86859257e12b398f348ecf91752f08e1012171affe22c84638342682",
+      "archive_path": "snapshots/zant-r5-editable/data/neutral_recipes.json"
+    },
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\C001_ZANT_GATE_A_R5\\data\\pilot_recipes.json",
+      "bytes": 2841,
+      "sha256": "e04cb98c9f58d6868721fbba19df6b43cd55a0aaddadf6c48e4e659e9241674d",
+      "archive_path": "snapshots/zant-r5-editable/data/pilot_recipes.json"
+    },
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\C001_ZANT_GATE_A_R5\\data\\required_matrix.json",
+      "bytes": 66251,
+      "sha256": "0a95ee4950cf69bb913de78f041b35abd75782c6598639557658d1fa6abdd96c",
+      "archive_path": "snapshots/zant-r5-editable/data/required_matrix.json"
+    },
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\C001_ZANT_GATE_A_R5\\data\\run_state.json",
+      "bytes": 669,
+      "sha256": "40bc23c93ae61b1308a574a4c49e334e7b996e58a88f177dff1661bbff48d73a",
+      "archive_path": "snapshots/zant-r5-editable/data/run_state.json"
+    },
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\C001_ZANT_GATE_A_R5\\data\\surface_ledger.json",
+      "bytes": 7319,
+      "sha256": "afddc6657c323044e8b9352df3c08fef7cf37ce0a563d8dbc6bf3efe6bab3fc1",
+      "archive_path": "snapshots/zant-r5-editable/data/surface_ledger.json"
+    },
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\C001_ZANT_GATE_A_R5\\validation\\A16_RGB_changes_from_source_seed.csv",
+      "bytes": 364708,
+      "sha256": "50bb8397c3388c08e68d5a366b9384dd3e7fc46b063d94755d3b69551025c622",
+      "archive_path": "snapshots/zant-r5-editable/validation/A16_RGB_changes_from_source_seed.csv"
+    },
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\C001_ZANT_GATE_A_R5\\validation\\G_L_failed_wrist_measurement.json",
+      "bytes": 427,
+      "sha256": "00ff27e62fafb3438976905ffbbf5ad51668937d1cf61a3481694cbbc47f0d63",
+      "archive_path": "snapshots/zant-r5-editable/validation/G_L_failed_wrist_measurement.json"
+    },
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\C001_ZANT_GATE_A_R5\\validation\\matrix_execution_summary.json",
+      "bytes": 461,
+      "sha256": "f82b866b3708ba2275db2a9db6e5718d7fb93e644cfa27cbdff2d6f0a6576a2b",
+      "archive_path": "snapshots/zant-r5-editable/validation/matrix_execution_summary.json"
+    },
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\C001_ZANT_GATE_A_R5\\validation\\preservation_baseline.json",
+      "bytes": 520800,
+      "sha256": "35b0d50412f0966fd88b9d6572770432aec54d21ec4c654f66f075d7f336bc96",
+      "archive_path": "snapshots/zant-r5-editable/validation/preservation_baseline.json"
+    },
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\C001_ZANT_GATE_A_R5\\validation\\preservation_results.json",
+      "bytes": 831,
+      "sha256": "b0a93c8c4c7ac60cf8aae485bc23c11e131a010186ea7bf2cc785e89568011e6",
+      "archive_path": "snapshots/zant-r5-editable/validation/preservation_results.json"
+    },
+    {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\C001_ZANT_GATE_A_R5\\validation\\verify_checkpoint.py",
+      "bytes": 11955,
+      "sha256": "078a44568cf916ec8cc8d11711b020e8c60ee1ae117281762616e9b867d236bc",
+      "archive_path": "snapshots/zant-r5-editable/validation/verify_checkpoint.py"
+    }
+  ],
+  "zant_accepted_neutral_lock": {
+    "acceptedCandidate": "C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_02",
+    "ownerAcceptance": "2026-10-18 explicit owner acceptance, including A16 authored waist/upper-pants treatment",
+    "status": "OWNER_ACCEPTED_FROZEN_NEUTRAL",
+    "A25": "prior accepted R2, unchanged RGB/alpha/registration",
+    "A16": "accepted authored proposal; not wholly source-exact RGB",
+    "files": {
+      "assets/A01_skin_neck.png": {
+        "bytes": 31480,
+        "sha256": "65bc822a519c7a3f8ae4af5614513786e11e56b4fe1dda78c06849bfcd78513c"
+      },
+      "assets/A02_tee_torso.png": {
+        "bytes": 245343,
+        "sha256": "a54b14ee20c4a0bf15035158c2f0c94e5c94cfa1c6c50f67462dc486ac03237e"
+      },
+      "assets/A03_jacket_open_torso.png": {
+        "bytes": 200536,
+        "sha256": "bdcc357af525e589c462828fbfe717cf5ba0e64e926ae8ebb547c44d616e2f1c"
+      },
+      "assets/A04_tee_arm_L_N.png": {
+        "bytes": 82035,
+        "sha256": "17d27eca4cfee3852e1489b962d378cd1e9ee5f3a4fcedca85b3f0a75fdcaf37"
+      },
+      "assets/A05_tee_arm_R_N.png": {
+        "bytes": 84094,
+        "sha256": "05345f49a3145b54d47798fc313ce4b66ee330ca2c456688f8b048cdd080a43a"
+      },
+      "assets/A08_jacket_arm_L_N.png": {
+        "bytes": 82934,
+        "sha256": "3e09100330dfb8e56d6464524b2351468d001439813cd876dee337926e2ccf6d"
+      },
+      "assets/A09_jacket_arm_R_N.png": {
+        "bytes": 77963,
+        "sha256": "f317de66dd6829527d3ff7407770be6f84524f65e687710aac8f07a0bdf748a8"
+      },
+      "assets/A12_hand_L_N.png": {
+        "bytes": 19773,
+        "sha256": "0710aa6f9c1017abc0c6fe35ed3c10ac17017ebcc67e21763bbbac0861d58833"
+      },
+      "assets/A13_hand_R_N.png": {
+        "bytes": 19704,
+        "sha256": "7d31c4e20a1fb06dc2bb493ab93e4dfd03156225ac5946f52207479ff295b1cf"
+      },
+      "assets/A16_pants_pelvis_NN.png": {
+        "bytes": 82083,
+        "sha256": "23ad2c87efb724bb4c747d13d4bd76c49f4c411e5517c6f59f44f1de000008c7"
+      },
+      "assets/A17_pants_leg_L_N.png": {
+        "bytes": 112837,
+        "sha256": "0e6899ecff7c19adb4ed730a60542f582a41242a72ac162a0a1d6bec8d0f4bce"
+      },
+      "assets/A18_pants_leg_R_N.png": {
+        "bytes": 110300,
+        "sha256": "3929c09128b0ff45f9c4a14a3252566423ea313df20bdfe707de0b0209c77740"
+      },
+      "assets/A21_sneaker_L_N.png": {
+        "bytes": 34539,
+        "sha256": "6ab77f1755780b3918f0b7b336d5697c1611f402670e032fbc4f62ecdbdd49a9"
+      },
+      "assets/A22_sneaker_R_N.png": {
+        "bytes": 35001,
+        "sha256": "3525c647412a04f5c9b193415ab00bd34af1164645cfc51d36c21dfb9431b8d6"
+      },
+      "assets/A25_head_front_neutral_rgba.png": {
+        "bytes": 45116,
+        "sha256": "f57ca9e06a203810c3a7f5d9e4c94bf6ecb9f5a2ff83d74b27eff62b4fbba724"
+      },
+      "assets/A25_head_front_silhouette.png": {
+        "bytes": 2080,
+        "sha256": "37e11415f639cf8fa3634ca066bdf718ede06c77acff2121fb79441e62104052"
+      },
+      "data/calibration.json": {
+        "bytes": 1686,
+        "sha256": "fad31334fef28eee4a0b71bbf28e5a695e2e19c5959ab06815946cca312e300f"
+      },
+      "data/interfaces_neutral.json": {
+        "bytes": 2606,
+        "sha256": "6beaaedd93c4485fd9cc25242d7a940b63586ca48aef1c4eabe5595ee63915e7"
+      },
+      "data/neutral_recipes.json": {
+        "bytes": 1546,
+        "sha256": "c54a510b86859257e12b398f348ecf91752f08e1012171affe22c84638342682"
+      },
+      "contract/A25_LOCK.json": {
+        "bytes": 1399,
+        "sha256": "9baa48ae81928a88407840e43d8ca9cf6e72426c8a5885562742a5107ec68710"
+      }
+    },
+    "fixedNeutralCoordinates": true,
+    "newPoseMustAttachWithoutNeutralRevision": true,
+    "reserveUseAtAcceptance": 0
+  }
+}

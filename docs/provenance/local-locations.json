@@ -1,0 +1,8 @@
+{
+  "schema": "first-encounter-local-locations@1",
+  "source_root": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game",
+  "former_audit_source_root": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc",
+  "repository_root": "C:\\Users\\mcdon\\Documents\\GitHub\\First-Encounter-Game",
+  "private_archive_root": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\pre-migration-2026-10-18-stages-0-3",
+  "recovery": "Use relative archive paths plus manifest hashes; do not rely on former absolute paths embedded in historical files. All historical files are preserved unchanged."
+}

@@ -1,0 +1,863 @@
+{
+  "schema": "first-encounter-artifact-catalog@1",
+  "archive_root": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\pre-migration-2026-10-18-stages-0-3",
+  "note": "Metadata only. Historical claims remain preserved; current disposition is in source-authority.json. Inventory of all 6722 preserved files remains external.",
+  "artifacts": [
+    {
+      "id": "artifact-001",
+      "classification": "checkpoint_test_evidence_or_report",
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\AR0_D01_Diagnostic.json",
+      "bytes": 1002,
+      "sha256": "a8a2286802b3261b6f574c8e7310d316685cbec61c39fd10d2f3f4a1e01c78f0",
+      "archive_path": "artifacts/encounter-deliverables/AR0_D01_Diagnostic.json"
+    },
+    {
+      "id": "artifact-002",
+      "classification": "checkpoint_test_evidence_or_report",
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\AR0_D01_Independent_Reproducer.test.mjs",
+      "bytes": 2655,
+      "sha256": "63021c0901cb74188a6cc8c696a00a3c119e8b668dd89a424d52d9ecc0ec4a14",
+      "archive_path": "artifacts/encounter-deliverables/AR0_D01_Independent_Reproducer.test.mjs"
+    },
+    {
+      "id": "artifact-003",
+      "classification": "checkpoint_test_evidence_or_report",
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\AR0_D01_Player_Proof.md",
+      "bytes": 92918,
+      "sha256": "ba5f8acc48c0f43046565d3e649c19de60679ddaf8a1f4bab428dbaf5e498d0d",
+      "archive_path": "artifacts/encounter-deliverables/AR0_D01_Player_Proof.md"
+    },
+    {
+      "id": "artifact-004",
+      "classification": "checkpoint_test_evidence_or_report",
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\AR0_Independent_Contract_Tests.test.mjs",
+      "bytes": 17807,
+      "sha256": "3cde4dac1f8ad46068fbc6058292542774d884b719ec051e5dc5f875967010fa",
+      "archive_path": "artifacts/encounter-deliverables/AR0_Independent_Contract_Tests.test.mjs"
+    },
+    {
+      "id": "artifact-005",
+      "classification": "checkpoint_test_evidence_or_report",
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\AR0_Independent_Player_Recovery_Proof.md",
+      "bytes": 157054,
+      "sha256": "ce36b198e449d7cb1624263b0f4e65c41bf26341beb8133b8736f973769cadb9",
+      "archive_path": "artifacts/encounter-deliverables/AR0_Independent_Player_Recovery_Proof.md"
+    },
+    {
+      "id": "artifact-006",
+      "classification": "checkpoint_test_evidence_or_report",
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\AR0_Independent_Test_Evidence.identity.json",
+      "bytes": 475,
+      "sha256": "b4aeebf89e0e11c3757d9032a1376e2be5889c994b89fdaf3a1fd631c08868c6",
+      "archive_path": "artifacts/encounter-deliverables/AR0_Independent_Test_Evidence.identity.json"
+    },
+    {
+      "id": "artifact-007",
+      "classification": "checkpoint_test_evidence_or_report",
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\AR0_Independent_Test_Evidence.zip",
+      "bytes": 110396074,
+      "sha256": "88a8484fff91c7464e4a69362d5b794bd9ad8a14485f2f71c91a4042118f61e7",
+      "archive_path": "artifacts/encounter-deliverables/AR0_Independent_Test_Evidence.zip"
+    },
+    {
+      "id": "artifact-008",
+      "classification": "checkpoint_test_evidence_or_report",
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\AR0_Independent_Test_Report.md",
+      "bytes": 19986,
+      "sha256": "6c788ca98d1ab6fccb25d0e2731278f8681fd285e1d4c766faa9900d03318e7c",
+      "archive_path": "artifacts/encounter-deliverables/AR0_Independent_Test_Report.md"
+    },
+    {
+      "id": "artifact-009",
+      "classification": "checkpoint_test_evidence_or_report",
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\AR0_M3_Recovery_Regression.jpg",
+      "bytes": 72457,
+      "sha256": "daf5278ac93101acea9d733845c8957bd97912e6b02410f180fa73b7f4f1b1b6",
+      "archive_path": "artifacts/encounter-deliverables/AR0_M3_Recovery_Regression.jpg"
+    },
+    {
+      "id": "artifact-010",
+      "classification": "checkpoint_test_evidence_or_report",
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\AR0_R1_Independent_Adversarial_Tests.test.mjs",
+      "bytes": 11494,
+      "sha256": "8d774f682a89ef8caec59a6f34a172d01f869481acf5f79be21a5329960d1bdb",
+      "archive_path": "artifacts/encounter-deliverables/AR0_R1_Independent_Adversarial_Tests.test.mjs"
+    },
+    {
+      "id": "artifact-011",
+      "classification": "checkpoint_test_evidence_or_report",
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\AR0_R1_Independent_Test_Evidence.identity.json",
+      "bytes": 505,
+      "sha256": "b9b1819d71639e99dfb2bcf2340c7e695e5940891f6f61ab75704acf2503631b",
+      "archive_path": "artifacts/encounter-deliverables/AR0_R1_Independent_Test_Evidence.identity.json"
+    },
+    {
+      "id": "artifact-012",
+      "classification": "checkpoint_test_evidence_or_report",
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\AR0_R1_Independent_Test_Evidence.zip",
+      "bytes": 220200822,
+      "sha256": "97e4640d6dc3ef8c47174ecb74ba60b2a29f7b5efdbada8e32fbe5fcf5667295",
+      "archive_path": "artifacts/encounter-deliverables/AR0_R1_Independent_Test_Evidence.zip"
+    },
+    {
+      "id": "artifact-013",
+      "classification": "checkpoint_test_evidence_or_report",
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\AR0_R1_Independent_Test_Report.md",
+      "bytes": 14308,
+      "sha256": "c15d5b31f925f284a167ec61936800bbf2a4b7f4ab86112072195556607fdd85",
+      "archive_path": "artifacts/encounter-deliverables/AR0_R1_Independent_Test_Report.md"
+    },
+    {
+      "id": "artifact-014",
+      "classification": "checkpoint_test_evidence_or_report",
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\AR0_R1_M3_Recovery_Regression.jpg",
+      "bytes": 95034,
+      "sha256": "920e59483e83eedf52a3b9433cab8b81c907e95f66a68fac1491a54b3781fc4d",
+      "archive_path": "artifacts/encounter-deliverables/AR0_R1_M3_Recovery_Regression.jpg"
+    },
+    {
+      "id": "artifact-015",
+      "classification": "checkpoint_test_evidence_or_report",
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\ATLAS_A1_Independent_Adversarial_Tests.test.mjs",
+      "bytes": 17723,
+      "sha256": "c0f2a489d76a64c2cec161917f995837b1ca10646c95da63b52aee8730190ed6",
+      "archive_path": "artifacts/encounter-deliverables/ATLAS_A1_Independent_Adversarial_Tests.test.mjs"
+    },
+    {
+      "id": "artifact-016",
+      "classification": "checkpoint_test_evidence_or_report",
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\ATLAS_A1_Independent_Source_Inspection.jpg",
+      "bytes": 60845,
+      "sha256": "901b39145f93a2cbc27ff30e837ebbff257408d46f8dafb1830db0857d92d3b1",
+      "archive_path": "artifacts/encounter-deliverables/ATLAS_A1_Independent_Source_Inspection.jpg"
+    },
+    {
+      "id": "artifact-017",
+      "classification": "checkpoint_test_evidence_or_report",
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\ATLAS_A1_Independent_Test_Evidence.identity.json",
+      "bytes": 682,
+      "sha256": "cbd54a6725ccf655cbc5bd93b6124d399d28668bf398d1ff0ade24253b5dac47",
+      "archive_path": "artifacts/encounter-deliverables/ATLAS_A1_Independent_Test_Evidence.identity.json"
+    },
+    {
+      "id": "artifact-018",
+      "classification": "checkpoint_test_evidence_or_report",
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\ATLAS_A1_Independent_Test_Evidence.zip",
+      "bytes": 335148969,
+      "sha256": "f3b8a395cc458e56c2c606008c4dd3eb930a5d4b1f0af44006f00c6dc442ede4",
+      "archive_path": "artifacts/encounter-deliverables/ATLAS_A1_Independent_Test_Evidence.zip"
+    },
+    {
+      "id": "artifact-019",
+      "classification": "checkpoint_test_evidence_or_report",
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\ATLAS_A1_Independent_Test_Report.md",
+      "bytes": 16382,
+      "sha256": "eefe1d404f82204d212f8c1ee8dfe978086482953bcd9f19cf5774392640e182",
+      "archive_path": "artifacts/encounter-deliverables/ATLAS_A1_Independent_Test_Report.md"
+    },
+    {
+      "id": "artifact-020",
+      "classification": "checkpoint_test_evidence_or_report",
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\Atlas_A1_Person_Source_Inspection_Checkpoint.identity.json",
+      "bytes": 539635,
+      "sha256": "5d97942b21b7daece6240af136f32d47fc4f14d523ade29b655267bb7cfab00a",
+      "archive_path": "artifacts/encounter-deliverables/Atlas_A1_Person_Source_Inspection_Checkpoint.identity.json"
+    },
+    {
+      "id": "artifact-021",
+      "classification": "checkpoint_test_evidence_or_report",
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\Atlas_A1_Person_Source_Inspection_Checkpoint.zip",
+      "bytes": 116945619,
+      "sha256": "867f3278e3d6a09937b43503c2b886724dd21593533c1ae929c858f970acd72e",
+      "archive_path": "artifacts/encounter-deliverables/Atlas_A1_Person_Source_Inspection_Checkpoint.zip"
+    },
+    {
+      "id": "artifact-022",
+      "classification": "checkpoint_test_evidence_or_report",
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\Atlas_A1_Person_Source_Inspection_Checkpoint_Verification.json",
+      "bytes": 4786,
+      "sha256": "82637171f007fb2e86ecd04c73368a9d269db9197b7a21c030fa424b4fd4877d",
+      "archive_path": "artifacts/encounter-deliverables/Atlas_A1_Person_Source_Inspection_Checkpoint_Verification.json"
+    },
+    {
+      "id": "artifact-023",
+      "classification": "checkpoint_test_evidence_or_report",
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\Encounter_AR0_Atlas_Readiness_Checkpoint.identity.json",
+      "bytes": 347576,
+      "sha256": "7cc8bfa1989bd15cc913702c6247de9bd5d41822e9629e6053bf88f09a55e6e7",
+      "archive_path": "artifacts/encounter-deliverables/Encounter_AR0_Atlas_Readiness_Checkpoint.identity.json"
+    },
+    {
+      "id": "artifact-024",
+      "classification": "checkpoint_test_evidence_or_report",
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\Encounter_AR0_Atlas_Readiness_Checkpoint.zip",
+      "bytes": 103359835,
+      "sha256": "d028b50107d639ade1ab31a1a68f5e70eaf8ebdc3a401f0abac9b9c2caa51828",
+      "archive_path": "artifacts/encounter-deliverables/Encounter_AR0_Atlas_Readiness_Checkpoint.zip"
+    },
+    {
+      "id": "artifact-025",
+      "classification": "checkpoint_test_evidence_or_report",
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\Encounter_AR0_Atlas_Readiness_Checkpoint_R1.identity.json",
+      "bytes": 451005,
+      "sha256": "2653033ab0cc8ed918d0a1dd595e90b2b78da19ab90aaa551b8c14b286b5b288",
+      "archive_path": "artifacts/encounter-deliverables/Encounter_AR0_Atlas_Readiness_Checkpoint_R1.identity.json"
+    },
+    {
+      "id": "artifact-026",
+      "classification": "checkpoint_test_evidence_or_report",
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\Encounter_AR0_Atlas_Readiness_Checkpoint_R1.zip",
+      "bytes": 110840429,
+      "sha256": "f5566fdcfa82dc8aaee9378d7a0e894f10a4a2342100b7665cbd1c23e26e72da",
+      "archive_path": "artifacts/encounter-deliverables/Encounter_AR0_Atlas_Readiness_Checkpoint_R1.zip"
+    },
+    {
+      "id": "artifact-027",
+      "classification": "checkpoint_test_evidence_or_report",
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\Encounter_AR0_Atlas_Readiness_Checkpoint_R1_Verification.json",
+      "bytes": 6046,
+      "sha256": "dae76df353871ec46b774afd5a77ec7ca5ea74cc09164aa28f921a2b1ab3e260",
+      "archive_path": "artifacts/encounter-deliverables/Encounter_AR0_Atlas_Readiness_Checkpoint_R1_Verification.json"
+    },
+    {
+      "id": "artifact-028",
+      "classification": "checkpoint_test_evidence_or_report",
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\Encounter_AR0_Atlas_Readiness_Checkpoint_Verification.json",
+      "bytes": 2307,
+      "sha256": "09c240d12e04b7eb5bb71413fcfb61ea12d6e22eddaa09148df5754b2e0d581e",
+      "archive_path": "artifacts/encounter-deliverables/Encounter_AR0_Atlas_Readiness_Checkpoint_Verification.json"
+    },
+    {
+      "id": "artifact-029",
+      "classification": "checkpoint_test_evidence_or_report",
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\Encounter_M3_Checkpoint.identity.json",
+      "bytes": 33250,
+      "sha256": "d025fe33a6a2773e88e249ce3c624280fca70921c8f541617ec8e92d4302abf4",
+      "archive_path": "artifacts/encounter-deliverables/Encounter_M3_Checkpoint.identity.json"
+    },
+    {
+      "id": "artifact-030",
+      "classification": "checkpoint_test_evidence_or_report",
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\Encounter_M3_Checkpoint.zip",
+      "bytes": 7534657,
+      "sha256": "de808fbdbf6929c5c9cf7915ea982086d5796c7c004b16ec0a882e58170f3b64",
+      "archive_path": "artifacts/encounter-deliverables/Encounter_M3_Checkpoint.zip"
+    },
+    {
+      "id": "artifact-031",
+      "classification": "checkpoint_test_evidence_or_report",
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\Encounter_M3_Checkpoint_R1.identity.json",
+      "bytes": 114576,
+      "sha256": "14ec8df2a70645cb0e955e1a626b951254050c95a2bf875f0c694b2ae3cf6c17",
+      "archive_path": "artifacts/encounter-deliverables/Encounter_M3_Checkpoint_R1.identity.json"
+    },
+    {
+      "id": "artifact-032",
+      "classification": "checkpoint_test_evidence_or_report",
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\Encounter_M3_Checkpoint_R1.zip",
+      "bytes": 28146000,
+      "sha256": "f7afae2bfa1b75a4a8ec3e2ded09a7845671dbfb0ca9fc5ad487c655c6a68ed4",
+      "archive_path": "artifacts/encounter-deliverables/Encounter_M3_Checkpoint_R1.zip"
+    },
+    {
+      "id": "artifact-033",
+      "classification": "checkpoint_test_evidence_or_report",
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\Encounter_M3_Checkpoint_R1_Verification.json",
+      "bytes": 10675,
+      "sha256": "21145793db4244b36852dd00f5f57f6596e8454822c8b5c254f24e41ea07f20c",
+      "archive_path": "artifacts/encounter-deliverables/Encounter_M3_Checkpoint_R1_Verification.json"
+    },
+    {
+      "id": "artifact-034",
+      "classification": "checkpoint_test_evidence_or_report",
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\Encounter_M3_Checkpoint_R2.identity.json",
+      "bytes": 227686,
+      "sha256": "4172728753ef8cc04c693ee1f7d9533015f3d073fc72c8136fd05c34eac9e844",
+      "archive_path": "artifacts/encounter-deliverables/Encounter_M3_Checkpoint_R2.identity.json"
+    },
+    {
+      "id": "artifact-035",
+      "classification": "checkpoint_test_evidence_or_report",
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\Encounter_M3_Checkpoint_R2.zip",
+      "bytes": 94187091,
+      "sha256": "c3c866834b64aebc573b42e2839e173bed486cdc8125a0287ddcd952f43a1a10",
+      "archive_path": "artifacts/encounter-deliverables/Encounter_M3_Checkpoint_R2.zip"
+    },
+    {
+      "id": "artifact-036",
+      "classification": "checkpoint_test_evidence_or_report",
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\Encounter_M3_Checkpoint_R2_Verification.json",
+      "bytes": 18373,
+      "sha256": "77226b761f86d5ea9333752c6fb6e96d94ff4894fead145574452b026e70f8f6",
+      "archive_path": "artifacts/encounter-deliverables/Encounter_M3_Checkpoint_R2_Verification.json"
+    },
+    {
+      "id": "artifact-037",
+      "classification": "checkpoint_test_evidence_or_report",
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\Encounter_M3_Checkpoint_R3.identity.json",
+      "bytes": 281453,
+      "sha256": "4a2805485681ab4f61f8804cd9e3565104e83eea138a7551ec515adc1369aea9",
+      "archive_path": "artifacts/encounter-deliverables/Encounter_M3_Checkpoint_R3.identity.json"
+    },
+    {
+      "id": "artifact-038",
+      "classification": "checkpoint_test_evidence_or_report",
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\Encounter_M3_Checkpoint_R3.zip",
+      "bytes": 98549633,
+      "sha256": "615ddc79e0f7bd8d903411401360fc321b7b916abcc69dc974e9673fd0e74c87",
+      "archive_path": "artifacts/encounter-deliverables/Encounter_M3_Checkpoint_R3.zip"
+    },
+    {
+      "id": "artifact-039",
+      "classification": "checkpoint_test_evidence_or_report",
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\Encounter_M3_Checkpoint_R3_Verification.json",
+      "bytes": 2140,
+      "sha256": "31df98aa4d38614d6cd5b9b3d1051b28184b0b082d41bff7c7a37c59563bff60",
+      "archive_path": "artifacts/encounter-deliverables/Encounter_M3_Checkpoint_R3_Verification.json"
+    },
+    {
+      "id": "artifact-040",
+      "classification": "checkpoint_test_evidence_or_report",
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\Encounter_M3_Checkpoint_Verification.json",
+      "bytes": 7925,
+      "sha256": "d7ce5a698558d39ccf4dacb2363005d75a5d04f0eeb62bb272822c54d8a7c2bc",
+      "archive_path": "artifacts/encounter-deliverables/Encounter_M3_Checkpoint_Verification.json"
+    },
+    {
+      "id": "artifact-041",
+      "classification": "checkpoint_test_evidence_or_report",
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\M3_D01_Closure_Result.jpg",
+      "bytes": 93007,
+      "sha256": "bc5b778877a5b11465f3afab8bcfdbe3b9e27b6f3b72e28716990bb65e9f42ec",
+      "archive_path": "artifacts/encounter-deliverables/M3_D01_Closure_Result.jpg"
+    },
+    {
+      "id": "artifact-042",
+      "classification": "checkpoint_test_evidence_or_report",
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\M3_D01_Invisible_Notice.jpg",
+      "bytes": 96740,
+      "sha256": "12ac17cfa448fdaf48a7b2dac3b4d924eeb757066fc814ca733ecb7344f1ea78",
+      "archive_path": "artifacts/encounter-deliverables/M3_D01_Invisible_Notice.jpg"
+    },
+    {
+      "id": "artifact-043",
+      "classification": "checkpoint_test_evidence_or_report",
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\M3_Independent_Test_Evidence.identity.json",
+      "bytes": 266,
+      "sha256": "9878c4c9ec76b7d817f2d3fc3461a8a39a01284577b46b8e9567ce511489baf9",
+      "archive_path": "artifacts/encounter-deliverables/M3_Independent_Test_Evidence.identity.json"
+    },
+    {
+      "id": "artifact-044",
+      "classification": "checkpoint_test_evidence_or_report",
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\M3_Independent_Test_Evidence.zip",
+      "bytes": 9585471,
+      "sha256": "f0a74427cf3ca724dedbc3887f570338ae56aa633bf09856dbcc0064ac05bcf2",
+      "archive_path": "artifacts/encounter-deliverables/M3_Independent_Test_Evidence.zip"
+    },
+    {
+      "id": "artifact-045",
+      "classification": "checkpoint_test_evidence_or_report",
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\M3_Independent_Test_Report.md",
+      "bytes": 20316,
+      "sha256": "5720f2e7ba4320c17d92fa20f9856cc36aa0eb37e262e3786785c405dac5284d",
+      "archive_path": "artifacts/encounter-deliverables/M3_Independent_Test_Report.md"
+    },
+    {
+      "id": "artifact-046",
+      "classification": "checkpoint_test_evidence_or_report",
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\M3_Normal_Closure_Preview.jpg",
+      "bytes": 81334,
+      "sha256": "c7bbd25c160217f534137b77a396bbd5dca708b6c2caf62a9c9d0ded561d120b",
+      "archive_path": "artifacts/encounter-deliverables/M3_Normal_Closure_Preview.jpg"
+    },
+    {
+      "id": "artifact-047",
+      "classification": "checkpoint_test_evidence_or_report",
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\M3_R1_D02_Closure_Result.jpg",
+      "bytes": 73687,
+      "sha256": "d79f8c77d7a27ed4623af6f2cb7f4bf9326b06ac4922a426d7d3df7c6f11c0ee",
+      "archive_path": "artifacts/encounter-deliverables/M3_R1_D02_Closure_Result.jpg"
+    },
+    {
+      "id": "artifact-048",
+      "classification": "checkpoint_test_evidence_or_report",
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\M3_R1_D02_Offscreen_Notice.jpg",
+      "bytes": 80130,
+      "sha256": "6de31704b7369890e2220da94420d945026902dd66f510c1b1e79e66ecab2f57",
+      "archive_path": "artifacts/encounter-deliverables/M3_R1_D02_Offscreen_Notice.jpg"
+    },
+    {
+      "id": "artifact-049",
+      "classification": "checkpoint_test_evidence_or_report",
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\M3_R1_Independent_Rendering_Tests.test.mjs",
+      "bytes": 6736,
+      "sha256": "ce0a357be52bf78bd48429c477ba1fbea2d9c2079087bd7e8616801afa0070b4",
+      "archive_path": "artifacts/encounter-deliverables/M3_R1_Independent_Rendering_Tests.test.mjs"
+    },
+    {
+      "id": "artifact-050",
+      "classification": "checkpoint_test_evidence_or_report",
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\M3_R1_Independent_Test_Evidence.identity.json",
+      "bytes": 212,
+      "sha256": "04506591aa96f6ea3d469f7df4800218fa4d585f3e302c61881fcba913cf39d3",
+      "archive_path": "artifacts/encounter-deliverables/M3_R1_Independent_Test_Evidence.identity.json"
+    },
+    {
+      "id": "artifact-051",
+      "classification": "checkpoint_test_evidence_or_report",
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\M3_R1_Independent_Test_Evidence.zip",
+      "bytes": 32037187,
+      "sha256": "b4c3ad7c3dd1a6adaf143139a9ae6e4bcb82d3f33c069ef43141dd3b362490f7",
+      "archive_path": "artifacts/encounter-deliverables/M3_R1_Independent_Test_Evidence.zip"
+    },
+    {
+      "id": "artifact-052",
+      "classification": "checkpoint_test_evidence_or_report",
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\M3_R1_Independent_Test_Report.md",
+      "bytes": 15587,
+      "sha256": "a4d5e979c9ebbeb6b1290b15902151ed47aae24f02bbe26141bbe5e958139309",
+      "archive_path": "artifacts/encounter-deliverables/M3_R1_Independent_Test_Report.md"
+    },
+    {
+      "id": "artifact-053",
+      "classification": "checkpoint_test_evidence_or_report",
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\M3_R1_Visible_Notice_Control.jpg",
+      "bytes": 81334,
+      "sha256": "c7bbd25c160217f534137b77a396bbd5dca708b6c2caf62a9c9d0ded561d120b",
+      "archive_path": "artifacts/encounter-deliverables/M3_R1_Visible_Notice_Control.jpg"
+    },
+    {
+      "id": "artifact-054",
+      "classification": "checkpoint_test_evidence_or_report",
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\M3_R2_D03_Closure_Result.jpg",
+      "bytes": 73863,
+      "sha256": "b2f506666ddb13b12f13df315a3748e9d302a78c87abdf243225a16e3c64cdad",
+      "archive_path": "artifacts/encounter-deliverables/M3_R2_D03_Closure_Result.jpg"
+    },
+    {
+      "id": "artifact-055",
+      "classification": "checkpoint_test_evidence_or_report",
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\M3_R2_D03_Invisible_Notice.jpg",
+      "bytes": 72860,
+      "sha256": "11b0bbeaf08b9d9c4636c93447761ba5e044a503300731c02ea51069a51c6db4",
+      "archive_path": "artifacts/encounter-deliverables/M3_R2_D03_Invisible_Notice.jpg"
+    },
+    {
+      "id": "artifact-056",
+      "classification": "checkpoint_test_evidence_or_report",
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\M3_R2_Independent_Rendering_Tests.test.mjs",
+      "bytes": 6397,
+      "sha256": "9e26487db05059cab7b5c7456ca3adc31c2aa7c43ae7d442238a32b15da8740c",
+      "archive_path": "artifacts/encounter-deliverables/M3_R2_Independent_Rendering_Tests.test.mjs"
+    },
+    {
+      "id": "artifact-057",
+      "classification": "checkpoint_test_evidence_or_report",
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\M3_R2_Independent_Test_Evidence.identity.json",
+      "bytes": 353,
+      "sha256": "3742bfac1ef026398ef949ab364b224eeba2cd93bee6d65fa2be675c400492fe",
+      "archive_path": "artifacts/encounter-deliverables/M3_R2_Independent_Test_Evidence.identity.json"
+    },
+    {
+      "id": "artifact-058",
+      "classification": "checkpoint_test_evidence_or_report",
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\M3_R2_Independent_Test_Evidence.zip",
+      "bytes": 106738526,
+      "sha256": "38c47ea52edb952ec618618c52d6dba6d0985d89b1033b960745e2bc306f5446",
+      "archive_path": "artifacts/encounter-deliverables/M3_R2_Independent_Test_Evidence.zip"
+    },
+    {
+      "id": "artifact-059",
+      "classification": "checkpoint_test_evidence_or_report",
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\M3_R2_Independent_Test_Report.md",
+      "bytes": 18442,
+      "sha256": "12fe471aac15dcaf6523a1cc129808ff766c483a23dad6403012228793a91a86",
+      "archive_path": "artifacts/encounter-deliverables/M3_R2_Independent_Test_Report.md"
+    },
+    {
+      "id": "artifact-060",
+      "classification": "checkpoint_test_evidence_or_report",
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\M3_R2_Visible_Notice_Control.jpg",
+      "bytes": 81334,
+      "sha256": "c7bbd25c160217f534137b77a396bbd5dca708b6c2caf62a9c9d0ded561d120b",
+      "archive_path": "artifacts/encounter-deliverables/M3_R2_Visible_Notice_Control.jpg"
+    },
+    {
+      "id": "artifact-061",
+      "classification": "checkpoint_test_evidence_or_report",
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\M3_R3_Collapsed_Notice.jpg",
+      "bytes": 72860,
+      "sha256": "11b0bbeaf08b9d9c4636c93447761ba5e044a503300731c02ea51069a51c6db4",
+      "archive_path": "artifacts/encounter-deliverables/M3_R3_Collapsed_Notice.jpg"
+    },
+    {
+      "id": "artifact-062",
+      "classification": "checkpoint_test_evidence_or_report",
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\M3_R3_Independent_Rendering_Tests.test.mjs",
+      "bytes": 8094,
+      "sha256": "52386d28e3e7388b643b3cc0fd446c1b9386ab4702d960f062042ba0c5070f75",
+      "archive_path": "artifacts/encounter-deliverables/M3_R3_Independent_Rendering_Tests.test.mjs"
+    },
+    {
+      "id": "artifact-063",
+      "classification": "checkpoint_test_evidence_or_report",
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\M3_R3_Independent_Test_Evidence.identity.json",
+      "bytes": 508,
+      "sha256": "e22e7edbd562800239cfa7c8dab634ec2bc91239e887d653c586339d32965d87",
+      "archive_path": "artifacts/encounter-deliverables/M3_R3_Independent_Test_Evidence.identity.json"
+    },
+    {
+      "id": "artifact-064",
+      "classification": "checkpoint_test_evidence_or_report",
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\M3_R3_Independent_Test_Evidence.zip",
+      "bytes": 102296527,
+      "sha256": "f409474a3f7eb591c8b6911ca27b115d075554b3ed346e43448436545a7f9ce5",
+      "archive_path": "artifacts/encounter-deliverables/M3_R3_Independent_Test_Evidence.zip"
+    },
+    {
+      "id": "artifact-065",
+      "classification": "checkpoint_test_evidence_or_report",
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\M3_R3_Independent_Test_Report.md",
+      "bytes": 19414,
+      "sha256": "2c9f3556e92ffc4cf071a68a47ad536ab204c3ec66c2426aa7836ba4a3df6a08",
+      "archive_path": "artifacts/encounter-deliverables/M3_R3_Independent_Test_Report.md"
+    },
+    {
+      "id": "artifact-066",
+      "classification": "checkpoint_test_evidence_or_report",
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\M3_R3_Recovery.jpg",
+      "bytes": 73896,
+      "sha256": "1b7ac40cf871a9c32f8faf95eb6c358ff8c0d10966cd37be272e11db5cbe970c",
+      "archive_path": "artifacts/encounter-deliverables/M3_R3_Recovery.jpg"
+    },
+    {
+      "id": "artifact-067",
+      "classification": "checkpoint_test_evidence_or_report",
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\M3_R3_Visible_Notice_Control.jpg",
+      "bytes": 81334,
+      "sha256": "c7bbd25c160217f534137b77a396bbd5dca708b6c2caf62a9c9d0ded561d120b",
+      "archive_path": "artifacts/encounter-deliverables/M3_R3_Visible_Notice_Control.jpg"
+    },
+    {
+      "id": "artifact-068",
+      "classification": "checkpoint_test_evidence_or_report",
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\independent-m3.test.mjs",
+      "bytes": 19935,
+      "sha256": "de4c1f77a866b4f13e9bd607640d0e3e54b7ee9a98a50b6af52dc129af0f3750",
+      "archive_path": "artifacts/encounter-deliverables/independent-m3.test.mjs"
+    },
+    {
+      "id": "artifact-069",
+      "classification": "checkpoint_test_evidence_or_report",
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\notice-display-defect.test.mjs",
+      "bytes": 1858,
+      "sha256": "042126abf78360838fd6f38e4640fe9e19e827428148fa8480a6cb66394e9115",
+      "archive_path": "artifacts/encounter-deliverables/notice-display-defect.test.mjs"
+    },
+    {
+      "id": "artifact-070",
+      "classification": "authorization_or_historical_intake",
+      "source_path": "C:\\Users\\mcdon\\Downloads\\FIRST_ENCOUNTER_GAME_AUTHORIZE_STAGES_0_TO_3.md",
+      "bytes": 6468,
+      "sha256": "9304e90151bf52521d1a118ce16396363ac4fd8c95709f365cabc495a6478bd2",
+      "archive_path": "artifacts/external-intake/FIRST_ENCOUNTER_GAME_AUTHORIZE_STAGES_0_TO_3.md"
+    },
+    {
+      "id": "artifact-071",
+      "classification": "authorization_or_historical_intake",
+      "source_path": "C:\\Users\\mcdon\\Downloads\\GITHUB_CONSOLIDATION_AUDIT_LAUNCH.md",
+      "bytes": 17113,
+      "sha256": "cae388e3f659a42c0539ed7d57e5dd606e277d1797e4d0e6d7d592dce9ca41c7",
+      "archive_path": "artifacts/external-intake/GITHUB_CONSOLIDATION_AUDIT_LAUNCH.md"
+    },
+    {
+      "id": "artifact-072",
+      "classification": "authorization_or_historical_intake",
+      "source_path": "C:\\Users\\mcdon\\Downloads\\Room_Creator_v0_13_1_route_prototype.zip",
+      "bytes": 52340137,
+      "sha256": "935d74f5eb38e773fdafac3d2813371829177b17882eef69eab3991df4ecf129",
+      "archive_path": "artifacts/external-intake/Room_Creator_v0_13_1_route_prototype.zip"
+    },
+    {
+      "id": "artifact-073",
+      "classification": "authorization_or_historical_intake",
+      "source_path": "C:\\Users\\mcdon\\Downloads\\Trapstar_ZANT_Combinatorial_Character_Research_Handoff_v2_DELIVERY_INDEX.md",
+      "bytes": 3569,
+      "sha256": "9ded862a662c025f717841958fd93d130beef8623ae0f5792b79a0dd069eb369",
+      "archive_path": "artifacts/external-intake/Trapstar_ZANT_Combinatorial_Character_Research_Handoff_v2_DELIVERY_INDEX.md"
+    },
+    {
+      "id": "artifact-074",
+      "classification": "authorization_or_historical_intake",
+      "source_path": "C:\\Users\\mcdon\\Downloads\\Trapstar_ZANT_Combinatorial_Character_Research_Handoff_v2_PACKAGE_MANIFEST.json",
+      "bytes": 3220,
+      "sha256": "c29de05cda823230184a1238a157d689d35e71ddae0db6dca7f3d08eccefa51f",
+      "archive_path": "artifacts/external-intake/Trapstar_ZANT_Combinatorial_Character_Research_Handoff_v2_PACKAGE_MANIFEST.json"
+    },
+    {
+      "id": "artifact-075",
+      "classification": "original_candidate_or_external_asset_library",
+      "source_path": "C:\\Users\\mcdon\\Desktop\\gamefuse\\Room_Creator_v0_14_asset_library.zip",
+      "bytes": 81686920,
+      "sha256": "a829c93663a6b79208391721a15f3f1f01f84ba211782b8fcbe08719fcd90224",
+      "archive_path": "artifacts/room-creator-intake-packages/Room_Creator_v0_14_asset_library.zip"
+    },
+    {
+      "id": "artifact-076",
+      "classification": "original_candidate_or_external_asset_library",
+      "source_path": "C:\\Users\\mcdon\\Desktop\\gamefuse\\Trapstar_RoomCreator_Asset_Library_v1.zip",
+      "bytes": 178595688,
+      "sha256": "4cf39cb712d55e866a593ad12394efec891d5ae3ac14dfd35d932b32bd8b1241",
+      "archive_path": "artifacts/room-creator-intake-packages/Trapstar_RoomCreator_Asset_Library_v1.zip"
+    },
+    {
+      "id": "artifact-077",
+      "classification": "immutable_source_intake_package",
+      "source_path": "C:\\Users\\mcdon\\Downloads\\Trapstar_ZANT_Combinatorial_Character_Research_Handoff_v2_PART1_CONTEXT_AND_RESEARCH_BRIEF.zip",
+      "bytes": 13636963,
+      "sha256": "567085632c1e061d7d25417bce9dd22e88d6dae515a01b759c9b192f257cf80a",
+      "archive_path": "artifacts/zant-intake-packages/Trapstar_ZANT_Combinatorial_Character_Research_Handoff_v2_PART1_CONTEXT_AND_RESEARCH_BRIEF.zip"
+    },
+    {
+      "id": "artifact-078",
+      "classification": "immutable_source_intake_package",
+      "source_path": "C:\\Users\\mcdon\\Downloads\\Trapstar_ZANT_Combinatorial_Character_Research_Handoff_v2_PART2_ORIGINAL_CHARACTER_SOURCE.zip",
+      "bytes": 169191353,
+      "sha256": "a2d025102b94e616565cf585c5565155d116779409e525aa8e5bf4f7cbd6c8ed",
+      "archive_path": "artifacts/zant-intake-packages/Trapstar_ZANT_Combinatorial_Character_Research_Handoff_v2_PART2_ORIGINAL_CHARACTER_SOURCE.zip"
+    },
+    {
+      "id": "artifact-079",
+      "classification": "immutable_source_intake_package",
+      "source_path": "C:\\Users\\mcdon\\Downloads\\Trapstar_ZANT_Combinatorial_Character_Research_Handoff_v2_PART3_MODULAR_STANDARDIZATION_CORE.zip",
+      "bytes": 69499916,
+      "sha256": "7af32fe67947c514694bc60764d70e0668bdb80d7ea562f21c52a09f1a320484",
+      "archive_path": "artifacts/zant-intake-packages/Trapstar_ZANT_Combinatorial_Character_Research_Handoff_v2_PART3_MODULAR_STANDARDIZATION_CORE.zip"
+    },
+    {
+      "id": "artifact-080",
+      "classification": "immutable_source_intake_package",
+      "source_path": "C:\\Users\\mcdon\\Downloads\\Trapstar_ZANT_Combinatorial_Character_Research_Handoff_v2_PART4_MODULAR_RECONSTRUCTION_EVIDENCE.zip",
+      "bytes": 162500344,
+      "sha256": "a23cbb6778ea3ac06e8940f949a410acc867462cbdff87e87449614b029e4429",
+      "archive_path": "artifacts/zant-intake-packages/Trapstar_ZANT_Combinatorial_Character_Research_Handoff_v2_PART4_MODULAR_RECONSTRUCTION_EVIDENCE.zip"
+    },
+    {
+      "id": "artifact-081",
+      "classification": "immutable_source_intake_package",
+      "source_path": "C:\\Users\\mcdon\\Downloads\\Trapstar_ZANT_Combinatorial_Character_Research_Handoff_v2_PART5_FACE_SYSTEM_CORE_PROVENANCE.zip",
+      "bytes": 73110314,
+      "sha256": "4d6757c327cc7fadd7bfdef549d07617f8c245664baf91c4743f148ed9304b6c",
+      "archive_path": "artifacts/zant-intake-packages/Trapstar_ZANT_Combinatorial_Character_Research_Handoff_v2_PART5_FACE_SYSTEM_CORE_PROVENANCE.zip"
+    },
+    {
+      "id": "artifact-082",
+      "classification": "immutable_source_intake_package",
+      "source_path": "C:\\Users\\mcdon\\Downloads\\Trapstar_ZANT_Combinatorial_Character_Research_Handoff_v2_PART6_FACE_SLOTS_EXP01_09.zip",
+      "bytes": 78404463,
+      "sha256": "21ca8da86ce6743c44400cfc458fe23f7d48fb9fd6cad6a3a566b840b3797bd8",
+      "archive_path": "artifacts/zant-intake-packages/Trapstar_ZANT_Combinatorial_Character_Research_Handoff_v2_PART6_FACE_SLOTS_EXP01_09.zip"
+    },
+    {
+      "id": "artifact-083",
+      "classification": "immutable_source_intake_package",
+      "source_path": "C:\\Users\\mcdon\\Downloads\\Trapstar_ZANT_Combinatorial_Character_Research_Handoff_v2_PART7_FACE_SLOTS_EXP10_18.zip",
+      "bytes": 76949708,
+      "sha256": "d17b772209ddc3bbb9e2235ae0382c5bc519ec967d96fe158078b43cae7c1a3d",
+      "archive_path": "artifacts/zant-intake-packages/Trapstar_ZANT_Combinatorial_Character_Research_Handoff_v2_PART7_FACE_SLOTS_EXP10_18.zip"
+    },
+    {
+      "id": "artifact-084",
+      "classification": "held_candidate_delivery",
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\Room_Creator_v0_14_1_Remediation\\INDEPENDENT_TESTER_HANDOFF.md",
+      "bytes": 7260,
+      "sha256": "8340ce497f0516e6fdaa4cc17330000c1d7343bb2d6ef7410ea40149b580b201",
+      "archive_path": "snapshots/room-creator-delivery/INDEPENDENT_TESTER_HANDOFF.md"
+    },
+    {
+      "id": "artifact-085",
+      "classification": "held_candidate_delivery",
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\Room_Creator_v0_14_1_Remediation\\PACKAGE_REPRODUCIBILITY.json",
+      "bytes": 1254,
+      "sha256": "a1e077c8547d3305a02c55552a5f735c6656774c601388ce082828cfd549682c",
+      "archive_path": "snapshots/room-creator-delivery/PACKAGE_REPRODUCIBILITY.json"
+    },
+    {
+      "id": "artifact-086",
+      "classification": "held_candidate_delivery",
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\Room_Creator_v0_14_1_Remediation\\REMEDIATION_REPORT.md",
+      "bytes": 5528,
+      "sha256": "ac7233a122b9a5dc5e974e851e3ecc7b82e7b6d99a06754db601a41854f6a0df",
+      "archive_path": "snapshots/room-creator-delivery/REMEDIATION_REPORT.md"
+    },
+    {
+      "id": "artifact-087",
+      "classification": "held_candidate_delivery",
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\Room_Creator_v0_14_1_Remediation\\Room_Creator_v0_14_1_Independent_Tester_Handoff.zip",
+      "bytes": 11404,
+      "sha256": "503a7af4aad07988e1b921aa3e9c4e0f4252acd794ac407aab6c2328b6454ba7",
+      "archive_path": "snapshots/room-creator-delivery/Room_Creator_v0_14_1_Independent_Tester_Handoff.zip"
+    },
+    {
+      "id": "artifact-088",
+      "classification": "held_candidate_delivery",
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\Room_Creator_v0_14_1_Remediation\\Room_Creator_v0_14_1_regression_tests.zip",
+      "bytes": 81604,
+      "sha256": "d09b1235f2cef489cb451ed5c829729c4528f46febac1d30ae2b2b45d8ccdd43",
+      "archive_path": "snapshots/room-creator-delivery/Room_Creator_v0_14_1_regression_tests.zip"
+    },
+    {
+      "id": "artifact-089",
+      "classification": "held_candidate_delivery",
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\Room_Creator_v0_14_1_Remediation\\Room_Creator_v0_14_1_remediation_candidate.zip",
+      "bytes": 202047247,
+      "sha256": "9b9cd3e9220edbdffbd836154b44d69b5527aa8b0d74300ad546f868a18da78d",
+      "archive_path": "snapshots/room-creator-delivery/Room_Creator_v0_14_1_remediation_candidate.zip"
+    },
+    {
+      "id": "artifact-090",
+      "classification": "held_candidate_delivery",
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\Room_Creator_v0_14_1_Remediation\\Room_Creator_v0_14_1_reports.zip",
+      "bytes": 832871,
+      "sha256": "97d9afd98813b350a04cc60fa57718e861670d50be201dfb1db0c08b0055116a",
+      "archive_path": "snapshots/room-creator-delivery/Room_Creator_v0_14_1_reports.zip"
+    },
+    {
+      "id": "artifact-091",
+      "classification": "held_candidate_delivery",
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\Room_Creator_v0_14_1_Remediation\\Room_Creator_v0_14_1_source.zip",
+      "bytes": 2134437,
+      "sha256": "703701fd43ee51d2092887af5d54f17e84a8c37786a09098b34729c0d5a87d6f",
+      "archive_path": "snapshots/room-creator-delivery/Room_Creator_v0_14_1_source.zip"
+    },
+    {
+      "id": "artifact-092",
+      "classification": "held_candidate_delivery",
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\Room_Creator_v0_14_1_Remediation\\SHA256SUMS.txt",
+      "bytes": 1077,
+      "sha256": "df7a20471b04fe0c24555dbbe316d058592c54efd78ebb2fc38ee48b5ff10896",
+      "archive_path": "snapshots/room-creator-delivery/SHA256SUMS.txt"
+    },
+    {
+      "id": "artifact-093",
+      "classification": "held_candidate_delivery",
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\Room_Creator_v0_14_1_Remediation\\TEST_REPORT.md",
+      "bytes": 4023,
+      "sha256": "51954ccf0d065c99fa6b27eaf2f0bffca1c8fe014e407e4ddd4624e1e3eb643e",
+      "archive_path": "snapshots/room-creator-delivery/TEST_REPORT.md"
+    },
+    {
+      "id": "artifact-094",
+      "classification": "held_candidate_delivery",
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\Room_Creator_v0_14_1_Remediation\\preservation-seal.json",
+      "bytes": 1466,
+      "sha256": "526c01650c5fe9c6646d49090a0f0c4a5554a78c3dcb8125e54340e29ff1a6c9",
+      "archive_path": "snapshots/room-creator-delivery/preservation-seal.json"
+    },
+    {
+      "id": "artifact-095",
+      "classification": "held_candidate_delivery",
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\Room_Creator_v0_14_1_Remediation\\verification-summary.json",
+      "bytes": 1508,
+      "sha256": "f224dc724ed56934510e23498482a5d2bd28ee17b5e9002a88f214dfef62d3a6",
+      "archive_path": "snapshots/room-creator-delivery/verification-summary.json"
+    },
+    {
+      "id": "artifact-096",
+      "classification": "accepted_candidate02_and_prior_candidates",
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\C001_ZANT_GATE_A_R4_NEUTRAL\\deliverables\\C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01.zip",
+      "bytes": 33706224,
+      "sha256": "0b812b84e5f49916699081e4d184b73f10bd502ea9a6837b0b0f2691fc6900ad",
+      "archive_path": "snapshots/zant-r4-history/deliverables/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01.zip"
+    },
+    {
+      "id": "artifact-097",
+      "classification": "accepted_candidate02_and_prior_candidates",
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\C001_ZANT_GATE_A_R4_NEUTRAL\\deliverables\\C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01_HASHES.json",
+      "bytes": 636,
+      "sha256": "8ff31d0f7f9d82bab62255156e317046a9a0bbfc71d82efc0de5faad8f6e8572",
+      "archive_path": "snapshots/zant-r4-history/deliverables/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_01_HASHES.json"
+    },
+    {
+      "id": "artifact-098",
+      "classification": "accepted_candidate02_and_prior_candidates",
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\C001_ZANT_GATE_A_R4_NEUTRAL\\deliverables\\C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_02.zip",
+      "bytes": 33921583,
+      "sha256": "c43e34ac80a8fd32f1ee5f30e5116dad06129a10b196032afc2fb2746a8188b3",
+      "archive_path": "snapshots/zant-r4-history/deliverables/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_02.zip"
+    },
+    {
+      "id": "artifact-099",
+      "classification": "accepted_candidate02_and_prior_candidates",
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\C001_ZANT_GATE_A_R4_NEUTRAL\\deliverables\\C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_02_HASHES.json",
+      "bytes": 823,
+      "sha256": "da954c841225d10c827543b494c1c857d42c70264f7e361eacc52f66a57ea00b",
+      "archive_path": "snapshots/zant-r4-history/deliverables/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_02_HASHES.json"
+    },
+    {
+      "id": "artifact-100",
+      "classification": "accepted_candidate02_and_prior_candidates",
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\C001_ZANT_GATE_A_R4_NEUTRAL\\deliverables\\FINAL_REVIEW_INTEGRITY.json",
+      "bytes": 1256,
+      "sha256": "8acb2d9d5f2c365708b7791b5a6ca5bcc63f58d16c03d7542e37125ab8c17e83",
+      "archive_path": "snapshots/zant-r4-history/deliverables/FINAL_REVIEW_INTEGRITY.json"
+    },
+    {
+      "id": "artifact-101",
+      "classification": "accepted_candidate02_and_prior_candidates",
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\C001_ZANT_GATE_A_R4_NEUTRAL\\deliverables\\FINAL_REVIEW_INTEGRITY_02.json",
+      "bytes": 2081,
+      "sha256": "bd89d711cb59faed3433bfb31f5dee7389a298c4d38a4656c23fafed5b22a8a3",
+      "archive_path": "snapshots/zant-r4-history/deliverables/FINAL_REVIEW_INTEGRITY_02.json"
+    },
+    {
+      "id": "artifact-102",
+      "classification": "accepted_candidate02_and_prior_candidates",
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\C001_ZANT_GATE_A_R4_NEUTRAL\\deliverables\\R4_TESTER_HANDOFF.md",
+      "bytes": 3466,
+      "sha256": "fee465a734485750d898e54b19382ca370f2b5e53f8cc85010c5607b21c13038",
+      "archive_path": "snapshots/zant-r4-history/deliverables/R4_TESTER_HANDOFF.md"
+    },
+    {
+      "id": "artifact-103",
+      "classification": "accepted_candidate02_and_prior_candidates",
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\C001_ZANT_GATE_A_R4_NEUTRAL\\deliverables\\R4_TESTER_HANDOFF_02.md",
+      "bytes": 3024,
+      "sha256": "22d48d4ad6974b9733d85610caabf43c96601535a3d1c7705877200531e362be",
+      "archive_path": "snapshots/zant-r4-history/deliverables/R4_TESTER_HANDOFF_02.md"
+    },
+    {
+      "id": "artifact-104",
+      "classification": "current_editable_failed_provisional_work",
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\C001_ZANT_GATE_A_R5\\deliverables\\C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT.zip",
+      "bytes": 23227104,
+      "sha256": "5c8196e1d81ed8aae3bd42a740c6afd01294bc069345c9d683c90163faac2796",
+      "archive_path": "snapshots/zant-r5-editable/deliverables/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT.zip"
+    },
+    {
+      "id": "artifact-105",
+      "classification": "current_editable_failed_provisional_work",
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\C001_ZANT_GATE_A_R5\\deliverables\\C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT_HASHES.json",
+      "bytes": 640,
+      "sha256": "19602bd51ac2a9d3a9d6172c8ef24e9f940ba6330781c450f94dd154857bbbdf",
+      "archive_path": "snapshots/zant-r5-editable/deliverables/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT_HASHES.json"
+    },
+    {
+      "id": "artifact-106",
+      "classification": "current_editable_failed_provisional_work",
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\C001_ZANT_GATE_A_R5\\deliverables\\FINAL_FAILURE_CHECKPOINT_INTEGRITY.json",
+      "bytes": 1654,
+      "sha256": "23b5b6385b0928107265d3ecb2db2dc0a76161e3b0f63914f63a962deab4de5d",
+      "archive_path": "snapshots/zant-r5-editable/deliverables/FINAL_FAILURE_CHECKPOINT_INTEGRITY.json"
+    },
+    {
+      "id": "artifact-107",
+      "classification": "current_editable_failed_provisional_work",
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\C001_ZANT_GATE_A_R5\\deliverables\\R5_TESTER_HANDOFF.md",
+      "bytes": 2798,
+      "sha256": "f65d6cc75dc348b42d579ff9f0523f3e14aa179ee6de6167430dc90033c59130",
+      "archive_path": "snapshots/zant-r5-editable/deliverables/R5_TESTER_HANDOFF.md"
+    }
+  ]
+}

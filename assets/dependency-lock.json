@@ -16,7 +16,61 @@
         "palettes": 3
       },
       "runtime_source": "ASSET_MANIFEST.json and STANDARDIZED_LIBRARY, not original source archives.",
-      "distribution": "Private external archive; supplied licenses/status preserved; 29 vehicle assets commercially unverified; raw pixel-art pack redistribution restricted."
+      "distribution": "Private external archive; supplied licenses/status preserved; 29 vehicle assets commercially unverified; raw pixel-art pack redistribution restricted.",
+      "repository_metadata_root": "assets/manifests/room-creator-library-v1",
+      "stage6_handling": "Only original manifest/checksum/license metadata copied; full library models, raw textures/palettes and original source packs remain external. Candidate project-embedded images remain part of the byte-identical authored examples.",
+      "metadata_files": [
+        {
+          "path": "assets/manifests/room-creator-library-v1/ASSET_MANIFEST.json",
+          "bytes": 1576869,
+          "sha256": "541567409d2acae560250905f22dfaf9acbcd0269adae58bfb9e5f972175b9f7"
+        },
+        {
+          "path": "assets/manifests/room-creator-library-v1/PACKAGE_MANIFEST.json",
+          "bytes": 4182,
+          "sha256": "93252c02f1a8de43bf71e1186912ef8eec97a9cb604f7e17a3f89e3a0e2242de"
+        },
+        {
+          "path": "assets/manifests/room-creator-library-v1/SOURCE_PACK_MANIFEST.json",
+          "bytes": 2619,
+          "sha256": "5d9ce165e75236644f9258152701453b3ec6001d2f1abfe572fc05dfba67be43"
+        },
+        {
+          "path": "assets/manifests/room-creator-library-v1/CHECKSUMS.sha256",
+          "bytes": 411178,
+          "sha256": "6e53920b2f8a1994f1e0b59f5e7bb41d7e2837bddbff9b9ecc6ce021227125d1"
+        },
+        {
+          "path": "assets/manifests/room-creator-library-v1/DOCUMENTATION/LICENSE_REVIEW.md",
+          "bytes": 892,
+          "sha256": "9afc1f4c661bef01de9b8889644eda2cd65638a7a3e413315321f5d25f237685"
+        },
+        {
+          "path": "assets/manifests/room-creator-library-v1/LICENSES/modular_prototyping_cc0.txt",
+          "bytes": 283,
+          "sha256": "4bf637a9cf6cfa800b4d1e1aa501554ae600d3b105fed1d897d526f610eb5bf3"
+        },
+        {
+          "path": "assets/manifests/room-creator-library-v1/LICENSES/pixel_art_textures.txt",
+          "bytes": 324,
+          "sha256": "27e00c5eb89b5bf38e53dca77e6676d560c3a3378ca90f84830eeb6811f70138"
+        },
+        {
+          "path": "assets/manifests/room-creator-library-v1/LICENSES/lowpoly_props_cc0.txt",
+          "bytes": 665,
+          "sha256": "c58119e2c5f09163ed1b45f6573e0ce05ab96e8595c8ab6a5e0db22b8d42eaa9"
+        },
+        {
+          "path": "assets/manifests/room-creator-library-v1/LICENSES/cars_kent_lowpoly_LICENSE_STATUS.txt",
+          "bytes": 169,
+          "sha256": "e1feada0078b3e45b22f5f5c6e802ccfaf77a28c2443697f16c914bb46ae7fc9"
+        },
+        {
+          "path": "assets/manifests/room-creator-library-v1/LICENSES/cars_lowpoly_v2_LICENSE_STATUS.txt",
+          "bytes": 169,
+          "sha256": "e1feada0078b3e45b22f5f5c6e802ccfaf77a28c2443697f16c914bb46ae7fc9"
+        }
+      ]
     },
     {
       "id": "zant-research-intake-v2",

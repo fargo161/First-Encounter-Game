@@ -1,0 +1,15 @@
+PASS new project has one contiguous Ground story
+PASS stories can only be added contiguously
+PASS room above auto-creates intermediate stories instead of skipping
+PASS cannot delete a story containing architecture
+PASS deleting an empty middle story collapses higher story indexes
+PASS manual floor section can exist without lower room
+PASS manual floor has independent top and underside materials
+PASS free wall may extend outside the style-host room
+PASS ordinary partition remains constrained to its room
+PASS pillar may be outside any room footprint
+PASS pillar is a valid cover source
+PASS ceiling cut removes only its rectangle
+PASS ceiling patch can restore ceiling inside a cut
+PASS open-above room accepts explicit ceiling patches
+14 passed, 0 failed

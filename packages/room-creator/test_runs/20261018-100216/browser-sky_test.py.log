@@ -1,0 +1,7 @@
+after preset {"mode":"gradient","top":"#2f3f7a","horizon":"#ffb178","bottom":"#2a1d1d","curve":0.55,"assetId":"asset_matte_skyline_water","rotation":0,"r hist 2
+image mode ['image', 'asset_matte_skyline_water', 3, True]
+rotation now 20 hist 3
+horizonV 0.696
+haze {"enabled":true,"color":null,"start":30,"end":220,"strength":0.38}
+after undo haze True
+Failed to load resource: the server responded with a status of 404 (File not found)

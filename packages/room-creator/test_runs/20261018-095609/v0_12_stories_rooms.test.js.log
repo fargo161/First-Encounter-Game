@@ -1,0 +1,17 @@
+PASS addStoryWithRooms matches the single room below
+PASS addStoryWithRooms covers every room below by default
+PASS addStoryWithRooms can match one chosen room
+PASS addStoryWithRooms above a floor-only story uses its floor space
+PASS addStoryWithRooms keeps the custom story name
+PASS Partitions at the same X/Y on different stories do not conflict
+PASS Same-story overlapping partitions are still refused
+PASS Deleting a room removes its ceiling edits instead of failing
+PASS Deleting a style-host room keeps free walls on other stories
+PASS Deleting a room keeps viewpoints that still stand on floor space
+PASS Deleting the last room is refused
+PASS Floor space becomes an enclosed room with its material
+PASS Floor space smaller than 2 m cannot become a room
+PASS Floor space overlapping a same-story room cannot become a room
+PASS storyContents counts everything on a story
+PASS Forced story delete removes contents and collapses stories above
+16 passed, 0 failed

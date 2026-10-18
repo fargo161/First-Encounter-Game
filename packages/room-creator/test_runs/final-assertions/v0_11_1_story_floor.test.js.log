@@ -1,0 +1,25 @@
+PASS F6 deleting a middle story renames the shifted default-named story
+PASS F6 several shifted default names all follow their new index
+PASS F6 custom story names survive a collapse unchanged
+PASS F6 deleting the top story leaves lower names untouched
+PASS F6 addStory default name is the index label when free
+PASS F6 addStory default does not duplicate an existing story name
+PASS F6 addStory with an explicit name keeps that name
+PASS F6 storyName returns the stored record name
+PASS F6 storyName falls back to storyLabel for a missing record
+PASS F6 checkRooms overlap error uses the stored story name
+PASS F11 host is the room on the same story containing the centre
+PASS F11 host prefers the nearest lower story containing the centre
+PASS F11 a containing lower-story room beats an unrelated same-story room
+PASS F11 a containing lower room is used even when rooms[0] is elsewhere
+PASS F11 falls back to any room on the section story
+PASS F11 final fallback is rooms[0]
+PASS F11 rooms above the section story are never used as host
+PASS F11 makeFloorSection copies materials from the nearest lower containing room
+PASS F12 failed addRoomAbove leaves the story list unchanged
+PASS F12 failed addRoomAbove leaves rooms unchanged
+PASS F12 failed addRoomAbove onto an existing story does not touch stories
+PASS F12 successful addRoomAbove still adds the intermediate stories
+PASS F12 saved files with 0.2 m floor sections still validate
+PASS F12 makeFloorSection still rejects new sections below 0.25 m
+24 passed, 0 failed

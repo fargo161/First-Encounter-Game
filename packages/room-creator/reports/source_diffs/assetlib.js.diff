@@ -1,0 +1,53 @@
+--- v0.14/source/assetlib.js
++++ v0.14.1/source/assetlib.js
+@@ -119,10 +119,19 @@
+ let loader=null;
+ function template(id){
+   const e=S.index.get(id);if(!e||e.asset_type!=='model')return {status:S.connected?'missing':'offline',entry:e||null};
+-  let t=S.templates.get(id);if(!t){t={status:'loading',entry:e,scene:null,bounds:null,parts:[],baseTexture:null,error:null};S.templates.set(id,t);loadTemplate(t);}return t;}
+-async function loadTemplate(t){
+-  const e=t.entry;
+-  try{
++  let t=S.templates.get(id);if(!t){t={status:'loading',entry:e,scene:null,bounds:null,parts:[],baseTexture:null,error:null};S.templates.set(id,t);t.promise=loadTemplate(t);}return t;}
++async function loadTemplate(t){const e=t.entry;
++  for(let attempt=1;attempt<=3;attempt++){if(S.templates.get(e.id)!==t)return;t.attempts=attempt;t.status='loading';t.error=null;const run=t.run=(t.run||0)+1;let timer;
++    try{const result=await Promise.race([loadTemplateAttempt(t,run),new Promise((_,reject)=>{timer=setTimeout(()=>reject(Error('model load timed out after 12 seconds')),12000);})]);
++      if(S.templates.get(e.id)!==t||t.run!==run){disposeTemplate(result);return;}Object.assign(t,result);t.error=null;
++      if(S.report)S.report.loadFailures=S.report.loadFailures.filter(f=>f.id!==e.id);emit('template',e.id);return;
++    }catch(err){t.run++;t.error=plainLoadError(err);t.failures=t.failures||[];t.failures.push({attempt,error:t.error});
++      if(S.templates.get(e.id)!==t)return;
++      if(attempt<3){emit('template',e.id);await new Promise(r=>setTimeout(r,attempt*200));}
++    }finally{clearTimeout(timer);}}
++  t.status='error';if(S.report){S.report.loadFailures=S.report.loadFailures.filter(f=>f.id!==e.id);S.report.loadFailures.push({id:e.id,path:e.working_path,attempts:t.attempts,error:t.error,text:`“${e.name}” (${e.id}) failed after ${t.attempts} attempts: ${t.error}. Check the file or retry the model.`});}emit('template',e.id);
++}
++async function loadTemplateAttempt(owner,run){const e=owner.entry,t={};
+     if(!window.RCGLTFLoader)throw Error('the model loader is missing from this build');
+     const buf=await (await blob(e.working_path)).arrayBuffer();loader=loader||new window.RCGLTFLoader();
+     const gltf=await new Promise((res,rej)=>loader.parse(buf,'',res,err=>rej(err instanceof Error?err:Error(String(err?.message||err)))));
+@@ -130,11 +139,15 @@
+     scene.traverse(o=>{if(o.isMesh){parts.push(o.name||'part');const m=Array.isArray(o.material)?o.material[0]:o.material;if(!tex&&m?.map)tex=m.map;tris+=(o.geometry.index?o.geometry.index.count:o.geometry.attributes.position.count)/3;o.userData.uvAttr=o.geometry.attributes.uv||null;}});
+     if(tex){tex.colorSpace=T.NoColorSpace;tex.flipY=false;}
+     scene.updateMatrixWorld(true);const box=new T.Box3().setFromObject(scene,true); /* precise: walks the vertices, so turned parts do not inflate the size */if(box.isEmpty())throw Error('the model has no visible geometry');
+-    t.scene=scene;t.baseTexture=tex;t.parts=parts;t.triangles=Math.round(tris);t.bounds={min:box.min.toArray().map(v=>+v.toFixed(4)),max:box.max.toArray().map(v=>+v.toFixed(4))};t.status='ready';
++    if(S.templates.get(e.id)!==owner||owner.run!==run){disposeTemplate({scene,baseTexture:tex});throw Error('library connection changed');}t.scene=scene;t.baseTexture=tex;t.parts=parts;t.triangles=Math.round(tris);t.bounds={min:box.min.toArray().map(v=>+v.toFixed(4)),max:box.max.toArray().map(v=>+v.toFixed(4))};t.status='ready';
+     if(e.dims){const sz=box.getSize(new T.Vector3()).toArray(),diff=Math.max(...sz.map((v,i)=>Math.abs(v-e.dims[i])));if(diff>Math.max(.05,.05*Math.max(...e.dims)))t.warning=`Its real size (${sz.map(v=>v.toFixed(2)).join(' × ')} m) differs from the manifest (${e.dims.map(v=>v.toFixed(2)).join(' × ')} m).`;}
+     if(e.material_system==='palette'&&e.paletteFamily&&tex?.image){const pal=S.index.get(e.paletteFamily);if(pal?.dimensions_px&&(tex.image.width!==pal.dimensions_px[0]||tex.image.height!==pal.dimensions_px[1])){t.paletteMismatch=true;t.warning=(t.warning?t.warning+' ':'')+'Its colour image does not match its palette, so palette swapping is off for it.';}}
+-  }catch(err){t.status='error';t.error=plainLoadError(err);S.report?.loadFailures.push({id:e.id,text:`“${e.name}” could not be loaded: ${t.error}`});}
+-  emit('template',e.id);}
++  return t;}
++function retryTemplate(id){const t=S.templates.get(id);if(t?.status==='error'){disposeTemplate(t);S.templates.delete(id);}return template(id);}
++async function waitForModels(ids,{timeoutMs=40000}={}){const unique=[...new Set(ids)],end=Date.now()+Math.max(1,Math.min(timeoutMs,60000));unique.forEach(template);
++  while(unique.some(id=>template(id).status==='loading')&&Date.now()<end)await new Promise(r=>setTimeout(r,40));
++  const failures=unique.map(id=>{const t=template(id);return t.status==='ready'?null:{id,status:t.status,error:t.error||'Not ready before the deadline; check the library connection and retry.',attempts:t.attempts||0,path:t.entry?.working_path||null};}).filter(Boolean);
++  return {ready:unique.length-failures.length,total:unique.length,failures,recovered:unique.filter(id=>template(id).status==='ready'&&template(id).failures?.length).map(id=>({id,attempts:template(id).attempts,failures:template(id).failures}))};}
+ function plainLoadError(err){const m=String(err?.message||err);if(/not found|NotFoundError/i.test(m))return 'its file is missing from the library folder';if(/Unexpected|JSON|magic|version/i.test(m))return 'its file is damaged or not a GLB model';return m.slice(0,160);}
+ function disposeTemplate(t){t.scene?.traverse(o=>{if(o.isMesh){o.geometry?.dispose();(Array.isArray(o.material)?o.material:[o.material]).forEach(m=>m?.dispose?.());}});t.baseTexture?.dispose?.();}
+ function preload(ids){for(const id of ids)template(id);}
+@@ -173,6 +186,6 @@
+     unverified:e.license_status!=='known'||e.commercial_use_verified!==true,sourcePath:e.source_path,subasset:e.source_subasset,notes:e.conversion_notes||''};}
+ 
+ window.RCAssets={state:S,on(f){listeners.add(f);return ()=>listeners.delete(f);},pickerSupported,connectPicker,connectFiles,connectUrl,reconnect,storedHandle,disconnect,
+-  entry:id=>S.index.get(id)||null,template,preload,thumb,usedColors,blob,imageOf,dataUrl,provenance,summary,get revision(){return S.revision;},
++  entry:id=>S.index.get(id)||null,template,retryTemplate,waitForModels,preload,thumb,usedColors,blob,imageOf,dataUrl,provenance,summary,get revision(){return S.revision;},
+   get connected(){return S.connected;}};
+ })();

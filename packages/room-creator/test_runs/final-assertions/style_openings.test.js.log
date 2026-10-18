@@ -1,0 +1,38 @@
+PASS Format 9 starts with no images, no saved looks, and unchanged empty floor plan
+PASS Width slider stops at the next door, not the far end of the wall
+PASS Along-wall slider uses clear bounds on both sides
+PASS A shared-wall cut authored from the opposite room limits the slider
+PASS Height and sill sliders respect their combined height
+PASS Partition opening sliders respect the partition cap, not the room wall height
+PASS Resize updates the same opening and preserves its neighboring door
+PASS Overlapping numeric resize fails atomically
+PASS Out-of-height edit is rejected and restored
+PASS Single pane removes the center divider only
+PASS Double pane adds one center divider without changing the opening width
+PASS Pane and leaf counts only accept one or two
+PASS Double doors retain total width, opening identity and door state
+PASS Single and double doors have the same physical passage when open
+PASS Resizing a doorway does not move a nearby placed viewpoint
+PASS Resize does not change matte framing or object/view coordinates
+PASS New materials expose independent scale, flips and color grading defaults
+PASS Version 7 textures retain their legacy mapping origin on import
+PASS Version 7 opening defaults preserve two panes and one leaf
+PASS All ten finishes validate in a surface
+PASS Independent tile dimensions and mirroring survive save/reopen
+PASS Invalid material brightness rejected
+PASS Invalid material saturation rejected
+PASS Invalid material hue rejected
+PASS Invalid material mapping rejected
+PASS Invalid material tileSizeY rejected
+PASS Invalid material wear rejected
+PASS Invalid material baseHeight rejected
+PASS Invalid material flipX rejected
+PASS Wall trim and pattern accents are saved independently per face
+PASS Twelve built-in room looks change only the targeted room appearance
+PASS Named look snapshots are independent of their original room
+PASS Applying a look preserves architecture, matte and viewpoint pairing
+PASS Saved style presets survive portable round trip
+PASS Saved presets validate their texture references
+PASS Room grade and custom light falloff validate and persist
+PASS Invalid grading and falloff cannot be saved
+37 passed, 0 failed

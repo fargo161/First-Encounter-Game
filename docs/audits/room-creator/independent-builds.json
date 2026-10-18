@@ -1,0 +1,22 @@
+[
+  {
+    "version": "original",
+    "exitCode": 0,
+    "stdout": "Built Room_Creator.html: 1,618,559 bytes\n",
+    "stderr": "",
+    "bytes": 1618559,
+    "sha256": "b5d5f9d9651e0c13e21429fe4fe29438409e3718e6fea3d2679448decafb2ca8",
+    "packagedSHA256": "c8c2190019810bf942aae5d8e92d5d4719c4e5a79c9b61ab230d631d2681b706",
+    "equal": false
+  },
+  {
+    "version": "candidate",
+    "exitCode": 0,
+    "stdout": "Built Room_Creator.html: 1,615,201 bytes\n",
+    "stderr": "",
+    "bytes": 1615201,
+    "sha256": "a4e8a14ddc4d734c036902f56b1a7d7bb8a157a77ef3911b97ea70c76f228c97",
+    "packagedSHA256": "a4e8a14ddc4d734c036902f56b1a7d7bb8a157a77ef3911b97ea70c76f228c97",
+    "equal": true
+  }
+]

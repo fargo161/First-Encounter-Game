@@ -1,9 +1,7 @@
-# Hard stop after Stage 5
+# Hard stop after Stage 6
 
-Stage 5 is complete: **PASS WITH DOCUMENTED KNOWN LIMITATIONS**. IR3-25 remains an actual accepted non-blocking failure. No source was repaired or altered.
+Stage 6 imported Room Creator v0.14.1 byte-identically as a **HOLD_FOR_FURTHER_REMEDIATION development baseline**. No defect was repaired or product promoted.
 
-**STOP. Stage 6 has not begun.** Room Creator baseline import requires explicit new owner authorization. Its v0.14.1 HOLD and manifest-known/missing-image repair defect must remain visible; import must not imply promotion.
+**STOP. Stage 7 has not begun.** Fresh Room Creator builds, supplied/independent tests, browser checks, asset-render verification and generators require explicit new owner authorization. The known-ID/missing-image object repair defect must remain visible; do not weaken its reproductions.
 
-ZANT import, normalization, refactoring, remediation, art repair, shared contracts, Unity, LFS, archive deletion and CI remain outside scope.
-
-See STAGE_5_VERIFICATION.md and ../testing/STAGE_5_VERIFICATION.md. Earlier recommendations and authorization records are historical evidence, not an instruction to continue.
+See STAGE_6_IMPORT.md and ../testing/STAGE_7_RECOMMENDED_SCOPE.md. ZANT import, integration, source normalization/refactoring, remediation, shared contracts, Unity, LFS, archive cleanup and CI remain outside scope.

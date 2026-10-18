@@ -1,0 +1,64 @@
+{
+  "source_packs": [
+    {
+      "pack_id": "cars_lowpoly_v2",
+      "archive_filename": "3D_lowPoly_cars_v2.rar",
+      "archive_sha256": "b81a226397f26be6566052c2cf19bfed88e8ac1e9cf7168d9e9897fa41ce57fe",
+      "archive_bytes": 21387036,
+      "status": "unknown",
+      "license": "No license text found in supplied archive",
+      "commercial_use": null,
+      "credit_required": null,
+      "raw_redistribution": "UNKNOWN \u2014 verify source/license before commercial release.",
+      "license_file": "LICENSES/cars_lowpoly_v2_LICENSE_STATUS.txt"
+    },
+    {
+      "pack_id": "cars_kent_lowpoly",
+      "archive_filename": "Low Poly Car Pack.zip",
+      "archive_sha256": "6c193bb4f230c1a2272a7b9777ed076cbe22507b6b07993c15218d4b2d80849f",
+      "archive_bytes": 5302778,
+      "status": "unknown",
+      "license": "No license text found in supplied archive",
+      "commercial_use": null,
+      "credit_required": null,
+      "raw_redistribution": "UNKNOWN \u2014 verify source/license before commercial release.",
+      "license_file": "LICENSES/cars_kent_lowpoly_LICENSE_STATUS.txt"
+    },
+    {
+      "pack_id": "lowpoly_props_cc0",
+      "archive_filename": "LowPolyAssetPack_Free.zip",
+      "archive_sha256": "71fd5d74693f40511b939279e7821fecd1064da48721aa53b458d0843f31486e",
+      "archive_bytes": 35669716,
+      "status": "known",
+      "license": "CC0 1.0 Universal",
+      "commercial_use": true,
+      "credit_required": false,
+      "raw_redistribution": "CC0/public domain",
+      "license_file": "LICENSES/lowpoly_props_cc0.txt"
+    },
+    {
+      "pack_id": "pixel_art_textures",
+      "archive_filename": "PNG - Pixel Art Textures.zip",
+      "archive_sha256": "66d9ba40ef79812ed1d0b13c875d361f1c23eeee441d86b69c208589d8e04fd0",
+      "archive_bytes": 28038535,
+      "status": "known",
+      "license": "Custom free-use license in supplied pack",
+      "commercial_use": true,
+      "credit_required": false,
+      "raw_redistribution": "Do not redistribute/repackage raw asset pack except as content files in a project; see supplied license.",
+      "license_file": "LICENSES/pixel_art_textures.txt"
+    },
+    {
+      "pack_id": "modular_prototyping_cc0",
+      "archive_filename": "Free 3D Modular Game Assets For Prototyping.zip",
+      "archive_sha256": "fc22015d5ec0860955c0e4969bed4c57c1b0912690f16a563c7413b1fd4bcbde",
+      "archive_bytes": 681956,
+      "status": "known",
+      "license": "CC0",
+      "commercial_use": true,
+      "credit_required": false,
+      "raw_redistribution": "CC0/public domain",
+      "license_file": "LICENSES/modular_prototyping_cc0.txt"
+    }
+  ]
+}

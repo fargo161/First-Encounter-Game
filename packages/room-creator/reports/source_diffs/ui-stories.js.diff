@@ -1,0 +1,11 @@
+--- v0.14/source/ui-stories.js
++++ v0.14.1/source/ui-stories.js
+@@ -17,7 +17,7 @@
+ // ------------------------------------------------------------------ elevator
+ function updateElevator(){
+   const el=$('elevator');if(!el)return;const show=active==='iso'&&mode==='build';el.classList.toggle('hidden',!show);if(!show)return;
+-  const st=C.normalizeStories(project),items=[...st].reverse().map(s=>{const n=project.rooms.filter(r=>(r.story||0)===s.index).length+(project.floorSections||[]).filter(f=>(f.story||0)===s.index).length;return `<button data-story-go="${s.index}" class="${s.index===activeStory?'active':''}" title="${n} room / floor pieces · ${fmt(C.storyElevation(project,s.index))} ${unit()}"><span>${esc(s.name)}</span><small>${n?n:'empty'}</small></button>`;}).join('');
++  const st=C.normalizeStories(project),items=[...st].reverse().map(s=>{const n=project.rooms.filter(r=>(r.story||0)===s.index).length+(project.floorSections||[]).filter(f=>(f.story||0)===s.index).length;return `<button data-story-go="${s.index}" class="${s.index===activeStory?'active':''}" title="${n} room / floor pieces, ${C.storyContents(project,s.index).props} 3D objects · ${fmt(C.storyElevation(project,s.index))} ${unit()}"><span>${esc(s.name)}</span><small>${n?n:(C.storyContents(project,s.index).props?'3D objects':'empty')}</small></button>`;}).join('');
+   el.innerHTML=`<div class="elev-title">STORIES · PgUp / PgDn</div><button class="add" data-action="add-story" title="Make the next story from what is below">+ Build up</button>${items}`;
+ }
+ HOOKS.top.push(updateElevator);

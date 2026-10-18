@@ -1,0 +1,154 @@
+{
+  "passed": 37,
+  "failed": 0,
+  "results": [
+    {
+      "name": "Format 9 starts with no images, no saved looks, and unchanged empty floor plan",
+      "passed": true
+    },
+    {
+      "name": "Width slider stops at the next door, not the far end of the wall",
+      "passed": true
+    },
+    {
+      "name": "Along-wall slider uses clear bounds on both sides",
+      "passed": true
+    },
+    {
+      "name": "A shared-wall cut authored from the opposite room limits the slider",
+      "passed": true
+    },
+    {
+      "name": "Height and sill sliders respect their combined height",
+      "passed": true
+    },
+    {
+      "name": "Partition opening sliders respect the partition cap, not the room wall height",
+      "passed": true
+    },
+    {
+      "name": "Resize updates the same opening and preserves its neighboring door",
+      "passed": true
+    },
+    {
+      "name": "Overlapping numeric resize fails atomically",
+      "passed": true
+    },
+    {
+      "name": "Out-of-height edit is rejected and restored",
+      "passed": true
+    },
+    {
+      "name": "Single pane removes the center divider only",
+      "passed": true
+    },
+    {
+      "name": "Double pane adds one center divider without changing the opening width",
+      "passed": true
+    },
+    {
+      "name": "Pane and leaf counts only accept one or two",
+      "passed": true
+    },
+    {
+      "name": "Double doors retain total width, opening identity and door state",
+      "passed": true
+    },
+    {
+      "name": "Single and double doors have the same physical passage when open",
+      "passed": true
+    },
+    {
+      "name": "Resizing a doorway does not move a nearby placed viewpoint",
+      "passed": true
+    },
+    {
+      "name": "Resize does not change matte framing or object/view coordinates",
+      "passed": true
+    },
+    {
+      "name": "New materials expose independent scale, flips and color grading defaults",
+      "passed": true
+    },
+    {
+      "name": "Version 7 textures retain their legacy mapping origin on import",
+      "passed": true
+    },
+    {
+      "name": "Version 7 opening defaults preserve two panes and one leaf",
+      "passed": true
+    },
+    {
+      "name": "All ten finishes validate in a surface",
+      "passed": true
+    },
+    {
+      "name": "Independent tile dimensions and mirroring survive save/reopen",
+      "passed": true
+    },
+    {
+      "name": "Invalid material brightness rejected",
+      "passed": true
+    },
+    {
+      "name": "Invalid material saturation rejected",
+      "passed": true
+    },
+    {
+      "name": "Invalid material hue rejected",
+      "passed": true
+    },
+    {
+      "name": "Invalid material mapping rejected",
+      "passed": true
+    },
+    {
+      "name": "Invalid material tileSizeY rejected",
+      "passed": true
+    },
+    {
+      "name": "Invalid material wear rejected",
+      "passed": true
+    },
+    {
+      "name": "Invalid material baseHeight rejected",
+      "passed": true
+    },
+    {
+      "name": "Invalid material flipX rejected",
+      "passed": true
+    },
+    {
+      "name": "Wall trim and pattern accents are saved independently per face",
+      "passed": true
+    },
+    {
+      "name": "Twelve built-in room looks change only the targeted room appearance",
+      "passed": true
+    },
+    {
+      "name": "Named look snapshots are independent of their original room",
+      "passed": true
+    },
+    {
+      "name": "Applying a look preserves architecture, matte and viewpoint pairing",
+      "passed": true
+    },
+    {
+      "name": "Saved style presets survive portable round trip",
+      "passed": true
+    },
+    {
+      "name": "Saved presets validate their texture references",
+      "passed": true
+    },
+    {
+      "name": "Room grade and custom light falloff validate and persist",
+      "passed": true
+    },
+    {
+      "name": "Invalid grading and falloff cannot be saved",
+      "passed": true
+    }
+  ]
+}

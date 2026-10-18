@@ -1,0 +1,6 @@
+nodes ['stop', 'via@35,43', 'stop']
+after drag [44.5, 45] hist 6
+after alt-click 2
+test ride [True, True, True, '1.72']
+ride end [None, False] walk at view 2 True
+Failed to load resource: the server responded with a status of 404 (File not found)

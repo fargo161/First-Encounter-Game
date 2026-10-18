@@ -1,0 +1,30 @@
+{
+ "passed": 6,
+ "failed": 0,
+ "results": [
+  {
+   "name": "baseline Route_Prototype_Street.room.json is byte-identical to the final 0.13.1 file",
+   "passed": true
+  },
+  {
+   "name": "the demo map validates and survives load → save → load unchanged (objects and object library)",
+   "passed": true
+  },
+  {
+   "name": "the demo keeps the route network, stories, stairs and views of the baseline",
+   "passed": true
+  },
+  {
+   "name": "only the placeholder boxes that 3D objects replace were removed",
+   "passed": true
+  },
+  {
+   "name": "demo exercises: looks, project palettes, per-object override, front setups, default points, tags, extra properties, use points, textures",
+   "passed": true
+  },
+  {
+   "name": "every placed object has real measured bounds and every use point has a type",
+   "passed": true
+  }
+ ]
+}

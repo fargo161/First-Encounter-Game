@@ -1,0 +1,10 @@
+--- v0.14/source/shell.html
++++ v0.14.1/source/shell.html
+@@ -1,6 +1,6 @@
+ <!DOCTYPE html>
+ 
+-<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/><title>TRAPSTAR · Room Creator v0.14</title><meta content="Offline multi-story room authoring editor with a graphics-card 3D view, first-person viewpoints, rails, sky and stairs." name="description"/><style>/*STYLE*/</style></head>
++<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/><title>TRAPSTAR · Room Creator v0.14.1 candidate</title><meta content="Offline multi-story room authoring editor with a graphics-card 3D view, first-person viewpoints, rails, sky and stairs." name="description"/><style>/*STYLE*/</style></head>
+ <body>
+ <div id="app">
+ <header class="header"><div class="brand"><strong>TRAPSTAR</strong><span>ROOM CREATOR <b>0.14</b></span></div><div class="document"><b id="documentName">Untitled floor plan</b><small id="saveStatus">New project · offline</small></div><nav aria-label="Project controls" class="header-actions"><button id="newBtn">New</button><button id="openBtn">Open</button><button class="primary" id="saveBtn">Save project</button><button id="exportBtn">Export</button><i class="divider"></i><button aria-label="Undo" class="icon" id="undoBtn" title="Undo · Ctrl+Z">↶</button><button aria-label="Redo" class="icon" id="redoBtn" title="Redo · Ctrl+Shift+Z">↷</button><button class="outline" id="testBtn">Test walk</button><button aria-label="Help" class="icon" id="helpBtn">?</button></nav></header>

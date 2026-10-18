@@ -1,0 +1,11 @@
+PASS F1 prop-only story occupancy refuses deletion without changing data
+PASS F1 deleting empty intermediate story shifts prop and preserves its local data
+PASS F1 forced story deletion removes furnished contents without dropping props to Ground
+PASS F1 room deletion removes unsupported prop, counts it, preserves unrelated prop
+PASS F1 room deletion keeps prop on independent floor with metadata intact
+PASS F1 floor cut removes support even when floor section remains
+PASS F2 calibration removal preserves pose, footprint, Use Points and custom instance metadata
+PASS F4 sight uses exact collision polygon for round, ellipse, rotated and offset props
+PASS F5 missing/incompatible palette and texture IDs visible to resolver, metadata retained
+PASS F1-F5 normalized save/reopen keeps unknown metadata and references
+{"suite":"remediation_core","passed":10,"failed":0}

@@ -1,0 +1,247 @@
+{
+  "schema": "first-encounter-stage6-preflight@1",
+  "created_utc": "2026-10-18T16:22:00.128821+00:00",
+  "result": "PASS",
+  "pre_import_commit": "bdedf38274b0871e8572fad07a61d35092008b66",
+  "repository_files_guarded": 2802,
+  "room_creator_source": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\rc0141-remediation\\Room_Creator_v0_14_1_remediation_candidate",
+  "preserved_source": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\pre-migration-2026-10-18-stages-0-3\\snapshots\\room-creator-editable",
+  "files": 383,
+  "bytes": 201955025,
+  "tree_sha256": "63521f0d9068de3e4da40cd8ec4573d17b26481aa6557a908caaa8d10a4c485b",
+  "tree_manifest_sha256": "73444d33f4dca2c5ac90beb5e3be3ccb3ed22ce87951567eb5b02fd3eabd2536",
+  "candidate_zip_sha256": "9b9cd3e9220edbdffbd836154b44d69b5527aa8b0d74300ad546f868a18da78d",
+  "candidate_zip_crc": "PASS",
+  "internal_manifest_entries": 382,
+  "external_asset_zip_sha256": "4cf39cb712d55e866a593ad12394efec891d5ae3ac14dfd35d932b32bd8b1241",
+  "external_asset_zip_crc": "PASS",
+  "asset_manifest_counts": {
+    "model": 327,
+    "palette": 3,
+    "surface_texture": 1043
+  },
+  "historical_supplemental": [
+    {
+      "archive_path": "snapshots/room-creator-independent-v0141/AUDIT_REPORT.md",
+      "repository_path": "docs/audits/room-creator/AUDIT_REPORT.md",
+      "bytes": 16203,
+      "sha256": "5615ad2e601b59eb4b03f218fee1b41da8690a14770cb23b641c816005186adc",
+      "role": "preserved independent findings; historical, not Stage 6 execution"
+    },
+    {
+      "archive_path": "snapshots/room-creator-independent-v0141/README_EVIDENCE.txt",
+      "repository_path": "docs/audits/room-creator/README_EVIDENCE.txt",
+      "bytes": 572,
+      "sha256": "359b686cd0abdda3c8ad58a4c95d1b5ba3d78c322fca2fd6242e3e261a26d153",
+      "role": "preserved independent findings; historical, not Stage 6 execution"
+    },
+    {
+      "archive_path": "snapshots/room-creator-independent-v0141/RUN_NOTES.json",
+      "repository_path": "docs/audits/room-creator/RUN_NOTES.json",
+      "bytes": 2277,
+      "sha256": "34dd479808490f24c4ba03e6c9f460a8cf7ad8f5ea70f024f5d5253c72a38a5b",
+      "role": "preserved independent findings; historical, not Stage 6 execution"
+    },
+    {
+      "archive_path": "snapshots/room-creator-independent-v0141/adversarial-results.json",
+      "repository_path": "docs/audits/room-creator/adversarial-results.json",
+      "bytes": 40430,
+      "sha256": "62e15b7d9383fc3aafc807174b643bf7ccb6c642ee05ccbd653dc3cdc972def9",
+      "role": "preserved independent findings; historical, not Stage 6 execution"
+    },
+    {
+      "archive_path": "snapshots/room-creator-independent-v0141/additional-lifecycle-results.json",
+      "repository_path": "docs/audits/room-creator/additional-lifecycle-results.json",
+      "bytes": 8802,
+      "sha256": "d6fc78369de03cc81c11c228f5a041bbb7f1ed2a0a82cd163b81dd41abbd5942",
+      "role": "preserved independent findings; historical, not Stage 6 execution"
+    },
+    {
+      "archive_path": "snapshots/room-creator-independent-v0141/independent-builds.json",
+      "repository_path": "docs/audits/room-creator/independent-builds.json",
+      "bytes": 715,
+      "sha256": "f976847fa580776a357f03534c6099d5f4b8b99848712e294c09813edfaab078",
+      "role": "preserved independent findings; historical, not Stage 6 execution"
+    },
+    {
+      "archive_path": "snapshots/room-creator-independent-v0141/restored-test-inventory.json",
+      "repository_path": "docs/audits/room-creator/restored-test-inventory.json",
+      "bytes": 2663,
+      "sha256": "cecbb30596f9bee4a0d9623fdb44db02a34b4c7584488bf145755490045b1145",
+      "role": "preserved independent findings; historical, not Stage 6 execution"
+    },
+    {
+      "archive_path": "snapshots/room-creator-independent-v0141/all-baseline-map-comparison.json",
+      "repository_path": "docs/audits/room-creator/all-baseline-map-comparison.json",
+      "bytes": 2563,
+      "sha256": "a0805052d048c5e09b937489ca9c8c00086ebe718a47f9d9dc8db936a76242cd",
+      "role": "preserved independent findings; historical, not Stage 6 execution"
+    },
+    {
+      "archive_path": "snapshots/room-creator-independent-v0141/independent-packaging.json",
+      "repository_path": "docs/audits/room-creator/independent-packaging.json",
+      "bytes": 545,
+      "sha256": "4adb7d9b074495db3a9aec070d2d4078fe646d890417a4f5c64a3997f255be4e",
+      "role": "preserved independent findings; historical, not Stage 6 execution"
+    },
+    {
+      "archive_path": "snapshots/room-creator-independent-v0141/audit-scripts/adversarial.py",
+      "repository_path": "tools/room-creator-independent/adversarial.py",
+      "bytes": 10475,
+      "sha256": "91bb2a5d637b2db0038efe7c8dfa649948265c45339a0e3e0691ff9cc71f9788",
+      "role": "preserved independent script; not executed"
+    },
+    {
+      "archive_path": "snapshots/room-creator-independent-v0141/audit-scripts/candidate-prior-browser.py",
+      "repository_path": "tools/room-creator-independent/candidate-prior-browser.py",
+      "bytes": 5374,
+      "sha256": "5936a1003bb2395f1d3780d0db13624a3111e447b72adbc36e405c94802448ae",
+      "role": "preserved independent script; not executed"
+    },
+    {
+      "archive_path": "snapshots/room-creator-independent-v0141/audit-scripts/candidate-prior-data.cjs",
+      "repository_path": "tools/room-creator-independent/candidate-prior-data.cjs",
+      "bytes": 4214,
+      "sha256": "a7cbc50d5c7be93bb1d68d5678e46a4e5371855340e4920aa08729f7e82a3d0a",
+      "role": "preserved independent script; not executed"
+    },
+    {
+      "archive_path": "snapshots/room-creator-independent-v0141/audit-scripts/compare-generated.cjs",
+      "repository_path": "tools/room-creator-independent/compare-generated.cjs",
+      "bytes": 1176,
+      "sha256": "649570959771b18f1f574229c88bfb096aaf168a7050a31b1691be12f560b24b",
+      "role": "preserved independent script; not executed"
+    },
+    {
+      "archive_path": "snapshots/room-creator-independent-v0141/audit-scripts/finalize.py",
+      "repository_path": "tools/room-creator-independent/finalize.py",
+      "bytes": 7547,
+      "sha256": "a07508a3fad7424966a1ab8aca2fcaed2895e798efae4e5b2e6cf746c2dee0f8",
+      "role": "preserved independent script; not executed"
+    },
+    {
+      "archive_path": "snapshots/room-creator-independent-v0141/audit-scripts/identity.py",
+      "repository_path": "tools/room-creator-independent/identity.py",
+      "bytes": 2856,
+      "sha256": "1d888451da4939b75a55db004a62bf4b47bb5b2e939ee67c62dee08c6e7d09f3",
+      "role": "preserved independent script; not executed"
+    },
+    {
+      "archive_path": "snapshots/room-creator-independent-v0141/audit-scripts/lifecycle.py",
+      "repository_path": "tools/room-creator-independent/lifecycle.py",
+      "bytes": 3605,
+      "sha256": "5a577d4c1b47782c9d1b4eb2c612d1c1c646f29fa5eb8d34c30f5645cee5a053",
+      "role": "preserved independent script; not executed"
+    },
+    {
+      "archive_path": "snapshots/room-creator-independent-v0141/audit-scripts/original-loader.py",
+      "repository_path": "tools/room-creator-independent/original-loader.py",
+      "bytes": 1150,
+      "sha256": "89156f4eff784123c8f1613a04ae39679c37011f37c9e9147c21664f20dbfc83",
+      "role": "preserved independent script; not executed"
+    },
+    {
+      "archive_path": "snapshots/room-creator-independent-v0141/audit-scripts/original-prior-browser.py",
+      "repository_path": "tools/room-creator-independent/original-prior-browser.py",
+      "bytes": 5371,
+      "sha256": "6b37cdaf2ea643092a26a83957da950e40364e4ae5315402a334895e7dea41ed",
+      "role": "preserved independent script; not executed"
+    },
+    {
+      "archive_path": "snapshots/room-creator-independent-v0141/audit-scripts/original-prior-data.cjs",
+      "repository_path": "tools/room-creator-independent/original-prior-data.cjs",
+      "bytes": 4180,
+      "sha256": "0ef6d7c934f705736ff1746736018df027c07c58d4ea358269f69c6e417a7417",
+      "role": "preserved independent script; not executed"
+    },
+    {
+      "archive_path": "snapshots/room-creator-independent-v0141/audit-scripts/prepare.py",
+      "repository_path": "tools/room-creator-independent/prepare.py",
+      "bytes": 3805,
+      "sha256": "a2ef6ee85afd3052903f1214b38573c8508b409d5aee04e03927bec756e391ca",
+      "role": "preserved independent script; not executed"
+    },
+    {
+      "archive_path": "snapshots/room-creator-independent-v0141/audit-scripts/serve.py",
+      "repository_path": "tools/room-creator-independent/serve.py",
+      "bytes": 880,
+      "sha256": "259b34fbfebeb64d6035e456877ebc804e825556db49a94c24778213dbc7b07f",
+      "role": "preserved independent script; not executed"
+    },
+    {
+      "archive_path": "snapshots/room-creator-independent-v0141/audit-scripts/summarize.py",
+      "repository_path": "tools/room-creator-independent/summarize.py",
+      "bytes": 3571,
+      "sha256": "f88a34e67140edf77c93e5d6d3773070cfc9e0221ce98ff885a9550a5780b0dd",
+      "role": "preserved independent script; not executed"
+    }
+  ],
+  "asset_metadata": [
+    {
+      "member": "Trapstar_RoomCreator_Asset_Library_v1/ASSET_MANIFEST.json",
+      "repository_path": "assets/manifests/room-creator-library-v1/ASSET_MANIFEST.json",
+      "bytes": 1576869,
+      "sha256": "541567409d2acae560250905f22dfaf9acbcd0269adae58bfb9e5f972175b9f7"
+    },
+    {
+      "member": "Trapstar_RoomCreator_Asset_Library_v1/PACKAGE_MANIFEST.json",
+      "repository_path": "assets/manifests/room-creator-library-v1/PACKAGE_MANIFEST.json",
+      "bytes": 4182,
+      "sha256": "93252c02f1a8de43bf71e1186912ef8eec97a9cb604f7e17a3f89e3a0e2242de"
+    },
+    {
+      "member": "Trapstar_RoomCreator_Asset_Library_v1/SOURCE_PACK_MANIFEST.json",
+      "repository_path": "assets/manifests/room-creator-library-v1/SOURCE_PACK_MANIFEST.json",
+      "bytes": 2619,
+      "sha256": "5d9ce165e75236644f9258152701453b3ec6001d2f1abfe572fc05dfba67be43"
+    },
+    {
+      "member": "Trapstar_RoomCreator_Asset_Library_v1/CHECKSUMS.sha256",
+      "repository_path": "assets/manifests/room-creator-library-v1/CHECKSUMS.sha256",
+      "bytes": 411178,
+      "sha256": "6e53920b2f8a1994f1e0b59f5e7bb41d7e2837bddbff9b9ecc6ce021227125d1"
+    },
+    {
+      "member": "Trapstar_RoomCreator_Asset_Library_v1/DOCUMENTATION/LICENSE_REVIEW.md",
+      "repository_path": "assets/manifests/room-creator-library-v1/DOCUMENTATION/LICENSE_REVIEW.md",
+      "bytes": 892,
+      "sha256": "9afc1f4c661bef01de9b8889644eda2cd65638a7a3e413315321f5d25f237685"
+    },
+    {
+      "member": "Trapstar_RoomCreator_Asset_Library_v1/LICENSES/modular_prototyping_cc0.txt",
+      "repository_path": "assets/manifests/room-creator-library-v1/LICENSES/modular_prototyping_cc0.txt",
+      "bytes": 283,
+      "sha256": "4bf637a9cf6cfa800b4d1e1aa501554ae600d3b105fed1d897d526f610eb5bf3"
+    },
+    {
+      "member": "Trapstar_RoomCreator_Asset_Library_v1/LICENSES/pixel_art_textures.txt",
+      "repository_path": "assets/manifests/room-creator-library-v1/LICENSES/pixel_art_textures.txt",
+      "bytes": 324,
+      "sha256": "27e00c5eb89b5bf38e53dca77e6676d560c3a3378ca90f84830eeb6811f70138"
+    },
+    {
+      "member": "Trapstar_RoomCreator_Asset_Library_v1/LICENSES/lowpoly_props_cc0.txt",
+      "repository_path": "assets/manifests/room-creator-library-v1/LICENSES/lowpoly_props_cc0.txt",
+      "bytes": 665,
+      "sha256": "c58119e2c5f09163ed1b45f6573e0ce05ab96e8595c8ab6a5e0db22b8d42eaa9"
+    },
+    {
+      "member": "Trapstar_RoomCreator_Asset_Library_v1/LICENSES/cars_kent_lowpoly_LICENSE_STATUS.txt",
+      "repository_path": "assets/manifests/room-creator-library-v1/LICENSES/cars_kent_lowpoly_LICENSE_STATUS.txt",
+      "bytes": 169,
+      "sha256": "e1feada0078b3e45b22f5f5c6e802ccfaf77a28c2443697f16c914bb46ae7fc9"
+    },
+    {
+      "member": "Trapstar_RoomCreator_Asset_Library_v1/LICENSES/cars_lowpoly_v2_LICENSE_STATUS.txt",
+      "repository_path": "assets/manifests/room-creator-library-v1/LICENSES/cars_lowpoly_v2_LICENSE_STATUS.txt",
+      "bytes": 169,
+      "sha256": "e1feada0078b3e45b22f5f5c6e802ccfaf77a28c2443697f16c914bb46ae7fc9"
+    }
+  ],
+  "nested_gitattributes_CRLF_conflicts": [
+    "tests/build_repro.py",
+    "tests/package_checkpoint.py"
+  ],
+  "resolution": "Add new tests/.gitattributes packaging metadata with * -text. All 383 baseline files, including original .gitattributes and CRLF scripts, stay unchanged.",
+  "stage7_tests_builds_browser_executed": false
+}

@@ -1,0 +1,9 @@
+[
+  {
+    "script": "remediation_browser.py",
+    "kind": "assertions",
+    "exitCode": 1,
+    "seconds": 26.16,
+    "log": "remediation_browser.py.log"
+  }
+]

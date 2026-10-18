@@ -1,0 +1,50 @@
+{
+  "candidate": "Room Creator v0.14.1 remediation candidate",
+  "canonicalPromotion": "not performed; independent review required",
+  "build": {
+    "bytes": 1615201,
+    "sha256": "a4e8a14ddc4d734c036902f56b1a7d7bb8a157a77ef3911b97ea70c76f228c97"
+  },
+  "assertions": {
+    "inheritedNode": 297,
+    "newCoreCases": 11,
+    "newBrowserChecks": 45,
+    "newBrowserFailed": 0,
+    "assetBrowser": 60,
+    "modelsLoaded": 327,
+    "demoChecks": 4
+  },
+  "environment": {
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.12.0",
+    "node": "v24.18.0",
+    "playwright": "1.56.0",
+    "chrome": "155.0.8059.41",
+    "graphics": "ANGLE SwiftShader software; concurrent browser tests, timings observational"
+  },
+  "finalAssertionLogs": "test_runs/final-assertions",
+  "finalRegressionLogs": "test_runs/final-regressions",
+  "preservationRouteGenerationLogs": "test_runs/20261018-100216",
+  "route": {
+    "scenarios": 27,
+    "numericalStructureMatchesAudit": true,
+    "totals": {
+      "spawns": 190,
+      "despawns": 193,
+      "spawnInView": 0,
+      "despawnInView": 0,
+      "carDespawnInView": 0,
+      "nodeConflicts": 0,
+      "sameDirectionOvertakes": 0
+    },
+    "notes": "Only console resource list and a middle-dot glyph in S2 log text differ; numerical route data matches."
+  },
+  "demoRegeneration": {
+    "passed": true,
+    "props": 69,
+    "uniqueModels": 50,
+    "preservedNavigation": true,
+    "placementCollisionGameplayMatch": true
+  },
+  "preservationScriptsCompleted": 9
+}

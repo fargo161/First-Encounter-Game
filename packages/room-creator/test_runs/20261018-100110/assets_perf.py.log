@@ -1,0 +1,2 @@
+demo {'saveMs': 60, 'fileMB': 18.3, 'openMs': 142, 'selectMs': 439.2, 'editMs': 46.1, 'duplicateMs': 58.5, 'undoMs': 27.6, 'redoMs': 28.1, 'paletteMs': 2756.5, 'storySwitchTwiceMs': 663.5, 'props': 70}
+stress {'saveMs': 163, 'fileMB': 18.5, 'openMs': 310, 'selectMs': 29.2, 'editMs': 75.3, 'duplicateMs': 144.2, 'undoMs': 70.8, 'redoMs': 78.4, 'paletteMs': 58.6, 'storySwitchTwiceMs': 7600.6, 'props': 571}

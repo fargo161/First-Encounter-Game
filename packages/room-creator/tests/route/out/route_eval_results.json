@@ -1,0 +1,9731 @@
+{
+ "S1_stroll": {
+  "seconds": 150,
+  "npcOnScreenSeconds": 231.2,
+  "settings": {
+   "strafe": 0.7,
+   "branchCone": 40,
+   "lookYaw": 95,
+   "lookUp": 30,
+   "lookDown": 35,
+   "turnTime": 0.4,
+   "walk": 1.45,
+   "back": 0.9,
+   "strafeSpeed": 1.1,
+   "sprint": 2.6,
+   "stamina": 3.5,
+   "fov": 75,
+   "eye": 1.62,
+   "crouchEye": 1.05,
+   "rubber": 25,
+   "tolerance": 18,
+   "hysteresis": 12,
+   "nearHyst": true,
+   "headMax": 65,
+   "headRubber": 35,
+   "distCheat": true,
+   "allowSide": false,
+   "allowBackQ": false,
+   "debug": 0,
+   "bob": true,
+   "noticeDist": 70,
+   "mouseSens": 0.12
+  },
+  "bodyViewShareByClass": {
+   "pedestrian": {
+    "time": 123.7,
+    "FRONT": 28,
+    "3/4": 17.9,
+    "BACK": 54.1,
+    "SIDE": 0,
+    "BACK 3/4": 0,
+    "ifSideAllowed": {
+     "FRONT": 28,
+     "3/4": 9.6,
+     "BACK": 52.6,
+     "SIDE": 9.8
+    }
+   },
+   "combatant": {
+    "time": 32.6,
+    "FRONT": 22.8,
+    "3/4": 1.5,
+    "BACK": 75.6,
+    "SIDE": 0,
+    "BACK 3/4": 0,
+    "ifSideAllowed": {
+     "FRONT": 22.8,
+     "3/4": 1.5,
+     "BACK": 75.6,
+     "SIDE": 0
+    }
+   },
+   "stationary": {
+    "time": 56.2,
+    "FRONT": 31.8,
+    "3/4": 54.9,
+    "BACK": 13.3,
+    "SIDE": 0,
+    "BACK 3/4": 0,
+    "ifSideAllowed": {
+     "FRONT": 47.7,
+     "3/4": 11.8,
+     "BACK": 0,
+     "SIDE": 40.4
+    }
+   },
+   "background": {
+    "time": 18.7,
+    "FRONT": 100,
+    "3/4": 0,
+    "BACK": 0,
+    "SIDE": 0,
+    "BACK 3/4": 0,
+    "ifSideAllowed": null
+   }
+  },
+  "trueAngleShare": {
+   "all": {
+    "F": 23.8,
+    "Q": 22,
+    "S": 11.4,
+    "BQ": 16.3,
+    "B": 26.6
+   },
+   "moving": {
+    "F": 26.5,
+    "Q": 12,
+    "S": 6.3,
+    "BQ": 17.7,
+    "B": 37.5
+   }
+  },
+  "cardWrongShare_residualOverTolerance": {
+   "near": 4.2,
+   "mid": 7.8,
+   "far": 0
+  },
+  "moonwalkShare_movingErrorOver30": {
+   "near": 3.4,
+   "mid": 12.1,
+   "far": 14.8
+  },
+  "onScreenSecondsByDistance": {
+   "near": 33,
+   "mid": 37.4,
+   "far": 160.9
+  },
+  "viewSwitchesPerNpcMinute": 3.4,
+  "carViewShare": {
+   "FRONT": 31.5,
+   "SIDE": 38.6,
+   "BACK": 29.9
+  },
+  "rules": {
+   "spawns": 11,
+   "despawns": 11,
+   "spawnInView": 0,
+   "despawnInView": 0,
+   "carDespawnInView": 0,
+   "carsParkedBecauseExitWasVisible": 0,
+   "nodeConflicts": 0,
+   "sameDirectionOvertakes": 0,
+   "playerBumpedIntoNpcSeconds": 0,
+   "playerNodeUses": 0
+  },
+  "player": {
+   "junctionsTaken": 6,
+   "turnArounds": 1,
+   "shots": 0,
+   "hits": 0,
+   "blockedShots": 0,
+   "markCouldSeeYouSeconds": 34.2
+  },
+  "heads": {
+   "maxHeadTurn": 65,
+   "secondsHeadHeldAttentionWithoutBodyChange": 11.8
+  },
+  "flourishes": 6,
+  "byGroup": {
+   "near": {
+    "seconds": 64.3,
+    "trueAngle": {
+     "F": 35.6,
+     "Q": 2.1,
+     "S": 3.2,
+     "BQ": 3.8,
+     "B": 55.4
+    },
+    "shown": {
+     "FRONT": 36.1,
+     "3/4": 4.9,
+     "BACK": 59,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 36.1,
+     "3/4": 1.7,
+     "BACK": 56.5,
+     "SIDE": 5.7
+    },
+    "edgeOn": 2.2,
+    "walkingArtWrongOver30": 4.6
+   },
+   "mark": {
+    "seconds": 32.6,
+    "trueAngle": {
+     "F": 14.5,
+     "Q": 9.8,
+     "S": 0,
+     "BQ": 20.8,
+     "B": 54.9
+    },
+    "shown": {
+     "FRONT": 22.8,
+     "3/4": 1.5,
+     "BACK": 75.6,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 22.8,
+     "3/4": 1.5,
+     "BACK": 75.6,
+     "SIDE": 0
+    },
+    "edgeOn": 0,
+    "walkingArtWrongOver30": 0
+   },
+   "stoop": {
+    "seconds": 17.2,
+    "trueAngle": {
+     "F": 65.2,
+     "Q": 4.5,
+     "S": 30.3,
+     "BQ": 0,
+     "B": 0
+    },
+    "shown": {
+     "FRONT": 64.3,
+     "3/4": 35.7,
+     "BACK": 0,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 64.3,
+     "3/4": 5.4,
+     "BACK": 0,
+     "SIDE": 30.3
+    },
+    "edgeOn": 0,
+    "walkingArtWrongOver30": 0.9
+   },
+   "loiter": {
+    "seconds": 57.8,
+    "trueAngle": {
+     "F": 14.7,
+     "Q": 53.6,
+     "S": 18.9,
+     "BQ": 12.8,
+     "B": 0
+    },
+    "shown": {
+     "FRONT": 44.2,
+     "3/4": 42.9,
+     "BACK": 12.9,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 11.8,
+     "3/4": 6.1,
+     "BACK": 0,
+     "SIDE": 17.2
+    },
+    "edgeOn": 0,
+    "walkingArtWrongOver30": 0
+   },
+   "far": {
+    "seconds": 59.4,
+    "trueAngle": {
+     "F": 13.1,
+     "Q": 24.3,
+     "S": 13.9,
+     "BQ": 35.4,
+     "B": 13.3
+    },
+    "shown": {
+     "FRONT": 19.3,
+     "3/4": 32,
+     "BACK": 48.7,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 19.3,
+     "3/4": 18.1,
+     "BACK": 48.3,
+     "SIDE": 14.4
+    },
+    "edgeOn": 4.9,
+    "walkingArtWrongOver30": 44.7
+   }
+  },
+  "artSets": {
+   "FRONT, 3/4, BACK": {
+    "walkingArtWrongOver30": 18.1,
+    "meanErrorWhileWalking": 17,
+    "worstError": 82,
+    "switchesPerNpcMinute": 4,
+    "share": {
+     "FRONT": 31,
+     "BACK": 51.1,
+     "3/4": 17.9
+    }
+   },
+   "+ SIDE": {
+    "walkingArtWrongOver30": 13.4,
+    "meanErrorWhileWalking": 15,
+    "worstError": 59,
+    "switchesPerNpcMinute": 5,
+    "share": {
+     "FRONT": 31,
+     "BACK": 46.3,
+     "SIDE": 14.1,
+     "3/4": 8.7
+    }
+   },
+   "+ BACK 3/4": {
+    "walkingArtWrongOver30": 4,
+    "meanErrorWhileWalking": 12.8,
+    "worstError": 51,
+    "switchesPerNpcMinute": 4,
+    "share": {
+     "FRONT": 31,
+     "BACK": 22.1,
+     "3/4": 15.8,
+     "BACK 3/4": 31.2
+    }
+   },
+   "+ SIDE + BACK 3/4": {
+    "walkingArtWrongOver30": 0.3,
+    "meanErrorWhileWalking": 11.5,
+    "worstError": 37,
+    "switchesPerNpcMinute": 5.9,
+    "share": {
+     "FRONT": 31,
+     "BACK": 22.1,
+     "SIDE": 9.3,
+     "3/4": 8.7,
+     "BACK 3/4": 29
+    }
+   }
+  },
+  "crowd": {
+   "npcWaitSeconds": 0.4,
+   "npcSidestepSeconds": 2.9,
+   "bodiesOverlappingSeconds": 0
+  },
+  "log": [
+   {
+    "t": 9.03,
+    "pos": {
+     "x": 26.86,
+     "y": 37.85,
+     "edge": "e_harlan_w",
+     "s": 20.86,
+     "off": 0,
+     "body": 90,
+     "head": -50,
+     "stop": null
+    },
+    "msg": "Route walk started. Click the picture to steer with the mouse.",
+    "markWhy": "can see you",
+    "c": {}
+   },
+   {
+    "t": 9.03,
+    "pos": {
+     "x": 26.86,
+     "y": 37.85,
+     "edge": "e_harlan_w",
+     "s": 20.86,
+     "off": 0,
+     "body": 90,
+     "head": -50,
+     "stop": null
+    },
+    "msg": "Route walk started. Click the picture to steer with the mouse.",
+    "markWhy": "can see you",
+    "c": {}
+   },
+   {
+    "t": 16.03,
+    "pos": {
+     "x": 37.01,
+     "y": 37.85,
+     "edge": "e_harlan_w",
+     "s": 31.01,
+     "off": 0,
+     "body": 90,
+     "head": 7,
+     "stop": null
+    },
+    "msg": "Route walk started. Click the picture to steer with the mouse.",
+    "markWhy": "can see you",
+    "c": {}
+   },
+   {
+    "t": 23,
+    "pos": {
+     "x": 47.11,
+     "y": 37.85,
+     "edge": "e_harlan_w",
+     "s": 41.11,
+     "off": 0,
+     "body": 90,
+     "head": 0,
+     "stop": null
+    },
+    "msg": "Route walk started. Click the picture to steer with the mouse.",
+    "markWhy": "can see you",
+    "c": {}
+   },
+   {
+    "t": 27,
+    "pos": {
+     "x": 52.91,
+     "y": 37.85,
+     "edge": "e_harlan_w",
+     "s": 46.91,
+     "off": 0,
+     "body": 90,
+     "head": -4,
+     "stop": null
+    },
+    "msg": "Route walk started. Click the picture to steer with the mouse.",
+    "markWhy": "can see you",
+    "c": {}
+   },
+   {
+    "t": 52.03,
+    "pos": {
+     "x": 87.61,
+     "y": 37.85,
+     "edge": "e_pier",
+     "s": 14.01,
+     "off": 0,
+     "body": 270,
+     "head": -8,
+     "stop": null
+    },
+    "msg": "Route walk started. Click the picture to steer with the mouse.",
+    "markWhy": "too far",
+    "c": {
+     "turned": true
+    }
+   },
+   {
+    "t": 52.03,
+    "pos": {
+     "x": 87.61,
+     "y": 37.85,
+     "edge": "e_pier",
+     "s": 14.01,
+     "off": 0,
+     "body": 270,
+     "head": -8,
+     "stop": null
+    },
+    "msg": "Route walk started. Click the picture to steer with the mouse.",
+    "markWhy": "too far",
+    "c": {
+     "turned": true
+    }
+   },
+   {
+    "t": 150.03,
+    "pos": {
+     "x": 6,
+     "y": 37.85,
+     "edge": "e_harlan_w",
+     "s": 0,
+     "off": 0,
+     "body": 270,
+     "head": 75,
+     "stop": "End of this route \u2014 R turns around"
+    },
+    "msg": "Route walk started. Click the picture to steer with the mouse.",
+    "markWhy": "too far",
+    "c": {
+     "turned": true
+    }
+   }
+  ]
+ },
+ "S1_stroll_side": {
+  "seconds": 150,
+  "npcOnScreenSeconds": 231.2,
+  "settings": {
+   "strafe": 0.7,
+   "branchCone": 40,
+   "lookYaw": 95,
+   "lookUp": 30,
+   "lookDown": 35,
+   "turnTime": 0.4,
+   "walk": 1.45,
+   "back": 0.9,
+   "strafeSpeed": 1.1,
+   "sprint": 2.6,
+   "stamina": 3.5,
+   "fov": 75,
+   "eye": 1.62,
+   "crouchEye": 1.05,
+   "rubber": 25,
+   "tolerance": 18,
+   "hysteresis": 12,
+   "nearHyst": true,
+   "headMax": 65,
+   "headRubber": 35,
+   "distCheat": true,
+   "allowSide": true,
+   "allowBackQ": false,
+   "debug": 2,
+   "bob": true,
+   "noticeDist": 70,
+   "mouseSens": 0.12
+  },
+  "bodyViewShareByClass": {
+   "pedestrian": {
+    "time": 123.7,
+    "FRONT": 28,
+    "3/4": 9.6,
+    "BACK": 52.6,
+    "SIDE": 9.8,
+    "BACK 3/4": 0,
+    "ifSideAllowed": {
+     "FRONT": 28,
+     "3/4": 9.6,
+     "BACK": 52.6,
+     "SIDE": 9.8
+    }
+   },
+   "combatant": {
+    "time": 32.6,
+    "FRONT": 22.8,
+    "3/4": 1.5,
+    "BACK": 75.6,
+    "SIDE": 0,
+    "BACK 3/4": 0,
+    "ifSideAllowed": {
+     "FRONT": 22.8,
+     "3/4": 1.5,
+     "BACK": 75.6,
+     "SIDE": 0
+    }
+   },
+   "stationary": {
+    "time": 56.2,
+    "FRONT": 31.8,
+    "3/4": 41.3,
+    "BACK": 0,
+    "SIDE": 26.9,
+    "BACK 3/4": 0,
+    "ifSideAllowed": {
+     "FRONT": 47.7,
+     "3/4": 11.8,
+     "BACK": 0,
+     "SIDE": 40.4
+    }
+   },
+   "background": {
+    "time": 18.7,
+    "FRONT": 100,
+    "3/4": 0,
+    "BACK": 0,
+    "SIDE": 0,
+    "BACK 3/4": 0,
+    "ifSideAllowed": null
+   }
+  },
+  "trueAngleShare": {
+   "all": {
+    "F": 23.8,
+    "Q": 22,
+    "S": 11.4,
+    "BQ": 16.3,
+    "B": 26.6
+   },
+   "moving": {
+    "F": 26.5,
+    "Q": 12,
+    "S": 6.3,
+    "BQ": 17.7,
+    "B": 37.5
+   }
+  },
+  "cardWrongShare_residualOverTolerance": {
+   "near": 1.9,
+   "mid": 0,
+   "far": 0
+  },
+  "moonwalkShare_movingErrorOver30": {
+   "near": 3,
+   "mid": 0,
+   "far": 12.9
+  },
+  "onScreenSecondsByDistance": {
+   "near": 33,
+   "mid": 37.4,
+   "far": 160.9
+  },
+  "viewSwitchesPerNpcMinute": 4.2,
+  "carViewShare": {
+   "FRONT": 31.5,
+   "SIDE": 38.6,
+   "BACK": 29.9
+  },
+  "rules": {
+   "spawns": 11,
+   "despawns": 11,
+   "spawnInView": 0,
+   "despawnInView": 0,
+   "carDespawnInView": 0,
+   "carsParkedBecauseExitWasVisible": 0,
+   "nodeConflicts": 0,
+   "sameDirectionOvertakes": 0,
+   "playerBumpedIntoNpcSeconds": 0,
+   "playerNodeUses": 0
+  },
+  "player": {
+   "junctionsTaken": 6,
+   "turnArounds": 1,
+   "shots": 0,
+   "hits": 0,
+   "blockedShots": 0,
+   "markCouldSeeYouSeconds": 34.2
+  },
+  "heads": {
+   "maxHeadTurn": 65,
+   "secondsHeadHeldAttentionWithoutBodyChange": 11.8
+  },
+  "flourishes": 6,
+  "byGroup": {
+   "near": {
+    "seconds": 64.3,
+    "trueAngle": {
+     "F": 35.6,
+     "Q": 2.1,
+     "S": 3.2,
+     "BQ": 3.8,
+     "B": 55.4
+    },
+    "shown": {
+     "FRONT": 36.1,
+     "3/4": 1.7,
+     "BACK": 56.5,
+     "SIDE": 5.7,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 36.1,
+     "3/4": 1.7,
+     "BACK": 56.5,
+     "SIDE": 5.7
+    },
+    "edgeOn": 1,
+    "walkingArtWrongOver30": 1.6
+   },
+   "mark": {
+    "seconds": 32.6,
+    "trueAngle": {
+     "F": 14.5,
+     "Q": 9.8,
+     "S": 0,
+     "BQ": 20.8,
+     "B": 54.9
+    },
+    "shown": {
+     "FRONT": 22.8,
+     "3/4": 1.5,
+     "BACK": 75.6,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 22.8,
+     "3/4": 1.5,
+     "BACK": 75.6,
+     "SIDE": 0
+    },
+    "edgeOn": 0,
+    "walkingArtWrongOver30": 0
+   },
+   "stoop": {
+    "seconds": 17.2,
+    "trueAngle": {
+     "F": 65.2,
+     "Q": 4.5,
+     "S": 30.3,
+     "BQ": 0,
+     "B": 0
+    },
+    "shown": {
+     "FRONT": 64.3,
+     "3/4": 5.4,
+     "BACK": 0,
+     "SIDE": 30.3,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 64.3,
+     "3/4": 5.4,
+     "BACK": 0,
+     "SIDE": 30.3
+    },
+    "edgeOn": 0,
+    "walkingArtWrongOver30": 0.9
+   },
+   "loiter": {
+    "seconds": 57.8,
+    "trueAngle": {
+     "F": 14.7,
+     "Q": 53.6,
+     "S": 18.9,
+     "BQ": 12.8,
+     "B": 0
+    },
+    "shown": {
+     "FRONT": 44.2,
+     "3/4": 38.6,
+     "BACK": 0,
+     "SIDE": 17.2,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 11.8,
+     "3/4": 6.1,
+     "BACK": 0,
+     "SIDE": 17.2
+    },
+    "edgeOn": 0,
+    "walkingArtWrongOver30": 0
+   },
+   "far": {
+    "seconds": 59.4,
+    "trueAngle": {
+     "F": 13.1,
+     "Q": 24.3,
+     "S": 13.9,
+     "BQ": 35.4,
+     "B": 13.3
+    },
+    "shown": {
+     "FRONT": 19.3,
+     "3/4": 18.1,
+     "BACK": 48.3,
+     "SIDE": 14.4,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 19.3,
+     "3/4": 18.1,
+     "BACK": 48.3,
+     "SIDE": 14.4
+    },
+    "edgeOn": 0,
+    "walkingArtWrongOver30": 35
+   }
+  },
+  "artSets": {
+   "FRONT, 3/4, BACK": {
+    "walkingArtWrongOver30": 18.1,
+    "meanErrorWhileWalking": 17,
+    "worstError": 82,
+    "switchesPerNpcMinute": 4,
+    "share": {
+     "FRONT": 31,
+     "BACK": 51.1,
+     "3/4": 17.9
+    }
+   },
+   "+ SIDE": {
+    "walkingArtWrongOver30": 13.4,
+    "meanErrorWhileWalking": 15,
+    "worstError": 59,
+    "switchesPerNpcMinute": 5,
+    "share": {
+     "FRONT": 31,
+     "BACK": 46.3,
+     "SIDE": 14.1,
+     "3/4": 8.7
+    }
+   },
+   "+ BACK 3/4": {
+    "walkingArtWrongOver30": 4,
+    "meanErrorWhileWalking": 12.8,
+    "worstError": 51,
+    "switchesPerNpcMinute": 4,
+    "share": {
+     "FRONT": 31,
+     "BACK": 22.1,
+     "3/4": 15.8,
+     "BACK 3/4": 31.2
+    }
+   },
+   "+ SIDE + BACK 3/4": {
+    "walkingArtWrongOver30": 0.3,
+    "meanErrorWhileWalking": 11.5,
+    "worstError": 37,
+    "switchesPerNpcMinute": 5.9,
+    "share": {
+     "FRONT": 31,
+     "BACK": 22.1,
+     "SIDE": 9.3,
+     "3/4": 8.7,
+     "BACK 3/4": 29
+    }
+   }
+  },
+  "crowd": {
+   "npcWaitSeconds": 0.4,
+   "npcSidestepSeconds": 2.9,
+   "bodiesOverlappingSeconds": 0
+  },
+  "log": [
+   {
+    "t": 150.03,
+    "pos": {
+     "x": 6,
+     "y": 37.85,
+     "edge": "e_harlan_w",
+     "s": 0,
+     "off": 0,
+     "body": 270,
+     "head": 75,
+     "stop": "End of this route \u2014 R turns around"
+    },
+    "msg": "Route walk started. Click the picture to steer with the mouse.",
+    "markWhy": "too far",
+    "c": {
+     "turned": true
+    }
+   }
+  ]
+ },
+ "S2_spy": {
+  "seconds": 75,
+  "npcOnScreenSeconds": 142.8,
+  "settings": {
+   "strafe": 0.7,
+   "branchCone": 40,
+   "lookYaw": 95,
+   "lookUp": 30,
+   "lookDown": 35,
+   "turnTime": 0.4,
+   "walk": 1.45,
+   "back": 0.9,
+   "strafeSpeed": 1.1,
+   "sprint": 2.6,
+   "stamina": 3.5,
+   "fov": 75,
+   "eye": 1.62,
+   "crouchEye": 1.05,
+   "rubber": 25,
+   "tolerance": 18,
+   "hysteresis": 12,
+   "nearHyst": true,
+   "headMax": 65,
+   "headRubber": 35,
+   "distCheat": true,
+   "allowSide": false,
+   "allowBackQ": false,
+   "debug": 2,
+   "bob": true,
+   "noticeDist": 70,
+   "mouseSens": 0.12
+  },
+  "bodyViewShareByClass": {
+   "pedestrian": {
+    "time": 65.2,
+    "FRONT": 21.3,
+    "3/4": 38,
+    "BACK": 40.7,
+    "SIDE": 0,
+    "BACK 3/4": 0,
+    "ifSideAllowed": {
+     "FRONT": 21.3,
+     "3/4": 12.8,
+     "BACK": 32.7,
+     "SIDE": 33.3
+    }
+   },
+   "combatant": {
+    "time": 20,
+    "FRONT": 50.3,
+    "3/4": 39.4,
+    "BACK": 10.4,
+    "SIDE": 0,
+    "BACK 3/4": 0,
+    "ifSideAllowed": {
+     "FRONT": 50.3,
+     "3/4": 18.5,
+     "BACK": 0,
+     "SIDE": 31.2
+    }
+   },
+   "stationary": {
+    "time": 41.8,
+    "FRONT": 25.3,
+    "3/4": 74.7,
+    "BACK": 0,
+    "SIDE": 0,
+    "BACK 3/4": 0,
+    "ifSideAllowed": {
+     "FRONT": 41.5,
+     "3/4": 28.6,
+     "BACK": 0,
+     "SIDE": 29.9
+    }
+   },
+   "background": {
+    "time": 15.8,
+    "FRONT": 100,
+    "3/4": 0,
+    "BACK": 0,
+    "SIDE": 0,
+    "BACK 3/4": 0,
+    "ifSideAllowed": null
+   }
+  },
+  "trueAngleShare": {
+   "all": {
+    "F": 17.6,
+    "Q": 28.9,
+    "S": 32.8,
+    "BQ": 10.5,
+    "B": 10.1
+   },
+   "moving": {
+    "F": 18.3,
+    "Q": 18.1,
+    "S": 26.8,
+    "BQ": 18.7,
+    "B": 18
+   }
+  },
+  "cardWrongShare_residualOverTolerance": {
+   "near": 0,
+   "mid": 28.7,
+   "far": 0
+  },
+  "moonwalkShare_movingErrorOver30": {
+   "near": 0.5,
+   "mid": 55,
+   "far": 8
+  },
+  "onScreenSecondsByDistance": {
+   "near": 21.2,
+   "mid": 41.2,
+   "far": 80.5
+  },
+  "viewSwitchesPerNpcMinute": 3.4,
+  "carViewShare": {
+   "FRONT": 32.4,
+   "SIDE": 36.8,
+   "BACK": 30.8
+  },
+  "rules": {
+   "spawns": 4,
+   "despawns": 4,
+   "spawnInView": 0,
+   "despawnInView": 0,
+   "carDespawnInView": 0,
+   "carsParkedBecauseExitWasVisible": 0,
+   "nodeConflicts": 0,
+   "sameDirectionOvertakes": 0,
+   "playerBumpedIntoNpcSeconds": 0,
+   "playerNodeUses": 1
+  },
+  "player": {
+   "junctionsTaken": 0,
+   "turnArounds": 0,
+   "shots": 1,
+   "hits": 1,
+   "blockedShots": 0,
+   "markCouldSeeYouSeconds": 18.2
+  },
+  "heads": {
+   "maxHeadTurn": 65,
+   "secondsHeadHeldAttentionWithoutBodyChange": 24
+  },
+  "flourishes": 7,
+  "byGroup": {
+   "near": {
+    "seconds": 29.7,
+    "trueAngle": {
+     "F": 41.6,
+     "Q": 2.4,
+     "S": 8,
+     "BQ": 0,
+     "B": 48.1
+    },
+    "shown": {
+     "FRONT": 42.5,
+     "3/4": 9.4,
+     "BACK": 48.1,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 42.5,
+     "3/4": 1.3,
+     "BACK": 48.1,
+     "SIDE": 8.1
+    },
+    "edgeOn": 0,
+    "walkingArtWrongOver30": 8.2
+   },
+   "mark": {
+    "seconds": 20,
+    "trueAngle": {
+     "F": 10.9,
+     "Q": 54.9,
+     "S": 21,
+     "BQ": 13.2,
+     "B": 0
+    },
+    "shown": {
+     "FRONT": 50.3,
+     "3/4": 39.4,
+     "BACK": 10.4,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 50.3,
+     "3/4": 18.5,
+     "BACK": 0,
+     "SIDE": 31.2
+    },
+    "edgeOn": 27.4,
+    "walkingArtWrongOver30": 40.4
+   },
+   "stoop": {
+    "seconds": 8.3,
+    "trueAngle": {
+     "F": 0,
+     "Q": 17.3,
+     "S": 82.7,
+     "BQ": 0,
+     "B": 0
+    },
+    "shown": {
+     "FRONT": 0,
+     "3/4": 100,
+     "BACK": 0,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 0,
+     "3/4": 8.4,
+     "BACK": 0,
+     "SIDE": 91.6
+    },
+    "edgeOn": 0,
+    "walkingArtWrongOver30": 0
+   },
+   "loiter": {
+    "seconds": 49.3,
+    "trueAngle": {
+     "F": 21.1,
+     "Q": 41.5,
+     "S": 37.4,
+     "BQ": 0,
+     "B": 0
+    },
+    "shown": {
+     "FRONT": 53.5,
+     "3/4": 46.5,
+     "BACK": 0,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 21.4,
+     "3/4": 13.3,
+     "BACK": 0,
+     "SIDE": 0
+    },
+    "edgeOn": 0,
+    "walkingArtWrongOver30": 0
+   },
+   "far": {
+    "seconds": 35.6,
+    "trueAngle": {
+     "F": 0.6,
+     "Q": 21.8,
+     "S": 42.2,
+     "BQ": 34.9,
+     "B": 0.6
+    },
+    "shown": {
+     "FRONT": 3.7,
+     "3/4": 61.9,
+     "BACK": 34.5,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 3.7,
+     "3/4": 22.3,
+     "BACK": 19.8,
+     "SIDE": 54.3
+    },
+    "edgeOn": 17.8,
+    "walkingArtWrongOver30": 58
+   }
+  },
+  "artSets": {
+   "FRONT, 3/4, BACK": {
+    "walkingArtWrongOver30": 36.3,
+    "meanErrorWhileWalking": 26.4,
+    "worstError": 73,
+    "switchesPerNpcMinute": 4.3,
+    "share": {
+     "FRONT": 31.2,
+     "BACK": 25.9,
+     "3/4": 43
+    }
+   },
+   "+ SIDE": {
+    "walkingArtWrongOver30": 8.1,
+    "meanErrorWhileWalking": 14.4,
+    "worstError": 48,
+    "switchesPerNpcMinute": 6.5,
+    "share": {
+     "FRONT": 31.2,
+     "BACK": 19.3,
+     "SIDE": 32.1,
+     "3/4": 17.4
+    }
+   },
+   "+ BACK 3/4": {
+    "walkingArtWrongOver30": 21.2,
+    "meanErrorWhileWalking": 18.9,
+    "worstError": 51,
+    "switchesPerNpcMinute": 6.5,
+    "share": {
+     "FRONT": 31.2,
+     "BACK": 13.1,
+     "3/4": 36.8,
+     "BACK 3/4": 19
+    }
+   },
+   "+ SIDE + BACK 3/4": {
+    "walkingArtWrongOver30": 0.1,
+    "meanErrorWhileWalking": 11.3,
+    "worstError": 36,
+    "switchesPerNpcMinute": 7.6,
+    "share": {
+     "FRONT": 31.2,
+     "BACK": 13.1,
+     "SIDE": 25.5,
+     "3/4": 17.4,
+     "BACK 3/4": 12.8
+    }
+   }
+  },
+  "crowd": {
+   "npcWaitSeconds": 0.2,
+   "npcSidestepSeconds": 4.3,
+   "bodiesOverlappingSeconds": 0
+  },
+  "log": [
+   {
+    "t": 30,
+    "pos": {
+     "x": 33.15,
+     "y": 38.73,
+     "edge": "e_harlan_w",
+     "s": 27.15,
+     "off": 0.88,
+     "body": 90,
+     "head": 62,
+     "stop": null
+    },
+    "msg": "Route walk started. Click the picture to steer with the mouse.",
+    "markWhy": "hidden: Parked car \u00b7 body is in the way",
+    "c": {
+     "arrived": 14.066666666666627
+    }
+   },
+   {
+    "t": 30.03,
+    "pos": {
+     "x": 33.15,
+     "y": 38.73,
+     "edge": "e_harlan_w",
+     "s": 27.15,
+     "off": 0.88,
+     "body": 90,
+     "head": 62,
+     "stop": null
+    },
+    "msg": "Route walk started. Click the picture to steer with the mouse.",
+    "markWhy": "hidden: Parked car \u00b7 body is in the way",
+    "c": {
+     "arrived": 14.066666666666627
+    }
+   },
+   {
+    "t": 42,
+    "pos": {
+     "x": 33.15,
+     "y": 38.73,
+     "edge": "e_harlan_w",
+     "s": 27.15,
+     "off": 0.88,
+     "body": 90,
+     "head": 62,
+     "stop": null
+    },
+    "msg": "Route walk started. Click the picture to steer with the mouse.",
+    "markWhy": "can see you",
+    "c": {
+     "arrived": 14.066666666666627,
+     "standAt": 39.10000000000034
+    }
+   },
+   {
+    "t": 46.53,
+    "pos": {
+     "x": 33.15,
+     "y": 38.73,
+     "edge": "e_harlan_w",
+     "s": 27.15,
+     "off": 0.88,
+     "body": 90,
+     "head": 84,
+     "stop": null
+    },
+    "msg": "HIT The mark at 16.8 m",
+    "markWhy": "can see you",
+    "c": {
+     "arrived": 14.066666666666627,
+     "standAt": 39.10000000000034,
+     "shot": true,
+     "shotAt": 44.06666666666673,
+     "shotMsg": "HIT The mark at 16.8 m"
+    }
+   },
+   {
+    "t": 75.03,
+    "pos": {
+     "x": 33.15,
+     "y": 38.73,
+     "edge": "e_harlan_w",
+     "s": 27.15,
+     "off": 0.88,
+     "body": 90,
+     "head": 95,
+     "stop": null
+    },
+    "msg": "HIT The mark at 16.8 m",
+    "markWhy": "too far",
+    "c": {
+     "arrived": 14.066666666666627,
+     "standAt": 39.10000000000034,
+     "shot": true,
+     "shotAt": 44.06666666666673,
+     "shotMsg": "HIT The mark at 16.8 m"
+    }
+   }
+  ]
+ },
+ "S3_across": {
+  "seconds": 40,
+  "npcOnScreenSeconds": 105.4,
+  "settings": {
+   "strafe": 0.7,
+   "branchCone": 40,
+   "lookYaw": 95,
+   "lookUp": 30,
+   "lookDown": 35,
+   "turnTime": 0.4,
+   "walk": 1.45,
+   "back": 0.9,
+   "strafeSpeed": 1.1,
+   "sprint": 2.6,
+   "stamina": 3.5,
+   "fov": 75,
+   "eye": 1.62,
+   "crouchEye": 1.05,
+   "rubber": 25,
+   "tolerance": 18,
+   "hysteresis": 12,
+   "nearHyst": true,
+   "headMax": 65,
+   "headRubber": 35,
+   "distCheat": true,
+   "allowSide": false,
+   "allowBackQ": false,
+   "debug": 2,
+   "bob": true,
+   "noticeDist": 70,
+   "mouseSens": 0.12
+  },
+  "bodyViewShareByClass": {
+   "pedestrian": {
+    "time": 37.9,
+    "FRONT": 1.3,
+    "3/4": 97.6,
+    "BACK": 1.1,
+    "SIDE": 0,
+    "BACK 3/4": 0,
+    "ifSideAllowed": {
+     "FRONT": 1.3,
+     "3/4": 26.2,
+     "BACK": 0.5,
+     "SIDE": 71.9
+    }
+   },
+   "combatant": {
+    "time": 14.7,
+    "FRONT": 74.9,
+    "3/4": 25.1,
+    "BACK": 0,
+    "SIDE": 0,
+    "BACK 3/4": 0,
+    "ifSideAllowed": {
+     "FRONT": 74.9,
+     "3/4": 16.7,
+     "BACK": 0,
+     "SIDE": 8.4
+    }
+   },
+   "stationary": {
+    "time": 34.8,
+    "FRONT": 46.1,
+    "3/4": 53.9,
+    "BACK": 0,
+    "SIDE": 0,
+    "BACK 3/4": 0,
+    "ifSideAllowed": {
+     "FRONT": 52.9,
+     "3/4": 45.9,
+     "BACK": 0,
+     "SIDE": 1.1
+    }
+   },
+   "background": {
+    "time": 17.9,
+    "FRONT": 100,
+    "3/4": 0,
+    "BACK": 0,
+    "SIDE": 0,
+    "BACK 3/4": 0,
+    "ifSideAllowed": null
+   }
+  },
+  "trueAngleShare": {
+   "all": {
+    "F": 27.2,
+    "Q": 43,
+    "S": 28.1,
+    "BQ": 1.5,
+    "B": 0.2
+   },
+   "moving": {
+    "F": 1.4,
+    "Q": 47.1,
+    "S": 47,
+    "BQ": 3.9,
+    "B": 0.5
+   }
+  },
+  "cardWrongShare_residualOverTolerance": {
+   "near": 34,
+   "mid": 6.6,
+   "far": 0
+  },
+  "moonwalkShare_movingErrorOver30": {
+   "near": 52.8,
+   "mid": 10.7,
+   "far": 0
+  },
+  "onScreenSecondsByDistance": {
+   "near": 1.8,
+   "mid": 88.4,
+   "far": 15.2
+  },
+  "viewSwitchesPerNpcMinute": 5.7,
+  "carViewShare": {
+   "FRONT": 12.3,
+   "SIDE": 71.3,
+   "BACK": 16.4
+  },
+  "rules": {
+   "spawns": 1,
+   "despawns": 2,
+   "spawnInView": 0,
+   "despawnInView": 0,
+   "carDespawnInView": 0,
+   "carsParkedBecauseExitWasVisible": 0,
+   "nodeConflicts": 0,
+   "sameDirectionOvertakes": 0,
+   "playerBumpedIntoNpcSeconds": 0,
+   "playerNodeUses": 0
+  },
+  "player": {
+   "junctionsTaken": 2,
+   "turnArounds": 0,
+   "shots": 0,
+   "hits": 0,
+   "blockedShots": 0,
+   "markCouldSeeYouSeconds": 33.9
+  },
+  "heads": {
+   "maxHeadTurn": 65,
+   "secondsHeadHeldAttentionWithoutBodyChange": 24.7
+  },
+  "flourishes": 3,
+  "byGroup": {
+   "near": {
+    "seconds": 2,
+    "trueAngle": {
+     "F": 11.7,
+     "Q": 38.3,
+     "S": 23.3,
+     "BQ": 16.7,
+     "B": 10
+    },
+    "shown": {
+     "FRONT": 25,
+     "3/4": 58.3,
+     "BACK": 16.7,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 25,
+     "3/4": 33.3,
+     "BACK": 10,
+     "SIDE": 31.7
+    },
+    "edgeOn": 30,
+    "walkingArtWrongOver30": 46.7
+   },
+   "far": {
+    "seconds": 35.9,
+    "trueAngle": {
+     "F": 0,
+     "Q": 46.3,
+     "S": 50,
+     "BQ": 3.6,
+     "B": 0
+    },
+    "shown": {
+     "FRONT": 0,
+     "3/4": 99.8,
+     "BACK": 0.2,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 0,
+     "3/4": 25.8,
+     "BACK": 0,
+     "SIDE": 74.2
+    },
+    "edgeOn": 13.4,
+    "walkingArtWrongOver30": 23.7
+   },
+   "mark": {
+    "seconds": 14.7,
+    "trueAngle": {
+     "F": 64.5,
+     "Q": 27.4,
+     "S": 8.1,
+     "BQ": 0,
+     "B": 0
+    },
+    "shown": {
+     "FRONT": 74.9,
+     "3/4": 25.1,
+     "BACK": 0,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 74.9,
+     "3/4": 16.7,
+     "BACK": 0,
+     "SIDE": 8.4
+    },
+    "edgeOn": 7.2,
+    "walkingArtWrongOver30": 28.6
+   },
+   "stoop": {
+    "seconds": 0.2,
+    "trueAngle": {
+     "F": 0,
+     "Q": 0,
+     "S": 100,
+     "BQ": 0,
+     "B": 0
+    },
+    "shown": {
+     "FRONT": 0,
+     "3/4": 100,
+     "BACK": 0,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 0,
+     "3/4": 0,
+     "BACK": 0,
+     "SIDE": 100
+    },
+    "edgeOn": 0,
+    "walkingArtWrongOver30": 0
+   },
+   "loiter": {
+    "seconds": 52.6,
+    "trueAngle": {
+     "F": 36,
+     "Q": 45.4,
+     "S": 18.6,
+     "BQ": 0,
+     "B": 0
+    },
+    "shown": {
+     "FRONT": 64.7,
+     "3/4": 35.3,
+     "BACK": 0,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 17.7,
+     "3/4": 15.3,
+     "BACK": 0,
+     "SIDE": 0
+    },
+    "edgeOn": 0,
+    "walkingArtWrongOver30": 0
+   }
+  },
+  "artSets": {
+   "FRONT, 3/4, BACK": {
+    "walkingArtWrongOver30": 25.2,
+    "meanErrorWhileWalking": 26.3,
+    "worstError": 82,
+    "switchesPerNpcMinute": 7.7,
+    "share": {
+     "FRONT": 29.7,
+     "BACK": 0.6,
+     "3/4": 69.8
+    }
+   },
+   "+ SIDE": {
+    "walkingArtWrongOver30": 1.4,
+    "meanErrorWhileWalking": 16.1,
+    "worstError": 45,
+    "switchesPerNpcMinute": 10.3,
+    "share": {
+     "FRONT": 29.7,
+     "BACK": 0.3,
+     "3/4": 29.2,
+     "SIDE": 40.9
+    }
+   },
+   "+ BACK 3/4": {
+    "walkingArtWrongOver30": 17.1,
+    "meanErrorWhileWalking": 21.8,
+    "worstError": 57,
+    "switchesPerNpcMinute": 8.5,
+    "share": {
+     "FRONT": 29.7,
+     "BACK": 0.3,
+     "3/4": 62.5,
+     "BACK 3/4": 7.5
+    }
+   },
+   "+ SIDE + BACK 3/4": {
+    "walkingArtWrongOver30": 1,
+    "meanErrorWhileWalking": 15.9,
+    "worstError": 37,
+    "switchesPerNpcMinute": 12.8,
+    "share": {
+     "FRONT": 29.7,
+     "BACK": 0.3,
+     "3/4": 29.2,
+     "SIDE": 40.6,
+     "BACK 3/4": 0.3
+    }
+   }
+  },
+  "crowd": {
+   "npcWaitSeconds": 0,
+   "npcSidestepSeconds": 2,
+   "bodiesOverlappingSeconds": 0
+  },
+  "log": [
+   {
+    "t": 6.03,
+    "pos": {
+     "x": 22.51,
+     "y": 37.85,
+     "edge": "e_harlan_w",
+     "s": 16.51,
+     "off": 0,
+     "body": 90,
+     "head": 80,
+     "stop": null
+    },
+    "msg": "Route walk started. Click the picture to steer with the mouse.",
+    "markWhy": "can see you",
+    "c": {}
+   },
+   {
+    "t": 6.03,
+    "pos": {
+     "x": 22.51,
+     "y": 37.85,
+     "edge": "e_harlan_w",
+     "s": 16.51,
+     "off": 0,
+     "body": 90,
+     "head": 80,
+     "stop": null
+    },
+    "msg": "Route walk started. Click the picture to steer with the mouse.",
+    "markWhy": "can see you",
+    "c": {}
+   },
+   {
+    "t": 14.03,
+    "pos": {
+     "x": 34.11,
+     "y": 37.85,
+     "edge": "e_harlan_w",
+     "s": 28.11,
+     "off": 0,
+     "body": 90,
+     "head": 80,
+     "stop": null
+    },
+    "msg": "Route walk started. Click the picture to steer with the mouse.",
+    "markWhy": "can see you",
+    "c": {}
+   },
+   {
+    "t": 40,
+    "pos": {
+     "x": 71.76,
+     "y": 37.85,
+     "edge": "e_cross",
+     "s": 10.16,
+     "off": 0,
+     "body": 90,
+     "head": 80,
+     "stop": null
+    },
+    "msg": "Route walk started. Click the picture to steer with the mouse.",
+    "markWhy": "can see you",
+    "c": {}
+   }
+  ]
+ },
+ "S3_across_side": {
+  "seconds": 40,
+  "npcOnScreenSeconds": 105.4,
+  "settings": {
+   "strafe": 0.7,
+   "branchCone": 40,
+   "lookYaw": 95,
+   "lookUp": 30,
+   "lookDown": 35,
+   "turnTime": 0.4,
+   "walk": 1.45,
+   "back": 0.9,
+   "strafeSpeed": 1.1,
+   "sprint": 2.6,
+   "stamina": 3.5,
+   "fov": 75,
+   "eye": 1.62,
+   "crouchEye": 1.05,
+   "rubber": 25,
+   "tolerance": 18,
+   "hysteresis": 12,
+   "nearHyst": true,
+   "headMax": 65,
+   "headRubber": 35,
+   "distCheat": true,
+   "allowSide": true,
+   "allowBackQ": false,
+   "debug": 2,
+   "bob": true,
+   "noticeDist": 70,
+   "mouseSens": 0.12
+  },
+  "bodyViewShareByClass": {
+   "pedestrian": {
+    "time": 37.9,
+    "FRONT": 1.3,
+    "3/4": 26.2,
+    "BACK": 0.5,
+    "SIDE": 71.9,
+    "BACK 3/4": 0,
+    "ifSideAllowed": {
+     "FRONT": 1.3,
+     "3/4": 26.2,
+     "BACK": 0.5,
+     "SIDE": 71.9
+    }
+   },
+   "combatant": {
+    "time": 14.7,
+    "FRONT": 74.9,
+    "3/4": 16.7,
+    "BACK": 0,
+    "SIDE": 8.4,
+    "BACK 3/4": 0,
+    "ifSideAllowed": {
+     "FRONT": 74.9,
+     "3/4": 16.7,
+     "BACK": 0,
+     "SIDE": 8.4
+    }
+   },
+   "stationary": {
+    "time": 34.8,
+    "FRONT": 46.1,
+    "3/4": 53.3,
+    "BACK": 0,
+    "SIDE": 0.6,
+    "BACK 3/4": 0,
+    "ifSideAllowed": {
+     "FRONT": 52.9,
+     "3/4": 45.9,
+     "BACK": 0,
+     "SIDE": 1.1
+    }
+   },
+   "background": {
+    "time": 17.9,
+    "FRONT": 100,
+    "3/4": 0,
+    "BACK": 0,
+    "SIDE": 0,
+    "BACK 3/4": 0,
+    "ifSideAllowed": null
+   }
+  },
+  "trueAngleShare": {
+   "all": {
+    "F": 27.2,
+    "Q": 43,
+    "S": 28.1,
+    "BQ": 1.5,
+    "B": 0.2
+   },
+   "moving": {
+    "F": 1.4,
+    "Q": 47.1,
+    "S": 47,
+    "BQ": 3.9,
+    "B": 0.5
+   }
+  },
+  "cardWrongShare_residualOverTolerance": {
+   "near": 3.8,
+   "mid": 0,
+   "far": 0
+  },
+  "moonwalkShare_movingErrorOver30": {
+   "near": 32.1,
+   "mid": 0,
+   "far": 0
+  },
+  "onScreenSecondsByDistance": {
+   "near": 1.8,
+   "mid": 88.4,
+   "far": 15.2
+  },
+  "viewSwitchesPerNpcMinute": 7.4,
+  "carViewShare": {
+   "FRONT": 12.3,
+   "SIDE": 71.3,
+   "BACK": 16.4
+  },
+  "rules": {
+   "spawns": 1,
+   "despawns": 2,
+   "spawnInView": 0,
+   "despawnInView": 0,
+   "carDespawnInView": 0,
+   "carsParkedBecauseExitWasVisible": 0,
+   "nodeConflicts": 0,
+   "sameDirectionOvertakes": 0,
+   "playerBumpedIntoNpcSeconds": 0,
+   "playerNodeUses": 0
+  },
+  "player": {
+   "junctionsTaken": 2,
+   "turnArounds": 0,
+   "shots": 0,
+   "hits": 0,
+   "blockedShots": 0,
+   "markCouldSeeYouSeconds": 33.9
+  },
+  "heads": {
+   "maxHeadTurn": 65,
+   "secondsHeadHeldAttentionWithoutBodyChange": 24.6
+  },
+  "flourishes": 3,
+  "byGroup": {
+   "near": {
+    "seconds": 2,
+    "trueAngle": {
+     "F": 11.7,
+     "Q": 38.3,
+     "S": 23.3,
+     "BQ": 16.7,
+     "B": 10
+    },
+    "shown": {
+     "FRONT": 25,
+     "3/4": 33.3,
+     "BACK": 10,
+     "SIDE": 31.7,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 25,
+     "3/4": 33.3,
+     "BACK": 10,
+     "SIDE": 31.7
+    },
+    "edgeOn": 3.3,
+    "walkingArtWrongOver30": 28.3
+   },
+   "far": {
+    "seconds": 35.9,
+    "trueAngle": {
+     "F": 0,
+     "Q": 46.3,
+     "S": 50,
+     "BQ": 3.6,
+     "B": 0
+    },
+    "shown": {
+     "FRONT": 0,
+     "3/4": 25.8,
+     "BACK": 0,
+     "SIDE": 74.2,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 0,
+     "3/4": 25.8,
+     "BACK": 0,
+     "SIDE": 74.2
+    },
+    "edgeOn": 0,
+    "walkingArtWrongOver30": 0
+   },
+   "mark": {
+    "seconds": 14.7,
+    "trueAngle": {
+     "F": 64.5,
+     "Q": 27.4,
+     "S": 8.1,
+     "BQ": 0,
+     "B": 0
+    },
+    "shown": {
+     "FRONT": 74.9,
+     "3/4": 16.7,
+     "BACK": 0,
+     "SIDE": 8.4,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 74.9,
+     "3/4": 16.7,
+     "BACK": 0,
+     "SIDE": 8.4
+    },
+    "edgeOn": 0,
+    "walkingArtWrongOver30": 0
+   },
+   "stoop": {
+    "seconds": 0.2,
+    "trueAngle": {
+     "F": 0,
+     "Q": 0,
+     "S": 100,
+     "BQ": 0,
+     "B": 0
+    },
+    "shown": {
+     "FRONT": 0,
+     "3/4": 0,
+     "BACK": 0,
+     "SIDE": 100,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 0,
+     "3/4": 0,
+     "BACK": 0,
+     "SIDE": 100
+    },
+    "edgeOn": 0,
+    "walkingArtWrongOver30": 0
+   },
+   "loiter": {
+    "seconds": 52.6,
+    "trueAngle": {
+     "F": 36,
+     "Q": 45.4,
+     "S": 18.6,
+     "BQ": 0,
+     "B": 0
+    },
+    "shown": {
+     "FRONT": 64.7,
+     "3/4": 35.3,
+     "BACK": 0,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 17.7,
+     "3/4": 15.3,
+     "BACK": 0,
+     "SIDE": 0
+    },
+    "edgeOn": 0,
+    "walkingArtWrongOver30": 0
+   }
+  },
+  "artSets": {
+   "FRONT, 3/4, BACK": {
+    "walkingArtWrongOver30": 25.2,
+    "meanErrorWhileWalking": 26.3,
+    "worstError": 82,
+    "switchesPerNpcMinute": 7.7,
+    "share": {
+     "FRONT": 29.7,
+     "BACK": 0.6,
+     "3/4": 69.8
+    }
+   },
+   "+ SIDE": {
+    "walkingArtWrongOver30": 1.4,
+    "meanErrorWhileWalking": 16.1,
+    "worstError": 45,
+    "switchesPerNpcMinute": 10.3,
+    "share": {
+     "FRONT": 29.7,
+     "BACK": 0.3,
+     "3/4": 29.2,
+     "SIDE": 40.9
+    }
+   },
+   "+ BACK 3/4": {
+    "walkingArtWrongOver30": 17.1,
+    "meanErrorWhileWalking": 21.8,
+    "worstError": 57,
+    "switchesPerNpcMinute": 8.5,
+    "share": {
+     "FRONT": 29.7,
+     "BACK": 0.3,
+     "3/4": 62.5,
+     "BACK 3/4": 7.5
+    }
+   },
+   "+ SIDE + BACK 3/4": {
+    "walkingArtWrongOver30": 1,
+    "meanErrorWhileWalking": 15.9,
+    "worstError": 37,
+    "switchesPerNpcMinute": 12.8,
+    "share": {
+     "FRONT": 29.7,
+     "BACK": 0.3,
+     "3/4": 29.2,
+     "SIDE": 40.6,
+     "BACK 3/4": 0.3
+    }
+   }
+  },
+  "crowd": {
+   "npcWaitSeconds": 0,
+   "npcSidestepSeconds": 2,
+   "bodiesOverlappingSeconds": 0
+  },
+  "log": [
+   {
+    "t": 6.03,
+    "pos": {
+     "x": 22.51,
+     "y": 37.85,
+     "edge": "e_harlan_w",
+     "s": 16.51,
+     "off": 0,
+     "body": 90,
+     "head": 80,
+     "stop": null
+    },
+    "msg": "Route walk started. Click the picture to steer with the mouse.",
+    "markWhy": "can see you",
+    "c": {}
+   },
+   {
+    "t": 14.03,
+    "pos": {
+     "x": 34.11,
+     "y": 37.85,
+     "edge": "e_harlan_w",
+     "s": 28.11,
+     "off": 0,
+     "body": 90,
+     "head": 80,
+     "stop": null
+    },
+    "msg": "Route walk started. Click the picture to steer with the mouse.",
+    "markWhy": "can see you",
+    "c": {}
+   },
+   {
+    "t": 40,
+    "pos": {
+     "x": 71.76,
+     "y": 37.85,
+     "edge": "e_cross",
+     "s": 10.16,
+     "off": 0,
+     "body": 90,
+     "head": 80,
+     "stop": null
+    },
+    "msg": "Route walk started. Click the picture to steer with the mouse.",
+    "markWhy": "can see you",
+    "c": {}
+   }
+  ]
+ },
+ "S3_across_backq": {
+  "seconds": 40,
+  "npcOnScreenSeconds": 105.4,
+  "settings": {
+   "strafe": 0.7,
+   "branchCone": 40,
+   "lookYaw": 95,
+   "lookUp": 30,
+   "lookDown": 35,
+   "turnTime": 0.4,
+   "walk": 1.45,
+   "back": 0.9,
+   "strafeSpeed": 1.1,
+   "sprint": 2.6,
+   "stamina": 3.5,
+   "fov": 75,
+   "eye": 1.62,
+   "crouchEye": 1.05,
+   "rubber": 25,
+   "tolerance": 18,
+   "hysteresis": 12,
+   "nearHyst": true,
+   "headMax": 65,
+   "headRubber": 35,
+   "distCheat": true,
+   "allowSide": false,
+   "allowBackQ": true,
+   "debug": 2,
+   "bob": true,
+   "noticeDist": 70,
+   "mouseSens": 0.12
+  },
+  "bodyViewShareByClass": {
+   "pedestrian": {
+    "time": 37.9,
+    "FRONT": 1.3,
+    "3/4": 84.8,
+    "BACK": 0.5,
+    "SIDE": 0,
+    "BACK 3/4": 13.4,
+    "ifSideAllowed": {
+     "FRONT": 1.3,
+     "3/4": 26.2,
+     "BACK": 0.5,
+     "SIDE": 71.9
+    }
+   },
+   "combatant": {
+    "time": 14.7,
+    "FRONT": 74.9,
+    "3/4": 23.8,
+    "BACK": 0,
+    "SIDE": 0,
+    "BACK 3/4": 1.4,
+    "ifSideAllowed": {
+     "FRONT": 74.9,
+     "3/4": 16.7,
+     "BACK": 0,
+     "SIDE": 8.4
+    }
+   },
+   "stationary": {
+    "time": 34.8,
+    "FRONT": 46.1,
+    "3/4": 53.9,
+    "BACK": 0,
+    "SIDE": 0,
+    "BACK 3/4": 0,
+    "ifSideAllowed": {
+     "FRONT": 52.9,
+     "3/4": 45.9,
+     "BACK": 0,
+     "SIDE": 1.1
+    }
+   },
+   "background": {
+    "time": 17.9,
+    "FRONT": 100,
+    "3/4": 0,
+    "BACK": 0,
+    "SIDE": 0,
+    "BACK 3/4": 0,
+    "ifSideAllowed": null
+   }
+  },
+  "trueAngleShare": {
+   "all": {
+    "F": 27.2,
+    "Q": 43,
+    "S": 28.1,
+    "BQ": 1.5,
+    "B": 0.2
+   },
+   "moving": {
+    "F": 1.4,
+    "Q": 47.1,
+    "S": 47,
+    "BQ": 3.9,
+    "B": 0.5
+   }
+  },
+  "cardWrongShare_residualOverTolerance": {
+   "near": 9.4,
+   "mid": 1.2,
+   "far": 0
+  },
+  "moonwalkShare_movingErrorOver30": {
+   "near": 28.3,
+   "mid": 7.4,
+   "far": 0
+  },
+  "onScreenSecondsByDistance": {
+   "near": 1.8,
+   "mid": 88.4,
+   "far": 15.2
+  },
+  "viewSwitchesPerNpcMinute": 6.3,
+  "carViewShare": {
+   "FRONT": 12.3,
+   "SIDE": 71.3,
+   "BACK": 16.4
+  },
+  "rules": {
+   "spawns": 1,
+   "despawns": 2,
+   "spawnInView": 0,
+   "despawnInView": 0,
+   "carDespawnInView": 0,
+   "carsParkedBecauseExitWasVisible": 0,
+   "nodeConflicts": 0,
+   "sameDirectionOvertakes": 0,
+   "playerBumpedIntoNpcSeconds": 0,
+   "playerNodeUses": 0
+  },
+  "player": {
+   "junctionsTaken": 2,
+   "turnArounds": 0,
+   "shots": 0,
+   "hits": 0,
+   "blockedShots": 0,
+   "markCouldSeeYouSeconds": 33.9
+  },
+  "heads": {
+   "maxHeadTurn": 65,
+   "secondsHeadHeldAttentionWithoutBodyChange": 24.6
+  },
+  "flourishes": 3,
+  "byGroup": {
+   "near": {
+    "seconds": 2,
+    "trueAngle": {
+     "F": 11.7,
+     "Q": 38.3,
+     "S": 23.3,
+     "BQ": 16.7,
+     "B": 10
+    },
+    "shown": {
+     "FRONT": 25,
+     "3/4": 43.3,
+     "BACK": 10,
+     "SIDE": 0,
+     "BACK 3/4": 21.7
+    },
+    "ifSideAllowed": {
+     "FRONT": 25,
+     "3/4": 33.3,
+     "BACK": 10,
+     "SIDE": 31.7
+    },
+    "edgeOn": 8.3,
+    "walkingArtWrongOver30": 25
+   },
+   "far": {
+    "seconds": 35.9,
+    "trueAngle": {
+     "F": 0,
+     "Q": 46.3,
+     "S": 50,
+     "BQ": 3.6,
+     "B": 0
+    },
+    "shown": {
+     "FRONT": 0,
+     "3/4": 87.1,
+     "BACK": 0,
+     "SIDE": 0,
+     "BACK 3/4": 12.9
+    },
+    "ifSideAllowed": {
+     "FRONT": 0,
+     "3/4": 25.8,
+     "BACK": 0,
+     "SIDE": 74.2
+    },
+    "edgeOn": 0.5,
+    "walkingArtWrongOver30": 15.5
+   },
+   "mark": {
+    "seconds": 14.7,
+    "trueAngle": {
+     "F": 64.5,
+     "Q": 27.4,
+     "S": 8.1,
+     "BQ": 0,
+     "B": 0
+    },
+    "shown": {
+     "FRONT": 74.9,
+     "3/4": 23.8,
+     "BACK": 0,
+     "SIDE": 0,
+     "BACK 3/4": 1.4
+    },
+    "ifSideAllowed": {
+     "FRONT": 74.9,
+     "3/4": 16.7,
+     "BACK": 0,
+     "SIDE": 8.4
+    },
+    "edgeOn": 6.3,
+    "walkingArtWrongOver30": 28.6
+   },
+   "stoop": {
+    "seconds": 0.2,
+    "trueAngle": {
+     "F": 0,
+     "Q": 0,
+     "S": 100,
+     "BQ": 0,
+     "B": 0
+    },
+    "shown": {
+     "FRONT": 0,
+     "3/4": 100,
+     "BACK": 0,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 0,
+     "3/4": 0,
+     "BACK": 0,
+     "SIDE": 100
+    },
+    "edgeOn": 0,
+    "walkingArtWrongOver30": 0
+   },
+   "loiter": {
+    "seconds": 52.6,
+    "trueAngle": {
+     "F": 36,
+     "Q": 45.4,
+     "S": 18.6,
+     "BQ": 0,
+     "B": 0
+    },
+    "shown": {
+     "FRONT": 64.7,
+     "3/4": 35.3,
+     "BACK": 0,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 17.7,
+     "3/4": 15.3,
+     "BACK": 0,
+     "SIDE": 0
+    },
+    "edgeOn": 0,
+    "walkingArtWrongOver30": 0
+   }
+  },
+  "artSets": {
+   "FRONT, 3/4, BACK": {
+    "walkingArtWrongOver30": 25.2,
+    "meanErrorWhileWalking": 26.3,
+    "worstError": 82,
+    "switchesPerNpcMinute": 7.7,
+    "share": {
+     "FRONT": 29.7,
+     "BACK": 0.6,
+     "3/4": 69.8
+    }
+   },
+   "+ SIDE": {
+    "walkingArtWrongOver30": 1.4,
+    "meanErrorWhileWalking": 16.1,
+    "worstError": 45,
+    "switchesPerNpcMinute": 10.3,
+    "share": {
+     "FRONT": 29.7,
+     "BACK": 0.3,
+     "3/4": 29.2,
+     "SIDE": 40.9
+    }
+   },
+   "+ BACK 3/4": {
+    "walkingArtWrongOver30": 17.1,
+    "meanErrorWhileWalking": 21.8,
+    "worstError": 57,
+    "switchesPerNpcMinute": 8.5,
+    "share": {
+     "FRONT": 29.7,
+     "BACK": 0.3,
+     "3/4": 62.5,
+     "BACK 3/4": 7.5
+    }
+   },
+   "+ SIDE + BACK 3/4": {
+    "walkingArtWrongOver30": 1,
+    "meanErrorWhileWalking": 15.9,
+    "worstError": 37,
+    "switchesPerNpcMinute": 12.8,
+    "share": {
+     "FRONT": 29.7,
+     "BACK": 0.3,
+     "3/4": 29.2,
+     "SIDE": 40.6,
+     "BACK 3/4": 0.3
+    }
+   }
+  },
+  "crowd": {
+   "npcWaitSeconds": 0,
+   "npcSidestepSeconds": 2,
+   "bodiesOverlappingSeconds": 0
+  },
+  "log": [
+   {
+    "t": 14.03,
+    "pos": {
+     "x": 34.11,
+     "y": 37.85,
+     "edge": "e_harlan_w",
+     "s": 28.11,
+     "off": 0,
+     "body": 90,
+     "head": 80,
+     "stop": null
+    },
+    "msg": "Route walk started. Click the picture to steer with the mouse.",
+    "markWhy": "can see you",
+    "c": {}
+   },
+   {
+    "t": 40,
+    "pos": {
+     "x": 71.76,
+     "y": 37.85,
+     "edge": "e_cross",
+     "s": 10.16,
+     "off": 0,
+     "body": 90,
+     "head": 80,
+     "stop": null
+    },
+    "msg": "Route walk started. Click the picture to steer with the mouse.",
+    "markWhy": "can see you",
+    "c": {}
+   }
+  ]
+ },
+ "S4_watch": {
+  "seconds": 120,
+  "npcOnScreenSeconds": 203.2,
+  "settings": {
+   "strafe": 0.7,
+   "branchCone": 40,
+   "lookYaw": 95,
+   "lookUp": 30,
+   "lookDown": 35,
+   "turnTime": 0.4,
+   "walk": 1.45,
+   "back": 0.9,
+   "strafeSpeed": 1.1,
+   "sprint": 2.6,
+   "stamina": 3.5,
+   "fov": 75,
+   "eye": 1.62,
+   "crouchEye": 1.05,
+   "rubber": 25,
+   "tolerance": 18,
+   "hysteresis": 12,
+   "nearHyst": true,
+   "headMax": 65,
+   "headRubber": 35,
+   "distCheat": true,
+   "allowSide": false,
+   "allowBackQ": false,
+   "debug": 2,
+   "bob": true,
+   "noticeDist": 70,
+   "mouseSens": 0.12
+  },
+  "bodyViewShareByClass": {
+   "pedestrian": {
+    "time": 100.1,
+    "FRONT": 10,
+    "3/4": 68.3,
+    "BACK": 21.7,
+    "SIDE": 0,
+    "BACK 3/4": 0,
+    "ifSideAllowed": {
+     "FRONT": 10,
+     "3/4": 25,
+     "BACK": 11.4,
+     "SIDE": 53.7
+    }
+   },
+   "combatant": {
+    "time": 65.9,
+    "FRONT": 9.9,
+    "3/4": 87.7,
+    "BACK": 2.4,
+    "SIDE": 0,
+    "BACK 3/4": 0,
+    "ifSideAllowed": {
+     "FRONT": 9.9,
+     "3/4": 69.4,
+     "BACK": 0,
+     "SIDE": 20.6
+    }
+   },
+   "stationary": {
+    "time": 28.2,
+    "FRONT": 13.5,
+    "3/4": 86.5,
+    "BACK": 0,
+    "SIDE": 0,
+    "BACK 3/4": 0,
+    "ifSideAllowed": {
+     "FRONT": 20.7,
+     "3/4": 37.9,
+     "BACK": 0,
+     "SIDE": 41.4
+    }
+   },
+   "background": {
+    "time": 9,
+    "FRONT": 100,
+    "3/4": 0,
+    "BACK": 0,
+    "SIDE": 0,
+    "BACK 3/4": 0,
+    "ifSideAllowed": null
+   }
+  },
+  "trueAngleShare": {
+   "all": {
+    "F": 7.9,
+    "Q": 41.9,
+    "S": 35.1,
+    "BQ": 9.5,
+    "B": 5.6
+   },
+   "moving": {
+    "F": 9.6,
+    "Q": 22.1,
+    "S": 43.9,
+    "BQ": 15.3,
+    "B": 9.1
+   }
+  },
+  "cardWrongShare_residualOverTolerance": {
+   "near": 6.1,
+   "mid": 27.2,
+   "far": 0
+  },
+  "moonwalkShare_movingErrorOver30": {
+   "near": 9.6,
+   "mid": 43.6,
+   "far": 5.4
+  },
+  "onScreenSecondsByDistance": {
+   "near": 21.9,
+   "mid": 137.7,
+   "far": 43.6
+  },
+  "viewSwitchesPerNpcMinute": 4.4,
+  "carViewShare": {
+   "FRONT": 8.6,
+   "SIDE": 91.4,
+   "BACK": 0
+  },
+  "rules": {
+   "spawns": 10,
+   "despawns": 9,
+   "spawnInView": 0,
+   "despawnInView": 0,
+   "carDespawnInView": 0,
+   "carsParkedBecauseExitWasVisible": 0,
+   "nodeConflicts": 0,
+   "sameDirectionOvertakes": 0,
+   "playerBumpedIntoNpcSeconds": 0,
+   "playerNodeUses": 0
+  },
+  "player": {
+   "junctionsTaken": 0,
+   "turnArounds": 0,
+   "shots": 0,
+   "hits": 0,
+   "blockedShots": 0,
+   "markCouldSeeYouSeconds": 63.2
+  },
+  "heads": {
+   "maxHeadTurn": 65,
+   "secondsHeadHeldAttentionWithoutBodyChange": 67.8
+  },
+  "flourishes": 0,
+  "byGroup": {
+   "near": {
+    "seconds": 27.1,
+    "trueAngle": {
+     "F": 34.8,
+     "Q": 7.5,
+     "S": 12.3,
+     "BQ": 3.4,
+     "B": 42
+    },
+    "shown": {
+     "FRONT": 36.7,
+     "3/4": 19.4,
+     "BACK": 43.9,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 36.7,
+     "3/4": 6.6,
+     "BACK": 42,
+     "SIDE": 14.6
+    },
+    "edgeOn": 4.9,
+    "walkingArtWrongOver30": 16.3
+   },
+   "mark": {
+    "seconds": 65.9,
+    "trueAngle": {
+     "F": 4.4,
+     "Q": 72.6,
+     "S": 18,
+     "BQ": 5,
+     "B": 0
+    },
+    "shown": {
+     "FRONT": 9.9,
+     "3/4": 87.7,
+     "BACK": 2.4,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 9.9,
+     "3/4": 69.4,
+     "BACK": 0,
+     "SIDE": 20.6
+    },
+    "edgeOn": 17.2,
+    "walkingArtWrongOver30": 50.5
+   },
+   "stoop": {
+    "seconds": 8.3,
+    "trueAngle": {
+     "F": 0,
+     "Q": 17.3,
+     "S": 82.7,
+     "BQ": 0,
+     "B": 0
+    },
+    "shown": {
+     "FRONT": 0,
+     "3/4": 100,
+     "BACK": 0,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 0,
+     "3/4": 8.4,
+     "BACK": 0,
+     "SIDE": 91.6
+    },
+    "edgeOn": 0,
+    "walkingArtWrongOver30": 0
+   },
+   "loiter": {
+    "seconds": 28.9,
+    "trueAngle": {
+     "F": 12.7,
+     "Q": 56.1,
+     "S": 31.3,
+     "BQ": 0,
+     "B": 0
+    },
+    "shown": {
+     "FRONT": 44.4,
+     "3/4": 55.6,
+     "BACK": 0,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 13.1,
+     "3/4": 21.7,
+     "BACK": 0,
+     "SIDE": 0
+    },
+    "edgeOn": 0,
+    "walkingArtWrongOver30": 0
+   },
+   "far": {
+    "seconds": 73,
+    "trueAngle": {
+     "F": 0,
+     "Q": 24.1,
+     "S": 55.2,
+     "BQ": 20.7,
+     "B": 0
+    },
+    "shown": {
+     "FRONT": 0,
+     "3/4": 86.5,
+     "BACK": 13.5,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 0,
+     "3/4": 31.8,
+     "BACK": 0,
+     "SIDE": 68.2
+    },
+    "edgeOn": 35.8,
+    "walkingArtWrongOver30": 64.5
+   }
+  },
+  "artSets": {
+   "FRONT, 3/4, BACK": {
+    "walkingArtWrongOver30": 51.2,
+    "meanErrorWhileWalking": 33.2,
+    "worstError": 81,
+    "switchesPerNpcMinute": 4.9,
+    "share": {
+     "FRONT": 11,
+     "BACK": 12.7,
+     "3/4": 76.3
+    }
+   },
+   "+ SIDE": {
+    "walkingArtWrongOver30": 9,
+    "meanErrorWhileWalking": 14.8,
+    "worstError": 49,
+    "switchesPerNpcMinute": 6.8,
+    "share": {
+     "FRONT": 11,
+     "BACK": 6.2,
+     "SIDE": 40.6,
+     "3/4": 42.2
+    }
+   },
+   "+ BACK 3/4": {
+    "walkingArtWrongOver30": 28.9,
+    "meanErrorWhileWalking": 21.8,
+    "worstError": 59,
+    "switchesPerNpcMinute": 5.5,
+    "share": {
+     "FRONT": 11,
+     "BACK": 6.2,
+     "3/4": 62.6,
+     "BACK 3/4": 20.2
+    }
+   },
+   "+ SIDE + BACK 3/4": {
+    "walkingArtWrongOver30": 0.6,
+    "meanErrorWhileWalking": 12.3,
+    "worstError": 37,
+    "switchesPerNpcMinute": 8.5,
+    "share": {
+     "FRONT": 11,
+     "BACK": 6.2,
+     "SIDE": 34.2,
+     "3/4": 42.2,
+     "BACK 3/4": 6.5
+    }
+   }
+  },
+  "crowd": {
+   "npcWaitSeconds": 0.4,
+   "npcSidestepSeconds": 2,
+   "bodiesOverlappingSeconds": 0
+  },
+  "log": [
+   {
+    "t": 120.03,
+    "pos": {
+     "x": 30.15,
+     "y": 37.85,
+     "edge": "e_harlan_w",
+     "s": 24.15,
+     "off": 0,
+     "body": 90,
+     "head": 85,
+     "stop": null
+    },
+    "msg": "Route walk started. Click the picture to steer with the mouse.",
+    "markWhy": "can see you",
+    "c": {}
+   }
+  ]
+ },
+ "S4_watch_side": {
+  "seconds": 120,
+  "npcOnScreenSeconds": 203.2,
+  "settings": {
+   "strafe": 0.7,
+   "branchCone": 40,
+   "lookYaw": 95,
+   "lookUp": 30,
+   "lookDown": 35,
+   "turnTime": 0.4,
+   "walk": 1.45,
+   "back": 0.9,
+   "strafeSpeed": 1.1,
+   "sprint": 2.6,
+   "stamina": 3.5,
+   "fov": 75,
+   "eye": 1.62,
+   "crouchEye": 1.05,
+   "rubber": 25,
+   "tolerance": 18,
+   "hysteresis": 12,
+   "nearHyst": true,
+   "headMax": 65,
+   "headRubber": 35,
+   "distCheat": true,
+   "allowSide": true,
+   "allowBackQ": false,
+   "debug": 2,
+   "bob": true,
+   "noticeDist": 70,
+   "mouseSens": 0.12
+  },
+  "bodyViewShareByClass": {
+   "pedestrian": {
+    "time": 100.1,
+    "FRONT": 10,
+    "3/4": 25,
+    "BACK": 11.4,
+    "SIDE": 53.7,
+    "BACK 3/4": 0,
+    "ifSideAllowed": {
+     "FRONT": 10,
+     "3/4": 25,
+     "BACK": 11.4,
+     "SIDE": 53.7
+    }
+   },
+   "combatant": {
+    "time": 65.9,
+    "FRONT": 9.9,
+    "3/4": 69.4,
+    "BACK": 0,
+    "SIDE": 20.6,
+    "BACK 3/4": 0,
+    "ifSideAllowed": {
+     "FRONT": 9.9,
+     "3/4": 69.4,
+     "BACK": 0,
+     "SIDE": 20.6
+    }
+   },
+   "stationary": {
+    "time": 28.2,
+    "FRONT": 13.5,
+    "3/4": 59.5,
+    "BACK": 0,
+    "SIDE": 27,
+    "BACK 3/4": 0,
+    "ifSideAllowed": {
+     "FRONT": 20.7,
+     "3/4": 37.9,
+     "BACK": 0,
+     "SIDE": 41.4
+    }
+   },
+   "background": {
+    "time": 9,
+    "FRONT": 100,
+    "3/4": 0,
+    "BACK": 0,
+    "SIDE": 0,
+    "BACK 3/4": 0,
+    "ifSideAllowed": null
+   }
+  },
+  "trueAngleShare": {
+   "all": {
+    "F": 7.9,
+    "Q": 41.9,
+    "S": 35.1,
+    "BQ": 9.5,
+    "B": 5.6
+   },
+   "moving": {
+    "F": 9.6,
+    "Q": 22.1,
+    "S": 43.9,
+    "BQ": 15.3,
+    "B": 9.1
+   }
+  },
+  "cardWrongShare_residualOverTolerance": {
+   "near": 1.4,
+   "mid": 0,
+   "far": 0
+  },
+  "moonwalkShare_movingErrorOver30": {
+   "near": 5.6,
+   "mid": 7.4,
+   "far": 0
+  },
+  "onScreenSecondsByDistance": {
+   "near": 21.9,
+   "mid": 137.7,
+   "far": 43.6
+  },
+  "viewSwitchesPerNpcMinute": 6.2,
+  "carViewShare": {
+   "FRONT": 8.6,
+   "SIDE": 91.4,
+   "BACK": 0
+  },
+  "rules": {
+   "spawns": 10,
+   "despawns": 9,
+   "spawnInView": 0,
+   "despawnInView": 0,
+   "carDespawnInView": 0,
+   "carsParkedBecauseExitWasVisible": 0,
+   "nodeConflicts": 0,
+   "sameDirectionOvertakes": 0,
+   "playerBumpedIntoNpcSeconds": 0,
+   "playerNodeUses": 0
+  },
+  "player": {
+   "junctionsTaken": 0,
+   "turnArounds": 0,
+   "shots": 0,
+   "hits": 0,
+   "blockedShots": 0,
+   "markCouldSeeYouSeconds": 63.2
+  },
+  "heads": {
+   "maxHeadTurn": 65,
+   "secondsHeadHeldAttentionWithoutBodyChange": 67.6
+  },
+  "flourishes": 0,
+  "byGroup": {
+   "near": {
+    "seconds": 27.1,
+    "trueAngle": {
+     "F": 34.8,
+     "Q": 7.5,
+     "S": 12.3,
+     "BQ": 3.4,
+     "B": 42
+    },
+    "shown": {
+     "FRONT": 36.7,
+     "3/4": 6.6,
+     "BACK": 42,
+     "SIDE": 14.6,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 36.7,
+     "3/4": 6.6,
+     "BACK": 42,
+     "SIDE": 14.6
+    },
+    "edgeOn": 1.1,
+    "walkingArtWrongOver30": 4.5
+   },
+   "mark": {
+    "seconds": 65.9,
+    "trueAngle": {
+     "F": 4.4,
+     "Q": 72.6,
+     "S": 18,
+     "BQ": 5,
+     "B": 0
+    },
+    "shown": {
+     "FRONT": 9.9,
+     "3/4": 69.4,
+     "BACK": 0,
+     "SIDE": 20.6,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 9.9,
+     "3/4": 69.4,
+     "BACK": 0,
+     "SIDE": 20.6
+    },
+    "edgeOn": 0,
+    "walkingArtWrongOver30": 4.4
+   },
+   "stoop": {
+    "seconds": 8.3,
+    "trueAngle": {
+     "F": 0,
+     "Q": 17.3,
+     "S": 82.7,
+     "BQ": 0,
+     "B": 0
+    },
+    "shown": {
+     "FRONT": 0,
+     "3/4": 8.4,
+     "BACK": 0,
+     "SIDE": 91.6,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 0,
+     "3/4": 8.4,
+     "BACK": 0,
+     "SIDE": 91.6
+    },
+    "edgeOn": 0,
+    "walkingArtWrongOver30": 0
+   },
+   "loiter": {
+    "seconds": 28.9,
+    "trueAngle": {
+     "F": 12.7,
+     "Q": 56.1,
+     "S": 31.3,
+     "BQ": 0,
+     "B": 0
+    },
+    "shown": {
+     "FRONT": 44.4,
+     "3/4": 55.6,
+     "BACK": 0,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 13.1,
+     "3/4": 21.7,
+     "BACK": 0,
+     "SIDE": 0
+    },
+    "edgeOn": 0,
+    "walkingArtWrongOver30": 0
+   },
+   "far": {
+    "seconds": 73,
+    "trueAngle": {
+     "F": 0,
+     "Q": 24.1,
+     "S": 55.2,
+     "BQ": 20.7,
+     "B": 0
+    },
+    "shown": {
+     "FRONT": 0,
+     "3/4": 31.8,
+     "BACK": 0,
+     "SIDE": 68.2,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 0,
+     "3/4": 31.8,
+     "BACK": 0,
+     "SIDE": 68.2
+    },
+    "edgeOn": 0,
+    "walkingArtWrongOver30": 12.3
+   }
+  },
+  "artSets": {
+   "FRONT, 3/4, BACK": {
+    "walkingArtWrongOver30": 51.2,
+    "meanErrorWhileWalking": 33.2,
+    "worstError": 81,
+    "switchesPerNpcMinute": 4.9,
+    "share": {
+     "FRONT": 11,
+     "BACK": 12.7,
+     "3/4": 76.3
+    }
+   },
+   "+ SIDE": {
+    "walkingArtWrongOver30": 9,
+    "meanErrorWhileWalking": 14.8,
+    "worstError": 49,
+    "switchesPerNpcMinute": 6.8,
+    "share": {
+     "FRONT": 11,
+     "BACK": 6.2,
+     "SIDE": 40.6,
+     "3/4": 42.2
+    }
+   },
+   "+ BACK 3/4": {
+    "walkingArtWrongOver30": 28.9,
+    "meanErrorWhileWalking": 21.8,
+    "worstError": 59,
+    "switchesPerNpcMinute": 5.5,
+    "share": {
+     "FRONT": 11,
+     "BACK": 6.2,
+     "3/4": 62.6,
+     "BACK 3/4": 20.2
+    }
+   },
+   "+ SIDE + BACK 3/4": {
+    "walkingArtWrongOver30": 0.6,
+    "meanErrorWhileWalking": 12.3,
+    "worstError": 37,
+    "switchesPerNpcMinute": 8.5,
+    "share": {
+     "FRONT": 11,
+     "BACK": 6.2,
+     "SIDE": 34.2,
+     "3/4": 42.2,
+     "BACK 3/4": 6.5
+    }
+   }
+  },
+  "crowd": {
+   "npcWaitSeconds": 0.4,
+   "npcSidestepSeconds": 2,
+   "bodiesOverlappingSeconds": 0
+  },
+  "log": [
+   {
+    "t": 120.03,
+    "pos": {
+     "x": 30.15,
+     "y": 37.85,
+     "edge": "e_harlan_w",
+     "s": 24.15,
+     "off": 0,
+     "body": 90,
+     "head": 85,
+     "stop": null
+    },
+    "msg": "Route walk started. Click the picture to steer with the mouse.",
+    "markWhy": "can see you",
+    "c": {}
+   }
+  ]
+ },
+ "flicker": {
+  "H0": {
+   "walk past at 3 m": 6,
+   "stand on the FRONT/3-4 border, shuffle": 56,
+   "stand on the 3-4/BACK border, shuffle": 56
+  },
+  "H4": {
+   "walk past at 3 m": 2,
+   "stand on the FRONT/3-4 border, shuffle": 56,
+   "stand on the 3-4/BACK border, shuffle": 56
+  },
+  "H8": {
+   "walk past at 3 m": 2,
+   "stand on the FRONT/3-4 border, shuffle": 56,
+   "stand on the 3-4/BACK border, shuffle": 56
+  },
+  "H12": {
+   "walk past at 3 m": 2,
+   "stand on the FRONT/3-4 border, shuffle": 0,
+   "stand on the 3-4/BACK border, shuffle": 56
+  },
+  "H16": {
+   "walk past at 3 m": 2,
+   "stand on the FRONT/3-4 border, shuffle": 0,
+   "stand on the 3-4/BACK border, shuffle": 0
+  },
+  "H20": {
+   "walk past at 3 m": 2,
+   "stand on the FRONT/3-4 border, shuffle": 0,
+   "stand on the 3-4/BACK border, shuffle": 0
+  }
+ },
+ "S5_wiggle_H12": {
+  "seconds": 40,
+  "npcOnScreenSeconds": 140.9,
+  "settings": {
+   "strafe": 0.7,
+   "branchCone": 40,
+   "lookYaw": 95,
+   "lookUp": 30,
+   "lookDown": 35,
+   "turnTime": 0.4,
+   "walk": 1.45,
+   "back": 0.9,
+   "strafeSpeed": 1.1,
+   "sprint": 2.6,
+   "stamina": 3.5,
+   "fov": 75,
+   "eye": 1.62,
+   "crouchEye": 1.05,
+   "rubber": 25,
+   "tolerance": 18,
+   "hysteresis": 12,
+   "nearHyst": true,
+   "headMax": 65,
+   "headRubber": 35,
+   "distCheat": true,
+   "allowSide": false,
+   "allowBackQ": false,
+   "debug": 2,
+   "bob": true,
+   "noticeDist": 70,
+   "mouseSens": 0.12
+  },
+  "bodyViewShareByClass": {
+   "pedestrian": {
+    "time": 77.6,
+    "FRONT": 52.1,
+    "3/4": 3.7,
+    "BACK": 44.2,
+    "SIDE": 0,
+    "BACK 3/4": 0,
+    "ifSideAllowed": {
+     "FRONT": 52.1,
+     "3/4": 0.3,
+     "BACK": 44,
+     "SIDE": 3.5
+    }
+   },
+   "combatant": {
+    "time": 5.7,
+    "FRONT": 87.7,
+    "3/4": 12.3,
+    "BACK": 0,
+    "SIDE": 0,
+    "BACK 3/4": 0,
+    "ifSideAllowed": {
+     "FRONT": 87.7,
+     "3/4": 12.3,
+     "BACK": 0,
+     "SIDE": 0
+    }
+   },
+   "stationary": {
+    "time": 51.6,
+    "FRONT": 7.4,
+    "3/4": 92.6,
+    "BACK": 0,
+    "SIDE": 0,
+    "BACK 3/4": 0,
+    "ifSideAllowed": {
+     "FRONT": 8.3,
+     "3/4": 4.2,
+     "BACK": 0,
+     "SIDE": 87.5
+    }
+   },
+   "background": {
+    "time": 6,
+    "FRONT": 100,
+    "3/4": 0,
+    "BACK": 0,
+    "SIDE": 0,
+    "BACK 3/4": 0,
+    "ifSideAllowed": null
+   }
+  },
+  "trueAngleShare": {
+   "all": {
+    "F": 32.6,
+    "Q": 21.7,
+    "S": 21.5,
+    "BQ": 0.1,
+    "B": 24.2
+   },
+   "moving": {
+    "F": 50.8,
+    "Q": 4.7,
+    "S": 3.2,
+    "BQ": 0.2,
+    "B": 41
+   }
+  },
+  "cardWrongShare_residualOverTolerance": {
+   "near": 0,
+   "mid": 0,
+   "far": 0.1
+  },
+  "moonwalkShare_movingErrorOver30": {
+   "near": 0,
+   "mid": 0,
+   "far": 4.7
+  },
+  "onScreenSecondsByDistance": {
+   "near": 52.4,
+   "mid": 29.1,
+   "far": 59.4
+  },
+  "viewSwitchesPerNpcMinute": 1.7,
+  "carViewShare": {
+   "FRONT": 25.6,
+   "SIDE": 48.2,
+   "BACK": 26.2
+  },
+  "rules": {
+   "spawns": 2,
+   "despawns": 1,
+   "spawnInView": 0,
+   "despawnInView": 0,
+   "carDespawnInView": 0,
+   "carsParkedBecauseExitWasVisible": 0,
+   "nodeConflicts": 0,
+   "sameDirectionOvertakes": 0,
+   "playerBumpedIntoNpcSeconds": 0,
+   "playerNodeUses": 0
+  },
+  "player": {
+   "junctionsTaken": 0,
+   "turnArounds": 0,
+   "shots": 0,
+   "hits": 0,
+   "blockedShots": 0,
+   "markCouldSeeYouSeconds": 24.4
+  },
+  "heads": {
+   "maxHeadTurn": 65,
+   "secondsHeadHeldAttentionWithoutBodyChange": 42.2
+  },
+  "flourishes": 0,
+  "byGroup": {
+   "near": {
+    "seconds": 77.6,
+    "trueAngle": {
+     "F": 51.8,
+     "Q": 0.6,
+     "S": 3.4,
+     "BQ": 0.3,
+     "B": 43.9
+    },
+    "shown": {
+     "FRONT": 52.1,
+     "3/4": 3.7,
+     "BACK": 44.2,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 52.1,
+     "3/4": 0.3,
+     "BACK": 44,
+     "SIDE": 3.5
+    },
+    "edgeOn": 0,
+    "walkingArtWrongOver30": 3.6
+   },
+   "mark": {
+    "seconds": 5.7,
+    "trueAngle": {
+     "F": 35.7,
+     "Q": 64.3,
+     "S": 0,
+     "BQ": 0,
+     "B": 0
+    },
+    "shown": {
+     "FRONT": 87.7,
+     "3/4": 12.3,
+     "BACK": 0,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 87.7,
+     "3/4": 12.3,
+     "BACK": 0,
+     "SIDE": 0
+    },
+    "edgeOn": 0,
+    "walkingArtWrongOver30": 0
+   },
+   "stoop": {
+    "seconds": 40,
+    "trueAngle": {
+     "F": 0,
+     "Q": 46.2,
+     "S": 53.8,
+     "BQ": 0,
+     "B": 0
+    },
+    "shown": {
+     "FRONT": 0,
+     "3/4": 100,
+     "BACK": 0,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 0,
+     "3/4": 0,
+     "BACK": 0,
+     "SIDE": 100
+    },
+    "edgeOn": 0,
+    "walkingArtWrongOver30": 0
+   },
+   "loiter": {
+    "seconds": 17.6,
+    "trueAngle": {
+     "F": 20.8,
+     "Q": 44.9,
+     "S": 34.3,
+     "BQ": 0,
+     "B": 0
+    },
+    "shown": {
+     "FRONT": 55.9,
+     "3/4": 44.1,
+     "BACK": 0,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 21.6,
+     "3/4": 10.8,
+     "BACK": 0,
+     "SIDE": 0
+    },
+    "edgeOn": 0,
+    "walkingArtWrongOver30": 0
+   }
+  },
+  "artSets": {
+   "FRONT, 3/4, BACK": {
+    "walkingArtWrongOver30": 3.4,
+    "meanErrorWhileWalking": 7,
+    "worstError": 71,
+    "switchesPerNpcMinute": 1.9,
+    "share": {
+     "FRONT": 38.2,
+     "BACK": 26.6,
+     "3/4": 35.2
+    }
+   },
+   "+ SIDE": {
+    "walkingArtWrongOver30": 0.2,
+    "meanErrorWhileWalking": 5.6,
+    "worstError": 49,
+    "switchesPerNpcMinute": 2.3,
+    "share": {
+     "FRONT": 38.2,
+     "BACK": 26.5,
+     "SIDE": 33.1,
+     "3/4": 2.2
+    }
+   },
+   "+ BACK 3/4": {
+    "walkingArtWrongOver30": 3.1,
+    "meanErrorWhileWalking": 6.8,
+    "worstError": 46,
+    "switchesPerNpcMinute": 1.9,
+    "share": {
+     "FRONT": 38.2,
+     "BACK": 26.4,
+     "3/4": 35,
+     "BACK 3/4": 0.4
+    }
+   },
+   "+ SIDE + BACK 3/4": {
+    "walkingArtWrongOver30": 0,
+    "meanErrorWhileWalking": 5.5,
+    "worstError": 28,
+    "switchesPerNpcMinute": 2.8,
+    "share": {
+     "FRONT": 38.2,
+     "BACK": 26.4,
+     "SIDE": 33,
+     "3/4": 2.2,
+     "BACK 3/4": 0.2
+    }
+   }
+  },
+  "crowd": {
+   "npcWaitSeconds": 1,
+   "npcSidestepSeconds": 2,
+   "bodiesOverlappingSeconds": 0
+  },
+  "log": [
+   {
+    "t": 20,
+    "pos": {
+     "x": 23.77,
+     "y": 37.78,
+     "edge": "e_harlan_w",
+     "s": 17.77,
+     "off": -0.07,
+     "body": 90,
+     "head": -21,
+     "stop": null
+    },
+    "msg": "Route walk started. Click the picture to steer with the mouse.",
+    "markWhy": "can see you",
+    "c": {
+     "there": true
+    }
+   },
+   {
+    "t": 40,
+    "pos": {
+     "x": 23.77,
+     "y": 38.17,
+     "edge": "e_harlan_w",
+     "s": 17.77,
+     "off": 0.32,
+     "body": 90,
+     "head": -27,
+     "stop": null
+    },
+    "msg": "Route walk started. Click the picture to steer with the mouse.",
+    "markWhy": "can see you",
+    "c": {
+     "there": true
+    }
+   }
+  ]
+ },
+ "S5_wiggle_H0": {
+  "seconds": 40,
+  "npcOnScreenSeconds": 140.9,
+  "settings": {
+   "strafe": 0.7,
+   "branchCone": 40,
+   "lookYaw": 95,
+   "lookUp": 30,
+   "lookDown": 35,
+   "turnTime": 0.4,
+   "walk": 1.45,
+   "back": 0.9,
+   "strafeSpeed": 1.1,
+   "sprint": 2.6,
+   "stamina": 3.5,
+   "fov": 75,
+   "eye": 1.62,
+   "crouchEye": 1.05,
+   "rubber": 25,
+   "tolerance": 18,
+   "hysteresis": 0,
+   "nearHyst": true,
+   "headMax": 65,
+   "headRubber": 35,
+   "distCheat": true,
+   "allowSide": false,
+   "allowBackQ": false,
+   "debug": 2,
+   "bob": true,
+   "noticeDist": 70,
+   "mouseSens": 0.12
+  },
+  "bodyViewShareByClass": {
+   "pedestrian": {
+    "time": 77.6,
+    "FRONT": 51.8,
+    "3/4": 4.1,
+    "BACK": 44.1,
+    "SIDE": 0,
+    "BACK 3/4": 0,
+    "ifSideAllowed": {
+     "FRONT": 51.8,
+     "3/4": 0.6,
+     "BACK": 44,
+     "SIDE": 3.6
+    }
+   },
+   "combatant": {
+    "time": 5.7,
+    "FRONT": 35.7,
+    "3/4": 64.3,
+    "BACK": 0,
+    "SIDE": 0,
+    "BACK 3/4": 0,
+    "ifSideAllowed": {
+     "FRONT": 35.7,
+     "3/4": 64.3,
+     "BACK": 0,
+     "SIDE": 0
+    }
+   },
+   "stationary": {
+    "time": 51.6,
+    "FRONT": 7.1,
+    "3/4": 92.9,
+    "BACK": 0,
+    "SIDE": 0,
+    "BACK 3/4": 0,
+    "ifSideAllowed": {
+     "FRONT": 8,
+     "3/4": 44.9,
+     "BACK": 0,
+     "SIDE": 47.1
+    }
+   },
+   "background": {
+    "time": 6,
+    "FRONT": 100,
+    "3/4": 0,
+    "BACK": 0,
+    "SIDE": 0,
+    "BACK 3/4": 0,
+    "ifSideAllowed": null
+   }
+  },
+  "trueAngleShare": {
+   "all": {
+    "F": 32.6,
+    "Q": 21.7,
+    "S": 21.5,
+    "BQ": 0.1,
+    "B": 24.2
+   },
+   "moving": {
+    "F": 50.8,
+    "Q": 4.7,
+    "S": 3.2,
+    "BQ": 0.2,
+    "B": 41
+   }
+  },
+  "cardWrongShare_residualOverTolerance": {
+   "near": 0,
+   "mid": 0,
+   "far": 0
+  },
+  "moonwalkShare_movingErrorOver30": {
+   "near": 0,
+   "mid": 0,
+   "far": 4.7
+  },
+  "onScreenSecondsByDistance": {
+   "near": 52.4,
+   "mid": 29.1,
+   "far": 59.4
+  },
+  "viewSwitchesPerNpcMinute": 2.1,
+  "carViewShare": {
+   "FRONT": 25.6,
+   "SIDE": 48.2,
+   "BACK": 26.2
+  },
+  "rules": {
+   "spawns": 2,
+   "despawns": 1,
+   "spawnInView": 0,
+   "despawnInView": 0,
+   "carDespawnInView": 0,
+   "carsParkedBecauseExitWasVisible": 0,
+   "nodeConflicts": 0,
+   "sameDirectionOvertakes": 0,
+   "playerBumpedIntoNpcSeconds": 0,
+   "playerNodeUses": 0
+  },
+  "player": {
+   "junctionsTaken": 0,
+   "turnArounds": 0,
+   "shots": 0,
+   "hits": 0,
+   "blockedShots": 0,
+   "markCouldSeeYouSeconds": 24.4
+  },
+  "heads": {
+   "maxHeadTurn": 65,
+   "secondsHeadHeldAttentionWithoutBodyChange": 42.2
+  },
+  "flourishes": 0,
+  "byGroup": {
+   "near": {
+    "seconds": 77.6,
+    "trueAngle": {
+     "F": 51.8,
+     "Q": 0.6,
+     "S": 3.4,
+     "BQ": 0.3,
+     "B": 43.9
+    },
+    "shown": {
+     "FRONT": 51.8,
+     "3/4": 4.1,
+     "BACK": 44.1,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 51.8,
+     "3/4": 0.6,
+     "BACK": 44,
+     "SIDE": 3.6
+    },
+    "edgeOn": 0,
+    "walkingArtWrongOver30": 3.6
+   },
+   "mark": {
+    "seconds": 5.7,
+    "trueAngle": {
+     "F": 35.7,
+     "Q": 64.3,
+     "S": 0,
+     "BQ": 0,
+     "B": 0
+    },
+    "shown": {
+     "FRONT": 35.7,
+     "3/4": 64.3,
+     "BACK": 0,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 35.7,
+     "3/4": 64.3,
+     "BACK": 0,
+     "SIDE": 0
+    },
+    "edgeOn": 0,
+    "walkingArtWrongOver30": 0
+   },
+   "stoop": {
+    "seconds": 40,
+    "trueAngle": {
+     "F": 0,
+     "Q": 46.2,
+     "S": 53.8,
+     "BQ": 0,
+     "B": 0
+    },
+    "shown": {
+     "FRONT": 0,
+     "3/4": 100,
+     "BACK": 0,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 0,
+     "3/4": 46.2,
+     "BACK": 0,
+     "SIDE": 53.8
+    },
+    "edgeOn": 0,
+    "walkingArtWrongOver30": 0
+   },
+   "loiter": {
+    "seconds": 17.6,
+    "trueAngle": {
+     "F": 20.8,
+     "Q": 44.9,
+     "S": 34.3,
+     "BQ": 0,
+     "B": 0
+    },
+    "shown": {
+     "FRONT": 55.1,
+     "3/4": 44.9,
+     "BACK": 0,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 20.8,
+     "3/4": 11.6,
+     "BACK": 0,
+     "SIDE": 0
+    },
+    "edgeOn": 0,
+    "walkingArtWrongOver30": 0
+   }
+  },
+  "artSets": {
+   "FRONT, 3/4, BACK": {
+    "walkingArtWrongOver30": 3.4,
+    "meanErrorWhileWalking": 6.8,
+    "worstError": 64,
+    "switchesPerNpcMinute": 2.3,
+    "share": {
+     "FRONT": 35.6,
+     "BACK": 26.5,
+     "3/4": 37.9
+    }
+   },
+   "+ SIDE": {
+    "walkingArtWrongOver30": 0.2,
+    "meanErrorWhileWalking": 5.4,
+    "worstError": 42,
+    "switchesPerNpcMinute": 24.7,
+    "share": {
+     "FRONT": 35.6,
+     "BACK": 26.5,
+     "SIDE": 18.8,
+     "3/4": 19.1
+    }
+   },
+   "+ BACK 3/4": {
+    "walkingArtWrongOver30": 3.1,
+    "meanErrorWhileWalking": 6.6,
+    "worstError": 45,
+    "switchesPerNpcMinute": 3.3,
+    "share": {
+     "FRONT": 35.6,
+     "BACK": 26.4,
+     "3/4": 37.1,
+     "BACK 3/4": 1
+    }
+   },
+   "+ SIDE + BACK 3/4": {
+    "walkingArtWrongOver30": 0,
+    "meanErrorWhileWalking": 5.3,
+    "worstError": 22,
+    "switchesPerNpcMinute": 25.1,
+    "share": {
+     "FRONT": 35.6,
+     "BACK": 26.4,
+     "SIDE": 18.8,
+     "3/4": 19.1,
+     "BACK 3/4": 0.2
+    }
+   }
+  },
+  "crowd": {
+   "npcWaitSeconds": 1,
+   "npcSidestepSeconds": 2,
+   "bodiesOverlappingSeconds": 0
+  },
+  "log": [
+   {
+    "t": 40,
+    "pos": {
+     "x": 23.77,
+     "y": 38.17,
+     "edge": "e_harlan_w",
+     "s": 17.77,
+     "off": 0.32,
+     "body": 90,
+     "head": -27,
+     "stop": null
+    },
+    "msg": "Route walk started. Click the picture to steer with the mouse.",
+    "markWhy": "can see you",
+    "c": {
+     "there": true
+    }
+   }
+  ]
+ },
+ "sweep_rubber0_across": {
+  "seconds": 40,
+  "npcOnScreenSeconds": 105.4,
+  "settings": {
+   "strafe": 0.7,
+   "branchCone": 40,
+   "lookYaw": 95,
+   "lookUp": 30,
+   "lookDown": 35,
+   "turnTime": 0.4,
+   "walk": 1.45,
+   "back": 0.9,
+   "strafeSpeed": 1.1,
+   "sprint": 2.6,
+   "stamina": 3.5,
+   "fov": 75,
+   "eye": 1.62,
+   "crouchEye": 1.05,
+   "rubber": 0,
+   "tolerance": 18,
+   "hysteresis": 12,
+   "nearHyst": true,
+   "headMax": 65,
+   "headRubber": 35,
+   "distCheat": true,
+   "allowSide": false,
+   "allowBackQ": false,
+   "debug": 2,
+   "bob": true,
+   "noticeDist": 70,
+   "mouseSens": 0.12
+  },
+  "bodyViewShareByClass": {
+   "pedestrian": {
+    "time": 37.9,
+    "FRONT": 1.3,
+    "3/4": 97.6,
+    "BACK": 1.1,
+    "SIDE": 0,
+    "BACK 3/4": 0,
+    "ifSideAllowed": {
+     "FRONT": 1.3,
+     "3/4": 26.2,
+     "BACK": 0.5,
+     "SIDE": 71.9
+    }
+   },
+   "combatant": {
+    "time": 14.7,
+    "FRONT": 74.9,
+    "3/4": 25.1,
+    "BACK": 0,
+    "SIDE": 0,
+    "BACK 3/4": 0,
+    "ifSideAllowed": {
+     "FRONT": 74.9,
+     "3/4": 16.7,
+     "BACK": 0,
+     "SIDE": 8.4
+    }
+   },
+   "stationary": {
+    "time": 34.8,
+    "FRONT": 46.1,
+    "3/4": 53.9,
+    "BACK": 0,
+    "SIDE": 0,
+    "BACK 3/4": 0,
+    "ifSideAllowed": {
+     "FRONT": 52.9,
+     "3/4": 45.9,
+     "BACK": 0,
+     "SIDE": 1.1
+    }
+   },
+   "background": {
+    "time": 17.9,
+    "FRONT": 100,
+    "3/4": 0,
+    "BACK": 0,
+    "SIDE": 0,
+    "BACK 3/4": 0,
+    "ifSideAllowed": null
+   }
+  },
+  "trueAngleShare": {
+   "all": {
+    "F": 27.2,
+    "Q": 43,
+    "S": 28.1,
+    "BQ": 1.5,
+    "B": 0.2
+   },
+   "moving": {
+    "F": 1.4,
+    "Q": 47.1,
+    "S": 47,
+    "BQ": 3.9,
+    "B": 0.5
+   }
+  },
+  "cardWrongShare_residualOverTolerance": {
+   "near": 62.3,
+   "mid": 31.2,
+   "far": 0
+  },
+  "moonwalkShare_movingErrorOver30": {
+   "near": 52.8,
+   "mid": 10.7,
+   "far": 0
+  },
+  "onScreenSecondsByDistance": {
+   "near": 1.8,
+   "mid": 88.4,
+   "far": 15.2
+  },
+  "viewSwitchesPerNpcMinute": 5.7,
+  "carViewShare": {
+   "FRONT": 12.3,
+   "SIDE": 71.3,
+   "BACK": 16.4
+  },
+  "rules": {
+   "spawns": 1,
+   "despawns": 2,
+   "spawnInView": 0,
+   "despawnInView": 0,
+   "carDespawnInView": 0,
+   "carsParkedBecauseExitWasVisible": 0,
+   "nodeConflicts": 0,
+   "sameDirectionOvertakes": 0,
+   "playerBumpedIntoNpcSeconds": 0,
+   "playerNodeUses": 0
+  },
+  "player": {
+   "junctionsTaken": 2,
+   "turnArounds": 0,
+   "shots": 0,
+   "hits": 0,
+   "blockedShots": 0,
+   "markCouldSeeYouSeconds": 33.9
+  },
+  "heads": {
+   "maxHeadTurn": 65,
+   "secondsHeadHeldAttentionWithoutBodyChange": 24.7
+  },
+  "flourishes": 3,
+  "byGroup": {
+   "near": {
+    "seconds": 2,
+    "trueAngle": {
+     "F": 11.7,
+     "Q": 38.3,
+     "S": 23.3,
+     "BQ": 16.7,
+     "B": 10
+    },
+    "shown": {
+     "FRONT": 25,
+     "3/4": 58.3,
+     "BACK": 16.7,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 25,
+     "3/4": 33.3,
+     "BACK": 10,
+     "SIDE": 31.7
+    },
+    "edgeOn": 55,
+    "walkingArtWrongOver30": 46.7
+   },
+   "far": {
+    "seconds": 35.9,
+    "trueAngle": {
+     "F": 0,
+     "Q": 46.3,
+     "S": 50,
+     "BQ": 3.6,
+     "B": 0
+    },
+    "shown": {
+     "FRONT": 0,
+     "3/4": 99.8,
+     "BACK": 0.2,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 0,
+     "3/4": 25.8,
+     "BACK": 0,
+     "SIDE": 74.2
+    },
+    "edgeOn": 73.9,
+    "walkingArtWrongOver30": 23.7
+   },
+   "mark": {
+    "seconds": 14.7,
+    "trueAngle": {
+     "F": 64.5,
+     "Q": 27.4,
+     "S": 8.1,
+     "BQ": 0,
+     "B": 0
+    },
+    "shown": {
+     "FRONT": 74.9,
+     "3/4": 25.1,
+     "BACK": 0,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 74.9,
+     "3/4": 16.7,
+     "BACK": 0,
+     "SIDE": 8.4
+    },
+    "edgeOn": 7.2,
+    "walkingArtWrongOver30": 28.6
+   },
+   "stoop": {
+    "seconds": 0.2,
+    "trueAngle": {
+     "F": 0,
+     "Q": 0,
+     "S": 100,
+     "BQ": 0,
+     "B": 0
+    },
+    "shown": {
+     "FRONT": 0,
+     "3/4": 100,
+     "BACK": 0,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 0,
+     "3/4": 0,
+     "BACK": 0,
+     "SIDE": 100
+    },
+    "edgeOn": 0,
+    "walkingArtWrongOver30": 0
+   },
+   "loiter": {
+    "seconds": 52.6,
+    "trueAngle": {
+     "F": 36,
+     "Q": 45.4,
+     "S": 18.6,
+     "BQ": 0,
+     "B": 0
+    },
+    "shown": {
+     "FRONT": 64.7,
+     "3/4": 35.3,
+     "BACK": 0,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 17.7,
+     "3/4": 15.3,
+     "BACK": 0,
+     "SIDE": 0
+    },
+    "edgeOn": 0,
+    "walkingArtWrongOver30": 0
+   }
+  },
+  "artSets": {
+   "FRONT, 3/4, BACK": {
+    "walkingArtWrongOver30": 25.2,
+    "meanErrorWhileWalking": 26.3,
+    "worstError": 82,
+    "switchesPerNpcMinute": 7.7,
+    "share": {
+     "FRONT": 29.7,
+     "BACK": 0.6,
+     "3/4": 69.8
+    }
+   },
+   "+ SIDE": {
+    "walkingArtWrongOver30": 1.4,
+    "meanErrorWhileWalking": 16.1,
+    "worstError": 45,
+    "switchesPerNpcMinute": 10.3,
+    "share": {
+     "FRONT": 29.7,
+     "BACK": 0.3,
+     "3/4": 29.2,
+     "SIDE": 40.9
+    }
+   },
+   "+ BACK 3/4": {
+    "walkingArtWrongOver30": 17.1,
+    "meanErrorWhileWalking": 21.8,
+    "worstError": 57,
+    "switchesPerNpcMinute": 8.5,
+    "share": {
+     "FRONT": 29.7,
+     "BACK": 0.3,
+     "3/4": 62.5,
+     "BACK 3/4": 7.5
+    }
+   },
+   "+ SIDE + BACK 3/4": {
+    "walkingArtWrongOver30": 1,
+    "meanErrorWhileWalking": 15.9,
+    "worstError": 37,
+    "switchesPerNpcMinute": 12.8,
+    "share": {
+     "FRONT": 29.7,
+     "BACK": 0.3,
+     "3/4": 29.2,
+     "SIDE": 40.6,
+     "BACK 3/4": 0.3
+    }
+   }
+  },
+  "crowd": {
+   "npcWaitSeconds": 0,
+   "npcSidestepSeconds": 2,
+   "bodiesOverlappingSeconds": 0
+  },
+  "log": [
+   {
+    "t": 40,
+    "pos": {
+     "x": 71.76,
+     "y": 37.85,
+     "edge": "e_cross",
+     "s": 10.16,
+     "off": 0,
+     "body": 90,
+     "head": 80,
+     "stop": null
+    },
+    "msg": "Route walk started. Click the picture to steer with the mouse.",
+    "markWhy": "can see you",
+    "c": {}
+   }
+  ]
+ },
+ "sweep_rubber0_stroll": {
+  "seconds": 150,
+  "npcOnScreenSeconds": 231.2,
+  "settings": {
+   "strafe": 0.7,
+   "branchCone": 40,
+   "lookYaw": 95,
+   "lookUp": 30,
+   "lookDown": 35,
+   "turnTime": 0.4,
+   "walk": 1.45,
+   "back": 0.9,
+   "strafeSpeed": 1.1,
+   "sprint": 2.6,
+   "stamina": 3.5,
+   "fov": 75,
+   "eye": 1.62,
+   "crouchEye": 1.05,
+   "rubber": 0,
+   "tolerance": 18,
+   "hysteresis": 12,
+   "nearHyst": true,
+   "headMax": 65,
+   "headRubber": 35,
+   "distCheat": true,
+   "allowSide": false,
+   "allowBackQ": false,
+   "debug": 2,
+   "bob": true,
+   "noticeDist": 70,
+   "mouseSens": 0.12
+  },
+  "bodyViewShareByClass": {
+   "pedestrian": {
+    "time": 123.7,
+    "FRONT": 28,
+    "3/4": 17.9,
+    "BACK": 54.1,
+    "SIDE": 0,
+    "BACK 3/4": 0,
+    "ifSideAllowed": {
+     "FRONT": 28,
+     "3/4": 9.6,
+     "BACK": 52.6,
+     "SIDE": 9.8
+    }
+   },
+   "combatant": {
+    "time": 32.6,
+    "FRONT": 22.8,
+    "3/4": 1.5,
+    "BACK": 75.6,
+    "SIDE": 0,
+    "BACK 3/4": 0,
+    "ifSideAllowed": {
+     "FRONT": 22.8,
+     "3/4": 1.5,
+     "BACK": 75.6,
+     "SIDE": 0
+    }
+   },
+   "stationary": {
+    "time": 56.2,
+    "FRONT": 31.8,
+    "3/4": 54.9,
+    "BACK": 13.3,
+    "SIDE": 0,
+    "BACK 3/4": 0,
+    "ifSideAllowed": {
+     "FRONT": 47.7,
+     "3/4": 11.8,
+     "BACK": 0,
+     "SIDE": 40.4
+    }
+   },
+   "background": {
+    "time": 18.7,
+    "FRONT": 100,
+    "3/4": 0,
+    "BACK": 0,
+    "SIDE": 0,
+    "BACK 3/4": 0,
+    "ifSideAllowed": null
+   }
+  },
+  "trueAngleShare": {
+   "all": {
+    "F": 23.8,
+    "Q": 22,
+    "S": 11.4,
+    "BQ": 16.3,
+    "B": 26.6
+   },
+   "moving": {
+    "F": 26.5,
+    "Q": 12,
+    "S": 6.3,
+    "BQ": 17.7,
+    "B": 37.5
+   }
+  },
+  "cardWrongShare_residualOverTolerance": {
+   "near": 16.1,
+   "mid": 18.7,
+   "far": 18.1
+  },
+  "moonwalkShare_movingErrorOver30": {
+   "near": 3.4,
+   "mid": 12.1,
+   "far": 14.8
+  },
+  "onScreenSecondsByDistance": {
+   "near": 33,
+   "mid": 37.4,
+   "far": 160.9
+  },
+  "viewSwitchesPerNpcMinute": 3.4,
+  "carViewShare": {
+   "FRONT": 31.5,
+   "SIDE": 38.6,
+   "BACK": 29.9
+  },
+  "rules": {
+   "spawns": 11,
+   "despawns": 11,
+   "spawnInView": 0,
+   "despawnInView": 0,
+   "carDespawnInView": 0,
+   "carsParkedBecauseExitWasVisible": 0,
+   "nodeConflicts": 0,
+   "sameDirectionOvertakes": 0,
+   "playerBumpedIntoNpcSeconds": 0,
+   "playerNodeUses": 0
+  },
+  "player": {
+   "junctionsTaken": 6,
+   "turnArounds": 1,
+   "shots": 0,
+   "hits": 0,
+   "blockedShots": 0,
+   "markCouldSeeYouSeconds": 34.2
+  },
+  "heads": {
+   "maxHeadTurn": 65,
+   "secondsHeadHeldAttentionWithoutBodyChange": 11.8
+  },
+  "flourishes": 6,
+  "byGroup": {
+   "near": {
+    "seconds": 64.3,
+    "trueAngle": {
+     "F": 35.6,
+     "Q": 2.1,
+     "S": 3.2,
+     "BQ": 3.8,
+     "B": 55.4
+    },
+    "shown": {
+     "FRONT": 36.1,
+     "3/4": 4.9,
+     "BACK": 59,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 36.1,
+     "3/4": 1.7,
+     "BACK": 56.5,
+     "SIDE": 5.7
+    },
+    "edgeOn": 11.5,
+    "walkingArtWrongOver30": 4.6
+   },
+   "mark": {
+    "seconds": 32.6,
+    "trueAngle": {
+     "F": 14.5,
+     "Q": 9.8,
+     "S": 0,
+     "BQ": 20.8,
+     "B": 54.9
+    },
+    "shown": {
+     "FRONT": 22.8,
+     "3/4": 1.5,
+     "BACK": 75.6,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 22.8,
+     "3/4": 1.5,
+     "BACK": 75.6,
+     "SIDE": 0
+    },
+    "edgeOn": 0,
+    "walkingArtWrongOver30": 0
+   },
+   "stoop": {
+    "seconds": 17.2,
+    "trueAngle": {
+     "F": 65.2,
+     "Q": 4.5,
+     "S": 30.3,
+     "BQ": 0,
+     "B": 0
+    },
+    "shown": {
+     "FRONT": 64.3,
+     "3/4": 35.7,
+     "BACK": 0,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 64.3,
+     "3/4": 5.4,
+     "BACK": 0,
+     "SIDE": 30.3
+    },
+    "edgeOn": 0,
+    "walkingArtWrongOver30": 0.9
+   },
+   "loiter": {
+    "seconds": 57.8,
+    "trueAngle": {
+     "F": 14.7,
+     "Q": 53.6,
+     "S": 18.9,
+     "BQ": 12.8,
+     "B": 0
+    },
+    "shown": {
+     "FRONT": 44.2,
+     "3/4": 42.9,
+     "BACK": 12.9,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 11.8,
+     "3/4": 6.1,
+     "BACK": 0,
+     "SIDE": 17.2
+    },
+    "edgeOn": 0,
+    "walkingArtWrongOver30": 0
+   },
+   "far": {
+    "seconds": 59.4,
+    "trueAngle": {
+     "F": 13.1,
+     "Q": 24.3,
+     "S": 13.9,
+     "BQ": 35.4,
+     "B": 13.3
+    },
+    "shown": {
+     "FRONT": 19.3,
+     "3/4": 32,
+     "BACK": 48.7,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 19.3,
+     "3/4": 18.1,
+     "BACK": 48.3,
+     "SIDE": 14.4
+    },
+    "edgeOn": 57.2,
+    "walkingArtWrongOver30": 44.7
+   }
+  },
+  "artSets": {
+   "FRONT, 3/4, BACK": {
+    "walkingArtWrongOver30": 18.1,
+    "meanErrorWhileWalking": 17,
+    "worstError": 82,
+    "switchesPerNpcMinute": 4,
+    "share": {
+     "FRONT": 31,
+     "BACK": 51.1,
+     "3/4": 17.9
+    }
+   },
+   "+ SIDE": {
+    "walkingArtWrongOver30": 13.4,
+    "meanErrorWhileWalking": 15,
+    "worstError": 59,
+    "switchesPerNpcMinute": 5,
+    "share": {
+     "FRONT": 31,
+     "BACK": 46.3,
+     "SIDE": 14.1,
+     "3/4": 8.7
+    }
+   },
+   "+ BACK 3/4": {
+    "walkingArtWrongOver30": 4,
+    "meanErrorWhileWalking": 12.8,
+    "worstError": 51,
+    "switchesPerNpcMinute": 4,
+    "share": {
+     "FRONT": 31,
+     "BACK": 22.1,
+     "3/4": 15.8,
+     "BACK 3/4": 31.2
+    }
+   },
+   "+ SIDE + BACK 3/4": {
+    "walkingArtWrongOver30": 0.3,
+    "meanErrorWhileWalking": 11.5,
+    "worstError": 37,
+    "switchesPerNpcMinute": 5.9,
+    "share": {
+     "FRONT": 31,
+     "BACK": 22.1,
+     "SIDE": 9.3,
+     "3/4": 8.7,
+     "BACK 3/4": 29
+    }
+   }
+  },
+  "crowd": {
+   "npcWaitSeconds": 0.4,
+   "npcSidestepSeconds": 2.9,
+   "bodiesOverlappingSeconds": 0
+  },
+  "log": [
+   {
+    "t": 150.03,
+    "pos": {
+     "x": 6,
+     "y": 37.85,
+     "edge": "e_harlan_w",
+     "s": 0,
+     "off": 0,
+     "body": 270,
+     "head": 75,
+     "stop": "End of this route \u2014 R turns around"
+    },
+    "msg": "Route walk started. Click the picture to steer with the mouse.",
+    "markWhy": "too far",
+    "c": {
+     "turned": true
+    }
+   }
+  ]
+ },
+ "sweep_rubber15_across": {
+  "seconds": 40,
+  "npcOnScreenSeconds": 105.4,
+  "settings": {
+   "strafe": 0.7,
+   "branchCone": 40,
+   "lookYaw": 95,
+   "lookUp": 30,
+   "lookDown": 35,
+   "turnTime": 0.4,
+   "walk": 1.45,
+   "back": 0.9,
+   "strafeSpeed": 1.1,
+   "sprint": 2.6,
+   "stamina": 3.5,
+   "fov": 75,
+   "eye": 1.62,
+   "crouchEye": 1.05,
+   "rubber": 15,
+   "tolerance": 18,
+   "hysteresis": 12,
+   "nearHyst": true,
+   "headMax": 65,
+   "headRubber": 35,
+   "distCheat": true,
+   "allowSide": false,
+   "allowBackQ": false,
+   "debug": 2,
+   "bob": true,
+   "noticeDist": 70,
+   "mouseSens": 0.12
+  },
+  "bodyViewShareByClass": {
+   "pedestrian": {
+    "time": 37.9,
+    "FRONT": 1.3,
+    "3/4": 97.6,
+    "BACK": 1.1,
+    "SIDE": 0,
+    "BACK 3/4": 0,
+    "ifSideAllowed": {
+     "FRONT": 1.3,
+     "3/4": 26.2,
+     "BACK": 0.5,
+     "SIDE": 71.9
+    }
+   },
+   "combatant": {
+    "time": 14.7,
+    "FRONT": 74.9,
+    "3/4": 25.1,
+    "BACK": 0,
+    "SIDE": 0,
+    "BACK 3/4": 0,
+    "ifSideAllowed": {
+     "FRONT": 74.9,
+     "3/4": 16.7,
+     "BACK": 0,
+     "SIDE": 8.4
+    }
+   },
+   "stationary": {
+    "time": 34.8,
+    "FRONT": 46.1,
+    "3/4": 53.9,
+    "BACK": 0,
+    "SIDE": 0,
+    "BACK 3/4": 0,
+    "ifSideAllowed": {
+     "FRONT": 52.9,
+     "3/4": 45.9,
+     "BACK": 0,
+     "SIDE": 1.1
+    }
+   },
+   "background": {
+    "time": 17.9,
+    "FRONT": 100,
+    "3/4": 0,
+    "BACK": 0,
+    "SIDE": 0,
+    "BACK 3/4": 0,
+    "ifSideAllowed": null
+   }
+  },
+  "trueAngleShare": {
+   "all": {
+    "F": 27.2,
+    "Q": 43,
+    "S": 28.1,
+    "BQ": 1.5,
+    "B": 0.2
+   },
+   "moving": {
+    "F": 1.4,
+    "Q": 47.1,
+    "S": 47,
+    "BQ": 3.9,
+    "B": 0.5
+   }
+  },
+  "cardWrongShare_residualOverTolerance": {
+   "near": 47.2,
+   "mid": 9.2,
+   "far": 0
+  },
+  "moonwalkShare_movingErrorOver30": {
+   "near": 52.8,
+   "mid": 10.7,
+   "far": 0
+  },
+  "onScreenSecondsByDistance": {
+   "near": 1.8,
+   "mid": 88.4,
+   "far": 15.2
+  },
+  "viewSwitchesPerNpcMinute": 5.7,
+  "carViewShare": {
+   "FRONT": 12.3,
+   "SIDE": 71.3,
+   "BACK": 16.4
+  },
+  "rules": {
+   "spawns": 1,
+   "despawns": 2,
+   "spawnInView": 0,
+   "despawnInView": 0,
+   "carDespawnInView": 0,
+   "carsParkedBecauseExitWasVisible": 0,
+   "nodeConflicts": 0,
+   "sameDirectionOvertakes": 0,
+   "playerBumpedIntoNpcSeconds": 0,
+   "playerNodeUses": 0
+  },
+  "player": {
+   "junctionsTaken": 2,
+   "turnArounds": 0,
+   "shots": 0,
+   "hits": 0,
+   "blockedShots": 0,
+   "markCouldSeeYouSeconds": 33.9
+  },
+  "heads": {
+   "maxHeadTurn": 65,
+   "secondsHeadHeldAttentionWithoutBodyChange": 24.7
+  },
+  "flourishes": 3,
+  "byGroup": {
+   "near": {
+    "seconds": 2,
+    "trueAngle": {
+     "F": 11.7,
+     "Q": 38.3,
+     "S": 23.3,
+     "BQ": 16.7,
+     "B": 10
+    },
+    "shown": {
+     "FRONT": 25,
+     "3/4": 58.3,
+     "BACK": 16.7,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 25,
+     "3/4": 33.3,
+     "BACK": 10,
+     "SIDE": 31.7
+    },
+    "edgeOn": 41.7,
+    "walkingArtWrongOver30": 46.7
+   },
+   "far": {
+    "seconds": 35.9,
+    "trueAngle": {
+     "F": 0,
+     "Q": 46.3,
+     "S": 50,
+     "BQ": 3.6,
+     "B": 0
+    },
+    "shown": {
+     "FRONT": 0,
+     "3/4": 99.8,
+     "BACK": 0.2,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 0,
+     "3/4": 25.8,
+     "BACK": 0,
+     "SIDE": 74.2
+    },
+    "edgeOn": 19.7,
+    "walkingArtWrongOver30": 23.7
+   },
+   "mark": {
+    "seconds": 14.7,
+    "trueAngle": {
+     "F": 64.5,
+     "Q": 27.4,
+     "S": 8.1,
+     "BQ": 0,
+     "B": 0
+    },
+    "shown": {
+     "FRONT": 74.9,
+     "3/4": 25.1,
+     "BACK": 0,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 74.9,
+     "3/4": 16.7,
+     "BACK": 0,
+     "SIDE": 8.4
+    },
+    "edgeOn": 7.2,
+    "walkingArtWrongOver30": 28.6
+   },
+   "stoop": {
+    "seconds": 0.2,
+    "trueAngle": {
+     "F": 0,
+     "Q": 0,
+     "S": 100,
+     "BQ": 0,
+     "B": 0
+    },
+    "shown": {
+     "FRONT": 0,
+     "3/4": 100,
+     "BACK": 0,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 0,
+     "3/4": 0,
+     "BACK": 0,
+     "SIDE": 100
+    },
+    "edgeOn": 0,
+    "walkingArtWrongOver30": 0
+   },
+   "loiter": {
+    "seconds": 52.6,
+    "trueAngle": {
+     "F": 36,
+     "Q": 45.4,
+     "S": 18.6,
+     "BQ": 0,
+     "B": 0
+    },
+    "shown": {
+     "FRONT": 64.7,
+     "3/4": 35.3,
+     "BACK": 0,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 17.7,
+     "3/4": 15.3,
+     "BACK": 0,
+     "SIDE": 0
+    },
+    "edgeOn": 0,
+    "walkingArtWrongOver30": 0
+   }
+  },
+  "artSets": {
+   "FRONT, 3/4, BACK": {
+    "walkingArtWrongOver30": 25.2,
+    "meanErrorWhileWalking": 26.3,
+    "worstError": 82,
+    "switchesPerNpcMinute": 7.7,
+    "share": {
+     "FRONT": 29.7,
+     "BACK": 0.6,
+     "3/4": 69.8
+    }
+   },
+   "+ SIDE": {
+    "walkingArtWrongOver30": 1.4,
+    "meanErrorWhileWalking": 16.1,
+    "worstError": 45,
+    "switchesPerNpcMinute": 10.3,
+    "share": {
+     "FRONT": 29.7,
+     "BACK": 0.3,
+     "3/4": 29.2,
+     "SIDE": 40.9
+    }
+   },
+   "+ BACK 3/4": {
+    "walkingArtWrongOver30": 17.1,
+    "meanErrorWhileWalking": 21.8,
+    "worstError": 57,
+    "switchesPerNpcMinute": 8.5,
+    "share": {
+     "FRONT": 29.7,
+     "BACK": 0.3,
+     "3/4": 62.5,
+     "BACK 3/4": 7.5
+    }
+   },
+   "+ SIDE + BACK 3/4": {
+    "walkingArtWrongOver30": 1,
+    "meanErrorWhileWalking": 15.9,
+    "worstError": 37,
+    "switchesPerNpcMinute": 12.8,
+    "share": {
+     "FRONT": 29.7,
+     "BACK": 0.3,
+     "3/4": 29.2,
+     "SIDE": 40.6,
+     "BACK 3/4": 0.3
+    }
+   }
+  },
+  "crowd": {
+   "npcWaitSeconds": 0,
+   "npcSidestepSeconds": 2,
+   "bodiesOverlappingSeconds": 0
+  },
+  "log": [
+   {
+    "t": 40,
+    "pos": {
+     "x": 71.76,
+     "y": 37.85,
+     "edge": "e_cross",
+     "s": 10.16,
+     "off": 0,
+     "body": 90,
+     "head": 80,
+     "stop": null
+    },
+    "msg": "Route walk started. Click the picture to steer with the mouse.",
+    "markWhy": "can see you",
+    "c": {}
+   }
+  ]
+ },
+ "sweep_rubber15_stroll": {
+  "seconds": 150,
+  "npcOnScreenSeconds": 231.2,
+  "settings": {
+   "strafe": 0.7,
+   "branchCone": 40,
+   "lookYaw": 95,
+   "lookUp": 30,
+   "lookDown": 35,
+   "turnTime": 0.4,
+   "walk": 1.45,
+   "back": 0.9,
+   "strafeSpeed": 1.1,
+   "sprint": 2.6,
+   "stamina": 3.5,
+   "fov": 75,
+   "eye": 1.62,
+   "crouchEye": 1.05,
+   "rubber": 15,
+   "tolerance": 18,
+   "hysteresis": 12,
+   "nearHyst": true,
+   "headMax": 65,
+   "headRubber": 35,
+   "distCheat": true,
+   "allowSide": false,
+   "allowBackQ": false,
+   "debug": 2,
+   "bob": true,
+   "noticeDist": 70,
+   "mouseSens": 0.12
+  },
+  "bodyViewShareByClass": {
+   "pedestrian": {
+    "time": 123.7,
+    "FRONT": 28,
+    "3/4": 17.9,
+    "BACK": 54.1,
+    "SIDE": 0,
+    "BACK 3/4": 0,
+    "ifSideAllowed": {
+     "FRONT": 28,
+     "3/4": 9.6,
+     "BACK": 52.6,
+     "SIDE": 9.8
+    }
+   },
+   "combatant": {
+    "time": 32.6,
+    "FRONT": 22.8,
+    "3/4": 1.5,
+    "BACK": 75.6,
+    "SIDE": 0,
+    "BACK 3/4": 0,
+    "ifSideAllowed": {
+     "FRONT": 22.8,
+     "3/4": 1.5,
+     "BACK": 75.6,
+     "SIDE": 0
+    }
+   },
+   "stationary": {
+    "time": 56.2,
+    "FRONT": 31.8,
+    "3/4": 54.9,
+    "BACK": 13.3,
+    "SIDE": 0,
+    "BACK 3/4": 0,
+    "ifSideAllowed": {
+     "FRONT": 47.7,
+     "3/4": 11.8,
+     "BACK": 0,
+     "SIDE": 40.4
+    }
+   },
+   "background": {
+    "time": 18.7,
+    "FRONT": 100,
+    "3/4": 0,
+    "BACK": 0,
+    "SIDE": 0,
+    "BACK 3/4": 0,
+    "ifSideAllowed": null
+   }
+  },
+  "trueAngleShare": {
+   "all": {
+    "F": 23.8,
+    "Q": 22,
+    "S": 11.4,
+    "BQ": 16.3,
+    "B": 26.6
+   },
+   "moving": {
+    "F": 26.5,
+    "Q": 12,
+    "S": 6.3,
+    "BQ": 17.7,
+    "B": 37.5
+   }
+  },
+  "cardWrongShare_residualOverTolerance": {
+   "near": 5.7,
+   "mid": 12.1,
+   "far": 2
+  },
+  "moonwalkShare_movingErrorOver30": {
+   "near": 3.4,
+   "mid": 12.1,
+   "far": 14.8
+  },
+  "onScreenSecondsByDistance": {
+   "near": 33,
+   "mid": 37.4,
+   "far": 160.9
+  },
+  "viewSwitchesPerNpcMinute": 3.4,
+  "carViewShare": {
+   "FRONT": 31.5,
+   "SIDE": 38.6,
+   "BACK": 29.9
+  },
+  "rules": {
+   "spawns": 11,
+   "despawns": 11,
+   "spawnInView": 0,
+   "despawnInView": 0,
+   "carDespawnInView": 0,
+   "carsParkedBecauseExitWasVisible": 0,
+   "nodeConflicts": 0,
+   "sameDirectionOvertakes": 0,
+   "playerBumpedIntoNpcSeconds": 0,
+   "playerNodeUses": 0
+  },
+  "player": {
+   "junctionsTaken": 6,
+   "turnArounds": 1,
+   "shots": 0,
+   "hits": 0,
+   "blockedShots": 0,
+   "markCouldSeeYouSeconds": 34.2
+  },
+  "heads": {
+   "maxHeadTurn": 65,
+   "secondsHeadHeldAttentionWithoutBodyChange": 11.8
+  },
+  "flourishes": 6,
+  "byGroup": {
+   "near": {
+    "seconds": 64.3,
+    "trueAngle": {
+     "F": 35.6,
+     "Q": 2.1,
+     "S": 3.2,
+     "BQ": 3.8,
+     "B": 55.4
+    },
+    "shown": {
+     "FRONT": 36.1,
+     "3/4": 4.9,
+     "BACK": 59,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 36.1,
+     "3/4": 1.7,
+     "BACK": 56.5,
+     "SIDE": 5.7
+    },
+    "edgeOn": 3.2,
+    "walkingArtWrongOver30": 4.6
+   },
+   "mark": {
+    "seconds": 32.6,
+    "trueAngle": {
+     "F": 14.5,
+     "Q": 9.8,
+     "S": 0,
+     "BQ": 20.8,
+     "B": 54.9
+    },
+    "shown": {
+     "FRONT": 22.8,
+     "3/4": 1.5,
+     "BACK": 75.6,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 22.8,
+     "3/4": 1.5,
+     "BACK": 75.6,
+     "SIDE": 0
+    },
+    "edgeOn": 0,
+    "walkingArtWrongOver30": 0
+   },
+   "stoop": {
+    "seconds": 17.2,
+    "trueAngle": {
+     "F": 65.2,
+     "Q": 4.5,
+     "S": 30.3,
+     "BQ": 0,
+     "B": 0
+    },
+    "shown": {
+     "FRONT": 64.3,
+     "3/4": 35.7,
+     "BACK": 0,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 64.3,
+     "3/4": 5.4,
+     "BACK": 0,
+     "SIDE": 30.3
+    },
+    "edgeOn": 0,
+    "walkingArtWrongOver30": 0.9
+   },
+   "loiter": {
+    "seconds": 57.8,
+    "trueAngle": {
+     "F": 14.7,
+     "Q": 53.6,
+     "S": 18.9,
+     "BQ": 12.8,
+     "B": 0
+    },
+    "shown": {
+     "FRONT": 44.2,
+     "3/4": 42.9,
+     "BACK": 12.9,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 11.8,
+     "3/4": 6.1,
+     "BACK": 0,
+     "SIDE": 17.2
+    },
+    "edgeOn": 0,
+    "walkingArtWrongOver30": 0
+   },
+   "far": {
+    "seconds": 59.4,
+    "trueAngle": {
+     "F": 13.1,
+     "Q": 24.3,
+     "S": 13.9,
+     "BQ": 35.4,
+     "B": 13.3
+    },
+    "shown": {
+     "FRONT": 19.3,
+     "3/4": 32,
+     "BACK": 48.7,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 19.3,
+     "3/4": 18.1,
+     "BACK": 48.3,
+     "SIDE": 14.4
+    },
+    "edgeOn": 12.8,
+    "walkingArtWrongOver30": 44.7
+   }
+  },
+  "artSets": {
+   "FRONT, 3/4, BACK": {
+    "walkingArtWrongOver30": 18.1,
+    "meanErrorWhileWalking": 17,
+    "worstError": 82,
+    "switchesPerNpcMinute": 4,
+    "share": {
+     "FRONT": 31,
+     "BACK": 51.1,
+     "3/4": 17.9
+    }
+   },
+   "+ SIDE": {
+    "walkingArtWrongOver30": 13.4,
+    "meanErrorWhileWalking": 15,
+    "worstError": 59,
+    "switchesPerNpcMinute": 5,
+    "share": {
+     "FRONT": 31,
+     "BACK": 46.3,
+     "SIDE": 14.1,
+     "3/4": 8.7
+    }
+   },
+   "+ BACK 3/4": {
+    "walkingArtWrongOver30": 4,
+    "meanErrorWhileWalking": 12.8,
+    "worstError": 51,
+    "switchesPerNpcMinute": 4,
+    "share": {
+     "FRONT": 31,
+     "BACK": 22.1,
+     "3/4": 15.8,
+     "BACK 3/4": 31.2
+    }
+   },
+   "+ SIDE + BACK 3/4": {
+    "walkingArtWrongOver30": 0.3,
+    "meanErrorWhileWalking": 11.5,
+    "worstError": 37,
+    "switchesPerNpcMinute": 5.9,
+    "share": {
+     "FRONT": 31,
+     "BACK": 22.1,
+     "SIDE": 9.3,
+     "3/4": 8.7,
+     "BACK 3/4": 29
+    }
+   }
+  },
+  "crowd": {
+   "npcWaitSeconds": 0.4,
+   "npcSidestepSeconds": 2.9,
+   "bodiesOverlappingSeconds": 0
+  },
+  "log": [
+   {
+    "t": 150.03,
+    "pos": {
+     "x": 6,
+     "y": 37.85,
+     "edge": "e_harlan_w",
+     "s": 0,
+     "off": 0,
+     "body": 270,
+     "head": 75,
+     "stop": "End of this route \u2014 R turns around"
+    },
+    "msg": "Route walk started. Click the picture to steer with the mouse.",
+    "markWhy": "too far",
+    "c": {
+     "turned": true
+    }
+   }
+  ]
+ },
+ "sweep_rubber25_across": {
+  "seconds": 40,
+  "npcOnScreenSeconds": 105.4,
+  "settings": {
+   "strafe": 0.7,
+   "branchCone": 40,
+   "lookYaw": 95,
+   "lookUp": 30,
+   "lookDown": 35,
+   "turnTime": 0.4,
+   "walk": 1.45,
+   "back": 0.9,
+   "strafeSpeed": 1.1,
+   "sprint": 2.6,
+   "stamina": 3.5,
+   "fov": 75,
+   "eye": 1.62,
+   "crouchEye": 1.05,
+   "rubber": 25,
+   "tolerance": 18,
+   "hysteresis": 12,
+   "nearHyst": true,
+   "headMax": 65,
+   "headRubber": 35,
+   "distCheat": true,
+   "allowSide": false,
+   "allowBackQ": false,
+   "debug": 2,
+   "bob": true,
+   "noticeDist": 70,
+   "mouseSens": 0.12
+  },
+  "bodyViewShareByClass": {
+   "pedestrian": {
+    "time": 37.9,
+    "FRONT": 1.3,
+    "3/4": 97.6,
+    "BACK": 1.1,
+    "SIDE": 0,
+    "BACK 3/4": 0,
+    "ifSideAllowed": {
+     "FRONT": 1.3,
+     "3/4": 26.2,
+     "BACK": 0.5,
+     "SIDE": 71.9
+    }
+   },
+   "combatant": {
+    "time": 14.7,
+    "FRONT": 74.9,
+    "3/4": 25.1,
+    "BACK": 0,
+    "SIDE": 0,
+    "BACK 3/4": 0,
+    "ifSideAllowed": {
+     "FRONT": 74.9,
+     "3/4": 16.7,
+     "BACK": 0,
+     "SIDE": 8.4
+    }
+   },
+   "stationary": {
+    "time": 34.8,
+    "FRONT": 46.1,
+    "3/4": 53.9,
+    "BACK": 0,
+    "SIDE": 0,
+    "BACK 3/4": 0,
+    "ifSideAllowed": {
+     "FRONT": 52.9,
+     "3/4": 45.9,
+     "BACK": 0,
+     "SIDE": 1.1
+    }
+   },
+   "background": {
+    "time": 17.9,
+    "FRONT": 100,
+    "3/4": 0,
+    "BACK": 0,
+    "SIDE": 0,
+    "BACK 3/4": 0,
+    "ifSideAllowed": null
+   }
+  },
+  "trueAngleShare": {
+   "all": {
+    "F": 27.2,
+    "Q": 43,
+    "S": 28.1,
+    "BQ": 1.5,
+    "B": 0.2
+   },
+   "moving": {
+    "F": 1.4,
+    "Q": 47.1,
+    "S": 47,
+    "BQ": 3.9,
+    "B": 0.5
+   }
+  },
+  "cardWrongShare_residualOverTolerance": {
+   "near": 34,
+   "mid": 6.6,
+   "far": 0
+  },
+  "moonwalkShare_movingErrorOver30": {
+   "near": 52.8,
+   "mid": 10.7,
+   "far": 0
+  },
+  "onScreenSecondsByDistance": {
+   "near": 1.8,
+   "mid": 88.4,
+   "far": 15.2
+  },
+  "viewSwitchesPerNpcMinute": 5.7,
+  "carViewShare": {
+   "FRONT": 12.3,
+   "SIDE": 71.3,
+   "BACK": 16.4
+  },
+  "rules": {
+   "spawns": 1,
+   "despawns": 2,
+   "spawnInView": 0,
+   "despawnInView": 0,
+   "carDespawnInView": 0,
+   "carsParkedBecauseExitWasVisible": 0,
+   "nodeConflicts": 0,
+   "sameDirectionOvertakes": 0,
+   "playerBumpedIntoNpcSeconds": 0,
+   "playerNodeUses": 0
+  },
+  "player": {
+   "junctionsTaken": 2,
+   "turnArounds": 0,
+   "shots": 0,
+   "hits": 0,
+   "blockedShots": 0,
+   "markCouldSeeYouSeconds": 33.9
+  },
+  "heads": {
+   "maxHeadTurn": 65,
+   "secondsHeadHeldAttentionWithoutBodyChange": 24.7
+  },
+  "flourishes": 3,
+  "byGroup": {
+   "near": {
+    "seconds": 2,
+    "trueAngle": {
+     "F": 11.7,
+     "Q": 38.3,
+     "S": 23.3,
+     "BQ": 16.7,
+     "B": 10
+    },
+    "shown": {
+     "FRONT": 25,
+     "3/4": 58.3,
+     "BACK": 16.7,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 25,
+     "3/4": 33.3,
+     "BACK": 10,
+     "SIDE": 31.7
+    },
+    "edgeOn": 30,
+    "walkingArtWrongOver30": 46.7
+   },
+   "far": {
+    "seconds": 35.9,
+    "trueAngle": {
+     "F": 0,
+     "Q": 46.3,
+     "S": 50,
+     "BQ": 3.6,
+     "B": 0
+    },
+    "shown": {
+     "FRONT": 0,
+     "3/4": 99.8,
+     "BACK": 0.2,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 0,
+     "3/4": 25.8,
+     "BACK": 0,
+     "SIDE": 74.2
+    },
+    "edgeOn": 13.4,
+    "walkingArtWrongOver30": 23.7
+   },
+   "mark": {
+    "seconds": 14.7,
+    "trueAngle": {
+     "F": 64.5,
+     "Q": 27.4,
+     "S": 8.1,
+     "BQ": 0,
+     "B": 0
+    },
+    "shown": {
+     "FRONT": 74.9,
+     "3/4": 25.1,
+     "BACK": 0,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 74.9,
+     "3/4": 16.7,
+     "BACK": 0,
+     "SIDE": 8.4
+    },
+    "edgeOn": 7.2,
+    "walkingArtWrongOver30": 28.6
+   },
+   "stoop": {
+    "seconds": 0.2,
+    "trueAngle": {
+     "F": 0,
+     "Q": 0,
+     "S": 100,
+     "BQ": 0,
+     "B": 0
+    },
+    "shown": {
+     "FRONT": 0,
+     "3/4": 100,
+     "BACK": 0,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 0,
+     "3/4": 0,
+     "BACK": 0,
+     "SIDE": 100
+    },
+    "edgeOn": 0,
+    "walkingArtWrongOver30": 0
+   },
+   "loiter": {
+    "seconds": 52.6,
+    "trueAngle": {
+     "F": 36,
+     "Q": 45.4,
+     "S": 18.6,
+     "BQ": 0,
+     "B": 0
+    },
+    "shown": {
+     "FRONT": 64.7,
+     "3/4": 35.3,
+     "BACK": 0,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 17.7,
+     "3/4": 15.3,
+     "BACK": 0,
+     "SIDE": 0
+    },
+    "edgeOn": 0,
+    "walkingArtWrongOver30": 0
+   }
+  },
+  "artSets": {
+   "FRONT, 3/4, BACK": {
+    "walkingArtWrongOver30": 25.2,
+    "meanErrorWhileWalking": 26.3,
+    "worstError": 82,
+    "switchesPerNpcMinute": 7.7,
+    "share": {
+     "FRONT": 29.7,
+     "BACK": 0.6,
+     "3/4": 69.8
+    }
+   },
+   "+ SIDE": {
+    "walkingArtWrongOver30": 1.4,
+    "meanErrorWhileWalking": 16.1,
+    "worstError": 45,
+    "switchesPerNpcMinute": 10.3,
+    "share": {
+     "FRONT": 29.7,
+     "BACK": 0.3,
+     "3/4": 29.2,
+     "SIDE": 40.9
+    }
+   },
+   "+ BACK 3/4": {
+    "walkingArtWrongOver30": 17.1,
+    "meanErrorWhileWalking": 21.8,
+    "worstError": 57,
+    "switchesPerNpcMinute": 8.5,
+    "share": {
+     "FRONT": 29.7,
+     "BACK": 0.3,
+     "3/4": 62.5,
+     "BACK 3/4": 7.5
+    }
+   },
+   "+ SIDE + BACK 3/4": {
+    "walkingArtWrongOver30": 1,
+    "meanErrorWhileWalking": 15.9,
+    "worstError": 37,
+    "switchesPerNpcMinute": 12.8,
+    "share": {
+     "FRONT": 29.7,
+     "BACK": 0.3,
+     "3/4": 29.2,
+     "SIDE": 40.6,
+     "BACK 3/4": 0.3
+    }
+   }
+  },
+  "crowd": {
+   "npcWaitSeconds": 0,
+   "npcSidestepSeconds": 2,
+   "bodiesOverlappingSeconds": 0
+  },
+  "log": [
+   {
+    "t": 40,
+    "pos": {
+     "x": 71.76,
+     "y": 37.85,
+     "edge": "e_cross",
+     "s": 10.16,
+     "off": 0,
+     "body": 90,
+     "head": 80,
+     "stop": null
+    },
+    "msg": "Route walk started. Click the picture to steer with the mouse.",
+    "markWhy": "can see you",
+    "c": {}
+   }
+  ]
+ },
+ "sweep_rubber25_stroll": {
+  "seconds": 150,
+  "npcOnScreenSeconds": 231.2,
+  "settings": {
+   "strafe": 0.7,
+   "branchCone": 40,
+   "lookYaw": 95,
+   "lookUp": 30,
+   "lookDown": 35,
+   "turnTime": 0.4,
+   "walk": 1.45,
+   "back": 0.9,
+   "strafeSpeed": 1.1,
+   "sprint": 2.6,
+   "stamina": 3.5,
+   "fov": 75,
+   "eye": 1.62,
+   "crouchEye": 1.05,
+   "rubber": 25,
+   "tolerance": 18,
+   "hysteresis": 12,
+   "nearHyst": true,
+   "headMax": 65,
+   "headRubber": 35,
+   "distCheat": true,
+   "allowSide": false,
+   "allowBackQ": false,
+   "debug": 2,
+   "bob": true,
+   "noticeDist": 70,
+   "mouseSens": 0.12
+  },
+  "bodyViewShareByClass": {
+   "pedestrian": {
+    "time": 123.7,
+    "FRONT": 28,
+    "3/4": 17.9,
+    "BACK": 54.1,
+    "SIDE": 0,
+    "BACK 3/4": 0,
+    "ifSideAllowed": {
+     "FRONT": 28,
+     "3/4": 9.6,
+     "BACK": 52.6,
+     "SIDE": 9.8
+    }
+   },
+   "combatant": {
+    "time": 32.6,
+    "FRONT": 22.8,
+    "3/4": 1.5,
+    "BACK": 75.6,
+    "SIDE": 0,
+    "BACK 3/4": 0,
+    "ifSideAllowed": {
+     "FRONT": 22.8,
+     "3/4": 1.5,
+     "BACK": 75.6,
+     "SIDE": 0
+    }
+   },
+   "stationary": {
+    "time": 56.2,
+    "FRONT": 31.8,
+    "3/4": 54.9,
+    "BACK": 13.3,
+    "SIDE": 0,
+    "BACK 3/4": 0,
+    "ifSideAllowed": {
+     "FRONT": 47.7,
+     "3/4": 11.8,
+     "BACK": 0,
+     "SIDE": 40.4
+    }
+   },
+   "background": {
+    "time": 18.7,
+    "FRONT": 100,
+    "3/4": 0,
+    "BACK": 0,
+    "SIDE": 0,
+    "BACK 3/4": 0,
+    "ifSideAllowed": null
+   }
+  },
+  "trueAngleShare": {
+   "all": {
+    "F": 23.8,
+    "Q": 22,
+    "S": 11.4,
+    "BQ": 16.3,
+    "B": 26.6
+   },
+   "moving": {
+    "F": 26.5,
+    "Q": 12,
+    "S": 6.3,
+    "BQ": 17.7,
+    "B": 37.5
+   }
+  },
+  "cardWrongShare_residualOverTolerance": {
+   "near": 4.2,
+   "mid": 7.8,
+   "far": 0
+  },
+  "moonwalkShare_movingErrorOver30": {
+   "near": 3.4,
+   "mid": 12.1,
+   "far": 14.8
+  },
+  "onScreenSecondsByDistance": {
+   "near": 33,
+   "mid": 37.4,
+   "far": 160.9
+  },
+  "viewSwitchesPerNpcMinute": 3.4,
+  "carViewShare": {
+   "FRONT": 31.5,
+   "SIDE": 38.6,
+   "BACK": 29.9
+  },
+  "rules": {
+   "spawns": 11,
+   "despawns": 11,
+   "spawnInView": 0,
+   "despawnInView": 0,
+   "carDespawnInView": 0,
+   "carsParkedBecauseExitWasVisible": 0,
+   "nodeConflicts": 0,
+   "sameDirectionOvertakes": 0,
+   "playerBumpedIntoNpcSeconds": 0,
+   "playerNodeUses": 0
+  },
+  "player": {
+   "junctionsTaken": 6,
+   "turnArounds": 1,
+   "shots": 0,
+   "hits": 0,
+   "blockedShots": 0,
+   "markCouldSeeYouSeconds": 34.2
+  },
+  "heads": {
+   "maxHeadTurn": 65,
+   "secondsHeadHeldAttentionWithoutBodyChange": 11.8
+  },
+  "flourishes": 6,
+  "byGroup": {
+   "near": {
+    "seconds": 64.3,
+    "trueAngle": {
+     "F": 35.6,
+     "Q": 2.1,
+     "S": 3.2,
+     "BQ": 3.8,
+     "B": 55.4
+    },
+    "shown": {
+     "FRONT": 36.1,
+     "3/4": 4.9,
+     "BACK": 59,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 36.1,
+     "3/4": 1.7,
+     "BACK": 56.5,
+     "SIDE": 5.7
+    },
+    "edgeOn": 2.2,
+    "walkingArtWrongOver30": 4.6
+   },
+   "mark": {
+    "seconds": 32.6,
+    "trueAngle": {
+     "F": 14.5,
+     "Q": 9.8,
+     "S": 0,
+     "BQ": 20.8,
+     "B": 54.9
+    },
+    "shown": {
+     "FRONT": 22.8,
+     "3/4": 1.5,
+     "BACK": 75.6,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 22.8,
+     "3/4": 1.5,
+     "BACK": 75.6,
+     "SIDE": 0
+    },
+    "edgeOn": 0,
+    "walkingArtWrongOver30": 0
+   },
+   "stoop": {
+    "seconds": 17.2,
+    "trueAngle": {
+     "F": 65.2,
+     "Q": 4.5,
+     "S": 30.3,
+     "BQ": 0,
+     "B": 0
+    },
+    "shown": {
+     "FRONT": 64.3,
+     "3/4": 35.7,
+     "BACK": 0,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 64.3,
+     "3/4": 5.4,
+     "BACK": 0,
+     "SIDE": 30.3
+    },
+    "edgeOn": 0,
+    "walkingArtWrongOver30": 0.9
+   },
+   "loiter": {
+    "seconds": 57.8,
+    "trueAngle": {
+     "F": 14.7,
+     "Q": 53.6,
+     "S": 18.9,
+     "BQ": 12.8,
+     "B": 0
+    },
+    "shown": {
+     "FRONT": 44.2,
+     "3/4": 42.9,
+     "BACK": 12.9,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 11.8,
+     "3/4": 6.1,
+     "BACK": 0,
+     "SIDE": 17.2
+    },
+    "edgeOn": 0,
+    "walkingArtWrongOver30": 0
+   },
+   "far": {
+    "seconds": 59.4,
+    "trueAngle": {
+     "F": 13.1,
+     "Q": 24.3,
+     "S": 13.9,
+     "BQ": 35.4,
+     "B": 13.3
+    },
+    "shown": {
+     "FRONT": 19.3,
+     "3/4": 32,
+     "BACK": 48.7,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 19.3,
+     "3/4": 18.1,
+     "BACK": 48.3,
+     "SIDE": 14.4
+    },
+    "edgeOn": 4.9,
+    "walkingArtWrongOver30": 44.7
+   }
+  },
+  "artSets": {
+   "FRONT, 3/4, BACK": {
+    "walkingArtWrongOver30": 18.1,
+    "meanErrorWhileWalking": 17,
+    "worstError": 82,
+    "switchesPerNpcMinute": 4,
+    "share": {
+     "FRONT": 31,
+     "BACK": 51.1,
+     "3/4": 17.9
+    }
+   },
+   "+ SIDE": {
+    "walkingArtWrongOver30": 13.4,
+    "meanErrorWhileWalking": 15,
+    "worstError": 59,
+    "switchesPerNpcMinute": 5,
+    "share": {
+     "FRONT": 31,
+     "BACK": 46.3,
+     "SIDE": 14.1,
+     "3/4": 8.7
+    }
+   },
+   "+ BACK 3/4": {
+    "walkingArtWrongOver30": 4,
+    "meanErrorWhileWalking": 12.8,
+    "worstError": 51,
+    "switchesPerNpcMinute": 4,
+    "share": {
+     "FRONT": 31,
+     "BACK": 22.1,
+     "3/4": 15.8,
+     "BACK 3/4": 31.2
+    }
+   },
+   "+ SIDE + BACK 3/4": {
+    "walkingArtWrongOver30": 0.3,
+    "meanErrorWhileWalking": 11.5,
+    "worstError": 37,
+    "switchesPerNpcMinute": 5.9,
+    "share": {
+     "FRONT": 31,
+     "BACK": 22.1,
+     "SIDE": 9.3,
+     "3/4": 8.7,
+     "BACK 3/4": 29
+    }
+   }
+  },
+  "crowd": {
+   "npcWaitSeconds": 0.4,
+   "npcSidestepSeconds": 2.9,
+   "bodiesOverlappingSeconds": 0
+  },
+  "log": [
+   {
+    "t": 150.03,
+    "pos": {
+     "x": 6,
+     "y": 37.85,
+     "edge": "e_harlan_w",
+     "s": 0,
+     "off": 0,
+     "body": 270,
+     "head": 75,
+     "stop": "End of this route \u2014 R turns around"
+    },
+    "msg": "Route walk started. Click the picture to steer with the mouse.",
+    "markWhy": "too far",
+    "c": {
+     "turned": true
+    }
+   }
+  ]
+ },
+ "sweep_rubber45_across": {
+  "seconds": 40,
+  "npcOnScreenSeconds": 105.4,
+  "settings": {
+   "strafe": 0.7,
+   "branchCone": 40,
+   "lookYaw": 95,
+   "lookUp": 30,
+   "lookDown": 35,
+   "turnTime": 0.4,
+   "walk": 1.45,
+   "back": 0.9,
+   "strafeSpeed": 1.1,
+   "sprint": 2.6,
+   "stamina": 3.5,
+   "fov": 75,
+   "eye": 1.62,
+   "crouchEye": 1.05,
+   "rubber": 45,
+   "tolerance": 18,
+   "hysteresis": 12,
+   "nearHyst": true,
+   "headMax": 65,
+   "headRubber": 35,
+   "distCheat": true,
+   "allowSide": false,
+   "allowBackQ": false,
+   "debug": 2,
+   "bob": true,
+   "noticeDist": 70,
+   "mouseSens": 0.12
+  },
+  "bodyViewShareByClass": {
+   "pedestrian": {
+    "time": 37.9,
+    "FRONT": 1.3,
+    "3/4": 97.6,
+    "BACK": 1.1,
+    "SIDE": 0,
+    "BACK 3/4": 0,
+    "ifSideAllowed": {
+     "FRONT": 1.3,
+     "3/4": 26.2,
+     "BACK": 0.5,
+     "SIDE": 71.9
+    }
+   },
+   "combatant": {
+    "time": 14.7,
+    "FRONT": 74.9,
+    "3/4": 25.1,
+    "BACK": 0,
+    "SIDE": 0,
+    "BACK 3/4": 0,
+    "ifSideAllowed": {
+     "FRONT": 74.9,
+     "3/4": 16.7,
+     "BACK": 0,
+     "SIDE": 8.4
+    }
+   },
+   "stationary": {
+    "time": 34.8,
+    "FRONT": 46.1,
+    "3/4": 53.9,
+    "BACK": 0,
+    "SIDE": 0,
+    "BACK 3/4": 0,
+    "ifSideAllowed": {
+     "FRONT": 52.9,
+     "3/4": 45.9,
+     "BACK": 0,
+     "SIDE": 1.1
+    }
+   },
+   "background": {
+    "time": 17.9,
+    "FRONT": 100,
+    "3/4": 0,
+    "BACK": 0,
+    "SIDE": 0,
+    "BACK 3/4": 0,
+    "ifSideAllowed": null
+   }
+  },
+  "trueAngleShare": {
+   "all": {
+    "F": 27.2,
+    "Q": 43,
+    "S": 28.1,
+    "BQ": 1.5,
+    "B": 0.2
+   },
+   "moving": {
+    "F": 1.4,
+    "Q": 47.1,
+    "S": 47,
+    "BQ": 3.9,
+    "B": 0.5
+   }
+  },
+  "cardWrongShare_residualOverTolerance": {
+   "near": 15.1,
+   "mid": 1.2,
+   "far": 0
+  },
+  "moonwalkShare_movingErrorOver30": {
+   "near": 52.8,
+   "mid": 10.7,
+   "far": 0
+  },
+  "onScreenSecondsByDistance": {
+   "near": 1.8,
+   "mid": 88.4,
+   "far": 15.2
+  },
+  "viewSwitchesPerNpcMinute": 5.7,
+  "carViewShare": {
+   "FRONT": 12.3,
+   "SIDE": 71.3,
+   "BACK": 16.4
+  },
+  "rules": {
+   "spawns": 1,
+   "despawns": 2,
+   "spawnInView": 0,
+   "despawnInView": 0,
+   "carDespawnInView": 0,
+   "carsParkedBecauseExitWasVisible": 0,
+   "nodeConflicts": 0,
+   "sameDirectionOvertakes": 0,
+   "playerBumpedIntoNpcSeconds": 0,
+   "playerNodeUses": 0
+  },
+  "player": {
+   "junctionsTaken": 2,
+   "turnArounds": 0,
+   "shots": 0,
+   "hits": 0,
+   "blockedShots": 0,
+   "markCouldSeeYouSeconds": 33.9
+  },
+  "heads": {
+   "maxHeadTurn": 65,
+   "secondsHeadHeldAttentionWithoutBodyChange": 24.7
+  },
+  "flourishes": 3,
+  "byGroup": {
+   "near": {
+    "seconds": 2,
+    "trueAngle": {
+     "F": 11.7,
+     "Q": 38.3,
+     "S": 23.3,
+     "BQ": 16.7,
+     "B": 10
+    },
+    "shown": {
+     "FRONT": 25,
+     "3/4": 58.3,
+     "BACK": 16.7,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 25,
+     "3/4": 33.3,
+     "BACK": 10,
+     "SIDE": 31.7
+    },
+    "edgeOn": 13.3,
+    "walkingArtWrongOver30": 46.7
+   },
+   "far": {
+    "seconds": 35.9,
+    "trueAngle": {
+     "F": 0,
+     "Q": 46.3,
+     "S": 50,
+     "BQ": 3.6,
+     "B": 0
+    },
+    "shown": {
+     "FRONT": 0,
+     "3/4": 99.8,
+     "BACK": 0.2,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 0,
+     "3/4": 25.8,
+     "BACK": 0,
+     "SIDE": 74.2
+    },
+    "edgeOn": 0,
+    "walkingArtWrongOver30": 23.7
+   },
+   "mark": {
+    "seconds": 14.7,
+    "trueAngle": {
+     "F": 64.5,
+     "Q": 27.4,
+     "S": 8.1,
+     "BQ": 0,
+     "B": 0
+    },
+    "shown": {
+     "FRONT": 74.9,
+     "3/4": 25.1,
+     "BACK": 0,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 74.9,
+     "3/4": 16.7,
+     "BACK": 0,
+     "SIDE": 8.4
+    },
+    "edgeOn": 7.2,
+    "walkingArtWrongOver30": 28.6
+   },
+   "stoop": {
+    "seconds": 0.2,
+    "trueAngle": {
+     "F": 0,
+     "Q": 0,
+     "S": 100,
+     "BQ": 0,
+     "B": 0
+    },
+    "shown": {
+     "FRONT": 0,
+     "3/4": 100,
+     "BACK": 0,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 0,
+     "3/4": 0,
+     "BACK": 0,
+     "SIDE": 100
+    },
+    "edgeOn": 0,
+    "walkingArtWrongOver30": 0
+   },
+   "loiter": {
+    "seconds": 52.6,
+    "trueAngle": {
+     "F": 36,
+     "Q": 45.4,
+     "S": 18.6,
+     "BQ": 0,
+     "B": 0
+    },
+    "shown": {
+     "FRONT": 64.7,
+     "3/4": 35.3,
+     "BACK": 0,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 17.7,
+     "3/4": 15.3,
+     "BACK": 0,
+     "SIDE": 0
+    },
+    "edgeOn": 0,
+    "walkingArtWrongOver30": 0
+   }
+  },
+  "artSets": {
+   "FRONT, 3/4, BACK": {
+    "walkingArtWrongOver30": 25.2,
+    "meanErrorWhileWalking": 26.3,
+    "worstError": 82,
+    "switchesPerNpcMinute": 7.7,
+    "share": {
+     "FRONT": 29.7,
+     "BACK": 0.6,
+     "3/4": 69.8
+    }
+   },
+   "+ SIDE": {
+    "walkingArtWrongOver30": 1.4,
+    "meanErrorWhileWalking": 16.1,
+    "worstError": 45,
+    "switchesPerNpcMinute": 10.3,
+    "share": {
+     "FRONT": 29.7,
+     "BACK": 0.3,
+     "3/4": 29.2,
+     "SIDE": 40.9
+    }
+   },
+   "+ BACK 3/4": {
+    "walkingArtWrongOver30": 17.1,
+    "meanErrorWhileWalking": 21.8,
+    "worstError": 57,
+    "switchesPerNpcMinute": 8.5,
+    "share": {
+     "FRONT": 29.7,
+     "BACK": 0.3,
+     "3/4": 62.5,
+     "BACK 3/4": 7.5
+    }
+   },
+   "+ SIDE + BACK 3/4": {
+    "walkingArtWrongOver30": 1,
+    "meanErrorWhileWalking": 15.9,
+    "worstError": 37,
+    "switchesPerNpcMinute": 12.8,
+    "share": {
+     "FRONT": 29.7,
+     "BACK": 0.3,
+     "3/4": 29.2,
+     "SIDE": 40.6,
+     "BACK 3/4": 0.3
+    }
+   }
+  },
+  "crowd": {
+   "npcWaitSeconds": 0,
+   "npcSidestepSeconds": 2,
+   "bodiesOverlappingSeconds": 0
+  },
+  "log": [
+   {
+    "t": 40,
+    "pos": {
+     "x": 71.76,
+     "y": 37.85,
+     "edge": "e_cross",
+     "s": 10.16,
+     "off": 0,
+     "body": 90,
+     "head": 80,
+     "stop": null
+    },
+    "msg": "Route walk started. Click the picture to steer with the mouse.",
+    "markWhy": "can see you",
+    "c": {}
+   }
+  ]
+ },
+ "sweep_rubber45_stroll": {
+  "seconds": 150,
+  "npcOnScreenSeconds": 231.2,
+  "settings": {
+   "strafe": 0.7,
+   "branchCone": 40,
+   "lookYaw": 95,
+   "lookUp": 30,
+   "lookDown": 35,
+   "turnTime": 0.4,
+   "walk": 1.45,
+   "back": 0.9,
+   "strafeSpeed": 1.1,
+   "sprint": 2.6,
+   "stamina": 3.5,
+   "fov": 75,
+   "eye": 1.62,
+   "crouchEye": 1.05,
+   "rubber": 45,
+   "tolerance": 18,
+   "hysteresis": 12,
+   "nearHyst": true,
+   "headMax": 65,
+   "headRubber": 35,
+   "distCheat": true,
+   "allowSide": false,
+   "allowBackQ": false,
+   "debug": 2,
+   "bob": true,
+   "noticeDist": 70,
+   "mouseSens": 0.12
+  },
+  "bodyViewShareByClass": {
+   "pedestrian": {
+    "time": 123.7,
+    "FRONT": 28,
+    "3/4": 17.9,
+    "BACK": 54.1,
+    "SIDE": 0,
+    "BACK 3/4": 0,
+    "ifSideAllowed": {
+     "FRONT": 28,
+     "3/4": 9.6,
+     "BACK": 52.6,
+     "SIDE": 9.8
+    }
+   },
+   "combatant": {
+    "time": 32.6,
+    "FRONT": 22.8,
+    "3/4": 1.5,
+    "BACK": 75.6,
+    "SIDE": 0,
+    "BACK 3/4": 0,
+    "ifSideAllowed": {
+     "FRONT": 22.8,
+     "3/4": 1.5,
+     "BACK": 75.6,
+     "SIDE": 0
+    }
+   },
+   "stationary": {
+    "time": 56.2,
+    "FRONT": 31.8,
+    "3/4": 54.9,
+    "BACK": 13.3,
+    "SIDE": 0,
+    "BACK 3/4": 0,
+    "ifSideAllowed": {
+     "FRONT": 47.7,
+     "3/4": 11.8,
+     "BACK": 0,
+     "SIDE": 40.4
+    }
+   },
+   "background": {
+    "time": 18.7,
+    "FRONT": 100,
+    "3/4": 0,
+    "BACK": 0,
+    "SIDE": 0,
+    "BACK 3/4": 0,
+    "ifSideAllowed": null
+   }
+  },
+  "trueAngleShare": {
+   "all": {
+    "F": 23.8,
+    "Q": 22,
+    "S": 11.4,
+    "BQ": 16.3,
+    "B": 26.6
+   },
+   "moving": {
+    "F": 26.5,
+    "Q": 12,
+    "S": 6.3,
+    "BQ": 17.7,
+    "B": 37.5
+   }
+  },
+  "cardWrongShare_residualOverTolerance": {
+   "near": 0.3,
+   "mid": 0,
+   "far": 0
+  },
+  "moonwalkShare_movingErrorOver30": {
+   "near": 3.4,
+   "mid": 12.1,
+   "far": 14.8
+  },
+  "onScreenSecondsByDistance": {
+   "near": 33,
+   "mid": 37.4,
+   "far": 160.9
+  },
+  "viewSwitchesPerNpcMinute": 3.4,
+  "carViewShare": {
+   "FRONT": 31.5,
+   "SIDE": 38.6,
+   "BACK": 29.9
+  },
+  "rules": {
+   "spawns": 11,
+   "despawns": 11,
+   "spawnInView": 0,
+   "despawnInView": 0,
+   "carDespawnInView": 0,
+   "carsParkedBecauseExitWasVisible": 0,
+   "nodeConflicts": 0,
+   "sameDirectionOvertakes": 0,
+   "playerBumpedIntoNpcSeconds": 0,
+   "playerNodeUses": 0
+  },
+  "player": {
+   "junctionsTaken": 6,
+   "turnArounds": 1,
+   "shots": 0,
+   "hits": 0,
+   "blockedShots": 0,
+   "markCouldSeeYouSeconds": 34.2
+  },
+  "heads": {
+   "maxHeadTurn": 65,
+   "secondsHeadHeldAttentionWithoutBodyChange": 11.8
+  },
+  "flourishes": 6,
+  "byGroup": {
+   "near": {
+    "seconds": 64.3,
+    "trueAngle": {
+     "F": 35.6,
+     "Q": 2.1,
+     "S": 3.2,
+     "BQ": 3.8,
+     "B": 55.4
+    },
+    "shown": {
+     "FRONT": 36.1,
+     "3/4": 4.9,
+     "BACK": 59,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 36.1,
+     "3/4": 1.7,
+     "BACK": 56.5,
+     "SIDE": 5.7
+    },
+    "edgeOn": 0.2,
+    "walkingArtWrongOver30": 4.6
+   },
+   "mark": {
+    "seconds": 32.6,
+    "trueAngle": {
+     "F": 14.5,
+     "Q": 9.8,
+     "S": 0,
+     "BQ": 20.8,
+     "B": 54.9
+    },
+    "shown": {
+     "FRONT": 22.8,
+     "3/4": 1.5,
+     "BACK": 75.6,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 22.8,
+     "3/4": 1.5,
+     "BACK": 75.6,
+     "SIDE": 0
+    },
+    "edgeOn": 0,
+    "walkingArtWrongOver30": 0
+   },
+   "stoop": {
+    "seconds": 17.2,
+    "trueAngle": {
+     "F": 65.2,
+     "Q": 4.5,
+     "S": 30.3,
+     "BQ": 0,
+     "B": 0
+    },
+    "shown": {
+     "FRONT": 64.3,
+     "3/4": 35.7,
+     "BACK": 0,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 64.3,
+     "3/4": 5.4,
+     "BACK": 0,
+     "SIDE": 30.3
+    },
+    "edgeOn": 0,
+    "walkingArtWrongOver30": 0.9
+   },
+   "loiter": {
+    "seconds": 57.8,
+    "trueAngle": {
+     "F": 14.7,
+     "Q": 53.6,
+     "S": 18.9,
+     "BQ": 12.8,
+     "B": 0
+    },
+    "shown": {
+     "FRONT": 44.2,
+     "3/4": 42.9,
+     "BACK": 12.9,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 11.8,
+     "3/4": 6.1,
+     "BACK": 0,
+     "SIDE": 17.2
+    },
+    "edgeOn": 0,
+    "walkingArtWrongOver30": 0
+   },
+   "far": {
+    "seconds": 59.4,
+    "trueAngle": {
+     "F": 13.1,
+     "Q": 24.3,
+     "S": 13.9,
+     "BQ": 35.4,
+     "B": 13.3
+    },
+    "shown": {
+     "FRONT": 19.3,
+     "3/4": 32,
+     "BACK": 48.7,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 19.3,
+     "3/4": 18.1,
+     "BACK": 48.3,
+     "SIDE": 14.4
+    },
+    "edgeOn": 0,
+    "walkingArtWrongOver30": 44.7
+   }
+  },
+  "artSets": {
+   "FRONT, 3/4, BACK": {
+    "walkingArtWrongOver30": 18.1,
+    "meanErrorWhileWalking": 17,
+    "worstError": 82,
+    "switchesPerNpcMinute": 4,
+    "share": {
+     "FRONT": 31,
+     "BACK": 51.1,
+     "3/4": 17.9
+    }
+   },
+   "+ SIDE": {
+    "walkingArtWrongOver30": 13.4,
+    "meanErrorWhileWalking": 15,
+    "worstError": 59,
+    "switchesPerNpcMinute": 5,
+    "share": {
+     "FRONT": 31,
+     "BACK": 46.3,
+     "SIDE": 14.1,
+     "3/4": 8.7
+    }
+   },
+   "+ BACK 3/4": {
+    "walkingArtWrongOver30": 4,
+    "meanErrorWhileWalking": 12.8,
+    "worstError": 51,
+    "switchesPerNpcMinute": 4,
+    "share": {
+     "FRONT": 31,
+     "BACK": 22.1,
+     "3/4": 15.8,
+     "BACK 3/4": 31.2
+    }
+   },
+   "+ SIDE + BACK 3/4": {
+    "walkingArtWrongOver30": 0.3,
+    "meanErrorWhileWalking": 11.5,
+    "worstError": 37,
+    "switchesPerNpcMinute": 5.9,
+    "share": {
+     "FRONT": 31,
+     "BACK": 22.1,
+     "SIDE": 9.3,
+     "3/4": 8.7,
+     "BACK 3/4": 29
+    }
+   }
+  },
+  "crowd": {
+   "npcWaitSeconds": 0.4,
+   "npcSidestepSeconds": 2.9,
+   "bodiesOverlappingSeconds": 0
+  },
+  "log": [
+   {
+    "t": 150.03,
+    "pos": {
+     "x": 6,
+     "y": 37.85,
+     "edge": "e_harlan_w",
+     "s": 0,
+     "off": 0,
+     "body": 270,
+     "head": 75,
+     "stop": "End of this route \u2014 R turns around"
+    },
+    "msg": "Route walk started. Click the picture to steer with the mouse.",
+    "markWhy": "too far",
+    "c": {
+     "turned": true
+    }
+   }
+  ]
+ },
+ "sweep_rubber60_across": {
+  "seconds": 40,
+  "npcOnScreenSeconds": 105.4,
+  "settings": {
+   "strafe": 0.7,
+   "branchCone": 40,
+   "lookYaw": 95,
+   "lookUp": 30,
+   "lookDown": 35,
+   "turnTime": 0.4,
+   "walk": 1.45,
+   "back": 0.9,
+   "strafeSpeed": 1.1,
+   "sprint": 2.6,
+   "stamina": 3.5,
+   "fov": 75,
+   "eye": 1.62,
+   "crouchEye": 1.05,
+   "rubber": 60,
+   "tolerance": 18,
+   "hysteresis": 12,
+   "nearHyst": true,
+   "headMax": 65,
+   "headRubber": 35,
+   "distCheat": true,
+   "allowSide": false,
+   "allowBackQ": false,
+   "debug": 2,
+   "bob": true,
+   "noticeDist": 70,
+   "mouseSens": 0.12
+  },
+  "bodyViewShareByClass": {
+   "pedestrian": {
+    "time": 37.9,
+    "FRONT": 1.3,
+    "3/4": 97.6,
+    "BACK": 1.1,
+    "SIDE": 0,
+    "BACK 3/4": 0,
+    "ifSideAllowed": {
+     "FRONT": 1.3,
+     "3/4": 26.2,
+     "BACK": 0.5,
+     "SIDE": 71.9
+    }
+   },
+   "combatant": {
+    "time": 14.7,
+    "FRONT": 74.9,
+    "3/4": 25.1,
+    "BACK": 0,
+    "SIDE": 0,
+    "BACK 3/4": 0,
+    "ifSideAllowed": {
+     "FRONT": 74.9,
+     "3/4": 16.7,
+     "BACK": 0,
+     "SIDE": 8.4
+    }
+   },
+   "stationary": {
+    "time": 34.8,
+    "FRONT": 46.1,
+    "3/4": 53.9,
+    "BACK": 0,
+    "SIDE": 0,
+    "BACK 3/4": 0,
+    "ifSideAllowed": {
+     "FRONT": 52.9,
+     "3/4": 45.9,
+     "BACK": 0,
+     "SIDE": 1.1
+    }
+   },
+   "background": {
+    "time": 17.9,
+    "FRONT": 100,
+    "3/4": 0,
+    "BACK": 0,
+    "SIDE": 0,
+    "BACK 3/4": 0,
+    "ifSideAllowed": null
+   }
+  },
+  "trueAngleShare": {
+   "all": {
+    "F": 27.2,
+    "Q": 43,
+    "S": 28.1,
+    "BQ": 1.5,
+    "B": 0.2
+   },
+   "moving": {
+    "F": 1.4,
+    "Q": 47.1,
+    "S": 47,
+    "BQ": 3.9,
+    "B": 0.5
+   }
+  },
+  "cardWrongShare_residualOverTolerance": {
+   "near": 3.8,
+   "mid": 1.2,
+   "far": 0
+  },
+  "moonwalkShare_movingErrorOver30": {
+   "near": 52.8,
+   "mid": 10.7,
+   "far": 0
+  },
+  "onScreenSecondsByDistance": {
+   "near": 1.8,
+   "mid": 88.4,
+   "far": 15.2
+  },
+  "viewSwitchesPerNpcMinute": 5.7,
+  "carViewShare": {
+   "FRONT": 12.3,
+   "SIDE": 71.3,
+   "BACK": 16.4
+  },
+  "rules": {
+   "spawns": 1,
+   "despawns": 2,
+   "spawnInView": 0,
+   "despawnInView": 0,
+   "carDespawnInView": 0,
+   "carsParkedBecauseExitWasVisible": 0,
+   "nodeConflicts": 0,
+   "sameDirectionOvertakes": 0,
+   "playerBumpedIntoNpcSeconds": 0,
+   "playerNodeUses": 0
+  },
+  "player": {
+   "junctionsTaken": 2,
+   "turnArounds": 0,
+   "shots": 0,
+   "hits": 0,
+   "blockedShots": 0,
+   "markCouldSeeYouSeconds": 33.9
+  },
+  "heads": {
+   "maxHeadTurn": 65,
+   "secondsHeadHeldAttentionWithoutBodyChange": 24.7
+  },
+  "flourishes": 3,
+  "byGroup": {
+   "near": {
+    "seconds": 2,
+    "trueAngle": {
+     "F": 11.7,
+     "Q": 38.3,
+     "S": 23.3,
+     "BQ": 16.7,
+     "B": 10
+    },
+    "shown": {
+     "FRONT": 25,
+     "3/4": 58.3,
+     "BACK": 16.7,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 25,
+     "3/4": 33.3,
+     "BACK": 10,
+     "SIDE": 31.7
+    },
+    "edgeOn": 3.3,
+    "walkingArtWrongOver30": 46.7
+   },
+   "far": {
+    "seconds": 35.9,
+    "trueAngle": {
+     "F": 0,
+     "Q": 46.3,
+     "S": 50,
+     "BQ": 3.6,
+     "B": 0
+    },
+    "shown": {
+     "FRONT": 0,
+     "3/4": 99.8,
+     "BACK": 0.2,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 0,
+     "3/4": 25.8,
+     "BACK": 0,
+     "SIDE": 74.2
+    },
+    "edgeOn": 0,
+    "walkingArtWrongOver30": 23.7
+   },
+   "mark": {
+    "seconds": 14.7,
+    "trueAngle": {
+     "F": 64.5,
+     "Q": 27.4,
+     "S": 8.1,
+     "BQ": 0,
+     "B": 0
+    },
+    "shown": {
+     "FRONT": 74.9,
+     "3/4": 25.1,
+     "BACK": 0,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 74.9,
+     "3/4": 16.7,
+     "BACK": 0,
+     "SIDE": 8.4
+    },
+    "edgeOn": 7.2,
+    "walkingArtWrongOver30": 28.6
+   },
+   "stoop": {
+    "seconds": 0.2,
+    "trueAngle": {
+     "F": 0,
+     "Q": 0,
+     "S": 100,
+     "BQ": 0,
+     "B": 0
+    },
+    "shown": {
+     "FRONT": 0,
+     "3/4": 100,
+     "BACK": 0,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 0,
+     "3/4": 0,
+     "BACK": 0,
+     "SIDE": 100
+    },
+    "edgeOn": 0,
+    "walkingArtWrongOver30": 0
+   },
+   "loiter": {
+    "seconds": 52.6,
+    "trueAngle": {
+     "F": 36,
+     "Q": 45.4,
+     "S": 18.6,
+     "BQ": 0,
+     "B": 0
+    },
+    "shown": {
+     "FRONT": 64.7,
+     "3/4": 35.3,
+     "BACK": 0,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 17.7,
+     "3/4": 15.3,
+     "BACK": 0,
+     "SIDE": 0
+    },
+    "edgeOn": 0,
+    "walkingArtWrongOver30": 0
+   }
+  },
+  "artSets": {
+   "FRONT, 3/4, BACK": {
+    "walkingArtWrongOver30": 25.2,
+    "meanErrorWhileWalking": 26.3,
+    "worstError": 82,
+    "switchesPerNpcMinute": 7.7,
+    "share": {
+     "FRONT": 29.7,
+     "BACK": 0.6,
+     "3/4": 69.8
+    }
+   },
+   "+ SIDE": {
+    "walkingArtWrongOver30": 1.4,
+    "meanErrorWhileWalking": 16.1,
+    "worstError": 45,
+    "switchesPerNpcMinute": 10.3,
+    "share": {
+     "FRONT": 29.7,
+     "BACK": 0.3,
+     "3/4": 29.2,
+     "SIDE": 40.9
+    }
+   },
+   "+ BACK 3/4": {
+    "walkingArtWrongOver30": 17.1,
+    "meanErrorWhileWalking": 21.8,
+    "worstError": 57,
+    "switchesPerNpcMinute": 8.5,
+    "share": {
+     "FRONT": 29.7,
+     "BACK": 0.3,
+     "3/4": 62.5,
+     "BACK 3/4": 7.5
+    }
+   },
+   "+ SIDE + BACK 3/4": {
+    "walkingArtWrongOver30": 1,
+    "meanErrorWhileWalking": 15.9,
+    "worstError": 37,
+    "switchesPerNpcMinute": 12.8,
+    "share": {
+     "FRONT": 29.7,
+     "BACK": 0.3,
+     "3/4": 29.2,
+     "SIDE": 40.6,
+     "BACK 3/4": 0.3
+    }
+   }
+  },
+  "crowd": {
+   "npcWaitSeconds": 0,
+   "npcSidestepSeconds": 2,
+   "bodiesOverlappingSeconds": 0
+  },
+  "log": [
+   {
+    "t": 40,
+    "pos": {
+     "x": 71.76,
+     "y": 37.85,
+     "edge": "e_cross",
+     "s": 10.16,
+     "off": 0,
+     "body": 90,
+     "head": 80,
+     "stop": null
+    },
+    "msg": "Route walk started. Click the picture to steer with the mouse.",
+    "markWhy": "can see you",
+    "c": {}
+   }
+  ]
+ },
+ "sweep_rubber60_stroll": {
+  "seconds": 150,
+  "npcOnScreenSeconds": 231.2,
+  "settings": {
+   "strafe": 0.7,
+   "branchCone": 40,
+   "lookYaw": 95,
+   "lookUp": 30,
+   "lookDown": 35,
+   "turnTime": 0.4,
+   "walk": 1.45,
+   "back": 0.9,
+   "strafeSpeed": 1.1,
+   "sprint": 2.6,
+   "stamina": 3.5,
+   "fov": 75,
+   "eye": 1.62,
+   "crouchEye": 1.05,
+   "rubber": 60,
+   "tolerance": 18,
+   "hysteresis": 12,
+   "nearHyst": true,
+   "headMax": 65,
+   "headRubber": 35,
+   "distCheat": true,
+   "allowSide": false,
+   "allowBackQ": false,
+   "debug": 2,
+   "bob": true,
+   "noticeDist": 70,
+   "mouseSens": 0.12
+  },
+  "bodyViewShareByClass": {
+   "pedestrian": {
+    "time": 123.7,
+    "FRONT": 28,
+    "3/4": 17.9,
+    "BACK": 54.1,
+    "SIDE": 0,
+    "BACK 3/4": 0,
+    "ifSideAllowed": {
+     "FRONT": 28,
+     "3/4": 9.6,
+     "BACK": 52.6,
+     "SIDE": 9.8
+    }
+   },
+   "combatant": {
+    "time": 32.6,
+    "FRONT": 22.8,
+    "3/4": 1.5,
+    "BACK": 75.6,
+    "SIDE": 0,
+    "BACK 3/4": 0,
+    "ifSideAllowed": {
+     "FRONT": 22.8,
+     "3/4": 1.5,
+     "BACK": 75.6,
+     "SIDE": 0
+    }
+   },
+   "stationary": {
+    "time": 56.2,
+    "FRONT": 31.8,
+    "3/4": 54.9,
+    "BACK": 13.3,
+    "SIDE": 0,
+    "BACK 3/4": 0,
+    "ifSideAllowed": {
+     "FRONT": 47.7,
+     "3/4": 11.8,
+     "BACK": 0,
+     "SIDE": 40.4
+    }
+   },
+   "background": {
+    "time": 18.7,
+    "FRONT": 100,
+    "3/4": 0,
+    "BACK": 0,
+    "SIDE": 0,
+    "BACK 3/4": 0,
+    "ifSideAllowed": null
+   }
+  },
+  "trueAngleShare": {
+   "all": {
+    "F": 23.8,
+    "Q": 22,
+    "S": 11.4,
+    "BQ": 16.3,
+    "B": 26.6
+   },
+   "moving": {
+    "F": 26.5,
+    "Q": 12,
+    "S": 6.3,
+    "BQ": 17.7,
+    "B": 37.5
+   }
+  },
+  "cardWrongShare_residualOverTolerance": {
+   "near": 0.2,
+   "mid": 0,
+   "far": 0
+  },
+  "moonwalkShare_movingErrorOver30": {
+   "near": 3.4,
+   "mid": 12.1,
+   "far": 14.8
+  },
+  "onScreenSecondsByDistance": {
+   "near": 33,
+   "mid": 37.4,
+   "far": 160.9
+  },
+  "viewSwitchesPerNpcMinute": 3.4,
+  "carViewShare": {
+   "FRONT": 31.5,
+   "SIDE": 38.6,
+   "BACK": 29.9
+  },
+  "rules": {
+   "spawns": 11,
+   "despawns": 11,
+   "spawnInView": 0,
+   "despawnInView": 0,
+   "carDespawnInView": 0,
+   "carsParkedBecauseExitWasVisible": 0,
+   "nodeConflicts": 0,
+   "sameDirectionOvertakes": 0,
+   "playerBumpedIntoNpcSeconds": 0,
+   "playerNodeUses": 0
+  },
+  "player": {
+   "junctionsTaken": 6,
+   "turnArounds": 1,
+   "shots": 0,
+   "hits": 0,
+   "blockedShots": 0,
+   "markCouldSeeYouSeconds": 34.2
+  },
+  "heads": {
+   "maxHeadTurn": 65,
+   "secondsHeadHeldAttentionWithoutBodyChange": 11.8
+  },
+  "flourishes": 6,
+  "byGroup": {
+   "near": {
+    "seconds": 64.3,
+    "trueAngle": {
+     "F": 35.6,
+     "Q": 2.1,
+     "S": 3.2,
+     "BQ": 3.8,
+     "B": 55.4
+    },
+    "shown": {
+     "FRONT": 36.1,
+     "3/4": 4.9,
+     "BACK": 59,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 36.1,
+     "3/4": 1.7,
+     "BACK": 56.5,
+     "SIDE": 5.7
+    },
+    "edgeOn": 0.1,
+    "walkingArtWrongOver30": 4.6
+   },
+   "mark": {
+    "seconds": 32.6,
+    "trueAngle": {
+     "F": 14.5,
+     "Q": 9.8,
+     "S": 0,
+     "BQ": 20.8,
+     "B": 54.9
+    },
+    "shown": {
+     "FRONT": 22.8,
+     "3/4": 1.5,
+     "BACK": 75.6,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 22.8,
+     "3/4": 1.5,
+     "BACK": 75.6,
+     "SIDE": 0
+    },
+    "edgeOn": 0,
+    "walkingArtWrongOver30": 0
+   },
+   "stoop": {
+    "seconds": 17.2,
+    "trueAngle": {
+     "F": 65.2,
+     "Q": 4.5,
+     "S": 30.3,
+     "BQ": 0,
+     "B": 0
+    },
+    "shown": {
+     "FRONT": 64.3,
+     "3/4": 35.7,
+     "BACK": 0,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 64.3,
+     "3/4": 5.4,
+     "BACK": 0,
+     "SIDE": 30.3
+    },
+    "edgeOn": 0,
+    "walkingArtWrongOver30": 0.9
+   },
+   "loiter": {
+    "seconds": 57.8,
+    "trueAngle": {
+     "F": 14.7,
+     "Q": 53.6,
+     "S": 18.9,
+     "BQ": 12.8,
+     "B": 0
+    },
+    "shown": {
+     "FRONT": 44.2,
+     "3/4": 42.9,
+     "BACK": 12.9,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 11.8,
+     "3/4": 6.1,
+     "BACK": 0,
+     "SIDE": 17.2
+    },
+    "edgeOn": 0,
+    "walkingArtWrongOver30": 0
+   },
+   "far": {
+    "seconds": 59.4,
+    "trueAngle": {
+     "F": 13.1,
+     "Q": 24.3,
+     "S": 13.9,
+     "BQ": 35.4,
+     "B": 13.3
+    },
+    "shown": {
+     "FRONT": 19.3,
+     "3/4": 32,
+     "BACK": 48.7,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 19.3,
+     "3/4": 18.1,
+     "BACK": 48.3,
+     "SIDE": 14.4
+    },
+    "edgeOn": 0,
+    "walkingArtWrongOver30": 44.7
+   }
+  },
+  "artSets": {
+   "FRONT, 3/4, BACK": {
+    "walkingArtWrongOver30": 18.1,
+    "meanErrorWhileWalking": 17,
+    "worstError": 82,
+    "switchesPerNpcMinute": 4,
+    "share": {
+     "FRONT": 31,
+     "BACK": 51.1,
+     "3/4": 17.9
+    }
+   },
+   "+ SIDE": {
+    "walkingArtWrongOver30": 13.4,
+    "meanErrorWhileWalking": 15,
+    "worstError": 59,
+    "switchesPerNpcMinute": 5,
+    "share": {
+     "FRONT": 31,
+     "BACK": 46.3,
+     "SIDE": 14.1,
+     "3/4": 8.7
+    }
+   },
+   "+ BACK 3/4": {
+    "walkingArtWrongOver30": 4,
+    "meanErrorWhileWalking": 12.8,
+    "worstError": 51,
+    "switchesPerNpcMinute": 4,
+    "share": {
+     "FRONT": 31,
+     "BACK": 22.1,
+     "3/4": 15.8,
+     "BACK 3/4": 31.2
+    }
+   },
+   "+ SIDE + BACK 3/4": {
+    "walkingArtWrongOver30": 0.3,
+    "meanErrorWhileWalking": 11.5,
+    "worstError": 37,
+    "switchesPerNpcMinute": 5.9,
+    "share": {
+     "FRONT": 31,
+     "BACK": 22.1,
+     "SIDE": 9.3,
+     "3/4": 8.7,
+     "BACK 3/4": 29
+    }
+   }
+  },
+  "crowd": {
+   "npcWaitSeconds": 0.4,
+   "npcSidestepSeconds": 2.9,
+   "bodiesOverlappingSeconds": 0
+  },
+  "log": [
+   {
+    "t": 150.03,
+    "pos": {
+     "x": 6,
+     "y": 37.85,
+     "edge": "e_harlan_w",
+     "s": 0,
+     "off": 0,
+     "body": 270,
+     "head": 75,
+     "stop": "End of this route \u2014 R turns around"
+    },
+    "msg": "Route walk started. Click the picture to steer with the mouse.",
+    "markWhy": "too far",
+    "c": {
+     "turned": true
+    }
+   }
+  ]
+ },
+ "sweep_tol10_stroll": {
+  "seconds": 150,
+  "npcOnScreenSeconds": 231.2,
+  "settings": {
+   "strafe": 0.7,
+   "branchCone": 40,
+   "lookYaw": 95,
+   "lookUp": 30,
+   "lookDown": 35,
+   "turnTime": 0.4,
+   "walk": 1.45,
+   "back": 0.9,
+   "strafeSpeed": 1.1,
+   "sprint": 2.6,
+   "stamina": 3.5,
+   "fov": 75,
+   "eye": 1.62,
+   "crouchEye": 1.05,
+   "rubber": 25,
+   "tolerance": 10,
+   "hysteresis": 12,
+   "nearHyst": true,
+   "headMax": 65,
+   "headRubber": 35,
+   "distCheat": true,
+   "allowSide": false,
+   "allowBackQ": false,
+   "debug": 2,
+   "bob": true,
+   "noticeDist": 70,
+   "mouseSens": 0.12
+  },
+  "bodyViewShareByClass": {
+   "pedestrian": {
+    "time": 123.7,
+    "FRONT": 28,
+    "3/4": 17.9,
+    "BACK": 54.1,
+    "SIDE": 0,
+    "BACK 3/4": 0,
+    "ifSideAllowed": {
+     "FRONT": 28,
+     "3/4": 9.6,
+     "BACK": 52.6,
+     "SIDE": 9.8
+    }
+   },
+   "combatant": {
+    "time": 32.6,
+    "FRONT": 22.8,
+    "3/4": 1.5,
+    "BACK": 75.6,
+    "SIDE": 0,
+    "BACK 3/4": 0,
+    "ifSideAllowed": {
+     "FRONT": 22.8,
+     "3/4": 1.5,
+     "BACK": 75.6,
+     "SIDE": 0
+    }
+   },
+   "stationary": {
+    "time": 56.2,
+    "FRONT": 31.8,
+    "3/4": 54.9,
+    "BACK": 13.3,
+    "SIDE": 0,
+    "BACK 3/4": 0,
+    "ifSideAllowed": {
+     "FRONT": 47.7,
+     "3/4": 11.8,
+     "BACK": 0,
+     "SIDE": 40.4
+    }
+   },
+   "background": {
+    "time": 18.7,
+    "FRONT": 100,
+    "3/4": 0,
+    "BACK": 0,
+    "SIDE": 0,
+    "BACK 3/4": 0,
+    "ifSideAllowed": null
+   }
+  },
+  "trueAngleShare": {
+   "all": {
+    "F": 23.8,
+    "Q": 22,
+    "S": 11.4,
+    "BQ": 16.3,
+    "B": 26.6
+   },
+   "moving": {
+    "F": 26.5,
+    "Q": 12,
+    "S": 6.3,
+    "BQ": 17.7,
+    "B": 37.5
+   }
+  },
+  "cardWrongShare_residualOverTolerance": {
+   "near": 5.3,
+   "mid": 10.4,
+   "far": 0
+  },
+  "moonwalkShare_movingErrorOver30": {
+   "near": 3.4,
+   "mid": 12.1,
+   "far": 14.8
+  },
+  "onScreenSecondsByDistance": {
+   "near": 33,
+   "mid": 37.4,
+   "far": 160.9
+  },
+  "viewSwitchesPerNpcMinute": 3.4,
+  "carViewShare": {
+   "FRONT": 31.5,
+   "SIDE": 38.6,
+   "BACK": 29.9
+  },
+  "rules": {
+   "spawns": 11,
+   "despawns": 11,
+   "spawnInView": 0,
+   "despawnInView": 0,
+   "carDespawnInView": 0,
+   "carsParkedBecauseExitWasVisible": 0,
+   "nodeConflicts": 0,
+   "sameDirectionOvertakes": 0,
+   "playerBumpedIntoNpcSeconds": 0,
+   "playerNodeUses": 0
+  },
+  "player": {
+   "junctionsTaken": 6,
+   "turnArounds": 1,
+   "shots": 0,
+   "hits": 0,
+   "blockedShots": 0,
+   "markCouldSeeYouSeconds": 34.2
+  },
+  "heads": {
+   "maxHeadTurn": 65,
+   "secondsHeadHeldAttentionWithoutBodyChange": 11.8
+  },
+  "flourishes": 6,
+  "byGroup": {
+   "near": {
+    "seconds": 64.3,
+    "trueAngle": {
+     "F": 35.6,
+     "Q": 2.1,
+     "S": 3.2,
+     "BQ": 3.8,
+     "B": 55.4
+    },
+    "shown": {
+     "FRONT": 36.1,
+     "3/4": 4.9,
+     "BACK": 59,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 36.1,
+     "3/4": 1.7,
+     "BACK": 56.5,
+     "SIDE": 5.7
+    },
+    "edgeOn": 2.8,
+    "walkingArtWrongOver30": 4.6
+   },
+   "mark": {
+    "seconds": 32.6,
+    "trueAngle": {
+     "F": 14.5,
+     "Q": 9.8,
+     "S": 0,
+     "BQ": 20.8,
+     "B": 54.9
+    },
+    "shown": {
+     "FRONT": 22.8,
+     "3/4": 1.5,
+     "BACK": 75.6,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 22.8,
+     "3/4": 1.5,
+     "BACK": 75.6,
+     "SIDE": 0
+    },
+    "edgeOn": 0,
+    "walkingArtWrongOver30": 0
+   },
+   "stoop": {
+    "seconds": 17.2,
+    "trueAngle": {
+     "F": 65.2,
+     "Q": 4.5,
+     "S": 30.3,
+     "BQ": 0,
+     "B": 0
+    },
+    "shown": {
+     "FRONT": 64.3,
+     "3/4": 35.7,
+     "BACK": 0,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 64.3,
+     "3/4": 5.4,
+     "BACK": 0,
+     "SIDE": 30.3
+    },
+    "edgeOn": 0,
+    "walkingArtWrongOver30": 0.9
+   },
+   "loiter": {
+    "seconds": 57.8,
+    "trueAngle": {
+     "F": 14.7,
+     "Q": 53.6,
+     "S": 18.9,
+     "BQ": 12.8,
+     "B": 0
+    },
+    "shown": {
+     "FRONT": 44.2,
+     "3/4": 42.9,
+     "BACK": 12.9,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 11.8,
+     "3/4": 6.1,
+     "BACK": 0,
+     "SIDE": 17.2
+    },
+    "edgeOn": 0,
+    "walkingArtWrongOver30": 0
+   },
+   "far": {
+    "seconds": 59.4,
+    "trueAngle": {
+     "F": 13.1,
+     "Q": 24.3,
+     "S": 13.9,
+     "BQ": 35.4,
+     "B": 13.3
+    },
+    "shown": {
+     "FRONT": 19.3,
+     "3/4": 32,
+     "BACK": 48.7,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 19.3,
+     "3/4": 18.1,
+     "BACK": 48.3,
+     "SIDE": 14.4
+    },
+    "edgeOn": 6.6,
+    "walkingArtWrongOver30": 44.7
+   }
+  },
+  "artSets": {
+   "FRONT, 3/4, BACK": {
+    "walkingArtWrongOver30": 18.1,
+    "meanErrorWhileWalking": 17,
+    "worstError": 82,
+    "switchesPerNpcMinute": 4,
+    "share": {
+     "FRONT": 31,
+     "BACK": 51.1,
+     "3/4": 17.9
+    }
+   },
+   "+ SIDE": {
+    "walkingArtWrongOver30": 13.4,
+    "meanErrorWhileWalking": 15,
+    "worstError": 59,
+    "switchesPerNpcMinute": 5,
+    "share": {
+     "FRONT": 31,
+     "BACK": 46.3,
+     "SIDE": 14.1,
+     "3/4": 8.7
+    }
+   },
+   "+ BACK 3/4": {
+    "walkingArtWrongOver30": 4,
+    "meanErrorWhileWalking": 12.8,
+    "worstError": 51,
+    "switchesPerNpcMinute": 4,
+    "share": {
+     "FRONT": 31,
+     "BACK": 22.1,
+     "3/4": 15.8,
+     "BACK 3/4": 31.2
+    }
+   },
+   "+ SIDE + BACK 3/4": {
+    "walkingArtWrongOver30": 0.3,
+    "meanErrorWhileWalking": 11.5,
+    "worstError": 37,
+    "switchesPerNpcMinute": 5.9,
+    "share": {
+     "FRONT": 31,
+     "BACK": 22.1,
+     "SIDE": 9.3,
+     "3/4": 8.7,
+     "BACK 3/4": 29
+    }
+   }
+  },
+  "crowd": {
+   "npcWaitSeconds": 0.4,
+   "npcSidestepSeconds": 2.9,
+   "bodiesOverlappingSeconds": 0
+  },
+  "log": [
+   {
+    "t": 150.03,
+    "pos": {
+     "x": 6,
+     "y": 37.85,
+     "edge": "e_harlan_w",
+     "s": 0,
+     "off": 0,
+     "body": 270,
+     "head": 75,
+     "stop": "End of this route \u2014 R turns around"
+    },
+    "msg": "Route walk started. Click the picture to steer with the mouse.",
+    "markWhy": "too far",
+    "c": {
+     "turned": true
+    }
+   }
+  ]
+ },
+ "sweep_tol30_stroll": {
+  "seconds": 150,
+  "npcOnScreenSeconds": 231.2,
+  "settings": {
+   "strafe": 0.7,
+   "branchCone": 40,
+   "lookYaw": 95,
+   "lookUp": 30,
+   "lookDown": 35,
+   "turnTime": 0.4,
+   "walk": 1.45,
+   "back": 0.9,
+   "strafeSpeed": 1.1,
+   "sprint": 2.6,
+   "stamina": 3.5,
+   "fov": 75,
+   "eye": 1.62,
+   "crouchEye": 1.05,
+   "rubber": 25,
+   "tolerance": 30,
+   "hysteresis": 12,
+   "nearHyst": true,
+   "headMax": 65,
+   "headRubber": 35,
+   "distCheat": true,
+   "allowSide": false,
+   "allowBackQ": false,
+   "debug": 2,
+   "bob": true,
+   "noticeDist": 70,
+   "mouseSens": 0.12
+  },
+  "bodyViewShareByClass": {
+   "pedestrian": {
+    "time": 123.7,
+    "FRONT": 28,
+    "3/4": 17.9,
+    "BACK": 54.1,
+    "SIDE": 0,
+    "BACK 3/4": 0,
+    "ifSideAllowed": {
+     "FRONT": 28,
+     "3/4": 9.6,
+     "BACK": 52.6,
+     "SIDE": 9.8
+    }
+   },
+   "combatant": {
+    "time": 32.6,
+    "FRONT": 22.8,
+    "3/4": 1.5,
+    "BACK": 75.6,
+    "SIDE": 0,
+    "BACK 3/4": 0,
+    "ifSideAllowed": {
+     "FRONT": 22.8,
+     "3/4": 1.5,
+     "BACK": 75.6,
+     "SIDE": 0
+    }
+   },
+   "stationary": {
+    "time": 56.2,
+    "FRONT": 31.8,
+    "3/4": 54.9,
+    "BACK": 13.3,
+    "SIDE": 0,
+    "BACK 3/4": 0,
+    "ifSideAllowed": {
+     "FRONT": 47.7,
+     "3/4": 11.8,
+     "BACK": 0,
+     "SIDE": 40.4
+    }
+   },
+   "background": {
+    "time": 18.7,
+    "FRONT": 100,
+    "3/4": 0,
+    "BACK": 0,
+    "SIDE": 0,
+    "BACK 3/4": 0,
+    "ifSideAllowed": null
+   }
+  },
+  "trueAngleShare": {
+   "all": {
+    "F": 23.8,
+    "Q": 22,
+    "S": 11.4,
+    "BQ": 16.3,
+    "B": 26.6
+   },
+   "moving": {
+    "F": 26.5,
+    "Q": 12,
+    "S": 6.3,
+    "BQ": 17.7,
+    "B": 37.5
+   }
+  },
+  "cardWrongShare_residualOverTolerance": {
+   "near": 1.8,
+   "mid": 1.6,
+   "far": 0
+  },
+  "moonwalkShare_movingErrorOver30": {
+   "near": 3.4,
+   "mid": 12.1,
+   "far": 14.8
+  },
+  "onScreenSecondsByDistance": {
+   "near": 33,
+   "mid": 37.4,
+   "far": 160.9
+  },
+  "viewSwitchesPerNpcMinute": 3.4,
+  "carViewShare": {
+   "FRONT": 31.5,
+   "SIDE": 38.6,
+   "BACK": 29.9
+  },
+  "rules": {
+   "spawns": 11,
+   "despawns": 11,
+   "spawnInView": 0,
+   "despawnInView": 0,
+   "carDespawnInView": 0,
+   "carsParkedBecauseExitWasVisible": 0,
+   "nodeConflicts": 0,
+   "sameDirectionOvertakes": 0,
+   "playerBumpedIntoNpcSeconds": 0,
+   "playerNodeUses": 0
+  },
+  "player": {
+   "junctionsTaken": 6,
+   "turnArounds": 1,
+   "shots": 0,
+   "hits": 0,
+   "blockedShots": 0,
+   "markCouldSeeYouSeconds": 34.2
+  },
+  "heads": {
+   "maxHeadTurn": 65,
+   "secondsHeadHeldAttentionWithoutBodyChange": 11.8
+  },
+  "flourishes": 6,
+  "byGroup": {
+   "near": {
+    "seconds": 64.3,
+    "trueAngle": {
+     "F": 35.6,
+     "Q": 2.1,
+     "S": 3.2,
+     "BQ": 3.8,
+     "B": 55.4
+    },
+    "shown": {
+     "FRONT": 36.1,
+     "3/4": 4.9,
+     "BACK": 59,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 36.1,
+     "3/4": 1.7,
+     "BACK": 56.5,
+     "SIDE": 5.7
+    },
+    "edgeOn": 0.9,
+    "walkingArtWrongOver30": 4.6
+   },
+   "mark": {
+    "seconds": 32.6,
+    "trueAngle": {
+     "F": 14.5,
+     "Q": 9.8,
+     "S": 0,
+     "BQ": 20.8,
+     "B": 54.9
+    },
+    "shown": {
+     "FRONT": 22.8,
+     "3/4": 1.5,
+     "BACK": 75.6,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 22.8,
+     "3/4": 1.5,
+     "BACK": 75.6,
+     "SIDE": 0
+    },
+    "edgeOn": 0,
+    "walkingArtWrongOver30": 0
+   },
+   "stoop": {
+    "seconds": 17.2,
+    "trueAngle": {
+     "F": 65.2,
+     "Q": 4.5,
+     "S": 30.3,
+     "BQ": 0,
+     "B": 0
+    },
+    "shown": {
+     "FRONT": 64.3,
+     "3/4": 35.7,
+     "BACK": 0,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 64.3,
+     "3/4": 5.4,
+     "BACK": 0,
+     "SIDE": 30.3
+    },
+    "edgeOn": 0,
+    "walkingArtWrongOver30": 0.9
+   },
+   "loiter": {
+    "seconds": 57.8,
+    "trueAngle": {
+     "F": 14.7,
+     "Q": 53.6,
+     "S": 18.9,
+     "BQ": 12.8,
+     "B": 0
+    },
+    "shown": {
+     "FRONT": 44.2,
+     "3/4": 42.9,
+     "BACK": 12.9,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 11.8,
+     "3/4": 6.1,
+     "BACK": 0,
+     "SIDE": 17.2
+    },
+    "edgeOn": 0,
+    "walkingArtWrongOver30": 0
+   },
+   "far": {
+    "seconds": 59.4,
+    "trueAngle": {
+     "F": 13.1,
+     "Q": 24.3,
+     "S": 13.9,
+     "BQ": 35.4,
+     "B": 13.3
+    },
+    "shown": {
+     "FRONT": 19.3,
+     "3/4": 32,
+     "BACK": 48.7,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 19.3,
+     "3/4": 18.1,
+     "BACK": 48.3,
+     "SIDE": 14.4
+    },
+    "edgeOn": 1,
+    "walkingArtWrongOver30": 44.7
+   }
+  },
+  "artSets": {
+   "FRONT, 3/4, BACK": {
+    "walkingArtWrongOver30": 18.1,
+    "meanErrorWhileWalking": 17,
+    "worstError": 82,
+    "switchesPerNpcMinute": 4,
+    "share": {
+     "FRONT": 31,
+     "BACK": 51.1,
+     "3/4": 17.9
+    }
+   },
+   "+ SIDE": {
+    "walkingArtWrongOver30": 13.4,
+    "meanErrorWhileWalking": 15,
+    "worstError": 59,
+    "switchesPerNpcMinute": 5,
+    "share": {
+     "FRONT": 31,
+     "BACK": 46.3,
+     "SIDE": 14.1,
+     "3/4": 8.7
+    }
+   },
+   "+ BACK 3/4": {
+    "walkingArtWrongOver30": 4,
+    "meanErrorWhileWalking": 12.8,
+    "worstError": 51,
+    "switchesPerNpcMinute": 4,
+    "share": {
+     "FRONT": 31,
+     "BACK": 22.1,
+     "3/4": 15.8,
+     "BACK 3/4": 31.2
+    }
+   },
+   "+ SIDE + BACK 3/4": {
+    "walkingArtWrongOver30": 0.3,
+    "meanErrorWhileWalking": 11.5,
+    "worstError": 37,
+    "switchesPerNpcMinute": 5.9,
+    "share": {
+     "FRONT": 31,
+     "BACK": 22.1,
+     "SIDE": 9.3,
+     "3/4": 8.7,
+     "BACK 3/4": 29
+    }
+   }
+  },
+  "crowd": {
+   "npcWaitSeconds": 0.4,
+   "npcSidestepSeconds": 2.9,
+   "bodiesOverlappingSeconds": 0
+  },
+  "log": [
+   {
+    "t": 150.03,
+    "pos": {
+     "x": 6,
+     "y": 37.85,
+     "edge": "e_harlan_w",
+     "s": 0,
+     "off": 0,
+     "body": 270,
+     "head": 75,
+     "stop": "End of this route \u2014 R turns around"
+    },
+    "msg": "Route walk started. Click the picture to steer with the mouse.",
+    "markWhy": "too far",
+    "c": {
+     "turned": true
+    }
+   }
+  ]
+ },
+ "sweep_nodistcheat_stroll": {
+  "seconds": 150,
+  "npcOnScreenSeconds": 231.2,
+  "settings": {
+   "strafe": 0.7,
+   "branchCone": 40,
+   "lookYaw": 95,
+   "lookUp": 30,
+   "lookDown": 35,
+   "turnTime": 0.4,
+   "walk": 1.45,
+   "back": 0.9,
+   "strafeSpeed": 1.1,
+   "sprint": 2.6,
+   "stamina": 3.5,
+   "fov": 75,
+   "eye": 1.62,
+   "crouchEye": 1.05,
+   "rubber": 25,
+   "tolerance": 18,
+   "hysteresis": 12,
+   "nearHyst": true,
+   "headMax": 65,
+   "headRubber": 35,
+   "distCheat": false,
+   "allowSide": false,
+   "allowBackQ": false,
+   "debug": 2,
+   "bob": true,
+   "noticeDist": 70,
+   "mouseSens": 0.12
+  },
+  "bodyViewShareByClass": {
+   "pedestrian": {
+    "time": 123.7,
+    "FRONT": 28,
+    "3/4": 17.9,
+    "BACK": 54.1,
+    "SIDE": 0,
+    "BACK 3/4": 0,
+    "ifSideAllowed": {
+     "FRONT": 28,
+     "3/4": 9.6,
+     "BACK": 52.6,
+     "SIDE": 9.8
+    }
+   },
+   "combatant": {
+    "time": 32.6,
+    "FRONT": 22.8,
+    "3/4": 1.5,
+    "BACK": 75.6,
+    "SIDE": 0,
+    "BACK 3/4": 0,
+    "ifSideAllowed": {
+     "FRONT": 22.8,
+     "3/4": 1.5,
+     "BACK": 75.6,
+     "SIDE": 0
+    }
+   },
+   "stationary": {
+    "time": 56.2,
+    "FRONT": 31.8,
+    "3/4": 54.9,
+    "BACK": 13.3,
+    "SIDE": 0,
+    "BACK 3/4": 0,
+    "ifSideAllowed": {
+     "FRONT": 47.7,
+     "3/4": 11.8,
+     "BACK": 0,
+     "SIDE": 40.4
+    }
+   },
+   "background": {
+    "time": 18.7,
+    "FRONT": 100,
+    "3/4": 0,
+    "BACK": 0,
+    "SIDE": 0,
+    "BACK 3/4": 0,
+    "ifSideAllowed": null
+   }
+  },
+  "trueAngleShare": {
+   "all": {
+    "F": 23.8,
+    "Q": 22,
+    "S": 11.4,
+    "BQ": 16.3,
+    "B": 26.6
+   },
+   "moving": {
+    "F": 26.5,
+    "Q": 12,
+    "S": 6.3,
+    "BQ": 17.7,
+    "B": 37.5
+   }
+  },
+  "cardWrongShare_residualOverTolerance": {
+   "near": 4.2,
+   "mid": 9.6,
+   "far": 2
+  },
+  "moonwalkShare_movingErrorOver30": {
+   "near": 3.4,
+   "mid": 12.1,
+   "far": 14.8
+  },
+  "onScreenSecondsByDistance": {
+   "near": 33,
+   "mid": 37.4,
+   "far": 160.9
+  },
+  "viewSwitchesPerNpcMinute": 3.4,
+  "carViewShare": {
+   "FRONT": 31.5,
+   "SIDE": 38.6,
+   "BACK": 29.9
+  },
+  "rules": {
+   "spawns": 11,
+   "despawns": 11,
+   "spawnInView": 0,
+   "despawnInView": 0,
+   "carDespawnInView": 0,
+   "carsParkedBecauseExitWasVisible": 0,
+   "nodeConflicts": 0,
+   "sameDirectionOvertakes": 0,
+   "playerBumpedIntoNpcSeconds": 0,
+   "playerNodeUses": 0
+  },
+  "player": {
+   "junctionsTaken": 6,
+   "turnArounds": 1,
+   "shots": 0,
+   "hits": 0,
+   "blockedShots": 0,
+   "markCouldSeeYouSeconds": 34.2
+  },
+  "heads": {
+   "maxHeadTurn": 65,
+   "secondsHeadHeldAttentionWithoutBodyChange": 11.8
+  },
+  "flourishes": 6,
+  "byGroup": {
+   "near": {
+    "seconds": 64.3,
+    "trueAngle": {
+     "F": 35.6,
+     "Q": 2.1,
+     "S": 3.2,
+     "BQ": 3.8,
+     "B": 55.4
+    },
+    "shown": {
+     "FRONT": 36.1,
+     "3/4": 4.9,
+     "BACK": 59,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 36.1,
+     "3/4": 1.7,
+     "BACK": 56.5,
+     "SIDE": 5.7
+    },
+    "edgeOn": 3.4,
+    "walkingArtWrongOver30": 4.6
+   },
+   "mark": {
+    "seconds": 32.6,
+    "trueAngle": {
+     "F": 14.5,
+     "Q": 9.8,
+     "S": 0,
+     "BQ": 20.8,
+     "B": 54.9
+    },
+    "shown": {
+     "FRONT": 22.8,
+     "3/4": 1.5,
+     "BACK": 75.6,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 22.8,
+     "3/4": 1.5,
+     "BACK": 75.6,
+     "SIDE": 0
+    },
+    "edgeOn": 0,
+    "walkingArtWrongOver30": 0
+   },
+   "stoop": {
+    "seconds": 17.2,
+    "trueAngle": {
+     "F": 65.2,
+     "Q": 4.5,
+     "S": 30.3,
+     "BQ": 0,
+     "B": 0
+    },
+    "shown": {
+     "FRONT": 64.3,
+     "3/4": 35.7,
+     "BACK": 0,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 64.3,
+     "3/4": 5.4,
+     "BACK": 0,
+     "SIDE": 30.3
+    },
+    "edgeOn": 0,
+    "walkingArtWrongOver30": 0.9
+   },
+   "loiter": {
+    "seconds": 57.8,
+    "trueAngle": {
+     "F": 14.7,
+     "Q": 53.6,
+     "S": 18.9,
+     "BQ": 12.8,
+     "B": 0
+    },
+    "shown": {
+     "FRONT": 44.2,
+     "3/4": 42.9,
+     "BACK": 12.9,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 11.8,
+     "3/4": 6.1,
+     "BACK": 0,
+     "SIDE": 17.2
+    },
+    "edgeOn": 1.2,
+    "walkingArtWrongOver30": 0
+   },
+   "far": {
+    "seconds": 59.4,
+    "trueAngle": {
+     "F": 13.1,
+     "Q": 24.3,
+     "S": 13.9,
+     "BQ": 35.4,
+     "B": 13.3
+    },
+    "shown": {
+     "FRONT": 19.3,
+     "3/4": 32,
+     "BACK": 48.7,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 19.3,
+     "3/4": 18.1,
+     "BACK": 48.3,
+     "SIDE": 14.4
+    },
+    "edgeOn": 9.1,
+    "walkingArtWrongOver30": 44.7
+   }
+  },
+  "artSets": {
+   "FRONT, 3/4, BACK": {
+    "walkingArtWrongOver30": 18.1,
+    "meanErrorWhileWalking": 17,
+    "worstError": 82,
+    "switchesPerNpcMinute": 4,
+    "share": {
+     "FRONT": 31,
+     "BACK": 51.1,
+     "3/4": 17.9
+    }
+   },
+   "+ SIDE": {
+    "walkingArtWrongOver30": 13.4,
+    "meanErrorWhileWalking": 15,
+    "worstError": 59,
+    "switchesPerNpcMinute": 5,
+    "share": {
+     "FRONT": 31,
+     "BACK": 46.3,
+     "SIDE": 14.1,
+     "3/4": 8.7
+    }
+   },
+   "+ BACK 3/4": {
+    "walkingArtWrongOver30": 4,
+    "meanErrorWhileWalking": 12.8,
+    "worstError": 51,
+    "switchesPerNpcMinute": 4,
+    "share": {
+     "FRONT": 31,
+     "BACK": 22.1,
+     "3/4": 15.8,
+     "BACK 3/4": 31.2
+    }
+   },
+   "+ SIDE + BACK 3/4": {
+    "walkingArtWrongOver30": 0.3,
+    "meanErrorWhileWalking": 11.5,
+    "worstError": 37,
+    "switchesPerNpcMinute": 5.9,
+    "share": {
+     "FRONT": 31,
+     "BACK": 22.1,
+     "SIDE": 9.3,
+     "3/4": 8.7,
+     "BACK 3/4": 29
+    }
+   }
+  },
+  "crowd": {
+   "npcWaitSeconds": 0.4,
+   "npcSidestepSeconds": 2.9,
+   "bodiesOverlappingSeconds": 0
+  },
+  "log": [
+   {
+    "t": 150.03,
+    "pos": {
+     "x": 6,
+     "y": 37.85,
+     "edge": "e_harlan_w",
+     "s": 0,
+     "off": 0,
+     "body": 270,
+     "head": 75,
+     "stop": "End of this route \u2014 R turns around"
+    },
+    "msg": "Route walk started. Click the picture to steer with the mouse.",
+    "markWhy": "too far",
+    "c": {
+     "turned": true
+    }
+   }
+  ]
+ },
+ "S1_stroll_H0": {
+  "seconds": 150,
+  "npcOnScreenSeconds": 231.2,
+  "settings": {
+   "strafe": 0.7,
+   "branchCone": 40,
+   "lookYaw": 95,
+   "lookUp": 30,
+   "lookDown": 35,
+   "turnTime": 0.4,
+   "walk": 1.45,
+   "back": 0.9,
+   "strafeSpeed": 1.1,
+   "sprint": 2.6,
+   "stamina": 3.5,
+   "fov": 75,
+   "eye": 1.62,
+   "crouchEye": 1.05,
+   "rubber": 25,
+   "tolerance": 18,
+   "hysteresis": 0,
+   "nearHyst": true,
+   "headMax": 65,
+   "headRubber": 35,
+   "distCheat": true,
+   "allowSide": false,
+   "allowBackQ": false,
+   "debug": 2,
+   "bob": true,
+   "noticeDist": 70,
+   "mouseSens": 0.12
+  },
+  "bodyViewShareByClass": {
+   "pedestrian": {
+    "time": 123.7,
+    "FRONT": 24.8,
+    "3/4": 21.1,
+    "BACK": 54.1,
+    "SIDE": 0,
+    "BACK 3/4": 0,
+    "ifSideAllowed": {
+     "FRONT": 24.8,
+     "3/4": 12.8,
+     "BACK": 53.1,
+     "SIDE": 9.3
+    }
+   },
+   "combatant": {
+    "time": 32.6,
+    "FRONT": 14.5,
+    "3/4": 9.8,
+    "BACK": 75.6,
+    "SIDE": 0,
+    "BACK 3/4": 0,
+    "ifSideAllowed": {
+     "FRONT": 14.5,
+     "3/4": 9.8,
+     "BACK": 75.6,
+     "SIDE": 0
+    }
+   },
+   "stationary": {
+    "time": 56.2,
+    "FRONT": 31.8,
+    "3/4": 55.1,
+    "BACK": 13.1,
+    "SIDE": 0,
+    "BACK 3/4": 0,
+    "ifSideAllowed": {
+     "FRONT": 47.8,
+     "3/4": 11.8,
+     "BACK": 0,
+     "SIDE": 40.4
+    }
+   },
+   "background": {
+    "time": 18.7,
+    "FRONT": 100,
+    "3/4": 0,
+    "BACK": 0,
+    "SIDE": 0,
+    "BACK 3/4": 0,
+    "ifSideAllowed": null
+   }
+  },
+  "trueAngleShare": {
+   "all": {
+    "F": 23.8,
+    "Q": 22,
+    "S": 11.4,
+    "BQ": 16.3,
+    "B": 26.6
+   },
+   "moving": {
+    "F": 26.5,
+    "Q": 12,
+    "S": 6.3,
+    "BQ": 17.7,
+    "B": 37.5
+   }
+  },
+  "cardWrongShare_residualOverTolerance": {
+   "near": 4.2,
+   "mid": 7.8,
+   "far": 0
+  },
+  "moonwalkShare_movingErrorOver30": {
+   "near": 2.5,
+   "mid": 12.1,
+   "far": 14.8
+  },
+  "onScreenSecondsByDistance": {
+   "near": 33,
+   "mid": 37.4,
+   "far": 160.9
+  },
+  "viewSwitchesPerNpcMinute": 3.1,
+  "carViewShare": {
+   "FRONT": 31.5,
+   "SIDE": 38.6,
+   "BACK": 29.9
+  },
+  "rules": {
+   "spawns": 11,
+   "despawns": 11,
+   "spawnInView": 0,
+   "despawnInView": 0,
+   "carDespawnInView": 0,
+   "carsParkedBecauseExitWasVisible": 0,
+   "nodeConflicts": 0,
+   "sameDirectionOvertakes": 0,
+   "playerBumpedIntoNpcSeconds": 0,
+   "playerNodeUses": 0
+  },
+  "player": {
+   "junctionsTaken": 6,
+   "turnArounds": 1,
+   "shots": 0,
+   "hits": 0,
+   "blockedShots": 0,
+   "markCouldSeeYouSeconds": 34.2
+  },
+  "heads": {
+   "maxHeadTurn": 65,
+   "secondsHeadHeldAttentionWithoutBodyChange": 11.8
+  },
+  "flourishes": 6,
+  "byGroup": {
+   "near": {
+    "seconds": 64.3,
+    "trueAngle": {
+     "F": 35.6,
+     "Q": 2.1,
+     "S": 3.2,
+     "BQ": 3.8,
+     "B": 55.4
+    },
+    "shown": {
+     "FRONT": 35.6,
+     "3/4": 5.3,
+     "BACK": 59.1,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 35.6,
+     "3/4": 2.1,
+     "BACK": 57.2,
+     "SIDE": 5.1
+    },
+    "edgeOn": 2.2,
+    "walkingArtWrongOver30": 4.3
+   },
+   "mark": {
+    "seconds": 32.6,
+    "trueAngle": {
+     "F": 14.5,
+     "Q": 9.8,
+     "S": 0,
+     "BQ": 20.8,
+     "B": 54.9
+    },
+    "shown": {
+     "FRONT": 14.5,
+     "3/4": 9.8,
+     "BACK": 75.6,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 14.5,
+     "3/4": 9.8,
+     "BACK": 75.6,
+     "SIDE": 0
+    },
+    "edgeOn": 0,
+    "walkingArtWrongOver30": 0
+   },
+   "stoop": {
+    "seconds": 17.2,
+    "trueAngle": {
+     "F": 65.2,
+     "Q": 4.5,
+     "S": 30.3,
+     "BQ": 0,
+     "B": 0
+    },
+    "shown": {
+     "FRONT": 65.2,
+     "3/4": 34.8,
+     "BACK": 0,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 65.2,
+     "3/4": 4.5,
+     "BACK": 0,
+     "SIDE": 30.3
+    },
+    "edgeOn": 0,
+    "walkingArtWrongOver30": 0
+   },
+   "loiter": {
+    "seconds": 57.8,
+    "trueAngle": {
+     "F": 14.7,
+     "Q": 53.6,
+     "S": 18.9,
+     "BQ": 12.8,
+     "B": 0
+    },
+    "shown": {
+     "FRONT": 44,
+     "3/4": 43.3,
+     "BACK": 12.8,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 11.6,
+     "3/4": 6.3,
+     "BACK": 0,
+     "SIDE": 17.2
+    },
+    "edgeOn": 0,
+    "walkingArtWrongOver30": 0
+   },
+   "far": {
+    "seconds": 59.4,
+    "trueAngle": {
+     "F": 13.1,
+     "Q": 24.3,
+     "S": 13.9,
+     "BQ": 35.4,
+     "B": 13.3
+    },
+    "shown": {
+     "FRONT": 13.1,
+     "3/4": 38.2,
+     "BACK": 48.7,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 13.1,
+     "3/4": 24.3,
+     "BACK": 48.7,
+     "SIDE": 13.9
+    },
+    "edgeOn": 4.9,
+    "walkingArtWrongOver30": 44.7
+   }
+  },
+  "artSets": {
+   "FRONT, 3/4, BACK": {
+    "walkingArtWrongOver30": 17.9,
+    "meanErrorWhileWalking": 16.7,
+    "worstError": 66,
+    "switchesPerNpcMinute": 3.7,
+    "share": {
+     "FRONT": 27.5,
+     "BACK": 51.1,
+     "3/4": 21.4
+    }
+   },
+   "+ SIDE": {
+    "walkingArtWrongOver30": 13.2,
+    "meanErrorWhileWalking": 14.7,
+    "worstError": 44,
+    "switchesPerNpcMinute": 5.6,
+    "share": {
+     "FRONT": 27.5,
+     "BACK": 46.6,
+     "SIDE": 13.8,
+     "3/4": 12.1
+    }
+   },
+   "+ BACK 3/4": {
+    "walkingArtWrongOver30": 3.8,
+    "meanErrorWhileWalking": 12.1,
+    "worstError": 45,
+    "switchesPerNpcMinute": 5.6,
+    "share": {
+     "FRONT": 27.5,
+     "BACK": 31.7,
+     "3/4": 18.7,
+     "BACK 3/4": 22.1
+    }
+   },
+   "+ SIDE + BACK 3/4": {
+    "walkingArtWrongOver30": 0,
+    "meanErrorWhileWalking": 10.7,
+    "worstError": 22,
+    "switchesPerNpcMinute": 6.2,
+    "share": {
+     "FRONT": 27.5,
+     "BACK": 31.7,
+     "SIDE": 9.3,
+     "3/4": 12.1,
+     "BACK 3/4": 19.4
+    }
+   }
+  },
+  "crowd": {
+   "npcWaitSeconds": 0.4,
+   "npcSidestepSeconds": 2.9,
+   "bodiesOverlappingSeconds": 0
+  },
+  "log": [
+   {
+    "t": 150.03,
+    "pos": {
+     "x": 6,
+     "y": 37.85,
+     "edge": "e_harlan_w",
+     "s": 0,
+     "off": 0,
+     "body": 270,
+     "head": 75,
+     "stop": "End of this route \u2014 R turns around"
+    },
+    "msg": "Route walk started. Click the picture to steer with the mouse.",
+    "markWhy": "too far",
+    "c": {
+     "turned": true
+    }
+   }
+  ]
+ },
+ "sweep_strafe0.4_strafing_stroll": {
+  "seconds": 150,
+  "npcOnScreenSeconds": 219.8,
+  "settings": {
+   "strafe": 0.4,
+   "branchCone": 40,
+   "lookYaw": 95,
+   "lookUp": 30,
+   "lookDown": 35,
+   "turnTime": 0.4,
+   "walk": 1.45,
+   "back": 0.9,
+   "strafeSpeed": 1.1,
+   "sprint": 2.6,
+   "stamina": 3.5,
+   "fov": 75,
+   "eye": 1.62,
+   "crouchEye": 1.05,
+   "rubber": 25,
+   "tolerance": 18,
+   "hysteresis": 12,
+   "nearHyst": true,
+   "headMax": 65,
+   "headRubber": 35,
+   "distCheat": true,
+   "allowSide": false,
+   "allowBackQ": false,
+   "debug": 2,
+   "bob": true,
+   "noticeDist": 70,
+   "mouseSens": 0.12
+  },
+  "bodyViewShareByClass": {
+   "pedestrian": {
+    "time": 105.3,
+    "FRONT": 31.4,
+    "3/4": 28.8,
+    "BACK": 39.8,
+    "SIDE": 0,
+    "BACK 3/4": 0,
+    "ifSideAllowed": {
+     "FRONT": 31.4,
+     "3/4": 10.4,
+     "BACK": 39.1,
+     "SIDE": 19.1
+    }
+   },
+   "combatant": {
+    "time": 32.6,
+    "FRONT": 24.2,
+    "3/4": 1.5,
+    "BACK": 74.3,
+    "SIDE": 0,
+    "BACK 3/4": 0,
+    "ifSideAllowed": {
+     "FRONT": 24.2,
+     "3/4": 1.5,
+     "BACK": 73.3,
+     "SIDE": 1
+    }
+   },
+   "stationary": {
+    "time": 61.3,
+    "FRONT": 33.5,
+    "3/4": 66.5,
+    "BACK": 0,
+    "SIDE": 0,
+    "BACK 3/4": 0,
+    "ifSideAllowed": {
+     "FRONT": 45.8,
+     "3/4": 18.9,
+     "BACK": 0,
+     "SIDE": 35.2
+    }
+   },
+   "background": {
+    "time": 20.7,
+    "FRONT": 100,
+    "3/4": 0,
+    "BACK": 0,
+    "SIDE": 0,
+    "BACK 3/4": 0,
+    "ifSideAllowed": null
+   }
+  },
+  "trueAngleShare": {
+   "all": {
+    "F": 27,
+    "Q": 24.3,
+    "S": 16.1,
+    "BQ": 4,
+    "B": 28.7
+   },
+   "moving": {
+    "F": 30.2,
+    "Q": 11,
+    "S": 12.3,
+    "BQ": 1.5,
+    "B": 45
+   }
+  },
+  "cardWrongShare_residualOverTolerance": {
+   "near": 7,
+   "mid": 13.9,
+   "far": 0.2
+  },
+  "moonwalkShare_movingErrorOver30": {
+   "near": 1,
+   "mid": 17.3,
+   "far": 3.3
+  },
+  "onScreenSecondsByDistance": {
+   "near": 32,
+   "mid": 46.7,
+   "far": 141.1
+  },
+  "viewSwitchesPerNpcMinute": 4.4,
+  "carViewShare": {
+   "FRONT": 30.1,
+   "SIDE": 39.3,
+   "BACK": 30.6
+  },
+  "rules": {
+   "spawns": 11,
+   "despawns": 11,
+   "spawnInView": 0,
+   "despawnInView": 0,
+   "carDespawnInView": 0,
+   "carsParkedBecauseExitWasVisible": 0,
+   "nodeConflicts": 0,
+   "sameDirectionOvertakes": 0,
+   "playerBumpedIntoNpcSeconds": 1.8,
+   "playerNodeUses": 2
+  },
+  "player": {
+   "junctionsTaken": 6,
+   "turnArounds": 1,
+   "shots": 0,
+   "hits": 0,
+   "blockedShots": 0,
+   "markCouldSeeYouSeconds": 36.5
+  },
+  "heads": {
+   "maxHeadTurn": 65,
+   "secondsHeadHeldAttentionWithoutBodyChange": 21.5
+  },
+  "flourishes": 6,
+  "byGroup": {
+   "near": {
+    "seconds": 66.4,
+    "trueAngle": {
+     "F": 36.2,
+     "Q": 4.2,
+     "S": 8.6,
+     "BQ": 3,
+     "B": 47.9
+    },
+    "shown": {
+     "FRONT": 36.5,
+     "3/4": 13.5,
+     "BACK": 49.9,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 36.5,
+     "3/4": 3.9,
+     "BACK": 48.8,
+     "SIDE": 10.8
+    },
+    "edgeOn": 6.6,
+    "walkingArtWrongOver30": 8
+   },
+   "mark": {
+    "seconds": 32.6,
+    "trueAngle": {
+     "F": 16.9,
+     "Q": 8.8,
+     "S": 0,
+     "BQ": 1,
+     "B": 73.3
+    },
+    "shown": {
+     "FRONT": 24.2,
+     "3/4": 1.5,
+     "BACK": 74.3,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 24.2,
+     "3/4": 1.5,
+     "BACK": 73.3,
+     "SIDE": 1
+    },
+    "edgeOn": 1,
+    "walkingArtWrongOver30": 1.1
+   },
+   "stoop": {
+    "seconds": 18.1,
+    "trueAngle": {
+     "F": 59,
+     "Q": 8.1,
+     "S": 32.9,
+     "BQ": 0,
+     "B": 0
+    },
+    "shown": {
+     "FRONT": 63.1,
+     "3/4": 36.9,
+     "BACK": 0,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 63.1,
+     "3/4": 6.4,
+     "BACK": 0,
+     "SIDE": 30.5
+    },
+    "edgeOn": 0,
+    "walkingArtWrongOver30": 1.6
+   },
+   "loiter": {
+    "seconds": 63.8,
+    "trueAngle": {
+     "F": 19.6,
+     "Q": 55.6,
+     "S": 18.5,
+     "BQ": 6.2,
+     "B": 0
+    },
+    "shown": {
+     "FRONT": 46.6,
+     "3/4": 53.4,
+     "BACK": 0,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 11.4,
+     "3/4": 10.3,
+     "BACK": 0,
+     "SIDE": 13.9
+    },
+    "edgeOn": 0,
+    "walkingArtWrongOver30": 0
+   },
+   "far": {
+    "seconds": 38.9,
+    "trueAngle": {
+     "F": 16.6,
+     "Q": 27.6,
+     "S": 30.4,
+     "BQ": 6.4,
+     "B": 19
+    },
+    "shown": {
+     "FRONT": 22.6,
+     "3/4": 54.8,
+     "BACK": 22.6,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 22.6,
+     "3/4": 21.5,
+     "BACK": 22.6,
+     "SIDE": 33.3
+    },
+    "edgeOn": 11.1,
+    "walkingArtWrongOver30": 20.4
+   }
+  },
+  "artSets": {
+   "FRONT, 3/4, BACK": {
+    "walkingArtWrongOver30": 9.3,
+    "meanErrorWhileWalking": 16,
+    "worstError": 71,
+    "switchesPerNpcMinute": 5.4,
+    "share": {
+     "FRONT": 33.4,
+     "BACK": 37,
+     "3/4": 29.6
+    }
+   },
+   "+ SIDE": {
+    "walkingArtWrongOver30": 0.5,
+    "meanErrorWhileWalking": 12.3,
+    "worstError": 51,
+    "switchesPerNpcMinute": 7,
+    "share": {
+     "FRONT": 33.4,
+     "BACK": 36.4,
+     "SIDE": 19.5,
+     "3/4": 10.7
+    }
+   },
+   "+ BACK 3/4": {
+    "walkingArtWrongOver30": 5.9,
+    "meanErrorWhileWalking": 15.3,
+    "worstError": 51,
+    "switchesPerNpcMinute": 5.7,
+    "share": {
+     "FRONT": 33.4,
+     "BACK": 21.5,
+     "3/4": 19.4,
+     "BACK 3/4": 25.7
+    }
+   },
+   "+ SIDE + BACK 3/4": {
+    "walkingArtWrongOver30": 0,
+    "meanErrorWhileWalking": 13.2,
+    "worstError": 32,
+    "switchesPerNpcMinute": 8.4,
+    "share": {
+     "FRONT": 33.4,
+     "BACK": 21.5,
+     "SIDE": 18.9,
+     "3/4": 10.7,
+     "BACK 3/4": 15.5
+    }
+   }
+  },
+  "crowd": {
+   "npcWaitSeconds": 6.5,
+   "npcSidestepSeconds": 2,
+   "bodiesOverlappingSeconds": 0
+  },
+  "log": [
+   {
+    "t": 150.03,
+    "pos": {
+     "x": 6,
+     "y": 37.45,
+     "edge": "e_harlan_w",
+     "s": 0,
+     "off": -0.4,
+     "body": 270,
+     "head": 75,
+     "stop": "End of this route \u2014 R turns around"
+    },
+    "msg": "Route walk started. Click the picture to steer with the mouse.",
+    "markWhy": "too far",
+    "c": {
+     "strafe": true,
+     "turned": true
+    }
+   }
+  ]
+ },
+ "sweep_strafe0.7_strafing_stroll": {
+  "seconds": 150,
+  "npcOnScreenSeconds": 228,
+  "settings": {
+   "strafe": 0.7,
+   "branchCone": 40,
+   "lookYaw": 95,
+   "lookUp": 30,
+   "lookDown": 35,
+   "turnTime": 0.4,
+   "walk": 1.45,
+   "back": 0.9,
+   "strafeSpeed": 1.1,
+   "sprint": 2.6,
+   "stamina": 3.5,
+   "fov": 75,
+   "eye": 1.62,
+   "crouchEye": 1.05,
+   "rubber": 25,
+   "tolerance": 18,
+   "hysteresis": 12,
+   "nearHyst": true,
+   "headMax": 65,
+   "headRubber": 35,
+   "distCheat": true,
+   "allowSide": false,
+   "allowBackQ": false,
+   "debug": 2,
+   "bob": true,
+   "noticeDist": 70,
+   "mouseSens": 0.12
+  },
+  "bodyViewShareByClass": {
+   "pedestrian": {
+    "time": 116,
+    "FRONT": 25.9,
+    "3/4": 20.9,
+    "BACK": 53.1,
+    "SIDE": 0,
+    "BACK 3/4": 0,
+    "ifSideAllowed": {
+     "FRONT": 25.9,
+     "3/4": 8.8,
+     "BACK": 51.2,
+     "SIDE": 14
+    }
+   },
+   "combatant": {
+    "time": 33.3,
+    "FRONT": 22.6,
+    "3/4": 3.5,
+    "BACK": 73.9,
+    "SIDE": 0,
+    "BACK 3/4": 0,
+    "ifSideAllowed": {
+     "FRONT": 22.6,
+     "3/4": 3.5,
+     "BACK": 73.9,
+     "SIDE": 0
+    }
+   },
+   "stationary": {
+    "time": 60.6,
+    "FRONT": 31.2,
+    "3/4": 56.4,
+    "BACK": 12.4,
+    "SIDE": 0,
+    "BACK 3/4": 0,
+    "ifSideAllowed": {
+     "FRONT": 44.8,
+     "3/4": 19.5,
+     "BACK": 0,
+     "SIDE": 35.7
+    }
+   },
+   "background": {
+    "time": 18,
+    "FRONT": 100,
+    "3/4": 0,
+    "BACK": 0,
+    "SIDE": 0,
+    "BACK 3/4": 0,
+    "ifSideAllowed": null
+   }
+  },
+  "trueAngleShare": {
+   "all": {
+    "F": 25.9,
+    "Q": 19.7,
+    "S": 14.2,
+    "BQ": 14.6,
+    "B": 25.6
+   },
+   "moving": {
+    "F": 25.4,
+    "Q": 12,
+    "S": 9.4,
+    "BQ": 16.3,
+    "B": 36.8
+   }
+  },
+  "cardWrongShare_residualOverTolerance": {
+   "near": 5.8,
+   "mid": 11.8,
+   "far": 0
+  },
+  "moonwalkShare_movingErrorOver30": {
+   "near": 2.3,
+   "mid": 19.1,
+   "far": 15
+  },
+  "onScreenSecondsByDistance": {
+   "near": 33.9,
+   "mid": 38.3,
+   "far": 155.7
+  },
+  "viewSwitchesPerNpcMinute": 3.9,
+  "carViewShare": {
+   "FRONT": 32.7,
+   "SIDE": 34.3,
+   "BACK": 32.9
+  },
+  "rules": {
+   "spawns": 11,
+   "despawns": 10,
+   "spawnInView": 0,
+   "despawnInView": 0,
+   "carDespawnInView": 0,
+   "carsParkedBecauseExitWasVisible": 0,
+   "nodeConflicts": 0,
+   "sameDirectionOvertakes": 0,
+   "playerBumpedIntoNpcSeconds": 0.3,
+   "playerNodeUses": 2
+  },
+  "player": {
+   "junctionsTaken": 6,
+   "turnArounds": 1,
+   "shots": 0,
+   "hits": 0,
+   "blockedShots": 0,
+   "markCouldSeeYouSeconds": 31.7
+  },
+  "heads": {
+   "maxHeadTurn": 65,
+   "secondsHeadHeldAttentionWithoutBodyChange": 22.1
+  },
+  "flourishes": 5,
+  "byGroup": {
+   "near": {
+    "seconds": 59.9,
+    "trueAngle": {
+     "F": 31.9,
+     "Q": 3.6,
+     "S": 9.1,
+     "BQ": 6.1,
+     "B": 49.2
+    },
+    "shown": {
+     "FRONT": 33.8,
+     "3/4": 9.1,
+     "BACK": 57.2,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 33.8,
+     "3/4": 1.8,
+     "BACK": 53.6,
+     "SIDE": 10.8
+    },
+    "edgeOn": 7.2,
+    "walkingArtWrongOver30": 8.1
+   },
+   "mark": {
+    "seconds": 33.3,
+    "trueAngle": {
+     "F": 17.3,
+     "Q": 5.7,
+     "S": 3.1,
+     "BQ": 11.3,
+     "B": 62.6
+    },
+    "shown": {
+     "FRONT": 22.6,
+     "3/4": 3.5,
+     "BACK": 73.9,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 22.6,
+     "3/4": 3.5,
+     "BACK": 73.9,
+     "SIDE": 0
+    },
+    "edgeOn": 0,
+    "walkingArtWrongOver30": 0
+   },
+   "stoop": {
+    "seconds": 21.1,
+    "trueAngle": {
+     "F": 53.6,
+     "Q": 18.7,
+     "S": 27.7,
+     "BQ": 0,
+     "B": 0
+    },
+    "shown": {
+     "FRONT": 55.5,
+     "3/4": 44.5,
+     "BACK": 0,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 55.5,
+     "3/4": 16.8,
+     "BACK": 0,
+     "SIDE": 27.7
+    },
+    "edgeOn": 0,
+    "walkingArtWrongOver30": 3.6
+   },
+   "loiter": {
+    "seconds": 57.6,
+    "trueAngle": {
+     "F": 27.2,
+     "Q": 44,
+     "S": 17.4,
+     "BQ": 11.3,
+     "B": 0
+    },
+    "shown": {
+     "FRONT": 43.8,
+     "3/4": 43.1,
+     "BACK": 13,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 11.9,
+     "3/4": 7.9,
+     "BACK": 0,
+     "SIDE": 15.6
+    },
+    "edgeOn": 0,
+    "walkingArtWrongOver30": 0
+   },
+   "far": {
+    "seconds": 56.1,
+    "trueAngle": {
+     "F": 13,
+     "Q": 20.5,
+     "S": 17.6,
+     "BQ": 34.6,
+     "B": 14.3
+    },
+    "shown": {
+     "FRONT": 17.5,
+     "3/4": 33.6,
+     "BACK": 48.8,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 17.5,
+     "3/4": 16.3,
+     "BACK": 48.7,
+     "SIDE": 17.5
+    },
+    "edgeOn": 4,
+    "walkingArtWrongOver30": 47.1
+   }
+  },
+  "artSets": {
+   "FRONT, 3/4, BACK": {
+    "walkingArtWrongOver30": 20,
+    "meanErrorWhileWalking": 18,
+    "worstError": 73,
+    "switchesPerNpcMinute": 4.7,
+    "share": {
+     "FRONT": 29.4,
+     "BACK": 49.2,
+     "3/4": 21.4
+    }
+   },
+   "+ SIDE": {
+    "walkingArtWrongOver30": 12.5,
+    "meanErrorWhileWalking": 15.1,
+    "worstError": 47,
+    "switchesPerNpcMinute": 7.2,
+    "share": {
+     "FRONT": 29.4,
+     "BACK": 44,
+     "SIDE": 16.3,
+     "3/4": 10.2
+    }
+   },
+   "+ BACK 3/4": {
+    "walkingArtWrongOver30": 6.5,
+    "meanErrorWhileWalking": 14,
+    "worstError": 55,
+    "switchesPerNpcMinute": 6,
+    "share": {
+     "FRONT": 29.4,
+     "BACK": 20.9,
+     "3/4": 18.9,
+     "BACK 3/4": 30.8
+    }
+   },
+   "+ SIDE + BACK 3/4": {
+    "walkingArtWrongOver30": 0.1,
+    "meanErrorWhileWalking": 11.8,
+    "worstError": 36,
+    "switchesPerNpcMinute": 7.5,
+    "share": {
+     "FRONT": 29.4,
+     "BACK": 20.9,
+     "SIDE": 11.2,
+     "3/4": 10.2,
+     "BACK 3/4": 28.3
+    }
+   }
+  },
+  "crowd": {
+   "npcWaitSeconds": 0.8,
+   "npcSidestepSeconds": 4.3,
+   "bodiesOverlappingSeconds": 0
+  },
+  "log": [
+   {
+    "t": 150.03,
+    "pos": {
+     "x": 6,
+     "y": 37.15,
+     "edge": "e_harlan_w",
+     "s": 0,
+     "off": -0.7,
+     "body": 270,
+     "head": 75,
+     "stop": "End of this route \u2014 R turns around"
+    },
+    "msg": "Route walk started. Click the picture to steer with the mouse.",
+    "markWhy": "too far",
+    "c": {
+     "strafe": true,
+     "turned": true
+    }
+   }
+  ]
+ },
+ "sweep_strafe1.0_strafing_stroll": {
+  "seconds": 150,
+  "npcOnScreenSeconds": 228.7,
+  "settings": {
+   "strafe": 1,
+   "branchCone": 40,
+   "lookYaw": 95,
+   "lookUp": 30,
+   "lookDown": 35,
+   "turnTime": 0.4,
+   "walk": 1.45,
+   "back": 0.9,
+   "strafeSpeed": 1.1,
+   "sprint": 2.6,
+   "stamina": 3.5,
+   "fov": 75,
+   "eye": 1.62,
+   "crouchEye": 1.05,
+   "rubber": 25,
+   "tolerance": 18,
+   "hysteresis": 12,
+   "nearHyst": true,
+   "headMax": 65,
+   "headRubber": 35,
+   "distCheat": true,
+   "allowSide": false,
+   "allowBackQ": false,
+   "debug": 2,
+   "bob": true,
+   "noticeDist": 70,
+   "mouseSens": 0.12
+  },
+  "bodyViewShareByClass": {
+   "pedestrian": {
+    "time": 116,
+    "FRONT": 25.8,
+    "3/4": 25.3,
+    "BACK": 49,
+    "SIDE": 0,
+    "BACK 3/4": 0,
+    "ifSideAllowed": {
+     "FRONT": 25.8,
+     "3/4": 11.6,
+     "BACK": 48.5,
+     "SIDE": 14.1
+    }
+   },
+   "combatant": {
+    "time": 31.6,
+    "FRONT": 24.1,
+    "3/4": 2,
+    "BACK": 73.9,
+    "SIDE": 0,
+    "BACK 3/4": 0,
+    "ifSideAllowed": {
+     "FRONT": 24.1,
+     "3/4": 2,
+     "BACK": 73.5,
+     "SIDE": 0.4
+    }
+   },
+   "stationary": {
+    "time": 60.7,
+    "FRONT": 32.5,
+    "3/4": 60.1,
+    "BACK": 7.4,
+    "SIDE": 0,
+    "BACK 3/4": 0,
+    "ifSideAllowed": {
+     "FRONT": 45.2,
+     "3/4": 19.3,
+     "BACK": 0,
+     "SIDE": 35.5
+    }
+   },
+   "background": {
+    "time": 20.4,
+    "FRONT": 100,
+    "3/4": 0,
+    "BACK": 0,
+    "SIDE": 0,
+    "BACK 3/4": 0,
+    "ifSideAllowed": null
+   }
+  },
+  "trueAngleShare": {
+   "all": {
+    "F": 23.7,
+    "Q": 20.5,
+    "S": 18.6,
+    "BQ": 11.4,
+    "B": 25.8
+   },
+   "moving": {
+    "F": 26.7,
+    "Q": 12.6,
+    "S": 8.5,
+    "BQ": 13,
+    "B": 39.3
+   }
+  },
+  "cardWrongShare_residualOverTolerance": {
+   "near": 10.7,
+   "mid": 7.7,
+   "far": 0.1
+  },
+  "moonwalkShare_movingErrorOver30": {
+   "near": 2.5,
+   "mid": 16,
+   "far": 13
+  },
+  "onScreenSecondsByDistance": {
+   "near": 33.2,
+   "mid": 40.6,
+   "far": 154.9
+  },
+  "viewSwitchesPerNpcMinute": 4.7,
+  "carViewShare": {
+   "FRONT": 33.5,
+   "SIDE": 36,
+   "BACK": 30.5
+  },
+  "rules": {
+   "spawns": 11,
+   "despawns": 11,
+   "spawnInView": 0,
+   "despawnInView": 0,
+   "carDespawnInView": 0,
+   "carsParkedBecauseExitWasVisible": 0,
+   "nodeConflicts": 0,
+   "sameDirectionOvertakes": 0,
+   "playerBumpedIntoNpcSeconds": 2.2,
+   "playerNodeUses": 2
+  },
+  "player": {
+   "junctionsTaken": 6,
+   "turnArounds": 1,
+   "shots": 0,
+   "hits": 0,
+   "blockedShots": 0,
+   "markCouldSeeYouSeconds": 36.7
+  },
+  "heads": {
+   "maxHeadTurn": 65,
+   "secondsHeadHeldAttentionWithoutBodyChange": 22.7
+  },
+  "flourishes": 6,
+  "byGroup": {
+   "near": {
+    "seconds": 64.2,
+    "trueAngle": {
+     "F": 33.6,
+     "Q": 6.8,
+     "S": 11.9,
+     "BQ": 1.9,
+     "B": 45.8
+    },
+    "shown": {
+     "FRONT": 35.9,
+     "3/4": 16.8,
+     "BACK": 47.3,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 35.9,
+     "3/4": 4.6,
+     "BACK": 46.6,
+     "SIDE": 12.9
+    },
+    "edgeOn": 8.2,
+    "walkingArtWrongOver30": 8.9
+   },
+   "mark": {
+    "seconds": 31.6,
+    "trueAngle": {
+     "F": 18.8,
+     "Q": 7.3,
+     "S": 0,
+     "BQ": 4.4,
+     "B": 69.5
+    },
+    "shown": {
+     "FRONT": 24.1,
+     "3/4": 2,
+     "BACK": 73.9,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 24.1,
+     "3/4": 2,
+     "BACK": 73.5,
+     "SIDE": 0.4
+    },
+    "edgeOn": 0.4,
+    "walkingArtWrongOver30": 0.5
+   },
+   "stoop": {
+    "seconds": 18.3,
+    "trueAngle": {
+     "F": 58.8,
+     "Q": 12,
+     "S": 29.2,
+     "BQ": 0,
+     "B": 0
+    },
+    "shown": {
+     "FRONT": 61.9,
+     "3/4": 38.1,
+     "BACK": 0,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 61.9,
+     "3/4": 9.3,
+     "BACK": 0,
+     "SIDE": 28.8
+    },
+    "edgeOn": 0,
+    "walkingArtWrongOver30": 1.6
+   },
+   "loiter": {
+    "seconds": 62.8,
+    "trueAngle": {
+     "F": 17.7,
+     "Q": 40.7,
+     "S": 34.5,
+     "BQ": 7,
+     "B": 0
+    },
+    "shown": {
+     "FRONT": 45.8,
+     "3/4": 47,
+     "BACK": 7.2,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 11,
+     "3/4": 9.7,
+     "BACK": 0,
+     "SIDE": 14.3
+    },
+    "edgeOn": 0,
+    "walkingArtWrongOver30": 0
+   },
+   "far": {
+    "seconds": 51.8,
+    "trueAngle": {
+     "F": 9.4,
+     "Q": 24.1,
+     "S": 15.4,
+     "BQ": 36.6,
+     "B": 14.5
+    },
+    "shown": {
+     "FRONT": 13.2,
+     "3/4": 35.8,
+     "BACK": 51,
+     "SIDE": 0,
+     "BACK 3/4": 0
+    },
+    "ifSideAllowed": {
+     "FRONT": 13.2,
+     "3/4": 20.3,
+     "BACK": 50.8,
+     "SIDE": 15.6
+    },
+    "edgeOn": 2.8,
+    "walkingArtWrongOver30": 43.7
+   }
+  },
+  "artSets": {
+   "FRONT, 3/4, BACK": {
+    "walkingArtWrongOver30": 18.4,
+    "meanErrorWhileWalking": 17.4,
+    "worstError": 73,
+    "switchesPerNpcMinute": 5.7,
+    "share": {
+     "FRONT": 29.7,
+     "BACK": 45.1,
+     "3/4": 25.3
+    }
+   },
+   "+ SIDE": {
+    "walkingArtWrongOver30": 12.2,
+    "meanErrorWhileWalking": 14.7,
+    "worstError": 53,
+    "switchesPerNpcMinute": 7,
+    "share": {
+     "FRONT": 29.7,
+     "BACK": 42.3,
+     "SIDE": 16.4,
+     "3/4": 11.7
+    }
+   },
+   "+ BACK 3/4": {
+    "walkingArtWrongOver30": 6,
+    "meanErrorWhileWalking": 14.1,
+    "worstError": 57,
+    "switchesPerNpcMinute": 7.3,
+    "share": {
+     "FRONT": 29.7,
+     "BACK": 19.3,
+     "3/4": 20.6,
+     "BACK 3/4": 30.5
+    }
+   },
+   "+ SIDE + BACK 3/4": {
+    "walkingArtWrongOver30": 0.4,
+    "meanErrorWhileWalking": 11.9,
+    "worstError": 36,
+    "switchesPerNpcMinute": 9.3,
+    "share": {
+     "FRONT": 29.7,
+     "BACK": 19.3,
+     "SIDE": 13.6,
+     "3/4": 11.7,
+     "BACK 3/4": 25.8
+    }
+   }
+  },
+  "crowd": {
+   "npcWaitSeconds": 3.1,
+   "npcSidestepSeconds": 4.8,
+   "bodiesOverlappingSeconds": 0
+  },
+  "log": [
+   {
+    "t": 150.03,
+    "pos": {
+     "x": 6,
+     "y": 36.95,
+     "edge": "e_harlan_w",
+     "s": 0,
+     "off": -0.9,
+     "body": 270,
+     "head": 75,
+     "stop": "End of this route \u2014 R turns around"
+    },
+    "msg": "Route walk started. Click the picture to steer with the mouse.",
+    "markWhy": "too far",
+    "c": {
+     "strafe": true,
+     "turned": true
+    }
+   }
+  ]
+ },
+ "errors": [
+  "Failed to load resource: the server responded with a status of 404 (File not found)"
+ ]
+}

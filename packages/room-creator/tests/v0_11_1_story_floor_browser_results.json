@@ -1,0 +1,172 @@
+{
+  "html": "/home/claude/v14/work/Room_Creator.html",
+  "passed": 24,
+  "failed": 3,
+  "results": [
+    {
+      "finding": 1,
+      "name": "Dragging an upper-story light keeps it bound to the upper room",
+      "passed": true,
+      "pageErrors": []
+    },
+    {
+      "finding": 1,
+      "name": "Arrow-key nudge of an upper-story light keeps it bound to the upper room",
+      "passed": true,
+      "pageErrors": []
+    },
+    {
+      "finding": 2,
+      "name": "Dragging an object on an offset upper room validates against its own story",
+      "passed": true,
+      "pageErrors": []
+    },
+    {
+      "finding": 3,
+      "name": "Story inspector: floor-to-floor height typed in feet is stored in metres",
+      "passed": true,
+      "pageErrors": []
+    },
+    {
+      "finding": 3,
+      "name": "Story inspector: storyHeight min/max attributes are in feet when units are feet",
+      "passed": true,
+      "pageErrors": []
+    },
+    {
+      "finding": 3,
+      "name": "Story Settings dialog: floor-to-floor height in feet is converted and limited in feet",
+      "passed": true,
+      "pageErrors": []
+    },
+    {
+      "finding": 3,
+      "name": "Regression guard: storyHeight in metres still edits and keeps 2.2–8 limits",
+      "passed": true,
+      "pageErrors": []
+    },
+    {
+      "finding": 4,
+      "name": "First person shows a floor section drawn over a coplanar room floor (matches iso)",
+      "passed": true,
+      "pageErrors": []
+    },
+    {
+      "finding": 4,
+      "name": "First person: later overlapping coplanar floor section wins (iso draw order)",
+      "passed": true,
+      "pageErrors": []
+    },
+    {
+      "finding": 4,
+      "name": "First person from below: floor-section underside wins over a coplanar upper room floor",
+      "passed": true,
+      "pageErrors": []
+    },
+    {
+      "finding": 5,
+      "name": "Stacked drawIso: lower-story floor section does not paint over the upper room floor",
+      "passed": true,
+      "pageErrors": []
+    },
+    {
+      "finding": 6,
+      "name": "Story Settings dialog lists stored (custom) story names",
+      "passed": true,
+      "pageErrors": []
+    },
+    {
+      "finding": 6,
+      "name": "Deleting a middle story via the UI relabels the shifted default story tab",
+      "passed": true,
+      "pageErrors": []
+    },
+    {
+      "finding": 6,
+      "name": "Overlap error toast names the stored story",
+      "passed": true,
+      "pageErrors": []
+    },
+    {
+      "finding": 7,
+      "name": "A just-drawn (selected) floor is a snap target while drawing the next floor",
+      "passed": false,
+      "error": "no pending floor origin after clicking",
+      "pageErrors": []
+    },
+    {
+      "finding": 7,
+      "name": "Regression guard: a floor being dragged does not snap to itself",
+      "passed": false,
+      "error": "dragged floor x=10.3 (expected grid 10.5; 10.3 means it snapped to itself)",
+      "pageErrors": []
+    },
+    {
+      "finding": 8,
+      "name": "Ctrl+Z during a live floor drag cancels the drag, then undoes",
+      "passed": false,
+      "error": "floor draw failed: {\"id\":\"floor_mvdkdq9x_i3pkarj\",\"name\":\"Floor section 1\",\"story\":1,\"x\":0,\"y\":0,\"width\":4,\"length\":3,\"floor\":{\"color\":\"#736d65\",\"finish\":\"concrete\",\"textureId\":null,\"tileSize\":1,\"angle\":0,\"offsetX\":0,\"offsetY\":0,\"textureOpacity\":1,\"mapping\":\"repeat\",\"tileSizeY\":null,\"flipX\":false,\"flipY\":false,\"brightness\":1,\"contrast\":1,\"saturation\":1,\"hue\":0,\"tintStrength\":0,\"wear\":0,\"secondary\":\"#d9d3c6\",\"jointWidth\":0.015,\"baseHeight\":0,\"baseColor\":\"#444951\",\"capHeight\":0,\"capColor\":\"#ddd9cf\",\"coordinateMode\":\"local\",\"filter\":\"pixel\"},\"underside\":{\"color\":\"#afb2b4\",\"finish\":\"paint\",\"textureId\":null,\"tileSize\":1,\"angle\":0,\"offsetX\":0,\"offsetY\":0,\"textureOpacity\":1,\"mapping\":\"repeat\",\"tileSizeY\":null,\"flipX\":false,\"flipY\":false,\"brightness\":1,\"contrast\":1,\"saturation\":1,\"hue\":0,\"tintStrength\":0,\"wear\":0,\"secondary\":\"#d9d3c6\",\"jointWidth\":0.015,\"baseHeight\":0,\"baseColor\":\"#444951\",\"capHeight\":0,\"capColor\":\"#ddd9cf\",\"coordinateMode\":\"local\",\"filter\":\"pixel\"}}",
+      "pageErrors": []
+    },
+    {
+      "finding": 8,
+      "name": "Ctrl+Shift+Z during a live floor drag cancels the drag, then redoes",
+      "passed": true,
+      "pageErrors": []
+    },
+    {
+      "finding": 8,
+      "name": "Regression guard: Escape still cancels a live drag with no undo entry",
+      "passed": true,
+      "pageErrors": []
+    },
+    {
+      "finding": 9,
+      "name": "Half footprint halves width and length, centred on the room below",
+      "passed": true,
+      "pageErrors": []
+    },
+    {
+      "finding": 9,
+      "name": "Full footprint resets size and offsets after Half",
+      "passed": true,
+      "pageErrors": []
+    },
+    {
+      "finding": 10,
+      "name": "Deleting a story never selects a room on a different story",
+      "passed": true,
+      "pageErrors": []
+    },
+    {
+      "finding": 10,
+      "name": "Deleting the top story activates the story below and selects its room",
+      "passed": true,
+      "pageErrors": []
+    },
+    {
+      "finding": 12,
+      "name": "Inspector rejects a floor-section width below 0.25 m with a clear message",
+      "passed": true,
+      "pageErrors": []
+    },
+    {
+      "finding": 12,
+      "name": "Inspector rejects a floor-section length below 0.25 m with a clear message",
+      "passed": true,
+      "pageErrors": []
+    },
+    {
+      "finding": 12,
+      "name": "Inspector rejects a floor-section width below 0.25 m entered in feet",
+      "passed": true,
+      "pageErrors": []
+    },
+    {
+      "finding": 12,
+      "name": "Regression guard: inspector accepts a floor-section width of 0.3 m",
+      "passed": true,
+      "pageErrors": []
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+PASS No matte is supplied or assigned in a new room
+PASS Matte lookup has no read-side project mutation
+PASS Side frame spans the complete room side, not any opening
+PASS Two windows share one coordinate system
+PASS Opening width and position cannot modify a matte frame
+PASS World height sets the common vertical image coordinate
+PASS N exterior reads left-to-right from inside, not mirrored
+PASS E exterior reads left-to-right from inside, not mirrored
+PASS S exterior reads left-to-right from inside, not mirrored
+PASS W exterior reads left-to-right from inside, not mirrored
+PASS Positive setback changes crop with observer movement
+PASS Zero setback keeps a fixed wall-location crop as observer moves
+PASS Looking inward does not use the outside matte of that wall
+PASS Fit mode preserves proportions over the whole side
+PASS Contain mode letterboxes, without edge smear
+PASS Stretch maps full side once, with independent X and Y
+PASS Image edges do not clamp or repeat at any fit
+PASS Scale and offset are one shared transformation
+PASS Room default is inherited on every unspecified side
+PASS Side override is independent of the default and other sides
+PASS An empty override inherits the default rather than suppressing it
+PASS Moved room keeps side-relative matte registration
+PASS Partial shared boundary does not shorten the matte canvas
+PASS v0.6 files missing distance default to zero without moving anything
+PASS Negative, infinite and nonnumeric matte distance are rejected
+PASS Save/reopen preserves image, per-side transforms and setback
+26 passed, 0 failed

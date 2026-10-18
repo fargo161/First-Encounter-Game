@@ -1,0 +1,67 @@
+{
+  "passed": 12,
+  "failed": 3,
+  "results": [
+    {
+      "name": "Editor identifies itself as v0.10",
+      "passed": false
+    },
+    {
+      "name": "New project starts with one Ground room",
+      "passed": false
+    },
+    {
+      "name": "Build panel exposes Room above",
+      "passed": true
+    },
+    {
+      "name": "Build panel exposes contiguous story controls",
+      "passed": true
+    },
+    {
+      "name": "Ground room inspector exposes Open ceiling control",
+      "passed": true
+    },
+    {
+      "name": "Example contains Ground and Floor 2",
+      "passed": true
+    },
+    {
+      "name": "Example contains a true open-above atrium",
+      "passed": true
+    },
+    {
+      "name": "Example contains upper balcony edges",
+      "passed": true
+    },
+    {
+      "name": "Lower and upper viewpoints retain distinct floor elevations",
+      "passed": true
+    },
+    {
+      "name": "Example contains an explicit cross-story route",
+      "passed": true
+    },
+    {
+      "name": "Lower-floor first-person renderer produces architecture",
+      "passed": true
+    },
+    {
+      "name": "Overlapping upper room can be authored without moving ground room",
+      "passed": true
+    },
+    {
+      "name": "Upper-room inspector exposes balcony/gallery controls",
+      "passed": true
+    },
+    {
+      "name": "Current example validates as portable format 10",
+      "passed": false
+    },
+    {
+      "name": "No unhandled JavaScript errors in multi-story smoke test",
+      "passed": true
+    }
+  ],
+  "errors": []
+}

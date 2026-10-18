@@ -1,0 +1,65 @@
+{
+  "release": "0.10",
+  "project_format": 10,
+  "automated_checks": {
+    "passed": 524,
+    "failed": 0
+  },
+  "suites": {
+    "core": {
+      "passed": 84,
+      "failed": 0
+    },
+    "construction_v10_core": {
+      "passed": 14,
+      "failed": 0
+    },
+    "browser": {
+      "passed": 87,
+      "failed": 0
+    },
+    "construction_v10_browser": {
+      "passed": 15,
+      "failed": 0
+    },
+    "multistory_core": {
+      "passed": 21,
+      "failed": 0
+    },
+    "multistory_browser": {
+      "passed": 15,
+      "failed": 0
+    },
+    "architecture_core": {
+      "passed": 59,
+      "failed": 0
+    },
+    "architecture_browser": {
+      "passed": 62,
+      "failed": 0
+    },
+    "style_openings_core": {
+      "passed": 37,
+      "failed": 0
+    },
+    "style_openings_browser": {
+      "passed": 48,
+      "failed": 0
+    },
+    "shared_matte_core": {
+      "passed": 26,
+      "failed": 0
+    },
+    "shared_matte_browser": {
+      "passed": 56,
+      "failed": 0
+    }
+  },
+  "supplementary": [
+    "v06_materials_smoke.py passed during development"
+  ],
+  "notes": [
+    "Final core suites rerun after release docs/example: 241 passed, 0 failed.",
+    "Full sequential browser rerun later exceeded harness timeout; stored v0.10 browser result files contain the passing results above."
+  ]
+}

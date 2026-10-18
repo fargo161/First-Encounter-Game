@@ -1,0 +1,54 @@
+{
+  "passed": 12,
+  "failed": 0,
+  "results": [
+    {
+      "name": "Floor 2 has floor space and no enclosed room",
+      "passed": true
+    },
+    {
+      "name": "Viewpoint can be placed on Floor 2 floor space",
+      "passed": true
+    },
+    {
+      "name": "Floor-space viewpoint is on Floor 2 at its elevation",
+      "passed": true
+    },
+    {
+      "name": "Placing a viewpoint off the floor space is still refused",
+      "passed": true
+    },
+    {
+      "name": "Prop can be placed on Floor 2 floor space",
+      "passed": true
+    },
+    {
+      "name": "Floor-space prop sits at Floor 2 elevation",
+      "passed": true
+    },
+    {
+      "name": "Floor-space prop stays on Floor 2 after editing",
+      "passed": true
+    },
+    {
+      "name": "Floor-space viewpoint can take a cover pair",
+      "passed": true
+    },
+    {
+      "name": "First person from a floor-space viewpoint renders its own story floor",
+      "passed": true
+    },
+    {
+      "name": "Save/reopen keeps floor-space items on Floor 2",
+      "passed": true
+    },
+    {
+      "name": "Validation keeps a floor-space viewpoint on its story (not the Ground room below)",
+      "passed": true
+    },
+    {
+      "name": "No page errors",
+      "passed": true
+    }
+  ]
+}

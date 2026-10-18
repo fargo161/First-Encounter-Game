@@ -31,6 +31,13 @@
         "bytes": 16203,
         "sha256": "5615ad2e601b59eb4b03f218fee1b41da8690a14770cb23b641c816005186adc",
         "archive_path": "snapshots/room-creator-independent-v0141/AUDIT_REPORT.md"
+      },
+      "stage6_import": {
+        "status": "HOLD_FOR_FURTHER_REMEDIATION",
+        "defect_repaired": false,
+        "behavior_tests_rerun": false,
+        "independent_report": "docs/audits/room-creator/AUDIT_REPORT.md",
+        "import_manifest": "docs/provenance/room-creator-stage6-import.json"
       }
     },
     {

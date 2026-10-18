@@ -1,0 +1,235 @@
+{
+  "passed": 54,
+  "failed": 2,
+  "checks": [
+    {
+      "name": "Wall elevation shows both existing window and door",
+      "passed": true
+    },
+    {
+      "name": "New passage form starts in a valid unused span",
+      "passed": true
+    },
+    {
+      "name": "Opening dialog identifies occupied and free wall areas",
+      "passed": true
+    },
+    {
+      "name": "Fill-span button does not select the entire pierced wall",
+      "passed": true
+    },
+    {
+      "name": "Passage is added alongside window and door without replacing either",
+      "passed": true
+    },
+    {
+      "name": "Existing opening has a direct add-another-opening flow",
+      "passed": true
+    },
+    {
+      "name": "Overlapping candidate is visibly rejected before creation",
+      "passed": true
+    },
+    {
+      "name": "Open remaining spans asks before modifying multiple cuts",
+      "passed": true
+    },
+    {
+      "name": "Opening remaining spans preserves original door/window identities and closed state",
+      "passed": true
+    },
+    {
+      "name": "All cut geometry passes core validation after batch open",
+      "passed": true
+    },
+    {
+      "name": "First partition click creates no wall yet",
+      "passed": true
+    },
+    {
+      "name": "Escape cancels partition placement without hidden geometry",
+      "passed": true
+    },
+    {
+      "name": "Second partition click creates one interior wall in same room",
+      "passed": true
+    },
+    {
+      "name": "Partition inspector contains no exterior matte import or assignment",
+      "passed": true
+    },
+    {
+      "name": "Dedicated partition import assigns image to face A only",
+      "passed": true
+    },
+    {
+      "name": "Imported partition texture actually changes the isometric drawing",
+      "passed": true
+    },
+    {
+      "name": "Partition texture repeat and offsets are editable independently of room walls",
+      "passed": true
+    },
+    {
+      "name": "Opposite partition face can have a distinct finish",
+      "passed": true
+    },
+    {
+      "name": "Copy-finish button sets both faces without changing room architecture",
+      "passed": true
+    },
+    {
+      "name": "Partition door stays attached to partition with no exterior side",
+      "passed": true
+    },
+    {
+      "name": "Partition opening has neither attach-room nor matte controls",
+      "passed": true
+    },
+    {
+      "name": "Dragging interior wall line moves partition on floor",
+      "passed": true
+    },
+    {
+      "name": "Hosted opening moves with partition and keeps identity",
+      "passed": true
+    },
+    {
+      "name": "End-handle drag resizes partition without moving its start",
+      "passed": true
+    },
+    {
+      "name": "Invalid wall shortening rolls back rather than deleting its doorway",
+      "passed": true
+    },
+    {
+      "name": "Undo restores previous partition length",
+      "passed": true
+    },
+    {
+      "name": "Redo reapplies partition resize",
+      "passed": true
+    },
+    {
+      "name": "Delete partition removes its door, not its host room",
+      "passed": true
+    },
+    {
+      "name": "Undo deletion restores partition, door and its textures",
+      "passed": true
+    },
+    {
+      "name": "Front sees textured partition and correct face A identity",
+      "passed": true
+    },
+    {
+      "name": "Reverse viewpoint sees partition face B rather than the front artwork",
+      "passed": true
+    },
+    {
+      "name": "Open partition door reveals real room wall behind it",
+      "passed": true
+    },
+    {
+      "name": "Partition window reveals real room through glass, not exterior matte",
+      "passed": true
+    },
+    {
+      "name": "Open partition span reveals real floor-plan architecture",
+      "passed": true
+    },
+    {
+      "name": "Closed partition door correctly occludes the room behind it",
+      "passed": true
+    },
+    {
+      "name": "Reopening partition door restores the same interior view",
+      "passed": true
+    },
+    {
+      "name": "Partition is available as cover only after viewpoint assignment",
+      "passed": true
+    },
+    {
+      "name": "Partition coverage probe counts solid wall but not its door opening",
+      "passed": true
+    },
+    {
+      "name": "Low partition blocks below its height and reveals room above it",
+      "passed": true
+    },
+    {
+      "name": "Before attachment, doorway shows its exterior side matte",
+      "passed": true
+    },
+    {
+      "name": "Attach dialog displays live footprint preview",
+      "passed": true
+    },
+    {
+      "name": "Invalid attachment size is blocked before creation",
+      "passed": true
+    },
+    {
+      "name": "Valid size restores attach action without moving the original opening",
+      "passed": true
+    },
+    {
+      "name": "Confirm attachment creates exactly one new room, not another doorway",
+      "passed": true
+    },
+    {
+      "name": "Existing aperture record and identity survive room attachment",
+      "passed": true
+    },
+    {
+      "name": "After attachment, same doorway reveals adjoining room instead of matte",
+      "passed": true
+    },
+    {
+      "name": "Exterior matte remains saved but does not paint an interior doorway",
+      "passed": true
+    },
+    {
+      "name": "Already shared opening cannot attach a second overlapping room",
+      "passed": true
+    },
+    {
+      "name": "Interior opening inspector removes obsolete matte controls",
+      "passed": true
+    },
+    {
+      "name": "Undo attachment returns doorway to the original exterior matte",
+      "passed": true
+    },
+    {
+      "name": "Redo attachment restores real adjoining-room visibility",
+      "passed": true
+    },
+    {
+      "name": "Test walk traverses route through reused open doorway",
+      "passed": true
+    },
+    {
+      "name": "Attach existing opening and portable export",
+      "passed": false,
+      "error": "Actual downloaded project includes format 10 partition and connection data",
+      "trace": "Traceback (most recent call last):\n  File \"/home/claude/v14/work/tests/architecture_extensions_browser.py\", line 40, in group\n    try:fn()\n        ~~^^\n  File \"/home/claude/v14/work/tests/architecture_extensions_browser.py\", line 162, in attachment\n    check('Actual downloaded project includes format 10 partition and connection data',decoded['project']['version']==10 and len(decoded['project']['partitions'])==1 and len(decoded['project']['rooms'])==2)\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/claude/v14/work/tests/architecture_extensions_browser.py\", line 10, in check\n    if not value: raise AssertionError(name+(': '+str(detail) if detail is not None else ''))\n                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: Actual downloaded project includes format 10 partition and connection data\n"
+    },
+    {
+      "name": "Version and layout compatibility",
+      "passed": false,
+      "error": "v0.6.1 shared-matte project opens with no newly invented partitions",
+      "trace": "Traceback (most recent call last):\n  File \"/home/claude/v14/work/tests/architecture_extensions_browser.py\", line 40, in group\n    try:fn()\n        ~~^^\n  File \"/home/claude/v14/work/tests/architecture_extensions_browser.py\", line 176, in compatibility\n    check('v0.6.1 shared-matte project opens with no newly invented partitions',E('RCApp.project.partitions.length===0&&RCApp.project.version===10'))\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/claude/v14/work/tests/architecture_extensions_browser.py\", line 10, in check\n    if not value: raise AssertionError(name+(': '+str(detail) if detail is not None else ''))\n                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: v0.6.1 shared-matte project opens with no newly invented partitions\n"
+    },
+    {
+      "name": "No uncaught JavaScript exceptions in new workflows",
+      "passed": true
+    },
+    {
+      "name": "New workflows require no network requests",
+      "passed": true
+    }
+  ],
+  "loading": "Standalone HTML bytes in local Chromium using set_content."
+}

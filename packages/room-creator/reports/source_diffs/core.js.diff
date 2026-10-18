@@ -1,0 +1,80 @@
+--- v0.14/source/core.js
++++ v0.14.1/source/core.js
+@@ -117,6 +117,26 @@
+   // (setup.front===-1 is the older way of saying 180 and is still read.)
+   function propFrontTurn(setup){if(!setup||typeof setup!=='object')return 0;if(Number.isFinite(setup.frontTurn))return norm(setup.frontTurn);return setup.front===-1?180:0;}
+   function propYaw(q,setup){return Math.PI-rad(q.rotation||0)-rad(propFrontTurn(setup));}
++  // Calibrations change heading labels, never the placed model's world transform.
++  function preservePropSetup(p,asset,next){const old=propFrontTurn(p.objectLibrary?.setups?.[asset]),turn=propFrontTurn(next);
++    for(const q of p.props||[])if(q.asset===asset)q.rotation=norm((q.rotation||0)+old-turn);}
++  // Clip against the same convex footprint used by walking; includes the vertical interval.
++  function propSegmentHits(a,za,b,zb,fp){let lo=0,hi=1,area=0;const poly=fp.poly;
++    for(let i=0;i<poly.length;i++){const v=poly[i],w=poly[(i+1)%poly.length];area+=v.x*w.y-w.x*v.y;}
++    const sign=area>=0?1:-1,clip=(v,d)=>{if(Math.abs(d)<1e-12)return v>=-1e-9;const t=-v/d;if(d>0)lo=Math.max(lo,t);else hi=Math.min(hi,t);return lo<=hi+1e-9;};
++    for(let i=0;i<poly.length;i++){const v=poly[i],w=poly[(i+1)%poly.length],ex=w.x-v.x,ey=w.y-v.y;
++      if(!clip(sign*(ex*(a.y-v.y)-ey*(a.x-v.x)),sign*(ex*(b.y-a.y)-ey*(b.x-a.x))))return false;}
++    return clip(za-fp.z0,zb-za)&&clip(fp.z1-za,za-zb)&&hi>0&&lo<1;}
++  function propAppearanceIssues(p,q,entry,lookup,hasImage,template){const app=propAppearance(p,q),issues=[];
++    const add=(field,id,reason)=>issues.push({field,id:String(id),reason});
++    if(app.palette){const id=app.palette,v=paletteVariantById(p,id),e=lookup(id);
++      if(!v&&!e)add('palette',id,'Missing palette');
++      else if(entry&&(entry.material_system!=='palette'||template?.paletteMismatch||(v?v.base:e.id)!==entry.paletteFamily))add('palette',id,'Incompatible palette');
++      else if(v&&!v.image)add('palette',id,'Missing palette image');}
++    if(app.texture){const tx=app.texture,id=tx.library||tx.image||JSON.stringify(tx),e=tx.library&&lookup(tx.library);
++      if(tx.library? !e : tx.image? !hasImage(tx.image) : true)add('texture',id,'Missing texture');
++      else if(tx.library&&e.asset_type!=='surface_texture')add('texture',id,'Incompatible texture');}
++    return issues;}
+   function propFloorZ(p,q){const r=roomAtStory(p,q,q.story||0);return r?roomElevation(p,r):storyElevation(p,q.story||0);}
+   function propToPlan(q,local,setup,floorZ=0){const th=propYaw(q,setup),c=Math.cos(th),s=Math.sin(th),[sx,sy,sz]=propScale(q),mx=(local.x||0)*sx,mz=(local.z||0)*sz;
+     return {x:q.x+c*mx+s*mz,y:q.y-s*mx+c*mz,z:floorZ+(q.z||0)+(local.y||0)*sy};}
+@@ -162,10 +182,10 @@
+   function partitionStory(p,q){return Number.isInteger(q?.story)?q.story:(roomById(p,q?.roomId)?.story||0);}
+   function storyContents(p,index){const on=x=>(x.story??roomById(p,x.roomId)?.story??0)===index,rooms=p.rooms.filter(r=>(r.story||0)===index),rids=new Set(rooms.map(r=>r.id));
+     return {rooms:rooms.length,floorSections:(p.floorSections||[]).filter(on).length,walls:(p.partitions||[]).filter(q=>partitionStory(p,q)===index).length,pillars:(p.pillars||[]).filter(on).length,ceilingEdits:[...(p.ceilingCuts||[]),...(p.ceilingPatches||[])].filter(on).length,
+-      openings:p.openings.filter(o=>rids.has(o.roomId)).length,lights:p.lights.filter(l=>rids.has(l.roomId)).length,objects:p.objects.filter(o=>(o.story||0)===index).length,viewpoints:p.viewpoints.filter(v=>(v.story||0)===index).length,stairs:(p.stairs||[]).filter(on).length,floorCuts:(p.floorCuts||[]).filter(x=>(x.story||0)===index&&!x.stairId).length};}
++      openings:p.openings.filter(o=>rids.has(o.roomId)).length,lights:p.lights.filter(l=>rids.has(l.roomId)).length,props:(p.props||[]).filter(on).length,objects:p.objects.filter(o=>(o.story||0)===index).length,viewpoints:p.viewpoints.filter(v=>(v.story||0)===index).length,stairs:(p.stairs||[]).filter(on).length,floorCuts:(p.floorCuts||[]).filter(x=>(x.story||0)===index&&!x.stairId).length};}
+   function clearStory(p,index){const rids=new Set(p.rooms.filter(r=>(r.story||0)===index).map(r=>r.id)),on=x=>(x.story??roomById(p,x.roomId)?.story??0)===index;
+     for(const v of p.viewpoints.filter(v=>(v.story||0)===index))deleteView(p,v.id);
+-    p.objects=p.objects.filter(o=>(o.story||0)!==index);const gone=new Set((p.partitions||[]).filter(q=>partitionStory(p,q)===index).map(q=>q.id));
++    if(p.props)p.props=p.props.filter(x=>!on(x));p.objects=p.objects.filter(o=>(o.story||0)!==index);const gone=new Set((p.partitions||[]).filter(q=>partitionStory(p,q)===index).map(q=>q.id));
+     p.openings=p.openings.filter(o=>!rids.has(o.roomId)&&!gone.has(o.partitionId));p.lights=p.lights.filter(l=>!rids.has(l.roomId));
+     p.partitions=(p.partitions||[]).filter(q=>!gone.has(q.id));p.floorSections=(p.floorSections||[]).filter(x=>!on(x));p.pillars=(p.pillars||[]).filter(x=>!on(x));
+     p.ceilingCuts=(p.ceilingCuts||[]).filter(x=>!rids.has(x.roomId));p.ceilingPatches=(p.ceilingPatches||[]).filter(x=>!rids.has(x.roomId));p.rooms=p.rooms.filter(r=>!rids.has(r.id));
+@@ -174,15 +194,16 @@
+     if(!p.rooms.length)throw Error('A project needs at least one enclosed room. Keep a room on another story.');rehostWalls(p);cleanupSources(p);}
+   function rehostWalls(p){for(const q of p.partitions||[])if(!roomById(p,q.roomId)){const st=partitionStory(p,q),l=partitionLine(q),mid=wallPoint(l,(l.start+l.end)/2);q.roomId=(roomAtStory(p,mid,st)||p.rooms.find(r=>(r.story||0)===st)||p.rooms[0]).id;q.story=st;}}
+   function deleteStory(p,index,{collapse=true,force=false}={}){normalizeStories(p);if(index<0||index>=p.stories.length)throw Error('Select an existing story.');if(p.stories.length===1)throw Error('A project needs at least one story.');if(force)clearStory(p,index);
+-    const used=[...p.rooms,...(p.floorSections||[]),...(p.ceilingCuts||[]),...(p.ceilingPatches||[]),...(p.pillars||[]),...(p.partitions||[]),...(p.stairs||[]),...(p.floorCuts||[])].some(x=>(x.story??roomById(p,x.roomId)?.story??0)===index)||p.objects.some(x=>(x.story||0)===index)||p.viewpoints.some(x=>(x.story||0)===index);
++    const used=[...p.rooms,...(p.floorSections||[]),...(p.ceilingCuts||[]),...(p.ceilingPatches||[]),...(p.pillars||[]),...(p.partitions||[]),...(p.stairs||[]),...(p.floorCuts||[]),...(p.props||[])].some(x=>(x.story??roomById(p,x.roomId)?.story??0)===index)||p.objects.some(x=>(x.story||0)===index)||p.viewpoints.some(x=>(x.story||0)===index);
+     if(used)throw Error('This story still contains architecture, objects or viewpoints. Delete or move them first.');
+     const shifted=p.stories.slice(index+1).map((st,k)=>({st,wasDefault:st.name===storyLabel(index+1+k)}));
+-    p.stories.splice(index,1);if(collapse){for(const arr of [p.rooms,p.floorSections||[],p.ceilingCuts||[],p.ceilingPatches||[],p.pillars||[],p.partitions||[],p.objects,p.viewpoints,p.stairs||[],p.floorCuts||[],...(p.rails||[]).map(r=>r.nodes.filter(n=>n.kind==='via'))])for(const x of arr)if((x.story||0)>index)x.story--;}
++    p.stories.splice(index,1);if(collapse){for(const arr of [p.rooms,p.floorSections||[],p.ceilingCuts||[],p.ceilingPatches||[],p.pillars||[],p.partitions||[],p.props||[],p.objects,p.viewpoints,p.stairs||[],p.floorCuts||[],...(p.rails||[]).map(r=>r.nodes.filter(n=>n.kind==='via'))])for(const x of arr)if((x.story||0)>index)x.story--;}
+     shifted.forEach(({st,wasDefault},k)=>{if(wasDefault)st.name=storyLabel(index+k);});normalizeStories(p);return true;}
+   function deleteRoom(p,id){const r=roomById(p,id);if(!r)throw Error('Select a room.');if(p.rooms.length<2)throw Error('Keep at least one enclosed room. New starts a fresh empty plan.');const st=r.story||0,inside=q=>(q.story??st)===st&&inRect(r,q);
+-    const t=clone(p);t.rooms=t.rooms.filter(q=>q.id!==id);const removed={objects:0,viewpoints:0};
++    const t=clone(p);t.rooms=t.rooms.filter(q=>q.id!==id);const removed={objects:0,props:0,viewpoints:0};
+     for(const v of t.viewpoints.filter(v=>v.roomId===id||((v.story||0)===st&&!v.roomId&&inRect(r,v))))if(inFloor(t,v,.055,st)){v.roomId=null;}else{deleteView(t,v.id);removed.viewpoints++;}
+     t.objects=t.objects.filter(o=>{if(o.roomId!==id&&!(inside(o)&&!o.roomId))return true;o.roomId=null;if(objectInside(t,o))return true;removed.objects++;return false;});
++    if(t.props)t.props=t.props.filter(q=>{if(q.roomId!==id&&!(inside(q)&&!q.roomId))return true;const host=roomAtStory(t,q,q.story||0);q.roomId=host?host.id:null;if(inFloor(t,q,0,q.story||0))return true;removed.props++;return false;});
+     const gone=new Set((t.partitions||[]).filter(q=>q.roomId===id&&!q.free).map(q=>q.id));t.partitions=(t.partitions||[]).filter(q=>!gone.has(q.id));
+     t.openings=t.openings.filter(o=>o.roomId!==id&&!gone.has(o.partitionId));t.lights=t.lights.filter(l=>l.roomId!==id);
+     t.ceilingCuts=(t.ceilingCuts||[]).filter(q=>q.roomId!==id);t.ceilingPatches=(t.ceilingPatches||[]).filter(q=>q.roomId!==id);rehostWalls(t);cleanupSources(t);
+@@ -192,7 +213,7 @@
+     const host=floorSectionHost(p,f)||p.rooms[0],r=makeRoom(name||String(f.name||'Room').replace(/ · floor space$/,'')+' · room',f.x,f.y,f.width,f.length,f.story||0);
+     r.floor=clone(f.floor);r.ceiling=clone(host.ceiling);r.wall=clone(host.wall);r.light=clone(host.light);r.exterior=clone(host.exterior);
+     const t=clone(p);t.rooms.push(r);checkRooms(t);t.floorSections=t.floorSections.filter(q=>q.id!==id);
+-    for(const x of [...t.viewpoints,...t.objects])if(!x.roomId&&(x.story||0)===r.story&&inRect(r,x))x.roomId=r.id;
++    for(const x of [...t.viewpoints,...t.objects,...(t.props||[])])if(!x.roomId&&(x.story||0)===r.story&&inRect(r,x))x.roomId=r.id;
+     Object.assign(p,t);return roomById(p,r.id);}
+   function addStoryWithRooms(p,{name='',sourceIds=null}={}){normalizeStories(p);const t=clone(p),st=addStory(t,name),below=st.index-1;
+     let src=t.rooms.filter(r=>(r.story||0)===below);if(Array.isArray(sourceIds))src=src.filter(r=>sourceIds.includes(r.id));const made=[];
+@@ -954,7 +975,7 @@
+     const low=createViewpoint(p,{x:5,y:7.1},{x:5,y:1.2},'Atrium · lower floor',r.id);low.fov=100;
+     const upper=createViewpoint(p,{x:5,y:1},{x:5,y:5},'North gallery',n.id);upper.fov=92;addLink(p,low.id,upper.id);p.startViewId=low.id;return p;
+   }
+-  return {SKY_DEFAULT,SKY_PRESETS,defaultSky,normalizeSky,normalizeRouteNet,normalizeProp,normalizePropPoint,normalizeObjectLibrary,LOOK_FIELDS,lookById,paletteVariantById,propAppearance,propYaw,propFrontTurn,propFloorZ,propToPlan,planToProp,propPointHeading,propBoundsOf,propFootprint,propBlocksWalking,propScale,validBounds,pointInPoly,polyDistToSegment,segDist,setMapProjection,mapProjection,floorCutAt,stairById,stairGeometry,stairRect,createStairs,applyStairCuts,deleteStairs,editStairs,checkStairs,STAIR_DIRS,SURFACE_EXTRA,OPENING_EXTRA,LIGHT_EXTRA,FINISHES,normalizeSurface,normalizeOpening,openingGeometry,openingRanges,editOpening,styleSnapshot,applyStyleSnapshot,EPS,SIDES,SIDE_NAMES,PALETTES,uid,clone,clamp,rad,norm,round,finite,basis,heading,fromDisplay,toDisplay,surface,backdrop,
++  return {SKY_DEFAULT,SKY_PRESETS,defaultSky,normalizeSky,normalizeRouteNet,normalizeProp,normalizePropPoint,normalizeObjectLibrary,LOOK_FIELDS,lookById,paletteVariantById,propAppearance,propYaw,propFrontTurn,preservePropSetup,propSegmentHits,propAppearanceIssues,propFloorZ,propToPlan,planToProp,propPointHeading,propBoundsOf,propFootprint,propBlocksWalking,propScale,validBounds,pointInPoly,polyDistToSegment,segDist,setMapProjection,mapProjection,floorCutAt,stairById,stairGeometry,stairRect,createStairs,applyStairCuts,deleteStairs,editStairs,checkStairs,STAIR_DIRS,SURFACE_EXTRA,OPENING_EXTRA,LIGHT_EXTRA,FINISHES,normalizeSurface,normalizeOpening,openingGeometry,openingRanges,editOpening,styleSnapshot,applyStyleSnapshot,EPS,SIDES,SIDE_NAMES,PALETTES,uid,clone,clamp,rad,norm,round,finite,basis,heading,fromDisplay,toDisplay,surface,backdrop,
+     newProject,makeRoom,addRoomAbove,normalizeStories,addStory,renameStory,deleteStory,storyRecord,storyElevation,roomElevation,roomTop,storyList,storyLabel,storyName,roomAtStory,floorSectionAt,floorSectionHost,lightingRoomAt,storyContents,deleteRoom,floorSectionToRoom,addStoryWithRooms,makeFloorSection,floorSectionById,makeCeilingRect,ceilingPatchAt,ceilingExistsAt,ceilingSurfaceAt,createFreeWall,createPillar,pillarById,isBalconyWall,applyPalette,partitionById,partitionLine,partitionHeight,partitionWall,wallBase,wallCap,openingHostLine,openingCap,openingHostLabel,checkPartitions,createPartition,editPartition,deletePartition,unusedWallSpans,suggestOpening,openUnusedSpans,exteriorSpans,canAttachRoom,attachRoomPlan,attachRoom,roomById,inRect,roomAt,inFloor,bounds,roomsOverlap,checkRooms,wallLine,wallPoint,roomWalls,openingLine,
+     openingsForWall,adjacentRoom,ownerFacing,wallStyle,backdropFor,backdropFrame,backdropRay,backdropAtWall,backdropUV,openingAt,validateOpening,createOpening,fullOpenWall,rayHit,segmentInFloor,routeCheck,
+     lens,localFloor,fpPoint,fpInverse,setIsoFrame,isoTransform,isoPoint,isoInverse,footprint,extent,objectInside,clampObject,createObject,facingSlot,assetFor,rectFor,

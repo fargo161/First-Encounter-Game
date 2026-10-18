@@ -1,0 +1,51 @@
+[
+  {
+    "script": "remediation_browser.py",
+    "kind": "assertions",
+    "exitCode": 1,
+    "seconds": 27.67,
+    "log": "remediation_browser.py.log"
+  },
+  {
+    "script": "assets_browser.py",
+    "kind": "assertions",
+    "exitCode": 1,
+    "seconds": 131.53,
+    "log": "assets_browser.py.log"
+  },
+  {
+    "script": "assets_all_models.py",
+    "kind": "assertions",
+    "exitCode": 0,
+    "seconds": 48.14,
+    "log": "assets_all_models.py.log"
+  },
+  {
+    "script": "assets_demo_checks.py",
+    "kind": "assertions",
+    "exitCode": 0,
+    "seconds": 158.2,
+    "log": "assets_demo_checks.py.log"
+  },
+  {
+    "script": "assets_perf.py",
+    "kind": "observational",
+    "exitCode": 0,
+    "seconds": 58.66,
+    "log": "assets_perf.py.log"
+  },
+  {
+    "script": "assets_vehicle_fronts.py",
+    "kind": "observational",
+    "exitCode": 0,
+    "seconds": 10.69,
+    "log": "assets_vehicle_fronts.py.log"
+  },
+  {
+    "script": "demo_screens.py",
+    "kind": "observational",
+    "exitCode": 0,
+    "seconds": 69.62,
+    "log": "demo_screens.py.log"
+  }
+]

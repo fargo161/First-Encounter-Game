@@ -1,0 +1,107 @@
+{
+  "package_name": "Trapstar_RoomCreator_Asset_Library_v1",
+  "purpose": "Canonical asset intake handoff for Room Creator 3D placement, texture override, and palette-swap implementation.",
+  "generated_date": "2026-10-18",
+  "asset_counts": {
+    "model": 327,
+    "palette": 3,
+    "surface_texture": 1043
+  },
+  "verification": {
+    "verification_status": "PASS",
+    "logical_assets": 1373,
+    "models": 327,
+    "surface_textures": 1043,
+    "palettes": 3,
+    "duplicate_asset_ids": 0,
+    "missing_referenced_files": 0,
+    "glb_structural_reload_passed": 327,
+    "glb_structural_reload_failed": 0,
+    "models_with_embedded_base_texture": 327,
+    "model_finite_positive_bounds_failures": 0,
+    "surface_texture_read_failures": 0,
+    "surface_texture_dimensions": {
+      "256x256": 1043
+    },
+    "palette_dimensions": {
+      "pal_kent_cars_8": "400x400",
+      "pal_lowpoly_master_32": "32x32",
+      "pal_modular_proto_8": "8x8"
+    },
+    "original_source_archive_hash_matches": {
+      "cars_lowpoly_v2": true,
+      "cars_kent_lowpoly": true,
+      "lowpoly_props_cc0": true,
+      "pixel_art_textures": true,
+      "modular_prototyping_cc0": true
+    },
+    "files_to_be_covered_by_internal_checksum_list": 2753,
+    "known_warnings": [
+      "Vehicle front sign (+Z versus -Z) is not automatically verified.",
+      "Two car packs have no supplied license text and remain commercially unverified.",
+      "Visual material appearance should be spot-checked in the target Room Creator renderer even though GLBs structurally reload."
+    ]
+  },
+  "source_packs": [
+    {
+      "pack_id": "cars_lowpoly_v2",
+      "archive_filename": "3D_lowPoly_cars_v2.rar",
+      "archive_sha256": "b81a226397f26be6566052c2cf19bfed88e8ac1e9cf7168d9e9897fa41ce57fe",
+      "archive_bytes": 21387036,
+      "status": "unknown",
+      "license": "No license text found in supplied archive",
+      "commercial_use": null,
+      "credit_required": null,
+      "raw_redistribution": "UNKNOWN \u2014 verify source/license before commercial release.",
+      "license_file": "LICENSES/cars_lowpoly_v2_LICENSE_STATUS.txt"
+    },
+    {
+      "pack_id": "cars_kent_lowpoly",
+      "archive_filename": "Low Poly Car Pack.zip",
+      "archive_sha256": "6c193bb4f230c1a2272a7b9777ed076cbe22507b6b07993c15218d4b2d80849f",
+      "archive_bytes": 5302778,
+      "status": "unknown",
+      "license": "No license text found in supplied archive",
+      "commercial_use": null,
+      "credit_required": null,
+      "raw_redistribution": "UNKNOWN \u2014 verify source/license before commercial release.",
+      "license_file": "LICENSES/cars_kent_lowpoly_LICENSE_STATUS.txt"
+    },
+    {
+      "pack_id": "lowpoly_props_cc0",
+      "archive_filename": "LowPolyAssetPack_Free.zip",
+      "archive_sha256": "71fd5d74693f40511b939279e7821fecd1064da48721aa53b458d0843f31486e",
+      "archive_bytes": 35669716,
+      "status": "known",
+      "license": "CC0 1.0 Universal",
+      "commercial_use": true,
+      "credit_required": false,
+      "raw_redistribution": "CC0/public domain",
+      "license_file": "LICENSES/lowpoly_props_cc0.txt"
+    },
+    {
+      "pack_id": "pixel_art_textures",
+      "archive_filename": "PNG - Pixel Art Textures.zip",
+      "archive_sha256": "66d9ba40ef79812ed1d0b13c875d361f1c23eeee441d86b69c208589d8e04fd0",
+      "archive_bytes": 28038535,
+      "status": "known",
+      "license": "Custom free-use license in supplied pack",
+      "commercial_use": true,
+      "credit_required": false,
+      "raw_redistribution": "Do not redistribute/repackage raw asset pack except as content files in a project; see supplied license.",
+      "license_file": "LICENSES/pixel_art_textures.txt"
+    },
+    {
+      "pack_id": "modular_prototyping_cc0",
+      "archive_filename": "Free 3D Modular Game Assets For Prototyping.zip",
+      "archive_sha256": "fc22015d5ec0860955c0e4969bed4c57c1b0912690f16a563c7413b1fd4bcbde",
+      "archive_bytes": 681956,
+      "status": "known",
+      "license": "CC0",
+      "commercial_use": true,
+      "credit_required": false,
+      "raw_redistribution": "CC0/public domain",
+      "license_file": "LICENSES/modular_prototyping_cc0.txt"
+    }
+  ]
+}

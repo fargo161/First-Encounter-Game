@@ -1,0 +1,300 @@
+{
+ "schema_version": "1.0",
+ "library_name": "Trapstar Room Creator Asset Library v1",
+ "generated_date": "2026-10-18",
+ "canonical_coordinate_system": {
+  "units": "meters",
+  "up_axis": "+Y",
+  "vehicle_longitudinal_axis": "+/-Z",
+  "vehicle_front_sign": "not automatically verified",
+  "default_model_pivot": "ground-center"
+ },
+ "assets": [
+  {
+   "asset_id": "lp_furniture_chairs_mesh_chair_wood_01",
+   "display_name": "Chair Wood 01",
+   "asset_type": "model",
+   "category_path": [
+    "Furniture",
+    "Chairs"
+   ],
+   "tags": [
+    "cc0",
+    "chair",
+    "chairs",
+    "furniture",
+    "low-poly",
+    "palette-mapped",
+    "seating"
+   ],
+   "source_pack_id": "lowpoly_props_cc0",
+   "source_archive": "LowPolyAssetPack_Free.zip",
+   "source_path": "LowPolyAssetPack_Free/LowPolyAssetPack_Free/FBX and Blend Files/Furniture/Chairs/Mesh_Chair_Wood_01.fbx",
+   "source_subasset": null,
+   "source_fbx_path": "STANDARDIZED_LIBRARY/models/furniture/chairs/lp_furniture_chairs_mesh_chair_wood_01/source.fbx",
+   "working_format": "glb",
+   "working_path": "STANDARDIZED_LIBRARY/models/furniture/chairs/lp_furniture_chairs_mesh_chair_wood_01/model.glb",
+   "thumbnail_path": "PREVIEWS/models/lp_furniture_chairs_mesh_chair_wood_01.png",
+   "material_system": "palette",
+   "base_texture_path": "STANDARDIZED_LIBRARY/models/furniture/chairs/lp_furniture_chairs_mesh_chair_wood_01/base_texture.png",
+   "recommended_filter": "nearest",
+   "license_status": "known",
+   "commercial_use_verified": true,
+   "recommended_for_room_creator": true,
+   "conversion_status": "converted_verified_structure",
+   "canonical_standard": {
+    "units": "meters",
+    "up_axis": "+Y",
+    "pivot": "ground-center",
+    "vehicle_longitudinal_axis": null,
+    "vehicle_front_sign_verified": null
+   },
+   "dimensions_m": [
+    0.3737438768148422,
+    1.072399563284337,
+    0.40665293317598206
+   ],
+   "mesh_parts": 1,
+   "triangle_count": 416,
+   "expanded_vertex_count": 832,
+   "glb_scene_geometry_count": 1,
+   "standardization_transform": {
+    "yaw_deg": 0.0,
+    "uniform_scale": 1.0
+   },
+   "conversion_notes": "Static-mesh GLB derived with hierarchy/pivots retained where possible. Visual orientation/front sign requires preview verification."
+  },
+  {
+   "asset_id": "lp_dumpster_bins_mesh_dumpster_closed",
+   "display_name": "Dumpster Closed",
+   "asset_type": "model",
+   "category_path": [
+    "Street",
+    "Bins & Dumpsters"
+   ],
+   "tags": [
+    "bins_and_dumpsters",
+    "cc0",
+    "low-poly",
+    "palette-mapped",
+    "street"
+   ],
+   "source_pack_id": "lowpoly_props_cc0",
+   "source_archive": "LowPolyAssetPack_Free.zip",
+   "source_path": "LowPolyAssetPack_Free/LowPolyAssetPack_Free/FBX and Blend Files/Dumpster Bins/Mesh_Dumpster_Closed.fbx",
+   "source_subasset": null,
+   "source_fbx_path": "STANDARDIZED_LIBRARY/models/street/bins_and_dumpsters/lp_dumpster_bins_mesh_dumpster_closed/source.fbx",
+   "working_format": "glb",
+   "working_path": "STANDARDIZED_LIBRARY/models/street/bins_and_dumpsters/lp_dumpster_bins_mesh_dumpster_closed/model.glb",
+   "thumbnail_path": "PREVIEWS/models/lp_dumpster_bins_mesh_dumpster_closed.png",
+   "material_system": "palette",
+   "base_texture_path": "STANDARDIZED_LIBRARY/models/street/bins_and_dumpsters/lp_dumpster_bins_mesh_dumpster_closed/base_texture.png",
+   "recommended_filter": "nearest",
+   "license_status": "known",
+   "commercial_use_verified": true,
+   "recommended_for_room_creator": true,
+   "conversion_status": "converted_verified_structure",
+   "canonical_standard": {
+    "units": "meters",
+    "up_axis": "+Y",
+    "pivot": "ground-center",
+    "vehicle_longitudinal_axis": null,
+    "vehicle_front_sign_verified": null
+   },
+   "dimensions_m": [
+    1.1975510716438293,
+    1.4926224945548026,
+    1.7984113376225663
+   ],
+   "mesh_parts": 1,
+   "triangle_count": 3238,
+   "expanded_vertex_count": 6478,
+   "glb_scene_geometry_count": 1,
+   "standardization_transform": {
+    "yaw_deg": 0.0,
+    "uniform_scale": 1.0
+   },
+   "conversion_notes": "Static-mesh GLB derived with hierarchy/pivots retained where possible. Visual orientation/front sign requires preview verification."
+  },
+  {
+   "asset_id": "pal_lowpoly_master_32",
+   "display_name": "LowPoly Master 32x32",
+   "asset_type": "palette",
+   "category_path": [
+    "Palettes"
+   ],
+   "tags": [
+    "palette",
+    "recolor",
+    "nearest-filter"
+   ],
+   "source_pack_id": "lowpoly_props_cc0",
+   "source_path": "LowPolyAssetPack_Free/LowPolyAssetPack_Free/TextureMap/MasterMaterial1px.png",
+   "working_path": "STANDARDIZED_LIBRARY/palettes/pal_lowpoly_master_32.png",
+   "dimensions_px": [
+    32,
+    32
+   ],
+   "recommended_filter": "nearest",
+   "license_status": "known"
+  },
+  {
+   "asset_id": "chair_file_deleted",
+   "display_name": "Chair (file deleted)",
+   "asset_type": "model",
+   "category_path": [
+    "Furniture",
+    "Chairs"
+   ],
+   "tags": [
+    "cc0",
+    "chair",
+    "chairs",
+    "furniture",
+    "low-poly",
+    "palette-mapped",
+    "seating"
+   ],
+   "source_pack_id": "lowpoly_props_cc0",
+   "source_archive": "LowPolyAssetPack_Free.zip",
+   "source_path": "LowPolyAssetPack_Free/LowPolyAssetPack_Free/FBX and Blend Files/Furniture/Chairs/Mesh_Chair_Wood_01.fbx",
+   "source_subasset": null,
+   "source_fbx_path": "STANDARDIZED_LIBRARY/models/furniture/chairs/lp_furniture_chairs_mesh_chair_wood_01/source.fbx",
+   "working_format": "glb",
+   "working_path": "STANDARDIZED_LIBRARY/models/nowhere/model.glb",
+   "thumbnail_path": "PREVIEWS/models/lp_furniture_chairs_mesh_chair_wood_01.png",
+   "material_system": "palette",
+   "base_texture_path": "STANDARDIZED_LIBRARY/models/furniture/chairs/lp_furniture_chairs_mesh_chair_wood_01/base_texture.png",
+   "recommended_filter": "nearest",
+   "license_status": "known",
+   "commercial_use_verified": true,
+   "recommended_for_room_creator": true,
+   "conversion_status": "converted_verified_structure",
+   "canonical_standard": {
+    "units": "meters",
+    "up_axis": "+Y",
+    "pivot": "ground-center",
+    "vehicle_longitudinal_axis": null,
+    "vehicle_front_sign_verified": null
+   },
+   "dimensions_m": [
+    0.3737438768148422,
+    1.072399563284337,
+    0.40665293317598206
+   ],
+   "mesh_parts": 1,
+   "triangle_count": 416,
+   "expanded_vertex_count": 832,
+   "glb_scene_geometry_count": 1,
+   "standardization_transform": {
+    "yaw_deg": 0.0,
+    "uniform_scale": 1.0
+   },
+   "conversion_notes": "Static-mesh GLB derived with hierarchy/pivots retained where possible. Visual orientation/front sign requires preview verification."
+  },
+  {
+   "asset_id": "lp_dumpster_bins_mesh_dumpster_closed",
+   "display_name": "Dumpster Closed",
+   "asset_type": "model",
+   "category_path": [
+    "Street",
+    "Bins & Dumpsters"
+   ],
+   "tags": [
+    "bins_and_dumpsters",
+    "cc0",
+    "low-poly",
+    "palette-mapped",
+    "street"
+   ],
+   "source_pack_id": "lowpoly_props_cc0",
+   "source_archive": "LowPolyAssetPack_Free.zip",
+   "source_path": "LowPolyAssetPack_Free/LowPolyAssetPack_Free/FBX and Blend Files/Dumpster Bins/Mesh_Dumpster_Closed.fbx",
+   "source_subasset": null,
+   "source_fbx_path": "STANDARDIZED_LIBRARY/models/street/bins_and_dumpsters/lp_dumpster_bins_mesh_dumpster_closed/source.fbx",
+   "working_format": "glb",
+   "working_path": "STANDARDIZED_LIBRARY/models/street/bins_and_dumpsters/lp_dumpster_bins_mesh_dumpster_closed/model.glb",
+   "thumbnail_path": "PREVIEWS/models/lp_dumpster_bins_mesh_dumpster_closed.png",
+   "material_system": "palette",
+   "base_texture_path": "STANDARDIZED_LIBRARY/models/street/bins_and_dumpsters/lp_dumpster_bins_mesh_dumpster_closed/base_texture.png",
+   "recommended_filter": "nearest",
+   "license_status": "known",
+   "commercial_use_verified": true,
+   "recommended_for_room_creator": true,
+   "conversion_status": "converted_verified_structure",
+   "canonical_standard": {
+    "units": "meters",
+    "up_axis": "+Y",
+    "pivot": "ground-center",
+    "vehicle_longitudinal_axis": null,
+    "vehicle_front_sign_verified": null
+   },
+   "dimensions_m": [
+    1.1975510716438293,
+    1.4926224945548026,
+    1.7984113376225663
+   ],
+   "mesh_parts": 1,
+   "triangle_count": 3238,
+   "expanded_vertex_count": 6478,
+   "glb_scene_geometry_count": 1,
+   "standardization_transform": {
+    "yaw_deg": 0.0,
+    "uniform_scale": 1.0
+   },
+   "conversion_notes": "Static-mesh GLB derived with hierarchy/pivots retained where possible. Visual orientation/front sign requires preview verification."
+  },
+  {
+   "asset_id": "no_path_model",
+   "display_name": "Dumpster Closed",
+   "asset_type": "model",
+   "category_path": [
+    "Street",
+    "Bins & Dumpsters"
+   ],
+   "tags": [
+    "bins_and_dumpsters",
+    "cc0",
+    "low-poly",
+    "palette-mapped",
+    "street"
+   ],
+   "source_pack_id": "lowpoly_props_cc0",
+   "source_archive": "LowPolyAssetPack_Free.zip",
+   "source_path": "LowPolyAssetPack_Free/LowPolyAssetPack_Free/FBX and Blend Files/Dumpster Bins/Mesh_Dumpster_Closed.fbx",
+   "source_subasset": null,
+   "source_fbx_path": "STANDARDIZED_LIBRARY/models/street/bins_and_dumpsters/lp_dumpster_bins_mesh_dumpster_closed/source.fbx",
+   "working_format": "glb",
+   "thumbnail_path": "PREVIEWS/models/lp_dumpster_bins_mesh_dumpster_closed.png",
+   "material_system": "palette",
+   "base_texture_path": "STANDARDIZED_LIBRARY/models/street/bins_and_dumpsters/lp_dumpster_bins_mesh_dumpster_closed/base_texture.png",
+   "recommended_filter": "nearest",
+   "license_status": "known",
+   "commercial_use_verified": true,
+   "recommended_for_room_creator": true,
+   "conversion_status": "converted_verified_structure",
+   "canonical_standard": {
+    "units": "meters",
+    "up_axis": "+Y",
+    "pivot": "ground-center",
+    "vehicle_longitudinal_axis": null,
+    "vehicle_front_sign_verified": null
+   },
+   "dimensions_m": [
+    1.1975510716438293,
+    1.4926224945548026,
+    1.7984113376225663
+   ],
+   "mesh_parts": 1,
+   "triangle_count": 3238,
+   "expanded_vertex_count": 6478,
+   "glb_scene_geometry_count": 1,
+   "standardization_transform": {
+    "yaw_deg": 0.0,
+    "uniform_scale": 1.0
+   },
+   "conversion_notes": "Static-mesh GLB derived with hierarchy/pivots retained where possible. Visual orientation/front sign requires preview verification."
+  },
+  "not an object"
+ ]
+}

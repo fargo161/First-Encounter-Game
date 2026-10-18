@@ -1,0 +1,80 @@
+{
+  "project": {
+    "format": "trapstar-room-creator",
+    "version": 7,
+    "name": "Untitled floor plan",
+    "units": "m",
+    "grid": 0.5,
+    "wallHeight": 2.7,
+    "rooms": [
+      {
+        "id": "room_mumoekt7_dmbx1q6",
+        "name": "Room 01",
+        "x": 0,
+        "y": 0,
+        "width": 8,
+        "length": 6,
+        "floor": {
+          "color": "#736d65",
+          "finish": "concrete",
+          "textureId": null,
+          "tileSize": 1,
+          "angle": 0,
+          "offsetX": 0,
+          "offsetY": 0,
+          "textureOpacity": 1
+        },
+        "wall": {
+          "color": "#a8aaa6",
+          "finish": "paint",
+          "textureId": null,
+          "tileSize": 1,
+          "angle": 0,
+          "offsetX": 0,
+          "offsetY": 0,
+          "textureOpacity": 1
+        },
+        "ceiling": {
+          "color": "#afb2b4",
+          "finish": "paint",
+          "textureId": null,
+          "tileSize": 1,
+          "angle": 0,
+          "offsetX": 0,
+          "offsetY": 0,
+          "textureOpacity": 1
+        },
+        "walls": {},
+        "light": {
+          "brightness": 1,
+          "tint": "#ffffff",
+          "tintStrength": 0.18
+        },
+        "exterior": {
+          "default": {
+            "assetId": null,
+            "fit": "cover",
+            "scale": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "alpha": 1,
+            "distance": 0
+          },
+          "sides": {}
+        }
+      }
+    ],
+    "partitions": [],
+    "openings": [],
+    "lights": [],
+    "objects": [],
+    "viewpoints": [],
+    "pairs": [],
+    "links": [],
+    "startViewId": null,
+    "migrationNotes": [],
+    "legacyArchive": null
+  },
+  "assets": [],
+  "savedWith": "TRAPSTAR Room Creator 0.7"
+}

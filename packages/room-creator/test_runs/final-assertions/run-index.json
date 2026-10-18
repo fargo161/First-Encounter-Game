@@ -1,0 +1,130 @@
+[
+  {
+    "script": "architecture_extensions.test.js",
+    "buildSHA256": "a4e8a14ddc4d734c036902f56b1a7d7bb8a157a77ef3911b97ea70c76f228c97",
+    "kind": "assertions",
+    "exitCode": 0,
+    "seconds": 7.64,
+    "log": "architecture_extensions.test.js.log"
+  },
+  {
+    "script": "asset_demo_file.test.js",
+    "buildSHA256": "a4e8a14ddc4d734c036902f56b1a7d7bb8a157a77ef3911b97ea70c76f228c97",
+    "kind": "assertions",
+    "exitCode": 0,
+    "seconds": 2.3,
+    "log": "asset_demo_file.test.js.log"
+  },
+  {
+    "script": "construction_v10.test.js",
+    "buildSHA256": "a4e8a14ddc4d734c036902f56b1a7d7bb8a157a77ef3911b97ea70c76f228c97",
+    "kind": "assertions",
+    "exitCode": 0,
+    "seconds": 2.72,
+    "log": "construction_v10.test.js.log"
+  },
+  {
+    "script": "core.test.js",
+    "buildSHA256": "a4e8a14ddc4d734c036902f56b1a7d7bb8a157a77ef3911b97ea70c76f228c97",
+    "kind": "assertions",
+    "exitCode": 0,
+    "seconds": 3.0,
+    "log": "core.test.js.log"
+  },
+  {
+    "script": "multistory.test.js",
+    "buildSHA256": "a4e8a14ddc4d734c036902f56b1a7d7bb8a157a77ef3911b97ea70c76f228c97",
+    "kind": "assertions",
+    "exitCode": 0,
+    "seconds": 3.28,
+    "log": "multistory.test.js.log"
+  },
+  {
+    "script": "props_metadata.test.js",
+    "buildSHA256": "a4e8a14ddc4d734c036902f56b1a7d7bb8a157a77ef3911b97ea70c76f228c97",
+    "kind": "assertions",
+    "exitCode": 0,
+    "seconds": 3.2,
+    "log": "props_metadata.test.js.log"
+  },
+  {
+    "script": "remediation_core.test.js",
+    "buildSHA256": "a4e8a14ddc4d734c036902f56b1a7d7bb8a157a77ef3911b97ea70c76f228c97",
+    "kind": "assertions",
+    "exitCode": 0,
+    "seconds": 3.53,
+    "log": "remediation_core.test.js.log"
+  },
+  {
+    "script": "shared_matte.test.js",
+    "buildSHA256": "a4e8a14ddc4d734c036902f56b1a7d7bb8a157a77ef3911b97ea70c76f228c97",
+    "kind": "assertions",
+    "exitCode": 0,
+    "seconds": 2.92,
+    "log": "shared_matte.test.js.log"
+  },
+  {
+    "script": "style_openings.test.js",
+    "buildSHA256": "a4e8a14ddc4d734c036902f56b1a7d7bb8a157a77ef3911b97ea70c76f228c97",
+    "kind": "assertions",
+    "exitCode": 0,
+    "seconds": 2.66,
+    "log": "style_openings.test.js.log"
+  },
+  {
+    "script": "v0_11_1_story_floor.test.js",
+    "buildSHA256": "a4e8a14ddc4d734c036902f56b1a7d7bb8a157a77ef3911b97ea70c76f228c97",
+    "kind": "assertions",
+    "exitCode": 0,
+    "seconds": 2.7,
+    "log": "v0_11_1_story_floor.test.js.log"
+  },
+  {
+    "script": "v0_12_stories_rooms.test.js",
+    "buildSHA256": "a4e8a14ddc4d734c036902f56b1a7d7bb8a157a77ef3911b97ea70c76f228c97",
+    "kind": "assertions",
+    "exitCode": 0,
+    "seconds": 4.34,
+    "log": "v0_12_stories_rooms.test.js.log"
+  },
+  {
+    "script": "build_repro.py",
+    "buildSHA256": "a4e8a14ddc4d734c036902f56b1a7d7bb8a157a77ef3911b97ea70c76f228c97",
+    "kind": "assertions",
+    "exitCode": 0,
+    "seconds": 2.55,
+    "log": "build_repro.py.log"
+  },
+  {
+    "script": "remediation_browser.py",
+    "buildSHA256": "a4e8a14ddc4d734c036902f56b1a7d7bb8a157a77ef3911b97ea70c76f228c97",
+    "kind": "assertions",
+    "exitCode": 0,
+    "seconds": 45.56,
+    "log": "remediation_browser.py.log"
+  },
+  {
+    "script": "assets_browser.py",
+    "buildSHA256": "a4e8a14ddc4d734c036902f56b1a7d7bb8a157a77ef3911b97ea70c76f228c97",
+    "kind": "assertions",
+    "exitCode": 0,
+    "seconds": 149.58,
+    "log": "assets_browser.py.log"
+  },
+  {
+    "script": "assets_all_models.py",
+    "buildSHA256": "a4e8a14ddc4d734c036902f56b1a7d7bb8a157a77ef3911b97ea70c76f228c97",
+    "kind": "assertions",
+    "exitCode": 0,
+    "seconds": 36.86,
+    "log": "assets_all_models.py.log"
+  },
+  {
+    "script": "assets_demo_checks.py",
+    "buildSHA256": "a4e8a14ddc4d734c036902f56b1a7d7bb8a157a77ef3911b97ea70c76f228c97",
+    "kind": "assertions",
+    "exitCode": 0,
+    "seconds": 113.34,
+    "log": "assets_demo_checks.py.log"
+  }
+]

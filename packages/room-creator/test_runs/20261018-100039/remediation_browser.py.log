@@ -1,0 +1,44 @@
+PASS WebGL precondition
+PASS F1 shift edit/undo/redo/reopen
+PASS F1 force edit/undo/redo/reopen
+PASS F1 occupied
+PASS F1 room-remove edit/undo/redo/reopen
+PASS F1 room-retain edit/undo/redo/reopen
+PASS F2 setup deletion preserves render/footprint/world points/metadata
+PASS F2 deletion undo restores world pose
+PASS F2 deletion redo preserves world pose
+PASS F2 deletion save/reopen preserves world pose
+PASS F2 conflict import keeps setup/pose and reports asset ID
+PASS F2 import undo preserves world pose
+PASS F2 import redo/reopen preserves world pose
+FAIL F2 new calibration import compensates existing instances
+PASS F3 tiny elevated drag story=0 rotation=0
+PASS F3 elevated drag stays small and keeps height story=0
+PASS F3 drag undo story=0
+PASS F3 drag redo/reopen story=0
+PASS F3 tiny elevated drag story=0 rotation=37
+FAIL F3 elevated drag stays small and keeps height story=0
+FAIL F3 drag undo story=0
+PASS F3 drag redo/reopen story=0
+PASS F3 tiny elevated drag story=1 rotation=128
+FAIL F3 elevated drag stays small and keeps height story=1
+FAIL F3 drag undo story=1
+PASS F3 drag redo/reopen story=1
+PASS F4 round empty corner clear; centre crossing blocked
+PASS F5 Missing palette missing-palette
+PASS F5 field reset retains custom metadata
+PASS F5 undo/reopen retains unresolved reference
+PASS F5 Missing texture missing-texture
+PASS F5 field reset retains custom metadata
+PASS F5 undo/reopen retains unresolved reference
+PASS F5 Missing texture missing-image
+PASS F5 field reset retains custom metadata
+PASS F5 undo/reopen retains unresolved reference
+PASS F5 Incompatible palette pal_kent_cars_8
+PASS F5 field reset retains custom metadata
+PASS F5 undo/reopen retains unresolved reference
+PASS F7 transient model read recovers within bounded retry
+PASS F7 persistent failure has ID/path/error and exactly three attempts
+PASS F7 explicit retry recovers without changing project
+PASS Cache new project releases prop textures and objects
+PASS No page errors

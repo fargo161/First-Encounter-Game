@@ -1,0 +1,343 @@
+{
+  "suite": "core",
+  "passed": 84,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "New project has one empty floor section and no placeable assets",
+      "passed": true
+    },
+    {
+      "name": "Rooms use real dimensions and coherent units",
+      "passed": true
+    },
+    {
+      "name": "Adjoining east room shares a physical wall",
+      "passed": true
+    },
+    {
+      "name": "L-shaped floor excludes the missing corner",
+      "passed": true
+    },
+    {
+      "name": "Shared boundary is deduplicated, not two solid walls",
+      "passed": true
+    },
+    {
+      "name": "Full shared opening uses the exact shared interval",
+      "passed": true
+    },
+    {
+      "name": "A wall opening identifies its adjoining room",
+      "passed": true
+    },
+    {
+      "name": "North and west extensions support negative coordinates",
+      "passed": true
+    },
+    {
+      "name": "South adjoining room aligns the correct axis",
+      "passed": true
+    },
+    {
+      "name": "Overlapping room additions fail without changing the plan",
+      "passed": true
+    },
+    {
+      "name": "Detached offset rejected by adjoining-room creation",
+      "passed": true
+    },
+    {
+      "name": "Room floor membership treats an open shared seam as interior",
+      "passed": true
+    },
+    {
+      "name": "Doors cannot be created without an existing wall",
+      "passed": true
+    },
+    {
+      "name": "Unknown wall side rejected",
+      "passed": true
+    },
+    {
+      "name": "Opening must fit entirely on its host wall",
+      "passed": true
+    },
+    {
+      "name": "Window sill plus height cannot exceed wall height",
+      "passed": true
+    },
+    {
+      "name": "Doors must meet the floor",
+      "passed": true
+    },
+    {
+      "name": "Overlapping opposite-face openings are rejected",
+      "passed": true
+    },
+    {
+      "name": "Moving an anchored opening follows its host room",
+      "passed": true
+    },
+    {
+      "name": "A shared aperture cuts both room faces",
+      "passed": true
+    },
+    {
+      "name": "Opening an already pierced full section is rejected safely",
+      "passed": true
+    },
+    {
+      "name": "Open door permits movement both directions",
+      "passed": true
+    },
+    {
+      "name": "Closed door blocks movement without deleting its route",
+      "passed": true
+    },
+    {
+      "name": "A window is never a walking connection",
+      "passed": true
+    },
+    {
+      "name": "An open passage permits movement through the shared boundary",
+      "passed": true
+    },
+    {
+      "name": "Solid partition blocks line routes",
+      "passed": true
+    },
+    {
+      "name": "A diagonal route cannot cut through an L-shaped void",
+      "passed": true
+    },
+    {
+      "name": "External open walls do not make empty exterior walkable",
+      "passed": true
+    },
+    {
+      "name": "Door jambs are not walk-through floor",
+      "passed": true
+    },
+    {
+      "name": "Viewpoint requires position and a distinct facing click",
+      "passed": true
+    },
+    {
+      "name": "Views outside the floor plan do not exist",
+      "passed": true
+    },
+    {
+      "name": "A view cannot sit on a solid shared boundary",
+      "passed": true
+    },
+    {
+      "name": "View placed beside an open seam has a valid floor position",
+      "passed": true
+    },
+    {
+      "name": "Viewpoint default is ordinary, not covered or exposed",
+      "passed": true
+    },
+    {
+      "name": "Cannot create exposed partner before cover is assigned",
+      "passed": true
+    },
+    {
+      "name": "Cannot assign cover to an unplaced viewpoint",
+      "passed": true
+    },
+    {
+      "name": "A cover source must really exist",
+      "passed": true
+    },
+    {
+      "name": "Assigning cover retains the existing map position and creates no partner",
+      "passed": true
+    },
+    {
+      "name": "Edge partner has a real offset and common direction",
+      "passed": true
+    },
+    {
+      "name": "Low-cover partner shares floor position and rises",
+      "passed": true
+    },
+    {
+      "name": "Duplicate partner creation is rejected",
+      "passed": true
+    },
+    {
+      "name": "Exposed partner cannot become another primary cover source",
+      "passed": true
+    },
+    {
+      "name": "Partner outside the floor is rejected before adding a view",
+      "passed": true
+    },
+    {
+      "name": "Partner cannot cross a solid wall",
+      "passed": true
+    },
+    {
+      "name": "Existing ordinary view can become the partner after assignment",
+      "passed": true
+    },
+    {
+      "name": "An existing exposed candidate beyond 3m cannot pair",
+      "passed": true
+    },
+    {
+      "name": "Moving the primary moves both states by the same delta",
+      "passed": true
+    },
+    {
+      "name": "Moving the exposed marker translates the primary too",
+      "passed": true
+    },
+    {
+      "name": "Turning either state keeps directions and relative offsets coordinated",
+      "passed": true
+    },
+    {
+      "name": "Unpairing keeps both positions and primary cover assignment",
+      "passed": true
+    },
+    {
+      "name": "Removing cover converts its partner back to an ordinary view",
+      "passed": true
+    },
+    {
+      "name": "Deleting a primary view does not delete the exposed view",
+      "passed": true
+    },
+    {
+      "name": "Removing a cover object clears assignments without deleting viewpoints",
+      "passed": true
+    },
+    {
+      "name": "Cover is not moved by its source object",
+      "passed": true
+    },
+    {
+      "name": "Imported object is a single shared record with calibrated artwork",
+      "passed": true
+    },
+    {
+      "name": "Aspect ratio is preserved for upright first-person sprites",
+      "passed": true
+    },
+    {
+      "name": "Footprints cannot straddle the missing L corner",
+      "passed": true
+    },
+    {
+      "name": "Object can straddle an open floor seam",
+      "passed": true
+    },
+    {
+      "name": "Oversized object is not silently scaled",
+      "passed": true
+    },
+    {
+      "name": "Isometric round trip works with rooms at negative coordinates",
+      "passed": true
+    },
+    {
+      "name": "First-person floor inverse round trips at multiple directions",
+      "passed": true
+    },
+    {
+      "name": "The horizon is not a valid floor-placement target",
+      "passed": true
+    },
+    {
+      "name": "Room shrink reports affected objects rather than silently moving them",
+      "passed": true
+    },
+    {
+      "name": "Explicit safe relocation is validated on room shrink",
+      "passed": true
+    },
+    {
+      "name": "Shrinking a wall below an opening width rejects the edit",
+      "passed": true
+    },
+    {
+      "name": "Room translation moves its content and viewpoint together",
+      "passed": true
+    },
+    {
+      "name": "Changing a connection reports the lost adjoining room",
+      "passed": true
+    },
+    {
+      "name": "Per-wall appearance override is separate from inherited walls",
+      "passed": true
+    },
+    {
+      "name": "Palette modifies only the selected room",
+      "passed": true
+    },
+    {
+      "name": "Light pools must be assigned to an actual room",
+      "passed": true
+    },
+    {
+      "name": "Routes reference placed viewpoints and directionality",
+      "passed": true
+    },
+    {
+      "name": "Invalid routes through a solid wall cannot be newly authored",
+      "passed": true
+    },
+    {
+      "name": "Same-view route is rejected",
+      "passed": true
+    },
+    {
+      "name": "Validation rejects exposed labels with no covered partner",
+      "passed": true
+    },
+    {
+      "name": "Validation rejects pair references lacking cover assignment",
+      "passed": true
+    },
+    {
+      "name": "Validation rejects changed partner direction outside synchronization",
+      "passed": true
+    },
+    {
+      "name": "Validation rejects duplicate viewpoint identities",
+      "passed": true
+    },
+    {
+      "name": "Validation rejects script-bearing external artwork",
+      "passed": true
+    },
+    {
+      "name": "Validation rejects nonnumeric dimensions and invalid colors",
+      "passed": true
+    },
+    {
+      "name": "Validation detects missing texture image rather than inventing one",
+      "passed": true
+    },
+    {
+      "name": "Portable JSON round trip retains all architecture and cover identities",
+      "passed": true
+    },
+    {
+      "name": "The bundled example contains no images or furniture",
+      "passed": true
+    },
+    {
+      "name": "Legacy v0.3 ordinary viewpoints preserve their map pose",
+      "passed": true
+    },
+    {
+      "name": "Legacy images are imported only from the opened file",
+      "passed": true
+    }
+  ]
+}

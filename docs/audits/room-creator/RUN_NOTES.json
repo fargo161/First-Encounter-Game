@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-18 America/New_York",
+  "runtime": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "node": "v24.19.0",
+    "playwright": "1.56.0",
+    "chrome": "155.0.8059.41",
+    "graphics": "ANGLE SwiftShader"
+  },
+  "environmentAttempts": [
+    {
+      "folder": "fresh-all",
+      "disposition": "discarded browser launch: audit dependency path resolved against wrong working directory; Node passed, browser dependencies absent; build scratch denied by sandbox"
+    },
+    {
+      "folder": "fresh-corrected",
+      "disposition": "discarded: corrected dependency path but Windows sandbox stalled Playwright; build scratch denied; only those audit processes were stopped"
+    },
+    {
+      "folder": "fresh-native",
+      "disposition": "accepted fresh execution; explicit workspace TEMP/TMP, read-only library, untouched test scripts; all 33 indexed scripts exit 0"
+    }
+  ],
+  "independentFixtureAttempts": [
+    "First adversarial fixture had a missing JavaScript brace; fixed only the audit script.",
+    "First expanded ray fixture crossed enclosing walls in two sloped-ray cases and left a raw incomplete legacy pillar that triggered renderer fallback; expanded the room and reset the fixture before yielding. The retained adversarial-fixture-attempt.json is excluded from application findings.",
+    "A lifecycle dialog probe used #modal instead of #modalRoot; corrected only the audit selector and reran.",
+    "First standalone audit server was sandbox-isolated from native Chrome; replaced it with a native read-only localhost server."
+  ],
+  "provenanceNotes": [
+    "The first evidence collection ran while route evaluation/generation were still executing. Final route comparison and generated map comparison were recomputed only after completed run-index records.",
+    "The older audit logs include a middle-dot encoding artifact corrected in the current run. All numeric route observations are unchanged.",
+    "No native Linux/macOS run or long-duration cache soak is claimed."
+  ],
+  "finalVerdict": "HOLD FOR FURTHER REMEDIATION",
+  "remainingFailures": [
+    "R1 P2: known-ID missing palette/texture image files do not trigger selected-object repair handling."
+  ]
+}

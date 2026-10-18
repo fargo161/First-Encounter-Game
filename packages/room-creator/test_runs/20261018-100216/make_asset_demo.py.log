@@ -1,0 +1,4 @@
+Library connected: 327 objects, 1043 textures, 3 palettes. Everything checks out.
+{"modelReadiness": {"ready": 50, "total": 50, "failures": [], "recovered": []}, "props": 69, "palettes": ["Grimy \u00b7 LowPoly Master 32x32", "Faded \u00b7 LowPoly Master 32x32", "Unmarked car \u00b7 maroon", "Red paint, teal seat", "Ash wood, red seat"], "looks": ["Painted red", "Black lacquer", "Caf\u00e9 (ash + red)"]}
+route conflicts: ['Alley dumpster (east, grimy) narrows the strafe space on “Back alley” (0.75 m from the route line).']
+saved C:\Users\mcdon\Documents\ChatGPT\encounter and rc\work\rc0141-remediation\Room_Creator_v0_14_1_remediation_candidate\generated\Route_Prototype_Street_ASSET_DEMO.room.json 18288544 bytes; page errors: []

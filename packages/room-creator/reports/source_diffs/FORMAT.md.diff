@@ -1,0 +1,21 @@
+--- v0.14/source/FORMAT.md
++++ v0.14.1/source/FORMAT.md
+@@ -1,3 +1,18 @@
++# v0.14.1 remediation semantics (format remains 11)
++
++This candidate adds no required schema fields. Unknown/custom prop, Use Point, appearance, library and route metadata remains open-ended and is preserved. Missing references remain saved until the author chooses a repair or a field reset.
++
++- Props count as story contents. Forced deletion removes them; collapsing an intermediate story shifts props with architecture. Deleting a room retains a prop when its pivot still has floor support on that story (including independent floor sections); otherwise it removes and counts it. A floor cut is not support. Retained props acquire the remaining room host, or null. This matches the existing prop placement rule; overhang is allowed.
++- Removing front calibration compensates every existing instance heading by old front minus new front, keeping rendered pose, collision and world-space Use Points fixed. Imported setups use keep-existing-on-conflict, reporting asset IDs; identical entries count as already present. A new imported calibration also compensates existing instances. Setup defaults apply only to subsequently placed copies.
++- Use Point plan dragging projects onto story elevation + object height + local point height times vertical scale. A 3-pixel threshold rejects accidental drags; movement is relative to the initial pointer position.
++- Round collision retains the existing 12-sided footprint transformed by object scale/rotation. Route sight clips the same polygon as a vertical prism. Walking retains its deliberate 0.12 m safety margin; route player blocking retains 0.25 m. Sight uses the footprint without either walking margin. This pass adds no independent sight shape.
++- The inspector identifies unresolved or incompatible palette/texture IDs and offers field-only reset/replacement. A reset writes the existing `default` sentinel and preserves unrelated override and custom keys. Rendering ignores incompatible references while retaining them for repair.
++- Model readiness makes at most three attempts per automatic load, with a 12-second deadline per attempt and short bounded backoff. Late results cannot replace a newer template/connection. Explicit Retry starts a new budget. Demo generation uses a bounded readiness result with asset IDs, paths, attempts and errors, then stops before scene edits/saving if any model is unresolved.
++
++Unchanged files on disk are distinct from normalized semantic serialization: old surfaces can gain default `filter: pixel`. No byte-identical old export claim is made.
++
++---
++
+ # Room Creator 0.14 — placed 3D objects (`props`) and the project object library (`objectLibrary`)
+ 
+ Format number stays **11**. Both blocks are optional and only written when present, so files without 3D objects are

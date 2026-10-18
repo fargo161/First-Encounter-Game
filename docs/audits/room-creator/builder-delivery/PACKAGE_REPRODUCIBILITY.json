@@ -1,0 +1,35 @@
+{
+  "method": "sorted ZIP_STORED entries, fixed timestamps and permissions",
+  "archiveVerification": "CRC and every archived byte checked against candidate files",
+  "artifacts": [
+    {
+      "file": "Room_Creator_v0_14_1_remediation_candidate.zip",
+      "sha256": "9b9cd3e9220edbdffbd836154b44d69b5527aa8b0d74300ad546f868a18da78d",
+      "bytes": 202047247,
+      "repeatedPackageBytesIdentical": true
+    },
+    {
+      "file": "Room_Creator_v0_14_1_source.zip",
+      "sha256": "703701fd43ee51d2092887af5d54f17e84a8c37786a09098b34729c0d5a87d6f",
+      "bytes": 2134437,
+      "repeatedPackageBytesIdentical": true
+    },
+    {
+      "file": "Room_Creator_v0_14_1_regression_tests.zip",
+      "sha256": "d09b1235f2cef489cb451ed5c829729c4528f46febac1d30ae2b2b45d8ccdd43",
+      "bytes": 81604,
+      "repeatedPackageBytesIdentical": true
+    },
+    {
+      "file": "Room_Creator_v0_14_1_reports.zip",
+      "sha256": "97d9afd98813b350a04cc60fa57718e861670d50be201dfb1db0c08b0055116a",
+      "bytes": 832871,
+      "repeatedPackageBytesIdentical": true
+    },
+    {
+      "file": "Room_Creator_v0_14_1_Independent_Tester_Handoff.zip",
+      "sha256": "503a7af4aad07988e1b921aa3e9c4e0f4252acd794ac407aab6c2328b6454ba7",
+      "bytes": 11404
+    }
+  ]
+}

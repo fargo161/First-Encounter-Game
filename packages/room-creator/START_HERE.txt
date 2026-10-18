@@ -1,0 +1,2 @@
+Room Creator v0.14.1 REMEDIATION CANDIDATE
+Open Room_Creator.html in Chrome or Edge. Read CODEX_HANDOFF.md for scope, dependencies, reports and tests. The canonical asset library is an external read-only dependency. Independent review and promotion decisions remain outstanding.

@@ -1,0 +1,46 @@
+{
+ "passed": 10,
+ "failed": 0,
+ "results": [
+  {
+   "name": "a project without placed objects is unchanged (no props/objectLibrary keys are added)",
+   "passed": true
+  },
+  {
+   "name": "unknown fields on placed objects, collision, gameplay, tags and use points survive load and save unchanged",
+   "passed": true
+  },
+  {
+   "name": "unknown fields in looks, palettes, asset setups and the library block survive unchanged",
+   "passed": true
+  },
+  {
+   "name": "editing one known field (move, turn, add a tag) leaves every unknown field byte-identical",
+   "passed": true
+  },
+  {
+   "name": "a reference to an asset or look that does not exist is kept for repair, not deleted",
+   "passed": true
+  },
+  {
+   "name": "missing or broken known fields get safe defaults without touching unknown ones",
+   "passed": true
+  },
+  {
+   "name": "unknown top-level keys on the route network are kept (0.14 fix)",
+   "passed": true
+  },
+  {
+   "name": "placement maths: front faces the given heading; points and footprint turn with the object",
+   "passed": true
+  },
+  {
+   "name": "collision overrides: box size and round shape",
+   "passed": true
+  },
+  {
+   "name": "route conflict helpers",
+   "passed": true
+  }
+ ]
+}

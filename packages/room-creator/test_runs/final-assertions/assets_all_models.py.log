@@ -1,0 +1,2 @@
+connect: Library connected: 327 objects, 1043 textures, 3 palettes. Everything checks out.
+{"models": 327, "loaded": 327, "failed": 0, "with_problems": 0, "load_ms_median": 33, "load_ms_max": 79, "triangles_total": 682586, "unverified_licence": 29}

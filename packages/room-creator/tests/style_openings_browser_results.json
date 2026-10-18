@@ -1,0 +1,189 @@
+{
+  "launch": "file URL",
+  "passed": 44,
+  "failed": 1,
+  "results": [
+    {
+      "name": "Opening has live width, height, offset and sill sliders",
+      "passed": true
+    },
+    {
+      "name": "Width updates before releasing the slider",
+      "passed": true
+    },
+    {
+      "name": "Width number follows the live slider",
+      "passed": true
+    },
+    {
+      "name": "Live samples do not fill undo history",
+      "passed": true
+    },
+    {
+      "name": "One drag commits one undo step",
+      "passed": true
+    },
+    {
+      "name": "Undo restores the original opening width",
+      "passed": true
+    },
+    {
+      "name": "Redo restores the completed slider gesture",
+      "passed": true
+    },
+    {
+      "name": "Width slider maximum ends at adjacent door",
+      "passed": true
+    },
+    {
+      "name": "An overlapping numeric width is rejected safely",
+      "passed": true
+    },
+    {
+      "name": "Real mouse drag produces one history step",
+      "passed": true
+    },
+    {
+      "name": "Slider unit switches to feet",
+      "passed": true
+    },
+    {
+      "name": "Single pane center sees outside, not a frame",
+      "passed": true
+    },
+    {
+      "name": "Double pane center becomes the shared frame",
+      "passed": true
+    },
+    {
+      "name": "Switching pane count preserves off-divider matte pixels",
+      "passed": true
+    },
+    {
+      "name": "Pane switching creates no duplicate opening or matte",
+      "passed": true
+    },
+    {
+      "name": "Double door stores two leaves without doubling overall width",
+      "passed": true
+    },
+    {
+      "name": "Door style changes rendered pixels",
+      "passed": true
+    },
+    {
+      "name": "Isometric representation also changes with door leaves",
+      "passed": true
+    },
+    {
+      "name": "Open door reveals the matte through both leaf space",
+      "passed": true
+    },
+    {
+      "name": "Direct surface image import still assigns to the floor",
+      "passed": true
+    },
+    {
+      "name": "Texture studio opens with preview and three editing sections",
+      "passed": true
+    },
+    {
+      "name": "Mapped draft preview responds to rotate and flip",
+      "passed": true
+    },
+    {
+      "name": "Draft edits do not mutate the room or undo stack",
+      "passed": true
+    },
+    {
+      "name": "Cancel leaves the prior material unchanged",
+      "passed": true
+    },
+    {
+      "name": "Independent tile size and mapping applied together",
+      "passed": true
+    },
+    {
+      "name": "Image controls and source ID survive material edit",
+      "passed": true
+    },
+    {
+      "name": "Apply material studio creates one undo step",
+      "passed": true
+    },
+    {
+      "name": "Material edit undoes as a unit",
+      "passed": true
+    },
+    {
+      "name": "Copy/paste shares settings across surfaces, not separate images",
+      "passed": true
+    },
+    {
+      "name": "Isometric material raster and first-person sampler agree",
+      "passed": true
+    },
+    {
+      "name": "Isometric floor now uses unified surface painter",
+      "passed": true
+    },
+    {
+      "name": "Wall baseboard cap and wear settings apply",
+      "passed": true
+    },
+    {
+      "name": "Reset mapping preserves image and grade",
+      "passed": true
+    },
+    {
+      "name": "Style panel offers twelve selectable looks",
+      "passed": true
+    },
+    {
+      "name": "Palette does not change opening or viewpoint or matte records",
+      "passed": true
+    },
+    {
+      "name": "Preset preserves assigned texture maps by default",
+      "passed": true
+    },
+    {
+      "name": "Room-grade controls update shared lighting fields",
+      "passed": true
+    },
+    {
+      "name": "Named style saves into the project",
+      "passed": true
+    },
+    {
+      "name": "Saved style recalls its material and room grade",
+      "passed": true
+    },
+    {
+      "name": "Style tools and portable projects",
+      "passed": false,
+      "error": "Actual project download includes format 10 and saved looks",
+      "trace": "Traceback (most recent call last):\n  File \"/home/claude/v14/work/tests/style_openings_browser.py\", line 36, in group\n    try:fn()\n        ~~^^\n  File \"/home/claude/v14/work/tests/style_openings_browser.py\", line 124, in styles\n    target=td/'saved.room.json';dl.value.save_as(target);saved=json.loads(target.read_text());check('Actual project download includes format 10 and saved looks',saved['project']['version']==10 and len(saved['project']['stylePresets'])==1)\n                                                                                              ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/claude/v14/work/tests/style_openings_browser.py\", line 12, in check\n    if not cond:raise AssertionError(name+(': '+str(detail) if detail is not None else ''))\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: Actual project download includes format 10 and saved looks\n"
+    },
+    {
+      "name": "Partition face has a full texture studio with wall trim",
+      "passed": true
+    },
+    {
+      "name": "Partition face edit changes only selected face",
+      "passed": true
+    },
+    {
+      "name": "Partition still has no exterior matte importer",
+      "passed": true
+    },
+    {
+      "name": "No unhandled JavaScript exceptions in new workflows",
+      "passed": true
+    },
+    {
+      "name": "No remote network requests in new workflows",
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "passed": 26,
+  "failed": 0,
+  "tests": [
+    {
+      "name": "No matte is supplied or assigned in a new room",
+      "passed": true
+    },
+    {
+      "name": "Matte lookup has no read-side project mutation",
+      "passed": true
+    },
+    {
+      "name": "Side frame spans the complete room side, not any opening",
+      "passed": true
+    },
+    {
+      "name": "Two windows share one coordinate system",
+      "passed": true
+    },
+    {
+      "name": "Opening width and position cannot modify a matte frame",
+      "passed": true
+    },
+    {
+      "name": "World height sets the common vertical image coordinate",
+      "passed": true
+    },
+    {
+      "name": "N exterior reads left-to-right from inside, not mirrored",
+      "passed": true
+    },
+    {
+      "name": "E exterior reads left-to-right from inside, not mirrored",
+      "passed": true
+    },
+    {
+      "name": "S exterior reads left-to-right from inside, not mirrored",
+      "passed": true
+    },
+    {
+      "name": "W exterior reads left-to-right from inside, not mirrored",
+      "passed": true
+    },
+    {
+      "name": "Positive setback changes crop with observer movement",
+      "passed": true
+    },
+    {
+      "name": "Zero setback keeps a fixed wall-location crop as observer moves",
+      "passed": true
+    },
+    {
+      "name": "Looking inward does not use the outside matte of that wall",
+      "passed": true
+    },
+    {
+      "name": "Fit mode preserves proportions over the whole side",
+      "passed": true
+    },
+    {
+      "name": "Contain mode letterboxes, without edge smear",
+      "passed": true
+    },
+    {
+      "name": "Stretch maps full side once, with independent X and Y",
+      "passed": true
+    },
+    {
+      "name": "Image edges do not clamp or repeat at any fit",
+      "passed": true
+    },
+    {
+      "name": "Scale and offset are one shared transformation",
+      "passed": true
+    },
+    {
+      "name": "Room default is inherited on every unspecified side",
+      "passed": true
+    },
+    {
+      "name": "Side override is independent of the default and other sides",
+      "passed": true
+    },
+    {
+      "name": "An empty override inherits the default rather than suppressing it",
+      "passed": true
+    },
+    {
+      "name": "Moved room keeps side-relative matte registration",
+      "passed": true
+    },
+    {
+      "name": "Partial shared boundary does not shorten the matte canvas",
+      "passed": true
+    },
+    {
+      "name": "v0.6 files missing distance default to zero without moving anything",
+      "passed": true
+    },
+    {
+      "name": "Negative, infinite and nonnumeric matte distance are rejected",
+      "passed": true
+    },
+    {
+      "name": "Save/reopen preserves image, per-side transforms and setback",
+      "passed": true
+    }
+  ]
+}

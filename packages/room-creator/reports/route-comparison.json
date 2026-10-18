@@ -1,0 +1,14 @@
+{
+  "scenarios": 27,
+  "numericalStructureMatchesAudit": true,
+  "totals": {
+    "spawns": 190,
+    "despawns": 193,
+    "spawnInView": 0,
+    "despawnInView": 0,
+    "carDespawnInView": 0,
+    "nodeConflicts": 0,
+    "sameDirectionOvertakes": 0
+  },
+  "notes": "Only console resource list and a middle-dot glyph in S2 log text differ; numerical route data matches."
+}

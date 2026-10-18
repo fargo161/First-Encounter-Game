@@ -1,0 +1,90 @@
+{
+  "passed": 21,
+  "failed": 0,
+  "results": [
+    {
+      "name": "Format 9 starts on Ground with default story spacing",
+      "passed": true
+    },
+    {
+      "name": "Room above can share the exact X/Y footprint",
+      "passed": true
+    },
+    {
+      "name": "Upper room may be offset and smaller",
+      "passed": true
+    },
+    {
+      "name": "Same-story overlaps remain forbidden",
+      "passed": true
+    },
+    {
+      "name": "Different-story overlaps are allowed",
+      "passed": true
+    },
+    {
+      "name": "Story elevation follows global floor-to-floor height",
+      "passed": true
+    },
+    {
+      "name": "Story list and labels are stable",
+      "passed": true
+    },
+    {
+      "name": "Open Above is persisted as real room state",
+      "passed": true
+    },
+    {
+      "name": "Upper balcony side lowers wall cap",
+      "passed": true
+    },
+    {
+      "name": "Ordinary upper boundary keeps full wall height",
+      "passed": true
+    },
+    {
+      "name": "Balcony designation does not affect ground-floor walls",
+      "passed": true
+    },
+    {
+      "name": "Viewpoint is attached to selected upper room and elevation",
+      "passed": true
+    },
+    {
+      "name": "Objects can be attached to an upper room",
+      "passed": true
+    },
+    {
+      "name": "Same X/Y can identify different rooms by story",
+      "passed": true
+    },
+    {
+      "name": "Horizontal adjoining room stays on its parent story",
+      "passed": true
+    },
+    {
+      "name": "Wall records from overlapping stories remain distinct",
+      "passed": true
+    },
+    {
+      "name": "Cross-story route is an explicit vertical transition",
+      "passed": true
+    },
+    {
+      "name": "Paired cover states stay on the same story",
+      "passed": true
+    },
+    {
+      "name": "Story height outside allowed range is rejected",
+      "passed": true
+    },
+    {
+      "name": "v0.8 project normalizes to format 10 with story defaults",
+      "passed": true
+    },
+    {
+      "name": "Bundled multi-story example validates and spans two stories",
+      "passed": true
+    }
+  ]
+}

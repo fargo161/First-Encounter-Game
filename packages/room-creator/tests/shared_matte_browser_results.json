@@ -1,0 +1,231 @@
+{
+  "launch": "file URL",
+  "passed": 56,
+  "failed": 0,
+  "tests": [
+    {
+      "name": "Neighbor windows reveal distinct horizontal parts of one matte",
+      "passed": true
+    },
+    {
+      "name": "Both windows share the same vertical registration",
+      "passed": true
+    },
+    {
+      "name": "Exterior image pixels are not assigned to the window-frame tag",
+      "passed": true
+    },
+    {
+      "name": "Resizing a window does not resize or reframe the scene",
+      "passed": true
+    },
+    {
+      "name": "Sliding a window reveals the existing scene rather than moving it",
+      "passed": true
+    },
+    {
+      "name": "Sill and opening-height edits do not move the horizon",
+      "passed": true
+    },
+    {
+      "name": "A window clipped by the viewport keeps its original vertical crop",
+      "passed": true
+    },
+    {
+      "name": "Turning the viewpoint preserves the matte at the same world location",
+      "passed": true
+    },
+    {
+      "name": "Export resolution does not change world-to-matte registration",
+      "passed": true
+    },
+    {
+      "name": "Changing field of view does not re-fit the skyline per window",
+      "passed": true
+    },
+    {
+      "name": "Nonzero setback produces coherent observer-relative parallax",
+      "passed": true
+    },
+    {
+      "name": "Zero setback keeps the matte pinned to its side canvas",
+      "passed": true
+    },
+    {
+      "name": "The same external landmark remains the same across observer positions",
+      "passed": true
+    },
+    {
+      "name": "An open exterior door reveals its own portion of the shared matte",
+      "passed": true
+    },
+    {
+      "name": "A closed door fully occludes the shared exterior",
+      "passed": true
+    },
+    {
+      "name": "Reopening a door restores the same exterior crop",
+      "passed": true
+    },
+    {
+      "name": "The wall between openings continues to occlude the exterior",
+      "passed": true
+    },
+    {
+      "name": "Window mullions remain solid foreground architecture",
+      "passed": true
+    },
+    {
+      "name": "A skyline pixel never counts as assigned frame cover",
+      "passed": true
+    },
+    {
+      "name": "The actual window-frame pixel still counts as cover",
+      "passed": true
+    },
+    {
+      "name": "Adding an adjoining room replaces the exterior with real connected architecture",
+      "passed": true
+    },
+    {
+      "name": "The still-exterior part of the original side keeps its matte",
+      "passed": true
+    },
+    {
+      "name": "One opening spanning exterior and shared wall segments shows matte only outside",
+      "passed": true
+    },
+    {
+      "name": "Looking through a room connection can reach the next room exterior",
+      "passed": true
+    },
+    {
+      "name": "Zero opacity removes the matte from rendering and cover picking",
+      "passed": true
+    },
+    {
+      "name": "Matte opacity actually blends its pixels",
+      "passed": true
+    },
+    {
+      "name": "Panning outside image bounds does not repeat or smear the image",
+      "passed": true
+    },
+    {
+      "name": "Zoom-out reveals bounds instead of repeating full images per opening",
+      "passed": true
+    },
+    {
+      "name": "N side matte has correct left/right handedness in first person",
+      "passed": true
+    },
+    {
+      "name": "E side matte has correct left/right handedness in first person",
+      "passed": true
+    },
+    {
+      "name": "S side matte has correct left/right handedness in first person",
+      "passed": true
+    },
+    {
+      "name": "W side matte has correct left/right handedness in first person",
+      "passed": true
+    },
+    {
+      "name": "Isometric windows also show different crops of the same matte",
+      "passed": true
+    },
+    {
+      "name": "Isometric and first-person share zero-setback crop and glass tint",
+      "passed": true
+    },
+    {
+      "name": "Transparent foreground openings still reveal the common exterior",
+      "passed": true
+    },
+    {
+      "name": "Opaque foreground artwork remains in front of the shared matte",
+      "passed": true
+    },
+    {
+      "name": "Crouch/rise changes the view without sliding the outside world",
+      "passed": true
+    },
+    {
+      "name": "Matte PNG transparency is honored rather than rendered black",
+      "passed": true
+    },
+    {
+      "name": "Opaque regions of the same transparent matte remain visible",
+      "passed": true
+    },
+    {
+      "name": "Inspector includes a full-side opening-layout preview",
+      "passed": true
+    },
+    {
+      "name": "Fit labels refer to side canvas, not individual openings",
+      "passed": true
+    },
+    {
+      "name": "Side editor displays inherited default image",
+      "passed": true
+    },
+    {
+      "name": "Editing inherited side framing creates a real side override",
+      "passed": true
+    },
+    {
+      "name": "Side override leaves room default untouched",
+      "passed": true
+    },
+    {
+      "name": "Use room default removes the override rather than copying pixels",
+      "passed": true
+    },
+    {
+      "name": "A previously selected wall cannot hijack room-default edits",
+      "passed": true
+    },
+    {
+      "name": "Window editor links to its shared side matte, not per-window art",
+      "passed": true
+    },
+    {
+      "name": "Depth control persists in the side material",
+      "passed": true
+    },
+    {
+      "name": "Undo restores the previous matte distance",
+      "passed": true
+    },
+    {
+      "name": "Redo restores the shared matte edit",
+      "passed": true
+    },
+    {
+      "name": "Saved project download contains shared-side matte data",
+      "passed": true
+    },
+    {
+      "name": "Real saved project reopens with the same side assignment",
+      "passed": true
+    },
+    {
+      "name": "Direct wall-side import stays assigned to the chosen wall",
+      "passed": true
+    },
+    {
+      "name": "Direct wall-side import stays in the matching inspector",
+      "passed": true
+    },
+    {
+      "name": "Wall inspector framing targets the correct side",
+      "passed": true
+    },
+    {
+      "name": "No unhandled JavaScript errors in shared-matte tests",
+      "passed": true
+    }
+  ]
+}

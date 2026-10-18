@@ -1,0 +1,104 @@
+{
+ "started": {
+  "mode": "route",
+  "active": "fp",
+  "on": true
+ },
+ "fps": 4.3,
+ "in_fwd": true,
+ "after_W": {
+  "x": 17.54,
+  "y": 37.85,
+  "edge": "e_harlan_w",
+  "s": 11.54,
+  "off": 0,
+  "body": 90,
+  "head": 0,
+  "stop": null
+ },
+ "after_D": {
+  "x": 17.54,
+  "y": 38.55,
+  "edge": "e_harlan_w",
+  "s": 11.54,
+  "off": 0.7,
+  "body": 90,
+  "head": 0,
+  "stop": null
+ },
+ "after_A": {
+  "x": 17.54,
+  "y": 37.15,
+  "edge": "e_harlan_w",
+  "s": 11.54,
+  "off": -0.7,
+  "body": 90,
+  "head": 0,
+  "stop": null
+ },
+ "look_right_max": {
+  "x": 17.54,
+  "y": 37.15,
+  "edge": "e_harlan_w",
+  "s": 11.54,
+  "off": -0.7,
+  "body": 90,
+  "head": 95,
+  "stop": null
+ },
+ "after_R": {
+  "x": 17.54,
+  "y": 37.15,
+  "edge": "e_harlan_w",
+  "s": 11.54,
+  "off": -0.7,
+  "body": 270,
+  "head": 0,
+  "stop": null
+ },
+ "after_R2": {
+  "x": 17.54,
+  "y": 37.15,
+  "edge": "e_harlan_w",
+  "s": 11.54,
+  "off": -0.7,
+  "body": 90,
+  "head": 0,
+  "stop": null
+ },
+ "debug_after_tab": 0,
+ "crouch_eye": 1.05,
+ "closed_door_try": {
+  "x": 58.25,
+  "y": 37.85,
+  "edge": "e_harlan_w",
+  "s": 52.25,
+  "off": 0,
+  "body": 90,
+  "head": -80,
+  "stop": "Bodega front door is closed \u2014 press E to open it"
+ },
+ "door_open_before": false,
+ "door_open_after_E": true,
+ "entered": {
+  "x": 58.25,
+  "y": 33.4,
+  "edge": "e_bodega",
+  "s": 4.45,
+  "off": 0,
+  "body": 0,
+  "head": 10,
+  "stop": "End of this route \u2014 R turns around"
+ },
+ "after_esc": {
+  "mode": "build",
+  "active": "iso",
+  "on": false,
+  "door": false,
+  "dirty": false,
+  "history": 0
+ },
+ "errors": [
+  "Failed to load resource: the server responded with a status of 404 (File not found)"
+ ]
+}

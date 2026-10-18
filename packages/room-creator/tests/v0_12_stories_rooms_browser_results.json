@@ -1,0 +1,78 @@
+{
+  "passed": 18,
+  "failed": 0,
+  "results": [
+    {
+      "name": "+ Next story creates Floor 2 with a room matching the room below",
+      "passed": true
+    },
+    {
+      "name": "The new room is selected and its Room panel shows",
+      "passed": true
+    },
+    {
+      "name": "Light pool can be placed on Floor 2",
+      "passed": true
+    },
+    {
+      "name": "Floor 2 partition can share X/Y with a Ground partition",
+      "passed": true
+    },
+    {
+      "name": "Ceiling cut reports \"Ceiling opening added.\"",
+      "passed": true
+    },
+    {
+      "name": "Room hosting a ceiling cut can be deleted",
+      "passed": true
+    },
+    {
+      "name": "Free walls survive deleting their style-host room",
+      "passed": true
+    },
+    {
+      "name": "Room-only tools on a story without a room point to Make room",
+      "passed": true
+    },
+    {
+      "name": "Make room turns floor space into an enclosed room on its story",
+      "passed": true
+    },
+    {
+      "name": "Light pool works after Make room",
+      "passed": true
+    },
+    {
+      "name": "\"Empty story\" option keeps the floor-drawing workflow",
+      "passed": true
+    },
+    {
+      "name": "With several rooms below, all are matched by default",
+      "passed": true
+    },
+    {
+      "name": "A single source room can be chosen",
+      "passed": true
+    },
+    {
+      "name": "Deleting a story lists its contents and removes it",
+      "passed": true
+    },
+    {
+      "name": "Undo restores the deleted story and its room",
+      "passed": true
+    },
+    {
+      "name": "Open ceiling under a room shows wall up to the slab, not empty space",
+      "passed": true
+    },
+    {
+      "name": "Top-story walls are not extended where nothing is above",
+      "passed": true
+    },
+    {
+      "name": "No page errors",
+      "passed": true
+    }
+  ]
+}

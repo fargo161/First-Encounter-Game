@@ -1,0 +1,17 @@
+Error in sitecustomize; set PYTHONVERBOSE for traceback:
+ModuleNotFoundError: No module named 'playwright'
+{
+  "passed": true,
+  "builds": [
+    {
+      "sourceNewlines": "LF",
+      "outputSHA256": "74eb353886edbd66ebc3b7fd1952ef7a83dc0f0e5cbe83835fc8d1990590bd91",
+      "bytes": 1614980
+    },
+    {
+      "sourceNewlines": "CRLF",
+      "outputSHA256": "74eb353886edbd66ebc3b7fd1952ef7a83dc0f0e5cbe83835fc8d1990590bd91",
+      "bytes": 1614980
+    }
+  ]
+}

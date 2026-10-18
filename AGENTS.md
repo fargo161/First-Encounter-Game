@@ -1,16 +1,18 @@
 # Repository working rules
 
-Current authorized scope: Stage 5 Encounter/Atlas verification, completed with documented known limitations. STOP before Stage 6.
+Current authorized scope: Stage 6 Room Creator import only. STOP before Stage 7.
 
-- Read docs/provenance/source-authority.json, docs/consolidation/STAGE_5_VERIFICATION.md and docs/consolidation/NEXT_STAGE_GATE.md.
-- The 2,731-file accepted A1 package under packages/encounter-atlas remains byte-identical to its preserved source. Do not normalize, refactor, rename, edit validators/tests, alter behavior or fix historical issues.
-- Stage 5 tests, builds, generated proofs and browser runs were performed in external disposable copies only. Keep original sources and canonical package untouched.
-- No Room Creator or ZANT import, shared-contract implementation, Unity setup, LFS conversion, source-dependent CI, or archive cleanup/deletion is authorized.
-- Later explicit user authorization governs its stated scope; do not reopen settled decisions without a concrete blocker.
+- Read docs/provenance/source-authority.json, docs/consolidation/STAGE_6_IMPORT.md and docs/consolidation/NEXT_STAGE_GATE.md.
+
+- Room Creator v0.14.1 remains HOLD_FOR_FURTHER_REMEDIATION. The manifest-known/missing-image appearance-repair defect remains unrepaired. Import does not promote or accept the baseline.
+- All 383 Room Creator baseline files remain byte-identical. tests/.gitattributes is additional Git-only packaging metadata preserving two CRLF test scripts; the original package .gitattributes remains unchanged.
+- Canonical Encounter/Atlas remains the unchanged accepted A1 snapshot, with Stage 5 PASS WITH DOCUMENTED KNOWN LIMITATIONS. IR3-25 stays an actual accepted non-blocking failure: 24 pass, 1 fail, 0 skipped.
+- Stage 6 allows import membership/hash/ZIP/manifest/Git checks only. Do not run source, tests, builds, generators, launchers or browser checks until Stage 7 is explicitly authorized.
+- All preserved builder/independent reports and scripts retain their historical bytes. Claims inside them are not fresh results or authority to execute. Reconstruct disposable verification layouts for later authorized stages.
+- Preserve unknown metadata behavior, stable asset IDs, project-local appearance/setup data, format 11 and coordinate conventions; do not normalize, refactor, redesign or repair source during import.
+- Keep the full Room Creator asset library and original source packs external/read-only; only selected metadata is in assets/manifests/. Preserve project-embedded example data.
+- No ZANT import, Encounter/Room Creator integration, shared-contract implementation, Unity, LFS, source-dependent CI, or archive cleanup/deletion is authorized.
 - Older Trapstar repositories are non-authoritative. No fork, merge, history import or recovery without a specific justified current need and appropriate authorization.
-- Keep builder claims, independent findings, byte integrity and owner acceptance distinct. Stage 5 verifies migration behavior; it does not authorize new features or other subsystem promotion.
-- IR3-25 remains an actual failing test, accepted historically as non-blocking: 24 pass, 1 fail, 0 skipped. Never remove, weaken, skip or silently count it as passing.
-- Eight package ZIP fixtures are selected for unchanged preservation checks; other large or restricted archives remain external.
-- Use tools/verify_stage5_evidence.py for read-only current source/evidence integrity. Foundation and Stage 4 verifiers remain unchanged and require their historical repository states.
-- Room Creator remains HOLD. ZANT accepted R4 candidate02 and failed/provisional R5 remain distinct.
-- Preserve originals, archive bytes and historical metadata conflicts. Encounter owns interaction contracts; preserve subsystem boundaries.
+- Later explicit owner authorization governs its stated scope. Keep file integrity, builder claims, independent findings and owner acceptance distinct.
+- Use tools/verify_stage6_import.py for current read-only import integrity. Earlier verifiers remain unchanged for their historical states.
+- Preserve all originals, archive bytes, historical metadata conflicts and subsystem boundaries. Encounter governs interaction contracts.

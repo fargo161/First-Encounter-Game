@@ -1,14 +1,13 @@
 # Project documentation
 
-Current authority: provenance/source-authority.json.
-Current result: consolidation/STAGE_5_VERIFICATION.md.
-Verification manifest: provenance/encounter-atlas-stage5-verification.json.
-Fresh selected evidence: audits/encounter-atlas/stage5-2026-10-18/.
-Read-only integrity: testing/STAGE_5_VERIFICATION.md.
-Hard stop before Stage 6: consolidation/NEXT_STAGE_GATE.md.
+Current status: provenance/source-authority.json.
+Room Creator import/HOLD: consolidation/STAGE_6_IMPORT.md.
+Exact Room Creator baseline/packaging identities: provenance/room-creator-stage6-import.json.
+Read-only current integrity: testing/STAGE_6_INTEGRITY.md.
+Proposed Stage 7 scope, not performed: testing/STAGE_7_RECOMMENDED_SCOPE.md.
+Hard stop: consolidation/NEXT_STAGE_GATE.md.
+Copied independent Room Creator findings: audits/room-creator/AUDIT_REPORT.md.
 
-Stage 4 import manifest/reports remain byte-exact. STAGE_5_RECOMMENDED_SCOPE.md is the earlier proposal, not current status. Foundation/Stage 4 verifiers require their historical states and remain unchanged.
+Encounter Stage 5 results remain historical verification evidence and its source is unchanged. Earlier foundation/Stage 4/Stage 5 verifiers require their historical metadata states and remain unchanged. Current import integrity uses tools/verify_stage6_import.py.
 
-Stage 0-3 records describe commit 37d8b4a371d99f3e3cf2f4ebf769f9ca3c3ac340; Stage 4 imported source at 36f7e64d13ddf470bfc0ad949ea6965b996fab58. Stage 5 changes no subsystem source.
-
-The exact Stage 5 authorization is in provenance/governing/. Historical implementation/resume prompts inside imported material do not independently authorize work.
+The exact Stage 6 authorization is in provenance/governing/. Historical tester/resume prompts inside imported documents do not authorize new execution. The 383-file Room Creator baseline remains held; importing it does not override independent findings.

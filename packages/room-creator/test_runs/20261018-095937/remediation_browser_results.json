@@ -1,0 +1,421 @@
+[
+  {
+    "name": "WebGL precondition",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "F1 shift edit/undo/redo/reopen",
+    "passed": true,
+    "detail": {
+      "correct": true,
+      "undo": true,
+      "redo": true
+    }
+  },
+  {
+    "name": "F1 force edit/undo/redo/reopen",
+    "passed": true,
+    "detail": {
+      "correct": true,
+      "undo": true,
+      "redo": true
+    }
+  },
+  {
+    "name": "F1 occupied",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "F1 room-remove edit/undo/redo/reopen",
+    "passed": true,
+    "detail": {
+      "correct": true,
+      "undo": true,
+      "redo": true
+    }
+  },
+  {
+    "name": "F1 room-retain edit/undo/redo/reopen",
+    "passed": true,
+    "detail": {
+      "correct": true,
+      "undo": true,
+      "redo": true
+    }
+  },
+  {
+    "name": "F2 setup deletion preserves render/footprint/world points/metadata",
+    "passed": true,
+    "detail": {
+      "before": {
+        "yaw": 1.5707963267948966,
+        "renderYaw": 1.5707963267948966,
+        "footprint": {
+          "poly": [
+            {
+              "x": 3.83736,
+              "y": 3.22428
+            },
+            {
+              "x": 3.83736,
+              "y": 2.77572
+            },
+            {
+              "x": 4.16264,
+              "y": 2.77572
+            },
+            {
+              "x": 4.16264,
+              "y": 3.22428
+            }
+          ],
+          "z0": 1,
+          "z1": 2.6086,
+          "shape": "box",
+          "size": [
+            0.44856,
+            0.32528,
+            1.6086
+          ]
+        },
+        "points": [
+          {
+            "x": 4.56,
+            "y": 2.76,
+            "z": 2.5
+          }
+        ],
+        "pointData": [
+          {
+            "id": "pt",
+            "type": "future/custom",
+            "x": 0.2,
+            "y": 1,
+            "z": 0.7,
+            "yaw": 17,
+            "meta": {
+              "keep": true
+            },
+            "enabled": true
+          }
+        ],
+        "gameplay": {
+          "tags": [
+            {
+              "custom": true
+            }
+          ],
+          "props": {}
+        },
+        "extra": {
+          "keep": [
+            1,
+            2
+          ]
+        }
+      },
+      "after": {
+        "yaw": 1.5707963267948966,
+        "renderYaw": 1.5707963267948966,
+        "footprint": {
+          "poly": [
+            {
+              "x": 3.83736,
+              "y": 3.22428
+            },
+            {
+              "x": 3.83736,
+              "y": 2.77572
+            },
+            {
+              "x": 4.16264,
+              "y": 2.77572
+            },
+            {
+              "x": 4.16264,
+              "y": 3.22428
+            }
+          ],
+          "z0": 1,
+          "z1": 2.6086,
+          "shape": "box",
+          "size": [
+            0.44856,
+            0.32528,
+            1.6086
+          ]
+        },
+        "points": [
+          {
+            "x": 4.56,
+            "y": 2.76,
+            "z": 2.5
+          }
+        ],
+        "pointData": [
+          {
+            "id": "pt",
+            "type": "future/custom",
+            "x": 0.2,
+            "y": 1,
+            "z": 0.7,
+            "yaw": 17,
+            "meta": {
+              "keep": true
+            },
+            "enabled": true
+          }
+        ],
+        "gameplay": {
+          "tags": [
+            {
+              "custom": true
+            }
+          ],
+          "props": {}
+        },
+        "extra": {
+          "keep": [
+            1,
+            2
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "F2 deletion undo restores world pose",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "F2 deletion redo preserves world pose",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "F2 deletion save/reopen preserves world pose",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "F2 conflict import keeps setup/pose and reports asset ID",
+    "passed": true,
+    "detail": {
+      "looks": 0,
+      "palettes": 0,
+      "setups": 0,
+      "same": 0,
+      "renamed": 0,
+      "setupConflicts": [
+        "lp_furniture_chairs_mesh_chair_wood_01"
+      ]
+    }
+  },
+  {
+    "name": "F2 import undo preserves world pose",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "F2 import redo/reopen preserves world pose",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "F2 new calibration import compensates existing instances",
+    "passed": false,
+    "detail": null
+  },
+  {
+    "name": "F3 tiny elevated drag story=0 rotation=0",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "F3 elevated drag stays small and keeps height story=0",
+    "passed": true,
+    "detail": {
+      "displacement": 0.06040695324215588
+    }
+  },
+  {
+    "name": "F3 drag undo story=0",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "F3 drag redo/reopen story=0",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "F3 tiny elevated drag story=0 rotation=37",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "F3 elevated drag stays small and keeps height story=0",
+    "passed": false,
+    "detail": {
+      "displacement": 0.0
+    }
+  },
+  {
+    "name": "F3 drag undo story=0",
+    "passed": false,
+    "detail": null
+  },
+  {
+    "name": "F3 drag redo/reopen story=0",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "F3 tiny elevated drag story=1 rotation=128",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "F3 elevated drag stays small and keeps height story=1",
+    "passed": false,
+    "detail": {
+      "displacement": 0.0
+    }
+  },
+  {
+    "name": "F3 drag undo story=1",
+    "passed": false,
+    "detail": null
+  },
+  {
+    "name": "F3 drag redo/reopen story=1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "F4 round empty corner clear; centre crossing blocked",
+    "passed": true,
+    "detail": {
+      "corner": null,
+      "crossing": "Chair Wood 01"
+    }
+  },
+  {
+    "name": "F5 Missing palette missing-palette",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "F5 field reset retains custom metadata",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "F5 undo/reopen retains unresolved reference",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "F5 Missing texture missing-texture",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "F5 field reset retains custom metadata",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "F5 undo/reopen retains unresolved reference",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "F5 Missing texture missing-image",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "F5 field reset retains custom metadata",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "F5 undo/reopen retains unresolved reference",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "F5 Incompatible palette pal_kent_cars_8",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "F5 field reset retains custom metadata",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "F5 undo/reopen retains unresolved reference",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "F7 transient model read recovers within bounded retry",
+    "passed": true,
+    "detail": {
+      "recovered": {
+        "ready": 1,
+        "total": 1,
+        "failures": []
+      },
+      "attempts": 2,
+      "failed": {
+        "ready": 0,
+        "total": 1,
+        "failures": [
+          {
+            "id": "lp_furniture_chairs_mesh_chair_wood_01",
+            "status": "error",
+            "error": "injected persistent read failure",
+            "attempts": 3,
+            "path": "STANDARDIZED_LIBRARY/models/furniture/chairs/lp_furniture_chairs_mesh_chair_wood_01/model.glb"
+          }
+        ]
+      },
+      "bounded": 3,
+      "retried": {
+        "ready": 1,
+        "total": 1,
+        "failures": []
+      }
+    }
+  },
+  {
+    "name": "F7 persistent failure has ID/path/error and exactly three attempts",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "F7 explicit retry recovers without changing project",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "Cache new project releases prop textures and objects",
+    "passed": true,
+    "detail": {
+      "before": 1,
+      "after": 0,
+      "objects": 0
+    }
+  },
+  {
+    "name": "No page errors",
+    "passed": true,
+    "detail": []
+  }
+]

@@ -1,0 +1,61 @@
+PASS A1 library connects by web address with the documented counts (327 objects, 1043 textures, 3 palettes)
+PASS A2 the real library passes the plain-language check with no warnings
+PASS A3 the 29 vehicles from unlicensed packs are counted as licence-unverified
+PASS A4 Library tab lists objects and search filters them
+PASS A5 thumbnails are rendered from the real models (not the colour-wrong package previews)
+PASS A6 vehicle cards carry the "licence unverified" warning mark
+PASS A7 left panel tabs (incl. Library) fit without cut-off labels
+PASS A8 a damaged manifest and a wrong folder give plain messages and keep the working library connected
+PASS A9 manifest problems (duplicate ID, entry without path, non-record) and a missing model file are reported in plain words
+PASS A10 the folder-picker fallback (webkitdirectory) connects the same library and loads models
+PASS B1 click a library card, see a ghost under the cursor, turn it with ] and click a floor to place it
+PASS B2 Shift+click keeps placing copies; Esc stops placing
+PASS B3 placing off every floor is refused with a message (no stray objects)
+PASS B4 click an object on the map selects it; dragging moves it (snapped) as one undo step
+PASS B5 undo puts it back; redo moves it again
+PASS B6 dragging the round handle turns the object toward the cursor in 15° steps
+PASS B7 keys: ] turns 15°, arrow nudges 0.1 m
+PASS B8 inspector edits: position field, size slider and name
+PASS B9 Duplicate makes an independent copy (new IDs for it and its use points), offset and selected
+PASS B10 Delete removes the selected object; undo brings it back
+PASS B11 Replace swaps the model in place and keeps position, turn and use points
+PASS B12 placing in first person drops the object on the floor point under the cursor
+PASS B13 clicking a 3D object in first person selects it (outline + inspector)
+PASS C1 after UI edits (nudge, add tag) the saved file keeps every unknown field byte-identical
+PASS C2 unknown fields in looks, setups and the library block are saved unchanged
+PASS C3 reopening the saved file in a fresh editor restores every object and the custom data
+PASS C4 saving again with no library connected changes nothing (objects show as boxes, data intact)
+PASS D1 "Save as look" turns one object's appearance into a named look that other copies pick from the Look menu
+PASS D2 a per-object change (brightness on copy C) stays on that copy only and is labelled "this object"
+PASS D3 changing the shared look updates every object using it; copy C keeps its own brightness
+PASS D4 the 3D view rebuilds an object when its appearance changes (A and C render differently)
+PASS D5 the Grimy palette chip makes a project palette and applies it to this object only
+PASS D5b the 3D view really draws copy B with its new palette picture, copy A still with the model's own
+PASS D6 changing one colour swatch recolours just this object (its own palette copy); other copies unchanged
+PASS D7 "Make an editable copy" opens the palette editor; changing a colour edits the project copy (library file untouched)
+PASS D8 a painted model can take a library texture as its picture (stored as a reference, per object)
+PASS D8b the 3D view draws the painted model with the chosen texture (256 px library picture)
+PASS D9 Pixel / Smooth texture look is a per-object choice
+PASS D10 a library texture can be put on a floor from the Style panel button; it is copied into the project and set to Pixel
+PASS D11 Export writes a looks file with the named looks, the palettes they need and object setups
+PASS D12 Import adds the looks/palettes/setups to another project; importing again adds nothing; a clashing ID is added as a new copy
+PASS D13 the canonical library palette file is byte-identical after all palette edits
+PASS E1 a dumpster is solid by default: its footprint blocks first-person walking (nav grid) but the space beside it stays free
+PASS E2 the route check reports a solid object standing on the player route
+PASS E3 the Rails/Routes panel lists objects that block routes
+PASS E4 unticking "Solid" makes it walk-through: nav grid opens and the route warning clears
+PASS E5 collision can be a custom box or a round footprint with a chosen size
+PASS E6 route sight lines are blocked by a solid car at eye height, clear above it, beside it, and when it is switched off
+PASS E7 a car blocks first-person walking at its footprint only
+PASS F1 use points move and turn with their object (turn 90° and move 2 m)
+PASS F2 a point is edited in plain terms (metres right of the front, facing); any new type name is accepted
+PASS F3 "Custom…" adds a point of a brand-new type (not from a fixed list)
+PASS F4 "Which side is the front? → Other end" is saved once for the model; copies turn so nothing moves on screen; points stay put
+PASS F4b "Its left" works for models whose front is a side: new use points start out of that side and face back at it
+PASS F5 "Make these the defaults" gives new copies the same use points (with fresh IDs)
+PASS G1 an object whose model is missing keeps its reference, shows a pink placeholder and a repair message
+PASS G2 objects placed upstairs sit on that story's floor and are only picked on that story
+PASS H1 the project still validates with rooms, views, routes, stairs and lights intact
+PASS H2 the route walk prototype still starts and runs, with solid 3D objects added to its sight boxes
+PASS Z no page errors during the whole test
+60 passed, 0 failed

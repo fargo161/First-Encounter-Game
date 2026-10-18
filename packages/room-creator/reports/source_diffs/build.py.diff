@@ -1,0 +1,9 @@
+--- v0.14/source/build.py
++++ v0.14.1/source/build.py
+@@ -21,5 +21,5 @@
+     if token!="STYLE":source=source.replace("</script","<\\/script")
+     text=text.replace("/*"+token+"*/",source,1)
+ out=HERE.parent/"Room_Creator.html"
+-out.write_text(text,encoding="utf-8")
++out.write_bytes(text.replace("\r\n","\n").replace("\r","\n").encode("utf-8"))
+ print(f"Built {out.name}: {out.stat().st_size:,} bytes")

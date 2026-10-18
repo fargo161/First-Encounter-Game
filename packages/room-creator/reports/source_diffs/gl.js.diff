@@ -1,0 +1,53 @@
+--- v0.14/source/gl.js
++++ v0.14.1/source/gl.js
+@@ -163,8 +163,8 @@
+   }
+   get images(){return this.legacy?.images||new Map();}
+   get catalog(){return this.legacy?.catalog||new Map();}
+-  setLegacy(legacy){this.legacy=legacy;this.invalidate();for(const t of this.textures.values())t.dispose();this.textures.clear();}
+-  dispose(){this.clearScene();for(const t of this.textures.values())t.dispose();for(const t of this.doorTextures.values())t.dispose();for(const rt of this.rts.values())rt.dispose();this.renderer.dispose();}
++  setLegacy(legacy){this.clearPropResources();this.legacy=legacy;this.invalidate();for(const t of this.textures.values())t.dispose();this.textures.clear();}
++  dispose(){this.clearPropResources();this.clearScene();for(const t of this.textures.values())t.dispose();for(const t of this.doorTextures.values())t.dispose();for(const rt of this.rts.values())rt.dispose();this.renderer.dispose();}
+   // ---------------------------------------------------------------- textures
+   texture(id,kind='surface',filter='pixel'){
+     if(!id)return null;const key=kind+':'+id+(kind==='surface'&&filter==='smooth'?':smooth':'');if(this.textures.has(key))return this.textures.get(key);
+@@ -350,11 +350,12 @@
+   // ---------------------------------------------------------------- placed 3D objects (0.14)
+   // Each library model is loaded once by RCAssets; every placed copy clones its node tree (geometry is shared) and gets
+   // its own small material (room light, look, pick colour). Only objects whose data changed are rebuilt.
++  clearPropResources(){for(const e of this.propEntries.values())this.removeProp(e);this.propEntries.clear();for(const e of this.propTex.values())e.tex?.dispose();this.propTex.clear();this._propsP=null;}
+   propTexture(kind,ref,filter,base){
+     const pixel=filter!=='smooth',key=kind+'|'+ref+'|'+(pixel?'p':'s');let e=this.propTex.get(key);if(e)return e.tex;
+     const make=img=>{const t=new T.Texture(img);t.flipY=false;t.colorSpace=T.NoColorSpace;t.wrapS=t.wrapT=T.RepeatWrapping;t.magFilter=pixel?T.NearestFilter:T.LinearFilter;t.minFilter=pixel?T.NearestMipmapNearestFilter:T.LinearMipmapLinearFilter;t.generateMipmaps=true;t.needsUpdate=true;return t;};
+     if(kind==='base'){const t=base.clone();t.magFilter=pixel?T.NearestFilter:T.LinearFilter;t.minFilter=pixel?T.NearestMipmapNearestFilter:T.LinearMipmapLinearFilter;t.needsUpdate=true;this.propTex.set(key,{tex:t});return t;}
+-    e={tex:null};this.propTex.set(key,e);const A=window.RCAssets,done=img=>{e.tex=make(img);for(const en of this.propEntries.values())if(en.waitTex)en.key=''; /* objects drawn before this picture arrived are rebuilt with it */this._propsP=null;this.onNeedsDraw?.();},failed=()=>{e.failed=true;};
++    e={tex:null};this.propTex.set(key,e);const A=window.RCAssets,done=img=>{if(this.propTex.get(key)!==e)return;e.tex=make(img);for(const en of this.propEntries.values())if(en.waitTex)en.key=''; /* objects drawn before this picture arrived are rebuilt with it */this._propsP=null;this.onNeedsDraw?.();},failed=()=>{e.failed=true;};
+     if(kind==='library'){const en=A?.entry(ref);if(en)A.imageOf(en.working_path).then(done,failed);else failed();}
+     else if(kind==='data'){const im=new Image();im.onload=()=>done(im);im.onerror=failed;im.src=ref;}
+     else if(kind==='image'){const im=this.images.get(ref);if(im?.complete&&im.naturalWidth)e.tex=make(im);else failed();}
+@@ -369,7 +370,7 @@
+   propEntryKey(p,q,t,app){const pv=app.palette?C.paletteVariantById(p,app.palette):null,room=C.roomById(p,q.roomId);
+     return JSON.stringify([q.asset,q.x,q.y,q.z,q.story,q.rotation,q.scale,q.enabled,q.roomId,t.status,t.scene?1:0,app,pv?[pv.image?.length,String(pv.image||'').slice(-32)]:0,room?roomLightPack(p,room).key:'',C.propFrontTurn((p.objectLibrary?.setups||{})[q.asset])]);}
+   syncProps(p,mode){
+-    const A=window.RCAssets,lib=A?A.revision:0;
++    const A=window.RCAssets,lib=A?A.revision:0;if(this._propProvider!==A?.state.provider){this.clearPropResources();this._propProvider=A?.state.provider;}
+     if(p!==this._propsP||lib!==this._propsLib||this._tagsRef!==this.tags){
+       this._propsP=p;this._propsLib=lib;const list=p.props||[],seen=new Set(),retag=this._tagsRef!==this.tags;this._tagsRef=this.tags;let changed=false;
+       for(const q of list){seen.add(q.id);const t=A?A.template(q.asset):{status:'offline'},app=C.propAppearance(p,q);delete app.from;delete app.look;
+@@ -385,12 +386,12 @@
+     const tag=this.tags.push({kind:'prop',id:q.id})-1,setup=(p.objectLibrary?.setups||{})[q.asset],floorZ=C.propFloorZ(p,q),disabled=q.enabled===false;
+     let obj,waitTex=false;
+     if(t.status==='ready'&&t.scene){
+-      const en=t.entry,pal=en.material_system==='palette'&&!t.paletteMismatch,filter=app.filter||(en.recommended_filter==='linear'?'smooth':'pixel');let tex=null,want=false;
+-      if(pal&&app.palette){const pv=C.paletteVariantById(p,app.palette);want=true;if(pv?.image)tex=this.propTexture('data',pv.image,filter);else if(window.RCAssets?.entry(app.palette)?.asset_type==='palette')tex=this.propTexture('library',app.palette,filter);else want=false;}
+-      if(!tex&&app.texture&&typeof app.texture==='object'){want=true;if(app.texture.library)tex=this.propTexture('library',app.texture.library,filter);else if(app.texture.image)tex=this.propTexture('image',app.texture.image,filter);}
++      const en=t.entry,issues=C.propAppearanceIssues(p,q,en,id=>window.RCAssets?.entry(id),id=>this.catalog.has(id),t),pal=en.material_system==='palette'&&!t.paletteMismatch,filter=app.filter||(en.recommended_filter==='linear'?'smooth':'pixel');let tex=null,want=false;
++      if(pal&&app.palette&&!issues.some(i=>i.field==='palette')){const pv=C.paletteVariantById(p,app.palette);want=true;if(pv?.image)tex=this.propTexture('data',pv.image,filter);else if(window.RCAssets?.entry(app.palette)?.asset_type==='palette')tex=this.propTexture('library',app.palette,filter);else want=false;}
++      if(!tex&&app.texture&&typeof app.texture==='object'&&!issues.some(i=>i.field==='texture')){want=true;if(app.texture.library)tex=this.propTexture('library',app.texture.library,filter);else if(app.texture.image)tex=this.propTexture('image',app.texture.image,filter);}
+       waitTex=want&&!tex;
+       if(!tex&&t.baseTexture)tex=this.propTexture('base',q.asset,filter,t.baseTexture);
+-      const mat=this.propMaterial(p,q,app,tex,tag,disabled?.35:1);obj=t.scene.clone(true);obj.traverse(o=>{if(o.isMesh){o.material=mat;o.frustumCulled=true;}});obj.userData.mats=[mat];
++      const mat=this.propMaterial(p,q,app,tex,tag,disabled?.35:1);obj=t.scene.clone(true);obj.traverse(o=>{if(o.isMesh){o.material=mat;o.frustumCulled=true;}});obj.userData.mats=[mat];obj.userData.appearanceIssues=issues;
+     }else{
+       // placeholder: a box of the right size. Grey while loading; pink when the model is missing from the library
+       const b=C.propBoundsOf(q,t.entry?.dims?{min:[-t.entry.dims[0]/2,0,-t.entry.dims[2]/2],max:[t.entry.dims[0]/2,t.entry.dims[1],t.entry.dims[2]/2]}:null),g=this._unitBox||(this._unitBox=new T.BoxGeometry(1,1,1).translate(0,.5,0));

@@ -1,0 +1,61 @@
+{
+ "format": "trapstar-room-creator-looks",
+ "version": 1,
+ "exportedWith": "TRAPSTAR Room Creator 0.14.1",
+ "library": {
+  "name": "Trapstar Room Creator Asset Library v1"
+ },
+ "looks": [
+  {
+   "id": "look_green",
+   "name": "Council green",
+   "asset": "lp_dumpster_bins_mesh_dumpster_closed",
+   "tint": "#2e6b3a",
+   "tintStrength": 0.5,
+   "author": "Teddy",
+   "shaderHints": {
+    "grime": 0.2
+   }
+  },
+  {
+   "id": "look_mvdwjg10_i8h6eza",
+   "name": "Red café chair",
+   "asset": "lp_furniture_chairs_mesh_chair_wood_01",
+   "tint": "#2255aa",
+   "tintStrength": 0.6
+  }
+ ],
+ "palettes": [
+  {
+   "id": "palv_mvdwjirr_bfh6xne",
+   "name": "Grimy · LowPoly Master 32x32",
+   "base": "pal_lowpoly_master_32",
+   "quick": "grimy",
+   "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAE9UlEQVR4AcSXy24URxSGv+ru6u65m7GNbWzMxY5BChAhESkR2ZF9UFjxAGTJG4QFeQOW4QFYEZF9YOcoCZcEI3BiwGBjbHyZGXvGc+trTvcobJNFo5Tqr6opnTr/X6duPUa54MT/JwwkOa7L8MgIk1NTzM3NcfrMGc6fP8+FC1/y1cWLXL58mStXvuHq1at8e+0at2//IKOyyamAnB8wsb/P0d1djiRoNJgWHG7UOVyrMVWvM1XbYXKnxkHpz4Z64CUVYCgwlcKVvjHP43inw4l2m5lulynf52AYUjEMCtrC0VqsssupAM+EXWHfLMDrIVgcVjwZMflT6ldDEeulgFq+R9PpEFit7NjFUypAJY0YTIEVgRvFDPkdDvaaHGlvc6hbY7i/TznoY8VKrLPLqQCfmI6w7+mYHTvmnRuzko95XjRYqLg8K2le5iNWnD5bZiM7dvGUCkDW/z1MmaFsCmUpTB2idRfHbpK3tym661Ryy2SZUgGBlC2ZfUNm/k5m/qYY86JssFR0WCyWeFYY5knhEI9z0zxyT2TJj1CDzDk9Baa0tMCWiGgjwrQ9yLUISjV6B9bpjKziHdgky5QKECq8OEc/LtGOq7SiUVrhFPv9o/Q6J/Gbp4nr51DbnxHWz2bJP4gAMmulRIucdWVIHEyLWM6772r2ZQM2hjQbIxZvxjWNqk2WSVjFXZSDYAz6x7E7x8nvz1BtzDBWm2V6c5bZ9VlOrc5x9tVHnFw/JgOyywMBsQPhMCqYxPPPEviniIJZ6TuCIcLMsIqO8jihLciOPPE0EGA0wVomtn+H/F28wjzt/ENaucfsuX/RcJblflhjy95kQ4ttMjIjGAM/cg5k52PIT5XAxNc5Ok6JhhzBrfI4G5Up6uWD+PnyYEhGpbCB4xcY3p1krD7G4Z0qx7ZKstYOp9dMzr0O+fxljy9etPl02WNurZ8R9cCN8b5SDlYwgdv9BLf3sYiawQ6n0YyhjSraKmBqG8uR/TIYlEmZCjDp4MZvKcRLFNWvFHlIKXxK2V+i3Fuh3HlLZb/GULPJUKOXCfE/TlIBsgMwZA+YAieyKXslDrUmOF4/yrG9aabak4x4VYbiMq7+ABFQ+BhxU57amrz3a7Tdl2xWHrMy/Bur1QdslP6g4S7SMl/IbblGlimNQOIwiUCCUmAy2tN8JF8os02X6Y7DuOdwQCJTMjSO1ol5ZkgF9IyALd1ixa3ztLDBg9Iq94aXuFd5xryzwH3jEQvefRbbv/B85+fMyBNHqQBk7WPTTO//ONnluRxhrkBYKBKVK4SVIYIDVYLqiNSjybjMkAqIxV1kKEIFgdSB9PoWJOhLxPta0bOh6yS1GIl9VlmokA8yRRQbhJiyHS08bHryPnTliW7HefbjAk15qvcESTsr8sRPKkAUyOMDkaeIuoqwA2FLEexBUFd4O4JNwYbC3/4AEUhcmrIOlkAL7EjhytdxTuq8rEsxhHKgKKftxDrRng0GERBfBhEJLFkISwVoWQxbefJnpU8OgeqSF7jqg9yEMYZIMVSEaURy94doK8QWONrHtX1yuRBXkC+KoQjOKg+8Jexao1wHlc9BsYhRqWDI0VOjoxhjY5jjE+iJCZzx8ay4Uz+pgH6vR21nh7draywtLfFkYYH5+Xnu3v2JH+/c4datW9y8+T03btzgu+vXuXTp63Twfyn+zeZvAAAA//+V4pPcAAAABklEQVQDAAdV6jDDipRGAAAAAElFTkSuQmCC"
+  },
+  {
+   "id": "palv_mvdwjka1_scq047f",
+   "name": "Chair Wood 01 · own colours",
+   "base": "pal_lowpoly_master_32",
+   "owner": "prop_mvdwjdwd_232piv4",
+   "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAE+ElEQVR4AcSXy24URxSGv+ru6u65D2Mb29iYm2OQAkRIREpEdkTKJlJQWPEAZEmeICzIG7AMD8CKiOxDdo6ScEkwAhJztTE2vsyMPeO59TWnexS2yaJRSvVX1ZROnf+vU7ceo1xw4v8TBpIc12VkdJSp6Wnm5uY4cfIkZ86c4ezZT/ni3DkuXLjAxYtfcenSJb65fJkbN76XUdnkVEDOD5jc3eXg9jYHEjSbzAj2Nxvsr9eZbjSYrm8xtVVnr/RnQz30kgowFJhK4UrfuOdxuNvlaKfDkV6Pad9nbxhSMQwK2sLRWqyyy6kAz4RtYV8vwMsqPB5RPBg1+VPqF9WI1VJAPd+n5XQJrHZ27OIpFaCSRgymwIrAjWKqfpe9/RYHOpvs69UZGexSDgZYsRLr7HIqwCemK+w7OmbLjnnjxizlY54UDRYqLo9Kmmf5iCVnwIbZzI5dPKUCkPV/C1NmKJtCWQpTh2jdw7Fb5O1Niu4qldxzskypgEDKtsy+KTN/IzN/VYx5WjZYLDo8LpZ4VBjhQWEf93Mz3HOPZsmPUIPMOT0FprS0wJaIaCPCtD3ItQlKdfp7VumOLuPtWSfLlAoQKrw4xyAu0YlrtKMx2uE0u4OD9LvH8FsniBunUZsfETZOZck/jAAya6VEi5x1ZUgcTItYzrvvanZlAzarmrVRi1cTmmbNJsskrOIuykEwDoPD2N3D5HePUGseYbw+y8z6LLOrsxxfnuPUi/c4tnpIBmSXhwJiB8IRVDCF558i8I8TBbPSdwBDhJlhDR3lcUJbkB154mkowGiB9ZzY/h3yt/AK83Tyd2nn7rPj/kXTeS73wwob9jprWmyTkRnBGPqRcyA7H0N+qgQmvs7RdUo05QhulCdYq0zTKO/Fz5eHQzIqhQ0cv8DI9hTjjXH2b9U4tFGStXY4sWJy+mXIx8/6fPK0w4fPPeZWBhlRD90YbyvlYAWTuL0PcPvvi6gj2OEMmnG0UUNbBUxtYzmyX4aDMilTASZd3Pg1hXiRovqVIncphQ8p+4uU+0uUu6+p7NaptlpUm/1MiP9xkgqQHYAhe8AUOJFN2Suxrz3J4cZBDu3MMN2ZYtSrUY3LuPodREDhY8QteWrr8t6v0HGfsV65z9LIbyzX7rBW+oOm+5i2+VRuyxWyTGkEEodJBBKUApOxvuY9+UKZbbnMdB0mPIc9EpmSoXG0TswzQyqgbwRs6DZLboOHhTXulJb5aWSRrx9UmXcWuG3cY8G7zePOLzzZ+jkz8sRRKgBZ+9g00/s/TnZ5LkeYK/D5ZwtE5QphpUqwp0ZQG5V6LBmXGVIBsbiLDEWoIJA6kF7fggQDifhAK/o29JykFiOxzyoLFfJBpohigxBTtqOFh01f3oeePNGdOM9uXKAlT/WOIGlnRZ74SQWIAnl8IPIUUU8RdiFsK4IdCBoKb0uwLlhT+JvvIAKJS1PWwRJogR0pXPk6zkmdl3UphlAOFOW0nVgn2rPBMALiyyAigSULYakALYthK0/+rAzIIVA98gJXvZObMMYQKYaKMI1I7v4QbYXYAkf7uLZPLhfiCvJFMRTBWeWht4Rda5TroPI5KBYxKhUMOXpqbAxjfBxzYhI9OYkzMZEVd+onFTDo96lvbfF6ZYXFxUUeLCwwPz/PrVs/8sPNm1y/fp1r177j6tWrfHvlCufPf5kO/i/Fv9n8DQAA//8e1qRgAAAABklEQVQDAN116jCyLotbAAAAAElFTkSuQmCC"
+  },
+  {
+   "id": "palv_mvdwjlb6_7wjn8xa",
+   "name": "Copy of LowPoly Master 32x32",
+   "base": "pal_lowpoly_master_32",
+   "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAFaUlEQVR4AcSWW2xUZRDHf7tnL2e3u9ttu9Au29tKS7kUUECwEEGFgAIKBhEIookiD/CgPEh8gJgI4QESQYJEI6hIUJCIgBeUq4UECjFcCvRGgba0dEtpt93ubtttu+vsKe/6cIyTmS9zkjPz/898c873GRMkEv+nGRFxpDjIzcll9KjRlDxTwqyZs1i6ZCkr31nJug/WsWnjJnZ9tot93+7jxB8nICFBOqlGIDMaZXpjIwtu3+aVmhrNXq6uZn5VFfMqKzWbW1HBS7duMbW2VifowTQaAUV8i1j6wACTg0EWCpnl9fUsbG5mhjw/FYmQH4/jMZtxWK3ypn6qEehUocoDF7PhWBF8Nd7Ezokq34xT5LmfP/1Ryr3t3MsIELXf0w9dMmkEZBIxx8E6APY+SIv1UxQK8HRbLXMfXOa5lnLGBRvwh9ux92shEqqPatmisgZscMcJ19OhbCgcz4Ef/DZ2Fg1jT0Eah+X5ZGaY6667+iA/ziLQ4hnEkp4CCfOgIVtttHWj2h/gSqnG4ygjy3WSPPd38rJ+moQlKqANUn1FBlwYBify4NBwle/9GezNL2B33gR25c7k0+wFbBn2rn7okkkjkFyEQ7Jo7AlwiNlMPSgpbcQ8tYR8VwgUnqah+ChtheclTD9NYtOHjXAii2DCT0t8HI3xKTTE5hDoWkRn60p6769Fqd6IrXwb8eoN+qFLJo0ABhkCowyAUfpgsoDZSsxmJ+i2cXeYjWtP2DhbbOXnSVauFtklTD81aqn6ZOwjU0l0LMIVeA1vw2LGVr1OSfkS5pUtZVnpMtb8vpwPj77ByjMLtBC9lkEC8TToHYch+jydXeuIhNfQF1lCPDoPJVqCtXsMjh4v7h4HqTG9oAfzDBIw1YHjR/kDbcHgfYtQ9loCvs00eXdwL2sfNZlHuDmklGueK1xKbxyM1GkdJKDNgLiKzIFiAsVCR4qHRncON7KKuZAzhTP+GVzNnkAwXf7XOoEn0wiqFB7yMb76BabeLOHFq2NZdHk4q0ozWHvazsZf+9j+UwefH2ph87Ewb58LJ+N0M40AmOWIT0ONPEt68/u4W1fhDC3CEZmDrW8yKqOwWDIxqQ7Mdodu4MlExuSi0swQzpLNPnLN68k3bGZ47AsKuvczovM3ih6dZ/SDWxTfr2fMnTB6ikbAgAFFzIIRd8xJfkcO0+9M49Xr85lfMYcZ9dMY2z4Kf3cOqZYU9BRjMplCF1bqsHODnpQzNA89zKVR2zk+6SNOPbmJS4XbqcnaS7PrMGGlFD1FI5DsgEk6YBbLjZiZ+NDGsso0Fte4mdXoYsojJyO67XgT6n9zI2qzRrmS0cQJXw1fF/7F1uJzrJ52hPcmHeTjgr3s8H7JfnUnvwx8wrnWbXo2QDZd0iXkHOg3W4ipNnodTnpT3YTTMgh5hhLy+gj6cmjL89P6xAha80dKhH6qbUHCAP0KxEzQY4aoBbpUCMktKSgz1yZf3kMXtKSC7IZ+6JJJIxCXRsRkDHuwEcFJF6kE8fCITAL4aCKPBoZTRyFJHx1FI0BcWtAjLZABpFPKb5fyA3ZokvLrpPRaKV2GkptyYbzt1hEeNALGBFjioA5ASj+45GacLqeepxe83ZAdhbwI+MWSvp4MNAIGEpjow0IMlW5tIxyEcNGBmzbSaWUIAYbSTAYP0VMeE4hjUsSMMSxKL6rcB+3mCA5LGKe1E7dNiDg7SXELKY+0R0cGGoGEojCgqgw4nfSlpdHr8dDj89Gdl0ekoICukSMJjxlDr1hCfB3x0QiEI2Ea7jdQUVnBxbKLnDp9igMHD7B7z262bN3C+g3rWb1mNSveXMHsObORHyb/Vv7pvb8BAAD//6sTKWYAAAAGSURBVAMABTUe/1pfbHUAAAAASUVORK5CYII="
+  }
+ ],
+ "setups": {
+  "some_future_asset": {
+   "front": -1,
+   "notes": "kept",
+   "custom": [
+    1,
+    2,
+    3
+   ]
+  }
+ }
+}

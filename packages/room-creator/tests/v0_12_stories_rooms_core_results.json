@@ -1,0 +1,70 @@
+{
+  "passed": 16,
+  "failed": 0,
+  "results": [
+    {
+      "name": "addStoryWithRooms matches the single room below",
+      "passed": true
+    },
+    {
+      "name": "addStoryWithRooms covers every room below by default",
+      "passed": true
+    },
+    {
+      "name": "addStoryWithRooms can match one chosen room",
+      "passed": true
+    },
+    {
+      "name": "addStoryWithRooms above a floor-only story uses its floor space",
+      "passed": true
+    },
+    {
+      "name": "addStoryWithRooms keeps the custom story name",
+      "passed": true
+    },
+    {
+      "name": "Partitions at the same X/Y on different stories do not conflict",
+      "passed": true
+    },
+    {
+      "name": "Same-story overlapping partitions are still refused",
+      "passed": true
+    },
+    {
+      "name": "Deleting a room removes its ceiling edits instead of failing",
+      "passed": true
+    },
+    {
+      "name": "Deleting a style-host room keeps free walls on other stories",
+      "passed": true
+    },
+    {
+      "name": "Deleting a room keeps viewpoints that still stand on floor space",
+      "passed": true
+    },
+    {
+      "name": "Deleting the last room is refused",
+      "passed": true
+    },
+    {
+      "name": "Floor space becomes an enclosed room with its material",
+      "passed": true
+    },
+    {
+      "name": "Floor space smaller than 2 m cannot become a room",
+      "passed": true
+    },
+    {
+      "name": "Floor space overlapping a same-story room cannot become a room",
+      "passed": true
+    },
+    {
+      "name": "storyContents counts everything on a story",
+      "passed": true
+    },
+    {
+      "name": "Forced story delete removes contents and collapses stories above",
+      "passed": true
+    }
+  ]
+}

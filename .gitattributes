@@ -20,3 +20,8 @@
 /packages/encounter-atlas/** -text
 /docs/audits/encounter-atlas/** -text
 /tools/encounter-atlas-independent/** -text
+# Stage 6: preserve Room Creator source and copied audit/asset metadata bytes.
+/packages/room-creator/** -text
+/docs/audits/room-creator/** -text
+/tools/room-creator-independent/** -text
+/assets/manifests/room-creator-library-v1/** -text

@@ -1,0 +1,11 @@
+PASS a project without placed objects is unchanged (no props/objectLibrary keys are added)
+PASS unknown fields on placed objects, collision, gameplay, tags and use points survive load and save unchanged
+PASS unknown fields in looks, palettes, asset setups and the library block survive unchanged
+PASS editing one known field (move, turn, add a tag) leaves every unknown field byte-identical
+PASS a reference to an asset or look that does not exist is kept for repair, not deleted
+PASS missing or broken known fields get safe defaults without touching unknown ones
+PASS unknown top-level keys on the route network are kept (0.14 fix)
+PASS placement maths: front faces the given heading; points and footprint turn with the object
+PASS collision overrides: box size and round shape
+PASS route conflict helpers
+10 passed, 0 failed

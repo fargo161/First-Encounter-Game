@@ -1,0 +1,67 @@
+{
+  "passed": 13,
+  "failed": 2,
+  "errors": [],
+  "results": [
+    {
+      "name": "Editor identifies project format 10",
+      "passed": false
+    },
+    {
+      "name": "Story manager starts with Ground only",
+      "passed": true
+    },
+    {
+      "name": "Manual construction tools are visible",
+      "passed": true
+    },
+    {
+      "name": "Floor section exists on story above",
+      "passed": true
+    },
+    {
+      "name": "Free wall can exist on story with no room",
+      "passed": true
+    },
+    {
+      "name": "Pillar can exist outside room footprint",
+      "passed": true
+    },
+    {
+      "name": "Ceiling cut and patch coexist",
+      "passed": true
+    },
+    {
+      "name": "Ceiling patch restores only its area",
+      "passed": true
+    },
+    {
+      "name": "Portable validation accepts the construction scene",
+      "passed": false
+    },
+    {
+      "name": "Isometric renderer includes new construction without error",
+      "passed": true
+    },
+    {
+      "name": "Lower first-person view can see upper manual floor underside",
+      "passed": true
+    },
+    {
+      "name": "Pillars participate in first-person architecture picking",
+      "passed": true
+    },
+    {
+      "name": "Quick story buttons show Ground and Gallery",
+      "passed": true
+    },
+    {
+      "name": "Story selection updates active story",
+      "passed": true
+    },
+    {
+      "name": "No unhandled browser errors",
+      "passed": true
+    }
+  ]
+}

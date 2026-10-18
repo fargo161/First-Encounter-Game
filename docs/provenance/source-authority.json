@@ -7,7 +7,8 @@
     2,
     3,
     4,
-    5
+    5,
+    6
   ],
   "subsystem_source_imported": true,
   "governing_documents": {
@@ -40,6 +41,14 @@
       "sha256": "c46dbc5f3a4ceec29460838718e17deaabc37b4fca5ac73c532ca3a79c1cf155",
       "archive_root": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-5-verification-2026-10-18",
       "archive_path": "inputs/FIRST_ENCOUNTER_GAME_STAGE_5_AUTHORIZATION.md"
+    },
+    "FIRST_ENCOUNTER_GAME_STAGE_6_AUTHORIZATION.md": {
+      "source_path": "C:\\Users\\mcdon\\Downloads\\FIRST_ENCOUNTER_GAME_STAGE_6_AUTHORIZATION.md",
+      "repository_path": "docs/provenance/governing/FIRST_ENCOUNTER_GAME_STAGE_6_AUTHORIZATION.md",
+      "bytes": 3709,
+      "sha256": "22712384616203bc12de63e041ccf66062aeef6fbd8e54244b89e04ffd949c8e",
+      "archive_root": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-6-import-2026-10-18",
+      "archive_path": "inputs/FIRST_ENCOUNTER_GAME_STAGE_6_AUTHORIZATION.md"
     }
   },
   "repository": {
@@ -231,14 +240,27 @@
         "archive_path": "artifacts/room-creator-intake-packages/Trapstar_RoomCreator_Asset_Library_v1.zip"
       },
       "known_defect": "ROOM_CREATOR_V0141_R1: manifest-known palette/texture IDs with missing image files silently fall back without object-specific repair warnings/controls.",
-      "promotion": "Not promoted. The owner permits later importing this development baseline while retaining HOLD; source import itself remains unauthorized now.",
+      "promotion": "Imported as a held development baseline in Stage 6. HOLD is unchanged; import is not acceptance or promotion. Stage 7 behavior/build/browser verification requires explicit new authorization.",
       "dependencies": [
         "Read-only Trapstar_RoomCreator_Asset_Library_v1",
         "Bundled three.js r159 and glTF loader",
         "Python development/build tooling",
         "Playwright 1.56.0 browser test pin"
       ],
-      "working_checkpoint_alignment": "383 regular archive members, including the package manifest, matched the current working tree. No behavior tests rerun in Stages 0-3."
+      "working_checkpoint_alignment": "383 regular archive members, including the package manifest, matched the current working tree. No behavior tests rerun in Stages 0-3.",
+      "repository_import": {
+        "stage": 6,
+        "path": "packages/room-creator",
+        "baseline_files": 383,
+        "baseline_bytes": 201955025,
+        "additional_git_metadata_files": 1,
+        "source_tree_sha256": "63521f0d9068de3e4da40cd8ec4573d17b26481aa6557a908caaa8d10a4c485b",
+        "integrity": "BYTE_IDENTICAL_BASELINE",
+        "acceptance": "HOLD_FOR_FURTHER_REMEDIATION",
+        "migration_behavior_verification": "PENDING_STAGE_7_NOT_AUTHORIZED",
+        "manifest": "docs/provenance/room-creator-stage6-import.json",
+        "origin_snapshot_role": "editable_source remains the preserved pre-import source of authority; the current imported editable location is this repository path."
+      }
     },
     "zant": {
       "neutral_acceptance": "OWNER_ACCEPTED_R4_CANDIDATE02",
@@ -396,21 +418,19 @@
     }
   },
   "verification_this_execution": {
-    "stage": 5,
-    "source_builds_or_behavior_tests_executed": true,
-    "disposable_only": true,
-    "stage5_executed": true,
-    "verdict": "PASS WITH DOCUMENTED KNOWN LIMITATIONS",
-    "verification_manifest": "docs/provenance/encounter-atlas-stage5-verification.json",
-    "report": "docs/consolidation/STAGE_5_VERIFICATION.md",
-    "canonical_imported_source_byte_identical": true,
-    "originals_unchanged": true,
-    "stage6_started": false
+    "stage": 6,
+    "subsystem": "room_creator",
+    "source_builds_or_behavior_tests_executed": false,
+    "stage7_executed": false,
+    "fresh_checks": "Complete 383-file source/snapshot/ZIP hashes, 382 internal checksum entries, asset ZIP identity/CRC, copied metadata hashes, unchanged originals and Encounter, Git staging/checkout integrity.",
+    "baseline_status": "HOLD_FOR_FURTHER_REMEDIATION",
+    "manifest": "docs/provenance/room-creator-stage6-import.json"
   },
-  "next_stage": "Stage 6 Room Creator baseline import requires explicit new user authorization. STOP.",
-  "current_authorized_stage": 5,
+  "next_stage": "Stage 7 Room Creator verification requires explicit new owner authorization. STOP.",
+  "current_authorized_stage": 6,
   "imported_subsystems": [
-    "encounter_atlas"
+    "encounter_atlas",
+    "room_creator"
   ],
   "verification_history_stage_0_to_3": {
     "source_builds_or_behavior_tests_executed": false,
@@ -422,5 +442,17 @@
     "source_builds_or_behavior_tests_executed": false,
     "fresh_checks": "Complete imported tree membership and byte hashes, independent 132-input digest, preserved origin alignment, required saved-run presence, unchanged originals and Git byte integrity.",
     "stage5_executed": false
+  },
+  "verification_history_stage_5": {
+    "stage": 5,
+    "source_builds_or_behavior_tests_executed": true,
+    "disposable_only": true,
+    "stage5_executed": true,
+    "verdict": "PASS WITH DOCUMENTED KNOWN LIMITATIONS",
+    "verification_manifest": "docs/provenance/encounter-atlas-stage5-verification.json",
+    "report": "docs/consolidation/STAGE_5_VERIFICATION.md",
+    "canonical_imported_source_byte_identical": true,
+    "originals_unchanged": true,
+    "stage6_started": false
   }
 }

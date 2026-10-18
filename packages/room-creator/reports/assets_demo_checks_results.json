@@ -1,0 +1,108 @@
+{
+ "baseline": {
+  "cover": {
+   "shooters": 71,
+   "hiddenShare": {
+    "N4 crouched": 0.535,
+    "N4 standing": 0.028,
+    "N5 crouched": 0.451,
+    "N5 standing": 0.014
+   }
+  },
+  "conflicts": [],
+  "walk": {
+   "ok": true,
+   "pos": {
+    "x": 42.76,
+    "y": 37.85,
+    "edge": "e_harlan_w",
+    "s": 36.76,
+    "off": 0,
+    "body": 90,
+    "head": 0,
+    "stop": null
+   },
+   "boxes": 0
+  },
+  "props": 0,
+  "triangles": 0,
+  "drawMs": {
+   "view_mvcv5kcl_h2iw3fo": 7.9,
+   "view_mvcv5kd2_qk72wz9": 18.3,
+   "view_route_start": 16.5,
+   "view_mvcv5kcl_dwgwaii": 12.4,
+   "map": 27.6
+  }
+ },
+ "demo": {
+  "cover": {
+   "shooters": 71,
+   "hiddenShare": {
+    "N4 crouched": 0.732,
+    "N4 standing": 0.028,
+    "N5 crouched": 0.845,
+    "N5 standing": 0.014
+   }
+  },
+  "conflicts": [
+   "Alley dumpster (east, grimy) narrows the strafe space on \u201cBack alley\u201d (0.75 m from the route line)."
+  ],
+  "walk": {
+   "ok": true,
+   "pos": {
+    "x": 42.76,
+    "y": 37.85,
+    "edge": "e_harlan_w",
+    "s": 36.76,
+    "off": 0,
+    "body": 90,
+    "head": 0,
+    "stop": null
+   },
+   "boxes": 29
+  },
+  "props": 69,
+  "triangles": 180076,
+  "drawMs": {
+   "view_mvcv5kcl_h2iw3fo": 8.6,
+   "view_demo_stockroom": 10.2,
+   "view_mvcv5kd2_qk72wz9": 18,
+   "view_route_start": 18.5,
+   "view_mvcv5kcl_dwgwaii": 14.8,
+   "map": 25.1
+  }
+ },
+ "stress_demo_plus_500": {
+  "props": 569,
+  "triangles": 1282936,
+  "drawMs": {
+   "view_mvcv5kcl_h2iw3fo": 57.3,
+   "view_demo_stockroom": 122.4,
+   "view_mvcv5kd2_qk72wz9": 51.2,
+   "view_route_start": 30.2,
+   "view_mvcv5kcl_dwgwaii": 31.3,
+   "map": 150.9
+  },
+  "walk": {
+   "ok": true,
+   "pos": {
+    "x": 42.76,
+    "y": 37.85,
+    "edge": "e_harlan_w",
+    "s": 36.76,
+    "off": 0,
+    "body": 90,
+    "head": 0,
+    "stop": null
+   },
+   "boxes": 279
+  }
+ },
+ "page_errors": [],
+ "checks": {
+  "cover spots N4/N5 stay hidden when crouched at least as often as with the placeholder boxes": true,
+  "route walk runs on the demo with solid objects in its sight boxes": true,
+  "no solid object blocks a player route, NPC lane or spot in the demo (only the known narrowing note)": true,
+  "no page errors": true
+ }
+}

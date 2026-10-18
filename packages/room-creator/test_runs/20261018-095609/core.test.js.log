@@ -1,0 +1,86 @@
+PASS New project has one empty floor section and no placeable assets
+PASS Rooms use real dimensions and coherent units
+PASS Adjoining east room shares a physical wall
+PASS L-shaped floor excludes the missing corner
+PASS Shared boundary is deduplicated, not two solid walls
+PASS Full shared opening uses the exact shared interval
+PASS A wall opening identifies its adjoining room
+PASS North and west extensions support negative coordinates
+PASS South adjoining room aligns the correct axis
+PASS Overlapping room additions fail without changing the plan
+PASS Detached offset rejected by adjoining-room creation
+PASS Room floor membership treats an open shared seam as interior
+PASS Doors cannot be created without an existing wall
+PASS Unknown wall side rejected
+PASS Opening must fit entirely on its host wall
+PASS Window sill plus height cannot exceed wall height
+PASS Doors must meet the floor
+PASS Overlapping opposite-face openings are rejected
+PASS Moving an anchored opening follows its host room
+PASS A shared aperture cuts both room faces
+PASS Opening an already pierced full section is rejected safely
+PASS Open door permits movement both directions
+PASS Closed door blocks movement without deleting its route
+PASS A window is never a walking connection
+PASS An open passage permits movement through the shared boundary
+PASS Solid partition blocks line routes
+PASS A diagonal route cannot cut through an L-shaped void
+PASS External open walls do not make empty exterior walkable
+PASS Door jambs are not walk-through floor
+PASS Viewpoint requires position and a distinct facing click
+PASS Views outside the floor plan do not exist
+PASS A view cannot sit on a solid shared boundary
+PASS View placed beside an open seam has a valid floor position
+PASS Viewpoint default is ordinary, not covered or exposed
+PASS Cannot create exposed partner before cover is assigned
+PASS Cannot assign cover to an unplaced viewpoint
+PASS A cover source must really exist
+PASS Assigning cover retains the existing map position and creates no partner
+PASS Edge partner has a real offset and common direction
+PASS Low-cover partner shares floor position and rises
+PASS Duplicate partner creation is rejected
+PASS Exposed partner cannot become another primary cover source
+PASS Partner outside the floor is rejected before adding a view
+PASS Partner cannot cross a solid wall
+PASS Existing ordinary view can become the partner after assignment
+PASS An existing exposed candidate beyond 3m cannot pair
+PASS Moving the primary moves both states by the same delta
+PASS Moving the exposed marker translates the primary too
+PASS Turning either state keeps directions and relative offsets coordinated
+PASS Unpairing keeps both positions and primary cover assignment
+PASS Removing cover converts its partner back to an ordinary view
+PASS Deleting a primary view does not delete the exposed view
+PASS Removing a cover object clears assignments without deleting viewpoints
+PASS Cover is not moved by its source object
+PASS Imported object is a single shared record with calibrated artwork
+PASS Aspect ratio is preserved for upright first-person sprites
+PASS Footprints cannot straddle the missing L corner
+PASS Object can straddle an open floor seam
+PASS Oversized object is not silently scaled
+PASS Isometric round trip works with rooms at negative coordinates
+PASS First-person floor inverse round trips at multiple directions
+PASS The horizon is not a valid floor-placement target
+PASS Room shrink reports affected objects rather than silently moving them
+PASS Explicit safe relocation is validated on room shrink
+PASS Shrinking a wall below an opening width rejects the edit
+PASS Room translation moves its content and viewpoint together
+PASS Changing a connection reports the lost adjoining room
+PASS Per-wall appearance override is separate from inherited walls
+PASS Palette modifies only the selected room
+PASS Light pools must be assigned to an actual room
+PASS Routes reference placed viewpoints and directionality
+PASS Invalid routes through a solid wall cannot be newly authored
+PASS Same-view route is rejected
+PASS Validation rejects exposed labels with no covered partner
+PASS Validation rejects pair references lacking cover assignment
+PASS Validation rejects changed partner direction outside synchronization
+PASS Validation rejects duplicate viewpoint identities
+PASS Validation rejects script-bearing external artwork
+PASS Validation rejects nonnumeric dimensions and invalid colors
+PASS Validation detects missing texture image rather than inventing one
+PASS Portable JSON round trip retains all architecture and cover identities
+PASS The bundled example contains no images or furniture
+PASS Legacy v0.3 ordinary viewpoints preserve their map pose
+PASS Legacy images are imported only from the opened file
+
+84 passed, 0 failed

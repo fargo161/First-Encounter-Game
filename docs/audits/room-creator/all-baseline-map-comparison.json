@@ -1,0 +1,62 @@
+[
+  {
+    "file": "Partitions_and_Attached_Room.room.json",
+    "priorSHA256": "56c1a2fae6d3ceb892e372fdb381e6610e302150a562857a68a8f9bcf7caca7e",
+    "candidateSHA256": "56c1a2fae6d3ceb892e372fdb381e6610e302150a562857a68a8f9bcf7caca7e",
+    "equal": true
+  },
+  {
+    "file": "City_Block_Rail_Demo.room.json",
+    "priorSHA256": "123b6428641d6d1caf815688e41b050a1424b08244f2e4e41ce2ee483b26c890",
+    "candidateSHA256": "123b6428641d6d1caf815688e41b050a1424b08244f2e4e41ce2ee483b26c890",
+    "equal": true
+  },
+  {
+    "file": "Route_Prototype_Street.room.json",
+    "priorSHA256": "5b296703315cf9c1dec1db809faedf2d72df04b11d76e9cae0af0ff374c72d01",
+    "candidateSHA256": "5b296703315cf9c1dec1db809faedf2d72df04b11d76e9cae0af0ff374c72d01",
+    "equal": true
+  },
+  {
+    "file": "Manual_Construction_Atrium.room.json",
+    "priorSHA256": "60dabf47ec3d7cc0c33e3c0b618feb7d5968b36c4e23b311e4e48f751679f91f",
+    "candidateSHA256": "60dabf47ec3d7cc0c33e3c0b618feb7d5968b36c4e23b311e4e48f751679f91f",
+    "equal": true
+  },
+  {
+    "file": "Atrium_Gallery.room.json",
+    "priorSHA256": "3419e9667fd4174df9a6d8b49edc74c9a8fc461256e5e3f7e38b976385d592c9",
+    "candidateSHA256": "3419e9667fd4174df9a6d8b49edc74c9a8fc461256e5e3f7e38b976385d592c9",
+    "equal": true
+  },
+  {
+    "file": "Shared_Matte_Example.room.json",
+    "priorSHA256": "8839ec6cf69378fd39f638c9d473e84ad2a2531f65fdf02d06f670e278ddbd72",
+    "candidateSHA256": "8839ec6cf69378fd39f638c9d473e84ad2a2531f65fdf02d06f670e278ddbd72",
+    "equal": true
+  },
+  {
+    "file": "Empty_Start.room.json",
+    "priorSHA256": "dd171e0371ce251e18ac3346496b92bc3e4018e0b47d147e4692a1d1ff37a62f",
+    "candidateSHA256": "dd171e0371ce251e18ac3346496b92bc3e4018e0b47d147e4692a1d1ff37a62f",
+    "equal": true
+  },
+  {
+    "file": "Connected_Rooms.room.json",
+    "priorSHA256": "410f05aa70a114b0d6de72ab45f2f01bed08edefcfee2955eb69929b5724ccf4",
+    "candidateSHA256": "410f05aa70a114b0d6de72ab45f2f01bed08edefcfee2955eb69929b5724ccf4",
+    "equal": true
+  },
+  {
+    "file": "Windows_Doors_Style.room.json",
+    "priorSHA256": "f7e8d1ba96dcae176672471556a8d131d506c5404f0fc6cb568f599a2b0c9c52",
+    "candidateSHA256": "f7e8d1ba96dcae176672471556a8d131d506c5404f0fc6cb568f599a2b0c9c52",
+    "equal": true
+  },
+  {
+    "file": "City_Block_Dusk.room.json",
+    "priorSHA256": "49564b99eeb6f5cfa1117b7e733b5d8ad516fdcec4e4f6ba74ae0675435af390",
+    "candidateSHA256": "49564b99eeb6f5cfa1117b7e733b5d8ad516fdcec4e4f6ba74ae0675435af390",
+    "equal": true
+  }
+]

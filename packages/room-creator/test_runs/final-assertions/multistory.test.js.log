@@ -1,0 +1,22 @@
+PASS Format 9 starts on Ground with default story spacing
+PASS Room above can share the exact X/Y footprint
+PASS Upper room may be offset and smaller
+PASS Same-story overlaps remain forbidden
+PASS Different-story overlaps are allowed
+PASS Story elevation follows global floor-to-floor height
+PASS Story list and labels are stable
+PASS Open Above is persisted as real room state
+PASS Upper balcony side lowers wall cap
+PASS Ordinary upper boundary keeps full wall height
+PASS Balcony designation does not affect ground-floor walls
+PASS Viewpoint is attached to selected upper room and elevation
+PASS Objects can be attached to an upper room
+PASS Same X/Y can identify different rooms by story
+PASS Horizontal adjoining room stays on its parent story
+PASS Wall records from overlapping stories remain distinct
+PASS Cross-story route is an explicit vertical transition
+PASS Paired cover states stay on the same story
+PASS Story height outside allowed range is rejected
+PASS v0.8 project normalizes to format 10 with story defaults
+PASS Bundled multi-story example validates and spans two stories
+21 passed, 0 failed

@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "builds": [
+    {
+      "sourceNewlines": "LF",
+      "outputSHA256": "a4e8a14ddc4d734c036902f56b1a7d7bb8a157a77ef3911b97ea70c76f228c97",
+      "bytes": 1615201
+    },
+    {
+      "sourceNewlines": "CRLF",
+      "outputSHA256": "a4e8a14ddc4d734c036902f56b1a7d7bb8a157a77ef3911b97ea70c76f228c97",
+      "bytes": 1615201
+    }
+  ]
+}

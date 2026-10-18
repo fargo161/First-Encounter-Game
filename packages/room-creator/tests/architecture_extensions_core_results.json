@@ -1,0 +1,242 @@
+{
+  "passed": 59,
+  "failed": 0,
+  "results": [
+    {
+      "name": "New format 10 starts with an empty partition list",
+      "passed": true
+    },
+    {
+      "name": "Old format 4 loads without moving rooms, viewpoints or changing matte framing",
+      "passed": true
+    },
+    {
+      "name": "Malformed new-format projects cannot omit partitions silently",
+      "passed": true
+    },
+    {
+      "name": "Door, window and passage coexist on a single wall",
+      "passed": true
+    },
+    {
+      "name": "Free spans exclude all occupied openings",
+      "passed": true
+    },
+    {
+      "name": "Suggested passage fits an available gap instead of the whole wall",
+      "passed": true
+    },
+    {
+      "name": "Open unused spans preserves exact door and window records",
+      "passed": true
+    },
+    {
+      "name": "Narrow unused strips are retained rather than invalid cuts",
+      "passed": true
+    },
+    {
+      "name": "An overlapping cut is rejected without replacing a window",
+      "passed": true
+    },
+    {
+      "name": "Deleting one opening leaves its neighboring cuts unchanged",
+      "passed": true
+    },
+    {
+      "name": "Same-wall mixed openings work on a shared boundary in both directions",
+      "passed": true
+    },
+    {
+      "name": "Horizontal partition is one two-sided interior wall, not a new room",
+      "passed": true
+    },
+    {
+      "name": "Vertical partition has correct positive-axis endpoints",
+      "passed": true
+    },
+    {
+      "name": "Partition endpoints may meet room boundaries perpendicularly",
+      "passed": true
+    },
+    {
+      "name": "A partition cannot masquerade as an exterior boundary",
+      "passed": true
+    },
+    {
+      "name": "Partition outside its owning room is rejected atomically",
+      "passed": true
+    },
+    {
+      "name": "Collinear overlapping partitions are rejected",
+      "passed": true
+    },
+    {
+      "name": "T junctions can meet solid partition sections",
+      "passed": true
+    },
+    {
+      "name": "Junctions cannot slice through a partition doorway",
+      "passed": true
+    },
+    {
+      "name": "A partition can have a door, window and passage on its own line",
+      "passed": true
+    },
+    {
+      "name": "Partition opening has an interior host, never a cardinal exterior side",
+      "passed": true
+    },
+    {
+      "name": "Room exterior matte is not inherited by either partition face",
+      "passed": true
+    },
+    {
+      "name": "Partition cannot obtain a matte plane even through the core API",
+      "passed": true
+    },
+    {
+      "name": "A project with illegal exterior settings on a partition is rejected",
+      "passed": true
+    },
+    {
+      "name": "Partition face A and B styles are independent records",
+      "passed": true
+    },
+    {
+      "name": "View side selects the correct partition surface",
+      "passed": true
+    },
+    {
+      "name": "Solid partition blocks routes across the room",
+      "passed": true
+    },
+    {
+      "name": "Viewpoints cannot be placed inside solid partitions",
+      "passed": true
+    },
+    {
+      "name": "A new partition cannot slice through an existing viewpoint",
+      "passed": true
+    },
+    {
+      "name": "An open partition doorway permits travel; closing it blocks",
+      "passed": true
+    },
+    {
+      "name": "Partition windows never become walking routes",
+      "passed": true
+    },
+    {
+      "name": "Partition passage allows travel through its aperture",
+      "passed": true
+    },
+    {
+      "name": "Moving a partition carries opening positions and IDs",
+      "passed": true
+    },
+    {
+      "name": "Shortening under a hosted opening rolls back atomically",
+      "passed": true
+    },
+    {
+      "name": "Partition movement cannot collide with a placed view",
+      "passed": true
+    },
+    {
+      "name": "Custom-height partition caps openings and is kept within room height",
+      "passed": true
+    },
+    {
+      "name": "Full-height partition follows common wall-height changes",
+      "passed": true
+    },
+    {
+      "name": "Viewpoint-first cover can use a partition as its obstruction",
+      "passed": true
+    },
+    {
+      "name": "Deleting a partition clears cover but keeps both viewpoints",
+      "passed": true
+    },
+    {
+      "name": "Deleting a partition removes only its own apertures",
+      "passed": true
+    },
+    {
+      "name": "Moving a room moves its hosted partitions and their openings",
+      "passed": true
+    },
+    {
+      "name": "Room shrink never silently deletes a partition that no longer fits",
+      "passed": true
+    },
+    {
+      "name": "Attach room at existing N opening preserves and shares it",
+      "passed": true
+    },
+    {
+      "name": "Attach room at existing E opening preserves and shares it",
+      "passed": true
+    },
+    {
+      "name": "Attach room at existing S opening preserves and shares it",
+      "passed": true
+    },
+    {
+      "name": "Attach room at existing W opening preserves and shares it",
+      "passed": true
+    },
+    {
+      "name": "Attach preview is nonmutating until confirmation",
+      "passed": true
+    },
+    {
+      "name": "Attachment honors an explicit inset on the new room wall",
+      "passed": true
+    },
+    {
+      "name": "Attachment rejects rooms narrower than their existing opening",
+      "passed": true
+    },
+    {
+      "name": "Attachment rejects existing interior room connections",
+      "passed": true
+    },
+    {
+      "name": "Attachment rejects partition openings",
+      "passed": true
+    },
+    {
+      "name": "Overlapping attachment is rejected without altering the scene",
+      "passed": true
+    },
+    {
+      "name": "Partially exterior opening cannot attach another room across shared space",
+      "passed": true
+    },
+    {
+      "name": "Windows keep their type when a room is attached behind them",
+      "passed": true
+    },
+    {
+      "name": "Open doorway used for attachment admits a route into the new room",
+      "passed": true
+    },
+    {
+      "name": "Attachment keeps primary cover references to the original frame",
+      "passed": true
+    },
+    {
+      "name": "All neighboring openings reached by the new room become shared",
+      "passed": true
+    },
+    {
+      "name": "Room attachment preserves unrelated wall matte and partition data",
+      "passed": true
+    },
+    {
+      "name": "Current-format save/reopen preserves partition faces, mixed openings and attach geometry",
+      "passed": true
+    }
+  ]
+}

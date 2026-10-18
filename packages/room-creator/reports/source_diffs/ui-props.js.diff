@@ -1,0 +1,86 @@
+--- v0.14/source/ui-props.js
++++ v0.14.1/source/ui-props.js
+@@ -169,7 +169,7 @@
+     const sel=selection?.kind==='prop'?selected():null;
+     if(sel&&!sel.locked){
+       const rh=rotHandle(sel);if(Math.hypot(q.x-rh.screen.x,q.y-rh.screen.y)<12*mk()){PZ.drag={kind:'rotate',id:sel.id,before:capture(),moved:false};return true;}
+-      for(const p of sel.points){const ps=pointScreen(sel,p);if(Math.hypot(q.x-ps.screen.x,q.y-ps.screen.y)<9*mk()){PZ.selPoint=p.id;PZ.drag={kind:'point',id:sel.id,pid:p.id,before:capture(),moved:false};renderInspector();return true;}}}
++      for(const p of sel.points){const ps=pointScreen(sel,p);if(Math.hypot(q.x-ps.screen.x,q.y-ps.screen.y)<9*mk()){PZ.selPoint=p.id;PZ.drag={kind:'point',id:sel.id,pid:p.id,before:capture(),moved:false,startClient:{x:e.clientX,y:e.clientY},height:ps.plan.z,start:C.isoInverse(project,q,ps.plan.z),orig:C.clone(p)};renderInspector();return true;}}}
+     if(iconUnder(q))return false;
+     const hit=hitProp(q);if(!hit)return false;
+     selection={kind:'prop',id:hit.id};panel='selection';PZ.selPoint=null;
+@@ -191,7 +191,7 @@
+   if(d.kind==='move'||d.kind==='move-fp'){let f;if(d.kind==='move')f=C.isoInverse(project,q,C.storyElevation(project,o.story||0));else{const v=fpFrame();f=v&&propFloorAt(v,q,o.story||0);}
+     if(!f||!d.start){if(d.kind==='move-fp'&&f)d.start=f;return true;}let nx=d.orig.x+f.x-d.start.x,ny=d.orig.y+f.y-d.start.y;if(snap&&!e.altKey){nx=Math.round(nx/.05)*.05;ny=Math.round(ny/.05)*.05;}o.x=+nx.toFixed(3);o.y=+ny.toFixed(3);}
+   else if(d.kind==='rotate'){const f=C.isoInverse(project,q,C.storyElevation(project,o.story||0)),s=setupOf(o.asset);let h=C.heading(o,f);if(!e.shiftKey)h=Math.round(h/15)*15;o.rotation=C.norm(h);}
+-  else if(d.kind==='point'){const f=C.isoInverse(project,q,C.storyElevation(project,o.story||0)+0),pt=o.points.find(p=>p.id===d.pid);if(pt){const l=C.planToProp(o,f,setupOf(o.asset));pt.x=+l.x.toFixed(3);pt.z=+l.z.toFixed(3);}}
++  else if(d.kind==='point'){const f=C.isoInverse(project,q,d.height),pt=o.points.find(p=>p.id===d.pid);if(pt){const origin=C.propToPlan(o,d.orig,setupOf(o.asset)),l=C.planToProp(o,{x:origin.x+f.x-d.start.x,y:origin.y+f.y-d.start.y},setupOf(o.asset));pt.x=+l.x.toFixed(3);pt.z=+l.z.toFixed(3);}}
+   GLE?.invalidateProps();drawSoon();return true;});
+ HOOKS.pointerUp.push(e=>{const d=PZ.drag;if(!d)return false;PZ.drag=null;
+   if(d.moved){try{const o=(project.props||[]).find(p=>p.id===d.id);if(o){const r=C.roomAtStory(project,o,o.story||0);o.roomId=r?r.id:null;}project=C.validateBundle({project,assets:[...catalog.values()]}).project;pushHistory(d.before,d.kind==='rotate'?'Turn object':d.kind==='point'?'Move use point':'Move object');RR?.clearCaches?.();}catch(err){restore(d.before);toast(err.message,6000);}}
+@@ -269,8 +269,8 @@
+   let status='';
+   if(!A.connected)status=`<div class="info warn">The asset library is not connected, so this shows as a plain box. Its data is safe. <button class="mini" data-pa="go-library">Connect…</button></div>`;
+   else if(t.status==='missing')status=`<div class="info warn">The model “${esc(q.asset)}” is not in the connected library. The reference is kept so it can be repaired. <button class="mini" data-pa="prop-replace">Replace…</button></div>`;
+-  else if(t.status==='error')status=`<div class="info warn">This model could not be loaded: ${esc(t.error)}.</div>`;
+-  else if(t.status==='loading')status=`<div class="info">Loading the model…</div>`;
++  else if(t.status==='error')status=`<div class="info warn">Model ${esc(q.asset)} could not be loaded after ${t.attempts||1} attempts: ${esc(t.error)}. <button data-pa="model-retry">Retry model</button></div>`;
++  else if(t.status==='loading')status=`<div class="info">Loading model ${esc(q.asset)} · attempt ${t.attempts||1} of 3…</div>`;
+   if(t.warning)status+=`<div class="info">${esc(t.warning)}</div>`;
+   const conflicts=propConflicts().filter(c=>c.prop===q.id);
+   const head=`<section class="section prop-head"><div class="prop-title">${e?`<img data-thumb="${esc(e.id)}" ${thumb?`src="${thumb}"`:'class="pending"'} alt="">`:'<div class="ph"></div>'}<div><span class="eyebrow">3D object${q.enabled===false?' · SWITCHED OFF':''}${q.locked?' · LOCKED':''}</span><h2>${esc(propName(q))}</h2><small>${esc(e?.name&&q.name?e.name+' · ':'')}${esc(cat)}</small></div></div>
+@@ -284,10 +284,11 @@
+   return head+place+appearanceSection(q,e,t,app)+collisionSection(q,b,conflicts)+gameplaySection(q,e)+pointsSection(q,e,b)+infoSection(q,e,t,setup);
+ }
+ function appearanceSection(q,e,t,app){
+-  if(!e)return `<details class="section details" ${sec('appearance',true)}><summary>Appearance</summary><p class="subtle">Connect the library to change how this object looks. Its saved look is kept.</p></details>`;
++  const issues=C.propAppearanceIssues(project,q,e,id=>A.entry(id),id=>catalog.has(id),t),warning=issues.map(i=>`<div class="info warn" role="status"><b>${esc(i.reason)}: ${esc(i.id)}</b><p>The reference is kept. Choose a replacement below or reset this field.</p><button data-pa="appearance-reset" data-v="${i.field}">Use model default ${i.field}</button>${i.field==='texture'?'<button data-pa="tex-choose">Choose replacement texture…</button>':''}</div>`).join('');
++  if(!e)return `<details class="section details" ${sec('appearance',true)}><summary>Appearance</summary>${warning}<p class="subtle">Connect the library to change how this object looks. Its saved look is kept.</p></details>`;
+   const ol=PROPS_LIB(),looks=(ol?.looks||[]).filter(l=>l.asset===q.asset||(!l.asset&&(!l.family||l.family===e.paletteFamily))),lk=app.look,pal=e.material_system==='palette'&&e.paletteFamily&&!t.paletteMismatch;
+   const anyOwn=C.LOOK_FIELDS.some(k=>q.override?.[k]!==undefined);
+-  let html=`<details class="section details" ${sec('appearance',true)}><summary>Appearance</summary>
++  let html=`<details class="section details" ${sec('appearance',true)}><summary>Appearance</summary>${warning}
+     <label>Look<select data-pf="look"><option value="">Asset default</option>${looks.map(l=>`<option value="${esc(l.id)}" ${q.look===l.id?'selected':''}>${esc(l.name)}</option>`).join('')}${app.lookMissing?`<option value="${esc(q.look)}" selected>(missing look ${esc(q.look)})</option>`:''}</select></label>
+     <p class="subtle">${lk?`Shared look “${esc(lk.name)}” · used by ${(project.props||[]).filter(p=>p.look===lk.id).length} objects.`:'Showing the object as it comes from the library.'}${anyOwn?' This object also has its own changes on top.':''}</p>
+     <div class="button-row"><button data-pa="look-save">Save as look…</button>${lk&&anyOwn?'<button data-pa="look-update">Update the look from this object</button>':''}${anyOwn?'<button data-pa="look-clear-own">Clear this object’s changes</button>':''}</div>`;
+@@ -422,6 +423,8 @@
+     case 'pal-rename':renamePrompt('Rename palette',C.paletteVariantById(project,v)?.name,n=>mutate(()=>{C.paletteVariantById(project,v).name=n;},'Rename palette'));break;
+     case 'pal-delete':{const used=(project.props||[]).filter(p=>p.override?.palette===v).length+(PROPS_LIB()?.looks||[]).filter(l=>l.palette===v).length;ask('Delete this palette?',used?`${used} objects or looks use it. They go back to the library palette.`:'Nothing uses it.',()=>mutate(()=>{const ol=ensureLib();ol.palettes=ol.palettes.filter(x=>x.id!==v);for(const p of project.props||[])if(p.override?.palette===v)delete p.override.palette;for(const l of ol.looks)if(l.palette===v)delete l.palette;},'Delete palette'),'Delete');break;}
+     case 'tex-choose':if(q){PZ.texTarget={kind:'prop',id:q.id,label:propName(q)};pane='library';PZ.libMode='textures';renderLeft();}break;
++    case 'appearance-reset':if(q&&['palette','texture'].includes(v))mutate(()=>{q.override[v]='default';},'Reset '+v+' reference');break;
++    case 'model-retry':if(q){A.retryTemplate(q.asset);renderInspector();}break;
+     case 'tex-reset':if(q)mutate(()=>{const lk=q.look&&C.lookById(project,q.look);if(lk?.texture)q.override.texture='default';else delete q.override.texture;},'Use the model’s own picture');break;
+     case 'look-save':if(q)renamePrompt('Save as look','Look '+((PROPS_LIB()?.looks.length||0)+1),n=>savePropLook(q,n));break;
+     case 'look-update':if(q){const lk=C.lookById(project,q.look),n=(project.props||[]).filter(p=>p.look===lk.id).length;ask('Update the look “'+lk.name+'”?',`This changes all ${n} objects that use it.`,()=>mutate(()=>{for(const k of C.LOOK_FIELDS)if(q.override[k]!==undefined){if(q.override[k]==='default')delete lk[k];else lk[k]=q.override[k];delete q.override[k];}},'Update look'),'Update look');}break;
+@@ -431,7 +434,7 @@
+     case 'setup-front':if(q){const nv=C.norm(Number(v));mutate(()=>{const lib=ensureLib(),s=lib.setups[q.asset]||(lib.setups[q.asset]={}),old=C.propFrontTurn(s);if(old===nv)return;
+         s.frontTurn=nv;delete s.front;for(const p of project.props||[])if(p.asset===q.asset)p.rotation=C.norm((p.rotation||0)+old-nv); /* keeps every copy looking the same */
+         if(nv===0&&Object.keys(s).length===1)delete lib.setups[q.asset];},'Set which side is the front');}break;
+-    case 'setup-delete':ask('Remove this object setup?','Placed copies keep their current points, tags and turn.',()=>mutate(()=>{delete ensureLib().setups[v];},'Remove setup'),'Remove');break;
++    case 'setup-delete':ask('Remove this object setup?','Placed copies keep their current points, tags and turn.',()=>mutate(()=>{C.preservePropSetup(project,v,null);delete ensureLib().setups[v];},'Remove setup'),'Remove');break;
+     case 'looks-export':showLooksExport();break;
+     case 'looks-import':$('looksFile').click();break;
+     case 'tag-toggle':if(q)mutate(()=>{const t=q.gameplay.tags;const i=t.indexOf(v);if(i>=0)t.splice(i,1);else t.push(v);},'Gameplay tag');break;
+@@ -501,18 +504,18 @@
+ function buildLooksExport(lookIds,palIds,setupIds){const ol=PROPS_LIB()||{looks:[],palettes:[],setups:{}},looks=ol.looks.filter(l=>lookIds.includes(l.id)).map(l=>C.clone(l)),need=new Set(palIds);
+   for(const l of looks)if(typeof l.palette==='string'&&C.paletteVariantById(project,l.palette))need.add(l.palette);
+   const setups={};for(const k of setupIds)if(ol.setups[k])setups[k]=C.clone(ol.setups[k]);
+-  return {format:'trapstar-room-creator-looks',version:1,exportedWith:'TRAPSTAR Room Creator 0.14',library:{name:A.state.name||null},looks,palettes:ol.palettes.filter(v=>need.has(v.id)).map(v=>C.clone(v)),setups};}
++  return {format:'trapstar-room-creator-looks',version:1,exportedWith:'TRAPSTAR Room Creator 0.14.1',library:{name:A.state.name||null},looks,palettes:ol.palettes.filter(v=>need.has(v.id)).map(v=>C.clone(v)),setups};}
+ async function importLooksFile(f){let data;try{data=JSON.parse(await f.text());}catch(e){toast('That file is not a looks file (it is not valid JSON).',6000);return;}
+-  try{const r=mergeLooks(data);toast(`Imported ${r.looks} looks, ${r.palettes} palettes, ${r.setups} setups${r.same?` (${r.same} were already here)`:''}${r.renamed?`; ${r.renamed} had clashing IDs and were added as new copies`:''}.`,8000);}catch(e){toast('Import stopped: '+e.message,8000);}}
++  try{const r=mergeLooks(data);toast(`Imported ${r.looks} looks, ${r.palettes} palettes, ${r.setups} setups${r.same?` (${r.same} were already here)`:''}${r.renamed?`; ${r.renamed} had clashing IDs and were added as new copies`:''}${r.setupConflicts.length?`; kept existing setups for: ${r.setupConflicts.join(', ')}`:''}.`,12000);}catch(e){toast('Import stopped: '+e.message,8000);}}
+ function mergeLooks(data){
+   if(!data||data.format!=='trapstar-room-creator-looks'||!Array.isArray(data.looks)&&!Array.isArray(data.palettes))throw Error('this is not a Room Creator looks file');
+-  const res={looks:0,palettes:0,setups:0,same:0,renamed:0};
++  const res={looks:0,palettes:0,setups:0,same:0,renamed:0,setupConflicts:[]};
+   mutate(()=>{const ol=ensureLib(),remap=new Map();
+     for(const v of (data.palettes||[]).filter(x=>x&&typeof x==='object')){const cur=C.paletteVariantById(project,v.id);
+       if(cur&&JSON.stringify(cur)===JSON.stringify(v)){res.same++;continue;}const copy=C.clone(v);if(cur||!copy.id){const nid=C.uid('palv');remap.set(v.id,nid);copy.id=nid;res.renamed+=cur?1:0;}ol.palettes.push(copy);res.palettes++;}
+     for(const l of (data.looks||[]).filter(x=>x&&typeof x==='object')){const cur=C.lookById(project,l.id),copy=C.clone(l);if(remap.has(copy.palette))copy.palette=remap.get(copy.palette);
+       if(cur&&JSON.stringify(cur)===JSON.stringify(copy)){res.same++;continue;}if(cur||!copy.id){copy.id=C.uid('look');res.renamed+=cur?1:0;}ol.looks.push(copy);res.looks++;}
+-    for(const [k,s] of Object.entries(data.setups||{})){if(!s||typeof s!=='object')continue;if(ol.setups[k]&&JSON.stringify(ol.setups[k])===JSON.stringify(s)){res.same++;continue;}ol.setups[k]=C.clone(s);res.setups++;}},'Import looks');
++    for(const [k,s] of Object.entries(data.setups||{})){if(!s||typeof s!=='object')continue;if(ol.setups[k]&&JSON.stringify(ol.setups[k])===JSON.stringify(s)){res.same++;continue;}if(ol.setups[k]){res.setupConflicts.push(k);continue;}C.preservePropSetup(project,k,s);ol.setups[k]=C.clone(s);res.setups++;}},'Import looks');
+   return res;}
+ 
+ // ------------------------------------------------------------------ route check: solid objects on routes, lanes and spots

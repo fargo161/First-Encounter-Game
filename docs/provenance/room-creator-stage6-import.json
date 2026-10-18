@@ -1,0 +1,2966 @@
+{
+  "schema": "first-encounter-stage6-import@1",
+  "created_utc": "2026-10-18T16:25:24.131541+00:00",
+  "authorized_stage": 6,
+  "stage7_executed": false,
+  "pre_import_commit": "bdedf38274b0871e8572fad07a61d35092008b66",
+  "history_root": "37d8b4a371d99f3e3cf2f4ebf769f9ca3c3ac340",
+  "repository_package": "packages/room-creator",
+  "original_source_root": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\rc0141-remediation\\Room_Creator_v0_14_1_remediation_candidate",
+  "baseline_version": "0.14.1",
+  "acceptance": "HOLD_FOR_FURTHER_REMEDIATION",
+  "known_defect": "ROOM_CREATOR_V0141_R1: manifest-known palette/texture IDs with missing image files silently fall back without object-specific repair warnings/controls.",
+  "behavior_changed_or_defect_repaired": false,
+  "source_tree_sha256": "63521f0d9068de3e4da40cd8ec4573d17b26481aa6557a908caaa8d10a4c485b",
+  "source_tree_fingerprint_method": "SHA256 of UTF-8 JSON sorted relative paths; keys sorted; compact separators; records path,bytes,sha256",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 121,
+      "sha256": "3d358e40c3da4f7592671c964a00c9f228d32f1a471738c4a3b606838216a1d5",
+      "original_mtime_ns": 1792332573811267500
+    },
+    {
+      "path": "Atrium_first_person.png",
+      "bytes": 120987,
+      "sha256": "2a26ce89976ded77f95823e9d0ab11806c2c819ae79f4c6638567b1a5827133e",
+      "original_mtime_ns": 1792331548109066200
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 14764,
+      "sha256": "8f67d88660798e0c8c88b457c2a411f0df8b91bf8ed9dacfac3b6160c0b212ee",
+      "original_mtime_ns": 1792332906939821000
+    },
+    {
+      "path": "CODEX_HANDOFF.md",
+      "bytes": 1965,
+      "sha256": "508b9b34acef02f18106be5c771aad9b2fad2c05a7ebed9d72e0c721f29e687c",
+      "original_mtime_ns": 1792332906923316500
+    },
+    {
+      "path": "Editor_preview.png",
+      "bytes": 290027,
+      "sha256": "da26fed73c2db1b88e6f9ae8ffd51b85a5abce9e63b36b6f57a0a79382c072a5",
+      "original_mtime_ns": 1792331548117177800
+    },
+    {
+      "path": "IMPLEMENTATION_REPORT.md",
+      "bytes": 203,
+      "sha256": "d3dd24f4b424a28e4627605a29dc038fa49a4e10decba538c13c77ad6a5a1aaa",
+      "original_mtime_ns": 1792332906930503200
+    },
+    {
+      "path": "INDEPENDENT_TESTER_HANDOFF.md",
+      "bytes": 7260,
+      "sha256": "8340ce497f0516e6fdaa4cc17330000c1d7343bb2d6ef7410ea40149b580b201",
+      "original_mtime_ns": 1792333016119971300
+    },
+    {
+      "path": "MANIFEST_SHA256.txt",
+      "bytes": 40652,
+      "sha256": "223ccd8cb2414fa36f3ff49156c499a5a763ed84a3d137342d57d3a60a171604",
+      "original_mtime_ns": 1792333163682048600
+    },
+    {
+      "path": "Multi_story_preview.png",
+      "bytes": 331820,
+      "sha256": "df398fc6241077e1666df3de47cee3f32a79fa7e92e7cdaf0c531e7242cac19d",
+      "original_mtime_ns": 1792331547363532200
+    },
+    {
+      "path": "PROTOTYPE_FINDINGS.md",
+      "bytes": 23686,
+      "sha256": "f8b1aa59578c3c713c46a55153fd0b4718061206ae76028c5fa589d1cc34c070",
+      "original_mtime_ns": 1792331547902876100
+    },
+    {
+      "path": "README.md",
+      "bytes": 582,
+      "sha256": "1750a3775fdf484c5b32ced502783b727e02dec7fb983652cedd11d7473f02e2",
+      "original_mtime_ns": 1792332906932031700
+    },
+    {
+      "path": "README_ROUTE_PROTOTYPE.md",
+      "bytes": 5149,
+      "sha256": "ae705cc53ef5398b935b8a4e32554077a083c57006b70f0351ba535336b57087",
+      "original_mtime_ns": 1792331548111937400
+    },
+    {
+      "path": "Room_Creator.html",
+      "bytes": 1615201,
+      "sha256": "a4e8a14ddc4d734c036902f56b1a7d7bb8a157a77ef3911b97ea70c76f228c97",
+      "original_mtime_ns": 1792332293314949800
+    },
+    {
+      "path": "START_HERE.txt",
+      "bytes": 279,
+      "sha256": "d93497acb281908872d27874f32c6acd8a823bc25dcb12b92047bcd5d51ffce6",
+      "original_mtime_ns": 1792332906934065300
+    },
+    {
+      "path": "TEST_REPORT.md",
+      "bytes": 175,
+      "sha256": "b3f11c300d643a8bdb4e1b008b833cbc5be9d4a44bcc7980678bc493398c17d9",
+      "original_mtime_ns": 1792333117167685700
+    },
+    {
+      "path": "examples/Atrium_Gallery.room.json",
+      "bytes": 10287,
+      "sha256": "3419e9667fd4174df9a6d8b49edc74c9a8fc461256e5e3f7e38b976385d592c9",
+      "original_mtime_ns": 1792331547789974200
+    },
+    {
+      "path": "examples/City_Block_Dusk.room.json",
+      "bytes": 18165221,
+      "sha256": "49564b99eeb6f5cfa1117b7e733b5d8ad516fdcec4e4f6ba74ae0675435af390",
+      "original_mtime_ns": 1792331547901870300
+    },
+    {
+      "path": "examples/City_Block_Rail_Demo.room.json",
+      "bytes": 18175279,
+      "sha256": "123b6428641d6d1caf815688e41b050a1424b08244f2e4e41ce2ee483b26c890",
+      "original_mtime_ns": 1792331547569752300
+    },
+    {
+      "path": "examples/Connected_Rooms.room.json",
+      "bytes": 7340,
+      "sha256": "410f05aa70a114b0d6de72ab45f2f01bed08edefcfee2955eb69929b5724ccf4",
+      "original_mtime_ns": 1792331547795534400
+    },
+    {
+      "path": "examples/Empty_Start.room.json",
+      "bytes": 1765,
+      "sha256": "dd171e0371ce251e18ac3346496b92bc3e4018e0b47d147e4692a1d1ff37a62f",
+      "original_mtime_ns": 1792331547789974200
+    },
+    {
+      "path": "examples/Manual_Construction_Atrium.room.json",
+      "bytes": 23695,
+      "sha256": "60dabf47ec3d7cc0c33e3c0b618feb7d5968b36c4e23b311e4e48f751679f91f",
+      "original_mtime_ns": 1792331547788982600
+    },
+    {
+      "path": "examples/Partitions_and_Attached_Room.room.json",
+      "bytes": 9670,
+      "sha256": "56c1a2fae6d3ceb892e372fdb381e6610e302150a562857a68a8f9bcf7caca7e",
+      "original_mtime_ns": 1792331547452255500
+    },
+    {
+      "path": "examples/Route_Prototype_Street.room.json",
+      "bytes": 18183332,
+      "sha256": "5b296703315cf9c1dec1db809faedf2d72df04b11d76e9cae0af0ff374c72d01",
+      "original_mtime_ns": 1792331547681990700
+    },
+    {
+      "path": "examples/Route_Prototype_Street_ASSET_DEMO.room.json",
+      "bytes": 18288542,
+      "sha256": "6497e3d5daa5fd877728e0d40713f965c0bb2cccc06eb3c3431e4175f71443b3",
+      "original_mtime_ns": 1792331547787963900
+    },
+    {
+      "path": "examples/Shared_Matte_Example.room.json",
+      "bytes": 162393,
+      "sha256": "8839ec6cf69378fd39f638c9d473e84ad2a2531f65fdf02d06f670e278ddbd72",
+      "original_mtime_ns": 1792331547789974200
+    },
+    {
+      "path": "examples/Windows_Doors_Style.room.json",
+      "bytes": 168573,
+      "sha256": "f7e8d1ba96dcae176672471556a8d131d506c5404f0fc6cb568f599a2b0c9c52",
+      "original_mtime_ns": 1792331547797555100
+    },
+    {
+      "path": "generated/Route_Prototype_Street_ASSET_DEMO.room.json",
+      "bytes": 18288544,
+      "sha256": "e1a77d9a96e9ceba1537b13e8292f244d93413233fa4340bcd4e9d82be54af7e",
+      "original_mtime_ns": 1792333002807460000
+    },
+    {
+      "path": "previews/01_empty.png",
+      "bytes": 280119,
+      "sha256": "4fd03b4bb4a6e4ad5d6f737c08c0a7f8e0b3052cdebcd7181538bb7d2d2825af",
+      "original_mtime_ns": 1792331547390687000
+    },
+    {
+      "path": "previews/01_mixed_wall.png",
+      "bytes": 284860,
+      "sha256": "6f79a005a1376665674dff4b30083fb6830ee90f96b88379814fd3c7c5d32025",
+      "original_mtime_ns": 1792331547368901400
+    },
+    {
+      "path": "previews/03_partition_first_person.png",
+      "bytes": 374424,
+      "sha256": "35776ef3ed3b661d8bd1048a1b7b49a876bf3bb8cc58112fbe5d04de213e3be9",
+      "original_mtime_ns": 1792331547396684400
+    },
+    {
+      "path": "previews/04_attach_dialog.png",
+      "bytes": 232646,
+      "sha256": "e54c5d57121a4024f8b88e1338b09afd06736de2608cb005f93d30bfff4724c9",
+      "original_mtime_ns": 1792331547423688400
+    },
+    {
+      "path": "previews/Double_door_editor.png",
+      "bytes": 383371,
+      "sha256": "d5881cf95850bd0f1873a24a42696f6f72388822702099b80ba2ab886e6de2a2",
+      "original_mtime_ns": 1792331547402903500
+    },
+    {
+      "path": "previews/Empty_editor.png",
+      "bytes": 347060,
+      "sha256": "7f41826a1f9367d4aced190b59e6cfdbca1192f2287e581165867cb8f0fff71b",
+      "original_mtime_ns": 1792331547384685100
+    },
+    {
+      "path": "previews/FAIL_Attach_existing_opening_and_portable_export.png",
+      "bytes": 309346,
+      "sha256": "d81107a6d3abb314a333c44a7bf9358d567ce9b786a33a36c77ea0ff92eccfb0",
+      "original_mtime_ns": 1792331547429234600
+    },
+    {
+      "path": "previews/FAIL_Style_tools_and_portable_projects.png",
+      "bytes": 305392,
+      "sha256": "e912185e4cf066025fabd160f84927156fb4ebb4bf83f00eb026e81ee10c1ea3",
+      "original_mtime_ns": 1792331547429234600
+    },
+    {
+      "path": "previews/FAIL_Version_and_layout_compatibility.png",
+      "bytes": 303864,
+      "sha256": "2fb05cbf627deb8e54f8520caebca7822086bffe53ccb4570e25deb24f379c91",
+      "original_mtime_ns": 1792331547443317000
+    },
+    {
+      "path": "previews/Multi_story_browser_smoke.png",
+      "bytes": 284679,
+      "sha256": "987ef51221937ea3215a9150100eae0bc609c2fedb60c09cf22dbe1050765afb",
+      "original_mtime_ns": 1792331547392682100
+    },
+    {
+      "path": "previews/Opening_size_and_panes.png",
+      "bytes": 382244,
+      "sha256": "527be3f0ee89a95b2e41aca1dee8df41534aa842b9c7d361f5577ece00faff4c",
+      "original_mtime_ns": 1792331547429234600
+    },
+    {
+      "path": "previews/Style_palette_editor.png",
+      "bytes": 439336,
+      "sha256": "93002844f1c9869ed7d29f3391c81dd35c52777a2644ad6166a9ec7a50085862",
+      "original_mtime_ns": 1792331547387683900
+    },
+    {
+      "path": "previews/Texture_studio_colour.png",
+      "bytes": 201027,
+      "sha256": "8836e233e8afb190b439c08915be7a385aeeeb543e767da5ca5b17580eedd835",
+      "original_mtime_ns": 1792331547416424300
+    },
+    {
+      "path": "previews/Texture_studio_mapping.png",
+      "bytes": 211457,
+      "sha256": "e6285f5cd124c9aff67e6f73d43cb76f3432c407669c533a7ca7c75191a7dff2",
+      "original_mtime_ns": 1792331547440960100
+    },
+    {
+      "path": "previews/Texture_studio_trim.png",
+      "bytes": 203496,
+      "sha256": "1ec8a2d4302a7de8d1cd6d0bc122631ddd367cb1f45a2cfa4a0625410440acbe",
+      "original_mtime_ns": 1792331547418127600
+    },
+    {
+      "path": "previews/Window_and_door_layouts.png",
+      "bytes": 482177,
+      "sha256": "36599d762495e1b801841c1d61761bd70deefaa3afd64ae9ec2646123b103425",
+      "original_mtime_ns": 1792331547407275100
+    },
+    {
+      "path": "previews/failure_Connected_architecture_controls.png",
+      "bytes": 271303,
+      "sha256": "a0eda8574e634ef463358a5590ea4c37d3fc93c64f9eae47e69272899d949eee",
+      "original_mtime_ns": 1792331547371655800
+    },
+    {
+      "path": "previews/failure_Cross-room_visibility_and_test_routes.png",
+      "bytes": 142660,
+      "sha256": "1603c481e0df38c5bf02b8331c1972a2d2f12132546b661855572e46e6c4b43b",
+      "original_mtime_ns": 1792331547438058700
+    },
+    {
+      "path": "previews/failure_Legacy_and_invalid_project_handling.png",
+      "bytes": 214231,
+      "sha256": "19a1558814b4dcc6ac06fbc92134b7a254ca2c18490b16b33a4b441c38e83803",
+      "original_mtime_ns": 1792331547407275100
+    },
+    {
+      "path": "previews/failure_Startup_and_placed_viewpoint_gate.png",
+      "bytes": 249532,
+      "sha256": "488c1213d13560e76ec207d773718050422828953318e4365b5546284b71ec47",
+      "original_mtime_ns": 1792331547420686500
+    },
+    {
+      "path": "previews/v0_10_construction.png",
+      "bytes": 284440,
+      "sha256": "1913dac9d5e57ed8fbda371b5e511b9c0539f6babdea34512739c498388b6e92",
+      "original_mtime_ns": 1792331547426637600
+    },
+    {
+      "path": "previews/v0_11_compact_layout.png",
+      "bytes": 205107,
+      "sha256": "abdea8d79ab2584966ff5079d06cf91a55f6026869f9ee27bd40dfe0106ca537",
+      "original_mtime_ns": 1792331547414432000
+    },
+    {
+      "path": "previews/v0_11_empty_story.png",
+      "bytes": 245602,
+      "sha256": "31c4c333048c23304ac6300b8ff04791190f1ee9dd5c8a4c0be76f1b66de4480",
+      "original_mtime_ns": 1792331547399683500
+    },
+    {
+      "path": "previews/v0_11_failure.png",
+      "bytes": 270029,
+      "sha256": "dbd0ecc84b96163bc4196f56b326b67d5f476cae2219695c3be7a9789cc79fc4",
+      "original_mtime_ns": 1792331547446877100
+    },
+    {
+      "path": "previews/v0_11_floor_editing.png",
+      "bytes": 287277,
+      "sha256": "e60faa942e77201d12b896660f07aa059823fc68689737a1ca20127a7963029e",
+      "original_mtime_ns": 1792331547412382000
+    },
+    {
+      "path": "previews/v0_8_release/Editor_preview.jpg",
+      "bytes": 263084,
+      "sha256": "ee05b1b7ddfab4aca3853a6b73dbf5156a4518ba61f85e06f18674095e3078f1",
+      "original_mtime_ns": 1792331547379566400
+    },
+    {
+      "path": "previews/v0_8_release/Opening_layouts.jpg",
+      "bytes": 185342,
+      "sha256": "275a1b23547bd6a4f09b161d3cec714e25d36c6b23d48e729348cdd8595e96ce",
+      "original_mtime_ns": 1792331547377113900
+    },
+    {
+      "path": "previews/v0_8_release/Style_preview.jpg",
+      "bytes": 257200,
+      "sha256": "e6c24ebc6b8226814e18b1e9ea8d185bf591bcb3c7b0bf0505de0c143215d386",
+      "original_mtime_ns": 1792331547374910900
+    },
+    {
+      "path": "previews/v0_8_release/Texture_Studio_preview.jpg",
+      "bytes": 138192,
+      "sha256": "c2508563d16ff8a4cfdef40941eabab7d7ca38107c76582db53e2b08f9bf7251",
+      "original_mtime_ns": 1792331547381687500
+    },
+    {
+      "path": "reports/DEVELOPMENT_ATTEMPTS.md",
+      "bytes": 2278,
+      "sha256": "211efdf5acea5fce265051793aa4ad5d29911a8894ecf136964cc072b9cc6a27",
+      "original_mtime_ns": 1792332906928105500
+    },
+    {
+      "path": "reports/INPUT_AUDIT_REPORT.md",
+      "bytes": 25872,
+      "sha256": "f7ac24403305f1133828ee612fa85e289a47d7d86fa5dd01af755e78197111ea",
+      "original_mtime_ns": 1792331311235717300
+    },
+    {
+      "path": "reports/REMEDIATION_PLAN.md",
+      "bytes": 1152,
+      "sha256": "0f6a39cb98ed673c2dbef7ac161ee0a2bf919f155ca7aa0ccec0acc2683d31ef",
+      "original_mtime_ns": 1792332906929483300
+    },
+    {
+      "path": "reports/REMEDIATION_REPORT.md",
+      "bytes": 5528,
+      "sha256": "ac7233a122b9a5dc5e974e851e3ecc7b82e7b6d99a06754db601a41854f6a0df",
+      "original_mtime_ns": 1792332906925704500
+    },
+    {
+      "path": "reports/TEST_REPORT.md",
+      "bytes": 4023,
+      "sha256": "51954ccf0d065c99fa6b27eaf2f0bffca1c8fe014e407e4ddd4624e1e3eb643e",
+      "original_mtime_ns": 1792333117165687700
+    },
+    {
+      "path": "reports/assets_all_models_results.json",
+      "bytes": 229853,
+      "sha256": "a3ac53a0a0f630917d45d28e61b0386dddcdcf7aaf6e8a6fc81dc34fd4e007c3",
+      "original_mtime_ns": 1792332848114530300
+    },
+    {
+      "path": "reports/assets_browser_results.json",
+      "bytes": 24315,
+      "sha256": "4a4797f29855c265f629abdee21a3f1ffcd274b40bfaf1ed0799c8518567c1e7",
+      "original_mtime_ns": 1792332848112505000
+    },
+    {
+      "path": "reports/assets_demo_checks_results.json",
+      "bytes": 2280,
+      "sha256": "407b77ca337d6e73308245a95a8a8b01d2f108aaef85e50d55e37bafd0832e02",
+      "original_mtime_ns": 1792332848116994900
+    },
+    {
+      "path": "reports/assets_perf_results.json",
+      "bytes": 517,
+      "sha256": "4568bd24564b5e1f49ac3f816419c71ad50e8f2aa9c0b8540258a9cb0a788a1c",
+      "original_mtime_ns": 1792332848118043300
+    },
+    {
+      "path": "reports/changed-source-files.json",
+      "bytes": 153,
+      "sha256": "ee482dd6c531a171ff1298bca443a03122b8458eeeadb350585bc807fbe0fb43",
+      "original_mtime_ns": 1792333117243044500
+    },
+    {
+      "path": "reports/demo-regeneration-verification.json",
+      "bytes": 111,
+      "sha256": "182ab8eb9856ecb2e7cc8d671b1cc27742d8aa7f855a6a4310f0f03795d7046b",
+      "original_mtime_ns": 1792333117163674200
+    },
+    {
+      "path": "reports/input-provenance.json",
+      "bytes": 879,
+      "sha256": "368a53bdb606ca6c4691602992eccb1d08f772c268d717112b9d632450ea8012",
+      "original_mtime_ns": 1792332445444542000
+    },
+    {
+      "path": "reports/preservation-seal.json",
+      "bytes": 1466,
+      "sha256": "526c01650c5fe9c6646d49090a0f0c4a5554a78c3dcb8125e54340e29ff1a6c9",
+      "original_mtime_ns": 1792333162934232400
+    },
+    {
+      "path": "reports/preservation_final_results.json",
+      "bytes": 3143,
+      "sha256": "c046df37f09a5137f65af20d094faead62a4655e828f7e5937fd6017c8286814",
+      "original_mtime_ns": 1792332722621235300
+    },
+    {
+      "path": "reports/remediation_browser_results.json",
+      "bytes": 12800,
+      "sha256": "f7764d5810b2db4b4be3b136ad7d7763adec30b1b73032ae02b8881295d2acac",
+      "original_mtime_ns": 1792332848119004600
+    },
+    {
+      "path": "reports/route-comparison.json",
+      "bytes": 368,
+      "sha256": "7d50fef7483bd63fd3a51e86b1cd51c027e529955a199d3a5edad4d7159c269b",
+      "original_mtime_ns": 1792333115598559700
+    },
+    {
+      "path": "reports/route_eval_results.json",
+      "bytes": 181010,
+      "sha256": "abafb4712011966db6b42bfdb87127a087a5a2d521c700a6fc903ac014c6a6ed",
+      "original_mtime_ns": 1792332976375873200
+    },
+    {
+      "path": "reports/source_diffs/FORMAT.md.diff",
+      "bytes": 2847,
+      "sha256": "15965bad0850ff0f2b3228e6ccf71f3159322e95190f359993d99a91a3d04b73",
+      "original_mtime_ns": 1792333117193921100
+    },
+    {
+      "path": "reports/source_diffs/app.js.diff",
+      "bytes": 15154,
+      "sha256": "d95591ef7e9546ba213bfe51cfe79ac1af5a2cb6fafbdf67a0866b5b48712e27",
+      "original_mtime_ns": 1792333117175521900
+    },
+    {
+      "path": "reports/source_diffs/assetlib.js.diff",
+      "bytes": 6530,
+      "sha256": "167c478e5454cc4dfc2c6e75e19afb6433c0aa2a04536663936cbc9417500d1f",
+      "original_mtime_ns": 1792333117179679900
+    },
+    {
+      "path": "reports/source_diffs/build.py.diff",
+      "bytes": 404,
+      "sha256": "d277ba4a8cd7e6f573771b0cbb8026008e8ae91ecbb11b5136f6cd8a93726523",
+      "original_mtime_ns": 1792333117182110100
+    },
+    {
+      "path": "reports/source_diffs/core.js.diff",
+      "bytes": 13150,
+      "sha256": "8e4b8b1ca1d0b8b1f231fb031b8abe74d96cd9ea1a3865a897ac281469687725",
+      "original_mtime_ns": 1792333117189638700
+    },
+    {
+      "path": "reports/source_diffs/gl.js.diff",
+      "bytes": 7099,
+      "sha256": "4bd6cd9158d81f07e6275d131fd086fa88427d5c368c0eac52615909770c8db1",
+      "original_mtime_ns": 1792333117197919800
+    },
+    {
+      "path": "reports/source_diffs/shell.html.diff",
+      "bytes": 1615,
+      "sha256": "0f38f862f75dfb4ef6389b1cbeee719c00a5078146470717a12479b5d72ae859",
+      "original_mtime_ns": 1792333117208781800
+    },
+    {
+      "path": "reports/source_diffs/ui-props.js.diff",
+      "bytes": 13318,
+      "sha256": "0dcf135b1d8573b54c312a9cdbe025629c5f5a1de77cac7655108033c2aef069",
+      "original_mtime_ns": 1792333117223854500
+    },
+    {
+      "path": "reports/source_diffs/ui-route.js.diff",
+      "bytes": 1297,
+      "sha256": "541792b209cb1a3c6568c6bad7ec2d0ad48b40746cdd6ce902daca0ed253e841",
+      "original_mtime_ns": 1792333117229733400
+    },
+    {
+      "path": "reports/source_diffs/ui-stories.js.diff",
+      "bytes": 1579,
+      "sha256": "4b3ad3207988a6586af56ce51af7ca1e2b1ef00aad4c58b55655b57b7ea3edcd",
+      "original_mtime_ns": 1792333117235734800
+    },
+    {
+      "path": "reports/v0_14_supplied/CHANGELOG.md",
+      "bytes": 14462,
+      "sha256": "2de4729e9e11221595acc4d08649f2bef94bf979e313031aae781a51b73feffa",
+      "original_mtime_ns": 1792331548118378600
+    },
+    {
+      "path": "reports/v0_14_supplied/CODEX_HANDOFF.md",
+      "bytes": 15179,
+      "sha256": "bc3e8dd7205e5f5aae18a4124151f3b697b278419bc8bdab84ba41c8faaba802",
+      "original_mtime_ns": 1792331547903878700
+    },
+    {
+      "path": "reports/v0_14_supplied/IMPLEMENTATION_REPORT.md",
+      "bytes": 13747,
+      "sha256": "ab25c8a603fddedee7067000489952ffbc6b90f7bc4e6ba961f98b1d4c0e5bf0",
+      "original_mtime_ns": 1792331548110191700
+    },
+    {
+      "path": "reports/v0_14_supplied/MANIFEST_SHA256.txt",
+      "bytes": 16758,
+      "sha256": "2813b11ff3bd47c53004ca5542c59349614ceaab4218e9deb37f46f5a05fe8c7",
+      "original_mtime_ns": 1792331547447886600
+    },
+    {
+      "path": "reports/v0_14_supplied/TEST_REPORT.md",
+      "bytes": 9372,
+      "sha256": "507a008fd1a99f311fd620586018c8284199f7c6a12158509fa54f01d944c7eb",
+      "original_mtime_ns": 1792331548111937400
+    },
+    {
+      "path": "reports/verification-summary.json",
+      "bytes": 1508,
+      "sha256": "f224dc724ed56934510e23498482a5d2bd28ee17b5e9002a88f214dfef62d3a6",
+      "original_mtime_ns": 1792333117164685500
+    },
+    {
+      "path": "source/FORMAT.md",
+      "bytes": 30529,
+      "sha256": "7d129ce2e05bea25414509c14826c983111b9572b37db1e74b8a462603e1c06f",
+      "original_mtime_ns": 1792332624890614600
+    },
+    {
+      "path": "source/THREE_LICENSE.txt",
+      "bytes": 1081,
+      "sha256": "852e0e8699169bf9f6fdc6bda3e682d078dcbc738b5d33e74df594721bff271d",
+      "original_mtime_ns": 1792331547358741200
+    },
+    {
+      "path": "source/app.js",
+      "bytes": 206757,
+      "sha256": "18f995af96d82aaa4b0d89a5ce569fb7832ff1843a9caac136940abe79f0707f",
+      "original_mtime_ns": 1792331645899520900
+    },
+    {
+      "path": "source/assetlib.js",
+      "bytes": 23455,
+      "sha256": "f7eb8487edd8958acc1527ce3da01e0d006b46ac931d6069569791950eb8ecd1",
+      "original_mtime_ns": 1792332289748877200
+    },
+    {
+      "path": "source/build.py",
+      "bytes": 1893,
+      "sha256": "1648c0d0b3e1a6a0a5fca86ff2b9ba324e6bafd3a8c76f848e6d66fd21164e01",
+      "original_mtime_ns": 1792331611880129100
+    },
+    {
+      "path": "source/core.js",
+      "bytes": 110647,
+      "sha256": "f4e3b13fc6e78177d2dbd41adee32de89582491cf1520d15084565f56429e6e3",
+      "original_mtime_ns": 1792332289745196300
+    },
+    {
+      "path": "source/gl.js",
+      "bytes": 57434,
+      "sha256": "b16ce12bb90bc199cebc4548c6f63c47fcf26fc173eb9d9c4b91385a2c975540",
+      "original_mtime_ns": 1792331645889439700
+    },
+    {
+      "path": "source/legacy-v1.js",
+      "bytes": 6755,
+      "sha256": "7a171686cd6a156a7f69673481e7d62c970956619885cbe9e25d007166264d93",
+      "original_mtime_ns": 1792331547361746500
+    },
+    {
+      "path": "source/legacy-v3.js",
+      "bytes": 24920,
+      "sha256": "91019b49e204ae7063f50af76f77dfef89ca270cb96c68b952558d2976911a61",
+      "original_mtime_ns": 1792331547333300100
+    },
+    {
+      "path": "source/rails.js",
+      "bytes": 24797,
+      "sha256": "d05299123f6abe2400e44cb5675d287badeddd338f32858d614171e467fa382f",
+      "original_mtime_ns": 1792331547333300100
+    },
+    {
+      "path": "source/renderer.js",
+      "bytes": 48807,
+      "sha256": "46dc760da6a492fdbe4b44efc6500a98b8cde1ac60bf1ad60fbce815b0e03b58",
+      "original_mtime_ns": 1792331547340197700
+    },
+    {
+      "path": "source/shell.html",
+      "bytes": 6504,
+      "sha256": "ee6714cf61de9683237aa7ad8b3e7759ee4dc6224a455d5076c6f6c3c23b417c",
+      "original_mtime_ns": 1792331645904860000
+    },
+    {
+      "path": "source/style.css",
+      "bytes": 39574,
+      "sha256": "50aa01a5ececa0724e1047dbb542b16373e581f4c2d675d8e9d8f162b28937de",
+      "original_mtime_ns": 1792331547347850200
+    },
+    {
+      "path": "source/ui-fp.js",
+      "bytes": 22961,
+      "sha256": "ccc59e466f8899586c01a154c51bd2db0030ea4d265db914be4c1913583900b3",
+      "original_mtime_ns": 1792331547350727300
+    },
+    {
+      "path": "source/ui-gl.js",
+      "bytes": 17820,
+      "sha256": "c8586a8b824c4a4627076acabc38a4a18375b77d2cfa7258351cdec465844bd5",
+      "original_mtime_ns": 1792331547359742500
+    },
+    {
+      "path": "source/ui-props.js",
+      "bytes": 89015,
+      "sha256": "29c878d809b65fcc2d1486be98c1951e324e49a7cb850e8588b1ad262c0d670a",
+      "original_mtime_ns": 1792332289757732900
+    },
+    {
+      "path": "source/ui-rails.js",
+      "bytes": 32331,
+      "sha256": "06f0530b26087c60c5fec24ea3be72fd3c2729830b336edb34f7f58ea72332d5",
+      "original_mtime_ns": 1792331547360738000
+    },
+    {
+      "path": "source/ui-route.js",
+      "bytes": 75575,
+      "sha256": "90f74ede25fb9f66f8c063dd1447fee9f5865465e41340e1c49d6759fa2ba232",
+      "original_mtime_ns": 1792331611880129100
+    },
+    {
+      "path": "source/ui-sky.js",
+      "bytes": 14638,
+      "sha256": "45360b07bd756811262ad0ef26a30de317018283915d9fe7f82be991e85e4907",
+      "original_mtime_ns": 1792331547329772500
+    },
+    {
+      "path": "source/ui-stories.js",
+      "bytes": 34671,
+      "sha256": "85e60fad12d5d77091af921e0f35cae34967d46343ed8dc51b5762892b93bff1",
+      "original_mtime_ns": 1792331645889439700
+    },
+    {
+      "path": "source/vendor-gltfloader.js",
+      "bytes": 110676,
+      "sha256": "9197307852796b98d41bb4d1998d9c3996788d29a117e0b82a88b9537d85d9d6",
+      "original_mtime_ns": 1792331547353739200
+    },
+    {
+      "path": "source/vendor-three.min.js",
+      "bytes": 667791,
+      "sha256": "a0d4379385416186a71a630d01113aa5922dbe05baa8eba7d6e411741fe08cda",
+      "original_mtime_ns": 1792331547338406500
+    },
+    {
+      "path": "test_runs/20261018-095609/architecture_extensions.test.js.log",
+      "bytes": 3776,
+      "sha256": "5c0a48c0f3b5b79b6b10bb7cfad77442b9c22f5fb03e7992db043166d0fa82ed",
+      "original_mtime_ns": 1792331770546878700
+    },
+    {
+      "path": "test_runs/20261018-095609/asset_demo_file.test.js.log",
+      "bytes": 585,
+      "sha256": "dab294689394c541e86806afab17367e7aa378354db09af02957b4368c3da8db",
+      "original_mtime_ns": 1792331772138907100
+    },
+    {
+      "path": "test_runs/20261018-095609/build_repro.py.log",
+      "bytes": 477,
+      "sha256": "6508fb4eedabf77cab270616a3e5d8d8d22ce53c314ddc9a64afadd27e86b4c8",
+      "original_mtime_ns": 1792331782798890100
+    },
+    {
+      "path": "test_runs/20261018-095609/construction_v10.test.js.log",
+      "bytes": 760,
+      "sha256": "449c786ad6d5ce03289dbe555f7d912295e9b37572c791ee2dab2cb367869160",
+      "original_mtime_ns": 1792331773217400900
+    },
+    {
+      "path": "test_runs/20261018-095609/core.test.js.log",
+      "bytes": 4821,
+      "sha256": "02277600838169ac1ce4248d03749a830ff377300f63f8b688d043fbc4159fbd",
+      "original_mtime_ns": 1792331774348049800
+    },
+    {
+      "path": "test_runs/20261018-095609/multistory.test.js.log",
+      "bytes": 1113,
+      "sha256": "954c4c4bc2870a5b36ec27b357318dc334540cdb9ba298e798df01964bdf9c82",
+      "original_mtime_ns": 1792331775394713600
+    },
+    {
+      "path": "test_runs/20261018-095609/props_metadata.test.js.log",
+      "bytes": 827,
+      "sha256": "2cefe4b4d45b739657fb81acf7caf8e69b744eb6ed37a3ee807be332aca1889f",
+      "original_mtime_ns": 1792331776450611900
+    },
+    {
+      "path": "test_runs/20261018-095609/remediation_core.test.js.log",
+      "bytes": 870,
+      "sha256": "78b1c56e6f43c6889bc908d882ca1ad75e429189a0e7560f0b329210a3cb4e3f",
+      "original_mtime_ns": 1792331777510530400
+    },
+    {
+      "path": "test_runs/20261018-095609/run-index.json",
+      "bytes": 1862,
+      "sha256": "d9a41476496e3abc53d464857b9c6ed585596f03698e96ad346432888e3a80e5",
+      "original_mtime_ns": 1792331782800899400
+    },
+    {
+      "path": "test_runs/20261018-095609/shared_matte.test.js.log",
+      "bytes": 1575,
+      "sha256": "3dbff8d66350574897883d51cc1301d73a753269383a88cb4f2c1baf7ac648fa",
+      "original_mtime_ns": 1792331778598437700
+    },
+    {
+      "path": "test_runs/20261018-095609/style_openings.test.js.log",
+      "bytes": 2193,
+      "sha256": "b406352385a4020ed1373d21d0d273270c9b82100e1ac8dee09224b001e1069a",
+      "original_mtime_ns": 1792331779695467700
+    },
+    {
+      "path": "test_runs/20261018-095609/v0_11_1_story_floor.test.js.log",
+      "bytes": 1526,
+      "sha256": "2cded3eb0e11a35032ffa50cfe457c0ce132b7f4bd82fee06e4cee35ee8ecfd6",
+      "original_mtime_ns": 1792331780768368800
+    },
+    {
+      "path": "test_runs/20261018-095609/v0_12_stories_rooms.test.js.log",
+      "bytes": 968,
+      "sha256": "bfa07afdabcf47d5b24b54d26cecea7439bdb83d8b8328b3d50da1b7f52acc93",
+      "original_mtime_ns": 1792331781832253500
+    },
+    {
+      "path": "test_runs/20261018-095658/remediation_browser.py.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_mtime_ns": 1792331818973862700
+    },
+    {
+      "path": "test_runs/20261018-095937/missing-reference.png",
+      "bytes": 197324,
+      "sha256": "24cf951dab3238f68633145ad4d92c4b8de87f4b70d0fb2980af2380f3444e9c",
+      "original_mtime_ns": 1792332000326608300
+    },
+    {
+      "path": "test_runs/20261018-095937/remediation_browser.py.log",
+      "bytes": 2015,
+      "sha256": "c70fd7e953a8f2fa8939d5d7561cb7371ae5ec85ceed45901b5ce5781194dcdf",
+      "original_mtime_ns": 1792332003304971600
+    },
+    {
+      "path": "test_runs/20261018-095937/remediation_browser_results.json",
+      "bytes": 8896,
+      "sha256": "ccfbb0e1d3e08a21ca1a0fa1aa1dfe07c5a9cd4e84714683d3fcf88bb8907bcb",
+      "original_mtime_ns": 1792332003312997700
+    },
+    {
+      "path": "test_runs/20261018-095937/run-index.json",
+      "bytes": 158,
+      "sha256": "cab93893140a96fb8155d594d3f8c2a1da72c5bd6a5e2a4fb067625eb396bb8e",
+      "original_mtime_ns": 1792332003787199100
+    },
+    {
+      "path": "test_runs/20261018-100039/missing-reference.png",
+      "bytes": 197324,
+      "sha256": "24cf951dab3238f68633145ad4d92c4b8de87f4b70d0fb2980af2380f3444e9c",
+      "original_mtime_ns": 1792332061559346500
+    },
+    {
+      "path": "test_runs/20261018-100039/remediation_browser.py.log",
+      "bytes": 2015,
+      "sha256": "c70fd7e953a8f2fa8939d5d7561cb7371ae5ec85ceed45901b5ce5781194dcdf",
+      "original_mtime_ns": 1792332064167711000
+    },
+    {
+      "path": "test_runs/20261018-100039/remediation_browser_results.json",
+      "bytes": 8896,
+      "sha256": "ccfbb0e1d3e08a21ca1a0fa1aa1dfe07c5a9cd4e84714683d3fcf88bb8907bcb",
+      "original_mtime_ns": 1792332064169711100
+    },
+    {
+      "path": "test_runs/20261018-100039/run-index.json",
+      "bytes": 158,
+      "sha256": "0860a7839bcfe48ba50dff5a76beba2bb697a9e2b8291e6c449fb80a33d6940b",
+      "original_mtime_ns": 1792332064967409600
+    },
+    {
+      "path": "test_runs/20261018-100110/assets_all_models.py.log",
+      "bytes": 252,
+      "sha256": "e42ccb810d400b428aa98812db0162bcbd4a743bbf1c11aba3b3d94354bd72ca",
+      "original_mtime_ns": 1792332255433995200
+    },
+    {
+      "path": "test_runs/20261018-100110/assets_browser.py.log",
+      "bytes": 5541,
+      "sha256": "eee279116c8c4717318ec425de7285fe006af18edca4cab7cbe8c69e64b27dc6",
+      "original_mtime_ns": 1792332229674088300
+    },
+    {
+      "path": "test_runs/20261018-100110/assets_demo_checks.py.log",
+      "bytes": 1766,
+      "sha256": "8d4b9d174b2af573d2821e05bc33b300853b5e9ff206947ab89fbfb4af23e890",
+      "original_mtime_ns": 1792332436195129300
+    },
+    {
+      "path": "test_runs/20261018-100110/assets_perf.py.log",
+      "bytes": 409,
+      "sha256": "e593382dcd199c946edfcc0ea4b69253a5c379c6284c6677df60b5073953cf63",
+      "original_mtime_ns": 1792332488041282600
+    },
+    {
+      "path": "test_runs/20261018-100110/assets_vehicle_fronts.py.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_mtime_ns": 1792332495021525800
+    },
+    {
+      "path": "test_runs/20261018-100110/demo_screens.py.log",
+      "bytes": 11,
+      "sha256": "057172bc62b5734c365c425a5dad1aa0c0590c9ad4e5ddfb57f3384aa7981666",
+      "original_mtime_ns": 1792332573044513900
+    },
+    {
+      "path": "test_runs/20261018-100110/missing-reference.png",
+      "bytes": 197324,
+      "sha256": "24cf951dab3238f68633145ad4d92c4b8de87f4b70d0fb2980af2380f3444e9c",
+      "original_mtime_ns": 1792332094993839500
+    },
+    {
+      "path": "test_runs/20261018-100110/point-drag-0-0.png",
+      "bytes": 682746,
+      "sha256": "fe73312ba6df4b9fe921d2deb759c34ff5243594ec3a667ecf9bc7c8b0d4cb9d",
+      "original_mtime_ns": 1792332083180427100
+    },
+    {
+      "path": "test_runs/20261018-100110/point-drag-0-37.png",
+      "bytes": 667928,
+      "sha256": "65e172bffde5d38261cb8ad4a3d47141f9229ffbd3c3d40d2400739dad561cb0",
+      "original_mtime_ns": 1792332085419219600
+    },
+    {
+      "path": "test_runs/20261018-100110/point-drag-1-128.png",
+      "bytes": 714340,
+      "sha256": "2a1e9c5b93f91c4e8b8b40756531edaae8687c246f79e3a245693c34446696ca",
+      "original_mtime_ns": 1792332088540648000
+    },
+    {
+      "path": "test_runs/20261018-100110/remediation_browser.py.log",
+      "bytes": 2015,
+      "sha256": "2a4a74f589b10ac42f31b52f9ca9f7a0f3e0e70bde976841d6ec2f6006555892",
+      "original_mtime_ns": 1792332097732266900
+    },
+    {
+      "path": "test_runs/20261018-100110/remediation_browser_results.json",
+      "bytes": 11005,
+      "sha256": "96a55f7fbd58a86632bc0aeee9482af75955d23d426fff282cde4478755ec08a",
+      "original_mtime_ns": 1792332097736283100
+    },
+    {
+      "path": "test_runs/20261018-100110/run-index.json",
+      "bytes": 1062,
+      "sha256": "7adddde1edad0acfc699c64cb91e24017a89c745a0ce47f8c90d3b3d4c489a4c",
+      "original_mtime_ns": 1792332575336645200
+    },
+    {
+      "path": "test_runs/20261018-100216/browser-final_test.py.log",
+      "bytes": 3145,
+      "sha256": "59410812b15e645dfba61aebbaaa0802057ecae35b75a81db0d0e55c4f8b83b3",
+      "original_mtime_ns": 1792332722616674100
+    },
+    {
+      "path": "test_runs/20261018-100216/browser-fp_test.py.log",
+      "bytes": 1160,
+      "sha256": "0d29f2841d6c8f4021898850fefa972ecf294e1c065929e3c0eba4e3038d2135",
+      "original_mtime_ns": 1792332225696352200
+    },
+    {
+      "path": "test_runs/20261018-100216/browser-fp_test2.py.log",
+      "bytes": 1299,
+      "sha256": "f91dd489d2dda630d9aa51ba27fdbd850bca3842373a7b1f8db89b6fa4e6bd26",
+      "original_mtime_ns": 1792332247665979100
+    },
+    {
+      "path": "test_runs/20261018-100216/browser-rail_stairs_check.py.log",
+      "bytes": 82,
+      "sha256": "ffde674b6a711b52bc3fd0bfe3d818da0cca6faac8c07d5f7f56cee6e116867e",
+      "original_mtime_ns": 1792332502120412300
+    },
+    {
+      "path": "test_runs/20261018-100216/browser-rails_test.py.log",
+      "bytes": 668,
+      "sha256": "ef10136105957e5eb6131c30e12915a683c6194db15387edf23c53a20de7ab1a",
+      "original_mtime_ns": 1792332393896739500
+    },
+    {
+      "path": "test_runs/20261018-100216/browser-rails_test2.py.log",
+      "bytes": 253,
+      "sha256": "7dc56a38e1a9ba50d595ea859aff3bc4ad40357f20f0fd268bdc97da8d64ab2e",
+      "original_mtime_ns": 1792332466397052800
+    },
+    {
+      "path": "test_runs/20261018-100216/browser-sky_test.py.log",
+      "bytes": 442,
+      "sha256": "f0109de02e6e0b9eed16f5347fe116cb56e0eeca4785d2a903380af94e5b44c5",
+      "original_mtime_ns": 1792332274166890900
+    },
+    {
+      "path": "test_runs/20261018-100216/browser-stories_test.py.log",
+      "bytes": 1631,
+      "sha256": "c2dac0bdf12dac5935cee72aaf9f6e3d12b723bbbcd37be69c91643ee5584b07",
+      "original_mtime_ns": 1792332494776613400
+    },
+    {
+      "path": "test_runs/20261018-100216/browser-ui_smoke.py.log",
+      "bytes": 482,
+      "sha256": "ddd2cf6f72d3dc1e09b6d607d20150d07ce301cfc5bdd685d64e1ae87bfde54a",
+      "original_mtime_ns": 1792332171170038200
+    },
+    {
+      "path": "test_runs/20261018-100216/final_results.json",
+      "bytes": 3143,
+      "sha256": "c046df37f09a5137f65af20d094faead62a4655e828f7e5937fd6017c8286814",
+      "original_mtime_ns": 1792332722621235300
+    },
+    {
+      "path": "test_runs/20261018-100216/make_asset_demo.py.log",
+      "bytes": 745,
+      "sha256": "3c17415a7e7390c680bef986422d4517e7e379b594e76d7f78d2faf6b2fad56e",
+      "original_mtime_ns": 1792333002821063800
+    },
+    {
+      "path": "test_runs/20261018-100216/route-route_eval.py.log",
+      "bytes": 8398,
+      "sha256": "ae15e9efb35aa7ac4260e1299cf3a63a35d523b40c06b30624c21bfefe0dd6fc",
+      "original_mtime_ns": 1792332976375873200
+    },
+    {
+      "path": "test_runs/20261018-100216/route-route_keys.py.log",
+      "bytes": 1755,
+      "sha256": "a3916a7be6b745f60d9fbd59628014651a2cf1551e7cf6bcee1f6931cd12c2b8",
+      "original_mtime_ns": 1792332841333860200
+    },
+    {
+      "path": "test_runs/20261018-100216/route-route_perf.py.log",
+      "bytes": 71,
+      "sha256": "3a9614a98f1f99a8482518ae47e74fced748e8f6ca454daa8533a02402fc8df4",
+      "original_mtime_ns": 1792332867432285400
+    },
+    {
+      "path": "test_runs/20261018-100216/route-route_smoke.py.log",
+      "bytes": 2382,
+      "sha256": "08a76b95fc1f32822071148f642b0eba3ec5e9bc91baa869d1c0b1a7fe169f9a",
+      "original_mtime_ns": 1792332789160966300
+    },
+    {
+      "path": "test_runs/20261018-100216/run-index.json",
+      "bytes": 2182,
+      "sha256": "6f3ad8ddfef7355f43c0c4eca280053253868d671105fdb19cc0a82b223adc9e",
+      "original_mtime_ns": 1792333004317595000
+    },
+    {
+      "path": "test_runs/20261018-100216/shots/01_map.png",
+      "bytes": 210380,
+      "sha256": "b439b2176f175187e915424ea59f2329496719c90c4c7293b6ed490c0940c5c3",
+      "original_mtime_ns": 1792332160413804100
+    },
+    {
+      "path": "test_runs/20261018-100216/shots/02_zoomed.png",
+      "bytes": 118254,
+      "sha256": "e9f7613eef271aecd77db41deb74fd5f041e13ab8e1ffbce737ad1d80dc98882",
+      "original_mtime_ns": 1792332164142898000
+    },
+    {
+      "path": "test_runs/20261018-100216/shots/03_plan.png",
+      "bytes": 190595,
+      "sha256": "a3447ea1ef9b7b966bdb9ec0533ce8ca283b771cbbf394f2a11e1341da9245a8",
+      "original_mtime_ns": 1792332165346801800
+    },
+    {
+      "path": "test_runs/20261018-100216/shots/04_labels_all.png",
+      "bytes": 217684,
+      "sha256": "7645ea0c0752c4a7a6ca901ebc02b619b9018e542c7c6b5bf89f26031c7e8919",
+      "original_mtime_ns": 1792332166030866600
+    },
+    {
+      "path": "test_runs/20261018-100216/shots/05_story2.png",
+      "bytes": 247627,
+      "sha256": "ebb233efc28946824b866080335c36cdfaf85e5d7bc3fbdd1b2784215f090ae2",
+      "original_mtime_ns": 1792332167035310600
+    },
+    {
+      "path": "test_runs/20261018-100216/shots/06_fp.png",
+      "bytes": 660653,
+      "sha256": "532100921c03fde55b8ee81433f302e45bab8cdf790452d463fe66653be50efb",
+      "original_mtime_ns": 1792332169601190600
+    },
+    {
+      "path": "test_runs/20261018-100216/shots/07_back_to_map.png",
+      "bytes": 265117,
+      "sha256": "ab170f86a75edd53930c692a9ebd83ec420985e9f322a9aaf69b3ff06ee38cba",
+      "original_mtime_ns": 1792332171167658300
+    },
+    {
+      "path": "test_runs/20261018-100216/shots/final_demo_ride_end.png",
+      "bytes": 542279,
+      "sha256": "b0e00842260754b87259a59daa19ce3451ecead051eaea34d788b1075839150c",
+      "original_mtime_ns": 1792332586554081200
+    },
+    {
+      "path": "test_runs/20261018-100216/shots/final_demo_ride_mid.png",
+      "bytes": 655469,
+      "sha256": "2681e607c3a324f7ecd3110e2b706c05a303b2f39fba0740db69dfa5d3ac3286",
+      "original_mtime_ns": 1792332587213141700
+    },
+    {
+      "path": "test_runs/20261018-100216/shots/final_fallback_fp.png",
+      "bytes": 790341,
+      "sha256": "f906f266cf73d9c17d232e3c46ac75bea8323fcd86ae24cd9c51112bab3a645e",
+      "original_mtime_ns": 1792332722194746900
+    },
+    {
+      "path": "test_runs/20261018-100216/shots/fp1_after_drag.png",
+      "bytes": 654803,
+      "sha256": "5c15fbff452f1859ad8a2c206c7781fb9a0afb0bc942e32da46491fff9f99d0f",
+      "original_mtime_ns": 1792332204866178600
+    },
+    {
+      "path": "test_runs/20261018-100216/shots/fp2_edited.png",
+      "bytes": 610068,
+      "sha256": "4e21e63860a1ff8c3d2176962312e5a4eb3579b800e221f5cf1883ca005f4fd8",
+      "original_mtime_ns": 1792332210050761200
+    },
+    {
+      "path": "test_runs/20261018-100216/shots/fp3_free_wall.png",
+      "bytes": 293841,
+      "sha256": "a61525fcca62ee6d69950a8eab30a4c1075d0efafb0a8d9e25a72d54d5156bea",
+      "original_mtime_ns": 1792332217196245500
+    },
+    {
+      "path": "test_runs/20261018-100216/shots/fp4_free_from_map.png",
+      "bytes": 729639,
+      "sha256": "4e7a9a429401868674db0172627cfbc57c0896f7385dbf3bfe16a4bee1855525",
+      "original_mtime_ns": 1792332220836485500
+    },
+    {
+      "path": "test_runs/20261018-100216/shots/fp5_map_marker.png",
+      "bytes": 249500,
+      "sha256": "c7f6965ba7e479e42b0e023b2e6f1f83c1295c687ae98074cc15603267856350",
+      "original_mtime_ns": 1792332225695325300
+    },
+    {
+      "path": "test_runs/20261018-100216/shots/rail1_map.png",
+      "bytes": 573992,
+      "sha256": "423bdc5b53a782c109c944549f5de52100f38f55c4d3891614fdd452f7200002",
+      "original_mtime_ns": 1792332286606765100
+    },
+    {
+      "path": "test_runs/20261018-100216/shots/rail2_playing.png",
+      "bytes": 574948,
+      "sha256": "d7437e019498341fe3c813410cc2d8b688b9028d9bec6f6558dd1edf4b46ad3f",
+      "original_mtime_ns": 1792332292100396800
+    },
+    {
+      "path": "test_runs/20261018-100216/shots/rail3_ride.png",
+      "bytes": 592101,
+      "sha256": "ee934d6f90fe5c9c6034df555efb85dfafb66f696948a5ffc0c646d06be5ab40",
+      "original_mtime_ns": 1792332299232600400
+    },
+    {
+      "path": "test_runs/20261018-100216/shots/rail4_scrub.png",
+      "bytes": 690225,
+      "sha256": "e3b23fdeb4a8781a6e8148cc954ad84b41d8aeadd23cb1a6f376da82ab97e64f",
+      "original_mtime_ns": 1792332300213255300
+    },
+    {
+      "path": "test_runs/20261018-100216/shots/rail5_transit.png",
+      "bytes": 631347,
+      "sha256": "3088429de240f9d99c01d4e7e26cd05a0d9e1582b4ea3570bf9e7a6ba3ca8a56",
+      "original_mtime_ns": 1792332387392346600
+    },
+    {
+      "path": "test_runs/20261018-100216/shots/rail6_test_left.png",
+      "bytes": 679581,
+      "sha256": "4b0a55ffe7f2a50a25c92b8b6037e4bbef5411c99c4275bce371b74cb9a423e0",
+      "original_mtime_ns": 1792332393896739500
+    },
+    {
+      "path": "test_runs/20261018-100216/shots/rail7_bend.png",
+      "bytes": 572313,
+      "sha256": "eb6f9a9e2bd3c8b53f98064a6d9a3f3247567ccc30bfd74eab33d7f82b98f4a5",
+      "original_mtime_ns": 1792332446780032700
+    },
+    {
+      "path": "test_runs/20261018-100216/shots/rail8_test_panel.png",
+      "bytes": 617854,
+      "sha256": "cae5aefe3984b3e7079a6f5652be1c615fb957a0f351efcf8fddc9aa60487d23",
+      "original_mtime_ns": 1792332449687717300
+    },
+    {
+      "path": "test_runs/20261018-100216/shots/rail9_test_ride.png",
+      "bytes": 602759,
+      "sha256": "16d157cea6942d01c1de1c0ef52c6d2c0e4b9520e557feabe10999f7a05987a4",
+      "original_mtime_ns": 1792332456867663300
+    },
+    {
+      "path": "test_runs/20261018-100216/shots/sky1_pane.png",
+      "bytes": 714136,
+      "sha256": "3382cd4696fe6a17bb41c932f97677a9ceab7d6557d74014860413c5986bd3fb",
+      "original_mtime_ns": 1792332263929631900
+    },
+    {
+      "path": "test_runs/20261018-100216/shots/sky2_sunset.png",
+      "bytes": 689762,
+      "sha256": "39e62041a29e45e44ada84578e942d6c35247f58181b3ff02764d134b1a9c36e",
+      "original_mtime_ns": 1792332264939691500
+    },
+    {
+      "path": "test_runs/20261018-100216/shots/sky3_image.png",
+      "bytes": 720845,
+      "sha256": "4ef994168cd80d20dfae9ac2a6a15c40dea81c6db4888580d0c6e3a3d31f1d7f",
+      "original_mtime_ns": 1792332266021638400
+    },
+    {
+      "path": "test_runs/20261018-100216/shots/sky4_haze.png",
+      "bytes": 669661,
+      "sha256": "d09a4b396caa4cd3db559b5c61d8f2550d0bc4b054eef05ccfdc07d20eef2e0a",
+      "original_mtime_ns": 1792332273613535100
+    },
+    {
+      "path": "test_runs/20261018-100216/shots/st1_wizard.png",
+      "bytes": 194037,
+      "sha256": "357a30bc0e6dddd19dd152665cf28c3c44e8e2ca6bf2d6a885f949d2ee0ea582",
+      "original_mtime_ns": 1792332477487789200
+    },
+    {
+      "path": "test_runs/20261018-100216/shots/st2_wizard_ring.png",
+      "bytes": 192143,
+      "sha256": "0142b86df4c383d86c731eea5b4d25efe92b05bac6f74390ea27eecdf56e5f15",
+      "original_mtime_ns": 1792332478369740400
+    },
+    {
+      "path": "test_runs/20261018-100216/shots/st3_built.png",
+      "bytes": 370035,
+      "sha256": "804493254ea0565043378360f46e1f96663b817fb1215b8b9ec868997541f143",
+      "original_mtime_ns": 1792332480506378200
+    },
+    {
+      "path": "test_runs/20261018-100216/shots/st4_stairs_selected.png",
+      "bytes": 302077,
+      "sha256": "915e36c9e626ea0bd8c2668068ff1a8672d18940ed88ebdc2e71da6aae824a27",
+      "original_mtime_ns": 1792332481807712000
+    },
+    {
+      "path": "test_runs/20261018-100216/shots/st5_stairs_fp.png",
+      "bytes": 230443,
+      "sha256": "c38e14797545e944759faac0682d427032d2370029aff5cb9302ecb4a2439dca",
+      "original_mtime_ns": 1792332483063365200
+    },
+    {
+      "path": "test_runs/20261018-100216/shots/st6_upstairs.png",
+      "bytes": 139980,
+      "sha256": "4be219fa71630412102c17416a65da3d1380d1c630decd01108821df96223f98",
+      "original_mtime_ns": 1792332490498132600
+    },
+    {
+      "path": "test_runs/20261018-100216/shots/st7_stairs_drag.png",
+      "bytes": 205078,
+      "sha256": "7f6109e04571cfc383b6b43514c582b55210f3cedf45479a70eb62f9d2b03690",
+      "original_mtime_ns": 1792332492738824500
+    },
+    {
+      "path": "test_runs/20261018-100216/shots/st8_hole.png",
+      "bytes": 248838,
+      "sha256": "a26266e75b9020b27af93572da26079de11aef383523fbfca324efca86c2cdc5",
+      "original_mtime_ns": 1792332494776613400
+    },
+    {
+      "path": "test_runs/20261018-100319/missing-reference.png",
+      "bytes": 197324,
+      "sha256": "24cf951dab3238f68633145ad4d92c4b8de87f4b70d0fb2980af2380f3444e9c",
+      "original_mtime_ns": 1792332243668036800
+    },
+    {
+      "path": "test_runs/20261018-100319/point-drag-0-0.png",
+      "bytes": 580067,
+      "sha256": "a0c017f2fe98b3ee7ca76cbfacbddf50fd9841386dbb41b8c8c57c926823b6c6",
+      "original_mtime_ns": 1792332230646182800
+    },
+    {
+      "path": "test_runs/20261018-100319/point-drag-0-37.png",
+      "bytes": 574647,
+      "sha256": "2b5cf8aedd5a560e9c5afdef0ae8cfaff88a1edd7404bcac68cd4a6dffa8fb4e",
+      "original_mtime_ns": 1792332233323572000
+    },
+    {
+      "path": "test_runs/20261018-100319/point-drag-1-128.png",
+      "bytes": 709363,
+      "sha256": "f883e9a870cada5f3d929594247efa2bc6c5c53b56f233d095fc0f14c2daa732",
+      "original_mtime_ns": 1792332236554492600
+    },
+    {
+      "path": "test_runs/20261018-100319/remediation_browser.py.log",
+      "bytes": 2015,
+      "sha256": "9091b3cb53d76e5fecf1a0c18b5e624bd14761579d8943c713a4394a41a0828d",
+      "original_mtime_ns": 1792332247315658300
+    },
+    {
+      "path": "test_runs/20261018-100319/remediation_browser_results.json",
+      "bytes": 11685,
+      "sha256": "696cdae467933e7ec064454d6b0e21f47f02c8f67aa9c4298041943b0da177b8",
+      "original_mtime_ns": 1792332247412307300
+    },
+    {
+      "path": "test_runs/20261018-100319/run-index.json",
+      "bytes": 158,
+      "sha256": "3c303c9ad6cc5347c9b34155940d31392e202e71c4e8faedc7419ae5d1617cb1",
+      "original_mtime_ns": 1792332248321737200
+    },
+    {
+      "path": "test_runs/final-assertions/architecture_extensions.test.js.log",
+      "bytes": 3776,
+      "sha256": "5c0a48c0f3b5b79b6b10bb7cfad77442b9c22f5fb03e7992db043166d0fa82ed",
+      "original_mtime_ns": 1792332391515620900
+    },
+    {
+      "path": "test_runs/final-assertions/asset_demo_file.test.js.log",
+      "bytes": 585,
+      "sha256": "dab294689394c541e86806afab17367e7aa378354db09af02957b4368c3da8db",
+      "original_mtime_ns": 1792332393790328100
+    },
+    {
+      "path": "test_runs/final-assertions/assets_all_models.py.log",
+      "bytes": 251,
+      "sha256": "3a05ec573295e2e8cb0412240f9cc594cc083d99df2c950da92f4fa3d8812c1f",
+      "original_mtime_ns": 1792332639108921800
+    },
+    {
+      "path": "test_runs/final-assertions/assets_browser.py.log",
+      "bytes": 5510,
+      "sha256": "367606f3939b9a7136a04b21a6ddb709ec9a193a14403df67122f91049d11b24",
+      "original_mtime_ns": 1792332620071814800
+    },
+    {
+      "path": "test_runs/final-assertions/assets_demo_checks.py.log",
+      "bytes": 1766,
+      "sha256": "cc46f2c32d5b88c8d983577fb4b2221413a9bd9d8a084fb1c56254396bcc8a37",
+      "original_mtime_ns": 1792332770314751800
+    },
+    {
+      "path": "test_runs/final-assertions/build_repro.py.log",
+      "bytes": 368,
+      "sha256": "8abbddd4ca8504cca0982aff8511ce6288fd4db63a1465dd3dfb8c6e55da1e3c",
+      "original_mtime_ns": 1792332425022125500
+    },
+    {
+      "path": "test_runs/final-assertions/construction_v10.test.js.log",
+      "bytes": 760,
+      "sha256": "449c786ad6d5ce03289dbe555f7d912295e9b37572c791ee2dab2cb367869160",
+      "original_mtime_ns": 1792332396467191500
+    },
+    {
+      "path": "test_runs/final-assertions/core.test.js.log",
+      "bytes": 4821,
+      "sha256": "02277600838169ac1ce4248d03749a830ff377300f63f8b688d043fbc4159fbd",
+      "original_mtime_ns": 1792332399519961900
+    },
+    {
+      "path": "test_runs/final-assertions/missing-reference.png",
+      "bytes": 197324,
+      "sha256": "24cf951dab3238f68633145ad4d92c4b8de87f4b70d0fb2980af2380f3444e9c",
+      "original_mtime_ns": 1792332467636656700
+    },
+    {
+      "path": "test_runs/final-assertions/multistory.test.js.log",
+      "bytes": 1113,
+      "sha256": "954c4c4bc2870a5b36ec27b357318dc334540cdb9ba298e798df01964bdf9c82",
+      "original_mtime_ns": 1792332402769831600
+    },
+    {
+      "path": "test_runs/final-assertions/point-drag-0-0.png",
+      "bytes": 580067,
+      "sha256": "a0c017f2fe98b3ee7ca76cbfacbddf50fd9841386dbb41b8c8c57c926823b6c6",
+      "original_mtime_ns": 1792332445308610300
+    },
+    {
+      "path": "test_runs/final-assertions/point-drag-0-37.png",
+      "bytes": 574647,
+      "sha256": "2b5cf8aedd5a560e9c5afdef0ae8cfaff88a1edd7404bcac68cd4a6dffa8fb4e",
+      "original_mtime_ns": 1792332448669994500
+    },
+    {
+      "path": "test_runs/final-assertions/point-drag-1-128.png",
+      "bytes": 709363,
+      "sha256": "f883e9a870cada5f3d929594247efa2bc6c5c53b56f233d095fc0f14c2daa732",
+      "original_mtime_ns": 1792332458762622200
+    },
+    {
+      "path": "test_runs/final-assertions/props_metadata.test.js.log",
+      "bytes": 827,
+      "sha256": "2cefe4b4d45b739657fb81acf7caf8e69b744eb6ed37a3ee807be332aca1889f",
+      "original_mtime_ns": 1792332405975296500
+    },
+    {
+      "path": "test_runs/final-assertions/remediation_browser.py.log",
+      "bytes": 2015,
+      "sha256": "9091b3cb53d76e5fecf1a0c18b5e624bd14761579d8943c713a4394a41a0828d",
+      "original_mtime_ns": 1792332469928856700
+    },
+    {
+      "path": "test_runs/final-assertions/remediation_browser_results.json",
+      "bytes": 12055,
+      "sha256": "8eb6cfce5900d3a68948ac1a2626a835be6d957495e3cefabc24a8b4315260e4",
+      "original_mtime_ns": 1792332469963069700
+    },
+    {
+      "path": "test_runs/final-assertions/remediation_core.test.js.log",
+      "bytes": 945,
+      "sha256": "bdc30eec0be2ecce474478cd2444d78b15c99c84629afd14996e26fd1b1aeae5",
+      "original_mtime_ns": 1792332409716953900
+    },
+    {
+      "path": "test_runs/final-assertions/run-index.json",
+      "bytes": 3860,
+      "sha256": "4165b880c0a1dff03bf56f8ebb5af71708354fc2ee3eb08d76a4a0f8799dfd5f",
+      "original_mtime_ns": 1792332770421792800
+    },
+    {
+      "path": "test_runs/final-assertions/shared_matte.test.js.log",
+      "bytes": 1575,
+      "sha256": "3dbff8d66350574897883d51cc1301d73a753269383a88cb4f2c1baf7ac648fa",
+      "original_mtime_ns": 1792332412638845800
+    },
+    {
+      "path": "test_runs/final-assertions/style_openings.test.js.log",
+      "bytes": 2193,
+      "sha256": "b406352385a4020ed1373d21d0d273270c9b82100e1ac8dee09224b001e1069a",
+      "original_mtime_ns": 1792332415358537100
+    },
+    {
+      "path": "test_runs/final-assertions/v0_11_1_story_floor.test.js.log",
+      "bytes": 1526,
+      "sha256": "2cded3eb0e11a35032ffa50cfe457c0ce132b7f4bd82fee06e4cee35ee8ecfd6",
+      "original_mtime_ns": 1792332418050469400
+    },
+    {
+      "path": "test_runs/final-assertions/v0_12_stories_rooms.test.js.log",
+      "bytes": 968,
+      "sha256": "bfa07afdabcf47d5b24b54d26cecea7439bdb83d8b8328b3d50da1b7f52acc93",
+      "original_mtime_ns": 1792332421247211400
+    },
+    {
+      "path": "test_runs/final-regressions/missing-reference.png",
+      "bytes": 197324,
+      "sha256": "24cf951dab3238f68633145ad4d92c4b8de87f4b70d0fb2980af2380f3444e9c",
+      "original_mtime_ns": 1792332766617364600
+    },
+    {
+      "path": "test_runs/final-regressions/point-drag-0-0.png",
+      "bytes": 580067,
+      "sha256": "a0c017f2fe98b3ee7ca76cbfacbddf50fd9841386dbb41b8c8c57c926823b6c6",
+      "original_mtime_ns": 1792332744256927000
+    },
+    {
+      "path": "test_runs/final-regressions/point-drag-0-37.png",
+      "bytes": 574647,
+      "sha256": "2b5cf8aedd5a560e9c5afdef0ae8cfaff88a1edd7404bcac68cd4a6dffa8fb4e",
+      "original_mtime_ns": 1792332748060616800
+    },
+    {
+      "path": "test_runs/final-regressions/point-drag-1-128.png",
+      "bytes": 709363,
+      "sha256": "f883e9a870cada5f3d929594247efa2bc6c5c53b56f233d095fc0f14c2daa732",
+      "original_mtime_ns": 1792332752343904100
+    },
+    {
+      "path": "test_runs/final-regressions/remediation_browser.py.log",
+      "bytes": 2083,
+      "sha256": "a92543ea09d9d672fd7f0c3e0e9365c979b952522ad1a451d23d78705eff30e8",
+      "original_mtime_ns": 1792332769850465000
+    },
+    {
+      "path": "test_runs/final-regressions/remediation_browser_results.json",
+      "bytes": 12800,
+      "sha256": "f7764d5810b2db4b4be3b136ad7d7763adec30b1b73032ae02b8881295d2acac",
+      "original_mtime_ns": 1792332769852971000
+    },
+    {
+      "path": "test_runs/final-regressions/run-index.json",
+      "bytes": 245,
+      "sha256": "990cba64fc77acfd001e8f5e3bdcc120d43203a604a5f07a70f018267dd5eaee",
+      "original_mtime_ns": 1792332786621253300
+    },
+    {
+      "path": "tests/README_TESTS.md",
+      "bytes": 3157,
+      "sha256": "cc287107732e448396b81b2797d7741c764024e3267618853eeca5a1a2e166a2",
+      "original_mtime_ns": 1792332573812287800
+    },
+    {
+      "path": "tests/architecture_extensions.test.js",
+      "bytes": 16051,
+      "sha256": "d5cccfbf1c9eff9a2338acbc2abe98a4faa30e1c5bfe6d62a76459615015e909",
+      "original_mtime_ns": 1792331548106298300
+    },
+    {
+      "path": "tests/architecture_extensions_browser.py",
+      "bytes": 20965,
+      "sha256": "1555d377ab897437bbb8d5a76eda2fb7d628d8be1ae3cd743932c1d2a9e37cb0",
+      "original_mtime_ns": 1792331734849092800
+    },
+    {
+      "path": "tests/architecture_extensions_browser_results.json",
+      "bytes": 8444,
+      "sha256": "741c8d4c570d63e85ba285dcfab2315e274ae4dfc0dadfc20a041b15764767c8",
+      "original_mtime_ns": 1792331548061673700
+    },
+    {
+      "path": "tests/architecture_extensions_core_results.json",
+      "bytes": 6522,
+      "sha256": "8fdc03553b0f671fb2f1b2f5e5712bd81313a66e0e00463687440722430376a2",
+      "original_mtime_ns": 1792332391515620900
+    },
+    {
+      "path": "tests/asset_demo_file.test.js",
+      "bytes": 4640,
+      "sha256": "3e0ba05535449e8f86ef4d8d6c0c57c99ae2bd5b417d16a5ee170d25aee1019c",
+      "original_mtime_ns": 1792331548048404100
+    },
+    {
+      "path": "tests/asset_demo_file_results.json",
+      "bytes": 829,
+      "sha256": "820b1420f83132c4327dad51e23e60df11d069a3db1a4d8df7b7f6f2e5cdcc1c",
+      "original_mtime_ns": 1792332393788834400
+    },
+    {
+      "path": "tests/assets_all_models.py",
+      "bytes": 6801,
+      "sha256": "61040a50487bbf60869f8f86477fce32d940d635ad3c8fc4f757b82287ae725b",
+      "original_mtime_ns": 1792331734850092200
+    },
+    {
+      "path": "tests/assets_all_models_results.json",
+      "bytes": 229853,
+      "sha256": "a3ac53a0a0f630917d45d28e61b0386dddcdcf7aaf6e8a6fc81dc34fd4e007c3",
+      "original_mtime_ns": 1792332656609761300
+    },
+    {
+      "path": "tests/assets_browser.py",
+      "bytes": 62063,
+      "sha256": "750fde653e1684545a06e6049ab163b7cc5c08e58075be79e14f9c3ba5e46104",
+      "original_mtime_ns": 1792331734854777200
+    },
+    {
+      "path": "tests/assets_browser_results.json",
+      "bytes": 24315,
+      "sha256": "4a4797f29855c265f629abdee21a3f1ffcd274b40bfaf1ed0799c8518567c1e7",
+      "original_mtime_ns": 1792332620071814800
+    },
+    {
+      "path": "tests/assets_demo_checks.py",
+      "bytes": 6474,
+      "sha256": "92a005226de665fbed40d59826187e24345545150d589c08ce9835e66b424a11",
+      "original_mtime_ns": 1792331734855779900
+    },
+    {
+      "path": "tests/assets_demo_checks_results.json",
+      "bytes": 2280,
+      "sha256": "407b77ca337d6e73308245a95a8a8b01d2f108aaef85e50d55e37bafd0832e02",
+      "original_mtime_ns": 1792332770316770800
+    },
+    {
+      "path": "tests/assets_evidence/A_library_search.png",
+      "bytes": 307930,
+      "sha256": "31fe4e7fd9284b9bb139f2f9d82ceb86dfee53083eeb637e40dd6f5197f02e76",
+      "original_mtime_ns": 1792332506778032300
+    },
+    {
+      "path": "tests/assets_evidence/B_first_person_selected.png",
+      "bytes": 612596,
+      "sha256": "8a84cfef2af19b09781c490ba089a83a92fb5a872f6fcf7c0cb1dfa8e0852156",
+      "original_mtime_ns": 1792332559154470700
+    },
+    {
+      "path": "tests/assets_evidence/B_inspector_map.png",
+      "bytes": 1016762,
+      "sha256": "559692d64f58ed9298195b4b203cd31261daeda8188c217ff38f2357e31dc099",
+      "original_mtime_ns": 1792332548579576900
+    },
+    {
+      "path": "tests/assets_evidence/C_reopened_without_library.png",
+      "bytes": 317875,
+      "sha256": "faccc252bb8b0feae5b23a804913a18a55b1248857b29057bc629a1d116273ba",
+      "original_mtime_ns": 1792332572939599800
+    },
+    {
+      "path": "tests/assets_evidence/D_floor_texture.png",
+      "bytes": 1176021,
+      "sha256": "31fdef32bd5251490b51cd47ab814380e3d75ab1ee33689c3f21cb373899af02",
+      "original_mtime_ns": 1792332598776236000
+    },
+    {
+      "path": "tests/assets_evidence/D_palette_editor.png",
+      "bytes": 402687,
+      "sha256": "ffb094e9e3966d26563608875b5b3f5456a2997c25717e2ca10712a809840e04",
+      "original_mtime_ns": 1792332587486292200
+    },
+    {
+      "path": "tests/assets_evidence/F_use_points_map.png",
+      "bytes": 1034916,
+      "sha256": "6bf11d282a1a1e8086005cee9f93ddbc83d0b4beba18800cc436eb59565a6532",
+      "original_mtime_ns": 1792332612061394000
+    },
+    {
+      "path": "tests/assets_evidence/G_upstairs_fp.png",
+      "bytes": 727412,
+      "sha256": "cb4bfcfe7bff4c1e7c6a615c8e6a5352bc66f377de08db12526088410982f652",
+      "original_mtime_ns": 1792332618323786200
+    },
+    {
+      "path": "tests/assets_evidence/README.md",
+      "bytes": 1542,
+      "sha256": "7bc5c2497e95c9b9fa359959f60f5580efa5b2e5d48c6e0d1480033108b3b633",
+      "original_mtime_ns": 1792331547949105300
+    },
+    {
+      "path": "tests/assets_evidence/Z_end_state.png",
+      "bytes": 931071,
+      "sha256": "159394ccf7f85872b0f0520441f61182aeb7e2bcfd7fdf9777debcfb472edc28",
+      "original_mtime_ns": 1792332619698478100
+    },
+    {
+      "path": "tests/assets_evidence/all_models_contact_sheet.png",
+      "bytes": 1895408,
+      "sha256": "7bbe76cf587933a7e2751aee13b228a7a2f4fcb3756ea96d2092fa3c51f23f7f",
+      "original_mtime_ns": 1792332656558668500
+    },
+    {
+      "path": "tests/assets_evidence/demo_fp_alley.png",
+      "bytes": 501445,
+      "sha256": "6fe036e3d6013a6973f5929eb74f337e1ceb2f411344c17ee96be17168039efc",
+      "original_mtime_ns": 1792332560761511000
+    },
+    {
+      "path": "tests/assets_evidence/demo_fp_bodega_front.png",
+      "bytes": 695626,
+      "sha256": "0d61042fb9d2a33e0457c52aa6a894edf58885fcf8323dfb95a0bb4f9df44d48",
+      "original_mtime_ns": 1792332565952168300
+    },
+    {
+      "path": "tests/assets_evidence/demo_fp_cover_car.png",
+      "bytes": 508586,
+      "sha256": "6b8f77a374a54065936ddcc24c4475282bc5de20300aebfc720a820f807ec525",
+      "original_mtime_ns": 1792332558751096400
+    },
+    {
+      "path": "tests/assets_evidence/demo_fp_flat_dining.png",
+      "bytes": 464391,
+      "sha256": "3a48e676c0903da0139e271c555721dc57f6dcd8edf4ed0f40e762390926f351",
+      "original_mtime_ns": 1792332554149182500
+    },
+    {
+      "path": "tests/assets_evidence/demo_fp_flat_living.png",
+      "bytes": 520078,
+      "sha256": "237c2a60b3dac0c57d1545c838ee5b3323afb972504212dcd744d6270ce5db45",
+      "original_mtime_ns": 1792332552368584100
+    },
+    {
+      "path": "tests/assets_evidence/demo_fp_flat_living2.png",
+      "bytes": 448249,
+      "sha256": "c71de47171ed3e6168eeb5159b4022704986d0f3c6b318e2441519795e5fe095",
+      "original_mtime_ns": 1792332556282633900
+    },
+    {
+      "path": "tests/assets_evidence/demo_fp_office.png",
+      "bytes": 778767,
+      "sha256": "65a8b6b896dee593e0c3656eaa6d2bf64551fc34dbaf760e98105203a1e225da",
+      "original_mtime_ns": 1792332550039571900
+    },
+    {
+      "path": "tests/assets_evidence/demo_fp_shop_counter.png",
+      "bytes": 469476,
+      "sha256": "e353e37f1d3fdf1434363f93c794abeac88628bde4065704c66072b34eb5fa05",
+      "original_mtime_ns": 1792332545244689600
+    },
+    {
+      "path": "tests/assets_evidence/demo_fp_shop_inside_door.png",
+      "bytes": 492610,
+      "sha256": "4c317cc2b0cdf5e04a15d7a2d78aae4b8b96682efa665db98174fe166027947a",
+      "original_mtime_ns": 1792332542229896200
+    },
+    {
+      "path": "tests/assets_evidence/demo_fp_stockroom.png",
+      "bytes": 427090,
+      "sha256": "abacb7d2fed94663274fe87b91919ae269755a7d34e07c620d2c567193d51ba9",
+      "original_mtime_ns": 1792332547725440700
+    },
+    {
+      "path": "tests/assets_evidence/demo_fp_taco_truck.png",
+      "bytes": 539583,
+      "sha256": "704db5280db035cbe27476a90e55dd47e9f5f67733799afe3898ee16154c8171",
+      "original_mtime_ns": 1792332562599667200
+    },
+    {
+      "path": "tests/assets_evidence/demo_fp_tunnel_van.png",
+      "bytes": 509108,
+      "sha256": "118e51b35b5f056728f6c26c53e5303abe643d497023289e95bc454cf9c19d39",
+      "original_mtime_ns": 1792332564257018700
+    },
+    {
+      "path": "tests/assets_evidence/demo_map_alley.png",
+      "bytes": 601255,
+      "sha256": "23033f94fd629f3c6e6e053ab2b004d21f65fe5e7edcbf4720b2e0cd30f65c05",
+      "original_mtime_ns": 1792332573043501500
+    },
+    {
+      "path": "tests/assets_evidence/demo_map_bodega.png",
+      "bytes": 863166,
+      "sha256": "d64ce8e17c67be65248e506fe394d37dd2388e9f95511fe970059a2abd37110d",
+      "original_mtime_ns": 1792332567989242200
+    },
+    {
+      "path": "tests/assets_evidence/demo_map_flat.png",
+      "bytes": 710388,
+      "sha256": "3c6cc3dce97d39d212c0e942e15ecdf4a0e6bdb9d9ecd56a628a5978c08c3c7e",
+      "original_mtime_ns": 1792332569775228700
+    },
+    {
+      "path": "tests/assets_evidence/demo_map_street.png",
+      "bytes": 478167,
+      "sha256": "5e3d950d8c675208a1f797f040f082dbd50b07b55f5e88dd85aaa5220f61b246",
+      "original_mtime_ns": 1792332571419629700
+    },
+    {
+      "path": "tests/assets_evidence/downloads/exported.rclooks.json",
+      "bytes": 6799,
+      "sha256": "cc6860bf20aec32df870c697e392cba58e33fd894414da04e2d961a825d06679",
+      "original_mtime_ns": 1792332599579307500
+    },
+    {
+      "path": "tests/assets_evidence/downloads/resaved_without_library.room.json",
+      "bytes": 18197293,
+      "sha256": "8675378e115152b566afe818fb2c2ca4a1652e5d28fd2e62b95178de92a9f38d",
+      "original_mtime_ns": 1792332574565901600
+    },
+    {
+      "path": "tests/assets_evidence/downloads/saved_with_future.room.json",
+      "bytes": 18197293,
+      "sha256": "8675378e115152b566afe818fb2c2ca4a1652e5d28fd2e62b95178de92a9f38d",
+      "original_mtime_ns": 1792332565206175200
+    },
+    {
+      "path": "tests/assets_evidence/vehicle_fronts.png",
+      "bytes": 535996,
+      "sha256": "b98f06df77479990d365c573e6f3efb7fe12da7049a225285357b1f474788ff2",
+      "original_mtime_ns": 1792332504569002300
+    },
+    {
+      "path": "tests/assets_perf.py",
+      "bytes": 3843,
+      "sha256": "5d67ff496fe7b4da02947575ccd5e64db9ad51f0a5b1af6f681bea70aab6ade5",
+      "original_mtime_ns": 1792331734858699100
+    },
+    {
+      "path": "tests/assets_perf_results.json",
+      "bytes": 517,
+      "sha256": "4568bd24564b5e1f49ac3f816419c71ad50e8f2aa9c0b8540258a9cb0a788a1c",
+      "original_mtime_ns": 1792332494937911200
+    },
+    {
+      "path": "tests/assets_vehicle_fronts.py",
+      "bytes": 3649,
+      "sha256": "a778e7652db3982eb8fba36482fac1b943bf11e15652784918a1d3af893d8a0d",
+      "original_mtime_ns": 1792331734858699100
+    },
+    {
+      "path": "tests/browser/README.txt",
+      "bytes": 448,
+      "sha256": "e2f5b14ac2db78d1b64dcabfef78c12da0f8652c1307fce643e6653a6b1855e2",
+      "original_mtime_ns": 1792329959435114900
+    },
+    {
+      "path": "tests/browser/final_test.py",
+      "bytes": 5720,
+      "sha256": "92a871d28620ac5cb18a855da0b6a20a61d029fce1c46f45259b22d1b443b53b",
+      "original_mtime_ns": 1792331734829566500
+    },
+    {
+      "path": "tests/browser/fp_test.py",
+      "bytes": 4391,
+      "sha256": "a1567a49ec7a4cb3f2c21c7f815a06eae9e40fa95769027b0b793c1d8f75bfa8",
+      "original_mtime_ns": 1792331734829566500
+    },
+    {
+      "path": "tests/browser/fp_test2.py",
+      "bytes": 2669,
+      "sha256": "42a8b245e75c22e42a4ee3d1d07ae3706f2c06ca7eef63a75105a850bc313190",
+      "original_mtime_ns": 1792331734832972000
+    },
+    {
+      "path": "tests/browser/make_city.py",
+      "bytes": 5395,
+      "sha256": "224a7b1db05b78e4df1049d703832e5ecb51c8a5eb45daf6076e4d636a03437e",
+      "original_mtime_ns": 1792332332264473400
+    },
+    {
+      "path": "tests/browser/previews.py",
+      "bytes": 2452,
+      "sha256": "77db0b87f096e14a9bbc3db6035152dafdda3dcd8c9328c5a2c64e3018061e7b",
+      "original_mtime_ns": 1792331734834982500
+    },
+    {
+      "path": "tests/browser/rail_stairs_check.py",
+      "bytes": 1272,
+      "sha256": "7e4d85965f888ab8de87c113726c199ff35267903a1fac69c7a9c8fb96b29a75",
+      "original_mtime_ns": 1792331734839009800
+    },
+    {
+      "path": "tests/browser/rails_test.py",
+      "bytes": 5564,
+      "sha256": "58300a5d1d8e007265cad76b859e390ae109ae6174e8916e72ccc8d43ced249a",
+      "original_mtime_ns": 1792331734836994000
+    },
+    {
+      "path": "tests/browser/rails_test2.py",
+      "bytes": 3682,
+      "sha256": "b1d1e99bd73d6f6754b0ccf7c7022cf4d609c0c02759d29e09e49cf1273585cb",
+      "original_mtime_ns": 1792331734836994000
+    },
+    {
+      "path": "tests/browser/sky_test.py",
+      "bytes": 3253,
+      "sha256": "efd52b91937719b3488df6230111e60fd66802dccd079f466d72e89252657aec",
+      "original_mtime_ns": 1792331734841022700
+    },
+    {
+      "path": "tests/browser/stories_test.py",
+      "bytes": 5422,
+      "sha256": "177270e4c82d678ce52eb8e8849bea0209eca1a9619624eed05931dc4f17ad3d",
+      "original_mtime_ns": 1792331734842761500
+    },
+    {
+      "path": "tests/browser/ui_smoke.py",
+      "bytes": 3774,
+      "sha256": "3b803e7064f7024d8cc9f5db064cdd89e475ba6458627e76b8c915c9a14a7014",
+      "original_mtime_ns": 1792331734842761500
+    },
+    {
+      "path": "tests/browser_acceptance.py",
+      "bytes": 30441,
+      "sha256": "58f9a7bdcb7be98a1508bd2d423268b9a28903377c8c4d833b6f3f99c3923bb2",
+      "original_mtime_ns": 1792331734860711300
+    },
+    {
+      "path": "tests/browser_results.json",
+      "bytes": 12958,
+      "sha256": "e3adb6ffadb78a29ef0f0186269160705f8467ddb4bc93ba34ee80fe7059b352",
+      "original_mtime_ns": 1792331548093174600
+    },
+    {
+      "path": "tests/build_repro.py",
+      "bytes": 990,
+      "sha256": "13c4440a637a06d1be39dc61a6adb4d4e07d1324ee15c92f36aa74c1d9dea2ae",
+      "original_mtime_ns": 1792331768779515900
+    },
+    {
+      "path": "tests/construction_v10.test.js",
+      "bytes": 3458,
+      "sha256": "53d7012a0b25a1f359a93a3ddb4db172afb3921387edb4f9395b4d000ab5ef28",
+      "original_mtime_ns": 1792331548090866300
+    },
+    {
+      "path": "tests/construction_v10_browser.py",
+      "bytes": 4376,
+      "sha256": "b4aba1de74772deca779a22cb1f12436e19539341a5c22969920ec972c25d38b",
+      "original_mtime_ns": 1792331734862723200
+    },
+    {
+      "path": "tests/construction_v10_browser_results.json",
+      "bytes": 1469,
+      "sha256": "607d43bca0c6d0cfcb29c7ee3c7b573c2d4cc9309c1b4e43d6cbabc3e88e4177",
+      "original_mtime_ns": 1792331548092175600
+    },
+    {
+      "path": "tests/core.test.js",
+      "bytes": 21210,
+      "sha256": "23d77cd12ef2f4c0e55d235f86ca653a3abe00dc6f66b7f5c7cdce5b563d9196",
+      "original_mtime_ns": 1792331548078744500
+    },
+    {
+      "path": "tests/core_results.json",
+      "bytes": 8734,
+      "sha256": "45483434a5a69b104d725690109906727cca260e347b6fe616ec2a74e5e1e9d5",
+      "original_mtime_ns": 1792332399519961900
+    },
+    {
+      "path": "tests/demo_screens.py",
+      "bytes": 3275,
+      "sha256": "1ea325b8c318c67f485631d4989167c436befcf34d0c0e3d323b36811b014ae6",
+      "original_mtime_ns": 1792331734864733100
+    },
+    {
+      "path": "tests/fixtures/badlibs/bad_json/ASSET_MANIFEST.json",
+      "bytes": 51,
+      "sha256": "cb2938de04bb1f7214a61af548ce7c60e497d7c4532276d57da430107dc2fbba",
+      "original_mtime_ns": 1792331548068814600
+    },
+    {
+      "path": "tests/fixtures/badlibs/missing_file/ASSET_MANIFEST.json",
+      "bytes": 10271,
+      "sha256": "a965f5a6b7251aef72bd6b36fd434001061f532ad7f2026547e9ccdcb420db0e",
+      "original_mtime_ns": 1792331548067819200
+    },
+    {
+      "path": "tests/make_asset_demo.py",
+      "bytes": 25500,
+      "sha256": "682ec453e66f2daef1f00028f0cc659b1d6a4c14d919367d2a4d053ccce3df64",
+      "original_mtime_ns": 1792332289760889900
+    },
+    {
+      "path": "tests/migration_regression.js",
+      "bytes": 1776,
+      "sha256": "1f673fc76fb3d20ad659a6985fe046d60ebe0aa44307b00161eb85b114a15711",
+      "original_mtime_ns": 1792331548098052500
+    },
+    {
+      "path": "tests/multistory.test.js",
+      "bytes": 5987,
+      "sha256": "ac6c94aaecc1d40b86159d3810457394924dfe2b43f7f89c2636b5704b0bbb4d",
+      "original_mtime_ns": 1792331548083079300
+    },
+    {
+      "path": "tests/multistory_browser.py",
+      "bytes": 4475,
+      "sha256": "a836e06066e3c8297e6914a62af08748c37294f240bfc1f304ed78d07104cb01",
+      "original_mtime_ns": 1792331734866746500
+    },
+    {
+      "path": "tests/multistory_browser_results.json",
+      "bytes": 1541,
+      "sha256": "05d7068008e4ae03271a9eb26dd1241f31b6c6a9132e0a90e73991bd8d622bba",
+      "original_mtime_ns": 1792331548084828300
+    },
+    {
+      "path": "tests/multistory_core_results.json",
+      "bytes": 2111,
+      "sha256": "49fd0552cc957766483275efef28957b5f0215880ff1c8ebcaed7c729e1faff3",
+      "original_mtime_ns": 1792332402767514900
+    },
+    {
+      "path": "tests/package_checkpoint.py",
+      "bytes": 1340,
+      "sha256": "0e1d2e7b5efd88174a043ceaa9afd9104946cb3eb09259fe8ded823ddd3b434f",
+      "original_mtime_ns": 1792333015878356100
+    },
+    {
+      "path": "tests/props_metadata.test.js",
+      "bytes": 7493,
+      "sha256": "21d499f48836b386e1e2c6548ef351471bc70a255e0ab17f4f897aef6e593125",
+      "original_mtime_ns": 1792331548064486100
+    },
+    {
+      "path": "tests/props_metadata_results.json",
+      "bytes": 1215,
+      "sha256": "d25f8cc46e4dd6f504a8801b777c6aa34192a7689415e66fcdc7182c28d5e06e",
+      "original_mtime_ns": 1792332405974760800
+    },
+    {
+      "path": "tests/rc_test_runtime.py",
+      "bytes": 743,
+      "sha256": "f39c5e75a1258dfffdf732cbdfb63ba943657cdb5e404b964147b48af7895b99",
+      "original_mtime_ns": 1792331734879247300
+    },
+    {
+      "path": "tests/release_verification.json",
+      "bytes": 1310,
+      "sha256": "a81774266fac3ea4053bca16c9257f328f2937e4858144e30c04de29e037c95d",
+      "original_mtime_ns": 1792331548062672500
+    },
+    {
+      "path": "tests/remediation_browser.py",
+      "bytes": 13512,
+      "sha256": "c0d5711f7d6c709f203c90c7cec276e86bdd5320f8aec9d631a2d0ea72862167",
+      "original_mtime_ns": 1792332624892646000
+    },
+    {
+      "path": "tests/remediation_core.test.js",
+      "bytes": 5678,
+      "sha256": "c7bf3b9795eba38058656f4937cca8011a021d0c7c5cb59a9331db7319b86ebe",
+      "original_mtime_ns": 1792332289864451000
+    },
+    {
+      "path": "tests/requirements.txt",
+      "bytes": 86,
+      "sha256": "0a3d5361d1a1fed57fc0b860d4f5c51817efd4f97fa1450e3056d9f8a629fecc",
+      "original_mtime_ns": 1792332289761893200
+    },
+    {
+      "path": "tests/route/README.txt",
+      "bytes": 1115,
+      "sha256": "4eccab9dc0ae0c2b7e750db593dc4a9d57a0618158fd228c744046c116dc4652",
+      "original_mtime_ns": 1792331548057131900
+    },
+    {
+      "path": "tests/route/make_route_scene.cjs",
+      "bytes": 7585,
+      "sha256": "44312a4c010196a5f5fca31cc2b79fc3815f0a24c52f8cbafcd402a3ed8b35fa",
+      "original_mtime_ns": 1792331548053249700
+    },
+    {
+      "path": "tests/route/out/route_eval_results.json",
+      "bytes": 181010,
+      "sha256": "abafb4712011966db6b42bfdb87127a087a5a2d521c700a6fc903ac014c6a6ed",
+      "original_mtime_ns": 1792332976375873200
+    },
+    {
+      "path": "tests/route/out/route_eval_shots/map_route_network.png",
+      "bytes": 682582,
+      "sha256": "bcbb94de9998ff5fac22dd541e64ce1e799167494cf0a66b0e2d68cbbdbed559",
+      "original_mtime_ns": 1792332904829736700
+    },
+    {
+      "path": "tests/route/out/route_eval_shots/s1_corner_t52.png",
+      "bytes": 610532,
+      "sha256": "ff1b3cca247f8425cf613fff3db24da92a9ec4603bb9dfc8611c7988ca58c4ae",
+      "original_mtime_ns": 1792332897394217900
+    },
+    {
+      "path": "tests/route/out/route_eval_shots/s1_corner_t52_clean.png",
+      "bytes": 594051,
+      "sha256": "243d2257b453f5bc853c00520bf7d641dfe34375ba35dd08ea0df4c6aac64e07",
+      "original_mtime_ns": 1792332900276519800
+    },
+    {
+      "path": "tests/route/out/route_eval_shots/s1_sidewalk_t09.png",
+      "bytes": 443297,
+      "sha256": "b387031206343d6f2795da3b5664c6e05961ec4e48fd04e9c539aa2739556e40",
+      "original_mtime_ns": 1792332883874846300
+    },
+    {
+      "path": "tests/route/out/route_eval_shots/s1_sidewalk_t09_clean.png",
+      "bytes": 430127,
+      "sha256": "7a19a14885f1602f885a3ec3205b8449465a1d29b2511be9edc616b317363f24",
+      "original_mtime_ns": 1792332885632935600
+    },
+    {
+      "path": "tests/route/out/route_eval_shots/s1_walkerC_at_window_t23.png",
+      "bytes": 527124,
+      "sha256": "0e2fd3f7ba7ed3f5b4b8838d6fb2ff099e0a0fa6167eb266f7d345fc515d4143",
+      "original_mtime_ns": 1792332891621659100
+    },
+    {
+      "path": "tests/route/out/route_eval_shots/s1_walkerC_steps_aside_t16.png",
+      "bytes": 601076,
+      "sha256": "3f5f67969f3a49171643e3ab66ba1ead2b6bc87039a5bb07cc030705109eac28",
+      "original_mtime_ns": 1792332888059841400
+    },
+    {
+      "path": "tests/route/out/route_eval_shots/s1_walkerC_t27.png",
+      "bytes": 511833,
+      "sha256": "82846ad834b9bbb98cb555fb260f6c2b7a9f363c96903d721be48b995fd47889",
+      "original_mtime_ns": 1792332894224889000
+    },
+    {
+      "path": "tests/route/out/route_eval_shots/s2_after_shot.png",
+      "bytes": 446555,
+      "sha256": "82364da5cdda6432aeaa8f8f568a0d9d25155bc53c48503f3551f84ce50f6993",
+      "original_mtime_ns": 1792332921794413000
+    },
+    {
+      "path": "tests/route/out/route_eval_shots/s2_crouched_behind_car.png",
+      "bytes": 322142,
+      "sha256": "76a39093894007a10bc07dad6c8bc7e65b9e725fdcc0bb2a35503d76ea303135",
+      "original_mtime_ns": 1792332912959536100
+    },
+    {
+      "path": "tests/route/out/route_eval_shots/s2_crouched_clean.png",
+      "bytes": 310939,
+      "sha256": "a9f2d477f9b014994387b582706e42cd1a5d2a675de94293974ea04a812dbcca",
+      "original_mtime_ns": 1792332915011113000
+    },
+    {
+      "path": "tests/route/out/route_eval_shots/s2_standing_exposed.png",
+      "bytes": 469735,
+      "sha256": "e47c2cd892786366ae0c7959c44acd0638984294e196e02b71980c2bf0ccf255",
+      "original_mtime_ns": 1792332918637717000
+    },
+    {
+      "path": "tests/route/out/route_eval_shots/s3_across_t06.png",
+      "bytes": 642498,
+      "sha256": "fd0937cecd66215357b5f1ba2c98bb3841f5c7c47d8e2da629f5be60b93e5a48",
+      "original_mtime_ns": 1792332926362314700
+    },
+    {
+      "path": "tests/route/out/route_eval_shots/s3_across_t06_SIDE.png",
+      "bytes": 642783,
+      "sha256": "1d3a73244c5c6ceb093f02b4733fd69fdf3da11193204ccae2cc5892cb2447b3",
+      "original_mtime_ns": 1792332935789344500
+    },
+    {
+      "path": "tests/route/out/route_eval_shots/s3_across_t06_clean.png",
+      "bytes": 642920,
+      "sha256": "df7da581c72c6c77352d89796a72efdac4ea1f025e41fc64d09b7066dd811e2c",
+      "original_mtime_ns": 1792332928451146000
+    },
+    {
+      "path": "tests/route/out/route_eval_shots/s3_across_t14.png",
+      "bytes": 485466,
+      "sha256": "04b806555ee9973f26b06680c6cfd36e4894201015d433c2c8ba72a790210956",
+      "original_mtime_ns": 1792332931816272300
+    },
+    {
+      "path": "tests/route/out/route_eval_shots/s3_across_t14_BACKQ.png",
+      "bytes": 480810,
+      "sha256": "b07b21983507e66ba2c8586d28743b14d361bf6fc510964cdbc104f925640cd4",
+      "original_mtime_ns": 1792332943322488100
+    },
+    {
+      "path": "tests/route/out/route_eval_shots/s3_across_t14_SIDE.png",
+      "bytes": 485924,
+      "sha256": "87dc1f9790cad4c62538472ce45ca9c7354ac2f9bac7e03c1c2747b916e8bd8c",
+      "original_mtime_ns": 1792332939109296300
+    },
+    {
+      "path": "tests/route/out/route_eval_shots/s4_traffic_car.png",
+      "bytes": 590105,
+      "sha256": "5b470f2cadc483109dc8ed1c965dd9efab95855808bb8e167d2c9e504dfe52a6",
+      "original_mtime_ns": 1792332947956054500
+    },
+    {
+      "path": "tests/route/out/route_eval_shots/s4_traffic_car_clean.png",
+      "bytes": 586242,
+      "sha256": "079cb1e0530d456da79216ab41a171d2e70e5ea557c6a262e2bc0a2f6a343001",
+      "original_mtime_ns": 1792332949984430200
+    },
+    {
+      "path": "tests/route/out/route_eval_shots/s5_wiggle_stoop.png",
+      "bytes": 558800,
+      "sha256": "89fd9fe23b5a704e5a66dc4326b3458f6657b85a6b851faae247f20a2a14c87c",
+      "original_mtime_ns": 1792332956060006500
+    },
+    {
+      "path": "tests/route/out/route_shots/01_start.png",
+      "bytes": 740519,
+      "sha256": "47a00b2b718600c4c080ca2a78c0ab872ab40cf2523df76d4be575f89f612a9b",
+      "original_mtime_ns": 1792332778979623800
+    },
+    {
+      "path": "tests/route/out/route_shots/02_look_across.png",
+      "bytes": 791909,
+      "sha256": "78e42163c80241c096c87a8abd52f79f14e729bba812f6f1a9c9587fbf6d1af8",
+      "original_mtime_ns": 1792332782272155200
+    },
+    {
+      "path": "tests/route/out/route_shots/03_look_left.png",
+      "bytes": 486933,
+      "sha256": "3e3ea7c521b569d03d041d6ceed95461d956e824a0d5ec5654b2344131d2f869",
+      "original_mtime_ns": 1792332784040412700
+    },
+    {
+      "path": "tests/route/out/route_shots/04_walked.png",
+      "bytes": 707023,
+      "sha256": "06e5295f3a8594ab966623c9bc9fb457ac224a2a5ccf7ada2304aa6bfe32faef",
+      "original_mtime_ns": 1792332786452132000
+    },
+    {
+      "path": "tests/route/out/route_shots/05_map.png",
+      "bytes": 897969,
+      "sha256": "7971dadf6336398c840cc6a1ddc11b5d4d4dde7c41822348a1d8dc28a248f25d",
+      "original_mtime_ns": 1792332789159967300
+    },
+    {
+      "path": "tests/route/out/route_shots/10_closed_door.png",
+      "bytes": 345718,
+      "sha256": "afad115a9f99c3d5215da80f752e3387c57ee45c46e6c4fe3c00f9dcf687aa28",
+      "original_mtime_ns": 1792332830470623800
+    },
+    {
+      "path": "tests/route/out/route_shots/11_inside.png",
+      "bytes": 660589,
+      "sha256": "0987e25493a0f41e2eb8875ca3100c6fa3b0ca5b50c2daf9ba1e298e6377417e",
+      "original_mtime_ns": 1792332835981451700
+    },
+    {
+      "path": "tests/route/out/route_shots/12_map_centered.png",
+      "bytes": 969240,
+      "sha256": "d2da1643112bc52de02d40a275fc8ede85baf54f5d999dd1de7fef27d35ac65a",
+      "original_mtime_ns": 1792332838793133500
+    },
+    {
+      "path": "tests/route/route_eval.py",
+      "bytes": 9552,
+      "sha256": "c88870fc247bb1ec28c4fbd25785c2f396a14f8050aa94a195cf7939bea1285a",
+      "original_mtime_ns": 1792331734873861500
+    },
+    {
+      "path": "tests/route/route_keys.py",
+      "bytes": 4716,
+      "sha256": "959fe5070811ddcf2547ead85aaafc52e7671e31d519b932c16b1fffdd770dbb",
+      "original_mtime_ns": 1792331734875872200
+    },
+    {
+      "path": "tests/route/route_perf.py",
+      "bytes": 1655,
+      "sha256": "482d13149e071686c1c6f8e3dcde729ddb0352e7d49b95442e8d32be8974875d",
+      "original_mtime_ns": 1792331734877238600
+    },
+    {
+      "path": "tests/route/route_smoke.py",
+      "bytes": 2706,
+      "sha256": "8ccb8858e103b7567a24e11508214e98210274199915c6709a5a984462ec7a55",
+      "original_mtime_ns": 1792331734879247300
+    },
+    {
+      "path": "tests/run_asset_tests.sh",
+      "bytes": 508,
+      "sha256": "dd91595701d00064704c39bafc3ebd1e51006c62ceda70a385ba983deb5a3995",
+      "original_mtime_ns": 1792332573807867500
+    },
+    {
+      "path": "tests/run_tests.ps1",
+      "bytes": 319,
+      "sha256": "60e74445404b0738b5b50edc909b088acffef0dab6c26b66e50cd18071f441ad",
+      "original_mtime_ns": 1792331768782513500
+    },
+    {
+      "path": "tests/run_tests.py",
+      "bytes": 4166,
+      "sha256": "f1787bb472b83006ca8d2104822ea00f85c53fe174764eed38e6cb7078bab136",
+      "original_mtime_ns": 1792332816919213200
+    },
+    {
+      "path": "tests/shared_matte.test.js",
+      "bytes": 6370,
+      "sha256": "9c96115ef4368cf2c75f9389d22bc182f22ddd85c170a54649c5b502fff2ca1c",
+      "original_mtime_ns": 1792331548107303100
+    },
+    {
+      "path": "tests/shared_matte_browser.py",
+      "bytes": 18681,
+      "sha256": "5a467487af617b7caae7e438d5a8298455e91fee46ecbe282aa78c7a64e9b12f",
+      "original_mtime_ns": 1792331734868756800
+    },
+    {
+      "path": "tests/shared_matte_browser_results.json",
+      "bytes": 6225,
+      "sha256": "dd8bcf1b1f503944cdd9f09ae89569dc3f0256f35c5599e9c4ee7c26f9e703c5",
+      "original_mtime_ns": 1792331548059672100
+    },
+    {
+      "path": "tests/shared_matte_core_results.json",
+      "bytes": 2801,
+      "sha256": "617d837ff6d6f2f71cef09f9e1d293a3008392477579539eff98b75e0fb43915",
+      "original_mtime_ns": 1792332412638845800
+    },
+    {
+      "path": "tests/sitecustomize.py",
+      "bytes": 672,
+      "sha256": "aac8d931652663281586beda30df03ea76d35197109c5b0e11ef22810c6d4114",
+      "original_mtime_ns": 1792331734882024300
+    },
+    {
+      "path": "tests/story_floor_roundtrip.room.json",
+      "bytes": 6835,
+      "sha256": "90615c5750c08bea4d818637ecc0256b1c665dbe5e9ab3b17977e19e2ba8beb5",
+      "original_mtime_ns": 1792331548084828300
+    },
+    {
+      "path": "tests/story_floor_ux.cjs",
+      "bytes": 9543,
+      "sha256": "461bedbd897980ed2a3ee7f9a605b90a5d57bb05e9360f134ce4b006f22e7c94",
+      "original_mtime_ns": 1792331548085972600
+    },
+    {
+      "path": "tests/story_floor_ux_results.json",
+      "bytes": 633,
+      "sha256": "902e7033e35a831ac1a5c48af3132a63eaea3c8d724fe67952257b12af59ff5e",
+      "original_mtime_ns": 1792331548098052500
+    },
+    {
+      "path": "tests/style_openings.test.js",
+      "bytes": 8522,
+      "sha256": "4b03154d68ed5f91db30acc204eedd5e86fd61a05afc8b330379395799187262",
+      "original_mtime_ns": 1792331548068814600
+    },
+    {
+      "path": "tests/style_openings_browser.py",
+      "bytes": 17431,
+      "sha256": "d22eeea08eaedd538ea401b0a1c4fc40fb279083c5677a7edc30af70734d3fd1",
+      "original_mtime_ns": 1792331734870840300
+    },
+    {
+      "path": "tests/style_openings_browser_results.json",
+      "bytes": 5637,
+      "sha256": "bfe5b56d809dc22d201f9561b5026ce085e7ee7bdcdb3c52f402182eebcbcd38",
+      "original_mtime_ns": 1792331548068814600
+    },
+    {
+      "path": "tests/style_openings_core_results.json",
+      "bytes": 3927,
+      "sha256": "601946ea18a02b5760b278cfba39b0dde0d705b0afa091f54fe4ab24a23ec7a8",
+      "original_mtime_ns": 1792332415358537100
+    },
+    {
+      "path": "tests/v06_materials_smoke.py",
+      "bytes": 2803,
+      "sha256": "85ee1517b949adbfe951169d75be2f846e4ce36a52fc50af909a08c0978cb9ce",
+      "original_mtime_ns": 1792331734872853800
+    },
+    {
+      "path": "tests/v0_11_1_story_floor.test.js",
+      "bytes": 7412,
+      "sha256": "c6e7cc3243e4f4df17deaca59e7f58d89d6a75c57cb760dfb6df9eb9a30382d9",
+      "original_mtime_ns": 1792331548089273000
+    },
+    {
+      "path": "tests/v0_11_1_story_floor_browser.cjs",
+      "bytes": 28088,
+      "sha256": "09b0b5523fcc712477f27f267a6f71e1ae54ed6a071b591d5bc14199f9f835c2",
+      "original_mtime_ns": 1792331548086991300
+    },
+    {
+      "path": "tests/v0_11_1_story_floor_browser_results.json",
+      "bytes": 5879,
+      "sha256": "d77f91c5012b1a425a23a4cd2bf83aea58a570f2a27e0be95c524ce9e2756aa0",
+      "original_mtime_ns": 1792331548099057000
+    },
+    {
+      "path": "tests/v0_11_1_story_floor_core_results.json",
+      "bytes": 2662,
+      "sha256": "f80174e02bfc77947c7d1cfd2c6c26d4505906da4f743d1a7738305e85124d4a",
+      "original_mtime_ns": 1792332418050469400
+    },
+    {
+      "path": "tests/v0_11_2_floor_placement_browser.cjs",
+      "bytes": 8480,
+      "sha256": "75ec19fbb67c96e2637b438d2a27b75cf5e231d1e2016d9991c0386dbdb655d7",
+      "original_mtime_ns": 1792331548080764600
+    },
+    {
+      "path": "tests/v0_11_2_floor_placement_browser_results.json",
+      "bytes": 1257,
+      "sha256": "a9f5e086d4212319b0aa4720d612011d9742cacf911b718b50699edad371dc4e",
+      "original_mtime_ns": 1792331548099057000
+    },
+    {
+      "path": "tests/v0_11_core_results.json",
+      "bytes": 15101,
+      "sha256": "29109a648096f603492f34ec04295ec279713ad9f14b0fa8fa9a47eda4f72d53",
+      "original_mtime_ns": 1792331548093174600
+    },
+    {
+      "path": "tests/v0_11_layout_results.json",
+      "bytes": 227,
+      "sha256": "1c8bf9d2c27265fc1f2186ec43c58e3aab3528a62bcecd26ef094a2f6e7f25c2",
+      "original_mtime_ns": 1792331548086991300
+    },
+    {
+      "path": "tests/v0_12_stories_rooms.test.js",
+      "bytes": 6595,
+      "sha256": "a076086729da48a76844baec9507f7ae56652d980eddcc2ce34116ccb8b5713e",
+      "original_mtime_ns": 1792331548068814600
+    },
+    {
+      "path": "tests/v0_12_stories_rooms_browser.cjs",
+      "bytes": 9279,
+      "sha256": "dd97664c4ce7ac345ffb647b59054c3f15e5ac084453c530673987a76b5deb92",
+      "original_mtime_ns": 1792331548074779900
+    },
+    {
+      "path": "tests/v0_12_stories_rooms_browser_results.json",
+      "bytes": 1853,
+      "sha256": "736898081106e3741a46f2590aa96f543032d04a3f22a47131513eedef1f7d79",
+      "original_mtime_ns": 1792331548051240400
+    },
+    {
+      "path": "tests/v0_12_stories_rooms_core_results.json",
+      "bytes": 1736,
+      "sha256": "485d487d90b6d82c962e0ad6c1a28a3f1ed337f0224e178046bd68ae4c05954a",
+      "original_mtime_ns": 1792332421248301000
+    },
+    {
+      "path": "tests/verify_generated.cjs",
+      "bytes": 1281,
+      "sha256": "01de47ad9f4b60f3904ec79a4b2e4c4552fd8e2b1e6fcb2786f300fa34c367c3",
+      "original_mtime_ns": 1792333040836277500
+    }
+  ],
+  "packaging_metadata": [
+    {
+      "path": "tests/.gitattributes",
+      "bytes": 88,
+      "sha256": "9b6edaefd2f3116861ccec7a5a6d1a64d526a6ddcc391212e6b9b0957665e2ac",
+      "role": "New Git-only override; preserve CRLF in tests/build_repro.py and tests/package_checkpoint.py despite retained parent eol=lf rules."
+    }
+  ],
+  "excluded_original_files": [
+    {
+      "path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\rc0141-remediation\\Room_Creator_v0_14_1_remediation_candidate\\tests\\__pycache__\\package_checkpoint.cpython-312.pyc",
+      "bytes": 3488,
+      "mtime_ns": 1792333162945286500,
+      "sha256": "fbee3aae830007928cb4c3b9f709fe04341a1846bb1456931448b83f24a6dbe8"
+    },
+    {
+      "path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\rc0141-remediation\\Room_Creator_v0_14_1_remediation_candidate\\tests\\__pycache__\\rc_test_runtime.cpython-312.pyc",
+      "bytes": 2071,
+      "mtime_ns": 1792331819629488300,
+      "sha256": "77a1f0aeba5fdf795b97c8d2abfda3b433c62d911e4e43611ca2097096a611b1"
+    },
+    {
+      "path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\rc0141-remediation\\Room_Creator_v0_14_1_remediation_candidate\\tests\\__pycache__\\sitecustomize.cpython-312.pyc",
+      "bytes": 1635,
+      "mtime_ns": 1792331781973565300,
+      "sha256": "aed72807ba93655677d6ee99a230de06c73c8faaedb6761c03e9d02a98720ac7"
+    },
+    {
+      "path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\rc0141-remediation\\Room_Creator_v0_14_1_remediation_candidate\\tests\\browser\\__pycache__\\final_test.cpython-312.pyc",
+      "bytes": 9899,
+      "mtime_ns": 1792331736815396900,
+      "sha256": "aa109104b9047bbf0d6fc7f5142e4577e26e04f732a81a219358520f13acae03"
+    }
+  ],
+  "candidate_checkpoint": {
+    "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\Room_Creator_v0_14_1_Remediation\\Room_Creator_v0_14_1_remediation_candidate.zip",
+    "bytes": 202047247,
+    "sha256": "9b9cd3e9220edbdffbd836154b44d69b5527aa8b0d74300ad546f868a18da78d",
+    "archive_path": "snapshots/room-creator-delivery/Room_Creator_v0_14_1_remediation_candidate.zip"
+  },
+  "preserved_tree_manifest": "tree-manifests/room-creator-editable.json",
+  "preserved_tree_manifest_sha256": "73444d33f4dca2c5ac90beb5e3be3ccb3ed22ce87951567eb5b02fd3eabd2536",
+  "preservation_inventory_sha256": "d562db876c46a79ba584f9ee1e60093637adf114c52486b692a3bde42bbf3138",
+  "internal_checksum_entries": 382,
+  "supplemental_provenance": [
+    {
+      "archive_path": "snapshots/room-creator-independent-v0141/AUDIT_REPORT.md",
+      "repository_path": "docs/audits/room-creator/AUDIT_REPORT.md",
+      "bytes": 16203,
+      "sha256": "5615ad2e601b59eb4b03f218fee1b41da8690a14770cb23b641c816005186adc",
+      "role": "preserved independent findings; historical, not Stage 6 execution"
+    },
+    {
+      "archive_path": "snapshots/room-creator-independent-v0141/README_EVIDENCE.txt",
+      "repository_path": "docs/audits/room-creator/README_EVIDENCE.txt",
+      "bytes": 572,
+      "sha256": "359b686cd0abdda3c8ad58a4c95d1b5ba3d78c322fca2fd6242e3e261a26d153",
+      "role": "preserved independent findings; historical, not Stage 6 execution"
+    },
+    {
+      "archive_path": "snapshots/room-creator-independent-v0141/RUN_NOTES.json",
+      "repository_path": "docs/audits/room-creator/RUN_NOTES.json",
+      "bytes": 2277,
+      "sha256": "34dd479808490f24c4ba03e6c9f460a8cf7ad8f5ea70f024f5d5253c72a38a5b",
+      "role": "preserved independent findings; historical, not Stage 6 execution"
+    },
+    {
+      "archive_path": "snapshots/room-creator-independent-v0141/adversarial-results.json",
+      "repository_path": "docs/audits/room-creator/adversarial-results.json",
+      "bytes": 40430,
+      "sha256": "62e15b7d9383fc3aafc807174b643bf7ccb6c642ee05ccbd653dc3cdc972def9",
+      "role": "preserved independent findings; historical, not Stage 6 execution"
+    },
+    {
+      "archive_path": "snapshots/room-creator-independent-v0141/additional-lifecycle-results.json",
+      "repository_path": "docs/audits/room-creator/additional-lifecycle-results.json",
+      "bytes": 8802,
+      "sha256": "d6fc78369de03cc81c11c228f5a041bbb7f1ed2a0a82cd163b81dd41abbd5942",
+      "role": "preserved independent findings; historical, not Stage 6 execution"
+    },
+    {
+      "archive_path": "snapshots/room-creator-independent-v0141/independent-builds.json",
+      "repository_path": "docs/audits/room-creator/independent-builds.json",
+      "bytes": 715,
+      "sha256": "f976847fa580776a357f03534c6099d5f4b8b99848712e294c09813edfaab078",
+      "role": "preserved independent findings; historical, not Stage 6 execution"
+    },
+    {
+      "archive_path": "snapshots/room-creator-independent-v0141/restored-test-inventory.json",
+      "repository_path": "docs/audits/room-creator/restored-test-inventory.json",
+      "bytes": 2663,
+      "sha256": "cecbb30596f9bee4a0d9623fdb44db02a34b4c7584488bf145755490045b1145",
+      "role": "preserved independent findings; historical, not Stage 6 execution"
+    },
+    {
+      "archive_path": "snapshots/room-creator-independent-v0141/all-baseline-map-comparison.json",
+      "repository_path": "docs/audits/room-creator/all-baseline-map-comparison.json",
+      "bytes": 2563,
+      "sha256": "a0805052d048c5e09b937489ca9c8c00086ebe718a47f9d9dc8db936a76242cd",
+      "role": "preserved independent findings; historical, not Stage 6 execution"
+    },
+    {
+      "archive_path": "snapshots/room-creator-independent-v0141/independent-packaging.json",
+      "repository_path": "docs/audits/room-creator/independent-packaging.json",
+      "bytes": 545,
+      "sha256": "4adb7d9b074495db3a9aec070d2d4078fe646d890417a4f5c64a3997f255be4e",
+      "role": "preserved independent findings; historical, not Stage 6 execution"
+    },
+    {
+      "archive_path": "snapshots/room-creator-independent-v0141/audit-scripts/adversarial.py",
+      "repository_path": "tools/room-creator-independent/adversarial.py",
+      "bytes": 10475,
+      "sha256": "91bb2a5d637b2db0038efe7c8dfa649948265c45339a0e3e0691ff9cc71f9788",
+      "role": "preserved independent script; not executed"
+    },
+    {
+      "archive_path": "snapshots/room-creator-independent-v0141/audit-scripts/candidate-prior-browser.py",
+      "repository_path": "tools/room-creator-independent/candidate-prior-browser.py",
+      "bytes": 5374,
+      "sha256": "5936a1003bb2395f1d3780d0db13624a3111e447b72adbc36e405c94802448ae",
+      "role": "preserved independent script; not executed"
+    },
+    {
+      "archive_path": "snapshots/room-creator-independent-v0141/audit-scripts/candidate-prior-data.cjs",
+      "repository_path": "tools/room-creator-independent/candidate-prior-data.cjs",
+      "bytes": 4214,
+      "sha256": "a7cbc50d5c7be93bb1d68d5678e46a4e5371855340e4920aa08729f7e82a3d0a",
+      "role": "preserved independent script; not executed"
+    },
+    {
+      "archive_path": "snapshots/room-creator-independent-v0141/audit-scripts/compare-generated.cjs",
+      "repository_path": "tools/room-creator-independent/compare-generated.cjs",
+      "bytes": 1176,
+      "sha256": "649570959771b18f1f574229c88bfb096aaf168a7050a31b1691be12f560b24b",
+      "role": "preserved independent script; not executed"
+    },
+    {
+      "archive_path": "snapshots/room-creator-independent-v0141/audit-scripts/finalize.py",
+      "repository_path": "tools/room-creator-independent/finalize.py",
+      "bytes": 7547,
+      "sha256": "a07508a3fad7424966a1ab8aca2fcaed2895e798efae4e5b2e6cf746c2dee0f8",
+      "role": "preserved independent script; not executed"
+    },
+    {
+      "archive_path": "snapshots/room-creator-independent-v0141/audit-scripts/identity.py",
+      "repository_path": "tools/room-creator-independent/identity.py",
+      "bytes": 2856,
+      "sha256": "1d888451da4939b75a55db004a62bf4b47bb5b2e939ee67c62dee08c6e7d09f3",
+      "role": "preserved independent script; not executed"
+    },
+    {
+      "archive_path": "snapshots/room-creator-independent-v0141/audit-scripts/lifecycle.py",
+      "repository_path": "tools/room-creator-independent/lifecycle.py",
+      "bytes": 3605,
+      "sha256": "5a577d4c1b47782c9d1b4eb2c612d1c1c646f29fa5eb8d34c30f5645cee5a053",
+      "role": "preserved independent script; not executed"
+    },
+    {
+      "archive_path": "snapshots/room-creator-independent-v0141/audit-scripts/original-loader.py",
+      "repository_path": "tools/room-creator-independent/original-loader.py",
+      "bytes": 1150,
+      "sha256": "89156f4eff784123c8f1613a04ae39679c37011f37c9e9147c21664f20dbfc83",
+      "role": "preserved independent script; not executed"
+    },
+    {
+      "archive_path": "snapshots/room-creator-independent-v0141/audit-scripts/original-prior-browser.py",
+      "repository_path": "tools/room-creator-independent/original-prior-browser.py",
+      "bytes": 5371,
+      "sha256": "6b37cdaf2ea643092a26a83957da950e40364e4ae5315402a334895e7dea41ed",
+      "role": "preserved independent script; not executed"
+    },
+    {
+      "archive_path": "snapshots/room-creator-independent-v0141/audit-scripts/original-prior-data.cjs",
+      "repository_path": "tools/room-creator-independent/original-prior-data.cjs",
+      "bytes": 4180,
+      "sha256": "0ef6d7c934f705736ff1746736018df027c07c58d4ea358269f69c6e417a7417",
+      "role": "preserved independent script; not executed"
+    },
+    {
+      "archive_path": "snapshots/room-creator-independent-v0141/audit-scripts/prepare.py",
+      "repository_path": "tools/room-creator-independent/prepare.py",
+      "bytes": 3805,
+      "sha256": "a2ef6ee85afd3052903f1214b38573c8508b409d5aee04e03927bec756e391ca",
+      "role": "preserved independent script; not executed"
+    },
+    {
+      "archive_path": "snapshots/room-creator-independent-v0141/audit-scripts/serve.py",
+      "repository_path": "tools/room-creator-independent/serve.py",
+      "bytes": 880,
+      "sha256": "259b34fbfebeb64d6035e456877ebc804e825556db49a94c24778213dbc7b07f",
+      "role": "preserved independent script; not executed"
+    },
+    {
+      "archive_path": "snapshots/room-creator-independent-v0141/audit-scripts/summarize.py",
+      "repository_path": "tools/room-creator-independent/summarize.py",
+      "bytes": 3571,
+      "sha256": "f88a34e67140edf77c93e5d6d3773070cfc9e0221ce98ff885a9550a5780b0dd",
+      "role": "preserved independent script; not executed"
+    },
+    {
+      "archive_path": "snapshots/room-creator-delivery/PACKAGE_REPRODUCIBILITY.json",
+      "repository_path": "docs/audits/room-creator/builder-delivery/PACKAGE_REPRODUCIBILITY.json",
+      "bytes": 1254,
+      "sha256": "a1e077c8547d3305a02c55552a5f735c6656774c601388ce082828cfd549682c",
+      "role": "historical builder evidence, not Stage 6 test results"
+    },
+    {
+      "archive_path": "snapshots/room-creator-delivery/SHA256SUMS.txt",
+      "repository_path": "docs/audits/room-creator/builder-delivery/SHA256SUMS.txt",
+      "bytes": 1077,
+      "sha256": "df7a20471b04fe0c24555dbbe316d058592c54efd78ebb2fc38ee48b5ff10896",
+      "role": "historical builder evidence, not Stage 6 test results"
+    },
+    {
+      "archive_path": "snapshots/room-creator-delivery/preservation-seal.json",
+      "repository_path": "docs/audits/room-creator/builder-delivery/preservation-seal.json",
+      "bytes": 1466,
+      "sha256": "526c01650c5fe9c6646d49090a0f0c4a5554a78c3dcb8125e54340e29ff1a6c9",
+      "role": "historical builder evidence, not Stage 6 test results"
+    },
+    {
+      "archive_path": "snapshots/room-creator-delivery/verification-summary.json",
+      "repository_path": "docs/audits/room-creator/builder-delivery/verification-summary.json",
+      "bytes": 1508,
+      "sha256": "f224dc724ed56934510e23498482a5d2bd28ee17b5e9002a88f214dfef62d3a6",
+      "role": "historical builder evidence, not Stage 6 test results"
+    }
+  ],
+  "asset_library": {
+    "source_path": "C:\\Users\\mcdon\\Desktop\\gamefuse\\Trapstar_RoomCreator_Asset_Library_v1.zip",
+    "bytes": 178595688,
+    "sha256": "4cf39cb712d55e866a593ad12394efec891d5ae3ac14dfd35d932b32bd8b1241",
+    "archive_path": "artifacts/room-creator-intake-packages/Trapstar_RoomCreator_Asset_Library_v1.zip",
+    "read_only": true,
+    "raw_collection_imported": false,
+    "counts": {
+      "model": 327,
+      "palette": 3,
+      "surface_texture": 1043
+    }
+  },
+  "asset_metadata": [
+    {
+      "member": "Trapstar_RoomCreator_Asset_Library_v1/ASSET_MANIFEST.json",
+      "repository_path": "assets/manifests/room-creator-library-v1/ASSET_MANIFEST.json",
+      "bytes": 1576869,
+      "sha256": "541567409d2acae560250905f22dfaf9acbcd0269adae58bfb9e5f972175b9f7"
+    },
+    {
+      "member": "Trapstar_RoomCreator_Asset_Library_v1/PACKAGE_MANIFEST.json",
+      "repository_path": "assets/manifests/room-creator-library-v1/PACKAGE_MANIFEST.json",
+      "bytes": 4182,
+      "sha256": "93252c02f1a8de43bf71e1186912ef8eec97a9cb604f7e17a3f89e3a0e2242de"
+    },
+    {
+      "member": "Trapstar_RoomCreator_Asset_Library_v1/SOURCE_PACK_MANIFEST.json",
+      "repository_path": "assets/manifests/room-creator-library-v1/SOURCE_PACK_MANIFEST.json",
+      "bytes": 2619,
+      "sha256": "5d9ce165e75236644f9258152701453b3ec6001d2f1abfe572fc05dfba67be43"
+    },
+    {
+      "member": "Trapstar_RoomCreator_Asset_Library_v1/CHECKSUMS.sha256",
+      "repository_path": "assets/manifests/room-creator-library-v1/CHECKSUMS.sha256",
+      "bytes": 411178,
+      "sha256": "6e53920b2f8a1994f1e0b59f5e7bb41d7e2837bddbff9b9ecc6ce021227125d1"
+    },
+    {
+      "member": "Trapstar_RoomCreator_Asset_Library_v1/DOCUMENTATION/LICENSE_REVIEW.md",
+      "repository_path": "assets/manifests/room-creator-library-v1/DOCUMENTATION/LICENSE_REVIEW.md",
+      "bytes": 892,
+      "sha256": "9afc1f4c661bef01de9b8889644eda2cd65638a7a3e413315321f5d25f237685"
+    },
+    {
+      "member": "Trapstar_RoomCreator_Asset_Library_v1/LICENSES/modular_prototyping_cc0.txt",
+      "repository_path": "assets/manifests/room-creator-library-v1/LICENSES/modular_prototyping_cc0.txt",
+      "bytes": 283,
+      "sha256": "4bf637a9cf6cfa800b4d1e1aa501554ae600d3b105fed1d897d526f610eb5bf3"
+    },
+    {
+      "member": "Trapstar_RoomCreator_Asset_Library_v1/LICENSES/pixel_art_textures.txt",
+      "repository_path": "assets/manifests/room-creator-library-v1/LICENSES/pixel_art_textures.txt",
+      "bytes": 324,
+      "sha256": "27e00c5eb89b5bf38e53dca77e6676d560c3a3378ca90f84830eeb6811f70138"
+    },
+    {
+      "member": "Trapstar_RoomCreator_Asset_Library_v1/LICENSES/lowpoly_props_cc0.txt",
+      "repository_path": "assets/manifests/room-creator-library-v1/LICENSES/lowpoly_props_cc0.txt",
+      "bytes": 665,
+      "sha256": "c58119e2c5f09163ed1b45f6573e0ce05ab96e8595c8ab6a5e0db22b8d42eaa9"
+    },
+    {
+      "member": "Trapstar_RoomCreator_Asset_Library_v1/LICENSES/cars_kent_lowpoly_LICENSE_STATUS.txt",
+      "repository_path": "assets/manifests/room-creator-library-v1/LICENSES/cars_kent_lowpoly_LICENSE_STATUS.txt",
+      "bytes": 169,
+      "sha256": "e1feada0078b3e45b22f5f5c6e802ccfaf77a28c2443697f16c914bb46ae7fc9"
+    },
+    {
+      "member": "Trapstar_RoomCreator_Asset_Library_v1/LICENSES/cars_lowpoly_v2_LICENSE_STATUS.txt",
+      "repository_path": "assets/manifests/room-creator-library-v1/LICENSES/cars_lowpoly_v2_LICENSE_STATUS.txt",
+      "bytes": 169,
+      "sha256": "e1feada0078b3e45b22f5f5c6e802ccfaf77a28c2443697f16c914bb46ae7fc9"
+    }
+  ],
+  "stage6_records": [
+    {
+      "repository_path": "docs/provenance/governing/FIRST_ENCOUNTER_GAME_STAGE_6_AUTHORIZATION.md",
+      "bytes": 3709,
+      "sha256": "22712384616203bc12de63e041ccf66062aeef6fbd8e54244b89e04ffd949c8e"
+    },
+    {
+      "repository_path": "docs/audits/room-creator/STAGE_6_PREFLIGHT.json",
+      "bytes": 12476,
+      "sha256": "302fa1f165287c9740b590f648b7f1929ac3b3d58e1c64ed72b901d8b2c247b7"
+    },
+    {
+      "repository_path": "tools/verify_stage6_import.py",
+      "bytes": 5472,
+      "sha256": "ef4a409c2638a276006dfb7cda8eb0ba5c025f18720e5ff2d8303087be662693"
+    }
+  ],
+  "packaging_adjustments": [
+    "Source checkpoint wrapper directory mapped directly to packages/room-creator; internal baseline paths unchanged.",
+    "Existing foundation Room Creator placeholder README replaced by the authoritative baseline README; current HOLD status remains in repository-level docs.",
+    "New tests/.gitattributes preserves all test bytes and prevents two existing CRLF scripts being normalized. Original .gitattributes stays unchanged.",
+    "54 historical .log fixtures are deliberately tracked despite the global log ignore.",
+    "Baseline-internal checksum manifest remains its original 382-entry self-excluding record; the new Git-only attribute file is separately hashed here.",
+    "For future exact ZIP reproduction, reconstruct only the 383 baseline paths with original wrapper name in a disposable directory; the Git-only file is not part of the historical ZIP."
+  ],
+  "unchanged_encounter_authority": {
+    "acceptance": "ACCEPTED_ATLAS_A1_WITH_PRESERVED_ENCOUNTER_DEPENDENCIES",
+    "editable_source": {
+      "id": "encounter-atlas-editable",
+      "role": "current_editable_accepted_snapshot",
+      "source_root": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\Atlas_A1_Person_Source_Inspection",
+      "archive_root": "snapshots/encounter-atlas-editable",
+      "file_count": 2731,
+      "bytes": 422798195,
+      "tree_sha256": "01d90c554b2dc00bf169d98d8d4b36691f93311b3c0a81dc4d18da764008e76d",
+      "fingerprint_method": "SHA256 of UTF-8 JSON sorted relative paths; keys sorted; compact separators; records path,bytes,sha256",
+      "tree_manifest_path": "tree-manifests/encounter-atlas-editable.json",
+      "tree_manifest_sha256": "4122b40bf61dd76fa8475a1969d44eb18e9720e3cb641a5b1d00e8ac49690cbc"
+    },
+    "accepted_checkpoint": {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\Atlas_A1_Person_Source_Inspection_Checkpoint.zip",
+      "bytes": 116945619,
+      "sha256": "867f3278e3d6a09937b43503c2b886724dd21593533c1ae929c858f970acd72e",
+      "archive_path": "artifacts/encounter-deliverables/Atlas_A1_Person_Source_Inspection_Checkpoint.zip"
+    },
+    "external_identity": {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\Atlas_A1_Person_Source_Inspection_Checkpoint.identity.json",
+      "bytes": 539635,
+      "sha256": "5d97942b21b7daece6240af136f32d47fc4f14d523ade29b655267bb7cfab00a",
+      "archive_path": "artifacts/encounter-deliverables/Atlas_A1_Person_Source_Inspection_Checkpoint.identity.json"
+    },
+    "source_revision": "Atlas-A1-person-source-v1",
+    "source_digest": "1a8558b3654e52881a288d2a5ab99e574878531f7a9d5fca86223e511146f085",
+    "enumerated_execution_inputs": 132,
+    "dependency_revision": "AR0-projection-v1-R1-D01",
+    "dependency_source_digest": "8dd542efed9f74573bcb1913d367f7c791d63c3830d65b7f35f68abdcb92f09c",
+    "dependency_checkpoint_sha256": "f5566fdcfa82dc8aaee9378d7a0e894f10a4a2342100b7665cbd1c23e26e72da",
+    "preserved_m3_build_sha256": "8e1c14e25a515b92188703927344e97b744921ec9b033ee2b1d8cc0b63f517cb",
+    "atlas_build_sha256": "b9612d61f41bcf2bee5085902ff65c5e418b226de3dd5c8af6490ccd15e4ae9f",
+    "package_ref": {
+      "id": "package_0003",
+      "revision": 1,
+      "digest": "2ce9f61b996f17392a39c56f4005d8203b7940aa4974564fafa54d110e35ae8f"
+    },
+    "tests": {
+      "supplied": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\Atlas_A1_Person_Source_Inspection\\tests",
+      "retained_independent": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\Atlas_A1_Person_Source_Inspection\\independent",
+      "a1_adversarial": {
+        "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\ATLAS_A1_Independent_Adversarial_Tests.test.mjs",
+        "bytes": 17723,
+        "sha256": "c0f2a489d76a64c2cec161917f995837b1ca10646c95da63b52aee8730190ed6",
+        "archive_path": "artifacts/encounter-deliverables/ATLAS_A1_Independent_Adversarial_Tests.test.mjs"
+      }
+    },
+    "independent_report": {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\ATLAS_A1_Independent_Test_Report.md",
+      "bytes": 16382,
+      "sha256": "eefe1d404f82204d212f8c1ee8dfe978086482953bcd9f19cf5774392640e182",
+      "archive_path": "artifacts/encounter-deliverables/ATLAS_A1_Independent_Test_Report.md"
+    },
+    "independent_evidence": {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\ATLAS_A1_Independent_Test_Evidence.zip",
+      "bytes": 335148969,
+      "sha256": "f3b8a395cc458e56c2c606008c4dd3eb930a5d4b1f0af44006f00c6dc442ede4",
+      "archive_path": "artifacts/encounter-deliverables/ATLAS_A1_Independent_Test_Evidence.zip"
+    },
+    "contracts": [
+      "src/contracts.mjs",
+      "src/m3/types.mjs",
+      "src/ar0/atlas.mjs"
+    ],
+    "contract_note": "Distinct executable M1/M2 and M3 versions remain separate; Atlas catalog is encounter-atlas-catalog@1.",
+    "authored_data": [
+      "content/last-collection.json",
+      "content/m3/seed.json",
+      "content/ar0/last-collection.json"
+    ],
+    "build_input_warning": "src/atlas-a1/ui.mjs imports six saved runs from evidence/ar0-r1/browser/. Preserve execution dependency closure during later import.",
+    "known_limitations": [
+      "IR3-25 remains an accepted non-blocking failing synthetic geometry assertion.",
+      "A1 is read-only; no A2 implementation or authorization.",
+      "Root README/package metadata retain older M3 wording and commands."
+    ],
+    "builder_vs_independent": "Builder verification is preserved separately. Independent report records 224 supplied and 21 new independent adversarial tests passing; inherited IR3-25 is disclosed.",
+    "working_checkpoint_alignment": "2731 regular checkpoint members matched during this preservation pass.",
+    "repository_import": {
+      "stage": 4,
+      "path": "packages/encounter-atlas",
+      "baseline_files": 2731,
+      "bytes": 422798195,
+      "source_digest": "1a8558b3654e52881a288d2a5ab99e574878531f7a9d5fca86223e511146f085",
+      "tree_sha256": "01d90c554b2dc00bf169d98d8d4b36691f93311b3c0a81dc4d18da764008e76d",
+      "integrity": "BYTE_IDENTICAL",
+      "migration_behavior_verification": "PASS_WITH_DOCUMENTED_KNOWN_LIMITATIONS_STAGE_5",
+      "manifest": "docs/provenance/encounter-atlas-stage4-import.json",
+      "origin_snapshot_role": "The existing editable_source entry identifies the immutable pre-import source of authority. Current imported editable location is this repository path.",
+      "stage5_verification_manifest": "docs/provenance/encounter-atlas-stage5-verification.json"
+    }
+  },
+  "unchanged_zant_authority": {
+    "neutral_acceptance": "OWNER_ACCEPTED_R4_CANDIDATE02",
+    "current_work_acceptance": "GATE_A_FAILED_AT_G_SLEEVE_PILOT",
+    "editable_source": {
+      "id": "zant-r5-editable",
+      "role": "current_editable_failed_provisional_work",
+      "source_root": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\C001_ZANT_GATE_A_R5",
+      "archive_root": "snapshots/zant-r5-editable",
+      "file_count": 506,
+      "bytes": 101215491,
+      "tree_sha256": "a7952fa3e28d5223aab63329172fae9514cca9b4c172f2d334cb5e0baee35a1f",
+      "fingerprint_method": "SHA256 of UTF-8 JSON sorted relative paths; keys sorted; compact separators; records path,bytes,sha256",
+      "tree_manifest_path": "tree-manifests/zant-r5-editable.json",
+      "tree_manifest_sha256": "7b58fe286f439ab2fa2577e7cdede3b5c2b507529b7651b9ccb5c5050940c59a"
+    },
+    "original_source_collection": {
+      "id": "zant-intake-source",
+      "role": "immutable_source_collection_and_research_inputs",
+      "source_root": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\ZANT_analysis_sources",
+      "archive_root": "snapshots/zant-intake-source",
+      "file_count": 620,
+      "bytes": 646968057,
+      "tree_sha256": "1cbd916b2d191acaa841b1ae9bb2ca27102aa6487a879493a4906fb5ad531c79",
+      "fingerprint_method": "SHA256 of UTF-8 JSON sorted relative paths; keys sorted; compact separators; records path,bytes,sha256",
+      "tree_manifest_path": "tree-manifests/zant-intake-source.json",
+      "tree_manifest_sha256": "d48b5a020998bd8d04e778c2c3dc3082819fdfa40919fc493f384e3d599a1dfd"
+    },
+    "accepted_neutral_checkpoint": {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\C001_ZANT_GATE_A_R4_NEUTRAL\\deliverables\\C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_02.zip",
+      "bytes": 33921583,
+      "sha256": "c43e34ac80a8fd32f1ee5f30e5116dad06129a10b196032afc2fb2746a8188b3",
+      "archive_path": "snapshots/zant-r4-history/deliverables/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_02.zip"
+    },
+    "accepted_neutral_lock": {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\C001_ZANT_GATE_A_R5\\contract\\ACCEPTED_R4_NEUTRAL_LOCK.json",
+      "bytes": 3576,
+      "sha256": "e205da75079c50ec19e335325207a533e690114812833504cebdd205ecd9ae1f",
+      "archive_path": "snapshots/zant-r5-editable/contract/ACCEPTED_R4_NEUTRAL_LOCK.json"
+    },
+    "owner_acceptance_record": {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\C001_ZANT_GATE_A_R5\\contract\\OWNER_RESUME_AFTER_R4.md",
+      "bytes": 1005,
+      "sha256": "5ad8b39d298a17e615f960d1bc6b1172025a48da5dc9f35e263abeb31c693422",
+      "archive_path": "snapshots/zant-r5-editable/contract/OWNER_RESUME_AFTER_R4.md"
+    },
+    "current_failed_checkpoint": {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\C001_ZANT_GATE_A_R5\\deliverables\\C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT.zip",
+      "bytes": 23227104,
+      "sha256": "5c8196e1d81ed8aae3bd42a740c6afd01294bc069345c9d683c90163faac2796",
+      "archive_path": "snapshots/zant-r5-editable/deliverables/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT.zip"
+    },
+    "independent_report": {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\C001_ZANT_GATE_A_R5_Independent_Review_2026-10-18\\INDEPENDENT_R5_REVIEW.md",
+      "bytes": 15496,
+      "sha256": "c4d26ce42cc52721805f4017bccb6cce6588840143869a928af6ec108c33a7a5",
+      "archive_path": "snapshots/zant-independent-r5/INDEPENDENT_R5_REVIEW.md"
+    },
+    "independent_evidence_tree": {
+      "id": "zant-independent-r5",
+      "role": "independent_evidence",
+      "source_root": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\C001_ZANT_GATE_A_R5_Independent_Review_2026-10-18",
+      "archive_root": "snapshots/zant-independent-r5",
+      "file_count": 183,
+      "bytes": 28579677,
+      "tree_sha256": "85eea6117cc93caf002b6891193ee0b6ef7497ded09abc733cd1747db74b5263",
+      "fingerprint_method": "SHA256 of UTF-8 JSON sorted relative paths; keys sorted; compact separators; records path,bytes,sha256",
+      "tree_manifest_path": "tree-manifests/zant-independent-r5.json",
+      "tree_manifest_sha256": "1f9bb9cdfb1e0c5e2ea68ca842f97b112efde474bc074381da2fca491f88a801"
+    },
+    "historical_trees": [
+      {
+        "id": "zant-r1-history",
+        "role": "historical_failed_work",
+        "source_root": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\C001_ZANT_GATE_A_implementation",
+        "archive_root": "snapshots/zant-r1-history",
+        "file_count": 119,
+        "bytes": 20924201,
+        "tree_sha256": "5bb97814286f2cdcfc4b5c14dd8f3c895fd3ace0b7740350c2b2319f73784b50",
+        "fingerprint_method": "SHA256 of UTF-8 JSON sorted relative paths; keys sorted; compact separators; records path,bytes,sha256",
+        "tree_manifest_path": "tree-manifests/zant-r1-history.json",
+        "tree_manifest_sha256": "9f8bc4f206afa2de6ec5d98fa58f90f1889d614d5d93b3bd008179c73d139ac8"
+      },
+      {
+        "id": "zant-r2-history",
+        "role": "accepted_head_and_history",
+        "source_root": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\C001_ZANT_GATE_A_R2_A25",
+        "archive_root": "snapshots/zant-r2-history",
+        "file_count": 31,
+        "bytes": 3049552,
+        "tree_sha256": "8f9093d7b4714b1c8006562bc50b3d35529e087b6f0b48cc77f6a1ad1edb0ec7",
+        "fingerprint_method": "SHA256 of UTF-8 JSON sorted relative paths; keys sorted; compact separators; records path,bytes,sha256",
+        "tree_manifest_path": "tree-manifests/zant-r2-history.json",
+        "tree_manifest_sha256": "e92c4b6f369ac00a332e993e99d519b803d3b553d103cb4aa72f818f636470c4"
+      },
+      {
+        "id": "zant-r3-history",
+        "role": "historical_remediation_work",
+        "source_root": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\C001_ZANT_GATE_A_R3",
+        "archive_root": "snapshots/zant-r3-history",
+        "file_count": 461,
+        "bytes": 154332223,
+        "tree_sha256": "1c728a78bb56d3d86fb2a61662c8751051925cd81af5c86a6650b0c30ed0db46",
+        "fingerprint_method": "SHA256 of UTF-8 JSON sorted relative paths; keys sorted; compact separators; records path,bytes,sha256",
+        "tree_manifest_path": "tree-manifests/zant-r3-history.json",
+        "tree_manifest_sha256": "1fbb4848b349ce02ecf7093c3ae60968d552ce32dca3808fb77e10b3bdb0640e"
+      },
+      {
+        "id": "zant-r4-history",
+        "role": "accepted_candidate02_and_prior_candidates",
+        "source_root": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\C001_ZANT_GATE_A_R4_NEUTRAL",
+        "archive_root": "snapshots/zant-r4-history",
+        "file_count": 735,
+        "bytes": 248629022,
+        "tree_sha256": "52141629b78c1f606d3d07e25a3392d2db60b656004bd08557812d79710ed16d",
+        "fingerprint_method": "SHA256 of UTF-8 JSON sorted relative paths; keys sorted; compact separators; records path,bytes,sha256",
+        "tree_manifest_path": "tree-manifests/zant-r4-history.json",
+        "tree_manifest_sha256": "bfd0c5036a92f3fa026adf043acecd35901f9ffb5a83187db1f21b1e9bc5de54"
+      }
+    ],
+    "intake_manifest": {
+      "source_path": "C:\\Users\\mcdon\\Downloads\\Trapstar_ZANT_Combinatorial_Character_Research_Handoff_v2_PACKAGE_MANIFEST.json",
+      "bytes": 3220,
+      "sha256": "c29de05cda823230184a1238a157d689d35e71ddae0db6dca7f3d08eccefa51f",
+      "archive_path": "artifacts/external-intake/Trapstar_ZANT_Combinatorial_Character_Research_Handoff_v2_PACKAGE_MANIFEST.json"
+    },
+    "contracts": [
+      "contract/",
+      "data/surface_ledger.json",
+      "data/required_matrix.json",
+      "data/interfaces_neutral.json",
+      "data/calibration.json",
+      "data/neutral_recipes.json",
+      "data/pilot_recipes.json"
+    ],
+    "verifier": "validation/verify_checkpoint.py; technical replay/integrity does not imply art acceptance.",
+    "assets_status": {
+      "original_neutral_masters": 44,
+      "accepted_neutral_surfaces": 15,
+      "unaccepted_or_failed_pilot_surfaces": 3,
+      "unauthored_baseline_slots": 14,
+      "reserves_used": 0,
+      "neutral_lock_files_verified": 20
+    },
+    "unrun": {
+      "remaining_valid_cases": 222,
+      "production_negative_cases": 17
+    },
+    "known_defects": [
+      "R5 sleeve covers 1252 shared-hand core texels beyond its pilot band.",
+      "G wrist/hand geometry and overlap ownership remain provisional."
+    ],
+    "status_conflicts": "Historical R4 sidecars, calibration.json and interfaces_neutral.json retain draft/not-accepted wording. Explicit later owner acceptance, accepted-neutral lock, current surface ledger, and R5 review govern neutral status. Preserve historical bytes; do not rewrite now.",
+    "scope_boundary": "Gate A incomplete. No later gate, other-character conversion, completed viewer, animation, database rollout or Unity integration."
+  },
+  "preserved_room_creator_authority_before_import": {
+    "acceptance": "HOLD_FOR_FURTHER_REMEDIATION",
+    "version": "0.14.1",
+    "editable_source": {
+      "id": "room-creator-editable",
+      "role": "current_editable_held_candidate",
+      "source_root": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\work\\rc0141-remediation\\Room_Creator_v0_14_1_remediation_candidate",
+      "archive_root": "snapshots/room-creator-editable",
+      "file_count": 383,
+      "bytes": 201955025,
+      "tree_sha256": "63521f0d9068de3e4da40cd8ec4573d17b26481aa6557a908caaa8d10a4c485b",
+      "fingerprint_method": "SHA256 of UTF-8 JSON sorted relative paths; keys sorted; compact separators; records path,bytes,sha256",
+      "tree_manifest_path": "tree-manifests/room-creator-editable.json",
+      "tree_manifest_sha256": "73444d33f4dca2c5ac90beb5e3be3ccb3ed22ce87951567eb5b02fd3eabd2536"
+    },
+    "held_candidate": {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\Room_Creator_v0_14_1_Remediation\\Room_Creator_v0_14_1_remediation_candidate.zip",
+      "bytes": 202047247,
+      "sha256": "9b9cd3e9220edbdffbd836154b44d69b5527aa8b0d74300ad546f868a18da78d",
+      "archive_path": "snapshots/room-creator-delivery/Room_Creator_v0_14_1_remediation_candidate.zip"
+    },
+    "source_directory": "source/",
+    "tests_directory": "tests/",
+    "examples_directory": "examples/",
+    "contract": "source/FORMAT.md plus executable RCCore validation; format remains 11.",
+    "builder_report": {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\Room_Creator_v0_14_1_Remediation\\REMEDIATION_REPORT.md",
+      "bytes": 5528,
+      "sha256": "ac7233a122b9a5dc5e974e851e3ecc7b82e7b6d99a06754db601a41854f6a0df",
+      "archive_path": "snapshots/room-creator-delivery/REMEDIATION_REPORT.md"
+    },
+    "independent_report": {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\Room_Creator_v0_14_1_Independent_Audit\\AUDIT_REPORT.md",
+      "bytes": 16203,
+      "sha256": "5615ad2e601b59eb4b03f218fee1b41da8690a14770cb23b641c816005186adc",
+      "archive_path": "snapshots/room-creator-independent-v0141/AUDIT_REPORT.md"
+    },
+    "independent_evidence": {
+      "source_path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game\\outputs\\Room_Creator_v0_14_1_Independent_Audit\\Room_Creator_v0_14_1_Independent_Audit_Evidence.zip",
+      "bytes": 82269144,
+      "sha256": "c8f201a8b1f2b3075ec22d9e07b71a8b82707b87d5fdfd8aee7838efd4086d59",
+      "archive_path": "snapshots/room-creator-independent-v0141/Room_Creator_v0_14_1_Independent_Audit_Evidence.zip"
+    },
+    "original_v014": {
+      "source_path": "C:\\Users\\mcdon\\Desktop\\gamefuse\\Room_Creator_v0_14_asset_library.zip",
+      "bytes": 81686920,
+      "sha256": "a829c93663a6b79208391721a15f3f1f01f84ba211782b8fcbe08719fcd90224",
+      "archive_path": "artifacts/room-creator-intake-packages/Room_Creator_v0_14_asset_library.zip"
+    },
+    "preservation_baseline_v0131": {
+      "source_path": "C:\\Users\\mcdon\\Downloads\\Room_Creator_v0_13_1_route_prototype.zip",
+      "bytes": 52340137,
+      "sha256": "935d74f5eb38e773fdafac3d2813371829177b17882eef69eab3991df4ecf129",
+      "archive_path": "artifacts/external-intake/Room_Creator_v0_13_1_route_prototype.zip"
+    },
+    "asset_library": {
+      "source_path": "C:\\Users\\mcdon\\Desktop\\gamefuse\\Trapstar_RoomCreator_Asset_Library_v1.zip",
+      "bytes": 178595688,
+      "sha256": "4cf39cb712d55e866a593ad12394efec891d5ae3ac14dfd35d932b32bd8b1241",
+      "archive_path": "artifacts/room-creator-intake-packages/Trapstar_RoomCreator_Asset_Library_v1.zip"
+    },
+    "known_defect": "ROOM_CREATOR_V0141_R1: manifest-known palette/texture IDs with missing image files silently fall back without object-specific repair warnings/controls.",
+    "promotion": "Not promoted. The owner permits later importing this development baseline while retaining HOLD; source import itself remains unauthorized now.",
+    "dependencies": [
+      "Read-only Trapstar_RoomCreator_Asset_Library_v1",
+      "Bundled three.js r159 and glTF loader",
+      "Python development/build tooling",
+      "Playwright 1.56.0 browser test pin"
+    ],
+    "working_checkpoint_alignment": "383 regular archive members, including the package manifest, matched the current working tree. No behavior tests rerun in Stages 0-3."
+  },
+  "verification_scope": "Basic source/member/manifest/hash/CRC/Git integrity only. No Room Creator, Encounter, build, test, generator or browser source executed.",
+  "private_stage6_evidence_root": "C:\\Users\\mcdon\\Documents\\ChatGPT\\First Encounter Game Archive\\stage-6-import-2026-10-18",
+  "stage7_recommendation": "docs/testing/STAGE_7_RECOMMENDED_SCOPE.md"
+}

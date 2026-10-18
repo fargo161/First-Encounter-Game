@@ -1,0 +1,11 @@
+--- v0.14/source/ui-route.js
++++ v0.14.1/source/ui-route.js
+@@ -97,7 +97,7 @@
+   for(const w of S.walls){const den=w.axis==='h'?dy:dx;if(Math.abs(den)<1e-9)continue;const t=((w.fixed-(w.axis==='h'?a.y:a.x))/den);if(t<=1e-4||t>=1-1e-4)continue;
+     const pos=(w.axis==='h'?a.x+dx*t:a.y+dy*t);if(pos<w.start-1e-6||pos>w.end+1e-6)continue;const z=za+(zb-za)*t;if(z>w.h)continue;
+     if(w.holes.some(o=>pos>=o.a&&pos<=o.b&&z>=o.z0&&z<=o.z1))continue;return 'wall';}
+-  for(const q of S.boxes){if(q.h<ignoreBoxesBelow)continue;let t0=0,t1=1;const vx=-q.uy,vy=q.ux,ax=a.x-q.cx,ay=a.y-q.cy;
++  for(const q of S.boxes){if(q.h<ignoreBoxesBelow)continue;if(q.poly){if(C.propSegmentHits(a,za,b,zb,{poly:q.poly,z0:q.z0,z1:q.h}))return q.name||'solid object';continue;}let t0=0,t1=1;const vx=-q.uy,vy=q.ux,ax=a.x-q.cx,ay=a.y-q.cy;
+     for(const [p0,d,lo,hi] of [[ax*q.ux+ay*q.uy,dx*q.ux+dy*q.uy,-q.hu,q.hu],[ax*vx+ay*vy,dx*vx+dy*vy,-q.hv,q.hv]]){if(Math.abs(d)<1e-9){if(p0<lo||p0>hi){t0=2;break;}continue;}let u0=(lo-p0)/d,u1=(hi-p0)/d;if(u0>u1)[u0,u1]=[u1,u0];t0=Math.max(t0,u0);t1=Math.min(t1,u1);if(t0>t1)break;}
+     if(t0<=t1&&t1>0&&t0<1){const zA=za+(zb-za)*Math.max(0,t0),zB=za+(zb-za)*Math.min(1,t1);if(Math.min(zA,zB)<q.h&&Math.max(zA,zB)>(q.z0||0))return q.name||'solid object';}}
+   return null;

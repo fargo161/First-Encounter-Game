@@ -15,3 +15,9 @@ Independent reports are prior evidence. This execution performs fresh preservati
 ## Stage 4 update
 
 Encounter/Atlas is imported byte-identically. The Stage 0-3 paragraph above is historical. Stage 4 adds file-integrity evidence only; migration build/behavior/browser acceptance remains pending Stage 5. Room Creator and ZANT remain unimported with their recorded statuses.
+
+## Stage 5 and Stage 6 updates
+
+Stage 5 freshly verified the Encounter/Atlas migration with documented known limitations; IR3-25 remains an actual accepted non-blocking failure. Its report is ../consolidation/STAGE_5_VERIFICATION.md.
+
+Stage 6 imports Room Creator v0.14.1 as a held development baseline. HOLD_FOR_FURTHER_REMEDIATION and ROOM_CREATOR_V0141_R1 remain unchanged. Its preserved builder labels and older tester instructions are historical and do not override the later independent HOLD or authorize Stage 7. Stage 6 performs only byte/import integrity, not new behavior acceptance. ZANT remains unimported.

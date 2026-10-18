@@ -1,0 +1,276 @@
+{
+  "tool": "Playwright with local headless Chromium",
+  "loading": "Self-contained HTML bytes via set_content; managed container blocks file:// navigation. No external network requests.",
+  "passed": 61,
+  "failed": 4,
+  "checks": [
+    {
+      "name": "Starts with one empty room and zero image assets",
+      "passed": true
+    },
+    {
+      "name": "Starts with zero viewpoints and cover pairs",
+      "passed": true
+    },
+    {
+      "name": "Empty replacement library is clearly explained",
+      "passed": true
+    },
+    {
+      "name": "Startup and placed viewpoint gate",
+      "passed": false,
+      "error": "Cannot display unplaced first-person compositions",
+      "trace": "Traceback (most recent call last):\n  File \"/home/claude/v14/work/tests/browser_acceptance.py\", line 47, in group\n    try:fn()\n        ~~^^\n  File \"/home/claude/v14/work/tests/browser_acceptance.py\", line 61, in startup\n    check('Cannot display unplaced first-person compositions',page.locator('#emptyHint').is_visible() and E('RCApp.project.viewpoints.length===0'))\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/claude/v14/work/tests/browser_acceptance.py\", line 17, in check\n    if not cond: raise AssertionError(name + (': '+str(detail) if detail else ''))\n                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: Cannot display unplaced first-person compositions\n"
+    },
+    {
+      "name": "Assigning wall cover creates no second viewpoint",
+      "passed": true
+    },
+    {
+      "name": "Both partner authoring buttons unlock after cover assignment",
+      "passed": true
+    },
+    {
+      "name": "Partner receives a real map pose and common facing",
+      "passed": true
+    },
+    {
+      "name": "State controls and paired previews are present",
+      "passed": true
+    },
+    {
+      "name": "Tab switches the actual current paired viewpoint",
+      "passed": true
+    },
+    {
+      "name": "Turning either paired viewpoint turns both",
+      "passed": true
+    },
+    {
+      "name": "Moving partner translates both floor positions together",
+      "passed": true
+    },
+    {
+      "name": "Unpair preserves both views and primary cover",
+      "passed": true
+    },
+    {
+      "name": "Pair existing reuses a placed view without creating a duplicate",
+      "passed": true
+    },
+    {
+      "name": "Removing cover unpairs and retains two ordinary viewpoints",
+      "passed": true
+    },
+    {
+      "name": "Connected architecture controls",
+      "passed": false,
+      "error": "Locator.click: Timeout 8000ms exceeded.\nCall log:\n  - waiting for locator(\"[data-action=\\\"add-room\\\"]\").first\n    - locator resolved to <button data-action=\"add-room\">Adjoin selected room\u2026</button>\n  - attempting click action\n    2 \u00d7 waiting for element to be visible, enabled and stable\n      - element is not visible\n    - retrying click action\n    - waiting 20ms\n    2 \u00d7 waiting for element to be visible, enabled and stable\n      - element is not visible\n    - retrying click action\n      - waiting 100ms\n    15 \u00d7 waiting for element to be visible, enabled and stable\n       - element is not visible\n     - retrying click action\n       - waiting 500ms\n",
+      "trace": "Traceback (most recent call last):\n  File \"/home/claude/v14/work/tests/browser_acceptance.py\", line 47, in group\n    try:fn()\n        ~~^^\n  File \"/home/claude/v14/work/tests/browser_acceptance.py\", line 98, in rooms\n    reset();page.locator('[data-action=\"add-room\"]').first.click();page.locator('#lPreset').click();page.locator('#createRoom').click();wait()\n            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^\n  File \"/usr/local/lib/python3.13/dist-packages/playwright/sync_api/_generated.py\", line 15573, in click\n    self._sync(\n    ~~~~~~~~~~^\n        self._impl_obj.click(\n        ^^^^^^^^^^^^^^^^^^^^^\n    ...<9 lines>...\n        )\n        ^\n    )\n    ^\n  File \"/usr/local/lib/python3.13/dist-packages/playwright/_impl/_sync_base.py\", line 115, in _sync\n    return task.result()\n           ~~~~~~~~~~~^^\n  File \"/usr/local/lib/python3.13/dist-packages/playwright/_impl/_locator.py\", line 160, in click\n    return await self._frame.click(self._selector, strict=True, **params)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.13/dist-packages/playwright/_impl/_frame.py\", line 549, in click\n    await self._channel.send(\"click\", self._timeout, locals_to_params(locals()))\n  File \"/usr/local/lib/python3.13/dist-packages/playwright/_impl/_connection.py\", line 69, in send\n    return await self._connection.wrap_api_call(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<3 lines>...\n    )\n    ^\n  File \"/usr/local/lib/python3.13/dist-packages/playwright/_impl/_connection.py\", line 559, in wrap_api_call\n    raise rewrite_error(error, f\"{parsed_st['apiName']}: {error}\") from None\nplaywright._impl._errors.TimeoutError: Locator.click: Timeout 8000ms exceeded.\nCall log:\n  - waiting for locator(\"[data-action=\\\"add-room\\\"]\").first\n    - locator resolved to <button data-action=\"add-room\">Adjoin selected room\u2026</button>\n  - attempting click action\n    2 \u00d7 waiting for element to be visible, enabled and stable\n      - element is not visible\n    - retrying click action\n    - waiting 20ms\n    2 \u00d7 waiting for element to be visible, enabled and stable\n      - element is not visible\n    - retrying click action\n      - waiting 100ms\n    15 \u00d7 waiting for element to be visible, enabled and stable\n       - element is not visible\n     - retrying click action\n       - waiting 500ms\n\n"
+    },
+    {
+      "name": "Palette changes selected room only",
+      "passed": true
+    },
+    {
+      "name": "Room brightness is editable and stored",
+      "passed": true
+    },
+    {
+      "name": "Ambient brightness alters actual first-person pixels",
+      "passed": true
+    },
+    {
+      "name": "Floor colour control updates the chosen surface",
+      "passed": true
+    },
+    {
+      "name": "Individual wall override does not repaint every wall",
+      "passed": true
+    },
+    {
+      "name": "Light pool is created inside its actual room",
+      "passed": true
+    },
+    {
+      "name": "Light pool intensity is editable",
+      "passed": true
+    },
+    {
+      "name": "Covered view keeps an actual visible opening",
+      "passed": true
+    },
+    {
+      "name": "Exposed state reveals more of the same scene",
+      "passed": true
+    },
+    {
+      "name": "Paired state switch is available in Test walk",
+      "passed": true
+    },
+    {
+      "name": "Cross-room visibility and test routes",
+      "passed": false,
+      "error": "Test travel crosses open shared wall to adjoining area",
+      "trace": "Traceback (most recent call last):\n  File \"/home/claude/v14/work/tests/browser_acceptance.py\", line 47, in group\n    try:fn()\n        ~~^^\n  File \"/home/claude/v14/work/tests/browser_acceptance.py\", line 156, in nav_and_visibility\n    check('Test travel crosses open shared wall to adjoining area',E('RCApp.state.walkId')==dest)\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/claude/v14/work/tests/browser_acceptance.py\", line 17, in check\n    if not cond: raise AssertionError(name + (': '+str(detail) if detail else ''))\n                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: Test travel crosses open shared wall to adjoining area\n"
+    },
+    {
+      "name": "Custom PNG import enters initially empty library",
+      "passed": true
+    },
+    {
+      "name": "Asset placement creates exactly one shared object",
+      "passed": true
+    },
+    {
+      "name": "Transparent sprite has selectable visible isometric pixels",
+      "passed": true
+    },
+    {
+      "name": "Isometric canvas drag moves shared room coordinates",
+      "passed": true
+    },
+    {
+      "name": "Same imported object appears in first person",
+      "passed": true
+    },
+    {
+      "name": "First-person canvas drag updates shared floor position",
+      "passed": true
+    },
+    {
+      "name": "Bidirectional drag preserves the object ID, with no per-view clones",
+      "passed": true
+    },
+    {
+      "name": "Undo restores last shared edit",
+      "passed": true
+    },
+    {
+      "name": "Redo reapplies shared edit",
+      "passed": true
+    },
+    {
+      "name": "Source PNG aspect ratio is retained",
+      "passed": true
+    },
+    {
+      "name": "Opaque artwork blocks assigned-cover probe",
+      "passed": true
+    },
+    {
+      "name": "Transparent hole stays genuinely open, not rectangle-blocked",
+      "passed": true
+    },
+    {
+      "name": "Imported image can be assigned as floor texture",
+      "passed": true
+    },
+    {
+      "name": "Save downloads portable project containing imported image bytes",
+      "passed": true
+    },
+    {
+      "name": "Open round-trip restores shared objects, cover, and textures",
+      "passed": true
+    },
+    {
+      "name": "New resets imported images and placed objects",
+      "passed": true
+    },
+    {
+      "name": "Imported object is visible through an actual shared doorway",
+      "passed": true
+    },
+    {
+      "name": "Closed shared door occludes the imported object pixel-for-pixel",
+      "passed": true
+    },
+    {
+      "name": "Restored solid partition hides objects in adjoining room",
+      "passed": true
+    },
+    {
+      "name": "Reopening shared wall restores the same object, no duplicate needed",
+      "passed": true
+    },
+    {
+      "name": "Internal window shows neighbouring object through the glass",
+      "passed": true
+    },
+    {
+      "name": "That same internal window is not a floor travel connection",
+      "passed": true
+    },
+    {
+      "name": "Placing a new asset in first person gives it real floor coordinates",
+      "passed": true
+    },
+    {
+      "name": "Object created in first person remains the same isometric object",
+      "passed": true
+    },
+    {
+      "name": "Clearing library really removes all working images and objects",
+      "passed": true
+    },
+    {
+      "name": "Clearing object cover safely unpairs but retains map viewpoints",
+      "passed": true
+    },
+    {
+      "name": "First-person export resolution is measured in pixels",
+      "passed": true
+    },
+    {
+      "name": "Clean first-person PNG export uses selected dimensions",
+      "passed": true
+    },
+    {
+      "name": "Cover mask export contains both blocked and open pixels",
+      "passed": true
+    },
+    {
+      "name": "Labeled map exports independently of active first-person view",
+      "passed": true
+    },
+    {
+      "name": "Editor fits a 1280 \u00d7 800 desktop without body overflow",
+      "passed": true
+    },
+    {
+      "name": "Room inspector and main canvas remain visible at smaller size",
+      "passed": true
+    },
+    {
+      "name": "Shrink warns before relocating outside viewpoint",
+      "passed": true
+    },
+    {
+      "name": "Cancel resize leaves room and viewpoint untouched",
+      "passed": true
+    },
+    {
+      "name": "Explicit resize confirmation safely repositions outlying view",
+      "passed": true
+    },
+    {
+      "name": "Opening a legacy file displays a conversion choice",
+      "passed": true
+    },
+    {
+      "name": "Legacy and invalid project handling",
+      "passed": false,
+      "error": "Legacy conversion keeps placed view coordinates and empty library",
+      "trace": "Traceback (most recent call last):\n  File \"/home/claude/v14/work/tests/browser_acceptance.py\", line 47, in group\n    try:fn()\n        ~~^^\n  File \"/home/claude/v14/work/tests/browser_acceptance.py\", line 286, in migration\n    check('Legacy conversion keeps placed view coordinates and empty library',E('RCApp.project.version===10&&RCApp.assets.length===0&&RCApp.project.viewpoints.length===1&&RCApp.project.viewpoints[0].x===3'))\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/claude/v14/work/tests/browser_acceptance.py\", line 17, in check\n    if not cond: raise AssertionError(name + (': '+str(detail) if detail else ''))\n                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: Legacy conversion keeps placed view coordinates and empty library\n"
+    },
+    {
+      "name": "No unhandled JavaScript errors during browser checks",
+      "passed": true
+    },
+    {
+      "name": "No HTTP or HTTPS requests needed by standalone editor",
+      "passed": true
+    }
+  ]
+}

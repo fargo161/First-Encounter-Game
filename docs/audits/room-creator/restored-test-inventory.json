@@ -1,0 +1,68 @@
+[
+  {
+    "file": "sky_test.py",
+    "present": true,
+    "priorSHA256": "84e611b013977760d57b642b4b8aaad43e1936989138242636126f85d7482e84",
+    "candidateSHA256": "efd52b91937719b3488df6230111e60fd66802dccd079f466d72e89252657aec"
+  },
+  {
+    "file": "final_test.py",
+    "present": true,
+    "priorSHA256": "3ddb36c8b1483cea587755eb537a77fbc826a27f763c2f351815b115666ee79c",
+    "candidateSHA256": "92a871d28620ac5cb18a855da0b6a20a61d029fce1c46f45259b22d1b443b53b"
+  },
+  {
+    "file": "previews.py",
+    "present": true,
+    "priorSHA256": "4fd27920ab41868cff7d92f0e996ee336f91d562e1f979b94c5ab9c722a01a32",
+    "candidateSHA256": "77db0b87f096e14a9bbc3db6035152dafdda3dcd8c9328c5a2c64e3018061e7b"
+  },
+  {
+    "file": "ui_smoke.py",
+    "present": true,
+    "priorSHA256": "ab0c1b4589ad9641afe0e4f19585411a4989b99b7f565966107024eff55185dc",
+    "candidateSHA256": "3b803e7064f7024d8cc9f5db064cdd89e475ba6458627e76b8c915c9a14a7014"
+  },
+  {
+    "file": "rails_test2.py",
+    "present": true,
+    "priorSHA256": "1d80812117b41c7ea1949b76e9a27adea7b667fc33053cb736b0247512b6815b",
+    "candidateSHA256": "b1d1e99bd73d6f6754b0ccf7c7022cf4d609c0c02759d29e09e49cf1273585cb"
+  },
+  {
+    "file": "rail_stairs_check.py",
+    "present": true,
+    "priorSHA256": "ec5636579f45557b7e5c0608ea5a78a9d0197d39c1870ced4bfbf6ead9e64480",
+    "candidateSHA256": "7e4d85965f888ab8de87c113726c199ff35267903a1fac69c7a9c8fb96b29a75"
+  },
+  {
+    "file": "make_city.py",
+    "present": true,
+    "priorSHA256": "62bb6dda9b6cf44b0a4b172f8739ff1fede88cccbe686423cc65789c3b8092e0",
+    "candidateSHA256": "224a7b1db05b78e4df1049d703832e5ecb51c8a5eb45daf6076e4d636a03437e"
+  },
+  {
+    "file": "fp_test2.py",
+    "present": true,
+    "priorSHA256": "f2e1857fbb1ed7314c05cb1a0d41f59151ea12f424fc511e06ff0991e7f844f6",
+    "candidateSHA256": "42a8b245e75c22e42a4ee3d1d07ae3706f2c06ca7eef63a75105a850bc313190"
+  },
+  {
+    "file": "rails_test.py",
+    "present": true,
+    "priorSHA256": "c08fe73f255cdbd69dda53e9b224927c5cfb0e5767bf9dc820262560a97a388e",
+    "candidateSHA256": "58300a5d1d8e007265cad76b859e390ae109ae6174e8916e72ccc8d43ced249a"
+  },
+  {
+    "file": "fp_test.py",
+    "present": true,
+    "priorSHA256": "2fa0c3f475c9841236c7154babbd6a933c0b3d40584523919a35a63a544031d7",
+    "candidateSHA256": "a1567a49ec7a4cb3f2c21c7f815a06eae9e40fa95769027b0b793c1d8f75bfa8"
+  },
+  {
+    "file": "stories_test.py",
+    "present": true,
+    "priorSHA256": "347a7faa11d0fefe4fa52b4fd18118117d348148cd27cd64d9457c6ece55733d",
+    "candidateSHA256": "177270e4c82d678ce52eb8e8849bea0209eca1a9619624eed05931dc4f17ad3d"
+  }
+]

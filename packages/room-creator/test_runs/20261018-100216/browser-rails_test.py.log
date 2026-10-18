@@ -1,0 +1,13 @@
+views ['Harlan east 90', 'Bodega front 0', 'Bodega inside 40']
+tool rail sel {"kind":"rail","id":"rail_mvdwd52f_0296zfk"}
+nodes ['stop:mneu', 'stop:wdsi', 'stop:6yu2']
+plan {'dur': 27.21, 'len': 62.1, 'warn': [], 'legs': 2}
+t after play 2.55
+active fp riding pose ['39.41', '49.36', '98.9']
+json frames 818 {'t': 13.6333, 'x': 52.3986, 'y': 51.4055, 'story': 0, 'eyeZ': 1.55, 'facing': 14.765, 'fov': 75, 'horizon': 0.42, 'stop': None}
+frames zip Rail 1 · 12fps frames.zip 50.7 s
+video Rail 1.webm 235088 bytes
+link True
+mid transit True True
+arrived True transit False
+Failed to load resource: the server responded with a status of 404 (File not found)

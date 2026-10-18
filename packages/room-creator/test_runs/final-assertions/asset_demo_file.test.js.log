@@ -1,0 +1,7 @@
+PASS baseline Route_Prototype_Street.room.json is byte-identical to the final 0.13.1 file
+PASS the demo map validates and survives load → save → load unchanged (objects and object library)
+PASS the demo keeps the route network, stories, stairs and views of the baseline
+PASS only the placeholder boxes that 3D objects replace were removed
+PASS demo exercises: looks, project palettes, per-object override, front setups, default points, tags, extra properties, use points, textures
+PASS every placed object has real measured bounds and every use point has a type
+6 passed, 0 failed

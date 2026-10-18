@@ -1,0 +1,60 @@
+PASS New format 10 starts with an empty partition list
+PASS Old format 4 loads without moving rooms, viewpoints or changing matte framing
+PASS Malformed new-format projects cannot omit partitions silently
+PASS Door, window and passage coexist on a single wall
+PASS Free spans exclude all occupied openings
+PASS Suggested passage fits an available gap instead of the whole wall
+PASS Open unused spans preserves exact door and window records
+PASS Narrow unused strips are retained rather than invalid cuts
+PASS An overlapping cut is rejected without replacing a window
+PASS Deleting one opening leaves its neighboring cuts unchanged
+PASS Same-wall mixed openings work on a shared boundary in both directions
+PASS Horizontal partition is one two-sided interior wall, not a new room
+PASS Vertical partition has correct positive-axis endpoints
+PASS Partition endpoints may meet room boundaries perpendicularly
+PASS A partition cannot masquerade as an exterior boundary
+PASS Partition outside its owning room is rejected atomically
+PASS Collinear overlapping partitions are rejected
+PASS T junctions can meet solid partition sections
+PASS Junctions cannot slice through a partition doorway
+PASS A partition can have a door, window and passage on its own line
+PASS Partition opening has an interior host, never a cardinal exterior side
+PASS Room exterior matte is not inherited by either partition face
+PASS Partition cannot obtain a matte plane even through the core API
+PASS A project with illegal exterior settings on a partition is rejected
+PASS Partition face A and B styles are independent records
+PASS View side selects the correct partition surface
+PASS Solid partition blocks routes across the room
+PASS Viewpoints cannot be placed inside solid partitions
+PASS A new partition cannot slice through an existing viewpoint
+PASS An open partition doorway permits travel; closing it blocks
+PASS Partition windows never become walking routes
+PASS Partition passage allows travel through its aperture
+PASS Moving a partition carries opening positions and IDs
+PASS Shortening under a hosted opening rolls back atomically
+PASS Partition movement cannot collide with a placed view
+PASS Custom-height partition caps openings and is kept within room height
+PASS Full-height partition follows common wall-height changes
+PASS Viewpoint-first cover can use a partition as its obstruction
+PASS Deleting a partition clears cover but keeps both viewpoints
+PASS Deleting a partition removes only its own apertures
+PASS Moving a room moves its hosted partitions and their openings
+PASS Room shrink never silently deletes a partition that no longer fits
+PASS Attach room at existing N opening preserves and shares it
+PASS Attach room at existing E opening preserves and shares it
+PASS Attach room at existing S opening preserves and shares it
+PASS Attach room at existing W opening preserves and shares it
+PASS Attach preview is nonmutating until confirmation
+PASS Attachment honors an explicit inset on the new room wall
+PASS Attachment rejects rooms narrower than their existing opening
+PASS Attachment rejects existing interior room connections
+PASS Attachment rejects partition openings
+PASS Overlapping attachment is rejected without altering the scene
+PASS Partially exterior opening cannot attach another room across shared space
+PASS Windows keep their type when a room is attached behind them
+PASS Open doorway used for attachment admits a route into the new room
+PASS Attachment keeps primary cover references to the original frame
+PASS All neighboring openings reached by the new room become shared
+PASS Room attachment preserves unrelated wall matte and partition data
+PASS Current-format save/reopen preserves partition faces, mixed openings and attach geometry
+59 passed, 0 failed

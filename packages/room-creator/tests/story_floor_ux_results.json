@@ -1,0 +1,12 @@
+{
+  "passed": 0,
+  "failed": 1,
+  "errors": [],
+  "results": [
+    {
+      "name": "Completion",
+      "passed": false,
+      "error": "locator.click: Error: strict mode violation: locator('[data-action=\"add-story\"]') resolved to 2 elements:\n    1) <button data-action=\"add-story\">+ Next story</button> aka getByRole('button', { name: '+ Next story' })\n    2) <button class=\"add\" data-action=\"add-story\" title=\"Make the next story from what is below\">+ Build up</button> aka getByRole('button', { name: '+ Build up' })\n\nCall log:\n\u001b[2m  - waiting for locator('[data-action=\"add-story\"]')\u001b[22m\n"
+    }
+  ]
+}

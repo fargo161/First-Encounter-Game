@@ -1,0 +1,8 @@
+artifact=T/1
+producer=EA-synthetic
+native=abstract-scene/1
+normalization=materialized/1
+actor=actor_0007,label:Duplicate
+mechanism=mechanism_0009,label:Gate
+place=place_0004,label:Room
+art-hint=shared-illustration

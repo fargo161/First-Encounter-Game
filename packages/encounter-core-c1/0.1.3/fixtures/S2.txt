@@ -1,0 +1,11 @@
+artifact=S/2
+producer=EA-synthetic
+native=abstract-scene/1
+normalization=materialized/1
+actor=actor_0001,label:Duplicate
+mechanism=mechanism_0001,label:Gate revised
+mechanism=mechanism_0002,label:Gate
+point=mechanism_0001/point_0001,label:Handle
+point=mechanism_0002/point_0001,label:Handle
+place=place_0001,label:Room
+art-hint=shared-illustration

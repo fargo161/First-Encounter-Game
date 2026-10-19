@@ -1,0 +1,28 @@
+{
+  "candidate": "EA-C1-B01/0.1.3",
+  "status": "NOT_OWNER_ACCEPTED_AWAITING_INDEPENDENT_REVIEW",
+  "package": {
+    "path": "EA_C1_B01_IMPLEMENTATION_CANDIDATE_v0_1_3.zip",
+    "bytes": 8702305,
+    "sha256": "43006b1edc34b513b20f0a05de7999e851a8466aa38e920433eeb007d21c4994"
+  },
+  "manifest": {
+    "path": "EA_C1_B01_MANIFEST.json",
+    "bytes": 164294,
+    "sha256": "044847350bd943f21bf1a1da657d166dbeed092a1f33295da98508b444829450"
+  },
+  "source": {
+    "path": "EA_C1_B01_REPAIRED_SOURCE_AND_FIXTURES.zip",
+    "bytes": 50333,
+    "sha256": "468feeea7060f547cadb56ce6cff9fc1c79ae86b362a9a181b33daf3894a06de"
+  },
+  "evidence": {
+    "path": "evidence/EA_C1_B01_RAW_EVIDENCE.zip",
+    "bytes": 9214385,
+    "sha256": "9947e68dba50d04003cb1f2b58e34564669565242b2dbd7456ac90c1e7c83db4"
+  },
+  "core_digest": "194e86dbc636222384e0bfed8a9d2aa6981c172689b96ce27bb66be86baf585d",
+  "default_h0": "ade8567d0e219fdaac791a4d6f83362338b019ee6e30953a00c1833a5e6cf233",
+  "baseline": "2c9a2e4406418ff432ab169ef9565ce3d302dea4",
+  "stop": "EA-C1-B01 REMEDIATION STOP \u2014 TARGETED CANDIDATE FOR INDEPENDENT AUDIT, TESTER AND OWNER REVIEW ONLY; NO REPOSITORY EDIT, COMMIT, PUSH, C2, GOVERNANCE, UNITY OR ACCEPTANCE PROMOTION AUTHORIZED."
+}

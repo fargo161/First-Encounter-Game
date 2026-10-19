@@ -1,0 +1,75 @@
+{
+  "checkpoint": "EA-C1/0.1.3",
+  "status": "OWNER_ACCEPTED_BOUNDED_REFERENCE_PROOF",
+  "owner_acceptance_local_date": "2026-10-18",
+  "baseline": "2c9a2e4406418ff432ab169ef9565ce3d302dea4",
+  "accepted_source_sha256": "468feeea7060f547cadb56ce6cff9fc1c79ae86b362a9a181b33daf3894a06de",
+  "candidate_outer_sha256": "43006b1edc34b513b20f0a05de7999e851a8466aa38e920433eeb007d21c4994",
+  "independent_audit": "C1-B01 CLOSED for supported backend, LOW nonblocking N01 N02",
+  "independent_test": "C1-B01 PASS; 0.1.2 intentionally expected-red",
+  "limitations": [
+    "N01: no demonstrated mid-flush/hot-journal interruption",
+    "N02: incomplete automatic same-version backend fingerprint enforcement",
+    "No broad physics, cognition, or game runtime; bounded supported configuration and historical scope"
+  ],
+  "follow_on_authorized": false,
+  "repository_or_status_ledgers_modified": false,
+  "files": [
+    {
+      "archive_path": "START_HERE_EA_C1_0_1_3_ACCEPTED_CHECKPOINT.md",
+      "bytes": 1904,
+      "sha256": "6ffb8be73dc003480bf2d93a58c6e40b92fa5f5a44e5d59b861fec2f7de629fb"
+    },
+    {
+      "archive_path": "EA_C1_0_1_3_OWNER_ACCEPTANCE_RECORD.md",
+      "bytes": 5047,
+      "sha256": "4ad1d709da0fe336610e58d2324a5cf14078b078433913901bc94719885b914c"
+    },
+    {
+      "archive_path": "candidate/EA_C1_B01_IMPLEMENTATION_CANDIDATE_v0_1_3.zip",
+      "bytes": 8702305,
+      "sha256": "43006b1edc34b513b20f0a05de7999e851a8466aa38e920433eeb007d21c4994"
+    },
+    {
+      "archive_path": "lineage/EA_C1_IMPLEMENTATION_CANDIDATE_v0_1_2.zip",
+      "bytes": 4241931,
+      "sha256": "c9e2c5129eadb3d5f8df6cc8079577338912d57b057611900ab7d6addee8e6b9"
+    },
+    {
+      "archive_path": "design/EA_BD_001_R1_DESIGN_SUBMISSION.zip",
+      "bytes": 66368,
+      "sha256": "a254b06b238827388f82aa4f934a13e3fbed66a1a700bfef8e860d17b6477c32"
+    },
+    {
+      "archive_path": "design/EA_BD_001_R1a_DESIGN_CLARIFICATION_PACKAGE.zip",
+      "bytes": 16575,
+      "sha256": "d860123f69dfebff29b16a0fceb2905e2d6ae5b3c799efd3feaaad42c0d7b758"
+    },
+    {
+      "archive_path": "design/EA_C1_OWNER_APPROVED_Q1_Q5.md",
+      "bytes": 5758,
+      "sha256": "7f35504f532602c64ac1ad93ba40c9c62beb5a3f1a5dbd0ba77b6084e706a185"
+    },
+    {
+      "archive_path": "independent/EA_C1_B01_INDEPENDENT_AUDIT_REPORT.md",
+      "bytes": 33576,
+      "sha256": "cab9139441890c1e9e5232a596db48cb3a3c371971d1225c165699d5a9c67aa7"
+    },
+    {
+      "archive_path": "independent/EA_C1_B01_INDEPENDENT_TEST_REPORT.md",
+      "bytes": 27958,
+      "sha256": "4d8f285eab75d17b9e79a3b17f11093959ff6fa62674c7a708d0f33ca1313198"
+    },
+    {
+      "archive_path": "independent/EA_C1_B01_INDEPENDENT_EVIDENCE.zip",
+      "bytes": 141309053,
+      "sha256": "1e80d79613b87b54233a9cf9f37f7b23aa3fd6384aeadea3cbb1bea42b32014d"
+    },
+    {
+      "archive_path": "metadata/EA_C1_B01_IMPLEMENTATION_CANDIDATE_v0_1_3.identity.json",
+      "bytes": 1264,
+      "sha256": "f270287819bca15d34105cdc8a4781e9ac6a7e667bdc90a2c7b560a75d4c8cb7"
+    }
+  ],
+  "manifest_self_hash": "excluded to avoid circularity; verified through outer archive digest"
+}

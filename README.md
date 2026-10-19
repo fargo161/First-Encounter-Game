@@ -15,6 +15,7 @@ Use Python 3.12.x and Node 24.x. Package checks run in disposable copies outside
 | Package | Authoritative state |
 | --- | --- |
 | packages/encounter-atlas | Accepted A1; IR3-25 remains an actual accepted nonblocking failure |
+| packages/encounter-core-c1/0.1.3 | [Owner-accepted bounded standalone C1 reference](packages/encounter-core-c1/README.md); separate Python checks, N01/N02 retained |
 | packages/room-creator | HOLD_FOR_FURTHER_REMEDIATION |
 | packages/zant/C001_ZANT_GATE_A_R5 | Accepted R4 neutral separate from failed/provisional pilots; Gate A incomplete |
 

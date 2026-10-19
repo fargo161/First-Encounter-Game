@@ -1,0 +1,10 @@
+RX/1
+binding-revision=2
+old=S/1@s1
+new=S/2@s2
+actor|actor_0001->P
+mechanism|mechanism_0001->D
+mechanism|mechanism_0002->D2
+point|mechanism_0001/point_0001->D;role:anchor
+point|mechanism_0002/point_0001->D2;role:anchor
+place|place_0001->L

@@ -1,0 +1,876 @@
+{
+  "scope": "Unchanged18+1 closed catalog, expanded explicit-null composition grammar only",
+  "entries": [
+    {
+      "id": "r1-EA-Subtle-asserted",
+      "draft": {
+        "id": "r1-EA-Subtle-asserted",
+        "revision": 1,
+        "composition": {
+          "actor": "H",
+          "recipient": "P",
+          "vibe": "EA",
+          "salience": "Subtle",
+          "family": "Remark",
+          "act": "present_evidence",
+          "root": "r1",
+          "certainty": "asserted",
+          "subject": "D",
+          "scope": "opening_only"
+        }
+      },
+      "expected_outward": {
+        "sender": "H",
+        "recipients": [
+          "P"
+        ],
+        "family": "Remark",
+        "act": "present_evidence",
+        "subject": "D",
+        "scope": "opening_only",
+        "words": "Q reports: Door D is open. This concerns only Door D's opening.",
+        "prominence": "understated",
+        "terms": null,
+        "amount": 0,
+        "framing": [
+          {
+            "kind": "scope_limit",
+            "performed_text": "This concerns only Door D's opening."
+          }
+        ],
+        "assertions": [
+          {
+            "subject": "D",
+            "property": "blocked",
+            "value": false,
+            "certainty": "asserted",
+            "scope": "opening_only",
+            "time_scope": "fixture_interval_0_through_2",
+            "attributed_speaker": "Q",
+            "source_root": "r1",
+            "original_occurrence": "seed-Q-H-1"
+          }
+        ],
+        "performance": "States the account quietly and makes the scope limit understated but audible."
+      }
+    },
+    {
+      "id": "r1-EA-Nuanced-asserted",
+      "draft": {
+        "id": "r1-EA-Nuanced-asserted",
+        "revision": 1,
+        "composition": {
+          "actor": "H",
+          "recipient": "P",
+          "vibe": "EA",
+          "salience": "Nuanced",
+          "family": "Remark",
+          "act": "present_evidence",
+          "root": "r1",
+          "certainty": "asserted",
+          "subject": "D",
+          "scope": "opening_only"
+        }
+      },
+      "expected_outward": {
+        "sender": "H",
+        "recipients": [
+          "P"
+        ],
+        "family": "Remark",
+        "act": "present_evidence",
+        "subject": "D",
+        "scope": "opening_only",
+        "words": "Q reports: Door D is open. This concerns only Door D's opening.",
+        "prominence": "measured",
+        "terms": null,
+        "amount": 0,
+        "framing": [
+          {
+            "kind": "scope_limit",
+            "performed_text": "This concerns only Door D's opening."
+          }
+        ],
+        "assertions": [
+          {
+            "subject": "D",
+            "property": "blocked",
+            "value": false,
+            "certainty": "asserted",
+            "scope": "opening_only",
+            "time_scope": "fixture_interval_0_through_2",
+            "attributed_speaker": "Q",
+            "source_root": "r1",
+            "original_occurrence": "seed-Q-H-1"
+          }
+        ],
+        "performance": "States the account and marks its scope clearly, with measured emphasis."
+      }
+    },
+    {
+      "id": "r1-EA-Overt-asserted",
+      "draft": {
+        "id": "r1-EA-Overt-asserted",
+        "revision": 1,
+        "composition": {
+          "actor": "H",
+          "recipient": "P",
+          "vibe": "EA",
+          "salience": "Overt",
+          "family": "Remark",
+          "act": "present_evidence",
+          "root": "r1",
+          "certainty": "asserted",
+          "subject": "D",
+          "scope": "opening_only"
+        }
+      },
+      "expected_outward": {
+        "sender": "H",
+        "recipients": [
+          "P"
+        ],
+        "family": "Remark",
+        "act": "present_evidence",
+        "subject": "D",
+        "scope": "opening_only",
+        "words": "Q reports: Door D is open. This concerns only Door D's opening.",
+        "prominence": "emphatic",
+        "terms": null,
+        "amount": 0,
+        "framing": [
+          {
+            "kind": "scope_limit",
+            "performed_text": "This concerns only Door D's opening."
+          }
+        ],
+        "assertions": [
+          {
+            "subject": "D",
+            "property": "blocked",
+            "value": false,
+            "certainty": "asserted",
+            "scope": "opening_only",
+            "time_scope": "fixture_interval_0_through_2",
+            "attributed_speaker": "Q",
+            "source_root": "r1",
+            "original_occurrence": "seed-Q-H-1"
+          }
+        ],
+        "performance": "States the account and strongly foregrounds the same scope limit."
+      }
+    },
+    {
+      "id": "r1-SE-Nuanced-asserted",
+      "draft": {
+        "id": "r1-SE-Nuanced-asserted",
+        "revision": 1,
+        "composition": {
+          "actor": "H",
+          "recipient": "P",
+          "vibe": "SE",
+          "salience": "Nuanced",
+          "family": "Remark",
+          "act": "present_evidence",
+          "root": "r1",
+          "certainty": "asserted",
+          "subject": "D",
+          "scope": "opening_only"
+        }
+      },
+      "expected_outward": {
+        "sender": "H",
+        "recipients": [
+          "P"
+        ],
+        "family": "Remark",
+        "act": "present_evidence",
+        "subject": "D",
+        "scope": "opening_only",
+        "words": "Q reports: Door D is open. I recognize the work involved in checking that report.",
+        "prominence": "measured",
+        "terms": null,
+        "amount": 0,
+        "framing": [
+          {
+            "kind": "acknowledge_work",
+            "performed_text": "I recognize the work involved in checking that report."
+          }
+        ],
+        "assertions": [
+          {
+            "subject": "D",
+            "property": "blocked",
+            "value": false,
+            "certainty": "asserted",
+            "scope": "opening_only",
+            "time_scope": "fixture_interval_0_through_2",
+            "attributed_speaker": "Q",
+            "source_root": "r1",
+            "original_occurrence": "seed-Q-H-1"
+          }
+        ],
+        "performance": "Communicates the stated act with a composed, measured delivery."
+      }
+    },
+    {
+      "id": "r2-EA-Subtle-asserted",
+      "draft": {
+        "id": "r2-EA-Subtle-asserted",
+        "revision": 1,
+        "composition": {
+          "actor": "H",
+          "recipient": "P",
+          "vibe": "EA",
+          "salience": "Subtle",
+          "family": "Remark",
+          "act": "present_evidence",
+          "root": "r2",
+          "certainty": "asserted",
+          "subject": "D",
+          "scope": "opening_only"
+        }
+      },
+      "expected_outward": {
+        "sender": "H",
+        "recipients": [
+          "P"
+        ],
+        "family": "Remark",
+        "act": "present_evidence",
+        "subject": "D",
+        "scope": "opening_only",
+        "words": "Q reports: Door D is open. This concerns only Door D's opening.",
+        "prominence": "understated",
+        "terms": null,
+        "amount": 0,
+        "framing": [
+          {
+            "kind": "scope_limit",
+            "performed_text": "This concerns only Door D's opening."
+          }
+        ],
+        "assertions": [
+          {
+            "subject": "D",
+            "property": "blocked",
+            "value": false,
+            "certainty": "asserted",
+            "scope": "opening_only",
+            "time_scope": "fixture_interval_0_through_2",
+            "attributed_speaker": "Q",
+            "source_root": "r2",
+            "original_occurrence": "seed-Q-H-2"
+          }
+        ],
+        "performance": "States the account quietly and makes the scope limit understated but audible."
+      }
+    },
+    {
+      "id": "r2-EA-Nuanced-asserted",
+      "draft": {
+        "id": "r2-EA-Nuanced-asserted",
+        "revision": 1,
+        "composition": {
+          "actor": "H",
+          "recipient": "P",
+          "vibe": "EA",
+          "salience": "Nuanced",
+          "family": "Remark",
+          "act": "present_evidence",
+          "root": "r2",
+          "certainty": "asserted",
+          "subject": "D",
+          "scope": "opening_only"
+        }
+      },
+      "expected_outward": {
+        "sender": "H",
+        "recipients": [
+          "P"
+        ],
+        "family": "Remark",
+        "act": "present_evidence",
+        "subject": "D",
+        "scope": "opening_only",
+        "words": "Q reports: Door D is open. This concerns only Door D's opening.",
+        "prominence": "measured",
+        "terms": null,
+        "amount": 0,
+        "framing": [
+          {
+            "kind": "scope_limit",
+            "performed_text": "This concerns only Door D's opening."
+          }
+        ],
+        "assertions": [
+          {
+            "subject": "D",
+            "property": "blocked",
+            "value": false,
+            "certainty": "asserted",
+            "scope": "opening_only",
+            "time_scope": "fixture_interval_0_through_2",
+            "attributed_speaker": "Q",
+            "source_root": "r2",
+            "original_occurrence": "seed-Q-H-2"
+          }
+        ],
+        "performance": "States the account and marks its scope clearly, with measured emphasis."
+      }
+    },
+    {
+      "id": "r2-EA-Overt-asserted",
+      "draft": {
+        "id": "r2-EA-Overt-asserted",
+        "revision": 1,
+        "composition": {
+          "actor": "H",
+          "recipient": "P",
+          "vibe": "EA",
+          "salience": "Overt",
+          "family": "Remark",
+          "act": "present_evidence",
+          "root": "r2",
+          "certainty": "asserted",
+          "subject": "D",
+          "scope": "opening_only"
+        }
+      },
+      "expected_outward": {
+        "sender": "H",
+        "recipients": [
+          "P"
+        ],
+        "family": "Remark",
+        "act": "present_evidence",
+        "subject": "D",
+        "scope": "opening_only",
+        "words": "Q reports: Door D is open. This concerns only Door D's opening.",
+        "prominence": "emphatic",
+        "terms": null,
+        "amount": 0,
+        "framing": [
+          {
+            "kind": "scope_limit",
+            "performed_text": "This concerns only Door D's opening."
+          }
+        ],
+        "assertions": [
+          {
+            "subject": "D",
+            "property": "blocked",
+            "value": false,
+            "certainty": "asserted",
+            "scope": "opening_only",
+            "time_scope": "fixture_interval_0_through_2",
+            "attributed_speaker": "Q",
+            "source_root": "r2",
+            "original_occurrence": "seed-Q-H-2"
+          }
+        ],
+        "performance": "States the account and strongly foregrounds the same scope limit."
+      }
+    },
+    {
+      "id": "r2-SE-Nuanced-asserted",
+      "draft": {
+        "id": "r2-SE-Nuanced-asserted",
+        "revision": 1,
+        "composition": {
+          "actor": "H",
+          "recipient": "P",
+          "vibe": "SE",
+          "salience": "Nuanced",
+          "family": "Remark",
+          "act": "present_evidence",
+          "root": "r2",
+          "certainty": "asserted",
+          "subject": "D",
+          "scope": "opening_only"
+        }
+      },
+      "expected_outward": {
+        "sender": "H",
+        "recipients": [
+          "P"
+        ],
+        "family": "Remark",
+        "act": "present_evidence",
+        "subject": "D",
+        "scope": "opening_only",
+        "words": "Q reports: Door D is open. I recognize the work involved in checking that report.",
+        "prominence": "measured",
+        "terms": null,
+        "amount": 0,
+        "framing": [
+          {
+            "kind": "acknowledge_work",
+            "performed_text": "I recognize the work involved in checking that report."
+          }
+        ],
+        "assertions": [
+          {
+            "subject": "D",
+            "property": "blocked",
+            "value": false,
+            "certainty": "asserted",
+            "scope": "opening_only",
+            "time_scope": "fixture_interval_0_through_2",
+            "attributed_speaker": "Q",
+            "source_root": "r2",
+            "original_occurrence": "seed-Q-H-2"
+          }
+        ],
+        "performance": "Communicates the stated act with a composed, measured delivery."
+      }
+    },
+    {
+      "id": "stale-ri-EA-Nuanced",
+      "draft": {
+        "id": "stale-ri-EA-Nuanced",
+        "revision": 1,
+        "composition": {
+          "actor": "H",
+          "recipient": "P",
+          "vibe": "EA",
+          "salience": "Nuanced",
+          "family": "Remark",
+          "act": "present_evidence",
+          "root": "ri",
+          "certainty": "asserted",
+          "subject": "D",
+          "scope": "opening_only"
+        }
+      },
+      "expected_outward": {
+        "sender": "H",
+        "recipients": [
+          "P"
+        ],
+        "family": "Remark",
+        "act": "present_evidence",
+        "subject": "D",
+        "scope": "opening_only",
+        "words": "Q reports: Door D was open before this run. This concerns only Door D's opening.",
+        "prominence": "measured",
+        "terms": null,
+        "amount": 0,
+        "framing": [
+          {
+            "kind": "scope_limit",
+            "performed_text": "This concerns only Door D's opening."
+          }
+        ],
+        "assertions": [
+          {
+            "subject": "D",
+            "property": "blocked",
+            "value": false,
+            "certainty": "asserted",
+            "scope": "opening_only",
+            "time_scope": "before_fixture",
+            "attributed_speaker": "Q",
+            "source_root": "ri",
+            "original_occurrence": "seed-Q-H-past"
+          }
+        ],
+        "performance": "States the account and marks its scope clearly, with measured emphasis."
+      }
+    },
+    {
+      "id": "topic-irrelevant-work-EA-Nuanced",
+      "draft": {
+        "id": "topic-irrelevant-work-EA-Nuanced",
+        "revision": 1,
+        "composition": {
+          "actor": "H",
+          "recipient": "P",
+          "vibe": "EA",
+          "salience": "Nuanced",
+          "family": "Remark",
+          "act": "acknowledge_work",
+          "root": null,
+          "certainty": null,
+          "subject": "D",
+          "scope": "opening_only"
+        }
+      },
+      "expected_outward": {
+        "sender": "H",
+        "recipients": [
+          "P"
+        ],
+        "family": "Remark",
+        "act": "acknowledge_work",
+        "subject": "D",
+        "scope": "opening_only",
+        "words": "I acknowledge the checking work.",
+        "prominence": "measured",
+        "terms": null,
+        "amount": 0,
+        "framing": [],
+        "assertions": [],
+        "performance": "Communicates the stated act with a composed, measured delivery."
+      }
+    },
+    {
+      "id": "unverified-r1-EA-Nuanced",
+      "draft": {
+        "id": "unverified-r1-EA-Nuanced",
+        "revision": 1,
+        "composition": {
+          "actor": "H",
+          "recipient": "P",
+          "vibe": "EA",
+          "salience": "Nuanced",
+          "family": "Remark",
+          "act": "present_evidence",
+          "root": "r1",
+          "certainty": "unverified",
+          "subject": "D",
+          "scope": "opening_only"
+        }
+      },
+      "expected_outward": {
+        "sender": "H",
+        "recipients": [
+          "P"
+        ],
+        "family": "Remark",
+        "act": "present_evidence",
+        "subject": "D",
+        "scope": "opening_only",
+        "words": "Q's report says Door D is open; I am not treating it as verified. This concerns only Door D's opening.",
+        "prominence": "measured",
+        "terms": null,
+        "amount": 0,
+        "framing": [
+          {
+            "kind": "scope_limit",
+            "performed_text": "This concerns only Door D's opening."
+          }
+        ],
+        "assertions": [
+          {
+            "subject": "D",
+            "property": "blocked",
+            "value": false,
+            "certainty": "unverified",
+            "scope": "opening_only",
+            "time_scope": "fixture_interval_0_through_2",
+            "attributed_speaker": "Q",
+            "source_root": "r1",
+            "original_occurrence": "seed-Q-H-1"
+          }
+        ],
+        "performance": "States the account and marks its scope clearly, with measured emphasis."
+      }
+    },
+    {
+      "id": "C02-EA-Nuanced",
+      "draft": {
+        "id": "C02-EA-Nuanced",
+        "revision": 1,
+        "composition": {
+          "actor": "H",
+          "recipient": "P",
+          "vibe": "EA",
+          "salience": "Nuanced",
+          "family": "Request",
+          "act": "request_information",
+          "subject": "D",
+          "scope": "opening_only",
+          "root": null,
+          "certainty": null
+        }
+      },
+      "expected_outward": {
+        "sender": "H",
+        "recipients": [
+          "P"
+        ],
+        "family": "Request",
+        "act": "request_information",
+        "subject": "D",
+        "scope": "opening_only",
+        "words": "Tell me what you can discuss about Door D.",
+        "prominence": "measured",
+        "terms": null,
+        "amount": 0,
+        "framing": [],
+        "assertions": [],
+        "performance": "Communicates the stated act with a composed, measured delivery."
+      }
+    },
+    {
+      "id": "C02-SE-Nuanced",
+      "draft": {
+        "id": "C02-SE-Nuanced",
+        "revision": 1,
+        "composition": {
+          "actor": "H",
+          "recipient": "P",
+          "vibe": "SE",
+          "salience": "Nuanced",
+          "family": "Request",
+          "act": "request_information",
+          "subject": "D",
+          "scope": "opening_only",
+          "root": null,
+          "certainty": null
+        }
+      },
+      "expected_outward": {
+        "sender": "H",
+        "recipients": [
+          "P"
+        ],
+        "family": "Request",
+        "act": "request_information",
+        "subject": "D",
+        "scope": "opening_only",
+        "words": "Tell me what you can discuss about Door D.",
+        "prominence": "measured",
+        "terms": null,
+        "amount": 0,
+        "framing": [],
+        "assertions": [],
+        "performance": "Communicates the stated act with a composed, measured delivery."
+      }
+    },
+    {
+      "id": "C04-EA-Nuanced",
+      "draft": {
+        "id": "C04-EA-Nuanced",
+        "revision": 1,
+        "composition": {
+          "actor": "H",
+          "recipient": "P",
+          "vibe": "EA",
+          "salience": "Nuanced",
+          "family": "Request",
+          "act": "ask_topic",
+          "subject": "D",
+          "scope": "opening_only",
+          "root": null,
+          "certainty": null
+        }
+      },
+      "expected_outward": {
+        "sender": "H",
+        "recipients": [
+          "P"
+        ],
+        "family": "Request",
+        "act": "ask_topic",
+        "subject": "D",
+        "scope": "opening_only",
+        "words": "What does your latch report say about Door D?",
+        "prominence": "measured",
+        "terms": null,
+        "amount": 0,
+        "framing": [],
+        "assertions": [],
+        "performance": "Communicates the stated act with a composed, measured delivery."
+      }
+    },
+    {
+      "id": "C04-SE-Nuanced",
+      "draft": {
+        "id": "C04-SE-Nuanced",
+        "revision": 1,
+        "composition": {
+          "actor": "H",
+          "recipient": "P",
+          "vibe": "SE",
+          "salience": "Nuanced",
+          "family": "Request",
+          "act": "ask_topic",
+          "subject": "D",
+          "scope": "opening_only",
+          "root": null,
+          "certainty": null
+        }
+      },
+      "expected_outward": {
+        "sender": "H",
+        "recipients": [
+          "P"
+        ],
+        "family": "Request",
+        "act": "ask_topic",
+        "subject": "D",
+        "scope": "opening_only",
+        "words": "What does your latch report say about Door D?",
+        "prominence": "measured",
+        "terms": null,
+        "amount": 0,
+        "framing": [],
+        "assertions": [],
+        "performance": "Communicates the stated act with a composed, measured delivery."
+      }
+    },
+    {
+      "id": "C05-EA-Nuanced",
+      "draft": {
+        "id": "C05-EA-Nuanced",
+        "revision": 1,
+        "composition": {
+          "actor": "H",
+          "recipient": "P",
+          "vibe": "EA",
+          "salience": "Nuanced",
+          "family": "Offer",
+          "act": "explain_report",
+          "subject": "D",
+          "scope": "opening_only",
+          "root": null,
+          "certainty": null
+        }
+      },
+      "expected_outward": {
+        "sender": "H",
+        "recipients": [
+          "P"
+        ],
+        "family": "Offer",
+        "act": "explain_report",
+        "subject": "D",
+        "scope": "opening_only",
+        "words": "I offer to explain the report.",
+        "prominence": "measured",
+        "terms": null,
+        "amount": 0,
+        "framing": [],
+        "assertions": [],
+        "performance": "Communicates the stated act with a composed, measured delivery."
+      }
+    },
+    {
+      "id": "C05-SE-Nuanced",
+      "draft": {
+        "id": "C05-SE-Nuanced",
+        "revision": 1,
+        "composition": {
+          "actor": "H",
+          "recipient": "P",
+          "vibe": "SE",
+          "salience": "Nuanced",
+          "family": "Offer",
+          "act": "explain_report",
+          "subject": "D",
+          "scope": "opening_only",
+          "root": null,
+          "certainty": null
+        }
+      },
+      "expected_outward": {
+        "sender": "H",
+        "recipients": [
+          "P"
+        ],
+        "family": "Offer",
+        "act": "explain_report",
+        "subject": "D",
+        "scope": "opening_only",
+        "words": "I offer to explain the report.",
+        "prominence": "measured",
+        "terms": null,
+        "amount": 0,
+        "framing": [],
+        "assertions": [],
+        "performance": "Communicates the stated act with a composed, measured delivery."
+      }
+    },
+    {
+      "id": "C08-EA-Nuanced",
+      "draft": {
+        "id": "C08-EA-Nuanced",
+        "revision": 1,
+        "composition": {
+          "actor": "H",
+          "recipient": "P",
+          "vibe": "EA",
+          "salience": "Nuanced",
+          "family": "Remark",
+          "act": "close_topic",
+          "subject": "D",
+          "scope": "opening_only",
+          "root": null,
+          "certainty": null
+        }
+      },
+      "expected_outward": {
+        "sender": "H",
+        "recipients": [
+          "P"
+        ],
+        "family": "Remark",
+        "act": "close_topic",
+        "subject": "D",
+        "scope": "opening_only",
+        "words": "No further answer is requested.",
+        "prominence": "measured",
+        "terms": null,
+        "amount": 0,
+        "framing": [],
+        "assertions": [],
+        "performance": "Communicates the stated act with a composed, measured delivery."
+      }
+    },
+    {
+      "id": "NORECEIVE-r1-EA-Nuanced-to-Q",
+      "draft": {
+        "id": "NORECEIVE-r1-EA-Nuanced-to-Q",
+        "revision": 1,
+        "composition": {
+          "actor": "H",
+          "recipient": "Q",
+          "vibe": "EA",
+          "salience": "Nuanced",
+          "family": "Remark",
+          "act": "present_evidence",
+          "root": "r1",
+          "certainty": "asserted",
+          "subject": "D",
+          "scope": "opening_only"
+        }
+      },
+      "expected_outward": {
+        "sender": "H",
+        "recipients": [
+          "Q"
+        ],
+        "family": "Remark",
+        "act": "present_evidence",
+        "subject": "D",
+        "scope": "opening_only",
+        "words": "Q reports: Door D is open. This concerns only Door D's opening.",
+        "prominence": "measured",
+        "terms": null,
+        "amount": 0,
+        "framing": [
+          {
+            "kind": "scope_limit",
+            "performed_text": "This concerns only Door D's opening."
+          }
+        ],
+        "assertions": [
+          {
+            "subject": "D",
+            "property": "blocked",
+            "value": false,
+            "certainty": "asserted",
+            "scope": "opening_only",
+            "time_scope": "fixture_interval_0_through_2",
+            "attributed_speaker": "Q",
+            "source_root": "r1",
+            "original_occurrence": "seed-Q-H-1"
+          }
+        ],
+        "performance": "States the account and marks its scope clearly, with measured emphasis."
+      }
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "schema": "b0-curated-publication-provenance/1",
+  "source_artifacts": {
+    "EA_C21_B0_ORACLE_ALIGNMENT_v0_1_2.zip": {
+      "bytes": 22649211,
+      "sha256": "4b4e855fb8bf529d1170bc280de2e6425159c0f5d98f46d8f6d7373f54976736"
+    },
+    "EA_C21_B0_V012_MANIFEST.json": {
+      "bytes": 25807,
+      "sha256": "5ff5c6bb54fae6bb9cb3a45dd1dee468a30ecdbd5fdc8d8eb90a29687b84a785"
+    },
+    "EA_C21_B0_ORACLE_ALIGNMENT_v0_1_2.identity.json": {
+      "bytes": 501,
+      "sha256": "df3d269c21ef4aecf53dd3225525e70b2797320da92885c03606b2e4a871d7d8"
+    },
+    "EA_C21_B0_V012_FINAL_VERIFICATION.json": {
+      "bytes": 3335,
+      "sha256": "218b7e3ed0597e0c2925c8d3e4ffb81d0841cdaa07d5b9ee1cbdb27a7e87a8cd"
+    }
+  },
+  "reviews": {
+    "AUDITOR": {
+      "original_name": "EA_C21_B0_V0_1_2_INDEPENDENT_ORACLE_ALIGNMENT_AUDIT_REPORT.md",
+      "bytes": 13052,
+      "sha256": "512bf81af4c3f72150fa75f194eec8f84591811166744f1d67869dd43218889a",
+      "git_blob": "c8f45f420894e075aad1ec035eea972704f890f8"
+    },
+    "TESTER": {
+      "original_name": "EA_C21_B0_V0_1_2_INDEPENDENT_TESTER_CLOSURE_REPORT.md",
+      "bytes": 21348,
+      "sha256": "e0047e57ec6b8545c7fdbc88b3501994e2581e2809604003f5efed58c9225ccc",
+      "git_blob": "febe02f5c766e1a1ec78462ea4b99216fe6436a7"
+    }
+  },
+  "accepted_C1": {
+    "outer_sha256": "8636c88d2f90e806fe82805e045663a1a9dda5a09dd730f6720129e5261d8399",
+    "source_zip_sha256": "468feeea7060f547cadb56ce6cff9fc1c79ae86b362a9a181b33daf3894a06de",
+    "source_digest": "194e86dbc636222384e0bfed8a9d2aa6981c172689b96ce27bb66be86baf585d",
+    "qualifications": [
+      "N01",
+      "N02"
+    ]
+  },
+  "status": "TARGETED_DOCUMENTARY_REVIEW_PASS_ONLY_OWNER_FREEZE_NOT_PROMOTED_B1_NOT_AUTHORIZED",
+  "runtime_executions": 0,
+  "source_map": "../SOURCE_MAP.json",
+  "original_excluded_archive_policy": "External originals remain SHA-pinned; publication is a curated effective subset, not a frozen archive replacement."
+}

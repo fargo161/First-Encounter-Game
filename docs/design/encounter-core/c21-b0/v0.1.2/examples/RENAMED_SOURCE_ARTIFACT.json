@@ -1,0 +1,28 @@
+{
+  "schema": "planning-artifact/1",
+  "producer": "fixture-author",
+  "id": "GF02-materialization/rename-0.1",
+  "normalization": "identity-no-rewrite/1",
+  "selectors": [
+    {
+      "kind": "actor",
+      "local_id": "u17",
+      "parent": "fixture-root"
+    },
+    {
+      "kind": "actor",
+      "local_id": "u23",
+      "parent": "fixture-root"
+    },
+    {
+      "kind": "actor",
+      "local_id": "u41",
+      "parent": "fixture-root"
+    },
+    {
+      "kind": "mechanism",
+      "local_id": "m19",
+      "parent": "fixture-root"
+    }
+  ]
+}

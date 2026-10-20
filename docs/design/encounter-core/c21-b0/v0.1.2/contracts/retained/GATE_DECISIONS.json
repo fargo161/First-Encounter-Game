@@ -1,0 +1,78 @@
+{
+  "schema": "ea-c21-b0-decisions/0.1",
+  "packet_id": "EA-C21-B0-0.1-20261019-01",
+  "owner_record": {
+    "path": "C:\\Users\\mcdon\\Downloads\\EA_C21_GATE_A_OWNER_DECISION_AND_B0_HANDOFF.md",
+    "bytes": 9405,
+    "sha256": "e660149a6d148bb5265f86bfdc45b00af6c6ce7ab4cdf2de7276c89b16d45f8a"
+  },
+  "authorization_source": "Current user instruction plus inputs/OWNER_HANDOFF.md section 1",
+  "Gate_A": "OWNER_APPROVED_DIRECTIONS_ONLY",
+  "Gate_B0": "FROZEN_REVIEW_SUBMISSION_NOT_INDEPENDENTLY_ACCEPTED",
+  "Gate_B1": "NOT_AUTHORIZED_NOT_IMPLEMENTED_NOT_QUALIFIED",
+  "decisions": [
+    {
+      "id": "OD-01",
+      "selection": "Option A",
+      "direction": "isolated Python eac21 successor; one exclusive Core semantic installer; SQLite",
+      "status": "OWNER_APPROVED_DIRECTION",
+      "limit": "No accepted C1 modification, native/JS/worker writer or backend certification"
+    },
+    {
+      "id": "OD-02",
+      "selection": "headless human-first H/P/Q finite GF02 proof",
+      "status": "OWNER_APPROVED_DIRECTION",
+      "limit": "Exact B0 root/operation/grant elaboration submitted for review; H has no simulated psychology; preserve P8/native fixtures"
+    },
+    {
+      "id": "OD-03",
+      "selection": "reviewed finite synthetic evidence/belief/response and limited communication catalog",
+      "status": "OWNER_APPROVED_DIRECTION",
+      "limit": "Not universal psychology, native evidence replacement or full 360"
+    },
+    {
+      "id": "OD-04",
+      "selection": "method-first bounded accounting and independent measurement procedure",
+      "status": "OWNER_APPROVED_DIRECTION",
+      "limit": "No numeric capacity/backend/deployment claim; B1 profile frozen before scoring"
+    }
+  ],
+  "review_clarifications": {
+    "C21-AUD-N01": "BUILDER_DOCUMENT_CORRECTED_PENDING_INDEPENDENT_REVIEW",
+    "C21-T01": "BUILDER_DOCUMENT_CORRECTED_PENDING_INDEPENDENT_REVIEW"
+  },
+  "unresolved": [
+    {
+      "id": "B0-R01",
+      "issue": "Independent approval of exact B0 wire/store/hash/root/fallback/normalization elaboration",
+      "gate": "B0 Auditor, Tester and owner review",
+      "blocks": "implementation-facing design acceptance"
+    },
+    {
+      "id": "B1-AUTH",
+      "issue": "Separate bounded implementation and measurement owner work order",
+      "gate": "before any B1 code",
+      "blocks": "all C2 product development"
+    },
+    {
+      "id": "B1-SOURCE",
+      "issue": "Actual successor source/build/backend manifest and exact source-specific pass/lifetime ledger",
+      "gate": "B1 before runtime scoring",
+      "blocks": "runtime acceptance"
+    },
+    {
+      "id": "B1-CAPS",
+      "issue": "Independent physical/work/live-memory measurements and all eleven numeric caps",
+      "gate": "B1 before capacity scoring",
+      "blocks": "any admissible runtime profile"
+    },
+    {
+      "id": "B1-LEGACY",
+      "issue": "Fresh applicable exact-reference legacy runs and browser evidence",
+      "gate": "B1 acceptance",
+      "blocks": "legacy preservation runtime claim"
+    }
+  ],
+  "new_owner_semantic_choice_required": false,
+  "scope_note": "No additional material semantic decision detected. All new B0 representations are review proposals under approved directions, not owner preapproval of unexamined details."
+}

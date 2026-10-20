@@ -1,0 +1,22 @@
+{
+  "status": "Separately declared expected document literals/counts; not executed policy outputs",
+  "main_delta_order": ["messages","receiving_fragments_with_grants","claims","P_belief_revisions","decisions","phase_units","new_H_keyword_entries","opening_consumptions","semantic_head_increments","publication_increments","terminal_world_receipts","material_changes"],
+  "main_rows": {
+    "C01":[0,0,0,0,0,0,0,0,1,1,1,0], "C02":[2,2,1,0,1,2,2,0,1,1,1,0], "C03":[2,2,1,1,1,2,0,0,1,1,1,0], "C04":[2,2,1,0,1,2,0,0,1,1,1,0], "C05":[2,2,0,0,1,2,0,0,1,1,1,0], "C06":[0,0,0,0,0,0,0,0,1,1,1,0], "C07":[1,1,1,0,1,1,0,1,1,1,1,0], "CP01":[0,0,0,0,0,0,0,0,0,1,0,0], "R03":[0,0,0,0,0,0,0,0,0,0,0,0], "X07":[0,0,0,0,0,0,0,0,0,0,0,0], "C08":[2,2,0,0,1,2,0,0,1,1,1,0], "C09":[2,2,1,0,1,2,0,0,1,1,1,0], "R03b":[0,0,0,0,0,0,0,0,0,0,0,0]
+  },
+  "main_totals": [13,13,5,1,7,13,2,1,9,10,9,0],
+  "opening_clean_totals": [1,1,1,0,1,1,2,1,2,2,2,0],
+  "P_composition_contexts": 18,
+  "Q_NORECEIVE_contexts": 1,
+  "named_NORECEIVE": {"prefix":["C01","C02"],"actual_utterer":"H","recipient":"Q","reply_utterer":"Q","reply_recipient":"H","reply_words":"I cannot add an answer within that scope.","class":"O2","delta":[2,2,1,0,1,2,0,0,1,1,1,0],"P_support_unchanged":1,"P_received_fragments":0,"P_choice_calls":0,"Q_Cog_records":0,"phases":["Intake","Delivery"]},
+  "configuration_C0": {"social_families":"absent","Cog_families":"absent","advance_delta":[0,0,0,0,0,0,0,0,1,1,1,0],"checkpoint_delta":[0,0,0,0,0,0,0,0,0,1,0,0]},
+  "configuration_C1": {"P_support_field":"absent","Cog_families":"absent","first_request_response":"INTRO","first_request_delta":[2,2,1,0,1,2,2,0,1,1,1,0],"later_evidence_scripted_response":"FALLBACK","later_evidence_class":"O2","later_evidence_delta":[2,2,1,0,1,2,0,0,1,1,1,0]},
+  "support_controls": {"prior":1,"asserted_r1":3,"same_r1_new_K":3,"independent_r2_after_r1":5,"unverified_r1":1,"stale_ri":1,"stale_after_r1":3},
+  "proposed_shape_derived_upper_bounds": {"new_messages":24,"root_plus_runtime_receiving_fragments":27,"H_initial_plus_learned_reference_concept_entries":10},
+  "new_control_roots": ["private-A","private-B","hidden-D-false","name-only"],
+  "numeric_cap_values": null,
+  "candidate_runtime_executions": 0,
+  "owner_signatures": 0,
+  "mandatory_case_families": 40,
+  "native_reference_gate_groups": 6
+}

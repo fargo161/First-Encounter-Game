@@ -1,0 +1,169 @@
+{
+  "schema": "b0-document-root-blueprints/1",
+  "originals": [
+    {
+      "id": "main",
+      "descriptor_path": "baseline/b0-0.1/contracts/reviewed/GF02_PROPOSED_FIXTURE.json",
+      "descriptor_json_sha256": "9c47c0ae003b48a8e01bc749e64923874a2878f7129cd58a2d9719feaa13c9d5"
+    },
+    {
+      "id": "private-A",
+      "descriptor_path": "baseline/b0-0.1/contracts/roots/private-A.json",
+      "descriptor_json_sha256": "91390f4c149dfcfb21f61d228147c3cc96717def77c9214e6194fb3a8174e7c8"
+    },
+    {
+      "id": "private-B",
+      "descriptor_path": "baseline/b0-0.1/contracts/roots/private-B.json",
+      "descriptor_json_sha256": "0832ccfecc92ff9a1ae98d2df06b5b4c8d466219d3fc38618db75f00ffa8db76"
+    },
+    {
+      "id": "hidden-D-false",
+      "descriptor_path": "baseline/b0-0.1/contracts/roots/hidden-D-false.json",
+      "descriptor_json_sha256": "b824f271ae3fe1eef09ba732a8ddc93098ef0df45565782e8a09f2d89c99fc98"
+    },
+    {
+      "id": "name-only",
+      "descriptor_path": "baseline/b0-0.1/contracts/roots/name-only.json",
+      "descriptor_json_sha256": "bb24a51397e8ac4ed55f198172fa74e7a32f9c40dd8cbaa1d813cb5fb3718d34"
+    },
+    {
+      "id": "ROOT-R1",
+      "descriptor_path": "baseline/b0-0.1/contracts/roots/ROOT-R1.json",
+      "descriptor_json_sha256": "92abbb9168f99a5e5c91864260efd4b2fd937e51b2e5a5bd98d4cb1bac43692c"
+    },
+    {
+      "id": "ROOT-SAME-KNEW",
+      "descriptor_path": "baseline/b0-0.1/contracts/roots/ROOT-SAME-KNEW.json",
+      "descriptor_json_sha256": "4669f80eb2d1f7ff062cb073100293505449c12f670667bd057cbedeaa17865b"
+    },
+    {
+      "id": "ROOT-R2",
+      "descriptor_path": "baseline/b0-0.1/contracts/roots/ROOT-R2.json",
+      "descriptor_json_sha256": "12f45c6a7cf0b8f754cb15334bada934b9ac02f3836942e24645b9facc8369fa"
+    },
+    {
+      "id": "ROOT-R2-SE",
+      "descriptor_path": "baseline/b0-0.1/contracts/roots/ROOT-R2-SE.json",
+      "descriptor_json_sha256": "c330b7e26570d78e10ca30e09db2d09a12aacfa640d6f1c7643d9a980552f4f7"
+    },
+    {
+      "id": "ROOT-R2-ALONE",
+      "descriptor_path": "baseline/b0-0.1/contracts/roots/ROOT-R2-ALONE.json",
+      "descriptor_json_sha256": "5f3bcc1d5d4b90dd0bada59dce3060185e0538b31beee6191666b30cd70a0e27"
+    },
+    {
+      "id": "ROOT-FORGED-LABEL",
+      "descriptor_path": "baseline/b0-0.1/contracts/roots/ROOT-FORGED-LABEL.json",
+      "descriptor_json_sha256": "be1479e0bb7ff7fe1501dd07cbc7775e74715ef7d9d521adf231593b077ce72e"
+    },
+    {
+      "id": "ROOT-NO-GRANT",
+      "descriptor_path": "baseline/b0-0.1/contracts/roots/ROOT-NO-GRANT.json",
+      "descriptor_json_sha256": "76b69350becdf451f9a870f0b32de786a0ce18330fc7c58e9e61329badb1a41e"
+    },
+    {
+      "id": "SCOPE-UNVERIFIED",
+      "descriptor_path": "baseline/b0-0.1/contracts/roots/SCOPE-UNVERIFIED.json",
+      "descriptor_json_sha256": "f505fc836406b2deca25ae4681bf361068624d7b492fc25ae5be5407ad5fd53a"
+    },
+    {
+      "id": "SCOPE-STALE",
+      "descriptor_path": "baseline/b0-0.1/contracts/roots/SCOPE-STALE.json",
+      "descriptor_json_sha256": "acaed35931033f69f5eed295410dd6925a4922899d892f9d0ac263b0545e2a35"
+    },
+    {
+      "id": "SCOPE-IRRELEVANT",
+      "descriptor_path": "baseline/b0-0.1/contracts/roots/SCOPE-IRRELEVANT.json",
+      "descriptor_json_sha256": "2d2c08b5af14acd567f6fff0a860a3df21db3cf6d4877d3036e67e43f7f5fd75"
+    },
+    {
+      "id": "SCOPE-FORGED-GRANT",
+      "descriptor_path": "baseline/b0-0.1/contracts/roots/SCOPE-FORGED-GRANT.json",
+      "descriptor_json_sha256": "ff3b0fab8e5a0485ad948e55346f4923741ca49998150a138300bbda295e22e2"
+    },
+    {
+      "id": "SCOPE-STALE-AFTER-R1",
+      "descriptor_path": "baseline/b0-0.1/contracts/roots/SCOPE-STALE-AFTER-R1.json",
+      "descriptor_json_sha256": "ce6ef383749f0cc6b330302534b99b1b8754e84f5e314f03d2dc3d97eea44091"
+    },
+    {
+      "id": "opening-clean",
+      "descriptor_path": "baseline/b0-0.1/contracts/roots/opening-clean.json",
+      "descriptor_json_sha256": "2aaeabde560762a0b0a2310d0d70c32d882f5164f18d85c45c3eafcf76719856"
+    },
+    {
+      "id": "opening-unused-same-label",
+      "descriptor_path": "baseline/b0-0.1/contracts/roots/opening-unused-same-label.json",
+      "descriptor_json_sha256": "ef7bfcae8acd33a8e5b7f80eadba6f4f65597693f3e49d9e384428287a264924"
+    },
+    {
+      "id": "config-C0",
+      "descriptor_path": "baseline/b0-0.1/contracts/roots/config-C0.json",
+      "descriptor_json_sha256": "a45036b17e1d3381b78ffb026b2c8e66667e246a2a4afbb6cd81f1414bdb35f6"
+    },
+    {
+      "id": "config-C1",
+      "descriptor_path": "baseline/b0-0.1/contracts/roots/config-C1.json",
+      "descriptor_json_sha256": "c5ed4babe8fa19c06881015e44567953adc5f9a87112ff3a75865d774e74481a"
+    },
+    {
+      "id": "config-C2",
+      "descriptor_path": "baseline/b0-0.1/contracts/roots/config-C2.json",
+      "descriptor_json_sha256": "9c47c0ae003b48a8e01bc749e64923874a2878f7129cd58a2d9719feaa13c9d5"
+    },
+    {
+      "id": "presentation-normal",
+      "descriptor_path": "baseline/b0-0.1/contracts/roots/presentation-normal.json",
+      "descriptor_json_sha256": "97b0babcf08f02b486c33b83cee0a1d99dde919f3d14e4b1d76f13a51b5e342d"
+    },
+    {
+      "id": "presentation-fallback",
+      "descriptor_path": "baseline/b0-0.1/contracts/roots/presentation-fallback.json",
+      "descriptor_json_sha256": "0a3ae2a4804418e15e840874ecc4f62c41d46b93fce172fb0c53a27ef5374598"
+    },
+    {
+      "id": "presentation-artless",
+      "descriptor_path": "baseline/b0-0.1/contracts/roots/presentation-artless.json",
+      "descriptor_json_sha256": "31b6b30cdf467176a41c2fb02bf265b4de7f28cc7ae5b72c45ca1492d0426828"
+    }
+  ],
+  "necessary_T33_controls": [
+    {
+      "id": "local-id-rename",
+      "descriptor_path": "examples/ROOT_local-id-rename.json",
+      "descriptor_json_sha256": "86877dc1d4bea11a45a326401d481d2a030143b4b6040bc80a1daf93faac6733"
+    },
+    {
+      "id": "label-only",
+      "descriptor_path": "examples/ROOT_label-only.json",
+      "descriptor_json_sha256": "06a332dd3f9aa2ff6476ce8d7571dca2d97c2d383e36d08e2f6435c7e52ec953"
+    },
+    {
+      "id": "duplicate-labels",
+      "descriptor_path": "examples/ROOT_duplicate-labels.json",
+      "descriptor_json_sha256": "3f37750fef0bcbbcb9fa0b310cb26c3d99cbedfc83bb088afcae3ac27fbb7d73"
+    }
+  ],
+  "construction": "RootSeal.body.descriptor exactly one enum value; all other fields instantiated from matching closed manifests/registered qualified B1 data. Actual root_id=Htag(root,body), never copied opaque provisional token. No world initialized here.",
+  "T33_display_labels": {
+    "main": {
+      "H": "H",
+      "P": "Ada",
+      "Q": "Q",
+      "D": "Door D"
+    },
+    "label-only": {
+      "H": "H",
+      "P": "Attendant One",
+      "Q": "Source Two",
+      "D": "Mechanism Three"
+    },
+    "duplicate-labels": {
+      "H": "H",
+      "P": "Same display",
+      "Q": "Same display",
+      "D": "Door D"
+    }
+  },
+  "T33_words": "All19 authored outward and8 raw response literals remain exactly unchanged. Presentation labels are distinct from the authored spoken name Ada. No prose normalization or rewritten dialogue is permitted; only declared typed local-binding inverse maps differ."
+}

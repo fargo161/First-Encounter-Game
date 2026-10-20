@@ -1,0 +1,69 @@
+{
+  "schema": "ea-c21-checkpoint-contract/0.1.1",
+  "selection": "PROPOSED_EXACT_SCRATCH_RECONSTITUTION",
+  "owner_direction_change_required": false,
+  "why": "Preserves all nonG8 row commitments, original acknowledged storage/semantic heads, one installer, full prefix and read purity. An uncommitted external-cache alternative would change the reviewed commitment inventory and is not selected in this narrow repair.",
+  "loss_unit": {
+    "table": "proofs (G9)",
+    "key": "[\"checkpoint-payload\", checkpoint_id]",
+    "value_type": "CheckpointPayloadValue",
+    "operation": "Only that whole row may be physically absent in a sealed fault copy; not a column/null field, file deletion, descriptor deletion, blob alteration or blanket missing-G9 exception. At most2 eligible checkpoint rows."
+  },
+  "required_survivors": [
+    "All G1..G8 rows and all G9 rows except eligible payload row(s)",
+    "G9 [checkpoint-descriptor,id] complete descriptor incl original payload_hash/payload_row_hash/through anchors/recipe",
+    "All original prefix R/V/dependency/Dbody and registry, policies/source/root/profile/bindings/protection/index coverage",
+    "Every original G8 publication body and exact row manifests, including checkpoint payload commitment",
+    "Independent authorized root and known external acknowledged anchors; original current storage and semantic heads"
+  ],
+  "recipe": {
+    "id": "exact-prior-snapshot-and-prefix/1",
+    "inputs": "Verified mandatory authorized root and complete prior publications up to descriptor.through_publication_sequence inclusive. Each prior semantic effect rederived in verification-only scratch from original R/V and indispensable policy. Earlier optional payloads reconstructed in publication order if needed.",
+    "output": "CheckpointPayload {schema,checkpoint_id,root_id,through_semantic_head,through_publication_sequence,through_storage_head,semantic_snapshot:{G1,G2,G4,G5},prefix_index:[CoverageEntry for publications0..through],recipe}. Each snapshot row array sorted J(key); prefix_index ascending publication_sequence; coverage receipt_ids equals each original publication list.",
+    "encode": "J({type:\"checkpoint-payload\",payload:CheckpointPayload}); this is exact G9 payload BLOB. Physical key TEXT = J([\"checkpoint-payload\",id]). No LF in DB key/payload.",
+    "verify": "Validate closed schemas, id/root/prior anchor/recipe equality; rederive semantic_snapshot and prefix_index independently; Htag(checkpoint-payload,CheckpointPayload)==surviving descriptor.payload_hash==original checkpoint G8.checkpoint_hash; Htag(row,{group:\"G9\",key:[\"checkpoint-payload\",id],payload:{type:\"checkpoint-payload\",payload:CheckpointPayload}})==descriptor.payload_row_hash. Insert only into a detached logical row overlay; recompute every original row manifest/G8 chain and external anchor exactly. No current head replaced or stored hash updated."
+  },
+  "present_policy": "If row present, require exact physical J bytes, schema, deterministic rederivation, payload/row digest and all anchors. Present corrupt, malformed, null, modified or wrong-key data is O5; do not relabel corruption as eligible absence.",
+  "missing_policy": "Missing exact payload row with all required survivors and enough pre-reserved resources may reconstitute read-only; successful cold verification/lookup/replay retains original current Witness/storage head. No canonical writes or repaired file/row.",
+  "required_tamper_policy": "Missing/tampered descriptor/index/prefix/policy/source/registry/G8, mismatched hashes/through anchor, unexpected extra row or noncanonical data -> O5/stopped writes. No substitute old head. Self-consistent alternate history cannot defeat a surviving external acknowledged anchor; without such anchor no universal authenticity claim.",
+  "retry": "Original R/V and Dbody unchanged. After valid logical reconstruction exact old R/V returns O3 original D envelope with original publication storage head, zero new admission resolution/effects/generation. Supplied changed V remains O4. Original internal mode unchanged.",
+  "purity": "Physical all9 rows before/after identical in both present and loss copies; missing row remains missing. Logical verified view equals normal original rows/heads. Author may separately report physical_missing_optional; H/P get no technical availability proxy, new grant, belief, event, time or speech.",
+  "budgets": "Admission/checkpoint prospective cold/retry/query bounds include worst-case reconstruction of every subset of at most2 eligible payloads, full prefix visits, exact bytes/hash comparisons and simultaneous overlay/replay buffers. No B1 constants supplied. If actual admitted required proof/reconstruction unavailable or no qualification -> O5; no partial repair or cap increase.",
+  "cases": [
+    {
+      "id": "CP-NORMAL",
+      "change": "none",
+      "expected": "exact present payload verifies, original anchors, canonical writes0"
+    },
+    {
+      "id": "CP-LOSS",
+      "change": "remove only complete eligible checkpoint-payload row in sealed copy",
+      "expected": "exact scratch bytes/hash match; logical original anchor retained; physical row remains absent; writes0"
+    },
+    {
+      "id": "CP-METADATA-TAMPER",
+      "change": "change descriptor.through_publication_sequence or payload_hash",
+      "expected": "O5; no overlay substitution/current head; writes0"
+    },
+    {
+      "id": "CP-DESCRIPTOR-MISSING",
+      "change": "remove required descriptor row",
+      "expected": "O5 even if payload exists/full prefix otherwise present"
+    },
+    {
+      "id": "CP-PRESENT-CORRUPT",
+      "change": "change present optional payload bytes/null/field/order",
+      "expected": "O5, cannot waive hash or treat as missing"
+    },
+    {
+      "id": "CP-PREFIX-LOSS",
+      "change": "remove indispensable policy/source/R/V/receipt/G8/index",
+      "expected": "O5, no old-head rollback"
+    },
+    {
+      "id": "CP-TWO-LOSS",
+      "change": "both exact eligible payload rows absent, required descriptors survive",
+      "expected": "reconstitute by ascending checkpoint publication from full prefix; same acknowledged current anchor and all physical rows unchanged"
+    }
+  ]
+}

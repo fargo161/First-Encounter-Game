@@ -1,0 +1,54 @@
+{
+  "schema": "extracted-original-document-controls/1",
+  "controls": [
+    {
+      "source": {
+        "kind": "verified_v012_zip_member",
+        "archive_sha256": "4b4e855fb8bf529d1170bc280de2e6425159c0f5d98f46d8f6d7373f54976736",
+        "member": "sources/v011-members/contracts/CASE_INVOCATIONS.json",
+        "bytes": 211667,
+        "sha256": "e5342e675e206cbd7d564c8a91dfaa264d81aa77eb8d1d66e4c88f1d1f889986",
+        "git_blob": "63c6674e89c3f71b49a6dff15de6a12f098c176f"
+      },
+      "json_pointer": "/cards/25/steps/4",
+      "unchanged_original_step": {
+        "api": "submit",
+        "principal": "human-H/1",
+        "input_binding": "SUBMIT(prepared.R,proposed.V)",
+        "hook": "NESTED_VALID_REQUEST_CAUGHT",
+        "expected": "O1",
+        "exit": "0",
+        "channel": "same-process-controlled-API",
+        "step_id": "T26-05"
+      },
+      "expected_static_check": "REJECT_OLD_O1_SUCCESS_UNDER_ACTIVE_FAULT",
+      "corrected_source": "contracts/CASE_INVOCATIONS.json",
+      "step_id": "T26-05"
+    },
+    {
+      "source": {
+        "kind": "verified_v012_zip_member",
+        "archive_sha256": "4b4e855fb8bf529d1170bc280de2e6425159c0f5d98f46d8f6d7373f54976736",
+        "member": "sources/v011-members/contracts/CASE_INVOCATIONS.json",
+        "bytes": 211667,
+        "sha256": "e5342e675e206cbd7d564c8a91dfaa264d81aa77eb8d1d66e4c88f1d1f889986",
+        "git_blob": "63c6674e89c3f71b49a6dff15de6a12f098c176f"
+      },
+      "json_pointer": "/cards/26/steps/3",
+      "unchanged_original_step": {
+        "api": "submit",
+        "principal": "human-H/1",
+        "input_binding": "SUBMIT(prepared.R,null)",
+        "hook": "EACH_APPLICABLE_STAGE_SIGNAL",
+        "expected": "O1",
+        "exit": "0",
+        "channel": "same-process-controlled-API",
+        "step_id": "T27-04"
+      },
+      "expected_static_check": "REJECT_OLD_O1_SUCCESS_UNDER_ACTIVE_FAULT",
+      "corrected_source": "contracts/CASE_INVOCATIONS.json",
+      "step_id": "T27-04"
+    }
+  ],
+  "runtime_executions": 0
+}

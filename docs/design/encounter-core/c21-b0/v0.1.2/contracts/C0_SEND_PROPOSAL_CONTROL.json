@@ -1,0 +1,545 @@
+{
+  "schema": "b0-v012-c0-proposal-control/1",
+  "status": "PROPOSED_DOCUMENT_CONTRACT_PENDING_INDEPENDENT_REVIEW",
+  "owner_authority": "inputs/OWNER_SUPPLEMENTAL_AUTHORIZATION.md",
+  "alias": "config-C0-send-proposal-only",
+  "root_sealing": {
+    "descriptor_source": {
+      "archive": "baseline/EA_C21_B0_TARGETED_COMPLETION_v0_1_1.zip",
+      "member": "baseline/b0-0.1/contracts/roots/config-C0.json"
+    },
+    "descriptor_value": {
+      "schema": "planning-fixture/GF02/0.2",
+      "admitted_world": false,
+      "implementation_authorized": false,
+      "world": "ea-c2-gearbox-proof-v02",
+      "lineage": "core-only",
+      "artifact": "GF02/0.2",
+      "policy_descriptors_sha256": "2e5378ca931a69b7d93232d2f9ce44c3237b1d7ec1a8741e2b89964fa9994f65",
+      "clock": 0,
+      "actors": {
+        "H": {
+          "kind": "human",
+          "producer": "human-H",
+          "incarnation": "1"
+        },
+        "P": {
+          "kind": "identity-only"
+        },
+        "Q": {
+          "kind": "identity-only"
+        }
+      },
+      "objective": {
+        "D": {
+          "kind": "mechanism",
+          "blocked": true
+        }
+      },
+      "capability": "C0",
+      "proposed_shape": {
+        "actors": 3,
+        "cognitive_actors": 1,
+        "questions": 1,
+        "eligible_report_roots": 2,
+        "world_operations": 12,
+        "checkpoints": 2,
+        "max_logical_time": 2,
+        "new_messages_per_operation": 2,
+        "responses_per_initiating_command": 1,
+        "source_detail_fields_beside_fixed_outward_envelope": 4,
+        "receiving_fragments_per_operation": 2,
+        "dependencies_per_new_record": 4,
+        "outward_encoded_bytes": 1024,
+        "JSON_depth": 16,
+        "due_jobs": 0
+      },
+      "numeric_measured_resource_profile": null,
+      "unsupported": [
+        "material-transfer",
+        "money",
+        "physical-executor",
+        "forget",
+        "relearn",
+        "correction",
+        "expiry",
+        "disposition",
+        "subscriber-edit",
+        "dynamic-plugin",
+        "world-generation",
+        "elaboration",
+        "old-save-import",
+        "free-text",
+        "async-pending"
+      ],
+      "identity_rule": "H/P/Q/D are local fixture bindings; never Core name/keyword branches or native/P8 mappings",
+      "authority": {
+        "root_authority": "fixture-owner; proposed root external hash pinned by future work order",
+        "producers": {
+          "fixture-clock/1": {
+            "operations": [
+              "advance"
+            ],
+            "time_range": [
+              0,
+              2
+            ]
+          },
+          "core-maint/1": {
+            "operations": [
+              "storage-checkpoint"
+            ],
+            "maximum": 2
+          }
+        },
+        "claim_truth_policy": "false supported claims may be communicated; a quoted report is not proof of D",
+        "reader_scopes": {
+          "H": "actually presented seed fragments and later own received outward fragments only",
+          "P": "own permitted authored role/prior/context plus actual received fragments",
+          "author": "complete detached proof; no writes"
+        }
+      },
+      "materialized_artifact": {
+        "id": "GF02-materialization/0.2",
+        "producer": "fixture-author",
+        "native": "planning-artifact/1",
+        "normalization": "identity-no-rewrite/1",
+        "canonical_content_sha256": "b6b7b418880b0522ec77ac3c72c34c8d19baba1778138513b46846ae38f6e351"
+      },
+      "local_bindings": [
+        {
+          "artifact": "GF02-materialization/0.2",
+          "artifact_sha256": "b6b7b418880b0522ec77ac3c72c34c8d19baba1778138513b46846ae38f6e351",
+          "kind": "actor",
+          "local_id": "H",
+          "parent": "fixture-root",
+          "epoch": "1",
+          "binding_revision": 1,
+          "world_entity": "H"
+        },
+        {
+          "artifact": "GF02-materialization/0.2",
+          "artifact_sha256": "b6b7b418880b0522ec77ac3c72c34c8d19baba1778138513b46846ae38f6e351",
+          "kind": "actor",
+          "local_id": "P",
+          "parent": "fixture-root",
+          "epoch": "1",
+          "binding_revision": 1,
+          "world_entity": "P"
+        },
+        {
+          "artifact": "GF02-materialization/0.2",
+          "artifact_sha256": "b6b7b418880b0522ec77ac3c72c34c8d19baba1778138513b46846ae38f6e351",
+          "kind": "actor",
+          "local_id": "Q",
+          "parent": "fixture-root",
+          "epoch": "1",
+          "binding_revision": 1,
+          "world_entity": "Q"
+        },
+        {
+          "artifact": "GF02-materialization/0.2",
+          "artifact_sha256": "b6b7b418880b0522ec77ac3c72c34c8d19baba1778138513b46846ae38f6e351",
+          "kind": "mechanism",
+          "local_id": "D",
+          "parent": "fixture-root",
+          "epoch": "1",
+          "binding_revision": 1,
+          "world_entity": "D"
+        }
+      ],
+      "supported_policies": [
+        "CoreSuccessor-GF02/0.2"
+      ],
+      "supported_operations": [
+        "advance",
+        "storage-checkpoint",
+        "terminal-lookup",
+        "detached-read",
+        "cold-replay"
+      ],
+      "social_and_cognitive_families": "absent"
+    },
+    "descriptor_canonical_sha256": "a45036b17e1d3381b78ffb026b2c8e66667e246a2a4afbb6cd81f1414bdb35f6",
+    "authority_manifest": {
+      "schema": "ea-c21-authority/1",
+      "root_authority": "fixture-owner/1",
+      "sole_installer": "Core",
+      "producers": [
+        {
+          "principal": {
+            "producer": "core-maint",
+            "incarnation": "1"
+          },
+          "operations": [
+            "storage-checkpoint"
+          ],
+          "sender": null,
+          "recipients": [],
+          "trigger": null
+        },
+        {
+          "principal": {
+            "producer": "fixture-clock",
+            "incarnation": "1"
+          },
+          "operations": [
+            "advance"
+          ],
+          "sender": null,
+          "recipients": [],
+          "trigger": null
+        },
+        {
+          "principal": {
+            "producer": "human-H",
+            "incarnation": "1"
+          },
+          "operations": [
+            "send"
+          ],
+          "sender": "H",
+          "recipients": [
+            "P"
+          ],
+          "trigger": null
+        },
+        {
+          "principal": {
+            "producer": "npc-controller",
+            "incarnation": "1"
+          },
+          "operations": [],
+          "sender": null,
+          "recipients": [],
+          "trigger": null
+        }
+      ],
+      "families": [
+        {
+          "family": "Choice",
+          "owner": "Choice",
+          "present": false,
+          "policy_id": "absent"
+        },
+        {
+          "family": "Cog",
+          "owner": "CogProof",
+          "present": false,
+          "policy_id": "absent"
+        },
+        {
+          "family": "Comm",
+          "owner": "Comm",
+          "present": false,
+          "policy_id": "absent"
+        },
+        {
+          "family": "Receive",
+          "owner": "Receive",
+          "present": false,
+          "policy_id": "absent"
+        }
+      ],
+      "readers": [
+        {
+          "principal": {
+            "producer": "human-H",
+            "incarnation": "1"
+          },
+          "audiences": [
+            "H"
+          ],
+          "operations": [
+            "read"
+          ],
+          "scope": "H-presented-only",
+          "holder": "H"
+        },
+        {
+          "principal": {
+            "producer": "author-reader",
+            "incarnation": "1"
+          },
+          "audiences": [
+            "author",
+            "technical"
+          ],
+          "operations": [
+            "read",
+            "propose",
+            "verify",
+            "cold-open",
+            "reconcile"
+          ],
+          "scope": "full-proof",
+          "holder": null
+        }
+      ]
+    },
+    "authority_manifest_hash": "de712d1c9c50209a4fcdcd292b373949696c84de741930d306046fe3d001a108",
+    "seal_shape": "UNCHANGED schemas/B0_CONTRACTS.schema.json RootSeal/RootSealBody/AuthorityManifest. No added wire/root fields or expanded descriptor enum.",
+    "root_binding": "New separately sealed RootSeal.body embeds this exact existing C0 descriptor and this exact proposal-only AuthorityManifest. All other body fields match qualified C0 source/Core-only policy/backend/profile/identity/presentation manifests. Compute Htag(root,whole body) normally after B1 qualification; no actual root id is supplied here.",
+    "separation": "This additional offline control is not the original config-C0 RootSeal. Its root id must differ from the original when other fields are held fixed. No existing descriptor, root_id, entity origin/id, binding, or admitted installation is changed.",
+    "scope": "Fresh independently initialized fixture installation; literal descriptor world/lineage remain core-only. Existing canonical identities are reused only as original sealed C0 bindings, never recomputed from labels. Full root scope distinguishes this control; never import its authority into an original installation.",
+    "qualification": "Root/source/backend/profile qualification is still mandatory. Pending documentary examples cannot be admitted. Invalid/missing proof remains O5; no test-only bypass.",
+    "authority_manifest_documentary_file": "contracts/C0_SEND_PROPOSAL_AUTHORITY.json",
+    "authority_storage": "Full AuthorityManifest is embedded in the existing RootSeal.body.authority_manifest and G7 root record, already committed by Htag(root,whole body). The standalone JSON is a review/input copy, not a new authority-artifact kind, authoritative sidecar, live grant file or added wire field. Preserve existing artifact-type grammar."
+  },
+  "authority_interpretation": {
+    "proposal_authority": "RootSeal.body.authority_manifest.producers operations are permissions to submit typed proposals. In this exact separately approved C0 control human-H/1 may submit Send as H to P.",
+    "execution_authority": "The embedded unchanged C0 descriptor still lists only advance/storage maintenance and has all social/Cog families absent. Proposal permission does not install a policy, enable an operation, supply a social family, or authorize communication performance.",
+    "narrow_precedence": "For this control the separate manifest supplies the missing proposal permission; it does not inherit Send execution permission from C1. Scope/authentication, required qualification, new-key check, full current witness and complete preview commitments must all pass. The generic capability gate then returns O4 UNSUPPORTED before any social resolver, receiving/choice/Cog callback, staged social record or public outward emission.",
+    "no_missing_authorization_substitute": "Using original config-C0 without the new sealed proposal manifest, wrong actual principal, or absent proposal permission is an authority control, not this UNSUPPORTED proof.",
+    "no_core_fixture_branch": "Aliases/test ids are evidence labels only. Generic proposal permissions and capability availability determine admission; no Core rule may branch on T01, C0-control names, message words or fixture ids.",
+    "absent_manifest_sentinel": "For all four absent families policy_id=absent is fixed absence metadata, never a loaded policy or required social artifact. G1 social/Cog rows remain absent."
+  },
+  "complete_proposal": {
+    "type": "R",
+    "R_template": {
+      "schema": "ea-c21-R/1",
+      "key": {
+        "world": "ea-c2-gearbox-proof-v02",
+        "lineage": "core-only",
+        "producer": "human-H",
+        "incarnation": "1",
+        "operation": "T01-c0-proposal"
+      },
+      "namespace": "world",
+      "kind": "send",
+      "mode": "internal",
+      "result_id": "T01-c0-proposal-result",
+      "root_id": {
+        "$bind": "C0.root",
+        "pointer": "/root_id"
+      },
+      "policy_bundle_hash": {
+        "$bind": "C0.root",
+        "pointer": "/policy_bundle_hash"
+      },
+      "profile_hash": {
+        "$bind": "C0.root",
+        "pointer": "/profile_hash"
+      },
+      "binding_manifest_hash": {
+        "$bind": "C0.root",
+        "pointer": "/binding_manifest_hash"
+      },
+      "time": 0,
+      "witness": {
+        "$bind": "C0.current_witness",
+        "pointer": ""
+      },
+      "payload": {
+        "draft": {
+          "id": "C05-EA-Nuanced",
+          "revision": 1,
+          "composition": {
+            "actor": "H",
+            "recipient": "P",
+            "vibe": "EA",
+            "salience": "Nuanced",
+            "family": "Offer",
+            "act": "explain_report",
+            "subject": "D",
+            "scope": "opening_only",
+            "root": null,
+            "certainty": null
+          }
+        }
+      },
+      "preview": {
+        "schema": "ea-c21-preview/1",
+        "draft": {
+          "id": "C05-EA-Nuanced",
+          "revision": 1,
+          "composition": {
+            "actor": "H",
+            "recipient": "P",
+            "vibe": "EA",
+            "salience": "Nuanced",
+            "family": "Offer",
+            "act": "explain_report",
+            "subject": "D",
+            "scope": "opening_only",
+            "root": null,
+            "certainty": null
+          }
+        },
+        "outward": {
+          "sender": "H",
+          "recipients": [
+            "P"
+          ],
+          "family": "Offer",
+          "act": "explain_report",
+          "subject": "D",
+          "scope": "opening_only",
+          "words": "I offer to explain the report.",
+          "prominence": "measured",
+          "terms": null,
+          "amount": 0,
+          "framing": [],
+          "assertions": [],
+          "performance": "Communicates the stated act with a composed, measured delivery."
+        },
+        "source_fragments": [],
+        "binding": {
+          "draft_hash": {
+            "$hash": {
+              "algorithm": "Htag",
+              "tag": "draft",
+              "value": {
+                "id": "C05-EA-Nuanced",
+                "revision": 1,
+                "composition": {
+                  "actor": "H",
+                  "recipient": "P",
+                  "vibe": "EA",
+                  "salience": "Nuanced",
+                  "family": "Offer",
+                  "act": "explain_report",
+                  "subject": "D",
+                  "scope": "opening_only",
+                  "root": null,
+                  "certainty": null
+                }
+              }
+            }
+          },
+          "outward_hash": {
+            "$hash": {
+              "algorithm": "Htag",
+              "tag": "outward",
+              "value": {
+                "sender": "H",
+                "recipients": [
+                  "P"
+                ],
+                "family": "Offer",
+                "act": "explain_report",
+                "subject": "D",
+                "scope": "opening_only",
+                "words": "I offer to explain the report.",
+                "prominence": "measured",
+                "terms": null,
+                "amount": 0,
+                "framing": [],
+                "assertions": [],
+                "performance": "Communicates the stated act with a composed, measured delivery."
+              }
+            }
+          },
+          "source_grants_hash": {
+            "$hash": {
+              "algorithm": "Htag",
+              "tag": "preview-grants",
+              "value": {
+                "fragments": []
+              }
+            }
+          },
+          "world_witness_hash": {
+            "$hash": {
+              "algorithm": "Htag",
+              "tag": "world-witness",
+              "value": {
+                "$bind": "C0.current_witness",
+                "pointer": ""
+              }
+            }
+          },
+          "policy_bundle_hash": {
+            "$bind": "C0.root",
+            "pointer": "/policy_bundle_hash"
+          },
+          "presentation_bundle_hash": {
+            "$bind": "C0.root",
+            "pointer": "/presentation_bundle_hash"
+          }
+        }
+      }
+    },
+    "V": null,
+    "entry_id": "C05-EA-Nuanced",
+    "actual_principal": "human-H/1",
+    "constructor": "A trusted external test controller explicitly assembles this complete immutable R/Preview from the fixed catalog Outward and a current author-verified C0 witness. It calls the SAME guarded submit API. It does not call an unavailable C0 social compiler/prepare path, fabricate actor receiving or execute a mock resolver. Hash expressions are documentary construction recipes, not executable code here.",
+    "root_context_slots": {
+      "C0.root.root_id": "Exact qualified RootSeal.root_id",
+      "C0.root.policy_bundle_hash": "Htag(policy-bundle,RootSeal.body.policy_manifest)",
+      "C0.root.profile_hash": "Htag(numeric-profile,RootSeal.body.numeric_profile)",
+      "C0.root.binding_manifest_hash": "Htag(binding-manifest,{bindings:RootSeal.body.identity_manifest.bindings}) with existing prescribed order",
+      "C0.root.presentation_bundle_hash": "Htag(presentation-bundle,RootSeal.body.presentation_manifest)",
+      "C0.current_witness": "Exact complete current Witness from independently verified author current view/RootAdmissionResponse.witness; all-nine and external anchors agree"
+    },
+    "no_source_grant_gap": "This exact Offer has root/certainty null, assertions/framing/source_fragments empty, terms null, amount0. It quotes no source and requests no private topic/name/field. P/D are canonical declared identities. The control validates identity/typed proposal references; it creates no H knowledge or social state. Social interaction/actor-local execution rules are unreachable when the required capability is absent.",
+    "preview_origin": "Preview is complete proposal data, not a claim that C0 displayed or sent a message. All six bindings use unchanged B0-T02 recipes and the actual control-root current witness/Core-only bundle/profile. Do not transplant C1 hashes or recompile a rejected client Preview.",
+    "preconditions": [
+      "fresh K and result_id, not in G6",
+      "actual trusted session root allowlist contains new sealed control root",
+      "time0 and complete independently verified current genesis semantic AND storage witness",
+      "all required source/backend/profile and Core policy qualification valid",
+      "schema, exact finite draft/outward, all six preview commitments and source grant set valid",
+      "human-H/1 matches sealed proposal permission; original C0 execution permission is still absent"
+    ]
+  },
+  "expected": {
+    "outcome": "O4",
+    "exit": "4",
+    "code": "UNSUPPORTED",
+    "stage": "capability",
+    "all_nine": {
+      "G1": "exact_raw_key_payload_sets_equal_before_after",
+      "G2": "exact_raw_key_payload_sets_equal_before_after",
+      "G3": "exact_raw_key_payload_sets_equal_before_after",
+      "G4": "exact_raw_key_payload_sets_equal_before_after",
+      "G5": "exact_raw_key_payload_sets_equal_before_after",
+      "G6": "exact_raw_key_payload_sets_equal_before_after",
+      "G7": "exact_raw_key_payload_sets_equal_before_after",
+      "G8": "exact_raw_key_payload_sets_equal_before_after",
+      "G9": "exact_raw_key_payload_sets_equal_before_after"
+    },
+    "receipt": null,
+    "publication_delta": 0,
+    "reserved_keys": [],
+    "social_callbacks": 0,
+    "accepted_outwards": 0,
+    "receiving": 0,
+    "belief_revisions": 0,
+    "phases": [],
+    "public_outward_emissions": 0
+  },
+  "matched_positive": {
+    "root_alias": "config-C1",
+    "prefix": [],
+    "entry_id": "C05-EA-Nuanced",
+    "actual_principal": "human-H/1",
+    "time": 0,
+    "construction": "Normal compile -> full preview -> prepare internal -> deliberate Send on independently initialized existing config-C1; its own qualified root, current witness, hashes and fresh K. No C0 grant copied into C1.",
+    "expected_outcome": "O2",
+    "exit": "0",
+    "response": "DECLINE",
+    "scripted_policy": "INTRO for first request_information, DECLINE for explanation Offer, SILENT for close_topic, otherwise FALLBACK. Never consult Cog/score.",
+    "evidence": "Real H->P outward/receiving, scripted P->H DECLINE outward/receiving, Intake then Delivery, one ordinary receipt/publication, zero Cog. O2 is an accepted heard refusal, not a technical capability rejection.",
+    "permitted_comparison_differences": [
+      "root_id and root-derived policy/profile/binding/presentation identities",
+      "world/lineage scope from each unchanged descriptor",
+      "fresh K/result_id",
+      "actual current semantic/storage witness and its preview hash"
+    ],
+    "must_match": [
+      "exact Draft and complete initiating Outward",
+      "senderH recipientP subjectD scope opening_only",
+      "terms null amount0 source_fragments[] assertions[] framing[]",
+      "actual caller human-H/1 and explicit proposal permission"
+    ]
+  },
+  "negative_controls": [
+    "original C0 authority without proposal grant -> not UNSUPPORTED proof; authorization rejection separately",
+    "same new control root but wrong actual principal -> O4 UNAUTHORIZED",
+    "old advance-to-send shape mutation -> O4 BAD_SHAPE, separate malformed control",
+    "changed preview commitment on fresh K -> O4 BAD_PREVIEW",
+    "missing required proof/qualification -> O5, not UNSUPPORTED"
+  ],
+  "runtime_executions": 0
+}

@@ -1,0 +1,43 @@
+{
+  "schema": "lossless-json-source-lines/1",
+  "source": {
+    "kind": "verified_v012_zip_member",
+    "archive_sha256": "4b4e855fb8bf529d1170bc280de2e6425159c0f5d98f46d8f6d7373f54976736",
+    "member": "sources/v011-members/baseline/b0-0.1/contracts/reviewed/GF02_SOURCE_ARTIFACT.json",
+    "bytes": 563,
+    "sha256": "ce0ea70ca1b89a3c8d29f6ab21aaec635b4e83fc33334958ca10ea72f12d5254",
+    "git_blob": "6eb273fa280e8145bea4809763d131a4481fa4d9"
+  },
+  "encoding": "UTF-8",
+  "decode": "JSON.parse(lines.join(\"\")); raw UTF8 is lines.join(\"\").encode(UTF8)",
+  "lines": [
+    "{\r\n",
+    "  \"schema\": \"planning-artifact/1\",\r\n",
+    "  \"producer\": \"fixture-author\",\r\n",
+    "  \"id\": \"GF02-materialization/0.2\",\r\n",
+    "  \"normalization\": \"identity-no-rewrite/1\",\r\n",
+    "  \"selectors\": [\r\n",
+    "    {\r\n",
+    "      \"kind\": \"actor\",\r\n",
+    "      \"local_id\": \"H\",\r\n",
+    "      \"parent\": \"fixture-root\"\r\n",
+    "    },\r\n",
+    "    {\r\n",
+    "      \"kind\": \"actor\",\r\n",
+    "      \"local_id\": \"P\",\r\n",
+    "      \"parent\": \"fixture-root\"\r\n",
+    "    },\r\n",
+    "    {\r\n",
+    "      \"kind\": \"actor\",\r\n",
+    "      \"local_id\": \"Q\",\r\n",
+    "      \"parent\": \"fixture-root\"\r\n",
+    "    },\r\n",
+    "    {\r\n",
+    "      \"kind\": \"mechanism\",\r\n",
+    "      \"local_id\": \"D\",\r\n",
+    "      \"parent\": \"fixture-root\"\r\n",
+    "    }\r\n",
+    "  ]\r\n",
+    "}\r\n"
+  ]
+}

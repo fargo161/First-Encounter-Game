@@ -1,0 +1,263 @@
+{
+  "schema": "ea-c21-transport-contract/0.1.1",
+  "status": "PROPOSED_INTERFACES_UNIMPLEMENTED",
+  "cli_prefix": [
+    "python",
+    "-B",
+    "-m",
+    "eac21",
+    "--launch",
+    "LAUNCH_FILE",
+    "--db",
+    "ABSOLUTE_DB",
+    "--out",
+    "NEW_ABSOLUTE_EVIDENCE_DIR"
+  ],
+  "cli_suffix": [
+    "SUBCOMMAND",
+    "--in",
+    "INPUT_FILE"
+  ],
+  "typed_subcommands": {
+    "root": {
+      "input_type": "RootAdmissionRequest",
+      "success_type": "RootAdmissionResponse",
+      "failure_type": "TechnicalError",
+      "exit": {
+        "0": "success exact typed value",
+        "4": "O4 no receipt/changed stores",
+        "5": "O5 stopped writes/unavailable/reconcile",
+        "64": "transport or usage before admission"
+      }
+    },
+    "compile": {
+      "input_type": "CompileRequest",
+      "success_type": "Outward",
+      "failure_type": "TechnicalError",
+      "exit": {
+        "0": "success exact typed value",
+        "4": "O4 no receipt/changed stores",
+        "5": "O5 stopped writes/unavailable/reconcile",
+        "64": "transport or usage before admission"
+      }
+    },
+    "preview": {
+      "input_type": "CompileRequest",
+      "success_type": "Preview",
+      "failure_type": "TechnicalError",
+      "exit": {
+        "0": "success exact typed value",
+        "4": "O4 no receipt/changed stores",
+        "5": "O5 stopped writes/unavailable/reconcile",
+        "64": "transport or usage before admission"
+      }
+    },
+    "prepare": {
+      "input_type": "PrepareRequest",
+      "success_type": "R",
+      "failure_type": "TechnicalError",
+      "exit": {
+        "0": "success exact typed value",
+        "4": "O4 no receipt/changed stores",
+        "5": "O5 stopped writes/unavailable/reconcile",
+        "64": "transport or usage before admission"
+      }
+    },
+    "propose": {
+      "input_type": "R",
+      "success_type": "V",
+      "failure_type": "TechnicalError",
+      "exit": {
+        "0": "success exact typed value",
+        "4": "O4 no receipt/changed stores",
+        "5": "O5 stopped writes/unavailable/reconcile",
+        "64": "transport or usage before admission"
+      }
+    },
+    "submit": {
+      "input_type": "Submit",
+      "success_type": "CommitAnswer",
+      "failure_type": "TechnicalError",
+      "exit": {
+        "0": "success exact typed value",
+        "4": "O4 no receipt/changed stores",
+        "5": "O5 stopped writes/unavailable/reconcile",
+        "64": "transport or usage before admission"
+      }
+    },
+    "lookup": {
+      "input_type": "Lookup",
+      "success_type": "CommitAnswer",
+      "failure_type": "TechnicalError",
+      "exit": {
+        "0": "success exact typed value",
+        "4": "O4 no receipt/changed stores",
+        "5": "O5 stopped writes/unavailable/reconcile",
+        "64": "transport or usage before admission"
+      }
+    },
+    "replay": {
+      "input_type": "Replay",
+      "success_type": "CommitAnswer",
+      "failure_type": "TechnicalError",
+      "exit": {
+        "0": "success exact typed value",
+        "4": "O4 no receipt/changed stores",
+        "5": "O5 stopped writes/unavailable/reconcile",
+        "64": "transport or usage before admission"
+      }
+    },
+    "read": {
+      "input_type": "ReadRequest",
+      "success_type": "HumanView|AuthorView|PublicError",
+      "failure_type": "TechnicalError",
+      "exit": {
+        "0": "success exact typed value",
+        "4": "O4 no receipt/changed stores",
+        "5": "O5 stopped writes/unavailable/reconcile",
+        "64": "transport or usage before admission"
+      }
+    },
+    "cold-open": {
+      "input_type": "VerifyRequest",
+      "success_type": "VerificationResult",
+      "failure_type": "TechnicalError",
+      "exit": {
+        "0": "success exact typed value",
+        "4": "O4 no receipt/changed stores",
+        "5": "O5 stopped writes/unavailable/reconcile",
+        "64": "transport or usage before admission"
+      }
+    },
+    "verify": {
+      "input_type": "VerifyRequest",
+      "success_type": "VerificationResult",
+      "failure_type": "TechnicalError",
+      "exit": {
+        "0": "success exact typed value",
+        "4": "O4 no receipt/changed stores",
+        "5": "O5 stopped writes/unavailable/reconcile",
+        "64": "transport or usage before admission"
+      }
+    },
+    "reconcile": {
+      "input_type": "ReconcileRequest",
+      "success_type": "ReconciliationResult",
+      "failure_type": "TechnicalError",
+      "exit": {
+        "0": "success exact typed value",
+        "4": "O4 no receipt/changed stores",
+        "5": "O5 stopped writes/unavailable/reconcile",
+        "64": "transport or usage before admission"
+      }
+    }
+  },
+  "encoding": "Files and technical stdout exactly J(object)+one LF, no BOM/CRLF/duplicate keys/extra whitespace. RootSeal artifacts raw_hex preserve raw bytes separately. DB stores J(key) TEXT and J(payload) BLOB with NO LF. Public H channel serializes only declared HumanView/PublicPreview/Outward/PublicError +LF, never the technical stdout object. PublicError J83bytes+LF84bytes unchanged.",
+  "channel_projection": {
+    "compile": "public complete initiating Outward",
+    "preview": "PublicPreview only; exact private Preview.binding retained in trusted controller/evidence, absent from H channel",
+    "prepare": "trusted controller R only, no H channel emission",
+    "propose": "author/technical full-proof reader only; ordinary H denied",
+    "submit/lookup/replay": "only returned HumanView on H channel, never technical D/V/Witness; replay no new utterance",
+    "read": "HumanView or PublicError for H, AuthorView only explicitly authorized author session",
+    "fault hooks": "controlled-test observer records to owner evidence, never gameplay H/NPC input. Trusted launcher controls mode; H input cannot choose it."
+  },
+  "file_authority": "LAUNCH_FILE is selected/read-only by trusted local owner/reviewer process, outside caller INPUT_FILE. Launcher binds SessionBinding before input decode. Same R with wrong actual principal yields O4 UNAUTHORIZED before replay disclosure. Caller R fields, an ordinary CLI payload, or a hook cannot change the session principal/root allowlist. This is cooperative local authority, not a hostile OS/authentication platform.",
+  "launch_binding": "LaunchConfig exact schema, authorized_root_ids externally selected. Hash launch using registry; session_id=Htag(session-bind,{launch_config_hash,session_nonce}). Session is process-local immutable handle bound to that trusted config; nonce is not NPC input or public metadata. Normal mode hook_plan_hash=null and no hooks accepted.",
+  "API": "launch(LaunchConfig)->SessionBinding. root/compile/preview/prepare/propose/submit/lookup/replay/read/cold_open/verify/reconcile(SessionBinding,typed input)->typed success|TechnicalError. read additionally accepts trusted ReadBundle; submit additionally accepts actual mutable caller R/V objects and, only in controlled-test mode, HookPlan matching trusted launch hook_plan_hash. This same admission path deep-captures R/V before callbacks. No HookPlan field accepted in public Submit. Pure propose(R) is restricted to trusted author/technical inspection session with root read authority; ordinary H audience gets O4 UNAUTHORIZED. It cannot publish or supply a response oracle. Internal Send does not call a separate proposal endpoint first; supplied-V controlled tests may inspect then independently validate a pure proposal. Writer principal always rechecked at submit independently of inspection audience.",
+  "controlled_actions": "Only declared HookPlan actions at enumerated stages; reject invalid target/path/stage/mode/hash before any canonical effect. Replace operates on original caller handles or writable scratch; protected target attempt cannot change bytes. signal false/exception gives O4; contained failed protected probe/no fault may succeed. nested-admit invokes same guarded Core with a preprepared otherwise-valid inner R/V; active outer must be poisoned even if rejection caught. No hook SQL/file/canonical writer or alternate resolver.",
+  "phase_binding": {
+    "capture-complete": "after detached deep R/V capture, before first callback",
+    "owner-validation": "pure input validation",
+    "after-receiving": "only real receive-bearing path",
+    "after-revision": "only actual Cog revision",
+    "pre-choice-captured": "after raw actual P input captured, before Choice invocation; no response/availability injected",
+    "after-reply": "after actual reply/receiving staged",
+    "final-validation": "after candidate formed before install",
+    "before-write": "guarded transaction/write boundary; actual valid nested request prepared before outer",
+    "post-allocation": "after all SQL incl metadata/receipt/G8 and before COMMIT; passive AllocationObservation or declared fault, no extra allocation-changing SQL",
+    "commit-entry": "external process-interruption window at actual entry",
+    "commit-progress": "actual observed progress callback, N01 limit retained",
+    "post-commit-pre-ack": "complete committed state, response-loss control",
+    "post-ack": "external received acknowledgment/ledger before optional checkpoint",
+    "recovery-read": "fresh process sealed-file verification, never repair during read"
+  },
+  "hook_target_paths": {
+    "caller_R": [
+      "/key/operation",
+      "/payload/draft/composition/root"
+    ],
+    "caller_V": [
+      "/records/choice_output/selected",
+      "/records/choice_output/words",
+      "/records/belief_revision/after/support"
+    ],
+    "protected_R": [
+      "/key/operation",
+      "/payload/draft/composition/root"
+    ],
+    "protected_V": [
+      "/records/choice_output/selected",
+      "/records/choice_output/words",
+      "/records/belief_revision/after/support"
+    ],
+    "scratch_V": [
+      "/records/choice_output/selected",
+      "/records/choice_output/words",
+      "/records/belief_revision/after/support"
+    ]
+  },
+  "resource_hooks": "Passive ResourceObservation/AllocationObservation and exact raw row census; no cap editing or fake measurement. Stage faults are distinct from actual W-1 rejection. Source lines, actual hook supervisor/runner file and numeric observations are B1 bindings, not missing type definitions.",
+  "error_precedence": [
+    "transport/domain/schema before mutation",
+    "immutable capture and trusted principal/root scope",
+    "required admitted proof/source/backend/profile qualification",
+    "committed key: full exact R and supplied V equality BEFORE current staleness",
+    "new R current full Witness/preview/grants/trigger/typed domain",
+    "pure owner proposals and protected/scratch validation",
+    "prospective complete normal+eligible-loss cold/retry/query budgets",
+    "single writer/final post-allocation bound/COMMIT",
+    "unknown COMMIT -> stop/reconcile, no invented definite O4"
+  ],
+  "semantic_rules": [
+    "All record identifiers/keys, row groups/owners and binding incarnations match full qualified scope; scalar string IDs never confer access.",
+    "Every array declared a set is duplicate-free and in its prescribed order; no silent sort/dedup on caller R/V redelivery.",
+    "Manifest artifacts exact six allowlisted source paths, raw hashes/content/byte counts, safe relative paths and no extra executable; required JSON canonical hashes and policy ids match root descriptor.",
+    "Root identities four distinct H/P/Q/D canonical values; local actor binding injective; exactly one per role. Wrong kind/artifact/epoch/revision rejects. Name/topic aliases typed non-actor, no merge.",
+    "Authority families four fixed names/owners; present depends C0/C1/C2. Readers exactly human-H/1 {audiences:[H],operations:[read],scope:H-presented-only,holder:H} and author-reader/1 {audiences:[author,technical],operations:[read,propose,verify,cold-open,reconcile],scope:full-proof,holder:null}. Ordinary writer principal grants never imply author read authority. FamilyValue type -> Comm(outward,claim), Receive(receiving,field-grant,known-reference), Cog(belief,belief-revision), Choice(choice-input,decision,phase,actor-context,trigger). Cog absent entirely on scripted C0/C1.",
+    "G1/G2/G5 key agrees payload identity/ref; all other typed keys agree world/lineage/sequence/kind/id; no extra row/table. Noncanonical physical bytes are O5.",
+    "V.key/result_id/request_hash/dependency match R exactly; result id unique(world,lineage,producer). Supplied mode/initial V presence and exact original replay semantics unchanged.",
+    "Human output source handle is only H-local ordinal+granted fields, no global hashes/IDs/counts. Local ordinals count H receiving only, unaffected by Q-private sources. Affordances derive H known refs+finite catalog, never NPC secret score/answer.",
+    "Raw ChoiceInput exact closed schema BEFORE invocation; raw ChoiceOutput semantic words never fallback. Presentation separate after Choice; declared optional bundle never enters actor input.",
+    "Root admission pending profile/backend or absent independent qualification yields O5, even if syntactically valid and locally whitelisted. No capacities or implementation supplied now.",
+    "Full verification may rederive historical pure policy data in scratch and charge it; no admission callbacks/new episodes/words/grants. O3 new resolution/application counters remain0.",
+    "G9 checkpoint loss only by CHECKPOINT_CONTRACT. All other missing/corrupt required data O5, exact known acknowledged anchor mandatory; no blanket ignore/rewrite.",
+    "Explicit nondecreasing0..2 advance; equal-time empty O2 with receipt/new semantic publication, no clock/domain change. No due jobs/cascade/async.",
+    "Root initialization GF02-initialization/1 below is fixed authoring translation, not a generator or runtime performed action."
+  ],
+  "root_initialization_recipe": {
+    "identity": "RootSeal.identity_manifest carries exact externally validated entity ids/bindings; entity preimage uses original H/P/Q/D origins; representation rename retains origin. D blocked is immutable descriptor truth in G7.",
+    "initial_G1": "Translate descriptor.seed_communications in authored array order. Stable RecordId world/lineage, producer fixture-author/incarnation1/operation root-seeds, kind outward|receiving|field-grant, ordinal seed index. Outward act seed-presentation (ROOT ONLY, not a new supported human act), family Remark, original utterer/recipient/text, contextD/opening_only, terms null/amount0/framing[], prominence measured/performance Initial authored presentation. Current r1/r2 get their explicit Assertion; private/name/before_fixture use exact authored applicability, no invented support. Initial receiving/grants from descriptor.seed_grants only; missing grants stay missing despite known handle. Root seed wrappers are not runtime delta additions.",
+    "initial_local": "H known refs/concepts and explicit name/topic flags from descriptor, each justified by actual initial fragment/root grant. P question/prior support1/revision0/credited[]/reviewed[] only in C2; P actor-context self_introduced=false. Choice trigger opening-1 role/time2/unconsumed. C0 has no social records; C1 actual seeds/scripted actors but no Cog/basis.",
+    "initial_other": "G2 identities; G4 clock0/due[]; G5 exact causal edges for initial present source/ref declarations using stable ids; G6 empty. G7 RootSeal and all required manifests/artifact bytes; G9 serving/availability rows for explicit grants and prefix-index with through=null/entries[]. Compute genesis from exact G1/G2/G4/G5 then G3 sequences0 and semantic head; row manifest then G8 genesis previous_storage=null, receipts[], checkpoint_hash=null. No root ordinary receipt or old opaque token.",
+    "causes": "Initial row dependencies on RootRef(kind seed, local_id seed id) or artifact refs; never on genesis/storage hash. Exact grant bundles words/proposition/origin/applicability only, before_fixture not current. These are retained authored initial occurrences, no read backfill or generated story."
+  },
+  "public_projection": "Sort known_refs by (kind,target,person,subject,scope) using J; received by H local receiving order; source_links by local handle; affordances by (recipient,family,act), duplicate-free. PublicError is fixed83 J bytes. Present/absent/offline/altered forbidden detail indistinguishable. AuthorView preserves complete logical all9 and separately physical_missing_optional, no change to H/P.",
+  "future_B1_only": [
+    "actual module/source line bindings",
+    "actual source/build/backend qualification values",
+    "measured numeric caps/pass/page/live-memory data",
+    "real hook supervisor process",
+    "runtime/legacy/browser executions"
+  ],
+  "schema_valid_wrong_V": "For the primary BAD_RESULT control change captured supplied V.records.belief_revision.after.support from3 to1 while R/current receiving independently requires3. This remains structurally valid but fails derivation. A selected/words mismatch can separately fail schema early; do not substitute it for the semantic wrong-result control.",
+  "per_kind_effects": {
+    "root": "Offline fixture-owner initializes authored G1/G2/G4/G5 and G7 root/manifests plus Core genesis G3/G8/G9. No ordinary world receipt/G6 reservation, no later root replacement.",
+    "send": "V.effects only owned G1 Comm/Receive/Choice and eligible Cog for addressed cognitive P, plus Core exact G5 causal protection. No G2 identity/binding, G4 clock, G7 profile/objective change. Core derives G3/G6/G8/G9 metadata after V, never caller effects.",
+    "initiate": "V.effects only G1 actual Comm/Receive/Choice/direct Delivery/canonical trigger consumption plus Core G5. Cog/G2/G4/G7 unchanged. Core derives G3/G6/G8/G9 metadata.",
+    "advance": "G4 explicit nondecreasing time and applicable exact Core G5 causes only; equal-time empty advance effects[]/O2. No social families/identity/profile/material effects. Core derives G3/G6/G8/G9 metadata.",
+    "storage-checkpoint": "V.effects[]/records=null/next_semantic_state_digest unchanged. Only Core G3 publication ordinal/G6 maintenance original/G8 publication/G9 descriptor,payload,prior-prefix-index changes. G1/G2/G4/G5/G7 and semantic head/sequence/time/world receipts unchanged.",
+    "read/preview/compile/prepare/propose/lookup/replay/verify/cold-open/reconcile": "No canonical writes in any of9 groups. Staging/projection/verification/reconstitution detached; exact replay returns original without applying effects."
+  },
+  "schema_library_scope": "jsonschema is static verification tooling only, not an authorized candidate dependency or implementation. Future six-file candidate may implement equivalent closed rules using its separately qualified source; no runtime package installation is approved by this document."
+}

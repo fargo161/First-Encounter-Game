@@ -1,0 +1,44 @@
+{
+  "schema": "b0-v012-static-mutation-controls/1",
+  "expected": "CHECKER_REJECTS_DOCUMENT_CONTRADICTION_NOT_A_PRODUCT_TEST",
+  "controls": [
+    {
+      "id": "old-T26-success-under-nested-hook",
+      "target_card": "T26",
+      "step_id": "T26-05",
+      "replace": {
+        "expected": "O1",
+        "exit": "0"
+      },
+      "must_reject": true
+    },
+    {
+      "id": "old-T27-success-under-active-signal",
+      "target_card": "T27",
+      "step_id": "T27-04",
+      "replace": {
+        "expected": "O1",
+        "exit": "0"
+      },
+      "must_reject": true
+    },
+    {
+      "id": "T01-remove-proposal-authority",
+      "target": "control.root_sealing.authority_manifest human-H/1 operations",
+      "replacement": [],
+      "must_reject": true
+    },
+    {
+      "id": "T09-remove-actual-send",
+      "target": "T09 salience run submit step",
+      "replacement": "omit",
+      "must_reject": true
+    },
+    {
+      "id": "T35-reuse-committed-C03",
+      "target": "T35 operation",
+      "replacement": "report-r1",
+      "must_reject": true
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "controls": [
+    {
+      "value": {
+        "b": 2,
+        "a": [
+          true,
+          null,
+          1
+        ]
+      },
+      "expected_J_ascii": "{\"a\":[true,null,1],\"b\":2}"
+    },
+    {
+      "value": {
+        "del": "\u007f",
+        "tilde": "~"
+      },
+      "expected_J_ascii": "{\"del\":\"\\u007f\",\"tilde\":\"~\"}"
+    },
+    {
+      "value": {
+        "\ud800\udc00": "\ud83d\ude00",
+        "\ue000": true
+      },
+      "expected_J_ascii": "{\"\\ue000\":true,\"\\ud800\\udc00\":\"\\ud83d\\ude00\"}"
+    },
+    {
+      "value": {
+        "q": "\"\\\n\t\b\f\r/\u00e9"
+      },
+      "expected_J_ascii": "{\"q\":\"\\\"\\\\\\n\\t\\b\\f\\r/\\u00e9\"}"
+    }
+  ],
+  "known_review_ambiguity": {
+    "scope": "Illustrative non-equal encodings where no field-to-hash recipe is supplied; neither is asserted to be accepted product wire",
+    "draft": {
+      "id": "C03",
+      "revision": 1,
+      "composition": {
+        "actor": "H",
+        "recipient": "P",
+        "family": "Remark",
+        "act": "present_evidence",
+        "vibe": "EA",
+        "salience": "Nuanced",
+        "root": "r1",
+        "certainty": "asserted",
+        "subject": "D",
+        "scope": "opening_only"
+      }
+    },
+    "raw_J_SHA256": "6affd799bbe5b2214797d59ee7b39bf79224dac85cfde9622aa02886195f163e",
+    "tagged_preview_SHA256": "75073b0bb1ceaefef1ddf1e18ab63e01229c795f7b4ba98f7d1ed55b8a21bc4a",
+    "absent_family_object": {
+      "present": false,
+      "members": []
+    },
+    "absent_family_array": [
+      false,
+      []
+    ],
+    "absent_family_object_hash": "520d1986344a4ee2b8ee6d01450fbbcc8386f7cba03d35a862cd9f2c39ac65e7",
+    "absent_family_array_hash": "b12ed0305affc4131f4b7d9e3e96401109ac8c310ca1654daec682df8fe4bb34"
+  },
+  "transport_negative_ascii": [
+    "-0",
+    "1.0",
+    "1e0",
+    "{}{}",
+    "{ \"a\":1}",
+    "{\"a\":1,\"a\":2}"
+  ],
+  "note": "Expected encoding strings hand-written separately from Python/Node serializers; current registry selects tagged draft and object-shaped presence-sensitive family set."
+}

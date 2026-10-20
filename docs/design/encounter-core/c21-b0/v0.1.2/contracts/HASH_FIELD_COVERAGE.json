@@ -1,0 +1,712 @@
+{
+  "schema": "closed-hash-field-map/1",
+  "coverage": [
+    {
+      "schema_field": "AckAnchor.D_id",
+      "recipe": "receipt",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "AckAnchor.root_id",
+      "recipe": "root",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "AckAnchor.semantic_head",
+      "recipe": "semantic-genesis|semantic (according to referenced original semantic sequence)",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "AckAnchor.storage_head",
+      "recipe": "publication",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "ArtifactBytes.canonical_json_sha256",
+      "recipe": "document-json",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "ArtifactBytes.raw_sha256",
+      "recipe": "raw-file",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "ArtifactEntry.canonical_json_sha256",
+      "recipe": "document-json",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "ArtifactEntry.raw_sha256",
+      "recipe": "raw-file",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "ArtifactMapPreimage.eac21/__init__.py",
+      "recipe": "raw-file",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "ArtifactMapPreimage.eac21/__main__.py",
+      "recipe": "raw-file",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "ArtifactMapPreimage.eac21/atlas.py",
+      "recipe": "raw-file",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "ArtifactMapPreimage.eac21/core.py",
+      "recipe": "raw-file",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "ArtifactMapPreimage.eac21/data.py",
+      "recipe": "raw-file",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "ArtifactMapPreimage.eac21/policies.py",
+      "recipe": "raw-file",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "AuthorView.root_id",
+      "recipe": "root",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "AvailabilityRecord.artifact_hash",
+      "recipe": "raw-file",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "BackendManifest.python_binary_sha256",
+      "recipe": "raw-file",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "BackendManifest.qualification_record_raw_sha256",
+      "recipe": "raw-file",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "BackendManifest.sqlite_binary_sha256",
+      "recipe": "raw-file",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "CheckpointDescriptor.payload_hash",
+      "recipe": "checkpoint-payload",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "CheckpointDescriptor.payload_row_hash",
+      "recipe": "row",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "CheckpointDescriptor.root_id",
+      "recipe": "root",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "CheckpointDescriptor.through_semantic_head",
+      "recipe": "semantic-genesis|semantic (through sequence)",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "CheckpointDescriptor.through_storage_head",
+      "recipe": "publication",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "CheckpointPayload.root_id",
+      "recipe": "root",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "CheckpointPayload.through_semantic_head",
+      "recipe": "semantic-genesis|semantic (through sequence)",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "CheckpointPayload.through_storage_head",
+      "recipe": "publication",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "CheckpointRequestPayload.through_semantic_head",
+      "recipe": "semantic-genesis|semantic (through sequence)",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "ChoiceDecisionRecord.actor",
+      "recipe": "entity",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "ChoiceInputRecord.actor",
+      "recipe": "entity",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "CoreValidationOutput.candidate_hash",
+      "recipe": "candidate",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "CoreValidationOutput.request_hash",
+      "recipe": "request",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "CoverageEntry.receipt_ids",
+      "recipe": "receipt",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "CoverageEntry.semantic_head",
+      "recipe": "semantic-genesis|semantic (according to referenced original semantic sequence)",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "CoverageEntry.storage_head",
+      "recipe": "publication",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "D.id",
+      "recipe": "receipt",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "D.publication.storage_head",
+      "recipe": "publication",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "Dbody.dependency_hash",
+      "recipe": "dependency",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "Dbody.request_hash",
+      "recipe": "request",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "Dbody.result_hash",
+      "recipe": "result",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "Dbody.semantic_head",
+      "recipe": "semantic-genesis|semantic (according to referenced original semantic sequence)",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "Dependency.binding_manifest_hash",
+      "recipe": "binding-manifest",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "Dependency.policy_bundle_hash",
+      "recipe": "policy-bundle",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "Dependency.presentation_bundle_hash",
+      "recipe": "presentation-bundle",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "Dependency.source_grants.record_hash",
+      "recipe": "row",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "Disclosure.person",
+      "recipe": "entity",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "Effect.before_hash",
+      "recipe": "row",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "EntityValue.id",
+      "recipe": "entity",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "FamilyMember.row_hash",
+      "recipe": "row",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "FamilyWitness.set_hash",
+      "recipe": "family-set",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "G2Key.artifact_sha256",
+      "recipe": "document-json",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "G2Key.id",
+      "recipe": "entity",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "GenesisPreimage.initial_clock_hash",
+      "recipe": "clock-state",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "GenesisPreimage.initial_family_manifest_hash",
+      "recipe": "family-manifest",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "GenesisPreimage.initial_identity_manifest_hash",
+      "recipe": "identity-state",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "GenesisPreimage.initial_protection_hash",
+      "recipe": "protection-state",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "GenesisPreimage.root_id",
+      "recipe": "root",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "HookEvidence.caller_after_hash",
+      "recipe": "hook-bytes",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "HookEvidence.caller_before_hash",
+      "recipe": "hook-bytes",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "HookEvidence.protected_after_hash",
+      "recipe": "hook-bytes",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "HookEvidence.protected_before_hash",
+      "recipe": "hook-bytes",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "HookEvidence.raw_input_hash",
+      "recipe": "hook-input",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "KnownReference.person",
+      "recipe": "entity",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "KnownReference.subject",
+      "recipe": "entity",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "LaunchConfig.authorized_root_ids",
+      "recipe": "root",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "LaunchConfig.backend_manifest_hash",
+      "recipe": "backend-manifest",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "LaunchConfig.hook_plan_hash",
+      "recipe": "hook-plan",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "LaunchConfig.source_manifest_hash",
+      "recipe": "source-manifest",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "LineageValue.root_id",
+      "recipe": "root",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "LineageValue.semantic_head",
+      "recipe": "semantic-genesis|semantic (according to referenced original semantic sequence)",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "LocalBinding.artifact_sha256",
+      "recipe": "document-json",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "LocalBinding.canonical_id",
+      "recipe": "entity",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "ManifestMember.row_hash",
+      "recipe": "row",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "MissingPayload.expected_payload_hash",
+      "recipe": "checkpoint-payload",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "MissingPayload.expected_row_hash",
+      "recipe": "row",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "NumericProfile.independent_census_sha256",
+      "recipe": "raw-file",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "OperationValue.D_id",
+      "recipe": "receipt",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "OwnerValidation.input_hash",
+      "recipe": "owner-input",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "OwnerValidation.output_hash",
+      "recipe": "owner-output",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "PolicyEntry.descriptor_json_sha256",
+      "recipe": "document-json",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "PolicyEntry.descriptor_raw_sha256",
+      "recipe": "raw-file",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "PolicyEntry.source_raw_sha256",
+      "recipe": "raw-file",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "PolicyManifest.catalog_json_sha256",
+      "recipe": "document-json",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "PolicyManifest.catalog_raw_sha256",
+      "recipe": "raw-file",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "PresentationManifest.art_bytes_sha256",
+      "recipe": "raw-file",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "PresentedResponse.presentation_bundle_hash",
+      "recipe": "presentation-bundle",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "PresentedResponse.raw_choice_output_hash",
+      "recipe": "choice-output",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "PreviewBinding.draft_hash",
+      "recipe": "draft",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "PreviewBinding.outward_hash",
+      "recipe": "outward",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "PreviewBinding.policy_bundle_hash",
+      "recipe": "policy-bundle",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "PreviewBinding.presentation_bundle_hash",
+      "recipe": "presentation-bundle",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "PreviewBinding.source_grants_hash",
+      "recipe": "preview-grants",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "PreviewBinding.world_witness_hash",
+      "recipe": "world-witness",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "ProofCoverage.root_id",
+      "recipe": "root",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "Publication.checkpoint_hash",
+      "recipe": "checkpoint-payload",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "Publication.operation_receipt_ids",
+      "recipe": "receipt",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "Publication.post_rows_manifest_hash",
+      "recipe": "row-manifest",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "Publication.previous_storage_head",
+      "recipe": "publication",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "Publication.root_id",
+      "recipe": "root",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "Publication.semantic_head",
+      "recipe": "semantic-genesis|semantic (according to referenced original semantic sequence)",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "R.binding_manifest_hash",
+      "recipe": "binding-manifest",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "R.policy_bundle_hash",
+      "recipe": "policy-bundle",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "R.profile_hash",
+      "recipe": "numeric-profile",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "R.root_id",
+      "recipe": "root",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "ReconcileRequest.root_id",
+      "recipe": "root",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "ReconciliationResult.root_id",
+      "recipe": "root",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "RecordRef.raw_sha256",
+      "recipe": "raw-file",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "ResourceObservation.profile_hash",
+      "recipe": "numeric-profile",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "RootAdmissionResponse.root_id",
+      "recipe": "root",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "RootRef.root_id",
+      "recipe": "root",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "RootSeal.root_id",
+      "recipe": "root",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "SemanticPreimage.effect_delta_hash",
+      "recipe": "effect-delta",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "SemanticPreimage.post_clock_hash",
+      "recipe": "clock-state",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "SemanticPreimage.post_family_manifest_hash",
+      "recipe": "family-manifest",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "SemanticPreimage.post_identity_hash",
+      "recipe": "identity-state",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "SemanticPreimage.post_protection_hash",
+      "recipe": "protection-state",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "SemanticPreimage.previous_semantic_head",
+      "recipe": "semantic-genesis|semantic (prior sequence)",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "SemanticPreimage.request_hash",
+      "recipe": "request",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "SemanticPreimage.result_hash",
+      "recipe": "result",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "SemanticPreimage.root_id",
+      "recipe": "root",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "SessionBinding.authorized_root_ids",
+      "recipe": "root",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "SessionBinding.launch_config_hash",
+      "recipe": "launch",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "SessionBinding.session_id",
+      "recipe": "session-bind",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "SessionPreimage.launch_config_hash",
+      "recipe": "launch",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "SourceManifest.source_identity",
+      "recipe": "source-identity",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "TechnicalError.request_hash",
+      "recipe": "request",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "V.next_semantic_state_digest",
+      "recipe": "state",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "V.request_hash",
+      "recipe": "request",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "VWithoutValidation.next_semantic_state_digest",
+      "recipe": "state",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "VWithoutValidation.request_hash",
+      "recipe": "request",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "VerificationResult.root_id",
+      "recipe": "root",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "VerifyRequest.root_id",
+      "recipe": "root",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "Witness.clock_hash",
+      "recipe": "clock-state",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "Witness.identity_manifest_hash",
+      "recipe": "identity-state",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "Witness.operations_manifest_hash",
+      "recipe": "operations-state",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "Witness.profiles_manifest_hash",
+      "recipe": "profiles-state",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "Witness.proofs_manifest_hash",
+      "recipe": "proofs-state",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "Witness.protection_hash",
+      "recipe": "protection-state",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "Witness.root_id",
+      "recipe": "root",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "Witness.semantic_head",
+      "recipe": "semantic-genesis|semantic (according to referenced original semantic sequence)",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    },
+    {
+      "schema_field": "Witness.storage_head",
+      "recipe": "publication",
+      "null_rule": "Null only where explicitly nullable; never hashes empty/absent by implication. Referenced original values retain their original domain."
+    }
+  ],
+  "fixed_descriptor_literals": "Finite RootDescriptor enum raw-J descriptor/source hash fields are historical exact constants classified document-json; no field of an enum may be changed. No actual new runtime hash is borrowed from them.",
+  "hash_ids": "Entity id references resolve only through exact registered bindings; receipt ids through original G6/G8. Sequence0 semantic references use genesis tag, later world successors semantic tag; maintenance keeps earlier semantic head."
+}

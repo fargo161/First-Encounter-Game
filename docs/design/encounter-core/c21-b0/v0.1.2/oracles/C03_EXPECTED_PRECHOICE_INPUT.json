@@ -1,0 +1,94 @@
+{
+  "self": "P",
+  "role": "report_attendant",
+  "goal": "use an adequately supported report within its stated scope",
+  "tendencies": [
+    "measured"
+  ],
+  "time": 1,
+  "question": {
+    "holder": "P",
+    "subject": "D",
+    "property": "blocked",
+    "candidate_value": false,
+    "scope": "opening_only",
+    "time_scope": "fixture_interval_0_through_2"
+  },
+  "basis": {
+    "prior_support": 1,
+    "support": 3,
+    "stance": "accepted",
+    "revision": 1,
+    "credited_roots": [
+      "r1"
+    ],
+    "reviewed": [
+      {
+        "root": "r1",
+        "certainty": "asserted",
+        "weight": 2
+      }
+    ]
+  },
+  "incoming": {
+    "holder": "P",
+    "actual_utterer": "H",
+    "outward": {
+      "sender": "H",
+      "recipients": [
+        "P"
+      ],
+      "family": "Remark",
+      "act": "present_evidence",
+      "subject": "D",
+      "scope": "opening_only",
+      "words": "Q reports: Door D is open. This concerns only Door D's opening.",
+      "prominence": "measured",
+      "terms": null,
+      "amount": 0,
+      "framing": [
+        {
+          "kind": "scope_limit",
+          "performed_text": "This concerns only Door D's opening."
+        }
+      ],
+      "assertions": [
+        {
+          "subject": "D",
+          "property": "blocked",
+          "value": false,
+          "certainty": "asserted",
+          "scope": "opening_only",
+          "time_scope": "fixture_interval_0_through_2",
+          "attributed_speaker": "Q",
+          "source_root": "r1",
+          "original_occurrence": "seed-Q-H-1"
+        }
+      ],
+      "performance": "States the account and marks its scope clearly, with measured emphasis."
+    },
+    "sources": [
+      {
+        "root": "r1",
+        "original_occurrence": "seed-Q-H-1",
+        "quoted_utterer": "Q",
+        "words": "Door D is open.",
+        "proposition": {
+          "subject": "D",
+          "property": "blocked",
+          "value": false,
+          "certainty": "asserted",
+          "scope": "opening_only",
+          "time_scope": "fixture_interval_0_through_2",
+          "attributed_speaker": "Q",
+          "source_root": "r1",
+          "original_occurrence": "seed-Q-H-1"
+        },
+        "applicability": "fixture_interval_0_through_2"
+      }
+    ]
+  },
+  "local_context": {
+    "self_introduced": true
+  }
+}

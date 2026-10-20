@@ -1,0 +1,18 @@
+{
+  "eligible": {
+    "INTRO": false,
+    "DECLINE": false,
+    "SILENT": false,
+    "ACK_SCOPE": true,
+    "ACK_CARE": false,
+    "REPORT": false,
+    "SUSPECT": false,
+    "FALLBACK": false
+  },
+  "selected": "ACK_SCOPE",
+  "priority": 40,
+  "words": "I will treat that report as support only for Door D's opening.",
+  "performance": "Keeps the relevant material in view and states the bounded response with a composed face.",
+  "outcome": "O1",
+  "disclosures": []
+}

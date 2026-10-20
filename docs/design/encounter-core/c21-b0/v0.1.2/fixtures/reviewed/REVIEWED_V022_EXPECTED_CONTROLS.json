@@ -1,0 +1,45 @@
+{
+  "status": "Separately authored proposed document expectations; not actual runtime results",
+  "preserved_fixture_sha256": "9c47c0ae003b48a8e01bc749e64923874a2878f7129cd58a2d9719feaa13c9d5",
+  "preserved_policy_sha256": "e4cd42acfdd8e7ff8d1ca2648df074c528eedd0873a747026cbdf3d09183b479",
+  "preserved_catalog_sha256": "227e433e9fba40ce5299f06ccb73e30dfe447f3327c7e9e8779fa69ebdfa4d6c",
+  "opening_payload": {"trigger": "opening-1", "speaker": "P", "recipient": "H"},
+  "opening_words": "I am Ada. You may ask me about the latch report for Door D.",
+  "spoken_delivery": "Keeps the relevant material in view and states the bounded response with a composed face.",
+  "opening_authority": {"producer": "npc-controller", "incarnation": "1", "actor": "P", "recipient": "H", "logical_time": 2},
+  "opening_deltas": {
+    "clock_prerequisite": [0,0,0,0,0,0,0,0,1,1,1,0],
+    "eligible_unconsumed_positive": [1,1,1,0,1,1,2,1,1,1,1,0],
+    "exact_committed_key_retry": [0,0,0,0,0,0,0,0,0,0,0,0],
+    "fresh_key_after_canonical_consumption": [0,0,0,0,0,0,0,0,0,0,0,0],
+    "same_operation_label_unconsumed_positive": [1,1,1,0,1,1,2,1,1,1,1,0]
+  },
+  "opening_main_branch_totals": [1,1,1,0,1,1,2,1,2,2,2,0],
+  "main_totals": [13,13,5,1,7,13,2,1,9,10,9,0],
+  "grant_followups": {
+    "ROOT-NO-GRANT": {"removed_grant": "seed-Q-H-2", "prefix": ["C01","C02","C03"], "pre_support": 3, "pre_roots": ["r1"], "corrected_delta": [2,2,1,0,1,2,0,0,1,1,1,0], "corrected_support": 3, "corrected_roots": ["r1"], "corrected_response": "ACK_SCOPE", "corrected_class": "O1", "receipt_publication": 4},
+    "SCOPE-FORGED-GRANT": {"removed_grant": "seed-Q-H-past", "prefix": ["C01","C02"], "pre_support": 1, "pre_roots": [], "corrected_delta": [2,2,1,1,1,2,0,0,1,1,1,0], "corrected_support": 3, "corrected_roots": ["r1"], "corrected_response": "ACK_SCOPE", "corrected_class": "O1", "receipt_publication": 3}
+  },
+  "corrected_r1_outward": {
+    "sender": "H", "recipients": ["P"], "family": "Remark", "act": "present_evidence", "subject": "D", "scope": "opening_only",
+    "words": "Q reports: Door D is open. This concerns only Door D's opening.", "prominence": "measured", "terms": null, "amount": 0,
+    "framing": [{"kind": "scope_limit", "performed_text": "This concerns only Door D's opening."}],
+    "assertions": [{"subject": "D", "property": "blocked", "value": false, "certainty": "asserted", "scope": "opening_only", "time_scope": "fixture_interval_0_through_2", "attributed_speaker": "Q", "source_root": "r1", "original_occurrence": "seed-Q-H-1"}],
+    "performance": "States the account and marks its scope clearly, with measured emphasis."
+  },
+  "corrected_response_words": "I will treat that report as support only for Door D's opening.",
+  "preserved_branch_outcomes": {
+    "ROOT-R1": ["O1","ACK_SCOPE",3,1], "ROOT-SAME-KNEW": ["O1","ACK_SCOPE",3,0], "ROOT-R2": ["O1","ACK_SCOPE",5,1], "ROOT-R2-SE": ["O1","ACK_CARE",5,1], "ROOT-R2-ALONE": ["O1","ACK_SCOPE",3,1], "ROOT-FORGED-LABEL": ["O4",null,3,0], "ROOT-NO-GRANT": ["O4",null,3,0], "SCOPE-UNVERIFIED": ["O1","SUSPECT",1,1], "SCOPE-STALE": ["O1","SUSPECT",1,0], "SCOPE-IRRELEVANT": ["O2","FALLBACK",1,0], "SCOPE-FORGED-GRANT": ["O4",null,1,0], "SCOPE-STALE-AFTER-R1": ["O2","FALLBACK",3,0]
+  },
+  "unchanged_oracle_files": ["GF02_CLOSED_REPAIR_CATALOG.json","GF02_PROPOSED_FIXTURE.json","GF02_POLICY_DESCRIPTORS.json","GF02_SCOPE_CONTROL.json","GF02_OPTIONALITY_ROOTS.json","GF02_SOURCE_ARTIFACT.json"],
+  "logical_challenges": {
+    "trust_caller_consumed_flag": "Both supported payloads contain no consumed flag; canonical false allows O1, canonical true requires O4.",
+    "reject_every_opening": "Eligible unconsumed positive requires actual Delivery/receiving/consumption/O1.",
+    "reject_by_opening_again_label": "Same operation label in independently initialized unconsumed lineage must succeed.",
+    "restore_root_grants": "Negative root descriptors/hashes and removed grants are immutable across r1 correction; no grant writer exists.",
+    "accept_unauthorized_source": "Original complete supported r2/ri negative remains O4; independently granted r2/ri positives stay unchanged.",
+    "return_O3_without_committed_corrected_request": "O4 has no D/key reservation; exact corrected O1/D must be independently observed before any O3 claim. Original rejected R/V differs from committed r1 R/V."
+  },
+  "runtime_executions": 0,
+  "owner_decisions": {"OD-01":"UNAPPROVED","OD-02":"UNAPPROVED","OD-03":"UNAPPROVED","OD-04":"UNAPPROVED"}
+}

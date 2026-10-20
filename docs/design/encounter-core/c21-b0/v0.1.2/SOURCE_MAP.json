@@ -1,0 +1,1146 @@
+{
+  "schema": "b0-portable-document-source-map/1",
+  "scope": "Read-only documentation locator, not a Core controller, grammar implementation, runtime installer or semantic authorizer.",
+  "bindings": [
+    {
+      "source_reference": "baseline/b0-0.1/contracts/reviewed/GF02_PROPOSED_FIXTURE.json",
+      "source_member": "sources/v011-members/baseline/b0-0.1/contracts/reviewed/GF02_PROPOSED_FIXTURE.json",
+      "source_raw": {
+        "bytes": 8264,
+        "sha256": "74e579d03418eb372af7d1e61a9540a716d81770d7302d2aea7db6d3684b517b",
+        "git_blob": "26f47c02b0962f3a7c101fe08fd48da9f6c79c74"
+      },
+      "alias": "main",
+      "target": "schemas/B0_CONTRACTS.schema.json",
+      "json_pointer": "/$defs/RootDescriptor/enum/0",
+      "canonical_json_sha256": "9c47c0ae003b48a8e01bc749e64923874a2878f7129cd58a2d9719feaa13c9d5",
+      "transformation": "EXACT_PARSED_VALUE_ALREADY_EMBEDDED_IN_BYTE_EXACT_SCHEMA"
+    },
+    {
+      "source_reference": "baseline/b0-0.1/contracts/roots/private-A.json",
+      "source_member": "sources/v011-members/baseline/b0-0.1/contracts/roots/private-A.json",
+      "source_raw": {
+        "bytes": 8717,
+        "sha256": "a7792aca87f7a94d2f7c21f553a55950c2f7d093cae2cf126c3951db91b6d2d7",
+        "git_blob": "743b4af7ff8d4fecf0cfe8e5bceb2dccd2fbe99d"
+      },
+      "alias": "private-A",
+      "target": "schemas/B0_CONTRACTS.schema.json",
+      "json_pointer": "/$defs/RootDescriptor/enum/1",
+      "canonical_json_sha256": "91390f4c149dfcfb21f61d228147c3cc96717def77c9214e6194fb3a8174e7c8",
+      "transformation": "EXACT_PARSED_VALUE_ALREADY_EMBEDDED_IN_BYTE_EXACT_SCHEMA"
+    },
+    {
+      "source_reference": "baseline/b0-0.1/contracts/roots/private-B.json",
+      "source_member": "sources/v011-members/baseline/b0-0.1/contracts/roots/private-B.json",
+      "source_raw": {
+        "bytes": 8717,
+        "sha256": "276738f59e3d7c118e8cdcc874d5c223ee7472edd5be28f0d40d645fcf5eeba6",
+        "git_blob": "6b862a0f1838a2335e60ce689a0147c21106424a"
+      },
+      "alias": "private-B",
+      "target": "schemas/B0_CONTRACTS.schema.json",
+      "json_pointer": "/$defs/RootDescriptor/enum/2",
+      "canonical_json_sha256": "0832ccfecc92ff9a1ae98d2df06b5b4c8d466219d3fc38618db75f00ffa8db76",
+      "transformation": "EXACT_PARSED_VALUE_ALREADY_EMBEDDED_IN_BYTE_EXACT_SCHEMA"
+    },
+    {
+      "source_reference": "baseline/b0-0.1/contracts/roots/hidden-D-false.json",
+      "source_member": "sources/v011-members/baseline/b0-0.1/contracts/roots/hidden-D-false.json",
+      "source_raw": {
+        "bytes": 7972,
+        "sha256": "c99dd8f2621cb7ebb4f7a6f515a60b58fdcc45a7ed4c21e6cf2e99d12ff6583d",
+        "git_blob": "cba13410ab16dc87feb8d855725035ed4263838a"
+      },
+      "alias": "hidden-D-false",
+      "target": "schemas/B0_CONTRACTS.schema.json",
+      "json_pointer": "/$defs/RootDescriptor/enum/3",
+      "canonical_json_sha256": "b824f271ae3fe1eef09ba732a8ddc93098ef0df45565782e8a09f2d89c99fc98",
+      "transformation": "EXACT_PARSED_VALUE_ALREADY_EMBEDDED_IN_BYTE_EXACT_SCHEMA"
+    },
+    {
+      "source_reference": "baseline/b0-0.1/contracts/roots/name-only.json",
+      "source_member": "sources/v011-members/baseline/b0-0.1/contracts/roots/name-only.json",
+      "source_raw": {
+        "bytes": 8918,
+        "sha256": "9d9fe13e6f08be95c97d1408673cacd31d09b8979ecdb233a28cd8367350bf81",
+        "git_blob": "06bb581972f679ee563a78dd9d9c861dbb7ae667"
+      },
+      "alias": "name-only",
+      "target": "schemas/B0_CONTRACTS.schema.json",
+      "json_pointer": "/$defs/RootDescriptor/enum/4",
+      "canonical_json_sha256": "bb24a51397e8ac4ed55f198172fa74e7a32f9c40dd8cbaa1d813cb5fb3718d34",
+      "transformation": "EXACT_PARSED_VALUE_ALREADY_EMBEDDED_IN_BYTE_EXACT_SCHEMA"
+    },
+    {
+      "source_reference": "baseline/b0-0.1/contracts/roots/ROOT-R1.json",
+      "source_member": "sources/v011-members/baseline/b0-0.1/contracts/roots/ROOT-R1.json",
+      "source_raw": {
+        "bytes": 7967,
+        "sha256": "2813f4baf6fb64d318b91c2fa2cce8f378c10b1747f53e947441ceec0253a708",
+        "git_blob": "ed03a1e046c49361d9360f9fdc2b6300501c9bb5"
+      },
+      "alias": "ROOT-R1",
+      "target": "schemas/B0_CONTRACTS.schema.json",
+      "json_pointer": "/$defs/RootDescriptor/enum/5",
+      "canonical_json_sha256": "92abbb9168f99a5e5c91864260efd4b2fd937e51b2e5a5bd98d4cb1bac43692c",
+      "transformation": "EXACT_PARSED_VALUE_ALREADY_EMBEDDED_IN_BYTE_EXACT_SCHEMA"
+    },
+    {
+      "source_reference": "baseline/b0-0.1/contracts/roots/ROOT-SAME-KNEW.json",
+      "source_member": "sources/v011-members/baseline/b0-0.1/contracts/roots/ROOT-SAME-KNEW.json",
+      "source_raw": {
+        "bytes": 7974,
+        "sha256": "e44dd4903f83b9d1021efbb11e2bf1713c14c7b279d59cfb5972c1403c1f527c",
+        "git_blob": "85667e1ff962bd3fdf13aca13bccec4dd8732830"
+      },
+      "alias": "ROOT-SAME-KNEW",
+      "target": "schemas/B0_CONTRACTS.schema.json",
+      "json_pointer": "/$defs/RootDescriptor/enum/6",
+      "canonical_json_sha256": "4669f80eb2d1f7ff062cb073100293505449c12f670667bd057cbedeaa17865b",
+      "transformation": "EXACT_PARSED_VALUE_ALREADY_EMBEDDED_IN_BYTE_EXACT_SCHEMA"
+    },
+    {
+      "source_reference": "baseline/b0-0.1/contracts/roots/ROOT-R2.json",
+      "source_member": "sources/v011-members/baseline/b0-0.1/contracts/roots/ROOT-R2.json",
+      "source_raw": {
+        "bytes": 7967,
+        "sha256": "3b95bf98c6a21186516aeb3468acccb12f43f1039db390ad5b2fc4625dfc4b16",
+        "git_blob": "a040b3dd6026cd141f2cd0118eb288217162bbaf"
+      },
+      "alias": "ROOT-R2",
+      "target": "schemas/B0_CONTRACTS.schema.json",
+      "json_pointer": "/$defs/RootDescriptor/enum/7",
+      "canonical_json_sha256": "12f45c6a7cf0b8f754cb15334bada934b9ac02f3836942e24645b9facc8369fa",
+      "transformation": "EXACT_PARSED_VALUE_ALREADY_EMBEDDED_IN_BYTE_EXACT_SCHEMA"
+    },
+    {
+      "source_reference": "baseline/b0-0.1/contracts/roots/ROOT-R2-SE.json",
+      "source_member": "sources/v011-members/baseline/b0-0.1/contracts/roots/ROOT-R2-SE.json",
+      "source_raw": {
+        "bytes": 7970,
+        "sha256": "bb50df96258ff21da4629462ff6e19fda0319cfedb5fcd4179dd42655c779f70",
+        "git_blob": "9fb10735ba2a5f0b32c14da2a3d3fafe9341fe66"
+      },
+      "alias": "ROOT-R2-SE",
+      "target": "schemas/B0_CONTRACTS.schema.json",
+      "json_pointer": "/$defs/RootDescriptor/enum/8",
+      "canonical_json_sha256": "c330b7e26570d78e10ca30e09db2d09a12aacfa640d6f1c7643d9a980552f4f7",
+      "transformation": "EXACT_PARSED_VALUE_ALREADY_EMBEDDED_IN_BYTE_EXACT_SCHEMA"
+    },
+    {
+      "source_reference": "baseline/b0-0.1/contracts/roots/ROOT-R2-ALONE.json",
+      "source_member": "sources/v011-members/baseline/b0-0.1/contracts/roots/ROOT-R2-ALONE.json",
+      "source_raw": {
+        "bytes": 7973,
+        "sha256": "a8f0c7017ce6bc4366dcdd1df98324f0186285027dd47e61f4bb7aa698226f59",
+        "git_blob": "879b8937caaf8b1949f715ce885c2624146b8acf"
+      },
+      "alias": "ROOT-R2-ALONE",
+      "target": "schemas/B0_CONTRACTS.schema.json",
+      "json_pointer": "/$defs/RootDescriptor/enum/9",
+      "canonical_json_sha256": "5f3bcc1d5d4b90dd0bada59dce3060185e0538b31beee6191666b30cd70a0e27",
+      "transformation": "EXACT_PARSED_VALUE_ALREADY_EMBEDDED_IN_BYTE_EXACT_SCHEMA"
+    },
+    {
+      "source_reference": "baseline/b0-0.1/contracts/roots/ROOT-FORGED-LABEL.json",
+      "source_member": "sources/v011-members/baseline/b0-0.1/contracts/roots/ROOT-FORGED-LABEL.json",
+      "source_raw": {
+        "bytes": 7977,
+        "sha256": "c141be8435ef3aa05ad98454d7cedf339eb592961fe1f200f0ff45dd1da3e1b9",
+        "git_blob": "869616ae6598a00017b799165b2411e3d4d4e048"
+      },
+      "alias": "ROOT-FORGED-LABEL",
+      "target": "schemas/B0_CONTRACTS.schema.json",
+      "json_pointer": "/$defs/RootDescriptor/enum/10",
+      "canonical_json_sha256": "be1479e0bb7ff7fe1501dd07cbc7775e74715ef7d9d521adf231593b077ce72e",
+      "transformation": "EXACT_PARSED_VALUE_ALREADY_EMBEDDED_IN_BYTE_EXACT_SCHEMA"
+    },
+    {
+      "source_reference": "baseline/b0-0.1/contracts/roots/ROOT-NO-GRANT.json",
+      "source_member": "sources/v011-members/baseline/b0-0.1/contracts/roots/ROOT-NO-GRANT.json",
+      "source_raw": {
+        "bytes": 7635,
+        "sha256": "6fcc4afca42c00250689cc2fb8b09ebc824e0315fa16e10ef8ee7b93ad0a8c46",
+        "git_blob": "8cf7341a166e35c16f05d94d3591c21e629e3370"
+      },
+      "alias": "ROOT-NO-GRANT",
+      "target": "schemas/B0_CONTRACTS.schema.json",
+      "json_pointer": "/$defs/RootDescriptor/enum/11",
+      "canonical_json_sha256": "76b69350becdf451f9a870f0b32de786a0ce18330fc7c58e9e61329badb1a41e",
+      "transformation": "EXACT_PARSED_VALUE_ALREADY_EMBEDDED_IN_BYTE_EXACT_SCHEMA"
+    },
+    {
+      "source_reference": "baseline/b0-0.1/contracts/roots/SCOPE-UNVERIFIED.json",
+      "source_member": "sources/v011-members/baseline/b0-0.1/contracts/roots/SCOPE-UNVERIFIED.json",
+      "source_raw": {
+        "bytes": 7976,
+        "sha256": "00764512a70a1bc60eab619b490f2ac485bafaa0314ec62a0c69df95493794a5",
+        "git_blob": "6a402e95fa462d75611ce117b35b3027772ebfa6"
+      },
+      "alias": "SCOPE-UNVERIFIED",
+      "target": "schemas/B0_CONTRACTS.schema.json",
+      "json_pointer": "/$defs/RootDescriptor/enum/12",
+      "canonical_json_sha256": "f505fc836406b2deca25ae4681bf361068624d7b492fc25ae5be5407ad5fd53a",
+      "transformation": "EXACT_PARSED_VALUE_ALREADY_EMBEDDED_IN_BYTE_EXACT_SCHEMA"
+    },
+    {
+      "source_reference": "baseline/b0-0.1/contracts/roots/SCOPE-STALE.json",
+      "source_member": "sources/v011-members/baseline/b0-0.1/contracts/roots/SCOPE-STALE.json",
+      "source_raw": {
+        "bytes": 8722,
+        "sha256": "618ce5c43a9729508f7c136c88eac196126b21336d0032d9ca96984895cadcff",
+        "git_blob": "37c1cc81a7ce753a056fe588a7bb2e2ef22f0480"
+      },
+      "alias": "SCOPE-STALE",
+      "target": "schemas/B0_CONTRACTS.schema.json",
+      "json_pointer": "/$defs/RootDescriptor/enum/13",
+      "canonical_json_sha256": "acaed35931033f69f5eed295410dd6925a4922899d892f9d0ac263b0545e2a35",
+      "transformation": "EXACT_PARSED_VALUE_ALREADY_EMBEDDED_IN_BYTE_EXACT_SCHEMA"
+    },
+    {
+      "source_reference": "baseline/b0-0.1/contracts/roots/SCOPE-IRRELEVANT.json",
+      "source_member": "sources/v011-members/baseline/b0-0.1/contracts/roots/SCOPE-IRRELEVANT.json",
+      "source_raw": {
+        "bytes": 7976,
+        "sha256": "63ae915738dc73167d9c017f1773aee81444036d80114a89f6a99434ce6bc283",
+        "git_blob": "0db9c13b8c70335953f4ddf7870c305fe4445af1"
+      },
+      "alias": "SCOPE-IRRELEVANT",
+      "target": "schemas/B0_CONTRACTS.schema.json",
+      "json_pointer": "/$defs/RootDescriptor/enum/14",
+      "canonical_json_sha256": "2d2c08b5af14acd567f6fff0a860a3df21db3cf6d4877d3036e67e43f7f5fd75",
+      "transformation": "EXACT_PARSED_VALUE_ALREADY_EMBEDDED_IN_BYTE_EXACT_SCHEMA"
+    },
+    {
+      "source_reference": "baseline/b0-0.1/contracts/roots/SCOPE-FORGED-GRANT.json",
+      "source_member": "sources/v011-members/baseline/b0-0.1/contracts/roots/SCOPE-FORGED-GRANT.json",
+      "source_raw": {
+        "bytes": 8429,
+        "sha256": "b4e453972724e6bc6bede6c0e07f39083e6c8136a7217215cfdf7b20ac6b22e8",
+        "git_blob": "b9bdb228edb5c72f2cd70ad2e9fae8befb67c9dd"
+      },
+      "alias": "SCOPE-FORGED-GRANT",
+      "target": "schemas/B0_CONTRACTS.schema.json",
+      "json_pointer": "/$defs/RootDescriptor/enum/15",
+      "canonical_json_sha256": "ff3b0fab8e5a0485ad948e55346f4923741ca49998150a138300bbda295e22e2",
+      "transformation": "EXACT_PARSED_VALUE_ALREADY_EMBEDDED_IN_BYTE_EXACT_SCHEMA"
+    },
+    {
+      "source_reference": "baseline/b0-0.1/contracts/roots/SCOPE-STALE-AFTER-R1.json",
+      "source_member": "sources/v011-members/baseline/b0-0.1/contracts/roots/SCOPE-STALE-AFTER-R1.json",
+      "source_raw": {
+        "bytes": 8731,
+        "sha256": "7ab0906957ac3de59839b38f7d4a738ae056d9fccbee5e00d6a849ad91b29ced",
+        "git_blob": "c9f0471e0426b29ca1a225deac34db02f3abfb54"
+      },
+      "alias": "SCOPE-STALE-AFTER-R1",
+      "target": "schemas/B0_CONTRACTS.schema.json",
+      "json_pointer": "/$defs/RootDescriptor/enum/16",
+      "canonical_json_sha256": "ce6ef383749f0cc6b330302534b99b1b8754e84f5e314f03d2dc3d97eea44091",
+      "transformation": "EXACT_PARSED_VALUE_ALREADY_EMBEDDED_IN_BYTE_EXACT_SCHEMA"
+    },
+    {
+      "source_reference": "baseline/b0-0.1/contracts/roots/opening-clean.json",
+      "source_member": "sources/v011-members/baseline/b0-0.1/contracts/roots/opening-clean.json",
+      "source_raw": {
+        "bytes": 7968,
+        "sha256": "d8ef29144d94b8a44867d83928a863c9517dadbe4b25585393276600d321d9a1",
+        "git_blob": "4818c5b01fd7f23e2bdba53d71b43a903175f232"
+      },
+      "alias": "opening-clean",
+      "target": "schemas/B0_CONTRACTS.schema.json",
+      "json_pointer": "/$defs/RootDescriptor/enum/17",
+      "canonical_json_sha256": "2aaeabde560762a0b0a2310d0d70c32d882f5164f18d85c45c3eafcf76719856",
+      "transformation": "EXACT_PARSED_VALUE_ALREADY_EMBEDDED_IN_BYTE_EXACT_SCHEMA"
+    },
+    {
+      "source_reference": "baseline/b0-0.1/contracts/roots/opening-unused-same-label.json",
+      "source_member": "sources/v011-members/baseline/b0-0.1/contracts/roots/opening-unused-same-label.json",
+      "source_raw": {
+        "bytes": 7979,
+        "sha256": "c309fe1bdd278fe3d751e3e4c2586b13f0e249d9f66860ee71d841ad1a91f055",
+        "git_blob": "cfc7f130d5ffab45abaf103fff8d03f310d2dc3f"
+      },
+      "alias": "opening-unused-same-label",
+      "target": "schemas/B0_CONTRACTS.schema.json",
+      "json_pointer": "/$defs/RootDescriptor/enum/18",
+      "canonical_json_sha256": "ef7bfcae8acd33a8e5b7f80eadba6f4f65597693f3e49d9e384428287a264924",
+      "transformation": "EXACT_PARSED_VALUE_ALREADY_EMBEDDED_IN_BYTE_EXACT_SCHEMA"
+    },
+    {
+      "source_reference": "baseline/b0-0.1/contracts/roots/config-C0.json",
+      "source_member": "sources/v011-members/baseline/b0-0.1/contracts/roots/config-C0.json",
+      "source_raw": {
+        "bytes": 4164,
+        "sha256": "0f6c7ef9a8aa55dc55490329a5ebea5ef8cac6cad6d255a64e497b82895141a0",
+        "git_blob": "138ff6efbf480bbce4f64b77a8f36b89b93cf761"
+      },
+      "alias": "config-C0",
+      "target": "schemas/B0_CONTRACTS.schema.json",
+      "json_pointer": "/$defs/RootDescriptor/enum/19",
+      "canonical_json_sha256": "a45036b17e1d3381b78ffb026b2c8e66667e246a2a4afbb6cd81f1414bdb35f6",
+      "transformation": "EXACT_PARSED_VALUE_ALREADY_EMBEDDED_IN_BYTE_EXACT_SCHEMA"
+    },
+    {
+      "source_reference": "baseline/b0-0.1/contracts/roots/config-C1.json",
+      "source_member": "sources/v011-members/baseline/b0-0.1/contracts/roots/config-C1.json",
+      "source_raw": {
+        "bytes": 7241,
+        "sha256": "f23540b19984e7c84d0120349265be64c569536393e73f58dda033bc121741a9",
+        "git_blob": "31366a8c51597d31c316e103f4c6f715ce22bc32"
+      },
+      "alias": "config-C1",
+      "target": "schemas/B0_CONTRACTS.schema.json",
+      "json_pointer": "/$defs/RootDescriptor/enum/20",
+      "canonical_json_sha256": "c5ed4babe8fa19c06881015e44567953adc5f9a87112ff3a75865d774e74481a",
+      "transformation": "EXACT_PARSED_VALUE_ALREADY_EMBEDDED_IN_BYTE_EXACT_SCHEMA"
+    },
+    {
+      "source_reference": "baseline/b0-0.1/contracts/roots/config-C2.json",
+      "source_member": "sources/v011-members/baseline/b0-0.1/contracts/roots/config-C2.json",
+      "source_raw": {
+        "bytes": 7963,
+        "sha256": "52acc9064a07d0141f0f596e7cf88635715e4f22c56abd7a45dec9c43b5aacb5",
+        "git_blob": "a84a3865e3c8ae1f50347a3eb183bcb34395aa09"
+      },
+      "alias": "config-C2",
+      "target": "schemas/B0_CONTRACTS.schema.json",
+      "json_pointer": "/$defs/RootDescriptor/enum/21",
+      "canonical_json_sha256": "9c47c0ae003b48a8e01bc749e64923874a2878f7129cd58a2d9719feaa13c9d5",
+      "transformation": "EXACT_PARSED_VALUE_ALREADY_EMBEDDED_IN_BYTE_EXACT_SCHEMA"
+    },
+    {
+      "source_reference": "baseline/b0-0.1/contracts/roots/presentation-normal.json",
+      "source_member": "sources/v011-members/baseline/b0-0.1/contracts/roots/presentation-normal.json",
+      "source_raw": {
+        "bytes": 8173,
+        "sha256": "b0316ab7931361d6acd6155b8140f5a347f701546df932db6b143d17d2de67ad",
+        "git_blob": "d7199ff9e0abc0cca9ce7db7fc0822c5795b5235"
+      },
+      "alias": "presentation-normal",
+      "target": "schemas/B0_CONTRACTS.schema.json",
+      "json_pointer": "/$defs/RootDescriptor/enum/22",
+      "canonical_json_sha256": "97b0babcf08f02b486c33b83cee0a1d99dde919f3d14e4b1d76f13a51b5e342d",
+      "transformation": "EXACT_PARSED_VALUE_ALREADY_EMBEDDED_IN_BYTE_EXACT_SCHEMA"
+    },
+    {
+      "source_reference": "baseline/b0-0.1/contracts/roots/presentation-fallback.json",
+      "source_member": "sources/v011-members/baseline/b0-0.1/contracts/roots/presentation-fallback.json",
+      "source_raw": {
+        "bytes": 8177,
+        "sha256": "86eef4e23c37b4ca3073b3c3d643e3a119ff428924b30f802d212d701f7aaadb",
+        "git_blob": "fc6839d4e10bf8a5e29190f50243a9df4d58c6dd"
+      },
+      "alias": "presentation-fallback",
+      "target": "schemas/B0_CONTRACTS.schema.json",
+      "json_pointer": "/$defs/RootDescriptor/enum/23",
+      "canonical_json_sha256": "0a3ae2a4804418e15e840874ecc4f62c41d46b93fce172fb0c53a27ef5374598",
+      "transformation": "EXACT_PARSED_VALUE_ALREADY_EMBEDDED_IN_BYTE_EXACT_SCHEMA"
+    },
+    {
+      "source_reference": "baseline/b0-0.1/contracts/roots/presentation-artless.json",
+      "source_member": "sources/v011-members/baseline/b0-0.1/contracts/roots/presentation-artless.json",
+      "source_raw": {
+        "bytes": 8175,
+        "sha256": "aa93d2ae993d2e348965de8659692a9b8f78ec977b886681c728c222e1ee7394",
+        "git_blob": "41fbe1328ff7bb5d94005e25e208a76107021afb"
+      },
+      "alias": "presentation-artless",
+      "target": "schemas/B0_CONTRACTS.schema.json",
+      "json_pointer": "/$defs/RootDescriptor/enum/24",
+      "canonical_json_sha256": "31b6b30cdf467176a41c2fb02bf265b4de7f28cc7ae5b72c45ca1492d0426828",
+      "transformation": "EXACT_PARSED_VALUE_ALREADY_EMBEDDED_IN_BYTE_EXACT_SCHEMA"
+    },
+    {
+      "source_reference": "examples/ROOT_local-id-rename.json",
+      "source_member": "examples/ROOT_local-id-rename.json",
+      "source_raw": {
+        "bytes": 8023,
+        "sha256": "4f2ffd21a1fc2d621c46bdc26a23a861fe80218bfe3dc6edfcf77bb05252b996",
+        "git_blob": "65f06750f0bdd3b596d6f532fdc17545acdbc173"
+      },
+      "alias": "local-id-rename",
+      "target": "schemas/B0_CONTRACTS.schema.json",
+      "json_pointer": "/$defs/RootDescriptor/enum/25",
+      "canonical_json_sha256": "86877dc1d4bea11a45a326401d481d2a030143b4b6040bc80a1daf93faac6733",
+      "transformation": "EXACT_PARSED_VALUE_ALREADY_EMBEDDED_IN_BYTE_EXACT_SCHEMA"
+    },
+    {
+      "source_reference": "examples/ROOT_label-only.json",
+      "source_member": "examples/ROOT_label-only.json",
+      "source_raw": {
+        "bytes": 7975,
+        "sha256": "d7d9528b2955650d9635ee64a0ec2404b1e86b42690945f2787c58399712af36",
+        "git_blob": "a89345751ab21756368321fa2dadbd3950a94283"
+      },
+      "alias": "label-only",
+      "target": "schemas/B0_CONTRACTS.schema.json",
+      "json_pointer": "/$defs/RootDescriptor/enum/26",
+      "canonical_json_sha256": "06a332dd3f9aa2ff6476ce8d7571dca2d97c2d383e36d08e2f6435c7e52ec953",
+      "transformation": "EXACT_PARSED_VALUE_ALREADY_EMBEDDED_IN_BYTE_EXACT_SCHEMA"
+    },
+    {
+      "source_reference": "examples/ROOT_duplicate-labels.json",
+      "source_member": "examples/ROOT_duplicate-labels.json",
+      "source_raw": {
+        "bytes": 7981,
+        "sha256": "f530d367ee39a9b7a88130a523dba8b90295c7d8b6b8a3013dc771d61b4f9c82",
+        "git_blob": "205ef737bc3d3e056731fa005f1712012c239580"
+      },
+      "alias": "duplicate-labels",
+      "target": "schemas/B0_CONTRACTS.schema.json",
+      "json_pointer": "/$defs/RootDescriptor/enum/27",
+      "canonical_json_sha256": "3f37750fef0bcbbcb9fa0b310cb26c3d99cbedfc83bb088afcae3ac27fbb7d73",
+      "transformation": "EXACT_PARSED_VALUE_ALREADY_EMBEDDED_IN_BYTE_EXACT_SCHEMA"
+    },
+    {
+      "source_reference": "B0_V012_C0_PROPOSAL_ADMISSION_CONTRACT.md",
+      "source_member": "B0_V012_C0_PROPOSAL_ADMISSION_CONTRACT.md",
+      "target": "B0_V012_C0_PROPOSAL_ADMISSION_CONTRACT.md",
+      "json_pointer": "",
+      "source_raw": {
+        "bytes": 5887,
+        "sha256": "ff978b8d1cae9a548b9fd2cf4a60cf7dd7c5fc9a5c937048b4dc70d73f886e3f",
+        "git_blob": "4e45697e630601cc77e74362f3a8d63dd92f6c94"
+      },
+      "transformation": "BYTE_EXACT_COPY"
+    },
+    {
+      "source_reference": "contracts/C0_SEND_PROPOSAL_AUTHORITY.json",
+      "source_member": "contracts/C0_SEND_PROPOSAL_AUTHORITY.json",
+      "target": "contracts/C0_SEND_PROPOSAL_AUTHORITY.json",
+      "json_pointer": "",
+      "source_raw": {
+        "bytes": 2108,
+        "sha256": "7b4ffd79f44e02cf553503a117e159ff46cbc8bdacb1d1f91a2a99f668a381f3",
+        "git_blob": "37ea865d48e60b7b8c96c8b963844d15f07520a5"
+      },
+      "transformation": "BYTE_EXACT_COPY"
+    },
+    {
+      "source_reference": "contracts/C0_SEND_PROPOSAL_CONTROL.json",
+      "source_member": "contracts/C0_SEND_PROPOSAL_CONTROL.json",
+      "target": "contracts/C0_SEND_PROPOSAL_CONTROL.json",
+      "json_pointer": "",
+      "source_raw": {
+        "bytes": 21329,
+        "sha256": "9822b8029c74bb089bbff80819e8b275c31559510ccdaa80dff1f7e80fa9e7ed",
+        "git_blob": "ff140e3b63196906e50ec09d94edf6ef547b3582"
+      },
+      "transformation": "BYTE_EXACT_COPY"
+    },
+    {
+      "source_reference": "contracts/CASE_INVOCATIONS.json",
+      "source_member": "contracts/CASE_INVOCATIONS.json",
+      "target": "contracts/CASE_INVOCATIONS.json",
+      "json_pointer": "",
+      "source_raw": {
+        "bytes": 214335,
+        "sha256": "01177b95e8dc9a5da2d9ffcd0a14b2059279770382f310eec8667e354b5292a1",
+        "git_blob": "56bf7135dcb34a96fe1020f38b815d0c4d177ffe"
+      },
+      "transformation": "BYTE_EXACT_COPY"
+    },
+    {
+      "source_reference": "contracts/CHECKPOINT_CONTRACT.json",
+      "source_member": "contracts/CHECKPOINT_CONTRACT.json",
+      "target": "contracts/CHECKPOINT_CONTRACT.json",
+      "json_pointer": "",
+      "source_raw": {
+        "bytes": 6213,
+        "sha256": "b734cd372a3515791f48970b85a0aefeb88d098c586d89d67185bc6d76227852",
+        "git_blob": "bb1affce396842d4b072dea1b519185c12791cc6"
+      },
+      "transformation": "BYTE_EXACT_COPY"
+    },
+    {
+      "source_reference": "contracts/HASH_FIELD_COVERAGE.json",
+      "source_member": "contracts/HASH_FIELD_COVERAGE.json",
+      "target": "contracts/HASH_FIELD_COVERAGE.json",
+      "json_pointer": "",
+      "source_raw": {
+        "bytes": 36883,
+        "sha256": "6a2672fa3e3203de3e47316dc8bd2dbde26a2e6fbcaf1a3efe7407c083991eb5",
+        "git_blob": "89f058e99e76486404d7ee05d53d8dc6ce183a47"
+      },
+      "transformation": "BYTE_EXACT_COPY"
+    },
+    {
+      "source_reference": "contracts/HASH_PREIMAGE_REGISTRY.json",
+      "source_member": "contracts/HASH_PREIMAGE_REGISTRY.json",
+      "target": "contracts/HASH_PREIMAGE_REGISTRY.json",
+      "json_pointer": "",
+      "source_raw": {
+        "bytes": 22129,
+        "sha256": "ddcc3cd99e1b250a67c43630f37340611ea8c0bd4dd099ae58b05fd02aa96542",
+        "git_blob": "f156dcdf17c18cf4ae755234d55ed085adf4f4f9"
+      },
+      "transformation": "BYTE_EXACT_COPY"
+    },
+    {
+      "source_reference": "contracts/LEGACY_INVOCATIONS.json",
+      "source_member": "contracts/LEGACY_INVOCATIONS.json",
+      "target": "contracts/LEGACY_INVOCATIONS.json",
+      "json_pointer": "",
+      "source_raw": {
+        "bytes": 12622,
+        "sha256": "472e9401be10638e24c0ff229bb0157f141a4379071cd1da8bc0131ee4238a07",
+        "git_blob": "598624a1c4e7460a82dd9e1173ad68e26529d401"
+      },
+      "transformation": "BYTE_EXACT_COPY"
+    },
+    {
+      "source_reference": "contracts/PRESENTATION_BOUNDARY.json",
+      "source_member": "contracts/PRESENTATION_BOUNDARY.json",
+      "target": "contracts/PRESENTATION_BOUNDARY.json",
+      "json_pointer": "",
+      "source_raw": {
+        "bytes": 1715,
+        "sha256": "d75c96c6073bc3a2f6f7263c64558e5802eb9d78a3b9e20e784a722bd2185b07",
+        "git_blob": "6a96a4e65569e677c2142ca3a9715578bf72ff9a"
+      },
+      "transformation": "BYTE_EXACT_COPY"
+    },
+    {
+      "source_reference": "contracts/ROOT_BLUEPRINTS.json",
+      "source_member": "contracts/ROOT_BLUEPRINTS.json",
+      "target": "contracts/ROOT_BLUEPRINTS.json",
+      "json_pointer": "",
+      "source_raw": {
+        "bytes": 7151,
+        "sha256": "56d4dc5ecb55b0f0644e2e07ea09beb8fbeb475fcf3b834c25d98cf228c0ea80",
+        "git_blob": "ce74910227a09535202a2cdf57c30d24d2f77c9f"
+      },
+      "transformation": "BYTE_EXACT_COPY"
+    },
+    {
+      "source_reference": "contracts/TRANSPORT_AND_CONTROL.json",
+      "source_member": "contracts/TRANSPORT_AND_CONTROL.json",
+      "target": "contracts/TRANSPORT_AND_CONTROL.json",
+      "json_pointer": "",
+      "source_raw": {
+        "bytes": 18765,
+        "sha256": "d49133c6d91a3739844f4e25285988de65d84f66f43ca3a754253ca4eeb236a4",
+        "git_blob": "743847096f6b7539893db39cda45d0d11de2753f"
+      },
+      "transformation": "BYTE_EXACT_COPY"
+    },
+    {
+      "source_reference": "contracts/V012_CASE_BINDINGS.json",
+      "source_member": "contracts/V012_CASE_BINDINGS.json",
+      "target": "contracts/V012_CASE_BINDINGS.json",
+      "json_pointer": "",
+      "source_raw": {
+        "bytes": 233536,
+        "sha256": "b6cfae04b633eafefeb13150cbce179d01bc02b042dc02eaf9a00a737b1605f2",
+        "git_blob": "c18b4f132ec26e4c34238344d1cfb9eb4521a4a9"
+      },
+      "transformation": "BYTE_EXACT_COPY"
+    },
+    {
+      "source_reference": "examples/FINITE_DRAFTS_AND_OUTWARDS.json",
+      "source_member": "examples/FINITE_DRAFTS_AND_OUTWARDS.json",
+      "target": "examples/FINITE_DRAFTS_AND_OUTWARDS.json",
+      "json_pointer": "",
+      "source_raw": {
+        "bytes": 24543,
+        "sha256": "4654304238f344a296db40c6c1f70f759461e060b0a679df5d4402ab750c6967",
+        "git_blob": "7ff283305cf7aa275d8bd3c53abdf9d4f09fb451"
+      },
+      "transformation": "BYTE_EXACT_COPY"
+    },
+    {
+      "source_reference": "examples/RENAMED_SOURCE_ARTIFACT.json",
+      "source_member": "examples/RENAMED_SOURCE_ARTIFACT.json",
+      "target": "examples/RENAMED_SOURCE_ARTIFACT.json",
+      "json_pointer": "",
+      "source_raw": {
+        "bytes": 550,
+        "sha256": "4303f8c885c99bc955f38a7660b271ef0414704940a27e2a823bdc93dfc76b60",
+        "git_blob": "c3c203954239ec3a22c4aaa41ccb4c128c5170d6"
+      },
+      "transformation": "BYTE_EXACT_COPY"
+    },
+    {
+      "source_reference": "oracles/C03_EXPECTED_PRECHOICE_INPUT.json",
+      "source_member": "oracles/C03_EXPECTED_PRECHOICE_INPUT.json",
+      "target": "oracles/C03_EXPECTED_PRECHOICE_INPUT.json",
+      "json_pointer": "",
+      "source_raw": {
+        "bytes": 2312,
+        "sha256": "8ed9d3b2c80038af26e61f5b467e7111f56d3b251aeb476740b81579e2d4dcff",
+        "git_blob": "1a95b5c5c503b54c2b54909825dfcae7bc3e6011"
+      },
+      "transformation": "BYTE_EXACT_COPY"
+    },
+    {
+      "source_reference": "oracles/C03_EXPECTED_RAW_CHOICE_OUTPUT.json",
+      "source_member": "oracles/C03_EXPECTED_RAW_CHOICE_OUTPUT.json",
+      "target": "oracles/C03_EXPECTED_RAW_CHOICE_OUTPUT.json",
+      "json_pointer": "",
+      "source_raw": {
+        "bytes": 470,
+        "sha256": "9d1e4136a3c140b2da1551b66fc1bdac2f6e1aacd3103f08b66b3deae82f9a96",
+        "git_blob": "2c6487f40b5e5c8c77734276ee235194c8e91f4b"
+      },
+      "transformation": "BYTE_EXACT_COPY"
+    },
+    {
+      "source_reference": "oracles/PRESENTATION_EXPECTATIONS.json",
+      "source_member": "oracles/PRESENTATION_EXPECTATIONS.json",
+      "target": "oracles/PRESENTATION_EXPECTATIONS.json",
+      "json_pointer": "",
+      "source_raw": {
+        "bytes": 4491,
+        "sha256": "9e2c429dbaef7c17125320576fa55edb743be023de8129696bd18f87b102d93f",
+        "git_blob": "418b7c6ac44639412a998047615f165d1d15e39e"
+      },
+      "transformation": "BYTE_EXACT_COPY"
+    },
+    {
+      "source_reference": "oracles/V012_EXPECTED_DATA.json",
+      "source_member": "oracles/V012_EXPECTED_DATA.json",
+      "target": "oracles/V012_EXPECTED_DATA.json",
+      "json_pointer": "",
+      "source_raw": {
+        "bytes": 15738,
+        "sha256": "d5edb50b5fd218c68ecf7f56f0c10071af3a7e8e5a51d6f6aa9bffbfdc9219b7",
+        "git_blob": "01ce810e7a3e6e0a9174217082e1f270c7c9da7f"
+      },
+      "transformation": "BYTE_EXACT_COPY"
+    },
+    {
+      "source_reference": "oracles/V012_STATIC_COUNTEREXAMPLES.json",
+      "source_member": "oracles/V012_STATIC_COUNTEREXAMPLES.json",
+      "target": "oracles/V012_STATIC_COUNTEREXAMPLES.json",
+      "json_pointer": "",
+      "source_raw": {
+        "bytes": 1072,
+        "sha256": "a76c273491cb7b68ba29627a0bbef09d72233b2771802ff57228836955cc3ec7",
+        "git_blob": "1cfb0b5661e0c4ba6ec1f836c5359d1ced4922da"
+      },
+      "transformation": "BYTE_EXACT_COPY"
+    },
+    {
+      "source_reference": "schemas/B0_CONTRACTS.schema.json",
+      "source_member": "schemas/B0_CONTRACTS.schema.json",
+      "target": "schemas/B0_CONTRACTS.schema.json",
+      "json_pointer": "",
+      "source_raw": {
+        "bytes": 484634,
+        "sha256": "5e1e8dc52aa936261cb39ddd1548525a5bd2e4285b120678ad59b86431cbcfb6",
+        "git_blob": "b6f5e88a19e844e244b8eccc959a1ca416766e26"
+      },
+      "transformation": "BYTE_EXACT_COPY"
+    },
+    {
+      "source_reference": "vectors/CHECKPOINT_LOSS_VECTORS.json",
+      "source_member": "vectors/CHECKPOINT_LOSS_VECTORS.json",
+      "target": "vectors/CHECKPOINT_LOSS_VECTORS.json",
+      "json_pointer": "",
+      "source_raw": {
+        "bytes": 224145,
+        "sha256": "20c89fd2b92645739759294b7942118a12810eb2d6b8f3c0d9534f9d6093287b",
+        "git_blob": "85b2ddc40580b56ee301d9b5785998b3e306f519"
+      },
+      "transformation": "BYTE_EXACT_COPY"
+    },
+    {
+      "source_reference": "vectors/DOCUMENT_BYTE_INPUTS.json",
+      "source_member": "vectors/DOCUMENT_BYTE_INPUTS.json",
+      "target": "vectors/DOCUMENT_BYTE_INPUTS.json",
+      "json_pointer": "",
+      "source_raw": {
+        "bytes": 529542,
+        "sha256": "141b986f7c2ee21ba9fe42b3fc5c7ea9c7c55c649da8f9dbd2aa5f37ce4624bf",
+        "git_blob": "13c9f2170b52efc10c89bc51031d873be13942f9"
+      },
+      "transformation": "BYTE_EXACT_COPY"
+    },
+    {
+      "source_reference": "vectors/HAND_WRITTEN_ENCODING_CONTROLS.json",
+      "source_member": "vectors/HAND_WRITTEN_ENCODING_CONTROLS.json",
+      "target": "vectors/HAND_WRITTEN_ENCODING_CONTROLS.json",
+      "json_pointer": "",
+      "source_raw": {
+        "bytes": 2061,
+        "sha256": "b992a114b4991228525b0f8d02f94af0944a410d0abcf140afcb284fb4293124",
+        "git_blob": "5c938d65a32a6f81b63ea2826f5e85443db931e2"
+      },
+      "transformation": "BYTE_EXACT_COPY"
+    },
+    {
+      "source_reference": "vectors/V012_DOCUMENT_PREIMAGES.json",
+      "source_member": "vectors/V012_DOCUMENT_PREIMAGES.json",
+      "target": "vectors/V012_DOCUMENT_PREIMAGES.json",
+      "json_pointer": "",
+      "source_raw": {
+        "bytes": 5708,
+        "sha256": "2f0f0daf2f3a40cc2af665b57a31b7d7c62a5b6126cb89ce7e8a3676018dc63a",
+        "git_blob": "0adc326bee36153bf9e56b8d044db72a7f3a1f05"
+      },
+      "transformation": "BYTE_EXACT_COPY"
+    },
+    {
+      "source_reference": "sources/v011-members/baseline/b0-0.1/contracts/reviewed/EXPECTED_ARITHMETIC.json",
+      "source_member": "sources/v011-members/baseline/b0-0.1/contracts/reviewed/EXPECTED_ARITHMETIC.json",
+      "target": "fixtures/reviewed/EXPECTED_ARITHMETIC.json",
+      "json_pointer": "",
+      "source_raw": {
+        "bytes": 2327,
+        "sha256": "b380f106d6abe47d2d41650b615bfe95b131c09ac00198e526491ccb5852413b",
+        "git_blob": "66a8f7cd86de8c3256a78608ea610e74a768ff6e"
+      },
+      "transformation": "BYTE_EXACT_COPY"
+    },
+    {
+      "source_reference": "baseline/b0-0.1/contracts/reviewed/EXPECTED_ARITHMETIC.json",
+      "source_member": "sources/v011-members/baseline/b0-0.1/contracts/reviewed/EXPECTED_ARITHMETIC.json",
+      "target": "fixtures/reviewed/EXPECTED_ARITHMETIC.json",
+      "json_pointer": "",
+      "source_raw": {
+        "bytes": 2327,
+        "sha256": "b380f106d6abe47d2d41650b615bfe95b131c09ac00198e526491ccb5852413b",
+        "git_blob": "66a8f7cd86de8c3256a78608ea610e74a768ff6e"
+      },
+      "transformation": "BYTE_EXACT_COPY"
+    },
+    {
+      "source_reference": "sources/v011-members/baseline/b0-0.1/contracts/reviewed/FALLBACK_PRESENTATION_LITERALS.json",
+      "source_member": "sources/v011-members/baseline/b0-0.1/contracts/reviewed/FALLBACK_PRESENTATION_LITERALS.json",
+      "target": "fixtures/reviewed/FALLBACK_PRESENTATION_LITERALS.json",
+      "json_pointer": "/lines",
+      "source_raw": {
+        "bytes": 1466,
+        "sha256": "3ffb6a4b8dd73c2778d669f662023b006991dd8beed64c5d384eede678639b5d",
+        "git_blob": "12f4bb1ddaee816d5c0dece0ac49c49085c38d5b"
+      },
+      "transformation": "LOSSLESS_UTF8_LINES_WRAPPER_NO_SOURCE_NORMALIZATION",
+      "decode": "UTF8_JOIN_THEN_JSON_PARSE"
+    },
+    {
+      "source_reference": "baseline/b0-0.1/contracts/reviewed/FALLBACK_PRESENTATION_LITERALS.json",
+      "source_member": "sources/v011-members/baseline/b0-0.1/contracts/reviewed/FALLBACK_PRESENTATION_LITERALS.json",
+      "target": "fixtures/reviewed/FALLBACK_PRESENTATION_LITERALS.json",
+      "json_pointer": "/lines",
+      "source_raw": {
+        "bytes": 1466,
+        "sha256": "3ffb6a4b8dd73c2778d669f662023b006991dd8beed64c5d384eede678639b5d",
+        "git_blob": "12f4bb1ddaee816d5c0dece0ac49c49085c38d5b"
+      },
+      "transformation": "LOSSLESS_UTF8_LINES_WRAPPER_NO_SOURCE_NORMALIZATION",
+      "decode": "UTF8_JOIN_THEN_JSON_PARSE"
+    },
+    {
+      "source_reference": "sources/v011-members/baseline/b0-0.1/contracts/reviewed/GF02_C0_C1_POLICY_DESCRIPTORS.json",
+      "source_member": "sources/v011-members/baseline/b0-0.1/contracts/reviewed/GF02_C0_C1_POLICY_DESCRIPTORS.json",
+      "target": "fixtures/reviewed/GF02_C0_C1_POLICY_DESCRIPTORS.json",
+      "json_pointer": "/lines",
+      "source_raw": {
+        "bytes": 2793,
+        "sha256": "b85d719e847ec5637244e9d5bf34e599870c78f80c45a37b59312fa28ced7e2d",
+        "git_blob": "e3bcef17d2e98f4edde8b367bf4c32bd37c0a783"
+      },
+      "transformation": "LOSSLESS_UTF8_LINES_WRAPPER_NO_SOURCE_NORMALIZATION",
+      "decode": "UTF8_JOIN_THEN_JSON_PARSE"
+    },
+    {
+      "source_reference": "baseline/b0-0.1/contracts/reviewed/GF02_C0_C1_POLICY_DESCRIPTORS.json",
+      "source_member": "sources/v011-members/baseline/b0-0.1/contracts/reviewed/GF02_C0_C1_POLICY_DESCRIPTORS.json",
+      "target": "fixtures/reviewed/GF02_C0_C1_POLICY_DESCRIPTORS.json",
+      "json_pointer": "/lines",
+      "source_raw": {
+        "bytes": 2793,
+        "sha256": "b85d719e847ec5637244e9d5bf34e599870c78f80c45a37b59312fa28ced7e2d",
+        "git_blob": "e3bcef17d2e98f4edde8b367bf4c32bd37c0a783"
+      },
+      "transformation": "LOSSLESS_UTF8_LINES_WRAPPER_NO_SOURCE_NORMALIZATION",
+      "decode": "UTF8_JOIN_THEN_JSON_PARSE"
+    },
+    {
+      "source_reference": "sources/v011-members/baseline/b0-0.1/contracts/reviewed/GF02_CLOSED_REPAIR_CATALOG.json",
+      "source_member": "sources/v011-members/baseline/b0-0.1/contracts/reviewed/GF02_CLOSED_REPAIR_CATALOG.json",
+      "target": "fixtures/reviewed/GF02_CLOSED_REPAIR_CATALOG.json",
+      "json_pointer": "/lines",
+      "source_raw": {
+        "bytes": 19514,
+        "sha256": "8d1b4b78cc30ce31b92bb56eedd503b79c862580516b61261f34ac71393184d0",
+        "git_blob": "68530141e00f44d7a7bda5dc83cf2e415f9e4308"
+      },
+      "transformation": "LOSSLESS_UTF8_LINES_WRAPPER_NO_SOURCE_NORMALIZATION",
+      "decode": "UTF8_JOIN_THEN_JSON_PARSE"
+    },
+    {
+      "source_reference": "baseline/b0-0.1/contracts/reviewed/GF02_CLOSED_REPAIR_CATALOG.json",
+      "source_member": "sources/v011-members/baseline/b0-0.1/contracts/reviewed/GF02_CLOSED_REPAIR_CATALOG.json",
+      "target": "fixtures/reviewed/GF02_CLOSED_REPAIR_CATALOG.json",
+      "json_pointer": "/lines",
+      "source_raw": {
+        "bytes": 19514,
+        "sha256": "8d1b4b78cc30ce31b92bb56eedd503b79c862580516b61261f34ac71393184d0",
+        "git_blob": "68530141e00f44d7a7bda5dc83cf2e415f9e4308"
+      },
+      "transformation": "LOSSLESS_UTF8_LINES_WRAPPER_NO_SOURCE_NORMALIZATION",
+      "decode": "UTF8_JOIN_THEN_JSON_PARSE"
+    },
+    {
+      "source_reference": "sources/v011-members/baseline/b0-0.1/contracts/reviewed/GF02_IDENTITIES.json",
+      "source_member": "sources/v011-members/baseline/b0-0.1/contracts/reviewed/GF02_IDENTITIES.json",
+      "target": "fixtures/reviewed/GF02_IDENTITIES.json",
+      "json_pointer": "/lines",
+      "source_raw": {
+        "bytes": 8511,
+        "sha256": "2cd49405cbd87327d64f36fa4c8981436c72c72bb5bb1401533ba9a859d2933f",
+        "git_blob": "d02eaf46111a769ec5ae48154b181d27e8279c8c"
+      },
+      "transformation": "LOSSLESS_UTF8_LINES_WRAPPER_NO_SOURCE_NORMALIZATION",
+      "decode": "UTF8_JOIN_THEN_JSON_PARSE"
+    },
+    {
+      "source_reference": "baseline/b0-0.1/contracts/reviewed/GF02_IDENTITIES.json",
+      "source_member": "sources/v011-members/baseline/b0-0.1/contracts/reviewed/GF02_IDENTITIES.json",
+      "target": "fixtures/reviewed/GF02_IDENTITIES.json",
+      "json_pointer": "/lines",
+      "source_raw": {
+        "bytes": 8511,
+        "sha256": "2cd49405cbd87327d64f36fa4c8981436c72c72bb5bb1401533ba9a859d2933f",
+        "git_blob": "d02eaf46111a769ec5ae48154b181d27e8279c8c"
+      },
+      "transformation": "LOSSLESS_UTF8_LINES_WRAPPER_NO_SOURCE_NORMALIZATION",
+      "decode": "UTF8_JOIN_THEN_JSON_PARSE"
+    },
+    {
+      "source_reference": "sources/v011-members/baseline/b0-0.1/contracts/reviewed/GF02_OPENING_CONTROLS.json",
+      "source_member": "sources/v011-members/baseline/b0-0.1/contracts/reviewed/GF02_OPENING_CONTROLS.json",
+      "target": "fixtures/reviewed/GF02_OPENING_CONTROLS.json",
+      "json_pointer": "/lines",
+      "source_raw": {
+        "bytes": 29712,
+        "sha256": "c9ceff78aaf9b43ae6b06874540ba3998cfd868171145bf5ba68d19427835622",
+        "git_blob": "683c9b98151286f745668b246d0c44f70823b7e5"
+      },
+      "transformation": "LOSSLESS_UTF8_LINES_WRAPPER_NO_SOURCE_NORMALIZATION",
+      "decode": "UTF8_JOIN_THEN_JSON_PARSE"
+    },
+    {
+      "source_reference": "baseline/b0-0.1/contracts/reviewed/GF02_OPENING_CONTROLS.json",
+      "source_member": "sources/v011-members/baseline/b0-0.1/contracts/reviewed/GF02_OPENING_CONTROLS.json",
+      "target": "fixtures/reviewed/GF02_OPENING_CONTROLS.json",
+      "json_pointer": "/lines",
+      "source_raw": {
+        "bytes": 29712,
+        "sha256": "c9ceff78aaf9b43ae6b06874540ba3998cfd868171145bf5ba68d19427835622",
+        "git_blob": "683c9b98151286f745668b246d0c44f70823b7e5"
+      },
+      "transformation": "LOSSLESS_UTF8_LINES_WRAPPER_NO_SOURCE_NORMALIZATION",
+      "decode": "UTF8_JOIN_THEN_JSON_PARSE"
+    },
+    {
+      "source_reference": "sources/v011-members/baseline/b0-0.1/contracts/reviewed/GF02_POLICY_DESCRIPTORS.json",
+      "source_member": "sources/v011-members/baseline/b0-0.1/contracts/reviewed/GF02_POLICY_DESCRIPTORS.json",
+      "target": "fixtures/reviewed/GF02_POLICY_DESCRIPTORS.json",
+      "json_pointer": "/lines",
+      "source_raw": {
+        "bytes": 5113,
+        "sha256": "bec46aefff1be84ae921d84c32749019075da708a62ae536af13013aa6cf6189",
+        "git_blob": "983d3c56c753fa7225fad9b3e3fbd33b55b92d58"
+      },
+      "transformation": "LOSSLESS_UTF8_LINES_WRAPPER_NO_SOURCE_NORMALIZATION",
+      "decode": "UTF8_JOIN_THEN_JSON_PARSE"
+    },
+    {
+      "source_reference": "baseline/b0-0.1/contracts/reviewed/GF02_POLICY_DESCRIPTORS.json",
+      "source_member": "sources/v011-members/baseline/b0-0.1/contracts/reviewed/GF02_POLICY_DESCRIPTORS.json",
+      "target": "fixtures/reviewed/GF02_POLICY_DESCRIPTORS.json",
+      "json_pointer": "/lines",
+      "source_raw": {
+        "bytes": 5113,
+        "sha256": "bec46aefff1be84ae921d84c32749019075da708a62ae536af13013aa6cf6189",
+        "git_blob": "983d3c56c753fa7225fad9b3e3fbd33b55b92d58"
+      },
+      "transformation": "LOSSLESS_UTF8_LINES_WRAPPER_NO_SOURCE_NORMALIZATION",
+      "decode": "UTF8_JOIN_THEN_JSON_PARSE"
+    },
+    {
+      "source_reference": "sources/v011-members/baseline/b0-0.1/contracts/reviewed/GF02_PROPOSED_OPERATION_LEDGER.json",
+      "source_member": "sources/v011-members/baseline/b0-0.1/contracts/reviewed/GF02_PROPOSED_OPERATION_LEDGER.json",
+      "target": "fixtures/reviewed/GF02_PROPOSED_OPERATION_LEDGER.json",
+      "json_pointer": "/lines",
+      "source_raw": {
+        "bytes": 64231,
+        "sha256": "6deabae417669d5cd042c18d5fb871b21bfd5fd712b126806b3ef1defa061ba1",
+        "git_blob": "acbe34a00a1a3486340305322ed4b0e2015da6e9"
+      },
+      "transformation": "LOSSLESS_UTF8_LINES_WRAPPER_NO_SOURCE_NORMALIZATION",
+      "decode": "UTF8_JOIN_THEN_JSON_PARSE"
+    },
+    {
+      "source_reference": "baseline/b0-0.1/contracts/reviewed/GF02_PROPOSED_OPERATION_LEDGER.json",
+      "source_member": "sources/v011-members/baseline/b0-0.1/contracts/reviewed/GF02_PROPOSED_OPERATION_LEDGER.json",
+      "target": "fixtures/reviewed/GF02_PROPOSED_OPERATION_LEDGER.json",
+      "json_pointer": "/lines",
+      "source_raw": {
+        "bytes": 64231,
+        "sha256": "6deabae417669d5cd042c18d5fb871b21bfd5fd712b126806b3ef1defa061ba1",
+        "git_blob": "acbe34a00a1a3486340305322ed4b0e2015da6e9"
+      },
+      "transformation": "LOSSLESS_UTF8_LINES_WRAPPER_NO_SOURCE_NORMALIZATION",
+      "decode": "UTF8_JOIN_THEN_JSON_PARSE"
+    },
+    {
+      "source_reference": "sources/v011-members/baseline/b0-0.1/contracts/reviewed/GF02_REPAIR_BRANCH_DESCRIPTORS.json",
+      "source_member": "sources/v011-members/baseline/b0-0.1/contracts/reviewed/GF02_REPAIR_BRANCH_DESCRIPTORS.json",
+      "target": "fixtures/reviewed/GF02_REPAIR_BRANCH_DESCRIPTORS.json",
+      "json_pointer": "/lines",
+      "source_raw": {
+        "bytes": 148962,
+        "sha256": "61bfbce25922c8f0f4dc16b08e3063f4ef95d8e0169b66b0dbe930eaa3f5e616",
+        "git_blob": "a9487642f8590e7a0856d11a2c8f6635688a4e12"
+      },
+      "transformation": "LOSSLESS_UTF8_LINES_WRAPPER_NO_SOURCE_NORMALIZATION",
+      "decode": "UTF8_JOIN_THEN_JSON_PARSE"
+    },
+    {
+      "source_reference": "baseline/b0-0.1/contracts/reviewed/GF02_REPAIR_BRANCH_DESCRIPTORS.json",
+      "source_member": "sources/v011-members/baseline/b0-0.1/contracts/reviewed/GF02_REPAIR_BRANCH_DESCRIPTORS.json",
+      "target": "fixtures/reviewed/GF02_REPAIR_BRANCH_DESCRIPTORS.json",
+      "json_pointer": "/lines",
+      "source_raw": {
+        "bytes": 148962,
+        "sha256": "61bfbce25922c8f0f4dc16b08e3063f4ef95d8e0169b66b0dbe930eaa3f5e616",
+        "git_blob": "a9487642f8590e7a0856d11a2c8f6635688a4e12"
+      },
+      "transformation": "LOSSLESS_UTF8_LINES_WRAPPER_NO_SOURCE_NORMALIZATION",
+      "decode": "UTF8_JOIN_THEN_JSON_PARSE"
+    },
+    {
+      "source_reference": "sources/v011-members/baseline/b0-0.1/contracts/reviewed/GF02_SCOPE_CONTROL.json",
+      "source_member": "sources/v011-members/baseline/b0-0.1/contracts/reviewed/GF02_SCOPE_CONTROL.json",
+      "target": "fixtures/reviewed/GF02_SCOPE_CONTROL.json",
+      "json_pointer": "/lines",
+      "source_raw": {
+        "bytes": 5530,
+        "sha256": "692650a80efed93b60c2f116b170858423a18b9afc50fdb054f44104b46e0b9d",
+        "git_blob": "5f35dad9dcaffb3a6c4975e3d014c87f7cf3a38d"
+      },
+      "transformation": "LOSSLESS_UTF8_LINES_WRAPPER_NO_SOURCE_NORMALIZATION",
+      "decode": "UTF8_JOIN_THEN_JSON_PARSE"
+    },
+    {
+      "source_reference": "baseline/b0-0.1/contracts/reviewed/GF02_SCOPE_CONTROL.json",
+      "source_member": "sources/v011-members/baseline/b0-0.1/contracts/reviewed/GF02_SCOPE_CONTROL.json",
+      "target": "fixtures/reviewed/GF02_SCOPE_CONTROL.json",
+      "json_pointer": "/lines",
+      "source_raw": {
+        "bytes": 5530,
+        "sha256": "692650a80efed93b60c2f116b170858423a18b9afc50fdb054f44104b46e0b9d",
+        "git_blob": "5f35dad9dcaffb3a6c4975e3d014c87f7cf3a38d"
+      },
+      "transformation": "LOSSLESS_UTF8_LINES_WRAPPER_NO_SOURCE_NORMALIZATION",
+      "decode": "UTF8_JOIN_THEN_JSON_PARSE"
+    },
+    {
+      "source_reference": "sources/v011-members/baseline/b0-0.1/contracts/reviewed/GF02_SOURCE_ARTIFACT.json",
+      "source_member": "sources/v011-members/baseline/b0-0.1/contracts/reviewed/GF02_SOURCE_ARTIFACT.json",
+      "target": "fixtures/reviewed/GF02_SOURCE_ARTIFACT.json",
+      "json_pointer": "/lines",
+      "source_raw": {
+        "bytes": 563,
+        "sha256": "ce0ea70ca1b89a3c8d29f6ab21aaec635b4e83fc33334958ca10ea72f12d5254",
+        "git_blob": "6eb273fa280e8145bea4809763d131a4481fa4d9"
+      },
+      "transformation": "LOSSLESS_UTF8_LINES_WRAPPER_NO_SOURCE_NORMALIZATION",
+      "decode": "UTF8_JOIN_THEN_JSON_PARSE"
+    },
+    {
+      "source_reference": "baseline/b0-0.1/contracts/reviewed/GF02_SOURCE_ARTIFACT.json",
+      "source_member": "sources/v011-members/baseline/b0-0.1/contracts/reviewed/GF02_SOURCE_ARTIFACT.json",
+      "target": "fixtures/reviewed/GF02_SOURCE_ARTIFACT.json",
+      "json_pointer": "/lines",
+      "source_raw": {
+        "bytes": 563,
+        "sha256": "ce0ea70ca1b89a3c8d29f6ab21aaec635b4e83fc33334958ca10ea72f12d5254",
+        "git_blob": "6eb273fa280e8145bea4809763d131a4481fa4d9"
+      },
+      "transformation": "LOSSLESS_UTF8_LINES_WRAPPER_NO_SOURCE_NORMALIZATION",
+      "decode": "UTF8_JOIN_THEN_JSON_PARSE"
+    },
+    {
+      "source_reference": "sources/v011-members/baseline/b0-0.1/contracts/reviewed/REVIEWED_V022_EXPECTED_CONTROLS.json",
+      "source_member": "sources/v011-members/baseline/b0-0.1/contracts/reviewed/REVIEWED_V022_EXPECTED_CONTROLS.json",
+      "target": "fixtures/reviewed/REVIEWED_V022_EXPECTED_CONTROLS.json",
+      "json_pointer": "",
+      "source_raw": {
+        "bytes": 4490,
+        "sha256": "186896660f51d59dde1912209a953e2e191708843b5148c50302a52464ec7eb8",
+        "git_blob": "0a50481817bbe0ea99663617342ba292a3f6c526"
+      },
+      "transformation": "BYTE_EXACT_COPY"
+    },
+    {
+      "source_reference": "baseline/b0-0.1/contracts/reviewed/REVIEWED_V022_EXPECTED_CONTROLS.json",
+      "source_member": "sources/v011-members/baseline/b0-0.1/contracts/reviewed/REVIEWED_V022_EXPECTED_CONTROLS.json",
+      "target": "fixtures/reviewed/REVIEWED_V022_EXPECTED_CONTROLS.json",
+      "json_pointer": "",
+      "source_raw": {
+        "bytes": 4490,
+        "sha256": "186896660f51d59dde1912209a953e2e191708843b5148c50302a52464ec7eb8",
+        "git_blob": "0a50481817bbe0ea99663617342ba292a3f6c526"
+      },
+      "transformation": "BYTE_EXACT_COPY"
+    },
+    {
+      "source_reference": "sources/v011-members/baseline/b0-0.1/contracts/reviewed/SUPPORTED_COMPOSITION_LITERALS.json",
+      "source_member": "sources/v011-members/baseline/b0-0.1/contracts/reviewed/SUPPORTED_COMPOSITION_LITERALS.json",
+      "target": "fixtures/reviewed/SUPPORTED_COMPOSITION_LITERALS.json",
+      "json_pointer": "/lines",
+      "source_raw": {
+        "bytes": 22476,
+        "sha256": "fc53ac7eb29c9ad65af3e23ee767015e4af72139aa5a8ba233909afd6bce052b",
+        "git_blob": "0ba85b82b7cd8fde6593f9a77b74b84b29a50bd8"
+      },
+      "transformation": "LOSSLESS_UTF8_LINES_WRAPPER_NO_SOURCE_NORMALIZATION",
+      "decode": "UTF8_JOIN_THEN_JSON_PARSE"
+    },
+    {
+      "source_reference": "baseline/b0-0.1/contracts/reviewed/SUPPORTED_COMPOSITION_LITERALS.json",
+      "source_member": "sources/v011-members/baseline/b0-0.1/contracts/reviewed/SUPPORTED_COMPOSITION_LITERALS.json",
+      "target": "fixtures/reviewed/SUPPORTED_COMPOSITION_LITERALS.json",
+      "json_pointer": "/lines",
+      "source_raw": {
+        "bytes": 22476,
+        "sha256": "fc53ac7eb29c9ad65af3e23ee767015e4af72139aa5a8ba233909afd6bce052b",
+        "git_blob": "0ba85b82b7cd8fde6593f9a77b74b84b29a50bd8"
+      },
+      "transformation": "LOSSLESS_UTF8_LINES_WRAPPER_NO_SOURCE_NORMALIZATION",
+      "decode": "UTF8_JOIN_THEN_JSON_PARSE"
+    },
+    {
+      "source_reference": "sources/v011-members/baseline/b0-0.1/contracts/IDENTITY_AND_OWNERSHIP.json",
+      "source_member": "sources/v011-members/baseline/b0-0.1/contracts/IDENTITY_AND_OWNERSHIP.json",
+      "target": "contracts/retained/IDENTITY_AND_OWNERSHIP.json",
+      "json_pointer": "",
+      "source_raw": {
+        "bytes": 7586,
+        "sha256": "63f1c192c39c16cf6e9e64623023f563d30535839d7d28db5509fb10e737a7a7",
+        "git_blob": "d80d0589ffee9a084c028b1abcc4d689c03a59eb"
+      },
+      "transformation": "BYTE_EXACT_COPY"
+    },
+    {
+      "source_reference": "baseline/b0-0.1/contracts/IDENTITY_AND_OWNERSHIP.json",
+      "source_member": "sources/v011-members/baseline/b0-0.1/contracts/IDENTITY_AND_OWNERSHIP.json",
+      "target": "contracts/retained/IDENTITY_AND_OWNERSHIP.json",
+      "json_pointer": "",
+      "source_raw": {
+        "bytes": 7586,
+        "sha256": "63f1c192c39c16cf6e9e64623023f563d30535839d7d28db5509fb10e737a7a7",
+        "git_blob": "d80d0589ffee9a084c028b1abcc4d689c03a59eb"
+      },
+      "transformation": "BYTE_EXACT_COPY"
+    },
+    {
+      "source_reference": "sources/v011-members/baseline/b0-0.1/contracts/RESOURCE_AND_FAULT_PLAN.json",
+      "source_member": "sources/v011-members/baseline/b0-0.1/contracts/RESOURCE_AND_FAULT_PLAN.json",
+      "target": "contracts/retained/RESOURCE_AND_FAULT_PLAN.json",
+      "json_pointer": "",
+      "source_raw": {
+        "bytes": 10967,
+        "sha256": "b926c00f415a46ae12e3548880e5fdf0cbbbbc9f98a1f5948babbcc50ed6fcf5",
+        "git_blob": "94f14ea24a493d4aa659ca1657dcf68951293efb"
+      },
+      "transformation": "BYTE_EXACT_COPY"
+    },
+    {
+      "source_reference": "baseline/b0-0.1/contracts/RESOURCE_AND_FAULT_PLAN.json",
+      "source_member": "sources/v011-members/baseline/b0-0.1/contracts/RESOURCE_AND_FAULT_PLAN.json",
+      "target": "contracts/retained/RESOURCE_AND_FAULT_PLAN.json",
+      "json_pointer": "",
+      "source_raw": {
+        "bytes": 10967,
+        "sha256": "b926c00f415a46ae12e3548880e5fdf0cbbbbc9f98a1f5948babbcc50ed6fcf5",
+        "git_blob": "94f14ea24a493d4aa659ca1657dcf68951293efb"
+      },
+      "transformation": "BYTE_EXACT_COPY"
+    },
+    {
+      "source_reference": "sources/v011-members/baseline/b0-0.1/contracts/GATE_DECISIONS.json",
+      "source_member": "sources/v011-members/baseline/b0-0.1/contracts/GATE_DECISIONS.json",
+      "target": "contracts/retained/GATE_DECISIONS.json",
+      "json_pointer": "",
+      "source_raw": {
+        "bytes": 3269,
+        "sha256": "2bbc27ec7d30568c4cd5f93c5dfad8f2d2b9af32210bfcf90923872aa909128f",
+        "git_blob": "ec1843ba0b5564f63c7832364ee99887ce2cb054"
+      },
+      "transformation": "BYTE_EXACT_COPY"
+    },
+    {
+      "source_reference": "baseline/b0-0.1/contracts/GATE_DECISIONS.json",
+      "source_member": "sources/v011-members/baseline/b0-0.1/contracts/GATE_DECISIONS.json",
+      "target": "contracts/retained/GATE_DECISIONS.json",
+      "json_pointer": "",
+      "source_raw": {
+        "bytes": 3269,
+        "sha256": "2bbc27ec7d30568c4cd5f93c5dfad8f2d2b9af32210bfcf90923872aa909128f",
+        "git_blob": "ec1843ba0b5564f63c7832364ee99887ce2cb054"
+      },
+      "transformation": "BYTE_EXACT_COPY"
+    },
+    {
+      "source_reference": "EA_C21_B0_V012_MANIFEST.json",
+      "source_member": "EA_C21_B0_V012_MANIFEST.json",
+      "target": "provenance/EA_C21_B0_V012_MANIFEST.json",
+      "json_pointer": "",
+      "source_raw": {
+        "bytes": 25807,
+        "sha256": "5ff5c6bb54fae6bb9cb3a45dd1dee468a30ecdbd5fdc8d8eb90a29687b84a785",
+        "git_blob": "cafcac3b7c54b66a35b3973bc847869dc4318cbc"
+      },
+      "transformation": "BYTE_EXACT_COPY"
+    },
+    {
+      "source_reference": "B0_V0_1_2_CHANGE_INVENTORY.json",
+      "source_member": "B0_V0_1_2_CHANGE_INVENTORY.json",
+      "target": "provenance/B0_V0_1_2_CHANGE_INVENTORY.json",
+      "json_pointer": "",
+      "source_raw": {
+        "bytes": 19984,
+        "sha256": "0bd2a8af70cb6ebd892f7b89cee28b71a010d125444a2ac781f908049e228cd7",
+        "git_blob": "b12d3c9af9e95e4c7f519e069cb0a33cb99946c6"
+      },
+      "transformation": "BYTE_EXACT_COPY"
+    },
+    {
+      "source_reference": "oracles/GF02_CLOSED_REPAIR_CATALOG.json",
+      "source_member": "sources/v011-members/baseline/b0-0.1/contracts/reviewed/GF02_CLOSED_REPAIR_CATALOG.json",
+      "target": "fixtures/reviewed/GF02_CLOSED_REPAIR_CATALOG.json",
+      "json_pointer": "/lines",
+      "source_raw": {
+        "bytes": 19514,
+        "sha256": "8d1b4b78cc30ce31b92bb56eedd503b79c862580516b61261f34ac71393184d0",
+        "git_blob": "68530141e00f44d7a7bda5dc83cf2e415f9e4308"
+      },
+      "transformation": "LOSSLESS_UTF8_LINES_WRAPPER_NO_SOURCE_NORMALIZATION",
+      "decode": "UTF8_JOIN_THEN_JSON_PARSE"
+    }
+  ],
+  "reference_classification": {
+    "baseline/EA_C21_B0_TARGETED_COMPLETION_v0_1_1.zip": "HISTORICAL_SOURCE_IDENTITY_ONLY_NOT_REQUIRED_FOR_EFFECTIVE_CONTRACT",
+    "absolute_workspace_paths": "HISTORICAL_PROVENANCE_ONLY_NOT_RUNTIME_DEPENDENCIES",
+    "eac21/*": "FUTURE_UNIMPLEMENTED_CANDIDATE_PATHS",
+    "T01-T40/L01-L06": "FUTURE_UNEXECUTED_CASE_IDENTIFIERS",
+    "baseline/v0.2/EA_C2_V0_2_C21_PROOF_AND_TEST_ORACLES.md": "HISTORICAL_LEGACY_REFERENCE; current LEGACY_INVOCATIONS preserves six complete invocation cards and exact legacy source identities, no runtime execution claimed"
+  },
+  "precedence": [
+    "v0.1.2 active CASE_INVOCATIONS plus V012_CASE_BINDINGS and V012_EXPECTED_DATA for affected T01/T09/T26/T27/T35",
+    "Closed schema + TRANSPORT_AND_CONTROL + HASH_PREIMAGE_REGISTRY + CHECKPOINT_CONTRACT",
+    "Retained reviewed finite policy/root/literal/branch inputs and unchanged six legacy cards",
+    "Historical reports and Gate decisions retain original time-qualified wording; current README states latest review status"
+  ],
+  "limitations": [
+    "Original references are preserved as authored; use explicit locator bindings, not local paths or filename guessing.",
+    "This publication is a curated technical-design subset, not a replacement for the frozen original ZIP/evidence or a B1 executable suite."
+  ]
+}

@@ -1,0 +1,261 @@
+{
+  "schema": "ea-c21-b0-authority/0.1",
+  "candidate_version": "EA-C21/0.1.0-candidate",
+  "python_module": "eac21",
+  "isolated_source_root": "C:/Users/mcdon/Documents/Codex/EA-C21/0.1.0-candidate",
+  "planned_source_allowlist": [
+    "eac21/__init__.py",
+    "eac21/__main__.py",
+    "eac21/data.py",
+    "eac21/core.py",
+    "eac21/policies.py",
+    "eac21/atlas.py"
+  ],
+  "source_present": false,
+  "source_bytes_sha256": null,
+  "source_identity_recipe": "sha256(J({relative_posix_path: sha256(raw bytes) for each of the six allowlisted modules})); no borrowed eac1 digest. Additional executable file/dependency requires reviewed contract amendment",
+  "policy_namespaces": [
+    "CoreSuccessor-GF02/0.2",
+    "Comm-GF02/0.2.1",
+    "Receive-GF02/0.2",
+    "CogProof-GF02/0.2",
+    "Choice-GF02/0.2.1"
+  ],
+  "families": {
+    "Comm": {
+      "validator": "Comm",
+      "records": [
+        "outward",
+        "assertion"
+      ],
+      "allowed_ops": [
+        "send",
+        "initiate"
+      ],
+      "write": "Core only"
+    },
+    "Receive": {
+      "validator": "Receive",
+      "records": [
+        "received-fragment",
+        "field-grant",
+        "known-reference"
+      ],
+      "allowed_ops": [
+        "send",
+        "initiate"
+      ],
+      "write": "Core only"
+    },
+    "Cog": {
+      "validator": "CogProof",
+      "records": [
+        "reviewed-basis",
+        "scoped-belief"
+      ],
+      "allowed_ops": [
+        "send"
+      ],
+      "write": "Core only; absent in C0/C1"
+    },
+    "Choice": {
+      "validator": "Choice",
+      "records": [
+        "captured-input",
+        "eligibility",
+        "selection",
+        "phase"
+      ],
+      "allowed_ops": [
+        "send",
+        "initiate"
+      ],
+      "write": "Core only; no private human mind"
+    }
+  },
+  "operations": {
+    "send": {
+      "owner": "Core",
+      "proposer": "human-H/1",
+      "validators": [
+        "Comm",
+        "Receive",
+        "CogProof (C2 P only)",
+        "Choice"
+      ]
+    },
+    "initiate": {
+      "owner": "Core",
+      "proposer": "npc-controller/1",
+      "validators": [
+        "Choice",
+        "Comm",
+        "Receive"
+      ]
+    },
+    "advance": {
+      "owner": "Core",
+      "proposer": "fixture-clock/1",
+      "validators": [
+        "Core"
+      ]
+    },
+    "storage-checkpoint": {
+      "owner": "Core",
+      "proposer": "core-maint/1",
+      "validators": [
+        "Core"
+      ]
+    }
+  },
+  "stores": [
+    {
+      "id": "G1",
+      "group": "families",
+      "table": "families",
+      "key": "[family,record_id]",
+      "value": "semantic family records; one exclusive validator per family",
+      "installer": "Core"
+    },
+    {
+      "id": "G2",
+      "group": "identity",
+      "table": "identity",
+      "key": "[kind,canonical_id] or [artifact,kind,local_id,parent,epoch,revision]",
+      "value": "persistent entities and exact injective actor bindings",
+      "installer": "Core"
+    },
+    {
+      "id": "G3",
+      "group": "lineage",
+      "table": "lineage",
+      "key": "[world,lineage]",
+      "value": "root id, semantic/publication sequence, semantic head, parent coverage; no current storage hash in hashed payload",
+      "installer": "Core"
+    },
+    {
+      "id": "G4",
+      "group": "clock",
+      "table": "clock",
+      "key": "[world,lineage]",
+      "value": "logical integer 0..2 and empty due array",
+      "installer": "Core"
+    },
+    {
+      "id": "G5",
+      "group": "protection",
+      "table": "protection",
+      "key": "[edge_kind,dependent_id,cause_id]",
+      "value": "exact indispensable causal/source/receipt protection edges and required fidelity",
+      "installer": "Core"
+    },
+    {
+      "id": "G6",
+      "group": "operations",
+      "table": "operations",
+      "key": "[world,lineage,producer,incarnation,operation]",
+      "value": "full R, V, dependency, D body/id and namespace world|maintenance; no current storage-head backreference",
+      "installer": "Core"
+    },
+    {
+      "id": "G7",
+      "group": "profiles",
+      "table": "profiles",
+      "key": "[artifact_kind,id]",
+      "value": "root/source/build/backend/policy/shape/numeric-profile and presentation manifests/bytes",
+      "installer": "Core"
+    },
+    {
+      "id": "G8",
+      "group": "publications",
+      "table": "publications",
+      "key": "[publication_sequence]",
+      "value": "complete publication body; its storage hash is derived, not part of own hash input",
+      "installer": "Core"
+    },
+    {
+      "id": "G9",
+      "group": "proofs",
+      "table": "proofs",
+      "key": "[proof_kind,id]",
+      "value": "complete-prefix serving/proof indices, availability bindings and optional checkpoint payloads",
+      "installer": "Core"
+    }
+  ],
+  "sql_row_contract": {
+    "columns": {
+      "key": "TEXT, canonical J of stated key",
+      "payload": "BLOB, J bytes; no pickle/SQL functions"
+    },
+    "primary_key": "key",
+    "table_names": [
+      "families",
+      "identity",
+      "lineage",
+      "clock",
+      "protection",
+      "operations",
+      "profiles",
+      "publications",
+      "proofs"
+    ],
+    "additional_semantic_table_or_blob_allowed": false,
+    "constraints": "single authoritative local database; no triggers, stored procedures, policy SQL handles, native saves, artifact mutation or shadow semantic sidecars"
+  },
+  "entity_id_recipe": "Htag(entity,{world,lineage,kind,authority:fixture-owner/1,origin:local-binding local_id}); retained forever, never display name; root seal records exact initial id map",
+  "local_binding_tuple": [
+    "artifact_id",
+    "artifact_sha256",
+    "kind",
+    "local_id",
+    "parent",
+    "epoch",
+    "binding_revision"
+  ],
+  "actor_binding_cardinality": "One canonical actor per actor binding and one Person identity per distinct actor. Multiple legitimate references to same actor allowed. Topic/name/source referents are typed non-actor aliases, never actor merges.",
+  "public_referents": {
+    "H": [
+      "help",
+      "work",
+      "P description",
+      "Q",
+      "D",
+      "received r1",
+      "received r2"
+    ],
+    "learned": [
+      "P name from actual disclosure",
+      "(P,latch-report,D,opening_only) from actual disclosure"
+    ],
+    "not_granted": [
+      "P private belief",
+      "objective D",
+      "Q private source",
+      "unreceived source fields"
+    ]
+  },
+  "rename_control": {
+    "identity_bijection": {
+      "H": "u17",
+      "P": "u23",
+      "Q": "u41",
+      "D": "m19",
+      "r1": "s31",
+      "r2": "s37",
+      "latch-report": "topic43",
+      "opening-1": "trigger47"
+    },
+    "label_only": {
+      "P": "Attendant One",
+      "Q": "Source Two",
+      "D": "Mechanism Three"
+    },
+    "duplicate_labels": {
+      "P": "Same display",
+      "Q": "Same display"
+    },
+    "normalization": "predeclared bijection inverse for identity-bearing fields only; no text deletion, actor merge or arbitrary string rewriting. Text changed for authored label-only artifacts is compared against separately authored expected text."
+  },
+  "objective_truth_store": "D.blocked is immutable authored root truth in G7 sealed root content, covered by root_id and full profiles manifest. There is no mutable Env/Physics executor in this proof. Author projection can read it; P/H cannot infer it. Any attempt to change it through a social effect is O4.",
+  "accepted_references": "eac1, native M3/AR0/A1 and original P8 have no imported installer or save migration. No runtime elaboration/generator in this finite proof; general Encounter/Atlas responsibility remains outside it."
+}

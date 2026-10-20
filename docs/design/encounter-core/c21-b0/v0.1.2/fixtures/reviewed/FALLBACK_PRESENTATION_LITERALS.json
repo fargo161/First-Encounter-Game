@@ -1,0 +1,34 @@
+{
+  "schema": "lossless-json-source-lines/1",
+  "source": {
+    "kind": "verified_v012_zip_member",
+    "archive_sha256": "4b4e855fb8bf529d1170bc280de2e6425159c0f5d98f46d8f6d7373f54976736",
+    "member": "sources/v011-members/baseline/b0-0.1/contracts/reviewed/FALLBACK_PRESENTATION_LITERALS.json",
+    "bytes": 1466,
+    "sha256": "3ffb6a4b8dd73c2778d669f662023b006991dd8beed64c5d384eede678639b5d",
+    "git_blob": "12f4bb1ddaee816d5c0dece0ac49c49085c38d5b"
+  },
+  "encoding": "UTF-8",
+  "decode": "JSON.parse(lines.join(\"\")); raw UTF8 is lines.join(\"\").encode(UTF8)",
+  "lines": [
+    "{\r\n",
+    "  \"status\": \"Proposed literal completion of existing optional wording/art fallback test; not a running expression system\",\r\n",
+    "  \"spoken_fallbacks\": {\r\n",
+    "    \"INTRO\": \"Remark: I am Ada. You may ask me about the latch report for Door D.\",\r\n",
+    "    \"DECLINE\": \"Remark: No explanation is needed.\",\r\n",
+    "    \"ACK_SCOPE\": \"Remark: I will treat that report as support only for Door D's opening.\",\r\n",
+    "    \"ACK_CARE\": \"Remark: Thank you for recognizing the checking work. I will treat that report as support for Door D's opening.\",\r\n",
+    "    \"REPORT\": \"Remark: The report I received says Door D is open.\",\r\n",
+    "    \"SUSPECT\": \"Remark: I do not yet have enough reported support to rely on Door D being open.\",\r\n",
+    "    \"FALLBACK\": \"Remark: I cannot add an answer within that scope.\"\r\n",
+    "  },\r\n",
+    "  \"SILENT\": {\r\n",
+    "    \"words\": \"\",\r\n",
+    "    \"performance\": \"Meets H's gaze with a composed face and deliberately says nothing.\"\r\n",
+    "  },\r\n",
+    "  \"missing_art\": \"Use the existing exact public phase description without changing words, choices, time or effects\",\r\n",
+    "  \"binding_gate\": \"Before code bind the separately pre-authorized fallback test artifact and observed retrieval bundle. Choose/pin actual words before final validation/commit, retain exact admitted words for replay/playback. Do not delete required policy bytes from an admitted root, recompile history on read, or turn missing required compiler/policy into a skeleton. Required-artifact loss remains O5/stopped writes.\",\r\n",
+    "  \"semantic_outcomes_unchanged\": true\r\n",
+    "}\r\n"
+  ]
+}

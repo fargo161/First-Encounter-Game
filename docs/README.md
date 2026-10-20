@@ -5,3 +5,7 @@ Initial GitHub consolidation is complete at narrow Stage 12. Start with [contrac
 Normal development setup/commands remain in [DEVELOPMENT.md](../DEVELOPMENT.md). Stage 11 [readiness](consolidation/STAGE_11_READINESS.md), Stage 10 [cleanup](consolidation/STAGE_10_CLEANUP.md), [removal mappings](provenance/stage10-cleanup-manifest.json), [authority](provenance/source-authority.json) and [product status interpretation](provenance/STATUS_INTERPRETATION.md) retain their recorded scope.
 
 Stage 12 evidence is under audits/stage12-2026-10-18/. Historical full-snapshot verifiers require their recorded commit. Subsystem acceptance/defect records are unchanged. [Stop before Stage 13](consolidation/NEXT_STAGE_GATE.md); no Unity or runtime integration is authorized.
+
+## Proposed C2.1 B0 technical design
+
+[Reviewed B0 v0.1.2 proposed technical contract](design/encounter-core/c21-b0/v0.1.2/README.md): targeted documentary closure only; no owner design-freeze acceptance or B1 implementation authorization. A separately reviewed standalone fun/playability amendment remains mandatory.

@@ -1,0 +1,17 @@
+{
+  "schema": "ea-c21-raw-and-presented/0.1.1",
+  "finding": "C21-B0-AUD-N01",
+  "status": "PROPOSED CLOSED",
+  "raw": "ChoiceInput -> ChoiceOutput with original normal semantic words exactly. Capture raw output before any presentation; do not overwrite words. Availability/expected output/selected player vibe/global heads absent from input. Original C03 raw expectation bytes unchanged.",
+  "post_choice": "PresentationResult binds Htag(choice-output,raw) and root PresentationManifest hash. normal/artless words=manifest.normal_words[selected]; fallback words=manifest.fallback_words[selected]. SILENT always empty, own intentional performance. This lookup is presentation AFTER Choice, not an eligibility input.",
+  "commit": "Actual NPC Outward/Receiving/Phase records use PresentedResponse.outward and phases, V stores BOTH raw ChoiceOutput and PresentedResponse. Bind selected availability before final validation/commit. H sees actual words only; author sees both.",
+  "replay": "Original V/D exact; actual admitted speech/phases replayed unchanged. No rewording/new occurrence on bundle change/playback/read. Missing indispensable policy/fallback->O5; technical O4 no episode; intentional SILENT heard O2.",
+  "tests": [
+    "same exact input across normal/fallback/artless -> same raw ChoiceOutput",
+    "normal versus fallback actual outward differs only pinned semantically equivalent wording prefix; raw remains equal",
+    "artless keeps normal words/authored description",
+    "raw fallback prefix rejected by ChoiceOutput schema",
+    "presented fallback with altered meaning rejected by pinned bundle equality",
+    "SILENT raw and presented words both empty; no missing-lookup substitution"
+  ]
+}

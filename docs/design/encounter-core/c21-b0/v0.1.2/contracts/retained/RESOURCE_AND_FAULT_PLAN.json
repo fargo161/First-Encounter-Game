@@ -1,0 +1,256 @@
+{
+  "schema": "ea-c21-b0-qualification/0.1",
+  "shape": {
+    "actors": 3,
+    "cognitive_actors": 1,
+    "questions": 1,
+    "eligible_report_roots": 2,
+    "world_operations": 12,
+    "checkpoints": 2,
+    "max_logical_time": 2,
+    "new_messages_per_operation": 2,
+    "responses_per_initiating_command": 1,
+    "source_detail_fields_beside_fixed_outward_envelope": 4,
+    "receiving_fragments_per_operation": 2,
+    "dependencies_per_new_record": 4,
+    "outward_encoded_bytes": 1024,
+    "JSON_depth": 16,
+    "due_jobs": 0,
+    "authored_source_roots_including_ineligible": 3,
+    "new_H_reference_entries": 2,
+    "initial_H_universal_concepts": 2,
+    "simultaneous_test_worlds": 1,
+    "branching_is_offline_fixture_authoring": true,
+    "main_initial_H_named_references": 5,
+    "control_max_H_core_references": 6
+  },
+  "runtime_profile_admissible": false,
+  "numeric_caps": {
+    "cold_work": null,
+    "admission_work": null,
+    "checkpoint_work": null,
+    "query_work": null,
+    "retry_work": null,
+    "request_bytes": null,
+    "result_bytes": null,
+    "retained_logical_bytes": null,
+    "live_memory_bytes": null,
+    "workspace_bytes": null,
+    "projection_bytes": null
+  },
+  "measurement_timing": "Source/build and independent census freeze first; independently derived profile/reserve seal before boundary scoring; separate owner B1 authorization prerequisite.",
+  "units": "W = counted record/identity/coverage/receipt/edge/policy visits + ceil(total scheduled byte visits/1024). Count repeated passes and decoded node visits; preserve raw counters, not just W.",
+  "verification_vs_resolution": "Mode-A may reevaluate historical pure policies to verify original R/V. Charge and expose these as verification-only visits, with no admission callbacks, new episode/choice/receiving/effects or publication. New-request resolver/application/Choice counters are separate, fixed before scoring; O3 has zero new resolution. Relabeling fresh resolution as verification is forbidden. Accepted C1 _load.calculate versus admit.resolutions illustrates the existing distinction.",
+  "passes": [
+    {
+      "id": "P01",
+      "work": "read+parse+domain-check each retained raw row/artifact/prefix; complete coverage and missing proof",
+      "traversal": "all9 group rows plus required artifact bytes",
+      "live": "raw bytes + decoded copy"
+    },
+    {
+      "id": "P02",
+      "work": "canonical encode/hash rows, full manifests, publication and semantic chains",
+      "traversal": "each full prefix entry at least once; repeated source-specific passes charged separately",
+      "live": "P01 raw/decoded + hash buffer"
+    },
+    {
+      "id": "P03",
+      "work": "mode-A reexecute every retained admitted R through owners, compare V/D/state/causes",
+      "traversal": "full ordered prefix, catalog predicates and all candidate eligible source records, not just credited roots",
+      "live": "prefix + detached replay state + transient owner inputs"
+    },
+    {
+      "id": "P04",
+      "work": "capture original R and any supplied V; authorization/full equality/lookup or fresh witness and preview binding",
+      "traversal": "every complete request/result/witness byte/node; committed registry lookup charges actual scan/index visits",
+      "live": "caller raw + immutable snapshots + current decoded world"
+    },
+    {
+      "id": "P05",
+      "work": "compile outward/receive/Cog revision/capture Choice input/select/reply receive or applicable Core path",
+      "traversal": "bounded 18+1 catalog, <=3 authored roots, <=2 current eligible roots, all8 response predicates; no dynamic callbacks",
+      "live": "captured R/V + proposed local records"
+    },
+    {
+      "id": "P06",
+      "work": "final complete validation and private staging; regenerate effects/manifests/causal closure",
+      "traversal": "all proposed records and required retained causes; edge visits explicit, including repeated closure",
+      "live": "current state + full private stage + V/result buffers"
+    },
+    {
+      "id": "P07",
+      "work": "prospective complete next-prefix cold verification and future exact retry/query/checkpoint reserve",
+      "traversal": "P01-P03 on next prefix, actual additional scheduled passes counted",
+      "live": "old proof + staged next prefix/replay buffers"
+    },
+    {
+      "id": "P08",
+      "work": "single transaction inserts/updates all rows incl receipt/index/meta and G8 body",
+      "traversal": "actual planned SQL writes/reads and canonical payloads",
+      "live": "all still-live stage/result + SQLite cache/journal"
+    },
+    {
+      "id": "P09",
+      "work": "writer-visible post-allocation capacity measurement after all allocation-changing SQL, before COMMIT",
+      "traversal": "page_count/page_size/freelist + actual DB/journal/temp/staging/artifact allocations and reserve",
+      "live": "transaction allocations + measured commit/reopen reserve"
+    },
+    {
+      "id": "P10",
+      "work": "COMMIT then detached readback/ack serialization",
+      "traversal": "receipt/publication readback; explicit hashes/serialization bytes",
+      "live": "ack buffer + retained commit/reopen reserve"
+    },
+    {
+      "id": "P11",
+      "work": "read/query/Atlas/playback projection from complete verified state",
+      "traversal": "P01-P03 + audience traversal and serialization, source access validation",
+      "live": "verified full prefix + detached projected objects + serialization buffer"
+    },
+    {
+      "id": "P12",
+      "work": "fresh recovery: sealed files + external anchor reconciliation, full cold prefix and terminal registry",
+      "traversal": "P01-P03 + every acknowledged anchor and original R/V exact comparison",
+      "live": "fresh-runtime/SQLite + decoded full prefix; no old live object reuse"
+    }
+  ],
+  "path_schedules": {
+    "root": [
+      "P01",
+      "P02",
+      "P03",
+      "P06",
+      "P07",
+      "P08",
+      "P09",
+      "P10"
+    ],
+    "send/initiate/advance": [
+      "P01",
+      "P02",
+      "P03",
+      "P04",
+      "P05 applicable",
+      "P06",
+      "P07",
+      "P08",
+      "P09",
+      "P10"
+    ],
+    "checkpoint": [
+      "P01",
+      "P02",
+      "P03",
+      "P04",
+      "P06",
+      "P07",
+      "P08",
+      "P09",
+      "P10"
+    ],
+    "retry": [
+      "P01",
+      "P02",
+      "P03",
+      "P04",
+      "P10 read-only original answer"
+    ],
+    "query": [
+      "P11"
+    ],
+    "recovery": [
+      "P12"
+    ]
+  },
+  "independent_census": "Reviewer decodes actual raw rows/files independently, traces candidate source loop bounds and simultaneous buffer lifetimes, counts each pass occurrence/byte/node/edge/SQL/page/object peak, and compares production estimator against independent totals. No product estimate reused as expected.",
+  "workspace": "max(writer-visible page_count*page_size, actual allocated DB bytes) + complete rollback journal + temp/staging/checkpoint/external required artifact bytes + independent pending commit/reopen reserve; do not subtract freelist. Measure every physical copy. Free space qualification separately; no whole-volume/ACL guarantee.",
+  "postallocation_rule": "P09 follows final allocation-changing SQL for root/ordinary/checkpoint including G8 publication/receipts/index. No SQL mutation after P09; required late mutation aborts and repeats complete prospective/P08/P09 in private transaction, never commit unmeasured growth.",
+  "boundary": "Each of 11 caps separately: same shape operation under preauthorized independent profile cap W-1 O4, W and W+1 O1/O2, all other caps slack. Profiles/root ids differ and are sealed before test; old 0.1.2 fixed cap untouched. Initial oversized root has no world; rejected later growth preserves last safe acknowledged cold-readable head.",
+  "fault_seams": [
+    {
+      "id": "F00",
+      "phase": "after immutable capture",
+      "applicable": "all admitted requests",
+      "expectation": "prepublication O4 all9 unchanged; caller alias change alone is not fault"
+    },
+    {
+      "id": "F01",
+      "phase": "owner validation",
+      "applicable": "all applicable owners",
+      "expectation": "explicit false/escaping exception O4; contained no-effect probe may succeed"
+    },
+    {
+      "id": "F02",
+      "phase": "after actual receiving staged",
+      "applicable": "send/initiate",
+      "expectation": "O4 all9 unchanged; no canonical receiving"
+    },
+    {
+      "id": "F03",
+      "phase": "after Cog revision staged before Choice capture",
+      "applicable": "C2 P send with revision",
+      "expectation": "O4 all9 unchanged; no partial basis"
+    },
+    {
+      "id": "F04",
+      "phase": "after raw pre-choice capture/before selection",
+      "applicable": "C2 P send",
+      "expectation": "O4 all9 unchanged; archive captured input separately"
+    },
+    {
+      "id": "F05",
+      "phase": "after reply receiving/phases/disclosures staged",
+      "applicable": "send",
+      "expectation": "O4 all9 unchanged"
+    },
+    {
+      "id": "F06",
+      "phase": "after complete final validation/prospective census",
+      "applicable": "root/send/initiate/advance/checkpoint",
+      "expectation": "O4 no write/no key"
+    },
+    {
+      "id": "F07",
+      "phase": "BEGIN/write/protected reentry",
+      "applicable": "all publication paths",
+      "expectation": "proven pre-COMMIT fault O4 rollback; nested valid admission poisons outer even if caught"
+    },
+    {
+      "id": "F08",
+      "phase": "post-allocation after final SQL before COMMIT",
+      "applicable": "root/send/initiate/advance/checkpoint",
+      "expectation": "O4 rollback; raw actual growth/cap evidence required"
+    },
+    {
+      "id": "F09",
+      "phase": "COMMIT entry/progress",
+      "applicable": "all publication paths",
+      "expectation": "interruption has no acknowledgment; O5 until fresh sealed-file complete old/new reconciliation"
+    },
+    {
+      "id": "F10",
+      "phase": "after COMMIT before acknowledgment",
+      "applicable": "all publication paths",
+      "expectation": "fresh recovery finds complete new receipt; retry exact O3; no duplicate effects"
+    },
+    {
+      "id": "F11",
+      "phase": "after external acknowledgment before optional checkpoint",
+      "applicable": "all semantic paths",
+      "expectation": "fresh replay must reach acknowledged head; checkpoint not first durable boundary"
+    },
+    {
+      "id": "F12",
+      "phase": "required proof/policy missing versus optional checkpoint missing",
+      "applicable": "cold/query/retry/admit",
+      "expectation": "required O5 stopped writes; optional checkpoint bypass via full valid prefix only"
+    }
+  ],
+  "limits": [
+    "No physical constants or capacities measured here",
+    "C1 N01 COMMIT-entry/progress only; no arbitrary hot-journal/power loss proof",
+    "C1 N02 selected build/config only; successor build independently qualified",
+    "Full retained mode-A proof/original R/V/D; no collection or receipt retirement"
+  ]
+}

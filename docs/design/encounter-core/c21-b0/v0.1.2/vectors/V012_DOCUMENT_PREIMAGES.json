@@ -1,0 +1,222 @@
+{
+  "schema": "b0-v012-static-preimages/1",
+  "actual_world": false,
+  "nodes": [
+    {
+      "id": "C0-proposal-authority",
+      "preimage_type": "AuthorityManifest",
+      "algorithm": "Htag",
+      "tag": "authority",
+      "value": {
+        "schema": "ea-c21-authority/1",
+        "root_authority": "fixture-owner/1",
+        "sole_installer": "Core",
+        "producers": [
+          {
+            "principal": {
+              "producer": "core-maint",
+              "incarnation": "1"
+            },
+            "operations": [
+              "storage-checkpoint"
+            ],
+            "sender": null,
+            "recipients": [],
+            "trigger": null
+          },
+          {
+            "principal": {
+              "producer": "fixture-clock",
+              "incarnation": "1"
+            },
+            "operations": [
+              "advance"
+            ],
+            "sender": null,
+            "recipients": [],
+            "trigger": null
+          },
+          {
+            "principal": {
+              "producer": "human-H",
+              "incarnation": "1"
+            },
+            "operations": [
+              "send"
+            ],
+            "sender": "H",
+            "recipients": [
+              "P"
+            ],
+            "trigger": null
+          },
+          {
+            "principal": {
+              "producer": "npc-controller",
+              "incarnation": "1"
+            },
+            "operations": [],
+            "sender": null,
+            "recipients": [],
+            "trigger": null
+          }
+        ],
+        "families": [
+          {
+            "family": "Choice",
+            "owner": "Choice",
+            "present": false,
+            "policy_id": "absent"
+          },
+          {
+            "family": "Cog",
+            "owner": "CogProof",
+            "present": false,
+            "policy_id": "absent"
+          },
+          {
+            "family": "Comm",
+            "owner": "Comm",
+            "present": false,
+            "policy_id": "absent"
+          },
+          {
+            "family": "Receive",
+            "owner": "Receive",
+            "present": false,
+            "policy_id": "absent"
+          }
+        ],
+        "readers": [
+          {
+            "principal": {
+              "producer": "human-H",
+              "incarnation": "1"
+            },
+            "audiences": [
+              "H"
+            ],
+            "operations": [
+              "read"
+            ],
+            "scope": "H-presented-only",
+            "holder": "H"
+          },
+          {
+            "principal": {
+              "producer": "author-reader",
+              "incarnation": "1"
+            },
+            "audiences": [
+              "author",
+              "technical"
+            ],
+            "operations": [
+              "read",
+              "propose",
+              "verify",
+              "cold-open",
+              "reconcile"
+            ],
+            "scope": "full-proof",
+            "holder": null
+          }
+        ]
+      },
+      "expected_sha256": "de712d1c9c50209a4fcdcd292b373949696c84de741930d306046fe3d001a108"
+    },
+    {
+      "id": "T01-neutral-draft",
+      "preimage_type": "Draft",
+      "algorithm": "Htag",
+      "tag": "draft",
+      "value": {
+        "id": "C05-EA-Nuanced",
+        "revision": 1,
+        "composition": {
+          "actor": "H",
+          "recipient": "P",
+          "vibe": "EA",
+          "salience": "Nuanced",
+          "family": "Offer",
+          "act": "explain_report",
+          "subject": "D",
+          "scope": "opening_only",
+          "root": null,
+          "certainty": null
+        }
+      },
+      "expected_sha256": "b7d0ea1f48dcb1a334dd7904ea8b53f6bf442a6a32af1c6487ffe6b5aec748a0"
+    },
+    {
+      "id": "T01-neutral-outward",
+      "preimage_type": "Outward",
+      "algorithm": "Htag",
+      "tag": "outward",
+      "value": {
+        "sender": "H",
+        "recipients": [
+          "P"
+        ],
+        "family": "Offer",
+        "act": "explain_report",
+        "subject": "D",
+        "scope": "opening_only",
+        "words": "I offer to explain the report.",
+        "prominence": "measured",
+        "terms": null,
+        "amount": 0,
+        "framing": [],
+        "assertions": [],
+        "performance": "Communicates the stated act with a composed, measured delivery."
+      },
+      "expected_sha256": "703c0a705c2f1d0b6cb4aa12f1ad6a5f5a5301de3920fc6a7bc5994f583e9d76"
+    },
+    {
+      "id": "T35-wrong-domain",
+      "preimage_type": "Draft",
+      "algorithm": "SHA256(J)",
+      "tag": null,
+      "value": {
+        "id": "C03",
+        "revision": 1,
+        "composition": {
+          "actor": "H",
+          "recipient": "P",
+          "vibe": "EA",
+          "salience": "Nuanced",
+          "family": "Remark",
+          "act": "present_evidence",
+          "root": "r1",
+          "certainty": "asserted",
+          "subject": "D",
+          "scope": "opening_only"
+        }
+      },
+      "expected_sha256": "6affd799bbe5b2214797d59ee7b39bf79224dac85cfde9622aa02886195f163e"
+    },
+    {
+      "id": "T35-correct-domain",
+      "preimage_type": "Draft",
+      "algorithm": "Htag",
+      "tag": "draft",
+      "value": {
+        "id": "C03",
+        "revision": 1,
+        "composition": {
+          "actor": "H",
+          "recipient": "P",
+          "vibe": "EA",
+          "salience": "Nuanced",
+          "family": "Remark",
+          "act": "present_evidence",
+          "root": "r1",
+          "certainty": "asserted",
+          "subject": "D",
+          "scope": "opening_only"
+        }
+      },
+      "expected_sha256": "507f100b50dcf86d8952b8f2fcca7b7d99e15354da99e8ca6caf04d10ff50585"
+    }
+  ]
+}

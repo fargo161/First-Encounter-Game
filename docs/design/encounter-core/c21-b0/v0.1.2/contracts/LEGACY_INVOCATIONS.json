@@ -1,0 +1,264 @@
+{
+  "schema": "b0-legacy-invocations/0.1.1",
+  "cards": [
+    {
+      "id": "L01",
+      "source": "accepted C1 exact25-member source 468feeea7060f547cadb56ce6cff9fc1c79ae86b362a9a181b33daf3894a06de",
+      "cwd": "new disposable exact accepted-source extraction",
+      "commands": [
+        [
+          "python",
+          "-B",
+          "tools/verify.py",
+          "--out",
+          "NEW_EXTERNAL_C1_RESULTS"
+        ],
+        [
+          "python",
+          "-B",
+          "tools/verify_b01.py",
+          "--out",
+          "DIFFERENT_NEW_EXTERNAL_B01_RESULTS"
+        ]
+      ],
+      "prerequisites": "Accepted outer ZIP8636c88... manifest; original lineage/EA_C1_IMPLEMENTATION_CANDIDATE_v0_1_2.zip remains immutable negative input. No invented --old-source flag or cap raise. Preserve exact source copies/prerequisites described in accepted reproduction record.",
+      "expected": "accepted0.1.3 positive gates; original0.1.2 expected RED, N01/N02 preserved",
+      "status": "UNEXECUTED_B1_LEGACY",
+      "process_exit": "record actual; expected limitations cannot be converted to green",
+      "evidence": [
+        "full commands/cwd/source identities/exit/stdout/stderr",
+        "unmodified assertions+raw result/saves/inspector/screenshots as applicable"
+      ],
+      "applicability": "Future bounded B1 work order only; no product/browser execution now"
+    },
+    {
+      "id": "L02",
+      "source": "exact disposable packages/encounter-atlas and independently verified repo export",
+      "cwd": "disposable reference export/package root as command indicates",
+      "commands": [
+        [
+          "node",
+          "--test",
+          "tests/*.test.mjs"
+        ],
+        [
+          "node",
+          "--test",
+          "independent/M1_Independent_Contract_Tests.test.mjs"
+        ],
+        [
+          "node",
+          "--test",
+          "independent/M2_Independent_Contract_Tests.test.mjs"
+        ],
+        [
+          "python",
+          "-B",
+          "tools/repo.py",
+          "doctor"
+        ],
+        [
+          "python",
+          "-B",
+          "tools/repo.py",
+          "integrity"
+        ],
+        [
+          "python",
+          "-B",
+          "tools/repo.py",
+          "encounter-atlas",
+          "--out",
+          "NEW_EXTERNAL_NATIVE_RESULTS"
+        ]
+      ],
+      "expected": "unchanged exact supplied224/independentA1 21/12 proof identities as applicable, overlapping counts not unique sum",
+      "status": "UNEXECUTED_B1_LEGACY",
+      "process_exit": "record actual; expected limitations cannot be converted to green",
+      "evidence": [
+        "full commands/cwd/source identities/exit/stdout/stderr",
+        "unmodified assertions+raw result/saves/inspector/screenshots as applicable"
+      ],
+      "applicability": "Future bounded B1 work order only; no product/browser execution now"
+    },
+    {
+      "id": "L03",
+      "source": "unchanged scripts/run-independent-m3-r3.mjs and inherited IR3 suite",
+      "cwd": "disposable encounter-atlas package",
+      "commands": [
+        [
+          "node",
+          "scripts/run-independent-m3-r3.mjs"
+        ]
+      ],
+      "expected": "actual24pass/1fail(IR3-25)/0skip. Compare original assertion/raw result, preserve known nonblocker; not a fresh all-green claim",
+      "status": "UNEXECUTED_B1_LEGACY",
+      "process_exit": "record actual; expected limitations cannot be converted to green",
+      "evidence": [
+        "full commands/cwd/source identities/exit/stdout/stderr",
+        "unmodified assertions+raw result/saves/inspector/screenshots as applicable"
+      ],
+      "applicability": "Future bounded B1 work order only; no product/browser execution now"
+    },
+    {
+      "id": "L04",
+      "source": "dist-m3/index.html plus exact runs/browser-before-repair.json,browser-recovery.json,browser-post-recovery.json",
+      "cwd": "disposable package",
+      "commands": [
+        [
+          "python",
+          "scripts/serve-m3.py"
+        ]
+      ],
+      "browser_steps": [
+        "open printed Local URL",
+        "Open run -> paste complete browser-before-repair.json -> Load this run",
+        "draft/preview/edit/Why/End/reopen/partner/saveload controls; repair state preserved until substantive narrowed communication",
+        "follow existing case-only comparison and exact zero-payment handover; Nera owner/custody once",
+        "Open run browser-post-recovery; later demands cannot revoke recovery"
+      ],
+      "expected": "raw matching saves/transcripts/inspector, explicit authority/permission/action/privacy/money/repair/recovery boundaries",
+      "status": "UNEXECUTED_B1_LEGACY",
+      "process_exit": "record actual; expected limitations cannot be converted to green",
+      "evidence": [
+        "full commands/cwd/source identities/exit/stdout/stderr",
+        "unmodified assertions+raw result/saves/inspector/screenshots as applicable"
+      ],
+      "applicability": "Future bounded B1 work order only; no product/browser execution now"
+    },
+    {
+      "id": "L05",
+      "source": "dist-m3 R3 faults+dist-atlas-a1 and original alias/read tests",
+      "cwd": "disposable package",
+      "commands": [
+        [
+          "python",
+          "scripts/serve-m3-d03.py"
+        ],
+        [
+          "python",
+          "scripts/serve-atlas-a1.py"
+        ],
+        [
+          "node",
+          "--test",
+          "tests/ar0-d01.test.mjs",
+          "tests/atlas-a1.test.mjs"
+        ]
+      ],
+      "browser_steps": [
+        "load exact independent/m3-r2-review/evidence/r2-fresh-warned.json",
+        "normal visible notice + qualifying Send closes once",
+        "collapse/hidden/display-none/own+ancestor opacity/offscreen/zero/nonfinite/partial/stale receipt faults keep service open with MISSING_CLOSURE_PREVIEW; no invented punishment",
+        "earned genuinely visible receipt remains valid after scroll without draft/revision change",
+        "A1 select person/source/audience/reopen, independently hash full run/catalog before/after; no mutation or private-source leakage"
+      ],
+      "expected": "original production protections+AR0 actor uniqueness/nonactor alias+A1 read purity unchanged",
+      "status": "UNEXECUTED_B1_LEGACY",
+      "process_exit": "record actual; expected limitations cannot be converted to green",
+      "evidence": [
+        "full commands/cwd/source identities/exit/stdout/stderr",
+        "unmodified assertions+raw result/saves/inspector/screenshots as applicable"
+      ],
+      "applicability": "Future bounded B1 work order only; no product/browser execution now"
+    },
+    {
+      "id": "L06",
+      "source": "protected exact status/source/checkpoint manifests",
+      "cwd": "read-only original inputs and disposable evidence",
+      "commands": [],
+      "static_steps": [
+        "recompute every protected file SHA/size/mtime and directory membership",
+        "compare original accepted checkpoint identities and known-defect status records",
+        "record unavailable full historical M0; seven audit checks are not its replacement"
+      ],
+      "expected": "C1 acceptedbounded/N01N02; original0.1.2 RED; nativeaccepted; IR3-25 actualfail; RC HOLD; ZANT R4/A25/A16accepted,A10failed,A06/A14unaccepted,Gprovisional/GateAincomplete",
+      "status": "UNEXECUTED_B1_LEGACY",
+      "process_exit": "record actual; expected limitations cannot be converted to green",
+      "evidence": [
+        "full commands/cwd/source identities/exit/stdout/stderr",
+        "unmodified assertions+raw result/saves/inspector/screenshots as applicable"
+      ],
+      "applicability": "Future bounded B1 work order only; no product/browser execution now"
+    }
+  ],
+  "verified_reference_bytes": {
+    "packages/encounter-atlas/README.md": {
+      "absolute_source": "C:\\Users\\mcdon\\Documents\\GitHub\\First-Encounter-Game\\packages\\encounter-atlas\\README.md",
+      "bytes": 4739,
+      "sha256": "00fb12e7640a363669b14c0943e0a2a92605ff5d3b45382fa2f4596d0009a97c"
+    },
+    "packages/encounter-atlas/package.json": {
+      "absolute_source": "C:\\Users\\mcdon\\Documents\\GitHub\\First-Encounter-Game\\packages\\encounter-atlas\\package.json",
+      "bytes": 652,
+      "sha256": "1b2e57f98324a67ce4910db2c6761f13f5cc5a9725c9b148d4ead3c03a9e7b17"
+    },
+    "packages/encounter-atlas/scripts/serve-m3.py": {
+      "absolute_source": "C:\\Users\\mcdon\\Documents\\GitHub\\First-Encounter-Game\\packages\\encounter-atlas\\scripts\\serve-m3.py",
+      "bytes": 527,
+      "sha256": "82dee966381fd9a9cac09ac851c3af874f2b5742a67f4416da4b218915a7a9ff"
+    },
+    "packages/encounter-atlas/scripts/serve-m3-d03.py": {
+      "absolute_source": "C:\\Users\\mcdon\\Documents\\GitHub\\First-Encounter-Game\\packages\\encounter-atlas\\scripts\\serve-m3-d03.py",
+      "bytes": 2831,
+      "sha256": "7b41966ae6be077e20fa8ff84065854d416b939f55fb9b197278dc06e63ba04e"
+    },
+    "packages/encounter-atlas/scripts/serve-atlas-a1.py": {
+      "absolute_source": "C:\\Users\\mcdon\\Documents\\GitHub\\First-Encounter-Game\\packages\\encounter-atlas\\scripts\\serve-atlas-a1.py",
+      "bytes": 922,
+      "sha256": "01c0b95ea06a45d165384cbc6aa5bb62cd3f3043863ded2543b3d388397d8bba"
+    },
+    "packages/encounter-atlas/scripts/check-m3-r3.py": {
+      "absolute_source": "C:\\Users\\mcdon\\Documents\\GitHub\\First-Encounter-Game\\packages\\encounter-atlas\\scripts\\check-m3-r3.py",
+      "bytes": 2887,
+      "sha256": "ead445311fcf86b520eeb9cfe0b5f319860420017ca2449248557956549349b3"
+    },
+    "packages/encounter-atlas/scripts/run-independent-m3-r3.mjs": {
+      "absolute_source": "C:\\Users\\mcdon\\Documents\\GitHub\\First-Encounter-Game\\packages\\encounter-atlas\\scripts\\run-independent-m3-r3.mjs",
+      "bytes": 1267,
+      "sha256": "5f2b367c78c5ccc90d347398631186588c78d726eaee793e7eed42d4038767a1"
+    },
+    "packages/encounter-atlas/tests/atlas-a1.test.mjs": {
+      "absolute_source": "C:\\Users\\mcdon\\Documents\\GitHub\\First-Encounter-Game\\packages\\encounter-atlas\\tests\\atlas-a1.test.mjs",
+      "bytes": 14983,
+      "sha256": "827e6caffdbc84e76055d912ed4675f583c39dd53b55c04fde47ccb016902781"
+    },
+    "packages/encounter-atlas/tests/ar0-d01.test.mjs": {
+      "absolute_source": "C:\\Users\\mcdon\\Documents\\GitHub\\First-Encounter-Game\\packages\\encounter-atlas\\tests\\ar0-d01.test.mjs",
+      "bytes": 6620,
+      "sha256": "6e3b657961745d227e2f236d82c26cddd1dff8522cd3cb1478c4a9cacd1ead3b"
+    },
+    "packages/encounter-atlas/dist-m3/index.html": {
+      "absolute_source": "C:\\Users\\mcdon\\Documents\\GitHub\\First-Encounter-Game\\packages\\encounter-atlas\\dist-m3\\index.html",
+      "bytes": 133751,
+      "sha256": "8e1c14e25a515b92188703927344e97b744921ec9b033ee2b1d8cc0b63f517cb"
+    },
+    "packages/encounter-atlas/dist-atlas-a1/index.html": {
+      "absolute_source": "C:\\Users\\mcdon\\Documents\\GitHub\\First-Encounter-Game\\packages\\encounter-atlas\\dist-atlas-a1\\index.html",
+      "bytes": 1039524,
+      "sha256": "b9612d61f41bcf2bee5085902ff65c5e418b226de3dd5c8af6490ccd15e4ae9f"
+    },
+    "packages/encounter-atlas/runs/browser-before-repair.json": {
+      "absolute_source": "C:\\Users\\mcdon\\Documents\\GitHub\\First-Encounter-Game\\packages\\encounter-atlas\\runs\\browser-before-repair.json",
+      "bytes": 282986,
+      "sha256": "052b0bbe0c77821974f4aa6ed1eb9f8f19bee414c540e26c11051f1615645c22"
+    },
+    "packages/encounter-atlas/runs/browser-recovery.json": {
+      "absolute_source": "C:\\Users\\mcdon\\Documents\\GitHub\\First-Encounter-Game\\packages\\encounter-atlas\\runs\\browser-recovery.json",
+      "bytes": 305333,
+      "sha256": "ec77d094458177ea633a54ceb3160118ab21f81a5e21189f956934d7c0668e38"
+    },
+    "packages/encounter-atlas/runs/browser-post-recovery.json": {
+      "absolute_source": "C:\\Users\\mcdon\\Documents\\GitHub\\First-Encounter-Game\\packages\\encounter-atlas\\runs\\browser-post-recovery.json",
+      "bytes": 408362,
+      "sha256": "d57a016e39a32fd0d1a00d231cdef4b3404d9d2a4e5ebc1e9d9969aaf5980b46"
+    },
+    "packages/encounter-atlas/independent/m3-r2-review/evidence/r2-fresh-warned.json": {
+      "absolute_source": "C:\\Users\\mcdon\\Documents\\GitHub\\First-Encounter-Game\\packages\\encounter-atlas\\independent\\m3-r2-review\\evidence\\r2-fresh-warned.json",
+      "bytes": 222397,
+      "sha256": "b51ba5a5ef3bbf9f5407229f453ecd13f69ea2f0b56b6f8b9e6b64a73cc58861"
+    }
+  },
+  "execution_count": 0,
+  "gate": "Copy source to new disposable folder; never run changing helpers in canonical/original frozen tree. If reference prerequisites unavailable, mark BLOCKED/UNEXECUTED, not PASS."
+}

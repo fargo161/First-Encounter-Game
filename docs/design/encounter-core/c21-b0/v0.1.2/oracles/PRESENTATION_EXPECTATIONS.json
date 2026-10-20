@@ -1,0 +1,133 @@
+{
+  "scope": "same raw semantic C03 output across normal/fallback/artless; no Choice invocation",
+  "raw": {
+    "eligible": {
+      "INTRO": false,
+      "DECLINE": false,
+      "SILENT": false,
+      "ACK_SCOPE": true,
+      "ACK_CARE": false,
+      "REPORT": false,
+      "SUSPECT": false,
+      "FALLBACK": false
+    },
+    "selected": "ACK_SCOPE",
+    "priority": 40,
+    "words": "I will treat that report as support only for Door D's opening.",
+    "performance": "Keeps the relevant material in view and states the bounded response with a composed face.",
+    "outcome": "O1",
+    "disclosures": []
+  },
+  "normal": {
+    "schema": "ea-c21-presented-response/1",
+    "raw_choice_output_hash": "6531ad288e3e72360be51c2aac51cb11141537b3761fb7328ed05c4881339273",
+    "presentation_bundle_hash": "53ed3b67376b073a8a9c8b6212639c520b46a2466ac497fd011e558378390902",
+    "availability": "normal",
+    "outward": {
+      "sender": "P",
+      "recipients": [
+        "H"
+      ],
+      "family": "Remark",
+      "act": "reply",
+      "subject": "D",
+      "scope": "opening_only",
+      "words": "I will treat that report as support only for Door D's opening.",
+      "prominence": "measured",
+      "terms": null,
+      "amount": 0,
+      "framing": [],
+      "assertions": [],
+      "performance": "Keeps the relevant material in view and states the bounded response with a composed face."
+    },
+    "phases": [
+      {
+        "actor": "P",
+        "kind": "Intake",
+        "words": "",
+        "performance": "Looks toward the received material, then H, with a composed expression."
+      },
+      {
+        "actor": "P",
+        "kind": "Delivery",
+        "words": "I will treat that report as support only for Door D's opening.",
+        "performance": "Keeps the relevant material in view and states the bounded response with a composed face."
+      }
+    ]
+  },
+  "fallback": {
+    "schema": "ea-c21-presented-response/1",
+    "raw_choice_output_hash": "6531ad288e3e72360be51c2aac51cb11141537b3761fb7328ed05c4881339273",
+    "presentation_bundle_hash": "6d4c5a94203ef2e3e150859cfc7f282c5322195e7b34929642fe914a2317d654",
+    "availability": "fallback",
+    "outward": {
+      "sender": "P",
+      "recipients": [
+        "H"
+      ],
+      "family": "Remark",
+      "act": "reply",
+      "subject": "D",
+      "scope": "opening_only",
+      "words": "Remark: I will treat that report as support only for Door D's opening.",
+      "prominence": "measured",
+      "terms": null,
+      "amount": 0,
+      "framing": [],
+      "assertions": [],
+      "performance": "Keeps the relevant material in view and states the bounded response with a composed face."
+    },
+    "phases": [
+      {
+        "actor": "P",
+        "kind": "Intake",
+        "words": "",
+        "performance": "Looks toward the received material, then H, with a composed expression."
+      },
+      {
+        "actor": "P",
+        "kind": "Delivery",
+        "words": "Remark: I will treat that report as support only for Door D's opening.",
+        "performance": "Keeps the relevant material in view and states the bounded response with a composed face."
+      }
+    ]
+  },
+  "artless": {
+    "schema": "ea-c21-presented-response/1",
+    "raw_choice_output_hash": "6531ad288e3e72360be51c2aac51cb11141537b3761fb7328ed05c4881339273",
+    "presentation_bundle_hash": "138392be7803c999e633d34584fb0012978719d139fdc3c081903d4241047c60",
+    "availability": "artless",
+    "outward": {
+      "sender": "P",
+      "recipients": [
+        "H"
+      ],
+      "family": "Remark",
+      "act": "reply",
+      "subject": "D",
+      "scope": "opening_only",
+      "words": "I will treat that report as support only for Door D's opening.",
+      "prominence": "measured",
+      "terms": null,
+      "amount": 0,
+      "framing": [],
+      "assertions": [],
+      "performance": "Keeps the relevant material in view and states the bounded response with a composed face."
+    },
+    "phases": [
+      {
+        "actor": "P",
+        "kind": "Intake",
+        "words": "",
+        "performance": "Looks toward the received material, then H, with a composed expression."
+      },
+      {
+        "actor": "P",
+        "kind": "Delivery",
+        "words": "I will treat that report as support only for Door D's opening.",
+        "performance": "Keeps the relevant material in view and states the bounded response with a composed face."
+      }
+    ]
+  },
+  "raw_output_reference": "oracles/C03_EXPECTED_RAW_CHOICE_OUTPUT.json"
+}

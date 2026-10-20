@@ -1,0 +1,116 @@
+{
+  "schema": "ea-c21-authority/1",
+  "root_authority": "fixture-owner/1",
+  "sole_installer": "Core",
+  "producers": [
+    {
+      "principal": {
+        "producer": "core-maint",
+        "incarnation": "1"
+      },
+      "operations": [
+        "storage-checkpoint"
+      ],
+      "sender": null,
+      "recipients": [],
+      "trigger": null
+    },
+    {
+      "principal": {
+        "producer": "fixture-clock",
+        "incarnation": "1"
+      },
+      "operations": [
+        "advance"
+      ],
+      "sender": null,
+      "recipients": [],
+      "trigger": null
+    },
+    {
+      "principal": {
+        "producer": "human-H",
+        "incarnation": "1"
+      },
+      "operations": [
+        "send"
+      ],
+      "sender": "H",
+      "recipients": [
+        "P"
+      ],
+      "trigger": null
+    },
+    {
+      "principal": {
+        "producer": "npc-controller",
+        "incarnation": "1"
+      },
+      "operations": [],
+      "sender": null,
+      "recipients": [],
+      "trigger": null
+    }
+  ],
+  "families": [
+    {
+      "family": "Choice",
+      "owner": "Choice",
+      "present": false,
+      "policy_id": "absent"
+    },
+    {
+      "family": "Cog",
+      "owner": "CogProof",
+      "present": false,
+      "policy_id": "absent"
+    },
+    {
+      "family": "Comm",
+      "owner": "Comm",
+      "present": false,
+      "policy_id": "absent"
+    },
+    {
+      "family": "Receive",
+      "owner": "Receive",
+      "present": false,
+      "policy_id": "absent"
+    }
+  ],
+  "readers": [
+    {
+      "principal": {
+        "producer": "human-H",
+        "incarnation": "1"
+      },
+      "audiences": [
+        "H"
+      ],
+      "operations": [
+        "read"
+      ],
+      "scope": "H-presented-only",
+      "holder": "H"
+    },
+    {
+      "principal": {
+        "producer": "author-reader",
+        "incarnation": "1"
+      },
+      "audiences": [
+        "author",
+        "technical"
+      ],
+      "operations": [
+        "read",
+        "propose",
+        "verify",
+        "cold-open",
+        "reconcile"
+      ],
+      "scope": "full-proof",
+      "holder": null
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "packet_id": "EA-C21-B0-0.1.2-ORACLE-ALIGNMENT-20261019-01",
+  "archive": {
+    "name": "EA_C21_B0_ORACLE_ALIGNMENT_v0_1_2.zip",
+    "bytes": 22649211,
+    "sha256": "4b4e855fb8bf529d1170bc280de2e6425159c0f5d98f46d8f6d7373f54976736"
+  },
+  "manifest": {
+    "name": "EA_C21_B0_V012_MANIFEST.json",
+    "bytes": 25807,
+    "sha256": "5ff5c6bb54fae6bb9cb3a45dd1dee468a30ecdbd5fdc8d8eb90a29687b84a785"
+  },
+  "zip_members": 131,
+  "acceptance_promoted": false,
+  "implementation_authorized": false
+}

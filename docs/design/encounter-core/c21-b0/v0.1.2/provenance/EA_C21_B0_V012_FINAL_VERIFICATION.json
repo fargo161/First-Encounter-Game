@@ -1,0 +1,98 @@
+{
+  "packet_id": "EA-C21-B0-0.1.2-ORACLE-ALIGNMENT-20261019-01",
+  "status": "PASS_STATIC_AND_PACKAGE_ONLY",
+  "archive": {
+    "name": "EA_C21_B0_ORACLE_ALIGNMENT_v0_1_2.zip",
+    "bytes": 22649211,
+    "sha256": "4b4e855fb8bf529d1170bc280de2e6425159c0f5d98f46d8f6d7373f54976736"
+  },
+  "manifest": {
+    "name": "EA_C21_B0_V012_MANIFEST.json",
+    "bytes": 25807,
+    "sha256": "5ff5c6bb54fae6bb9cb3a45dd1dee468a30ecdbd5fdc8d8eb90a29687b84a785"
+  },
+  "identity": {
+    "name": "EA_C21_B0_ORACLE_ALIGNMENT_v0_1_2.identity.json",
+    "bytes": 501,
+    "sha256": "df3d269c21ef4aecf53dd3225525e70b2797320da92885c03606b2e4a871d7d8"
+  },
+  "zip_members": 131,
+  "safe_paths_CRC_membership_hashes": "PASS",
+  "external_manifest_identical": true,
+  "static": {
+    "status": "PASS_STATIC_ONLY",
+    "packet_id": "EA-C21-B0-0.1.2-ORACLE-ALIGNMENT-20261019-01",
+    "checks_passed": 871,
+    "new_hook_findings": [],
+    "affected_cards": [
+      "T01",
+      "T09",
+      "T26",
+      "T27",
+      "T35"
+    ],
+    "documentary_runs": 35,
+    "stage_fault_bindings": 18,
+    "active_fault_steps_coupled": 22,
+    "unchanged_legacy_cards": 6,
+    "protected_byte_vectors": 63,
+    "new_document_preimages": 5,
+    "schema_definitions_preserved": 183,
+    "product_executions": 0,
+    "fixture_engines_executed": 0,
+    "all_runtime_cases": "UNEXECUTED_B1",
+    "B0_acceptance_promoted": false,
+    "B1_authorized": false,
+    "independent_verdict_claimed": false,
+    "jsonschema_static_tool_version": "4.26.0"
+  },
+  "preservation": {
+    "status": "PASS",
+    "protected_originals": 4637,
+    "protected_memberships": 6,
+    "exact_checks": [
+      "bytes",
+      "sha256",
+      "mtime_ns",
+      "directory membership excluding .git"
+    ],
+    "differences": [],
+    "canonical_changes": 0,
+    "acceptance_changes": 0
+  },
+  "product_executions": 0,
+  "B0_acceptance_promoted": false,
+  "B1_authorized": false,
+  "fresh_readback": {
+    "status": "PASS_BUILDER_STATIC_REPRODUCTION_ONLY",
+    "checked_utc": "2026-10-19T22:14:25.155613+00:00",
+    "extraction": "C:\\Users\\mcdon\\Documents\\Codex\\2026-10-19\\EA-C21-B0-Oracle-Alignment-v0.1.2-readback",
+    "all_frozen_and_extracted_members": "EXACT",
+    "reference63": {
+      "path": "C:\\Users\\mcdon\\Documents\\Codex\\2026-10-19\\EA_C21_B0_V012_READBACK_REFERENCE63.json",
+      "bytes": 379919,
+      "sha256": "689a0f3d5c788c839d0000c9b56563e7f3613c508641b96e7289040c5e01b8d1"
+    },
+    "reference5": {
+      "path": "C:\\Users\\mcdon\\Documents\\Codex\\2026-10-19\\EA_C21_B0_V012_READBACK_REFERENCE5.json",
+      "bytes": 10036,
+      "sha256": "5bd2cc9af25b21eb15b3ad830f330c36a3794f7e485dfe5f99b6c20780d4e17c"
+    },
+    "static": {
+      "path": "C:\\Users\\mcdon\\Documents\\Codex\\2026-10-19\\EA_C21_B0_V012_READBACK_STATIC.json",
+      "bytes": 105813,
+      "sha256": "e2550f14da09d95825cdccaeecc994c75bfb74b4d42cec7cc00fd9cef632b309"
+    },
+    "raw_log": {
+      "path": "C:\\Users\\mcdon\\Documents\\Codex\\2026-10-19\\EA_C21_B0_V012_READBACK_RUN.log",
+      "bytes": 849,
+      "sha256": "aa85e16adefa7a734a24bfd251e45c6e15f5f8ede8c24ee41dcc37e4df76f24b"
+    },
+    "checks_reproduced": 871,
+    "members": 131,
+    "protected_originals_rechecked": 4637,
+    "frozen_payload_writes": 0,
+    "product_executions": 0,
+    "independent_verdict_claimed": false
+  }
+}

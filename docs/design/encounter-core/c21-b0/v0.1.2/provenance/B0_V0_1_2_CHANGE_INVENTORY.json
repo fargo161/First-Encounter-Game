@@ -1,0 +1,525 @@
+{
+  "packet_id": "EA-C21-B0-0.1.2-ORACLE-ALIGNMENT-20261019-01",
+  "scope": [
+    "V011-T01",
+    "V011-T02/T01",
+    "V011-T02/T09",
+    "V011-T02/T35"
+  ],
+  "owner_addendum": "inputs/OWNER_SUPPLEMENTAL_AUTHORIZATION.md",
+  "changed_cards": [
+    "T01",
+    "T09",
+    "T26",
+    "T27",
+    "T35"
+  ],
+  "modified_existing_paths": {
+    "contracts/CASE_INVOCATIONS.json": {
+      "before": {
+        "bytes": 211667,
+        "sha256": "e5342e675e206cbd7d564c8a91dfaa264d81aa77eb8d1d66e4c88f1d1f889986"
+      },
+      "after": {
+        "bytes": 214335,
+        "sha256": "01177b95e8dc9a5da2d9ffcd0a14b2059279770382f310eec8667e354b5292a1"
+      },
+      "field_changes": [
+        {
+          "pointer": "/cards/0/opposing_invocations/0/actual_principal",
+          "change": "replace",
+          "before": "npc-controller/1 for initiate baseline; explicit replacement above for wrong-principal; otherwise per affected base step",
+          "after": "human-H/1"
+        },
+        {
+          "pointer": "/cards/0/opposing_invocations/0/api_sequence/0",
+          "change": "replace",
+          "before": "prepare",
+          "after": "submit"
+        },
+        {
+          "pointer": "/cards/0/opposing_invocations/0/change/action",
+          "change": "replace",
+          "before": "replace",
+          "after": "use-exact-authorized-control"
+        },
+        {
+          "pointer": "/cards/0/opposing_invocations/0/change/target",
+          "change": "replace",
+          "before": "PrepareRequest.kind",
+          "after": "whole complete Send R + independent proposal-only root"
+        },
+        {
+          "pointer": "/cards/0/opposing_invocations/0/change/value",
+          "change": "replace",
+          "before": "send",
+          "after": "contracts/C0_SEND_PROPOSAL_CONTROL.json#/complete_proposal"
+        },
+        {
+          "pointer": "/cards/0/opposing_invocations/0/expected/assertion",
+          "change": "replace",
+          "before": "UNSUPPORTED",
+          "after": "UNSUPPORTED at capability only after proposal permission/current preview/schema pass"
+        },
+        {
+          "pointer": "/cards/0/opposing_invocations/0/reuse",
+          "change": "replace",
+          "before": "base constructors and actual typed slots; apply ONLY the declared change, with a fresh separately qualified root unless corrected same-K explicitly required",
+          "after": "Use complete T01-c0-complete-send-proposal, not advance-to-send mutation. Paired accepted C1 Offer is T01-c1-matched-positive."
+        },
+        {
+          "pointer": "/cards/0/opposing_invocations/0/root_alias",
+          "change": "replace",
+          "before": "config-C0",
+          "after": "config-C0-send-proposal-only"
+        },
+        {
+          "pointer": "/cards/0/opposites/0",
+          "change": "replace",
+          "before": "same supported send draft on C0 -> O4 UNSUPPORTED",
+          "after": "new separately sealed proposal-only C0 control: complete authorized Send -> O4 UNSUPPORTED; matched existing config-C1 Offer -> O2/DECLINE accepted communication"
+        },
+        {
+          "pointer": "/cards/0/v012_binding",
+          "change": "add",
+          "before_present": false,
+          "after": {
+            "source": "contracts/V012_CASE_BINDINGS.json",
+            "run_ids": [
+              "T01-c0-complete-send-proposal",
+              "T01-c1-matched-positive",
+              "T01-c0-wrong-actual-principal"
+            ]
+          }
+        },
+        {
+          "pointer": "/cards/8/opposing_invocations/0/actual_principal",
+          "change": "replace",
+          "before": "npc-controller/1 for initiate baseline; explicit replacement above for wrong-principal; otherwise per affected base step",
+          "after": "human-H/1; author-reader/1 only for pure technical propose where specified"
+        },
+        {
+          "pointer": "/cards/8/steps",
+          "change": "replace",
+          "before": [
+            {
+              "api": "compile",
+              "principal": "human-H/1",
+              "input_binding": "ALL19_FINITE_DRAFTS",
+              "hook": null,
+              "expected": "OBSERVATION",
+              "exit": "0",
+              "channel": "CLI",
+              "step_id": "T09-01"
+            },
+            {
+              "api": "preview",
+              "principal": "human-H/1",
+              "input_binding": "ALL19_FINITE_DRAFTS",
+              "hook": null,
+              "expected": "OBSERVATION",
+              "exit": "0",
+              "channel": "CLI",
+              "step_id": "T09-02"
+            }
+          ],
+          "after": [
+            {
+              "api": "compile",
+              "principal": "human-H/1",
+              "input_binding": "ALL19_FINITE_DRAFTS",
+              "hook": null,
+              "expected": "OBSERVATION",
+              "exit": "0",
+              "channel": "CLI",
+              "step_id": "T09-01"
+            },
+            {
+              "api": "preview",
+              "principal": "human-H/1",
+              "input_binding": "ALL19_FINITE_DRAFTS",
+              "hook": null,
+              "expected": "OBSERVATION",
+              "exit": "0",
+              "channel": "CLI",
+              "step_id": "T09-02"
+            },
+            {
+              "api": "submit",
+              "principal": "human-H/1",
+              "input_binding": "contracts/V012_CASE_BINDINGS.json runs T09-EA-Subtle/T09-EA-Nuanced/T09-EA-Overt, each complete compile/preview/prepare/submit chain from independent fresh existing-main C01,C02 prefix",
+              "hook": "OBSERVE_REVISION_THEN_PRECHOICE",
+              "expected": "O1",
+              "exit": "0",
+              "channel": "same-production-controlled-API",
+              "step_id": "T09-03"
+            }
+          ]
+        },
+        {
+          "pointer": "/cards/8/v012_binding",
+          "change": "add",
+          "before_present": false,
+          "after": {
+            "source": "contracts/V012_CASE_BINDINGS.json",
+            "run_ids": [
+              "T09-EA-Subtle",
+              "T09-EA-Nuanced",
+              "T09-EA-Overt",
+              "T09-SE-Subtle-unsupported",
+              "T09-SE-Overt-unsupported"
+            ]
+          }
+        },
+        {
+          "pointer": "/cards/25/opposing_invocations/0/actual_principal",
+          "change": "replace",
+          "before": "npc-controller/1 for initiate baseline; explicit replacement above for wrong-principal; otherwise per affected base step",
+          "after": "human-H/1; author-reader/1 only for pure technical propose where specified"
+        },
+        {
+          "pointer": "/cards/25/steps/4/exit",
+          "change": "replace",
+          "before": "0",
+          "after": "4"
+        },
+        {
+          "pointer": "/cards/25/steps/4/expected",
+          "change": "replace",
+          "before": "O1",
+          "after": "O4"
+        },
+        {
+          "pointer": "/cards/25/v012_binding",
+          "change": "add",
+          "before_present": false,
+          "after": {
+            "source": "contracts/V012_CASE_BINDINGS.json",
+            "run_ids": [
+              "T26-nested-caught",
+              "T26-nested-uncaught",
+              "T26-healthy-sequential",
+              "T26-inner-standalone-sequential",
+              "T26-cleared-guard-sequential"
+            ]
+          }
+        },
+        {
+          "pointer": "/cards/26/opposing_invocations/0/actual_principal",
+          "change": "replace",
+          "before": "npc-controller/1 for initiate baseline; explicit replacement above for wrong-principal; otherwise per affected base step",
+          "after": "human-H/1; author-reader/1 only for pure technical propose where specified"
+        },
+        {
+          "pointer": "/cards/26/steps/3/exit",
+          "change": "replace",
+          "before": "0",
+          "after": "4"
+        },
+        {
+          "pointer": "/cards/26/steps/3/expected",
+          "change": "replace",
+          "before": "O1",
+          "after": "O4"
+        },
+        {
+          "pointer": "/cards/26/v012_binding",
+          "change": "add",
+          "before_present": false,
+          "after": {
+            "source": "contracts/V012_CASE_BINDINGS.json",
+            "run_ids": [
+              "T27-healthy-sequential",
+              "T27-capture-complete-false",
+              "T27-capture-complete-exception",
+              "T27-owner-validation-false",
+              "T27-owner-validation-exception",
+              "T27-after-receiving-false",
+              "T27-after-receiving-exception",
+              "T27-after-revision-false",
+              "T27-after-revision-exception",
+              "T27-pre-choice-captured-false",
+              "T27-pre-choice-captured-exception",
+              "T27-after-reply-false",
+              "T27-after-reply-exception",
+              "T27-final-validation-false",
+              "T27-final-validation-exception",
+              "T27-before-write-false",
+              "T27-before-write-exception",
+              "T27-post-allocation-false",
+              "T27-post-allocation-exception",
+              "T27-corrected-never-committed-key"
+            ]
+          }
+        },
+        {
+          "pointer": "/cards/34/opposing_invocations/0/actual_principal",
+          "change": "replace",
+          "before": "npc-controller/1 for initiate baseline; explicit replacement above for wrong-principal; otherwise per affected base step",
+          "after": "human-H/1"
+        },
+        {
+          "pointer": "/cards/34/opposing_invocations/0/api_sequence",
+          "change": "replace",
+          "before": [
+            "submit"
+          ],
+          "after": [
+            "compile",
+            "preview",
+            "prepare supplied",
+            "propose author-reader",
+            "controller changes only one preview hash",
+            "submit same supplied V"
+          ]
+        },
+        {
+          "pointer": "/cards/34/opposing_invocations/0/change/action",
+          "change": "replace",
+          "before": "replace-with-wrong-domain",
+          "after": "replace-only-on-copy-before-submit"
+        },
+        {
+          "pointer": "/cards/34/opposing_invocations/0/change/target",
+          "change": "replace",
+          "before": "R.preview.binding.draft_hash",
+          "after": "fresh never-committed R_bad.preview.binding.draft_hash"
+        },
+        {
+          "pointer": "/cards/34/opposing_invocations/0/change/value",
+          "change": "replace",
+          "before": "SHA256(J(same C03 Draft))",
+          "after": "6affd799bbe5b2214797d59ee7b39bf79224dac85cfde9622aa02886195f163e"
+        },
+        {
+          "pointer": "/cards/34/opposing_invocations/0/reuse",
+          "change": "replace",
+          "before": "base constructors and actual typed slots; apply ONLY the declared change, with a fresh separately qualified root unless corrected same-K explicitly required",
+          "after": "Exact T35-fresh-wrong-domain; R0/V0 prepared now at semantic7/storage publication8 after CP01; fresh K T35-fresh-post-CP01. Matched T35-fresh-correct-domain uses correct hash. Never edit committed C03."
+        },
+        {
+          "pointer": "/cards/34/v012_binding",
+          "change": "add",
+          "before_present": false,
+          "after": {
+            "source": "contracts/V012_CASE_BINDINGS.json",
+            "run_ids": [
+              "T35-fresh-wrong-domain",
+              "T35-fresh-correct-domain"
+            ]
+          }
+        }
+      ],
+      "unified_diff": "evidence/diffs/CASE_INVOCATIONS.diff"
+    }
+  },
+  "new_paths": {
+    "B0_V012_C0_PROPOSAL_ADMISSION_CONTRACT.md": {
+      "bytes": 5887,
+      "sha256": "ff978b8d1cae9a548b9fd2cf4a60cf7dd7c5fc9a5c937048b4dc70d73f886e3f"
+    },
+    "B0_V0_1_2_BUILDER_COMPLETION_REPORT.md": {
+      "bytes": 4006,
+      "sha256": "9cf833c49ee1a7cfc57227abb2d85cbdb56a43f41a225c2466b0d617d2e49a38"
+    },
+    "B0_V0_1_2_FINDINGS_AND_LIMITS.md": {
+      "bytes": 4412,
+      "sha256": "ab51fec936d2e1ae9bce2100d89e4346ff3a7aa909f120ab5981a9f39c95dcaa"
+    },
+    "B0_V0_1_2_INDEPENDENT_AUDITOR_HANDOFF.md": {
+      "bytes": 3934,
+      "sha256": "02db33c404ac7eaf5f2cafebf1b20436b59cafb237e4a74c6ab8a9f2f9100d3e"
+    },
+    "B0_V0_1_2_INDEPENDENT_TESTER_HANDOFF.md": {
+      "bytes": 3863,
+      "sha256": "40d2986cf96afa3071807b922e6333de88e9a67e1ee9efd1851c7dd8b50ef62a"
+    },
+    "B0_V0_1_2_ORACLE_REPAIR_REPORT.md": {
+      "bytes": 8188,
+      "sha256": "b71328a0da494d3c0076e123a95db84bd2abc5f01e84b9bcf98068f551672a99"
+    },
+    "B0_V0_1_2_STATIC_VERIFICATION.md": {
+      "bytes": 4086,
+      "sha256": "54b42d618543f9ab3bbdfb24f7a69461f95d6b255a83778d6caaa3809568dcff"
+    },
+    "contracts/C0_SEND_PROPOSAL_AUTHORITY.json": {
+      "bytes": 2108,
+      "sha256": "7b4ffd79f44e02cf553503a117e159ff46cbc8bdacb1d1f91a2a99f668a381f3"
+    },
+    "contracts/C0_SEND_PROPOSAL_CONTROL.json": {
+      "bytes": 21329,
+      "sha256": "9822b8029c74bb089bbff80819e8b275c31559510ccdaa80dff1f7e80fa9e7ed"
+    },
+    "contracts/V012_CASE_BINDINGS.json": {
+      "bytes": 233536,
+      "sha256": "b6cfae04b633eafefeb13150cbce179d01bc02b042dc02eaf9a00a737b1605f2"
+    },
+    "inputs/ACTUAL_V011_AUDITOR_REPORT.md": {
+      "bytes": 13818,
+      "sha256": "6253342c5757201fc10242055bf1963c434112b5646d5f628806066eb6e15991"
+    },
+    "inputs/ACTUAL_V011_TESTER_REPORT.md": {
+      "bytes": 24624,
+      "sha256": "a535e50c58519983a984be7aa01860bd9339aa65c55806554a7379421586ffcd"
+    },
+    "inputs/OWNER_SUPPLEMENTAL_AUTHORIZATION.md": {
+      "bytes": 1246,
+      "sha256": "d6e76aae1960da5f1123c60d32190c67d9f6683e6439f7d67eddb644bd04953a"
+    },
+    "inputs/OWNER_WORK_ORDER.md": {
+      "bytes": 14974,
+      "sha256": "0e6d38ef0824d1088398d2aae196d677bfb39838d2f576f0eef80b814af67a14"
+    },
+    "inputs/tester/INDEPENDENT_TARGETED_RESULTS.json": {
+      "bytes": 580879,
+      "sha256": "0040b0004e0afe316b896da0198f52855429349f852d6d030a62e2ec35900767"
+    },
+    "inputs/tester/independent_targeted_review.py": {
+      "bytes": 22884,
+      "sha256": "b9cb9b53762d73a302d5f4f4cf8077c19b16f29764607026a6298e5ad98ce7c2"
+    },
+    "inputs/tester/REPRODUCE.md": {
+      "bytes": 6048,
+      "sha256": "0d4b88e9988845e1b22a2b8f4742a6591c965c45d63c94a104439c38bd0e6333"
+    },
+    "oracles/V012_EXPECTED_DATA.json": {
+      "bytes": 15738,
+      "sha256": "d5edb50b5fd218c68ecf7f56f0c10071af3a7e8e5a51d6f6aa9bffbfdc9219b7"
+    },
+    "oracles/V012_STATIC_COUNTEREXAMPLES.json": {
+      "bytes": 1072,
+      "sha256": "a76c273491cb7b68ba29627a0bbef09d72233b2771802ff57228836955cc3ec7"
+    },
+    "START_HERE_C21_B0_V0_1_2.md": {
+      "bytes": 4743,
+      "sha256": "cbe5977c79e3b9d1105aee0331922a9744b7cac5c53b9d26a274156832beb208"
+    },
+    "vectors/V012_DOCUMENT_PREIMAGES.json": {
+      "bytes": 5708,
+      "sha256": "2f0f0daf2f3a40cc2af665b57a31b7d7c62a5b6126cb89ce7e8a3676018dc63a"
+    },
+    "verification/author_alignment.py": {
+      "bytes": 40866,
+      "sha256": "3ba0735b7c2f23238902c495c72bf65a26d4640f80d0bdd968c40f905e8ddaa8"
+    },
+    "verification/change_inventory.py": {
+      "bytes": 4794,
+      "sha256": "9369fb25da2b17dfd75e91a9a0de83daf11ce9b508e46535fa94b4c498bfbe61"
+    },
+    "verification/check_alignment.py": {
+      "bytes": 19841,
+      "sha256": "bbb02a2218b21aa3afe36c23aa9a8fd7533d3808c4388131c84b0fb8c403aaa4"
+    },
+    "verification/intake.py": {
+      "bytes": 6614,
+      "sha256": "13aff1102bc63175436e008e5517fe20d0aaf3cc08bbd360ce85f512b1d3f347"
+    },
+    "verification/package_documents.py": {
+      "bytes": 10474,
+      "sha256": "b085a9feda0f54713590cf257d15071aca95aa1e8282089331df185a5f42d0f5"
+    },
+    "verification/reference_v012_bytes.mjs": {
+      "bytes": 2278,
+      "sha256": "bcb5a13a82c05758265e7b64f5d71453c82cdb8285393b6a2d3ce86e03e16061"
+    },
+    "verification/write_documents.py": {
+      "bytes": 36743,
+      "sha256": "6ab4f19e67a3b9cc17614a331f8002931062d012f41df175b5ae197315ed25ae"
+    }
+  },
+  "unchanged_carried_paths": {
+    "contracts/CHECKPOINT_CONTRACT.json": {
+      "bytes": 6213,
+      "sha256": "b734cd372a3515791f48970b85a0aefeb88d098c586d89d67185bc6d76227852"
+    },
+    "contracts/HASH_FIELD_COVERAGE.json": {
+      "bytes": 36883,
+      "sha256": "6a2672fa3e3203de3e47316dc8bd2dbde26a2e6fbcaf1a3efe7407c083991eb5"
+    },
+    "contracts/HASH_PREIMAGE_REGISTRY.json": {
+      "bytes": 22129,
+      "sha256": "ddcc3cd99e1b250a67c43630f37340611ea8c0bd4dd099ae58b05fd02aa96542"
+    },
+    "contracts/LEGACY_INVOCATIONS.json": {
+      "bytes": 12622,
+      "sha256": "472e9401be10638e24c0ff229bb0157f141a4379071cd1da8bc0131ee4238a07"
+    },
+    "contracts/PRESENTATION_BOUNDARY.json": {
+      "bytes": 1715,
+      "sha256": "d75c96c6073bc3a2f6f7263c64558e5802eb9d78a3b9e20e784a722bd2185b07"
+    },
+    "contracts/ROOT_BLUEPRINTS.json": {
+      "bytes": 7151,
+      "sha256": "56d4dc5ecb55b0f0644e2e07ea09beb8fbeb475fcf3b834c25d98cf228c0ea80"
+    },
+    "contracts/TRANSPORT_AND_CONTROL.json": {
+      "bytes": 18765,
+      "sha256": "d49133c6d91a3739844f4e25285988de65d84f66f43ca3a754253ca4eeb236a4"
+    },
+    "examples/FINITE_DRAFTS_AND_OUTWARDS.json": {
+      "bytes": 24543,
+      "sha256": "4654304238f344a296db40c6c1f70f759461e060b0a679df5d4402ab750c6967"
+    },
+    "examples/RENAMED_SOURCE_ARTIFACT.json": {
+      "bytes": 550,
+      "sha256": "4303f8c885c99bc955f38a7660b271ef0414704940a27e2a823bdc93dfc76b60"
+    },
+    "examples/ROOT_duplicate-labels.json": {
+      "bytes": 7981,
+      "sha256": "f530d367ee39a9b7a88130a523dba8b90295c7d8b6b8a3013dc771d61b4f9c82"
+    },
+    "examples/ROOT_label-only.json": {
+      "bytes": 7975,
+      "sha256": "d7d9528b2955650d9635ee64a0ec2404b1e86b42690945f2787c58399712af36"
+    },
+    "examples/ROOT_local-id-rename.json": {
+      "bytes": 8023,
+      "sha256": "4f2ffd21a1fc2d621c46bdc26a23a861fe80218bfe3dc6edfcf77bb05252b996"
+    },
+    "examples/STRUCTURAL_EXAMPLES.json": {
+      "bytes": 558201,
+      "sha256": "61148e3b180e8366a3d5dafa2e25e529eb3a9b3a900372273d72b899495995f2"
+    },
+    "oracles/C03_EXPECTED_PRECHOICE_INPUT.json": {
+      "bytes": 2312,
+      "sha256": "8ed9d3b2c80038af26e61f5b467e7111f56d3b251aeb476740b81579e2d4dcff"
+    },
+    "oracles/C03_EXPECTED_RAW_CHOICE_OUTPUT.json": {
+      "bytes": 470,
+      "sha256": "9d1e4136a3c140b2da1551b66fc1bdac2f6e1aacd3103f08b66b3deae82f9a96"
+    },
+    "oracles/PRESENTATION_EXPECTATIONS.json": {
+      "bytes": 4491,
+      "sha256": "9e2c429dbaef7c17125320576fa55edb743be023de8129696bd18f87b102d93f"
+    },
+    "schemas/B0_CONTRACTS.schema.json": {
+      "bytes": 484634,
+      "sha256": "5e1e8dc52aa936261cb39ddd1548525a5bd2e4285b120678ad59b86431cbcfb6"
+    },
+    "vectors/CHECKPOINT_LOSS_VECTORS.json": {
+      "bytes": 224145,
+      "sha256": "20c89fd2b92645739759294b7942118a12810eb2d6b8f3c0d9534f9d6093287b"
+    },
+    "vectors/DOCUMENT_BYTE_INPUTS.json": {
+      "bytes": 529542,
+      "sha256": "141b986f7c2ee21ba9fe42b3fc5c7ea9c7c55c649da8f9dbd2aa5f37ce4624bf"
+    },
+    "vectors/HAND_WRITTEN_ENCODING_CONTROLS.json": {
+      "bytes": 2061,
+      "sha256": "b992a114b4991228525b0f8d02f94af0944a410d0abcf140afcb284fb4293124"
+    },
+    "verification/reference_bytes.mjs": {
+      "bytes": 3710,
+      "sha256": "a096f82cbeed2ce05b34fc63c191447c7f138e440667f3da14f64289363032ad"
+    }
+  },
+  "protected_effective_changes": [],
+  "canonical_repository_changed_paths": [],
+  "accepted_source_changed_paths": [],
+  "original_roots_or_identities_changed": false,
+  "hash_checkpoint_redesign": false,
+  "original_63_vectors_changed": false,
+  "runtime_executions": 0,
+  "complete_final_evidence_identity_authority": "EA_C21_B0_V012_MANIFEST.json (inventory excludes itself; all generated evidence/diffs/results inventoried there)",
+  "history": "Whole v011 ZIP/manifest/external records and actual reviewer/source copies preserved; previous blocked preflight remains immutable; owner addendum resolves authorization only, not independent closure."
+}

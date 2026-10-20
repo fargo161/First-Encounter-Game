@@ -1,0 +1,635 @@
+{
+  "schema": "ea-c21-document-hash-registry/0.1.1",
+  "status": "PROPOSED_NOT_RUNTIME_ACCEPTED",
+  "canonical_J": {
+    "encoding": "UTF8 no BOM",
+    "object_keys": "Unicode scalar lexicographic, not UTF16 code-unit sorting",
+    "strings": "Escape U+007F and above to lowercase hex Unicode escapes; U+0000..001F use JSON short escapes where defined, otherwise Unicode escape. Quote/backslash escaped, slash unescaped. Supplementary scalars use surrogate-pair escapes. ASCII U+0020..007E otherwise literal.",
+    "numbers": "integers only [-9007199254740991,9007199254740991]; no -0 token, floats, exponents, NaN or Infinity",
+    "forbidden": "duplicate keys, lone surrogates, nonstring keys, opaque/async values, trailing data",
+    "arrays": "ordered unless exact recipe explicitly specifies sorting; reject duplicate semantic set members, never silently deduplicate",
+    "transport": "Files/stdout exactly J(object)+one LF. No BOM, CRLF, extra whitespace or trailing bytes. LF never part of a digest preimage."
+  },
+  "Htag_bytes": "ASCII(\"ea-c21/1/\")+ASCII(exact tag)+00+J(exact registry value); lowercase SHA256 hex of concatenation. No length prefix or LF. Tags selected ONLY by this registry.",
+  "entries": [
+    {
+      "id": "raw-file",
+      "fields": [
+        "ArtifactBytes.raw_sha256",
+        "ArtifactEntry.raw_sha256",
+        "SourceManifest.files[].raw_sha256",
+        "PolicyEntry.*raw_sha256",
+        "BackendManifest.*binary_sha256",
+        "qualification record raw hashes",
+        "AvailabilityRecord.artifact_hash",
+        "NumericProfile.independent_census_sha256",
+        "PresentationManifest.art_bytes_sha256"
+      ],
+      "preimage_type": "RawByteSequence",
+      "algorithm": "SHA256(raw)",
+      "tag": null,
+      "construction": "exact file bytes decoded from raw_hex; includes BOM/CRLF if supplied; no normalization"
+    },
+    {
+      "id": "document-json",
+      "fields": [
+        "Artifact*.canonical_json_sha256",
+        "RootBlueprint.descriptor_json_sha256",
+        "PolicyEntry.descriptor_json_sha256",
+        "PolicyManifest.catalog_json_sha256",
+        "LocalBinding.artifact_sha256",
+        "RootDescriptor.policy_descriptors_sha256",
+        "RootDescriptor.materialized_artifact.canonical_content_sha256",
+        "RootDescriptor.local_bindings[].artifact_sha256"
+      ],
+      "preimage_type": "StrictJSONValue",
+      "algorithm": "SHA256(J)",
+      "tag": null,
+      "construction": "J(parsed exact JSON value), after duplicate-key/domain validation; preserved reviewed raw-J hashes unchanged"
+    },
+    {
+      "id": "source-identity",
+      "fields": [
+        "SourceManifest.source_identity"
+      ],
+      "preimage_type": "ArtifactMapPreimage",
+      "algorithm": "SHA256(J)",
+      "tag": null,
+      "construction": "object exactly six relative-path keys -> raw source SHA256; scalar-sorted J; same documentary recipe as original B0, not C1 digest"
+    },
+    {
+      "id": "entity",
+      "fields": [
+        "EntityValue.id",
+        "LocalBinding.canonical_id",
+        "Disclosure.person",
+        "KnownReference.person/subject",
+        "ChoiceInputRecord.actor",
+        "ChoiceDecisionRecord.actor",
+        "G2Key entity id"
+      ],
+      "preimage_type": "EntityIdentityPreimage",
+      "algorithm": "Htag",
+      "tag": "entity",
+      "construction": "{world,lineage,kind,authority,origin_local_id}; origin fixed at authored admission, never recalculated from renamed representation"
+    },
+    {
+      "id": "source-manifest",
+      "fields": [
+        "LaunchConfig.source_manifest_hash"
+      ],
+      "preimage_type": "SourceManifest",
+      "algorithm": "Htag",
+      "tag": "source-manifest",
+      "construction": "whole manifest, entries sorted by path; source_identity has raw-J domain above"
+    },
+    {
+      "id": "backend-manifest",
+      "fields": [
+        "LaunchConfig.backend_manifest_hash"
+      ],
+      "preimage_type": "BackendManifest",
+      "algorithm": "Htag",
+      "tag": "backend-manifest",
+      "construction": "whole typed manifest; compile_options sorted scalar strings, unique; actual B1 values pending"
+    },
+    {
+      "id": "policy-bundle",
+      "fields": [
+        "R.policy_bundle_hash",
+        "Dependency.policy_bundle_hash",
+        "PreviewBinding.policy_bundle_hash"
+      ],
+      "preimage_type": "PolicyManifest",
+      "algorithm": "Htag",
+      "tag": "policy-bundle",
+      "construction": "whole manifest, entries sorted owner scalar name, unique"
+    },
+    {
+      "id": "numeric-profile",
+      "fields": [
+        "R.profile_hash",
+        "ResourceObservation.profile_hash"
+      ],
+      "preimage_type": "NumericProfile",
+      "algorithm": "Htag",
+      "tag": "numeric-profile",
+      "construction": "whole profile; pending/null profile is never admissible"
+    },
+    {
+      "id": "presentation-bundle",
+      "fields": [
+        "PreviewBinding.presentation_bundle_hash",
+        "Dependency.presentation_bundle_hash",
+        "PresentedResponse.presentation_bundle_hash"
+      ],
+      "preimage_type": "PresentationManifest",
+      "algorithm": "Htag",
+      "tag": "presentation-bundle",
+      "construction": "whole root-bound manifest including whole-bundle availability; not passed to Choice"
+    },
+    {
+      "id": "authority",
+      "fields": [
+        "root authority reference, when carried diagnostically"
+      ],
+      "preimage_type": "AuthorityManifest",
+      "algorithm": "Htag",
+      "tag": "authority",
+      "construction": "whole manifest; producers sorted (producer,incarnation), families Choice,Cog,Comm,Receive"
+    },
+    {
+      "id": "binding-manifest",
+      "fields": [
+        "R.binding_manifest_hash",
+        "Dependency.binding_manifest_hash"
+      ],
+      "preimage_type": "RootBindingPreimage",
+      "algorithm": "Htag",
+      "tag": "binding-manifest",
+      "construction": "{bindings: root identity_manifest.bindings sorted by J(binding tuple) bytes}"
+    },
+    {
+      "id": "identity-manifest",
+      "fields": [
+        "root identity reference, when carried diagnostically"
+      ],
+      "preimage_type": "IdentityManifest",
+      "algorithm": "Htag",
+      "tag": "identity-manifest",
+      "construction": "whole manifest: entities sorted J({kind,id}), bindings sorted J(tuple), labels are explicit content"
+    },
+    {
+      "id": "root",
+      "fields": [
+        "RootSeal.root_id",
+        "Witness.root_id",
+        "all root_id references"
+      ],
+      "preimage_type": "RootSealBody",
+      "algorithm": "Htag",
+      "tag": "root",
+      "construction": "whole body WITHOUT outer root_id; source/policy/backend/profile/presentation/authority/identity and artifact bytes all included; artifacts sorted (kind,id,path)"
+    },
+    {
+      "id": "draft",
+      "fields": [
+        "PreviewBinding.draft_hash"
+      ],
+      "preimage_type": "Draft",
+      "algorithm": "Htag",
+      "tag": "draft",
+      "construction": "whole Draft; neither raw-J digest nor Htag(preview,Draft)"
+    },
+    {
+      "id": "outward",
+      "fields": [
+        "PreviewBinding.outward_hash"
+      ],
+      "preimage_type": "Outward",
+      "algorithm": "Htag",
+      "tag": "outward",
+      "construction": "complete initiating outward, including every performed/source field"
+    },
+    {
+      "id": "preview-grants",
+      "fields": [
+        "PreviewBinding.source_grants_hash"
+      ],
+      "preimage_type": "PreviewGrantsPreimage",
+      "algorithm": "Htag",
+      "tag": "preview-grants",
+      "construction": "{fragments: Preview.source_fragments}; preserve actual selected-grant order"
+    },
+    {
+      "id": "world-witness",
+      "fields": [
+        "PreviewBinding.world_witness_hash"
+      ],
+      "preimage_type": "Witness",
+      "algorithm": "Htag",
+      "tag": "world-witness",
+      "construction": "whole current complete trusted Witness, not a gameplay equality token"
+    },
+    {
+      "id": "preview",
+      "fields": [
+        "preview record integrity reference"
+      ],
+      "preimage_type": "Preview",
+      "algorithm": "Htag",
+      "tag": "preview",
+      "construction": "whole Preview after its independent binding fields have been computed; R contains full Preview"
+    },
+    {
+      "id": "row",
+      "fields": [
+        "FamilyWitness.members[].row_hash",
+        "CheckpointDescriptor.payload_row_hash",
+        "Effect.before_hash",
+        "ManifestMember.row_hash",
+        "Dependency.source_grants[].record_hash"
+      ],
+      "preimage_type": "RowPreimage",
+      "algorithm": "Htag",
+      "tag": "row",
+      "construction": "{group,key,payload}; payload is decoded complete value, not raw JSON string. Effect.before_hash=null means witnessed key absence, never digest(empty)."
+    },
+    {
+      "id": "family-set",
+      "fields": [
+        "FamilyWitness.set_hash"
+      ],
+      "preimage_type": "FamilySetPreimage",
+      "algorithm": "Htag",
+      "tag": "family-set",
+      "construction": "{family,present,members:[{key,row_hash}]}; members sorted J(key) unsigned UTF8 bytes. present=false REQUIRES [] and root capability absence; present=true may also be []; hashes differ."
+    },
+    {
+      "id": "family-manifest",
+      "fields": [
+        "Genesis.initial_family_manifest_hash",
+        "Semantic.post_family_manifest_hash"
+      ],
+      "preimage_type": "FamilyManifestPreimage",
+      "algorithm": "Htag",
+      "tag": "family-manifest",
+      "construction": "{families: all four complete FamilyWitness in Choice,Cog,Comm,Receive order}"
+    },
+    {
+      "id": "identity-state",
+      "fields": [
+        "Witness.identity_manifest_hash",
+        "Genesis.initial_identity_manifest_hash",
+        "Semantic.post_identity_hash"
+      ],
+      "preimage_type": "IdentityStatePreimage",
+      "algorithm": "Htag",
+      "tag": "identity-state",
+      "construction": "{rows: complete G2 rows sorted J(key) bytes}"
+    },
+    {
+      "id": "clock-state",
+      "fields": [
+        "Witness.clock_hash",
+        "Genesis.initial_clock_hash",
+        "Semantic.post_clock_hash"
+      ],
+      "preimage_type": "ClockStatePreimage",
+      "algorithm": "Htag",
+      "tag": "clock-state",
+      "construction": "{rows: complete G4 rows sorted J(key) bytes}"
+    },
+    {
+      "id": "protection-state",
+      "fields": [
+        "Witness.protection_hash",
+        "Genesis.initial_protection_hash",
+        "Semantic.post_protection_hash"
+      ],
+      "preimage_type": "ProtectionStatePreimage",
+      "algorithm": "Htag",
+      "tag": "protection-state",
+      "construction": "{rows: complete G5 rows sorted J(key) bytes}"
+    },
+    {
+      "id": "operations-state",
+      "fields": [
+        "Witness.operations_manifest_hash"
+      ],
+      "preimage_type": "OperationsStatePreimage",
+      "algorithm": "Htag",
+      "tag": "operations-state",
+      "construction": "{rows: complete G6 rows sorted J(key) bytes}; originals never retired"
+    },
+    {
+      "id": "profiles-state",
+      "fields": [
+        "Witness.profiles_manifest_hash"
+      ],
+      "preimage_type": "ProfilesStatePreimage",
+      "algorithm": "Htag",
+      "tag": "profiles-state",
+      "construction": "{rows: complete G7 rows sorted J(key) bytes}"
+    },
+    {
+      "id": "proofs-state",
+      "fields": [
+        "Witness.proofs_manifest_hash"
+      ],
+      "preimage_type": "ProofsStatePreimage",
+      "algorithm": "Htag",
+      "tag": "proofs-state",
+      "construction": "{rows: complete LOGICAL G9 rows sorted J(key) bytes}; eligible absent payload rows first reconstituted/validated exactly; no omitted preimage"
+    },
+    {
+      "id": "state",
+      "fields": [
+        "V.next_semantic_state_digest"
+      ],
+      "preimage_type": "SemanticSnapshot",
+      "algorithm": "Htag",
+      "tag": "state",
+      "construction": "exact {G1,G2,G4,G5}, each complete row array sorted J(key). No G3/G6..G9 self-dependent metadata"
+    },
+    {
+      "id": "request",
+      "fields": [
+        "V.request_hash",
+        "Dbody.request_hash",
+        "TechnicalError.request_hash"
+      ],
+      "preimage_type": "R",
+      "algorithm": "Htag",
+      "tag": "request",
+      "construction": "whole original immutable R; null in error only if no valid captured R"
+    },
+    {
+      "id": "dependency",
+      "fields": [
+        "Dbody.dependency_hash"
+      ],
+      "preimage_type": "Dependency",
+      "algorithm": "Htag",
+      "tag": "dependency",
+      "construction": "whole exact immutable Dependency, full Witness and bound source records"
+    },
+    {
+      "id": "candidate",
+      "fields": [
+        "CoreValidationOutput.candidate_hash"
+      ],
+      "preimage_type": "VWithoutValidation",
+      "algorithm": "Htag",
+      "tag": "candidate",
+      "construction": "whole proposed V with ONLY validation metadata list excluded by explicit type"
+    },
+    {
+      "id": "owner-input",
+      "fields": [
+        "OwnerValidation.input_hash"
+      ],
+      "preimage_type": "OwnerInputPreimage",
+      "algorithm": "Htag",
+      "tag": "owner-input",
+      "construction": "{owner,value:exact protected declared input}; validation metadata never inserted into its own input"
+    },
+    {
+      "id": "owner-output",
+      "fields": [
+        "OwnerValidation.output_hash"
+      ],
+      "preimage_type": "OwnerOutputPreimage",
+      "algorithm": "Htag",
+      "tag": "owner-output",
+      "construction": "{owner,value:exact pure proposal}; no validation metadata in proposal"
+    },
+    {
+      "id": "choice-output",
+      "fields": [
+        "PresentedResponse.raw_choice_output_hash"
+      ],
+      "preimage_type": "ChoiceOutput",
+      "algorithm": "Htag",
+      "tag": "choice-output",
+      "construction": "whole RAW semantic output only, with normal pinned words and no bundle proxy"
+    },
+    {
+      "id": "result",
+      "fields": [
+        "Dbody.result_hash"
+      ],
+      "preimage_type": "V",
+      "algorithm": "Htag",
+      "tag": "result",
+      "construction": "whole validated V, includes separate raw output and actual presentation"
+    },
+    {
+      "id": "effect-delta",
+      "fields": [
+        "Semantic.effect_delta_hash"
+      ],
+      "preimage_type": "EffectDeltaPreimage",
+      "algorithm": "Htag",
+      "tag": "effect-delta",
+      "construction": "{effects: V.effects}, ordered by fixed lifecycle category then J(key); no new V/D/head hash in effects"
+    },
+    {
+      "id": "semantic-genesis",
+      "fields": [
+        "Witness.semantic_head at sequence0"
+      ],
+      "preimage_type": "GenesisPreimage",
+      "algorithm": "Htag",
+      "tag": "semantic-genesis",
+      "construction": "exact five named fields; no current root-row/storage/receipt backreference"
+    },
+    {
+      "id": "semantic",
+      "fields": [
+        "Witness.semantic_head after ordinary world operation",
+        "Dbody.semantic_head"
+      ],
+      "preimage_type": "SemanticPreimage",
+      "algorithm": "Htag",
+      "tag": "semantic",
+      "construction": "exact eleven named fields. Maintenance retains prior semantic head/sequence."
+    },
+    {
+      "id": "receipt",
+      "fields": [
+        "D.id",
+        "OperationValue.D_id",
+        "AckAnchor.D_id",
+        "Publication.operation_receipt_ids[]"
+      ],
+      "preimage_type": "Dbody",
+      "algorithm": "Htag",
+      "tag": "receipt",
+      "construction": "whole Dbody AFTER semantic head; publication integer only, no new storage hash"
+    },
+    {
+      "id": "checkpoint-payload",
+      "fields": [
+        "CheckpointDescriptor.payload_hash",
+        "Publication.checkpoint_hash"
+      ],
+      "preimage_type": "CheckpointPayload",
+      "algorithm": "Htag",
+      "tag": "checkpoint-payload",
+      "construction": "whole deterministic prior-snapshot/prefix payload; ends strictly BEFORE its own checkpoint publication"
+    },
+    {
+      "id": "checkpoint-descriptor",
+      "fields": [
+        "descriptor integrity reference (if requested technically)"
+      ],
+      "preimage_type": "CheckpointDescriptor",
+      "algorithm": "Htag",
+      "tag": "checkpoint-descriptor",
+      "construction": "whole required descriptor including payload_hash and payload_row_hash; G9 row manifest commits it"
+    },
+    {
+      "id": "row-manifest",
+      "fields": [
+        "Publication.post_rows_manifest_hash"
+      ],
+      "preimage_type": "RowsManifestPreimage",
+      "algorithm": "Htag",
+      "tag": "row-manifest",
+      "construction": "{rows: complete G1..G7/G9 ManifestMember[]}; group numeric order 1..7,9, then J(key) unsigned UTF8 bytes. Includes virtual EXACT reconstructed payload rows. Never includes current G8 row."
+    },
+    {
+      "id": "publication",
+      "fields": [
+        "Witness.storage_head",
+        "D.publication.storage_head",
+        "AckAnchor.storage_head",
+        "Checkpoint*.through_storage_head",
+        "CoverageEntry.storage_head"
+      ],
+      "preimage_type": "Publication",
+      "algorithm": "Htag",
+      "tag": "publication",
+      "construction": "whole G8 body; G8 physical key [publication_sequence] must match body. Previous hash chains all prior G8 rows."
+    },
+    {
+      "id": "launch",
+      "fields": [
+        "SessionBinding.launch_config_hash"
+      ],
+      "preimage_type": "LaunchConfig",
+      "algorithm": "Htag",
+      "tag": "launch",
+      "construction": "whole out-of-band config, never derived from R claimed producer"
+    },
+    {
+      "id": "hook-plan",
+      "fields": [
+        "LaunchConfig.hook_plan_hash"
+      ],
+      "preimage_type": "HookPlan",
+      "algorithm": "Htag",
+      "tag": "hook-plan",
+      "construction": "whole trusted controlled plan; normal mode requires null and no hook plan"
+    },
+    {
+      "id": "session-bind",
+      "fields": [
+        "SessionBinding.session_id"
+      ],
+      "preimage_type": "SessionPreimage",
+      "algorithm": "Htag",
+      "tag": "session-bind",
+      "construction": "{launch_config_hash,session_nonce}; trusted launcher binds handle to its local process session; not an authentication/signature platform"
+    },
+    {
+      "id": "hook-bytes",
+      "fields": [
+        "HookEvidence.*before_hash",
+        "HookEvidence.*after_hash"
+      ],
+      "preimage_type": "CapturedHookTarget",
+      "algorithm": "Htag",
+      "tag": "hook-bytes",
+      "construction": "{target,canonical_value_hex:hex(J(exact captured target value))}; allows documentary capture of invalid-but-JSON caller/result bytes without treating them as valid R/V. Nonsemantic evidence only; no normalized or filtered capture."
+    },
+    {
+      "id": "hook-input",
+      "fields": [
+        "HookEvidence.raw_input_hash"
+      ],
+      "preimage_type": "ChoiceInput",
+      "algorithm": "Htag",
+      "tag": "choice-input",
+      "construction": "whole raw actually captured ChoiceInput; expected-answer file never an input"
+    }
+  ],
+  "state_row_sort": "For each group rows use J(key) unsigned UTF8 byte lexicographic; unique keys. Cross-group order G1,G2,G3,G4,G5,G6,G7,G9. Hash stored decoded values, but verify physical payload bytes exactly equal J(payload) before hashing.",
+  "G8_rule": "G8 key [sequence] plus body publication_sequence agree. Body hash chains predecessor. Do not put G8 new row/hash into its own nonG8 manifest.",
+  "root_rule": "Verify descriptor/source artifact and all artifacts against out-of-band authorized RootSeal/root id and actual source/backend qualification, not just self-recomputed hashes. NumericProfile pending -> O5, no admitted world.",
+  "field_types": "All preimage types are closed $defs in schemas/B0_CONTRACTS.schema.json; RawByteSequence/StrictJSONValue are encoding-domain primitives, not opaque product blobs.",
+  "acyclic_levels": [
+    {
+      "level": 0,
+      "values": [
+        "raw artifacts",
+        "six-file raw-J source identity",
+        "EntityIdentityPreimage",
+        "required manifests",
+        "external launch/hook config"
+      ]
+    },
+    {
+      "level": 1,
+      "values": [
+        "RootSealBody/root_id",
+        "initial semantic G1/G2/G4/G5 rows"
+      ]
+    },
+    {
+      "level": 2,
+      "values": [
+        "family/state manifests",
+        "semantic genesis",
+        "genesis G7/G3/G9 required rows",
+        "genesis G8/storage"
+      ]
+    },
+    {
+      "level": 3,
+      "values": [
+        "prior complete Witness",
+        "Draft/outward/source grants",
+        "PreviewBinding/Preview",
+        "full R/request hash"
+      ]
+    },
+    {
+      "level": 4,
+      "values": [
+        "Dependency",
+        "semantic effect rows and raw ChoiceOutput/presentation",
+        "candidate without validation",
+        "OwnerValidation",
+        "complete V/result hash"
+      ]
+    },
+    {
+      "level": 5,
+      "values": [
+        "post semantic state manifests",
+        "new semantic head (or retained head for maintenance)",
+        "Dbody/receipt id"
+      ]
+    },
+    {
+      "level": 6,
+      "values": [
+        "Core-derived G3/G6/proof/index rows",
+        "nonG8 row manifest",
+        "G8 publication/storage",
+        "derived D envelope/external ack"
+      ]
+    },
+    {
+      "level": 7,
+      "values": [
+        "next operation or checkpoint prior-snapshot payload from already verified prefix",
+        "required checkpoint descriptor",
+        "maintenance D then row manifest/G8 like levels4..6"
+      ]
+    }
+  ],
+  "exclusions": [
+    "V/effects cannot contain own result/new D/new semantic/storage hash",
+    "Core G3/G6/G7/G8/G9 metadata outside V.effects",
+    "Validation metadata excluded from its own input/proposal",
+    "New protection endpoints stable qualified record/operation ids, never own V/D/head hash",
+    "G3 no current storage hash",
+    "Checkpoint prefix excludes own publication; no self descriptor in payload",
+    "Dbody no current storage hash; delivered envelope derived after publication",
+    "All original R/V/dependencies remain exact on replay; no current witness refresh"
+  ],
+  "source_checkpoint_schema_rule": "G9 committed payload bytes remain committed even when physically absent; verified scratch reconstitution supplies precisely same preimage. See CHECKPOINT_CONTRACT; no hash waiver."
+}

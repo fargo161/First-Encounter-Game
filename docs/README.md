@@ -9,3 +9,7 @@ Stage 12 evidence is under audits/stage12-2026-10-18/. Historical full-snapshot 
 ## Proposed C2.1 B0 technical design
 
 [Reviewed B0 v0.1.2 proposed technical contract](design/encounter-core/c21-b0/v0.1.2/README.md): targeted documentary closure only; no owner design-freeze acceptance or B1 implementation authorization. A separately reviewed standalone fun/playability amendment remains mandatory.
+
+## Proposed KeyWrapping substrate
+
+[KeyWrapping substrate v0.1](design/keywrapping-substrate/v0.1/README.md): researched documentation/specification proposal, with JSON examples, source/license evidence and independent documentary audits. This is not an accepted shared contract or implementation authorization. Actual JSON Schema files are deferred; commit, push, merge and publication remain held for owner review. C2.1 B0 is a comparison input only.

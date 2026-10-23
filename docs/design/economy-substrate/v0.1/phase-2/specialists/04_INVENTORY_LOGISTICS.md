@@ -1,0 +1,71 @@
+# Inventory, logistics and supply-chain specialist findings
+
+**Version:** v0.1 / Phase 2  
+**Date:** 2026-10-23, America/New_York  
+**Role:** Runbook role 4 — Inventory / Logistics / Supply Chain  
+**Status:** PROPOSED ECONOMY RESEARCH / DESIGN; NOT OWNER-ACCEPTED ECONOMY ARCHITECTURE  
+**Boundary:** Specialist contribution only; Phase 3 synthesis, implementation and independent verification have not begun.
+
+## Authority and owner direction
+
+The current owner instruction accepts Phase 1 and authorizes bounded Phase 2 research/design. Earlier stop instructions inside the supplied runbook remain historical gates; they do not override that authorization or authorize subsequent phases. Repository sources remain pinned to Phase 1's `22c06dc179e3a0739a5ce1e747d0a46dc114fab5`; Phase 1 and this report are local, uncommitted documents.
+
+| Evidence class | Exact source and inspected section | Constraint carried into this report |
+| --- | --- | --- |
+| Current explicit owner authority | [Phase 1 authority update](../../phase-1/AUTHORITY_AND_PREFLIGHT_UPDATE.md), “Current owner authority” and status table; current Phase 2 approval in this chat | KeyWrapping v0.1 architecture, semantic separations and invariants are OWNER-ACCEPTED. Runtime does not exist/is unaccepted; shared Encounter integration is unaccepted; fields, JSON, schemas and APIs are unfrozen. No separate acceptance record is required. |
+| Repository authority | [contracts/SHARED_CONTRACT_DECISION.md](../../../../../../contracts/SHARED_CONTRACT_DECISION.md), “Accepted now”; [contracts/SHARED_CONTRACT_INVENTORY.md](../../../../../../contracts/SHARED_CONTRACT_INVENTORY.md), E4/E7 | Encounter owns identity, interaction meaning and consequences. Owner and holder/custodian differ. Native contracts remain qualified; observed M3 support is bounded, not a new Economy integration contract. |
+| Accepted bounded proof | [packages/encounter-core-c1/README.md](../../../../../../packages/encounter-core-c1/README.md), “Scope and qualifications” | C1 is a separate non-social proof with finite profiles/full-prefix costs and N01/N02 qualifications. No unlimited goods-history service or second authoritative writer follows. |
+| Accepted KeyWrapping semantics under owner correction | [REFERENCES_PROMOTION.md](../../../../keywrapping-substrate/v0.1/REFERENCES_PROMOTION.md), §§3–5; [PERSPECTIVE_PROVENANCE.md](../../../../keywrapping-substrate/v0.1/PERSPECTIVE_PROVENANCE.md), §§2–6 | Occurrence, record, acquisition, identity, attention and retention differ. Promotion cannot create acquired knowledge, fabricated past evidence or duplicate effects. Open policy choices remain open. |
+| Accepted Phase 1 framing | [scope/boundary map](../../phase-1/SCOPE_AND_BOUNDARY_MAP.md), goods, aggregate and subsystem rows; [terminology](../../phase-1/TERMINOLOGY_MAP.md); [assignment](../../phase-1/RESEARCH_ASSIGNMENTS.md), role 4; [conflicts](../../phase-1/CONFLICT_REGISTER.md) | Investigate bounded goods continuity without assuming a general elaboration capability, Laws contract, information propagation or Combat implementation. |
+
+**Owner-established direction, distinct from accepted Economy architecture:** [Economy Context v0.1](C:/Users/mcdon/Downloads/Encounter_Trapstar_Economy_Structure_Context_v0_1.md), §§3, 8–10, 13–14, 18–21, 39–46 and 50–51, requests product types versus consequential items, custody before payment, external supply stopping at port/interstate, fallible records and aggregate ordinary commerce. Legitimate deliveries and diverted/stolen goods should reuse common concerns. The [runbook](C:/Users/mcdon/Downloads/Economy_Substrate_v0_1_Codex_Agent_Team_Runbook.md), role 4 and Phase 2, supplies this specialist remit; its later workflow does not self-activate.
+
+## External research provenance
+
+Access date for both primary sources: **2026-10-23**. Claims below come from inspected primary material; proposed game implications are inferences, not research findings or adopted standards.
+
+| ID / source identity | Inspected claim and scope | Donor classification, application and limits |
+| --- | --- | --- |
+| I-01 — Nicole DeHoratius and Ananth Raman, [“Inventory Record Inaccuracy: An Empirical Analysis”](https://pubsonline.informs.org/doi/10.1287/mnsc.1070.0789), INFORMS, *Management Science* 54(4):627–641, published 2008-04-01, DOI 10.1287/mnsc.1070.0789 | Publisher abstract and bibliographic record inspected. In approximately 370,000 records across 37 stores of one retailer, 65% differed from physical inventory; the abstract associates variation with auditing, environment complexity and distribution. | **Direct evidence for keeping record and physical quantity distinct; caution for balancing.** One retailer's empirical prevalence is not a game discrepancy rate, a universal retail estimate or proof that theft caused a mismatch. Full methods/data were not inspected. |
+| I-02 — GS1 AISBL, [GS1 Global Traceability Standard](https://ref.gs1.org/standards/global-traceability/2.0.0/), release 2.0, ratified August 2017; versioned official PDF | §§1.2, 2.2, 3.3.2–3.3.4 inspected: lifecycle includes aggregation, transformation, consumption and destruction; identification level and recorded granularity jointly limit trace precision; information has sensitivity and quality concerns. | **Analogy and caution.** Useful questions about precision and lifecycle boundaries. Reject importing GS1 identifiers, vocabulary, data structures, end-to-end coverage requirements or trusted business-record assumptions. Its data-management standard neither establishes Encounter truth nor proves bounded simulation cost. |
+
+The two donors justify distinctions, not the complete candidate design. No external source establishes an accepted promotion mechanism or guarantees exploit resistance.
+
+## Specialist findings and candidate primitives
+
+The useful minimum appears to be a distinction between goods continuity and accounts of goods. A manifest can describe an expected load; loading, arrival, unloading, acceptance and payment are different occurrences. Restocking is an actual inbound change when supported, not the automatic consequence of a schedule, invoice or bank payment. Repeatedly reading a manifest must not replenish stock. These are proposed applications of owner direction and accepted semantic separations.
+
+Candidate labels below are navigation aids, not runtime types, fields, states or APIs. “Architecture” means a question about reusable meaning; it does not assert acceptance.
+
+| Candidate | PROPOSED minimum semantics | Reuse / content versus architecture |
+| --- | --- | --- |
+| I-C01 — Goods distinction | Separate a product kind, a coarse quantity and a particular consequential item. A coarse pool cannot answer which individual unit moved unless that basis was retained. | Shared by soap, food and illicit merchandise. Quantity units and product catalog are content choices; granularity/identity continuity touches shared architecture. No compulsory identity per bottle. |
+| I-C02 — Stock partition and allocation | Distinguish physical presence/custody from quantity represented in records and from stock set aside for an intended use. A reservation is not departure, payment or entitlement transfer. Several promises may conflict; they cannot each be treated as exclusive physical availability of the same units. | Same concern for restock, retail and resale. Cancellation, priority and overbooking policy are unresolved. This is not a new generic lock/obligation mechanism. |
+| I-C03 — Supported goods movement | Preserve actual source, destination and moved scope at the precision supported by history. Distinguish departure, goods in transit, partial arrival and destination receipt; expected quantity need not arrive. | Warehouse-to-store and diversion-to-storage use the same concerns. Route detail and schedules are content. General effects, authority and retry semantics require Encounter reconciliation. |
+| I-C04 — Inventory account | A count, manifest, invoice or ledger is an attributed description that may be incomplete, mistaken or false. A correction changes the account; it does not manufacture missing stock or rewrite the movement. | Shared official/off-books reporting. Access to a record and knowledge of the discrepancy remain actor-specific. No mandatory second ledger or universal audit engine. |
+| I-C05 — Continuity at increased detail | When quantity becomes explicit, retain its supported coarse origin and existing consequences while removing overlap with aggregate availability/accounting. Record the limit of prior detail; promotion creates no second sale, shipment, revenue or item. | Same for an ordinary disputed purchase and a robbed shipment. Promotion triggers, admissible reconstruction and retained evidence need shared review. |
+| I-C06 — Economic boundary and goods use | Outside supply is a declared boundary, not an invented manufacturer history. Consumption, destruction or transformation needs a supported causal explanation at selected granularity; adjusting a record supplies none. | A meal consumes stock; damage may remove usable goods; transformation may produce different goods. Recipes, yields and condition grades are content. Health/Combat effects and generic identity continuity belong to their owners. No perfect mass simulation is proposed. |
+
+## Documentary scenarios for later challenge
+
+These are reasoning examples, not executed tests, proofs or PASS results.
+
+1. **Recorded 10, physical 9.** The store ledger says ten units and authoritative physical presence is nine. A later count can supply new evidence and correct the record. The discrepancy alone identifies neither a thief nor an exact missing-unit history. It cannot authorize selling a tenth physical unit. An employee knows only what that employee actually acquires (I-C02/I-C04; P1-05/P1-08).
+2. **Split and merge.** Of twenty coarse units, six are set aside for delivery; a second request for sixteen cannot assume all sixteen remain unallocated. Actual dispatch leaves fourteen physically at source and six in transit; reservation alone leaves twenty present. Merging the six later with another load must preserve any consequential provenance distinction. Representation-level partition/merge creates no goods. Promise-conflict policy remains open (I-C02/I-C03; P1-12).
+3. **Player takes a shelf item.** Physical custody moves to the Player before payment. Shelf availability changes, but the store's relevant interest and unsold-stock accounting cannot silently vanish or also remain available for anonymous sale. Payment and the supported entitlement change are separately assessed. Exit, normative theft classification, detection and response are distinct questions (I-C02; P1-04/P1-09).
+4. **Robbed shipment becomes explicit.** A coarse shipment scheduled toward a store is intercepted. Consequential units need continuity from the supported source/in-transit quantity to the actual new destination, while their scheduled arrival cannot also replenish the store. A claimed delivered manifest may remain false. Violence resolution belongs to Combat; awareness and investigative response are excluded (I-C03/I-C05; P1-06/P1-08/P1-14).
+5. **Anonymous purchase later matters.** Earlier aggregate commerce already reduced stock and credited revenue. A later disputed phone cannot be added as another historical sale or assigned a named buyer, exact time, serial or witness absent retained support. Preserve a coarse source/destination such as that stock pool and anonymous-customer outflow, explicitly marking unavailable prior detail. If no supported link identifies this phone with that outflow, leave the association unresolved; do not force it. New testimony is an account, not retroactive truth (I-C01/I-C05; P1-06/P1-07).
+
+## Conflicts, decisions and deferred choices
+
+| ID / Phase 1 link | Concrete unresolved question and routing |
+| --- | --- |
+| I-F01 / P1-04, P1-09 | **PROMOTE / RECONCILE / SHARED CONTRACT REQUIRED:** who decides entitlement change during partial payment, return, custody transfer or diversion? Economy describes goods facts; Governance/owner must reconcile general property and Laws scope. |
+| I-F02 / P1-05, P1-08 | **RECONCILIATION NEEDED:** what actual basis is retained separately from manifests/counts, and what can each audience acquire? Coordinate traceability/Information boundary specialists; no inventory screen may expose canonical hidden discrepancy by default. |
+| I-F03 / P1-06, P1-07 | **PROMOTE / RECONCILE / SHARED CONTRACT REQUIRED:** what granularity is retained before significance, and when must later identification remain impossible? Governance/owner decide guarantees against C1 finite support and accepted KeyWrapping invariants. Unlimited retrospective detail is rejected. |
+| I-F04 / P1-12 | **RECONCILIATION NEEDED:** conflicting reservations, partial deliveries, repeated acknowledgments and fulfillment allocation need exact scope; an effect cannot be counted twice toward the same required scope. Coordinate money/business/traceability specialists without selecting a generic obligation lifecycle. |
+| I-F05 / P1-14 | **OWNER DECISION NEEDED:** choose content for scarcity, spoilage, capacity, demand and buyer limits. The shared-flow proposal does not establish that stolen bulk goods always find a buyer or that insurance recovery cannot duplicate economic value. Independent exploit review remains later. |
+
+Deferred content includes goods units, packaging, product substitutions, delivery cadence, external shortages, storage limits, spoilage/yields and loss rates. Deferred architecture includes retention budgets, source-allocation policy, identity handling across transformations and supported promotion mechanisms. No schema, runtime integration, migration, balance values or implementation is selected.
+
+Only two external primary sources and the cited repository/owner material support this specialist pass. No simulation, performance measurement or runtime verification was performed. This report supplies candidates and questions for owner review; it neither closes cross-specialist conflicts nor begins Phase 3 synthesis. GitHub Steward retains publication/visibility and local-file tracking responsibility; no Git write or publication is requested.

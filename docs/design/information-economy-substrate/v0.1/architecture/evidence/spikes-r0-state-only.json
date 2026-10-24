@@ -1,0 +1,117 @@
+{
+  "purpose": "Disposable architecture question experiments; not production substrate",
+  "python": "3.12.0 (tags/v3.12.0:0fb18b0, Oct  2 2023, 13:03:39) [MSC v.1935 64 bit (AMD64)]",
+  "sqlite": "3.42.0",
+  "hash_seed": "1",
+  "semantic": {
+    "S1": {
+      "common_source": {
+        "complete": true,
+        "origins": [
+          "Mike"
+        ],
+        "unknown": false
+      },
+      "returned_rumor": {
+        "complete": true,
+        "origins": [
+          "Mike"
+        ],
+        "unknown": false
+      },
+      "unknown_origin": {
+        "complete": true,
+        "origins": [],
+        "unknown": true
+      },
+      "cycle_no_new_source": {
+        "complete": true,
+        "origins": [],
+        "unknown": false
+      },
+      "bounded_incomplete": {
+        "complete": false
+      },
+      "false_claim_world_unchanged": true,
+      "paired_hidden_input_projection_equal": true,
+      "limitation": "Only supplied lineage/value filtering; no production authorization, delivery, memory or truth engine."
+    },
+    "S3": {
+      "generic_trace": [
+        [
+          "assign",
+          "assigned"
+        ],
+        [
+          "start",
+          "in_review"
+        ],
+        [
+          "record_decision",
+          "decision_recorded"
+        ],
+        [
+          "close",
+          "closed"
+        ],
+        [
+          "reopen",
+          "queued"
+        ]
+      ],
+      "tiny_and_split_same_mechanism": true,
+      "membership_not_grant": true,
+      "queue_order": [
+        "a",
+        "b",
+        "c"
+      ],
+      "reprioritization_preserves_age": true,
+      "referral_received_keys": [
+        "X"
+      ],
+      "limitation": "Table/selection toy only; no queued work executed, legal authority, persistent delivery or domain policy."
+    },
+    "S4": {
+      "one_alternative_survives": "SUPPORTED",
+      "all_support_withdrawn": "UNSUPPORTED",
+      "bounded_incomplete": "AFFECTED",
+      "hidden_update_does_not_change_holder_status": true,
+      "stance_unchanged": true,
+      "missing_rule_input": "UNKNOWN",
+      "limitation": "Known toy dependency sets only; no general LTMS, inference soundness proof or automatic belief revision."
+    }
+  },
+  "semantic_digest": "f6bfc3d08b64af02cbeb6bec3df6986e282086504e0a114190dbc8638a6d2fb0",
+  "S5": {
+    "accepted_c1_extra_table_refused": true,
+    "refusal": "Unavailable: STORE_INVENTORY",
+    "accepted_source_files_unchanged": 25,
+    "copied_source_unchanged": true,
+    "serialization_samples": [
+      {
+        "shape": "nominal",
+        "state_bytes": 49149,
+        "admitted": 64,
+        "next_refusal": "OPERATION_CAP",
+        "encoded_prefix_bytes": 3151675,
+        "allocated_db_bytes": 3186688,
+        "toy_workspace_reservation": 114648928,
+        "cold_decode_tracemalloc_peak": 5304437,
+        "seconds": 0.3750512999249622
+      },
+      {
+        "shape": "saturated",
+        "state_bytes": 131069,
+        "admitted": 63,
+        "next_refusal": "ENCODED_PREFIX_CAP",
+        "encoded_prefix_bytes": 8263389,
+        "allocated_db_bytes": 8298496,
+        "toy_workspace_reservation": 298671008,
+        "cold_decode_tracemalloc_peak": 10466746,
+        "seconds": 0.42259510001167655
+      }
+    ],
+    "limitation": "Toy snapshot encoding/decode and transaction cap only, not successor state semantics, complete Core workspace, runtime capacity or crash certification."
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "3a7f824183cf15f015e3104233225f2c1207734be75205ca9fa5cd2ae4328892",
+  "control": "complete create including initial profile capture",
+  "records": [
+    {
+      "selected_admission_budget": 40000000,
+      "reported_inner": 1034260,
+      "unmetered_initial_profile_capture": 4786,
+      "actual_phase_lower_bound": 1039046
+    },
+    {
+      "selected_admission_budget": 1034260,
+      "reported_inner": 1034213,
+      "unmetered_initial_profile_capture": 4782,
+      "actual_phase_lower_bound": 1038995
+    },
+    {
+      "selected_admission_budget": 1034213,
+      "reported_inner": 1034213,
+      "unmetered_initial_profile_capture": 4782,
+      "actual_phase_lower_bound": 1038995
+    }
+  ]
+}

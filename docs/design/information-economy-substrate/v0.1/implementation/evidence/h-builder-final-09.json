@@ -1,0 +1,314 @@
+{
+  "scope": "Builder H evidence, not independent I/J qualification or owner acceptance",
+  "source_identity": "52d247c5de71c8c811d768e87a55c25bf06f979cc0e203c5508fbdf0b0257481",
+  "source_copy": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\implementation-builder-final-09\\candidate",
+  "records": [
+    {
+      "path": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\implementation-builder-final-09\\builder-focused.json",
+      "bytes": 1628,
+      "sha256": "0854f4e2a5935f7a4b68d9e124f1419c7c7f1bbfe2e3650345f22e0b37f78a00",
+      "result": {
+        "owner": "Builder H",
+        "independent_verdict": false,
+        "source": "52d247c5de71c8c811d768e87a55c25bf06f979cc0e203c5508fbdf0b0257481",
+        "failed_nested": {
+          "selected_admission": 1400000,
+          "selected_cold": 1000000,
+          "answer": {
+            "status": "O4",
+            "reason": "PROVEN_PREPUBLICATION_FAILURE",
+            "detail": "WORK_CAPACITY"
+          },
+          "leaf_charges": 1406678,
+          "outer_total": 1406678,
+          "reported": {
+            "total": 1406678,
+            "stages": {
+              "json_node": 17344,
+              "json_validate_bytes": 159351,
+              "canonical_sort_walk_node": 4716,
+              "full_key_sort": 166388,
+              "json_serialize_bytes": 74685,
+              "freeze_node": 654,
+              "scratch_cold_replay": 883891,
+              "retry_registry_visit": 0,
+              "json_size_node": 3375,
+              "json_size_bytes": 53792,
+              "result_registry_visit": 0,
+              "native_policy_term": 1,
+              "hash_bytes": 42261,
+              "obligation_record_visit": 4,
+              "due_job_visit": 0,
+              "information_record_visit": 20,
+              "json_lexical_bytes": 98,
+              "json_decode_bytes": 98
+            }
+          },
+          "ordinal": 0
+        },
+        "parent_reserve": {
+          "reason": "WORK_CAPACITY_BEFORE_JSON_SERIALIZATION",
+          "whole_dump_calls": 0
+        },
+        "exact_request": {
+          "encoded_floor": 10437,
+          "trials": [
+            {
+              "delta": -1,
+              "reason": "REQUEST_SIZE",
+              "ordinal": 0
+            },
+            {
+              "delta": 0,
+              "answer": "O1",
+              "ordinal": 1
+            },
+            {
+              "delta": 1,
+              "answer": "O1",
+              "ordinal": 1
+            }
+          ]
+        }
+      }
+    },
+    {
+      "path": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\implementation-builder-final-09\\builder-read-preflight.json",
+      "bytes": 1070,
+      "sha256": "0b6ba47c1067aad4582f0dd4524af4dd8a647d9aac7259f94f3c6ee8542d2b82",
+      "result": {
+        "owner": "Builder H",
+        "independent_verdict": false,
+        "source": "52d247c5de71c8c811d768e87a55c25bf06f979cc0e203c5508fbdf0b0257481",
+        "source_stage": {
+          "limit": 9191,
+          "blocked_file": {
+            "name": "core.py",
+            "size": 36697,
+            "charged_total": 82486
+          },
+          "actual_reads": [
+            {
+              "name": "__init__.py",
+              "size": 229,
+              "charged_total": 1758
+            },
+            {
+              "name": "atlas.py",
+              "size": 3666,
+              "charged_total": 9091
+            }
+          ],
+          "reason": "WORK_CAPACITY",
+          "report": {
+            "total": 82486,
+            "stages": {
+              "json_node": 12,
+              "json_validate_bytes": 153,
+              "canonical_sort_walk_node": 12,
+              "json_serialize_bytes": 153,
+              "full_key_sort": 969,
+              "source_read_hash": 81187
+            }
+          }
+        },
+        "fixture_stage": {
+          "limit": 1,
+          "read_calls": 0,
+          "reason": "WORK_CAPACITY",
+          "report": {
+            "total": 3189,
+            "stages": {
+              "fixture_read_hash_decode_bytes": 3189
+            }
+          }
+        }
+      }
+    },
+    {
+      "path": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\implementation-builder-final-09\\faults\\builder-process-faults.json",
+      "bytes": 503,
+      "sha256": "e4421e0d6d58a3e92eab4b0e19d7e1bf127f10b7baf9c44949509fef127a763c",
+      "result": {
+        "owner": "Builder H",
+        "independent": false,
+        "power_loss": false,
+        "results": [
+          {
+            "phase": "before_write",
+            "returncode": 91,
+            "verified_ordinal": 0
+          },
+          {
+            "phase": "before_commit",
+            "returncode": 91,
+            "verified_ordinal": 0
+          },
+          {
+            "phase": "commit_enter",
+            "returncode": 91,
+            "verified_ordinal": 0
+          },
+          {
+            "phase": "after_commit",
+            "returncode": 91,
+            "verified_ordinal": 1
+          }
+        ]
+      }
+    },
+    {
+      "path": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\implementation-builder-final-09\\nominal\\builder-smoke.json",
+      "bytes": 2121,
+      "sha256": "827f3f70b826075ca54cf299bc83f06acf3e3f677c4cfc07baf029baff170d1e",
+      "result": {
+        "owner": "Builder H",
+        "not_independent": true,
+        "ordinal": 16,
+        "head": "61a58ab48e4c77c5d982bf15ba0040d8d3db9b2aa3c07f025556006503460498",
+        "census": {
+          "prefix_entries": 16,
+          "encoded_prefix_bytes": 611962,
+          "logical_bytes": 611962,
+          "memory_bound": 106274432,
+          "workspace_bound": 20631360,
+          "cold_work": 15172818,
+          "retry_work": 15382129,
+          "query_work": 16172818,
+          "admission_work": 30345636,
+          "checkpoint_work": 30345636,
+          "observed_database_bytes": 643072,
+          "cold_replay_measured": 14910038,
+          "cold_output_reserved": 262780,
+          "retry_comparison_reserved": 209311,
+          "work_stages": {
+            "sqlite_payload_read": 612062,
+            "sqlite_quick_check_bytes": 643072,
+            "json_lexical_bytes": 612062,
+            "json_decode_bytes": 612062,
+            "json_node": 245779,
+            "json_validate_bytes": 2804711,
+            "canonical_sort_walk_node": 76437,
+            "full_key_sort": 3258976,
+            "json_serialize_bytes": 1536358,
+            "source_read_hash": 209595,
+            "hash_bytes": 922130,
+            "fixture_read_hash_decode_bytes": 40700,
+            "fixture_authority_parse_bytes": 4782,
+            "fixture_field_visit": 133,
+            "fixture_authored_parse_bytes": 10168,
+            "fixture_entity_visit": 24,
+            "fixture_binding_visit": 11,
+            "fixture_authority_record": 35,
+            "information_record_visit": 652,
+            "json_size_node": 29700,
+            "json_size_bytes": 591815,
+            "history_record_visit": 16,
+            "actor_identity_visit": 287,
+            "causal_position": 33,
+            "holder_handle_visit": 36,
+            "causal_edge_visit": 15,
+            "causal_parent_visit": 102,
+            "information_created_scan": 130,
+            "receipt_visit": 59,
+            "grant_visit": 312,
+            "organization_record_visit": 122,
+            "access_visit": 10,
+            "predicate_term": 6,
+            "native_policy_term": 1,
+            "obligation_record_visit": 4,
+            "due_job_visit": 0,
+            "checkpoint_record_visit": 0,
+            "retry_candidate_visit": 16,
+            "prospective_retry_comparisons": 2500381,
+            "prospective_snapshot_output": 197244
+          }
+        }
+      }
+    },
+    {
+      "path": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\implementation-builder-final-09\\builder-nominal-metrics.json",
+      "bytes": 1344,
+      "sha256": "d962206bf707c8d7cc7afbea8d181de7ab47a5cfb1ea8526d88eaeea9e270389",
+      "result": {
+        "owner": "Builder H",
+        "independent_verdict": false,
+        "source": "52d247c5de71c8c811d768e87a55c25bf06f979cc0e203c5508fbdf0b0257481",
+        "elapsed_seconds": 92.30537989991717,
+        "peak_rss_bytes": 34959360,
+        "phases": [
+          {
+            "status": "O1",
+            "work": 2133293
+          },
+          {
+            "status": "O1",
+            "work": 3402412
+          },
+          {
+            "status": "O1",
+            "work": 4839393
+          },
+          {
+            "status": "O1",
+            "work": 6357749
+          },
+          {
+            "status": "O1",
+            "work": 7953350
+          },
+          {
+            "status": "O1",
+            "work": 9594112
+          },
+          {
+            "status": "O1",
+            "work": 11284743
+          },
+          {
+            "status": "O1",
+            "work": 13017722
+          },
+          {
+            "status": "O1",
+            "work": 14831078
+          },
+          {
+            "status": "O1",
+            "work": 16781673
+          },
+          {
+            "status": "O1",
+            "work": 18823124
+          },
+          {
+            "status": "O1",
+            "work": 20927592
+          },
+          {
+            "status": "O1",
+            "work": 23124448
+          },
+          {
+            "status": "O1",
+            "work": 25401446
+          },
+          {
+            "status": "O1",
+            "work": 27715426
+          },
+          {
+            "status": "O1",
+            "work": 30561512
+          },
+          {
+            "status": "O3",
+            "work": 14993432
+          }
+        ],
+        "max_actual_phase_work": 30561512,
+        "gate_b": "PENDING"
+      }
+    }
+  ]
+}

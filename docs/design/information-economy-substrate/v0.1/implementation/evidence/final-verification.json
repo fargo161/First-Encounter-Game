@@ -1,0 +1,432 @@
+{
+  "captured_utc": "2026-10-24T04:51:34.927985+00:00",
+  "scope": "Completed bounded reference-proof review packet; report verdicts remain attributed to their independent authors",
+  "state": "STOP_AT_GATE_B_OWNER_APPROVAL_PENDING",
+  "owner_acceptance": false,
+  "source_identity": "8e9d606f5aabeb9dd672106d586a44b52912c9ea0c7f6f8da5ecd977a5617c7f",
+  "profile_id": "EA-IE-profile/1/8f4577177e06ed695a65e3276a65702ccc64d847632aae14f0ba5ca167ad21a5",
+  "contract_sha256": "051d67b49bff17a317818d9bd5aa15fff13211cc23b99ec4b2b9af911263a490",
+  "pre_world_m0_contract_sha256": "8494280325c609866f22184619079a51687dad3542d4276e7db40ea12285d91c",
+  "approved_architecture_pins": {
+    "INFORMATION_ECONOMY_ARCHITECTURE_V0_1.md": "30d8e8ce154f498f8bc523315eee12cb74923e2182a46bd34a057568c47a751f",
+    "INFORMATION_ECONOMY_GATE_A_PROPOSAL.md": "d0e4585f2ad2f3ca05c5a012ff8d7465736fd977259fabc4b4af9474907a849a"
+  },
+  "candidate_package_manifest_sha256": "5638981c903ec9fd33f5dc987ed91f606c05a815a331fe51936227016b373964",
+  "preservation": {
+    "checked_utc": "2026-10-24T04:48:19.750514+00:00",
+    "scope": "Protected existing bytes/membership and allowed new paths; not IE runtime acceptance",
+    "protected_file_count": 3645,
+    "missing": [],
+    "changed": [],
+    "unexpected_new_paths": [],
+    "bytecode_or_cache_paths": [],
+    "branch": "codex/economy-substrate-v0.1-accepted-baseline",
+    "head": "3f348c61b41ed3e5dfbcfb817a9e31f31bda42be",
+    "tracked_diff": "",
+    "branch_head_unchanged": true,
+    "status": "PASS"
+  },
+  "qualification_records": {
+    "independent_tester_I": "i-final-summary.json",
+    "independent_auditor_J": "j-final-08-results.json",
+    "builder_H_not_independent": "h-builder-final-10.json"
+  },
+  "reports": [
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/implementation/INFORMATION_ECONOMY_AUDIT_CLOSURE.md",
+      "bytes": 12395,
+      "sha256": "97eec9cf873dd3aaf01d71c3ca454c76ae926e995285c7586180a8f49e2c95e8"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/implementation/INFORMATION_ECONOMY_FINAL_ACCEPTANCE_CANDIDATE.md",
+      "bytes": 8639,
+      "sha256": "16397ff1735ac3893303b2bd72fc083ae0c9ab05c4c26ede5db2cf1e3b96a100"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/implementation/INFORMATION_ECONOMY_IMPLEMENTATION_REPORT.md",
+      "bytes": 13728,
+      "sha256": "308aa3c781dfc0c3be14e99bbc6e47b0d261193117f8c0cec47cb730f51ae657"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/implementation/INFORMATION_ECONOMY_INDEPENDENT_AUDIT.md",
+      "bytes": 27019,
+      "sha256": "9d4b99daa1b35f3fa97ad95a499de7ff81c68eaaaf986c865439f323bd2f93b9"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/implementation/INFORMATION_ECONOMY_TEST_REPORT.md",
+      "bytes": 28280,
+      "sha256": "92ca8222e92be318a26af2dd966f90e0aec78128f399693a9f0f4d5bad49f57e"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/implementation/README.md",
+      "bytes": 3386,
+      "sha256": "950909c9a0efc0879327ebc6bafb3597e9a82ea4adf554a5b1de8b36a1361581"
+    }
+  ],
+  "retained_evidence": [
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/implementation/evidence/build_final_index.py",
+      "bytes": 6051,
+      "sha256": "0c3abcc4d7156ddd44359b6116efcaed977357dc93b7e905775a62d231a822e3"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/implementation/evidence/candidate-final.json",
+      "bytes": 11891,
+      "sha256": "817d767958fce881e3199eb6e5423a0da899b4711138f3a09279c56bfcf0dab7"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/implementation/evidence/candidate-freeze-01.json",
+      "bytes": 9552,
+      "sha256": "4c2d3b69a4ea289c19b9d5170f6ef264b5c0bd3b22ff872499471dc20decb466"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/implementation/evidence/candidate-freeze-02.json",
+      "bytes": 10077,
+      "sha256": "6cec4ccf36268f6135bdd4d160030d3f81193a1ed7f773c97a6ddee05661579a"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/implementation/evidence/candidate-freeze-03.json",
+      "bytes": 10077,
+      "sha256": "476be86e61fe72534956c36a391512bc1af276652bacca7aed37f166b15abe33"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/implementation/evidence/candidate-freeze-06.json",
+      "bytes": 10410,
+      "sha256": "a570ad7bfa623030e8ea062c105217063e4d6d675e9158a5e6f1d04513458507"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/implementation/evidence/candidate-freeze-07.json",
+      "bytes": 10773,
+      "sha256": "826769f8877230a37dc7f980e87804489e744969318a09c842f11f49e6b4b27a"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/implementation/evidence/candidate-freeze-08.json",
+      "bytes": 11144,
+      "sha256": "d1e781d2c665d71aef10a46e523df0fb138c86b80e06cd518c8287ac10450e79"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/implementation/evidence/candidate-freeze-09.json",
+      "bytes": 11328,
+      "sha256": "b0eabe98ce2d6b4dee9555807887118034f9b7bd670d53d3b4217e312ad50438"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/implementation/evidence/candidate-freeze-10.json",
+      "bytes": 11697,
+      "sha256": "73561c7cdf0788158a5fdecb90acff08a52dcc5f227ce1a18a28085c5ec8da2a"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/implementation/evidence/collect_candidate.py",
+      "bytes": 3602,
+      "sha256": "3bdd392d6d306045f3fde41354d98ab37084fcc69c07cd8851dcde0e6cd5ff28"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/implementation/evidence/donor-baseline.json",
+      "bytes": 6506,
+      "sha256": "59abf01d9200ba04e740b61e7a0ff78c2173a6e1e84c2887d3fc8732fb8f32f1"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/implementation/evidence/donor-test-inventory.json",
+      "bytes": 3026,
+      "sha256": "99a903813afa1bf07daf19c84160b6ed72ad6b87790ffb2356d1cfae8e4a12ee"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/implementation/evidence/h-builder-final-06.json",
+      "bytes": 7204,
+      "sha256": "3e00526f61942acc4bbab708b92d02d73b55278e0fee667c59b6e4521100ce3b"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/implementation/evidence/h-builder-final-09.json",
+      "bytes": 10257,
+      "sha256": "d1e8d475864c032362757e45ac00da52b09eafa933d1e8aa9de2b47522543f8f"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/implementation/evidence/h-builder-final-10.json",
+      "bytes": 12818,
+      "sha256": "a401bf025bc74fa1cdc561a4c9f8a9ea42e6883725a7a0f16b381efce8fca033"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/implementation/evidence/h-builder-final.json",
+      "bytes": 4111,
+      "sha256": "a430ec3436cd4111be8c81df2049393e0e55a74ed7929116e8f3ef37baf6492e"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/implementation/evidence/h-failed-nested-work-probe.json",
+      "bytes": 970,
+      "sha256": "78f17bb77aaaca27edf36d4bb85a743b01cc2ec20e9fcf6e122580757379a157"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/implementation/evidence/h-source-static-06.json",
+      "bytes": 10409,
+      "sha256": "de907cf9f82128370ff46a42d27c14863f8820093651b26cc3e4fdeec9785351"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/implementation/evidence/h-source-static-09.json",
+      "bytes": 11144,
+      "sha256": "e2fde9f4dec6ba39844ef5395eebd0047f0c6fbb450ac0bc6691c4ae0421bee9"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/implementation/evidence/h-source-static-10.json",
+      "bytes": 11514,
+      "sha256": "c1587a75b1508500661231fdf7d6daae9737da11266555507a5d951ef61d351e"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/implementation/evidence/h-source-static.json",
+      "bytes": 10077,
+      "sha256": "cd8aeaa78e02be49ee64e1905f1dca7d0e222dd568619914683417da9aebd188"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/implementation/evidence/i-checkpoint-observer-comparison.json",
+      "bytes": 1747,
+      "sha256": "7ebb8ad960eef17062c0328a7217cd70faad2d7007bb8162ddec4e4eb04671f3"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/implementation/evidence/i-environment.json",
+      "bytes": 1007,
+      "sha256": "2b91737797f850af2f21b1da233da45fc28a324d5480ebb008e9196171d211fb"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/implementation/evidence/i-final-author-query-results.json",
+      "bytes": 9588,
+      "sha256": "263765760032faa2d620427a6caa7f8546e05513909c2ad002bff575794835e3"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/implementation/evidence/i-final-b01-results.json",
+      "bytes": 15358,
+      "sha256": "3abbfab4b38afc7c0d1a09d18e64e65c94beb60a629ac7cb8ab678bf86a8c5e6"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/implementation/evidence/i-final-checkpoint-measurement.json",
+      "bytes": 6370,
+      "sha256": "72b5076cdc9d4a2426e6632e56191930b2c592e60fb2629b08bd56429452d523"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/implementation/evidence/i-final-completion-boundaries.json",
+      "bytes": 17652,
+      "sha256": "522b9fe13fdac70451638bd74b749b938fe21808b0ffb8b95290886e5e042e3d"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/implementation/evidence/i-final-decode-reservation-results.json",
+      "bytes": 487,
+      "sha256": "60a6f73866260200aad668dfabcfd59b02ad90f18e6d2820bce134ec53a01fb9"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/implementation/evidence/i-final-executed-harness.json",
+      "bytes": 5433,
+      "sha256": "40b095efe721e57be832431e9d4ddad3f02102536802273d52fb5ee6753322e8"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/implementation/evidence/i-final-failed-phase-results.json",
+      "bytes": 5341,
+      "sha256": "cb04042b28e34079a54b987478182f4f798356b8996cf56028be0001148ee55e"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/implementation/evidence/i-final-matrix-results.json",
+      "bytes": 23870,
+      "sha256": "54a147891cb84588c93c2e889f0ad39490da8a26035d94b96aeff21058f62718"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/implementation/evidence/i-final-native27-results.json",
+      "bytes": 176,
+      "sha256": "3303abb899bba4689fc9b97fbb0805bd3ea9292e58711a516bf242795a84e645"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/implementation/evidence/i-final-nominal-measurement.json",
+      "bytes": 709,
+      "sha256": "9991cbf6832e8196fb90c622a53a7708a01e1a759b2b0d49b08e2f484f6b6350"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/implementation/evidence/i-final-phase-metrics.json",
+      "bytes": 28532,
+      "sha256": "3a6cf2b03eda39d93c012045043779975a9fa501ea03f46238bc033185b0c95b"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/implementation/evidence/i-final-read-reservation-results.json",
+      "bytes": 1155,
+      "sha256": "d8e68d7bb3cb223bfa447a4e047e67b3315b119f3d7805654b0b432da8bd90b9"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/implementation/evidence/i-final-storage-counts.json",
+      "bytes": 1040,
+      "sha256": "5bcedc1923160338d75b98c0758a838be4d4c7729a9dde079894f7876a2b76de"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/implementation/evidence/i-final-summary.json",
+      "bytes": 19334,
+      "sha256": "b06e9b4887ae78ced520944ad01d1a592e7990cbcb0101b314b524fbb9da25df"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/implementation/evidence/i-final-supplemental-harness.json",
+      "bytes": 390,
+      "sha256": "db3afc79aad9a9ebb1dc26d034215b450ede02d5865fe6ddc2e43bb444c5354b"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/implementation/evidence/i-frozen-source-final04.json",
+      "bytes": 4596,
+      "sha256": "f9a946cd0f44dfe4f62c0a9acd11e7cf335901e5ac9dc0214bfdb392bd2b0d91"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/implementation/evidence/i-frozen-source-final05.json",
+      "bytes": 4767,
+      "sha256": "023f0cf1edb95344bc7f22736597d8c75d1180381e1dfee62281915964c22742"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/implementation/evidence/i-frozen-source-final07.json",
+      "bytes": 5190,
+      "sha256": "e4e48ad86ad7d485ed8f3df873e44cd192b1967eb7496871c27e583f668d3995"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/implementation/evidence/i-frozen-source.json",
+      "bytes": 5524,
+      "sha256": "d04cc4097ecf34cb7dfa889c3fb9761f3aaecbfa4c966e2d959813130af09c5a"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/implementation/evidence/j-bh02-nested-failure.json",
+      "bytes": 1151,
+      "sha256": "56249df90e61ebe0018dccabfa3a6811a6f4b9ceb00708b70ea55e71cb0a99f4"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/implementation/evidence/j-create-phase-profile.json",
+      "bytes": 736,
+      "sha256": "3e709fd3c4eab4c1f0178a656c7d5651846a4a2d4c8cebb9a9ae0297b12810a0"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/implementation/evidence/j-decode-stage-reservation.json",
+      "bytes": 1489,
+      "sha256": "a22b55327f482ced2766b00d0f49b4a001eb46d088431d420c3218169bd3c370"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/implementation/evidence/j-draft-budget-probes.json",
+      "bytes": 1324,
+      "sha256": "d9f3291d8d9f922556ac811cdf1465fe6a7a44978e0fb67c3e7478983321914a"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/implementation/evidence/j-draft-cold-probes.json",
+      "bytes": 1129,
+      "sha256": "64a18dd57a9944b294b411f96bcd909df9cf3f807f8b50b62b446125e27464b6"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/implementation/evidence/j-draft-probes.json",
+      "bytes": 2830,
+      "sha256": "8f1c5033b7943a6842338a71f582cc947253b3bb0581b16ad4d597588e44eab1"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/implementation/evidence/j-final-01-closure-gap.json",
+      "bytes": 560,
+      "sha256": "775aec1a9851346b6e9cd145e798b6ef6972548b58cf3ff810377ab4ad716dd5"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/implementation/evidence/j-final-02-results.json",
+      "bytes": 16156,
+      "sha256": "df6afaae162fa06d1c38c2b302be29fb869df6067aa90139adb67f170fc989d0"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/implementation/evidence/j-final-03-results.json",
+      "bytes": 17497,
+      "sha256": "c36403fac2334efee3f7f62a1ac9a7734d935f2a8f24673bf930efcf952c0b10"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/implementation/evidence/j-final-05-results.json",
+      "bytes": 19493,
+      "sha256": "5002e62e3ac0fd2df0dbb9c15e15439d73c509e07cba01cbb2a39ff7b24b6bce"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/implementation/evidence/j-final-06-results.json",
+      "bytes": 21204,
+      "sha256": "80b94921b04f4d7b47dbe10233355d4057dd3464a59feea6bbcb68857ddd678d"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/implementation/evidence/j-final-07-diagnostic-results.json",
+      "bytes": 28167,
+      "sha256": "c4d1f8eecbbabf2ac78393b0c3e51ad2371470c825bf6f450195ea872c401b76"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/implementation/evidence/j-final-08-results.json",
+      "bytes": 29355,
+      "sha256": "6b9fa3425c5c0525b0098c66c987c4305bbf6a9c3f3477c3af19bcc83e0c4dd2"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/implementation/evidence/j-final-create-complete.json",
+      "bytes": 1290,
+      "sha256": "6d472f51a3298b07ebbe6f6c8fda9dc9bd07a74f09423a700261f1ba6712753d"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/implementation/evidence/j-final-i-evidence-verification.json",
+      "bytes": 43403,
+      "sha256": "0bc062daebe3a33aabf6a1adfeb254284604dacf3e60c54a836c2db713d33e58"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/implementation/evidence/j-m0-baseline.json",
+      "bytes": 6984,
+      "sha256": "870565d2f4f57a35eba962429ed37f266329d3742495f5ff0f4db6fa434d4e63"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/implementation/evidence/j-publication-completion-budget.json",
+      "bytes": 2912,
+      "sha256": "eff526bc18fa206b6852b9718017e7e406e7bb58ba7f8bd9e5f39b187d48b3de"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/implementation/evidence/j-serialization-stage-order.json",
+      "bytes": 721,
+      "sha256": "4aee679e7a91cadbaca4ead4e21011f725d67c9369b45586d66a688fa1bdadc4"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/implementation/evidence/j-snapshot-guard-probes.json",
+      "bytes": 610,
+      "sha256": "922bb299c9baa542eb0ba649ac8fa69a03f06c8d48585477a88999a060d256e1"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/implementation/evidence/j-source-stage-reservation.json",
+      "bytes": 1068,
+      "sha256": "5deb7b96aab5af22ad5372e1d67b02a68eb5ec93172998bf39596bc8d17d57cd"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/implementation/evidence/j_final_probe.py",
+      "bytes": 23818,
+      "sha256": "4f5791d488082c7ae953c63c63cd78ed5124949ade3c31e95d859fbcb162c3ef"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/implementation/evidence/legacy-baseline.json",
+      "bytes": 7709,
+      "sha256": "70d44da27f1ce6569bd2a8e41e95a7b2ece02c3028fcfc58d11492b8d0034313"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/implementation/evidence/phase-entry.json",
+      "bytes": 785037,
+      "sha256": "f3f43224b518d1b2a0f3155002a45d1043ab5159397b33f70d5fbcaa64bc139e"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/implementation/evidence/preservation-final.json",
+      "bytes": 489,
+      "sha256": "cd29cd245b93fcd9ee30bad14bd2051de7a4334daebc5b3b2817de74515a5ea3"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/implementation/evidence/preservation-midphase.json",
+      "bytes": 489,
+      "sha256": "4b3b4d8d793f89b30249c98a7d1dee22852acd50cdf44d8675a6da9f104fe8a5"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/implementation/evidence/repository-health.json",
+      "bytes": 2638,
+      "sha256": "75397e72ef81663969072c11c0f0da3c3a2fb63bf5d8d76e641ef1d1f2a455ce"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/implementation/evidence/verify_preservation.py",
+      "bytes": 2768,
+      "sha256": "6be9a6496e02aa090ee118f1052e201061f6a605cd6722a3fc5c6127b2a82ceb"
+    }
+  ],
+  "excluded_claims": [
+    "production integration",
+    "old-world compatibility",
+    "migration",
+    "compaction",
+    "indefinite campaign",
+    "simultaneous capacity maxima",
+    "hostile Python or formal timing isolation",
+    "device/power-loss certification",
+    "automatic psychology or domain law",
+    "playable content",
+    "Unity/Stage 13",
+    "owner acceptance or next-phase authorization"
+  ]
+}

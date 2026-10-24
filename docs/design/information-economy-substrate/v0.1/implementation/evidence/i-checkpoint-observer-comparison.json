@@ -1,0 +1,40 @@
+{
+  "role": "Independent tester I",
+  "scope": "Harness observer allocation comparison on the SAME original world, request and runtime source22557c0; diagnostic only, not finalsource qualification",
+  "same_original_world_sha256": "77e51f9ea46d4deceb2cb4baf64ed45f1b63c7bdda6a691fa73dd8514bce8151",
+  "same_checkpoint_result": {
+    "status": "checkpointed",
+    "head": "f59485073e7f83d655fd294b87b73f6324799531966f449608ab193683a7d489",
+    "ordinal": 16,
+    "generation": 17
+  },
+  "same_complete_work": 28534680,
+  "list_observer": {
+    "traced_peak_bytes": 120899434,
+    "rss": {
+      "working_set": 182235136,
+      "peak_working_set": 353816576
+    },
+    "memory_status": "NOT PASS: observation list retains a record per charge, exceeds256MiB process peak"
+  },
+  "compact_observer": {
+    "traced_peak_bytes": 7609082,
+    "rss": {
+      "working_set": 38256640,
+      "peak_working_set": 46903296
+    },
+    "memory_status": "PASS for this diagnostic sameoperation/source/world only; independent finalsource compactcheckpoint still required"
+  },
+  "raw_evidence": {
+    "list": {
+      "path": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-independent-final-05\\nominal-checkpoint-diagnostic\\results.json",
+      "sha256": "c8151bfe30615bac40dab0e850e984e2efc88b1cf144c7283cf0857c09b3019d",
+      "bytes": 6046
+    },
+    "compact": {
+      "path": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-independent-final-05\\nominal-checkpoint-compact-comparison\\results.json",
+      "sha256": "9f00a55f19c17a8dc6e8f963adce505ef16fb84bbcca2fd8ed53f0284ccceb0d",
+      "bytes": 6231
+    }
+  }
+}

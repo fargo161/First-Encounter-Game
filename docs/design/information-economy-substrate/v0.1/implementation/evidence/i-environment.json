@@ -1,0 +1,31 @@
+{
+  "role": "Independent tester I",
+  "python": "3.12.0 (tags/v3.12.0:0fb18b0, Oct  2 2023, 13:03:39) [MSC v.1935 64 bit (AMD64)]",
+  "sqlite": "3.42.0",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "win32_ver": [
+    "11",
+    "10.0.26200",
+    "SP0",
+    "Multiprocessor Free"
+  ],
+  "executable": "C:\\Users\\mcdon\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+  "backend_observed": {
+    "sqlite": "3.42.0",
+    "python": "3.12.0",
+    "vfs": "win32",
+    "journal": "DELETE",
+    "synchronous": "EXTRA",
+    "encoding": "UTF-8"
+  },
+  "binary_files": {
+    "C:\\Users\\mcdon\\AppData\\Local\\Programs\\Python\\Python312\\python.exe": {
+      "bytes": 103192,
+      "sha256": "42ac541168e97dedb9aabd8be335539fc41c682e414b9e8d137b164fb68683b0"
+    },
+    "C:\\Users\\mcdon\\AppData\\Local\\Programs\\Python\\Python312\\DLLs\\_sqlite3.pyd": {
+      "bytes": 124696,
+      "sha256": "ff25bdbeef34d2aa420a79d3666c2660e7e3e96259d1f450f1af5268553380ec"
+    }
+  }
+}

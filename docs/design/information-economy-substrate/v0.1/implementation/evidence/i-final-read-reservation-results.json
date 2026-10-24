@@ -1,0 +1,40 @@
+{
+  "status": "PASS",
+  "pass": 2,
+  "fail": 0,
+  "skip": 0,
+  "groups": [
+    {
+      "group": "source",
+      "status": "PASS",
+      "positive_pre_read": {
+        "path": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-independent-final-08\\source\\eaie\\core.py",
+        "before_total": 82432,
+        "last_origin_charge": [
+          "source_read_hash",
+          73359
+        ],
+        "size": 36679
+      },
+      "tight_parent_limit": 9173,
+      "ample_child_limit": 20000000,
+      "target_read_on_refusal": false
+    },
+    {
+      "group": "fixture",
+      "status": "PASS",
+      "positive_pre_read": {
+        "path": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-independent-final-08\\source\\fixtures\\R0.txt",
+        "before_total": 3189,
+        "last_origin_charge": [
+          "fixture_read_hash_decode_bytes",
+          3189
+        ],
+        "size": 797
+      },
+      "tight_parent_limit": 100,
+      "ample_child_limit": 20000000,
+      "target_read_on_refusal": false
+    }
+  ]
+}

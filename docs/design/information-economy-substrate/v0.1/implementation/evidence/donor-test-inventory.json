@@ -1,0 +1,116 @@
+{
+  "scope": "Original donor test inventory only, not new-proof coverage/PASS",
+  "source": "packages/encounter-core-c1/0.1.3/tests/test_core.py",
+  "methods": [
+    {
+      "method": "test_T01_actor_and_parent_identity",
+      "line": 27
+    },
+    {
+      "method": "test_T02_continuity_and_optional_art",
+      "line": 40
+    },
+    {
+      "method": "test_T03_remap_and_epoch",
+      "line": 50
+    },
+    {
+      "method": "test_T04_absence_set_and_stale_proposals",
+      "line": 62
+    },
+    {
+      "method": "test_T06_order_threshold_cap_decay_reversal",
+      "line": 70
+    },
+    {
+      "method": "test_T07_graph_fidelity_and_stale_analysis",
+      "line": 84
+    },
+    {
+      "method": "test_T08_capacity_and_all_store_census",
+      "line": 94
+    },
+    {
+      "method": "test_T09_T18_detached_purity_privacy_availability",
+      "line": 105
+    },
+    {
+      "method": "test_T18_no_unverified_snapshot_constructor",
+      "line": 119
+    },
+    {
+      "method": "test_T11_T12_modeA_tamper_and_external_boundary",
+      "line": 125
+    },
+    {
+      "method": "test_T14_time_ordinal_due_and_atomic_quota",
+      "line": 147
+    },
+    {
+      "method": "test_T14_advance_only_occurrence_uses_target_time",
+      "line": 174
+    },
+    {
+      "method": "test_T15_full_RVD_scope_and_result_conflicts",
+      "line": 183
+    },
+    {
+      "method": "test_T16_T17_unsupported_ranges_and_required_validators",
+      "line": 199
+    },
+    {
+      "method": "test_T16_actual_async_hooks_and_opaque_results",
+      "line": 213
+    },
+    {
+      "method": "test_T08_capture_size_rejects_shared_expansion_before_encoding",
+      "line": 224
+    },
+    {
+      "method": "test_T08_backend_padding_is_not_free_recovery_work",
+      "line": 229
+    },
+    {
+      "method": "test_T11_storage_domain_matches_physical_byte_census",
+      "line": 235
+    },
+    {
+      "method": "test_T11_optional_bad_accelerator_never_replaces_full_replay",
+      "line": 243
+    },
+    {
+      "method": "test_T19_selected_tombstones_preserve_receipts",
+      "line": 250
+    },
+    {
+      "method": "test_T15_terminal_after_clock_checkpoint_and_offline",
+      "line": 265
+    },
+    {
+      "method": "test_T20_A1_caller_alias_each_phase",
+      "line": 271
+    },
+    {
+      "method": "test_T20_A2_A3_and_invalid_result",
+      "line": 282
+    },
+    {
+      "method": "test_T20_F1a_F1b_F2_faults_and_probes",
+      "line": 294
+    },
+    {
+      "method": "test_T20_F4_reentrant_write_caught_or_propagated",
+      "line": 322
+    },
+    {
+      "method": "test_T13_actual_sqlite_full_readonly_and_uncertainty",
+      "line": 336
+    },
+    {
+      "method": "test_T08_exact_cold_work_boundary_from_separate_census",
+      "line": 347
+    }
+  ],
+  "count": 27,
+  "B01": "Twenty actual case names will be pinned from fresh donor results after its baseline completes; independent I owns successor mapping."
+}

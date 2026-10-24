@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "pass": 20,
+  "fail": 0,
+  "skip": 0,
+  "thresholds": {
+    "root": 1374560,
+    "operation": 1835008,
+    "checkpoint": 2033024
+  },
+  "original_27_method_suite": "separate tools/verify.py run, unchanged test source",
+  "builder_owned_reference_not_independent_acceptance": true,
+  "case_records_retained": false,
+  "evidence_source": "C:\\Users\\mcdon\\AppData\\Local\\Packages\\sandbox.{c32e2a02-d973-4d95-a495-a2c749b87ff2}\\AC\\Temp\\ie-p0-c1-c6qjd709\\b01-boundaries\\results.json"
+}

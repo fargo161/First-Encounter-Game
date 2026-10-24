@@ -1,0 +1,38 @@
+{
+  "started_utc": "2026-10-24T02:14:24.498056+00:00",
+  "canonical_source": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\packages\\encounter-core-c1\\0.1.3",
+  "disposable_source": "C:\\Users\\mcdon\\AppData\\Local\\Packages\\sandbox.{c32e2a02-d973-4d95-a495-a2c749b87ff2}\\AC\\Temp\\ie-p0-c1-c6qjd709\\source",
+  "source_files": 25,
+  "copy_matches_source": true,
+  "checks": [
+    {
+      "command": [
+        "C:\\Users\\mcdon\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "-B",
+        "tools/verify.py",
+        "--out",
+        "C:\\Users\\mcdon\\AppData\\Local\\Packages\\sandbox.{c32e2a02-d973-4d95-a495-a2c749b87ff2}\\AC\\Temp\\ie-p0-c1-c6qjd709\\original27-and-capacity"
+      ],
+      "cwd": "C:\\Users\\mcdon\\AppData\\Local\\Packages\\sandbox.{c32e2a02-d973-4d95-a495-a2c749b87ff2}\\AC\\Temp\\ie-p0-c1-c6qjd709\\source",
+      "exit": 0,
+      "out": "C:\\Users\\mcdon\\AppData\\Local\\Packages\\sandbox.{c32e2a02-d973-4d95-a495-a2c749b87ff2}\\AC\\Temp\\ie-p0-c1-c6qjd709\\original27-and-capacity",
+      "log": "C:\\Users\\mcdon\\AppData\\Local\\Packages\\sandbox.{c32e2a02-d973-4d95-a495-a2c749b87ff2}\\AC\\Temp\\ie-p0-c1-c6qjd709\\original27-and-capacity.log"
+    },
+    {
+      "command": [
+        "C:\\Users\\mcdon\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "-B",
+        "tools/verify_b01.py",
+        "--out",
+        "C:\\Users\\mcdon\\AppData\\Local\\Packages\\sandbox.{c32e2a02-d973-4d95-a495-a2c749b87ff2}\\AC\\Temp\\ie-p0-c1-c6qjd709\\b01-boundaries"
+      ],
+      "cwd": "C:\\Users\\mcdon\\AppData\\Local\\Packages\\sandbox.{c32e2a02-d973-4d95-a495-a2c749b87ff2}\\AC\\Temp\\ie-p0-c1-c6qjd709\\source",
+      "exit": 0,
+      "out": "C:\\Users\\mcdon\\AppData\\Local\\Packages\\sandbox.{c32e2a02-d973-4d95-a495-a2c749b87ff2}\\AC\\Temp\\ie-p0-c1-c6qjd709\\b01-boundaries",
+      "log": "C:\\Users\\mcdon\\AppData\\Local\\Packages\\sandbox.{c32e2a02-d973-4d95-a495-a2c749b87ff2}\\AC\\Temp\\ie-p0-c1-c6qjd709\\b01-boundaries.log"
+    }
+  ],
+  "interpretation": "Existing Builder-authored suites reproduced in disposable copy; no new information economy tests or independent product acceptance.",
+  "canonical_source_unchanged": true,
+  "finished_utc": "2026-10-24T02:23:39.126930+00:00"
+}

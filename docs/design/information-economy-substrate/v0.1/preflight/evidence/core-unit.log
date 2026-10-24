@@ -1,0 +1,32 @@
+test_T01_actor_and_parent_identity (test_core.Cases.test_T01_actor_and_parent_identity) ... ok
+test_T02_continuity_and_optional_art (test_core.Cases.test_T02_continuity_and_optional_art) ... ok
+test_T03_remap_and_epoch (test_core.Cases.test_T03_remap_and_epoch) ... ok
+test_T04_absence_set_and_stale_proposals (test_core.Cases.test_T04_absence_set_and_stale_proposals) ... ok
+test_T06_order_threshold_cap_decay_reversal (test_core.Cases.test_T06_order_threshold_cap_decay_reversal) ... ok
+test_T07_graph_fidelity_and_stale_analysis (test_core.Cases.test_T07_graph_fidelity_and_stale_analysis) ... ok
+test_T08_backend_padding_is_not_free_recovery_work (test_core.Cases.test_T08_backend_padding_is_not_free_recovery_work) ... ok
+test_T08_capacity_and_all_store_census (test_core.Cases.test_T08_capacity_and_all_store_census) ... ok
+test_T08_capture_size_rejects_shared_expansion_before_encoding (test_core.Cases.test_T08_capture_size_rejects_shared_expansion_before_encoding) ... ok
+test_T08_exact_cold_work_boundary_from_separate_census (test_core.Cases.test_T08_exact_cold_work_boundary_from_separate_census) ... ok
+test_T09_T18_detached_purity_privacy_availability (test_core.Cases.test_T09_T18_detached_purity_privacy_availability) ... ok
+test_T11_T12_modeA_tamper_and_external_boundary (test_core.Cases.test_T11_T12_modeA_tamper_and_external_boundary) ... ok
+test_T11_optional_bad_accelerator_never_replaces_full_replay (test_core.Cases.test_T11_optional_bad_accelerator_never_replaces_full_replay) ... ok
+test_T11_storage_domain_matches_physical_byte_census (test_core.Cases.test_T11_storage_domain_matches_physical_byte_census) ... ok
+test_T13_actual_sqlite_full_readonly_and_uncertainty (test_core.Cases.test_T13_actual_sqlite_full_readonly_and_uncertainty) ... ok
+test_T14_advance_only_occurrence_uses_target_time (test_core.Cases.test_T14_advance_only_occurrence_uses_target_time) ... ok
+test_T14_time_ordinal_due_and_atomic_quota (test_core.Cases.test_T14_time_ordinal_due_and_atomic_quota) ... ok
+test_T15_full_RVD_scope_and_result_conflicts (test_core.Cases.test_T15_full_RVD_scope_and_result_conflicts) ... ok
+test_T15_terminal_after_clock_checkpoint_and_offline (test_core.Cases.test_T15_terminal_after_clock_checkpoint_and_offline) ... ok
+test_T16_T17_unsupported_ranges_and_required_validators (test_core.Cases.test_T16_T17_unsupported_ranges_and_required_validators) ... ok
+test_T16_actual_async_hooks_and_opaque_results (test_core.Cases.test_T16_actual_async_hooks_and_opaque_results) ... ok
+test_T18_no_unverified_snapshot_constructor (test_core.Cases.test_T18_no_unverified_snapshot_constructor) ... ok
+test_T19_selected_tombstones_preserve_receipts (test_core.Cases.test_T19_selected_tombstones_preserve_receipts) ... ok
+test_T20_A1_caller_alias_each_phase (test_core.Cases.test_T20_A1_caller_alias_each_phase) ... ok
+test_T20_A2_A3_and_invalid_result (test_core.Cases.test_T20_A2_A3_and_invalid_result) ... ok
+test_T20_F1a_F1b_F2_faults_and_probes (test_core.Cases.test_T20_F1a_F1b_F2_faults_and_probes) ... ok
+test_T20_F4_reentrant_write_caught_or_propagated (test_core.Cases.test_T20_F4_reentrant_write_caught_or_propagated) ... ok
+
+----------------------------------------------------------------------
+Ran 27 tests in 63.589s
+
+OK

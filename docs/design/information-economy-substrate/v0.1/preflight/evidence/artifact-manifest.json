@@ -1,0 +1,137 @@
+{
+  "scope": "Raw-byte evidence pins for this local P0 packet only; no gameplay schema or accepted subsystem change",
+  "algorithm": "SHA256 of each complete file raw bytes",
+  "self_excluded": true,
+  "files": [
+    {
+      "path": "evidence/core-b01-results.json",
+      "bytes": 529,
+      "sha256": "2bb664700db9f5d827e430fdefffe825c1ea54684bf62a9da8e9ebeb0f0a0686"
+    },
+    {
+      "path": "evidence/core-baseline.json",
+      "bytes": 2309,
+      "sha256": "b2d10fa7193088c1aad71bfb7b33b4b62d742d12f3a4f2cd4b3e67d0c47233f1"
+    },
+    {
+      "path": "evidence/core-original-results.json",
+      "bytes": 3993,
+      "sha256": "5f39f3c5b666d2c0003dd2ee337536c2335c061be4d242529f50f6cbc3ceb718"
+    },
+    {
+      "path": "evidence/core-unit.log",
+      "bytes": 3287,
+      "sha256": "eadc3a7fa26d5910ead9922a58f8905916f5826af19355a54fdfc91cffb6a0fe"
+    },
+    {
+      "path": "evidence/doctor.json",
+      "bytes": 723,
+      "sha256": "18450671a7fa25efe753ca3dee5817600ee537282faa01084927c987814b33fc"
+    },
+    {
+      "path": "evidence/final-verification.json",
+      "bytes": 2031,
+      "sha256": "19d68fe4f0dcfd3dfce7c7920df1c60bd21e7e177e14ecb935f97376ca974ef7"
+    },
+    {
+      "path": "evidence/integrity-final.json",
+      "bytes": 1407,
+      "sha256": "214ef67d40b8371b95cd07c5ece1ba3b3476407a343e1ac6bd4b312e72d18fa3"
+    },
+    {
+      "path": "evidence/legacy-baseline.json",
+      "bytes": 3379,
+      "sha256": "24018d44991c90a20e9952c34aea5843ac3725e3d1d867719e920b521ec796b7"
+    },
+    {
+      "path": "evidence/preservation-check.json",
+      "bytes": 2618,
+      "sha256": "00affa96909766073e777b38a19b8a6e3da6abcfc0c90cdd1d053ff8857c1fd3"
+    },
+    {
+      "path": "evidence/repository-safety-snapshot.json",
+      "bytes": 7028,
+      "sha256": "5ddbb917bb8088cb66b5a544867059095f996bf679b6fa7f40c2bf9bd7352262"
+    },
+    {
+      "path": "INFORMATION_ECONOMY_BOUNDEDNESS_PREFLIGHT.md",
+      "bytes": 24175,
+      "sha256": "1be4fbc7eeaa660b3524f91eef6ca57eb3439ee770f6d089a3b7bc223fb52b19"
+    },
+    {
+      "path": "INFORMATION_ECONOMY_CONTEXT_INDEX.md",
+      "bytes": 14783,
+      "sha256": "b9c33dfd678699809e9e93c6ebb7e6b45b94eccd4c7870b8bfcd196aef0dece2"
+    },
+    {
+      "path": "INFORMATION_ECONOMY_CORE_COMPATIBILITY_PREFLIGHT.md",
+      "bytes": 11840,
+      "sha256": "5292a7114ba536774960eb9f85611c6e47aeb9b81e62b85756e604af0cf68a4c"
+    },
+    {
+      "path": "INFORMATION_ECONOMY_DEPENDENCY_PREFLIGHT.md",
+      "bytes": 17799,
+      "sha256": "f08c3b892825156017d8132803fa44be96b904894f9e532528b9fbe574d8e6a9"
+    },
+    {
+      "path": "INFORMATION_ECONOMY_LICENSE_LEDGER.md",
+      "bytes": 10003,
+      "sha256": "7af4c57edaee0a6b163fd7422feceece7389184b6ed1c3d09d0b8a069b8c744a"
+    },
+    {
+      "path": "INFORMATION_ECONOMY_OWNER_DECISION_REGISTER.md",
+      "bytes": 6413,
+      "sha256": "cb52b1f899b6befb79d0559a28413314c762aaf24ac473dc716f7cd68fda7138"
+    },
+    {
+      "path": "INFORMATION_ECONOMY_PERSISTENCE_PREFLIGHT.md",
+      "bytes": 15181,
+      "sha256": "6a853768084ca8be882ae1bead65f29a48897ce6b673625738c501424e9e7234"
+    },
+    {
+      "path": "INFORMATION_ECONOMY_PREFLIGHT_REPORT.md",
+      "bytes": 11443,
+      "sha256": "27510223a6b4572aad2783839eaa93f90db1f441c01ad5e45e724ffbeb07a2d4"
+    },
+    {
+      "path": "INFORMATION_ECONOMY_PREFLIGHT_REVIEW.md",
+      "bytes": 3239,
+      "sha256": "01cc459a6169995bff420b07569c1ccdaf8ac7ae4806e351b7ce5b2aeac949e7"
+    },
+    {
+      "path": "INFORMATION_ECONOMY_REPOSITORY_SAFETY.md",
+      "bytes": 5529,
+      "sha256": "22a618f55f30e5330c510f008ac6604ea8e19e9f353fbad75d2713abb8718155"
+    },
+    {
+      "path": "INFORMATION_ECONOMY_RISK_REGISTER.md",
+      "bytes": 6360,
+      "sha256": "cb7b1d2d12b9cca479913904304818e4efd6a84d83b1b5d366d7b34270ee34bc"
+    },
+    {
+      "path": "INFORMATION_ECONOMY_SCOPE_BOUNDARY.md",
+      "bytes": 8101,
+      "sha256": "629566be339f80c6e5a24680dfb51e11effc6f2622b09a2ae0484f69d50f4b45"
+    },
+    {
+      "path": "INFORMATION_ECONOMY_SPIKE_PLAN.md",
+      "bytes": 4153,
+      "sha256": "0cc989f020a1e8cff3defeb7ad235f0b7f61b8f5b602e5e3f3705bd91c064964"
+    },
+    {
+      "path": "INFORMATION_ECONOMY_TERM_COLLISION_REPORT.md",
+      "bytes": 11724,
+      "sha256": "f7eb78228abe6440b2b55f89c4432a1be2e3bf3f1da5f783c054465e9ca2c104"
+    },
+    {
+      "path": "INFORMATION_ECONOMY_TEST_PLAN.md",
+      "bytes": 27679,
+      "sha256": "23ca382a9bd0e1afafa0c707ab1a7aa8cbdedafe68debc7a664e86dd2671b3a6"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3883,
+      "sha256": "400caa4e6343a0744918cc8a4fad149458f5a6babe5c0de8422975ca94b16270"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "attribution": "Builder H discovery BH-02; Independent J reproduction",
+  "source": "22557c0e5159c5d608c7bb8f35584baffac9df76da9f1e0db5fb2722ba2def4c",
+  "selected_admission": 1400000,
+  "selected_cold": 1000000,
+  "answer": {
+    "status": "O4",
+    "reason": "PROVEN_PREPUBLICATION_FAILURE",
+    "detail": "WORK_CAPACITY"
+  },
+  "reported_outer": {
+    "total": 1082013,
+    "stages": {
+      "json_node": 17344,
+      "json_validate_bytes": 159264,
+      "canonical_sort_walk_node": 4716,
+      "full_key_sort": 166388,
+      "json_serialize_bytes": 74637,
+      "freeze_node": 654,
+      "scratch_cold_replay": 559406,
+      "retry_registry_visit": 0,
+      "json_size_node": 3375,
+      "json_size_bytes": 53771,
+      "result_registry_visit": 0,
+      "native_policy_term": 1,
+      "hash_bytes": 42237,
+      "obligation_record_visit": 4,
+      "due_job_visit": 0,
+      "information_record_visit": 20,
+      "json_lexical_bytes": 98,
+      "json_decode_bytes": 98
+    }
+  },
+  "independent_leaf_charges": {
+    "successful_leaf_units": 2163405,
+    "rejected_leaf_attempts": []
+  },
+  "ordinal": 0
+}

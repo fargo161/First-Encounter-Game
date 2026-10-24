@@ -1,0 +1,830 @@
+{
+  "auditor": "J",
+  "source": "8e9d606f5aabeb9dd672106d586a44b52912c9ea0c7f6f8da5ecd977a5617c7f",
+  "profile": "EA-IE-profile/1/8f4577177e06ed695a65e3276a65702ccc64d847632aae14f0ba5ca167ad21a5",
+  "status": "PASS",
+  "i_summary_sha256": "b06e9b4887ae78ced520944ad01d1a592e7990cbcb0101b314b524fbb9da25df",
+  "runtime_files": 19,
+  "main_harness_files": 20,
+  "supplemental_files": 1,
+  "native_matrix_pass": 53,
+  "b01_pass": 20,
+  "checks": [
+    {
+      "kind": "runtime",
+      "path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\packages\\encounter-ie-reference\\0.1.0\\eaie\\__init__.py",
+      "bytes": 229,
+      "expected": "e9ed7d145605626815e02847db7b29c51848b3706476b818b5dbaff410beb9cc",
+      "observed": "e9ed7d145605626815e02847db7b29c51848b3706476b818b5dbaff410beb9cc",
+      "match": true
+    },
+    {
+      "kind": "runtime",
+      "path": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-independent-final-08\\source\\eaie\\__init__.py",
+      "bytes": 229,
+      "expected": "e9ed7d145605626815e02847db7b29c51848b3706476b818b5dbaff410beb9cc",
+      "observed": "e9ed7d145605626815e02847db7b29c51848b3706476b818b5dbaff410beb9cc",
+      "match": true
+    },
+    {
+      "kind": "runtime",
+      "path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\packages\\encounter-ie-reference\\0.1.0\\eaie\\atlas.py",
+      "bytes": 3657,
+      "expected": "2ec0ba05d292942eb39cbe7fe7b1bb125ae2c07579260c9b7fb249703b2cbbac",
+      "observed": "2ec0ba05d292942eb39cbe7fe7b1bb125ae2c07579260c9b7fb249703b2cbbac",
+      "match": true
+    },
+    {
+      "kind": "runtime",
+      "path": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-independent-final-08\\source\\eaie\\atlas.py",
+      "bytes": 3657,
+      "expected": "2ec0ba05d292942eb39cbe7fe7b1bb125ae2c07579260c9b7fb249703b2cbbac",
+      "observed": "2ec0ba05d292942eb39cbe7fe7b1bb125ae2c07579260c9b7fb249703b2cbbac",
+      "match": true
+    },
+    {
+      "kind": "runtime",
+      "path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\packages\\encounter-ie-reference\\0.1.0\\eaie\\core.py",
+      "bytes": 36679,
+      "expected": "aabe6ac9156f4720170b5177d13a303311e9191c48b647649c5509b16e13d063",
+      "observed": "aabe6ac9156f4720170b5177d13a303311e9191c48b647649c5509b16e13d063",
+      "match": true
+    },
+    {
+      "kind": "runtime",
+      "path": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-independent-final-08\\source\\eaie\\core.py",
+      "bytes": 36679,
+      "expected": "aabe6ac9156f4720170b5177d13a303311e9191c48b647649c5509b16e13d063",
+      "observed": "aabe6ac9156f4720170b5177d13a303311e9191c48b647649c5509b16e13d063",
+      "match": true
+    },
+    {
+      "kind": "runtime",
+      "path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\packages\\encounter-ie-reference\\0.1.0\\eaie\\data.py",
+      "bytes": 13335,
+      "expected": "5315816ee8d905b930a930106219d674a995acdd3c8c9ce8d65dfd559b966f54",
+      "observed": "5315816ee8d905b930a930106219d674a995acdd3c8c9ce8d65dfd559b966f54",
+      "match": true
+    },
+    {
+      "kind": "runtime",
+      "path": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-independent-final-08\\source\\eaie\\data.py",
+      "bytes": 13335,
+      "expected": "5315816ee8d905b930a930106219d674a995acdd3c8c9ce8d65dfd559b966f54",
+      "observed": "5315816ee8d905b930a930106219d674a995acdd3c8c9ce8d65dfd559b966f54",
+      "match": true
+    },
+    {
+      "kind": "runtime",
+      "path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\packages\\encounter-ie-reference\\0.1.0\\eaie\\expressions.py",
+      "bytes": 1635,
+      "expected": "f6e30b2d7158a961fd50f3e72d63f43e3692e6cc469609072a0af508a1a0c9f1",
+      "observed": "f6e30b2d7158a961fd50f3e72d63f43e3692e6cc469609072a0af508a1a0c9f1",
+      "match": true
+    },
+    {
+      "kind": "runtime",
+      "path": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-independent-final-08\\source\\eaie\\expressions.py",
+      "bytes": 1635,
+      "expected": "f6e30b2d7158a961fd50f3e72d63f43e3692e6cc469609072a0af508a1a0c9f1",
+      "observed": "f6e30b2d7158a961fd50f3e72d63f43e3692e6cc469609072a0af508a1a0c9f1",
+      "match": true
+    },
+    {
+      "kind": "runtime",
+      "path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\packages\\encounter-ie-reference\\0.1.0\\eaie\\fixtures.py",
+      "bytes": 3951,
+      "expected": "570609bb04f31a04e848d78bd6f081cd96d2b6f536e0b292cea409101c8568aa",
+      "observed": "570609bb04f31a04e848d78bd6f081cd96d2b6f536e0b292cea409101c8568aa",
+      "match": true
+    },
+    {
+      "kind": "runtime",
+      "path": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-independent-final-08\\source\\eaie\\fixtures.py",
+      "bytes": 3951,
+      "expected": "570609bb04f31a04e848d78bd6f081cd96d2b6f536e0b292cea409101c8568aa",
+      "observed": "570609bb04f31a04e848d78bd6f081cd96d2b6f536e0b292cea409101c8568aa",
+      "match": true
+    },
+    {
+      "kind": "runtime",
+      "path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\packages\\encounter-ie-reference\\0.1.0\\eaie\\identity.py",
+      "bytes": 1208,
+      "expected": "1d2d6020b75e934ed26b24868602e3c4b571e89f6d563c3a3c98ac8cac0e8320",
+      "observed": "1d2d6020b75e934ed26b24868602e3c4b571e89f6d563c3a3c98ac8cac0e8320",
+      "match": true
+    },
+    {
+      "kind": "runtime",
+      "path": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-independent-final-08\\source\\eaie\\identity.py",
+      "bytes": 1208,
+      "expected": "1d2d6020b75e934ed26b24868602e3c4b571e89f6d563c3a3c98ac8cac0e8320",
+      "observed": "1d2d6020b75e934ed26b24868602e3c4b571e89f6d563c3a3c98ac8cac0e8320",
+      "match": true
+    },
+    {
+      "kind": "runtime",
+      "path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\packages\\encounter-ie-reference\\0.1.0\\eaie\\information.py",
+      "bytes": 13496,
+      "expected": "b5336e90ac192becfb9cde0b518f1793ba47526a2c2f98b80821cab69c3ade19",
+      "observed": "b5336e90ac192becfb9cde0b518f1793ba47526a2c2f98b80821cab69c3ade19",
+      "match": true
+    },
+    {
+      "kind": "runtime",
+      "path": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-independent-final-08\\source\\eaie\\information.py",
+      "bytes": 13496,
+      "expected": "b5336e90ac192becfb9cde0b518f1793ba47526a2c2f98b80821cab69c3ade19",
+      "observed": "b5336e90ac192becfb9cde0b518f1793ba47526a2c2f98b80821cab69c3ade19",
+      "match": true
+    },
+    {
+      "kind": "runtime",
+      "path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\packages\\encounter-ie-reference\\0.1.0\\eaie\\organization.py",
+      "bytes": 6967,
+      "expected": "e7ccd678b826929d081322b299f3a17b4623a4374a394e5dee54b349c0dddf06",
+      "observed": "e7ccd678b826929d081322b299f3a17b4623a4374a394e5dee54b349c0dddf06",
+      "match": true
+    },
+    {
+      "kind": "runtime",
+      "path": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-independent-final-08\\source\\eaie\\organization.py",
+      "bytes": 6967,
+      "expected": "e7ccd678b826929d081322b299f3a17b4623a4374a394e5dee54b349c0dddf06",
+      "observed": "e7ccd678b826929d081322b299f3a17b4623a4374a394e5dee54b349c0dddf06",
+      "match": true
+    },
+    {
+      "kind": "runtime",
+      "path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\packages\\encounter-ie-reference\\0.1.0\\eaie\\policies.py",
+      "bytes": 13104,
+      "expected": "5792946a8e1206e1c089bef9a3dbb2fb0f1ecd72dba6e27abeb49496b6329e34",
+      "observed": "5792946a8e1206e1c089bef9a3dbb2fb0f1ecd72dba6e27abeb49496b6329e34",
+      "match": true
+    },
+    {
+      "kind": "runtime",
+      "path": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-independent-final-08\\source\\eaie\\policies.py",
+      "bytes": 13104,
+      "expected": "5792946a8e1206e1c089bef9a3dbb2fb0f1ecd72dba6e27abeb49496b6329e34",
+      "observed": "5792946a8e1206e1c089bef9a3dbb2fb0f1ecd72dba6e27abeb49496b6329e34",
+      "match": true
+    },
+    {
+      "kind": "runtime",
+      "path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\packages\\encounter-ie-reference\\0.1.0\\eaie\\profile.py",
+      "bytes": 966,
+      "expected": "de2747ae3ac4f0c1f00bc7a54d58cd234235282348949eb5dcaa7325a305ff65",
+      "observed": "de2747ae3ac4f0c1f00bc7a54d58cd234235282348949eb5dcaa7325a305ff65",
+      "match": true
+    },
+    {
+      "kind": "runtime",
+      "path": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-independent-final-08\\source\\eaie\\profile.py",
+      "bytes": 966,
+      "expected": "de2747ae3ac4f0c1f00bc7a54d58cd234235282348949eb5dcaa7325a305ff65",
+      "observed": "de2747ae3ac4f0c1f00bc7a54d58cd234235282348949eb5dcaa7325a305ff65",
+      "match": true
+    },
+    {
+      "kind": "runtime",
+      "path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\packages\\encounter-ie-reference\\0.1.0\\eaie\\queries.py",
+      "bytes": 7315,
+      "expected": "048a5c7ba8ed09c7019d38b465ac41ed4cbaef9637dd1b1efae0db348b81f0bd",
+      "observed": "048a5c7ba8ed09c7019d38b465ac41ed4cbaef9637dd1b1efae0db348b81f0bd",
+      "match": true
+    },
+    {
+      "kind": "runtime",
+      "path": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-independent-final-08\\source\\eaie\\queries.py",
+      "bytes": 7315,
+      "expected": "048a5c7ba8ed09c7019d38b465ac41ed4cbaef9637dd1b1efae0db348b81f0bd",
+      "observed": "048a5c7ba8ed09c7019d38b465ac41ed4cbaef9637dd1b1efae0db348b81f0bd",
+      "match": true
+    },
+    {
+      "kind": "runtime",
+      "path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\packages\\encounter-ie-reference\\0.1.0\\fixtures\\BX.txt",
+      "bytes": 391,
+      "expected": "561eb38e6682e9a2fc1604c3be637e8894f20f250dbff106797281a362913de8",
+      "observed": "561eb38e6682e9a2fc1604c3be637e8894f20f250dbff106797281a362913de8",
+      "match": true
+    },
+    {
+      "kind": "runtime",
+      "path": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-independent-final-08\\source\\fixtures\\BX.txt",
+      "bytes": 391,
+      "expected": "561eb38e6682e9a2fc1604c3be637e8894f20f250dbff106797281a362913de8",
+      "observed": "561eb38e6682e9a2fc1604c3be637e8894f20f250dbff106797281a362913de8",
+      "match": true
+    },
+    {
+      "kind": "runtime",
+      "path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\packages\\encounter-ie-reference\\0.1.0\\fixtures\\R0.txt",
+      "bytes": 797,
+      "expected": "b1ad16d09f5651e9505c8288ce1930d0ea35dfa213fa70750d24ee1dfdff2095",
+      "observed": "b1ad16d09f5651e9505c8288ce1930d0ea35dfa213fa70750d24ee1dfdff2095",
+      "match": true
+    },
+    {
+      "kind": "runtime",
+      "path": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-independent-final-08\\source\\fixtures\\R0.txt",
+      "bytes": 797,
+      "expected": "b1ad16d09f5651e9505c8288ce1930d0ea35dfa213fa70750d24ee1dfdff2095",
+      "observed": "b1ad16d09f5651e9505c8288ce1930d0ea35dfa213fa70750d24ee1dfdff2095",
+      "match": true
+    },
+    {
+      "kind": "runtime",
+      "path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\packages\\encounter-ie-reference\\0.1.0\\fixtures\\RX.txt",
+      "bytes": 238,
+      "expected": "4a621598ba52c531ff1547c0e535224e5be4e2febfbd58636bbcbafc1f8ed427",
+      "observed": "4a621598ba52c531ff1547c0e535224e5be4e2febfbd58636bbcbafc1f8ed427",
+      "match": true
+    },
+    {
+      "kind": "runtime",
+      "path": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-independent-final-08\\source\\fixtures\\RX.txt",
+      "bytes": 238,
+      "expected": "4a621598ba52c531ff1547c0e535224e5be4e2febfbd58636bbcbafc1f8ed427",
+      "observed": "4a621598ba52c531ff1547c0e535224e5be4e2febfbd58636bbcbafc1f8ed427",
+      "match": true
+    },
+    {
+      "kind": "runtime",
+      "path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\packages\\encounter-ie-reference\\0.1.0\\fixtures\\S.txt",
+      "bytes": 340,
+      "expected": "a9008316ff9304eb43576f20019ba3c65f632515ec506048dee8d385cdab3449",
+      "observed": "a9008316ff9304eb43576f20019ba3c65f632515ec506048dee8d385cdab3449",
+      "match": true
+    },
+    {
+      "kind": "runtime",
+      "path": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-independent-final-08\\source\\fixtures\\S.txt",
+      "bytes": 340,
+      "expected": "a9008316ff9304eb43576f20019ba3c65f632515ec506048dee8d385cdab3449",
+      "observed": "a9008316ff9304eb43576f20019ba3c65f632515ec506048dee8d385cdab3449",
+      "match": true
+    },
+    {
+      "kind": "runtime",
+      "path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\packages\\encounter-ie-reference\\0.1.0\\fixtures\\S2.txt",
+      "bytes": 348,
+      "expected": "eba31deef62e145ad2a89a42d3b1958f741ec95a2e04fb4c976529791450e6c4",
+      "observed": "eba31deef62e145ad2a89a42d3b1958f741ec95a2e04fb4c976529791450e6c4",
+      "match": true
+    },
+    {
+      "kind": "runtime",
+      "path": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-independent-final-08\\source\\fixtures\\S2.txt",
+      "bytes": 348,
+      "expected": "eba31deef62e145ad2a89a42d3b1958f741ec95a2e04fb4c976529791450e6c4",
+      "observed": "eba31deef62e145ad2a89a42d3b1958f741ec95a2e04fb4c976529791450e6c4",
+      "match": true
+    },
+    {
+      "kind": "runtime",
+      "path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\packages\\encounter-ie-reference\\0.1.0\\fixtures\\T.txt",
+      "bytes": 214,
+      "expected": "99beac400b126f6ed09ae54c84c30e13dcdf817bffa0a48516a1afd1260e338f",
+      "observed": "99beac400b126f6ed09ae54c84c30e13dcdf817bffa0a48516a1afd1260e338f",
+      "match": true
+    },
+    {
+      "kind": "runtime",
+      "path": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-independent-final-08\\source\\fixtures\\T.txt",
+      "bytes": 214,
+      "expected": "99beac400b126f6ed09ae54c84c30e13dcdf817bffa0a48516a1afd1260e338f",
+      "observed": "99beac400b126f6ed09ae54c84c30e13dcdf817bffa0a48516a1afd1260e338f",
+      "match": true
+    },
+    {
+      "kind": "runtime",
+      "path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\packages\\encounter-ie-reference\\0.1.0\\fixtures\\U.txt",
+      "bytes": 214,
+      "expected": "d82c5a44cddd6b724bdd8489408bf064e4c4af2f6260760e16a4b7fb1b910f3a",
+      "observed": "d82c5a44cddd6b724bdd8489408bf064e4c4af2f6260760e16a4b7fb1b910f3a",
+      "match": true
+    },
+    {
+      "kind": "runtime",
+      "path": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-independent-final-08\\source\\fixtures\\U.txt",
+      "bytes": 214,
+      "expected": "d82c5a44cddd6b724bdd8489408bf064e4c4af2f6260760e16a4b7fb1b910f3a",
+      "observed": "d82c5a44cddd6b724bdd8489408bf064e4c4af2f6260760e16a4b7fb1b910f3a",
+      "match": true
+    },
+    {
+      "kind": "harness",
+      "path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\packages\\encounter-ie-reference\\0.1.0\\tests\\independent\\b01_fault_worker.py",
+      "bytes": 1798,
+      "expected": "e991d68f6e1cde9226196c47616594858c9242bb7f45beac8113751e76bbdf69",
+      "observed": "e991d68f6e1cde9226196c47616594858c9242bb7f45beac8113751e76bbdf69",
+      "match": true
+    },
+    {
+      "kind": "harness",
+      "path": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-independent-final-08\\source\\tests\\independent\\b01_fault_worker.py",
+      "bytes": 1798,
+      "expected": "e991d68f6e1cde9226196c47616594858c9242bb7f45beac8113751e76bbdf69",
+      "observed": "e991d68f6e1cde9226196c47616594858c9242bb7f45beac8113751e76bbdf69",
+      "match": true
+    },
+    {
+      "kind": "harness",
+      "path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\packages\\encounter-ie-reference\\0.1.0\\tests\\independent\\bounds.py",
+      "bytes": 8036,
+      "expected": "cef3717b0f21577e29ecfc17422118493410bf4da2d88b83fe646dea5af36632",
+      "observed": "cef3717b0f21577e29ecfc17422118493410bf4da2d88b83fe646dea5af36632",
+      "match": true
+    },
+    {
+      "kind": "harness",
+      "path": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-independent-final-08\\source\\tests\\independent\\bounds.py",
+      "bytes": 8036,
+      "expected": "cef3717b0f21577e29ecfc17422118493410bf4da2d88b83fe646dea5af36632",
+      "observed": "cef3717b0f21577e29ecfc17422118493410bf4da2d88b83fe646dea5af36632",
+      "match": true
+    },
+    {
+      "kind": "harness",
+      "path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\packages\\encounter-ie-reference\\0.1.0\\tests\\independent\\controls.py",
+      "bytes": 23897,
+      "expected": "8410aabb95dd84e6fea89f10ccaf49b4c15d2bd859ebc72f4c4085a07609b05e",
+      "observed": "8410aabb95dd84e6fea89f10ccaf49b4c15d2bd859ebc72f4c4085a07609b05e",
+      "match": true
+    },
+    {
+      "kind": "harness",
+      "path": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-independent-final-08\\source\\tests\\independent\\controls.py",
+      "bytes": 23897,
+      "expected": "8410aabb95dd84e6fea89f10ccaf49b4c15d2bd859ebc72f4c4085a07609b05e",
+      "observed": "8410aabb95dd84e6fea89f10ccaf49b4c15d2bd859ebc72f4c4085a07609b05e",
+      "match": true
+    },
+    {
+      "kind": "harness",
+      "path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\packages\\encounter-ie-reference\\0.1.0\\tests\\independent\\coupled.py",
+      "bytes": 6362,
+      "expected": "b1292e0fe961c643af083e4d779bf036642db5ca8fa50fb2b2c3fe0fee1511a8",
+      "observed": "b1292e0fe961c643af083e4d779bf036642db5ca8fa50fb2b2c3fe0fee1511a8",
+      "match": true
+    },
+    {
+      "kind": "harness",
+      "path": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-independent-final-08\\source\\tests\\independent\\coupled.py",
+      "bytes": 6362,
+      "expected": "b1292e0fe961c643af083e4d779bf036642db5ca8fa50fb2b2c3fe0fee1511a8",
+      "observed": "b1292e0fe961c643af083e4d779bf036642db5ca8fa50fb2b2c3fe0fee1511a8",
+      "match": true
+    },
+    {
+      "kind": "harness",
+      "path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\packages\\encounter-ie-reference\\0.1.0\\tests\\independent\\determinism_worker.py",
+      "bytes": 1308,
+      "expected": "24a7476525fa3e117b6621666a6c5ed79dc9a8931ea2b6f2fc280ab7a9901005",
+      "observed": "24a7476525fa3e117b6621666a6c5ed79dc9a8931ea2b6f2fc280ab7a9901005",
+      "match": true
+    },
+    {
+      "kind": "harness",
+      "path": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-independent-final-08\\source\\tests\\independent\\determinism_worker.py",
+      "bytes": 1308,
+      "expected": "24a7476525fa3e117b6621666a6c5ed79dc9a8931ea2b6f2fc280ab7a9901005",
+      "observed": "24a7476525fa3e117b6621666a6c5ed79dc9a8931ea2b6f2fc280ab7a9901005",
+      "match": true
+    },
+    {
+      "kind": "harness",
+      "path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\packages\\encounter-ie-reference\\0.1.0\\tests\\independent\\donor_oracles.py",
+      "bytes": 1022,
+      "expected": "96657dc3667d9e2a3c0b6bf7d17e385a6979e590fc412c98f512485da4388607",
+      "observed": "96657dc3667d9e2a3c0b6bf7d17e385a6979e590fc412c98f512485da4388607",
+      "match": true
+    },
+    {
+      "kind": "harness",
+      "path": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-independent-final-08\\source\\tests\\independent\\donor_oracles.py",
+      "bytes": 1022,
+      "expected": "96657dc3667d9e2a3c0b6bf7d17e385a6979e590fc412c98f512485da4388607",
+      "observed": "96657dc3667d9e2a3c0b6bf7d17e385a6979e590fc412c98f512485da4388607",
+      "match": true
+    },
+    {
+      "kind": "harness",
+      "path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\packages\\encounter-ie-reference\\0.1.0\\tests\\independent\\fault_worker.py",
+      "bytes": 678,
+      "expected": "868b7e0be9f87f755169237b5b1c4e8c5a520152e0fdfeb0dc4edb3139cca526",
+      "observed": "868b7e0be9f87f755169237b5b1c4e8c5a520152e0fdfeb0dc4edb3139cca526",
+      "match": true
+    },
+    {
+      "kind": "harness",
+      "path": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-independent-final-08\\source\\tests\\independent\\fault_worker.py",
+      "bytes": 678,
+      "expected": "868b7e0be9f87f755169237b5b1c4e8c5a520152e0fdfeb0dc4edb3139cca526",
+      "observed": "868b7e0be9f87f755169237b5b1c4e8c5a520152e0fdfeb0dc4edb3139cca526",
+      "match": true
+    },
+    {
+      "kind": "harness",
+      "path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\packages\\encounter-ie-reference\\0.1.0\\tests\\independent\\ported_b01.py",
+      "bytes": 15224,
+      "expected": "543d348bfbcd06da30fef0efb5937eabd4e25667e91f6df53ede54c543d59e93",
+      "observed": "543d348bfbcd06da30fef0efb5937eabd4e25667e91f6df53ede54c543d59e93",
+      "match": true
+    },
+    {
+      "kind": "harness",
+      "path": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-independent-final-08\\source\\tests\\independent\\ported_b01.py",
+      "bytes": 15224,
+      "expected": "543d348bfbcd06da30fef0efb5937eabd4e25667e91f6df53ede54c543d59e93",
+      "observed": "543d348bfbcd06da30fef0efb5937eabd4e25667e91f6df53ede54c543d59e93",
+      "match": true
+    },
+    {
+      "kind": "harness",
+      "path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\packages\\encounter-ie-reference\\0.1.0\\tests\\independent\\ported_donor27.py",
+      "bytes": 27034,
+      "expected": "4638d4be20ea5124dfb25b1b05a31aebebb80f60d7f1e37ce97ab5cf1aad1f01",
+      "observed": "4638d4be20ea5124dfb25b1b05a31aebebb80f60d7f1e37ce97ab5cf1aad1f01",
+      "match": true
+    },
+    {
+      "kind": "harness",
+      "path": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-independent-final-08\\source\\tests\\independent\\ported_donor27.py",
+      "bytes": 27034,
+      "expected": "4638d4be20ea5124dfb25b1b05a31aebebb80f60d7f1e37ce97ab5cf1aad1f01",
+      "observed": "4638d4be20ea5124dfb25b1b05a31aebebb80f60d7f1e37ce97ab5cf1aad1f01",
+      "match": true
+    },
+    {
+      "kind": "harness",
+      "path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\packages\\encounter-ie-reference\\0.1.0\\tests\\independent\\README.md",
+      "bytes": 2572,
+      "expected": "b97b64c7c79375c6b7c3c09816a3db2b6f22e25aa46b99353e6f1a0102eaf43d",
+      "observed": "b97b64c7c79375c6b7c3c09816a3db2b6f22e25aa46b99353e6f1a0102eaf43d",
+      "match": true
+    },
+    {
+      "kind": "harness",
+      "path": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-independent-final-08\\source\\tests\\independent\\README.md",
+      "bytes": 2572,
+      "expected": "b97b64c7c79375c6b7c3c09816a3db2b6f22e25aa46b99353e6f1a0102eaf43d",
+      "observed": "b97b64c7c79375c6b7c3c09816a3db2b6f22e25aa46b99353e6f1a0102eaf43d",
+      "match": true
+    },
+    {
+      "kind": "harness",
+      "path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\packages\\encounter-ie-reference\\0.1.0\\tests\\independent\\scenarios.py",
+      "bytes": 16535,
+      "expected": "ff4815c0d3fbf09da1417b8bb6ad85108a9258aae640c763b6827f8f6032e29d",
+      "observed": "ff4815c0d3fbf09da1417b8bb6ad85108a9258aae640c763b6827f8f6032e29d",
+      "match": true
+    },
+    {
+      "kind": "harness",
+      "path": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-independent-final-08\\source\\tests\\independent\\scenarios.py",
+      "bytes": 16535,
+      "expected": "ff4815c0d3fbf09da1417b8bb6ad85108a9258aae640c763b6827f8f6032e29d",
+      "observed": "ff4815c0d3fbf09da1417b8bb6ad85108a9258aae640c763b6827f8f6032e29d",
+      "match": true
+    },
+    {
+      "kind": "harness",
+      "path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\packages\\encounter-ie-reference\\0.1.0\\tests\\independent\\semantics.py",
+      "bytes": 12522,
+      "expected": "1b14650f22fe515a6e45305eb588dc923917123357ee40b031b32bc6a599f08b",
+      "observed": "1b14650f22fe515a6e45305eb588dc923917123357ee40b031b32bc6a599f08b",
+      "match": true
+    },
+    {
+      "kind": "harness",
+      "path": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-independent-final-08\\source\\tests\\independent\\semantics.py",
+      "bytes": 12522,
+      "expected": "1b14650f22fe515a6e45305eb588dc923917123357ee40b031b32bc6a599f08b",
+      "observed": "1b14650f22fe515a6e45305eb588dc923917123357ee40b031b32bc6a599f08b",
+      "match": true
+    },
+    {
+      "kind": "harness",
+      "path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\packages\\encounter-ie-reference\\0.1.0\\tests\\independent\\verify_decode_reservation.py",
+      "bytes": 1954,
+      "expected": "636892bda8fac6965b04274ee00b681647eed3de8223b8432abb7ba86d167321",
+      "observed": "636892bda8fac6965b04274ee00b681647eed3de8223b8432abb7ba86d167321",
+      "match": true
+    },
+    {
+      "kind": "harness",
+      "path": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-independent-final-08\\source\\tests\\independent\\verify_decode_reservation.py",
+      "bytes": 1954,
+      "expected": "636892bda8fac6965b04274ee00b681647eed3de8223b8432abb7ba86d167321",
+      "observed": "636892bda8fac6965b04274ee00b681647eed3de8223b8432abb7ba86d167321",
+      "match": true
+    },
+    {
+      "kind": "harness",
+      "path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\packages\\encounter-ie-reference\\0.1.0\\tests\\independent\\verify_failed_phase_work.py",
+      "bytes": 3121,
+      "expected": "d8f919f92e11295f57290bdae24d57a81b71a3e1ae86c87e57acea8e79b9cd8a",
+      "observed": "d8f919f92e11295f57290bdae24d57a81b71a3e1ae86c87e57acea8e79b9cd8a",
+      "match": true
+    },
+    {
+      "kind": "harness",
+      "path": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-independent-final-08\\source\\tests\\independent\\verify_failed_phase_work.py",
+      "bytes": 3121,
+      "expected": "d8f919f92e11295f57290bdae24d57a81b71a3e1ae86c87e57acea8e79b9cd8a",
+      "observed": "d8f919f92e11295f57290bdae24d57a81b71a3e1ae86c87e57acea8e79b9cd8a",
+      "match": true
+    },
+    {
+      "kind": "harness",
+      "path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\packages\\encounter-ie-reference\\0.1.0\\tests\\independent\\verify_independent.py",
+      "bytes": 11435,
+      "expected": "14f51ed682e5d665b62df3e325c047fedfefc4dfda2d58bdd0a9e35a99eae05e",
+      "observed": "14f51ed682e5d665b62df3e325c047fedfefc4dfda2d58bdd0a9e35a99eae05e",
+      "match": true
+    },
+    {
+      "kind": "harness",
+      "path": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-independent-final-08\\source\\tests\\independent\\verify_independent.py",
+      "bytes": 11435,
+      "expected": "14f51ed682e5d665b62df3e325c047fedfefc4dfda2d58bdd0a9e35a99eae05e",
+      "observed": "14f51ed682e5d665b62df3e325c047fedfefc4dfda2d58bdd0a9e35a99eae05e",
+      "match": true
+    },
+    {
+      "kind": "harness",
+      "path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\packages\\encounter-ie-reference\\0.1.0\\tests\\independent\\verify_nominal_checkpoint.py",
+      "bytes": 3192,
+      "expected": "9e56cfc5edc7e3a5209707b7fcdcf655ecfc6816661737303be2a313be65b593",
+      "observed": "9e56cfc5edc7e3a5209707b7fcdcf655ecfc6816661737303be2a313be65b593",
+      "match": true
+    },
+    {
+      "kind": "harness",
+      "path": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-independent-final-08\\source\\tests\\independent\\verify_nominal_checkpoint.py",
+      "bytes": 3192,
+      "expected": "9e56cfc5edc7e3a5209707b7fcdcf655ecfc6816661737303be2a313be65b593",
+      "observed": "9e56cfc5edc7e3a5209707b7fcdcf655ecfc6816661737303be2a313be65b593",
+      "match": true
+    },
+    {
+      "kind": "harness",
+      "path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\packages\\encounter-ie-reference\\0.1.0\\tests\\independent\\verify_nominal_queries.py",
+      "bytes": 2590,
+      "expected": "ab714e766b16698233ca3335fbe8f7d9fad0b68e558cb3f45a4b5da78ed0e4ce",
+      "observed": "ab714e766b16698233ca3335fbe8f7d9fad0b68e558cb3f45a4b5da78ed0e4ce",
+      "match": true
+    },
+    {
+      "kind": "harness",
+      "path": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-independent-final-08\\source\\tests\\independent\\verify_nominal_queries.py",
+      "bytes": 2590,
+      "expected": "ab714e766b16698233ca3335fbe8f7d9fad0b68e558cb3f45a4b5da78ed0e4ce",
+      "observed": "ab714e766b16698233ca3335fbe8f7d9fad0b68e558cb3f45a4b5da78ed0e4ce",
+      "match": true
+    },
+    {
+      "kind": "harness",
+      "path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\packages\\encounter-ie-reference\\0.1.0\\tests\\independent\\verify_phase_boundaries.py",
+      "bytes": 4197,
+      "expected": "2c00e3cd91652d4587cd9ac501108cd2c63543de4f2ed0da2d7f83b67c4318e7",
+      "observed": "2c00e3cd91652d4587cd9ac501108cd2c63543de4f2ed0da2d7f83b67c4318e7",
+      "match": true
+    },
+    {
+      "kind": "harness",
+      "path": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-independent-final-08\\source\\tests\\independent\\verify_phase_boundaries.py",
+      "bytes": 4197,
+      "expected": "2c00e3cd91652d4587cd9ac501108cd2c63543de4f2ed0da2d7f83b67c4318e7",
+      "observed": "2c00e3cd91652d4587cd9ac501108cd2c63543de4f2ed0da2d7f83b67c4318e7",
+      "match": true
+    },
+    {
+      "kind": "harness",
+      "path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\packages\\encounter-ie-reference\\0.1.0\\tests\\independent\\verify_read_reservation.py",
+      "bytes": 2691,
+      "expected": "1f819e4db53b300cce1bef486db3c41619719d694a2a50c0a0b31b3144861be9",
+      "observed": "1f819e4db53b300cce1bef486db3c41619719d694a2a50c0a0b31b3144861be9",
+      "match": true
+    },
+    {
+      "kind": "harness",
+      "path": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-independent-final-08\\source\\tests\\independent\\verify_read_reservation.py",
+      "bytes": 2691,
+      "expected": "1f819e4db53b300cce1bef486db3c41619719d694a2a50c0a0b31b3144861be9",
+      "observed": "1f819e4db53b300cce1bef486db3c41619719d694a2a50c0a0b31b3144861be9",
+      "match": true
+    },
+    {
+      "kind": "harness",
+      "path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\packages\\encounter-ie-reference\\0.1.0\\tests\\independent\\verify_regression27.py",
+      "bytes": 1907,
+      "expected": "6ca7f8214a56e335016447f2e4e83a59bbb940d865117ecfac7029e5a98bd1e6",
+      "observed": "6ca7f8214a56e335016447f2e4e83a59bbb940d865117ecfac7029e5a98bd1e6",
+      "match": true
+    },
+    {
+      "kind": "harness",
+      "path": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-independent-final-08\\source\\tests\\independent\\verify_regression27.py",
+      "bytes": 1907,
+      "expected": "6ca7f8214a56e335016447f2e4e83a59bbb940d865117ecfac7029e5a98bd1e6",
+      "observed": "6ca7f8214a56e335016447f2e4e83a59bbb940d865117ecfac7029e5a98bd1e6",
+      "match": true
+    },
+    {
+      "kind": "harness",
+      "path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\packages\\encounter-ie-reference\\0.1.0\\tests\\independent\\verify_nominal_checkpoint_compact.py",
+      "bytes": 3389,
+      "expected": "3e3ef614f114b7c9969bfeabc8200b311cb1b765d441eee239d3755573a2817f",
+      "observed": "3e3ef614f114b7c9969bfeabc8200b311cb1b765d441eee239d3755573a2817f",
+      "match": true
+    },
+    {
+      "kind": "harness",
+      "path": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-independent-final-08\\source\\tests\\independent\\verify_nominal_checkpoint_compact.py",
+      "bytes": 3389,
+      "expected": "3e3ef614f114b7c9969bfeabc8200b311cb1b765d441eee239d3755573a2817f",
+      "observed": "3e3ef614f114b7c9969bfeabc8200b311cb1b765d441eee239d3755573a2817f",
+      "match": true
+    },
+    {
+      "kind": "raw-result",
+      "path": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-independent-final-08\\all\\results.json",
+      "bytes": 23870,
+      "expected": "54a147891cb84588c93c2e889f0ad39490da8a26035d94b96aeff21058f62718",
+      "observed": "54a147891cb84588c93c2e889f0ad39490da8a26035d94b96aeff21058f62718",
+      "match": true
+    },
+    {
+      "kind": "raw-result",
+      "path": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-independent-final-08\\regression27\\results.json",
+      "bytes": 176,
+      "expected": "3303abb899bba4689fc9b97fbb0805bd3ea9292e58711a516bf242795a84e645",
+      "observed": "3303abb899bba4689fc9b97fbb0805bd3ea9292e58711a516bf242795a84e645",
+      "match": true
+    },
+    {
+      "kind": "raw-result",
+      "path": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-independent-final-08\\b01\\results.json",
+      "bytes": 15358,
+      "expected": "3abbfab4b38afc7c0d1a09d18e64e65c94beb60a629ac7cb8ab678bf86a8c5e6",
+      "observed": "3abbfab4b38afc7c0d1a09d18e64e65c94beb60a629ac7cb8ab678bf86a8c5e6",
+      "match": true
+    },
+    {
+      "kind": "raw-result",
+      "path": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-independent-final-08\\complete-phase-boundaries\\results.json",
+      "bytes": 17652,
+      "expected": "522b9fe13fdac70451638bd74b749b938fe21808b0ffb8b95290886e5e042e3d",
+      "observed": "522b9fe13fdac70451638bd74b749b938fe21808b0ffb8b95290886e5e042e3d",
+      "match": true
+    },
+    {
+      "kind": "raw-result",
+      "path": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-independent-final-08\\failed-phase-work\\results.json",
+      "bytes": 5341,
+      "expected": "cb04042b28e34079a54b987478182f4f798356b8996cf56028be0001148ee55e",
+      "observed": "cb04042b28e34079a54b987478182f4f798356b8996cf56028be0001148ee55e",
+      "match": true
+    },
+    {
+      "kind": "raw-result",
+      "path": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-independent-final-08\\read-reservations\\results.json",
+      "bytes": 1155,
+      "expected": "d8e68d7bb3cb223bfa447a4e047e67b3315b119f3d7805654b0b432da8bd90b9",
+      "observed": "d8e68d7bb3cb223bfa447a4e047e67b3315b119f3d7805654b0b432da8bd90b9",
+      "match": true
+    },
+    {
+      "kind": "raw-result",
+      "path": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-independent-final-08\\decode-reservations\\results.json",
+      "bytes": 487,
+      "expected": "60a6f73866260200aad668dfabcfd59b02ad90f18e6d2820bce134ec53a01fb9",
+      "observed": "60a6f73866260200aad668dfabcfd59b02ad90f18e6d2820bce134ec53a01fb9",
+      "match": true
+    },
+    {
+      "kind": "raw-result",
+      "path": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-independent-final-08\\nominal-measured\\results.json",
+      "bytes": 709,
+      "expected": "9991cbf6832e8196fb90c622a53a7708a01e1a759b2b0d49b08e2f484f6b6350",
+      "observed": "9991cbf6832e8196fb90c622a53a7708a01e1a759b2b0d49b08e2f484f6b6350",
+      "match": true
+    },
+    {
+      "kind": "raw-result",
+      "path": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-independent-final-08\\nominal-checkpoint\\results.json",
+      "bytes": 6370,
+      "expected": "72b5076cdc9d4a2426e6632e56191930b2c592e60fb2629b08bd56429452d523",
+      "observed": "72b5076cdc9d4a2426e6632e56191930b2c592e60fb2629b08bd56429452d523",
+      "match": true
+    },
+    {
+      "kind": "raw-result",
+      "path": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-independent-final-08\\nominal-queries\\results.json",
+      "bytes": 9588,
+      "expected": "263765760032faa2d620427a6caa7f8546e05513909c2ad002bff575794835e3",
+      "observed": "263765760032faa2d620427a6caa7f8546e05513909c2ad002bff575794835e3",
+      "match": true
+    },
+    {
+      "kind": "raw-result",
+      "path": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-independent-final-08\\executed-source-manifest.json",
+      "bytes": 5433,
+      "expected": "40b095efe721e57be832431e9d4ddad3f02102536802273d52fb5ee6753322e8",
+      "observed": "40b095efe721e57be832431e9d4ddad3f02102536802273d52fb5ee6753322e8",
+      "match": true
+    },
+    {
+      "kind": "raw-result",
+      "path": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-independent-final-08\\supplemental-harness-manifest.json",
+      "bytes": 390,
+      "expected": "db3afc79aad9a9ebb1dc26d034215b450ede02d5865fe6ddc2e43bb444c5354b",
+      "observed": "db3afc79aad9a9ebb1dc26d034215b450ede02d5865fe6ddc2e43bb444c5354b",
+      "match": true
+    },
+    {
+      "kind": "raw-result",
+      "path": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-independent-final-08\\nominal-measured\\phase-metrics.json",
+      "bytes": 28532,
+      "expected": "3a6cf2b03eda39d93c012045043779975a9fa501ea03f46238bc033185b0c95b",
+      "observed": "3a6cf2b03eda39d93c012045043779975a9fa501ea03f46238bc033185b0c95b",
+      "match": true
+    },
+    {
+      "kind": "raw-result",
+      "path": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-independent-final-08\\nominal-measured\\nominal16\\storage.json",
+      "bytes": 699460,
+      "expected": "0ff20b670dc6c0a1919731d8e64e0076e4ebe9329a581fd8002192e5193e850f",
+      "observed": "0ff20b670dc6c0a1919731d8e64e0076e4ebe9329a581fd8002192e5193e850f",
+      "match": true
+    },
+    {
+      "kind": "raw-result",
+      "path": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-independent-final-08\\nominal-measured\\nominal16\\cold.stdout",
+      "bytes": 36055,
+      "expected": "c31f2e6d21ed877f0e352560c8be294b69afbc37492f629ea476ded3d12f5646",
+      "observed": "c31f2e6d21ed877f0e352560c8be294b69afbc37492f629ea476ded3d12f5646",
+      "match": true
+    },
+    {
+      "kind": "raw-result",
+      "path": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-independent-final-08\\nominal-measured\\nominal16\\world.db",
+      "bytes": 643072,
+      "expected": "8d5e00d0b40bb7fe0be3ff14de907e09386b65207319bc2a90782d8b1e9c70ab",
+      "observed": "8d5e00d0b40bb7fe0be3ff14de907e09386b65207319bc2a90782d8b1e9c70ab",
+      "match": true
+    },
+    {
+      "kind": "raw-result",
+      "path": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-independent-final-08\\nominal-checkpoint\\nominal-checkpoint\\world.db",
+      "bytes": 663552,
+      "expected": "4c53ba1a2e54646271e82e13385573ce40f9df9137ec0c3df1bee2165e10b420",
+      "observed": "4c53ba1a2e54646271e82e13385573ce40f9df9137ec0c3df1bee2165e10b420",
+      "match": true
+    },
+    {
+      "kind": "raw-result",
+      "path": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-independent-final-08\\nominal-checkpoint\\nominal-checkpoint\\cold.stdout",
+      "bytes": 36132,
+      "expected": "80bf42eede76334e580035b42335515bc7420bfea326cca0b200415b0691fd71",
+      "observed": "80bf42eede76334e580035b42335515bc7420bfea326cca0b200415b0691fd71",
+      "match": true
+    },
+    {
+      "kind": "raw-result",
+      "path": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-independent-final-08\\executed-source-manifest.json",
+      "bytes": 5433,
+      "expected": "40b095efe721e57be832431e9d4ddad3f02102536802273d52fb5ee6753322e8",
+      "observed": "40b095efe721e57be832431e9d4ddad3f02102536802273d52fb5ee6753322e8",
+      "match": true
+    },
+    {
+      "kind": "raw-result",
+      "path": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-independent-final-08\\supplemental-harness-manifest.json",
+      "bytes": 390,
+      "expected": "db3afc79aad9a9ebb1dc26d034215b450ede02d5865fe6ddc2e43bb444c5354b",
+      "observed": "db3afc79aad9a9ebb1dc26d034215b450ede02d5865fe6ddc2e43bb444c5354b",
+      "match": true
+    },
+    {
+      "kind": "report/diagnostic",
+      "path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\docs\\design\\information-economy-substrate\\v0.1\\implementation\\INFORMATION_ECONOMY_TEST_REPORT.md",
+      "bytes": 28280,
+      "expected": "92ca8222e92be318a26af2dd966f90e0aec78128f399693a9f0f4d5bad49f57e",
+      "observed": "92ca8222e92be318a26af2dd966f90e0aec78128f399693a9f0f4d5bad49f57e",
+      "match": true
+    },
+    {
+      "kind": "report/diagnostic",
+      "path": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\docs\\design\\information-economy-substrate\\v0.1\\implementation\\evidence\\i-checkpoint-observer-comparison.json",
+      "bytes": 1747,
+      "expected": "7ebb8ad960eef17062c0328a7217cd70faad2d7007bb8162ddec4e4eb04671f3",
+      "observed": "7ebb8ad960eef17062c0328a7217cd70faad2d7007bb8162ddec4e4eb04671f3",
+      "match": true
+    }
+  ]
+}

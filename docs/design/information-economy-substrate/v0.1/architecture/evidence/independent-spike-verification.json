@@ -1,0 +1,57 @@
+{
+  "reviewer": "Independent Testability Reviewer I; not candidate or spike author",
+  "scope": "Architecture-only disposable spike rerun and independent limitation probes; NOT successor/runtime acceptance",
+  "source_path": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-architecture-cca6d4a6\\run_spikes.py",
+  "source_sha256": "87a47a71a098b2f39928acee3908072e04de6c39770a8d35086c9f2d433372e5",
+  "seed1_results_path": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-architecture-cca6d4a6\\run-final-seed-1\\results.json",
+  "seed2_results_path": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-architecture-tester-seed2-7c9e1a\\results.json",
+  "seed2_python": "3.12.0 (tags/v3.12.0:0fb18b0, Oct  2 2023, 13:03:39) [MSC v.1935 64 bit (AMD64)]",
+  "seed2_sqlite": "3.42.0",
+  "seed2_hash_seed": "2",
+  "semantic_digest": "f6bfc3d08b64af02cbeb6bec3df6986e282086504e0a114190dbc8638a6d2fb0",
+  "semantic_outputs_equal_across_seeds": true,
+  "S5_deterministic_fields_equal_across_seeds": true,
+  "S5_shapes": [
+    {
+      "shape": "nominal",
+      "state_bytes": 49149,
+      "admitted": 64,
+      "next_refusal": "OPERATION_CAP",
+      "encoded_prefix_bytes": 6298427,
+      "allocated_db_bytes": 6332416,
+      "toy_workspace_reservation": 227927904
+    },
+    {
+      "shape": "saturated",
+      "state_bytes": 131069,
+      "admitted": 31,
+      "next_refusal": "ENCODED_PREFIX_CAP",
+      "encoded_prefix_bytes": 8129805,
+      "allocated_db_bytes": 8151040,
+      "toy_workspace_reservation": 293806496
+    }
+  ],
+  "S5_decode_peaks_bytes": [
+    10563845,
+    10404520
+  ],
+  "S5_existing_c1_inventory_control": "Unavailable: STORE_INVENTORY",
+  "S5_original_and_copy_source_unchanged": 25,
+  "independent_adversarial_observations": {
+    "originless_cycle_reports": {
+      "complete": true,
+      "origins": [],
+      "unknown": false
+    },
+    "dangling_parent_reports": "KeyError",
+    "meaning": "These are limitations of the deliberately small S1 toy, which neither validates backward causal input nor guards missing lineage. Production must reject impossible/dangling mandatory lineage or return safe unknown/unavailable; these outputs cannot certify complete known origin ancestry."
+  },
+  "limitations": [
+    "Semantic digest covers only S1/S3/S4, not S5; deterministic S5 fields compared separately.",
+    "S1 hidden-input function deliberately ignores hidden input; equality is a supplied-projection demonstration, not an authorization proof.",
+    "S3 tests a pure table and selected dictionary keys, not persisted grants, acquisition or real referral.",
+    "S4 tests fixed already-known acyclic supports and unchanged stance, not a complete support index/cascade or holder authorization implementation.",
+    "S5 stages serialize request witness plus poststate; no cold full-prefix rederivation, uncertain publication, independent receipt verification, real successor source/profile, or process/whole-volume fault was executed.",
+    "Tracemalloc peaks are JSON cold-decode Python allocation measurements, not full process memory or successor capacity."
+  ]
+}

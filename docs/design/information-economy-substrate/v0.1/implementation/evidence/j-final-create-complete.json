@@ -1,0 +1,42 @@
+{
+  "source": "a05acd67ee7dc283b067bedabf628307768e2a3f81193fe36751226aa194e91c",
+  "outer_complete": {
+    "total": 1065127,
+    "stages": {
+      "complete_root_creation": 1065127
+    }
+  },
+  "reported_complete": {
+    "total": 1065127,
+    "stages": {
+      "json_node": 4064,
+      "json_validate_bytes": 40192,
+      "canonical_sort_walk_node": 2183,
+      "full_key_sort": 87509,
+      "json_serialize_bytes": 37545,
+      "hash_bytes": 25716,
+      "fixture_read_hash_decode_bytes": 50875,
+      "fixture_authority_parse_bytes": 6376,
+      "fixture_field_visit": 152,
+      "freeze_node": 10,
+      "source_read_hash": 207483,
+      "fixture_authored_parse_bytes": 10168,
+      "fixture_entity_visit": 24,
+      "fixture_binding_visit": 11,
+      "fixture_authority_record": 35,
+      "information_record_visit": 20,
+      "json_size_node": 1328,
+      "json_size_bytes": 21299,
+      "scratch_cold_replay": 558732,
+      "future_cutoff_visit": 0,
+      "future_holder_visit": 6,
+      "future_receipt_index_visit": 0,
+      "future_recipe_basis_visit": 0,
+      "future_recipe_visit": 6,
+      "prospective_holder_recipe": 1338,
+      "future_receipt_query_visit": 0,
+      "prospective_author_recipe": 10055
+    }
+  },
+  "equal": true
+}

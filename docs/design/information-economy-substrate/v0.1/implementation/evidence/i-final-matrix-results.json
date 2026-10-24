@@ -1,0 +1,846 @@
+{
+  "status": "PASS",
+  "pass": 53,
+  "fail": 0,
+  "skip": 0,
+  "cases": [
+    {
+      "id": "A-unseen-actuality-delivery-boundary",
+      "status": "PASS",
+      "detail": {},
+      "elapsed_seconds": 16.737470300053246,
+      "traced_peak_bytes": null,
+      "rss": {
+        "working_set": 26525696,
+        "peak_working_set": 27049984
+      }
+    },
+    {
+      "id": "B-sincere-false-report-no-world-rewrite",
+      "status": "PASS",
+      "detail": {},
+      "elapsed_seconds": 21.70846990006976,
+      "traced_peak_bytes": null,
+      "rss": {
+        "working_set": 26836992,
+        "peak_working_set": 27222016
+      }
+    },
+    {
+      "id": "C-fabricated-subject-forged-observation-refused",
+      "status": "PASS",
+      "detail": {},
+      "elapsed_seconds": 23.173884899937548,
+      "traced_peak_bytes": null,
+      "rss": {
+        "working_set": 27168768,
+        "peak_working_set": 27672576
+      }
+    },
+    {
+      "id": "D-common-origin-and-unknown-not-corroboration",
+      "status": "PASS",
+      "detail": {},
+      "elapsed_seconds": 50.95725720003247,
+      "traced_peak_bytes": null,
+      "rss": {
+        "working_set": 29708288,
+        "peak_working_set": 30633984
+      }
+    },
+    {
+      "id": "E-chronological-rumor-loop-exact-retry",
+      "status": "PASS",
+      "detail": {},
+      "elapsed_seconds": 19.486376199987717,
+      "traced_peak_bytes": null,
+      "rss": {
+        "working_set": 29405184,
+        "peak_working_set": 30633984
+      }
+    },
+    {
+      "id": "F-historical-cutoff-correction-retains-original",
+      "status": "PASS",
+      "detail": {},
+      "elapsed_seconds": 20.244940999895334,
+      "traced_peak_bytes": null,
+      "rss": {
+        "working_set": 29044736,
+        "peak_working_set": 30633984
+      }
+    },
+    {
+      "id": "G-notice-grant-content-revocation-distinct",
+      "status": "PASS",
+      "detail": {},
+      "elapsed_seconds": 66.58765860006679,
+      "traced_peak_bytes": null,
+      "rss": {
+        "working_set": 30572544,
+        "peak_working_set": 31375360
+      }
+    },
+    {
+      "id": "B-false-information-actual-policy-caused-neutral-effect",
+      "status": "PASS",
+      "detail": {},
+      "elapsed_seconds": 94.1347924999427,
+      "traced_peak_bytes": null,
+      "rss": {
+        "working_set": 31297536,
+        "peak_working_set": 33333248
+      }
+    },
+    {
+      "id": "H-information-policy-separated-once-effect",
+      "status": "PASS",
+      "detail": {},
+      "elapsed_seconds": 71.48122730001342,
+      "traced_peak_bytes": null,
+      "rss": {
+        "working_set": 32890880,
+        "peak_working_set": 33333248
+      }
+    },
+    {
+      "id": "I-selected-cross-organization-referral",
+      "status": "PASS",
+      "detail": {},
+      "elapsed_seconds": 30.296350899967365,
+      "traced_peak_bytes": null,
+      "rss": {
+        "working_set": 32030720,
+        "peak_working_set": 33333248
+      }
+    },
+    {
+      "id": "J-one-actor-explicit-functions",
+      "status": "PASS",
+      "detail": {},
+      "elapsed_seconds": 69.09046740003396,
+      "traced_peak_bytes": null,
+      "rss": {
+        "working_set": 32841728,
+        "peak_working_set": 33333248
+      }
+    },
+    {
+      "id": "K-compartments-handles-cache-cutoff-read-purity",
+      "status": "PASS",
+      "detail": {},
+      "elapsed_seconds": 28.129057900048792,
+      "traced_peak_bytes": null,
+      "rss": {
+        "working_set": 32346112,
+        "peak_working_set": 33333248
+      }
+    },
+    {
+      "id": "L-alternative-support-withdrawal-stance-retained",
+      "status": "PASS",
+      "detail": {},
+      "elapsed_seconds": 33.31804589997046,
+      "traced_peak_bytes": null,
+      "rss": {
+        "working_set": 31232000,
+        "peak_working_set": 33333248
+      }
+    },
+    {
+      "id": "M4-minimum-16-admission-mixed-reopen-trace",
+      "status": "PASS",
+      "detail": {},
+      "elapsed_seconds": 160.21069979993626,
+      "traced_peak_bytes": null,
+      "rss": {
+        "working_set": 37646336,
+        "peak_working_set": 39825408
+      }
+    },
+    {
+      "id": "C1-identity-scope-exact-retry-before-staleness",
+      "status": "PASS",
+      "detail": {},
+      "elapsed_seconds": 22.7286181000527,
+      "traced_peak_bytes": null,
+      "rss": {
+        "working_set": 36446208,
+        "peak_working_set": 39825408
+      }
+    },
+    {
+      "id": "C1-captured-request-result-alias-result-conflicts",
+      "status": "PASS",
+      "detail": {},
+      "elapsed_seconds": 14.200137799954973,
+      "traced_peak_bytes": null,
+      "rss": {
+        "working_set": 36253696,
+        "peak_working_set": 39825408
+      }
+    },
+    {
+      "id": "C1-pure-hooks-faults-reentrancy-async",
+      "status": "PASS",
+      "detail": {},
+      "elapsed_seconds": 23.950751999975182,
+      "traced_peak_bytes": null,
+      "rss": {
+        "working_set": 35934208,
+        "peak_working_set": 39825408
+      }
+    },
+    {
+      "id": "C1-publication-hook-reentrancy-awaitable-refusal",
+      "status": "PASS",
+      "detail": {},
+      "elapsed_seconds": 6.747496000025421,
+      "traced_peak_bytes": null,
+      "rss": {
+        "working_set": 35762176,
+        "peak_working_set": 39825408
+      }
+    },
+    {
+      "id": "M4-six-real-process-publication-windows",
+      "status": "PASS",
+      "detail": [
+        {
+          "phase": "before_write",
+          "published_at_interrupt": false,
+          "retry": {
+            "status": "O1",
+            "receipt": {
+              "key": {
+                "world": "EA-IE-reference",
+                "lineage": "EA-IE-lineage-1",
+                "producer": "test-producer",
+                "incarnation": "e1",
+                "operation": "fault-operation"
+              },
+              "ordinal": 1,
+              "head": "4add7f1cabba7b1826e82107a10647afb62005c619ebdbe5501ef967483ae274",
+              "status": "O1",
+              "result_id": "fault-operation-result"
+            }
+          }
+        },
+        {
+          "phase": "before_commit",
+          "published_at_interrupt": false,
+          "retry": {
+            "status": "O1",
+            "receipt": {
+              "key": {
+                "world": "EA-IE-reference",
+                "lineage": "EA-IE-lineage-1",
+                "producer": "test-producer",
+                "incarnation": "e1",
+                "operation": "fault-operation"
+              },
+              "ordinal": 1,
+              "head": "4add7f1cabba7b1826e82107a10647afb62005c619ebdbe5501ef967483ae274",
+              "status": "O1",
+              "result_id": "fault-operation-result"
+            }
+          }
+        },
+        {
+          "phase": "commit_enter",
+          "published_at_interrupt": false,
+          "retry": {
+            "status": "O1",
+            "receipt": {
+              "key": {
+                "world": "EA-IE-reference",
+                "lineage": "EA-IE-lineage-1",
+                "producer": "test-producer",
+                "incarnation": "e1",
+                "operation": "fault-operation"
+              },
+              "ordinal": 1,
+              "head": "4add7f1cabba7b1826e82107a10647afb62005c619ebdbe5501ef967483ae274",
+              "status": "O1",
+              "result_id": "fault-operation-result"
+            }
+          }
+        },
+        {
+          "phase": "during_commit",
+          "published_at_interrupt": false,
+          "retry": {
+            "status": "O1",
+            "receipt": {
+              "key": {
+                "world": "EA-IE-reference",
+                "lineage": "EA-IE-lineage-1",
+                "producer": "test-producer",
+                "incarnation": "e1",
+                "operation": "fault-operation"
+              },
+              "ordinal": 1,
+              "head": "4add7f1cabba7b1826e82107a10647afb62005c619ebdbe5501ef967483ae274",
+              "status": "O1",
+              "result_id": "fault-operation-result"
+            }
+          }
+        },
+        {
+          "phase": "after_commit",
+          "published_at_interrupt": true,
+          "retry": {
+            "status": "O3",
+            "receipt": {
+              "head": "4add7f1cabba7b1826e82107a10647afb62005c619ebdbe5501ef967483ae274",
+              "key": {
+                "incarnation": "e1",
+                "lineage": "EA-IE-lineage-1",
+                "operation": "fault-operation",
+                "producer": "test-producer",
+                "world": "EA-IE-reference"
+              },
+              "ordinal": 1,
+              "result_id": "fault-operation-result",
+              "status": "O1"
+            }
+          }
+        },
+        {
+          "phase": "after_ack",
+          "published_at_interrupt": true,
+          "retry": {
+            "status": "O3",
+            "receipt": {
+              "head": "4add7f1cabba7b1826e82107a10647afb62005c619ebdbe5501ef967483ae274",
+              "key": {
+                "incarnation": "e1",
+                "lineage": "EA-IE-lineage-1",
+                "operation": "fault-operation",
+                "producer": "test-producer",
+                "world": "EA-IE-reference"
+              },
+              "ordinal": 1,
+              "result_id": "fault-operation-result",
+              "status": "O1"
+            }
+          }
+        }
+      ],
+      "elapsed_seconds": 41.10114129993599,
+      "traced_peak_bytes": null,
+      "rss": {
+        "working_set": 35565568,
+        "peak_working_set": 39825408
+      }
+    },
+    {
+      "id": "C1-backend-failures-uncertainty-reconcile-exact-once",
+      "status": "PASS",
+      "detail": {},
+      "elapsed_seconds": 9.718938900041394,
+      "traced_peak_bytes": null,
+      "rss": {
+        "working_set": 35409920,
+        "peak_working_set": 39825408
+      }
+    },
+    {
+      "id": "C1-whole-prefix-mandatory-loss-corruption-optional-cache",
+      "status": "PASS",
+      "detail": {},
+      "elapsed_seconds": 21.12190729996655,
+      "traced_peak_bytes": null,
+      "rss": {
+        "working_set": 37502976,
+        "peak_working_set": 39825408
+      }
+    },
+    {
+      "id": "M4-strict-json-lexical-unicode-fragment-time-boundaries",
+      "status": "PASS",
+      "detail": {},
+      "elapsed_seconds": 5.394655400072224,
+      "traced_peak_bytes": null,
+      "rss": {
+        "working_set": 37236736,
+        "peak_working_set": 39825408
+      }
+    },
+    {
+      "id": "M4-targets-minus-at-plus-atomic-refusal",
+      "status": "PASS",
+      "detail": {},
+      "elapsed_seconds": 19.243060400011018,
+      "traced_peak_bytes": null,
+      "rss": {
+        "working_set": 37105664,
+        "peak_working_set": 39825408
+      }
+    },
+    {
+      "id": "M4-create-checkpoint-future-phase-work-caps",
+      "status": "PASS",
+      "detail": {},
+      "elapsed_seconds": 1.1683343999320641,
+      "traced_peak_bytes": null,
+      "rss": {
+        "working_set": 37371904,
+        "peak_working_set": 39825408
+      }
+    },
+    {
+      "id": "M4-native-L0-actor-org-boundaries",
+      "status": "PASS",
+      "detail": {},
+      "elapsed_seconds": 1.5148647000314668,
+      "traced_peak_bytes": null,
+      "rss": {
+        "working_set": 36691968,
+        "peak_working_set": 39825408
+      }
+    },
+    {
+      "id": "M2-observation-current-context-and-native-admission-cutoffs",
+      "status": "PASS",
+      "detail": {},
+      "elapsed_seconds": 14.410711999982595,
+      "traced_peak_bytes": null,
+      "rss": {
+        "working_set": 36057088,
+        "peak_working_set": 39825408
+      }
+    },
+    {
+      "id": "M4-independent-full-cold-retry-promised-query-work",
+      "status": "PASS",
+      "detail": {},
+      "elapsed_seconds": 3.770331499981694,
+      "traced_peak_bytes": null,
+      "rss": {
+        "working_set": 37617664,
+        "peak_working_set": 42057728
+      }
+    },
+    {
+      "id": "M3-M4-integrated-referral-reopen-effect-fault-reconcile-once",
+      "status": "PASS",
+      "detail": {},
+      "elapsed_seconds": 116.73885489988606,
+      "traced_peak_bytes": null,
+      "rss": {
+        "working_set": 38948864,
+        "peak_working_set": 42057728
+      }
+    },
+    {
+      "id": "M4-lowered-roots-minus-at-plus-real-writer",
+      "status": "PASS",
+      "detail": {
+        "kind": "actual lowered immutable profiles",
+        "caps": [
+          0,
+          1,
+          2
+        ],
+        "default_maximum": 32,
+        "default_maximum_reachability": "not established by this case"
+      },
+      "elapsed_seconds": 18.025116899982095,
+      "traced_peak_bytes": null,
+      "rss": {
+        "working_set": 36368384,
+        "peak_working_set": 42057728
+      }
+    },
+    {
+      "id": "M4-lowered-versions-minus-at-plus-real-writer",
+      "status": "PASS",
+      "detail": {
+        "kind": "actual lowered immutable profiles",
+        "caps": [
+          0,
+          1,
+          2
+        ],
+        "default_maximum": 64,
+        "default_maximum_reachability": "not established by this case"
+      },
+      "elapsed_seconds": 20.13057200005278,
+      "traced_peak_bytes": null,
+      "rss": {
+        "working_set": 36470784,
+        "peak_working_set": 42057728
+      }
+    },
+    {
+      "id": "M4-lowered-receipts-minus-at-plus-real-writer",
+      "status": "PASS",
+      "detail": {
+        "kind": "actual lowered immutable profiles",
+        "caps": [
+          0,
+          1,
+          2
+        ],
+        "default_maximum": 128,
+        "default_maximum_reachability": "not established by this case"
+      },
+      "elapsed_seconds": 20.416885199956596,
+      "traced_peak_bytes": null,
+      "rss": {
+        "working_set": 36081664,
+        "peak_working_set": 42057728
+      }
+    },
+    {
+      "id": "M4-lowered-transmissions-minus-at-plus-real-writer",
+      "status": "PASS",
+      "detail": {
+        "kind": "actual lowered immutable profiles",
+        "caps": [
+          0,
+          1,
+          2
+        ],
+        "default_maximum": 64,
+        "default_maximum_reachability": "not established by this case"
+      },
+      "elapsed_seconds": 27.21255550009664,
+      "traced_peak_bytes": null,
+      "rss": {
+        "working_set": 36769792,
+        "peak_working_set": 42057728
+      }
+    },
+    {
+      "id": "M4-lowered-derivations-minus-at-plus-real-writer",
+      "status": "PASS",
+      "detail": {
+        "kind": "actual lowered immutable profiles",
+        "caps": [
+          0,
+          1,
+          2
+        ],
+        "default_maximum": 32,
+        "default_maximum_reachability": "not established by this case"
+      },
+      "elapsed_seconds": 27.051425399957225,
+      "traced_peak_bytes": null,
+      "rss": {
+        "working_set": 36683776,
+        "peak_working_set": 42057728
+      }
+    },
+    {
+      "id": "M4-lowered-premise_edges-minus-at-plus-real-writer",
+      "status": "PASS",
+      "detail": {
+        "kind": "actual lowered immutable profiles",
+        "caps": [
+          0,
+          1,
+          2
+        ],
+        "default_maximum": 128,
+        "default_maximum_reachability": "not established by this case"
+      },
+      "elapsed_seconds": 27.488349299994297,
+      "traced_peak_bytes": null,
+      "rss": {
+        "working_set": 36450304,
+        "peak_working_set": 42057728
+      }
+    },
+    {
+      "id": "M4-lowered-cases-minus-at-plus-real-writer",
+      "status": "PASS",
+      "detail": {
+        "kind": "actual lowered immutable profiles",
+        "caps": [
+          0,
+          1,
+          2
+        ],
+        "default_maximum": 16,
+        "default_maximum_reachability": "not established by this case"
+      },
+      "elapsed_seconds": 28.75301510002464,
+      "traced_peak_bytes": null,
+      "rss": {
+        "working_set": 36597760,
+        "peak_working_set": 42057728
+      }
+    },
+    {
+      "id": "M4-lowered-per-unit-targets-queue-updates",
+      "status": "PASS",
+      "detail": {},
+      "elapsed_seconds": 36.55803770001512,
+      "traced_peak_bytes": null,
+      "rss": {
+        "working_set": 36630528,
+        "peak_working_set": 42057728
+      }
+    },
+    {
+      "id": "M4-lowered-tasks-counts-closed-and-reopened",
+      "status": "PASS",
+      "detail": {},
+      "elapsed_seconds": 145.37506170000415,
+      "traced_peak_bytes": null,
+      "rss": {
+        "working_set": 38666240,
+        "peak_working_set": 42057728
+      }
+    },
+    {
+      "id": "M4-exact-poststate-bytes-minus-at-plus",
+      "status": "PASS",
+      "detail": {
+        "independent_encoded_poststate_floor": 12086,
+        "scope": "lowered immutable profiles"
+      },
+      "elapsed_seconds": 10.186289499979466,
+      "traced_peak_bytes": null,
+      "rss": {
+        "working_set": 35667968,
+        "peak_working_set": 42057728
+      }
+    },
+    {
+      "id": "M4-exact-full-private-request-minus-at-plus",
+      "status": "PASS",
+      "detail": {
+        "independent_encoded_request_floor": 10456,
+        "scope": "lowered immutable profiles"
+      },
+      "elapsed_seconds": 9.145088299992494,
+      "traced_peak_bytes": null,
+      "rss": {
+        "working_set": 35889152,
+        "peak_working_set": 42057728
+      }
+    },
+    {
+      "id": "M4-actual-default-intent-bytes-minus-at-plus",
+      "status": "PASS",
+      "detail": {
+        "scope": "actual default-profile intent8192 boundary",
+        "sizes": [
+          8191,
+          8192,
+          8193
+        ]
+      },
+      "elapsed_seconds": 8.599134000018239,
+      "traced_peak_bytes": null,
+      "rss": {
+        "working_set": 37416960,
+        "peak_working_set": 42057728
+      }
+    },
+    {
+      "id": "M0-M4-pure-policy-JSON-exact-node-depth-guards",
+      "status": "PASS",
+      "detail": {
+        "scope": "pure guard qualification; no claim these maxima are reachable together in an admitted world"
+      },
+      "elapsed_seconds": 0.3269710000604391,
+      "traced_peak_bytes": null,
+      "rss": {
+        "working_set": 37961728,
+        "peak_working_set": 42057728
+      }
+    },
+    {
+      "id": "L-AND-OR-unknown-surviving-alternatives",
+      "status": "PASS",
+      "detail": {},
+      "elapsed_seconds": 44.8488451000303,
+      "traced_peak_bytes": null,
+      "rss": {
+        "working_set": 38764544,
+        "peak_working_set": 42057728
+      }
+    },
+    {
+      "id": "L-holder-eligible-withdrawal-hidden-paired-control",
+      "status": "PASS",
+      "detail": {},
+      "elapsed_seconds": 24.751371399965137,
+      "traced_peak_bytes": null,
+      "rss": {
+        "working_set": 37339136,
+        "peak_working_set": 42057728
+      }
+    },
+    {
+      "id": "M2-same-unit-causal-order-forward-foreign-player-guards",
+      "status": "PASS",
+      "detail": {},
+      "elapsed_seconds": 16.9979002000764,
+      "traced_peak_bytes": null,
+      "rss": {
+        "working_set": 36741120,
+        "peak_working_set": 42057728
+      }
+    },
+    {
+      "id": "I-independent-destination-intake-vs-sender-disclosure",
+      "status": "PASS",
+      "detail": {},
+      "elapsed_seconds": 13.113263999926858,
+      "traced_peak_bytes": null,
+      "rss": {
+        "working_set": 37257216,
+        "peak_working_set": 42057728
+      }
+    },
+    {
+      "id": "H-assignment-notice-personal-claim-no-case-authority",
+      "status": "PASS",
+      "detail": {},
+      "elapsed_seconds": 57.20352720003575,
+      "traced_peak_bytes": null,
+      "rss": {
+        "working_set": 36257792,
+        "peak_working_set": 42057728
+      }
+    },
+    {
+      "id": "M2-M4-actual-support-alternative-premise-depth-boundaries",
+      "status": "PASS",
+      "detail": {},
+      "elapsed_seconds": 169.89359710004646,
+      "traced_peak_bytes": null,
+      "rss": {
+        "working_set": 37761024,
+        "peak_working_set": 42057728
+      }
+    },
+    {
+      "id": "M2-actor-local-canonical-equal-unjoined-handles",
+      "status": "PASS",
+      "detail": {},
+      "elapsed_seconds": 13.387103999964893,
+      "traced_peak_bytes": null,
+      "rss": {
+        "working_set": 36474880,
+        "peak_working_set": 42057728
+      }
+    },
+    {
+      "id": "M1-M4-explicit-hash-seed-dict-order-determinism",
+      "status": "PASS",
+      "detail": {
+        "seeds": [
+          17,
+          731
+        ],
+        "same_input_dict_orders": [
+          "forward",
+          "reverse"
+        ],
+        "same_native_head_state_views": true
+      },
+      "elapsed_seconds": 18.379389800014906,
+      "traced_peak_bytes": null,
+      "rss": {
+        "working_set": 37752832,
+        "peak_working_set": 42057728
+      }
+    },
+    {
+      "id": "M4-promised-query-byte-feasibility-before-acknowledgement",
+      "status": "PASS",
+      "detail": {},
+      "elapsed_seconds": 2.813962500076741,
+      "traced_peak_bytes": null,
+      "rss": {
+        "working_set": 35864576,
+        "peak_working_set": 42057728
+      }
+    },
+    {
+      "id": "M4-coupled-Unicode-intent-witness-four-entry-query-envelope",
+      "status": "PASS",
+      "detail": [
+        {
+          "admission": 2,
+          "request_bytes": 29200,
+          "state_bytes": 29770,
+          "reply_bytes": 14693
+        },
+        {
+          "admission": 3,
+          "request_bytes": 38413,
+          "state_bytes": 38984,
+          "reply_bytes": 29346
+        },
+        {
+          "admission": 4,
+          "request_bytes": 47627,
+          "state_bytes": 48198,
+          "reply_bytes": 43999
+        },
+        {
+          "admission": 5,
+          "request_bytes": 56841,
+          "state_bytes": 57412,
+          "reply_bytes": 58652
+        }
+      ],
+      "elapsed_seconds": 62.43766180006787,
+      "traced_peak_bytes": null,
+      "rss": {
+        "working_set": 36188160,
+        "peak_working_set": 42057728
+      }
+    },
+    {
+      "id": "M4-independent-protection-graph-record-visit-charge",
+      "status": "PASS",
+      "detail": {
+        "observed_nodes": 11,
+        "observed_edges": 16,
+        "work": {
+          "total": 723,
+          "stages": {
+            "closure_node_visit": 19,
+            "closure_edge_visit": 16,
+            "closure_inventory_visit": 13,
+            "json_node": 13,
+            "json_validate_bytes": 79,
+            "canonical_sort_walk_node": 13,
+            "json_serialize_bytes": 79,
+            "full_key_sort": 491
+          }
+        }
+      },
+      "elapsed_seconds": 0.0002902999985963106,
+      "traced_peak_bytes": null,
+      "rss": {
+        "working_set": 37703680,
+        "peak_working_set": 42057728
+      }
+    },
+    {
+      "id": "M4-work-reserved-before-whole-serialization-stage",
+      "status": "PASS",
+      "detail": {},
+      "elapsed_seconds": 0.0004296000115573406,
+      "traced_peak_bytes": null,
+      "rss": {
+        "working_set": 37720064,
+        "peak_working_set": 42057728
+      }
+    }
+  ],
+  "source": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-independent-final-08\\source",
+  "python": "3.12.0 (tags/v3.12.0:0fb18b0, Oct  2 2023, 13:03:39) [MSC v.1935 64 bit (AMD64)]",
+  "sqlite": "3.42.0",
+  "selected": null,
+  "tracemalloc_enabled": false
+}

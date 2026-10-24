@@ -1,0 +1,1002 @@
+{
+  "auditor": "J",
+  "source": "8e9d606f5aabeb9dd672106d586a44b52912c9ea0c7f6f8da5ecd977a5617c7f",
+  "harness_sha256": "4f5791d488082c7ae953c63c63cd78ed5124949ade3c31e95d859fbcb162c3ef",
+  "out": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-j-final-08",
+  "probes": {
+    "IJ01_observation_closure": {
+      "status": "PASS",
+      "value": {
+        "stale": {
+          "status": "O4",
+          "reason": "OBSERVATION_CONTEXT_CHANGED"
+        },
+        "actual_D": {
+          "at": 5,
+          "base": 8,
+          "blocked": false,
+          "cause": "cb7acd31ced07aec85126b64924dc23a93f25c8b50b2c208bde540576d4ba589:0"
+        },
+        "holder": {
+          "status": "ok",
+          "receipts": [
+            {
+              "handle": "h1",
+              "kind": "content",
+              "body": "The fixture mechanism D is blocked.",
+              "value": "TRUE",
+              "subject": {
+                "entity": "D",
+                "kind": "actual"
+              },
+              "source_assertion": "direct fixture observation",
+              "origin": "basis1",
+              "support": {
+                "status": "SUPPORTED",
+                "complete": true
+              },
+              "valid_until": null
+            },
+            {
+              "handle": "h2",
+              "kind": "content",
+              "body": "One fixture token is missing; the culprit is unknown.",
+              "value": "TRUE",
+              "subject": {
+                "entity": "incident-1",
+                "kind": "actual"
+              },
+              "source_assertion": "direct fixture discrepancy",
+              "origin": "basis2",
+              "support": {
+                "status": "SUPPORTED",
+                "complete": true
+              },
+              "valid_until": null
+            }
+          ],
+          "next": null
+        }
+      }
+    },
+    "IJ02_optional_closure": {
+      "status": "PASS",
+      "value": [
+        {
+          "raw_bytes": 17,
+          "type": "str",
+          "encoded_total": 11542,
+          "cold_work": 749033
+        },
+        {
+          "raw_bytes": 11,
+          "type": "str",
+          "encoded_total": 11536,
+          "cold_work": 748991
+        },
+        {
+          "raw_bytes": 6002,
+          "type": "str",
+          "encoded_total": 17527,
+          "cold_work": 790929
+        },
+        {
+          "raw_bytes": 6000,
+          "type": "bytes",
+          "encoded_total": 17525,
+          "cold_work": 766914
+        },
+        {
+          "raw_bytes": 2,
+          "type": "bytes",
+          "encoded_total": 11527,
+          "cold_work": 748920
+        }
+      ]
+    },
+    "IJ03_phase_closure": {
+      "status": "PASS",
+      "value": {
+        "create": {
+          "refused": "ROOT_PROFILE_WORK_CAPACITY"
+        },
+        "checkpoint": {
+          "status": "O4",
+          "reason": "WORK_CAPACITY"
+        },
+        "profile_entry_meter_limits": [
+          40000000,
+          40000000
+        ],
+        "tight_complete_create_boundaries": [
+          {
+            "selected": 1131718,
+            "reported_complete": 1131651,
+            "peak_outer_reserve": 1131654
+          },
+          {
+            "selected": 1131654,
+            "reported_complete": 1131651,
+            "peak_outer_reserve": 1131654
+          },
+          {
+            "selected": 1131654,
+            "reported_complete": 1131651,
+            "peak_outer_reserve": 1131654
+          },
+          {
+            "selected": 1131653,
+            "refused": "WORK_CAPACITY_BEFORE_JSON_SERIALIZATION",
+            "published_tables": []
+          },
+          {
+            "selected": 1131655,
+            "reported_complete": 1131651,
+            "ordinal": 0
+          }
+        ],
+        "zero_initial_state": {
+          "refused": "ROOT_STATE_SIZE"
+        }
+      }
+    },
+    "IJ05_closure_cost": {
+      "status": "PASS",
+      "value": {
+        "answer": {
+          "protected": [
+            "Bind",
+            "CX",
+            "CY",
+            "Cause",
+            "Live",
+            "Policy",
+            "Prefix",
+            "Receipt",
+            "Req",
+            "Result",
+            "Root"
+          ],
+          "edges_visited": 16,
+          "eligible": [
+            "OU",
+            "OV"
+          ]
+        },
+        "work": {
+          "total": 723,
+          "stages": {
+            "closure_node_visit": 19,
+            "closure_edge_visit": 16,
+            "closure_inventory_visit": 13,
+            "json_node": 13,
+            "json_validate_bytes": 79,
+            "canonical_sort_walk_node": 13,
+            "json_serialize_bytes": 79,
+            "full_key_sort": 491
+          }
+        },
+        "zero_budget_refusal": "WORK_CAPACITY"
+      }
+    },
+    "IJ06_snapshot_guard": {
+      "status": "PASS",
+      "value": {
+        "empty": {
+          "status": "O5",
+          "reason": "unverified_snapshot"
+        },
+        "partial": {
+          "status": "O5",
+          "reason": "unverified_snapshot"
+        },
+        "issued_missing_head": {
+          "status": "O5",
+          "reason": "unverified_snapshot"
+        }
+      }
+    },
+    "IJ07_serialization_reserve": {
+      "status": "PASS",
+      "value": {
+        "selected": 4236,
+        "baseline": {
+          "total": 8236,
+          "stages": {
+            "json_node": 3,
+            "json_validate_bytes": 4109,
+            "canonical_sort_walk_node": 2,
+            "full_key_sort": 14,
+            "json_serialize_bytes": 4108
+          }
+        },
+        "limited": {
+          "total": 4128,
+          "stages": {
+            "json_node": 3,
+            "json_validate_bytes": 4109,
+            "canonical_sort_walk_node": 2,
+            "full_key_sort": 14
+          }
+        },
+        "whole_object_encode_calls": [],
+        "refusal": "WORK_CAPACITY_BEFORE_JSON_SERIALIZATION"
+      }
+    },
+    "IJ08_publication_completion_budget": {
+      "status": "PASS",
+      "value": [
+        {
+          "hooks": false,
+          "selected": 40000000,
+          "used": 2433460,
+          "peak_outer_reserve": 2433463,
+          "status": "O1",
+          "ordinal": 1
+        },
+        {
+          "hooks": false,
+          "selected": 2433463,
+          "used": 2433323,
+          "peak_outer_reserve": 2433326,
+          "status": "O1",
+          "ordinal": 1
+        },
+        {
+          "hooks": false,
+          "selected": 2433326,
+          "used": 2433323,
+          "peak_outer_reserve": 2433326,
+          "status": "O1",
+          "ordinal": 1
+        },
+        {
+          "hooks": false,
+          "selected": 2433325,
+          "used": 2433027,
+          "status": "O4",
+          "ordinal": 0
+        },
+        {
+          "hooks": false,
+          "selected": 2433327,
+          "used": 2433323,
+          "status": "O1",
+          "ordinal": 1
+        },
+        {
+          "hooks": true,
+          "selected": 40000000,
+          "used": 2459483,
+          "peak_outer_reserve": 2459486,
+          "status": "O1",
+          "ordinal": 1
+        },
+        {
+          "hooks": true,
+          "selected": 2459486,
+          "used": 2459344,
+          "peak_outer_reserve": 2459347,
+          "status": "O1",
+          "ordinal": 1
+        },
+        {
+          "hooks": true,
+          "selected": 2459347,
+          "used": 2459344,
+          "peak_outer_reserve": 2459347,
+          "status": "O1",
+          "ordinal": 1
+        },
+        {
+          "hooks": true,
+          "selected": 2459346,
+          "used": 2459048,
+          "status": "O4",
+          "ordinal": 0
+        },
+        {
+          "hooks": true,
+          "selected": 2459348,
+          "used": 2459344,
+          "status": "O1",
+          "ordinal": 1
+        }
+      ]
+    },
+    "BH02_nested_phase_accounting": {
+      "status": "PASS",
+      "value": {
+        "successful_nested_parent": {
+          "total": 61,
+          "stages": {
+            "nested_phase": 61
+          }
+        },
+        "successful_nested_child": {
+          "total": 61,
+          "stages": {
+            "json_node": 6,
+            "json_validate_bytes": 19,
+            "canonical_sort_walk_node": 5,
+            "full_key_sort": 14,
+            "json_serialize_bytes": 17
+          }
+        },
+        "parent_tight_child_ample": {
+          "parent": {
+            "total": 4128,
+            "stages": {
+              "nested_phase": 4128
+            }
+          },
+          "child": {
+            "total": 4128,
+            "stages": {
+              "json_node": 3,
+              "json_validate_bytes": 4109,
+              "canonical_sort_walk_node": 2,
+              "full_key_sort": 14
+            }
+          },
+          "whole_dump_calls": [],
+          "refusal": "WORK_CAPACITY_BEFORE_JSON_SERIALIZATION"
+        },
+        "failed_native": {
+          "answer": {
+            "status": "O4",
+            "reason": "PROVEN_PREPUBLICATION_FAILURE",
+            "detail": "WORK_CAPACITY"
+          },
+          "reported": {
+            "total": 1429180,
+            "stages": {
+              "json_node": 17344,
+              "json_validate_bytes": 159264,
+              "canonical_sort_walk_node": 4716,
+              "full_key_sort": 166388,
+              "json_serialize_bytes": 74637,
+              "freeze_node": 654,
+              "scratch_cold_replay": 864238,
+              "retry_registry_visit": 0,
+              "json_size_node": 3375,
+              "json_size_bytes": 53771,
+              "result_registry_visit": 0,
+              "native_policy_term": 1,
+              "digest_encode_bytes": 42237,
+              "hash_bytes": 42237,
+              "obligation_record_visit": 4,
+              "due_job_visit": 0,
+              "information_record_visit": 20,
+              "raw_utf8_encode_bytes": 98,
+              "json_lexical_bytes": 98,
+              "json_decode_bytes": 98
+            }
+          },
+          "originating_charges_once": {
+            "requested": 1429180,
+            "successful": 1355821
+          }
+        }
+      }
+    },
+    "IJ09_source_read_reservation": {
+      "status": "PASS",
+      "value": {
+        "source": {
+          "reads": [
+            {
+              "file": "__init__.py",
+              "bytes": 229
+            },
+            {
+              "file": "atlas.py",
+              "bytes": 3657
+            }
+          ],
+          "parent": {
+            "total": 82432,
+            "stages": {
+              "nested_phase": 82432
+            }
+          },
+          "child": {
+            "total": 82432,
+            "stages": {
+              "json_node": 12,
+              "json_validate_bytes": 153,
+              "canonical_sort_walk_node": 12,
+              "json_serialize_bytes": 153,
+              "full_key_sort": 969,
+              "source_read_hash": 81133
+            }
+          },
+          "refusal": "WORK_CAPACITY"
+        },
+        "fixtures": {
+          "reads": [],
+          "parent": {
+            "total": 3189,
+            "stages": {
+              "nested_phase": 3189
+            }
+          },
+          "child": {
+            "total": 3189,
+            "stages": {
+              "fixture_read_hash_decode_bytes": 3189
+            }
+          },
+          "refusal": "WORK_CAPACITY"
+        },
+        "raw_decode_conversions": [
+          {
+            "type": "str",
+            "input_length": 524673,
+            "conversion_calls": [],
+            "parent": {
+              "total": 0,
+              "stages": {}
+            },
+            "child": {
+              "total": 0,
+              "stages": {}
+            },
+            "refusal": "WORK_CAPACITY_BEFORE_JSON_UTF8_ENCODE"
+          },
+          {
+            "type": "bytes",
+            "input_length": 524673,
+            "conversion_calls": [],
+            "parent": {
+              "total": 524673,
+              "stages": {
+                "nested_phase": 524673
+              }
+            },
+            "child": {
+              "total": 524673,
+              "stages": {
+                "raw_utf8_decode_bytes": 524673
+              }
+            },
+            "refusal": "WORK_CAPACITY"
+          }
+        ],
+        "digest_conversion": {
+          "canonical_work": {
+            "total": 1049605,
+            "stages": {
+              "json_node": 129,
+              "json_validate_bytes": 524674,
+              "canonical_sort_walk_node": 129,
+              "json_serialize_bytes": 524673
+            }
+          },
+          "conversion_calls": [],
+          "parent": {
+            "total": 1574278,
+            "stages": {
+              "nested_phase": 1574278
+            }
+          },
+          "child": {
+            "total": 1574278,
+            "stages": {
+              "json_node": 129,
+              "json_validate_bytes": 524674,
+              "canonical_sort_walk_node": 129,
+              "json_serialize_bytes": 524673,
+              "digest_encode_bytes": 524673
+            }
+          },
+          "refusal": "WORK_CAPACITY"
+        }
+      }
+    },
+    "IT09_exact_request_boundary": {
+      "status": "PASS",
+      "value": [
+        {
+          "selected": 10279,
+          "actual_canonical_bytes": 10280,
+          "answer": {
+            "status": "O4",
+            "reason": "ENCODED_JSON_BOUND"
+          },
+          "ordinal": 0
+        },
+        {
+          "selected": 10280,
+          "actual_canonical_bytes": 10280,
+          "answer": {
+            "status": "O1",
+            "receipt": {
+              "key": {
+                "world": "EA-IE-reference",
+                "lineage": "EA-IE-lineage-1",
+                "producer": "test-producer",
+                "incarnation": "e1",
+                "operation": "j-request"
+              },
+              "ordinal": 1,
+              "head": "e80304faa1ca3fb20b4ebfea9339590ccd83aafb9bba85a36dc6fd42d7978681",
+              "status": "O1",
+              "result_id": "j-request-result"
+            }
+          },
+          "ordinal": 1
+        },
+        {
+          "selected": 10281,
+          "actual_canonical_bytes": 10280,
+          "answer": {
+            "status": "O1",
+            "receipt": {
+              "key": {
+                "world": "EA-IE-reference",
+                "lineage": "EA-IE-lineage-1",
+                "producer": "test-producer",
+                "incarnation": "e1",
+                "operation": "j-request"
+              },
+              "ordinal": 1,
+              "head": "afc483194fbc786a3bb15189cafb8312ff8b747c3d4ff9f4cde0aec4c78e85c2",
+              "status": "O1",
+              "result_id": "j-request-result"
+            }
+          },
+          "ordinal": 1
+        }
+      ]
+    },
+    "publication_reentrancy_async": {
+      "status": "PASS",
+      "value": [
+        {
+          "phase": "before_write",
+          "answer": {
+            "status": "O4",
+            "reason": "PROVEN_PREPUBLICATION_FAILURE",
+            "detail": "PROHIBITED_REENTRANT_WRITE"
+          },
+          "ordinal": 0
+        },
+        {
+          "phase": "before_commit",
+          "answer": {
+            "status": "O4",
+            "reason": "PROVEN_PREPUBLICATION_FAILURE",
+            "detail": "PROHIBITED_REENTRANT_WRITE"
+          },
+          "ordinal": 0
+        },
+        {
+          "phase": "commit_enter",
+          "answer": {
+            "status": "O5",
+            "reason": "UNCERTAIN_PUBLICATION_RECONCILE",
+            "detail": "Rejected"
+          },
+          "ordinal": 0
+        },
+        {
+          "phase": "after_commit",
+          "answer": {
+            "status": "O5",
+            "reason": "UNCERTAIN_PUBLICATION_RECONCILE",
+            "detail": "Rejected"
+          },
+          "ordinal": 1
+        },
+        {
+          "sync_async_return": {
+            "status": "O4",
+            "reason": "PROVEN_PREPUBLICATION_FAILURE",
+            "detail": "PUBLICATION_HOOK_FAULT_OR_ASYNC"
+          }
+        }
+      ]
+    },
+    "aggregate_predecode_guard": {
+      "status": "PASS",
+      "value": {
+        "reason": "PREDECODE_AGGREGATE_BYTES",
+        "decode_calls": []
+      }
+    },
+    "IJ04_complete_cold_mixed16": {
+      "status": "PASS",
+      "value": {
+        "admissions": 16,
+        "cold_actual": {
+          "total": 16691166,
+          "stages": {
+            "verified_snapshot": 16691166
+          }
+        },
+        "census": {
+          "prefix_entries": 16,
+          "encoded_prefix_bytes": 610603,
+          "logical_bytes": 610603,
+          "memory_bound": 106187456,
+          "workspace_bound": 20587872,
+          "cold_work": 16738721,
+          "retry_work": 16948122,
+          "query_work": 17738721,
+          "admission_work": 33477442,
+          "checkpoint_work": 33477442,
+          "observed_database_bytes": 643072,
+          "cold_replay_measured": 16452701,
+          "cold_output_reserved": 286020,
+          "retry_comparison_reserved": 209401,
+          "work_stages": {
+            "sqlite_payload_read": 610703,
+            "sqlite_quick_check_bytes": 643072,
+            "raw_utf8_encode_bytes": 610703,
+            "json_lexical_bytes": 610703,
+            "json_decode_bytes": 610703,
+            "json_node": 246223,
+            "json_validate_bytes": 2798227,
+            "canonical_sort_walk_node": 76559,
+            "full_key_sort": 3260928,
+            "json_serialize_bytes": 1532847,
+            "source_read_hash": 210187,
+            "digest_encode_bytes": 919882,
+            "hash_bytes": 919882,
+            "fixture_read_hash_decode_bytes": 40700,
+            "fixture_authority_parse_bytes": 4782,
+            "fixture_field_visit": 133,
+            "fixture_authored_parse_bytes": 10168,
+            "fixture_entity_visit": 24,
+            "fixture_binding_visit": 11,
+            "fixture_authority_record": 35,
+            "information_record_visit": 653,
+            "json_size_node": 29750,
+            "json_size_bytes": 590101,
+            "history_record_visit": 16,
+            "actor_identity_visit": 294,
+            "causal_position": 33,
+            "holder_handle_visit": 36,
+            "causal_edge_visit": 16,
+            "causal_parent_visit": 109,
+            "information_created_scan": 130,
+            "receipt_visit": 64,
+            "grant_visit": 312,
+            "organization_record_visit": 122,
+            "access_visit": 10,
+            "predicate_term": 6,
+            "native_policy_term": 1,
+            "obligation_record_visit": 4,
+            "due_job_visit": 0,
+            "checkpoint_record_visit": 0,
+            "retry_candidate_visit": 16,
+            "prospective_retry_comparisons": 2504072,
+            "prospective_snapshot_output": 220484
+          }
+        },
+        "oldest_retry_actual": {
+          "total": 16536252,
+          "stages": {
+            "json_node": 4659,
+            "json_validate_bytes": 43022,
+            "canonical_sort_walk_node": 675,
+            "full_key_sort": 23791,
+            "json_serialize_bytes": 10725,
+            "freeze_node": 663,
+            "scratch_cold_replay": 16452701,
+            "retry_registry_visit": 16
+          }
+        },
+        "duplicate_effect": {
+          "status": "O4",
+          "reason": "EFFECT_CREDIT_CONSUMED"
+        },
+        "notice": {
+          "status": "ok",
+          "receipts": [
+            {
+              "handle": "h1",
+              "kind": "notice",
+              "record_handle": "h1",
+              "available": true
+            }
+          ],
+          "next": null
+        },
+        "views": {
+          "alice:0": {
+            "status": "ok",
+            "receipts": [],
+            "next": null
+          },
+          "alice:4": {
+            "status": "ok",
+            "receipts": [
+              {
+                "handle": "h1",
+                "kind": "content",
+                "body": "J report",
+                "value": "TRUE",
+                "subject": {
+                  "kind": "alleged",
+                  "label": "J alleged incident",
+                  "scope": "alice"
+                },
+                "source_assertion": "J supplied claim",
+                "origin": "basis1",
+                "support": {
+                  "status": "SUPPORTED",
+                  "complete": true
+                },
+                "valid_until": null
+              }
+            ],
+            "next": null
+          },
+          "alice:16": {
+            "status": "ok",
+            "receipts": [
+              {
+                "handle": "h1",
+                "kind": "content",
+                "body": "J report",
+                "value": "TRUE",
+                "subject": {
+                  "kind": "alleged",
+                  "label": "J alleged incident",
+                  "scope": "alice"
+                },
+                "source_assertion": "J supplied claim",
+                "origin": "basis1",
+                "support": {
+                  "status": "SUPPORTED",
+                  "complete": true
+                },
+                "valid_until": null
+              },
+              {
+                "handle": "h2",
+                "kind": "content",
+                "body": "J new evidence",
+                "value": "TRUE",
+                "subject": {
+                  "kind": "alleged",
+                  "label": "J alleged incident",
+                  "scope": "alice"
+                },
+                "source_assertion": "J supplied claim",
+                "origin": "basis2",
+                "support": {
+                  "status": "SUPPORTED",
+                  "complete": true
+                },
+                "valid_until": null
+              }
+            ],
+            "next": null
+          },
+          "handler:0": {
+            "status": "ok",
+            "receipts": [],
+            "next": null
+          },
+          "handler:4": {
+            "status": "ok",
+            "receipts": [
+              {
+                "handle": "h1",
+                "kind": "notice",
+                "record_handle": "h1",
+                "available": true
+              },
+              {
+                "handle": "h2",
+                "kind": "content",
+                "body": "J report",
+                "value": "TRUE",
+                "subject": {
+                  "kind": "alleged",
+                  "label": "J alleged incident",
+                  "scope": "alice"
+                },
+                "source_assertion": "J selected referral",
+                "origin": "unknown",
+                "support": {
+                  "status": "SUPPORTED",
+                  "complete": true
+                },
+                "valid_until": null
+              }
+            ],
+            "next": null
+          },
+          "handler:16": {
+            "status": "ok",
+            "receipts": [
+              {
+                "handle": "h1",
+                "kind": "notice",
+                "record_handle": "h1",
+                "available": true
+              },
+              {
+                "handle": "h2",
+                "kind": "content",
+                "body": "J report",
+                "value": "TRUE",
+                "subject": {
+                  "kind": "alleged",
+                  "label": "J alleged incident",
+                  "scope": "alice"
+                },
+                "source_assertion": "J selected referral",
+                "origin": "unknown",
+                "support": {
+                  "status": "SUPPORTED",
+                  "complete": true
+                },
+                "valid_until": null
+              },
+              {
+                "handle": "h3",
+                "kind": "content",
+                "body": "J new evidence",
+                "value": "TRUE",
+                "subject": {
+                  "kind": "alleged",
+                  "label": "J alleged incident",
+                  "scope": "alice"
+                },
+                "source_assertion": "J new source",
+                "origin": "unknown",
+                "support": {
+                  "status": "SUPPORTED",
+                  "complete": true
+                },
+                "valid_until": null
+              },
+              {
+                "handle": "h4",
+                "kind": "notice",
+                "record_handle": "h4",
+                "available": true
+              }
+            ],
+            "next": 4
+          },
+          "dispatcher:0": {
+            "status": "ok",
+            "receipts": [],
+            "next": null
+          },
+          "dispatcher:4": {
+            "status": "ok",
+            "receipts": [
+              {
+                "handle": "h1",
+                "kind": "notice",
+                "record_handle": "h1",
+                "available": true
+              }
+            ],
+            "next": null
+          },
+          "dispatcher:16": {
+            "status": "ok",
+            "receipts": [
+              {
+                "handle": "h1",
+                "kind": "notice",
+                "record_handle": "h1",
+                "available": true
+              }
+            ],
+            "next": null
+          },
+          "outsider:0": {
+            "status": "ok",
+            "receipts": [],
+            "next": null
+          },
+          "outsider:4": {
+            "status": "ok",
+            "receipts": [],
+            "next": null
+          },
+          "outsider:16": {
+            "status": "ok",
+            "receipts": [],
+            "next": null
+          },
+          "player:0": {
+            "status": "ok",
+            "receipts": [],
+            "next": null
+          },
+          "player:4": {
+            "status": "ok",
+            "receipts": [],
+            "next": null
+          },
+          "player:16": {
+            "status": "ok",
+            "receipts": [],
+            "next": null
+          }
+        },
+        "fresh_process": {
+          "ordinal": 16,
+          "oldest": {
+            "status": "O3",
+            "receipt": {
+              "head": "21faef00a2e4594e542623fa09e557703ddeea7f3af113142c82fe8f1c6cddaf",
+              "key": {
+                "incarnation": "e1",
+                "lineage": "EA-IE-lineage-1",
+                "operation": "j-mixed-1",
+                "producer": "test-producer",
+                "world": "EA-IE-reference"
+              },
+              "ordinal": 1,
+              "result_id": "j-mixed-1-result",
+              "status": "O1"
+            }
+          },
+          "cold": {
+            "total": 16691166,
+            "stages": {
+              "scratch_cold_replay": 16452701,
+              "snapshot_registry_visit": 16,
+              "json_node": 4196,
+              "json_validate_bytes": 51438,
+              "freeze_node": 1132,
+              "snapshot_assembly_visit": 46332,
+              "canonical_sort_walk_node": 1135,
+              "full_key_sort": 59906,
+              "json_serialize_bytes": 24770,
+              "digest_encode_bytes": 24770,
+              "hash_bytes": 24770
+            }
+          },
+          "retry": {
+            "total": 16536252,
+            "stages": {
+              "json_node": 4659,
+              "json_validate_bytes": 43022,
+              "canonical_sort_walk_node": 675,
+              "full_key_sort": 23791,
+              "json_serialize_bytes": 10725,
+              "freeze_node": 663,
+              "scratch_cold_replay": 16452701,
+              "retry_registry_visit": 16
+            }
+          },
+          "boundary": {
+            "status": "ok",
+            "head": "f2ce534e566f62c2bafb21ecefdefb7282ec10c12f07614f3dd664e52e2302ab",
+            "ordinal": 16
+          },
+          "receipt": {
+            "status": "ok",
+            "receipt": {
+              "head": "21faef00a2e4594e542623fa09e557703ddeea7f3af113142c82fe8f1c6cddaf",
+              "key": {
+                "incarnation": "e1",
+                "lineage": "EA-IE-lineage-1",
+                "operation": "j-mixed-1",
+                "producer": "test-producer",
+                "world": "EA-IE-reference"
+              },
+              "ordinal": 1,
+              "result_id": "j-mixed-1-result",
+              "status": "O1"
+            }
+          }
+        },
+        "causal_records": 13,
+        "db_sha256_after_read_queries": "c97e6240a9367011fcd83e36516668491888d1ab4644dd28f9d9807e4f077c5a"
+      }
+    }
+  }
+}

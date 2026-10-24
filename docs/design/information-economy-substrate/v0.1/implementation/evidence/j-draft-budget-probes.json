@@ -1,0 +1,35 @@
+{
+  "phase": "pre-freeze J reduced-budget probes",
+  "source": "ac469215de02a7497481e09679fddda1780f03b0506f8d2e933fdec4872caf6c",
+  "out": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-j-budget-b69b6f41",
+  "results": {
+    "zero_checkpoint": {
+      "created": true,
+      "ordinal_before": 0,
+      "checkpoint": {
+        "status": "checkpointed",
+        "head": "066fecdf7d145acdf8f51e122c73b32d5a9090667f42b0e3f249c3f1ce44ba22",
+        "ordinal": 0,
+        "generation": 1
+      },
+      "snapshot_census": {
+        "prefix_entries": 0,
+        "encoded_prefix_bytes": 21370,
+        "logical_bytes": 21370,
+        "memory_bound": 68476544,
+        "workspace_bound": 1732416,
+        "cold_work": 581891,
+        "retry_work": 581891,
+        "query_work": 1581891,
+        "admission_work": 1163782,
+        "checkpoint_work": 1163782,
+        "observed_database_bytes": 40960,
+        "work_stages": "{'json_lexical_bytes': 32211, 'json_decode_bytes': 32211, 'json_node': 10641, 'json_validate_bytes': 100346, 'full_key_sort': 150430, 'json_serialize_bytes': 66750, 'source_read_hash': 176133, 'hash_bytes': 13169}"
+      }
+    },
+    "zero_create_admission": {
+      "created": true,
+      "ordinal_before": 0
+    }
+  }
+}

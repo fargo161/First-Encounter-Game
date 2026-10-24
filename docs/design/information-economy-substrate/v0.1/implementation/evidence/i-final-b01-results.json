@@ -1,0 +1,400 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "case": "fixed-cap-1784415",
+      "status": "PASS",
+      "admission": "O4",
+      "cold_ordinal": 0,
+      "required": 1548256
+    },
+    {
+      "case": "fixed-cap-1784416",
+      "status": "PASS",
+      "admission": "O4",
+      "cold_ordinal": 0,
+      "required": 1548256
+    },
+    {
+      "case": "fixed-cap-2097152",
+      "status": "PASS",
+      "admission": "O4",
+      "cold_ordinal": 0,
+      "required": 1548256
+    },
+    {
+      "case": "root-threshold--1",
+      "status": "PASS",
+      "cap": 1548255,
+      "outcome": "creation rejected before COMMIT",
+      "acknowledged": false
+    },
+    {
+      "case": "root-threshold-0",
+      "status": "PASS",
+      "cap": 1548256,
+      "outcome": "created",
+      "required": 1548256
+    },
+    {
+      "case": "root-threshold-1",
+      "status": "PASS",
+      "cap": 1548257,
+      "outcome": "created",
+      "required": 1548256
+    },
+    {
+      "case": "operation-threshold--1",
+      "status": "PASS",
+      "cap": 2342335,
+      "outcome": "O4",
+      "required": 1548256
+    },
+    {
+      "case": "operation-threshold-0",
+      "status": "PASS",
+      "cap": 2342336,
+      "outcome": "O1",
+      "required": 2342336
+    },
+    {
+      "case": "operation-threshold-1",
+      "status": "PASS",
+      "cap": 2342337,
+      "outcome": "O1",
+      "required": 2342336
+    },
+    {
+      "case": "checkpoint-threshold--1",
+      "status": "PASS",
+      "cap": 2700703,
+      "outcome": "O4",
+      "required": 2342336
+    },
+    {
+      "case": "checkpoint-threshold-0",
+      "status": "PASS",
+      "cap": 2700704,
+      "outcome": "checkpointed",
+      "required": 2700704
+    },
+    {
+      "case": "checkpoint-threshold-1",
+      "status": "PASS",
+      "cap": 2700705,
+      "outcome": "checkpointed",
+      "required": 2700704
+    },
+    {
+      "case": "storage-full-retry-export-checkpoint-refusal",
+      "status": "PASS",
+      "admitted": 2,
+      "new_refusal": {
+        "status": "O4",
+        "reason": "STORAGE_CAPACITY"
+      },
+      "exact_retry": {
+        "status": "O3",
+        "receipt": {
+          "head": "5ea24cde5b5b1714bcb8dfbf4037cee796c402b4db5e8aebe00e9f1a78c3273b",
+          "key": {
+            "incarnation": "e1",
+            "lineage": "EA-IE-lineage-1",
+            "operation": "growth-1",
+            "producer": "test-producer",
+            "world": "EA-IE-reference"
+          },
+          "ordinal": 1,
+          "result_id": "growth-1-result",
+          "status": "O1"
+        }
+      },
+      "checkpoint_attempts": [
+        {
+          "status": "checkpointed",
+          "head": "8b5eaa8a084d50840be8b0886dd8f684f70fb9d1779b4b290e6b5f3ee210ddff",
+          "ordinal": 2,
+          "generation": 4
+        },
+        {
+          "status": "O4",
+          "reason": "STORAGE_CAPACITY"
+        }
+      ],
+      "semantic_stores_unchanged_after_refusals_and_reads": true
+    },
+    {
+      "case": "operation-crash-before_commit",
+      "status": "PASS",
+      "command": [
+        "C:\\Users\\mcdon\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "-B",
+        "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-independent-final-08\\source\\tests\\independent\\b01_fault_worker.py",
+        "operation",
+        "before_commit",
+        "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-independent-final-08\\b01\\operation-crash-before_commit"
+      ],
+      "exit": 93,
+      "cold_command": [
+        "C:\\Users\\mcdon\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "-B",
+        "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-independent-final-08\\source\\tests\\independent\\b01_fault_worker.py",
+        "operation",
+        "cold",
+        "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-independent-final-08\\b01\\operation-crash-before_commit"
+      ],
+      "cold_exit": 0,
+      "published": false,
+      "opened_head": "6c87431a8dbb2403403bb643a0f48977a2b055f2b4d77a374111e8aaaba55dc8",
+      "opened_ordinal": 0,
+      "opened_generation": 0,
+      "result": {
+        "status": "O1",
+        "receipt": {
+          "key": {
+            "world": "EA-IE-reference",
+            "lineage": "EA-IE-lineage-1",
+            "producer": "test-producer",
+            "incarnation": "e1",
+            "operation": "boundary-op"
+          },
+          "ordinal": 1,
+          "head": "9aa44f0dc206dbb91933e588d1a43ae38e4e4f4442a6cb6a5ebcf9257d68820a",
+          "status": "O1",
+          "result_id": "boundary-op-result"
+        }
+      },
+      "resolver_calls": 1
+    },
+    {
+      "case": "operation-crash-during_commit",
+      "status": "PASS",
+      "command": [
+        "C:\\Users\\mcdon\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "-B",
+        "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-independent-final-08\\source\\tests\\independent\\b01_fault_worker.py",
+        "operation",
+        "during_commit",
+        "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-independent-final-08\\b01\\operation-crash-during_commit"
+      ],
+      "exit": 93,
+      "cold_command": [
+        "C:\\Users\\mcdon\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "-B",
+        "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-independent-final-08\\source\\tests\\independent\\b01_fault_worker.py",
+        "operation",
+        "cold",
+        "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-independent-final-08\\b01\\operation-crash-during_commit"
+      ],
+      "cold_exit": 0,
+      "published": false,
+      "opened_head": "6c87431a8dbb2403403bb643a0f48977a2b055f2b4d77a374111e8aaaba55dc8",
+      "opened_ordinal": 0,
+      "opened_generation": 0,
+      "result": {
+        "status": "O1",
+        "receipt": {
+          "key": {
+            "world": "EA-IE-reference",
+            "lineage": "EA-IE-lineage-1",
+            "producer": "test-producer",
+            "incarnation": "e1",
+            "operation": "boundary-op"
+          },
+          "ordinal": 1,
+          "head": "9aa44f0dc206dbb91933e588d1a43ae38e4e4f4442a6cb6a5ebcf9257d68820a",
+          "status": "O1",
+          "result_id": "boundary-op-result"
+        }
+      },
+      "resolver_calls": 1
+    },
+    {
+      "case": "operation-crash-after_commit",
+      "status": "PASS",
+      "command": [
+        "C:\\Users\\mcdon\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "-B",
+        "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-independent-final-08\\source\\tests\\independent\\b01_fault_worker.py",
+        "operation",
+        "after_commit",
+        "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-independent-final-08\\b01\\operation-crash-after_commit"
+      ],
+      "exit": 93,
+      "cold_command": [
+        "C:\\Users\\mcdon\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "-B",
+        "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-independent-final-08\\source\\tests\\independent\\b01_fault_worker.py",
+        "operation",
+        "cold",
+        "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-independent-final-08\\b01\\operation-crash-after_commit"
+      ],
+      "cold_exit": 0,
+      "published": true,
+      "opened_head": "9aa44f0dc206dbb91933e588d1a43ae38e4e4f4442a6cb6a5ebcf9257d68820a",
+      "opened_ordinal": 1,
+      "opened_generation": 1,
+      "result": {
+        "status": "O3",
+        "receipt": {
+          "head": "9aa44f0dc206dbb91933e588d1a43ae38e4e4f4442a6cb6a5ebcf9257d68820a",
+          "key": {
+            "incarnation": "e1",
+            "lineage": "EA-IE-lineage-1",
+            "operation": "boundary-op",
+            "producer": "test-producer",
+            "world": "EA-IE-reference"
+          },
+          "ordinal": 1,
+          "result_id": "boundary-op-result",
+          "status": "O1"
+        }
+      },
+      "resolver_calls": 0
+    },
+    {
+      "case": "operation-crash-after_ack",
+      "status": "PASS",
+      "command": [
+        "C:\\Users\\mcdon\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "-B",
+        "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-independent-final-08\\source\\tests\\independent\\b01_fault_worker.py",
+        "operation",
+        "after_ack",
+        "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-independent-final-08\\b01\\operation-crash-after_ack"
+      ],
+      "exit": 93,
+      "cold_command": [
+        "C:\\Users\\mcdon\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "-B",
+        "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-independent-final-08\\source\\tests\\independent\\b01_fault_worker.py",
+        "operation",
+        "cold",
+        "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-independent-final-08\\b01\\operation-crash-after_ack"
+      ],
+      "cold_exit": 0,
+      "published": true,
+      "opened_head": "9aa44f0dc206dbb91933e588d1a43ae38e4e4f4442a6cb6a5ebcf9257d68820a",
+      "opened_ordinal": 1,
+      "opened_generation": 1,
+      "result": {
+        "status": "O3",
+        "receipt": {
+          "head": "9aa44f0dc206dbb91933e588d1a43ae38e4e4f4442a6cb6a5ebcf9257d68820a",
+          "key": {
+            "incarnation": "e1",
+            "lineage": "EA-IE-lineage-1",
+            "operation": "boundary-op",
+            "producer": "test-producer",
+            "world": "EA-IE-reference"
+          },
+          "ordinal": 1,
+          "result_id": "boundary-op-result",
+          "status": "O1"
+        }
+      },
+      "resolver_calls": 0
+    },
+    {
+      "case": "checkpoint-crash-before_commit",
+      "status": "PASS",
+      "command": [
+        "C:\\Users\\mcdon\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "-B",
+        "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-independent-final-08\\source\\tests\\independent\\b01_fault_worker.py",
+        "checkpoint",
+        "before_commit",
+        "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-independent-final-08\\b01\\checkpoint-crash-before_commit"
+      ],
+      "exit": 93,
+      "cold_command": [
+        "C:\\Users\\mcdon\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "-B",
+        "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-independent-final-08\\source\\tests\\independent\\b01_fault_worker.py",
+        "checkpoint",
+        "cold",
+        "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-independent-final-08\\b01\\checkpoint-crash-before_commit"
+      ],
+      "cold_exit": 0,
+      "published": false,
+      "opened_head": "e1252881d2f2be581a20ed0ec7f4a2c0cf3d84997fa13ffe56062ab10704ffc8",
+      "opened_ordinal": 1,
+      "opened_generation": 1,
+      "result": {
+        "status": "verified"
+      },
+      "resolver_calls": 0
+    },
+    {
+      "case": "checkpoint-crash-during_commit",
+      "status": "PASS",
+      "command": [
+        "C:\\Users\\mcdon\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "-B",
+        "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-independent-final-08\\source\\tests\\independent\\b01_fault_worker.py",
+        "checkpoint",
+        "during_commit",
+        "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-independent-final-08\\b01\\checkpoint-crash-during_commit"
+      ],
+      "exit": 93,
+      "cold_command": [
+        "C:\\Users\\mcdon\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "-B",
+        "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-independent-final-08\\source\\tests\\independent\\b01_fault_worker.py",
+        "checkpoint",
+        "cold",
+        "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-independent-final-08\\b01\\checkpoint-crash-during_commit"
+      ],
+      "cold_exit": 0,
+      "published": false,
+      "opened_head": "e1252881d2f2be581a20ed0ec7f4a2c0cf3d84997fa13ffe56062ab10704ffc8",
+      "opened_ordinal": 1,
+      "opened_generation": 1,
+      "result": {
+        "status": "verified"
+      },
+      "resolver_calls": 0
+    },
+    {
+      "case": "checkpoint-crash-after_ack",
+      "status": "PASS",
+      "command": [
+        "C:\\Users\\mcdon\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "-B",
+        "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-independent-final-08\\source\\tests\\independent\\b01_fault_worker.py",
+        "checkpoint",
+        "after_ack",
+        "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-independent-final-08\\b01\\checkpoint-crash-after_ack"
+      ],
+      "exit": 93,
+      "cold_command": [
+        "C:\\Users\\mcdon\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "-B",
+        "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-independent-final-08\\source\\tests\\independent\\b01_fault_worker.py",
+        "checkpoint",
+        "cold",
+        "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-independent-final-08\\b01\\checkpoint-crash-after_ack"
+      ],
+      "cold_exit": 0,
+      "published": true,
+      "opened_head": "e1252881d2f2be581a20ed0ec7f4a2c0cf3d84997fa13ffe56062ab10704ffc8",
+      "opened_ordinal": 1,
+      "opened_generation": 2,
+      "result": {
+        "status": "verified"
+      },
+      "resolver_calls": 0
+    }
+  ],
+  "pass": 20,
+  "fail": 0,
+  "skip": 0,
+  "thresholds": {
+    "root": 1548256,
+    "operation": 2342336,
+    "checkpoint": 2700704
+  },
+  "original_27_method_suite": "separate tests/independent/verify_regression27.py, native expectation adaptations documented",
+  "donor_derived_expectations_fresh_new_proof_execution": true,
+  "native_adaptations": "new namespace; historical fixed floors measured rather than inherited; actual new raw SQL thresholds; unchanged20 case shapes"
+}

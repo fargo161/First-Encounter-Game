@@ -1,0 +1,442 @@
+{
+  "status": "PASS",
+  "groups": [
+    {
+      "phase": "create",
+      "minimum_acknowledged": 1131654,
+      "controls": [
+        {
+          "phase": "create",
+          "cap": 1131653,
+          "path": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-independent-final-08\\complete-phase-boundaries\\create-1131653-26\\world.db",
+          "exception": "Rejected:WORK_CAPACITY_BEFORE_JSON_SERIALIZATION",
+          "acknowledged": false,
+          "sql_changed": false
+        },
+        {
+          "phase": "create",
+          "cap": 1131654,
+          "path": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-independent-final-08\\complete-phase-boundaries\\create-1131654-27\\world.db",
+          "answer": {
+            "status": "created"
+          },
+          "actual": {
+            "total": 1131651,
+            "stages": {
+              "json_node": 4064,
+              "json_validate_bytes": 40181,
+              "canonical_sort_walk_node": 2183,
+              "full_key_sort": 87509,
+              "json_serialize_bytes": 37537,
+              "digest_encode_bytes": 25710,
+              "hash_bytes": 25710,
+              "fixture_read_hash_decode_bytes": 50875,
+              "fixture_authority_parse_bytes": 6376,
+              "fixture_field_visit": 152,
+              "freeze_node": 10,
+              "source_read_hash": 210187,
+              "fixture_authored_parse_bytes": 10168,
+              "fixture_entity_visit": 24,
+              "fixture_binding_visit": 11,
+              "fixture_authority_record": 35,
+              "information_record_visit": 20,
+              "json_size_node": 1328,
+              "json_size_bytes": 21296,
+              "scratch_cold_replay": 596324,
+              "future_cutoff_visit": 0,
+              "future_holder_visit": 6,
+              "future_receipt_index_visit": 0,
+              "future_recipe_basis_visit": 0,
+              "future_recipe_visit": 6,
+              "prospective_holder_recipe": 1338,
+              "future_receipt_query_visit": 0,
+              "prospective_author_recipe": 10601
+            }
+          },
+          "acknowledged": true,
+          "sql_changed": true,
+          "fresh_ordinal": 0
+        },
+        {
+          "phase": "create",
+          "cap": 1131655,
+          "path": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-independent-final-08\\complete-phase-boundaries\\create-1131655-28\\world.db",
+          "answer": {
+            "status": "created"
+          },
+          "actual": {
+            "total": 1131651,
+            "stages": {
+              "json_node": 4064,
+              "json_validate_bytes": 40181,
+              "canonical_sort_walk_node": 2183,
+              "full_key_sort": 87509,
+              "json_serialize_bytes": 37537,
+              "digest_encode_bytes": 25710,
+              "hash_bytes": 25710,
+              "fixture_read_hash_decode_bytes": 50875,
+              "fixture_authority_parse_bytes": 6376,
+              "fixture_field_visit": 152,
+              "freeze_node": 10,
+              "source_read_hash": 210187,
+              "fixture_authored_parse_bytes": 10168,
+              "fixture_entity_visit": 24,
+              "fixture_binding_visit": 11,
+              "fixture_authority_record": 35,
+              "information_record_visit": 20,
+              "json_size_node": 1328,
+              "json_size_bytes": 21296,
+              "scratch_cold_replay": 596324,
+              "future_cutoff_visit": 0,
+              "future_holder_visit": 6,
+              "future_receipt_index_visit": 0,
+              "future_recipe_basis_visit": 0,
+              "future_recipe_visit": 6,
+              "prospective_holder_recipe": 1338,
+              "future_receipt_query_visit": 0,
+              "prospective_author_recipe": 10601
+            }
+          },
+          "acknowledged": true,
+          "sql_changed": true,
+          "fresh_ordinal": 0
+        }
+      ],
+      "all_unacknowledged_trials_atomic": true,
+      "status": "PASS"
+    },
+    {
+      "phase": "admission",
+      "minimum_acknowledged": 2433660,
+      "controls": [
+        {
+          "phase": "admission",
+          "cap": 2433659,
+          "path": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-independent-final-08\\complete-phase-boundaries\\admission-2433659-26\\world.db",
+          "answer": {
+            "status": "O4",
+            "reason": "PROVEN_PREPUBLICATION_FAILURE",
+            "detail": "WORK_CAPACITY_BEFORE_JSON_SERIALIZATION"
+          },
+          "actual": {
+            "total": 2433357,
+            "stages": {
+              "json_node": 17344,
+              "json_validate_bytes": 159453,
+              "canonical_sort_walk_node": 4716,
+              "full_key_sort": 166388,
+              "json_serialize_bytes": 74740,
+              "freeze_node": 654,
+              "scratch_cold_replay": 1852135,
+              "retry_registry_visit": 0,
+              "json_size_node": 3375,
+              "json_size_bytes": 53819,
+              "result_registry_visit": 0,
+              "native_policy_term": 1,
+              "digest_encode_bytes": 42289,
+              "hash_bytes": 42289,
+              "obligation_record_visit": 4,
+              "due_job_visit": 0,
+              "information_record_visit": 20,
+              "raw_utf8_encode_bytes": 98,
+              "json_lexical_bytes": 98,
+              "json_decode_bytes": 98,
+              "future_cutoff_visit": 1,
+              "future_holder_visit": 12,
+              "future_receipt_index_visit": 0,
+              "future_recipe_basis_visit": 0,
+              "future_recipe_visit": 12,
+              "prospective_holder_recipe": 2676,
+              "future_receipt_query_visit": 1,
+              "prospective_author_recipe": 13134
+            }
+          },
+          "acknowledged": false,
+          "sql_changed": false,
+          "atomic_refusal": true
+        },
+        {
+          "phase": "admission",
+          "cap": 2433660,
+          "path": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-independent-final-08\\complete-phase-boundaries\\admission-2433660-27\\world.db",
+          "answer": {
+            "status": "O1",
+            "receipt": {
+              "key": {
+                "world": "EA-IE-reference",
+                "lineage": "EA-IE-lineage-1",
+                "producer": "test-producer",
+                "incarnation": "e1",
+                "operation": "phase-boundary"
+              },
+              "ordinal": 1,
+              "head": "14bc7c90624904854412659f0f258e8cc3026af5cfd1e9778838c040cf557068",
+              "status": "O1",
+              "result_id": "phase-boundary-result"
+            }
+          },
+          "actual": {
+            "total": 2433657,
+            "stages": {
+              "json_node": 17344,
+              "json_validate_bytes": 159453,
+              "canonical_sort_walk_node": 4716,
+              "full_key_sort": 166388,
+              "json_serialize_bytes": 74740,
+              "freeze_node": 654,
+              "scratch_cold_replay": 1852135,
+              "retry_registry_visit": 0,
+              "json_size_node": 3375,
+              "json_size_bytes": 53819,
+              "result_registry_visit": 0,
+              "native_policy_term": 1,
+              "digest_encode_bytes": 42289,
+              "hash_bytes": 42289,
+              "obligation_record_visit": 4,
+              "due_job_visit": 0,
+              "information_record_visit": 20,
+              "raw_utf8_encode_bytes": 98,
+              "json_lexical_bytes": 98,
+              "json_decode_bytes": 98,
+              "future_cutoff_visit": 1,
+              "future_holder_visit": 12,
+              "future_receipt_index_visit": 0,
+              "future_recipe_basis_visit": 0,
+              "future_recipe_visit": 12,
+              "prospective_holder_recipe": 2676,
+              "future_receipt_query_visit": 1,
+              "prospective_author_recipe": 13434
+            }
+          },
+          "acknowledged": true,
+          "sql_changed": true,
+          "fresh_ordinal": 1,
+          "fresh_retry": "O3"
+        },
+        {
+          "phase": "admission",
+          "cap": 2433661,
+          "path": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-independent-final-08\\complete-phase-boundaries\\admission-2433661-28\\world.db",
+          "answer": {
+            "status": "O1",
+            "receipt": {
+              "key": {
+                "world": "EA-IE-reference",
+                "lineage": "EA-IE-lineage-1",
+                "producer": "test-producer",
+                "incarnation": "e1",
+                "operation": "phase-boundary"
+              },
+              "ordinal": 1,
+              "head": "82da4a00ad1d2971a4b6eb25ec9df1c9d27e7a6a0efb22dfddeb339e966b81b0",
+              "status": "O1",
+              "result_id": "phase-boundary-result"
+            }
+          },
+          "actual": {
+            "total": 2433657,
+            "stages": {
+              "json_node": 17344,
+              "json_validate_bytes": 159453,
+              "canonical_sort_walk_node": 4716,
+              "full_key_sort": 166388,
+              "json_serialize_bytes": 74740,
+              "freeze_node": 654,
+              "scratch_cold_replay": 1852135,
+              "retry_registry_visit": 0,
+              "json_size_node": 3375,
+              "json_size_bytes": 53819,
+              "result_registry_visit": 0,
+              "native_policy_term": 1,
+              "digest_encode_bytes": 42289,
+              "hash_bytes": 42289,
+              "obligation_record_visit": 4,
+              "due_job_visit": 0,
+              "information_record_visit": 20,
+              "raw_utf8_encode_bytes": 98,
+              "json_lexical_bytes": 98,
+              "json_decode_bytes": 98,
+              "future_cutoff_visit": 1,
+              "future_holder_visit": 12,
+              "future_receipt_index_visit": 0,
+              "future_recipe_basis_visit": 0,
+              "future_recipe_visit": 12,
+              "prospective_holder_recipe": 2676,
+              "future_receipt_query_visit": 1,
+              "prospective_author_recipe": 13434
+            }
+          },
+          "acknowledged": true,
+          "sql_changed": true,
+          "fresh_ordinal": 1,
+          "fresh_retry": "O3"
+        }
+      ],
+      "all_unacknowledged_trials_atomic": true,
+      "status": "PASS"
+    },
+    {
+      "phase": "checkpoint",
+      "minimum_acknowledged": 1380254,
+      "controls": [
+        {
+          "phase": "checkpoint",
+          "cap": 1380253,
+          "path": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-independent-final-08\\complete-phase-boundaries\\checkpoint-1380253-26\\world.db",
+          "answer": {
+            "status": "O4",
+            "reason": "WORK_CAPACITY_BEFORE_JSON_SERIALIZATION"
+          },
+          "actual": {
+            "total": 1379054,
+            "stages": {
+              "sqlite_payload_read": 11621,
+              "sqlite_quick_check_bytes": 32768,
+              "raw_utf8_encode_bytes": 11621,
+              "json_lexical_bytes": 11621,
+              "json_decode_bytes": 11621,
+              "json_node": 7252,
+              "json_validate_bytes": 69802,
+              "canonical_sort_walk_node": 2768,
+              "full_key_sort": 104316,
+              "json_serialize_bytes": 46494,
+              "source_read_hash": 210187,
+              "digest_encode_bytes": 24704,
+              "hash_bytes": 24704,
+              "fixture_read_hash_decode_bytes": 40700,
+              "fixture_authority_parse_bytes": 4782,
+              "fixture_field_visit": 133,
+              "fixture_authored_parse_bytes": 10168,
+              "fixture_entity_visit": 24,
+              "fixture_binding_visit": 11,
+              "fixture_authority_record": 35,
+              "information_record_visit": 20,
+              "json_size_node": 1965,
+              "json_size_bytes": 31161,
+              "checkpoint_record_visit": 0,
+              "scratch_cold_replay": 709203,
+              "future_cutoff_visit": 0,
+              "future_holder_visit": 6,
+              "future_receipt_index_visit": 0,
+              "future_recipe_basis_visit": 0,
+              "future_recipe_visit": 6,
+              "prospective_holder_recipe": 1338,
+              "future_receipt_query_visit": 0,
+              "prospective_author_recipe": 10023
+            }
+          },
+          "acknowledged": false,
+          "sql_changed": false,
+          "atomic_refusal": true
+        },
+        {
+          "phase": "checkpoint",
+          "cap": 1380254,
+          "path": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-independent-final-08\\complete-phase-boundaries\\checkpoint-1380254-27\\world.db",
+          "answer": {
+            "status": "checkpointed",
+            "head": "a4eaef1ade5ab4ba75cbeeed20f7977daa8b4403c4f87742742222f7d17d8018",
+            "ordinal": 0,
+            "generation": 1
+          },
+          "actual": {
+            "total": 1380251,
+            "stages": {
+              "sqlite_payload_read": 11621,
+              "sqlite_quick_check_bytes": 32768,
+              "raw_utf8_encode_bytes": 11621,
+              "json_lexical_bytes": 11621,
+              "json_decode_bytes": 11621,
+              "json_node": 7252,
+              "json_validate_bytes": 69802,
+              "canonical_sort_walk_node": 2768,
+              "full_key_sort": 104316,
+              "json_serialize_bytes": 46494,
+              "source_read_hash": 210187,
+              "digest_encode_bytes": 24704,
+              "hash_bytes": 24704,
+              "fixture_read_hash_decode_bytes": 40700,
+              "fixture_authority_parse_bytes": 4782,
+              "fixture_field_visit": 133,
+              "fixture_authored_parse_bytes": 10168,
+              "fixture_entity_visit": 24,
+              "fixture_binding_visit": 11,
+              "fixture_authority_record": 35,
+              "information_record_visit": 20,
+              "json_size_node": 1965,
+              "json_size_bytes": 31161,
+              "checkpoint_record_visit": 0,
+              "scratch_cold_replay": 709203,
+              "future_cutoff_visit": 0,
+              "future_holder_visit": 6,
+              "future_receipt_index_visit": 0,
+              "future_recipe_basis_visit": 0,
+              "future_recipe_visit": 6,
+              "prospective_holder_recipe": 1338,
+              "future_receipt_query_visit": 0,
+              "prospective_author_recipe": 11220
+            }
+          },
+          "acknowledged": true,
+          "sql_changed": true,
+          "fresh_ordinal": 0
+        },
+        {
+          "phase": "checkpoint",
+          "cap": 1380255,
+          "path": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-independent-final-08\\complete-phase-boundaries\\checkpoint-1380255-28\\world.db",
+          "answer": {
+            "status": "checkpointed",
+            "head": "c7585b6cf4930474d69580679d1d16ecc54b4992d22e4cf40c2fbe7293c22fc9",
+            "ordinal": 0,
+            "generation": 1
+          },
+          "actual": {
+            "total": 1380251,
+            "stages": {
+              "sqlite_payload_read": 11621,
+              "sqlite_quick_check_bytes": 32768,
+              "raw_utf8_encode_bytes": 11621,
+              "json_lexical_bytes": 11621,
+              "json_decode_bytes": 11621,
+              "json_node": 7252,
+              "json_validate_bytes": 69802,
+              "canonical_sort_walk_node": 2768,
+              "full_key_sort": 104316,
+              "json_serialize_bytes": 46494,
+              "source_read_hash": 210187,
+              "digest_encode_bytes": 24704,
+              "hash_bytes": 24704,
+              "fixture_read_hash_decode_bytes": 40700,
+              "fixture_authority_parse_bytes": 4782,
+              "fixture_field_visit": 133,
+              "fixture_authored_parse_bytes": 10168,
+              "fixture_entity_visit": 24,
+              "fixture_binding_visit": 11,
+              "fixture_authority_record": 35,
+              "information_record_visit": 20,
+              "json_size_node": 1965,
+              "json_size_bytes": 31161,
+              "checkpoint_record_visit": 0,
+              "scratch_cold_replay": 709203,
+              "future_cutoff_visit": 0,
+              "future_holder_visit": 6,
+              "future_receipt_index_visit": 0,
+              "future_recipe_basis_visit": 0,
+              "future_recipe_visit": 6,
+              "prospective_holder_recipe": 1338,
+              "future_receipt_query_visit": 0,
+              "prospective_author_recipe": 11220
+            }
+          },
+          "acknowledged": true,
+          "sql_changed": true,
+          "fresh_ordinal": 0
+        }
+      ],
+      "all_unacknowledged_trials_atomic": true,
+      "status": "PASS"
+    }
+  ],
+  "elapsed_seconds": 82.44424159999471
+}

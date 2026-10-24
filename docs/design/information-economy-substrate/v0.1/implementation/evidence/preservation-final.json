@@ -1,0 +1,14 @@
+{
+  "checked_utc": "2026-10-24T04:48:19.750514+00:00",
+  "scope": "Protected existing bytes/membership and allowed new paths; not IE runtime acceptance",
+  "protected_file_count": 3645,
+  "missing": [],
+  "changed": [],
+  "unexpected_new_paths": [],
+  "bytecode_or_cache_paths": [],
+  "branch": "codex/economy-substrate-v0.1-accepted-baseline",
+  "head": "3f348c61b41ed3e5dfbcfb817a9e31f31bda42be",
+  "tracked_diff": "",
+  "branch_head_unchanged": true,
+  "status": "PASS"
+}

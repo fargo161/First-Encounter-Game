@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "pass": 2,
+  "fail": 0,
+  "skip": 0,
+  "groups": [
+    {
+      "group": "text",
+      "input_bytes": 524679,
+      "parent_limit": 100,
+      "child_limit": 20000000,
+      "whole_utf8_calls_before_refusal": [],
+      "status": "PASS"
+    },
+    {
+      "group": "bytes",
+      "input_bytes": 524679,
+      "parent_limit": 100,
+      "child_limit": 20000000,
+      "whole_utf8_calls_before_refusal": [],
+      "status": "PASS"
+    }
+  ]
+}

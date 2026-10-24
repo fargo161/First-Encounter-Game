@@ -1,0 +1,818 @@
+{
+  "auditor": "J",
+  "source": "52d247c5de71c8c811d768e87a55c25bf06f979cc0e203c5508fbdf0b0257481",
+  "out": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-j-final-07",
+  "probes": {
+    "IJ01_observation_closure": {
+      "status": "PASS",
+      "value": {
+        "stale": {
+          "status": "O4",
+          "reason": "OBSERVATION_CONTEXT_CHANGED"
+        },
+        "actual_D": {
+          "at": 5,
+          "base": 8,
+          "blocked": false,
+          "cause": "cb7acd31ced07aec85126b64924dc23a93f25c8b50b2c208bde540576d4ba589:0"
+        },
+        "holder": {
+          "status": "ok",
+          "receipts": [
+            {
+              "handle": "h1",
+              "kind": "content",
+              "body": "The fixture mechanism D is blocked.",
+              "value": "TRUE",
+              "subject": {
+                "entity": "D",
+                "kind": "actual"
+              },
+              "source_assertion": "direct fixture observation",
+              "origin": "basis1",
+              "support": {
+                "status": "SUPPORTED",
+                "complete": true
+              },
+              "valid_until": null
+            },
+            {
+              "handle": "h2",
+              "kind": "content",
+              "body": "One fixture token is missing; the culprit is unknown.",
+              "value": "TRUE",
+              "subject": {
+                "entity": "incident-1",
+                "kind": "actual"
+              },
+              "source_assertion": "direct fixture discrepancy",
+              "origin": "basis2",
+              "support": {
+                "status": "SUPPORTED",
+                "complete": true
+              },
+              "valid_until": null
+            }
+          ],
+          "next": null
+        }
+      }
+    },
+    "IJ02_optional_closure": {
+      "status": "PASS",
+      "value": [
+        {
+          "raw_bytes": 17,
+          "type": "str",
+          "encoded_total": 11542,
+          "cold_work": 703386
+        },
+        {
+          "raw_bytes": 11,
+          "type": "str",
+          "encoded_total": 11536,
+          "cold_work": 703350
+        },
+        {
+          "raw_bytes": 6002,
+          "type": "str",
+          "encoded_total": 17527,
+          "cold_work": 739297
+        },
+        {
+          "raw_bytes": 6000,
+          "type": "bytes",
+          "encoded_total": 17525,
+          "cold_work": 721284
+        },
+        {
+          "raw_bytes": 2,
+          "type": "bytes",
+          "encoded_total": 11527,
+          "cold_work": 703290
+        }
+      ]
+    },
+    "IJ03_phase_closure": {
+      "status": "FAIL",
+      "exception": "Rejected",
+      "reason": "WORK_CAPACITY_BEFORE_JSON_SERIALIZATION",
+      "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\docs\\design\\information-economy-substrate\\v0.1\\implementation\\evidence\\j_final_probe.py\", line 17, in probe\n    try:result['probes'][name]={'status':'PASS','value':fn()}\n                                                        ^^^^\n  File \"C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\docs\\design\\information-economy-substrate\\v0.1\\implementation\\evidence\\j_final_probe.py\", line 63, in reduced_work\n    candidate=Core.create(out/('tight-create-'+str(n)+'.db'),limits=dict(DEFAULT_LIMITS,admission_work=cap))\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-j-final-07\\source\\eaie\\core.py\", line 92, in create\n    c=cls._create(path,limits,root_digest,fixture)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-j-final-07\\source\\eaie\\core.py\", line 111, in _create\n    c._future_queries(root,[],verified_charge)\n  File \"C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-j-final-07\\source\\eaie\\core.py\", line 343, in _future_queries\n    require(encoded_size(reply)<=self.profile['limits']['query_bytes'],'FUTURE_QUERY_BYTES');canonical(reply)\n                                                                                             ^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-j-final-07\\source\\eaie\\data.py\", line 99, in canonical\n    costs(p);reserve(encoded_upper,'JSON_SERIALIZATION')\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-j-final-07\\source\\eaie\\data.py\", line 49, in reserve\n    if m is not None:m.reserve(n,stage)\n                     ^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-j-final-07\\source\\eaie\\data.py\", line 41, in reserve\n    if self.parent is not None:self.parent.reserve(n,stage)\n                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-j-final-07\\source\\eaie\\data.py\", line 40, in reserve\n    require(self.total+n<=self.limit,'WORK_CAPACITY_BEFORE_'+stage)\n  File \"C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-j-final-07\\source\\eaie\\data.py\", line 24, in require\n    if not ok: raise Rejected(why)\n               ^^^^^^^^^^^^^^^^^^^\neaie.data.Rejected: WORK_CAPACITY_BEFORE_JSON_SERIALIZATION\n"
+    },
+    "IJ05_closure_cost": {
+      "status": "PASS",
+      "value": {
+        "answer": {
+          "protected": [
+            "Bind",
+            "CX",
+            "CY",
+            "Cause",
+            "Live",
+            "Policy",
+            "Prefix",
+            "Receipt",
+            "Req",
+            "Result",
+            "Root"
+          ],
+          "edges_visited": 16,
+          "eligible": [
+            "OU",
+            "OV"
+          ]
+        },
+        "work": {
+          "total": 723,
+          "stages": {
+            "closure_node_visit": 19,
+            "closure_edge_visit": 16,
+            "closure_inventory_visit": 13,
+            "json_node": 13,
+            "json_validate_bytes": 79,
+            "canonical_sort_walk_node": 13,
+            "json_serialize_bytes": 79,
+            "full_key_sort": 491
+          }
+        },
+        "zero_budget_refusal": "WORK_CAPACITY"
+      }
+    },
+    "IJ06_snapshot_guard": {
+      "status": "PASS",
+      "value": {
+        "empty": {
+          "status": "O5",
+          "reason": "unverified_snapshot"
+        },
+        "partial": {
+          "status": "O5",
+          "reason": "unverified_snapshot"
+        },
+        "issued_missing_head": {
+          "status": "O5",
+          "reason": "unverified_snapshot"
+        }
+      }
+    },
+    "IJ07_serialization_reserve": {
+      "status": "PASS",
+      "value": {
+        "selected": 4236,
+        "baseline": {
+          "total": 8236,
+          "stages": {
+            "json_node": 3,
+            "json_validate_bytes": 4109,
+            "canonical_sort_walk_node": 2,
+            "full_key_sort": 14,
+            "json_serialize_bytes": 4108
+          }
+        },
+        "limited": {
+          "total": 4128,
+          "stages": {
+            "json_node": 3,
+            "json_validate_bytes": 4109,
+            "canonical_sort_walk_node": 2,
+            "full_key_sort": 14
+          }
+        },
+        "whole_object_encode_calls": [],
+        "refusal": "WORK_CAPACITY_BEFORE_JSON_SERIALIZATION"
+      }
+    },
+    "IJ08_publication_completion_budget": {
+      "status": "FAIL",
+      "exception": "AssertionError",
+      "reason": "{'status': 'O4', 'reason': 'PROVEN_PREPUBLICATION_FAILURE', 'detail': 'WORK_CAPACITY_BEFORE_JSON_SERIALIZATION'}",
+      "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\docs\\design\\information-economy-substrate\\v0.1\\implementation\\evidence\\j_final_probe.py\", line 17, in probe\n    try:result['probes'][name]={'status':'PASS','value':fn()}\n                                                        ^^^^\n  File \"C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\docs\\design\\information-economy-substrate\\v0.1\\implementation\\evidence\\j_final_probe.py\", line 97, in publication_completion_budget\n    assert answer['status']=='O1',answer\nAssertionError: {'status': 'O4', 'reason': 'PROVEN_PREPUBLICATION_FAILURE', 'detail': 'WORK_CAPACITY_BEFORE_JSON_SERIALIZATION'}\n"
+    },
+    "BH02_nested_phase_accounting": {
+      "status": "PASS",
+      "value": {
+        "successful_nested_parent": {
+          "total": 61,
+          "stages": {
+            "nested_phase": 61
+          }
+        },
+        "successful_nested_child": {
+          "total": 61,
+          "stages": {
+            "json_node": 6,
+            "json_validate_bytes": 19,
+            "canonical_sort_walk_node": 5,
+            "full_key_sort": 14,
+            "json_serialize_bytes": 17
+          }
+        },
+        "parent_tight_child_ample": {
+          "parent": {
+            "total": 4128,
+            "stages": {
+              "nested_phase": 4128
+            }
+          },
+          "child": {
+            "total": 4128,
+            "stages": {
+              "json_node": 3,
+              "json_validate_bytes": 4109,
+              "canonical_sort_walk_node": 2,
+              "full_key_sort": 14
+            }
+          },
+          "whole_dump_calls": [],
+          "refusal": "WORK_CAPACITY_BEFORE_JSON_SERIALIZATION"
+        },
+        "failed_native": {
+          "answer": {
+            "status": "O4",
+            "reason": "PROVEN_PREPUBLICATION_FAILURE",
+            "detail": "WORK_CAPACITY"
+          },
+          "reported": {
+            "total": 1406483,
+            "stages": {
+              "json_node": 17344,
+              "json_validate_bytes": 159264,
+              "canonical_sort_walk_node": 4716,
+              "full_key_sort": 166388,
+              "json_serialize_bytes": 74637,
+              "freeze_node": 654,
+              "scratch_cold_replay": 883876,
+              "retry_registry_visit": 0,
+              "json_size_node": 3375,
+              "json_size_bytes": 53771,
+              "result_registry_visit": 0,
+              "native_policy_term": 1,
+              "hash_bytes": 42237,
+              "obligation_record_visit": 4,
+              "due_job_visit": 0,
+              "information_record_visit": 20,
+              "json_lexical_bytes": 98,
+              "json_decode_bytes": 98
+            }
+          },
+          "originating_charges_once": {
+            "requested": 1406483,
+            "successful": 1379490
+          }
+        }
+      }
+    },
+    "IJ09_source_read_reservation": {
+      "status": "PASS",
+      "value": {
+        "source": {
+          "reads": [
+            {
+              "file": "__init__.py",
+              "bytes": 229
+            },
+            {
+              "file": "atlas.py",
+              "bytes": 3666
+            }
+          ],
+          "parent": {
+            "total": 82486,
+            "stages": {
+              "nested_phase": 82486
+            }
+          },
+          "child": {
+            "total": 82486,
+            "stages": {
+              "json_node": 12,
+              "json_validate_bytes": 153,
+              "canonical_sort_walk_node": 12,
+              "json_serialize_bytes": 153,
+              "full_key_sort": 969,
+              "source_read_hash": 81187
+            }
+          },
+          "refusal": "WORK_CAPACITY"
+        },
+        "fixtures": {
+          "reads": [],
+          "parent": {
+            "total": 3189,
+            "stages": {
+              "nested_phase": 3189
+            }
+          },
+          "child": {
+            "total": 3189,
+            "stages": {
+              "fixture_read_hash_decode_bytes": 3189
+            }
+          },
+          "refusal": "WORK_CAPACITY"
+        }
+      }
+    },
+    "IT09_exact_request_boundary": {
+      "status": "PASS",
+      "value": [
+        {
+          "selected": 10279,
+          "actual_canonical_bytes": 10280,
+          "answer": {
+            "status": "O4",
+            "reason": "ENCODED_JSON_BOUND"
+          },
+          "ordinal": 0
+        },
+        {
+          "selected": 10280,
+          "actual_canonical_bytes": 10280,
+          "answer": {
+            "status": "O1",
+            "receipt": {
+              "key": {
+                "world": "EA-IE-reference",
+                "lineage": "EA-IE-lineage-1",
+                "producer": "test-producer",
+                "incarnation": "e1",
+                "operation": "j-request"
+              },
+              "ordinal": 1,
+              "head": "4ba5a20bd60479bf12dfb9ef8526c2aad2b7dbb160fae2cf1d3b50cc939fa40b",
+              "status": "O1",
+              "result_id": "j-request-result"
+            }
+          },
+          "ordinal": 1
+        },
+        {
+          "selected": 10281,
+          "actual_canonical_bytes": 10280,
+          "answer": {
+            "status": "O1",
+            "receipt": {
+              "key": {
+                "world": "EA-IE-reference",
+                "lineage": "EA-IE-lineage-1",
+                "producer": "test-producer",
+                "incarnation": "e1",
+                "operation": "j-request"
+              },
+              "ordinal": 1,
+              "head": "e199d5f15855666977a48736e307deabd953e070968c5510022632d7d1a1ca35",
+              "status": "O1",
+              "result_id": "j-request-result"
+            }
+          },
+          "ordinal": 1
+        }
+      ]
+    },
+    "publication_reentrancy_async": {
+      "status": "PASS",
+      "value": [
+        {
+          "phase": "before_write",
+          "answer": {
+            "status": "O4",
+            "reason": "PROVEN_PREPUBLICATION_FAILURE",
+            "detail": "PROHIBITED_REENTRANT_WRITE"
+          },
+          "ordinal": 0
+        },
+        {
+          "phase": "before_commit",
+          "answer": {
+            "status": "O4",
+            "reason": "PROVEN_PREPUBLICATION_FAILURE",
+            "detail": "PROHIBITED_REENTRANT_WRITE"
+          },
+          "ordinal": 0
+        },
+        {
+          "phase": "commit_enter",
+          "answer": {
+            "status": "O5",
+            "reason": "UNCERTAIN_PUBLICATION_RECONCILE",
+            "detail": "Rejected"
+          },
+          "ordinal": 0
+        },
+        {
+          "phase": "after_commit",
+          "answer": {
+            "status": "O5",
+            "reason": "UNCERTAIN_PUBLICATION_RECONCILE",
+            "detail": "Rejected"
+          },
+          "ordinal": 1
+        },
+        {
+          "sync_async_return": {
+            "status": "O4",
+            "reason": "PROVEN_PREPUBLICATION_FAILURE",
+            "detail": "PUBLICATION_HOOK_FAULT_OR_ASYNC"
+          }
+        }
+      ]
+    },
+    "aggregate_predecode_guard": {
+      "status": "PASS",
+      "value": {
+        "reason": "PREDECODE_AGGREGATE_BYTES",
+        "decode_calls": []
+      }
+    },
+    "IJ04_complete_cold_mixed16": {
+      "status": "PASS",
+      "value": {
+        "admissions": 16,
+        "cold_actual": {
+          "total": 15111001,
+          "stages": {
+            "verified_snapshot": 15111001
+          }
+        },
+        "census": {
+          "prefix_entries": 16,
+          "encoded_prefix_bytes": 610603,
+          "logical_bytes": 610603,
+          "memory_bound": 106187456,
+          "workspace_bound": 20587872,
+          "cold_work": 15160596,
+          "retry_work": 15369997,
+          "query_work": 16160596,
+          "admission_work": 30321192,
+          "checkpoint_work": 30321192,
+          "observed_database_bytes": 643072,
+          "cold_replay_measured": 14898050,
+          "cold_output_reserved": 262546,
+          "retry_comparison_reserved": 209401,
+          "work_stages": {
+            "sqlite_payload_read": 610703,
+            "sqlite_quick_check_bytes": 643072,
+            "json_lexical_bytes": 610703,
+            "json_decode_bytes": 610703,
+            "json_node": 246223,
+            "json_validate_bytes": 2798227,
+            "canonical_sort_walk_node": 76559,
+            "full_key_sort": 3260928,
+            "json_serialize_bytes": 1532847,
+            "source_read_hash": 209595,
+            "hash_bytes": 919882,
+            "fixture_read_hash_decode_bytes": 40700,
+            "fixture_authority_parse_bytes": 4782,
+            "fixture_field_visit": 133,
+            "fixture_authored_parse_bytes": 10168,
+            "fixture_entity_visit": 24,
+            "fixture_binding_visit": 11,
+            "fixture_authority_record": 35,
+            "information_record_visit": 653,
+            "json_size_node": 29750,
+            "json_size_bytes": 590101,
+            "history_record_visit": 16,
+            "actor_identity_visit": 294,
+            "causal_position": 33,
+            "holder_handle_visit": 36,
+            "causal_edge_visit": 16,
+            "causal_parent_visit": 109,
+            "information_created_scan": 130,
+            "receipt_visit": 64,
+            "grant_visit": 312,
+            "organization_record_visit": 122,
+            "access_visit": 10,
+            "predicate_term": 6,
+            "native_policy_term": 1,
+            "obligation_record_visit": 4,
+            "due_job_visit": 0,
+            "checkpoint_record_visit": 0,
+            "retry_candidate_visit": 16,
+            "prospective_retry_comparisons": 2504072,
+            "prospective_snapshot_output": 197010
+          }
+        },
+        "oldest_retry_actual": {
+          "total": 14981601,
+          "stages": {
+            "json_node": 4659,
+            "json_validate_bytes": 43022,
+            "canonical_sort_walk_node": 675,
+            "full_key_sort": 23791,
+            "json_serialize_bytes": 10725,
+            "freeze_node": 663,
+            "scratch_cold_replay": 14898050,
+            "retry_registry_visit": 16
+          }
+        },
+        "duplicate_effect": {
+          "status": "O4",
+          "reason": "EFFECT_CREDIT_CONSUMED"
+        },
+        "notice": {
+          "status": "ok",
+          "receipts": [
+            {
+              "handle": "h1",
+              "kind": "notice",
+              "record_handle": "h1",
+              "available": true
+            }
+          ],
+          "next": null
+        },
+        "views": {
+          "alice:0": {
+            "status": "ok",
+            "receipts": [],
+            "next": null
+          },
+          "alice:4": {
+            "status": "ok",
+            "receipts": [
+              {
+                "handle": "h1",
+                "kind": "content",
+                "body": "J report",
+                "value": "TRUE",
+                "subject": {
+                  "kind": "alleged",
+                  "label": "J alleged incident",
+                  "scope": "alice"
+                },
+                "source_assertion": "J supplied claim",
+                "origin": "basis1",
+                "support": {
+                  "status": "SUPPORTED",
+                  "complete": true
+                },
+                "valid_until": null
+              }
+            ],
+            "next": null
+          },
+          "alice:16": {
+            "status": "ok",
+            "receipts": [
+              {
+                "handle": "h1",
+                "kind": "content",
+                "body": "J report",
+                "value": "TRUE",
+                "subject": {
+                  "kind": "alleged",
+                  "label": "J alleged incident",
+                  "scope": "alice"
+                },
+                "source_assertion": "J supplied claim",
+                "origin": "basis1",
+                "support": {
+                  "status": "SUPPORTED",
+                  "complete": true
+                },
+                "valid_until": null
+              },
+              {
+                "handle": "h2",
+                "kind": "content",
+                "body": "J new evidence",
+                "value": "TRUE",
+                "subject": {
+                  "kind": "alleged",
+                  "label": "J alleged incident",
+                  "scope": "alice"
+                },
+                "source_assertion": "J supplied claim",
+                "origin": "basis2",
+                "support": {
+                  "status": "SUPPORTED",
+                  "complete": true
+                },
+                "valid_until": null
+              }
+            ],
+            "next": null
+          },
+          "handler:0": {
+            "status": "ok",
+            "receipts": [],
+            "next": null
+          },
+          "handler:4": {
+            "status": "ok",
+            "receipts": [
+              {
+                "handle": "h1",
+                "kind": "notice",
+                "record_handle": "h1",
+                "available": true
+              },
+              {
+                "handle": "h2",
+                "kind": "content",
+                "body": "J report",
+                "value": "TRUE",
+                "subject": {
+                  "kind": "alleged",
+                  "label": "J alleged incident",
+                  "scope": "alice"
+                },
+                "source_assertion": "J selected referral",
+                "origin": "unknown",
+                "support": {
+                  "status": "SUPPORTED",
+                  "complete": true
+                },
+                "valid_until": null
+              }
+            ],
+            "next": null
+          },
+          "handler:16": {
+            "status": "ok",
+            "receipts": [
+              {
+                "handle": "h1",
+                "kind": "notice",
+                "record_handle": "h1",
+                "available": true
+              },
+              {
+                "handle": "h2",
+                "kind": "content",
+                "body": "J report",
+                "value": "TRUE",
+                "subject": {
+                  "kind": "alleged",
+                  "label": "J alleged incident",
+                  "scope": "alice"
+                },
+                "source_assertion": "J selected referral",
+                "origin": "unknown",
+                "support": {
+                  "status": "SUPPORTED",
+                  "complete": true
+                },
+                "valid_until": null
+              },
+              {
+                "handle": "h3",
+                "kind": "content",
+                "body": "J new evidence",
+                "value": "TRUE",
+                "subject": {
+                  "kind": "alleged",
+                  "label": "J alleged incident",
+                  "scope": "alice"
+                },
+                "source_assertion": "J new source",
+                "origin": "unknown",
+                "support": {
+                  "status": "SUPPORTED",
+                  "complete": true
+                },
+                "valid_until": null
+              },
+              {
+                "handle": "h4",
+                "kind": "notice",
+                "record_handle": "h4",
+                "available": true
+              }
+            ],
+            "next": 4
+          },
+          "dispatcher:0": {
+            "status": "ok",
+            "receipts": [],
+            "next": null
+          },
+          "dispatcher:4": {
+            "status": "ok",
+            "receipts": [
+              {
+                "handle": "h1",
+                "kind": "notice",
+                "record_handle": "h1",
+                "available": true
+              }
+            ],
+            "next": null
+          },
+          "dispatcher:16": {
+            "status": "ok",
+            "receipts": [
+              {
+                "handle": "h1",
+                "kind": "notice",
+                "record_handle": "h1",
+                "available": true
+              }
+            ],
+            "next": null
+          },
+          "outsider:0": {
+            "status": "ok",
+            "receipts": [],
+            "next": null
+          },
+          "outsider:4": {
+            "status": "ok",
+            "receipts": [],
+            "next": null
+          },
+          "outsider:16": {
+            "status": "ok",
+            "receipts": [],
+            "next": null
+          },
+          "player:0": {
+            "status": "ok",
+            "receipts": [],
+            "next": null
+          },
+          "player:4": {
+            "status": "ok",
+            "receipts": [],
+            "next": null
+          },
+          "player:16": {
+            "status": "ok",
+            "receipts": [],
+            "next": null
+          }
+        },
+        "fresh_process": {
+          "ordinal": 16,
+          "oldest": {
+            "status": "O3",
+            "receipt": {
+              "head": "c4e1ba76b9639889f87cdf55ab340ae6a9f21ca16f2b06bfde6a4f6e9347f7e9",
+              "key": {
+                "incarnation": "e1",
+                "lineage": "EA-IE-lineage-1",
+                "operation": "j-mixed-1",
+                "producer": "test-producer",
+                "world": "EA-IE-reference"
+              },
+              "ordinal": 1,
+              "result_id": "j-mixed-1-result",
+              "status": "O1"
+            }
+          },
+          "cold": {
+            "total": 15111001,
+            "stages": {
+              "scratch_cold_replay": 14898050,
+              "snapshot_registry_visit": 16,
+              "json_node": 4184,
+              "json_validate_bytes": 51258,
+              "freeze_node": 1130,
+              "snapshot_assembly_visit": 46332,
+              "canonical_sort_walk_node": 1133,
+              "full_key_sort": 59478,
+              "json_serialize_bytes": 24710,
+              "hash_bytes": 24710
+            }
+          },
+          "retry": {
+            "total": 14981601,
+            "stages": {
+              "json_node": 4659,
+              "json_validate_bytes": 43022,
+              "canonical_sort_walk_node": 675,
+              "full_key_sort": 23791,
+              "json_serialize_bytes": 10725,
+              "freeze_node": 663,
+              "scratch_cold_replay": 14898050,
+              "retry_registry_visit": 16
+            }
+          },
+          "boundary": {
+            "status": "ok",
+            "head": "36348aa357550424209749bf38294f0c24f315bc9a7911257f51323e32941cdc",
+            "ordinal": 16
+          },
+          "receipt": {
+            "status": "ok",
+            "receipt": {
+              "head": "c4e1ba76b9639889f87cdf55ab340ae6a9f21ca16f2b06bfde6a4f6e9347f7e9",
+              "key": {
+                "incarnation": "e1",
+                "lineage": "EA-IE-lineage-1",
+                "operation": "j-mixed-1",
+                "producer": "test-producer",
+                "world": "EA-IE-reference"
+              },
+              "ordinal": 1,
+              "result_id": "j-mixed-1-result",
+              "status": "O1"
+            }
+          }
+        },
+        "causal_records": 13,
+        "db_sha256_after_read_queries": "2ed54722903d44e1f0751a24fc169cdcc89bf202949b70d6031d10988d2c29e9"
+      }
+    }
+  }
+}

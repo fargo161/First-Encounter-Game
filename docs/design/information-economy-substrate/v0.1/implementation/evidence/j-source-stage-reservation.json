@@ -1,0 +1,41 @@
+{
+  "source": "974317c1ce9ff9aa7960ee9802c7c03ff0fab06f897f96a9ff3da4106fb1e2f9",
+  "out": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-j-stage-70631123",
+  "stage": "source module read before source_read_hash charge",
+  "selected_budget": 9191,
+  "reads": [
+    {
+      "file": "__init__.py",
+      "bytes_read": 229,
+      "spent_before": 1299,
+      "remaining_before": 7892
+    },
+    {
+      "file": "atlas.py",
+      "bytes_read": 3666,
+      "spent_before": 1758,
+      "remaining_before": 7433
+    },
+    {
+      "file": "core.py",
+      "bytes_read": 36697,
+      "spent_before": 9091,
+      "remaining_before": 100
+    }
+  ],
+  "refusal": {
+    "exception": "Rejected",
+    "reason": "WORK_CAPACITY"
+  },
+  "reported_work": {
+    "total": 82486,
+    "stages": {
+      "json_node": 12,
+      "json_validate_bytes": 153,
+      "canonical_sort_walk_node": 12,
+      "json_serialize_bytes": 153,
+      "full_key_sort": 969,
+      "source_read_hash": 81187
+    }
+  }
+}

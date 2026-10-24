@@ -1,0 +1,292 @@
+{
+  "captured_utc": "2026-10-24T03:23:57.698500+00:00",
+  "scope": "Static candidate identity/dependencies/provenance, not runtime acceptance",
+  "source_identity": "a0a0552d555bc9729f233b27478267663d1f80b963e60b7c726ba0178cf144f4",
+  "semantic_files": {
+    "eaie/__init__.py": "e9ed7d145605626815e02847db7b29c51848b3706476b818b5dbaff410beb9cc",
+    "eaie/atlas.py": "80b2f2a7247f5ac7bb5d84363b0df3146fa31b0576682e8d30284b5e6caa9713",
+    "eaie/core.py": "7041ba6c5a9057a7c55d66472ed0a3d2582bb7e56ec205bfdfea11259372a35c",
+    "eaie/data.py": "a29f1576f4a2149381703aa39d9d55f917cde5a97fb09bb87e09696301f723ad",
+    "eaie/expressions.py": "f6e30b2d7158a961fd50f3e72d63f43e3692e6cc469609072a0af508a1a0c9f1",
+    "eaie/fixtures.py": "d7fcc912118fa2e1a5b0401edd72e65fdb77fad3daa7fc08f87ec1acea26f20a",
+    "eaie/identity.py": "34d05a894bdb412c08db69e2347808eed1ca4e6006ef5094d95a06a155672dbd",
+    "eaie/information.py": "f8e5f4f4e61b482d2897356ac7e45de5aefc7c41a024f1bee47fcea97b1e3f5e",
+    "eaie/organization.py": "e7ccd678b826929d081322b299f3a17b4623a4374a394e5dee54b349c0dddf06",
+    "eaie/policies.py": "2a1f2b71d39c72915450cd88c34f59a033fd82b6c17912368da69b17f86ddd8d",
+    "eaie/profile.py": "de2747ae3ac4f0c1f00bc7a54d58cd234235282348949eb5dcaa7325a305ff65",
+    "eaie/queries.py": "ce8da33a04dac7767491e2b2a83c8bc323905305058139ee13b9e3538ca7045d",
+    "fixtures/BX.txt": "561eb38e6682e9a2fc1604c3be637e8894f20f250dbff106797281a362913de8",
+    "fixtures/R0.txt": "b1ad16d09f5651e9505c8288ce1930d0ea35dfa213fa70750d24ee1dfdff2095",
+    "fixtures/RX.txt": "4a621598ba52c531ff1547c0e535224e5be4e2febfbd58636bbcbafc1f8ed427",
+    "fixtures/S.txt": "a9008316ff9304eb43576f20019ba3c65f632515ec506048dee8d385cdab3449",
+    "fixtures/S2.txt": "eba31deef62e145ad2a89a42d3b1958f741ec95a2e04fb4c976529791450e6c4",
+    "fixtures/T.txt": "99beac400b126f6ed09ae54c84c30e13dcdf817bffa0a48516a1afd1260e338f",
+    "fixtures/U.txt": "d82c5a44cddd6b724bdd8489408bf064e4c4af2f6260760e16a4b7fb1b910f3a"
+  },
+  "profile_id": "EA-IE-profile/1/8f4577177e06ed695a65e3276a65702ccc64d847632aae14f0ba5ca167ad21a5",
+  "profile_limits": {
+    "operations": 64,
+    "checkpoints": 8,
+    "cold_work": 20000000,
+    "admission_work": 40000000,
+    "checkpoint_work": 40000000,
+    "query_work": 20000000,
+    "retry_work": 20000000,
+    "logical_bytes": 8388608,
+    "memory_bytes": 268435456,
+    "workspace_bytes": 1073741824,
+    "due_jobs": 8,
+    "query_bytes": 65536,
+    "request_bytes": 163840,
+    "intent_bytes": 8192,
+    "state_bytes": 131072,
+    "actors": 16,
+    "organizations": 4,
+    "roots": 32,
+    "versions": 64,
+    "receipts": 128,
+    "transmissions": 64,
+    "derivations": 32,
+    "premise_edges": 128,
+    "cases": 16,
+    "tasks": 32,
+    "targets": 4,
+    "queue_updates": 8
+  },
+  "runtime_imports": [
+    "collections",
+    "contextlib",
+    "contextvars",
+    "ctypes",
+    "dataclasses",
+    "hashlib",
+    "inspect",
+    "json",
+    "math",
+    "os",
+    "pathlib",
+    "shutil",
+    "sqlite3",
+    "types"
+  ],
+  "external_runtime_imports": [],
+  "parsed_runtime_modules": [
+    "__init__.py",
+    "atlas.py",
+    "core.py",
+    "data.py",
+    "expressions.py",
+    "fixtures.py",
+    "identity.py",
+    "information.py",
+    "organization.py",
+    "policies.py",
+    "profile.py",
+    "queries.py"
+  ],
+  "donor_provenance_files": 25,
+  "donor_provenance_mismatches": [],
+  "package_files": [
+    {
+      "path": "ARCHITECTURE_IDENTITY.json",
+      "bytes": 1525,
+      "sha256": "30940a4f0334c0d72ad898eaa554249bb43692d87b4c0969e1668e9e83b8f536"
+    },
+    {
+      "path": "eaie/__init__.py",
+      "bytes": 229,
+      "sha256": "e9ed7d145605626815e02847db7b29c51848b3706476b818b5dbaff410beb9cc"
+    },
+    {
+      "path": "eaie/atlas.py",
+      "bytes": 3329,
+      "sha256": "80b2f2a7247f5ac7bb5d84363b0df3146fa31b0576682e8d30284b5e6caa9713"
+    },
+    {
+      "path": "eaie/core.py",
+      "bytes": 36043,
+      "sha256": "7041ba6c5a9057a7c55d66472ed0a3d2582bb7e56ec205bfdfea11259372a35c"
+    },
+    {
+      "path": "eaie/data.py",
+      "bytes": 10925,
+      "sha256": "a29f1576f4a2149381703aa39d9d55f917cde5a97fb09bb87e09696301f723ad"
+    },
+    {
+      "path": "eaie/expressions.py",
+      "bytes": 1635,
+      "sha256": "f6e30b2d7158a961fd50f3e72d63f43e3692e6cc469609072a0af508a1a0c9f1"
+    },
+    {
+      "path": "eaie/fixtures.py",
+      "bytes": 3729,
+      "sha256": "d7fcc912118fa2e1a5b0401edd72e65fdb77fad3daa7fc08f87ec1acea26f20a"
+    },
+    {
+      "path": "eaie/identity.py",
+      "bytes": 1112,
+      "sha256": "34d05a894bdb412c08db69e2347808eed1ca4e6006ef5094d95a06a155672dbd"
+    },
+    {
+      "path": "eaie/information.py",
+      "bytes": 13252,
+      "sha256": "f8e5f4f4e61b482d2897356ac7e45de5aefc7c41a024f1bee47fcea97b1e3f5e"
+    },
+    {
+      "path": "eaie/organization.py",
+      "bytes": 6967,
+      "sha256": "e7ccd678b826929d081322b299f3a17b4623a4374a394e5dee54b349c0dddf06"
+    },
+    {
+      "path": "eaie/policies.py",
+      "bytes": 13038,
+      "sha256": "2a1f2b71d39c72915450cd88c34f59a033fd82b6c17912368da69b17f86ddd8d"
+    },
+    {
+      "path": "eaie/profile.py",
+      "bytes": 966,
+      "sha256": "de2747ae3ac4f0c1f00bc7a54d58cd234235282348949eb5dcaa7325a305ff65"
+    },
+    {
+      "path": "eaie/queries.py",
+      "bytes": 6980,
+      "sha256": "ce8da33a04dac7767491e2b2a83c8bc323905305058139ee13b9e3538ca7045d"
+    },
+    {
+      "path": "fixtures/BX.txt",
+      "bytes": 391,
+      "sha256": "561eb38e6682e9a2fc1604c3be637e8894f20f250dbff106797281a362913de8"
+    },
+    {
+      "path": "fixtures/R0.txt",
+      "bytes": 797,
+      "sha256": "b1ad16d09f5651e9505c8288ce1930d0ea35dfa213fa70750d24ee1dfdff2095"
+    },
+    {
+      "path": "fixtures/RX.txt",
+      "bytes": 238,
+      "sha256": "4a621598ba52c531ff1547c0e535224e5be4e2febfbd58636bbcbafc1f8ed427"
+    },
+    {
+      "path": "fixtures/S.txt",
+      "bytes": 340,
+      "sha256": "a9008316ff9304eb43576f20019ba3c65f632515ec506048dee8d385cdab3449"
+    },
+    {
+      "path": "fixtures/S2.txt",
+      "bytes": 348,
+      "sha256": "eba31deef62e145ad2a89a42d3b1958f741ec95a2e04fb4c976529791450e6c4"
+    },
+    {
+      "path": "fixtures/T.txt",
+      "bytes": 214,
+      "sha256": "99beac400b126f6ed09ae54c84c30e13dcdf817bffa0a48516a1afd1260e338f"
+    },
+    {
+      "path": "fixtures/U.txt",
+      "bytes": 214,
+      "sha256": "d82c5a44cddd6b724bdd8489408bf064e4c4af2f6260760e16a4b7fb1b910f3a"
+    },
+    {
+      "path": "PACKAGE_CONTRACT.md",
+      "bytes": 17065,
+      "sha256": "de2412120bd6d7b7d78ce76065a98cc7c42b03dfe37447d8c3a6e799cb9d30ed"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2826,
+      "sha256": "46738650a0850eb46c4d048fc2f79a8b56447c109f960b459f22d7544988f148"
+    },
+    {
+      "path": "SOURCE_PROVENANCE.json",
+      "bytes": 6734,
+      "sha256": "c31bfe6a97d7c485098bad7600010349d9dd81c23236563b3d2b8855a4612256"
+    },
+    {
+      "path": "tests/independent/b01_fault_worker.py",
+      "bytes": 1798,
+      "sha256": "e991d68f6e1cde9226196c47616594858c9242bb7f45beac8113751e76bbdf69"
+    },
+    {
+      "path": "tests/independent/bounds.py",
+      "bytes": 5528,
+      "sha256": "2fb2a0b3c3661026a1467696b61665cb8a707fa13b9ceea14797e36b4b586315"
+    },
+    {
+      "path": "tests/independent/controls.py",
+      "bytes": 21355,
+      "sha256": "6c7841bccf3a996f687fa42c44f7e567a8c92e595633fd824f2f1f16811ccc2b"
+    },
+    {
+      "path": "tests/independent/coupled.py",
+      "bytes": 4480,
+      "sha256": "c028eaa75671ba0bfd5d042613c5aa8c32b65da95c17333b285786b5e29659e4"
+    },
+    {
+      "path": "tests/independent/donor_oracles.py",
+      "bytes": 1022,
+      "sha256": "96657dc3667d9e2a3c0b6bf7d17e385a6979e590fc412c98f512485da4388607"
+    },
+    {
+      "path": "tests/independent/fault_worker.py",
+      "bytes": 614,
+      "sha256": "2febd73a40181c1f98290614a4b4cb1bdf8e96ace3b3689348e0375f731e2e2e"
+    },
+    {
+      "path": "tests/independent/ported_b01.py",
+      "bytes": 14540,
+      "sha256": "a19c1e0fb2aa63225f7bb3785d17342464af82b177c329769b6bf553ec66a19f"
+    },
+    {
+      "path": "tests/independent/ported_donor27.py",
+      "bytes": 26889,
+      "sha256": "e8b16ffc5d2221f69763b90a9874f7592a2ebeee17cf94f7c1f3c5707986ecd3"
+    },
+    {
+      "path": "tests/independent/README.md",
+      "bytes": 2572,
+      "sha256": "b97b64c7c79375c6b7c3c09816a3db2b6f22e25aa46b99353e6f1a0102eaf43d"
+    },
+    {
+      "path": "tests/independent/scenarios.py",
+      "bytes": 16471,
+      "sha256": "788830094e53c56fbd0147dcf0e48ce78fb74a23743bf6d8546dfc59cf6127ce"
+    },
+    {
+      "path": "tests/independent/semantics.py",
+      "bytes": 7181,
+      "sha256": "57f811142e2a4a4cf09005875b907313cc9b5d190d208cc76fce57f981c00584"
+    },
+    {
+      "path": "tests/independent/verify_independent.py",
+      "bytes": 10521,
+      "sha256": "5e574697e758e2764fe334af16efadfb64536040532bbff9162443638e59bb6f"
+    },
+    {
+      "path": "tests/independent/verify_regression27.py",
+      "bytes": 1907,
+      "sha256": "6ca7f8214a56e335016447f2e4e83a59bbb940d865117ecfac7029e5a98bd1e6"
+    },
+    {
+      "path": "tests/reference/smoke.py",
+      "bytes": 3416,
+      "sha256": "7621f4ae2a4e718f3385e31ac931eec987b626a0bf2f48e6da56ee7672c36c26"
+    },
+    {
+      "path": "tools/fault_worker.py",
+      "bytes": 609,
+      "sha256": "553bde24c56d4c81a1506c56c02a1998f9c9818c84070a72c0171d95feb03966"
+    },
+    {
+      "path": "tools/verify_faults.py",
+      "bytes": 1200,
+      "sha256": "0cde78ecbab80d53b0b8c8604e698e3b67c82adfb08b9836db31780dcdf95fda"
+    },
+    {
+      "path": "tools/verify_reference.py",
+      "bytes": 1389,
+      "sha256": "e0667a7619845c88b0d46c61c307dbf9fbc5f31e87d1f0e1f4c6d763af9b5b98"
+    }
+  ],
+  "package_manifest_sha256": "311f32004c5c00eb222d30dd99959f91a587f9c455f28bf85952e82dc50cc148"
+}

@@ -1,0 +1,70 @@
+{
+  "source": "52d247c5de71c8c811d768e87a55c25bf06f979cc0e203c5508fbdf0b0257481",
+  "input_bytes": 524673,
+  "selected_parent": 100,
+  "trace": [
+    {
+      "event": "c_call",
+      "input_characters": 524673,
+      "remaining": 20000000
+    },
+    {
+      "event": "c_return",
+      "input_characters": 524673,
+      "remaining": 20000000
+    }
+  ],
+  "parent": {
+    "total": 524673,
+    "stages": {
+      "nested_phase": 524673
+    }
+  },
+  "child": {
+    "total": 524673,
+    "stages": {
+      "json_lexical_bytes": 524673
+    }
+  },
+  "refusal": "WORK_CAPACITY",
+  "digest_followup": {
+    "canonical_bytes": 524673,
+    "canonical_work": 1049605,
+    "parent_limit": 1049705,
+    "trace": [
+      {
+        "event": "c_call",
+        "input_characters": 524673,
+        "remaining_inner_to_outer": [
+          18950395,
+          100
+        ]
+      },
+      {
+        "event": "c_return",
+        "input_characters": 524673,
+        "remaining_inner_to_outer": [
+          18950395,
+          100
+        ]
+      }
+    ],
+    "parent": {
+      "total": 1574278,
+      "stages": {
+        "nested_phase": 1574278
+      }
+    },
+    "child": {
+      "total": 1574278,
+      "stages": {
+        "json_node": 129,
+        "json_validate_bytes": 524674,
+        "canonical_sort_walk_node": 129,
+        "json_serialize_bytes": 524673,
+        "hash_bytes": 524673
+      }
+    },
+    "refusal": "WORK_CAPACITY"
+  }
+}

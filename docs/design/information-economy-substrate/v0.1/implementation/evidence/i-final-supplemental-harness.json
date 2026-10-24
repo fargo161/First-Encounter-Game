@@ -1,0 +1,8 @@
+{
+  "role": "Independent tester I",
+  "purpose": "Compact checkpoint16 observer; separately pinned supplemental worker, not a main matrix edit",
+  "files": {
+    "tests/independent/verify_nominal_checkpoint_compact.py": "3e3ef614f114b7c9969bfeabc8200b311cb1b765d441eee239d3755573a2817f"
+  },
+  "source_identity": "8e9d606f5aabeb9dd672106d586a44b52912c9ea0c7f6f8da5ecd977a5617c7f"
+}

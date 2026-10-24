@@ -1,0 +1,12 @@
+BX/1
+S/1@s1|actor|actor_0001->P
+T/1@t1|actor|actor_0007->P
+U/1@u1|actor|actor_0001->Q
+S/1@s1|mechanism|mechanism_0001->D
+T/1@t1|mechanism|mechanism_0009->D
+U/1@u1|mechanism|mechanism_0001->D2
+S/1@s1|mechanism|mechanism_0002->D2
+S/1@s1|point|mechanism_0001/point_0001->D;role:anchor
+S/1@s1|point|mechanism_0002/point_0001->D2;role:anchor
+S/1@s1|place|place_0001->L
+T/1@t1|place|place_0004->L

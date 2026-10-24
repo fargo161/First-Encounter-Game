@@ -1,0 +1,127 @@
+{
+  "scope": "Local architecture Gate A review artifacts only; no adopted runtime/schema",
+  "hash_domain": "SHA256 complete raw file bytes",
+  "self_excluded": true,
+  "files": [
+    {
+      "path": "evidence/doctor.json",
+      "bytes": 723,
+      "sha256": "18450671a7fa25efe753ca3dee5817600ee537282faa01084927c987814b33fc"
+    },
+    {
+      "path": "evidence/final-verification.json",
+      "bytes": 2971,
+      "sha256": "14803f220168c21d4a513fd4061fa5f99ccfabeac1d97d538c70d233a57b87b9"
+    },
+    {
+      "path": "evidence/independent-spike-verification.json",
+      "bytes": 3291,
+      "sha256": "616abf77b475033c1ef68fbc5b90ea24f8e08da4fc2a2851a53e4b05fcd56eda"
+    },
+    {
+      "path": "evidence/integrity-final.json",
+      "bytes": 1407,
+      "sha256": "d22471f58e823ad3ba500553c0c08b61183dda206306a8982bc1990ed38f42d9"
+    },
+    {
+      "path": "evidence/phase-entry.json",
+      "bytes": 31785,
+      "sha256": "a4bd5ea2b635c9fbd3a3e7c537307dc46a6bcd22deafade97e67f7950135a95b"
+    },
+    {
+      "path": "evidence/spike-index.json",
+      "bytes": 1796,
+      "sha256": "ca6aaaf8e0321af1beba8bfedc38453a16c2825e177467de2e27690df22ac084"
+    },
+    {
+      "path": "evidence/spike-source-r0-state-only.py.txt",
+      "bytes": 11601,
+      "sha256": "d90fc930d1c0281f556f48a16c2a3cac732967f9caf3935a79affe360a11db50"
+    },
+    {
+      "path": "evidence/spike-source.py.txt",
+      "bytes": 11785,
+      "sha256": "87a47a71a098b2f39928acee3908072e04de6c39770a8d35086c9f2d433372e5"
+    },
+    {
+      "path": "evidence/spikes-final-seed-1.json",
+      "bytes": 3529,
+      "sha256": "27f859050da6eb6d455094ec360f8d6b0690b1474dc30b6f56a2338676668ed4"
+    },
+    {
+      "path": "evidence/spikes-r0-state-only.json",
+      "bytes": 3528,
+      "sha256": "0c940e157c04e9b2d334a66bb24257a47990e52f4c097988eebb6b1b4c031be0"
+    },
+    {
+      "path": "IE_ADVERSARIAL_ARCHITECTURE_AUDIT.md",
+      "bytes": 26619,
+      "sha256": "a943dcc7fd2e68d31141041922ef093bed75112e3e8a98b0f5e2aa8c6c43147c"
+    },
+    {
+      "path": "IE_ARCHITECTURE_TESTABILITY_REVIEW.md",
+      "bytes": 23151,
+      "sha256": "ab25a20f96adbf1abb4ac092574d1e1b856db7f4039cd9fc1ae9b603df256f41"
+    },
+    {
+      "path": "IE_ENCOUNTER_INTEGRATION_CONSTRAINTS.md",
+      "bytes": 26714,
+      "sha256": "e1dfac8e855f73b35ca6aae6d496a11dcb1e7c55998b48778eee6576630568fd"
+    },
+    {
+      "path": "IE_GAME_AI_PRECEDENTS.md",
+      "bytes": 18579,
+      "sha256": "e84499293d30ddf97e4c64db29e19704056d253f1a27e8abb0e3d4d191b7f8bd"
+    },
+    {
+      "path": "IE_INFORMATION_SEMANTICS_CANDIDATES.md",
+      "bytes": 27105,
+      "sha256": "bbceff51e1b40fa78ebc0f9d6328ccfad749d7a4c3297e551baee67685c6fe2c"
+    },
+    {
+      "path": "IE_ORGANIZATIONAL_PROCESSING_CANDIDATE.md",
+      "bytes": 30941,
+      "sha256": "9a133a3ed7b46c59267cb04e299d23daecaff80aaae661d696491a3c3fc3efff"
+    },
+    {
+      "path": "IE_REAL_WORLD_COMMON_STRUCTURES.md",
+      "bytes": 19129,
+      "sha256": "d0abbef1738f21caf590b3131f7e8193f143a84e48e4c79ab748ab65bd3872cd"
+    },
+    {
+      "path": "IE_RESEARCH_AND_LICENSE_LEDGER.md",
+      "bytes": 3414,
+      "sha256": "7d0a1d05aa841802c234976154550fce7d3747fa6c40461a552680431bfd54c9"
+    },
+    {
+      "path": "IE_SOFTWARE_REUSE_EVALUATION.md",
+      "bytes": 17055,
+      "sha256": "8f91a89081f50cd031b8592e5475b375050db753a9cdacef74af908c550ea03f"
+    },
+    {
+      "path": "INFORMATION_ECONOMY_ARCHITECTURE_REVIEW.md",
+      "bytes": 11979,
+      "sha256": "49b0821e99821448368ec808477944617b81b59c97a5dfe53af958b76e4e5616"
+    },
+    {
+      "path": "INFORMATION_ECONOMY_ARCHITECTURE_V0_1.md",
+      "bytes": 45435,
+      "sha256": "30d8e8ce154f498f8bc523315eee12cb74923e2182a46bd34a057568c47a751f"
+    },
+    {
+      "path": "INFORMATION_ECONOMY_GATE_A_PROPOSAL.md",
+      "bytes": 19305,
+      "sha256": "d0e4585f2ad2f3ca05c5a012ff8d7465736fd977259fabc4b4af9474907a849a"
+    },
+    {
+      "path": "INFORMATION_ECONOMY_SPIKE_REPORT.md",
+      "bytes": 10380,
+      "sha256": "d4dded8f71acb2e17266e76e64da4490536c45b04ed233f0c3ffdb98c449d850"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5789,
+      "sha256": "d3dba2e0048e1826dd64f14756af4a4143d5edee7fc45c409f2e128344bbf454"
+    }
+  ]
+}

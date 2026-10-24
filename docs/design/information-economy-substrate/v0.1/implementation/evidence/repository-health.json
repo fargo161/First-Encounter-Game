@@ -1,0 +1,21 @@
+{
+  "captured_utc": "2026-10-24 03:25:38 UTC",
+  "scope": "Read-only repository health, not new IE runtime qualification",
+  "doctor": {
+    "status": "fulfilled",
+    "value": {
+      "chunk_id": "31f778",
+      "wall_time_seconds": 3.2313766,
+      "exit_code": 0,
+      "original_token_count": 188,
+      "output": "{\r\n  \"python\": \"3.12.0\",\r\n  \"node\": \"v24.18.0\",\r\n  \"platform\": \"Windows-11-10.0.26200-SP0\",\r\n  \"packages\": [\r\n    {\r\n      \"name\": \"encounter-atlas\",\r\n      \"path\": \"packages/encounter-atlas\",\r\n      \"present\": true\r\n    },\r\n    {\r\n      \"name\": \"room-creator\",\r\n      \"path\": \"packages/room-creator\",\r\n      \"present\": true\r\n    },\r\n    {\r\n      \"name\": \"zant\",\r\n      \"path\": \"packages/zant/C001_ZANT_GATE_A_R5\",\r\n      \"present\": true\r\n    }\r\n  ],\r\n  \"external_dependencies\": {\r\n    \"room_creator_library\": \"NOT_CONFIGURED_OPTIONAL\",\r\n    \"needed_for_bounded_checks\": false,\r\n    \"archive_replays\": \"OPTIONAL_PROVENANCE_ONLY; not accessed\",\r\n    \"browser\": \"OPTIONAL; Playwright 1.56.0 and compatible Chrome for historical browser audits\"\r\n  }\r\n}\r\n"
+    }
+  },
+  "integrity": {
+    "chunk_id": "5f5235",
+    "wall_time_seconds": 0.0000123,
+    "exit_code": 0,
+    "original_token_count": 290,
+    "output": "{\r\n  \"integrity\": \"PASS\",\r\n  \"stage\": 12,\r\n  \"removed_duplicates_still_absent\": 271,\r\n  \"encounter_files\": 2460,\r\n  \"encounter_tree_sha256\": \"f565b7f89329a02b17febec136b991ce99ee092db7d8c6b952c4159b9d32171c\",\r\n  \"encounter_source_inputs\": 132,\r\n  \"encounter_source_digest\": \"1a8558b3654e52881a288d2a5ab99e574878531f7a9d5fca86223e511146f085\",\r\n  \"AR0_R1_members\": 2310,\r\n  \"historical_A1_reconstructible_files\": 2731,\r\n  \"room_creator_files\": 384,\r\n  \"room_creator_baseline_tree_sha256\": \"63521f0d9068de3e4da40cd8ec4573d17b26481aa6557a908caaa8d10a4c485b\",\r\n  \"zant_files\": 166,\r\n  \"zant_tree_sha256\": \"e6650aa6e28ab0b51e4d67dbd6d9922060d49673631b261718ae326cf71761ba\",\r\n  \"acceptance_records_unchanged\": true,\r\n  \"statuses\": {\r\n    \"encounter_atlas\": {\r\n      \"acceptance\": \"ACCEPTED_ATLAS_A1_WITH_PRESERVED_ENCOUNTER_DEPENDENCIES\"\r\n    },\r\n    \"room_creator\": {\r\n      \"acceptance\": \"HOLD_FOR_FURTHER_REMEDIATION\"\r\n    },\r\n    \"zant\": {\r\n      \"neutral_acceptance\": \"OWNER_ACCEPTED_R4_CANDIDATE02\",\r\n      \"current_work_acceptance\": \"GATE_A_FAILED_AT_G_SLEEVE_PILOT\"\r\n    }\r\n  },\r\n  \"Gate_A_complete\": false,\r\n  \"external_archive_access_required\": false\r\n}\r\n"
+  }
+}

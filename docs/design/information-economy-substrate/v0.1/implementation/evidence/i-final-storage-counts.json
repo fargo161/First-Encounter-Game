@@ -1,0 +1,47 @@
+{
+  "payload_bytes": {
+    "root": 11525,
+    "history": 600299,
+    "meta": 100,
+    "checkpoints": 0
+  },
+  "encoded_prefix_bytes": 611824,
+  "page_size": 4096,
+  "page_count": 157,
+  "physical_files": {
+    "world.db": 643072
+  },
+  "required_workspace": 23199232,
+  "inventory": [
+    [
+      "table",
+      "checkpoints",
+      "checkpoints",
+      "CREATE TABLE checkpoints (generation INTEGER PRIMARY KEY, payload TEXT NOT NULL)"
+    ],
+    [
+      "table",
+      "history",
+      "history",
+      "CREATE TABLE history (seq INTEGER PRIMARY KEY, opkey TEXT UNIQUE NOT NULL, payload TEXT NOT NULL)"
+    ],
+    [
+      "table",
+      "meta",
+      "meta",
+      "CREATE TABLE meta (id INTEGER PRIMARY KEY CHECK(id=1), payload TEXT NOT NULL)"
+    ],
+    [
+      "table",
+      "root",
+      "root",
+      "CREATE TABLE root (id INTEGER PRIMARY KEY CHECK(id=1), payload TEXT NOT NULL)"
+    ],
+    [
+      "index",
+      "sqlite_autoindex_history_1",
+      "history",
+      null
+    ]
+  ]
+}

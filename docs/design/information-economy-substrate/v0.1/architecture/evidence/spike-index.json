@@ -1,0 +1,30 @@
+{
+  "captured_utc": "2026-10-24T02:38:30.994427+00:00",
+  "external_disposable_root": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-architecture-cca6d4a6",
+  "source_files": "Architecture-only disposable harness, not production substrate or canonical contracts",
+  "cleanup": "Retained external nonproduction sources/DBs for independent review; none copied into production packages; no deletion performed",
+  "records": [
+    {
+      "run": "run-seed-1",
+      "source": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-architecture-cca6d4a6\\run-seed-1\\results.json",
+      "retained": "spikes-r0-state-only.json",
+      "sha256": "0c940e157c04e9b2d334a66bb24257a47990e52f4c097988eebb6b1b4c031be0"
+    },
+    {
+      "run": "run-final-seed-1",
+      "source": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-architecture-cca6d4a6\\run-final-seed-1\\results.json",
+      "retained": "spikes-final-seed-1.json",
+      "sha256": "27f859050da6eb6d455094ec360f8d6b0690b1474dc30b6f56a2338676668ed4"
+    },
+    {
+      "source": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-architecture-cca6d4a6\\run_spikes.py",
+      "retained": "spike-source.py.txt",
+      "sha256": "87a47a71a098b2f39928acee3908072e04de6c39770a8d35086c9f2d433372e5"
+    },
+    {
+      "source": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-architecture-cca6d4a6\\run_spikes_r0_state_only.py",
+      "retained": "spike-source-r0-state-only.py.txt",
+      "sha256": "d90fc930d1c0281f556f48a16c2a3cac732967f9caf3935a79affe360a11db50"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "source": "3a7f824183cf15f015e3104233225f2c1207734be75205ca9fa5cd2ae4328892",
+  "baseline": {
+    "total": 8236,
+    "stages": {
+      "json_node": 3,
+      "json_validate_bytes": 4109,
+      "canonical_sort_walk_node": 2,
+      "full_key_sort": 14,
+      "json_serialize_bytes": 4108
+    }
+  },
+  "selected_budget": 4236,
+  "whole_object_encode_calls": [
+    {
+      "whole_object_encode": true,
+      "remaining_before": 108
+    }
+  ],
+  "refusal": "WORK_CAPACITY",
+  "limited": {
+    "total": 8236,
+    "stages": {
+      "json_node": 3,
+      "json_validate_bytes": 4109,
+      "canonical_sort_walk_node": 2,
+      "full_key_sort": 14,
+      "json_serialize_bytes": 4108
+    }
+  }
+}

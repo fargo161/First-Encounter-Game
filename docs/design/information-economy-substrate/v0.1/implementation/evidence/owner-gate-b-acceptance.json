@@ -1,0 +1,137 @@
+{
+  "schema": "EA-IE-owner-gate-b-acceptance/1",
+  "decision": "GB-01_ACCEPT",
+  "status": "OWNER_ACCEPTED_ISOLATED_BOUNDED_REFERENCE_PROOF",
+  "owner_acceptance": true,
+  "owner_approval_date": "2026-10-24",
+  "owner_timezone": "America/New_York",
+  "recorded_at_utc": "2026-10-24T04:58:48.290952+00:00",
+  "authority": "Explicit owner instruction in the current chat; independent qualification is evidence, not owner authority",
+  "owner_instruction_plain_text": "Gate B approved. Accept the exact EA-IE/0.1 / EA-IE/0.1.0 bounded Information Economy reference proof at the pinned source, profile, contract, backend, and stated proven/unproven scope.\nRecord owner acceptance of this isolated proof and preserve its exact qualification evidence.\nAcceptance includes the demonstrated single-authority L0 model, one KeyWrapping/L1 acquisition realization, bounded provenance and support semantics, generic L2 organizational processing, selective cross-organization referral, diagnostic-only support invalidation, neutral once-per-decision reference effect, persistence/replay/retry/refusal behavior, A-L scenarios, and the qualified 16-admission minimum workload.\nPreserve all stated limitations and deferred scope. Do not reinterpret this acceptance as production integration, city-scale capacity, indefinite campaign support, automatic psychology, final police/tax/insurance/gang rules, full KeyWrapping/BASED UI, migration, compaction, playable content, Unity/Stage 13, or authorization for remote Git actions.\nPreserve accepted C1/M3/B0/KeyWrapping/Economy and historical artifacts unchanged.\nRecord the Gate B acceptance artifact against the exact pinned source/profile/contract.\nStop after recording acceptance. No next phase is authorized by this approval.",
+  "package_path": "packages/encounter-ie-reference/0.1.0",
+  "native_family": "EA-IE/0.1",
+  "native_version": "EA-IE/0.1.0",
+  "source_identity": "8e9d606f5aabeb9dd672106d586a44b52912c9ea0c7f6f8da5ecd977a5617c7f",
+  "profile_id": "EA-IE-profile/1/8f4577177e06ed695a65e3276a65702ccc64d847632aae14f0ba5ca167ad21a5",
+  "profile": {
+    "id": "EA-IE-profile/1/8f4577177e06ed695a65e3276a65702ccc64d847632aae14f0ba5ca167ad21a5",
+    "accounting": "actual-passes/full-key-sort/1",
+    "limits": {
+      "operations": 64,
+      "checkpoints": 8,
+      "cold_work": 20000000,
+      "admission_work": 40000000,
+      "checkpoint_work": 40000000,
+      "query_work": 20000000,
+      "retry_work": 20000000,
+      "logical_bytes": 8388608,
+      "memory_bytes": 268435456,
+      "workspace_bytes": 1073741824,
+      "due_jobs": 8,
+      "query_bytes": 65536,
+      "request_bytes": 163840,
+      "intent_bytes": 8192,
+      "state_bytes": 131072,
+      "actors": 16,
+      "organizations": 4,
+      "roots": 32,
+      "versions": 64,
+      "receipts": 128,
+      "transmissions": 64,
+      "derivations": 32,
+      "premise_edges": 128,
+      "cases": 16,
+      "tasks": 32,
+      "targets": 4,
+      "queue_updates": 8
+    }
+  },
+  "contract_sha256": "051d67b49bff17a317818d9bd5aa15fff13211cc23b99ec4b2b9af911263a490",
+  "package_manifest_sha256": "5638981c903ec9fd33f5dc987ed91f606c05a815a331fe51936227016b373964",
+  "backend": {
+    "encoding": "UTF-8",
+    "journal": "DELETE",
+    "sqlite": "3.42.0",
+    "synchronous": "EXTRA",
+    "vfs": "win32"
+  },
+  "qualification_deployment": {
+    "python": "3.12.0",
+    "sqlite": "3.42.0",
+    "os": "Windows11 build26200",
+    "storage": "fixed local disk"
+  },
+  "adopted_candidate": {
+    "path": "docs/design/information-economy-substrate/v0.1/implementation/INFORMATION_ECONOMY_FINAL_ACCEPTANCE_CANDIDATE.md",
+    "bytes": 8639,
+    "sha256": "16397ff1735ac3893303b2bd72fc083ae0c9ab05c4c26ede5db2cf1e3b96a100"
+  },
+  "qualification_index": {
+    "path": "docs/design/information-economy-substrate/v0.1/implementation/evidence/final-verification.json",
+    "bytes": 20275,
+    "sha256": "1a7ea580d47670c3f6533c5e0e2a59f2aa2bc6d42daf79751b2cea4bd226b8fa"
+  },
+  "package_contract": {
+    "path": "packages/encounter-ie-reference/0.1.0/PACKAGE_CONTRACT.md",
+    "bytes": 21717,
+    "sha256": "051d67b49bff17a317818d9bd5aa15fff13211cc23b99ec4b2b9af911263a490"
+  },
+  "historical_architecture_identity": {
+    "path": "packages/encounter-ie-reference/0.1.0/ARCHITECTURE_IDENTITY.json",
+    "bytes": 3098,
+    "sha256": "8ae4decbd646018dd51578a305cd7998c4d8bc879fd9ecf5aa853975ff04c9e7"
+  },
+  "approved_architecture_pins": {
+    "INFORMATION_ECONOMY_ARCHITECTURE_V0_1.md": "30d8e8ce154f498f8bc523315eee12cb74923e2182a46bd34a057568c47a751f",
+    "INFORMATION_ECONOMY_GATE_A_PROPOSAL.md": "d0e4585f2ad2f3ca05c5a012ff8d7465736fd977259fabc4b4af9474907a849a"
+  },
+  "qualification_records": {
+    "independent_tester_I": "i-final-summary.json",
+    "independent_auditor_J": "j-final-08-results.json",
+    "builder_H_not_independent": "h-builder-final-10.json"
+  },
+  "qualification_reports": [
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/implementation/INFORMATION_ECONOMY_AUDIT_CLOSURE.md",
+      "bytes": 12395,
+      "sha256": "97eec9cf873dd3aaf01d71c3ca454c76ae926e995285c7586180a8f49e2c95e8"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/implementation/INFORMATION_ECONOMY_FINAL_ACCEPTANCE_CANDIDATE.md",
+      "bytes": 8639,
+      "sha256": "16397ff1735ac3893303b2bd72fc083ae0c9ab05c4c26ede5db2cf1e3b96a100"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/implementation/INFORMATION_ECONOMY_IMPLEMENTATION_REPORT.md",
+      "bytes": 13728,
+      "sha256": "308aa3c781dfc0c3be14e99bbc6e47b0d261193117f8c0cec47cb730f51ae657"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/implementation/INFORMATION_ECONOMY_INDEPENDENT_AUDIT.md",
+      "bytes": 27019,
+      "sha256": "9d4b99daa1b35f3fa97ad95a499de7ff81c68eaaaf986c865439f323bd2f93b9"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/implementation/INFORMATION_ECONOMY_TEST_REPORT.md",
+      "bytes": 28280,
+      "sha256": "92ca8222e92be318a26af2dd966f90e0aec78128f399693a9f0f4d5bad49f57e"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/implementation/README.md",
+      "bytes": 3386,
+      "sha256": "950909c9a0efc0879327ebc6bafb3597e9a82ea4adf554a5b1de8b36a1361581"
+    }
+  ],
+  "scope": "Exact adopted candidate and all stated proven/unproven scope; no additional acceptance or authorization",
+  "adopted_unproven_and_deferred_scope_text": "The finite caps are conjunctive ceilings. Sixty-four admissions,128KiB state,160KiB requests and8MiB prefix are not a promise that all maxima, every large shape or every listed count can be reached together. Refusal below an individual maximum is part of this proof; acknowledged prefixes must remain readable and retryable. The fixed fixture vocabulary and minimum synthetic cases do not establish city-scale organizations or an indefinite campaign.\n\nThe authored roots contain eight native actor identities, six information participants, four organizations and four containers. There is no arbitrary actor/organization creation or policy-loading API. Authored time targets are0\u20131,000,000; the wider JSON integer range does not expand that operation grammar. Count/byte boundary controls use smaller immutable profiles where the default maximum cannot be reached under other ceilings. Such tests establish the selected guard/refusal behavior; they do not establish simultaneous or default maximum capacity.\n\nThe trusted controller selects the actor and historical cutoff; cutoff is a native admission ordinal omitted from the actor projection. A public actor-controlled cutoff, identity/authentication or network protocol is not provided by this private reference API.\n\nThe work model counts defined byte passes, semantic node/edge/record visits, predicate terms and full-key sort bounds. Measurements are separate. Neither the counter nor conservative memory/workspace reservation is a Python/OS sandbox or CPU-instruction guarantee. The proof does not certify power/device/whole-volume loss, hostile plugins, formal timing isolation, distributed execution, arbitrary binary/backends or production reliability.\n\nSincerity, intent and incident actuality in A\u2013L are synthetic fixture stipulations. The proof preserves claims and acquired evidence; it does not infer psychology, automatically revise stance, resolve normative truth or implement police/tax/insurance/gang rules. Full KeyWrapping UI/composer and Player scratchpad/stance authoring, general dialogue/planning/memory, playable content, production integration, old-world compatibility, migration/compaction, accepted-package remediation, Unity/Stage13 and remote Git actions remain deferred.",
+  "new_external_runtime_dependencies": [],
+  "historical_pending_labels": "Preserved as pre-approval evidence; superseded only for this exact proof by this later owner decision",
+  "next_phase_authorized": false,
+  "remote_git_actions_authorized": false,
+  "markdown_record": {
+    "path": "docs/design/information-economy-substrate/v0.1/implementation/OWNER_GATE_B_ACCEPTANCE_RECORD.md",
+    "bytes": 7858,
+    "sha256": "8b43937a91eed1446ad19e737590db138babf9e22cbd78ff209390b1d1d256f3"
+  },
+  "recording_preservation_report": "docs/design/information-economy-substrate/v0.1/implementation/evidence/owner-gate-b-acceptance-preservation.json"
+}

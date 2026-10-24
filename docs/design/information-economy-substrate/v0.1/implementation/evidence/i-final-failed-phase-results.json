@@ -1,0 +1,165 @@
+{
+  "status": "PASS",
+  "groups": [
+    {
+      "phase": "admission",
+      "answer": {
+        "status": "O4",
+        "reason": "PROVEN_PREPUBLICATION_FAILURE",
+        "detail": "WORK_CAPACITY"
+      },
+      "reported": {
+        "total": 1429545,
+        "stages": {
+          "json_node": 17344,
+          "json_validate_bytes": 159409,
+          "canonical_sort_walk_node": 4716,
+          "full_key_sort": 166388,
+          "json_serialize_bytes": 74717,
+          "freeze_node": 654,
+          "scratch_cold_replay": 864263,
+          "retry_registry_visit": 0,
+          "json_size_node": 3375,
+          "json_size_bytes": 53806,
+          "result_registry_visit": 0,
+          "native_policy_term": 1,
+          "digest_encode_bytes": 42277,
+          "hash_bytes": 42277,
+          "obligation_record_visit": 4,
+          "due_job_visit": 0,
+          "information_record_visit": 20,
+          "raw_utf8_encode_bytes": 98,
+          "json_lexical_bytes": 98,
+          "json_decode_bytes": 98
+        }
+      },
+      "originating": {
+        "total": 1429545,
+        "stages": {
+          "json_node": 26958,
+          "json_validate_bytes": 251336,
+          "canonical_sort_walk_node": 7504,
+          "full_key_sort": 272933,
+          "json_serialize_bytes": 121509,
+          "freeze_node": 1300,
+          "sqlite_payload_read": 45164,
+          "sqlite_quick_check_bytes": 86016,
+          "raw_utf8_encode_bytes": 23238,
+          "json_lexical_bytes": 23238,
+          "json_decode_bytes": 23238,
+          "source_read_hash": 291320,
+          "digest_encode_bytes": 65570,
+          "hash_bytes": 65570,
+          "fixture_read_hash_decode_bytes": 40700,
+          "fixture_authority_parse_bytes": 4782,
+          "fixture_field_visit": 133,
+          "fixture_authored_parse_bytes": 10168,
+          "fixture_entity_visit": 24,
+          "fixture_binding_visit": 11,
+          "fixture_authority_record": 35,
+          "information_record_visit": 40,
+          "json_size_node": 4009,
+          "json_size_bytes": 63578,
+          "checkpoint_record_visit": 0,
+          "retry_candidate_visit": 0,
+          "snapshot_registry_visit": 0,
+          "snapshot_assembly_visit": 1166,
+          "retry_registry_visit": 0,
+          "result_registry_visit": 0,
+          "native_policy_term": 1,
+          "obligation_record_visit": 4,
+          "due_job_visit": 0
+        }
+      },
+      "completed_charge_units": 1356186,
+      "rejected_charge_attempts": [
+        [
+          "source_read_hash",
+          73359
+        ]
+      ],
+      "sql_unchanged": true,
+      "ordinal": 0,
+      "status": "PASS"
+    },
+    {
+      "phase": "checkpoint",
+      "answer": {
+        "status": "O4",
+        "reason": "WORK_CAPACITY"
+      },
+      "reported": {
+        "total": 1002761,
+        "stages": {
+          "sqlite_payload_read": 11621,
+          "sqlite_quick_check_bytes": 32768,
+          "raw_utf8_encode_bytes": 11621,
+          "json_lexical_bytes": 11621,
+          "json_decode_bytes": 11621,
+          "json_node": 6038,
+          "json_validate_bytes": 58124,
+          "canonical_sort_walk_node": 2074,
+          "full_key_sort": 78150,
+          "json_serialize_bytes": 34971,
+          "source_read_hash": 210187,
+          "digest_encode_bytes": 13181,
+          "hash_bytes": 13181,
+          "fixture_read_hash_decode_bytes": 40700,
+          "fixture_authority_parse_bytes": 4782,
+          "fixture_field_visit": 133,
+          "fixture_authored_parse_bytes": 10168,
+          "fixture_entity_visit": 24,
+          "fixture_binding_visit": 11,
+          "fixture_authority_record": 35,
+          "information_record_visit": 20,
+          "json_size_node": 1965,
+          "json_size_bytes": 31161,
+          "checkpoint_record_visit": 0,
+          "scratch_cold_replay": 418604
+        }
+      },
+      "originating": {
+        "total": 1002761,
+        "stages": {
+          "sqlite_payload_read": 33107,
+          "sqlite_quick_check_bytes": 73728,
+          "raw_utf8_encode_bytes": 23144,
+          "json_lexical_bytes": 23144,
+          "json_decode_bytes": 23144,
+          "json_node": 8634,
+          "json_validate_bytes": 84253,
+          "canonical_sort_walk_node": 2809,
+          "full_key_sort": 107972,
+          "json_serialize_bytes": 48358,
+          "source_read_hash": 420374,
+          "digest_encode_bytes": 14839,
+          "hash_bytes": 14839,
+          "fixture_read_hash_decode_bytes": 64239,
+          "fixture_authority_parse_bytes": 6376,
+          "fixture_field_visit": 228,
+          "fixture_authored_parse_bytes": 20336,
+          "fixture_entity_visit": 34,
+          "fixture_binding_visit": 22,
+          "fixture_authority_record": 35,
+          "information_record_visit": 20,
+          "json_size_node": 1965,
+          "json_size_bytes": 31161,
+          "checkpoint_record_visit": 0
+        }
+      },
+      "completed_charge_units": 999572,
+      "rejected_charge_attempts": [
+        [
+          "fixture_read_hash_decode_bytes",
+          3189
+        ]
+      ],
+      "sql_unchanged": true,
+      "ordinal": 0,
+      "status": "PASS"
+    }
+  ],
+  "pass": 2,
+  "fail": 0,
+  "skip": 0
+}

@@ -1,0 +1,28 @@
+{
+  "source": "ffccc76296388506ff020dbd4d58323da66fd8e16645656d3d733d4b880341ff",
+  "probe": "protected graph closure directly reports real traversed edges but charges zero record/node/edge work",
+  "closure": {
+    "protected": [
+      "Bind",
+      "CX",
+      "CY",
+      "Cause",
+      "Live",
+      "Policy",
+      "Prefix",
+      "Receipt",
+      "Req",
+      "Result",
+      "Root"
+    ],
+    "edges_visited": 16,
+    "eligible": [
+      "OU",
+      "OV"
+    ]
+  },
+  "actual_meter": {
+    "total": 0,
+    "stages": {}
+  }
+}

@@ -1,0 +1,660 @@
+{
+  "captured_utc": "2026-10-24T02:29:25.921138+00:00",
+  "branch": "codex/economy-substrate-v0.1-accepted-baseline",
+  "head": "3f348c61b41ed3e5dfbcfb817a9e31f31bda42be",
+  "tracked_diff": "",
+  "status": "?? docs/design/information-economy-substrate/v0.1/architecture/README.md\n?? docs/design/information-economy-substrate/v0.1/preflight/INFORMATION_ECONOMY_BOUNDEDNESS_PREFLIGHT.md\n?? docs/design/information-economy-substrate/v0.1/preflight/INFORMATION_ECONOMY_CONTEXT_INDEX.md\n?? docs/design/information-economy-substrate/v0.1/preflight/INFORMATION_ECONOMY_CORE_COMPATIBILITY_PREFLIGHT.md\n?? docs/design/information-economy-substrate/v0.1/preflight/INFORMATION_ECONOMY_DEPENDENCY_PREFLIGHT.md\n?? docs/design/information-economy-substrate/v0.1/preflight/INFORMATION_ECONOMY_LICENSE_LEDGER.md\n?? docs/design/information-economy-substrate/v0.1/preflight/INFORMATION_ECONOMY_OWNER_DECISION_REGISTER.md\n?? docs/design/information-economy-substrate/v0.1/preflight/INFORMATION_ECONOMY_PERSISTENCE_PREFLIGHT.md\n?? docs/design/information-economy-substrate/v0.1/preflight/INFORMATION_ECONOMY_PREFLIGHT_REPORT.md\n?? docs/design/information-economy-substrate/v0.1/preflight/INFORMATION_ECONOMY_PREFLIGHT_REVIEW.md\n?? docs/design/information-economy-substrate/v0.1/preflight/INFORMATION_ECONOMY_REPOSITORY_SAFETY.md\n?? docs/design/information-economy-substrate/v0.1/preflight/INFORMATION_ECONOMY_RISK_REGISTER.md\n?? docs/design/information-economy-substrate/v0.1/preflight/INFORMATION_ECONOMY_SCOPE_BOUNDARY.md\n?? docs/design/information-economy-substrate/v0.1/preflight/INFORMATION_ECONOMY_SPIKE_PLAN.md\n?? docs/design/information-economy-substrate/v0.1/preflight/INFORMATION_ECONOMY_TERM_COLLISION_REPORT.md\n?? docs/design/information-economy-substrate/v0.1/preflight/INFORMATION_ECONOMY_TEST_PLAN.md\n?? docs/design/information-economy-substrate/v0.1/preflight/README.md\n?? docs/design/information-economy-substrate/v0.1/preflight/evidence/artifact-manifest.json\n?? docs/design/information-economy-substrate/v0.1/preflight/evidence/core-b01-results.json\n?? docs/design/information-economy-substrate/v0.1/preflight/evidence/core-baseline.json\n?? docs/design/information-economy-substrate/v0.1/preflight/evidence/core-original-results.json\n?? docs/design/information-economy-substrate/v0.1/preflight/evidence/doctor.json\n?? docs/design/information-economy-substrate/v0.1/preflight/evidence/final-verification.json\n?? docs/design/information-economy-substrate/v0.1/preflight/evidence/integrity-final.json\n?? docs/design/information-economy-substrate/v0.1/preflight/evidence/legacy-baseline.json\n?? docs/design/information-economy-substrate/v0.1/preflight/evidence/preservation-check.json\n?? docs/design/information-economy-substrate/v0.1/preflight/evidence/repository-safety-snapshot.json\n?? docs/design/store-household-paper-fixture/v0.2/preflight/STORE_FIXTURE_D01_D11_TOUCH_MAP.md\n?? docs/design/store-household-paper-fixture/v0.2/preflight/STORE_FIXTURE_FIXED_VS_EMERGENT.md\n?? docs/design/store-household-paper-fixture/v0.2/preflight/STORE_FIXTURE_NUMERIC_SANITY_CHECK.md\n?? docs/design/store-household-paper-fixture/v0.2/preflight/STORE_FIXTURE_OWNER_DECISION_REGISTER.md\n?? docs/design/store-household-paper-fixture/v0.2/preflight/STORE_FIXTURE_PREFLIGHT_SUMMARY.md\n?? docs/design/store-household-paper-fixture/v0.2/preflight/STORE_FIXTURE_READINESS_REPORT.md\n?? docs/design/store-household-paper-fixture/v0.2/preflight/STORE_FIXTURE_TRACEABILITY_CHECK.md\n?? docs/design/store-household-paper-fixture/v0.3/STORE_HOUSEHOLD_PAPER_FIXTURE_V0_3.md\n?? docs/design/store-household-paper-fixture/v0.3/UPDATED_PREFLIGHT.md\n?? docs/design/store-household-paper-fixture/v0.3/run-01/STORE_FIXTURE_RUN_01_ARCHITECTURE_FINDINGS.md\n?? docs/design/store-household-paper-fixture/v0.3/run-01/STORE_FIXTURE_RUN_01_CANONICAL_TRACE.md\n?? docs/design/store-household-paper-fixture/v0.3/run-01/STORE_FIXTURE_RUN_01_END_STATE.md\n?? docs/design/store-household-paper-fixture/v0.3/run-01/STORE_FIXTURE_RUN_01_GAMEPLAY_FINDINGS.md\n?? docs/design/store-household-paper-fixture/v0.3/run-01/STORE_FIXTURE_RUN_01_NARRATIVE.md\n?? docs/design/store-household-paper-fixture/v0.3/run-01/STORE_FIXTURE_RUN_01_SUMMARY.md\n?? docs/design/store-household-paper-fixture/v0.3/run-01/STORE_FIXTURE_RUN_01_TRACEABILITY_AUDIT.md",
+  "protected_files": [
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/preflight/evidence/artifact-manifest.json",
+      "bytes": 4778,
+      "sha256": "83dcd58a47b3dc430746699fad8977ab5af8bbcf70444a7a0f3600f811c1c1ec"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/preflight/evidence/core-b01-results.json",
+      "bytes": 529,
+      "sha256": "2bb664700db9f5d827e430fdefffe825c1ea54684bf62a9da8e9ebeb0f0a0686"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/preflight/evidence/core-baseline.json",
+      "bytes": 2309,
+      "sha256": "b2d10fa7193088c1aad71bfb7b33b4b62d742d12f3a4f2cd4b3e67d0c47233f1"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/preflight/evidence/core-original-results.json",
+      "bytes": 3993,
+      "sha256": "5f39f3c5b666d2c0003dd2ee337536c2335c061be4d242529f50f6cbc3ceb718"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/preflight/evidence/core-unit.log",
+      "bytes": 3287,
+      "sha256": "eadc3a7fa26d5910ead9922a58f8905916f5826af19355a54fdfc91cffb6a0fe"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/preflight/evidence/doctor.json",
+      "bytes": 723,
+      "sha256": "18450671a7fa25efe753ca3dee5817600ee537282faa01084927c987814b33fc"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/preflight/evidence/final-verification.json",
+      "bytes": 2031,
+      "sha256": "19d68fe4f0dcfd3dfce7c7920df1c60bd21e7e177e14ecb935f97376ca974ef7"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/preflight/evidence/integrity-final.json",
+      "bytes": 1407,
+      "sha256": "214ef67d40b8371b95cd07c5ece1ba3b3476407a343e1ac6bd4b312e72d18fa3"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/preflight/evidence/legacy-baseline.json",
+      "bytes": 3379,
+      "sha256": "24018d44991c90a20e9952c34aea5843ac3725e3d1d867719e920b521ec796b7"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/preflight/evidence/preservation-check.json",
+      "bytes": 2618,
+      "sha256": "00affa96909766073e777b38a19b8a6e3da6abcfc0c90cdd1d053ff8857c1fd3"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/preflight/evidence/repository-safety-snapshot.json",
+      "bytes": 7028,
+      "sha256": "5ddbb917bb8088cb66b5a544867059095f996bf679b6fa7f40c2bf9bd7352262"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/preflight/INFORMATION_ECONOMY_BOUNDEDNESS_PREFLIGHT.md",
+      "bytes": 24175,
+      "sha256": "1be4fbc7eeaa660b3524f91eef6ca57eb3439ee770f6d089a3b7bc223fb52b19"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/preflight/INFORMATION_ECONOMY_CONTEXT_INDEX.md",
+      "bytes": 14783,
+      "sha256": "b9c33dfd678699809e9e93c6ebb7e6b45b94eccd4c7870b8bfcd196aef0dece2"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/preflight/INFORMATION_ECONOMY_CORE_COMPATIBILITY_PREFLIGHT.md",
+      "bytes": 11840,
+      "sha256": "5292a7114ba536774960eb9f85611c6e47aeb9b81e62b85756e604af0cf68a4c"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/preflight/INFORMATION_ECONOMY_DEPENDENCY_PREFLIGHT.md",
+      "bytes": 17799,
+      "sha256": "f08c3b892825156017d8132803fa44be96b904894f9e532528b9fbe574d8e6a9"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/preflight/INFORMATION_ECONOMY_LICENSE_LEDGER.md",
+      "bytes": 10003,
+      "sha256": "7af4c57edaee0a6b163fd7422feceece7389184b6ed1c3d09d0b8a069b8c744a"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/preflight/INFORMATION_ECONOMY_OWNER_DECISION_REGISTER.md",
+      "bytes": 6413,
+      "sha256": "cb52b1f899b6befb79d0559a28413314c762aaf24ac473dc716f7cd68fda7138"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/preflight/INFORMATION_ECONOMY_PERSISTENCE_PREFLIGHT.md",
+      "bytes": 15181,
+      "sha256": "6a853768084ca8be882ae1bead65f29a48897ce6b673625738c501424e9e7234"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/preflight/INFORMATION_ECONOMY_PREFLIGHT_REPORT.md",
+      "bytes": 11443,
+      "sha256": "27510223a6b4572aad2783839eaa93f90db1f441c01ad5e45e724ffbeb07a2d4"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/preflight/INFORMATION_ECONOMY_PREFLIGHT_REVIEW.md",
+      "bytes": 3239,
+      "sha256": "01cc459a6169995bff420b07569c1ccdaf8ac7ae4806e351b7ce5b2aeac949e7"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/preflight/INFORMATION_ECONOMY_REPOSITORY_SAFETY.md",
+      "bytes": 5529,
+      "sha256": "22a618f55f30e5330c510f008ac6604ea8e19e9f353fbad75d2713abb8718155"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/preflight/INFORMATION_ECONOMY_RISK_REGISTER.md",
+      "bytes": 6360,
+      "sha256": "cb7b1d2d12b9cca479913904304818e4efd6a84d83b1b5d366d7b34270ee34bc"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/preflight/INFORMATION_ECONOMY_SCOPE_BOUNDARY.md",
+      "bytes": 8101,
+      "sha256": "629566be339f80c6e5a24680dfb51e11effc6f2622b09a2ae0484f69d50f4b45"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/preflight/INFORMATION_ECONOMY_SPIKE_PLAN.md",
+      "bytes": 4153,
+      "sha256": "0cc989f020a1e8cff3defeb7ad235f0b7f61b8f5b602e5e3f3705bd91c064964"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/preflight/INFORMATION_ECONOMY_TERM_COLLISION_REPORT.md",
+      "bytes": 11724,
+      "sha256": "f7eb78228abe6440b2b55f89c4432a1be2e3bf3f1da5f783c054465e9ca2c104"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/preflight/INFORMATION_ECONOMY_TEST_PLAN.md",
+      "bytes": 27679,
+      "sha256": "23ca382a9bd0e1afafa0c707ab1a7aa8cbdedafe68debc7a664e86dd2671b3a6"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/preflight/README.md",
+      "bytes": 3883,
+      "sha256": "400caa4e6343a0744918cc8a4fad149458f5a6babe5c0de8422975ca94b16270"
+    },
+    {
+      "path": "docs/design/store-household-paper-fixture/v0.2/preflight/STORE_FIXTURE_D01_D11_TOUCH_MAP.md",
+      "bytes": 12970,
+      "sha256": "3902e2856559b3a03d8070050116e983110ca5e1458168d96984c77d22cb5d92"
+    },
+    {
+      "path": "docs/design/store-household-paper-fixture/v0.2/preflight/STORE_FIXTURE_FIXED_VS_EMERGENT.md",
+      "bytes": 12921,
+      "sha256": "544bfe641743679f649194939ca6074b5c96f92286692f871a0592cb3aa7d82a"
+    },
+    {
+      "path": "docs/design/store-household-paper-fixture/v0.2/preflight/STORE_FIXTURE_NUMERIC_SANITY_CHECK.md",
+      "bytes": 15723,
+      "sha256": "333c59f5885763981a10a1abe1bbfe4037ba3bf83edcae1c535a34ee944a6dd7"
+    },
+    {
+      "path": "docs/design/store-household-paper-fixture/v0.2/preflight/STORE_FIXTURE_OWNER_DECISION_REGISTER.md",
+      "bytes": 19467,
+      "sha256": "71d3145ebdfd4f34cdad21fc8b50fa554f42a7540899be30bb13c5f66768316b"
+    },
+    {
+      "path": "docs/design/store-household-paper-fixture/v0.2/preflight/STORE_FIXTURE_PREFLIGHT_SUMMARY.md",
+      "bytes": 7587,
+      "sha256": "f452570152fbe430813cf9cd3e1cca4e2235d7df97577cbf72d007603c9017c7"
+    },
+    {
+      "path": "docs/design/store-household-paper-fixture/v0.2/preflight/STORE_FIXTURE_READINESS_REPORT.md",
+      "bytes": 7441,
+      "sha256": "6741d1d049f7b429833ad2a2f35aff62b8421c91e360b35d4abc3abf87873900"
+    },
+    {
+      "path": "docs/design/store-household-paper-fixture/v0.2/preflight/STORE_FIXTURE_TRACEABILITY_CHECK.md",
+      "bytes": 18923,
+      "sha256": "174817da7c6acfdd5f44080632619622c5b6fdba701820bb09a7084683c4e24f"
+    },
+    {
+      "path": "docs/design/store-household-paper-fixture/v0.3/run-01/STORE_FIXTURE_RUN_01_ARCHITECTURE_FINDINGS.md",
+      "bytes": 6655,
+      "sha256": "932b9f4acb062aa6d3c78f2b37b0d99062691c9a4cb6bb5487eec3805dce28a7"
+    },
+    {
+      "path": "docs/design/store-household-paper-fixture/v0.3/run-01/STORE_FIXTURE_RUN_01_CANONICAL_TRACE.md",
+      "bytes": 22028,
+      "sha256": "7c412b91da2c8ef82f9976e9dfceb79e27d57c67bf6337518fee2aa6e5567cb6"
+    },
+    {
+      "path": "docs/design/store-household-paper-fixture/v0.3/run-01/STORE_FIXTURE_RUN_01_END_STATE.md",
+      "bytes": 6595,
+      "sha256": "8a912676f8bc5d6198f42cf726ad9acc18f3daa940bbc7a89ca283dd8a305d92"
+    },
+    {
+      "path": "docs/design/store-household-paper-fixture/v0.3/run-01/STORE_FIXTURE_RUN_01_GAMEPLAY_FINDINGS.md",
+      "bytes": 5310,
+      "sha256": "6832e2e152efaaec689cb8572711996f96064ca8e61bdef8c86a71fb87f02277"
+    },
+    {
+      "path": "docs/design/store-household-paper-fixture/v0.3/run-01/STORE_FIXTURE_RUN_01_NARRATIVE.md",
+      "bytes": 4782,
+      "sha256": "4be7aadf70ca6c353f0823bc3ba9579b106f09f33a065229fd81f3590fea11a2"
+    },
+    {
+      "path": "docs/design/store-household-paper-fixture/v0.3/run-01/STORE_FIXTURE_RUN_01_SUMMARY.md",
+      "bytes": 2368,
+      "sha256": "c70937138092e037b4f5edab0c7ac2a946203c6c0450757b9331935b075d34fc"
+    },
+    {
+      "path": "docs/design/store-household-paper-fixture/v0.3/run-01/STORE_FIXTURE_RUN_01_TRACEABILITY_AUDIT.md",
+      "bytes": 7108,
+      "sha256": "a3d41afdaab4c2b3fa3136a7561d902ad1f827dba5308ca0c42d9f5486c57260"
+    },
+    {
+      "path": "docs/design/store-household-paper-fixture/v0.3/STORE_HOUSEHOLD_PAPER_FIXTURE_V0_3.md",
+      "bytes": 28326,
+      "sha256": "6e98229051e6aaf2bf15d352b5ef0be60069dafc1ae5a4ee7437dda126432206"
+    },
+    {
+      "path": "docs/design/store-household-paper-fixture/v0.3/UPDATED_PREFLIGHT.md",
+      "bytes": 1248,
+      "sha256": "05225f627eccbefc8bee7ed0d58170e206f8f0ad954e977ef888a3a87b975d84"
+    },
+    {
+      "path": "packages/encounter-core-c1/0.1.3/eac1/__init__.py",
+      "bytes": 120,
+      "sha256": "b02e40915763341fb5c3a59e025c83d1be761ad1cef91b042b7f013908d82b83"
+    },
+    {
+      "path": "packages/encounter-core-c1/0.1.3/eac1/__main__.py",
+      "bytes": 1816,
+      "sha256": "1137a4966010a499ab714925a53fd3199194bb16fe3b5f6fa6063de0827dac89"
+    },
+    {
+      "path": "packages/encounter-core-c1/0.1.3/eac1/atlas.py",
+      "bytes": 2940,
+      "sha256": "e199d0404848f67d3f5b30ad6a057b4d3842bfb694bff2a6bdade8d739515b69"
+    },
+    {
+      "path": "packages/encounter-core-c1/0.1.3/eac1/core.py",
+      "bytes": 25234,
+      "sha256": "ff3a3767c81eed19b97f7603e5f3248b0181d5f5ee19a2c40c09fb95a82a2716"
+    },
+    {
+      "path": "packages/encounter-core-c1/0.1.3/eac1/data.py",
+      "bytes": 6548,
+      "sha256": "c8ad207f2d17ca8162ea044f7ee008860f5af1eed1f7878b775112d5f5c6b398"
+    },
+    {
+      "path": "packages/encounter-core-c1/0.1.3/eac1/policies.py",
+      "bytes": 10295,
+      "sha256": "475ae5be2751baaca6bc46af9bfd5f13956dd87fb8b0de4315c506de89cdf35d"
+    },
+    {
+      "path": "packages/encounter-core-c1/0.1.3/fixtures/BX.txt",
+      "bytes": 391,
+      "sha256": "561eb38e6682e9a2fc1604c3be637e8894f20f250dbff106797281a362913de8"
+    },
+    {
+      "path": "packages/encounter-core-c1/0.1.3/fixtures/R0.txt",
+      "bytes": 797,
+      "sha256": "b1ad16d09f5651e9505c8288ce1930d0ea35dfa213fa70750d24ee1dfdff2095"
+    },
+    {
+      "path": "packages/encounter-core-c1/0.1.3/fixtures/RX.txt",
+      "bytes": 238,
+      "sha256": "4a621598ba52c531ff1547c0e535224e5be4e2febfbd58636bbcbafc1f8ed427"
+    },
+    {
+      "path": "packages/encounter-core-c1/0.1.3/fixtures/S.txt",
+      "bytes": 340,
+      "sha256": "a9008316ff9304eb43576f20019ba3c65f632515ec506048dee8d385cdab3449"
+    },
+    {
+      "path": "packages/encounter-core-c1/0.1.3/fixtures/S2.txt",
+      "bytes": 348,
+      "sha256": "eba31deef62e145ad2a89a42d3b1958f741ec95a2e04fb4c976529791450e6c4"
+    },
+    {
+      "path": "packages/encounter-core-c1/0.1.3/fixtures/T.txt",
+      "bytes": 214,
+      "sha256": "99beac400b126f6ed09ae54c84c30e13dcdf817bffa0a48516a1afd1260e338f"
+    },
+    {
+      "path": "packages/encounter-core-c1/0.1.3/fixtures/U.txt",
+      "bytes": 214,
+      "sha256": "d82c5a44cddd6b724bdd8489408bf064e4c4af2f6260760e16a4b7fb1b910f3a"
+    },
+    {
+      "path": "packages/encounter-core-c1/0.1.3/README.md",
+      "bytes": 10384,
+      "sha256": "b0ecacec4275710c1053bc953d2db045ccec24b2d5f730ca91c2aec2c2eab756"
+    },
+    {
+      "path": "packages/encounter-core-c1/0.1.3/SOURCE_IDENTITY.json",
+      "bytes": 4655,
+      "sha256": "8daf862127b4e318f0e3cf60f0bd88863e470677d720e70c849e22ca6ba620db"
+    },
+    {
+      "path": "packages/encounter-core-c1/0.1.3/tests/reference.py",
+      "bytes": 1022,
+      "sha256": "96657dc3667d9e2a3c0b6bf7d17e385a6979e590fc412c98f512485da4388607"
+    },
+    {
+      "path": "packages/encounter-core-c1/0.1.3/tests/test_core.py",
+      "bytes": 26436,
+      "sha256": "6c8ca458eec24bc36f162e4dd42b5695af14571767ea15e81e5049174bb02105"
+    },
+    {
+      "path": "packages/encounter-core-c1/0.1.3/tools/b01_fault_worker.py",
+      "bytes": 1722,
+      "sha256": "af959dd9b81904754e55a4fed6a4fc1e242b424738ac51599b3e818ddee57522"
+    },
+    {
+      "path": "packages/encounter-core-c1/0.1.3/tools/continuity_worker.py",
+      "bytes": 1086,
+      "sha256": "b71aa94c8dea3b77574d58f43ee0c99c21dab2e14676735853d13665817be797"
+    },
+    {
+      "path": "packages/encounter-core-c1/0.1.3/tools/fault_worker.py",
+      "bytes": 1405,
+      "sha256": "1f88b0befe1e79224090b32ac2b482eb95c8e103b6310f94b73dae74a0d18ab4"
+    },
+    {
+      "path": "packages/encounter-core-c1/0.1.3/tools/legacy-ar0-r1.mjs",
+      "bytes": 1283,
+      "sha256": "ade84e2bdf57976f4035e99b7f74dfbae832a9c289e7ad94e64a284c4c90d268"
+    },
+    {
+      "path": "packages/encounter-core-c1/0.1.3/tools/legacy_browser.mjs",
+      "bytes": 10528,
+      "sha256": "c887c6df06a20e44b5fbd8c1ff3a696b0af3319779cf265444d010b47179c433"
+    },
+    {
+      "path": "packages/encounter-core-c1/0.1.3/tools/legacy_gates.py",
+      "bytes": 2397,
+      "sha256": "11dab076d5207d4794c915d040fe37a0eb852f66c208708392881ef3188eb656"
+    },
+    {
+      "path": "packages/encounter-core-c1/0.1.3/tools/verify.py",
+      "bytes": 9603,
+      "sha256": "00e47f0ccdd85c51ddc4cbb48b958409d57d58fc34e1a5d020c1c9a7a9497202"
+    },
+    {
+      "path": "packages/encounter-core-c1/0.1.3/tools/verify_b01.py",
+      "bytes": 13997,
+      "sha256": "65c91a319a6ce95d6791eee933148b285940dacd862f5aeff10df17c2902dc7b"
+    },
+    {
+      "path": "packages/encounter-core-c1/negative-control/reproduce.py",
+      "bytes": 3711,
+      "sha256": "d4448a878ea0d189460890b25b649a3c2e468c65d3472e2930aed6508d609596"
+    },
+    {
+      "path": "packages/encounter-core-c1/provenance/0.1.3/EA_C1_0_1_3_ACCEPTANCE_MANIFEST.json",
+      "bytes": 3121,
+      "sha256": "b35191ea1cb4196d0d9798fa9952ea4eaf7ab32c0d2d40e26c357929162f40d7"
+    },
+    {
+      "path": "packages/encounter-core-c1/provenance/0.1.3/EA_C1_0_1_3_OWNER_ACCEPTANCE_RECORD.md",
+      "bytes": 5047,
+      "sha256": "4ad1d709da0fe336610e58d2324a5cf14078b078433913901bc94719885b914c"
+    },
+    {
+      "path": "packages/encounter-core-c1/provenance/0.1.3/EA_C1_B01_IMPLEMENTATION_CANDIDATE_v0_1_3.identity.json",
+      "bytes": 1264,
+      "sha256": "f270287819bca15d34105cdc8a4781e9ac6a7e667bdc90a2c7b560a75d4c8cb7"
+    },
+    {
+      "path": "packages/encounter-core-c1/README.md",
+      "bytes": 4821,
+      "sha256": "193e90efd4729cb0728937d6e54ce1e21236cc61c94511c426a267ba31af76f9"
+    },
+    {
+      "path": "packages/encounter-core-c1/review/0.1.3/EA_C1_B01_INDEPENDENT_AUDIT_REPORT.md",
+      "bytes": 33576,
+      "sha256": "cab9139441890c1e9e5232a596db48cb3a3c371971d1225c165699d5a9c67aa7"
+    },
+    {
+      "path": "packages/encounter-core-c1/review/0.1.3/EA_C1_B01_INDEPENDENT_TEST_REPORT.md",
+      "bytes": 27958,
+      "sha256": "4d8f285eab75d17b9e79a3b17f11093959ff6fa62674c7a708d0f33ca1313198"
+    },
+    {
+      "path": "docs/provenance/artifact-catalog.json",
+      "bytes": 48198,
+      "sha256": "d25ed684e8c4d7d0f91dc4062f2172eaddc0e1bae8273749e628ae36ad940d1d"
+    },
+    {
+      "path": "docs/provenance/encounter-atlas-stage4-import.json",
+      "bytes": 681520,
+      "sha256": "ebcde2df7f706aa9f3bd4ce79fe554ea1b0e20d75a3f5ca8546567eab18c8b2d"
+    },
+    {
+      "path": "docs/provenance/encounter-atlas-stage5-verification.json",
+      "bytes": 13718,
+      "sha256": "6185440950f28fff6a1d654087236d2de959867bdab24fa84d995539cda84ab9"
+    },
+    {
+      "path": "docs/provenance/encounter-core-c1-0.1.3.json",
+      "bytes": 12928,
+      "sha256": "fb82ccf3a5d0b03505624f2e94d30994ea3f9a50fa255f7f13aed6d4d78499e1"
+    },
+    {
+      "path": "docs/provenance/foundation-file-inventory.json",
+      "bytes": 5389,
+      "sha256": "b5e2c04e906947bfbe5183b882740edab08da116f556f8437862d8883ca346ad"
+    },
+    {
+      "path": "docs/provenance/governing/FIRST_ENCOUNTER_GAME_AUTHORIZE_STAGES_0_TO_3.md",
+      "bytes": 6468,
+      "sha256": "9304e90151bf52521d1a118ce16396363ac4fd8c95709f365cabc495a6478bd2"
+    },
+    {
+      "path": "docs/provenance/governing/FIRST_ENCOUNTER_GAME_STAGE_10_AUTHORIZATION.md",
+      "bytes": 5387,
+      "sha256": "9c3af730ac01012c036d954afac038dc21d8f5e7addd7363be4a0235418af422"
+    },
+    {
+      "path": "docs/provenance/governing/FIRST_ENCOUNTER_GAME_STAGE_11_AUTHORIZATION.md",
+      "bytes": 6756,
+      "sha256": "5f44b3c131e2413097bda73ad62a4883d8c15a0069a137fbc5bdcbb6ab429ca9"
+    },
+    {
+      "path": "docs/provenance/governing/FIRST_ENCOUNTER_GAME_STAGE_12_NARROW_AUTHORIZATION.md",
+      "bytes": 11312,
+      "sha256": "8201eecd9d234c626f1bbcb9608b018013ee4f790f32c796a627752fcd4309d5"
+    },
+    {
+      "path": "docs/provenance/governing/FIRST_ENCOUNTER_GAME_STAGE_4_AUTHORIZATION.md",
+      "bytes": 2151,
+      "sha256": "fcabb0599cced3c96a93006c752b691f4539b9b67e11a0fc80012f498df06a3d"
+    },
+    {
+      "path": "docs/provenance/governing/FIRST_ENCOUNTER_GAME_STAGE_5_AUTHORIZATION.md",
+      "bytes": 3509,
+      "sha256": "c46dbc5f3a4ceec29460838718e17deaabc37b4fca5ac73c532ca3a79c1cf155"
+    },
+    {
+      "path": "docs/provenance/governing/FIRST_ENCOUNTER_GAME_STAGE_6_AUTHORIZATION.md",
+      "bytes": 3709,
+      "sha256": "22712384616203bc12de63e041ccf66062aeef6fbd8e54244b89e04ffd949c8e"
+    },
+    {
+      "path": "docs/provenance/governing/FIRST_ENCOUNTER_GAME_STAGE_7_AUTHORIZATION.md",
+      "bytes": 5162,
+      "sha256": "a8218c7a24188cba8576a9971d31caf94293595196e4f0a77968c26cd2bbae5c"
+    },
+    {
+      "path": "docs/provenance/governing/FIRST_ENCOUNTER_GAME_STAGE_8_AUTHORIZATION.md",
+      "bytes": 4801,
+      "sha256": "e862c281dfca0203b5474a75e351e63bfb60d1f5de3f0fee79c5f2adf6f91e22"
+    },
+    {
+      "path": "docs/provenance/governing/FIRST_ENCOUNTER_GAME_STAGE_9_AUTHORIZATION.md",
+      "bytes": 6124,
+      "sha256": "27efcefb694f7d302982ce44175bd092f21baf056a0a5cec517e604968cbb6f0"
+    },
+    {
+      "path": "docs/provenance/governing/GITHUB_CONSOLIDATION_AUDIT_LAUNCH.md",
+      "bytes": 17113,
+      "sha256": "cae388e3f659a42c0539ed7d57e5dd606e277d1797e4d0e6d7d592dce9ca41c7"
+    },
+    {
+      "path": "docs/provenance/known-defects.json",
+      "bytes": 5738,
+      "sha256": "a8c5715bd8604fb67c083f933f848dfb0924f5f95347a6b5306dc32d28e4a657"
+    },
+    {
+      "path": "docs/provenance/local-locations.json",
+      "bytes": 613,
+      "sha256": "9c3baaee3fb6acba14150aadf1298e0a93cf3ac8a903260e0c03a1259a4d5acc"
+    },
+    {
+      "path": "docs/provenance/preservation-checkpoint.json",
+      "bytes": 13637,
+      "sha256": "26321556f29ef3730f3670be99744b3241e99f4afde4062a7c1a13a592a8c574"
+    },
+    {
+      "path": "docs/provenance/room-creator-stage6-import.json",
+      "bytes": 123203,
+      "sha256": "51b4e07b756af40a76a2c75c8fbd2365a0b2a2c8ac6cc5746344e57ac5249788"
+    },
+    {
+      "path": "docs/provenance/room-creator-stage7-verification.json",
+      "bytes": 22916,
+      "sha256": "6d9d8015c9620d17e189eb05880ddf5807bf8c856559b3721bfac400db8a6b13"
+    },
+    {
+      "path": "docs/provenance/source-authority.json",
+      "bytes": 35890,
+      "sha256": "725da6741df686cbc12fe02e439ac008c1abf96e8fc020077f4a2b48ee84efd2"
+    },
+    {
+      "path": "docs/provenance/source-fingerprints.json",
+      "bytes": 63884,
+      "sha256": "11f113b72e1ce4322cc1089156714b6073c5806deccdca381cd2f22a1153826a"
+    },
+    {
+      "path": "docs/provenance/stage10-cleanup-manifest.json",
+      "bytes": 272970,
+      "sha256": "836544cdf4ee9f157ed0ba6dad9a41a27bde5fe85736f5ba327a503e3efc8358"
+    },
+    {
+      "path": "docs/provenance/STATUS_INTERPRETATION.md",
+      "bytes": 4051,
+      "sha256": "bf6954967e8226824a2fc2cace72d4e10a7f77e72d16d1c579a234bc69b34607"
+    },
+    {
+      "path": "docs/provenance/zant-external/EXTERNAL_AUTHORITIES.json",
+      "bytes": 13069,
+      "sha256": "293f977f91912b5ed5426fa4bc300dc40a35e8d97295b5d0974eb752ed41dcb2"
+    },
+    {
+      "path": "docs/provenance/zant-external/intake-and-checkpoints/C001_ZANT_GATE_A_R4_NEUTRAL_REVIEW_CANDIDATE_02_HASHES.json",
+      "bytes": 823,
+      "sha256": "da954c841225d10c827543b494c1c857d42c70264f7e361eacc52f66a57ea00b"
+    },
+    {
+      "path": "docs/provenance/zant-external/intake-and-checkpoints/C001_ZANT_GATE_A_R5_FAILED_G_SLEEVE_PILOT_HASHES.json",
+      "bytes": 640,
+      "sha256": "19602bd51ac2a9d3a9d6172c8ef24e9f940ba6330781c450f94dd154857bbbdf"
+    },
+    {
+      "path": "docs/provenance/zant-external/intake-and-checkpoints/FINAL_FAILURE_CHECKPOINT_INTEGRITY.json",
+      "bytes": 1654,
+      "sha256": "23b5b6385b0928107265d3ecb2db2dc0a76161e3b0f63914f63a962deab4de5d"
+    },
+    {
+      "path": "docs/provenance/zant-external/intake-and-checkpoints/FINAL_REVIEW_INTEGRITY_02.json",
+      "bytes": 2081,
+      "sha256": "bd89d711cb59faed3433bfb31f5dee7389a298c4d38a4656c23fafed5b22a8a3"
+    },
+    {
+      "path": "docs/provenance/zant-external/intake-and-checkpoints/R4_TESTER_HANDOFF_02.md",
+      "bytes": 3024,
+      "sha256": "22d48d4ad6974b9733d85610caabf43c96601535a3d1c7705877200531e362be"
+    },
+    {
+      "path": "docs/provenance/zant-external/intake-and-checkpoints/R5_TESTER_HANDOFF.md",
+      "bytes": 2798,
+      "sha256": "f65d6cc75dc348b42d579ff9f0523f3e14aa179ee6de6167430dc90033c59130"
+    },
+    {
+      "path": "docs/provenance/zant-external/intake-and-checkpoints/Trapstar_ZANT_Combinatorial_Character_Research_Handoff_v2_DELIVERY_INDEX.md",
+      "bytes": 3569,
+      "sha256": "9ded862a662c025f717841958fd93d130beef8623ae0f5792b79a0dd069eb369"
+    },
+    {
+      "path": "docs/provenance/zant-external/intake-and-checkpoints/Trapstar_ZANT_Combinatorial_Character_Research_Handoff_v2_PACKAGE_MANIFEST.json",
+      "bytes": 3220,
+      "sha256": "c29de05cda823230184a1238a157d689d35e71ddae0db6dca7f3d08eccefa51f"
+    },
+    {
+      "path": "docs/provenance/zant-external/README.md",
+      "bytes": 1051,
+      "sha256": "1d72e6fa6ca60e09bfaf2be758c7b180b30fd6b54015f9eecc053c1e4674a1c1"
+    },
+    {
+      "path": "docs/provenance/zant-external/tree-manifests/zant-gate-a-preflight.json",
+      "bytes": 740,
+      "sha256": "8c7b5e20cfc5fa690aad06df0f0ba5ce116f6a478751bc5f350c27762484d214"
+    },
+    {
+      "path": "docs/provenance/zant-external/tree-manifests/zant-independent-r1.json",
+      "bytes": 11081,
+      "sha256": "07efb74d17490570f642caf8ffc357cf35ea7b27239ee82d22c03bb3bbea829e"
+    },
+    {
+      "path": "docs/provenance/zant-external/tree-manifests/zant-independent-r3.json",
+      "bytes": 38163,
+      "sha256": "10af00b25d85aaeb6bef56db4101775a90a0ca7e168ec0dc72a7b970427373e3"
+    },
+    {
+      "path": "docs/provenance/zant-external/tree-manifests/zant-independent-r4.json",
+      "bytes": 35093,
+      "sha256": "76b442ad899743646c0977e812badbe28b7364619420284437c2ebb0e62e6287"
+    },
+    {
+      "path": "docs/provenance/zant-external/tree-manifests/zant-independent-r5.json",
+      "bytes": 41689,
+      "sha256": "1f9bb9cdfb1e0c5e2ea68ca842f97b112efde474bc074381da2fca491f88a801"
+    },
+    {
+      "path": "docs/provenance/zant-external/tree-manifests/zant-intake-preflight.json",
+      "bytes": 2533,
+      "sha256": "e249d017d175384b4a7108ae1c16986815aa90a10a85e421f1867b36417ad2f4"
+    },
+    {
+      "path": "docs/provenance/zant-external/tree-manifests/zant-intake-source.json",
+      "bytes": 136762,
+      "sha256": "d48b5a020998bd8d04e778c2c3dc3082819fdfa40919fc493f384e3d599a1dfd"
+    },
+    {
+      "path": "docs/provenance/zant-external/tree-manifests/zant-r1-history.json",
+      "bytes": 24508,
+      "sha256": "9f8bc4f206afa2de6ec5d98fa58f90f1889d614d5d93b3bd008179c73d139ac8"
+    },
+    {
+      "path": "docs/provenance/zant-external/tree-manifests/zant-r2-history.json",
+      "bytes": 5777,
+      "sha256": "e92c4b6f369ac00a332e993e99d519b803d3b553d103cb4aa72f818f636470c4"
+    },
+    {
+      "path": "docs/provenance/zant-external/tree-manifests/zant-r3-history.json",
+      "bytes": 102948,
+      "sha256": "1fbb4848b349ce02ecf7093c3ae60968d552ce32dca3808fb77e10b3bdb0640e"
+    },
+    {
+      "path": "docs/provenance/zant-external/tree-manifests/zant-r4-history.json",
+      "bytes": 166770,
+      "sha256": "bfd0c5036a92f3fa026adf043acecd35901f9ffb5a83187db1f21b1e9bc5de54"
+    },
+    {
+      "path": "docs/provenance/zant-external/tree-manifests/zant-r5-editable.json",
+      "bytes": 108867,
+      "sha256": "7b58fe286f439ab2fa2577e7cdede3b5c2b507529b7651b9ccb5c5050940c59a"
+    },
+    {
+      "path": "docs/provenance/zant-external/tree-manifests/zant-research.json",
+      "bytes": 15599,
+      "sha256": "a100431af9462644f092393fb24ee53940ee8327e615ee2b4a429a863c733c66"
+    },
+    {
+      "path": "docs/provenance/zant-stage8-import.json",
+      "bytes": 258120,
+      "sha256": "ef8e170dc3e1aad540b3871ed6dd2705842fa930eca4d0add26b864973c086c9"
+    },
+    {
+      "path": "docs/provenance/zant-stage9-verification.json",
+      "bytes": 39135,
+      "sha256": "38cb02167176b64c0fca4d65274e962825968a53712c9e3b5be1d522821977c0"
+    },
+    {
+      "path": "contracts/BOUNDARY_MATRIX.md",
+      "bytes": 7655,
+      "sha256": "c62e34e5ca30b559b34801f8e3945ac86668ec037673c5912925b3bf71f94a4f"
+    },
+    {
+      "path": "contracts/COMPATIBILITY_EXAMPLES.md",
+      "bytes": 7559,
+      "sha256": "0338f41d6b4f2b4c13177fb4f3b72935b1fc6499cc5dc3b292a218c9348522c0"
+    },
+    {
+      "path": "contracts/README.md",
+      "bytes": 867,
+      "sha256": "c57360bff520437d61e7e6fc8356df31576f6abd38cda85bc5beeeed11cf7d42"
+    },
+    {
+      "path": "contracts/SHARED_CONTRACT_DECISION.md",
+      "bytes": 6802,
+      "sha256": "a95baadaf8a7f5c7109d5272fb444e46acab480b14c9fa671bd06f08b8158679"
+    },
+    {
+      "path": "contracts/SHARED_CONTRACT_INVENTORY.md",
+      "bytes": 17537,
+      "sha256": "2d82341f14b9c17d74a0bb8e5f142fbefb0d7e53981ea3256e5653db2dafadd7"
+    }
+  ],
+  "scope": "Gate P0 approved; architecture-only until Gate A. No implementation or Git mutation."
+}

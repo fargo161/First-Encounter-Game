@@ -1,0 +1,654 @@
+{
+  "auditor": "J",
+  "source": "a05acd67ee7dc283b067bedabf628307768e2a3f81193fe36751226aa194e91c",
+  "out": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-j-final-05",
+  "probes": {
+    "IJ01_observation_closure": {
+      "status": "PASS",
+      "value": {
+        "stale": {
+          "status": "O4",
+          "reason": "OBSERVATION_CONTEXT_CHANGED"
+        },
+        "actual_D": {
+          "at": 5,
+          "base": 8,
+          "blocked": false,
+          "cause": "cb7acd31ced07aec85126b64924dc23a93f25c8b50b2c208bde540576d4ba589:0"
+        },
+        "holder": {
+          "status": "ok",
+          "receipts": [
+            {
+              "handle": "h1",
+              "kind": "content",
+              "body": "The fixture mechanism D is blocked.",
+              "value": "TRUE",
+              "subject": {
+                "entity": "D",
+                "kind": "actual"
+              },
+              "source_assertion": "direct fixture observation",
+              "origin": "basis1",
+              "support": {
+                "status": "SUPPORTED",
+                "complete": true
+              },
+              "valid_until": null
+            },
+            {
+              "handle": "h2",
+              "kind": "content",
+              "body": "One fixture token is missing; the culprit is unknown.",
+              "value": "TRUE",
+              "subject": {
+                "entity": "incident-1",
+                "kind": "actual"
+              },
+              "source_assertion": "direct fixture discrepancy",
+              "origin": "basis2",
+              "support": {
+                "status": "SUPPORTED",
+                "complete": true
+              },
+              "valid_until": null
+            }
+          ],
+          "next": null
+        }
+      }
+    },
+    "IJ02_optional_closure": {
+      "status": "PASS",
+      "value": [
+        {
+          "raw_bytes": 17,
+          "type": "str",
+          "encoded_total": 11542,
+          "cold_work": 701274
+        },
+        {
+          "raw_bytes": 11,
+          "type": "str",
+          "encoded_total": 11536,
+          "cold_work": 701238
+        },
+        {
+          "raw_bytes": 6002,
+          "type": "str",
+          "encoded_total": 17527,
+          "cold_work": 737185
+        },
+        {
+          "raw_bytes": 6000,
+          "type": "bytes",
+          "encoded_total": 17525,
+          "cold_work": 719172
+        },
+        {
+          "raw_bytes": 2,
+          "type": "bytes",
+          "encoded_total": 11527,
+          "cold_work": 701178
+        }
+      ]
+    },
+    "IJ03_phase_closure": {
+      "status": "PASS",
+      "value": {
+        "create": {
+          "refused": "ROOT_PROFILE_WORK_CAPACITY"
+        },
+        "checkpoint": {
+          "status": "O4",
+          "reason": "WORK_CAPACITY"
+        },
+        "profile_entry_meter_limits": [
+          40000000,
+          40000000
+        ],
+        "tight_complete_create_boundaries": [
+          {
+            "selected": 1065127,
+            "reported_complete": 1065074
+          },
+          {
+            "selected": 1065074,
+            "reported_complete": 1065074
+          }
+        ],
+        "zero_initial_state": {
+          "refused": "ROOT_STATE_SIZE"
+        }
+      }
+    },
+    "IJ05_closure_cost": {
+      "status": "PASS",
+      "value": {
+        "answer": {
+          "protected": [
+            "Bind",
+            "CX",
+            "CY",
+            "Cause",
+            "Live",
+            "Policy",
+            "Prefix",
+            "Receipt",
+            "Req",
+            "Result",
+            "Root"
+          ],
+          "edges_visited": 16,
+          "eligible": [
+            "OU",
+            "OV"
+          ]
+        },
+        "work": {
+          "total": 723,
+          "stages": {
+            "closure_node_visit": 19,
+            "closure_edge_visit": 16,
+            "closure_inventory_visit": 13,
+            "json_node": 13,
+            "json_validate_bytes": 79,
+            "canonical_sort_walk_node": 13,
+            "json_serialize_bytes": 79,
+            "full_key_sort": 491
+          }
+        },
+        "zero_budget_refusal": "WORK_CAPACITY"
+      }
+    },
+    "IJ06_snapshot_guard": {
+      "status": "PASS",
+      "value": {
+        "empty": {
+          "status": "O5",
+          "reason": "unverified_snapshot"
+        },
+        "partial": {
+          "status": "O5",
+          "reason": "unverified_snapshot"
+        },
+        "issued_missing_head": {
+          "status": "O5",
+          "reason": "unverified_snapshot"
+        }
+      }
+    },
+    "IJ07_serialization_reserve": {
+      "status": "PASS",
+      "value": {
+        "selected": 4236,
+        "baseline": {
+          "total": 8236,
+          "stages": {
+            "json_node": 3,
+            "json_validate_bytes": 4109,
+            "canonical_sort_walk_node": 2,
+            "full_key_sort": 14,
+            "json_serialize_bytes": 4108
+          }
+        },
+        "limited": {
+          "total": 4128,
+          "stages": {
+            "json_node": 3,
+            "json_validate_bytes": 4109,
+            "canonical_sort_walk_node": 2,
+            "full_key_sort": 14
+          }
+        },
+        "whole_object_encode_calls": [],
+        "refusal": "WORK_CAPACITY_BEFORE_JSON_SERIALIZATION"
+      }
+    },
+    "publication_reentrancy_async": {
+      "status": "PASS",
+      "value": [
+        {
+          "phase": "before_write",
+          "answer": {
+            "status": "O4",
+            "reason": "PROVEN_PREPUBLICATION_FAILURE",
+            "detail": "PROHIBITED_REENTRANT_WRITE"
+          },
+          "ordinal": 0
+        },
+        {
+          "phase": "before_commit",
+          "answer": {
+            "status": "O4",
+            "reason": "PROVEN_PREPUBLICATION_FAILURE",
+            "detail": "PROHIBITED_REENTRANT_WRITE"
+          },
+          "ordinal": 0
+        },
+        {
+          "phase": "commit_enter",
+          "answer": {
+            "status": "O5",
+            "reason": "UNCERTAIN_PUBLICATION_RECONCILE",
+            "detail": "Rejected"
+          },
+          "ordinal": 0
+        },
+        {
+          "phase": "after_commit",
+          "answer": {
+            "status": "O5",
+            "reason": "UNCERTAIN_PUBLICATION_RECONCILE",
+            "detail": "Rejected"
+          },
+          "ordinal": 1
+        },
+        {
+          "sync_async_return": {
+            "status": "O4",
+            "reason": "PROVEN_PREPUBLICATION_FAILURE",
+            "detail": "PUBLICATION_HOOK_FAULT_OR_ASYNC"
+          }
+        }
+      ]
+    },
+    "aggregate_predecode_guard": {
+      "status": "PASS",
+      "value": {
+        "reason": "PREDECODE_AGGREGATE_BYTES",
+        "decode_calls": []
+      }
+    },
+    "IJ04_complete_cold_mixed16": {
+      "status": "PASS",
+      "value": {
+        "admissions": 16,
+        "cold_actual": {
+          "total": 15108889,
+          "stages": {
+            "verified_snapshot": 15108889
+          }
+        },
+        "census": {
+          "prefix_entries": 16,
+          "encoded_prefix_bytes": 610603,
+          "logical_bytes": 610603,
+          "memory_bound": 106187456,
+          "workspace_bound": 20587872,
+          "cold_work": 15158484,
+          "retry_work": 15367885,
+          "query_work": 16158484,
+          "admission_work": 30316968,
+          "checkpoint_work": 30316968,
+          "observed_database_bytes": 643072,
+          "cold_replay_measured": 14895938,
+          "cold_output_reserved": 262546,
+          "retry_comparison_reserved": 209401,
+          "work_stages": {
+            "sqlite_payload_read": 610703,
+            "sqlite_quick_check_bytes": 643072,
+            "json_lexical_bytes": 610703,
+            "json_decode_bytes": 610703,
+            "json_node": 246223,
+            "json_validate_bytes": 2798227,
+            "canonical_sort_walk_node": 76559,
+            "full_key_sort": 3260928,
+            "json_serialize_bytes": 1532847,
+            "source_read_hash": 207483,
+            "hash_bytes": 919882,
+            "fixture_read_hash_decode_bytes": 40700,
+            "fixture_authority_parse_bytes": 4782,
+            "fixture_field_visit": 133,
+            "fixture_authored_parse_bytes": 10168,
+            "fixture_entity_visit": 24,
+            "fixture_binding_visit": 11,
+            "fixture_authority_record": 35,
+            "information_record_visit": 653,
+            "json_size_node": 29750,
+            "json_size_bytes": 590101,
+            "history_record_visit": 16,
+            "actor_identity_visit": 294,
+            "causal_position": 33,
+            "holder_handle_visit": 36,
+            "causal_edge_visit": 16,
+            "causal_parent_visit": 109,
+            "information_created_scan": 130,
+            "receipt_visit": 64,
+            "grant_visit": 312,
+            "organization_record_visit": 122,
+            "access_visit": 10,
+            "predicate_term": 6,
+            "native_policy_term": 1,
+            "obligation_record_visit": 4,
+            "due_job_visit": 0,
+            "checkpoint_record_visit": 0,
+            "retry_candidate_visit": 16,
+            "prospective_retry_comparisons": 2504072,
+            "prospective_snapshot_output": 197010
+          }
+        },
+        "oldest_retry_actual": {
+          "total": 14979489,
+          "stages": {
+            "json_node": 4659,
+            "json_validate_bytes": 43022,
+            "canonical_sort_walk_node": 675,
+            "full_key_sort": 23791,
+            "json_serialize_bytes": 10725,
+            "freeze_node": 663,
+            "scratch_cold_replay": 14895938,
+            "retry_registry_visit": 16
+          }
+        },
+        "duplicate_effect": {
+          "status": "O4",
+          "reason": "EFFECT_CREDIT_CONSUMED"
+        },
+        "notice": {
+          "status": "ok",
+          "receipts": [
+            {
+              "handle": "h1",
+              "kind": "notice",
+              "record_handle": "h1",
+              "available": true
+            }
+          ],
+          "next": null
+        },
+        "views": {
+          "alice:0": {
+            "status": "ok",
+            "receipts": [],
+            "next": null
+          },
+          "alice:4": {
+            "status": "ok",
+            "receipts": [
+              {
+                "handle": "h1",
+                "kind": "content",
+                "body": "J report",
+                "value": "TRUE",
+                "subject": {
+                  "kind": "alleged",
+                  "label": "J alleged incident",
+                  "scope": "alice"
+                },
+                "source_assertion": "J supplied claim",
+                "origin": "basis1",
+                "support": {
+                  "status": "SUPPORTED",
+                  "complete": true
+                },
+                "valid_until": null
+              }
+            ],
+            "next": null
+          },
+          "alice:16": {
+            "status": "ok",
+            "receipts": [
+              {
+                "handle": "h1",
+                "kind": "content",
+                "body": "J report",
+                "value": "TRUE",
+                "subject": {
+                  "kind": "alleged",
+                  "label": "J alleged incident",
+                  "scope": "alice"
+                },
+                "source_assertion": "J supplied claim",
+                "origin": "basis1",
+                "support": {
+                  "status": "SUPPORTED",
+                  "complete": true
+                },
+                "valid_until": null
+              },
+              {
+                "handle": "h2",
+                "kind": "content",
+                "body": "J new evidence",
+                "value": "TRUE",
+                "subject": {
+                  "kind": "alleged",
+                  "label": "J alleged incident",
+                  "scope": "alice"
+                },
+                "source_assertion": "J supplied claim",
+                "origin": "basis2",
+                "support": {
+                  "status": "SUPPORTED",
+                  "complete": true
+                },
+                "valid_until": null
+              }
+            ],
+            "next": null
+          },
+          "handler:0": {
+            "status": "ok",
+            "receipts": [],
+            "next": null
+          },
+          "handler:4": {
+            "status": "ok",
+            "receipts": [
+              {
+                "handle": "h1",
+                "kind": "notice",
+                "record_handle": "h1",
+                "available": true
+              },
+              {
+                "handle": "h2",
+                "kind": "content",
+                "body": "J report",
+                "value": "TRUE",
+                "subject": {
+                  "kind": "alleged",
+                  "label": "J alleged incident",
+                  "scope": "alice"
+                },
+                "source_assertion": "J selected referral",
+                "origin": "unknown",
+                "support": {
+                  "status": "SUPPORTED",
+                  "complete": true
+                },
+                "valid_until": null
+              }
+            ],
+            "next": null
+          },
+          "handler:16": {
+            "status": "ok",
+            "receipts": [
+              {
+                "handle": "h1",
+                "kind": "notice",
+                "record_handle": "h1",
+                "available": true
+              },
+              {
+                "handle": "h2",
+                "kind": "content",
+                "body": "J report",
+                "value": "TRUE",
+                "subject": {
+                  "kind": "alleged",
+                  "label": "J alleged incident",
+                  "scope": "alice"
+                },
+                "source_assertion": "J selected referral",
+                "origin": "unknown",
+                "support": {
+                  "status": "SUPPORTED",
+                  "complete": true
+                },
+                "valid_until": null
+              },
+              {
+                "handle": "h3",
+                "kind": "content",
+                "body": "J new evidence",
+                "value": "TRUE",
+                "subject": {
+                  "kind": "alleged",
+                  "label": "J alleged incident",
+                  "scope": "alice"
+                },
+                "source_assertion": "J new source",
+                "origin": "unknown",
+                "support": {
+                  "status": "SUPPORTED",
+                  "complete": true
+                },
+                "valid_until": null
+              },
+              {
+                "handle": "h4",
+                "kind": "notice",
+                "record_handle": "h4",
+                "available": true
+              }
+            ],
+            "next": 4
+          },
+          "dispatcher:0": {
+            "status": "ok",
+            "receipts": [],
+            "next": null
+          },
+          "dispatcher:4": {
+            "status": "ok",
+            "receipts": [
+              {
+                "handle": "h1",
+                "kind": "notice",
+                "record_handle": "h1",
+                "available": true
+              }
+            ],
+            "next": null
+          },
+          "dispatcher:16": {
+            "status": "ok",
+            "receipts": [
+              {
+                "handle": "h1",
+                "kind": "notice",
+                "record_handle": "h1",
+                "available": true
+              }
+            ],
+            "next": null
+          },
+          "outsider:0": {
+            "status": "ok",
+            "receipts": [],
+            "next": null
+          },
+          "outsider:4": {
+            "status": "ok",
+            "receipts": [],
+            "next": null
+          },
+          "outsider:16": {
+            "status": "ok",
+            "receipts": [],
+            "next": null
+          },
+          "player:0": {
+            "status": "ok",
+            "receipts": [],
+            "next": null
+          },
+          "player:4": {
+            "status": "ok",
+            "receipts": [],
+            "next": null
+          },
+          "player:16": {
+            "status": "ok",
+            "receipts": [],
+            "next": null
+          }
+        },
+        "fresh_process": {
+          "ordinal": 16,
+          "oldest": {
+            "status": "O3",
+            "receipt": {
+              "head": "e8f2b52fc4e9fe63d8cd2a9f3dac7a8401096bda0be40dd812c2a6d5aa9b66d8",
+              "key": {
+                "incarnation": "e1",
+                "lineage": "EA-IE-lineage-1",
+                "operation": "j-mixed-1",
+                "producer": "test-producer",
+                "world": "EA-IE-reference"
+              },
+              "ordinal": 1,
+              "result_id": "j-mixed-1-result",
+              "status": "O1"
+            }
+          },
+          "cold": {
+            "total": 15108889,
+            "stages": {
+              "scratch_cold_replay": 14895938,
+              "snapshot_registry_visit": 16,
+              "json_node": 4184,
+              "json_validate_bytes": 51258,
+              "freeze_node": 1130,
+              "snapshot_assembly_visit": 46332,
+              "canonical_sort_walk_node": 1133,
+              "full_key_sort": 59478,
+              "json_serialize_bytes": 24710,
+              "hash_bytes": 24710
+            }
+          },
+          "retry": {
+            "total": 14979489,
+            "stages": {
+              "json_node": 4659,
+              "json_validate_bytes": 43022,
+              "canonical_sort_walk_node": 675,
+              "full_key_sort": 23791,
+              "json_serialize_bytes": 10725,
+              "freeze_node": 663,
+              "scratch_cold_replay": 14895938,
+              "retry_registry_visit": 16
+            }
+          },
+          "boundary": {
+            "status": "ok",
+            "head": "167cbf452ee70d233438beefd8bac06641f00d0d7c961b41a3550cd53526d27c",
+            "ordinal": 16
+          },
+          "receipt": {
+            "status": "ok",
+            "receipt": {
+              "head": "e8f2b52fc4e9fe63d8cd2a9f3dac7a8401096bda0be40dd812c2a6d5aa9b66d8",
+              "key": {
+                "incarnation": "e1",
+                "lineage": "EA-IE-lineage-1",
+                "operation": "j-mixed-1",
+                "producer": "test-producer",
+                "world": "EA-IE-reference"
+              },
+              "ordinal": 1,
+              "result_id": "j-mixed-1-result",
+              "status": "O1"
+            }
+          }
+        },
+        "causal_records": 13,
+        "db_sha256_after_read_queries": "d21f9728a399cb15afeabdb8e9aa2e3229ce1aa9f3268fdf24ef11d4facb8d8d"
+      }
+    }
+  }
+}

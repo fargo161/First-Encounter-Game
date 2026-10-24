@@ -1,0 +1,102 @@
+{
+  "captured_utc": "2026-10-24T02:13:43.933656+00:00",
+  "root": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc",
+  "branch": "codex/economy-substrate-v0.1-accepted-baseline",
+  "head": "3f348c61b41ed3e5dfbcfb817a9e31f31bda42be",
+  "remotes": "origin\thttps://github.com/fargo161/First-Encounter-Game.git (fetch)\norigin\thttps://github.com/fargo161/First-Encounter-Game.git (push)",
+  "status_at_capture": "?? docs/design/information-economy-substrate/v0.1/preflight/README.md\n?? docs/design/store-household-paper-fixture/v0.2/preflight/STORE_FIXTURE_D01_D11_TOUCH_MAP.md\n?? docs/design/store-household-paper-fixture/v0.2/preflight/STORE_FIXTURE_FIXED_VS_EMERGENT.md\n?? docs/design/store-household-paper-fixture/v0.2/preflight/STORE_FIXTURE_NUMERIC_SANITY_CHECK.md\n?? docs/design/store-household-paper-fixture/v0.2/preflight/STORE_FIXTURE_OWNER_DECISION_REGISTER.md\n?? docs/design/store-household-paper-fixture/v0.2/preflight/STORE_FIXTURE_PREFLIGHT_SUMMARY.md\n?? docs/design/store-household-paper-fixture/v0.2/preflight/STORE_FIXTURE_READINESS_REPORT.md\n?? docs/design/store-household-paper-fixture/v0.2/preflight/STORE_FIXTURE_TRACEABILITY_CHECK.md\n?? docs/design/store-household-paper-fixture/v0.3/STORE_HOUSEHOLD_PAPER_FIXTURE_V0_3.md\n?? docs/design/store-household-paper-fixture/v0.3/UPDATED_PREFLIGHT.md\n?? docs/design/store-household-paper-fixture/v0.3/run-01/STORE_FIXTURE_RUN_01_ARCHITECTURE_FINDINGS.md\n?? docs/design/store-household-paper-fixture/v0.3/run-01/STORE_FIXTURE_RUN_01_CANONICAL_TRACE.md\n?? docs/design/store-household-paper-fixture/v0.3/run-01/STORE_FIXTURE_RUN_01_END_STATE.md\n?? docs/design/store-household-paper-fixture/v0.3/run-01/STORE_FIXTURE_RUN_01_GAMEPLAY_FINDINGS.md\n?? docs/design/store-household-paper-fixture/v0.3/run-01/STORE_FIXTURE_RUN_01_NARRATIVE.md\n?? docs/design/store-household-paper-fixture/v0.3/run-01/STORE_FIXTURE_RUN_01_SUMMARY.md\n?? docs/design/store-household-paper-fixture/v0.3/run-01/STORE_FIXTURE_RUN_01_TRACEABILITY_AUDIT.md",
+  "tags_local": "",
+  "worktrees": "worktree C:/Users/mcdon/Documents/ChatGPT/encounter and rc\nHEAD 3f348c61b41ed3e5dfbcfb817a9e31f31bda42be\nbranch refs/heads/codex/economy-substrate-v0.1-accepted-baseline",
+  "recent_commits": "3f348c61b41ed3e5dfbcfb817a9e31f31bda42be docs(economy): record owner-accepted v0.1 baseline\n17fe7d1b1e2ac4ffc9c4e87527767921d011203d docs(economy): add substrate v0.1 design and review lineage\n22c06dc179e3a0739a5ce1e747d0a46dc114fab5 docs(keywrapping): add reading guide and integration plan\n8e8caa7b02417635b6f0fa19d6dc3de495660072 docs(keywrapping): record sealing and semantic audits\n8345981077b555076af38e1aab3f0f7d17d55704 docs(keywrapping): specify proposed substrate and JSON records\n1d24d2823fca358a6d6ac1379e3195a9b0871cea docs(keywrapping): map actions and compare semantic donors",
+  "tracked_diff": "",
+  "host_python": "3.12.0 (tags/v3.12.0:0fb18b0, Oct  2 2023, 13:03:39) [MSC v.1935 64 bit (AMD64)]",
+  "host_sqlite": "3.42.0",
+  "prompt": {
+    "path": "C:\\Users\\mcdon\\Downloads\\INFORMATION_ECONOMY_SUBSTRATE_CODEX_TEAM_PROMPT.md",
+    "bytes": 41705,
+    "sha256": "0bad6466f55ac0a790f3843eff6a978a4e3d81c9fba9224dd31d263e9eee789f",
+    "authority": "draft source checklist; only preflight requested"
+  },
+  "preexisting_untracked_fixture_files": [
+    {
+      "path": "docs/design/store-household-paper-fixture/v0.2/preflight/STORE_FIXTURE_D01_D11_TOUCH_MAP.md",
+      "bytes": 12970,
+      "sha256": "3902e2856559b3a03d8070050116e983110ca5e1458168d96984c77d22cb5d92"
+    },
+    {
+      "path": "docs/design/store-household-paper-fixture/v0.2/preflight/STORE_FIXTURE_FIXED_VS_EMERGENT.md",
+      "bytes": 12921,
+      "sha256": "544bfe641743679f649194939ca6074b5c96f92286692f871a0592cb3aa7d82a"
+    },
+    {
+      "path": "docs/design/store-household-paper-fixture/v0.2/preflight/STORE_FIXTURE_NUMERIC_SANITY_CHECK.md",
+      "bytes": 15723,
+      "sha256": "333c59f5885763981a10a1abe1bbfe4037ba3bf83edcae1c535a34ee944a6dd7"
+    },
+    {
+      "path": "docs/design/store-household-paper-fixture/v0.2/preflight/STORE_FIXTURE_OWNER_DECISION_REGISTER.md",
+      "bytes": 19467,
+      "sha256": "71d3145ebdfd4f34cdad21fc8b50fa554f42a7540899be30bb13c5f66768316b"
+    },
+    {
+      "path": "docs/design/store-household-paper-fixture/v0.2/preflight/STORE_FIXTURE_PREFLIGHT_SUMMARY.md",
+      "bytes": 7587,
+      "sha256": "f452570152fbe430813cf9cd3e1cca4e2235d7df97577cbf72d007603c9017c7"
+    },
+    {
+      "path": "docs/design/store-household-paper-fixture/v0.2/preflight/STORE_FIXTURE_READINESS_REPORT.md",
+      "bytes": 7441,
+      "sha256": "6741d1d049f7b429833ad2a2f35aff62b8421c91e360b35d4abc3abf87873900"
+    },
+    {
+      "path": "docs/design/store-household-paper-fixture/v0.2/preflight/STORE_FIXTURE_TRACEABILITY_CHECK.md",
+      "bytes": 18923,
+      "sha256": "174817da7c6acfdd5f44080632619622c5b6fdba701820bb09a7084683c4e24f"
+    },
+    {
+      "path": "docs/design/store-household-paper-fixture/v0.3/run-01/STORE_FIXTURE_RUN_01_ARCHITECTURE_FINDINGS.md",
+      "bytes": 6655,
+      "sha256": "932b9f4acb062aa6d3c78f2b37b0d99062691c9a4cb6bb5487eec3805dce28a7"
+    },
+    {
+      "path": "docs/design/store-household-paper-fixture/v0.3/run-01/STORE_FIXTURE_RUN_01_CANONICAL_TRACE.md",
+      "bytes": 22028,
+      "sha256": "7c412b91da2c8ef82f9976e9dfceb79e27d57c67bf6337518fee2aa6e5567cb6"
+    },
+    {
+      "path": "docs/design/store-household-paper-fixture/v0.3/run-01/STORE_FIXTURE_RUN_01_END_STATE.md",
+      "bytes": 6595,
+      "sha256": "8a912676f8bc5d6198f42cf726ad9acc18f3daa940bbc7a89ca283dd8a305d92"
+    },
+    {
+      "path": "docs/design/store-household-paper-fixture/v0.3/run-01/STORE_FIXTURE_RUN_01_GAMEPLAY_FINDINGS.md",
+      "bytes": 5310,
+      "sha256": "6832e2e152efaaec689cb8572711996f96064ca8e61bdef8c86a71fb87f02277"
+    },
+    {
+      "path": "docs/design/store-household-paper-fixture/v0.3/run-01/STORE_FIXTURE_RUN_01_NARRATIVE.md",
+      "bytes": 4782,
+      "sha256": "4be7aadf70ca6c353f0823bc3ba9579b106f09f33a065229fd81f3590fea11a2"
+    },
+    {
+      "path": "docs/design/store-household-paper-fixture/v0.3/run-01/STORE_FIXTURE_RUN_01_SUMMARY.md",
+      "bytes": 2368,
+      "sha256": "c70937138092e037b4f5edab0c7ac2a946203c6c0450757b9331935b075d34fc"
+    },
+    {
+      "path": "docs/design/store-household-paper-fixture/v0.3/run-01/STORE_FIXTURE_RUN_01_TRACEABILITY_AUDIT.md",
+      "bytes": 7108,
+      "sha256": "a3d41afdaab4c2b3fa3136a7561d902ad1f827dba5308ca0c42d9f5486c57260"
+    },
+    {
+      "path": "docs/design/store-household-paper-fixture/v0.3/STORE_HOUSEHOLD_PAPER_FIXTURE_V0_3.md",
+      "bytes": 28326,
+      "sha256": "6e98229051e6aaf2bf15d352b5ef0be60069dafc1ae5a4ee7437dda126432206"
+    },
+    {
+      "path": "docs/design/store-household-paper-fixture/v0.3/UPDATED_PREFLIGHT.md",
+      "bytes": 1248,
+      "sha256": "05225f627eccbefc8bee7ed0d58170e206f8f0ad954e977ef888a3a87b975d84"
+    }
+  ]
+}

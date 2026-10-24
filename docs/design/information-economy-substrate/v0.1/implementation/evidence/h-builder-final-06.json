@@ -1,0 +1,183 @@
+{
+  "scope": "Builder H evidence, not independent I/J qualification or owner acceptance",
+  "source_identity": "a05acd67ee7dc283b067bedabf628307768e2a3f81193fe36751226aa194e91c",
+  "source_copy": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\implementation-builder-final-06\\candidate",
+  "records": [
+    {
+      "path": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\implementation-builder-final-06\\nominal\\builder-smoke.json",
+      "sha256": "1380b4995bdec6246fb2000ebc17ee4cf94c45cfa8dc88d43e5d9e2d50477dcc",
+      "result": {
+        "owner": "Builder H",
+        "not_independent": true,
+        "ordinal": 16,
+        "head": "0371e624be2e1b7413f82959481cbd89afb58398e7a6586fc4e7dc42e7fe061b",
+        "census": {
+          "prefix_entries": 16,
+          "encoded_prefix_bytes": 611962,
+          "logical_bytes": 611962,
+          "memory_bound": 106274432,
+          "workspace_bound": 20631360,
+          "cold_work": 15170706,
+          "retry_work": 15380017,
+          "query_work": 16170706,
+          "admission_work": 30341412,
+          "checkpoint_work": 30341412,
+          "observed_database_bytes": 643072,
+          "cold_replay_measured": 14907926,
+          "cold_output_reserved": 262780,
+          "retry_comparison_reserved": 209311,
+          "work_stages": {
+            "sqlite_payload_read": 612062,
+            "sqlite_quick_check_bytes": 643072,
+            "json_lexical_bytes": 612062,
+            "json_decode_bytes": 612062,
+            "json_node": 245779,
+            "json_validate_bytes": 2804711,
+            "canonical_sort_walk_node": 76437,
+            "full_key_sort": 3258976,
+            "json_serialize_bytes": 1536358,
+            "source_read_hash": 207483,
+            "hash_bytes": 922130,
+            "fixture_read_hash_decode_bytes": 40700,
+            "fixture_authority_parse_bytes": 4782,
+            "fixture_field_visit": 133,
+            "fixture_authored_parse_bytes": 10168,
+            "fixture_entity_visit": 24,
+            "fixture_binding_visit": 11,
+            "fixture_authority_record": 35,
+            "information_record_visit": 652,
+            "json_size_node": 29700,
+            "json_size_bytes": 591815,
+            "history_record_visit": 16,
+            "actor_identity_visit": 287,
+            "causal_position": 33,
+            "holder_handle_visit": 36,
+            "causal_edge_visit": 15,
+            "causal_parent_visit": 102,
+            "information_created_scan": 130,
+            "receipt_visit": 59,
+            "grant_visit": 312,
+            "organization_record_visit": 122,
+            "access_visit": 10,
+            "predicate_term": 6,
+            "native_policy_term": 1,
+            "obligation_record_visit": 4,
+            "due_job_visit": 0,
+            "checkpoint_record_visit": 0,
+            "retry_candidate_visit": 16,
+            "prospective_retry_comparisons": 2500381,
+            "prospective_snapshot_output": 197244
+          }
+        }
+      }
+    },
+    {
+      "path": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\implementation-builder-final-06\\faults\\builder-process-faults.json",
+      "sha256": "e4421e0d6d58a3e92eab4b0e19d7e1bf127f10b7baf9c44949509fef127a763c",
+      "result": {
+        "owner": "Builder H",
+        "independent": false,
+        "power_loss": false,
+        "results": [
+          {
+            "phase": "before_write",
+            "returncode": 91,
+            "verified_ordinal": 0
+          },
+          {
+            "phase": "before_commit",
+            "returncode": 91,
+            "verified_ordinal": 0
+          },
+          {
+            "phase": "commit_enter",
+            "returncode": 91,
+            "verified_ordinal": 0
+          },
+          {
+            "phase": "after_commit",
+            "returncode": 91,
+            "verified_ordinal": 1
+          }
+        ]
+      }
+    },
+    {
+      "path": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\implementation-builder-final-06\\builder-phase-controls.json",
+      "sha256": "877bf033322acd33dbdc2364b475882319fb5fdb9ef20c62a09222fbb41d5155",
+      "result": {
+        "owner": "Builder H",
+        "independent": false,
+        "source": "a05acd67ee7dc283b067bedabf628307768e2a3f81193fe36751226aa194e91c",
+        "actual_snapshot_work": 15121111,
+        "cold_reserved": 15170706,
+        "actual_oldest_retry": {
+          "total": 14991320,
+          "stages": {
+            "json_node": 4651,
+            "json_validate_bytes": 42922,
+            "canonical_sort_walk_node": 674,
+            "full_key_sort": 23775,
+            "json_serialize_bytes": 10694,
+            "freeze_node": 662,
+            "scratch_cold_replay": 14907926,
+            "retry_registry_visit": 16
+          }
+        },
+        "future_query4096_refusal": {
+          "status": "O4",
+          "reason": "PROVEN_PREPUBLICATION_FAILURE",
+          "detail": "FUTURE_QUERY_BYTES"
+        }
+      }
+    },
+    {
+      "path": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\implementation-builder-final-06\\builder-focused-guards.json",
+      "sha256": "56790c20422d1b64793bfad9061a742de0d20c805a0e9ce0156299e2f78851df",
+      "result": {
+        "owner": "Builder H",
+        "independent": false,
+        "source": "a05acd67ee7dc283b067bedabf628307768e2a3f81193fe36751226aa194e91c",
+        "controls": [
+          "IT08 root state refused",
+          "IJ03 complete create meter equals outer",
+          "H01 raw optional BLOB ignored",
+          "IT07 IJ06 guards",
+          "IJ07 before whole-object serialization"
+        ],
+        "create_work": {
+          "total": 1065127,
+          "stages": {
+            "json_node": 4064,
+            "json_validate_bytes": 40192,
+            "canonical_sort_walk_node": 2183,
+            "full_key_sort": 87509,
+            "json_serialize_bytes": 37545,
+            "hash_bytes": 25716,
+            "fixture_read_hash_decode_bytes": 50875,
+            "fixture_authority_parse_bytes": 6376,
+            "fixture_field_visit": 152,
+            "freeze_node": 10,
+            "source_read_hash": 207483,
+            "fixture_authored_parse_bytes": 10168,
+            "fixture_entity_visit": 24,
+            "fixture_binding_visit": 11,
+            "fixture_authority_record": 35,
+            "information_record_visit": 20,
+            "json_size_node": 1328,
+            "json_size_bytes": 21299,
+            "scratch_cold_replay": 558732,
+            "future_cutoff_visit": 0,
+            "future_holder_visit": 6,
+            "future_receipt_index_visit": 0,
+            "future_recipe_basis_visit": 0,
+            "future_recipe_visit": 6,
+            "prospective_holder_recipe": 1338,
+            "future_receipt_query_visit": 0,
+            "prospective_author_recipe": 10055
+          }
+        }
+      }
+    }
+  ]
+}

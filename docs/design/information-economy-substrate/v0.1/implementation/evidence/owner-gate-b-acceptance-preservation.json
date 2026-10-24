@@ -1,0 +1,52 @@
+{
+  "schema": "EA-IE-owner-acceptance-recording-preservation/1",
+  "status": "PASS",
+  "scope": "Acceptance recording only; no new runtime qualification",
+  "checked_at_utc": "2026-10-24T04:58:51.923436+00:00",
+  "preexisting_file_count": 3772,
+  "unchanged_preexisting_files": 3772,
+  "changed": [],
+  "missing": [],
+  "inventory_scope": "git ls-files --cached --others --exclude-standard, deduplicated; acceptance additions excluded from baseline",
+  "inventory_fingerprint_scope": "SHA256 of compact ASCII JSON sorted relative-path records with path,bytes,sha256",
+  "before_inventory_sha256": "155e84ee0aa2bea8e9ea434525894c13ac778d7c6199ba18e3ee6e62c6271e26",
+  "after_preexisting_inventory_sha256": "155e84ee0aa2bea8e9ea434525894c13ac778d7c6199ba18e3ee6e62c6271e26",
+  "original_phase_entry_protected_files_verified": 3645,
+  "qualified_package_file_count": 50,
+  "qualified_package_manifest_sha256": "5638981c903ec9fd33f5dc987ed91f606c05a815a331fe51936227016b373964",
+  "qualified_review_report_and_evidence_members_verified": 76,
+  "original_qualification_index": {
+    "path": "docs/design/information-economy-substrate/v0.1/implementation/evidence/final-verification.json",
+    "bytes": 20275,
+    "sha256": "1a7ea580d47670c3f6533c5e0e2a59f2aa2bc6d42daf79751b2cea4bd226b8fa"
+  },
+  "source_identity": "8e9d606f5aabeb9dd672106d586a44b52912c9ea0c7f6f8da5ecd977a5617c7f",
+  "profile_id": "EA-IE-profile/1/8f4577177e06ed695a65e3276a65702ccc64d847632aae14f0ba5ca167ad21a5",
+  "contract_sha256": "051d67b49bff17a317818d9bd5aa15fff13211cc23b99ec4b2b9af911263a490",
+  "branch": "codex/economy-substrate-v0.1-accepted-baseline",
+  "head": "3f348c61b41ed3e5dfbcfb817a9e31f31bda42be",
+  "branch_head_unchanged": true,
+  "added_artifacts": [
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/implementation/OWNER_GATE_B_ACCEPTANCE_RECORD.md",
+      "bytes": 7858,
+      "sha256": "8b43937a91eed1446ad19e737590db138babf9e22cbd78ff209390b1d1d256f3"
+    },
+    {
+      "path": "docs/design/information-economy-substrate/v0.1/implementation/evidence/owner-gate-b-acceptance.json",
+      "bytes": 9382,
+      "sha256": "b63c31b7155cae9a99b1ff3be2b995452a454917508e05e2d3716b547c95ae05"
+    }
+  ],
+  "this_report_path": "docs/design/information-economy-substrate/v0.1/implementation/evidence/owner-gate-b-acceptance-preservation.json",
+  "exactly_three_additions": [
+    "docs/design/information-economy-substrate/v0.1/implementation/OWNER_GATE_B_ACCEPTANCE_RECORD.md",
+    "docs/design/information-economy-substrate/v0.1/implementation/evidence/owner-gate-b-acceptance.json",
+    "docs/design/information-economy-substrate/v0.1/implementation/evidence/owner-gate-b-acceptance-preservation.json"
+  ],
+  "existing_files_modified": false,
+  "package_files_modified": false,
+  "qualification_files_modified": false,
+  "implementation_or_next_phase_started": false,
+  "remote_git_action_performed": false
+}

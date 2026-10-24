@@ -1,0 +1,36 @@
+{
+  "owner": "Builder H",
+  "independent": false,
+  "selected_admission": 1400000,
+  "selected_cold": 1000000,
+  "admit": {
+    "status": "O4",
+    "reason": "PROVEN_PREPUBLICATION_FAILURE",
+    "detail": "WORK_CAPACITY"
+  },
+  "reported_phase_work": {
+    "total": 1082193,
+    "stages": {
+      "json_node": 17344,
+      "json_validate_bytes": 159351,
+      "canonical_sort_walk_node": 4716,
+      "full_key_sort": 166388,
+      "json_serialize_bytes": 74685,
+      "freeze_node": 654,
+      "scratch_cold_replay": 559406,
+      "retry_registry_visit": 0,
+      "json_size_node": 3375,
+      "json_size_bytes": 53792,
+      "result_registry_visit": 0,
+      "native_policy_term": 1,
+      "hash_bytes": 42261,
+      "obligation_record_visit": 4,
+      "due_job_visit": 0,
+      "information_record_visit": 20,
+      "json_lexical_bytes": 98,
+      "json_decode_bytes": 98
+    }
+  },
+  "leaf_actual_charges": 2163825,
+  "ordinal": 0
+}

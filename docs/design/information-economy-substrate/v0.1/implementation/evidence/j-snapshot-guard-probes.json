@@ -1,0 +1,22 @@
+{
+  "source": "e182cd3d8f2b24bd3ed2d86545958450d270f6b76de04723859bcf3a88f10aa8",
+  "out": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-j-snapshot-2ce011e7",
+  "cases": {
+    "empty": {
+      "answer": {
+        "status": "O5",
+        "reason": "unverified_snapshot"
+      }
+    },
+    "partial": {
+      "answer": {
+        "status": "O5",
+        "reason": "unverified_snapshot"
+      }
+    },
+    "issued_missing_head": {
+      "exception": "AttributeError",
+      "reason": "'Snapshot' object has no attribute 'head'"
+    }
+  }
+}

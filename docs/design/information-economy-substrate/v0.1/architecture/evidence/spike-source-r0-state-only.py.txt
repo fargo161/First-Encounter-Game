@@ -1,0 +1,194 @@
+"""Disposable architecture questions only. No substrate/API implementation.
+S1/S3/S4 are small independent value/algorithm experiments.
+S5 is a serialization budget toy plus accepted C1 rejection control in a copy.
+"""
+import argparse, copy, hashlib, json, os, pathlib, shutil, sqlite3, sys, time, tracemalloc
+
+def encoded(v):
+    return json.dumps(v,sort_keys=True,separators=(',',':'),ensure_ascii=True).encode()
+def digest(v):
+    return hashlib.sha256(encoded(v)).hexdigest()
+
+def s1():
+    nodes={
+      'm':{'parents':[],'origin':'Mike','body':'Q stole money'},
+      's':{'parents':['m'],'origin':None,'body':'Q stole money'},
+      'b':{'parents':['m'],'origin':None,'body':'Q stole money'},
+      'a-return':{'parents':['s'],'origin':None,'body':'Q stole money'},
+      'unknown':{'parents':[],'origin':None,'body':'an unidentified report'},
+      'x':{'parents':[],'origin':'X','body':'I saw a discrepancy'}}
+    def origins(start,cap=16):
+        todo=[start];visited=set();found=set();unknown=False
+        while todo:
+            n=todo.pop()
+            if n in visited:continue
+            if len(visited)>=cap:return {'complete':False}
+            visited.add(n);entry=nodes[n]
+            if entry['origin']:found.add(entry['origin'])
+            elif not entry['parents']:unknown=True
+            todo.extend(sorted(entry['parents'],reverse=True))
+        return {'complete':True,'origins':sorted(found),'unknown':unknown}
+    assert origins('s')['origins']==origins('b')['origins']==['Mike']
+    assert origins('a-return')['origins']==['Mike']
+    assert origins('unknown')['unknown'] and not origins('unknown')['origins']
+    assert origins('a-return',1)=={'complete':False}
+    world={'actual_actor':'P','amount':100}
+    before=digest(world)
+    receipts={'Sarah':['s'],'Bob':['b'],'police':[]}
+    assert not receipts['police']
+    def view(holder,hidden):
+        # Only already acquired outward fragments, not complete origin graph.
+        return [{'local_handle':'received-'+str(i),'body':nodes[n]['body']}
+                for i,n in enumerate(sorted(receipts[holder]))]
+    assert view('Sarah',{'culprit':'P','source':'Mike'})==view('Sarah',{'culprit':'Z','source':'Hidden'})
+    assert digest(world)==before and nodes['s']['body'].startswith('Q')
+    # Deliberately cyclic reference input must terminate; it cannot add origins.
+    nodes['cycle1']={'parents':['cycle2'],'origin':None,'body':'rumor'}
+    nodes['cycle2']={'parents':['cycle1'],'origin':None,'body':'rumor'}
+    cycle=origins('cycle1')
+    assert cycle['complete'] and cycle['origins']==[]
+    return {'common_source':origins('s'),'returned_rumor':origins('a-return'),
+      'unknown_origin':origins('unknown'),'cycle_no_new_source':cycle,
+      'bounded_incomplete':origins('a-return',1),'false_claim_world_unchanged':True,
+      'paired_hidden_input_projection_equal':True,
+      'limitation':'Only supplied lineage/value filtering; no production authorization, delivery, memory or truth engine.'}
+
+def s3():
+    table={('queued','assign'):'assigned',('assigned','start'):'in_review',
+      ('in_review','record_decision'):'decision_recorded',
+      ('decision_recorded','close'):'closed',('closed','reopen'):'queued'}
+    def step(state,action,actor,grants):
+        if (actor,action) not in grants:return state,'DENIED'
+        target=table.get((state,action))
+        return (target,'OK') if target else (state,'INVALID')
+    actions=['assign','start','record_decision','close','reopen']
+    def run(assignments):
+        state='queued';trace=[]
+        grants={(actor,action) for action,actor in zip(actions,assignments)}
+        for action,actor in zip(actions,assignments):
+            state,result=step(state,action,actor,grants);assert result=='OK'
+            trace.append((action,state))
+        return trace
+    tiny=run(['T']*5);split=run(['I','A','D','D','I'])
+    assert tiny==split and tiny[-1][1]=='queued'
+    assert step('queued','assign','member',set())==('queued','DENIED')
+    # Rank: high priority first, null due last, original age then ID.
+    jobs=[{'id':'c','priority':1,'due':None,'enqueued':1},
+          {'id':'b','priority':1,'due':4,'enqueued':2},
+          {'id':'a','priority':1,'due':4,'enqueued':1}]
+    def key(j):return (-j['priority'],j['due'] is None,j['due'] if j['due'] is not None else 0,j['enqueued'],j['id'])
+    assert [x['id'] for x in sorted(jobs,key=key)]==['a','b','c']
+    assert sorted(jobs,key=key)==sorted(reversed(jobs),key=key)
+    old_age=jobs[2]['enqueued'];jobs[2]['priority']=2;assert jobs[2]['enqueued']==old_age
+    case={'X':'delivered fragment','Y':'sealed attachment','actual_origin':'hidden'}
+    referral={k:case[k] for k in ['X']}
+    assert list(referral)==['X'] and 'Y' not in referral and 'actual_origin' not in referral
+    return {'generic_trace':tiny,'tiny_and_split_same_mechanism':True,'membership_not_grant':True,
+      'queue_order':['a','b','c'],'reprioritization_preserves_age':True,
+      'referral_received_keys':list(referral),
+      'limitation':'Table/selection toy only; no queued work executed, legal authority, persistent delivery or domain policy.'}
+
+def s4():
+    # Alternative sets are OR of AND. Edges point to earlier information.
+    order={'e1':1,'e2':2,'d1':3,'d2':4}
+    alternatives={'d1':[['e1'],['e2']],'d2':[['d1']]}
+    assert all(order[p]<order[d] for d,sets in alternatives.items() for group in sets for p in group)
+    stance={'d1':'recorded_suspicion','d2':'recorded_suspicion'};before=digest(stance)
+    def status(n,notices,cap=16):
+        visited=0
+        def visit(k):
+            nonlocal visited
+            visited+=1
+            if visited>cap:return 'AFFECTED'
+            if k in notices:return 'UNSUPPORTED'
+            if k not in alternatives:return 'SUPPORTED'
+            groups=[]
+            for group in alternatives[k]:
+                parts=[visit(p) for p in group]
+                groups.append('UNSUPPORTED' if 'UNSUPPORTED' in parts else
+                  'AFFECTED' if 'AFFECTED' in parts else 'SUPPORTED')
+            if 'SUPPORTED' in groups:return 'SUPPORTED'
+            if 'AFFECTED' in groups:return 'AFFECTED'
+            return 'UNSUPPORTED'
+        return visit(n)
+    assert status('d1',{'e1'})=='SUPPORTED'
+    assert status('d2',{'e1','e2'})=='UNSUPPORTED'
+    assert status('d2',{'e1','e2'},1)=='AFFECTED'
+    # Privileged outside-world update is not a holder-eligible notice.
+    private_withdrawn={'e1','e2'};holder_notices=set()
+    assert status('d2',holder_notices)=='SUPPORTED'
+    assert status('d2',private_withdrawn)=='UNSUPPORTED'
+    assert digest(stance)==before
+    # Rule evaluates only provided eligible data; absence is UNKNOWN.
+    def screen(inputs):
+        return 'UNKNOWN' if 'discrepancy' not in inputs else bool(inputs['discrepancy'])
+    assert screen({})=='UNKNOWN' and screen({'discrepancy':True}) is True
+    return {'one_alternative_survives':status('d1',{'e1'}),
+      'all_support_withdrawn':status('d2',{'e1','e2'}),
+      'bounded_incomplete':status('d2',{'e1','e2'},1),
+      'hidden_update_does_not_change_holder_status':True,'stance_unchanged':True,
+      'missing_rule_input':'UNKNOWN',
+      'limitation':'Known toy dependency sets only; no general LTMS, inference soundness proof or automatic belief revision.'}
+
+def s5(base,repo):
+    accepted=repo/'packages/encounter-core-c1/0.1.3';copied=base/'c1-copy'
+    shutil.copytree(accepted,copied)
+    def pins(folder):return {p.relative_to(folder).as_posix():hashlib.sha256(p.read_bytes()).hexdigest() for p in folder.rglob('*') if p.is_file()}
+    original=pins(accepted);assert original==pins(copied)
+    sys.path.insert(0,str(copied))
+    from eac1 import Core
+    dbfile=base/'disposable-c1.db';Core.create(dbfile)
+    with sqlite3.connect(dbfile) as db:db.execute('CREATE TABLE ie_probe(payload TEXT)')
+    refused=False;reason=''
+    try:Core(dbfile).snapshot()
+    except Exception as error:refused=True;reason=type(error).__name__+': '+str(error)
+    assert refused and pins(accepted)==original and pins(copied)==original
+    samples=[]
+    for name,target in [('nominal',49152),('saturated',131072)]:
+        db=sqlite3.connect(base/(name+'-budget-toy.db'))
+        db.execute('CREATE TABLE toy_history(seq INTEGER PRIMARY KEY,payload TEXT)')
+        state={'claims':[{'id':i,'body':'X'*512} for i in range(32)],
+          'receipts':[{'item':i%32,'holder':i%16,'fragment':'version-1'} for i in range(128)]}
+        state['padding']='Z'*max(0,target-len(encoded(state))-16)
+        assert len(encoded(state))<=target
+        encoded_total=0;admitted=0;refusal=None;prefix=[]
+        started=time.perf_counter()
+        for i in range(65):
+            payload=encoded({'seq':i+1,'state':state,'previous':digest(prefix[-1]) if prefix else 'root'})
+            db.execute('BEGIN IMMEDIATE')
+            if admitted>=64 or encoded_total+len(payload)>8388608:
+                db.rollback();refusal='OPERATION_CAP' if admitted>=64 else 'ENCODED_PREFIX_CAP';break
+            db.execute('INSERT INTO toy_history VALUES(?,?)',(i+1,payload.decode()))
+            db.commit();prefix.append({'seq':i+1,'bytes':len(payload)})
+            encoded_total+=len(payload);admitted+=1
+        count=db.execute('SELECT count(*) FROM toy_history').fetchone()[0];assert count==admitted
+        tracemalloc.start()
+        cold=[json.loads(row[0]) for row in db.execute('SELECT payload FROM toy_history ORDER BY seq')]
+        current,peak=tracemalloc.get_traced_memory();tracemalloc.stop()
+        assert len(cold)==admitted
+        page_count=db.execute('PRAGMA page_count').fetchone()[0];page_size=db.execute('PRAGMA page_size').fetchone()[0]
+        P=max(page_count*page_size,(base/(name+'-budget-toy.db')).stat().st_size)
+        reservation=32*encoded_total+1048576+4*P
+        assert reservation<=1073741824 and peak<=268435456
+        samples.append({'shape':name,'state_bytes':len(encoded(state)),'admitted':admitted,'next_refusal':refusal,
+          'encoded_prefix_bytes':encoded_total,'allocated_db_bytes':P,'toy_workspace_reservation':reservation,
+          'cold_decode_tracemalloc_peak':peak,'seconds':time.perf_counter()-started})
+        db.close()
+    assert samples[0]['admitted']==64 and samples[0]['next_refusal']=='OPERATION_CAP'
+    assert samples[1]['admitted']<64 and samples[1]['next_refusal']=='ENCODED_PREFIX_CAP'
+    return {'accepted_c1_extra_table_refused':refused,'refusal':reason,'accepted_source_files_unchanged':len(original),
+      'copied_source_unchanged':True,'serialization_samples':samples,
+      'limitation':'Toy snapshot encoding/decode and transaction cap only, not successor state semantics, complete Core workspace, runtime capacity or crash certification.'}
+
+def main():
+    parser=argparse.ArgumentParser();parser.add_argument('--repo',type=pathlib.Path,required=True);parser.add_argument('--out',type=pathlib.Path,required=True);args=parser.parse_args()
+    args.out.mkdir(parents=True,exist_ok=False)
+    semantic={'S1':s1(),'S3':s3(),'S4':s4()}
+    semantic_digest=digest(semantic)
+    result={'purpose':'Disposable architecture question experiments; not production substrate',
+      'python':sys.version,'sqlite':sqlite3.sqlite_version,'hash_seed':os.environ.get('PYTHONHASHSEED'),
+      'semantic':semantic,'semantic_digest':semantic_digest,'S5':s5(args.out,args.repo)}
+    (args.out/'results.json').write_text(json.dumps(result,indent=2)+'\n',encoding='utf-8')
+    print(json.dumps({'status':'PASS','semantic_digest':semantic_digest,'results':str(args.out/'results.json'),'S5':result['S5']},indent=2))
+if __name__=='__main__':main()
+

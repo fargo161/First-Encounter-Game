@@ -1,0 +1,113 @@
+{
+  "source": "a05acd67ee7dc283b067bedabf628307768e2a3f81193fe36751226aa194e91c",
+  "control": "tight admission phase completion before commit",
+  "cases": [
+    {
+      "selected": 40000000,
+      "used": 2250272,
+      "answer": {
+        "status": "O1",
+        "receipt": {
+          "key": {
+            "world": "EA-IE-reference",
+            "lineage": "EA-IE-lineage-1",
+            "producer": "test-producer",
+            "incarnation": "e1",
+            "operation": "j-budget"
+          },
+          "ordinal": 1,
+          "head": "9ae1431d2f7b3bed0229bd721610ae3dd1e3606023258ad20ce627c3bdd7422e",
+          "status": "O1",
+          "result_id": "j-budget-result"
+        }
+      },
+      "ordinal": 1
+    },
+    {
+      "selected": 2250272,
+      "used": 2250155,
+      "answer": {
+        "status": "O1",
+        "receipt": {
+          "key": {
+            "world": "EA-IE-reference",
+            "lineage": "EA-IE-lineage-1",
+            "producer": "test-producer",
+            "incarnation": "e1",
+            "operation": "j-budget"
+          },
+          "ordinal": 1,
+          "head": "76d179558b8799b82f5fbb7bcdff290961561e516869f2b537e4a3e5884d9103",
+          "status": "O1",
+          "result_id": "j-budget-result"
+        }
+      },
+      "ordinal": 1
+    },
+    {
+      "selected": 2250155,
+      "used": 2250155,
+      "answer": {
+        "status": "O1",
+        "receipt": {
+          "key": {
+            "world": "EA-IE-reference",
+            "lineage": "EA-IE-lineage-1",
+            "producer": "test-producer",
+            "incarnation": "e1",
+            "operation": "j-budget"
+          },
+          "ordinal": 1,
+          "head": "f8fa942ac94dea91ed61a3ded95135a9d7197be1034a32bf1e7d588b8a4f7704",
+          "status": "O1",
+          "result_id": "j-budget-result"
+        }
+      },
+      "ordinal": 1
+    },
+    {
+      "selected": 2250154,
+      "minus": 1,
+      "used": 2250155,
+      "answer": {
+        "status": "O5",
+        "reason": "UNCERTAIN_PUBLICATION_RECONCILE",
+        "detail": "Rejected"
+      },
+      "ordinal": 1
+    },
+    {
+      "selected": 2250145,
+      "minus": 10,
+      "used": 2250155,
+      "answer": {
+        "status": "O5",
+        "reason": "UNCERTAIN_PUBLICATION_RECONCILE",
+        "detail": "Rejected"
+      },
+      "ordinal": 1
+    },
+    {
+      "selected": 2250055,
+      "minus": 100,
+      "used": 2250111,
+      "answer": {
+        "status": "O5",
+        "reason": "UNCERTAIN_PUBLICATION_RECONCILE",
+        "detail": "Rejected"
+      },
+      "ordinal": 1
+    },
+    {
+      "selected": 2249655,
+      "minus": 500,
+      "used": 2249870,
+      "answer": {
+        "status": "O4",
+        "reason": "PROVEN_PREPUBLICATION_FAILURE",
+        "detail": "WORK_CAPACITY"
+      },
+      "ordinal": 0
+    }
+  ]
+}

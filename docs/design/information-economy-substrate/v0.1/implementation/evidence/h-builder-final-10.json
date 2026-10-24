@@ -1,0 +1,393 @@
+{
+  "scope": "Builder H evidence, not independent I/J qualification or owner acceptance",
+  "source_identity": "8e9d606f5aabeb9dd672106d586a44b52912c9ea0c7f6f8da5ecd977a5617c7f",
+  "source_copy": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\implementation-builder-final-10\\candidate",
+  "records": [
+    {
+      "path": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\implementation-builder-final-10\\builder-focused.json",
+      "bytes": 1705,
+      "sha256": "fab1690b4a1ca0f576e74344355009e1348ba2430f50289a3fb95e2f047fc301",
+      "result": {
+        "owner": "Builder H",
+        "independent_verdict": false,
+        "source": "8e9d606f5aabeb9dd672106d586a44b52912c9ea0c7f6f8da5ecd977a5617c7f",
+        "failed_nested": {
+          "selected_admission": 1400000,
+          "selected_cold": 1000000,
+          "answer": {
+            "status": "O4",
+            "reason": "PROVEN_PREPUBLICATION_FAILURE",
+            "detail": "WORK_CAPACITY"
+          },
+          "leaf_charges": 1429399,
+          "outer_total": 1429399,
+          "reported": {
+            "total": 1429399,
+            "stages": {
+              "json_node": 17344,
+              "json_validate_bytes": 159351,
+              "canonical_sort_walk_node": 4716,
+              "full_key_sort": 166388,
+              "json_serialize_bytes": 74685,
+              "freeze_node": 654,
+              "scratch_cold_replay": 864253,
+              "retry_registry_visit": 0,
+              "json_size_node": 3375,
+              "json_size_bytes": 53792,
+              "result_registry_visit": 0,
+              "native_policy_term": 1,
+              "digest_encode_bytes": 42261,
+              "hash_bytes": 42261,
+              "obligation_record_visit": 4,
+              "due_job_visit": 0,
+              "information_record_visit": 20,
+              "raw_utf8_encode_bytes": 98,
+              "json_lexical_bytes": 98,
+              "json_decode_bytes": 98
+            }
+          },
+          "ordinal": 0
+        },
+        "parent_reserve": {
+          "reason": "WORK_CAPACITY_BEFORE_JSON_SERIALIZATION",
+          "whole_dump_calls": 0
+        },
+        "exact_request": {
+          "encoded_floor": 10437,
+          "trials": [
+            {
+              "delta": -1,
+              "reason": "REQUEST_SIZE",
+              "ordinal": 0
+            },
+            {
+              "delta": 0,
+              "answer": "O1",
+              "ordinal": 1
+            },
+            {
+              "delta": 1,
+              "answer": "O1",
+              "ordinal": 1
+            }
+          ]
+        }
+      }
+    },
+    {
+      "path": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\implementation-builder-final-10\\builder-read-preflight.json",
+      "bytes": 1070,
+      "sha256": "9aa60fb380aa7187f6d578ea081101abd85c3306c25bc918a5565e216519ec4e",
+      "result": {
+        "owner": "Builder H",
+        "independent_verdict": false,
+        "source": "8e9d606f5aabeb9dd672106d586a44b52912c9ea0c7f6f8da5ecd977a5617c7f",
+        "source_stage": {
+          "limit": 9173,
+          "blocked_file": {
+            "name": "core.py",
+            "size": 36679,
+            "charged_total": 82432
+          },
+          "actual_reads": [
+            {
+              "name": "__init__.py",
+              "size": 229,
+              "charged_total": 1758
+            },
+            {
+              "name": "atlas.py",
+              "size": 3657,
+              "charged_total": 9073
+            }
+          ],
+          "reason": "WORK_CAPACITY",
+          "report": {
+            "total": 82432,
+            "stages": {
+              "json_node": 12,
+              "json_validate_bytes": 153,
+              "canonical_sort_walk_node": 12,
+              "json_serialize_bytes": 153,
+              "full_key_sort": 969,
+              "source_read_hash": 81133
+            }
+          }
+        },
+        "fixture_stage": {
+          "limit": 1,
+          "read_calls": 0,
+          "reason": "WORK_CAPACITY",
+          "report": {
+            "total": 3189,
+            "stages": {
+              "fixture_read_hash_decode_bytes": 3189
+            }
+          }
+        }
+      }
+    },
+    {
+      "path": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\implementation-builder-final-10\\builder-conversion-preflight.json",
+      "bytes": 1648,
+      "sha256": "6360552e0569c9e316c0fa69e43b7e24f5944fab3af664c0961c2e31234350f6",
+      "result": {
+        "owner": "Builder H",
+        "independent_verdict": false,
+        "source": "8e9d606f5aabeb9dd672106d586a44b52912c9ea0c7f6f8da5ecd977a5617c7f",
+        "raw_bytes": 524673,
+        "text": {
+          "limit": 100,
+          "reason": "WORK_CAPACITY_BEFORE_JSON_UTF8_ENCODE",
+          "whole_conversion_events": [],
+          "report": {
+            "total": 0,
+            "stages": {}
+          }
+        },
+        "bytes": {
+          "limit": 100,
+          "reason": "WORK_CAPACITY",
+          "whole_conversion_events": [],
+          "report": {
+            "total": 524673,
+            "stages": {
+              "nested_phase": 524673
+            }
+          }
+        },
+        "digest": {
+          "limit": 1049705,
+          "reason": "WORK_CAPACITY",
+          "whole_conversion_events": [],
+          "report": {
+            "total": 1574278,
+            "stages": {
+              "nested_phase": 1574278
+            }
+          }
+        },
+        "successful_passes": {
+          "text": {
+            "total": 2098822,
+            "stages": {
+              "raw_utf8_encode_bytes": 524673,
+              "json_lexical_bytes": 524673,
+              "json_decode_bytes": 524673,
+              "json_node": 129,
+              "json_validate_bytes": 524674
+            }
+          },
+          "bytes": {
+            "total": 2098822,
+            "stages": {
+              "raw_utf8_decode_bytes": 524673,
+              "json_lexical_bytes": 524673,
+              "json_decode_bytes": 524673,
+              "json_node": 129,
+              "json_validate_bytes": 524674
+            }
+          },
+          "digest": {
+            "total": 2098951,
+            "stages": {
+              "json_node": 129,
+              "json_validate_bytes": 524674,
+              "canonical_sort_walk_node": 129,
+              "json_serialize_bytes": 524673,
+              "digest_encode_bytes": 524673,
+              "hash_bytes": 524673
+            }
+          }
+        }
+      }
+    },
+    {
+      "path": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\implementation-builder-final-10\\faults\\builder-process-faults.json",
+      "bytes": 503,
+      "sha256": "e4421e0d6d58a3e92eab4b0e19d7e1bf127f10b7baf9c44949509fef127a763c",
+      "result": {
+        "owner": "Builder H",
+        "independent": false,
+        "power_loss": false,
+        "results": [
+          {
+            "phase": "before_write",
+            "returncode": 91,
+            "verified_ordinal": 0
+          },
+          {
+            "phase": "before_commit",
+            "returncode": 91,
+            "verified_ordinal": 0
+          },
+          {
+            "phase": "commit_enter",
+            "returncode": 91,
+            "verified_ordinal": 0
+          },
+          {
+            "phase": "after_commit",
+            "returncode": 91,
+            "verified_ordinal": 1
+          }
+        ]
+      }
+    },
+    {
+      "path": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\implementation-builder-final-10\\nominal\\builder-smoke.json",
+      "bytes": 2199,
+      "sha256": "9cc1a92d63e6ba5a6ded2cb1cc13814e26ddce537595063d3b2d85ea882de14d",
+      "result": {
+        "owner": "Builder H",
+        "not_independent": true,
+        "ordinal": 16,
+        "head": "05a294c9f7aac041a3138a5251f3e5394e7329bc7f03009b4e986c57f68ec973",
+        "census": {
+          "prefix_entries": 16,
+          "encoded_prefix_bytes": 611962,
+          "logical_bytes": 611962,
+          "memory_bound": 106274432,
+          "workspace_bound": 20631360,
+          "cold_work": 16754726,
+          "retry_work": 16964037,
+          "query_work": 17754726,
+          "admission_work": 33509452,
+          "checkpoint_work": 33509452,
+          "observed_database_bytes": 643072,
+          "cold_replay_measured": 16468384,
+          "cold_output_reserved": 286342,
+          "retry_comparison_reserved": 209311,
+          "work_stages": {
+            "sqlite_payload_read": 612062,
+            "sqlite_quick_check_bytes": 643072,
+            "raw_utf8_encode_bytes": 612062,
+            "json_lexical_bytes": 612062,
+            "json_decode_bytes": 612062,
+            "json_node": 245779,
+            "json_validate_bytes": 2804711,
+            "canonical_sort_walk_node": 76437,
+            "full_key_sort": 3258976,
+            "json_serialize_bytes": 1536358,
+            "source_read_hash": 210187,
+            "digest_encode_bytes": 922130,
+            "hash_bytes": 922130,
+            "fixture_read_hash_decode_bytes": 40700,
+            "fixture_authority_parse_bytes": 4782,
+            "fixture_field_visit": 133,
+            "fixture_authored_parse_bytes": 10168,
+            "fixture_entity_visit": 24,
+            "fixture_binding_visit": 11,
+            "fixture_authority_record": 35,
+            "information_record_visit": 652,
+            "json_size_node": 29700,
+            "json_size_bytes": 591815,
+            "history_record_visit": 16,
+            "actor_identity_visit": 287,
+            "causal_position": 33,
+            "holder_handle_visit": 36,
+            "causal_edge_visit": 15,
+            "causal_parent_visit": 102,
+            "information_created_scan": 130,
+            "receipt_visit": 59,
+            "grant_visit": 312,
+            "organization_record_visit": 122,
+            "access_visit": 10,
+            "predicate_term": 6,
+            "native_policy_term": 1,
+            "obligation_record_visit": 4,
+            "due_job_visit": 0,
+            "checkpoint_record_visit": 0,
+            "retry_candidate_visit": 16,
+            "prospective_retry_comparisons": 2500381,
+            "prospective_snapshot_output": 220806
+          }
+        }
+      }
+    },
+    {
+      "path": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\implementation-builder-final-10\\builder-nominal-metrics.json",
+      "bytes": 1345,
+      "sha256": "630467dcc03d7b7a11fdd466e4c8a9efe181803413d299c864d763d636a0c816",
+      "result": {
+        "owner": "Builder H",
+        "independent_verdict": false,
+        "source": "8e9d606f5aabeb9dd672106d586a44b52912c9ea0c7f6f8da5ecd977a5617c7f",
+        "elapsed_seconds": 112.3575963000767,
+        "peak_rss_bytes": 35336192,
+        "phases": [
+          {
+            "status": "O1",
+            "work": 2295215
+          },
+          {
+            "status": "O1",
+            "work": 3694488
+          },
+          {
+            "status": "O1",
+            "work": 5278940
+          },
+          {
+            "status": "O1",
+            "work": 6953053
+          },
+          {
+            "status": "O1",
+            "work": 8711917
+          },
+          {
+            "status": "O1",
+            "work": 10520690
+          },
+          {
+            "status": "O1",
+            "work": 12384684
+          },
+          {
+            "status": "O1",
+            "work": 14294894
+          },
+          {
+            "status": "O1",
+            "work": 16293036
+          },
+          {
+            "status": "O1",
+            "work": 18441930
+          },
+          {
+            "status": "O1",
+            "work": 20690847
+          },
+          {
+            "status": "O1",
+            "work": 23009332
+          },
+          {
+            "status": "O1",
+            "work": 25428832
+          },
+          {
+            "status": "O1",
+            "work": 27935703
+          },
+          {
+            "status": "O1",
+            "work": 30483734
+          },
+          {
+            "status": "O1",
+            "work": 33626822
+          },
+          {
+            "status": "O3",
+            "work": 16551778
+          }
+        ],
+        "max_actual_phase_work": 33626822,
+        "gate_b": "PENDING"
+      }
+    }
+  ]
+}

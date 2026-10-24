@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "pass": 1,
+  "fail": 0,
+  "skip": 0,
+  "cases": [
+    {
+      "id": "M4-minimum-16-admission-mixed-reopen-trace",
+      "status": "PASS",
+      "detail": {},
+      "elapsed_seconds": 685.8620820000069,
+      "traced_peak_bytes": 7854734,
+      "rss": {
+        "working_set": 38166528,
+        "peak_working_set": 47919104
+      }
+    }
+  ],
+  "source": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-independent-final-08\\source",
+  "python": "3.12.0 (tags/v3.12.0:0fb18b0, Oct  2 2023, 13:03:39) [MSC v.1935 64 bit (AMD64)]",
+  "sqlite": "3.42.0",
+  "selected": "minimum-16",
+  "tracemalloc_enabled": true
+}

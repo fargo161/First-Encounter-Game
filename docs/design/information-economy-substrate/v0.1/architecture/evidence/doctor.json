@@ -1,0 +1,28 @@
+{
+  "python": "3.12.0",
+  "node": "v24.18.0",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "packages": [
+    {
+      "name": "encounter-atlas",
+      "path": "packages/encounter-atlas",
+      "present": true
+    },
+    {
+      "name": "room-creator",
+      "path": "packages/room-creator",
+      "present": true
+    },
+    {
+      "name": "zant",
+      "path": "packages/zant/C001_ZANT_GATE_A_R5",
+      "present": true
+    }
+  ],
+  "external_dependencies": {
+    "room_creator_library": "NOT_CONFIGURED_OPTIONAL",
+    "needed_for_bounded_checks": false,
+    "archive_replays": "OPTIONAL_PROVENANCE_ONLY; not accessed",
+    "browser": "OPTIONAL; Playwright 1.56.0 and compatible Chrome for historical browser audits"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "completed_utc": "2026-10-24T02:25:22.729012+00:00",
+  "user_date": "2026-10-23",
+  "timezone": "America/New_York",
+  "scope": "P0 preflight documentation only; STOP before architecture work/implementation",
+  "recommendation": "GO TO ARCHITECTURE",
+  "active_P0_blockers": 0,
+  "branch": "codex/economy-substrate-v0.1-accepted-baseline",
+  "head": "3f348c61b41ed3e5dfbcfb817a9e31f31bda42be",
+  "branch_and_head_unchanged": true,
+  "tracked_changes": [],
+  "preexisting_fixture_files_unchanged": 16,
+  "canonical_c1_source_files": 25,
+  "canonical_c1_source_unchanged": true,
+  "required_preflight_artifacts": 12,
+  "legacy_baseline_exit": 0,
+  "legacy_actual_IR3": {
+    "tests": 25,
+    "pass": 24,
+    "fail": 1,
+    "skipped": 0
+  },
+  "core_baseline_exits": [
+    0,
+    0
+  ],
+  "core_tests": {
+    "unit_methods": 27,
+    "process_windows": 5,
+    "capacity_operations": 64,
+    "fresh_process_scene_directions": 2,
+    "B01_pass": 20,
+    "B01_fail": 0,
+    "B01_skip": 0
+  },
+  "integrity": "PASS",
+  "information_economy_runtime_tests": "NOT RUN; no implementation exists",
+  "new_dependency_install_or_code_reuse": false,
+  "git_mutation_or_remote_action": false,
+  "independent_documentary_review": "I and separate J worker found no P0 blocker; J did not independently audit own dependency research",
+  "retention_limitations": "Legacy full stdout summary retained; sandbox removed detailed raw logs. Core original result summary, B01 compact summary and unit log retained; temporary DB/raw case/output locators are provenance, not durable archives. No raw-case or product-acceptance audit claimed.",
+  "evidence_files": [
+    "core-b01-results.json",
+    "core-baseline.json",
+    "core-original-results.json",
+    "core-unit.log",
+    "doctor.json",
+    "integrity-final.json",
+    "legacy-baseline.json",
+    "preservation-check.json",
+    "repository-safety-snapshot.json"
+  ],
+  "local_markdown_links_checked": 146,
+  "local_markdown_links_missing": []
+}

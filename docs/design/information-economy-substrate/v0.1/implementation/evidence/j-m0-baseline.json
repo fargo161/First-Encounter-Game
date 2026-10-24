@@ -1,0 +1,203 @@
+{
+  "role": "Independent Auditor J",
+  "phase": "M0 independent baseline, no runtime conclusion",
+  "utc": "2026-10-24T02:59:31.388153+00:00",
+  "environment": {
+    "python": "3.12.0",
+    "sqlite": "3.42.0",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "reviewed_input_pins": {
+    "docs/design/information-economy-substrate/v0.1/architecture/INFORMATION_ECONOMY_ARCHITECTURE_V0_1.md": "30d8e8ce154f498f8bc523315eee12cb74923e2182a46bd34a057568c47a751f",
+    "docs/design/information-economy-substrate/v0.1/architecture/INFORMATION_ECONOMY_GATE_A_PROPOSAL.md": "d0e4585f2ad2f3ca05c5a012ff8d7465736fd977259fabc4b4af9474907a849a",
+    "docs/provenance/source-authority.json": "725da6741df686cbc12fe02e439ac008c1abf96e8fc020077f4a2b48ee84efd2"
+  },
+  "c1_files": [
+    {
+      "path": "eac1/__init__.py",
+      "bytes": 120,
+      "sha256": "b02e40915763341fb5c3a59e025c83d1be761ad1cef91b042b7f013908d82b83"
+    },
+    {
+      "path": "eac1/__main__.py",
+      "bytes": 1816,
+      "sha256": "1137a4966010a499ab714925a53fd3199194bb16fe3b5f6fa6063de0827dac89"
+    },
+    {
+      "path": "eac1/atlas.py",
+      "bytes": 2940,
+      "sha256": "e199d0404848f67d3f5b30ad6a057b4d3842bfb694bff2a6bdade8d739515b69"
+    },
+    {
+      "path": "eac1/core.py",
+      "bytes": 25234,
+      "sha256": "ff3a3767c81eed19b97f7603e5f3248b0181d5f5ee19a2c40c09fb95a82a2716"
+    },
+    {
+      "path": "eac1/data.py",
+      "bytes": 6548,
+      "sha256": "c8ad207f2d17ca8162ea044f7ee008860f5af1eed1f7878b775112d5f5c6b398"
+    },
+    {
+      "path": "eac1/policies.py",
+      "bytes": 10295,
+      "sha256": "475ae5be2751baaca6bc46af9bfd5f13956dd87fb8b0de4315c506de89cdf35d"
+    },
+    {
+      "path": "fixtures/BX.txt",
+      "bytes": 391,
+      "sha256": "561eb38e6682e9a2fc1604c3be637e8894f20f250dbff106797281a362913de8"
+    },
+    {
+      "path": "fixtures/R0.txt",
+      "bytes": 797,
+      "sha256": "b1ad16d09f5651e9505c8288ce1930d0ea35dfa213fa70750d24ee1dfdff2095"
+    },
+    {
+      "path": "fixtures/RX.txt",
+      "bytes": 238,
+      "sha256": "4a621598ba52c531ff1547c0e535224e5be4e2febfbd58636bbcbafc1f8ed427"
+    },
+    {
+      "path": "fixtures/S.txt",
+      "bytes": 340,
+      "sha256": "a9008316ff9304eb43576f20019ba3c65f632515ec506048dee8d385cdab3449"
+    },
+    {
+      "path": "fixtures/S2.txt",
+      "bytes": 348,
+      "sha256": "eba31deef62e145ad2a89a42d3b1958f741ec95a2e04fb4c976529791450e6c4"
+    },
+    {
+      "path": "fixtures/T.txt",
+      "bytes": 214,
+      "sha256": "99beac400b126f6ed09ae54c84c30e13dcdf817bffa0a48516a1afd1260e338f"
+    },
+    {
+      "path": "fixtures/U.txt",
+      "bytes": 214,
+      "sha256": "d82c5a44cddd6b724bdd8489408bf064e4c4af2f6260760e16a4b7fb1b910f3a"
+    },
+    {
+      "path": "README.md",
+      "bytes": 10384,
+      "sha256": "b0ecacec4275710c1053bc953d2db045ccec24b2d5f730ca91c2aec2c2eab756"
+    },
+    {
+      "path": "SOURCE_IDENTITY.json",
+      "bytes": 4655,
+      "sha256": "8daf862127b4e318f0e3cf60f0bd88863e470677d720e70c849e22ca6ba620db"
+    },
+    {
+      "path": "tests/reference.py",
+      "bytes": 1022,
+      "sha256": "96657dc3667d9e2a3c0b6bf7d17e385a6979e590fc412c98f512485da4388607"
+    },
+    {
+      "path": "tests/test_core.py",
+      "bytes": 26436,
+      "sha256": "6c8ca458eec24bc36f162e4dd42b5695af14571767ea15e81e5049174bb02105"
+    },
+    {
+      "path": "tools/b01_fault_worker.py",
+      "bytes": 1722,
+      "sha256": "af959dd9b81904754e55a4fed6a4fc1e242b424738ac51599b3e818ddee57522"
+    },
+    {
+      "path": "tools/continuity_worker.py",
+      "bytes": 1086,
+      "sha256": "b71aa94c8dea3b77574d58f43ee0c99c21dab2e14676735853d13665817be797"
+    },
+    {
+      "path": "tools/fault_worker.py",
+      "bytes": 1405,
+      "sha256": "1f88b0befe1e79224090b32ac2b482eb95c8e103b6310f94b73dae74a0d18ab4"
+    },
+    {
+      "path": "tools/legacy-ar0-r1.mjs",
+      "bytes": 1283,
+      "sha256": "ade84e2bdf57976f4035e99b7f74dfbae832a9c289e7ad94e64a284c4c90d268"
+    },
+    {
+      "path": "tools/legacy_browser.mjs",
+      "bytes": 10528,
+      "sha256": "c887c6df06a20e44b5fbd8c1ff3a696b0af3319779cf265444d010b47179c433"
+    },
+    {
+      "path": "tools/legacy_gates.py",
+      "bytes": 2397,
+      "sha256": "11dab076d5207d4794c915d040fe37a0eb852f66c208708392881ef3188eb656"
+    },
+    {
+      "path": "tools/verify.py",
+      "bytes": 9603,
+      "sha256": "00e47f0ccdd85c51ddc4cbb48b958409d57d58fc34e1a5d020c1c9a7a9497202"
+    },
+    {
+      "path": "tools/verify_b01.py",
+      "bytes": 13997,
+      "sha256": "65c91a319a6ce95d6791eee933148b285940dacd862f5aeff10df17c2902dc7b"
+    }
+  ],
+  "c1_manifest_raw_byte_mismatches": [],
+  "c1_extra_files": [],
+  "git_status": "?? docs/design/information-economy-substrate/\n?? docs/design/store-household-paper-fixture/\n?? packages/encounter-ie-reference/\n",
+  "doctor": {
+    "python": "3.12.0",
+    "node": "v24.18.0",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "packages": [
+      {
+        "name": "encounter-atlas",
+        "path": "packages/encounter-atlas",
+        "present": true
+      },
+      {
+        "name": "room-creator",
+        "path": "packages/room-creator",
+        "present": true
+      },
+      {
+        "name": "zant",
+        "path": "packages/zant/C001_ZANT_GATE_A_R5",
+        "present": true
+      }
+    ],
+    "external_dependencies": {
+      "room_creator_library": "NOT_CONFIGURED_OPTIONAL",
+      "needed_for_bounded_checks": false,
+      "archive_replays": "OPTIONAL_PROVENANCE_ONLY; not accessed",
+      "browser": "OPTIONAL; Playwright 1.56.0 and compatible Chrome for historical browser audits"
+    }
+  },
+  "integrity": {
+    "integrity": "PASS",
+    "stage": 12,
+    "removed_duplicates_still_absent": 271,
+    "encounter_files": 2460,
+    "encounter_tree_sha256": "f565b7f89329a02b17febec136b991ce99ee092db7d8c6b952c4159b9d32171c",
+    "encounter_source_inputs": 132,
+    "encounter_source_digest": "1a8558b3654e52881a288d2a5ab99e574878531f7a9d5fca86223e511146f085",
+    "AR0_R1_members": 2310,
+    "historical_A1_reconstructible_files": 2731,
+    "room_creator_files": 384,
+    "room_creator_baseline_tree_sha256": "63521f0d9068de3e4da40cd8ec4573d17b26481aa6557a908caaa8d10a4c485b",
+    "zant_files": 166,
+    "zant_tree_sha256": "e6650aa6e28ab0b51e4d67dbd6d9922060d49673631b261718ae326cf71761ba",
+    "acceptance_records_unchanged": true,
+    "statuses": {
+      "encounter_atlas": {
+        "acceptance": "ACCEPTED_ATLAS_A1_WITH_PRESERVED_ENCOUNTER_DEPENDENCIES"
+      },
+      "room_creator": {
+        "acceptance": "HOLD_FOR_FURTHER_REMEDIATION"
+      },
+      "zant": {
+        "neutral_acceptance": "OWNER_ACCEPTED_R4_CANDIDATE02",
+        "current_work_acceptance": "GATE_A_FAILED_AT_G_SLEEVE_PILOT"
+      }
+    },
+    "Gate_A_complete": false,
+    "external_archive_access_required": false
+  }
+}

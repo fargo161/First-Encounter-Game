@@ -1,0 +1,94 @@
+{
+  "phase": "pre-freeze direct J adversarial probes",
+  "out": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-j-draft-8163e2f4",
+  "source": "3908f09e9d0fbc3d93c364b9072b6f26de8dd577422b069cb3c68f394f41c6cf",
+  "results": {
+    "dynamic_observation": {
+      "advance": {
+        "status": "O1",
+        "receipt": {
+          "head": "4f51cfe47a4a3964f6b34be62830717d67bfd7c003b9207e20761e3a15e71bbf",
+          "key": {
+            "incarnation": "e1",
+            "lineage": "EA-IE-lineage-1",
+            "operation": "j-advance",
+            "producer": "test-producer",
+            "world": "EA-IE-reference"
+          },
+          "ordinal": 1,
+          "result_id": "j-advance-result",
+          "status": "O1"
+        }
+      },
+      "actual_D_before_observe": {
+        "at": 5,
+        "base": 8,
+        "blocked": false,
+        "cause": "04db514c800c6887e4b57295e7457c5d150692e555ea13c4157c139cf56032eb:0"
+      },
+      "observation": {
+        "status": "O1",
+        "receipt": {
+          "head": "838b88caee7ead385302ce6b3ada9341a87eebb787b3a259773276882508fa7e",
+          "key": {
+            "incarnation": "e1",
+            "lineage": "EA-IE-lineage-1",
+            "operation": "j-observe",
+            "producer": "test-producer",
+            "world": "EA-IE-reference"
+          },
+          "ordinal": 2,
+          "result_id": "j-observe-result",
+          "status": "O1"
+        }
+      },
+      "view": {
+        "status": "ok",
+        "receipts": [
+          {
+            "handle": "h1",
+            "kind": "content",
+            "body": "The fixture mechanism D is blocked.",
+            "value": "TRUE",
+            "subject": {
+              "entity": "D",
+              "kind": "actual"
+            },
+            "source_assertion": "direct fixture observation",
+            "origin": "basis1",
+            "support": {
+              "status": "SUPPORTED",
+              "complete": true
+            },
+            "valid_until": null
+          }
+        ],
+        "next": null
+      }
+    },
+    "publication_reentrant": {
+      "outer": {
+        "status": "O4",
+        "reason": "PROVEN_PREPUBLICATION_FAILURE",
+        "detail": "PROHIBITED_REENTRANT_WRITE"
+      },
+      "nested": [
+        {
+          "status": "O4",
+          "reason": "PROHIBITED_REENTRANT_WRITE"
+        }
+      ],
+      "ordinal": 0
+    },
+    "invalid_optional_duplicate_key": {
+      "checkpoint": {
+        "status": "checkpointed",
+        "head": "51cb2d2d603f1982a575f00353796e6ce89c4265091edb5b7b73a8f053d5fcde",
+        "ordinal": 0,
+        "generation": 1
+      },
+      "snapshot_exception": "Unavailable",
+      "reason": "DUPLICATE_KEY"
+    }
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "scope": "Builder H evidence, not independent I/J qualification or owner acceptance",
+  "source_identity": "91fd4f5b0854c62aee4a0a472fcf17869a852d601735e2e3fbaa8bf512eb7cd5",
+  "source_copy": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\implementation-builder-final-03\\candidate",
+  "records": [
+    {
+      "path": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\implementation-builder-final-03\\nominal\\builder-smoke.json",
+      "sha256": "05c1b6a8af65e961805f01b82679eff68adfb6f98c08f1c8b5b3791e6b8df329",
+      "result": {
+        "owner": "Builder H",
+        "not_independent": true,
+        "ordinal": 16,
+        "head": "6208b42262882387cf41ffb4736f5d9e48d9ca11ce5224e2524aff763ba6f1bc",
+        "census": {
+          "prefix_entries": 16,
+          "encoded_prefix_bytes": 611962,
+          "logical_bytes": 611962,
+          "memory_bound": 106274432,
+          "workspace_bound": 20631360,
+          "cold_work": 15157396,
+          "retry_work": 15366707,
+          "query_work": 16157396,
+          "admission_work": 30314792,
+          "checkpoint_work": 30314792,
+          "observed_database_bytes": 643072,
+          "cold_replay_measured": 14894616,
+          "cold_output_reserved": 262780,
+          "retry_comparison_reserved": 209311,
+          "work_stages": {
+            "sqlite_payload_read": 612062,
+            "sqlite_quick_check_bytes": 643072,
+            "json_lexical_bytes": 612062,
+            "json_decode_bytes": 612062,
+            "json_node": 245779,
+            "json_validate_bytes": 2804711,
+            "canonical_sort_walk_node": 76437,
+            "full_key_sort": 3258976,
+            "json_serialize_bytes": 1536358,
+            "source_read_hash": 204581,
+            "hash_bytes": 922130,
+            "fixture_read_hash_decode_bytes": 40700,
+            "fixture_authority_parse_bytes": 4782,
+            "fixture_field_visit": 133,
+            "fixture_authored_parse_bytes": 10168,
+            "fixture_entity_visit": 24,
+            "fixture_binding_visit": 11,
+            "fixture_authority_record": 35,
+            "information_record_visit": 652,
+            "history_record_visit": 16,
+            "json_size_node": 29066,
+            "json_size_bytes": 582041,
+            "actor_identity_visit": 287,
+            "causal_position": 33,
+            "holder_handle_visit": 36,
+            "causal_edge_visit": 15,
+            "causal_parent_visit": 102,
+            "information_created_scan": 130,
+            "receipt_visit": 59,
+            "grant_visit": 312,
+            "organization_record_visit": 122,
+            "access_visit": 10,
+            "predicate_term": 6,
+            "native_policy_term": 1,
+            "obligation_record_visit": 4,
+            "due_job_visit": 0,
+            "checkpoint_record_visit": 0,
+            "retry_candidate_visit": 16,
+            "prospective_retry_comparisons": 2500381,
+            "prospective_snapshot_output": 197244
+          }
+        }
+      }
+    },
+    {
+      "path": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\implementation-builder-final-03\\faults\\builder-process-faults.json",
+      "sha256": "e4421e0d6d58a3e92eab4b0e19d7e1bf127f10b7baf9c44949509fef127a763c",
+      "result": {
+        "owner": "Builder H",
+        "independent": false,
+        "power_loss": false,
+        "results": [
+          {
+            "phase": "before_write",
+            "returncode": 91,
+            "verified_ordinal": 0
+          },
+          {
+            "phase": "before_commit",
+            "returncode": 91,
+            "verified_ordinal": 0
+          },
+          {
+            "phase": "commit_enter",
+            "returncode": 91,
+            "verified_ordinal": 0
+          },
+          {
+            "phase": "after_commit",
+            "returncode": 91,
+            "verified_ordinal": 1
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,212 @@
+{
+  "command": [
+    "python",
+    "-B",
+    "tools/repo.py",
+    "all",
+    "--out",
+    "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-implementation-baselines-2638f219\\legacy-output"
+  ],
+  "exit": 0,
+  "log": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-implementation-baselines-2638f219\\legacy.log",
+  "output_root": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-implementation-baselines-2638f219\\legacy-output",
+  "completed_utc": "2026-10-24T03:02:59.010833+00:00",
+  "scope": "Existing legacy baseline, not new EA-IE acceptance",
+  "summary": {
+    "environment": {
+      "python": "3.12.0",
+      "node": "v24.18.0",
+      "platform": "Windows-11-10.0.26200-SP0",
+      "packages": [
+        {
+          "name": "encounter-atlas",
+          "path": "packages/encounter-atlas",
+          "present": true
+        },
+        {
+          "name": "room-creator",
+          "path": "packages/room-creator",
+          "present": true
+        },
+        {
+          "name": "zant",
+          "path": "packages/zant/C001_ZANT_GATE_A_R5",
+          "present": true
+        }
+      ],
+      "external_dependencies": {
+        "room_creator_library": "NOT_CONFIGURED_OPTIONAL",
+        "needed_for_bounded_checks": false,
+        "archive_replays": "OPTIONAL_PROVENANCE_ONLY; not accessed",
+        "browser": "OPTIONAL; Playwright 1.56.0 and compatible Chrome for historical browser audits"
+      }
+    },
+    "integrity_before": {
+      "integrity": "PASS",
+      "stage": 12,
+      "removed_duplicates_still_absent": 271,
+      "encounter_files": 2460,
+      "encounter_tree_sha256": "f565b7f89329a02b17febec136b991ce99ee092db7d8c6b952c4159b9d32171c",
+      "encounter_source_inputs": 132,
+      "encounter_source_digest": "1a8558b3654e52881a288d2a5ab99e574878531f7a9d5fca86223e511146f085",
+      "AR0_R1_members": 2310,
+      "historical_A1_reconstructible_files": 2731,
+      "room_creator_files": 384,
+      "room_creator_baseline_tree_sha256": "63521f0d9068de3e4da40cd8ec4573d17b26481aa6557a908caaa8d10a4c485b",
+      "zant_files": 166,
+      "zant_tree_sha256": "e6650aa6e28ab0b51e4d67dbd6d9922060d49673631b261718ae326cf71761ba",
+      "acceptance_records_unchanged": true,
+      "statuses": {
+        "encounter_atlas": {
+          "acceptance": "ACCEPTED_ATLAS_A1_WITH_PRESERVED_ENCOUNTER_DEPENDENCIES"
+        },
+        "room_creator": {
+          "acceptance": "HOLD_FOR_FURTHER_REMEDIATION"
+        },
+        "zant": {
+          "neutral_acceptance": "OWNER_ACCEPTED_R4_CANDIDATE02",
+          "current_work_acceptance": "GATE_A_FAILED_AT_G_SLEEVE_PILOT"
+        }
+      },
+      "Gate_A_complete": false,
+      "external_archive_access_required": false
+    },
+    "results": {
+      "encounter-atlas": {
+        "verification": "PASS_WITH_DOCUMENTED_KNOWN_LIMITATION",
+        "supplied": {
+          "tests": 224,
+          "pass": 224,
+          "fail": 0,
+          "skipped": 0
+        },
+        "independent": {
+          "tests": 21,
+          "pass": 21,
+          "fail": 0,
+          "skipped": 0
+        },
+        "IR3_actual_failure_preserved": {
+          "tests": 25,
+          "pass": 24,
+          "fail": 1,
+          "skipped": 0
+        },
+        "build_sha256": {
+          "dist-m3/index.html": "8e1c14e25a515b92188703927344e97b744921ec9b033ee2b1d8cc0b63f517cb",
+          "dist-atlas-a1/index.html": "b9612d61f41bcf2bee5085902ff65c5e418b226de3dd5c8af6490ccd15e4ae9f"
+        },
+        "regenerated_proofs_byte_identical": 12,
+        "source_inputs": 132,
+        "source_digest": "1a8558b3654e52881a288d2a5ab99e574878531f7a9d5fca86223e511146f085",
+        "product_acceptance": "ACCEPTED_ATLAS_A1_WITH_PRESERVED_ENCOUNTER_DEPENDENCIES"
+      },
+      "room-creator": {
+        "verification": "PASS_WITH_HOLD_PRESERVED",
+        "node_suites": [
+          {
+            "suite": "architecture_extensions.test.js",
+            "passed": 59,
+            "failed": 0
+          },
+          {
+            "suite": "asset_demo_file.test.js",
+            "passed": 6,
+            "failed": 0
+          },
+          {
+            "suite": "construction_v10.test.js",
+            "passed": 14,
+            "failed": 0
+          },
+          {
+            "suite": "core.test.js",
+            "passed": 84,
+            "failed": 0
+          },
+          {
+            "suite": "multistory.test.js",
+            "passed": 21,
+            "failed": 0
+          },
+          {
+            "suite": "props_metadata.test.js",
+            "passed": 10,
+            "failed": 0
+          },
+          {
+            "suite": "remediation_core.test.js",
+            "passed": 11,
+            "failed": 0
+          },
+          {
+            "suite": "shared_matte.test.js",
+            "passed": 26,
+            "failed": 0
+          },
+          {
+            "suite": "style_openings.test.js",
+            "passed": 37,
+            "failed": 0
+          },
+          {
+            "suite": "v0_11_1_story_floor.test.js",
+            "passed": 24,
+            "failed": 0
+          },
+          {
+            "suite": "v0_12_stories_rooms.test.js",
+            "passed": 16,
+            "failed": 0
+          }
+        ],
+        "assertions": 308,
+        "LF_CRLF_build_reproduction": "PASS",
+        "build_sha256": "a4e8a14ddc4d734c036902f56b1a7d7bb8a157a77ef3911b97ea70c76f228c97",
+        "product_acceptance": "HOLD_FOR_FURTHER_REMEDIATION",
+        "browser_and_external_library_checks": "NOT_RUN_OPTIONAL",
+        "known_asset_repair_warning_defect": "UNRESOLVED; Stage 7 audit remains authoritative"
+      },
+      "zant": {
+        "verification": "PASS_WITH_ACCEPTANCE_STATES_PRESERVED",
+        "evidence_replays": 4,
+        "gateAVerdict": "GATE_A_FAILED_AT_G_SLEEVE_PILOT",
+        "Gate_A_complete": false,
+        "failed_wrist_pixels": 1252,
+        "details": "zant-replay/verification.json"
+      }
+    },
+    "output": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-implementation-baselines-2638f219\\legacy-output",
+    "integrity_after": {
+      "integrity": "PASS",
+      "stage": 12,
+      "removed_duplicates_still_absent": 271,
+      "encounter_files": 2460,
+      "encounter_tree_sha256": "f565b7f89329a02b17febec136b991ce99ee092db7d8c6b952c4159b9d32171c",
+      "encounter_source_inputs": 132,
+      "encounter_source_digest": "1a8558b3654e52881a288d2a5ab99e574878531f7a9d5fca86223e511146f085",
+      "AR0_R1_members": 2310,
+      "historical_A1_reconstructible_files": 2731,
+      "room_creator_files": 384,
+      "room_creator_baseline_tree_sha256": "63521f0d9068de3e4da40cd8ec4573d17b26481aa6557a908caaa8d10a4c485b",
+      "zant_files": 166,
+      "zant_tree_sha256": "e6650aa6e28ab0b51e4d67dbd6d9922060d49673631b261718ae326cf71761ba",
+      "acceptance_records_unchanged": true,
+      "statuses": {
+        "encounter_atlas": {
+          "acceptance": "ACCEPTED_ATLAS_A1_WITH_PRESERVED_ENCOUNTER_DEPENDENCIES"
+        },
+        "room_creator": {
+          "acceptance": "HOLD_FOR_FURTHER_REMEDIATION"
+        },
+        "zant": {
+          "neutral_acceptance": "OWNER_ACCEPTED_R4_CANDIDATE02",
+          "current_work_acceptance": "GATE_A_FAILED_AT_G_SLEEVE_PILOT"
+        }
+      },
+      "Gate_A_complete": false,
+      "external_archive_access_required": false
+    },
+    "result": "PASS_WITH_PRESERVED_PRODUCT_STATES"
+  }
+}

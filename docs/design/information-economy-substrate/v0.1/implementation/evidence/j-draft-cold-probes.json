@@ -1,0 +1,36 @@
+{
+  "phase": "pre-freeze J complete-snapshot work comparison",
+  "source": "af9ef8869e82bc689449df211f7232351ccb6023a3f0972a153c8cb1b914020c",
+  "out": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-j-cold-9c92fd9c",
+  "admission": {
+    "status": "O1",
+    "receipt": {
+      "head": "1621e7b7a294496550d35e8dfcc39f27f1623151f7e055f144f113d675f4bb5d",
+      "key": {
+        "incarnation": "e1",
+        "lineage": "EA-IE-lineage-1",
+        "operation": "cold-one",
+        "producer": "test-producer",
+        "world": "EA-IE-reference"
+      },
+      "ordinal": 1,
+      "result_id": "cold-one-result",
+      "status": "O1"
+    }
+  },
+  "reported_cold_work": 1585477,
+  "actual_complete_snapshot_work": {
+    "total": 1661399,
+    "stages": {
+      "scratch_cold_replay": 1585477,
+      "json_node": 2425,
+      "json_validate_bytes": 22585,
+      "full_key_sort": 27989,
+      "json_serialize_bytes": 11191,
+      "json_lexical_bytes": 541,
+      "json_decode_bytes": 541,
+      "hash_bytes": 10650
+    }
+  },
+  "omitted_delta": 75922
+}

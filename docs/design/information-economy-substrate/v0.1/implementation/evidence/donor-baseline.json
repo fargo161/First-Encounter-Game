@@ -1,0 +1,179 @@
+{
+  "started_utc": "2026-10-24T02:58:37.877565+00:00",
+  "scope": "Preserved accepted C1 donor baseline; not successor qualification or independent I verdict",
+  "canonical_source": "C:\\Users\\mcdon\\Documents\\ChatGPT\\encounter and rc\\packages\\encounter-core-c1\\0.1.3",
+  "copied_source": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-implementation-baselines-2638f219\\donor-source",
+  "source_files": 25,
+  "copy_matches": true,
+  "checks": [
+    {
+      "script": "tools/verify.py",
+      "exit": 0,
+      "out": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-implementation-baselines-2638f219\\donor-original27",
+      "log": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-implementation-baselines-2638f219\\donor-original27.log",
+      "summary": {
+        "unit_exit": 0,
+        "unit_seconds": 71.92099999997299,
+        "faults": [
+          {
+            "mode": "before_write",
+            "exit": 93,
+            "cold_exit": 0,
+            "recovered_ordinal": 0,
+            "retry": "O1",
+            "resolver_calls": 1,
+            "ack_received": false,
+            "status": "PASS"
+          },
+          {
+            "mode": "before_commit",
+            "exit": 93,
+            "cold_exit": 0,
+            "recovered_ordinal": 0,
+            "retry": "O1",
+            "resolver_calls": 1,
+            "ack_received": false,
+            "status": "PASS"
+          },
+          {
+            "mode": "during_commit",
+            "exit": 93,
+            "cold_exit": 0,
+            "recovered_ordinal": 0,
+            "retry": "O1",
+            "resolver_calls": 1,
+            "ack_received": false,
+            "status": "PASS"
+          },
+          {
+            "mode": "after_commit",
+            "exit": 93,
+            "cold_exit": 0,
+            "recovered_ordinal": 1,
+            "retry": "O3",
+            "resolver_calls": 0,
+            "ack_received": false,
+            "status": "PASS"
+          },
+          {
+            "mode": "after_ack",
+            "exit": 93,
+            "cold_exit": 0,
+            "recovered_ordinal": 1,
+            "retry": "O3",
+            "resolver_calls": 0,
+            "ack_received": true,
+            "status": "PASS"
+          }
+        ],
+        "builder_tests_only": true,
+        "independent_acceptance": "PENDING",
+        "status": "PASS",
+        "storage_faults": 2,
+        "measured_operations": 64,
+        "fresh_process_cross_scene_directions": 2,
+        "configuration": {
+          "python_sqlite_library": "3.42.0",
+          "vfs": "win32 (explicit URI selection)",
+          "journal_mode": "delete",
+          "synchronous": 3,
+          "page_size": 4096,
+          "cache_size": -512,
+          "encoding": "UTF-8",
+          "compile_options": [
+            "ATOMIC_INTRINSICS=0",
+            "COMPILER=msvc-1935",
+            "DEFAULT_AUTOVACUUM",
+            "DEFAULT_CACHE_SIZE=-2000",
+            "DEFAULT_FILE_FORMAT=4",
+            "DEFAULT_JOURNAL_SIZE_LIMIT=-1",
+            "DEFAULT_MMAP_SIZE=0",
+            "DEFAULT_PAGE_SIZE=4096",
+            "DEFAULT_PCACHE_INITSZ=20",
+            "DEFAULT_RECURSIVE_TRIGGERS",
+            "DEFAULT_SECTOR_SIZE=4096",
+            "DEFAULT_SYNCHRONOUS=2",
+            "DEFAULT_WAL_AUTOCHECKPOINT=1000",
+            "DEFAULT_WAL_SYNCHRONOUS=2",
+            "DEFAULT_WORKER_THREADS=0",
+            "ENABLE_FTS3",
+            "ENABLE_FTS4",
+            "ENABLE_FTS5",
+            "ENABLE_MATH_FUNCTIONS",
+            "ENABLE_RTREE",
+            "MALLOC_SOFT_LIMIT=1024",
+            "MAX_ATTACHED=10",
+            "MAX_COLUMN=2000",
+            "MAX_COMPOUND_SELECT=500",
+            "MAX_DEFAULT_PAGE_SIZE=8192",
+            "MAX_EXPR_DEPTH=1000",
+            "MAX_FUNCTION_ARG=127",
+            "MAX_LENGTH=1000000000",
+            "MAX_LIKE_PATTERN_LENGTH=50000",
+            "MAX_MMAP_SIZE=0x7fff0000",
+            "MAX_PAGE_COUNT=1073741823",
+            "MAX_PAGE_SIZE=65536",
+            "MAX_SQL_LENGTH=1000000000",
+            "MAX_TRIGGER_DEPTH=1000",
+            "MAX_VARIABLE_NUMBER=32766",
+            "MAX_VDBE_OP=250000000",
+            "MAX_WORKER_THREADS=8",
+            "MUTEX_W32",
+            "OMIT_AUTOINIT",
+            "SYSTEM_MALLOC",
+            "TEMP_STORE=1",
+            "THREADSAFE=1"
+          ],
+          "authoritative_tables": [
+            "checkpoints",
+            "history",
+            "meta",
+            "root"
+          ],
+          "profile": {
+            "id": "EA-C1-profile/2/2de5698f56974bfbfa4c0f06bb762e2ee0eb2769ff941b662d399c959c551f94",
+            "accounting": "full-prefix/2",
+            "limits": {
+              "admission_work": 40000000,
+              "checkpoint_work": 40000000,
+              "checkpoints": 8,
+              "cold_work": 20000000,
+              "due_jobs": 8,
+              "logical_bytes": 8388608,
+              "memory_bytes": 268435456,
+              "operations": 64,
+              "query_bytes": 2097152,
+              "query_work": 20000000,
+              "retry_work": 20000000,
+              "workspace_bytes": 1073741824
+            }
+          }
+        },
+        "runtime_unit_test_methods": 27,
+        "power_loss_claim": false,
+        "legacy_gate": "separate exact Stage12 disposable wrapper and native browser evidence required"
+      }
+    },
+    {
+      "script": "tools/verify_b01.py",
+      "exit": 0,
+      "out": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-implementation-baselines-2638f219\\donor-b01",
+      "log": "C:\\Users\\mcdon\\.codex\\visualizations\\2026\\10\\24\\01a16bab-b2c1-7100-ba15-0bcf0b16692b\\ie-implementation-baselines-2638f219\\donor-b01.log",
+      "summary": {
+        "status": "PASS",
+        "pass": 20,
+        "fail": 0,
+        "skip": 0,
+        "thresholds": {
+          "root": 1374560,
+          "operation": 1835008,
+          "checkpoint": 2033024
+        },
+        "original_27_method_suite": "separate tools/verify.py run, unchanged test source",
+        "builder_owned_reference_not_independent_acceptance": true
+      }
+    }
+  ],
+  "canonical_source_unchanged": true,
+  "completed_utc": "2026-10-24T03:08:34.270147+00:00"
+}

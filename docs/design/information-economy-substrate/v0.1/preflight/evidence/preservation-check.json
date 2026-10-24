@@ -1,0 +1,74 @@
+{
+  "checked_utc": "2026-10-24T02:22:05.224252+00:00",
+  "branch_unchanged": true,
+  "head_unchanged": true,
+  "tracked_changes": [],
+  "fixture_files": [
+    {
+      "path": "docs/design/store-household-paper-fixture/v0.2/preflight/STORE_FIXTURE_D01_D11_TOUCH_MAP.md",
+      "unchanged": true
+    },
+    {
+      "path": "docs/design/store-household-paper-fixture/v0.2/preflight/STORE_FIXTURE_FIXED_VS_EMERGENT.md",
+      "unchanged": true
+    },
+    {
+      "path": "docs/design/store-household-paper-fixture/v0.2/preflight/STORE_FIXTURE_NUMERIC_SANITY_CHECK.md",
+      "unchanged": true
+    },
+    {
+      "path": "docs/design/store-household-paper-fixture/v0.2/preflight/STORE_FIXTURE_OWNER_DECISION_REGISTER.md",
+      "unchanged": true
+    },
+    {
+      "path": "docs/design/store-household-paper-fixture/v0.2/preflight/STORE_FIXTURE_PREFLIGHT_SUMMARY.md",
+      "unchanged": true
+    },
+    {
+      "path": "docs/design/store-household-paper-fixture/v0.2/preflight/STORE_FIXTURE_READINESS_REPORT.md",
+      "unchanged": true
+    },
+    {
+      "path": "docs/design/store-household-paper-fixture/v0.2/preflight/STORE_FIXTURE_TRACEABILITY_CHECK.md",
+      "unchanged": true
+    },
+    {
+      "path": "docs/design/store-household-paper-fixture/v0.3/run-01/STORE_FIXTURE_RUN_01_ARCHITECTURE_FINDINGS.md",
+      "unchanged": true
+    },
+    {
+      "path": "docs/design/store-household-paper-fixture/v0.3/run-01/STORE_FIXTURE_RUN_01_CANONICAL_TRACE.md",
+      "unchanged": true
+    },
+    {
+      "path": "docs/design/store-household-paper-fixture/v0.3/run-01/STORE_FIXTURE_RUN_01_END_STATE.md",
+      "unchanged": true
+    },
+    {
+      "path": "docs/design/store-household-paper-fixture/v0.3/run-01/STORE_FIXTURE_RUN_01_GAMEPLAY_FINDINGS.md",
+      "unchanged": true
+    },
+    {
+      "path": "docs/design/store-household-paper-fixture/v0.3/run-01/STORE_FIXTURE_RUN_01_NARRATIVE.md",
+      "unchanged": true
+    },
+    {
+      "path": "docs/design/store-household-paper-fixture/v0.3/run-01/STORE_FIXTURE_RUN_01_SUMMARY.md",
+      "unchanged": true
+    },
+    {
+      "path": "docs/design/store-household-paper-fixture/v0.3/run-01/STORE_FIXTURE_RUN_01_TRACEABILITY_AUDIT.md",
+      "unchanged": true
+    },
+    {
+      "path": "docs/design/store-household-paper-fixture/v0.3/STORE_HOUSEHOLD_PAPER_FIXTURE_V0_3.md",
+      "unchanged": true
+    },
+    {
+      "path": "docs/design/store-household-paper-fixture/v0.3/UPDATED_PREFLIGHT.md",
+      "unchanged": true
+    }
+  ],
+  "required_artifacts_missing": [],
+  "local_links_missing": []
+}
